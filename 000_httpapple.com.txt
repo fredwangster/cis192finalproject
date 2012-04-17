@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
+
+	<title>Apple</title>
+	<meta name="omni_page" content="Apple - Index/Tab" />
+	<meta name="Keywords" content="Apple" />
+	<meta name="Description" content="Apple designs and creates iPod and iTunes, Mac laptop and desktop computers, the OS X operating system, and the revolutionary iPhone and iPad." />
+	<link rel="home" href="http://www.apple.com/" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://images.apple.com/main/rss/hotnews/hotnews.rss" />
+	<link rel="index" href="http://www.apple.com/sitemap/" />
+	<link rel="stylesheet" href="http://images.apple.com/global/styles/base.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/home/j/styles/home.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/home/styles/home.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/home/j/styles/billboard.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/home/styles/billboard.css" type="text/css" />
+	<script src="http://images.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/ac_retina/ac_retina.js" type="text/javascript" charset="utf-8"></script>
+
+
+	<script src="http://images.apple.com/global/scripts/promomanager.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body id="home" class="home">
+	<script type="text/javascript">
+	var searchSection = 'global';
+	var searchCountry = 'us';
+</script>
+<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<nav id="globalheader" class="apple">
+	<!--googleoff: all-->
+	<ul id="globalnav" role="navigation">
+		<li id="gn-apple"><a href="/"><span>Apple</span></a></li>
+		<li id="gn-store"><a href="http://store.apple.com/"><span>Store</span></a></li>
+		<li id="gn-mac"><a href="/mac/"><span>Mac</span></a></li>
+		<li id="gn-ipod"><a href="/ipod/"><span>iPod</span></a></li>
+		<li id="gn-iphone"><a href="/iphone/"><span>iPhone</span></a></li>
+		<li id="gn-ipad"><a href="/ipad/"><span>iPad</span></a></li>
+		<li id="gn-itunes"><a href="/itunes/"><span>iTunes</span></a></li>
+		<li id="gn-support" class="gn-last"><a href="/support/"><span>Support</span></a></li>
+	</ul>
+	<!--googleon: all-->
+	<div id="globalsearch">
+		<form action="/search/" method="post" class="search" id="g-search"><div class="sp-label">
+			<label for="sp-searchtext">Search</label>
+			<input type="text" name="q" id="sp-searchtext" accesskey="s" />
+		</div></form>
+		<div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+		<div id="sp-results"></div>
+	</div>
+</nav>
+<script type="text/javascript">
+	AC.GlobalNav.Instance = new AC.GlobalNav();
+</script>
+
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+
+
+
+
+	
+
+
+<script type="text/javascript">
+/* RSID: */
+
+var s_account="appleglobal,applehome"
+
+</script>
+
+
+<script type="text/javascript" src="http://images.apple.com/metrics/scripts/s_code_h.js"></script>
+  
+
+<script type="text/javascript">
+
+s.pageName=AC.Tracking.pageName()+" (us)";
+s.channel="www.us.homepage"
+
+
+Event.onDOMReady(function() {
+	function trackNav(link,loc) {
+		link.observe('mousedown',function(){
+			var propURL = null;
+			if(propURL = link.down('img')){
+				propURL = propURL.getAttribute('src');
+				propURL = propURL.substring(propURL.lastIndexOf('/')+1, propURL.length);
+			}
+			if(propURL == null){
+				propURL = link.getAttribute('href');
+			}
+			if (propURL != null) {
+				var prefix=(loc=='hero')?'h@':'p@';
+				AC.Tracking.trackClick({
+					prop3: prefix + propURL + ' - ' + AC.Tracking.pageName()
+				}, this, 'o', prefix + propURL + ' - ' + AC.Tracking.pageName());
+			}
+			
+			//navigation tracking
+			if(AC&&AC.Storage){
+				AC.Storage.setItem('s_nav',loc,'0');
+			}
+		});
+	}
+	$$('#billboard a').each(function(link){
+		trackNav(link,'hero');
+	});
+	$$('.promos a').each(function(link){
+		trackNav(link,'promos');
+	});
+});
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+	<div id="main">
+		<div id="content">
+			<article id="billboard" class="selfclear" data-hires="true">
+				<a id="hero" class="block" href="/ipad/">
+					<hgroup>
+						<h1><img src="http://images.apple.com/home/images/ipad_title.png" alt="Resolutionary" width="471" height="93" class="center" /></h1>
+						<h2><img src="http://images.apple.com/home/images/ipad_subtitle.png" alt="The new iPad." width="471" height="54" class="center" /></h2>
+					</hgroup>
+
+					<img src="http://images.apple.com/home/images/ipad_hero.jpg" alt="" width="1454" height="605" class="hero-image" />
+				</a>
+			</article><!--/billboard-->
+
+			<aside class="promos" data-hires="true">
+				<ul>
+					<li><div class="curve-down"><a href="/apple-events/march-2012/"><img src="http://images.apple.com/home/images/promo_video_march_2012_keynote.png" alt="Watch the Keynote" width="237" height="155" /><span class="play"></span></a></div></li>
+					<li><div class="curve-down"><a href="/ipad/#video"><img src="http://images.apple.com/home/images/promo_video_ipad_launch.png" alt="Watch the new iPad video" width="237" height="155" /><span class="play"></span></a></div></li>
+					<li><div class="curve-down"><a href="/ipad/#ad"><img src="http://images.apple.com/home/images/promo_video_ipad_ad.png" alt="Watch the new iPad TV Ad" width="237" height="155" /><span class="play"></span></a></div></li>
+					<li><div class="curve-down"><a href="/appletv/"><img src="http://images.apple.com/home/images/promo_appletv.png" alt="Apple TV. Great HD content, AirPlay, and more on your widescreen TV. $99." width="237" height="155" /></a></div></li>
+				</ul>
+			</aside>
+
+			<footer id="homefooter">
+				<div id="links">
+					<p class="left">Shop the <a href="http://store.apple.com/us/">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="/retail/">Apple Retail Store</a>, or find a <a href="/buy/">reseller</a>.</p>
+					<ul class="piped right">
+						<li><a href="/sitemap/" class="first">Site Map</a></li>
+						<li><a href="/hotnews/">Hot News</a></li>
+						<li><a href="/rss/">RSS Feeds</a></li>
+						<li><a href="/pr/">Media Info</a></li>
+						<li><a href="/environment/">Environment</a></li>
+						<li><a href="/jobs/">Job Opportunities</a></li>
+						<li><a href="/contact/">Contact Us</a></li>
+					</ul>
+				</div><!--/links-->
+
+				<div class="sosumi">
+					<p class="copyright">Copyright © 2012 Apple Inc. All rights reserved.</p>
+					<ul class="piped">
+						<li><a href="/legal/" class="first">Terms of Use</a></li>
+						<li><a href="/legal/privacy/">Privacy Policy</a></li>
+					</ul>
+					<div id="worldwide">
+						<a href="/choose-your-country/">
+							<img src="http://images.apple.com/global/elements/flags/22x22/usa.png" alt="United States of America" height="22" width="22" />
+							<span class="more">Choose your country or region</span>
+						</a>
+					</div>
+				</div><!--/sosumi-->
+			</footer><!--/homefooter-->
+		</div><!--/content-->
+	</div><!--/main-->
+
+	<!-- Start of DoubleClick Spotlight Tag: Please do not remove-->
+	<!-- Creation Date:11/19/07 -->
+	<script type="text/javascript">
+		var axel = Math.random()+"";
+		var a = axel * 10000000000000;
+		document.write('<iframe src="http://fls.doubleclick.net/activityi;src=1566767;type=apple663;cat=apple249;ord='+ a + '?" width=1 height=1 frameborder=0><\/iframe>');
+	</script>
+	<noscript>
+	<iframe src="http://fls.doubleclick.net/activityi;src=1566767;type=apple663;cat=apple249;ord=1?" width=1 height=1 frameborder=0></iframe>
+	</noscript>
+	<!-- End of DoubleClick Spotlight Tag: Please do not remove-->
+</body>
+</html>
