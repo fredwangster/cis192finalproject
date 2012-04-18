@@ -1,24 +1,38 @@
 import urllib2
 import time
-
+import os
+from analyzer import Analyzer
 '''Scans the source of a site'''
 def scanner(url_list, unique_code):
     print "Running"
     start = time.time()
+    i =1
     for url in url_list:
-            host  = urllib2.urlopen(url)
+            #print i,": ", url
+            try:
+                host  = urllib2.urlopen(url)
+            except:
+                #print "Error"
+                #print '--------------------------------'
+                continue
             url_name = url.replace("/","").replace(":","")
-            html_name = unique_code+"_"+url_name+".txt"
-            f = open(html_name, 'r+')
+            try:
+                os.mkdir('./new_dir')
+            except:
+                pass
+            html_name = "./new_dir/" + unique_code+"_"+str(url_name[0:-1])+".txt"
+            f = open(html_name, 'w')
             f.write(host.read())
             f.close()
-            
+            a = Analyzer(html_name, url_name)
+            a.start()
+            i=1+i
+            #print '--------------------------------'
     print "Elapsed Time: %s" % (time.time() - start)
     raw_input("press any key to exit")
     
 if __name__ == "__main__":
-
-    da_list = ["http://yahoo.com", "http://google.com", "http://amazon.com",
-      "http://ibm.com", "http://apple.com"]
+    f = open("top_sites.txt",'r')
+    da_list = f.readlines()
     scanner(da_list, "000")
 
