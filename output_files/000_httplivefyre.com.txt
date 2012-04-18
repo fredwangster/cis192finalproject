@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Livefyre | Powering the World’s Conversations</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<link rel="icon" type="image/png" href="http://livefyre.com/site_media/images/corp_v4/favicon.ico">
+		<script type="text/javascript" src="https://use.typekit.com/eov3gyw.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script src="/site_media/js/jquery-1.4.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato:900,700italic,400,400italic,900italic,700&v2' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="/site_media/css/style_v4.css">
+		<!--[if IE ]><link rel="stylesheet" type="text/css" href="/site_media/css/ie.css">
+		<script defer type="text/javascript" src="/site_media/js/pngfix.js"></script><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/site_media/css/ie7.css"><![endif]-->
+		<!--[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="/site_media/js/selectivizr.js"></script><![endif]-->
+		<script type="text/javascript">
+    		<!-- Sticky Footer -->
+    		($jl || $)(function($) {
+    		    var $footerbg = $('#footerbg'),
+    		        footerHeight = $footerbg.height();
+    		    $('#wrapper').css('margin', '0 auto -'+footerHeight+'px');
+    		    $footerbg.css('height', ''+footerHeight+'px');
+    		    $('#push').css('height', ''+footerHeight+'px');
+    		});
+		</script>
+		<meta name="google-site-verification" content="NKn_tOGma8aGOlNACzUWFOw1mBTGxnKS8dfZORUeHjw" />
+		
+	
+	
+	<meta name="description" content="Livefyre is the best real-time conversation platform to pump up engagement and build community on your site. Bloggers and publishers can replace their outdated comment systems with an intuitive social experience that increases page views, comments, and overall interaction.">
+
+
+
+	<style>
+	/* HIDE THE LIVEFYRE NEW COMMENT NOTIFIER */
+	.lf_comment_notifier { display: none; }
+	</style>
+
+	<script src="/site_media/js/libs/jquery.cycle.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	($ || $jl)(function($) {
+		var $slideshow = $('.slideshow');
+		// Make the slideshow
+	    $slideshow.cycle({
+	        fx:      'scrollHorz', 
+	        speed:    1000, 
+	        timeout:  6000,
+	        pause:    true,
+	        cleartypeNoBg: true // Fixes awkward slide background color in IE
+	    });
+	    // Previous Button
+	    $('.arrow.L').click(function(e) {
+	    	$slideshow.cycle('prev');
+
+	    	e.preventDefault();
+	    })
+	    // Next Button
+	    $('.arrow.R').click(function(e) {
+	    	$slideshow.cycle('next');
+
+	    	e.preventDefault();
+	    })
+	});
+	</script>
+
+		
+	</head>
+<body class="index">
+
+<div id="wrapper">
+	<div class="container ribbonout"><a href="/jobs/" alt="We're hiring!"><div id="jobsribbon"></div></a></div>
+	<div id="headerbg">
+		<div id="header">
+			<a href="/"><div id="logo">Livefyre</div></a>
+			<div id="nav">
+				<ul>
+					<li><a href="/features/">Features</a></li>
+					<li><a href="/plans/">Plans</a></li>
+					<li><a href="http://support.livefyre.com" target="_blank">Support</a></li>
+					<li><a href="http://blog.livefyre.com/" target="_blank">Blog</a></li>
+					<li><a href="/about/">About</a></li>
+					<li><a href="/contact/">Contact</a></li>
+				</ul>
+			</div>
+			<div id="user-options">
+				<ul>
+				
+					<li><a href="/auth/register/">Sign Up</a></li>
+					<li><a href="/auth/login/">Log In</a></li>
+				
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="herobg">
+		<div id="hero">
+			
+<div class="arrows">
+<a href="#" class="arrow L"></a>
+<a href="#" class="arrow R"></a>
+	<div class="slideshow">
+		<div class="slide liveconversations">
+			<h1>Replace Comments with <span>Live Conversations</span></h1>
+			<h2>Keep the discussion moving in real-time.</h2>
+		</div>
+		<div class="slide socialweb">
+			<h1><span>Capture Conversations</span> from the Social Web</h1>
+			<h2>Make your site the hub of engagement.</h2>
+		</div>
+		<div class="slide engagedcommunity">
+			<h1>Turn Readers into an <span>Engaged Community</span></h1>
+			<h2>All the tools you need to monitor and moderate.</h2>
+		</div>
+		<div class="slide sharefriends">
+			<h1><span>Tag Friends</span> from Social Networks</h1>
+			<h2>And bring them right into the conversation.</h2>
+		</div>
+	</div>
+</div>
+	
+	
+	<div id="buttonbar">
+		<a href="/plans/" class="button orange">Get Livefyre</a>
+		<a href="/features/" class="button blue">Learn More</a>
+	</div>
+	
+
+		</div>
+	</div>
+		
+	<div id="container" class="container">
+			
+	<div id="why-livefyre">
+		<ol>
+			<li>
+				<h2>What is Livefyre?</h2>
+				<p>Livefyre is the best real-time conversation platform on the web. Replace your outdated comment system and change the way people interact with content on your site.</p>
+			</li>
+			<li>
+				<h2>Who should use it?</h2>
+				<p>Livefyre is for anyone with a web audience. From global publishers to niche bloggers, our features turn your content into a catalyst for meaningful live conversations.</p>
+			</li>
+			<li>
+				<h2>Why use Livefyre?</h2>
+				<p>Livefyre is the easiest way to build engaged, hyper-active communities. Our team is dedicated to helping you create conversations that boost participation and page rank.</p>
+			</li>
+		</ol>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div id="how-different">
+		<ol>
+			<li>
+					<img src="/site_media/images/corp_v4/how-data.png" alt="" />
+					<h3>Own Your Data</h3>
+					<div class="tooltip">Keep your content forever. All of your conversations are written back to your database.
+					<div class="tooltip-button"><a href="/features/">Learn More</a></div>
+						<div class="triangle-down"></div>
+					</div>
+			</li>
+			<li>
+					<img src="/site_media/images/corp_v4/how-easy.png" alt="" />
+					<h3>Easy to Install</h3>
+					<div class="tooltip">Activate our plugin or add a line of code. Installing Livefyre couldn't be easier.
+					<div class="tooltip-button"><a href="/install/">Install Now</a></div>
+					<div class="triangle-down"></div></div>
+			</li>
+			<li>
+					<img src="/site_media/images/corp_v4/how-seamless.png" alt="" />
+					<h3>Seamless Integration</h3>
+					<div class="tooltip">Import your exsisting comments in just a few minutes. We'll have you up and running in no time.
+					<div class="tooltip-button"><a href="/features/">Learn More</a></div>
+					<div class="triangle-down"></div></div>
+			</li>
+			<li>
+					<img src="/site_media/images/corp_v4/how-platform.png" alt="" />
+					<h3>Platform Compatability</h3>
+					<div class="tooltip">Install on custom sites or popular platforms like WordPress and Tumblr. And we have a bunch more on the way.
+					<div class="tooltip-button"><a href="/install/">Install Now</a></div>
+					<div class="triangle-down"></div></div>
+			</li>
+		</ol>
+	</div>
+	
+	<div class="clear"></div>
+
+	<div id="live-demo">
+		<div class="live-demo-link ld-closed">
+			<a title="live-demo">See Livefyre in Action</a>
+		</div>
+		<div id="lf-widget">
+			<script type="text/javascript">
+			($ || $jl)(function($) {
+				var $liveDemo = $('#live-demo'),
+					$lfWidget = $('#lf-widget'),
+					$lfWidgetInner = $lfWidget.find('.lf-widget-inner');
+				/* Make the "Try the Livefyre Demo" link open the conv */
+				$('#try-now-link').click(function() {
+					setTimeout(function() {
+						$lfWidget
+							.animate({
+								'height': $lfWidgetInner.height() + 80
+							})
+						;
+					}, 500);
+				});
+				/* Make the actual link toggle the conv */
+				$liveDemo
+					.find('.live-demo-link')
+						.toggle(
+							function() {
+								$(this).addClass('open');
+								$(this).removeClass('ld-closed');
+								$lfWidget
+									.animate({
+										'height': $lfWidgetInner.height() + 80
+									})
+								;
+							},
+							function() {
+								$(this).removeClass('open');
+								$(this).addClass('ld-closed');
+								$lfWidget
+									.animate({
+										height: '0px'
+									})
+								;
+							}
+						)
+				;
+			});
+			</script>
+			<div class="lf-widget-inner">
+				<script type="text/javascript" src="http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js"></script> 
+				<script type="text/javascript"> 
+					var fyre = LF({
+						site_id: 4,
+						article_id: '583'
+					});
+				</script>
+			</div>
+		</div>
+	</div><!-- end #live-demo -->
+<!--<div class="container">-->
+	<div id="sites">
+		<h2>Thousands of sites use Livefyre!</h2>
+		<p class="logos">
+		    <img src="/site_media/images/corp_v4/logowall/thesun.jpg" alt="The Sun" />
+		    <img src="/site_media/images/corp_v4/logowall/thetimes.jpg" alt="The Times" />
+		    <img src="/site_media/images/corp_v4/logowall/nytimes.jpg" alt="New York Times" />
+		<br />
+		    <img src="/site_media/images/corp_v4/logowall/aol.jpg" alt="Aol." />
+		    <img src="/site_media/images/corp_v4/logowall/tennis.jpg" alt="Tennis.com" />
+		    <img src="/site_media/images/corp_v4/logowall/sugar.jpg" alt="Sugar INC" />
+		    <img src="/site_media/images/corp_v4/logowall/tpm.jpg" alt="Talking Points Memo" />
+			<img src="/site_media/images/corp_v4/logowall/blogher.jpg" alt="BlogHer" />
+		<br />
+			<img src="/site_media/images/corp_v4/logowall/fisher.jpg" alt="Fisher Interactive Network" />
+			<img src="/site_media/images/corp_v4/logowall/bloguin.jpg" alt="Bloguin" />
+			<img src="/site_media/images/corp_v4/logowall/techreview.jpg" alt="MIT Technology Review" />
+			<img src="/site_media/images/corp_v4/logowall/wpbeginner.jpg" alt="WP Beginner" />
+			<img src="/site_media/images/corp_v4/logowall/nextweb.jpg" alt="The Next Web" />
+		<br />
+			<img src="/site_media/images/corp_v4/logowall/fox.jpg" alt="American Idol on Fox" />
+			<img src="/site_media/images/corp_v4/logowall/mtv.jpg" alt="MTV" />
+			<img src="/site_media/images/corp_v4/logowall/logotv.jpg" alt="Logo TV" />
+			<img src="/site_media/images/corp_v4/logowall/tribecafilm.jpg" alt="Tribeca Film Festival" />
+		</p>
+	</div>
+	<div class="clear"></div>
+	<div id="featuredin">
+		<h2>As Featured In:</h2>
+		<ul>
+			<li><a href="http://www.readwriteweb.com/archives/livefyres_socialsync_brings_twitter_facebook_back.php" target="_blank"><img src="/site_media/images/corp_v4/logo-rww.jpg" alt="ReadWriteWeb" /></a>
+			    <div class="tooltip firsttip"><p class="tooltip-text">&ldquo;Livefyre 2.0 and SocialSync will be great for publishers who want conversations to flourish without getting away from the stories that start them.&rdquo;</p>
+			    <div class="tooltip-button"><a href="http://www.readwriteweb.com/archives/livefyres_socialsync_brings_twitter_facebook_back.php" target="_blank">View Full Article</a></div>
+			    <div class="triangle-down"></div></div>
+			</li>
+			<li><a href="http://mashable.com/2011/10/20/livfyre/" target="_blank"><img src="/site_media/images/corp_v4/logo-mashable.png" alt="Mashable" /></a>
+			    <div class="tooltip firsttip"><p class="tooltip-text">&ldquo;SocialSync’s most important contribution to the product [is that it] allows [a] user to share directly to Facebook and Twitter and offers notifications to commenters when they receive responses.&rdquo;</p>
+			    <div class="tooltip-button"><a href="http://mashable.com/2011/10/20/livfyre/" target="_blank">View Full Article</a></div>
+			    <div class="triangle-down"></div></div>
+			</li>
+			<li><a href="http://gigaom.com/2011/10/17/livefyre/" target="_blank"><img src="/site_media/images/corp_v4/logo-gigaom.png" alt="GigaOM" /></a>
+			    <div class="tooltip firsttip"><p class="tooltip-text">&ldquo;Livefyre’s real strength is that it allows publishers who want to ultimately host the contents that are on their posts&mdash;satisfying the urge to &lsquo;own their own content.&rsquo;&rdquo;</p>
+			    <div class="tooltip-button"><a href="http://gigaom.com/2011/10/17/livefyre/" target="_blank">View Full Article</a></div>
+			    <div class="triangle-down"></div></div>
+			</li>
+			<li><a href="http://venturebeat.com/2011/10/18/livefyre-funding-2/" target="_blank"><img src="/site_media/images/corp_v4/logo-venturebeat.png" alt="VentureBeat" /></a>
+			    <div class="tooltip firsttip"><p class="tooltip-text">&ldquo;Livefyre turns commenting into a live conversation.&rdquo;</p>
+			    <div class="tooltip-button"><a href="http://venturebeat.com/2011/10/18/livefyre-funding-2/" target="_blank">View Full Article</a></div>
+			    <div class="triangle-down"></div></div>
+			</li>
+		</ul>
+	</div>
+
+			<div class="clear"></div>
+	</div>
+
+	<div id="push"></div><!-- Sticky Footer -->
+</div>
+
+<div id="footerbg">
+    <div id="footer">
+		
+		<div id="convos">
+			<h2>Popular Conversations</h2>
+			
+				<div class="footercontent">
+					<p><a href="http://thepensblog.com/tpb/april-2012/4-17.html" target="_blank">Link City: Ping Pong war; ...</a></p>
+					<p class="meta"><a href="http://www.thepensblog.com/" target="_blank">http://www.thepensblog.com/</a> <span>&middot; 1654 Recent Comments</span></p>
+				</div>
+    			<dt></dt>
+    			<dd></dd>
+    	    
+				<div class="footercontent">
+					<p><a href="http://mikesciosciastragicillness.com/2012/04/17/dodgers-brewers-april-17-2012/10658/" target="_blank">Dodgers @ Brewers April 17, ...</a></p>
+					<p class="meta"><a href="http://mikesciosciastragicillness.com/" target="_blank">http://mikesciosciastragicillness.com/</a> <span>&middot; 500 Recent Comments</span></p>
+				</div>
+    			<dt></dt>
+    			<dd></dd>
+    	    
+				<div class="footercontent">
+					<p><a href="http://leatherhelmetblog.com/2012-articles/april/tuesday-recruiting-thread-17-apr-12.html" target="_blank">Tuesday Recruiting Thread 17-Apr-12 | ...</a></p>
+					<p class="meta"><a href="http://leatherhelmetblog.com/" target="_blank">http://leatherhelmetblog.com/</a> <span>&middot; 872 Recent Comments</span></p>
+				</div>
+    			<dt></dt>
+    			<dd></dd>
+    	    
+				<div class="footercontent">
+					<p><a href="http://www.logoonline-d.mtvi.com/talk/rupaulsdragrace/chat.jhtml?iframe=true&amp;lf_nostyle=" target="_blank">Conversation @ http://www.logoonline-d.mtvi.com/talk/rupaulsdragrace/chat.jhtml?iframe=true&amp;lf_nostyle=</a></p>
+					<p class="meta"><a href="http://www.logotv.com/talk" target="_blank">http://www.logotv.com/talk</a> <span>&middot; 3359 Recent Comments</span></p>
+				</div>
+    			<dt></dt>
+    			<dd></dd>
+    	    
+		</div>
+		
+		
+		<div id="comments">
+			<h2>Recent Comments</h2>
+			
+			<div class="footercontent">
+				<p><a href="http://www.americanidol.com/videos/season_11/performances/jessica_sanchez_save/#lf_comment=23704852" target="_blank">@Panda Maybe you don&#39;t know ...</a></p>
+				<p class="meta">by <a class="author" href="/profile/4020475/" target="_blank">tsabs</a> &middot; <a href="http://www.americanidol.com/videos/season_11/performances/jessica_sanchez_save/" target="_blank">Jessica Sanchez: A Sensational Save</a></p>
+			</div>
+			
+			<div class="footercontent">
+				<p><a href="http://www.thepensblog.com/tpb/april-2012/video-marian-hossa-gets-demolished-by-raffi-torres.html#lf_comment=23704851" target="_blank">Maybe they won&#39;t announce anything ...</a></p>
+				<p class="meta">by <a class="author" href="/profile/11525/" target="_blank">TheFandangler</a> &middot; <a href="http://www.thepensblog.com/tpb/april-2012/video-marian-hossa-gets-demolished-by-raffi-torres.html" target="_blank">VIDEO: Marian Hossa gets demolished ...</a></p>
+			</div>
+			
+			<div class="footercontent">
+				<p><a href="http://www.thepensblog.com/tpb/april-2012/video-marian-hossa-gets-demolished-by-raffi-torres.html#lf_comment=23704850" target="_blank">@stapler i mean i would ...</a></p>
+				<p class="meta">by <a class="author" href="/profile/11931/" target="_blank">Savage_Beast</a> &middot; <a href="http://www.thepensblog.com/tpb/april-2012/video-marian-hossa-gets-demolished-by-raffi-torres.html" target="_blank">VIDEO: Marian Hossa gets demolished ...</a></p>
+			</div>
+			
+		</div>
+		
+		
+		<div id="twitter">
+			<h2>From Twitter</h2>
+			
+			<div class="footercontent">
+				<p>Blog Savvy: Are You Thanking Your Commenters? - http://t.co/Bow892go via @kasesq94</p>
+				<p class="meta"><a href="http://twitter.com/Livefyre/status/192350533502251008" target="_blank">5 hours, 59 minutes ago</a></p>
+			</div>
+		    
+			<div class="footercontent">
+				<p>12 Most Important Blogging Terms and Definitions for Business | 12 Most http://t.co/XUAzHcKB via @douglaserice @12most</p>
+				<p class="meta"><a href="http://twitter.com/Livefyre/status/192278673901105152" target="_blank">10 hours, 44 minutes ago</a></p>
+			</div>
+		    
+		 </div>
+		 
+	</div>
+	<div class="clear"></div>
+	<div id="footernav">
+		<p class="copyright">Copyright &copy; 2011 Livefyre, Inc. All rights reserved.</p>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/features/">Features</a></li>
+			<li><a href="/plans/">Plans</a></li>
+			<li><a href="/about/">About</a></li>
+			<li><a href="http://press.livefyre.com">Press</a></li>
+			<li><a href="http://support.livefyre.com">Support</a></li>
+			<li><a href="/jobs/">Jobs</a></li>
+			<li><a href="/privacy/">Privacy Policy</a></li>
+			<li><a href="/terms/">Terms of Use</a></li>
+		</ul>
+	</div>
+</div>
+
+</body>
+<footer>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-46Dv4FBvTPXSg"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-46Dv4FBvTPXSg.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+ 
+<!-- Start Google Analytics --> 
+<script type="text/javascript"> 
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-28999957-1']);
+	_gaq.push(['_setDomainName', 'livefyre.com']);
+	_gaq.push(['_trackPageview']);
+ 
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- End Google Analytics --> 
+</footer>
+</html>

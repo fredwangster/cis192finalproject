@@ -1,0 +1,732 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+        <meta name="keywords" content="bill me later, billmelater, buy now pay later, no payments for 90 days, no payments for 6 months, online payment, online payments, deferred payments, online shopping, online stores, online merchants, deferred financing, shop online, online coupons, merchant deals, online coupons, what is bill me later, shop online without a credit card, shop now pay later, offers, coupons, deals, coupon code, free shipping, stores that accept bill me later, where can I use bill me later, checkout with bill me later, checkout fast, no credit card required, flexible payment options, a PayPal company" />
+        <meta name="application/version" content="7.17.0.26 Build 7510" />
+        <meta name="description" content="Bill Me Later&reg; is the fast, simple and secure way to pay online without using a credit card at more than 1000 stores. Simply select Bill Me Later at checkout." />
+
+    <title>Bill Me Later</title>
+
+    
+    <link class="component" href="/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAELXT5DOhSIAQ!sA18_" rel="stylesheet" type="text/css" /><link class="component" href="/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAELXT5DOhSIAQ!sA18_" media="rich-extended-skinning" rel="stylesheet" type="text/css" /><script src="/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript" type="text/javascript"></script><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/a4j/g/3_3_3.Finalorg/richfaces/renderkit/html/scripts/skinning.js" type="text/javascript"></script><script src="/js/jquery-1.6.2.min.js" type="text/javascript"></script><script src="/js/cufon-yui.js" type="text/javascript"></script><script src="/js/myriadpro.js" type="text/javascript"></script><script src="/js/functions.js?cb=6_6_08" type="text/javascript"></script><script src="/js/print.js?cb=6_6_08" type="text/javascript"></script><script src="/js/popup.js?cb=6_6_08" type="text/javascript"></script><script src="/js/your-account/paypal-learnmore-modal.js" type="text/javascript"></script><script src="/js/jquery-ui-1.7.1.custom/js/jquery-ui-1.7.1.custom.min.js" type="text/javascript"></script><script src="/js/your-account/credit-learnmore-modal.js" type="text/javascript"></script><link href="/css/master_ie.css?cb=6_10_08" rel="stylesheet" type="text/css" />
+    
+    <link href="/css/master.css?cb=7_31_08" rel="stylesheet" type="text/css" />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="/css/cashback.css" rel="stylesheet" type="text/css" />
+    <link href="/css/youtube-learn.css" rel="stylesheet" type="text/css" />
+    <link href="/css/tooltip.css" rel="stylesheet" type="text/css" />
+    <link href="/css/statement-snapshot.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+    </style>
+    <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        Cufon.replace('.cb-eligible-inactive-heading', { fontFamily: 'Myriad Pro' })
+        Cufon.replace('.cb-top-nav-page-title', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('.cb-content-title-italic', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('.cb-content-title', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('.cb-right-enrolled-title', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('.ui-dialog-title', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('.cb-fav-addstore', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('#print_payment_schedule', {fontFamily: 'Myriad Pro'});
+        Cufon.replace('#cashback-themed-message', {fontFamily: 'Myriad Pro'});
+        Cufon.replace('#side-cashback-content .message', {fontFamily: 'Myriad Pro'});
+        Cufon.replace('#ui-dialog-title-acquisitionmodalContainer', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('#cb-how-it-works', { fontFamily: 'Myriad Pro' });
+        Cufon.replace('.cb-how-it-works-header', { fontFamily: 'Myriad Pro Semibold Cond' });
+        Cufon.replace('.section_header_text', { fontFamily: 'Myriad Pro' });
+    </script>
+    <script type="text/javascript" src="/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/js/table-sorter/jquery.tablesorter.js"></script>
+    <script type="text/javascript" src="/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/print.js"></script>
+    <script type="text/javascript" src="/js/browser-detection.js"></script>
+    <script type="text/javascript">
+        jQuery.noConflict();
+    </script>
+    
+    
+
+    <style type="text/css">
+        div#warning {
+            width: 100px;
+        }
+
+        #statement_head {
+            background-color: #296DBB;
+            color: #FFFFFF;
+            height: 25px;
+        }
+
+        div#warning {
+            float: left;
+            height: 100px;
+            width: 100px;
+        }
+
+        div#vc-content {
+            height: 100px;
+        }
+
+        #guest-upgrade {
+            margin-left: 540px;
+            font-size: 9px;
+            font-family: Verdana;
+            background: transparent url(/img/guest-upgrade-bckgrnd.gif) no-repeat top left;
+            height: 28px;
+        }
+
+        .guest-upgrade-learn-more {
+            cursor: pointer;
+            color: #2A6ABB;
+            border-bottom: 1px solid #2A6ABB;
+        }
+
+        #ui-dialog-title-paypalLearMoreModal {
+            width: 416px;
+            background: transparent url(/img/guest_up_learnmore_title.png) no-repeat right bottom
+        }
+
+    </style>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body class="account" onload="if (top != self) {top.location=self.location;}">
+<div id="preloadDefaultImages"></div>
+<div id="_sub_body">
+    <div class="global_page_top_margin" style="height:8px"></div>
+
+    <div id="header">
+            <div id="utility_nav">
+            </div>
+        <script type="text/javascript" language="JavaScript">
+            
+        </script>
+        <script type="text/javascript" language="JavaScript">
+            
+        </script>
+    </div>
+            <div id="mex10_global_header">
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td rowspan="2" width="200px" id="logo_cell">
+                            <a href="/index.xhtml">
+                                <img src="/images/nav_mex10/logo-slogan.gif" />
+                            </a>
+                        </td>
+                        <td nowrap="nowrap" width="743px">
+                            <span style="vertical-align: middle; height: 25px">
+                                <img src="/images/nav_mex10/super-nav-blank.gif" />
+                                    <img border="0" src="/images/nav_mex10/super-nav-login-lock.gif" />
+                                    <a href="/login/index.xhtml">
+                                        <img style="padding-bottom: 4px;" border="0" src="/images/nav_mex10/super-nav-login-link.gif" alt="Log in to account" title="Log in to account" />
+                                    </a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td nowrap="nowrap" width="743px" align="right">
+    <link href="/css/modal.css" type="text/css" rel="stylesheet" />
+
+    <div id="mainNavForm1" class="inline right">
+        <div id="topnav">
+            <ul>
+                <li id="nav_space0">
+                    <div style="width: 0px;"></div>
+                </li>
+        <li id="nav_account"><a id="a_account" name="a_account" href="/your-account/account-home.xhtml">
+                <span>Your Account</span></a>
+        </li>
+                    <li id="nav_shopping"><a href="http://shopping.billmelater.com/linkin?pageid=bmls" target="_blank" id="a_shopping"><span>Shopping</span></a></li>
+                    <li id="nav_about"><a id="a_about" name="a_about" href="http://shopping.billmelater.com/linkin?pageid=about"><span>About Bill Me Later</span></a></li>
+
+                <li id="nav_space1"></li>
+                    <li id="nav_space2"></li>
+                    <li id="nav_global_faq"><a id="a_faq" name="a_faq" href="/help/index.xhtml"><span>Frequently Asked Questions</span></a></li>
+                    <li id="nav_global_div"></li>
+                    <li id="nav_global_contact"><a id="a_contact" name="a_contact" href="/contact/index.xhtml"><span>Contact Us</span></a>
+                    </li>
+
+                <li id="nav_right"></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+    <div id="content_top"></div>
+    <div id="content">
+
+        <div style="clear:both"></div>
+        <div id="main_content">
+
+        <div id="home_page_content_block">
+
+    
+    
+
+    <style type="text/css">
+        .advertisement_first_read {
+            width: 675px;
+        }
+    </style><div id="j_id96" class="advertisement_first_read">
+<form id="j_id97" name="j_id97" method="post" action="/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id97" value="j_id97" />
+<script id="j_id97:j_id98" type="text/javascript">//<![CDATA[
+		logClick_first_read=function(){A4J.AJAX.Submit('j_id97',null,{'similarityGroupingId':'j_id97:j_id98','parameters':{'j_id97:j_id98':'j_id97:j_id98'} } )};
+		//]]></script>
+
+            <a href="https://shopping.billmelater.com/link?offer=207807" target="_blank" onclick="logClick_first_read();">
+                <img src="/image/advertisementContent/11823.jpeg" alt="Shop Now" />
+            </a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1" />
+</form></div>
+        <script type="text/javascript" language="JavaScript">
+            
+        </script>
+        <script type="text/javascript" language="JavaScript">
+            
+        </script>
+    <script type="text/javascript" src="/js/search.js"></script>
+
+    
+    <div style="background: url('/images/theFind_bar.jpg') no-repeat; width: 673px; height:43px">
+        <form action="javascript:SearchTheFind();">
+            <div style="float: left; padding: 13px 8px 0 80px; ">
+                <input type="text" onfocus="value=''" style="width: 472px; height: 16px; padding: 3px 0 0 0; color: #333333;" maxlength="1024" value="Search for great products and compare prices...." name="searchField" id="searchField" />
+            </div>
+
+            <div style="padding-top:13px;">
+                <input type="image" src="/images/button-Search_rect.png" title="Search" alt="Search" />
+            </div>
+        </form>
+    </div>
+
+    <div class="offer_dotted_line_top"></div><table id="targetOffers_grid" cellpadding="0" cellspacing="0" width="672">
+<tbody>
+<tr class="offer_row1">
+<td class="offer_col1">
+                    <div class="offerLogo"><a href="http://shopping.billmelater.com/offers/limogesjewelry/281962?source=billmelater" target="_blank">
+                            <img src="/image/shoppingContent/840.a" title="Shop Online at LimogesJewelry.com and checkout fast with Bill Me Later." alt="Shop Online at LimogesJewelry.com and checkout fast with Bill Me Later." /></a>
+                    </div></td>
+<td class=" offer_col2">
+                    <div class="offerText"><a href="http://shopping.billmelater.com/offers/limogesjewelry/281962?source=billmelater" target="_blank">22% off Mother's Day Gifts on purchases of $20 or more. COUPON: MOMS22. End Date: 5/13/2012</a>
+                    </div></td>
+<td class=" offer_col3">
+                    <div class="offerLogo"><a href="http://shopping.billmelater.com/offers/applestore/281924?source=billmelater" target="_blank">
+                            <img src="/image/shoppingContent/36.jpeg" title="Shop Online at Apple Store and checkout fast with Bill Me Later." alt="Shop Online at Apple Store and checkout fast with Bill Me Later." /></a>
+                    </div></td>
+<td class=" offer_col4">
+                    <div class="offerText"><a href="http://shopping.billmelater.com/offers/applestore/281924?source=billmelater" target="_blank">Apple Certified Refurbished iPad models at the Apple Online Store. Now starting at $419. Plus free shipping. </a>
+                    </div></td>
+</tr>
+<tr class=" offer_row2">
+<td class="offer_col1">
+                    <div class="offerLogo"><a href="http://shopping.billmelater.com/offers/overstock/281947?source=billmelater" target="_blank">
+                            <img src="/image/shoppingContent/2.jpeg" title="Shop Online at Overstock.com and checkout fast with Bill Me Later." alt="Shop Online at Overstock.com and checkout fast with Bill Me Later." /></a>
+                    </div></td>
+<td class=" offer_col2">
+                    <div class="offerText"><a href="http://shopping.billmelater.com/offers/overstock/281947?source=billmelater" target="_blank">$10.00 off on purchases of $200 or more. End Date: 5/2/2012</a>
+                    </div></td>
+<td class=" offer_col3">
+                    <div class="offerLogo"><a href="http://shopping.billmelater.com/offers/skinstore/282932?source=billmelater" target="_blank">
+                            <img src="/image/shoppingContent/48.gif" title="Shop Online at SkinStore.com and checkout fast with Bill Me Later." alt="Shop Online at SkinStore.com and checkout fast with Bill Me Later." /></a>
+                    </div></td>
+<td class=" offer_col4">
+                    <div class="offerText"><a href="http://shopping.billmelater.com/offers/skinstore/282932?source=billmelater" target="_blank">$50.00 off on purchases of $200 or more. COUPON: GREEN50. End Date: 4/23/2012</a>
+                    </div></td>
+</tr>
+<tr class=" offer_row3">
+<td class="offer_col1">
+                    <div class="offerLogo"><a href="http://shopping.billmelater.com/offers/ebay/275809?source=billmelater" target="_blank">
+                            <img src="/image/shoppingContent/1344.gif" title="Shop Online at eBay.com and checkout fast with Bill Me Later." alt="Shop Online at eBay.com and checkout fast with Bill Me Later." /></a>
+                    </div></td>
+<td class=" offer_col2">
+                    <div class="offerText"><a href="http://shopping.billmelater.com/offers/ebay/275809?source=billmelater" target="_blank">6 months to pay on your eBay purchases when you check out with Bill Me Later®. End Date: 4/30/2012</a>
+                    </div></td>
+<td class=" offer_col3">
+                    <div class="offerLogo"><a href="http://shopping.billmelater.com/offers/zappos/265816?source=billmelater" target="_blank">
+                            <img src="/image/shoppingContent/504.a" title="Shop Online at Zappos.com and checkout fast with Bill Me Later." alt="Shop Online at Zappos.com and checkout fast with Bill Me Later." /></a>
+                    </div></td>
+<td class=" offer_col4">
+                    <div class="offerText"><a href="http://shopping.billmelater.com/offers/zappos/265816?source=billmelater" target="_blank">Free overnight shipping on apparel. </a>
+                    </div></td>
+</tr>
+</tbody>
+</table>
+
+
+    
+    <div class="offer_dotted_line_bottom"></div>
+    <div class="offerFooter"><a href="http://shopping.billmelater.com/linkin?pageid=bmls" target="_blank" class="footerText">Shop the Stores</a>
+        |<a href="http://shopping.billmelater.com/linkin?pageid=featured" target="_blank" class="footerText">Featured Offers</a>
+        |<a href="http://shopping.billmelater.com/linkin?pageid=freeshipping" target="_blank" class="footerText">Free Shipping</a>
+        |<a href="http://shopping.billmelater.com/linkin?pageid=90days" target="_blank" class="footerText">Promotional Financing</a>
+    </div>
+
+        </div>
+            
+        </div>
+            <div id="side_content">
+            <div id="accountLogin" class="module">
+<form id="accountLoginModule" name="accountLoginModule" method="post" action="/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="accountLoginModule" value="accountLoginModule" />
+
+                <div id="accountAccess">
+                    <table width="100%" border="0" cellspacing="3" cellpadding="0" id="accountLoginGrid">
+                        <tr>
+                            <td height="44"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="accountLoginModule:userid">
+User ID:</label></td>
+                        </tr>
+                        <tr>
+                            <td><input id="accountLoginModule:userid" type="text" name="accountLoginModule:userid" autocomplete="off" size="25" style="margin-top: .2pc; width: 172px" tabindex="1" />
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="accountLoginModule:password">
+Password:</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="width: 151px;">
+                                    <div style="float: left; margin-top: .2pc"><input id="accountLoginModule:password" type="password" name="accountLoginModule:password" value="" maxlength="20" size="10" style="width: 172px;" tabindex="2" />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="40%"><a href="/login/recover-userid-key/index.xhtml" style="color: white; font-size: 8pt;">
+                                                <span>Problems <br />with Login?</span></a>
+                                        </td>
+                                        <td>|</td>
+                                        <td>
+                                            <div>&nbsp;<input id="accountLoginModule:authenticationLoginButton" type="image" src="/images/button-Log-In.gif" name="accountLoginModule:authenticationLoginButton" alt="Log In to Account" style="vertical-align: bottom;" tabindex="3" />
+                                                <script type="text/javascript">
+                                                    document.getElementById('accountLoginModule:authenticationLoginButton').src = '/images/button-Log-In.gif';
+                                                </script>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table><script type="text/javascript">setTimeout("document.getElementById('accountLoginModule:userid').focus()", 100)</script>
+                </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1" />
+</form></div>
+        <br />
+            <div id="rounded">
+                <div id="rounded_top"></div>
+                <p>
+                    <strong>Manage Account:</strong>
+                        <a href="/index.xhtml?dl=rc">Register Account <span></span></a>
+                    <a href="/your-account/view-statements.xhtml">View Statements <span></span></a>
+                    <a href="/your-account/account-summary.xhtml">Account Summary <span></span></a>
+                </p>
+
+                <p>
+                    <strong>Shopping Options:</strong>
+                    <a href="http://shopping.billmelater.com/linkin?pageid=new"><strong>New!</strong> Stores
+                        <span></span></a>
+                    <a href="http://shopping.billmelater.com/linkin?pageid=all">View All Stores
+                        <span></span></a>
+                    <a href="http://shopping.billmelater.com/linkin?pageid=90days">Promotional Financing</a>
+                </p>
+
+    
+    
+
+    <style type="text/css">
+        .advertisement_right_column {
+            width: 220px;
+        }
+    </style><div id="j_id278" class="advertisement_right_column">
+<form id="j_id279" name="j_id279" method="post" action="/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id279" value="j_id279" />
+<script id="j_id279:j_id280" type="text/javascript">//<![CDATA[
+		logClick_right_column=function(){A4J.AJAX.Submit('j_id279',null,{'similarityGroupingId':'j_id279:j_id280','parameters':{'j_id279:j_id280':'j_id279:j_id280'} } )};
+		//]]></script>
+
+            <a href="https://www.billmelater.com/apply-now/8I3C5DO7" target="_self" onclick="logClick_right_column();">
+                <img src="/image/advertisementContent/11422.gif" alt="Earn Cash Back plus get more time to pay with Bill Me Later. Outstanding! Apply Now" />
+            </a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1" />
+</form></div>
+
+                <div id="rounded_bot"></div>
+            </div>
+                
+            </div>
+            <div id="cashback-side-content">
+                
+            </div>
+
+        <div style="clear:both"></div>
+
+    </div>
+
+    <div id="content_bottom"></div>
+
+    <div id="footer" class="footer">
+        <script type="text/javascript" language="JavaScript">
+            
+        </script>
+
+    <div id="navigationTable">
+        <div>
+            <table id="navigationTable" cellpadding="0" cellspacing="0" class="navigationTable" border="0">
+                <tr>
+                    <td style="width:21%">
+
+                        <table>
+                            <tbody>
+                            <tr>
+                                <th>Servicing</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                        <a href="/index.xhtml?dl=rc">Register Account
+                                        </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/your-account/make-payment.xhtml">Make a Payment
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="/your-account/view-statements.xhtml">View Statements
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+
+                    </td>
+                    <td style="width:23%">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <th>Shopping</th>
+                            </tr>
+                            <tr>
+
+                                <td><a href="http://shopping.billmelater.com/linkin?pageid=bmls">Shop with Bill Me Later
+                                </a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://shopping.billmelater.com/linkin?pageid=featured">Special Offers
+                                </a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://shopping.billmelater.com/linkin?pageid=merchants">Browse the Stores
+                                </a></td>
+
+                            </tr>
+                          
+                            </tbody>
+                        </table>
+                    </td>
+                    <td style="width:19%">
+
+                        <table>
+                            <tbody>
+                            <tr>
+                                <th>Bill Me Later</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="http://shopping.billmelater.com/linkin?pageid=about">About Bill Me Later
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.billmelater.com/cm/bml-choose-terms.html">Terms and Conditions
+                                </a></td>
+                            </tr>
+                            <tr>
+
+                                <td><a href="http://billmelatersolutions.com">Merchant Sign Up
+                                </a></td>
+                            </tr>
+                           
+                            </tbody>
+                        </table>
+                    </td>
+                    <td style="width:34%;">
+
+    
+    
+
+    <style type="text/css">
+        .advertisement_footer {
+            width: 250px;
+        }
+    </style><div id="j_id312" class="advertisement_footer">
+<form id="j_id313" name="j_id313" method="post" action="/index.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id313" value="j_id313" />
+<script id="j_id313:j_id314" type="text/javascript">//<![CDATA[
+		logClick_footer=function(){A4J.AJAX.Submit('j_id313',null,{'similarityGroupingId':'j_id313:j_id314','parameters':{'j_id313:j_id314':'j_id313:j_id314'} } )};
+		//]]></script>
+
+            <a href="https://www.billmelater.com/cm/phishing_alert.html" target="_self" onclick="logClick_footer();">
+                <img src="/image/advertisementContent/11803.gif" alt="Phishing Alert. Click here for more information" />
+            </a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1" />
+</form></div>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <div style="margin: 15px 0 10px 5px; height: 1px;" class="light-dotted-line"></div>
+
+    
+    <div style="margin-left: 10px;">Bill Me Later is subject to credit approval, as determined by the lender, WebBank, Salt Lake City, Utah.</div>
+
+    <div class="inline" style="margin: 0 0 0 10px;">
+        <ul>
+            <li>
+                <strong>Copyright © 2004-2012 Bill Me Later, Inc. All rights reserved.&nbsp;
+                </strong>
+            </li>
+            <li>
+                <a href="/about/privacy-policy.xhtml">privacy statement</a>
+                <span class="footer_separator">|</span>
+            </li>
+            <li>
+                <a href="/about/terms-of-service.xhtml">terms of use</a>
+
+            </li>
+        </ul>
+    </div>
+        <script type="text/javascript" language="JavaScript">
+            
+        </script>
+        
+    </div>
+        <div id="below_footer">
+            
+        </div>
+
+	<script type="text/javascript">
+        var s_account = "i4bmlglobalprod,i4billmelaterdev2";
+    </script>
+
+    
+    <script type="text/javascript" src="/js/omniture/s_code_bmlc.js"></script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var isCookied = 'false';
+
+        /* Some utility functions */
+        function getCookie(c_name)
+        {
+            if (document.cookie.length > 0)
+            {
+                c_start = document.cookie.indexOf(c_name + "=");
+                if (c_start != -1)
+                {
+                    c_start = c_start + c_name.length + 1;
+                    c_end = document.cookie.indexOf(";", c_start);
+                    if (c_end == -1) c_end = document.cookie.length;
+                    return document.cookie.substring(c_start, c_end);
+                }
+            }
+            return "";
+        }
+
+        function addEvent(newEvent)
+        {
+            if (newEvent != "" ) {
+                if ( typeof(s.events) != 'undefined' && s.events != "") {
+                    s.events += "," + newEvent;
+                } else {
+                    s.events = newEvent;
+                }
+            }
+        }
+
+        var CONSUMER = "Consumer";
+        s.linkInternalFilters = "";
+
+        /* SiteCatalyst Variables */
+        var hostName = window.location.hostname;
+        var channel = CONSUMER;
+
+        if (hostName.indexOf("shopping") == 0) {
+            channel = "Shopping";
+        } else if ( hostName.indexOf("corporate") == 0) {
+            channel = "Corporate";
+        } else if ( hostName.indexOf("search") == 0) {
+            channel = "Search";
+        } else if ( hostName.indexOf("business") != -1) {
+            channel = "Business";
+        }
+
+        //set the channel
+        s.channel = channel;
+        s.eVar10 = s.channel;
+
+        //page name
+        s.pageName="Cons:Home";
+        if ( typeof(screenName) != 'undefined' && screenName != "") {
+            s.pageName += ":" + screenName;
+        }
+        //Add any page suffixes
+        if ( typeof( "" ) != 'undefined' && "" != "") {
+            s.pageName += ":" + "";
+        }
+
+        addEvent("event14");
+
+        //Site sub-section
+        var path = window.location.pathname;
+        var end = path.lastIndexOf("/",path.length-2);
+        if ( end != -1) {
+            s.prop1 = path.slice(1,end);
+        }
+        if ( s.prop1 == "") {
+            s.prop1 = "home";
+        }
+        s.eVar12 = s.prop1;
+
+        //Error Page Tracking
+        if ( typeof(omniErrorStr) != 'undefined') {
+            s.prop4 = s.pageName;
+            s.prop5 = omniErrorStr;
+            s.eVar5 = s.prop5;
+            addEvent("event5");
+        }
+        //Hierarchy
+        s.hier1 = window.location.hostname + window.location.pathname;
+
+        //Campaign Tracking
+        s.campaign = s.getQueryParam('cid');
+
+        //internal campaign tracking
+        s.eVar1 = s.getQueryParam('intcid');
+        s.products = s.eVar1;
+        if ( s.eVar1.length > 0 ) {
+            addEvent("event7");
+        }
+
+        //Internal search keyword tracking
+        s.prop3 = s.getQueryParam('query');
+        if ( s.prop3.length > 0 ) {
+            s.eVar2 = s.prop3;
+            addEvent("event15");
+        }
+
+        //Acquisition Campaign Tracking
+        s.eVar21 = "";
+
+        //Site segment tracking + logged in tracking
+        if ( "false" == "true" ) {
+            s.prop2 = "Customer";
+            s.prop6 = "Logged In";
+            s.prop9 = "";
+            s.eVar35 = s.getValOnce(s.prop9, 's_prop9', 0);
+            addEvent(s.getValOnce("event12", 's_loginEvent', 0));
+
+        } else {
+            s.prop6 = "Not Logged In";
+            if ( isCookied == "true" ) {
+                s.prop2 = "Cookied Customer";
+            } else {
+                s.prop2 = "Annonymous";
+            }
+        }
+        s.eVar9 = s.prop6;
+        s.eVar13 = s.prop2;
+
+        // Cashback clickout event.
+        s.eVar20 = "";
+        if ( s.eVar20.length > 0 ) {
+            addEvent("event19");
+        }
+
+        // MakePayment special code -- inside include so value don't get posted properly
+        if ( typeof(makePaymentEvent) != 'undefined' && makePaymentEvent != "") {
+            addEvent(makePaymentEvent);
+            s.prop8 = "make-payment";
+            s.eVar8 = s.prop8;
+        }
+
+		/* Variables populated from other pages */
+        s.eVar3 = "";
+        s.eVar4 = "";
+        s.eVar6 = "";
+        s.eVar8 = "";
+
+        s.prop15 = "";
+        s.prop26 = "";
+        s.prop27 = "";
+        s.prop33 = "";
+        s.prop34 = "";
+
+        addEvent("");
+
+        //customer profile data
+        s.prop11 = s.getAndPersistValue("", 's_delinquentStat', 5000);
+        s.eVar14 = s.getValOnce(s.prop11, 's_prop11', 0);
+        s.prop19 = s.getAndPersistValue("",'s_zip',5000);
+        s.eVar22 = s.getValOnce(s.prop19, 's_prop19', 0);
+        s.prop12 = s.getAndPersistValue("", 's_curBal', 5000);
+        s.eVar15 = s.getValOnce(s.prop12, 's_prop12', 0);
+        s.prop16 = s.getAndPersistValue("", 's_daysSinceLastPurchase', 5000 );
+        s.eVar19 = s.getValOnce(s.prop16, 's_prop16', 0);
+        s.prop29 = s.getAndPersistValue("", 's_firstMerchantId', 5000 );
+        s.eVar28 = s.getValOnce(s.prop29, 's_prop29', 0);
+        s.prop30 = s.getAndPersistValue("", 's_accountstartDate', 5000);
+        s.eVar29 = s.getValOnce(s.prop30, 's_prop30', 0);
+        s.prop7 = getCookie("u_bml");
+        s.eVar34 = s.getValOnce(s.prop7, "s_prop7", 0);
+        s.eVar39 = s.prop15;
+        s.eVar31 = s.prop26;
+        s.eVar32 = s.prop33;
+        s.eVar33 = s.prop34;
+        s.eVar24 = s.pageName;
+
+        /* Set Time Parting Variables*/
+        s.eVar48=s.prop48=s.getTimeParting('h','-5'); // Set hour
+        s.eVar49=s.prop49=s.getTimeParting('d','-5'); // Set day
+        s.eVar50=s.prop50=s.getTimeParting('w','-5'); // Set Weekend / Weekday
+        s.eVar47=s.prop47=s.getTimeParting('m','-5'); // Set minute
+
+        /* previous page */
+        s.prop23=s.getPreviousValue(s.pageName,'gpv_p23','');
+
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		var s_code=s.t();if(s_code)document.write(s_code)
+        //]]>
+	</script>
+
+    <noscript>
+        JavaScript has been disabled in your browser,  please check if the URL in the address bar is http://www.billmelater.com
+    </noscript>
+</div>
+
+</body>
+
+
+</html>

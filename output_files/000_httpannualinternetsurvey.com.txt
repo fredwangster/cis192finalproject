@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Congratulations Visitor!</title>
+<meta name="robots" content="noarchive,nofollow,noindex">
+<link rel="stylesheet" type="text/css" href="http://annualinternetsurvey.com/stylefront.css" />
+
+<style type="text/css" >
+.header{    
+	border-bottom-color:#949494;  
+	background-color:;
+}
+.congratsmessage {
+	border-bottom-color:#949494;
+}
+
+.hoverspan:hover {background-color:#EFEFEF; color:#000; cursor:pointer;}
+
+.btn {
+	margin-left:-75px;
+	background-color:#44AF44;
+	background-position:0 -48px;
+	border-width:1px;
+	border-color:#68CE68 #317331 #317331 #68CE68;
+	color:#FFFFFF;
+	font-size:1.4em;
+	cursor:pointer;
+}
+</style>
+
+<script language="JavaScript" src="http://j.maxmind.com/app/geoip.js"></script>
+
+<script>
+document.title = "Congratulations Visitor from " + geoip_region_name();
+message = ''; function clickIE() {if (document.all) {(message);return false;}} function clickNS(e) {if (document.layers||(document.getElementById&&!document.all)) {if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;} else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;} document.oncontextmenu=new Function("return false");
+</script>
+
+
+</head>
+
+<body onload="self.focus();">
+
+<div class="main">
+	<div class="header" style="padding-top:5px;">
+		<span class="style1" style="color:#CCCCCC; line-height:130%;"><a style="color:#000;">Visitor's Survey</a></span><br />
+		<h1>2012 INTERNET SURVEY</h1>
+	</div>
+
+
+	<div class="congratsmessage" style="padding-bottom:5px; margin-bottom:5px; font-size:15px;">
+		<table width="100%">
+		  <tr>
+		    <td>
+			<div style="padding-top:7px; width:510px;">
+				<h2>Congratulations!</h2>
+				<p>
+				<a style="color:#000;">Hello <script language="JavaScript">document.write(geoip_region_name());</script> visitor, you have been selected to participate in the <span style="color:#CC0000;">2012 Internet Survey</span>. For a limited time only, we are offering select visitors from <script language="JavaScript">document.write(geoip_region_name());</script> the chance to win an <u>exclusive prize</u> for participating in our survey. The survey will take less than 30 seconds:</a></p>
+			</div>
+		  	</td>
+		    <td width="225" align="right" style="text-align:right; margin-top:5px;">
+				<img src="http://annualinternetsurvey.com/logo_trans.png" width="165" height="95" alt="" border="0" />
+		  	</td>
+		  </tr>
+		  </tr>
+		</table>
+	</div>
+
+	<div class="survey-container">
+		<h3 style="font-size:22px;">Step 1: Complete this short survey</h3>		<p><strong><span class="stars">***</span> <a style="color:#000;">You have <span id="survey-timer">0.00</span> seconds to complete this survey before it expires.</a> <span class="stars">***</span></strong></p>
+
+		<form method="post" action="claim.php" name="theform" id="theform" />
+		<input name="s" value="" type="hidden" />
+		<input name="cid" value="" type="hidden" />
+		<input name="sid" value="1334716723nzHAE7hbwDgnzyrhxjRWQeXK5kkPnMLn" type="hidden" />
+		<input name="domain" value="" type="hidden" />
+		<input name="header_text" value="2012 INTERNET SURVEY" type="hidden" />
+		<input name="header_bg" value="" type="hidden" />
+			<div class="survey-left">
+                <fieldset>
+					<legend>1. How often do you use the Internet?</legend>
+					<label for="q1_1" class="hoverspan"><input type="radio" name="q1" id="q1_1" value="d" /> Multiple times a day</label>
+					<label for="q1_2" class="hoverspan"><input type="radio" name="q1" id="q1_2" value="dl" /> Less than an hour a day</label>
+					<label for="q1_3" class="hoverspan"><input type="radio" name="q1" id="q1_3" value="w" /> Several times a week</label>
+					<label for="q1_4" class="hoverspan"><input type="radio" name="q1" id="q1_4" value="wl" /> Several times a month</label>
+				</fieldset>
+				<fieldset>
+					<legend>2. Are you male or female?</legend>
+					<label for="q2_1" class="hoverspan"><input type="radio" name="q2" id="q2_1" value="m" /> Male</label>
+					<label for="q2_2" class="hoverspan"><input type="radio" name="q2" id="q2_2" value="f" /> Female</label>
+				</fieldset>
+			</div>
+			<div class="survey-right">
+				<fieldset>
+					<legend>3. I spend most of my time online on ...</legend>
+					<label for="q3_1" class="hoverspan"><input type="radio" name="q3" id="q3_1" value="y" /> ...social media (Facebook, etc.)</label>
+					<label for="q3_2" class="hoverspan"><input type="radio" name="q3" id="q3_2" value="n" /> ...email / skype</label>
+					<label for="q3_3" class="hoverspan"><input type="radio" name="q3" id="q3_3" value="u" /> ...research</label>
+					<label for="q3_4" class="hoverspan"><input type="radio" name="q3" id="q3_4" value="u" /> ...surfing out of boredom</label>
+				</fieldset>
+				<fieldset>
+					<input name="submit" type="submit" id="btn" class="btn" value="Choose Prize &gt;&gt; " />
+				</fieldset>
+			</div>
+		</form>
+	</div>
+
+    <h4>Previous Winners</h4>
+	<div class="previous-winners">
+		<div class="previous-winner">
+			<div class="previous-winner-image"><img src="http://annualinternetsurvey.com/winner2.jpg" alt="" /></div>
+			<div class="previous-winner-text">
+				<strong>Jesse W.</strong><br />
+				<script language="JavaScript">document.write(geoip_city() + ', ' + geoip_region());</script><br />
+				<br style="line-height:50%;" />
+				<em><a style="color:#000;">"I get this message popping up asking to participate in a survey and receive some gift as a reward. I was like "yeah right" cause this stuff pops up on the internet all the time. But I heard a friend of mine had won something like this from the internet so I gave it a try. I did the survey and did the follow up steps, and a few weeks later Fedex delivered an ipad 2!"</a></em>
+			</div>
+		</div>
+		<div class="previous-winner">
+			<div class="previous-winner-image"><img src="http://annualinternetsurvey.com/winner4.jpg" alt="" /></div>
+			<div class="previous-winner-text">
+				<strong>Jennifer L.</strong><br />                                  
+				New York, NY<br />
+				<br style="line-height:50%;" />
+				<em><a style="color:#000;">"I was just doing some online shopping and randomly I got an invitation for a survey. I was skeptical at first, but I signed up anyways since I had nothing to lose. Long story short, four weeks later I received a pre-loaded $500 visa card in the mail!"</a></em>
+			</div>
+		</div>
+		<div class="previous-winner">
+			<div class="previous-winner-image"><img src="http://annualinternetsurvey.com/winner3.jpg" alt="" /></div>
+			<div class="previous-winner-text">
+				<strong>Jason M.</strong><br />
+				Boston, MA<br />
+				<br style="line-height:50%;" />
+				<em><a style="color:#000;">"So I was just surfing the web and randomly got this pop up saying that I was selected from my state to participate in some survey. Yeah right, survey for what? So to do some research. It turns out that I got enrolled into this contest from something I signed up for a week ago. I signed up, took the surveys, and I'm typing this review from my new iPad 2!"</a></em>
+			</div>
+		</div>
+	</div>
+
+
+	<a style="color:#000;">
+	<div id="footer1" style="width:700px; padding-top:40px;">
+		<p align="center" style="font-size: 11px; color: #555;"> &copy; 2008-2012 <strong>Annual Internet Survey</strong>. All Rights Reserved.</p>
+		<p align="center" style="font-size: 11px; color: #555;"><a href="/terms.php" onClick="window.open('/terms.php', 'Terms','width=550,height=500,scrollbars=yes,resizable=yes'); return false;">Terms of Use</a> -<a href="/privacy.php" onClick="window.open('/privacy.php', 'Privacy Policy','width=550,height=500,scrollbars=yes,resizable=yes'); return false;"> Privacy Policy</a></p>
+		<p style="font-size: 11px; color: #555;">
+			This website is compensated by 3rd party advertisers for sending visitors to their websites. In order to be eligible for a participation prize, user must complete and submit survey and meet 3rd party advertiser requirements. 3rd party advertiser requirements are most commonly in the form of a weekly or monthly mobile subscription. These mobile subscriptions are NOT free. Details can be found on 3rd party advertiser's terms and conditions at the bottom of the offer/advertiser's page. The 3rd party advertisers' page also provides instructions on how to cancel any mobile subscriptions, most commonly this can be achieved by responding to any received texts with the word  "STOP".
+			 Products and companies featured on this website are trademarks of their respective owner. This website is not responsible for gift fulfillment. Additionally, all listed merchants, products, services or brands in no way endorse or sponsor this website's offer and are not liable for any alleged or actual claims related to this offer.
+		</p>
+	</div>
+	</a>
+
+</div>
+
+
+<script type="text/javascript" >      
+var m=0
+var s=120
+var timer_container=document.getElementById("survey-timer");
+timer_container.innerHTML=s+"."+m;
+
+function timer(){
+	if (m<=0){
+		m=9;
+		s-=1;
+	}
+	if(s>=0){
+		m-=1;
+		timer_container.innerHTML=s+"."+m;
+		setTimeout(timer,100);
+	}
+}
+</script> 
+
+<script>
+ timer(); 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,661 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang="en-US" xmlns:sh="http://www.stubhub.com/NS/wp" xmlns="http://www.w3.org/1999/xhtml"><head><link href="/assets/default.css" rel="stylesheet" type="text/css"/><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="description" content="Buy &amp; Sell Concert Tickets, Sports Tickets, Theater Tickets and Broadway Tickets at StubHub!">
+<meta name="keywords" content="tickets,Event Tickets, Sports Tickets, Concert Tickets, Broadway Tickets, Theater Tickets, Theatre Tickets">
+<meta name="verify-v1" content="76uSd+p6Wdh1GAb/fLa+LQisM0KLF/j0iZfknY23hV8=">
+<meta name="y_key" content="c9717223d7dfee0a">
+<meta name="msvalidate.01" content="38EDDF2A17C2096F541940E51BD2B9DF">
+<title>Tickets at StubHub! Where Fans Buy and Sell Tickets</title><!-- srcId: HomePage --><link href="http://cache1.stubhubstatic.com/resources/mojito/css/feature/home.bundle.rb1203.min.css" rel="stylesheet" type="text/css"/><!-- the "noscript" css will be removed by javascript --><link href="http://cache1.stubhubstatic.com/resources/mojito/css/common/noscript-rb1203.css" id="noscriptCssLink" rel="stylesheet" type="text/css"/><!-- begin css --><link rel="stylesheet" type="text/css" href="http://cache1.stubhubstatic.com/resources/css/stubhub.css">
+<link rel="canonical" href="http://www.stubhub.com/">
+<meta property="fb:app_id" content="109259765770403">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://cache1.stubhubstatic.com/promotions/scratch/fb/sh-fb-tile.jpg">
+<meta property="og:site_name" content="StubHub">
+<meta property="og:locale" content="en_US"><script type="text/javascript">getTheCookie = function(name){
+                    var nameDel = name + "=",
+                                                cind = document.cookie.split(';');
+                    for (var i = 0, l = cind.length; i < l; i++) {
+                        var c = cind[i];
+                        while (c.charAt(0) == ' ') 
+                            c = c.substring(1, c.length);
+                        if (c.indexOf(nameDel) == 0) 
+                            return c.substring(nameDel.length, c.length);
+                    };
+                    return null;
+                };
+
+
+                setTheCookie = function(name, value, isSession, expHours, domain, path){
+                    var expStr, hours = (typeof expHours != "undefined") ? expHours : 365 * 24, date = new Date(), domainStr = domain? "; Domain="+domain : "", pathStr = path? "; Path="+path : "; Path=/";
+                    date.setTime(date.getTime() + (hours * 60 * 60 * 1000));
+                    expStr = isSession? "" : "; Expires=" + date.toGMTString();
+                    document.cookie = name + "=" + value + domainStr + expStr + pathStr;
+					console.log("inside setTheCookie");
+                };
+var orgCookie=getTheCookie('STUB_SESS');
+
+var ua=navigator.userAgent;
+var theurl = window.location.href;
+var ref_mweb = 'ref=mweb';
+if((orgCookie == null) || (orgCookie.match("isFullSite")))
+{}
+else if(theurl.match(ref_mweb))
+{
+setTheCookie('STUB_SESS', orgCookie+'%7C'+'isFullSite' + '%7E%5E%7E' + 'yes', true, 1,'.stubhub.com');
+}
+else
+{
+			if ( ua.match(/iPod|iPhone|Android|Windows Phone|webOS/i) || (ua.match(/iPad/i)) || (ua.match(/Blackberry/i) && ua.match(/AppleWebKit/i))){
+window.location.assign("http://m.stubhub.com");}}</script><link rel="stylesheet" type="text/css" href="http://cache1.stubhubstatic.com/promotions/scratch/lt/www-5.0.css"><script src="http://cache1.stubhubstatic.com/promotions/scratch/test/mbox.js" language="Javascript1.2"></script><script>var staticDomain = 'http://cache1.stubhubstatic.com';</script><script type="text/javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/foresee_v1/foresee-trigger.js"></script><link rel="stylesheet" type="text/css" href="http://cache1.stubhubstatic.com/promotions/scratch/lt/home-content-5.0.css">
+<!--[if lt IE 7]><script type="text/javascript" src="/promotions/scratch/JS/edelmsg-ie6fix.js"></script>
+	<style>#srchbtn {background:url(http://cache1.stubhubstatic.com/promotions/scratch/lt/button_search_ie6.png) no-repeat 0 0;}
+	#tglne {background:url(http://cache1.stubhubstatic.com/promotions/scratch/lt/tagline_ie.gif) no-repeat bottom right;}</style><![endif]--><script type="text/javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/lt/getCookie-2.1.js"></script><link rel="stylesheet" type="text/css" href="http://cache1.stubhubstatic.com/resources/css/jquery.autocomplete.css"><style>#header {position:relative;}
+				#PLOuterCL {position:relative;}</style><link rel="stylesheet" type="text/css" href="http://cache1.stubhubstatic.com/promotions/scratch/billboards/bb.css"><!-- end css --></head><body class="phoenix homepage" id="GridBody"><div id="GridWrapper"><!-- begin JsIncludesTopBody --><script type="text/javascript">
+    	 
+			function readCookie(name) {
+				var nameEQ = name + "=";
+				var ca = document.cookie.split(';');
+				var i=0;
+				while(i!=ca.length) {
+					var c = ca[i];
+					while (c.charAt(0)==' ') c = c.substring(1,c.length);
+					if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+					i++;
+				}
+				return null;
+			}
+			function getCookieletArray(val) {
+				if(!val){ //cookie not found
+					return new Array();
+				}
+					var format = {
+						"COOKIELET_DELIMITER":"|",
+						"NAME_VALUE_DELIMITER":"~%5E~"
+					};
+				  var clts = {};
+				  var a = val.split(format.COOKIELET_DELIMITER);
+				  var i=0;
+				  while(i!=a.length) {
+					  var idx = a[i].indexOf(format.NAME_VALUE_DELIMITER);
+					  if(idx != 0) {
+					  	  if(idx!= -1){
+						  	clts[a[i].substring(0,idx)] = a[i].substring(idx+format.NAME_VALUE_DELIMITER.length);
+						  }						  
+					  }
+					  i++;
+				  }
+				  return clts;
+			}
+			function addClass(ele,cls) {
+				if(ele!=null){
+				 	ele.className += " "+cls;
+				 }
+			}
+			function removeClass(ele,cls) {
+				if(ele!=null){
+					var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+					ele.className=ele.className.replace(reg,' ');
+				}
+			}
+			function selectTab(index){	
+				tabs = "tabs-" + (parseInt(index)+1);
+				tabsli = "tabs-li-" + (parseInt(index)+1);
+				addClass(document.getElementById(tabs), "preload");
+				addClass(document.getElementById(tabsli), "ui-tabs-selected");
+				removeClass(document.getElementById(tabs), "hideOnLoad");
+			}
+			var cookie = getCookieletArray( readCookie("STUB_BROWSE_INFO") );
+			var ht = cookie["ht"]?cookie["ht"]:0;
+		  
+		</script><script type="text/javascript">
+var noscriptCss = document.getElementById("noscriptCssLink");
+if (noscriptCss) noscriptCss.disabled = true;
+</script><noscript><div id="noscriptMsg"><span class="icon-24 icon-flag" id="noscriptIcon"> </span> To use all the features of this page, you'll need to enable JavaScript. You'll find the JavaScript setting in your browser's preferences or Internet options.<br/> [ <a href="/howToEnableJavaScript.html" target="_new">More Info</a> ] </div></noscript><script src="http://s.stubhubstatic.com/resources/mojito/js/lib/TeaLeaf.bundle.201111261850.min.js" type="text/javascript"></script><!-- end JsIncludesTopBody --><div id="GridTop"><!-- begin header --><style>
+#.phoenix GridTop {
+max-height:180px;
+}
+</style><script type="text/javascript">
+			var ref=document.referrer;
+			if (ref.match("/checkout/mobile"))
+			{
+				document.location.href = "http://m.stubhub.com/mobile/find/";
+			}
+		</script><script language="javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/lt/omniSearch_02.js"></script><div id="hdrcont" class="phoenix">
+   <div id="geocont">
+      <div id="geoname"><a href="#geoloc2" id="oll2"><span style="font-size:12px;padding-right:8px;">Philadelphia, PA</span><span id="oll2-a" class="nodecoration arrow-7-orange arrow-7-s">&nbsp;</span></a></div>
+   </div>
+   <div id="usrmncont">
+      <ul id="headermenu">
+         <li>
+            				Hi, <a href="https://myaccount.stubhub.com/login/Signin">Sign in</a> or <a href="https://myaccount.stubhub.com/login/register">Register</a></li>
+         <li class="pipe">|</li>
+         <li><a href="/how-stubhub-works/" title="How to buy tickets on StubHub" rel="nofollow">Buy</a></li>
+         <li class="pipe">|</li>
+         <li><a href="https://sell.stubhub.com/sell/" title="Get started selling tickets on StubHub" rel="nofollow">Sell</a></li>
+         <li class="pipe">|</li>
+         <li><a href="/help/" title="Find help and customer service" rel="nofollow">Customer Support</a></li>
+         <li class="pipe">|</li><span id="fb-profile-pic" style="display: none">
+            <li><a href="http://www.facebook.com/Stubhub"><img style="width:23px;height:23px;" id="profile-pic" src="http://cache1.stubhubstatic.com/promotions/scratch/fb/btn_FB_logo.png"></a></li></span><li style="cursor: hand; cursor: pointer;"><img id="fb-connect-header" style="display: none" src="http://cache1.stubhubstatic.com/promotions/scratch/fb/btn_FB_connect_2.png" title="Facebook Connect"></li>
+      </ul>
+   </div>
+   <div id="shlogo"><a href="/" title="StubHub.com"><img src="http://cache1.stubhubstatic.com/promotions/scratch/lt/sh_logo2.gif" border="0"></a></div>
+   <div id="hdrgrpcont">
+      <div id="hdrrt">
+         <div id="tagline">
+            			Where fans buy &amp; sell tickets™
+            		
+         </div>
+         <form action="/search/doSearch" id="searchForm" name="searchForm" method="get" onsubmit="searchTracking();omnituretagging_header()">
+            <div id="srchcont"><input class="phx_input" id="searchStr" name="searchStr" maxlength="256" size="35" onblur="if (this.value == '') this.value = 'Enter: Team, artist, event, venue';this.style.color='#888'; if(this.value != '' &amp;&amp; this.value.search('Enter:')==-1) this.style.color = '#888';" onfocus="if (this.value.search('Enter:')!=-1) this.value = ''; this.style.color='#888';" style="font-family: Arial; color: rgb(136, 136, 136); font-size: 14px;" value="Enter: Team, artist, event, venue" onkeypress="checkEnter_omnituretagging(event)" autocomplete="off" type="text"><input autocomplete="off" name="pageNumber" value="1" type="hidden"><input autocomplete="off" name="resultsPerPage" value="50" type="hidden"><input autocomplete="off" name="searchMode" value="event" type="hidden"><input autocomplete="off" name="start" value="0" type="hidden"><input autocomplete="off" name="rows" value="50" type="hidden"><input autocomplete="off" name="geo_exp" value="1" type="hidden"></div>
+            <div id="srchbtncont"><button id="srchbtn" type="submit"></button></div>
+            <div id="c_srch"><a id="OpenAdvanceSearch" href="#findTickets"><span>Customize your search</span><img align="absmiddle" src="/promotions/scratch/lt/c_srch.gif"></a></div>
+         </form>
+      </div>
+   </div>
+</div>
+<div id="mm">
+   <ul class="mg">
+      <li id="nav_upcoming"><a id="upcum" class="atest" href="#">Upcoming <img src="/promotions/scratch/lt/mm_chev.png"></a><div style="width:140px;">
+            <ul>
+               <li><a href="#" id="weekend">This weekend</a></li>
+               <li><a href="#" id="three">Next 3 days</a></li>
+               <li><a href="#" id="seven">Next 7 days</a></li>
+               <li><a href="#" id="thirty">Next 30 days</a></li>
+            </ul>
+         </div>
+      </li>
+      <li id="nav_sports"><a class="atest" href="/sports-tickets/">Sports <img src="/promotions/scratch/lt/mm_chev.png"></a><div id="sports">
+            <ul>
+               <li><a href="/mlb-tickets/">MLB</a></li>
+               <li><a href="/nhl-tickets/">NHL</a></li>
+               <li><a href="/nba-tickets/">NBA</a></li>
+               <li><a href="/nfl-tickets/">NFL</a></li>
+               <li><a href="/soccer-tickets/">Soccer</a></li>
+               <li><a href="/golf-tickets/">Golf</a></li>
+               <li><a href="/nascar-tickets/">NASCAR</a></li>
+               <li><a href="/monster-jam-tickets/">Monster Jam</a></li>
+               <li><a href="/fight-tickets/">Fight</a></li>
+            </ul>
+         </div>
+      </li>
+      <li id="nav_concerts"><a class="atest" href="/concert-tickets/">Concerts <img src="/promotions/scratch/lt/mm_chev.png"></a><div id="concerts">
+            <ul>
+               <li><a href="/classical-music-tickets/">Classical &amp; Vocal</a></li>
+               <li><a href="/country-music-tickets/">Country &amp; Folk</a></li>
+               <li><a href="/dance-music-tickets/">Dance &amp; Electronica</a></li>
+               <li><a href="/blues-rb-jazz-music-tickets/">Jazz, Blues &amp; R&amp;B</a></li>
+               <li><a href="/hip-hop-pop-and-rock-tickets/">Rock, Pop &amp; Hip-Hop</a></li>
+               <li><a href="/world-music-tickets/">World &amp; New Age</a></li>
+            </ul>
+         </div>
+      </li>
+      <li id="nav_theater"><a class="atest" href="/theater-tickets/">Theater <img src="/promotions/scratch/lt/mm_chev.png"></a><div id="comedy">
+            <ul>
+               <li><a href="/ballet-dance-tickets/">Ballet/Dance</a></li>
+               <li><a href="/cirque-du-soleil-tickets/">Cirque</a></li>
+               <li><a href="/classical-music-and-opera-tickets/">Classical Music</a></li>
+               <li><a href="/comedy-tickets/">Comedy</a></li>
+               <li><a href="/family-tickets/">Family</a></li>
+               <li><a href="/musical-tickets/">Musicals</a></li>
+               <li><a href="/play-tickets/">Plays</a></li>
+            </ul>
+         </div>
+      </li>
+      <li id="nav_myaccount"><a class="atest" href="/account/">My Account <img src="/promotions/scratch/lt/mm_chev.png"></a><div style="width:151px;">
+            <ul>
+               <li style="color:#444444"><b>Going to events</b></li>
+               <li><a href="https://myaccount.stubhub.com/myaccount/orders/" title="Manage preferences, orders and listings" rel="nofollow">Orders</a></li><br><li style="color:#444444"><b>Selling tickets</b></li>
+               <li><a href="https://myaccount.stubhub.com/myaccount/listings/" title="Manage preferences, orders and listings" rel="nofollow">Listings</a></li>
+               <li><a href="https://myaccount.stubhub.com/myaccount/sales/" title="Manage preferences, orders and listings" rel="nofollow">Sales</a></li><br><li style="color:#444444"><b>Getting organized</b></li>
+               <li><a href="https://myaccount.stubhub.com/myaccount/yourinfo/" title="Manage preferences, orders and listings" rel="nofollow">Your info</a></li>
+            </ul>
+         </div>
+      </li>
+   </ul>
+</div>
+<div style="clear:both"></div>
+<div id="offer_content"></div><script type="text/javascript">var pageType = "HomePage";
+var TT_variant = '';//added for STUBHUB AB testing
+</script><div class="mboxDefault"></div><script language="JavaScript1.2">mboxCreate('Global', 'pageType=HomePage', 'section=', 'mbox_channelId=', 'mbox_genre_grand_parent_id=-1', 'mbox_genre_parent=0', 'mbox_event_id=');</script><script language="JavaScript">var s_account="stubhub";</script><script language="JavaScript" src="http://cache1.stubhubstatic.com/promotions/scratch/test/s_code_common.js"></script><script language="JavaScript">
+mboxCreate('homepage-rightrail-test');
+</script><script>		
+var userGeo = '522';
+var intlDomain = '.stubhub.com';
+var chId= '';
+var cid= '';
+</script><div style="clear:both"></div><?xml version="1.0" encoding="UTF-8"?><div id="iphoneapp" style="margin:5px 0px 10px 0px; float:left; display:none; text-align:center; background-color:#FBB400; width:100%; height:70px;"><a href="itms://itunes.apple.com/us/app/id366562751"><img src="http://cache1.stubhubstatic.com/promotions/scratch/common/iphone_banner.gif" id="iphoneappimg"/></a></div><div id="androidapp" style="margin:5px 0px 10px 0px; float:left; display:none; text-align:center; background-color:#FBB400; width:100%; height:70px;"><img src="http://cache1.stubhubstatic.com/promotions/scratch/common/android_banner.gif" id="androidappimg" border="0"/></div><!-- end header --><!-- end GridTop --></div><div class="setFormattingContext" id="GridMiddle"><div id="GridCenter"><div id="GridCenterSp"><!-- ================= Layout PARAMETERS ================= --><!-- define the contents of the layout sections: --><!-- begin topBody --><div class="clearfix" id="bannerContentTop"><div class="hp_bb">
+   <div style="background-image:url(/promotions/scratch/billboards/billboard-460-concert-band-male.jpg)" class="bb_cont">
+      <div class="bb_text_wrapper" onclick="location.href='/nickelback-tickets/?osid=hp_bb_geo'+bn_userGeoId+'-'+$(this).next().find('a').attr('href').replace(/\//g,'');">
+         <div class="bb_text" style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000,endColorstr=#40000000);">
+            <div class="bb_text_t">Nickelback</div>
+            <div class="bb_text_b">Wells Fargo Center</div>
+         </div>
+      </div>
+      <div class="bb_btm_cont">
+         <div class="bb_linktext"><a href="/nickelback-tickets/">BUY/SELL TICKETS</a></div>
+         <div id="nav">
+            <div class="bb_right"></div>
+            <div class="nav_bg"></div>
+            <div class="bb_left"></div>
+         </div>
+      </div>
+   </div>
+   <div style="display:none;background-image:url(/promotions/scratch/billboards/billboard-460-concert-boy-band.jpg)" class="bb_cont">
+      <div class="bb_text_wrapper" onclick="location.href='/one-direction-tickets/?osid=hp_bb_geo'+bn_userGeoId+'-'+$(this).next().find('a').attr('href').replace(/\//g,'');">
+         <div class="bb_text" style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000,endColorstr=#40000000);">
+            <div class="bb_text_t">One Direction</div>
+            <div class="bb_text_b">May 28</div>
+         </div>
+      </div>
+      <div class="bb_btm_cont">
+         <div class="bb_linktext"><a href="/one-direction-tickets/">BUY/SELL TICKETS</a></div>
+         <div id="nav">
+            <div class="bb_right"></div>
+            <div class="nav_bg"></div>
+            <div class="bb_left"></div>
+         </div>
+      </div>
+   </div>
+   <div style="display:none;background-image:url(/promotions/scratch/billboards/billboard-460-hockey.jpg)" class="bb_cont">
+      <div class="bb_text_wrapper" onclick="location.href='/philadelphia-flyers-playoff-tickets/?osid=hp_bb_geo'+bn_userGeoId+'-'+$(this).next().find('a').attr('href').replace(/\//g,'');">
+         <div class="bb_text" style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000,endColorstr=#40000000);">
+            <div class="bb_text_t">Philadelphia Flyers Playoff Tickets</div>
+            <div class="bb_text_b">Choose your seats.</div>
+         </div>
+      </div>
+      <div class="bb_btm_cont">
+         <div class="bb_linktext"><a href="/philadelphia-flyers-playoff-tickets/">BUY/SELL TICKETS</a></div>
+         <div id="nav">
+            <div class="bb_right"></div>
+            <div class="nav_bg"></div>
+            <div class="bb_left"></div>
+         </div>
+      </div>
+   </div>
+</div><!--   --><!-- H1 Text --><h1>Buy and sell sports, concert, theater, and Broadway tickets on StubHub!</h1></div><!-- end topBody --><div class="clearfix" id="hptabs"><ul class="tabs"><li class="" id="tabs-li-2"><a href="#tabs-2"><span>Popular events</span></a></li><li class="" id="tabs-li-3"><a href="#tabs-3"><span>Venues</span></a></li></ul><div class="tabBody"><div class="tbevent hideOnLoad " id="tabs-2"><ul><li><div class="tableft"><a href="http://www.stubhub.com/philadelphia-flyers-playoff-tickets/flyers-vs-penguins-4-18-2012-4034869/"> 04/18</a></div><div class="tabcenter"><a href="http://www.stubhub.com/philadelphia-flyers-playoff-tickets/flyers-vs-penguins-4-18-2012-4034869/" title="NHL Eastern Conference Quarterfinals Playoff Tickets: Pittsburgh Penguins at Philadelphia Flyers - Home Game 2">Pittsburgh Penguins at Philadelphia Flyers</a></div><div class="tabright">255 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/jerry-seinfeld-tickets/jerry-seinfeld-erie-4-19-2012-4042006/"> 04/19</a></div><div class="tabcenter"><a href="http://www.stubhub.com/jerry-seinfeld-tickets/jerry-seinfeld-erie-4-19-2012-4042006/" title="Jerry Seinfeld Tickets">Jerry Seinfeld 07 00 PM at Warner Theatre (PA)</a></div><div class="tabright">34 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/bad-brains-tickets/bad-brains-philadelphia-trocadero-4-19-2012-4041426/"> 04/19</a></div><div class="tabcenter"><a href="http://www.stubhub.com/bad-brains-tickets/bad-brains-philadelphia-trocadero-4-19-2012-4041426/" title="Bad Brains Tickets">Bad Brains at Trocadero</a></div><div class="tabright">23 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/young-the-giant-tickets/young-the-giant-pittsburgh-stage-ae-4-20-2012-4031609/"> 04/20</a></div><div class="tabcenter"><a href="http://www.stubhub.com/young-the-giant-tickets/young-the-giant-pittsburgh-stage-ae-4-20-2012-4031609/" title="Young the Giant Tickets">Young the Giant at Stage AE</a></div><div class="tabright">144 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/pittsburgh-pirates-tickets/pirates-vs-cardinals-4-20-2012-2468296/"> 04/20</a></div><div class="tabcenter"><a href="http://www.stubhub.com/pittsburgh-pirates-tickets/pirates-vs-cardinals-4-20-2012-2468296/" title="St Louis Cardinals at Pittsburgh Pirates Tickets (Promo: Free Shirt Friday)">St Louis Cardinals at Pittsburgh Pirates</a></div><div class="tabright">2,774 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/pittsburgh-penguins-playoff-tickets/penguins-vs-flyers-4-20-2012-4032139/"> 04/20</a></div><div class="tabcenter"><a href="http://www.stubhub.com/pittsburgh-penguins-playoff-tickets/penguins-vs-flyers-4-20-2012-4032139/" title="NHL Eastern Conference Quarterfinals Playoff Tickets: Philadelphia Flyers at Pittsburgh Penguins - Home Game 3 (If Necessary)">Philadelphia Flyers at Pittsburgh Penguins</a></div><div class="tabright">198 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/tower-of-power-tickets/tower-of-power-glenside-keswick-theatre-4-20-2012-3765754/"> 04/20</a></div><div class="tabcenter"><a href="http://www.stubhub.com/tower-of-power-tickets/tower-of-power-glenside-keswick-theatre-4-20-2012-3765754/" title="Tower of Power Tickets">Tower of Power at Keswick Theatre</a></div><div class="tabright">11 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/rodrigo-y-gabriela-tickets/rodrigo-y-gabriela-upper-darby-tower-theatre-4-21-2012-4016874/"> 04/21</a></div><div class="tabcenter"><a href="http://www.stubhub.com/rodrigo-y-gabriela-tickets/rodrigo-y-gabriela-upper-darby-tower-theatre-4-21-2012-4016874/" title="Rodrigo y Gabriela Tickets">Rodrigo y Gabriela at Tower Theatre</a></div><div class="tabright">61 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/laidback-luke-tickets/laidback-luke-pittsburgh-stage-ae-4-21-2012-4041276/"> 04/21</a></div><div class="tabcenter"><a href="http://www.stubhub.com/laidback-luke-tickets/laidback-luke-pittsburgh-stage-ae-4-21-2012-4041276/" title="Laidback Luke Tickets">Laidback Luke at Stage AE</a></div><div class="tabright">48 tickets</div></li><li><div class="tableft"><a href="http://www.stubhub.com/philadelphia-flyers-playoff-tickets/flyers-vs-penguins-4-22-2012-4032111/"> 04/22</a></div><div class="tabcenter"><a href="http://www.stubhub.com/philadelphia-flyers-playoff-tickets/flyers-vs-penguins-4-22-2012-4032111/" title="NHL Eastern Conference Quarterfinals Playoff Tickets: Pittsburgh Penguins at Philadelphia Flyers - Home Game 3 (If Necessary)">Pittsburgh Penguins at Philadelphia Flyers</a></div><div class="tabright">2,962 tickets</div></li></ul></div><div class="hideOnLoad  " id="tabs-3"><div class="tableft"><div class="tabHeader"><span>Theaters & clubs</span><span class="allLink" href="#allTheater"><a><span class="arrow-7-orange arrow-7-e"> </span></a></span></div><ul class="tablistings"><li><a href="/walnut-street-theatre-event-tickets/" title="Walnut Street Theatre Tickets tickets">
+Walnut Street Thea…
+</a></li><li><a href="/hershey-theatre-tickets/" title="Hershey Theatre tickets">
+Hershey Theatre
+</a></li><li><a href="/keswick-theatre-event-tickets/" title="Keswick Theatre tickets">
+Keswick Theatre
+</a></li><li><a href="/tower-theatre-event-tickets/" title="Tower Theatre Tickets tickets">
+Tower Theatre
+</a></li><li><a href="/the-electric-factory-event-tickets/" title="The Electric Factory tickets">
+The Electric Facto…
+</a></li><li><a href="/theatre-of-living-arts-tickets/" title="Theatre of Living Arts tickets">
+Theatre of Living …
+</a></li><li><a href="/mann-music-center-event-tickets/" title="Mann Center for the Performing Arts tickets">
+Mann Center for th…
+</a></li><li><a href="/american-music-theater-lancaster-tickets/" title="American Music Theatre - Lancaster Tickets tickets">
+American Music The…
+</a></li></ul></div><div class="tabcenter"><div class="tabHeader"><span>Arenas</span><span class="allLink" href="#allArena"><a><span class="arrow-7-orange arrow-7-e"> </span></a></span></div><ul class="tablistings"><li><a href="/wells-fargo-center-philadelphia-tickets/" title="Wells Fargo Center Philadelphia tickets">
+Wells Fargo Center…
+</a></li><li><a href="/sovereign-bank-arena-event-tickets/" title="Sun National Bank Center Tickets tickets">
+Sun National Bank …
+</a></li><li><a href="/giant-center-event-tickets/" title="Giant Center tickets">
+Giant Center
+</a></li></ul><div class="tabHeader2"><div class="tabHeader"><span>Stadiums</span><span class="allLink" href="#allStadium"><a><span class="arrow-7-orange arrow-7-e"> </span></a></span></div><ul class="tablistings"><li><a href="/citizens-bank-park-event-tickets/" title="Citizens Bank Park tickets">
+Citizens Bank Park
+</a></li><li><a href="/lincoln-financial-field-event-tickets/" title="Lincoln Financial Field Tickets tickets">
+Lincoln Financial …
+</a></li></ul></div></div><div class="tabright"><div class="tabHeader"><span>Outdoor</span><span class="allLink" href="#allOutdoor"><a><span class="arrow-7-orange arrow-7-e"> </span></a></span></div><ul class="tablistings"><li><a href="/tweeter-center--the-waterfront-nj-event-tickets/" title="The Susquehanna Bank Center Tickets tickets">
+The Susquehanna Ba…
+</a></li><li><a href="/toyota-pavilion-at-montage-mountain-event-tickets/" title="Toyota Pavilion At Montage Mountain tickets">
+Toyota Pavilion At…
+</a></li><li><a href="/festival-pier-at-penns-landing-event-tickets/" title="Festival Pier at Penns Landing Tickets tickets">
+Festival Pier at P…
+</a></li></ul><div class="tabHeader2"><div class="tabHeader"><span>Other</span><span class="allLink" href="#allOther"><a><span class="arrow-7-orange arrow-7-e"> </span></a></span></div><ul class="tablistings"><li><a href="/coca-cola-park-tickets/" title="Coca Cola Park tickets">
+Coca Cola Park
+</a></li><li><a href="/academy-of-music-event-tickets/" title="Academy of Music tickets">
+Academy of Music
+</a></li></ul></div></div></div></div></div><div class="hideOnLoad seeAllOverlay" id="allTheater"><span>Theaters & clubs</span><div class="seeAllBorder"><ul/></div></div><div class="hideOnLoad seeAllOverlay" id="allArena"><span>Arenas</span><div class="seeAllBorder"><ul/></div></div><div class="hideOnLoad seeAllOverlay" id="allStadium"><span>Stadiums</span><div class="seeAllBorder"><ul/></div></div><div class="hideOnLoad seeAllOverlay" id="allOutdoor"><span>Outdoor</span><div class="seeAllBorder"><ul/></div></div><div class="hideOnLoad seeAllOverlay" id="allOther"><span>Other</span><div class="seeAllBorder"><ul/></div></div><script type="text/javascript">
+if(typeof( selectTab ) == "function"){
+selectTab(ht);
+}
+</script><div class="hideOnLoad" id="redirectOverlay"></div><!-- begin bottomBody --><img src="http://cache1.stubhubstatic.com/promotions/scratch/lt/stay_connected_uk.jpg" width="461" height="52" border="0" usemap="#connectMap"><map name="connectMap" id="connectMap">
+   <area shape="rect" coords="185,0,260,52" href="#signUpAlert" alt="Email" id="signUpAlertLink">
+   <area shape="rect" coords="268,0,359,51" href="http://www.facebook.com/stubhub" alt="Facebook">
+   <area shape="rect" coords="367,0,443,61" href="http://www.twitter.com/stubhub" alt="Twitter"></map><div class="hideOnLoad" id="signUpAlert">
+   <div id="signUpModule">
+      <h2 class="alertHeader">Email updates</h2>
+      <div class="alertBody">To sign up for email updates, just set your email preferences in My Account (if you don't have one yet, you'll need to register
+         first).
+      </div>
+      <div class="buttonBar"><button value="Go to My Account" type="button" name="gotomyaccount" id="gotomyaccount" class="btn-gotomyaact" loclink="https://myaccount.stubhub.com/myaccount/preferences">&nbsp;</button><div style="padding-top:3px">&nbsp;&nbsp;|&nbsp;&nbsp;<a class="" id="emailAlertRegisterLink" href="https://myaccount.stubhub.com/login/register" gotoLink="https://myaccount.stubhub.com/myaccount/preferences">Register</a></div>
+      </div>
+   </div>
+</div><div id="fb_activity">Facebook activity</div>
+<!--div id="fb-root"></div>
+<script>
+	window.fbAsyncInit = function() {
+	FB.init({appId: '220826574638407', status: true, cookie: true, xfbml: true});
+	//FB.init({appId: '134545936570189', status: true, cookie: true, xfbml: true});
+	};
+	(function() {
+	var e = document.createElement('script');
+	e.type = 'text/javascript';
+	e.src = document.location.protocol +
+	  '//connect.facebook.net/en_US/all.js';
+	e.async = true;
+	document.getElementById('fb-root').appendChild(e);
+	}());
+</script-->
+
+<span id="fb-activity-home-dest"></span><!-- end bottomBody --><!-- end GridCenterSp --></div></div><div id="GridLeft"><!-- empty --><input id="geoId" name="geoId" type="hidden" value="0"/><input id="headerGeoId" name="headerGeoId" type="hidden" value="522"/><!-- begin bottomLeftColumn --><div class="ui-tabs ui-widget ui-widget-content ui-corner-all buy-sell-tabs" style="width:230px;">
+   <div id="tabWrapperId" class="tabWrapper tabWrapperBuy">
+      <ul class="tabs ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+         <li id="tabs-li-2" class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#tabs-buy"><span>Buy tickets</span></a></li>
+         <li id="tabs-li-3" class="ui-state-default ui-corner-top"><a href="#tabs-sell"><span>Sell yours</span></a></li>
+      </ul>
+      <div style="margin:0; clear: both;position:relative;top:-10px" class="rc-panel3t rc-panel3t-notl rc-all">
+         <div class="tabBody" style="margin-bottom:5px; clear: none; border: medium none;height:285px;border-bottom:1px solid #e1e1e1;">
+            <div class="tabBodyTop" style="background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(255,255,255)), color-stop(0.67, rgb(225,225,225)));background-image: -moz-linear-gradient(top, rgb(225,225,225) 33%, rgb(255,255,255) 67% );filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#ffffff');-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#ffffff');padding:1px;">
+               <div id="tabs-buy" class="tbevent ui-tabs-panel ui-widget-content ui-corner-bottom" style="background:#fff;">
+                  <div style="height:215px;">
+                     <div id="blackHeader" style="font-size:18px;font-weight:normal;"><br>
+                        How StubHub works<br><br></div>
+                     <div id="tab1content" style="padding: 0pt 0pt 0pt 10px; margin-bottom: 12px; margin-top: 3px;font-size:13px" class="blacktext">
+                        Buy tickets from other fans —<br> we guarantee that they'll be valid<br> and on time. <a href="/how-stubhub-works/">More...</a><br><br></div>
+                     <ol style="padding-left: 50px; margin-bottom: 36px;list-style-position:outside !important;font-size:13px;" class="step_ol_list1">
+                        <li><span style="font-weight: normal;">Choose the seats you want</span></li>
+                        <li><span style="font-weight: normal;">Place your order</span></li>
+                        <li><span style="font-weight: normal;">Get your tickets &amp; go! </span></li>
+                     </ol>
+                  </div>
+                  <div id="buyLinks"><br><a href="/guarantee/" style="padding-left: 0px;"><img src="/promotions/scratch/lt/fanprotect_icon.gif"></a></div>
+               </div>
+            </div>
+            <div id="SellYours" style="background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(255,255,255)), color-stop(0.67, rgb(225,225,225)));background-image: -moz-linear-gradient(top, rgb(225,225,225) 33%, rgb(255,255,255) 67% );filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#ffffff');-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#ffffff');padding:0 1px 0 1px;">
+               <div id="SellYoursInner" class="hideOnLoad" style="background-color:#fff">
+                  <div id="tabs-sell" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                     <div style="height:215px;">
+                        <div style="padding-left: 9px; padding-top: 10px;font-size:18px;font-weight:normal;" id="blackHeader"><br>
+                           How StubHub works<br><br></div>
+                        <div id="tab2content" style="padding: 0pt 0pt 0pt 10px; margin-bottom: 13px;" class="blacktext">
+                           Sell your extra tickets - listing is free<br><br></div>
+                        <ol style="padding-left: 50px; margin-bottom: 36px;list-style-position:outside !important;" class="step_ol_list1">
+                           <li><span style="font-weight: normal;">Set your own price </span></li>
+                           <li><span style="font-weight: normal;">Deliver the tickets when they sell</span></li>
+                           <li><span style="font-weight: normal;">We pay you after the buyer gets them</span></li>
+                        </ol>
+                        <div style="width: 230px;" id="sellLinks">
+                           <div id="selltktanchr"><a style="cursor: pointer;" id="blueimage" href="https://sell.stubhub.com/sell/"></a></div>
+                           <div id="separator" style="float:left;">|</div>
+                           <div style="float:left;padding-top:5px"><a href="/promotions/scratch/common/selling-tutorial.html" style="padding-left: 0px; text-decoration: none; cursor: pointer;"> View tutorials</a></div>
+                        </div><br></div>
+                     <div id="buyLinks"><br><a href="/guarantee/" style="padding-left: 0px;"><img style="margin-top:-1px;*margin-top:-1px;" src="/promotions/scratch/lt/fanprotect_icon.gif"></a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div><script type="text/javascript">var userSegment= "rookie";</script><div xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" onclick="location.href='/nfl-team-schedules/';" title="MLB 2012 Tickets" style="background-image:url(http://cache1.stubhubstatic.com/promotions/scratch/lt/230x315_football_a.jpg);cursor:pointer;" class="hp_promo">
+   <div class="hp_promo_ln1">2012 NFL Schedule</div>
+   <div class="hp_promo_ln2">Plan your Fall accordingly. See your team's 2012 schedule now.</div>
+   <div><a style="text-decoration:none;">See schedules</a></div>
+</div><div xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" onclick="location.href='/goodbuys/';" title="Ticket Oak's Solid Deals" style="background-image:url(http://cache1.stubhubstatic.com/promotions/scratch/lt/230x315_ticket_oak_deals.jpg);margin-bottom:0;cursor:pointer;" class="hp_promo">
+   <div class="hp_promo_ln1">Ticket Oak's Solid Deals</div>
+   <div class="hp_promo_ln2">Looking for a good deal on seats? Ticket Oak's got you covered.</div>
+   <div><a style="text-decoration:none;">See deals</a></div>
+</div><!-- end bottomLeftColumn --><!-- end GridLeft --></div><div id="GridRight"><!-- begin outerRightColumn --><div xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" onclick="location.href='/gift-certificates/';" title="StubHub Gift Certificates" style="background-image:url(http://cache1.stubhubstatic.com/promotions/scratch/lt/230x315_giftcertificates.jpg);cursor:pointer;" class="hp_promo">
+   <div class="hp_promo_ln1 infoMod">Gift Certificates</div>
+   <div class="hp_promo_ln2">Make loved ones feel special with StubHub gift certificates.</div>
+   <div><a style="text-decoration:none;">Gift Certificates</a></div>
+</div><div xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" onclick="location.href='/one-direction-tickets/';" title="One Direction Tickets" style="background-image:url(http://cache1.stubhubstatic.com/promotions/scratch/lt/230x315_concert_smallvenue.jpg);cursor:pointer;" class="hp_promo">
+   <div class="hp_promo_ln1">One Direction</div>
+   <div class="hp_promo_ln2">Choose the seats you want for One Direction's tour this summer.</div>
+   <div><a style="text-decoration:none;">See tickets</a></div>
+</div><div xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" onclick="location.href='/mobile-apps/';" title="Mobile apps" style="background-image:url(http://cache1.stubhubstatic.com/promotions/scratch/lt/230x315_mobile.jpg);margin-bottom:0px;cursor:pointer;" class="hp_promo">
+   <div class="hp_promo_ln1 infoMod">StubHub. Anywhere. Anytime.</div>
+   <div class="hp_promo_ln2">Available for iPhone, Android, Windows Phone, and Mobile Web.</div>
+   <div><a style="text-decoration:none;">Mobile apps</a></div>
+</div><!-- end outerRightColumn --><!-- end GridRight --></div><!-- end GridMiddle --></div><script src="http://cache1.stubhubstatic.com/resources/mojito/js/feature/home.bundle.rb1203.min.js" type="text/javascript"></script><script>
+				if(!$.hasFlashPlayer){
+					$("#noflashmsg").show();	
+				}    
+		    </script><script language="javascript" type="text/javascript">
+		var eventDomain = {"US":{
+								"flag":"/resources/mojito/img/feature/browse/us-flag.jpg",
+								"switchDomainText":"We'll take you to our US site, <b>www.StubHub.com</b>, to view this information. If you already have a StubHub account, you can use it to sign in, and any order you place will be in US dollars (USD)."
+								},
+							"UK":{
+								"flag":"/resources/mojito/img/feature/browse/uk-flag.jpg",
+								"switchDomainText":"We'll take you to our UK site, <b>www.StubHub.co.uk</b>, to view this information. If you already have a StubHub account, you can use it to sign in, and any order you place will be in British pounds sterling (GBP)."
+								}
+		};
+	</script><div id="GridBottom"><!-- begin footer --><input type="hidden" value="-1" id="MLBParentId"><div id="footer">
+   <div id="footer">
+      <div id="footerMainContent" class="footer-main-content">
+         <div id="footerTopContent" class="footer-top-content">
+            <div class="footer-main-top-list footer-main-top-list-first">
+               <ul class="footer-main-ul">
+                  <li class="footer-main-li footer-main-ul-heading">ABOUT STUBHUB</li>
+                  <li class="footer-main-li"><a href="/about-us/">Overview</a></li>
+                  <li class="footer-main-li"><a href="/management-team/">Our team</a></li>
+                  <li class="footer-main-li"><a href="/press-box/">Press box</a></li>
+                  <li class="footer-main-li"><a href="/jobs/">Career opportunities</a></li>
+                  <li class="footer-main-li"><a href="/company-contact/">Contact us</a></li>
+               </ul>
+            </div>
+            <div class="footerdivider">
+               <div class="ftdv_top"></div>
+               <div class="ftdv_bottom"></div>
+            </div>
+            <div class="footer-main-top-list footer-main-top-list-second">
+               <ul class="footer-main-ul">
+                  <li class="footer-main-li">TICKETS</li>
+                  <li class="footer-main-li"><a href="/sports-tickets/">Sports tickets</a></li>
+                  <li class="footer-main-li"><a href="/concert-tickets/">Concert tickets</a></li>
+                  <li class="footer-main-li"><a href="/theater-tickets/">Theater tickets</a></li>
+               </ul>
+            </div>
+            <div class="footerdivider">
+               <div class="ftdv_top"></div>
+               <div class="ftdv_bottom"></div>
+            </div>
+            <div class="footer-main-top-list footer-main-top-list-third">
+               <ul class="footer-main-ul">
+                  <li class="footer-main-li">THEATER TICKETS</li>
+                  <li class="footer-main-li"><a href="/ballet-dance-tickets/">Ballet/Dance tickets</a></li>
+                  <li class="footer-main-li"><a href="/cirque-du-soleil-tickets/">Cirque tickets</a></li>
+                  <li class="footer-main-li"><a href="/comedy-tickets/">Comedy tickets</a></li>
+                  <li class="footer-main-li"><a href="/musical-tickets/">Musical tickets</a></li>
+                  <li class="footer-main-li"><a href="/play-tickets/">Play tickets</a></li>
+               </ul>
+            </div>
+            <div class="footerdivider">
+               <div class="ftdv_top"></div>
+               <div class="ftdv_bottom"></div>
+            </div>
+            <div class="footer-main-top-list footer-main-top-list-fourth">
+               <ul class="footer-main-ul">
+                  <li class="footer-main-li">GENERAL</li>
+                  <li class="footer-main-li"><a href="/guarantee/">Fan<i>Protect</i>™ Guarantee</a></li>
+                  <li class="footer-main-li"><a href="/gift-certificates/">Gift certificates</a></li>
+                  <li class="footer-main-li"><a href="/pick-up-locations/">Last Minute Service Centers</a></li>
+                  <li class="footer-main-li"><a href="/notifications/">Notifications</a></li>
+                  <li class="footer-main-li"><a href="/sitemap/">Site map</a></li>
+               </ul>
+            </div>
+            <div class="footerdivider">
+               <div class="ftdv_top"></div>
+               <div class="ftdv_bottom"></div>
+            </div>
+            <div class="footer-main-top-list-last">
+               <ul class="footer-main-ul">
+                  <li class="footer-main-li">STUBHUB SITES</li>
+                  <li class="footer-main-li footer-main-li-sites"><span class="footer-main-li-us">&nbsp;</span>&nbsp;&nbsp;<a href="http://www.stubhub.com/">United States</a></li>
+                  <li class="footer-main-li footer-main-li-sites"><span class="footer-main-li-uk">&nbsp;</span>&nbsp;&nbsp;<a href="http://www.stubhub.co.uk/">United Kingdom</a></li>
+                  <li class="footer-main-li footer-main-li-sites"><span class="footer-main-li-mobile">&nbsp;</span>&nbsp;&nbsp;<a href="http://m.stubhub.com/mobile/">Mobile</a></li>
+               </ul>
+            </div>
+         </div>
+         <div id="footerBottomContent">
+            <div class="footer-main-bottom-social">
+               <div>FOLLOW US</div>
+               <div id="socialInteractionFooter" class="social_interaction"><span id="twitter-footer-dest"></span><span id="fb-like-footer-dest"></span></div>
+            </div>
+            <div class="footer-main-bottom-copyright">©2000-2012&nbsp;StubHub, Inc. All rights reserved. Use of this website signifies your agreement to the StubHub <a href="/user_agreement/" title="User Agreement">User Agreement</a> and <a href="/privacy_policy/" title="Privacy Policy">Privacy Policy</a>. 
+               			 You are buying tickets from a third party; StubHub is not the ticket seller. Prices are set by sellers and may differ from
+               face value.
+               						
+            </div>
+         </div>
+      </div>
+   </div><script type="text/javascript" src="http://cache1.stubhubstatic.com/resources/js/third_party/jquery.autocomplete-rb1121.js"></script><script type="text/javascript">(function($){
+				$("#searchStr").autocomplete("/search/suggestions",{delay:400,minChars:1,matchSubset:0,matchContains:0,selectFirst:1,cacheLength:10,tabId: 0,category: $("#channel"),serviceType:"REST"});
+			})(jQuery);</script><script src="http://cache1.stubhubstatic.com/promotions/scratch/lt/bubble.min-1.0.js"></script><a name="bubble1"></a><div id="bubble1" class="bubble hideOnLoad">
+      <p style="font-size:12px;color:#444444;"></p>
+   </div><a name="geoloc2"></a><div id="geoloc2" class="hideOnLoad" style="width: 100%; padding: 3px 0px;"></div>
+   <div id="findTickets" class="hideOnLoad" style="min-height:55px; background-color: white;"></div><script type="text/javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/content/common.js"></script><script type="text/javascript">var pagetypeiphone = 'HomePage';</script><script type="text/javascript">$(function() {
+			$('#srchbtn').click(function() {
+				var error_text;
+				var search_term = "";
+				search_term = $.trim($("#searchStr").val());
+				if(search_term=='' || search_term.match("Enter: Team, artist, event, venue"))
+				{
+					error_text = true;	
+				}
+				else if (search_term.match(/[^a-zA-Z0-9 ]/g)) 
+				{
+					if (search_term.match(/[a-zA-Z0-9 ]/g))
+						error_text = false;                 				
+					else
+						error_text = true;								 
+		        }
+		
+				/*Display alert box*/
+				if(error_text)
+
+				{
+					alert("Please enter the name of the team, artist, event, or venue you're looking for and click the 'Search' button.");
+					$("input#searchStr").focus();			
+					return false;
+				}
+				else
+					return true;
+			});		
+		});</script><script>var loadScript = function(url,success) {
+			window.setTimeout(function(){
+				$.getScript(url,success);
+			},1000)
+		}</script><div class="mboxDefault"></div><script language="JavaScript1.2">mboxCreate('homepage_test', 'hp_new=true');</script><script language="javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/lt/content-1.1.min.js" type="text/javascript"></script><script>$(document).ready(function() {
+    loadScript('http://cache1.stubhubstatic.com/promotions/scratch/lt/home-content-min-8.3.js');
+});</script><script type="text/javascript">(function($) {
+			$(function() {
+                        
+		        $("#bottomContentTitle-module").panel({bgTopClass:'p-bg-hdrgry-lrg p-hdr-lrg'});
+		});
+		})(jQuery);</script><script type="text/javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/billboards/jquery.cycle.min.js"></script><script type="text/javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/billboards/bb.js"></script><script>$('#signUpAlertLink').overlay({
+    modal: true,
+    width: 400,
+    overlayId: 'signupalertoverlay',
+    source: '#signUpAlert'   
+});
+$("button#gotomyaccount").livequery('click',function() {
+            window.location = $(this).attr('loclink');
+        });
+$("#emailAlertRegisterLink").attr('href',$("#emailAlertRegisterLink").attr('href') + '?goto='+ encodeURIComponent($("#emailAlertRegisterLink").attr('gotoLink')));
+		
+		</script><script type="text/javascript">
+			$(document).ready(function() { 
+$("#nav_upcoming > a.atest").removeClass("highlight");	});
+</script></div><script type="text/javascript">
+    $(document).ready(function() {
+        var completeUrl = window.location.href;
+        /*-------- iphone banner ---------------- */
+        if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i)) {
+            if (pageType.match(/HomePage/i)) {
+                $('#GridTop').after($('#iphoneapp'));
+                $('#iphoneapp').show();
+            }
+            else if (pageType.match(/BrowseGenre/i) || pageType.match(/BrowseCategory/i) || pageType.match(/BrowseGenreLeaf/i) || pageType.match(/Genre Page/i) || pageType.match(/BrowseEvent/i)) {
+                $('#header').append($('#iphoneapp'));
+                $('#iphoneapp').show();
+            }
+        }
+        /*-------- Android banner ---------------- */
+        else if (navigator.userAgent.match(/Android/i) && navigator.userAgent.match(/AppleWebKit/i)) {
+
+            if (pageType.match(/HomePage/i)) {
+                $('#GridTop').after($('#androidapp'));
+                $('#androidapp').show();
+            }
+            else if (pageType.match(/BrowseGenre/i) || pageType.match(/BrowseCategory/i) || pageType.match(/BrowseGenreLeaf/i) || pageType.match(/Genre Page/i) || pageType.match(/BrowseEvent/i)) {
+                $('#header').append($('#androidapp'));
+                $('#androidapp').show();
+            }
+        }
+    });
+</script><script type="text/javascript">
+if((pageType == "BrowseGenreLeaf") &&  ($("#isRedirectedFromExpiredEvent").length > 0) && ($("#isRedirectedFromExpiredEvent").val() == "true") && ($("#expiredEventId").length > 0))
+$.ajax({ url: "https://stubhub.tt.omtrdc.net/m2/stubhub/mbox/standard?mbox=productPage&productId="+$("#expiredEventId").val()+"&inventory=0&price=1&productSort=1&mboxCount=1&mboxHost=&mboxSession=1169899507587-365401&mboxPC=1169899570787-365401&mboxPage=1169690499069-486764&mboxReferrer=&mboxVersion=32", context: document.body, success: function(){$.showDebug('Date sent for event: ' + $("#expiredEventId").val());
+}});
+</script>
+
+<script type="text/javascript">
+                if ($('#payPalRightRailPromo').length > 0) {
+                    if ($.browser.msie)
+                        $('#getItBackArea').overlay({ align: 'relative', modal: true, width: 420, showCloseIcon: false, closeOnClickOutside: true, modal: false, closeSelector: $(".closePaypalOverlay"), overlayClass: 'paypalOverlayOuter', offsetX: 200, offsetY: 100 });
+                    else if ($.browser.safari)
+                        $('#getItBackArea').overlay({ align: 'relative', modal: true, width: 420, showCloseIcon: false, closeOnClickOutside: true, modal: false, closeSelector: $(".closePaypalOverlay"), overlayClass: 'paypalOverlayOuter', offsetX: 220, offsetY: 250 });
+                    else
+                        $('#getItBackArea').overlay({ align: 'relative', modal: true, width: 420, showCloseIcon: false, closeOnClickOutside: true, modal: false, closeSelector: $(".closePaypalOverlay"), overlayClass: 'paypalOverlayOuter', offsetX: 220, offsetY: -80 });
+                }
+
+</script><script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script><div id="fb-root"></div><script>var siteDomain = '.stubhub.com';
+			var userStatus = 'guestuser';	
+			loadScript("http://cache1.stubhubstatic.com/promotions/scratch/lt/social-content-3.1.js");
+						
+						</script><div id="social-interaction-src" class="hideOnLoad"><span id="fb-like-footer-src"><fb:like href="http://www.facebook.com/stubhub" layout="button_count" show_faces="false" ref="footer" action="like" font="arial"></fb:like></span><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script><span id="twitter-footer-src"><a href="https://twitter.com/StubHub" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @StubHub</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></span><span id="fb-activity-home-src"><fb:recommendations site="www.stubhub.com" width="460" height="230" header="false" font="trebuchet ms" border_color="#ffffff"
+      recommendations="true" ref="HP_activity"></fb:recommendations></span></div><script>$("#fb-like-footer-dest").html($("#fb-like-footer-src").html());
+				$("#twitter-footer-dest").html($("#twitter-footer-src").html()).css({'display':'block','float':'left','margin-right':'30px'});
+					$("#fb-activity-home-dest").html($("#fb-activity-home-src").html());</script><script type="text/javascript">var baynoteDisableAjax = false;
+  			var bn_userGeoId = '522';
+			var bn_userId = '';
+					var bn_pageType = 'HomePage';
+  			var bn_userType = '';</script><script type="text/javascript" src="http://cache1.stubhubstatic.com/promotions/scratch/baynote/baynote-single.js"></script><script>var keywordurl = window.location.href;
+		var keywordmatch = keywordurl.match(/statue\+of\+liberty|sea\+world|cedar\+point|busch\+gardens|seaworld|disneyworld|comicon|comic\+con|disneyland|disney\+land|saturday\+night\+live|snl|alcatraz|price\+is\+right|legoland|lego\+land|san\+diego\+zoo/i);
+if(keywordmatch && $('.SearchBox').length > 0) {
+calleBay(keywordmatch);
+}
+else {
+$(document).ready(function () {
+      BaynoteAPI.call('custom','invokeOnBaynote',[],'window');
+});
+
+var invokeOnBaynote = function () {
+var recscookieval = getCookie('bn_recs');
+if (!recscookieval) {
+   setTimeout(invokeOnBaynote, 500);
+   return;
+}
+					};
+}</script><script>$(document).ready(function() {loadScript("https://view.atdmt.com/jaction/sf1stu_UniversalAllPages_4");});</script><noscript><iframe src="https://view.atdmt.com/iaction/sf1stu_UniversalAllPages_4" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe></noscript><script type="text/javascript">FSR.CPPS.set('userid','');
+FSR.CPPS.set('pagetype','Home_page');
+FSR.CPPS.set('url',unescape('http%3A%2F%2Fwww.stubhub.com%2F'));
+FSR.CPPS.set('genre','All tickets');
+FSR.CPPS.set('genreid','0');
+FSR.CPPS.set('event','default');
+FSR.CPPS.set('eventid','default');
+FSR.CPPS.set('genreparentid','');
+FSR.CPPS.set('cobrandid','47');
+FSR.CPPS.set('pgeo','');
+FSR.CPPS.set('ipgid','522');
+FSR.CPPS.set('salemethod','\'' + $("span#deliveryInfo span").html() + '\'');
+FSR.CPPS.set('price','\'' + $("#averagePrice").html() + '\'');
+FSR.CPPS.set('fee','');
+FSR.CPPS.set('TT_variant','');</script><!-- begin footer --><!-- begin PageTracking --><script type="text/javascript">
+(function($) {
+/*content footer should have loaded s_code file, test s to make sure*/
+if (window.s!==undefined) {
+
+s.manageVars("c");
+s.pageName = "homepage";
+s.eVar26="www";
+s.server="";s.channel="";s.pageType="";s.events="";s.prop1="homepage";s.prop2="";s.prop3="";s.prop4="";s.prop5="";s.hier1="";s.eVar7="";s.products="";s.eVar3="";s.eVar12="";
+s.t();
+
+}
+})(jQuery);
+</script><!-- end PageTracking --><!-- end GridBottom --></div></div></body></html>

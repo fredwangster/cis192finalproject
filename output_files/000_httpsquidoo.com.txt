@@ -1,0 +1,413 @@
+<!doctype html>
+<!--
+ ____    _____   __  __  ______   ____    _____   _____      
+/\  _`\ /\  __`\/\ \/\ \/\__  _\ /\  _`\ /\  __`\/\  __`\    
+\ \,\L\_\ \ \/\ \ \ \ \ \/_/\ \/ \ \ \/\ \ \ \/\ \ \ \/\ \   
+ \/_\__ \\ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \  
+   /\ \L\ \ \ \\'\\ \ \_\ \ \_\ \__\ \ \_\ \ \ \_\ \ \ \_\ \ 
+   \ `\____\ \___\_\ \_____\/\_____\\ \____/\ \_____\ \_____\
+    \/_____/\/__//_/\/_____/\/_____/ \/___/  \/_____/\/_____/
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en" >
+  <head>
+  <title>Squidoo : Welcome to Squidoo</title>
+  <link rel="stylesheet" href="http://the.squidoocdn.com/styles/styles.v1038899223.css" />
+<link rel="stylesheet" href="http://the.squidoocdn.com/styles/style_home.v2963620451.css" />
+    <!--[if ie 8]>
+      <link rel="stylesheet" type="text/css" href="/styles/ie8.css" />
+    <![endif]-->
+    <!--[if ie 7]>
+      <link rel="stylesheet" type="text/css" href="/styles/ie7.css" />
+    <![endif]-->
+    <!--[if ie 6]>
+      <link rel="stylesheet" type="text/css" href="/styles/ie6.css" />
+    <![endif]--> 
+              <meta name="description" content="Squidoo. The popular (free) site for creating single webpages on your interests and recommendations. Even earn money for charity or yourself.">
+              <meta name="verify-v1" content="Y9PqlcFaGSPBqNgqAeHOHmf4FVz33FWOmpvxqfm1Y+M=">
+              <meta name="y_key" content="139a6f82135ebc6f">
+              <meta name="msvalidate.01" content="47298C5F95BAB1EE1B12653250E13140">
+            <link rel="icon" type="image/vnd.microsoft.icon" href="http://the.squidoocdn.com/images/favicon.ico" />
+  <link rel="SHORTCUT ICON" href="http://the.squidoocdn.com/images/favicon.ico"/>
+  
+
+        <script>
+      if (top.location != self.location) {
+        var href = self.location.href;
+                top.location = href;
+      }
+    </script>
+  
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="http://the.squidoocdn.com/scripts/jquery/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
+<script>$J = jQuery.noConflict();</script>
+<script>
+Squidoo={statichost:'http://the.squidoocdn.com',__generated__:'2012-04-17T21:29:16-04:00',host:'http://www.squidoo.com',secure:'https://www.squidoo.com',__captcha__:'_squidcap_e',DEPS:{}};Squidoo.DEPS.JQUERY={src:'//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js',alt:'jquery/jquery-1.6.4.min',isLoaded:function(callback){if('jQuery'in window){if(jQuery.fn.jquery.substr(0,3)>=1.6){callback(true);}else{jQuery=null;callback(false);}}else{callback(false);}},onLoad:function(callback){window.$J=jQuery.noConflict()
+callback();}};Squidoo.DEPS.TRACKER={src:'squidoo/lib/tracker',isLoaded:function(callback){callback(Squidoo.Tracker&&Squidoo.Tracker.lib);}};Squidoo.DEPS.JQUERY_UI={deps:[Squidoo.DEPS.JQUERY],src:'//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js',alt:'jquery/jquery-ui-1.8.16.min',isLoaded:function(callback){callback(jQuery.ui&&jQuery.ui.version=='1.8.16');}};Squidoo.DEPS.TEMPLATES={deps:[Squidoo.DEPS.JQUERY],src:'/scripts/squidoo/lib/templates.v2202656513.js',isLoaded:function(callback){callback(Squidoo.Templates&&Squidoo.Templates.lib);}};Squidoo.DEPS.COUNTDOWN={deps:[],src:'/scripts/countdown/countdown.v1221151160.js',isLoaded:function(callback){callback(window.squidtime);}};Squidoo.DEPS.VALIDATION={deps:[Squidoo.DEPS.JQUERY],src:'/scripts/squidoo/core/validation.v1085298854.js',isLoaded:function(callback){callback(Squidoo.Validation&&Squidoo.Validation.lib);}};Squidoo.DEPS.AUTOCOMPLETE={deps:[Squidoo.DEPS.JQUERY_UI],src:'squidoo/core/autocomplete',isLoaded:function(callback){callback(Squidoo.Autocomplete&&Squidoo.Autocomplete.lib);}};Squidoo.DEPS.MEDIA={deps:[Squidoo.DEPS.JQUERY],src:'squidoo/core/media',isLoaded:function(callback){callback(Squidoo.Media&&Squidoo.Media.Uploadable);}};Squidoo.DEPS.TOOLTIP={deps:[Squidoo.DEPS.JQUERY,Squidoo.DEPS.JQUERY_UI],src:'squidoo/lib/tooltip',isLoaded:function(callback){callback(jQuery.fn.pointer)}};Squidoo.DEPS.NOTIFYBAR={deps:[Squidoo.DEPS.JQUERY],src:'squidoo/lib/notifybar',isLoaded:function(callback){callback(window.NotifyBar)}};Squidoo.DEPS.UPLOAD={deps:[Squidoo.DEPS.JQUERY],src:'/scripts/squidoo/lib/plupload/plupload.squidoo.v1164665407.js',isLoaded:function(callback){callback(Squidoo.Upload.lib)}};Squidoo.DEPS.FACEBOOK={deps:[Squidoo.DEPS.JQUERY],src:'/scripts/squidoo/lib/facebook.v1363538750.js',isLoaded:function(callback){callback(Squidoo.Facebook&&Squidoo.Facebook.lib);},onLoad:function(callback){Squidoo.waitForSelection('body',function(){$J('body').prepend('<div id="fb-root"></div>');window.fbAsyncInit=function(){FB.init({channelUrl:'/channel.html',appId:'37459380049',status:true,cookie:true,xfbml:true,oauth:true});Squidoo.Facebook.init();Squidoo.Facebook.sdkLoaded=true;callback();};(function(){var e=document.createElement('script');e.async=true;e.src=document.location.protocol+'//connect.facebook.net/en_US/all.js';document.getElementById('fb-root').appendChild(e);}());});}};Squidoo.Facebook={appId:'37459380049',sdkLoaded:false,defaultPicture:'http://i2.squidoocdn.com/resize_square/squidoo_images/50/lm_placeholder.jpg',reload:function(btn,callback){if($.isFunction(btn)){callback=btn;btn=null;}
+FB.init({channelUrl:'/channel.html',appId:'37459380049',status:true,cookie:true,xfbml:true,oauth:true});self.sdkLoaded=true;if($.isFunction(callback)){callback(true);}
+if(btn){$J(btn).removeClass('btn_working');}},withFB:function(callback){if(Squidoo.Facebook.sdkLoaded){callback();}else{var i=setInterval(function(){if(Squidoo.Facebook.sdkLoaded){clearInterval(i);callback();}},100);}}};  $J.extend(Squidoo || {}, {
+    isMobile: '',
+    isIPad: '',
+    isIOS: ''
+  });
+
+  theLensName = '';
+  theLensId = '';
+  theRequestServerName = 'www.squidoo.com';
+  theServerName = 'www.squidoo.com';
+  isLoggedIn = false;
+  hasGaming = false;
+  theWindowPref = false;
+  theLensOwner = false;
+  theMember = false;
+  isMAP = false;
+</script><script src="http://the.squidoocdn.com/scripts/squidoo/core/squidoo.v3582341437.js"></script>
+    <!-- adsense setup -->
+  <script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+  </script>
+  <script type="text/javascript">
+    GS_googleAddAdSenseService("ca-pub-9879162776784828");
+    GS_googleEnableAllServices();
+  </script>
+  <script>
+  
+    GA_googleAddSlot("ca-pub-9879162776784828", "squidoo_generic_728x90_top");
+    GA_googleAddSlot("ca-pub-9879162776784828", "squidoo_generic_300x250_sidebartop");
+    GA_googleAddSlot("ca-pub-9879162776784828", "squidoo_generic_160x600_sidebarbottom");
+    GA_googleAddSlot("ca-pub-9879162776784828", "Chitika:Sidebar300x400");
+    GA_googleAddSlot("ca-pub-9879162776784828", "say_media_twig");
+
+    GA_googleFetchAds();
+  </script><!-- /adsense setup -->
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-185209-2'],['_setDomainName', 'www.squidoo.com'],['_setCustomVar', 1, 'Role', 'visitor', 1],['_trackPageview'],['sqev._setAccount', 'UA-185209-16'],['sqev._setDomainName', 'www.squidoo.com'],['sqev._trackPageview']); // end gaq.push
+
+  // 
+  // Google Analytics lazy-load
+  //
+  (function() {
+    var use_debug = false; false;
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/' + (use_debug ? 'u/ga_debug.js' : 'ga.js');
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  var evTrack = function(category, action, opt_label, opt_value) {
+    try {
+              _gaq.push(['_trackEvent', category, action, opt_label, opt_value]);
+          } catch (ex) {}
+  };
+
+  var evSocial = function(network, socialAction, opt_target, opt_pagePath) {
+    try {
+              _gaq.push(['_trackSocial', network, socialAction, opt_target, opt_pagePath]);
+          } catch (ex) {}
+  };
+
+  // lens stats
+  
+  //
+  // quantcast beacon
+  //
+  var _qevents = _qevents || [];
+
+  (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+  _qevents.push({
+    qacct:"p-5aMDYnNLAd_xM"
+  });
+
+      //
+    // mix panel
+    //
+    // var mpq=[];mpq.push(["init","688c8f775abde7c1135d8fe8aeeb8201"]);(function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+      </script>
+
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+  
+    
+</head>  <body  class="home_page">
+    <!--INFOLINKS_OFF-->
+    <div id="squidnav_wrap" class="container">
+  <div id="squidnav" class="row">
+    
+    <div id="squidnav_left" class="float_left six columns">
+      <ul>
+                  
+                      <li><a id="toolbar_login" href="https://www.squidoo.com/member/login">Log In</a></li>
+                    
+          <li><a href="http://www.squidoo.com/topics">Explore Topics</a></li>
+                    
+          <li><a onclick="_gaq.push(['_trackEvent', 'Sign Up', 'Join Us']);" href="http://www.squidoo.com/member/registration" class="onion_15 bold caps">Join Us</a></li>
+              </ul>
+    </div>
+    <div id="squidnav_right" class="float_right six columns">
+            <form id="header_search" method="get" action="http://www.squidoo.com/search/results" name="searchForm">
+                <input id="query" class="searchField" type="text" onfocus="this.value = '';" value="Search Squidoo" name="q"/>
+        <button id="btn_search_go" type="submit" value="Go">Go</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  (function($) {
+    $(function() {
+      if (screen.width <= 800) {
+        $('#squidnav_wrap').css('position', 'static');
+        $('body').css('padding-top', '0');
+      }    
+    });  
+    
+    $('#squidnav div').live('mouseenter', function() {
+      $(this).parents('li').addClass('active_li');
+    }).live('mouseleave', function() {
+      $(this).parents('li').removeClass('active_li');
+    });
+  })(jQuery);
+</script><div id="header_wrap">
+  <div id="header">
+    <h1><a href="http://www.squidoo.com/">Squidoo</a></h1>
+              </div>
+</div>
+
+<div id="sg_container"></div>
+
+    <div id="content_wrap">
+      <div id="content">
+        <div id="home_top_wrap">
+  <div id="home_top">
+    <h2>What's your story?</h2>
+    <p class="font24">Create a collection of the things you know and love. 
+      <a href="/lensbrainstorm">
+                  Learn how.
+              </a>
+    </p>
+    <div id="home_btn">
+              <a class="home_signup" href="https://www.squidoo.com/member/registration">Join for free!</a>
+        <span class="font11">and build a page in minutes</span>
+        
+    </div>
+  </div>
+</div>
+
+<div id="errors" style="display:none">
+  </div>
+<div id="info" class="alert_box" style="display:none">
+  <p class="font13"><a style="display: block; float: right; margin: 0 0 10px 10px;" href="#" onclick="jQuery('#info').fadeOut('slow');">Close</a> </p>
+</div>
+<h3>Popular Pages</h3>
+
+<div id="home_left" class="clear">
+  <div class="home_lenses spinner"></div>
+</div><!-- #home_left -->
+
+<div id="home_right">
+  
+  <div id="explore_box" class="home_sb_item">
+    <h3 class="">
+        Explore Topics</h3>
+    <ul class="no_style">
+       
+        <li><a href="http://www.squidoo.com/topics/food-and-cooking">Food &amp; Cooking</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/hobbies-games-toys">Hobbies, Games &amp; Toys</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/parenting-and-kids">Parenting &amp; Kids</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/pets-and-animals">Pets &amp; Animals</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/books-poetry-writing">Books, Poetry &amp; Writing</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/videogames">Video Games</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/home-and-garden">Home &amp; Garden</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/holidays-and-celebrations">Holidays &amp; Celebrations</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/travel-and-places">Travel &amp; Places</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/fashion-and-beauty">Fashion &amp; Beauty</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/weddings">Weddings</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/computers-and-electronics">Computers &amp; Electronics</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/education">Education</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/arts-and-design">Arts &amp; Design</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/entertainment">Entertainment &amp; Media</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/culture-and-society">Culture &amp; Society</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/music">Music</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/business-and-work">Business &amp; Work</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/sports-and-recreation">Sports &amp; Recreation</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/cars">Cars</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/nonprofits">Nonprofits</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/healthy-living">Healthy Living</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/internet">Internet</a></li> 
+       
+        <li><a href="http://www.squidoo.com/topics/relationships-and-family">Relationships &amp; Family</a></li> 
+          </ul> 
+      </div>
+  
+  
+  <div class="home_sb_item">
+    <h3>Testimonials</h3>
+    <ul class="quotes">
+              <li>"Squidoo works. It's a joy to us that people find Squidoo a good way to tell their stories. I felt like I was hearing voices that we'd never heard before. Squidoo unlocked them."
+         <span><a href="http://www.pollyklaas.org/">Glena Records, Polly Klaas Foundation</a></span>
+              <li>"I use my Squidoo earnings to buy my freedom to stay at home with my kids, be my own boss and do what I love."
+         <span><a href="/lensmasters/enslavedbyfaeries">enslavedbyfaeries</a></span>
+              <li>"Squidoo's secret is simple... it is simple!"
+         <span><a href="/lensmasters/michaelgibbons">Michael Gibbons</a></span>
+              <li>"Squidoo is an amazing vehicle for self-expression."
+         <span><a href="/lensmasters/kellymartinspeaks">KellyMartinSpeaks</a></span>
+              <li>"Squidoo is very addictive. Perhaps we need a warning label! I love the opportunity to write on diverse topics and quickly create a lens on the fly. The independence is wonderful, as well as the ability to create lenses that automatically donate to charity."
+         <span><a href="/lensmasters/genglo">Genglo</a></span>
+          </ul>
+  </div>
+</div><!-- #home_right -->
+
+<script>
+$J.ajax({
+  type: 'POST',
+  dataType: 'json',
+  url: '/home/json_home',
+  success: function(content) {
+    $J('#home_left').html(content.lenses.html);
+  }
+});
+$J('#home_left .spinner').spin(SPINNER_HOME);
+</script>
+
+                      </div><!-- /content -->
+    </div><!-- /content_wrap -->  
+    <!-- INFOLINKS_OFF -->
+<div id="footer_wrap" class="container">
+  <div id="footer" class="row">
+    
+    <div class="footer_left eight columns">
+      <ul class="footer_nav">
+        <li class="first"><a href="http://www.squidoo.com/squidoo/65355501-Terms-of-Service">TOS</a></li>
+        <li><a href="http://www.squidoo.com/originalitypact">Originality Pact</a></li>
+        <li><a href="http://www.squidoo.com/pages/squidteam">About Us</a></li>
+        <li><a href="http://www.squidoohq.com/">SquidooHQ</a></li>
+        <li><a href="http://www.squidoo.com/charity-sign-up">Charity</a></li>
+                <li><a href="http://www.squidoo.com/squidoo/65431441-Help-Feedback#module83018671" onclick="$Sq.bug(); return false;">Feedback &amp; Bugs</a></li>
+      </ul>
+      <!-- remove "#footer_copy" from stylesheet -->
+      <div class="font12 footer_copy">Copyright &copy; 2012,
+        Squidoo, LLC and respective copyright owners</div>
+      <div class="font11 footer_copy">This page and all the pages on Squidoo generate income for lensmasters and charities based on affiliate relationships with our partners, including Amazon, Google, eBay and others. Have fun.</div>
+    </div>
+  
+    <div class="four columns">
+              <div class="footer_right" id="news_sub" >
+          <h4 class="font13 nl_h4">Want our Newsletter?</h4>
+          <form action="#" onsubmit="Newsletter.subscribe(this); return false;">
+            <input type="text" class="italic nl_input" 
+              onfocus="this.value=''; jQuery(this.removeClass('italic'));"              id="footer_nl_input" name="email_address" value="enter e-mail address" />
+            <button class="b b24 float_left" type="submit" id="">Sign up!</button>
+          </form>
+        </div>
+          </div>
+    
+  </div>
+</div>
+<script>
+(function($) {
+  var self = window.Newsletter = {
+    subscribe: function(form) {
+      var form = $(form);
+      $.post('/member/ajax_subscribe/squidu', form.serialize(), function(error) {
+        if (error) {
+          alert(error);
+        } else {
+          alert('Thank you for subscribing!');
+          $('#news_sub').fadeOut();
+        }
+      });
+    }
+  };
+})(jQuery);
+</script>
+
+      <script>
+        if (jQuery('.twitter-share-button').size()) {
+          jQuery.getScript('http://platform.twitter.com/widgets.js', function() {
+            twttr.events.bind('tweet', function(event) {
+              function extractParamFromUri(uri, paramName) {
+                if (!uri) {
+                  return;
+                }
+                var uri = uri.split('#')[0];  // Remove anchor.
+                var parts = uri.split('?');  // Check for query params.
+                if (parts.length == 1) {
+                  return;
+                }
+                var query = decodeURI(parts[1]);
+
+                // Find url param.
+                paramName += '=';
+                var params = query.split('&');
+                for (var i = 0, param; param = params[i]; ++i) {
+                  if (param.indexOf(paramName) === 0) {
+                    return unescape(param.split('=')[1]);
+                  }
+                }
+              }  
+
+              if (event) {
+                var targetUrl;
+                if (event.target && event.target.nodeName == 'IFRAME') {
+                  targetUrl = extractParamFromUri(event.target.src, 'url');
+                }
+                evSocial('twitter', 'tweet', targetUrl);
+              }
+            });
+          });
+        }
+      </script>
+    
+<script type="text/javascript" language="JavaScript">
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035233" });
+(function() {
+  var s = document.createElement("script"), el =document.getElementsByTagName("script")[0]; s.async = true;
+  s.src = (document.location.protocol == "https:" ? "https://sb": "http://b") + ".scorecardresearch.com/beacon.js";
+  el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035233&cv=2.0&cj=1" />
+    <div style="display:none;">
+    <img src="//pixel.quantserve.com/pixel/p-5aMDYnNLAd_xM.gif" border="0" height="1" width="1" alt="Quantcast" />
+  </div>
+</noscript>
+
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/30/eum/rum.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-1.newrelic.com","3cd3786cd7",657144,"MQdQbBEHCEJYARdcCQhNcU0QEglcFkg=",0,35,new Date().getTime()]);</script>
+
+
+<div id="default_onion" class="default_onion" style="display: none;"></div>
+<div id="alert-overlay" style="display:none;"></div>
+<div id="lens_overlay" class="overlay_wrap" style="display:none;"></div>
+
+  </body>
+</html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head profile="http://www.w3.org/2006/03/hcard">
+        <title>Yellow Pages: Superpages Yellow Pages, Maps, Driving Directions, Weather...</title>
+        <meta name="description" content="Yellow Pages by Superpages.com - Find local businesses with our online Yellow Pages: Local Search, Ratings and Reviews, Maps, Driving Directions, Traffic, and Weather at your fingertips." />
+        <meta name="keywords" content="yellow pages,yellowpages,reverse lookup,reverse look up,phone books,toolbars,campus area yellow pages,telephone books,local search,peoplepages,people pages,U.S.,maps,driving directions,global directories,online advertising,SuperMedia,Super Media,SuperPages,City Pages,Advertise, web hosting" />
+		<!--include virtual="/inc/css-js_spglobal.inc" -->
+		<meta name="application-name" content="Superpages.com Local Business Search" />
+<meta name="msapplication-tooltip" content="Find local businesses on Superpages.com" />
+<meta name="msapplication-starturl" content="./" />
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="fb:page_id" content="290352330542" />
+<link rel="shortcut icon" href="http://img.superpages.com/images-yp/sp/images/favicon.ico"/>
+<!-- new hpglobal.php http://www.superpages.com//-->
+<link type="text/css" media="screen, projection" rel="stylesheet" href="http://yellowpages.superpages.com/common/css/spflyouts.1.0.css" />
+<link media="print" type="text/css" href="http://www.superpages.com/css/print.css" rel="stylesheet" />
+<link type="text/css" media="screen, projection" rel="stylesheet" href="http://www.superpages.com/spmin/?g=css" />
+<script language="JavaScript" src="http://jscss.superpages.com/common/js/jquery-1.4.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.superpages.com/spmin/?g=hpjs"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+var client_id = "133515049997773";
+var hostServ = "http://yellowpages.superpages.com";
+//-->
+</script>
+
+		<meta name="msapplication-task" content="name=Superpages.com - Find local businesses;action-uri=http://www.superpages.com/;icon-uri=http://www.superpages.com/favicon.ico" />
+		<meta name="msapplication-task" content="name=Daily Deals;action-uri=http://www.superpages.com/coupons/;icon-uri=http://www.superpages.com/favicon.ico" />
+		<meta name="msapplication-task" content="name=Maps and Directions;action-uri=http://maps.superpages.com/;icon-uri=http://www.superpages.com/favicon.ico" />
+		<meta name="msapplication-task" content="name=Find new and used cars;action-uri=http://cars.superpages.com/;icon-uri=http://img.superpages.com/images-yp/sp/images/icons/cars.ico" />
+		<meta name="msapplication-task" content="name=Find people;action-uri=http://people.superpages.com/;icon-uri=http://www.superpages.com/favicon.ico" />
+        <script language="JavaScript" type="text/javascript">
+            var locn = "";
+        </script>
+        <!-- SiteCatalyst code version: H.9. Copyright 1997-2007 Omniture, Inc. More info available at http://www.omniture.com -->
+        <script language="JavaScript" type="text/javascript">
+            s.channel = "Home Page"
+            s.hier1 = ""
+            s.pageName = "SPHP General";
+        </script>
+        <!-- End SiteCatalyst code version: H.9. -->
+    </head>
+    <body id="home">
+			<!-- header begin -->
+            	<!-- header begin -->
+
+<!-- from homepage HP //-->
+
+    
+
+
+<div class="mboxDefault"></div> 
+	<script type="text/javascript"> 
+		mboxCreate('SP_SPHP','pageName='+document.title,'siteSection=Home Page','mboxPageValue=0' ); 
+	</script>
+<div class="master">
+    <div class="hidden" style="position:absolute;top:115px">
+        <script language="JavaScript" type="text/javascript">
+            var axel = Math.random()+"";
+            var a = axel * 10000000000000;
+            document.write('<iframe src="http://fls.doubleclick.net/activityi;src=1016760;type=relau471;cat=super552;ord='+ a + '?" width="1" height="1" frameborder="0"></iframe>');
+        </script>
+        <noscript><iframe src="http://fls.doubleclick.net/activityi;src=1016760;type=relau471;cat=super552;ord=1?" width="1" height="1" frameborder="0"></iframe></noscript>
+    </div>
+    <script type="text/javascript">var L_encoded = ''; var maplocn = "";</script>
+    <script language="JavaScript" type="text/javascript">
+	
+function encode(str) {
+	var result = "";
+	
+	for (i = 0; i < str.length; i++) {
+		if (str.charAt(i) == " ") result += "+";
+		else result += str.charAt(i);
+	}
+	
+	return escape(result);
+}
+
+	setGeoLoc();
+		if (locn == "") {locn = ""; }
+		var maplocn = encode(locn);
+		if (T != "" || S != "") {
+        L_encoded = T.replace(' ', '+')+'+'+S;
+        }
+		
+function verifySimple(f) {
+		if(f == null) {
+			f = document.ypform;
+		}
+	if(f.C) {
+	var keywd = f.C.value;
+	aukwd = (keywd.indexOf("Find local businesses e.g.") != -1);
+	rfkwd = (keywd.indexOf("Required field") != -1);
+	keywd = keywd.replace( /^\s+/g, "" );
+	keywd = keywd.replace( /\s+$/g, "" );
+	if(f.N == null && (keywd == "" || rfkwd) || aukwd) {
+	f.C.value = "Required field";
+	f.C.style.color = "red";
+	f.C.focus();
+	return false;
+	}
+}
+	return true;
+}
+function filterInput(f){
+	f = document.ypform;
+	var keywd = f.C.value;
+	rfkwd = (keywd.indexOf("Required field") != -1);
+	if(rfkwd){
+	f.C.value = keywd.replace("Required field", "");
+	f.C.style.color = "#000";
+	} 
+}
+
+    </script>
+    		<div class="masthead">
+		<div id="changecity" class="modal"></div>
+			<div class="tabheader">
+				<ul class="nav clear">
+					<li class="current ot_header_businesses"><a href="http://www.superpages.com"><span>Local Businesses</span></a></li>
+					<li class=" ot_header_people"><a href="http://people.superpages.com/"><span>Find People</span></a></li>
+					<li class=" ot_header_cars"><a href="http://cars.superpages.com/#sptab" rel="nofollow"><span>Buy Cars</span></a></li>
+					<li><script language="JavaScript" type="text/javascript">document.write('<a class="ot_header_maps" href="http://mapserver.superpages.com/mapbasedsearch/?spheader=true&L='+maplocn+'" rel="nofollow">');</script><span>Maps</span></a></li>
+					<li class=" ot_header_coupons"><a href="http://www.superpages.com/coupons/"><span>Daily Deals</span></a></li>
+					<li class=" ot_header_supertips"><a href="http://www.superpages.com/supertips/"><span>Helpful Tips</span></a></li>
+					<li class=" ot_header_weather"><a href="http://www.superpages.com/cities/weatherforecast.html"><span>Local Weather</span></a></li>
+					<li class=" ot_header_lottery"><a href="http://www.superpages.com/cities/lottery/"><span>Lottery Results</span></a></li>
+					<li class="last  ot_header_superguarantee"><a href="http://www.superpages.com/superguarantee/"><span>SuperGuarantee</span></a></li>
+				</ul>
+				
+		<div id="header_link" class="sociallinks">
+		<ul>
+			<li id="spSignin" class="fbsignin center"><a id="spSigninRegistration" href="javascript:void(0)" rel="nofollow" title="Sign in to your account">Sign In</a></li>
+			<li class="hdfacebook"><iframe src="http://www.facebook.com/plugins/like.php?href=facebook.com%2Fsuperpagescom&amp;layout=button_count&amp;show_faces=false&amp;width=93&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:1px; overflow:hidden; width:92px; height:29px;" allowTransparency="true"></iframe></li>
+		</ul>
+		</div>
+		 		</div>		
+	  <!-- Search Form Header SP Global -->
+    <div class="search-bar clear hp">
+		<a class="logo" href="http://www.superpages.com">Superpages.com</a>
+			
+            <form action="http://yellowpages.superpages.com/listings.jsp" method="get" id="h_ypform" name="ypform" onSubmit="return verifySimple(this);">
+                <input type="text" id="what" class="search-box sfield_OF" name="C" autocomplete="off" title="Find local businesses e.g. hotels" onkeypress="filterInput();"/>
+                <input type="hidden" name="CS" value="L" class="hidden" />
+                <input type="hidden" name="MCBP" value="true" class="hidden" />
+                <input type="hidden" name="search" value="Find It" class="hidden" />
+                <input type="hidden" name="SRC" value="" class="hidden" />
+                <input type="hidden" name="STYPE" value="S" class="hidden" />
+                <input type="hidden" name="SCS" value="" class="hidden" />
+                <input type="hidden" name="channelId" value="" class="hidden" />
+                <input type="hidden" name="sessionId" value="" class="hidden" />
+				<div style="width:103px; height:72px; float:left;">
+				<input type="submit" value="Search" class="ot_header_search" />
+				<a class="advanced-search ot_header_advanced_search" href="http://yellowpages.superpages.com/yp.advanced.jsp?STYPE=AD" rel="nofollow">Advanced Search</a>
+				</div>
+		            </form>
+       <!-- /Search Form Header SP Global -->
+       		<h1 class="city">Yellow Pages <a href="#" rel="nofollow" class="change ot ot_header_change_city">select location</a></h1>
+		<div class="add-listing ot_gt_advertise"><a href="http://www.supermedia.com/business-listings?tsrc=SP&campaignId=SP_header"><span>Add Your</span> FREE Listing</a></div>
+			</div>
+	</div><!-- /masthead -->
+	
+        <!--[if lt IE 7]>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".masthead").after('<div style="height: 42px; margin: 10px auto; width: 820px;"> <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>');
+            });
+        </script>
+        <![endif]-->
+		
+    <!-- /header end -->
+	<div class="promo mboxDefault"></div> <script type="text/javascript"> mboxCreate('SP_Banner', 'pageName='+s.pageName, 'siteSection='+s.channel); </script>
+
+	<div class="content clear">
+
+            <!-- /header end -->
+                <div class="left-col">
+                    <div class="national-weather clear">
+                        <h2>Find Local Weather</h2>
+                        <div class="current-date"></div>
+                        <div id="weather-search-form">
+                            <form id="weatherform" action="/cgi-bin/setgeoloc.php" method="get" name="weatherform" >
+                                <input value="true" name="setts" type="hidden" />
+                                <input value="true" name="weather" type="hidden" />
+                                <input id="weathercity" name="search_terms" title="Enter City, State, or ZIP for local weather" type="text" />
+                                <input class="ot ot_weather_find" type="submit" value="" />
+                            </form>
+                        </div>
+                    </div><!--end national-weather-->
+                    <div class="popular-categories clear">
+                        <h2 class="sblock">Popular Categories</h2>
+	                    <ul>
+                            <li class="ot ot_category_balloon_arrangements"><a title="Balloon Arrangements" href="/yellowpages/C-Balloon+Arrangements/">Balloon Arrangements</a></li>
+                            <li class="ot ot_category_beauty_salons"><a title="Beauty Salons" href="/yellowpages/C-Beauty+Salon/">Beauty Salons</a></li>
+                            <li class="ot ot_category_card_shops"><a title="Card Shops" href="/yellowpages/C-Card+Shops/">Card Shops</a></li>
+                            <li class="ot ot_category_cleaning_services"><a title="Cleaning Services" href="/yellowpages/C-Cleaning+Services/">Cleaning Services</a></li>
+                            <li class="ot ot_day_spas"><a title="Day Spas" href="/yellowpages/C-Day+Spas/">Day Spas</a></li>
+                            <li class="ot ot_category_facial_treatments "><a title="Facial Treatments" href="/yellowpages/C-Facial+Treatments/">Facial Treatments</a></li>
+                            <li class="ot ot_category_florist"><a title="Florists" href="/yellowpages/C-Florists/">Florists</a></li>
+                        </ul>
+                        <ul>
+                            <li class="ot ot_category_fruit baskets"><a title="Fruit Baskets" href="/yellowpages/C-Fruit+Baskets/">Fruit Baskets</a></li>
+                            <li class="ot ot_gift_baskets"><a title="Gift Baskets" href="/yellowpages/C-Gift+Baskets/">Gift Baskets</a></li>
+                            <li class="ot ot_category_jewelers"><a title="Jewelers" href="/yellowpages/C-Jewelry/">Jewelers</a></li>
+                            <li class="ot ot_category_manicures"><a title="Manicures" href="/yellowpages/C-Manicures/">Manicures</a></li>
+                            <li class="ot ot_category_massage_therapists"><a title="Massage Therapists" href="/yellowpages/C-Massage+Therapists/">Massage Therapists</a></li>
+                            <li class="ot ot_category_nail_salons"><a title="Nail Salons" href="/yellowpages/C-Nail+Salons/">Nail Salons</a></li>
+                            <li><a title="More Popular Categories" class="more" href="more">More...</a></li>
+                        </ul>
+                    <div class="modal additional-categories">
+                        <div id="category-list">
+                            <ul>
+                                <li><a href="/yellowpages/C-Auto+Parts" title="Auto Parts">Auto Parts</a></li>
+                                <li><a href="/yellowpages/C-Bars" title="Bars">Bars</a></li>
+                                <li><a href="/yellowpages/C-Beauty+Salons" title="Beauty Salons">Beauty Salons </a></li>
+                                <li><a href="/yellowpages/C-Cable+TV" title="Cable TV">Cable TV</a></li>
+                                <li><a href="/yellowpages/C-Campgrounds" title="Campgrounds">Campgrounds</a></li>
+                                <li><a href="/yellowpages/C-Car+Auctions" title="Car Auctions">Car Auctions</a></li>
+                                <li><a href="/yellowpages/C-Car+Dealers" title="Car Dealers">Car Dealers</a></li>
+                                <li><a href="/yellowpages/C-Car+Insurance" title="Car Insurance">Car Insurance</a></li>
+                                <li><a href="/yellowpages/C-Carpet+Cleaners" title="Carpet Cleaners">Carpet Cleaners</a></li>
+                                <li><a href="/yellowpages/C-Cell+Phones" title="Cell Phones">Cell Phones</a></li>
+                                <li><a href="/yellowpages/C-Check+Cashing" title="Check Cashing">Check Cashing</a></li>
+                                <li><a href="/yellowpages/C-Colleges" title="Colleges">Colleges</a></li>
+                                <li><a href="/yellowpages/C-Computer+Repair" title="Computer Repair">Computer Repair</a></li>
+                                <li><a href="/yellowpages/C-Dentists" title="Dentists">Dentists</a></li>
+                                <li><a href="/yellowpages/C-Dry+Cleaners" title="Dry Cleaners">Dry Cleaners</a></li>
+                                <li><a href="/yellowpages/C-Electricians" title="Electricians">Electricians</a></li>
+                            </ul>
+                            <ul class="ccl">
+                                <li><a href="/yellowpages/C-Employment+Agencies" title="Employment Agencies">Employment Agencies</a></li>
+                                <li><a href="/yellowpages/C-Flooring" title="Flooring">Flooring</a></li>
+                                <li><a href="/yellowpages/C-Florists" title="Florists">Florists</a></li>
+                                <li><a href="/yellowpages/C-Furniture+Stores" title="Furniture Stores">Furniture Stores</a></li>
+                                <li><a href="/yellowpages/C-Grocery+Stores" title="Grocery Stores">Grocery Stores</a></li>
+                                <li><a href="/yellowpages/C-Health+Insurance" title="Health Insurance">Health Insurance </a></li>
+                                <li><a href="/yellowpages/C-Home+Repair" title="Home Repair">Home Repair</a></li>
+                                <li><a href="/yellowpages/C-House+Cleaning" title="House Cleaning">House Cleaning</a></li>
+                                <li><a href="/yellowpages/C-Insurance+Agents" title="Insurance Agents">Insurance Agents</a></li>
+                                <li><a href="/yellowpages/C-Internet Service Providers" title="Internet Service Providers">Internet Service Providers</a></li>
+                                <li><a href="/yellowpages/C-Lawyers" title="Lawyers">Lawyers</a></li>
+                                <li><a href="/yellowpages/C-Limo+Services" title="Limo Services">Limo Services</a></li>
+                                <li><a href="/yellowpages/C-Locksmiths" title="Locksmiths">Locksmiths</a></li>
+                                <li><a href="/yellowpages/C-Mortgage+Refinancing" title="Mortgage Refinancing">Mortgage Refinancing</a></li>
+                                <li><a href="/yellowpages/C-Mortgages" title="Mortgages">Mortgages</a></li>
+                                <li><a href="/yellowpages/C-Motels" title="Motels">Motels</a></li>
+                            </ul>
+                            <ul class="ccl">
+                                <li><a href="/yellowpages/C-Movers" title="Movers">Movers</a></li>
+                                <li><a href="/yellowpages/C-Night+Clubs" title="Night Clubs">Night Clubs</a></li>
+                                <li><a href="/yellowpages/C-Nursing+Homes" title="Nursing Homes">Nursing Homes</a></li>
+                                <li><a href="/yellowpages/C-Office+Furniture" title="Office Furniture">Office Furniture</a></li>
+                                <li><a href="/yellowpages/C-Painters" title="Painters">Painters</a></li>
+                                <li><a href="/yellowpages/C-Personal+Loans" title="Personal Loans">Personal Loans</a></li>
+                                <li><a href="/yellowpages/C-Pest+Control" title="Pest Control">Pest Control</a></li>
+                                <li><a href="/yellowpages/C-Pet+Stores" title="Pet Stores">Pet Stores</a></li>
+                                <li><a href="/yellowpages/C-Pharmacies" title="Pharmacies">Pharmacies</a></li>
+                                <li><a href="/yellowpages/C-Plumbers" title="Plumbers">Plumbers</a></li>
+                                <li><a href="/yellowpages/C-Roofing" title="Roofing">Roofing</a></li>
+                                <li><a href="/yellowpages/C-Self+Storage" title="Self Storage">Self Storage</a></li>
+                                <li><a href="/yellowpages/C-Tanning+Salons" title="Tanning Salons">Tanning Salons</a></li>
+                                <li><a title="Used Cars" href="/yellowpages/C-Used+Cars/">Used Cars</a></li>
+                                <li><a href="/yellowpages/C-Veterinarians" title="Veterinarians">Veterinarians</a></li>
+                            </ul>
+                            <ul class="options">
+                                <li><a href="/yellowpages/">View All</a></li>
+                            </ul>
+                            <a class="close" href="">Close</a>
+                        </div>
+                    </div>
+                    </div><!--end popular-categories-->
+                    <div class="mobile-cta">
+                        <h2>Superpages Mobile</h2>
+                        <em>Now with SuperGuarantee</em>
+                        <p>Get SuperpagesMobile&reg; on your mobile phone and find quality local businesses on the go. <a class="ot ot_mobile" href="/mobile/">Get it now</a></p>
+                    </div><!--end mobile-cta-->
+                    <!-- Weather --> <!-- /Weather -->
+                   <div class="facebook-cta">
+
+ 						<div id="facebookCnt" class="social_content"><h2>&nbsp;</h2></div>
+                       <a class="ot ot_facebook" href="http://www.facebook.com/superpagescom" rel="nofollow">Join us on Facebook</a>
+						</div><!--end twitter-cta-->
+                    <div class="twitter-cta">
+
+                       	<div id="twitterCnt" class="social_content"><h2>&nbsp;</h2></div>
+                        <a class="ot ot_twitter" href="http://www.twitter.com/superpages" rel="nofollow">Follow us on Twitter</a>
+					</div><!--end twitter-cta-->
+                </div><!--end left-col-->
+                <div class="right-col">
+                    <ul class="tabs clear">
+                        <li class="coupons active ot ot_coupons"><a href="#" rel="nofollow"><span>Coupons</span></a></li>
+                        <!--<li class="reviews"><a href="#" rel="nofollow"><span>Reviews</span></a></li>
+                        <li class="videos"><a href="#" rel="nofollow"><span>Videos</span></a></li>-->
+                    </ul>
+                    <div class="features clear">
+                        <div class="coupons backfill">
+                            <h2>Get Coupons &amp; Deals!</h2>
+                            <p>Hot Deals! Daily Deals! From car repair to a night on the town... We have a local deal for you!</p>
+                            <a class="ot ot_find_deals" href="/coupons/">Find Deals</a>
+                        </div><!--end coupons-->
+                    </div><!--end features-->
+	                    <div class="superguarantee-cta">
+	                        <h2>Trust us to find a super business near you.</h2>
+	                        <p>When you use a business backed by the SuperGuarantee on Superpages.com, if you're not satisfied with the work, we'll step in and help to make it right*. No other local search site offers protection like this. Best of all, it's free.</p>
+	                        <a class="ot ot_superguarantee" href="/superguarantee/" rel="nofollow">Get Your Guarantee</a>
+	                    </div><!--end superguarantee-cta-->
+                </div><!--end right-col-->
+        <!-- footer begin -->
+        </div><!--end content-->
+        </div><!--end master-->
+		
+<!-- footer begin --></div>
+<div class="footer clear">
+<div class="flinks-contain clear">
+
+
+<ul class="f-social f-links">
+<li class="f-title">Follow Us</li>
+<li class="ftfacebook"><iframe src="http://www.facebook.com/plugins/like.php?href=facebook.com%2Fsuperpagescom&amp;layout=button_count&amp;show_faces=false&amp;width=110&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:1px; overflow:hidden; width:110px; height:29px;" allowTransparency="true"></iframe></li>
+<li class="fttwitter"><a href="http://twitter.com/superpages" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></li>
+<li class="ftgoogle"><g:plusone></g:plusone></li>
+</ul>
+
+<ul class="f-directory f-links">
+<li class="f-title">Directory</li>
+<li><a class="ot_footer_add_business" title="Free business listing" href="http://www.supermedia.com/spportal/businessprofilebegin.do?&amp;tsrc=SP&amp;campaignId=SP_FT_AddEditaBusiness">Add or Edit a Business</a></li>
+<li><a class="ot_footer_coupons" title="Daily Deals" href="http://www.superpages.com/coupons/">Daily Deals</a></li>
+<li><a class="ot_footer_delivery" title="Delivery Opt-Out" href="http://www.yellowpagesoptout.com/">Delivery Opt-Out</a></li>
+<li><script language="JavaScript" type="text/javascript">document.write('<a class="ot_footer_maps" href="http://mapserver.superpages.com/mapbasedsearch/?spheader=true&L='+maplocn+'" rel="nofollow">');</script>Maps & Directions</a></li>
+<li><a class="ot_footer_socialmedia" title="Social Media" href="http://www.superpages.com/social-media">Social Media</a></li>
+<li><a class="ot_superguarantee " title="SuperGuarantee" href="http://www.superpages.com/superguarantee/">SuperGuarantee&reg;</a></li>
+<li><a class="ot_state_directory" title="State Directory" href="http://www.superpages.com/us/">State Directory</a></li>
+<li><a class="ot_footer_whitepages" title="White Pages" href="http://people.superpages.com">White Pages</a></li>
+<li><a class="ot_footer_yellowpages" title="Yellow Pages" href="http://www.superpages.com/">Yellow Pages</a></li>
+</ul>
+
+<ul class="f-features f-links">
+<li class="f-title">Features</li>
+<li><a class="ot_footer_cityguides" title="City Guides" href="http://www.superpages.com/cities/">City Guides</a></li>
+<li><a class="ot_footer_everycarlisted" title="Every Car Listed" href="http://www.everycarlisted.com/">Every Car Listed</a></li>
+<li><a class="ot_footer_featuredbiz" title="Featured Businesses" href="http://www.superpages.com/bp/">Featured Businesses</a></li>
+<li><a class="ot_footer_popular_categories" title="Popular Categories" href="http://www.superpages.com/yellowpages/">Popular Categories</a></li>
+<li><a class="ot_footer_supertips" title="SuperTips" href="http://www.superpages.com/supertips/">SuperTips</a></li>
+<li><a class="ot_footer_lottery" title="Lottery Results" href="http://www.superpages.com/cities/lottery/">Lottery Results</a></li>
+<li><a class="ot_footer_weather" title="Weather Forecasts" href="http://www.superpages.com/cities/weatherforecast.html">Weather Forecasts</a></li>
+</ul>
+
+<ul class="f-about f-links">
+<li class="f-title">About</li>
+<li><a class="ot_footer_about" title="About Superpages" href="http://www.superpages.com/about/">About Superpages</a></li>
+<li><a class="ot_footer_advertise" title="Internet Advertising" href="http://www.supermedia.com/spportal/index.jsp?&amp;tsrc=SP&amp;campaignId=SP_FT_InternetAdvertising">Internet Advertising</a></li>
+<li><a class="ot_footer_careers" title="Careers" href="http://jobs.supermedia.com/">Careers</a></li>
+<li><a class="ot_footer_contact" title="Contact Us" href="http://www.supermedia.com/support/contact-us">Contact Us</a></li>
+<li><a class="ot_footer_feedback_link" href="http://www.superpages.com/about/feedback.html" title="Feedback">Feedback</a></li>
+<li><a class="ot_footer_patents" rel="nofollow" title="Patents" href="http://www.superpages.com/about/copyright.html?#patents">Patents</a></li>
+<li><a class="ot_footer_patents" rel="nofollow" title="Privacy Policy" href="http://www.superpages.com/about/privacy.html">Privacy Policy</a></li>
+<li><a class="ot_footer_sitemap" title="Site Map" href="http://www.superpages.com/about/sitemap.html">Site Map</a></li>
+<li><a class="ot_footer_terms" title="Terms of Use" rel="nofollow" href="http://www.superpages.com/about/copyright.html">Terms of Use</a></li>
+</ul>
+
+
+    <div class="emailup">
+		<h6>E-mail Exclusives</h6>
+		<p>Sign up to receive special offers and promotions from Superpages.com</p>
+		<form id="_etemailform" action="http://cl.exct.net/subscribe.aspx" name="subscribeForm" method="post">
+		<input type="hidden" name="thx" value="http://www.superpages.com/email/thankyou/" />
+		<input type="hidden" name="err" value="http://www.superpages.com/email/error/" />
+		<input type="hidden" name="usub" value="http://www.superpages.com/email/manage" />
+		<input type="hidden" name="MID" value="30220"/>
+		<input type="hidden" name="lid" value="2438489"/>
+		<input type="hidden" name="lid" value="2456251"/>
+		<input type="hidden" name="SubAction" value="sub_add_update" />
+		<input type="text" id="_emailValue" class="email-box" name="Email Address" title="Enter Email Address" value="Enter Email Address" />
+		<input id="_etemailsubmit" type="submit" value="Sign Up" />
+		<div id="_eterrormsg" style="display:none;color:#FF0000;"></div>
+		</form>
+	</div>
+
+</div><!-- /flinks-contain -->
+
+<div class="logo-wrapper">
+<a alt="SuperMedia" class="supermedia-logo" href="http://www.supermedia.com">Supermedia</a>
+</div>
+<div class="copy-wrapper">
+<p class="data">Data provided by one or more of the following: SuperMedia, Acxiom, Infogroup &nbsp;  | &nbsp;  * Sponsored Results</p>
+<p class="copyright">&copy; 2009 - 2012  SuperMedia LLC. All rights reserved. * Restrictions apply. For full details, see the <a target="_blank" title="Terms &amp; Conditions (PDF)" href="http://my.supermedia.com/CammsServlet?assetid=10236">Terms and Conditions</a> for this program.</p>
+</div>
+<div class="feedback"><a class="ot_footer_feedback_icon" href="http://www.superpages.com/about/feedback.html">Feedback</a></div>		
+</div><!-- /footer -->
+<!-- ZAP Lightning Bolt Begins -->
+<script type="text/javascript">
+//<![CDATA[
+//var migTrans = '[TRANSACTION ID]'; var migValue = '[TRANSACTION VALUE]';
+var migData = 'parentcatid=&catid=&geo=';
+try{ 
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = document.location.protocol + '//b3.mookie1.com/0/B3/ZAM/ZAP_bolt.js';
+script.id = 'zap_bolt';
+var scriptElement = document.getElementsByTagName('script')[0];
+scriptElement.parentNode.insertBefore(script, scriptElement);
+script = null; scriptElement = null;
+}
+catch (e) { }
+//]]>
+</script>
+<!-- ZAP Lightning Bolt Ends -->
+
+        <!-- /footer end -->
+        <div class="hidden">
+            <!-- Start of DoubleClick Spotlight Tag: Please do not remove-->
+            <!-- Activity Name for this tag is:SuperPages Homepage -->
+            <!-- Web site URL where tag should be placed: http://www.superpages.com -->
+            <!-- This tag must be placed within the opening <body> tag, as close to the beginning of it as possible-->
+            <!-- Creation Date:06/01/09 -->
+            <script language="JavaScript" type="text/javascript">
+                var axel = Math.random()+"";
+                var a = axel * 10000000000000;
+                document.write('<iframe src="http://fls.doubleclick.net/activityi;src=1016760;type=adver026;cat=super337;ord='+ a + '?" width=1 height=1 frameborder=0></iframe>');
+            </script>
+            <noscript>
+                <iframe src="http://fls.doubleclick.net/activityi;src=1016760;type=adver026;cat=super337;ord=1?" width=1 height=1 frameborder=0></iframe>
+            </noscript>
+            <!-- End of DoubleClick Spotlight Tag: Please do not remove-->
+        </div>
+        <script type="text/javaascript">document.write('<s'+'cript language="JavaScript" src="http://view.atdmt.com/jaction/00asup_SupepagesContinuityHomepage_1"></s'+'cript>')
+        </script>
+        <noscript>
+            <iframe src="http://view.atdmt.com/iaction/00asup_SupepagesContinuityHomepage_1" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">
+            </iframe>
+        </noscript>
+        <script type="text/javaascript">document.write('<s'+'cript language="JavaScript" src="http://view.atdmt.com/jaction/00asup_ContinuitySuperpagescomRetargeting_10"></s'+'cript>')
+        </script>
+        <noscript>
+            <iframe src="http://view.atdmt.com/iaction/00asup_ContinuitySuperpagescomRetargeting_10" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">
+            </iframe>
+        </noscript>
+        <!--- www.superpages.com --->
+    </body>
+</html>

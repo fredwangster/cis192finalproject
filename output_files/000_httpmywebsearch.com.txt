@@ -1,0 +1,144 @@
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html>
+	<head>
+		<title>MyWebSearch Home Page</title>
+<META name="description" content="MyWebSearch brings together the most comprehensive collection of search tools available to provide you with the information you need when you need it"/>
+<META name="keywords" content="MyWebSearch,Home Page,Search"/>
+<META http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<META NAME="ROBOTS" CONTENT="NOODP"/>
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"/>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"/>
+<META HTTP-EQUIV="Expires" CONTENT="-1"/>		
+		<link rel="shortcut icon" href="http://ak.imgfarm.com/images/search/favicon.ico" />
+		
+		<link rel="stylesheet" type="text/css" href="http://ak2.home.mywebsearch.com/unified.css?flv=nomultisearch,icons-small&r=39.0&env=prod&tt=smallicons&brType=other"/>
+    </head>
+	<body class="nomultisearch icons-small" style="position:static !important;">
+	<div id="background" class="display-none">
+
+	<div class="watermark"></div>
+	
+	<a class="remove-theme display-none" href="#">Remove Theme</a>
+	
+		</div>
+<div id="searchArea">
+			<ul class="search-cats"></ul>
+		<div id="srch-inner" class="search-inner">
+    	<form action="http://search.mywebsearch.com/mywebsearch/GGmain.jhtml" method="get" id="frmSearch" name="frmSearch" class="frm-search">
+						    		<input type="text" id="searchfor" name="searchfor" autocomplete="off"  />
+    		<input type="submit" value="" class="btn-submit clickable" />
+			<div class="search-logo"></div>
+			<input type="hidden" id="suggQuery">
+
+<input type="hidden" id="st" name="st" value="hp">
+
+<input type="hidden" id="ptb" name="ptb" value="">
+
+        <input type="hidden" id="id" name="id" value="ZZ"/>
+        <input type="hidden" id="ptnrS" name="ptnrS" value="ZZ"/>
+    	
+	
+<input type="hidden" id="n" name="n" value="">
+	
+<input type="hidden" id="tpr" name="tpr" value="hpsb">
+
+
+    	</form>
+    	
+    	<div id="shContainer" class="display-none">
+	<div id="shTitle">Search History:</div>
+	
+	<a href="#" class="option turn-on">Turn On</a>
+	
+	<div id="shOnState">
+    	<div id="shItems"></div>
+    	
+    	<a id="shClose" href="#" class="block-link" title="Clear All or Turn Off"></a>
+    	
+    	<div id="shOptions">
+    		<a href="#" class="option clear-all">Clear All</a>&nbsp;|
+    		<a href="#" class="option turn-off">Turn Off</a>
+    		<a href="#" class="block-link cancel" title="Cancel"></a>
+    	</div>
+	</div>
+</div>		
+    	    		<ul class="search-engines clearfix display-none"></ul>
+			</div>
+	
+</div>
+<div id="sgpane" style="display: none;">
+	<div id="sgbody"></div>
+</div>
+
+<div class="footer-logo"></div>
+
+<div id="footer">
+	<div class="copy">TM, &reg; + &copy; 2012 Mindspark Interactive Network, Inc. All rights reserved. An IAC Company.</div>
+	<div class="links">
+		<a class="open-window" target="_blank" onClick="javascript:window.hp.logAnxUIEvent('helpLink','link','home',''); return true;" href="http://help.mywebsearch.com">Help </a>&nbsp;|
+		<a class="open-window" target="_blank" onClick="javascript:window.hp.logAnxUIEvent('tosLink','link','home',''); return true;" href="resources/html/tos.html">Terms of Service</a>&nbsp;|
+		<a class="open-window" target="_blank" onClick="javascript:window.hp.logAnxUIEvent('privacyLink','link','home',''); return true;" href="resources/html/privacy.html">Privacy Policy</a>
+	</div>
+</div>
+<div id="tb_SettingsCtl" class="offscreen"></div>
+<script src="http://ak2.home.mywebsearch.com/resources/js/hp.home-base.js?r=39.0&env=prod&tt=smallicons&brType=other"></script>
+
+<script>
+
+hp.init({
+    "data": {"shistory":{"shistory":[],"shistorylen":80,"shistoryState":"NOT_EXIST"},"dependencyList":"{\"shistory\":{\"included\":true,\"jsHook\":\"search_history\"}}"},
+    "extend": {
+        "constants": {
+            "sRequestParams": "r=39.0&env=prod&tt=smallicons&brType=other",
+			"queryParams": "id=ZZ&ptnrS=ZZ",
+            "contextPath": "",
+            "cdnResourcePath": "/resources",
+            "cookieDomain": ".mywebsearch.com",
+            "cdnDomain": "http://ak2.home.mywebsearch.com",
+            "serpUrl": "http://search.mywebsearch.com/mywebsearch",
+            "defaultEngine": {"id":"PoweredByGoogle","name":"PoweredByGoogle","attributes":{"inhouse":true,"newwindow":false},"url":"/GGmain.jhtml"},
+            "defaultImage": {"index":17,"desc":"MWS images","imageUrl":"http://ak.imgfarm.com/images/search/hpFixedImages/SuperStock_17.jpg","thumbnailUrl":"http://ak.imgfarm.com/images/search/hpFixedImages/thumbnails/SuperStock_17_tn.gif"},
+            "searchBoxText": "",
+            "paramObj": {"trackId":"YY","ptb":"","browserLang":"en_us","country":"US","ccsP":"","nParam":"","browserCountry":"","partnerString":"","tt":"smallicons","brType":"other","ptnrS":"ZZ","buildDate":"2012-03-06","st":"hp","cobrandId":"ZZ","buildVersion":"39.0"},
+            "ugifpath": "http://utm.trk.mywebsearch.com/__utm.gif",
+            "sugLeftOffset": "8",
+            "msgAttributes": {"iconsdesc":"Quick links to your favorite sites"},
+            "searchSuggestionUrl" : "http://srchsugg.mywebsearch.com/query?",
+            "showSHistoryInSuggest" : "true",
+            "shistory" : "",
+			"anemonepath": "http://anx.mywebsearch.com/anx.gif",
+			"userSeg": "def",
+			"userSegType": "NA",
+			"appId": "CAPSearch",
+			"appBuildVersion": "3.1.0_10711",
+			"appBuildDate": "2012-03-06T05:00:00Z"
+    		    			,"ULEventId": "ED0D76B6-2596-4EA1-9079-A70DF492A14A"
+    		        }
+    }
+});
+
+j(window).load(function() {
+	j.ajax({
+		type: 'GET',
+		url: 'http://ak2.home.mywebsearch.com/bootstrap.jhtml?r=39.0&env=prod&tt=smallicons&brType=other',
+		dataType: 'jsonp',
+		jsonpCallback: 'hp.bootstrap',
+		cache: true
+	});
+});
+</script>
+
+
+
+
+</body></html>
+	

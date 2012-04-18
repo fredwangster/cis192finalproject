@@ -1,0 +1,229 @@
+<!DOCTYPE
+  html
+  PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+
+
+
+
+
+
+
+<head>
+  <title>Panoramio - Photos of the World</title>
+
+  <meta
+    name="description"
+    content="Photo-sharing community. Discover the world through photos." />
+
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=9" />
+
+  <link
+    rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+
+  
+    
+
+
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-184567-1'],
+            ['_trackPageview', '']);
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ?
+        'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+</script>
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/css/glass.ltr.css?v=4b9cde" />
+  
+
+  
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  
+    <script type="text/javascript" src="/js/jquery-history.js"></script>
+  
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?sensor=false&amp;key=AIzaSyBEOSsz1rQM3IQ-0TJan8-zR0iTAUk7AsU&amp;libraries=places&amp;language=en"></script>
+  
+    <script type="text/javascript" src="/js_lib/panoramio.js?v=fdda85"></script>
+  
+
+  <script type="text/javascript">
+    pano.translation.setLocale(
+      "en");
+  </script>
+
+</head>
+
+
+<body class="full_viewport_page-root panoramio">
+
+  <script type="text/javascript">
+    
+    pano.glass.register(pano.glass.layout.FullViewportPage.start);
+  </script>
+
+  
+    
+
+
+
+
+
+<div class="header-root" id="header">
+  
+
+
+
+
+
+
+<script type="text/javascript">
+  pano.glass.register(
+      pano.glass.components.LogoBar.start,
+      false);
+</script>
+
+<div class="logo_bar-root" id="logo_bar-root"><div class="logo_bar-account" id="logo_bar-account"><ul class="logo_bar-sign_in_list"><li><a href="/signin">Sign in</a></li><li><a id="logo_bar-signup"
+               class="glass_jfk-button_primary"
+               href="/signup">Sign up</a></li></ul></div><a class="logo_bar-logo_link" href="/?no_redirect"><img
+    class="logo_bar-logo" alt="Panoramio logo"
+    src="/img/glass/components/logo_bar/panoramio.png" /></a><div id="logo_bar-menu" class="goog-menu-nocheckbox" style="display: none"><div id="logo_bar-menu_settings" class="goog-menuitem"
+      >Settings</div><div id="logo_bar-menu_signout" class="goog-menuitem"
+      >Sign out</div></div></div>
+
+  
+
+
+
+
+
+
+<script type="text/javascript">
+  pano.glass.register(
+      pano.glass.components.MenuBar.start,
+      null);
+</script>
+
+<div id="menu_bar-root" class="menu_bar-root"><script type="text/javascript">
+  pano.glass.register(pano.glass.components.PlaceSearch.start);
+  pano.translation.register(
+      'We cannot find this place',
+      'We cannot find this place');
+  pano.translation.register(
+      'Internal error',
+      'Internal error');
+</script><div class="place_search-root"><input id="place_search-input" type="text"
+    class="place_search-input jfk-textinput"
+    placeholder="Search for a place" /><div id="place_search-button"
+    class="glass_jfk-button_search place_search-button"></div><div id="place_search-popup_parent" class="place_search-popup_parent"></div></div><div id="menu_bar-toolbar" class="menu_bar-toolbar goog-toolbar"><div id="menu_bar-explore" class="menu_bar-button goog-toolbar-menu-button"><div class="menu_bar-button_label">Explore</div><div class="goog-menu" style="display: none"><div id="menu_bar-explore_menu_groups" class="goog-menuitem">Groups</div><div id="menu_bar-explore_menu_map" class="goog-menuitem">World map</div><div id="menu_bar-explore_menu_earth" class="goog-menuitem">Photos in Google Earth (.kml)</div><div id="menu_bar-explore_menu_places" class="goog-menuitem">Cool places</div><div id="menu_bar-explore_menu_tags" class="goog-menuitem">Tags</div></div></div><div id="menu_bar-community" class="menu_bar-button goog-toolbar-menu-button"><div class="menu_bar-button_label">Community</div><div class="goog-menu" style="display: none"><div id="menu_bar-community_menu_contest" class="goog-menuitem">Photo contest</div><div id="menu_bar-community_menu_blog" class="goog-menuitem">Blog</div><div id="menu_bar-community_menu_events" class="goog-menuitem">Event calendar</div><div id="menu_bar-community_menu_forum" class="goog-menuitem">Discussion forums</div></div></div></div><a id="menu_bar-upload"
+   
+     class="glass_jfk-button_standard"
+   
+   href="/upload">Upload</a></div>
+
+</div>
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  pano.glass.register(
+      pano.glass.components.MessageBar.start,
+      null);
+</script>
+
+<div id="message_bar-root" class="message_bar-root">
+  <div id="message_bar-wrapper" class="message_bar-wrapper"></div>
+</div>
+
+
+  <div id="content">
+    
+<div class="front-root">
+
+  <div id="front-photo_stack" class="front-photo_stack"></div>
+
+  <div id="front-map_a" class="front-main_map"></div>
+  <div id="front-map_b" class="front-prefetch_map"></div>
+  <div id="front-coarse_map" class="front-coarse_map"></div>
+
+  <div class="front-hoverboxes">
+    <div class="front-promo jfk-bubble jfk-bubble-promo">
+      <div class="front-slogan">
+        Share and explore the world in photos
+      </div>
+      <div id="front-explore" class="front-explore glass_jfk-button_standard"
+              >Start exploring
+      </div>
+    </div>
+    <div id="front-place_info" class="front-place_info jfk-bubble"></div>
+  </div>
+
+</div>
+
+
+<script type="text/javascript">
+  pano.translation.register(
+      'Untitled',
+      'Untitled');
+  pano.glass.register(
+      pano.glass.pages.front.Front.start,
+      {"photos":{"11":{"topic_url":"/places","owner_name":"ioromio","title":"nafpaktos","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/49905238.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/49905238.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/49905238.jpg","width":1024,"height":768},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/49905238.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/49905238.jpg","width":1707,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/49905238.jpg","width":100,"height":75}},"position":[38.392586000000001,21.829340000000002],"owner_url":"http://www.panoramio.com/user/5679296","photo_url":"http://www.panoramio.com/photo/49905238","topic_description":"Nafpaktos (Lepanto) in Greece"},"10":{"topic_url":"/places","owner_name":"ioromio","title":"nafpaktos","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/49905222.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/49905222.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/49905222.jpg","width":1024,"height":768},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/49905222.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/49905222.jpg","width":1707,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/49905222.jpg","width":100,"height":75}},"position":[38.391942999999998,21.828814999999992],"owner_url":"http://www.panoramio.com/user/5679296","photo_url":"http://www.panoramio.com/photo/49905222","topic_description":"Nafpaktos (Lepanto) in Greece"},"13":{"topic_url":"/places","owner_name":"Ioannis Ntokos","title":"Nafpaktos012","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/46542.jpg","width":500,"height":332},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/46542.jpg","width":120,"height":80},"large":{"url":"http://static.panoramio.com/photos/large/46542.jpg","width":1024,"height":680},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/46542.jpg","width":240,"height":159},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/46542.jpg","width":1920,"height":1275},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/46542.jpg","width":100,"height":66}},"position":[38.392263,21.828396000000001],"owner_url":"http://www.panoramio.com/user/6966","photo_url":"http://www.panoramio.com/photo/46542","topic_description":"Nafpaktos (Lepanto) in Greece"},"12":{"topic_url":"/places","owner_name":"pappous1950","title":"2011-Nafpaktos","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/62000762.jpg","width":500,"height":295},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/62000762.jpg","width":120,"height":71},"large":{"url":"http://static.panoramio.com/photos/large/62000762.jpg","width":1024,"height":604},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/62000762.jpg","width":240,"height":142},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/62000762.jpg","width":1302.0,"height":768.0},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/62000762.jpg","width":100,"height":59}},"position":[38.391934999999997,21.828417999999999],"owner_url":"http://www.panoramio.com/user/5887519","photo_url":"http://www.panoramio.com/photo/62000762","topic_description":"Nafpaktos (Lepanto) in Greece"},"14":{"topic_url":"/places","owner_name":"renache","title":"Nafpaktos","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/7135531.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/7135531.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/7135531.jpg","width":700.0,"height":525.0},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/7135531.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/7135531.jpg","width":700.0,"height":525.0},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/7135531.jpg","width":100,"height":75}},"position":[38.391908999999998,21.829169],"owner_url":"http://www.panoramio.com/user/152172","photo_url":"http://www.panoramio.com/photo/7135531","topic_description":"Nafpaktos (Lepanto) in Greece"},"1":{"topic_url":"/places","owner_name":"NIKOS1954","title":"\u0397 \u03b5\u03af\u03c3\u03bf\u03b4\u03bf\u03c2 \u03c4\u03bf\u03c5 \u03c0\u03b1\u03bb\u03b1\u03b9\u03bf\u03cd \u03bb\u03b9\u03bc\u03b1\u03bd\u03b9\u03bf\u03cd \u03c3\u03c4\u03b7\u03bd \u039d\u03b1\u03cd\u03c0\u03b1\u03ba\u03c4\u03bf.-The entrance to the old port of Nafpaktos.","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/69456187.jpg","width":500,"height":348},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/69456187.jpg","width":120,"height":84},"large":{"url":"http://static.panoramio.com/photos/large/69456187.jpg","width":1024,"height":713},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/69456187.jpg","width":240,"height":167},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/69456187.jpg","width":1839,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/69456187.jpg","width":100,"height":70}},"position":[38.392403999999999,21.828122],"owner_url":"http://www.panoramio.com/user/3302630","photo_url":"http://www.panoramio.com/photo/69456187","topic_description":"Nafpaktos (Lepanto) in Greece"},"0":{"topic_url":"/places","owner_name":"Spyros Agrianitis","title":"\u039d\u0391\u03a5\u03a0\u0391\u039a\u03a4\u039f\u03a3, \u039b\u0399\u039c\u0391\u039d\u0399 \u0026 \u039a\u0391\u03a3\u03a4\u03a1\u039f - \u0391\u03c5\u03b3\u03ae  Nafpaktos, Harbour \u0026 the Castle at Dawn.","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/35070623.jpg","width":500,"height":358},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/35070623.jpg","width":120,"height":86},"large":{"url":"http://static.panoramio.com/photos/large/35070623.jpg","width":985.0,"height":706.0},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/35070623.jpg","width":240,"height":172},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/35070623.jpg","width":985.0,"height":706.0},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/35070623.jpg","width":100,"height":72}},"position":[38.392088999999999,21.829018999999999],"owner_url":"http://www.panoramio.com/user/2952021","photo_url":"http://www.panoramio.com/photo/35070623","topic_description":"Nafpaktos (Lepanto) in Greece"},"3":{"topic_url":"/places","owner_name":"NIKOS1954","title":"\u039d\u03b1\u03cd\u03c0\u03b1\u03ba\u03c4\u03bf\u03c2, \u03c4\u03bf \u03c0\u03b1\u03bb\u03b1\u03b9\u03cc \u03bb\u03b9\u03bc\u03ac\u03bd\u03b9.-Nafpactos-Greece, the old harbor.","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/69334047.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/69334047.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/69334047.jpg","width":1024,"height":768},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/69334047.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/69334047.jpg","width":1707,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/69334047.jpg","width":100,"height":75}},"position":[38.391635999999998,21.828568000000001],"owner_url":"http://www.panoramio.com/user/3302630","photo_url":"http://www.panoramio.com/photo/69334047","topic_description":"Nafpaktos (Lepanto) in Greece"},"2":{"topic_url":"/places","owner_name":"NIKOS1954","title":"\u03a4\u03bf \u03c0\u03b1\u03bb\u03b9\u03cc \u03bb\u03b9\u03bc\u03ac\u03bd\u03b9.-The old port.","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/69456253.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/69456253.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/69456253.jpg","width":1024,"height":768},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/69456253.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/69456253.jpg","width":1707,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/69456253.jpg","width":100,"height":75}},"position":[38.393042999999999,21.829162],"owner_url":"http://www.panoramio.com/user/3302630","photo_url":"http://www.panoramio.com/photo/69456253","topic_description":"Nafpaktos (Lepanto) in Greece"},"5":{"topic_url":"/places","owner_name":"aggeliki.k","title":"\u03a0\u0391\u039d\u039f\u03a1\u0391\u039c\u0391 \u039b\u0399\u039c\u0391\u039d\u0399\u039f\u03a5.///PANORAMA OF HARBOUR.","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/35156324.jpg","width":500,"height":96},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/35156324.jpg","width":120,"height":23},"large":{"url":"http://static.panoramio.com/photos/large/35156324.jpg","width":1024,"height":196},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/35156324.jpg","width":240,"height":46},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/35156324.jpg","width":1920,"height":367},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/35156324.jpg","width":100,"height":19}},"position":[38.392699999999998,21.82895400000001],"owner_url":"http://www.panoramio.com/user/3071192","photo_url":"http://www.panoramio.com/photo/35156324","topic_description":"Nafpaktos (Lepanto) in Greece"},"4":{"topic_url":"/places","owner_name":"NIKOS1954","title":"\u03a4\u03bf \u03ac\u03b3\u03b1\u03bb\u03bc\u03b1 \u03c4\u03bf\u03c5 \u03bc\u03b5\u03b3\u03ac\u03bb\u03bf\u03c5 \u03c3\u03c5\u03b3\u03b3\u03c1\u03b1\u03c6\u03ad\u03b1 \u03c4\u03bf\u03c5 \u0394\u03bf\u03bd \u039a\u03b9\u03c7\u03ce\u03c4\u03b7 \u0398\u03b5\u03c1\u03b2\u03ac\u03bd\u03c4\u03b5\u03c2, \u03c0\u03bf\u03c5 \u03c0\u03bf\u03bb\u03ad\u03bc\u03b7\u03c3\u03b5 \u03c3\u03c4\u03b7\u03bd \u03bd\u03b1\u03c5\u03bc\u03b1\u03c7\u03af\u03b1 \u03c4\u03b7\u03c2 \u039d\u03b1\u03c5\u03c0\u03ac\u03ba\u03c4\u03bf\u03c5.The statue of the great author of Don Quixote Cervantes, who fought in the battle of Nafpakto.","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/69206587.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/69206587.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/69206587.jpg","width":1024,"height":768},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/69206587.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/69206587.jpg","width":1707,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/69206587.jpg","width":100,"height":75}},"position":[38.391854000000002,21.828213999999999],"owner_url":"http://www.panoramio.com/user/3302630","photo_url":"http://www.panoramio.com/photo/69206587","topic_description":"Nafpaktos (Lepanto) in Greece"},"7":{"topic_url":"/places","owner_name":"Fotis Mavrelis","title":"Nafpaktos","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/2799940.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/2799940.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/2799940.jpg","width":1024,"height":768},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/2799940.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/2799940.jpg","width":1707,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/2799940.jpg","width":100,"height":75}},"position":[38.392690999999999,21.827870999999998],"owner_url":"http://www.panoramio.com/user/293220","photo_url":"http://www.panoramio.com/photo/2799940","topic_description":"Nafpaktos (Lepanto) in Greece"},"6":{"topic_url":"/places","owner_name":"evangello","title":"Entrance in Nafpaktos.gr","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/56623332.jpg","width":335,"height":500},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/56623332.jpg","width":80,"height":120},"large":{"url":"http://static.panoramio.com/photos/large/56623332.jpg","width":685,"height":1024},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/56623332.jpg","width":161,"height":240},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/56623332.jpg","width":857,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/56623332.jpg","width":67,"height":100}},"position":[38.391874000000001,21.828525000000013],"owner_url":"http://www.panoramio.com/user/2566561","photo_url":"http://www.panoramio.com/photo/56623332","topic_description":"Nafpaktos (Lepanto) in Greece"},"9":{"topic_url":"/places","owner_name":"KWO Tsoumenis","title":"GRE Naupactus Harbour Panorama by KWOT","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/28939551.jpg","width":500,"height":179},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/28939551.jpg","width":120,"height":43},"large":{"url":"http://static.panoramio.com/photos/large/28939551.jpg","width":1024,"height":367},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/28939551.jpg","width":240,"height":86},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/28939551.jpg","width":1920,"height":688},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/28939551.jpg","width":100,"height":36}},"position":[38.392505999999997,21.828363999999993],"owner_url":"http://www.panoramio.com/user/2549084","photo_url":"http://www.panoramio.com/photo/28939551","topic_description":"Nafpaktos (Lepanto) in Greece"},"8":{"topic_url":"/places","owner_name":"NIKOS1954","title":"\u039d\u03b1\u03cd\u03c0\u03b1\u03ba\u03c4\u03bf\u03c2, \u03c4\u03bf \u03c0\u03b1\u03bb\u03b1\u03b9\u03cc \u03bb\u03b9\u03bc\u03ac\u03bd\u03b9 \u03bc\u03b5 \u03c6\u03cc\u03bd\u03c4\u03bf  \u03c4\u03bf \u03a0\u03b1\u03bd\u03b1\u03c7\u03b1\u03ca\u03ba\u03cc \u03cc\u03c1\u03bf\u03c2.-Nafpaktos, the old harbor with the mountain backdrop Panachaikon","images":{"medium":{"url":"http://mw2.google.com/mw-panoramio/photos/medium/69106210.jpg","width":500,"height":375},"iw-thumbnail":{"url":"http://static.panoramio.com/photos/iw-thumbnail/69106210.jpg","width":120,"height":90},"large":{"url":"http://static.panoramio.com/photos/large/69106210.jpg","width":1024,"height":768},"small":{"url":"http://mw2.google.com/mw-panoramio/photos/small/69106210.jpg","width":240,"height":180},"1920x1280":{"url":"http://static.panoramio.com/photos/1920x1280/69106210.jpg","width":1707,"height":1280},"thumbnail":{"url":"http://mw2.google.com/mw-panoramio/photos/thumbnail/69106210.jpg","width":100,"height":75}},"position":[38.392367,21.828278000000001],"owner_url":"http://www.panoramio.com/user/3302630","photo_url":"http://www.panoramio.com/photo/69106210","topic_description":"Nafpaktos (Lepanto) in Greece"}},"subtopic_id":"597","offset":0,"last_offset":null,"topic_id":1});
+</script>
+
+
+  </div>
+
+  
+    
+
+
+
+
+
+
+<script type="text/javascript">
+  pano.glass.register(
+      pano.glass.components.Footer.start,
+      [{"language_name":"\u0639\u0631\u0628\u064a","django_id":"ar","text_domain":"ar_EG.utf8"},{"language_name":"Asturian","django_id":"ast","text_domain":"ast_ES.utf8"},{"language_name":"\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f","django_id":"be","text_domain":"be_BY.utf8"},{"language_name":"\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438","django_id":"bg","text_domain":"bg_BG.utf8"},{"language_name":"Bosanski","django_id":"bs","text_domain":"bs_BA.utf8"},{"language_name":"Catal\u00e0","django_id":"ca","text_domain":"ca_ES.utf8"},{"language_name":"\u010ce\u0161tina","django_id":"cs","text_domain":"cs_CZ.utf8"},{"language_name":"Dansk","django_id":"da","text_domain":"da_DK.utf8"},{"language_name":"Deutsch","django_id":"de","text_domain":"de_DE.utf8"},{"language_name":"\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac","django_id":"el","text_domain":"el_GR.utf8"},{"language_name":"English","django_id":"en","text_domain":"en_US.utf8"},{"language_name":"Espa\u00f1ol","django_id":"es","text_domain":"es_ES.utf8"},{"language_name":"Esperanto","django_id":"eo","text_domain":"eo_XX.utf8"},{"language_name":"Euskara","django_id":"eu","text_domain":"eu_ES.utf8"},{"language_name":"\u0641\u0627\u0631\u0633\u064a","django_id":"fa","text_domain":"fa_IR.utf8"},{"language_name":"Fran\u00e7ais","django_id":"fr","text_domain":"fr_FR.utf8"},{"language_name":"Galego","django_id":"gl","text_domain":"gl_ES.utf8"},{"language_name":"\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea","django_id":"he","text_domain":"he_IL.utf8"},{"language_name":"Hrvatski","django_id":"hr","text_domain":"hr_HR.utf8"},{"language_name":"Indonesia","django_id":"id","text_domain":"id_ID.utf8"},{"language_name":"Italiano","django_id":"it","text_domain":"it_IT.utf8"},{"language_name":"Magyar","django_id":"hu","text_domain":"hu_HU.utf8"},{"language_name":"\u65e5\u672c\u8a9e","django_id":"ja","text_domain":"ja_JP.utf8"},{"language_name":"\ud55c\uad6d\uc5b4","django_id":"ko","text_domain":"ko_KR.utf8"},{"language_name":"Lietuvi\u0161kai","django_id":"lt","text_domain":"lt_LT.utf8"},{"language_name":"\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438","django_id":"mk","text_domain":"mk_MK.utf8"},{"language_name":"Bahasa Melayu","django_id":"ms","text_domain":"ms_ALL.utf8"},{"language_name":"Nederlands","django_id":"nl","text_domain":"nl_NL.utf8"},{"language_name":"Norsk (Bokm\u00e5l)","django_id":"no","text_domain":"no_NO.utf8"},{"language_name":"Polski","django_id":"pl","text_domain":"pl_PL.utf8"},{"language_name":"Portugu\u00eas (Portugal)","django_id":"pt","text_domain":"pt_PT.utf8"},{"language_name":"Portugu\u00eas (Brasil)","django_id":"pt_BR","text_domain":"pt_BR.utf8"},{"language_name":"Rom\u00e2n\u0103","django_id":"ro","text_domain":"ro_RO.utf8"},{"language_name":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","django_id":"ru","text_domain":"ru_RU.utf8"},{"language_name":"Slovensk\u00fd","django_id":"sk","text_domain":"sk_SK.utf8"},{"language_name":"Sloven\u0161\u010dina","django_id":"sl","text_domain":"sl_SI.utf8"},{"language_name":"Shqip","django_id":"sq","text_domain":"sq_AL.utf8"},{"language_name":"Srpski","django_id":"sr","text_domain":"sr_CS.utf8"},{"language_name":"Suomi","django_id":"fi","text_domain":"fi_FI.utf8"},{"language_name":"Svenska","django_id":"sv","text_domain":"sv_SE.utf8"},{"language_name":"\u0ba4\u0bae\u0bbf\u0bb4\u0bcd","django_id":"ta","text_domain":"ta_ALL.utf8"},{"language_name":"\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22","django_id":"th","text_domain":"th_TH.utf8"},{"language_name":"T\u00fcrk\u00e7e","django_id":"tr","text_domain":"tr_TR.utf8"},{"language_name":"\u0443\u043a\u0440\u0430\u0457\u0301\u043d\u0441\u044c\u043a","django_id":"uk","text_domain":"uk_UA.utf8"},{"language_name":"Ti\u1ebfng Vi\u1ec7t","django_id":"vi","text_domain":"vi_VN.utf8"},{"language_name":"\u4e2d\u6587\uff08\u7b80\u4f53\uff09","django_id":"zh_CN","text_domain":"zh_CN.utf8"},{"language_name":"\u4e2d\u6587 (\u7e41\u9ad4)","django_id":"zh_TW","text_domain":"zh_TW.utf8"}],
+      "en");
+</script>
+
+<div class="footer-root" id="footer">
+  <ul class="footer-links"><li><a href="/team">Team</a></li><li><a href="/terms">Terms of Service</a></li><li><a href="/privacy">Privacy Policy</a></li><li><a href="/api">API</a></li><li><a href="/help">Help</a></li><li class="footer-with_button"><div id="footer-language_button"
+          class="jfk-select glass_jfk-button_borderless
+                 footer-language_button"></div></li></ul>
+</div>
+
+  
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,706 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN' 'http://www.w3.org/TR/html4/loose.dtd'>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head><script language="JavaScript">var pn = "CSRT"; var pv = '12098462126920890130';
+function f_7_(){f_8_("\u0061","\u0068\u0072\u0065\u0066")}function f_1_(){f_8_("\u006c\u0069\u006e\u006b","\u0068\u0072\u0065\u0066")}function f_4_(){f_8_("\u0061\u0072\u0065\u0061","\u0068\u0072\u0065\u0066")}function f_2_(){f_8_("\u0066\u0072\u0061\u006d\u0065","\u0073\u0072\u0063")}function f_9_(){f_8_("\u0069\u0066\u0072\u0061\u006d\u0065","\u0073\u0072\u0063")}function f_0_(){f_8_("\u0073\u0074\u0079\u006c\u0065","\u0073\u0072\u0063")}function f_3_(){f_8_("\u0073\u0063\u0072\u0069\u0070\u0074","\u0073\u0072\u0063")}function f_6_(){f_8_("\u0069\u006d\u0067","\u0073\u0072\u0063")}function f_A_(){var c=window.document.getElementsByTagName("\u0066\u006f\u0072\u006d");for(var b=0;b<c.length;b++){var a=c[b].innerHTML;var f=c[b].getAttribute("\u0061\u0063\u0074\u0069\u006f\u006e");try{f.match(/./)}catch(d){f=window.location.href}if(f===null){f=window.location.href}if(f_C_(f)&&f_B_(f)){a+="\u003c\u0069\u006e\u0070\u0075\u0074\u0020\u0074\u0079\u0070\u0065\u003d\u0068\u0069\u0064\u0064\u0065\u006e\u0020\u006e\u0061\u006d\u0065\u003d"+pn+"\u0020\u0076\u0061\u006c\u0075\u0065\u003d"+pv+"\u0020\u002f\u003e";c[b].innerHTML=a}}a201202_6.mf=true}function f_8_(c,a){var d=document.getElementsByTagName(c);for(var b=0;b<d.length;b++){var f=d[b].getAttribute(a);if(f!=null&&f!=""){if(f_C_(f)&&f_B_(f)){var g=f.indexOf("\u003f");if(g!=-1){f=f.replace(/^\s*/,"");f=f.replace(/\s*$/,"");if(f.search(/\?$/)==-1){f+="\u0026"}}else{f+="\u003f"}f+=pn+"\u003d"+pv;d[b].setAttribute(a,f)}}}}function f_B_(c){var b=function(g){var h=window.document.createElement("\u0061");h.href=g;var f=h.host;if(!f){f=window.location.hostname}if(f.match(/:\d+$/)){var d=window.location.hostname;if(!d.match(/:\d+$/)){f=f.replace(/:\d+$/,"")}}return f};var a=true&&window&&window.location&&window.location.hostname&&b(c)===window.location.hostname;return a}function f_C_(b){var a=0;if(b.substring(0,4)=="\u0068\u0074\u0074\u0070"||b.substring(0,1)=="\u002f"||b.indexOf("\u003a")==-1){a=1}return a}function f_5_(a){if(/^\w+:/.test(a)===false){var b=document.createElement("\u0061");b.href=a;a=b.href}return a}var a201202_6={};a201202_6.mf=false;a201202_6.f=function(){f_7_();f_1_();f_4_();f_2_();f_9_();f_0_();f_3_();f_6_();f_A_()};a201202_6.so=function(b){var a=b?b.target:this;var f=a.innerHTML;var c=a.action;try{c.match(/./)}catch(d){c=window.location.href}if((!c)||(c===null)||(c===undefined)||(c.match(/^\s*$/))){c=window.location.href}c=f_5_(c);if(f_C_(c)&&f_B_(c)&&(!a201202_6.mf)){f="\u003c\u0069\u006e\u0070\u0075\u0074\u0020\u0074\u0079\u0070\u0065\u003d\u0068\u0069\u0064\u0064\u0065\u006e\u0020\u006e\u0061\u006d\u0065\u003d"+pn+"\u0020\u0076\u0061\u006c\u0075\u0065\u003d"+pv+"\u0020\u002f\u003e"+f;a.innerHTML+=f}a._submit()};try{HTMLFormElement.prototype._submit=HTMLFormElement.prototype.submit;HTMLFormElement.prototype.submit=a201202_6.so}catch(e){}if(window.addEventListener){window.addEventListener("\u006c\u006f\u0061\u0064",a201202_6.f,false);window.addEventListener("\u0073\u0075\u0062\u006d\u0069\u0074",a201202_6.so,true)}else{if(window.attachEvent){window.attachEvent("\u006f\u006e\u006c\u006f\u0061\u0064",a201202_6.f);window.attachEvent("\u006f\u006e\u0073\u0075\u0062\u006d\u0069\u0074",a201202_6.so)}else{window.onload=a201202_6.f;window.onsubmit=a201202_6.so}};
+</script>
+
+		<title>BookRags.com | Study Guides, Lesson Plans, Book Summaries and more</title>
+		<link href='http://www.bookrags.com' rel='canonical' />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name='description' content='Instant access to premium study guides, lesson plans, book summaries, biographies, quotes, essays, encylopedias, and online educational resources from BookRags.com'>
+<meta name='description' content='The largest collection of book summaries, study guides, quizzes, lesson plans and educational resources for students &amp; teachers.'>
+<meta name='keywords' content='BookRags'>
+		<script>/*
+CSS Browser Selector v0.4.0 (Nov 02, 2010)
+Rafael Lima (http://rafael.adm.br)
+http://rafael.adm.br/css_browser_selector
+License: http://creativecommons.org/licenses/by/2.5/
+Contributors: http://rafael.adm.br/css_browser_selector#contributors
+*/
+function css_browser_selector(u){
+	var ua=u.toLowerCase(),is=function(t){
+		return ua.indexOf(t)>-1
+		},g='gecko',w='webkit',s='safari',o='opera',m='mobile',h=document.documentElement,b=[(!(/opera|webtv/i.test(ua))&&/msie\s(\d)/.test(ua))?('ie ie'+RegExp.$1):is('firefox/2')?g+' ff2':is('firefox/3.5')?g+' ff3 ff3_5':is('firefox/3.6')?g+' ff3 ff3_6':is('firefox/3')?g+' ff3':is('gecko/')?g:is('opera')?o+(/version\/(\d+)/.test(ua)?' '+o+RegExp.$1:(/opera(\s|\/)(\d+)/.test(ua)?' '+o+RegExp.$2:'')):is('konqueror')?'konqueror':is('blackberry')?m+' blackberry':is('android')?m+' android':is('chrome')?w+' chrome':is('iron')?w+' iron':is('applewebkit/')?w+' '+s+(/version\/(\d+)/.test(ua)?' '+s+RegExp.$1:''):is('mozilla/')?g:'',is('j2me')?m+' j2me':is('iphone')?m+' iphone':is('ipod')?m+' ipod':is('ipad')?m+' ipad':is('mac')?'mac':is('darwin')?'mac':is('webtv')?'webtv':is('win')?'win'+(is('windows nt 6.0')?' vista':''):is('freebsd')?'freebsd':(is('x11')||is('linux'))?'linux':'','js'];
+	c = b.join(' ');
+	h.className += ' '+c;
+	return c;
+};
+css_browser_selector(navigator.userAgent);
+</script>
+
+		<link href='https://www.bookrags.com/style/site_base.css?cachex=1' rel='stylesheet' type='text/css'>
+		<link href='https://www.bookrags.com/style/aero300/site_base.css?cachex=1' rel='stylesheet' type='text/css'>
+		<link href='https://www.bookrags.com/style/aero300/masthead.css?cachex=1' rel='stylesheet' type='text/css'>
+
+		<link rel='icon' href='/favicon.ico'><link rel='Shortcut icon' href='/favicon.ico'>
+
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js'></script>
+		<script type='text/javascript' src='https://www.bookrags.com/js/site_base.js?cachex=1'></script>
+		<script type='text/javascript' src='https://www.bookrags.com/js/dart.js?cachex=1'></script>
+
+
+
+<!-- Load static Glam js file -->
+<script type='text/javascript' src='http://www35.glam.com/gad/glamadapt_jsapi.act?afid=172702887'>
+</script>
+
+<!-- Declare the Glam ad slots -->
+<script>
+
+GlamCreateSlot('172702887', '728x90', 'BKR_home__728x90_ATF');
+
+GlamCreateSlot('172702887', '120x65', 'BKR_home__sponsor_button_ATF');
+
+GlamCreateSlot('172702887', '300x250', 'BKR_home__300x250_ATF');
+
+GlamCreateSlot('172702887', '1x1', 'BKR_home__Wallpaper');
+
+GlamCreateSlot('172702887', '970x66', 'BKR_home__970x66_ATF');
+
+GlamGetAds('172702887');
+</script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.pubads()
+	.setTargeting('s1', 'home')
+	.setTargeting('s2', '')
+	.setTargeting('title', '')
+	.setTargeting('prodtype', '')
+	.setTargeting('urldir', '');
+
+googletag.defineSlot('/1010542/BKR_home__728x90_ATF', [728, 90], 'div-gpt-ad-1328660580467-0').addService(googletag.pubads());
+
+googletag.defineSlot('/1010542/BKR_home__sponsor_button_ATF', [120, 65], 'div-gpt-ad-1328660580467-1').addService(googletag.pubads());
+
+googletag.defineSlot('/1010542/BKR_home__300x250_ATF', [300, 250], 'div-gpt-ad-1328660580467-2').addService(googletag.pubads());
+
+googletag.defineSlot('/1010542/BKR_home__Wallpaper', [1, 1], 'div-gpt-ad-1328660580467-3').addService(googletag.pubads());
+
+googletag.defineSlot('/1010542/BKR_home__970x66_ATF', [970, 66], 'div-gpt-ad-1328660580467-4').addService(googletag.pubads());
+
+googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+});
+</script>
+
+<link href='https://www.bookrags.com/style/aero300/homepage.css' rel='stylesheet' type='text/css'>
+<meta property='og:url' content='http://www.bookrags.com/studyguide-othello/'></meta>
+<meta property='og:title' content='Othello Summary'></meta>
+<meta property='og:description' content='This detailed study guide includes chapter summaries and analysis, important themes, significant quotes, and more - everything you need to ace your essay or test on Othello!'></meta>
+<meta property='og:type' content='book'></meta>
+<meta property='og:image' content='http://www.bookrags.com/productImage/?sku=guides-othello&w=200'></meta>
+<meta property='og:site_name' content='www.BookRags.com'></meta>
+
+<!-- FACEBOOK JAVASCRIPT API -->
+<div id='fb-root'></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({status: true, cookie: true, xfbml: true});
+  }; //appId: 'your app id',
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+<!-- End FACEBOOK JAVASCRIPT API -->
+
+
+</head>
+<!--INFOLINKS_OFF-->
+<body >
+
+<script type='text/javascript'>
+// Google Analytics async snippet #1 - start of body
+// We put this at start of body so we can add events to track anywhere we want inside the body.
+// SEE ALSO: header_cgi.html
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-169599-1']);
+  _gaq.push(['_trackPageview']);
+</script>
+
+
+<!-- Begin ad: 1x1 Dart-SB -->
+
+<!-- dart_wallpaper -->
+<div id='div-gpt-ad-1328660580467-3' style='width:1px; height: 1px;  position:absolute; background-color:transparent;'>
+<script type='text/javascript'>
+if (GlamIsAvailable('BKR_home__Wallpaper')) {
+    GlamShow('BKR_home__Wallpaper');
+} else {
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1328660580467-3'); });
+}
+</script>
+</div>
+<!-- END dart_wallpaper -->
+<!-- End ad -->
+
+<!-- BEGIN MASTHEAD -->
+<script>
+mh = {};
+</script>
+
+<div id='widMasthead'>
+
+<div class='body clearfix'>
+<a href='http://www.bookrags.com/'><img class='logo' src='https://www.bookrags.com/images/aero300/pageHeader/logo.png' width='241' height='65' border='0'></a>
+
+<h1 class='tagline'>The largest selection of book summaries online</h1>
+		<!-- Login form -->
+		<form class='frmLogin' name='login' method='post' action='https://www.bookrags.com/qa/login.php?step=submit&context=header&finishpg='>
+			<input type='hidden' name='isFromWidget' value='1'>
+			<table class='tblLogin'>
+				<tr>
+					<td class='colLeft'>
+						<input type='text' class='inpUsername' name='edEmailOrName' size='20' maxlength='80' value='Email Address' >
+					</td>
+					<td class='colCenter'>
+						<input type='text' class='fakePassword' name='fakePW' size='20' value='Password' >
+						<input type='password' class='inpPassword' name='edPW' style='display:none' size='20' value='' >
+					</td>
+					<td class='colRight'>
+						<input type='image' class='btnLogin wImageBtn' src='https://www.bookrags.com/images/aero300/btn_login.png'>
+					</td>
+				<tr>
+					<td class='colLeft'></td>
+					<td class='colCenter'>
+						<a href='http://www.bookrags.com/qa/resetpw.php'>Forgot your password?</a>
+					</td>
+					<td class='colRight'>&nbsp;</td>
+				</tr>
+			</table>
+		</form>
+		<script>
+			mh.isUsernameEmpty = true;
+			mh.isPasswordEmpty = true;
+
+			$(document).ready(function() {
+				mh.ojInpUsername   = $('#widMasthead .inpUsername');
+				mh.ojInpPassword   = $('#widMasthead .inpPassword');
+				mh.ojFakePassword   = $('#widMasthead .fakePassword');
+
+				mh.ojInpUsername.bind('click focus', function(){
+					if (mh.isUsernameEmpty)
+					{
+						mh.ojInpUsername
+						.val('')
+						.css('color','black');
+						mh.isUsernameEmpty = false;
+					}
+				});
+
+				mh.ojFakePassword.bind('click focus', function(){
+					if (mh.isPasswordEmpty)
+					{
+						mh.ojFakePassword
+						.css('display','none');
+						mh.ojInpPassword
+						.css('display','inline')
+						.css('color','black')
+						.trigger('focus');
+						mh.isPasswordEmpty = false;
+					}
+				});
+
+				$('#widMasthead .frmLogin').bind('submit', function(){
+					if (mh.isUsernameEmpty)
+					{	mh.ojInpUsername.val('');
+					}
+					if (mh.isPasswordEmpty)
+					{	mh.ojInpPassword.val('');
+					}
+				});
+			});
+		</script>
+	
+</div> <!-- Masthead body -->
+	<!-- Navigation buttons along the bottom of the mh -->
+	<div class='navTabRowOuter'>
+		<div class='navTabRow' class='clearfix'>
+
+<div class='navTabs'>
+<a href='http://www.bookrags.com/browse/studyguides/'><div id='navTabGuides' class='navTab first'>Study Guides</div></a>
+<span class='sep'>|</span><a href='http://www.bookrags.com/browse/plans/'><div id='navTabLPs' class='navTab'>Lesson Plans</div></a>
+<span class='sep'>|</span><a href='http://www.bookrags.com/sk/quiz?hb=0'><div id='navTabQuizzes' class='navTab'>Quizzes</div></a>
+<span class='sep'>|</span><a href='http://www.bookrags.com/browse/critessays/'><div id='navTabCrit' class='navTab'>Essays</div></a>
+<span class='sep'>|</span><a href='http://www.bookrags.com/browse/biography/'><div id='navTabBios' class='navTab'>Bios</div></a>
+<span class='sep'>|</span><a href='http://travel.bookrags.com'><div id='navTabTravel' class='navTab'>Travel & Learn</div></a>
+
+</div>
+<div class='reglogoutButtons'>
+<a href='https://www.bookrags.com/qa/register.php?context=header'><div class='navRegister'>&nbsp;&nbsp;Sign up for your <span class='free'>free account</span> today!&nbsp;&nbsp;</div></a>
+		</div>
+	</div> <!-- .navTabRow -->
+</div> <!-- .navTabRowOuter -->
+</div> <!-- #widMasthead -->
+
+<script type='text/javascript'>
+	$(document).ready(function(){
+		mh.ojCurrNavTab = false;
+		if (mh.ojCurrNavTab)
+		{	mh.ojCurrNavTab.addClass('current');
+		}
+
+		// Set up hover behavior for all nav tabs except for the current page's tab (if any).
+		ojHoverTabs = $('#widMasthead .navTab').not(mh.ojCurrNavTab);
+		ojHoverTabs.hover (
+		function(){$(this).addClass('current')},
+		function(){$(this).removeClass('current')}
+	);
+	});
+</script>
+<!-- END MASTHEAD -->
+
+<!-- Begin ad: 970x66 Dart-SB -->
+
+<center  class='site_ad' style='clear:both;margin:0 0 0 0'>
+<!-- pushdown_970x66+ -->
+<div id='div-gpt-ad-1328660580467-4' style='width:970px;  '>
+<script type='text/javascript'>
+if (GlamIsAvailable('BKR_home__970x66_ATF')) {
+    GlamShow('BKR_home__970x66_ATF');
+} else {
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1328660580467-4'); });
+}
+</script>
+</div>
+<!-- END pushdown_970x66+ -->
+</center>
+<!-- End ad -->
+
+<!-- BEGIN PAGE BODY -->
+<div id='pageWrapper'>
+<div id='pageWrapperTop'></div>
+<div id='pageBodyHeader' class='clearfix'>
+
+<!-- Search box -->
+<div id='widSearch'>
+
+	<form name='research' style='padding:0;margin:0;' method='post' action='http://www.bookrags.com/s/'>
+		<input name='u' type='text' class='searchBox' value=''>
+		<select class='searchWhere' name='s'><option value=''>All BookRags</option>
+			<option value='1'>Literature Guides</option>
+			<option value='8'>Teacher Products</option>
+			<option value='2'>Essays</option>
+			<option value='6'>Criticism</option>
+			<option value='3'>Biographies</option>
+			<option value='4'>Encyclopedias</option>
+			<option value='5'>Wikipedia</option>
+			<option value='7'>News</option>
+		</select>
+		<input name='v' value='1' type='hidden'>
+		<input type='image' class='wImageBtn' src='https://www.bookrags.com/images/aero300/pageHeader/btn_search.png' title='Go' alt='Go' class='btnSearch ' width='120' height='34'>
+	</form>
+</div> <!-- END #widSearch -->
+
+<a href='http://www.bookrags.com/custserv/'><div class='icoSiteHelp'></div></a>
+
+<a href='https://www.bookrags.com/qa/myaccount.php'><div class='icoMyAccount'></div></a>
+
+</div> <!-- END #pageBodyHeader -->
+
+<div id='pageBody' class='clearfix'>
+
+<div id='adTop728' style='float:right; width:815px'>
+<!-- Begin ad: 728x90 Dart-SB -->
+
+<center  class='site_ad' style='clear:both;margin:0 0 8px 0'>
+<!-- leaderboard_728x90 -->
+<div id='div-gpt-ad-1328660580467-0' style='width:728px;  '>
+<script type='text/javascript'>
+if (GlamIsAvailable('BKR_home__728x90_ATF')) {
+    GlamShow('BKR_home__728x90_ATF');
+} else {
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1328660580467-0'); });
+}
+</script>
+</div>
+<!-- END leaderboard_728x90 -->
+</center>
+<!-- End ad -->
+
+</div>
+<script>
+// Check 2 secs. after pageload to see if the leaderboard ever got served up.
+// If not then hide it completely to remove its bottom margin.
+$(document).ready(function() {
+	var msTimeout = 2000;
+	setTimeout(function() {
+		if ($('#adTop728').height() == 0) {
+			$('#adTop728 *').css('display','none');
+		}
+	},
+	msTimeout);
+});
+</script>
+
+<div id='pageColLeft'><!-- LEFT COLUMN -->
+<!-- POPULAR STUDY GUIDES -->
+<div id='divPopGuides' class='stdBlock PopBox'>
+<div class='head'>Study Guides</div>
+<div class='body'>
+<div class='subhead'>NEWEST</div>
+	<div class='item'><a href='/studyguide-left-to-tell/'>Left to Tell: Discovering God Amidst the Rwandan Holocaust</a></div>
+	<div class='item'><a href='/studyguide-for-one-more-day/'>For One More Day</a></div>
+	<div class='item'><a href='/studyguide-between-shades-of-gray/'>Between Shades of Gray</a></div>
+<div class='subhead'>MOST POPULAR</div>
+	<div class='item'><a href='/studyguide-mostdangerousgame/'>The Most Dangerous Game</a></div>
+	<div class='item'><a href='/studyguide-a-child-called-it/'>A Child Called It</a></div>
+	<div class='item'><a href='/studyguide-drown/'>Drown</a></div>
+</div>
+</div>
+<!-- End POPULAR STUDY GUIDES -->
+
+<!-- POPULAR LESSON PLANS -->
+<div id='divPopLPs' class='stdBlock PopBox'>
+<div class='head'>Lesson Plans</div>
+<div class='body'>
+<div class='subhead'>NEWEST</div>
+	<div class='item'><a href='/lessonplan/perfect-storm/'>The Perfect Storm</a></div>
+	<div class='item'><a href='/lessonplan/the-boy-who-harnessed-the-wind/'>The Boy Who Harnesses the Wind</a></div>
+	<div class='item'><a href='/lessonplan/the-devil-all-the-time/'>The Devil All the Time</a></div>
+<div class='subhead'>MOST POPULAR</div>
+	<div class='item'><a href='/lessonplan/wonderfulwizardoz/'>The Wonderful Wizard of Oz</a></div>
+	<div class='item'><a href='/lessonplan/haroun-and-the-sea-of-stories/'>Haroun and the Sea of Stories</a></div>
+	<div class='item'><a href='/lessonplan/freakonomics/'>Freakonomics</a></div>
+</div>
+</div>
+<!-- End POPULAR LESSON PLANS -->
+
+<!-- POPULAR BIOGRAPHIES -->
+<div id='divPopBios' class='stdBlock PopBox'>
+<div class='head'>Biographies</div>
+<div class='body'>
+<div class='subhead'>NEWEST</div>
+	<div class='item'><a href='/Dale_Carnegie'>Dale Carnegie</a></div>
+	<div class='item'><a href='/Emma_Donoghue'>Emma Donoghue</a></div>
+	<div class='item'><a href='/Karen_Blixen'>Karen Blixen</a></div>
+<div class='subhead'>MOST POPULAR</div>
+	<div class='item'><a href='/Sidney_Sheldon'>Sidney Sheldon</a></div>
+	<div class='item'><a href='/Dean_Koontz'>Dean Koontz</a></div>
+	<div class='item'><a href='/Lois_Lowry'>Lois Lowry</a></div>
+</div>
+</div>
+<!-- End POPULAR BIOGRAPHIES -->
+
+<!-- POPULAR SHAKESPEARE -->
+<div id='divPopShakes' class='stdBlock PopBox'>
+<div class='head'>Shakespeare</div>
+<div class='body'>
+<div class='subhead'>MOST POPULAR</div>
+	<div class='item'><a href='/studyguide-tamingshrew/'>The Taming of the Shrew</a></div>
+	<div class='item'><a href='/studyguide-twelfthnight/'>Twelfth Night</a></div>
+	<div class='item'><a href='/studyguide-richardiii/'>King Richard III</a></div>
+
+</div>
+</div>
+
+<!-- End POPULAR SHAKESPEARE -->
+</div><!-- #pageColLeft -->
+<div id='pageColCenter'><!-- CENTER COLUMN -->
+
+<!-- FEATURED TITLE -->
+<div id='widFeatured' class='stdBlock'>
+<div class='body'>
+<a href='/Othello'>
+<img class='imgCover' src='https://www.bookrags.com/productImage/?sku=guides-othello&w=72' width='72'></a>
+<div class='featuredBody'>
+
+<div style='float:right'><!-- Begin ad: 120x65 Dart-SB -->
+
+<center  class='site_ad' style='clear:both;margin:0 0 0 8px'>
+<!-- sponsor_button -->
+<div id='div-gpt-ad-1328660580467-1' style='width:120px;  '>
+<script type='text/javascript'>
+if (GlamIsAvailable('BKR_home__sponsor_button_ATF')) {
+    GlamShow('BKR_home__sponsor_button_ATF');
+} else {
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1328660580467-1'); });
+}
+</script>
+</div>
+<!-- END sponsor_button -->
+</center>
+<!-- End ad -->
+</div>
+
+<h2 class='featuredTitle'><a href='/Othello'>Othello</a></h2>
+<h2>by William Shakespeare</h2>
+
+<table class='prodDesc' cellpadding='0' cellspacing='0'><tr>
+<td class='colLeft'>
+<h3><a href='/studyguide-othello/'>Study Guide</a></h3>
+<span class='prodDescText'>Students: Ace your test or essay with our comprehensive Othello study guide!<br>
+<a href='/studyguide-othello/'>Learn more &gt;&gt;</a></span>
+
+<td class='colRight'>
+<h3><a href='/lessonplan/othello/'>Lesson Plan</a></h3>
+<span class='prodDescText'>Teachers:  Get new ideas and save time with our authoritative Othello lesson plan.<br>
+<a href='/lessonplan/othello/'>Learn more &gt;&gt;</a></span>
+
+</table>
+
+</div><!-- .body -->
+
+<div class='subhead'>Test Your Knowledge...</div>
+<div class='quiz'>
+<h2>Take the <i>Othello</i> Quiz</h2>
+<div class='question'>1. Who does Montano want to report to Othello for behavior unbecoming of an officer on the first night in Cyprus?</div>
+<div class='question'>2. What does Desdemona realize when she awakes Othello standing next to her bed and asking her the question?</div>
+<div class='question'>3. Who does Cassio hire to cheer himself up after his embarrassment on his first night in Cyrpus?</div>
+
+	<div class='takeTheQuiz'>
+	<a href='http://www.bookrags.com/studyguide-othello/free-quiz.html'>
+	<img class='wImageBtn' src='https://www.bookrags.com/images/aero300/homepage/btn_quiz.png' width='163' height='33' border='0' title='Take the free Othello quiz'></a>
+	</div>
+</div>
+</div>
+</div>
+<!-- End FEATURED TITLE -->
+
+<!-- BEGIN HOMEWORK HELP WIDGET -->
+<div id='widHomeworkHelp' class='stdBlock'>
+<div class='head'>Get Homework Help on Literature</div>
+<div class='body'>
+
+<div class='question even'>
+<a href='http://www.bookrags.com/Song_of_Myself'><img class='bookCover' src='https://www.bookrags.com/productImage/?sku=lens-Song_of_Myself&w=72' width='72'></a>
+
+	<div class='qBody'>
+		<h2><a href='http://www.bookrags.com/qa/viewanswers.php?thread=9220'>is Whitman justified in celebrating himself</a></h2>
+
+		<div class='stats'>
+			Asked from the <b><a href='http://www.bookrags.com/Song_of_Myself'><i>Song of Myself</i> study pack</a></b>
+		</div>
+
+	</div>
+	<div style='clear:both'></div>
+</div>
+
+<div class='question odd'>
+<a href='http://www.bookrags.com/Amy_Tan'><img class='bookCover' src='https://www.bookrags.com/productImage/?sku=lens-Amy_Tan&w=72' width='72'></a>
+
+	<div class='qBody'>
+		<h2><a href='http://www.bookrags.com/qa/viewanswers.php?thread=9118'>How does the narrator's view of her father change by seeing him in a different setting?</a></h2>
+
+		<div class='stats'>
+			Asked from the <b><a href='http://www.bookrags.com/Amy_Tan'><i>Amy Tan</i> study pack</a></b>
+		</div>
+
+	</div>
+	<div style='clear:both'></div>
+</div>
+
+<div class='question even'>
+<a href='http://www.bookrags.com/All_Quiet_on_the_Western_Front'><img class='bookCover' src='https://www.bookrags.com/productImage/?sku=lens-All_Quiet_on_the_Western_Front&w=72' width='72'></a>
+
+	<div class='qBody'>
+		<h2><a href='http://www.bookrags.com/qa/viewanswers.php?thread=9100'>cite a quotation in this chapter to support the following statement: nature continues as usual despite the destruction of war.</a></h2>
+
+		<div class='stats'>
+			Asked from the <b><a href='http://www.bookrags.com/All_Quiet_on_the_Western_Front'><i>All Quiet on the Western Front</i> study pack</a></b>
+		</div>
+
+	</div>
+	<div style='clear:both'></div>
+</div>
+
+<div class='question odd'>
+<a href='http://www.bookrags.com/Frankenstein'><img class='bookCover' src='https://www.bookrags.com/productImage/?sku=lens-Frankenstein&w=72' width='72'></a>
+
+	<div class='qBody'>
+		<h2><a href='http://www.bookrags.com/qa/viewanswers.php?thread=8987'>Looking for a good theme for my research essay on Frankenstein, any ideas?</a></h2>
+
+		<div class='stats'>
+			Asked from the <b><a href='http://www.bookrags.com/Frankenstein'><i>Frankenstein</i> study pack</a></b>
+		</div>
+
+	</div>
+	<div style='clear:both'></div>
+</div>
+
+<div class='askQuestion'>
+<a href='http://www.bookrags.com/qa/qahome.php'><img class='wImageBtn' src='https://www.bookrags.com/images/aero300/homepage/btn_askquestion.png' width='175' height='33' border='0' title='Ask a question at our Q&A homepage'></a>
+</div>
+
+</div>
+</div>
+<!-- END HOMEWORK HELP WIDGET -->
+</div><!-- #pageColCenter -->
+<div id='pageColRight'><!-- RIGHT COLUMN -->
+<!-- Begin ad: 300x250 Dart-SB -->
+
+<center  class='site_ad' style='clear:both;min-width:300px;min-height:250px;margin:0 0 8px 0'>
+<!-- rect_300x250 -->
+<div id='div-gpt-ad-1328660580467-2' style='width:300px; height: 250px;  '>
+<script type='text/javascript'>
+if (GlamIsAvailable('BKR_home__300x250_ATF')) {
+    GlamShow('BKR_home__300x250_ATF');
+} else {
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1328660580467-2'); });
+}
+</script>
+</div>
+<!-- END rect_300x250 -->
+</center>
+<!-- End ad -->
+
+<!-- FACEBOOK "LIKE" WIDGET -->
+<div id='widFacebook' class='stdBlock'>
+<div class='head'>Follow Us on Facebook</div>
+<div class='body'>
+
+<iframe src='http://www.facebook.com/plugins/likebox.php?id=121371054554478&width=300&colorscheme=light&show_faces=false&connections=10&stream=false&header=false'
+		scrolling='no' frameborder='0' style='border:none; overflow:hidden; width:300px;height:260px;'></iframe>
+
+</div>
+<div class='footer'></div>
+</div><!-- End FACEBOOK "LIKE" WIDGET -->
+<div style='clear:both'></div>
+
+<a href='https://www.bookrags.com/checkout/'>
+<div id='widSubUpsell' class='image'>
+</div>
+</a>
+
+<!-- Begin STUDY RESOURCES BLOCK -->
+<div id='widOtherTools' class='stdBlock'>
+<div class='head'>Study Resources</div>
+<div class='body'>
+	<div class='item'><a href='/sk/quiz?hb=0'>Quizzes</a></div>
+<hr>
+	<div class='item'><a href='/ebooks/'>eBooks</a></div>
+<hr>
+	<div class='item'><a href='/articles/'>Articles</a></div>
+</div>
+</div>
+<!-- End STUDY RESOURCES BLOCK -->
+</div><!-- #pageColRight -->
+<div style='clear:both'></div>
+<!-- PAGE FOOTER -->
+
+</div> <!-- END .pageBody -->
+</div> <!-- END .pageWrapper -->
+<!--INFOLINKS_OFF-->
+
+<!-- BEGIN FOOTER -->
+<div id='pageFooter'>
+
+<a href='http://www.bookrags.com/about/'>About BookRags</a> |
+<a href='http://www.bookrags.com/custserv/'>Customer Service</a> |
+<a href='http://clearslide.com/view/mail?iID=B5QM2WWL43GHY4RETYFL'>Advertising</a> |
+<a href='http://www.bookrags.com/about/terms.htm'>Terms of Use</a> |
+<a href='http://www.bookrags.com/about/privacy.htm'>Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div class='glamLogo'>
+<script type='text/javascript'>
+glam_affiliate_id = '172702887';
+glam_logo_type = 'GFamily';
+glam_logo_size = '160x24';
+color_or_grayscale_flag ='_gs';
+glam_logo_color = 'wht';
+glam_gs_logo_color = 'wht';
+glam_logo_country = 'US';
+</script>
+<script src='http://www8.glam.com/js/widgets/glam_logo.js'></script>
+</div>
+<!-- BEGIN Fetchback -->
+<iframe src='//pixel.fetchback.com/serve/fb/pdj?cat=&name=landing&sid=4426' scrolling='no' width='1' height='1' marginheight='0' marginwidth='0' frameborder='0'></iframe>
+<!-- END Fetchback -->
+
+<!-- BEGIN Fetchback -->
+<iframe src='//pixel.fetchback.com/serve/fb/pdj?cat=&name=landing&sid=4426' scrolling='no' width='1' height='1' marginheight='0' marginwidth='0' frameborder='0'></iframe>
+<!-- END Fetchback -->
+
+
+	<div style='text-align: center'>
+		Copyright 2012 by BookRags, Inc.
+	</div>
+</div> <!-- #pageFooter -->
+<!-- END FOOTER -->
+
+<script type='text/javascript' src='http://s7.addthis.com/js/250/addthis_widget.js#pubid=bookrags'></script>
+<script type='text/javascript'>
+var addthis_config={
+pubid:'bookrags',
+data_use_flash: false,
+data_track_clickback:true,
+data_track_textcopy:true,
+data_ga_property:'UA-169599-1'};
+var addthis_share={
+url:'http://www.bookrags.com/studyguide-othello/',
+title:'Othello Summary',
+description:'This detailed study guide includes chapter summaries and analysis, important themes, significant quotes, and more - everything you need to ace your essay or test on Othello!',
+templates: { twitter: '{{title}} {{url}} (via @ArgosOnBookRags)' }};
+</script>
+
+
+<script type='text/javascript'>
+// Google Analytics async snippet #2 - end of body
+// We put this part at end of body b/c it's time-consuming & we want to lessen its effect on page rendering.
+// SEE ALSO: footer_cgi.html
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = (('https:' == document.location.protocol) ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+</script>
+
+
+<script type='text/javascript'><!--
+// Lyris tracking snippet - end of body
+// SEE ALSO: footer_cgi.html
+	document.write('<'
+		+ 'script type="text/javascript" src="'
+		+ document.location.protocol
+		+ '//stats.clicktracks.com/cgi-bin/ctasp-server.cgi?i=DInyyTipBJsPFl'
+		+ '"><'
+		+ '/script>');
+// -->
+</script>
+
+
+</body>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-berY5RRQGbf0c"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-berY5RRQGbf0c.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag --></html>
+<!-- End PAGE FOOTER -->

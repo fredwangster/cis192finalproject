@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Whoops!  Browser Settings Incompatible</title>
+<style type="text/css" >
+body {
+background-color: #123456;
+color: #fedcba;
+font-family: Georgia, serif;
+}
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+#warningContent {
+background-color: #eecc66;
+color:	#000000;
+border: 6px groove black;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
+width: 380px;
+padding: 30px;
+font-size: 24px;
+}
+#homeLink {
+width: 220px;
+margin: auto;
+background-color: #ffffff;
+padding: 9px;
+border: 4px groove #dddddd;
+text-decoration: none;
+font-family: Tahoma, Arial;
+text-align: center;
+}
+</style>
+</head><body>
+<div id='warningContent'>
+<p>We are sorry, but the system was unable to process your request because your web browser did not behave as expected.  Cookies are required by this website in order to ensure a seamless user experience.</p>
+<p>Please make sure your browser has cookies enabled before continuing on your journey.</p>
+<p id='homeLink'><a href='http://www.onesite.com/'>Click to Try Again</a></p>
+</div>
+</body></html>

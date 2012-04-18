@@ -1,0 +1,675 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>The Straight Dope - Fighting Ignorance Since 1973</title>
+	<link rel="stylesheet" type="text/css" href="http://www.straightdope.com/stylesheets/master.css?2" >
+	<script src="http://www.straightdope.com/javascript/jquery-1.2.6.min.js"  type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+	AdWriter = { randomNumber : Math.round(Math.random() * 20000), currentNumber : function () { return this.randomNumber; } }
+	</script></head>
+<body>
+  
+  <div id="container" class="index">
+  
+    <div id="header_ads">
+
+      <div class="left button_ad">
+	
+      </div>
+
+      <div class="leaderboard_ad">
+			<script type="text/javascript" src="http://ad.doubleclick.net/N622/adj/straightdope.creativeloafing/hp;pg=index;abr=!webtv;sz=728x90;dcopt=ist;tile=1;ord=86278?"></script>
+		<script type="text/javascript">
+		<!--
+		if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf("WebTV") >= 0)) {
+		document.write('<a href="http://ad.doubleclick.net/N622/jump/straightdope.creativeloafing/hp;pg=index;sz=728x90;tile=1;ord=86278?">');
+		document.write('<img src="http://ad.doubleclick.net/N622/ad/straightdope.creativeloafing/hp;pg=index;sz=728x90;tile=1;ord=86278?" width="728" height="90" border="0"></a>');
+		}
+		//-->
+		</script>
+		<noscript>
+		<a href="http://ad.doubleclick.net/N622/jump/straightdope.creativeloafing/hp;pg=index;sz=728x90;tile=1;ord=86278?">
+		<img src="http://ad.doubleclick.net/N622/ad/straightdope.creativeloafing/hp;pg=index;sz=728x90;tile=1;ord=86278?" width="728" height="90" border="0">
+		</a>
+		</noscript></div>
+      <div class="right button_ad">
+	
+      </div>
+
+    </div>
+
+    <div id="header">
+
+      <div class="site_tagline"><a href="http://www.straightdope.com/">The Straight Dope - Fighting Ignorance Since 1973</a></div>
+
+			<div id="header_navigation">
+        <a href="http://www.straightdope.com/pages/faq/cecil" class="button" id="button_learn">
+          Learn about Cecil Adams, the world's smartest human.
+        </a>
+        <a href="http://www.straightdope.com/columns/random" class="button" id="button_read">
+          Read a random Straight Dope column.
+        </a>
+        <a href="http://www.straightdope.com/pages/ask" class="button" id="button_ask">
+          Ask Cecil a question.
+        </a>
+      </div>
+      
+    </div>
+
+		<div id="navigation_column">
+   
+  <div id="navigation">
+  
+  <a class="button" id="nav_home" href="http://www.straightdope.com/">Home</a>
+  <a class="button" id="nav_message" href="http://boards.straightdope.com/sdmb/">Message Boards</a>
+  <a class="button" id="nav_ask" href="http://www.straightdope.com/pages/ask">Ask the Master</a>
+  <a class="button" id="nav_whois" href="http://www.straightdope.com/pages/faq">Who is Cecil Adams?</a>
+  <a class="button" id="nav_archive" href="http://www.straightdope.com/columns/archive">Archive</a>
+<!--
+  <a class="button" id="nav_books" href="http://chicago.straightdope.com/TSDbookadarchive.htm">Books advertised on TSD</a>
+-->
+ 
+</div>
+   
+	<div class="tower_ad">
+			<script type="text/javascript" src="http://ad.doubleclick.net/N622/adj/straightdope.creativeloafing/hp;pg=index;abr=!webtv;sz=160x600;tile=2;ord=86278?"></script>
+		<script type="text/javascript">
+		<!--
+		if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf("WebTV") >= 0)) {
+		document.write('<a href="http://ad.doubleclick.net/N622/jump/straightdope.creativeloafing/hp;pg=index;sz=160x600;tile=2;ord=86278?">');
+		document.write('<img src="http://ad.doubleclick.net/N622/ad/straightdope.creativeloafing/hp;pg=index;sz=160x600;tile=2;ord=86278?" width="160" height="600" border="0"></a>');
+		}
+		//-->
+		</script>
+		<noscript>
+		<a href="http://ad.doubleclick.net/N622/jump/straightdope.creativeloafing/hp;pg=index;sz=160x600;tile=2;ord=86278?">
+		<img src="http://ad.doubleclick.net/N622/ad/straightdope.creativeloafing/hp;pg=index;sz=160x600;tile=2;ord=86278?" width="160" height="600" border="0">
+		</a>
+		</noscript></div>
+</div>
+
+<div id="content_column">
+   
+	<div id="search_box">
+	
+		<form action="http://www.straightdope.com/columns/search" method="get" accept-charset="utf-8" id="search_form">
+	<fieldset>
+		<legend>Search The Straight Dope</legend>
+		<input type="text" name="query" value="ENTER KEYWORDS" id="query">
+		<input type="submit" name="action" class="submit" value="search" id="search_submit">
+	</fieldset>
+</form>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery('#query').focus(function () {
+    if (jQuery(this).val() == 'ENTER KEYWORDS') {
+      jQuery(this).val('');
+    }
+  });
+</script>	
+	</div>
+
+        <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style ">
+                <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                <a class="addthis_button_tweet"></a>
+                <a class="addthis_counter addthis_pill_style"></a>
+        </div>
+        <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dbf18eb5f1dc90a"></script>
+        <!-- AddThis Button END -->
+
+	<div id="todays_question">
+	
+		<h1>Today&#8217;s Question:</h1>
+
+<div class="teaser">
+	<a href="http://www.straightdope.com/columns/read/748/whats-the-origin-of-the-opera-aint-over-till-the-fat-lady-sings">What's the origin of "the opera ain't over till the fat lady sings?" </a>
+</div>
+
+<div class="details">
+	A Straight Dope Classic by Cecil Adams</div>	
+	</div>
+	
+	<div id="column_one">
+		<div id="mailing_list_signup" class="column_one module">
+
+			<h2>Join Our Mailing List!</h2>
+
+<div class="teaser">
+	Get weekly column reminders
+</div>
+
+
+
+<form method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="mailing_list_form" accept-charset="UTF-8">
+	<fieldset>
+		<legend>Subscription Information</legend>
+	
+		<input type="hidden" name="redirect" value="http://www.straightdope.com/pages/mailinglist/thankyou/" />
+		<input type="hidden" name="errorredirect" value="http://www.straightdope.com/pages/mailinglist/error/" />
+		<input type="hidden" name="listid" value="35778">
+    <input type="hidden" name="specialid:35778" value="H792">
+    <input type="hidden" name=clientid value="195062">
+    <input type="hidden" name=formid value="3045">
+    <input type="hidden" name=reallistid value="1">
+    <input type="hidden" name=doubleopt value="0">
+		
+		
+		<input type="text" name="fields_email" value="EMAIL ADDRESS" id="email_address">
+		<input type="submit" name="subscribe" class="submit" value="subscribe">
+	</fieldset>
+	
+	<!-- <div id="mailing_list_form_extended" style="display: none;">
+		<div class="radio_choice">
+			<input type=radio name="htmlemail" id="htmlemail_1" value="1" checked>
+			<label for="htmlemail_1"><b>HTML</b> (Full pictures and colors)</label>
+		</div>
+		<div class="radio_choice">
+			<input type="radio" name="htmlemail" id="htmlemail_0" value="0">
+			<label for="htmlemail_0"><b>Text</b> (Just the words, handy if you're reading this on your cell phone)</label>
+		</div>
+		<div style="clear: left"></div>
+	</div> -->
+	
+	<!-- <div id="mailing_list_unsubscribe">
+		&raquo; <a href="http://straightdope.your.org/list/?p=unsubscribe&amp;id=1">Unsubscribe</a>
+	</div> -->
+	
+</form>
+
+<script type="text/javascript" charset="utf-8">
+	jQuery('#email_address').click(function () {
+		if (jQuery(this).val() == 'EMAIL ADDRESS') {
+			jQuery(this).val('');
+		}
+		//jQuery('#mailing_list_form_extended').show();
+	});
+	jQuery('#mailing_list_form').submit(function () {
+		jQuery('#emailconfirm').val(jQuery('#email_address').val());
+	});
+</script>
+
+		</div>
+
+		<div id="recent_additions" class="column_one module">
+
+			<h2>Recent Additions:</h2>
+
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/735/does-sex-before-an-athletic-event-decrease-your-performance-on-the-field">Does sex before an athletic event decrease your performance on the field? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/3046/does-daylight-saving-time-increase-road-kill">Does Daylight Saving Time increase road kill?</a>
+	</div>
+
+	<div class="details">
+		 By Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/727/can-companies-buy-pollution-futures-that-give-them-the-right-to-pollute">Can companies buy "pollution futures" that give them the right to pollute? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/744/what-are-the-four-common-english-words-ending-in-dous">What are the four common English words ending in "-dous"? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/743/what-is-a-merkin">What is a merkin?</a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/734/when-did-mankind-figure-out-that-sex-babies">When did mankind figure out that SEX = BABIES? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/3045/can-a-hard-hit-baseball-crush-your-skull-revisited">Can a hard-hit baseball crush your skull (revisited)?</a>
+	</div>
+
+	<div class="details">
+		 By Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/726/where-did-the-word-dollar-come-from">Where did the word "dollar" come from? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/725/whats-the-origin-of-the-word-buck">What's the origin of the word &quot;buck&quot;? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/736/is-it-possible-to-be-allergic-to-sex">Is it possible to be allergic to sex? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/733/can-animals-get-vd">Can animals get VD? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/3044/can-static-electricity-kill-you">Can static electricity kill you? </a>
+	</div>
+
+	<div class="details">
+		 By Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/724/what-does-the-s-in-the-dollar-sign-represent">What does the S in the dollar sign represent? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/730/how-come-the-wheels-of-a-moving-car-appear-to-rotate-backward-sometimes">How come the wheels of a moving car appear to rotate backward sometimes? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/731/whats-the-meaning-of-the-expression-thats-the-exception-that-proves-the-rule">What's the meaning of the expression, "That's the exception that proves the rule?" </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/732/how-do-porcupines-mate">How do porcupines mate? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/3043/does-cutting-taxes-create-jobs">Does cutting taxes create jobs?</a>
+	</div>
+
+	<div class="details">
+		 By Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/720/why-do-prices-end-in-99">Why do prices end in .99? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/723/how-much-is-all-the-tea-in-china-worth">How much is all the tea in China worth? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/722/whats-with-tontines-the-odd-annuities-in-which-you-benefit-when-others-die">What's with tontines, the odd annuities in which you benefit when others die? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/721/why-are-rebate-checks-drawn-on-obscure-banks-in-the-middle-of-nowhere">Why are rebate checks drawn on obscure banks in the middle of nowhere? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/3042/is-there-an-official-u-s-manual-on-how-to-conduct-a-hanging">Is there an official U.S. manual on how to conduct a hanging? </a>
+	</div>
+
+	<div class="details">
+		 By Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/1150/if-you-flex-your-muscle-when-a-mosquito-bites-you-will-it-swell-up-and-explode">If you flex your muscle when a mosquito bites you, will it swell up and explode?</a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/717/would-vietnam-war-money-have-been-better-spent-bribing-the-enemy-to-stop-fighting">Would Vietnam war money have been better spent bribing the enemy to stop fighting? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/714/in-los-angeles-why-do-so-many-license-plate-holders-say-kma367">In Los Angeles, why do so many license plate holders say "KMA367"? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://www.straightdope.com/columns/read/713/do-push-to-walk-buttons-at-intersections-ever-actually-work">Do &quot;push to walk&quot; buttons at intersections ever actually work? </a>
+	</div>
+
+	<div class="details">
+		A Straight Dope Classic by Cecil Adams	</div>
+	
+</div>
+
+		</div>
+		
+	</div>
+	
+	<div id="column_two">
+		<div id="podcast" class="column_two module">
+			<h2>Listen To This Week's Podcast!</h2>
+			<div class="featured item">
+				<div class="teaser">
+				<a href="http://www.straightdope.com/podcast.html" alt="listen now" class="podcast"> <img src="images/listenNow.jpg"> </a>
+				</div>     
+				<div class="item"></div> 
+			</div>
+		</div>
+		<div id="threadspotting" class="column_two module">
+
+			<h2>Threadspotting:</h2>
+
+
+<div class="featured item">
+	
+	<div class="teaser">
+		<a href="http://boards.straightdope.com/sdmb/showthread.php?t=648430">You got your dead skunk in the middle of the road.</a>
+			</div>
+	
+		
+</div>
+
+<div class="section_link">
+	
+	<a href="http://www.straightdope.com/threadspotting/archive/">Best of the Straight Dope Message Board</a>
+	
+	<div class="instructions">
+		Send your nominations for Threadspotting and 
+		Weird Earl’s to <a href="mailto:&#x54;&#x75;&#x62;&#x61;&#x44;&#x69;&#x76;&#x61;&#x40;&#x61;&#x6F;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;">TubaDiva@aol.com</a>. Do it today!
+	</div>
+	
+</div>
+
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://boards.straightdope.com/sdmb/showthread.php?t=648204">Why ninja training is not an after-school activity.</a>
+			</div>
+	
+		
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://boards.straightdope.com/sdmb/showthread.php?t=647574">So grateful for what we don't have.</a>
+			</div>
+	
+		<div class="details">
+		Submitted by Musicat	</div>
+		
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://boards.straightdope.com/sdmb/showthread.php?t=647459">This ship didn't have a ghost of a chance, so it's sleeping with the sharks.</a>
+			</div>
+	
+		<div class="details">
+		Submitted by Musicat, who also wrote the tag, thanks!	</div>
+		
+</div>
+<div class="item">
+	
+	<div class="teaser">
+		<a href="http://boards.straightdope.com/sdmb/showthread.php?t=647369">Yes.  No.  </a>
+			</div>
+	
+		<div class="details">
+		Submitted by gracious lunatic	</div>
+		
+</div>
+
+<div class="section_link">
+	
+	<a href="http://boards.straightdope.com/sdmb/">Visit the Straight Dope Message Board</a>
+
+</div>
+
+		</div>
+
+		<div id="weird_earls" class="column_two module">
+
+			<h2>Weird Earl&#8217;s:</h2>
+
+<div class="featured item">
+
+	<div class="teaser">
+		<a href="http://www.nyc.gov/html/dot/downloads/pdf/curbside-haiku-sample.pdf">The Big Apple gets poetic about traffic.</a>
+			</div>
+
+	<div class="details">
+		Submitted by Burma Shave	</div>
+
+</div>
+
+
+<div class="section_link">
+
+	<a href="http://www.straightdope.com/weirdearls/">Weird Earl's Archive of Web Curiosities</a>
+
+</div>
+		</div>
+		
+	</div>
+
+</div>
+ 
+<div id="widgets_column">
+   
+	<div id="current_illustration">
+		<a href="http://www.straightdope.com/columns/read/3046/does-daylight-saving-time-increase-road-kill"><img src="http://www.straightdope.com/images/art/2012/dope_120413_daylightsavings.gif	" >
+</a>
+<div class="image_caption">
+	<a href="http://www.straightdope.com/columns/read/3046/does-daylight-saving-time-increase-road-kill">Does Daylight Saving Time increase road kill?</a>
+</div>	</div>
+
+	<div class="rectangle_ad">
+			<script type="text/javascript" src="http://ad.doubleclick.net/N622/adj/straightdope.creativeloafing/hp;pg=index;abr=!webtv;sz=300x250;tile=3;ord=86278?"></script>
+		<script type="text/javascript">
+		<!--
+		if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || (navigator.userAgent.indexOf("WebTV") >= 0)) {
+		document.write('<a href="http://ad.doubleclick.net/N622/jump/straightdope.creativeloafing/hp;pg=index;sz=300x250;tile=3;ord=86278?">');
+		document.write('<img src="http://ad.doubleclick.net/N622/ad/straightdope.creativeloafing/hp;pg=index;sz=300x250;tile=3;ord=86278?" width="300" height="250" border="0"></a>');
+		}
+		//-->
+		</script>
+		<noscript>
+		<a href="http://ad.doubleclick.net/N622/jump/straightdope.creativeloafing/hp;pg=index;sz=300x250;tile=3;ord=86278?">
+		<img src="http://ad.doubleclick.net/N622/ad/straightdope.creativeloafing/hp;pg=index;sz=300x250;tile=3;ord=86278?" width="300" height="250" border="0">
+		</a>
+		</noscript></div>
+
+
+
+
+
+	<div id="fineprint">
+	
+		<p>
+	Send questions for Cecil Adams to: <a href="mailto:&#x63;&#x65;&#x63;&#x69;&#x6C;&#x40;&#x63;&#x68;&#x69;&#x63;&#x61;&#x67;&#x6F;&#x72;&#x65;&#x61;&#x64;&#x65;&#x72;&#x2E;&#x63;&#x6F;&#x6D;">cecil@chicagoreader.com</a>
+</p>
+
+<p>
+	Send comments about this website to: <a href="mailto:&#x77;&#x65;&#x62;&#x6D;&#x61;&#x73;&#x74;&#x65;&#x72;&#x40;&#x73;&#x74;&#x72;&#x61;&#x69;&#x67;&#x68;&#x74;&#x64;&#x6F;&#x70;&#x65;&#x2E;&#x63;&#x6F;&#x6D;">webmaster@straightdope.com</a>
+</p>
+
+<p>
+	<a href="http://www.straightdope.com/pages/privacy">Terms of Use / Privacy Policy</a>
+</p>
+
+<p>
+	<a href="http://www.chicagoreader.com/readerinc/Onlinerate.html">Advertise on the Straight Dope!</a> Your direct line to thou- 
+	sands of the smartest, hippest people on the planet, plus a 
+	few total dipsticks.
+</p>
+
+<p>
+  Publishers - interested in subscribing to the Straight Dope? Write to:
+  <a href="mailto:&#x73;&#x64;&#x73;&#x75;&#x62;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x69;&#x6F;&#x6E;&#x73;&#x40;&#x63;&#x6C;&#x6E;&#x2E;&#x63;&#x6F;&#x6D;">sdsubscriptions@cln.com</a>.
+</p>
+
+<p>
+	Copyright 1996-2012 Creative Loafing Media, Inc. All rights 
+	reserved. No material contained in this site may be republished or reposted without express written permission. The 
+	Straight Dope is a registered trademark of Creative Loafing 
+	Media, Inc. 
+</p>
+
+<p>
+        Other <a href="http://www.creativeloafing.com">Creative Loafing Media, Inc.</a> sites:
+</p>
+
+<p>
+        <a href="http://atlanta.creativeloafing.com">Creative Loafing Atlanta</a> | <a href="http://charlotte.creativeloafing.com">Creative Loafing Charlotte</a> | <a href="http://www.chicagoreader.com">Chicago Reader</a> | <a href="http://sarasota.creativeloafing.com">Creative Loafing Sarasota</a> | <a href="http://tampa.creativeloafing.com">Creative Loafing Tampa</a> | <a href="http://www.washingtoncitypaper.com">Washington City Paper</a>
+</p>
+	
+	</div>
+
+</div>
+		
+		<div style="clear: both;"></div>
+		
+	 </div>
+
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-652476-2");
+	pageTracker._trackPageview();
+	</script>
+	
+	<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+	<script type="text/javascript">_qacct="p-f7Nas-_ZQTIUY";quantserve();</script>
+	<noscript>
+	  <a href="http://www.quantcast.com/p-f7Nas-_ZQTIUY" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-f7Nas-_ZQTIUY.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+	</noscript>
+
+<!-- Alice tags, rubicon -->
+<!-- Creative Loafing - StraightDope - -->
+<script type="text/javascript" defer="defer" src="http://tap-cdn.rubiconproject.com/partner/scripts/rubicon/alice.js?pc=7184/13018"></script>
+
+<!-- eXelate -->
+<script type="text/javascript" src="http://insight-s3.exelator.com/i200509.js"></script>
+</body>
+</html>

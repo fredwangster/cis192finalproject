@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="8f01ab7d5a73c4627abf184df1a38d5a" />
+	
+		
+	<title>SmartAsk.com</title>
+	
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<link href="/compactor.ccss?page=index/index&list=GRKW268QZ4SfINRQslWo3Ayjto4AECllFt0ZDgnxFSc7FLV%2B2HcLFAktwuI318dribJ2EE9NqFuxqZQAJVpxW9Ym9yzkDorDZuVoSLBkm08toiyp%2FpZf5Mz0s0VCR9ZTRQvkhTH8GuKm8nqoKRpXCkZ7sxrqMa5sjaPUqkLbOU0njHRoKOW08MruP7v9PqgFcZP6nCTrUrOsn6UEjCxtupcDN587hRkB" rel="stylesheet" type="text/css" media="all" />
+
+		
+</head>
+<body class='index_index'>
+
+	<div id="page" class="bp2s">
+	<div class="wheader">
+		<div id="header">
+			<div class="bin">
+				
+<div class="module banner_instance_logo">
+<div class="frame" style="background: url(LOGO IMAGE GOES HERE)">
+
+			<a target="_self" rel=""  href="/">
+		<div class="hgroup">
+		<h2></h2>
+	</div>
+	
+	<div class="contents">
+		SmartAsk.com	</div>
+	</a>
+</div>
+
+</div>
+
+<div class="module search">
+<div class="frame search_results">
+
+	<div class="hgroup">
+		<h2>Search</h2>
+	</div>
+
+	<div class="contents">
+		
+<form class='search_form' enctype='multipart/form-data' action='/solo?module=search/dispatcher' method='post' >
+
+<div class='form-contents'>
+	<input type='hidden' id='search_type' name='search_type' title='' value ='search_results'/>
+		<div class='text keyword field'>
+			<label for='keyword'></label>
+			<input type='text' id='keyword' name='keyword' title='Start your search here' value ='Start your search here'/>
+			
+		</div>
+	<input type='hidden' id='default_text' name='default_text' title='' value ='Start your search here'/>
+	<input type='hidden' id='location_default_text' name='location_default_text' title='' value ='Location'/>
+		<input type='submit' class='submit' value='Search'/>
+</div>
+</form>
+	</div>
+</div>
+<script>
+	var search_allow_dot = false;
+	var override_validation = false;
+</script>
+</div>
+
+<div class="module user_login">
+<span class="login">
+
+			<a href="#" class="facebook_login_link" class="fb_button fb_button_medium"><div class="fb_button_text" style="background-image: url('http://static.ak.fbcdn.net/rsrc.php/v1/zL/r/FGFbc80dUKj.png');background-position:0px -189px;background-repeat:no-repeat;background-color:#5F78AB;border-bottom: 1px solid  #1A356E;border-top: 1px solid #879AC0;color: #FFFFFF;font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;font-weight: bold;margin: 1px 1px 0 0px;padding: 2px 6px 3px 25px;text-shadow: none;font-size: 11px;line-height: 14px;text-decoration: none;cursor: pointer;text-align: center;width:45px;">Login</div></a>
+
+			<script type="text/javascript">
+				$().ready(
+					function()
+					{
+						$(".facebook_login_link").click(
+							function()
+							{
+								login_window = window.open(
+									"http://www.smartask.com/solo/member/authenticate?system_name=facebook&send_user_to_login=true",
+									"login",
+									"height=450,width=650,scrollbars=yes"
+								);
+								login_window.focus();
+								return false;
+							}
+						);
+					}
+				);
+			</script>
+		</span>
+
+</div>
+
+<div class="module listxml_instance_header">
+<div class="frame">
+
+	<ul><li><a href="/" class="current_page">Home</a></li><li>/</li><li><a href="/search/home.html">Questions</a></li></ul></div>
+
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="wdrawer">
+		<div id="drawer">
+			<div class="bin">	
+				
+<div class="module banner_instance_hometext">
+<div class="frame" style="">
+	<div class="hgroup">
+		<h2>Blurt out your questions and find real answers from people like you</h2>
+	</div>
+	
+	<div class="contents">
+			</div>
+</div>
+
+</div>
+
+<div class="module forms_cms">
+<div class="frame ">
+
+			<div class="hgroup">
+			<h2>What do you want to ask?</h2>
+		</div>
+	
+	
+	<div class="contents">
+
+		<form class="cms_form validate " action="/solo/forms/cms/dispatcher/cms" method="post" id="">
+		<fieldset>
+			<input type="hidden" name="nid" value="0" />
+			<input type="hidden" name="parent_nid" value="" />
+			<input type="hidden" name="redirect_link" value="" />
+			<input type="hidden" name="redirect_link_type" value="thankyou" />
+			<input type="hidden" name="confirmation_message" value="" />
+			<input type="hidden" name="node_type" value="Question" />
+			<input type="hidden" name="article_type" value="" />
+			<input type="hidden" name="external_type" value="" />
+			<input type="hidden" name="external_id" value="" />
+			<input type="hidden" name="product_type" value="" />
+			<input id="f_user_logged_in" type="hidden" name="user_logged_in" value="0" />
+			<input type="hidden" name="save_action" value="create_node" />
+
+			
+
+			
+
+							<div class="body_field">
+					<label> </label>
+										<span class="remaining_chars"><span class='count'>5000</span> characters remaining</span>
+					<textarea minlength='20' maxlength='5000' class="body required" cols="40" rows="10" name="node_body" title="Enter a question or phrase"></textarea>
+					<label class="error" for="node_body" style="display:none;">Please enter at least 20 characters.</label>
+				</div>
+			
+
+			
+
+			
+
+			
+
+			
+			<input class="submit mcesubmit" type="submit" value="Ask Now &raquo;" />
+
+		</fieldset>
+		</form>
+
+	</div>
+
+		<script type="text/javascript">
+					var link = '/solo?module=facebook/login&message_num=2';
+			</script>
+</div>
+
+</div>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper">
+	    <div id="outer1">
+	        <div id="outer2">
+	            <div id="outer3">
+	                <div id="middle">
+					
+						<div class="top">
+							<div class="bin">
+														</div>
+						</div>
+						
+						<div class="columns">
+						
+			            	<div class="leftwrap">
+			                    <div class="lefttop">
+			                        			                    </div>
+			                
+			                    <div class="left">
+			                        
+<div class="module cms qa-srp">
+
+<div class="frame">
+		<div class="hgroup">
+		<h2>Recent Questions:</h2>
+			</div>
+			<div class="contents">
+				<ul class="parents">
+		<li class='first odd'><div class='parent'><div class='body'>What questions should I ask when considering dog boarding kennels?</div><div class=' answer_link'><a href='/solo?module=facebook/login&message_num=2' rel='facebox'>Answer</a></div><div class=' children_count'><a href='/question/question/4747242.html' rel=''><span class='ones'>1</span> Answer</a></div><div class=' abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=4747242&type=Question' rel='facebox'>Report</a></div></div><div class=' like_button'><div id="item_dislike_4747242" class="dislike"><div id="item_like_4747242" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></div><ul class='children'><li class='child first odd last'><div class='body'>Always ask how often the dogs are taken out of their kennels for walks and how big the kennel is.</div><div class='abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=4747252&type=Answer' rel='facebox'>Report</a></div></div><div class='like_button'><div id="item_dislike_4747252" class="dislike"><div id="item_like_4747252" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></li></ul></li><li class='even'><div class='parent'><div class='body'>What questions should I ask before choosing a sperm bank?</div><div class=' answer_link'><a href='/solo?module=facebook/login&message_num=2' rel='facebox'>Answer</a></div><div class=' children_count'><a href='/question/question/7041892.html' rel=''><span class='ones'>1</span> Answer</a></div><div class=' abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=7041892&type=Question' rel='facebox'>Report</a></div></div><div class=' like_button'><div id="item_dislike_7041892" class="dislike"><div id="item_like_7041892" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></div><ul class='children'><li class='child first odd last'><div class='body'>The biggest question will be in terms of your qualifications to donate. Right after that, you'll want to ensure that they offer proper confidentiality to protect you.</div><div class='abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=7041902&type=Answer' rel='facebox'>Report</a></div></div><div class='like_button'><div id="item_dislike_7041902" class="dislike"><div id="item_like_7041902" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></li></ul></li><li class='odd'><div class='parent'><div class='body'>What questions should I ask before putting my grandpa in adult daycare?</div><div class=' answer_link'><a href='/solo?module=facebook/login&message_num=2' rel='facebox'>Answer</a></div><div class=' children_count'><a href='/question/question/4715972.html' rel=''><span class='ones'>1</span> Answer</a></div><div class=' abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=4715972&type=Question' rel='facebox'>Report</a></div></div><div class=' like_button'><div id="item_dislike_4715972" class="dislike"><div id="item_like_4715972" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></div><ul class='children'><li class='child first odd last'><div class='body'>You should check out the prices and facilities first.</div><div class='abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=4715982&type=Answer' rel='facebox'>Report</a></div></div><div class='like_button'><div id="item_dislike_4715982" class="dislike"><div id="item_like_4715982" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></li></ul></li><li class='even last'><div class='parent'><div class='body'>What are some questions to ask when conducting an apartment search for a college student?</div><div class=' answer_link'><a href='/solo?module=facebook/login&message_num=2' rel='facebox'>Answer</a></div><div class=' children_count'><a href='/question/question/4717882.html' rel=''><span class='ones'>1</span> Answer</a></div><div class=' abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=4717882&type=Question' rel='facebox'>Report</a></div></div><div class=' like_button'><div id="item_dislike_4717882" class="dislike"><div id="item_like_4717882" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></div><ul class='children'><li class='child first odd last'><div class='body'>How many bedrooms, what utilities are included, and the commute routes to school. Is there a low crime rate? Is it close to a job source? The area will have an average rent, which you will need to look at. If you are getting room mates, rooms make a difference, if you can downgrade a 1 bdrm can work.</div><div class='abuse_link'><div class='has-image flag'><a href='/solo?module=forms/report-abuse&node_id=4717892&type=Answer' rel='facebox'>Report</a></div></div><div class='like_button'><div id="item_dislike_4717892" class="dislike"><div id="item_like_4717892" class="like"><a href="/solo?module=facebook/login&message_num=2" class="item_liker" id="" rel="facebox">Like</a></div></div></div></li></ul></li>		</ul>
+	</div>
+</div>
+
+</div>
+			                    </div>
+			                
+			                </div>
+		                    
+		                    <div class="right">
+		                        
+<div class="module banner_instance_premium">
+<div class="frame" style="background: url(/includes/images/askExpertBanner.png);width: 306px;height: 280px">
+
+			<a target="_self" rel=""  href="/ask_an_expert.html">
+		<div class="hgroup">
+		<h2></h2>
+	</div>
+	
+	<div class="contents">
+			</div>
+	</a>
+</div>
+
+</div>
+
+<div class="module banner_instance_browseby">
+<div class="frame" style="">
+	<div class="hgroup">
+		<h2>Browse Smart Ask by Topic:</h2>
+	</div>
+	
+	<div class="contents">
+			</div>
+</div>
+
+</div>
+
+<div class="module listxml_instance_browse_topic">
+<div class="frame">
+
+	<ul><li><a href="/search/Entertainment.html">Arts & Entertainment</a></li><li><a href="/search/food.html">Food & Dining</a></li><li><a href="/search/Kids.html">Kids</a></li><li><a href="/search/Computers.html">Computers</a></li><li><a href="/search/Legal.html">Legal</a></li><li><a href="/search/Science.html">Science</a></li><li><a href="/search/Education.html">Education</a></li><li><a href="/search/Fitness.html">Health & Fitness</a></li><li><a href="/search/Pets.html">Pets</a></li><li><a href="/search/Electronics.html">Electronics</a></li><li><a href="/search/Real-Estate.html">Real Estate</a></li><li><a href="/search/Transportation.html">Transportation</a></li><li><a href="/search/Finance.html">Finance</a></li><li><a href="/search/Garden.html">Home & Garden</a></li><li><a href="/search/Recreation.html">Recreation & Sports</a></li><li><a href="/search/Travel.html">Travel & Places</a></li></ul></div>
+
+</div>
+		                    </div>    
+		                
+		                    <div class="clear"></div>
+		                 </div>
+	                <div class="bottom">
+	                	<div class="bin">
+													</div>
+					</div>
+	                </div> <!-- middle -->
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div class="wfooter">
+		<div id="footer">
+			<div class="bin">
+				
+<div class="module listxml_instance_footer">
+<div class="frame">
+
+	<ul><li><a href="/" class="current_page">Home</a></li><li>/</li><li><a href="/about.html">About Us</a></li><li>/</li><li><a href="/contact.html">Contact Us</a></li><li>/</li><li><a href="/privacy.html">Privacy Policy</a></li><li>/</li><li><a href="/terms.html">Terms of Use</a></li></ul><ul class="copyright"><li>©2012 SmartAsk.com. All rights reserved.</li></ul></div>
+
+</div>
+			</div>
+		</div>
+	</div>
+</div><script type="text/javascript">
+	var facebox_image_path = "/modules/facebox/images/";
+</script>
+
+	
+<script src="/compactor.cjs?page=index/index&list=GRKW268QZ4SfINRQslWo3Ayjto4AECllFt0ZDgnxFSc7FLV%2B2HcLFAktwuI318dribJ2EE9NqFuxqZQAJVpxW9Ym9yzkDorDZuVoSLBkm08toiyp%2FpZf5Mz0s0VCR9ZTRQvkhTH8GuKm8nqoKRpXCkZ7sxrqMa5sjaPUqkLbOU0njHRoKOW08MruP7v9PqgFcZP6nCTrUrOsn6UEjCxtupcDN587hRkB" type="text/javascript"></script>
+
+
+	
+<script type="text/javascript">
+function _dsply_callback(response) {
+	var exdate = new Date();
+	var exdays = 3650;
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value = escape(response.uuid) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie='dsply_uuid' + "=" + c_value + ';path=/;domain=smartask.com';
+}
+</script>
+
+<script type="text/javascript" src="https://www.dsply.com/index.php?ub=3_-mhYUAzao0Hy3_Veke6q_4gS1gzQRWNB8t_1XpHuqypKp2zpvjfxxIsNAzlg1d"></script>
+
+</body>
+</html>

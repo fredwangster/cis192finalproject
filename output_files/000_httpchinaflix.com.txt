@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="china video chinese culture business work travel learning city cuisine food  documentary cartoon loterry,kungfu food history mystery story mandarin tutorials movie fashion shanghai custom ancient tours beijing vacation economy job opportunity company products infomation study film knowledge study branding" />
+<meta name="Description" content="china video chinese culture business work travel learning city cuisine food  documentary cartoon loterry,kungfu food history mystery story mandarin tutorials movie fashion shanghai custom ancient tours beijing vacation economy job opportunity company products infomation study film knowledge study branding" />
+<title>ChinaFlix</title>
+<style type="text/css">
+.head_menu a.hm_0 {color:#FFD700;}
+.head_menu a.hm_hover {color:#FFD700; background:none;}
+.head_menu a.hm_unHover {color:#CBCBCB; background:none;}
+.sub_box_0 {background:none;}
+.sub_menu a {color:#FFD700;}
+.sub_menu a:hover {color:#FFCB00;}
+.sub_menu a.selected {color:#FFCB00;}
+
+.head_menu a.menuNow {color:#FFD700;}
+.showNow {display:block;}
+</style>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/flow.css" />
+<script type="text/javascript" src="ria/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="ria/js/flow.js"></script>
+<script type="text/javascript">
+	var hm_id = '0';
+	var subm_id = '';
+	var filelist='';
+</script>
+<script type="text/javascript" src="ria/js/head_menu_index.js"></script>
+<script type="text/javascript" src="/script/swfobject.js"></script>
+<script type="text/javascript" src="http://redir.adap.tv/redir/javascript/lightintegration.js"></script>
+</head>
+
+<body>
+<div class="head">
+	<div class="page relative head">
+		<!-- <php require_once("top.php"); > -->
+		<div class="head_logo" style="width:229px;"><a href="index.php"><img src="images/logo_head_new.png" width="229" height="45" border="0" alt="ChinaFlix - We Bring China Closer" /></a></div>
+        <div id="ads_a1" class="ad_728_90" style="position:absolute; top:0; right:0;">
+			<div style="width:728px; height:90px;">
+				<script type="text/javascript">
+var AdBrite_Title_Color = '0000FF';
+var AdBrite_Text_Color = '000000';
+var AdBrite_Background_Color = 'FFFFFF';
+var AdBrite_Border_Color = 'CCCCCC';
+var AdBrite_URL_Color = '008000';
+try{var AdBrite_Iframe=window.top!=window.self?2:1;var AdBrite_Referrer=document.referrer==''?document.location:document.referrer;AdBrite_Referrer=encodeURIComponent(AdBrite_Referrer);}catch(e){var AdBrite_Iframe='';var AdBrite_Referrer='';}
+</script>
+<script type="text/javascript">document.write(String.fromCharCode(60,83,67,82,73,80,84));document.write(' src="http://ads.adbrite.com/mb/text_group.php?sid=2118867&zs=3732385f3930&ifr='+AdBrite_Iframe+'&ref='+AdBrite_Referrer+'" type="text/javascript">');document.write(String.fromCharCode(60,47,83,67,82,73,80,84,62));</script>
+            </div>
+			<div style="position:absolute; top:0; right:0; height:72px;"><img src="/images/lr_mask_24.png" width="728" height="72" border="0" /></div>
+		</div>
+		
+		<div class="head_menuBox">
+            <div class="head_menu">
+                <a id="channel_0" href="index.php">HOME</a>
+                <a id="channel_107" href="business.php">BUSINESS</a>
+                <a id="channel_115" href="culture.php">CULTURE</a>
+                <a id="channel_109" href="learning.php">LEARNING</a>
+                <a id="channel_108" href="travel.php">TRAVEL</a>
+                <a id="channel_123" href="city_focus.php">CITY FOCUS</a>
+                <a id="channel_117" href="documentary.php">DOCUMENTARY</a>
+                <a id="channel_116" href="cuisine.php">CUISINE</a>
+                <a id="channel_151" href="cartoon.php">CARTOON</a>
+                <!-- <a id="channel_159" href="movie.php">MOVIE</a> -->
+            </div>
+            <div class="head_subMenuBox">
+                <div id="subParent_107" class="head_subMenu">
+                    <a id="subChannel_113" href="daily_news_video.php">Daily News Video</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_119" href="corporate_voice.php">Corporate Voice</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_120" href="enterpreneur_edition.php">Entrepreneur Edition</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_122" href="china_biz_partners.php">China Biz Partners</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_165" href="minds_of_millionaires.php">Minds Of Millionaires</a>
+                </div>
+                <div id="subParent_115" class="head_subMenu">
+                    <a id="subChannel_141" href="culture_express.php">Culture Express</a>
+                    &nbsp;|&nbsp;
+                    <a id="subChannel_140" href="culture_matters.php">Culture Matters</a>
+                    &nbsp;|&nbsp;
+                    <a id="subChannel_142" href="dialogue.php">Dialogue</a>
+                    &nbsp;|&nbsp;
+                    <a id="subChannel_144" href="around_china.php">Around China</a>
+                    &nbsp;|&nbsp;
+                    <a id="subChannel_164" href="china_untapped.php">China Untapped</a>
+                    &nbsp;|&nbsp;
+                    <a id="subChannel_dc" href="fs_dc.php">Dream Cracker</a>
+                    &nbsp;|&nbsp;
+                    <a id="subChannel_ft" href="fs_ft.php">Fortune Telling</a>
+                    &nbsp;|&nbsp;
+                    <a id="subChannel_fyn" href="fs_fyn.php">Find Your Name</a>
+                </div>
+                <div id="subParent_109" class="head_subMenu">
+                    <a id="subChannel_110" href="fast_food_chinese.php">Fast Food Chinese</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_132" href="in_chinese.php">In Chinese</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_133" href="kung_fu.php">Kung Fu</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_134" href="happy_chinese.php">Happy Chinese</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_161" href="chinese_yoyo.php">Chinese with YoYo</a>
+                </div>
+                <div id="subParent_108" class="head_subMenu">
+                    <a id="subChannel_112" href="getaway.php">Getaway</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_128" href="enjoy_taiwan.php">Enjoy Taiwan</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_129" href="rediscovering_china.php">Rediscovery China</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_131" href="new_frontiers.php">New Frontiers</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_160" href="travelogue.php">Travelogue</a>
+                </div>
+                <div id="subParent_123" class="head_subMenu">
+                    <a id="subChannel_124" href="city_beat.php">City Beat</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_125" href="shanghai_quest.php">ShanghaiQuest</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_154" href="special_event.php">SpecialEvent</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_155" href="real_china_traveler.php">Real China Traveler</a>
+                </div>
+                <div id="subParent_117" class="head_subMenu">
+                    <a id="subChannel_146" href="history.php">History</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_147" href="people_china.php">People Life in China</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_148" href="films_shanghai.php">Old films and old Shanghai</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_149" href="expats_in_china.php">Expats in China</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_150" href="nature.php">Nature</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_163" href="spotlight.php">Spotlight</a>
+                </div>
+                <div id="subParent_116" class="head_subMenu">
+                    <a id="subChannel_145" href="you_are_the_chef.php">You Are The Chef</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_166" href="independent_inspector.php">Independent Inspector</a>
+                </div>
+                <div id="subParent_151" class="head_subMenu">
+                    <a id="subChannel_152" href="chinese_animation.php">Chinese Classical Animation</a>
+                    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a id="subChannel_153" href="original_animation.php">Original Animation</a>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="body bodyIndex">
+	<div class="page bodyIn">
+
+				<div class="bodyTopic indexTopic">
+				<div class="window">
+            	<div class="image_reel"><a href="videoplayer_business.php?pid=4385"><img src="/uploads/gallery/zcore/20120413/6227.jpg" width="680" height="350" /></a><a href="videoplayer_travel.php?pid=2854"><img src="/uploads/gallery/zcore/20120413/5991.jpg" width="680" height="350" /></a><a href="videoplayer_culture.php?pid=4412"><img src="/uploads/gallery/zcore/20120413/3024.jpg" width="680" height="350" /></a><a href="videoplayer_travel.php?pid=2601"><img src="/uploads/gallery/zcore/20120413/6118.jpg" width="680" height="350" /></a>
+					</div>
+				</div><ul class="paging"><li rel="1">
+								<div class="image_AsLI">
+									<div class="image_img"><img src="/uploads/gallery/zcore/20120413/1541.jpg" width="62" height="46" /></div>
+									<div class="image_title">Wine is not a Luxury product </div>
+								</div>
+								<div class="image_summary">
+									<span class="sa">Summary:</span>
+									<span class="tt">Yuan Jiang, Chinese Wine Mogul﻿</span>
+								</div>
+
+							</li><li rel="2">
+								<div class="image_AsLI">
+									<div class="image_img"><img src="/uploads/gallery/zcore/20120413/2750.jpg" width="62" height="46" /></div>
+									<div class="image_title">Being Beijing Part 6- Outskirts of Beijing</div>
+								</div>
+								<div class="image_summary">
+									<span class="sa">Summary:</span>
+									<span class="tt">Beijing, also known as Peking, is the capital of the People's Republic of China and one of the most populous cities in the world, with a population of 19,612,368 as of 2010. </span>
+								</div>
+
+							</li><li rel="3">
+								<div class="image_AsLI">
+									<div class="image_img"><img src="/uploads/gallery/zcore/20120413/2461.jpg" width="62" height="46" /></div>
+									<div class="image_title">Honoring the past, looking to the future</div>
+								</div>
+								<div class="image_summary">
+									<span class="sa">Summary:</span>
+									<span class="tt">Every year for Qing Ming Festival, Chinese people from around the world converge in Shaanxi province to honor a very special ancestor, Huang Di, the Yellow Emperor, considered to be the founder of the</span>
+								</div>
+
+							</li><li rel="4">
+								<div class="image_AsLI">
+									<div class="image_img"><img src="/uploads/gallery/zcore/20120413/5530.jpg" width="62" height="46" /></div>
+									<div class="image_title">Born in the 80s </div>
+								</div>
+								<div class="image_summary">
+									<span class="sa">Summary:</span>
+									<span class="tt">Rediscovering China is an exciting, insightful up to the minute bridge between East and West.</span>
+								</div>
+
+							</li>
+					</ul>
+				</div>
+				<div class="bodyList" style="background:none;">
+				<div class="bodyHot">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_hot.png" align="absbottom" alt="赞" />
+                    Highly Recommended
+                    <span class="more"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></span>
+               	</div>
+                
+				<div class="bodyCList" style="width:618px;"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_business.php?pid=4252"><img src="/uploads/chinaflix/2012/02/22/Minds_of_millionaires_20120219_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_business.php?pid=4252">Marketing in China</a></span>
+						<span class="txt">Pro Lu Xiongwen, Dean of School of Managment</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cuisine.php?pid=4335"><img src="/uploads/chinaflix/2012/03/15/You_are_the_Chef_20120315_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cuisine.php?pid=4335">Chocolate banana spring roll</a></span>
+						<span class="txt">Today we'll cook chocolate banana spring roll</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4330"><img src="/uploads/chinaflix/2012/03/15/City_beat_20120313_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4330">Stories of SHANGHAI Brands</a></span>
+						<span class="txt">Tell the stories of some local Shanghai brands</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4329"><img src="/uploads/chinaflix/2012/03/15/City_beat_20120312_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4329">Sarah Chang: A League of Music</a></span>
+						<span class="txt">Sarah Chang(born December 10, 1980) is an American classical violinist.</span>
+					</div>
+					</div>
+				</div>
+						<div id="companiondiv" class="ads_300_250" style="margin-top:25px;">
+				<div style="width:300px; height:250px;">
+				<script type="text/javascript">
+					var pubId=28439;
+					var siteId=28440;
+					var kadId=24204;
+					var kadwidth=300;
+					var kadheight=250;
+					var kadtype=1;
+				</script>
+				<script type="text/javascript" src="http://ads.pubmatic.com/AdServer/js/showad.js"></script>
+				</div>
+				<div style="margin-top:-250px; height:250px;"><img src="/images/lr_mask_24.png" width="300" height="200" border="0" /></div>
+			</div>
+			
+		</div>
+		<div class="bodyList">
+        	<div class="bodyChannel">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_business.png" border="0" align="absbottom" alt="商" />
+                    Business Channel
+                    <span class="more"><a href="business.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+               	</div>
+                
+				<div class="bodyCList">
+                	<div class="bodyCItem">
+                    	<span class="img"><a title="Title Name" href="videoplayer_business.php?pid=4300"><img src="/uploads/chinaflix/2012/03/06/Minds_of_millionaires_20120304_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+                        <span class="tit"><a title="Title Name" href="videoplayer_business.php?pid=4300">Behind the Giant</a></span>
+                        <span class="txt">Erik Zhang, Head of Team Yao</span>
+                    </div>
+                    
+					<ul class="bodyCUL"><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=4322" target="_blank">China to steadily advance forex reform</a></span>
+                            <span class="day">2012-03-12</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=4268" target="_blank">China's Feb. manufacturing PMI up to 51%</a></span>
+                            <span class="day">2012-03-01</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=4245" target="_blank">China's Oprah Winfrey</a></span>
+                            <span class="day">2012-02-12</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=787" target="_blank">George Godula, Web2Asia Founder</a></span>
+                            <span class="day">2011-09-29</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=786" target="_blank">Fritz Demopoulas, CEO of Qunar</a></span>
+                            <span class="day">2011-09-29</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=826" target="_blank">Napa - Wine cellar and fine cuisine</a></span>
+                            <span class="day">2011-09-29</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=796" target="_blank">Clean Energy in China with JUCCCE</a></span>
+                            <span class="day">2011-09-29</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=815" target="_blank">Geoff Dixon, CEO of Qantas</a></span>
+                            <span class="day">2011-09-28</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=820" target="_blank">Tracy Deng of Tudou, VP of Marketing</a></span>
+                            <span class="day">2011-09-29</span>
+                        </li><li>
+                        	<span class="tit">&middot; <a href="videoplayer_business.php?pid=816" target="_blank">Peter J. Goudie, EVP of Inco Limited</a></span>
+                            <span class="day">2011-09-29</span>
+                        </li>
+                    </ul>
+                </div>
+       	  	</div>
+				<div class="bodyChannel">
+					<div class="bodyCName">
+						<img src="images/ico_culture.png" border="0" align="absbottom" alt="文" />
+						Culture Channel
+						<span class="more"><a href="culture.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+					</div>
+					
+					<div class="bodyCList"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_culture.php?pid=4325"><img src="/uploads/chinaflix/2012/03/14/Culture_express_20120313_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_culture.php?pid=4325">Younger Chinese look to study abroad</a></span>
+						<span class="txt">As Chinas economy keeps on booming, studying abroad is becoming less of a luxury and more of a reality for many Chinese stud</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_culture.php?pid=4311"><img src="/uploads/chinaflix/2012/03/10/Culture_express_20120308_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_culture.php?pid=4311">Costume Group Revives Ancient Traditions</a></span>
+						<span class="txt">Loose silk robes with broad sleeves and belts at the waist, drinking tea and appreciating Chinese poetry are no longer scenes rele</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_culture.php?pid=4273"><img src="/uploads/chinaflix/2012/03/02/Culture_matters_20120225_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_culture.php?pid=4273">Diane Schuur Jazz up Shanghai</a></span>
+						<span class="txt">If you know jazz, you’ll know Diane Schuur. Her signature sound is both soulful and full of toe tapping vitality—a dichotomy f</span>
+					</div>
+                </div>
+       	  	</div>
+        </div>
+				<div class="bodyList">
+				<div class="bodyChannel">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_learning.png" border="0" align="absbottom" alt="學" />
+						Learning Channel
+                    <span class="more"><a href="learning.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+               	</div>
+                
+				<div class="bodyCList"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_learning.php?pid=652"><img src="/uploads/videos/20070510/103047_40phone.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_learning.php?pid=652">Learn Chinese: On the Phone </a></span>
+						<span class="txt">Maybe you've heard of we an expression usually used in making phone call in China, just like "hello" in English. Any more you want to learn in a calling? Yoyo will give you some tips. Listen, her girl</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_learning.php?pid=646"><img src="/uploads/videos/20070710/141337_89money_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_learning.php?pid=646">Learn Chinese: Chinese Money</a></span>
+						<span class="txt">How do you tell the difference between REAL and FAKE money</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_learning.php?pid=663"><img src="/uploads/videos/20070306/021258_11.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_learning.php?pid=663">Learn Chinese: Family members</a></span>
+						<span class="txt">know the Chinese language words and phrases to describe your family members</span>
+					</div>
+				</div>
+			</div>
+				<div class="bodyChannel">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_travel.png" border="0" align="absbottom" alt="游" />
+                    Travel Channel
+                    <span class="more"><a href="travel.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+               	</div>
+                
+				<div class="bodyCList"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_travel.php?pid=4280"><img src="/uploads/chinaflix/2012/03/04/China_insight_20120301_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_travel.php?pid=4280">Migrant series 1</a></span>
+						<span class="txt">Struggles in the city</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_travel.php?pid=4256"><img src="/uploads/chinaflix/2012/02/24/China_insight_20120224_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_travel.php?pid=4256">Today's Dazhai</a></span>
+						<span class="txt">When calling on all people in rural China to learn from Dazhai 41 years ago, late Chairman Mao Zedong might never anticipate that </span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_travel.php?pid=4231"><img src="/uploads/chinaflix/2012/02/15/Travelogue_20120215_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_travel.php?pid=4231">Quanzhou</a></span>
+						<span class="txt">Quanzhou is a prefecture-level city in southern Fujian province, People's Republic of China. It borders all other prefecture-</span>
+					</div>
+                </div>
+       	  	</div>
+        </div>
+				<div class="bodyList">
+				<div class="bodyChannel">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_city_focus.png" border="0" align="absbottom" alt="城" />
+                    City Focus Channel
+                    <span class="more"><a href="city_focus.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+               	</div>
+                
+				<div class="bodyCList"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4297"><img src="/uploads/chinaflix/2012/03/06/City_beat_20120301_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4297">A Schuur Thing</a></span>
+						<span class="txt">Legendary Blind Jazz Singer Diane Schuur to Perform in Shanghai</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cityfocus.php?pid=1049"><img src="/uploads/videos/20090122/155640_81NanShan.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cityfocus.php?pid=1049">Nanshan Ski Resort</a></span>
+						<span class="txt">Nanshan ski resort, located in Miyun county, Beijing, about 80Km from downtown</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4217"><img src="/uploads/chinaflix/2012/02/13/City_beat_20120209_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cityfocus.php?pid=4217">Tony Kaye: A True Man of The World</a></span>
+						<span class="txt">Tony Kaye, World's Greatest Showman, Storms Tribeca with Detachment</span>
+					</div>
+				</div>
+			</div>
+				<div class="bodyChannel">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_documentary.png" border="0" align="absbottom" alt="記" />
+                    Documentary Channel
+                    <span class="more"><a href="documentary.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+               	</div>
+                
+				<div class="bodyCList"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_documentary.php?pid=4267"><img src="/uploads/chinaflix/2012/02/26/Nature_and_science_20120223_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_documentary.php?pid=4267">Triangle tracked snow vehicles</a></span>
+						<span class="txt">New army snowmobile</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_documentary.php?pid=4249"><img src="/uploads/chinaflix/2012/02/20/Nature_and_science_20120216_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_documentary.php?pid=4249">Sichuan's Huanglong Valley </a></span>
+						<span class="txt">Huanglong Valley (the Yellow Dragon) is a travertine ridge gradually rising up and running from south to north. The landform seems</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_documentary.php?pid=4250"><img src="/uploads/chinaflix/2012/02/20/Nature_and_science_20120217_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_documentary.php?pid=4250">Yunnan’s Stone Forest</a></span>
+						<span class="txt">The Stone Forest is approximately 120 kilometers from Kunming along a modern expressway built in recent years. This is considered </span>
+					</div>
+                </div>
+       	  	</div>
+        </div>
+				<div class="bodyList">
+				<div class="bodyChannel">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_cuisine.png" border="0" align="absbottom" alt="食" />
+                    Cuisine Channel
+                    <span class="more"><a href="cuisine.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+               	</div>
+                
+				<div class="bodyCList"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cuisine.php?pid=4098"><img src="/uploads/chinaflix/2012/01/04/independent_inspecter_20111231_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cuisine.php?pid=4098">Pin Chuan</a></span>
+						<span class="txt">This restaurant offers a comfortable environment and wide range of unique Sichuan dishes, complete with a helpful chili rating sys</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cuisine.php?pid=3852"><img src="/uploads/chinaflix/2011/11/04/independent_inspecter_20111029_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cuisine.php?pid=3852">Hotel Indigo Shanghai on the Bund</a></span>
+						<span class="txt">Shanghai's grand waterfront provides the picturesque setting for Hotel Indigo Shanghai on The Bund.</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cuisine.php?pid=4335"><img src="/uploads/chinaflix/2012/03/15/You_are_the_Chef_20120315_part_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cuisine.php?pid=4335">Chocolate banana spring roll</a></span>
+						<span class="txt">Today we'll cook chocolate banana spring roll</span>
+					</div>
+				</div>
+			</div>
+				<div class="bodyChannel">
+            	<div class="bodyCName">
+           	    	<img src="images/ico_cartoon.png" align="absbottom" border="0" alt="畵" />
+                    Cartoon Channel
+                    <span class="more"><a href="cartoon.php"><img src="images/ico_more.gif" width="41" border="0" alt="More" /></a></span>
+               	</div>
+                
+				<div class="bodyCList"><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cartoon.php?pid=638"><img src="/uploads/cartoon/20091126NZNH/01.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cartoon.php?pid=638">Nezha Conquers the Dragon King</a></span>
+						<span class="txt">The story begin with the commander Li Jing who is informed that after a three and half year pregnancy</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cartoon.php?pid=635"><img src="/uploads/cartoon/20091128_DVD1/Pride_General_1.jpg_133" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cartoon.php?pid=635">The Proud General</a></span>
+						<span class="txt">After a victorious military campaign, a general returns home to glory and prosperity</span>
+					</div><div class="bodyCItem">
+						<span class="img"><a title="Title Name" href="videoplayer_cartoon.php?pid=645"><img src="/uploads/cartoon/20091127Monkeyking/monkey_king_02.jpg" width="134" height="100" border="0" /></a></span>
+						<span class="tit"><a title="Title Name" href="videoplayer_cartoon.php?pid=645">Uproar in Heaven</a></span>
+						<span class="txt">The Monkey King and his monkey friends monkey around in Uproar in Heaven.</span>
+					</div>
+                </div>
+       	  	</div>
+        </div>		<img class="white_line" src="images/white_line.gif" width="960" height="1" />
+	</div>
+</div>
+
+<div class="foot">
+	<div class="page relative foot">
+    	<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="index.php">Home</a></li>
+			<li class="foot_menu_dn">&nbsp;</li>
+			<li class="foot_menu_dn">&nbsp;</li>
+			<li class="foot_menu_dn">&nbsp;</li>
+			<li class="foot_menu_dn">&nbsp;</li>
+			<li class="foot_menu_dn">&nbsp;</li>
+			<li class="foot_menu_dn">&nbsp;</li>
+			<li class="foot_menu_dn">&nbsp;</li>
+			<li class="foot_menu_dn">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="business.php">Business</a></li>
+			<li class="foot_menu_dn w100"><a title="China Biz Partners" href="china_biz_partners.php">China Biz Partners</a></li>
+			<li class="foot_menu_dn w100"><a title="Corporate Voice" href="corporate_voice.php">Corporate Voice</a></li>
+			<li class="foot_menu_dn w100"><a title="Entrepreneur Edition" href="enterpreneur_edition.php">Entrepreneur Edition</a></li>
+			<li class="foot_menu_dn w100"><a title="Daily News Video" href="daily_news_video.php">Daily News Video</a></li>
+			<li class="foot_menu_dn w100"><a title="Minds Of Millionaires" href="minds_of_millionaires.php">Minds Of Millionaires</a></li>
+			<li class="foot_menu_dn w100">&nbsp;</li>
+			<li class="foot_menu_dn w100">&nbsp;</li>
+			<li class="foot_menu_dn w100">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="culture.php">Culture</a></li>
+			<li class="foot_menu_dn w80"><a title="Culture Matters" href="culture_matters.php">Culture Matters</a></li>
+			<li class="foot_menu_dn w80"><a title="Culture Express" href="culture_express.php">Culture Express</a></li>
+			<li class="foot_menu_dn w80"><a title="Dialogue" href="dialogue.php">Dialogue</a></li>
+            <li class="foot_menu_dn w80"><a title="China Untapped" href="china_untapped.php">China Untapped</a></li>
+			<li class="foot_menu_dn w80"><a title="Dream Cracker" href="fs_dc.php">Dream Cracker</a></li>
+			<li class="foot_menu_dn w80"><a title="Fortune Telling" href="fs_ft.php">Fortune Telling</a></li>
+			<li class="foot_menu_dn w80"><a title="Find Your Name" href="fs_fyn.php">Find Your Name</a></li> 
+			<li class="foot_menu_dn w80">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="learning.php">Learning</a></li>
+			<li class="foot_menu_dn w95"><a title="Fast Food Chinese" href="fast_food_chinese.php">Fast Food Chinese</a></li>
+			<li class="foot_menu_dn w95"><a title="Chinese with YoYo" href="chinese_yoyo.php">Chinese with YoYo</a></li>
+			<li class="foot_menu_dn w95"><a title="In Chinese" href="in_chinese.php">In Chinese</a></li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="travel.php">Travel</a></li>
+			<li class="foot_menu_dn w102"><a title="Getaway" href="getaway.php">Getaway</a></li>
+			<li class="foot_menu_dn w102"><a title="Rediscovering China" href="rediscovering_china.php">Rediscovering China</a></li>
+			<li class="foot_menu_dn w102"><a title="New Frontiers" href="new_frontiers.php">New Frontiers</a></li>
+			<li class="foot_menu_dn w102"><a title="Enjoy Taiwan" href="enjoy_taiwan.php">Enjoy Taiwan</a></li>
+			<li class="foot_menu_dn w102"><a title="Travelogue" href="travelogue.php">Travelogue</a></li>
+			<li class="foot_menu_dn w102">&nbsp;</li>
+			<li class="foot_menu_dn w102">&nbsp;</li>
+			<li class="foot_menu_dn w102">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="city_focus.php">City Focus</a></li>
+			<li class="foot_menu_dn w96"><a title="City Beat" href="city_beat.php">City Beat</a></li>
+			<li class="foot_menu_dn w96"><a title="Shanghai Quest" href="shanghai_quest.php">Shanghai Quest</a></li>
+			<li class="foot_menu_dn w96"><a title="Special Event" href="special_event.php">Special Event</a></li>
+			<li class="foot_menu_dn w96"><a title="Real China Traveler" href="real_china_traveler.php">Real China Traveler</a></li>
+			<li class="foot_menu_dn w96">&nbsp;</li>
+			<li class="foot_menu_dn w96">&nbsp;</li>
+			<li class="foot_menu_dn w96">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="cuisine.php">Cuisine</a></li>
+			<li class="foot_menu_dn w110"><a title="You are the chef" href="you_are_the_chef.php">You are the chef</a></li>
+			<li class="foot_menu_dn w110"><a title="Independent Inspector" href="independent_inspector.php">Independent Inspector</a></li>
+			<li class="foot_menu_dn w110">&nbsp;</li>
+			<li class="foot_menu_dn w110">&nbsp;</li>
+			<li class="foot_menu_dn w110">&nbsp;</li>
+			<li class="foot_menu_dn w110">&nbsp;</li>
+			<li class="foot_menu_dn w110">&nbsp;</li>
+			<li class="foot_menu_dn w110">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="documentary.php">Documentary</a></li>
+			<li class="foot_menu_dn w130"><a title="People / Life in China" href="people_china.php">People / Life in China</a></li>
+			<li class="foot_menu_dn w130"><a title="History" href="history.php">History</a></li>
+			<li class="foot_menu_dn w130"><a title="Expats in China" href="expats_in_china.php">Expats in China</a></li>
+			<li class="foot_menu_dn w130"><a title="Nature" href="nature.php">Nature</a></li>
+			<li class="foot_menu_dn w130"><a title="Old films and old Shanghai" href="films_shanghai.php">Old films and old Shanghai</a></li>
+			<li class="foot_menu_dn w130"><a title="Spotlight" href="spotlight.php">Spotlight</a></li>
+			<li class="foot_menu_dn w130">&nbsp;</li>
+			<li class="foot_menu_dn w130">&nbsp;</li>
+		</ul>
+		<ul class="foot_menu">
+			<li class="foot_menu_up"><a href="cartoon.php">Cartoon</a></li>
+			<li class="foot_menu_dn w95"><a title="Classical Animation" href="chinese_animation.php">Classical Animation</a></li>
+			<li class="foot_menu_dn w95"><a title="Original Animation" href="original_animation.php">Original Animation</a></li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+			<li class="foot_menu_dn w95">&nbsp;</li>
+		</ul>
+    
+    	<div class="foot_cp">© Copyright 2011 ChinaFlix inc. &nbsp;&nbsp;&nbsp;&nbsp; <a style="color:#FFF; font-size:11px;" href="http://www.chinaflix.com/terms_of_use.php">Terms of Use</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#FFF; font-size:11px;" href="http://www.chinaflix.com/privacy_policy.php">Online Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#FFF; font-size:11px;" href="http://www.chinaflix.com/moderation_policy.php">Moderation Policy</a></div>
+    </div>
+</div>
+
+
+<!-- Start Quantcast tag --> 
+<script type="text/javascript">
+var _qevents = _qevents || [];
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+_qevents.push({
+qacct:"p-a3uI0pIYfcEfs"
+});
+</script>
+<noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-a3uI0pIYfcEfs.gif" border="0" height="1" width="1" alt="Quantcast"/></div></noscript> 
+<!-- End Quantcast tag -->
+	
+<!-- Start Google ads tag --> 	
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-27170066-1']);
+	_gaq.push(['_setDomainName', 'chinaflix.com']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!-- End Google ads tag --> 
+
+		
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+  (function () {
+    var d = new Image(1, 1);
+    d.onerror = d.onload = function () {
+      d.onerror = d.onload = null;
+    };
+    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-504365h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+  })();
+</script>
+<noscript>
+  <div>
+    <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-504365h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+    width="1" height="1" alt="" />
+  </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<!-- Begin comScore Tag -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "13557375" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=13557375&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<script type="text/javascript">document.write('<s'+'cript type="text/javascript" src="script/ads_tf.js?'+Math.round(Math.random()*10000)+'"></scr'+'ipt>'); </script><!-- <php echo($ad_txt);> -->
+</body>
+</html>

@@ -1,0 +1,1769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>USPS - The United States Postal Service (U.S. Postal Service)</title>
+		<!--ls:begin[stylesheet]-->
+		<link href="/iwov-resources/fixed-layout/home.css" type="text/css" rel="stylesheet">
+		<!--ls:end[stylesheet]-->
+		<!--ls:begin[meta-keywords]-->
+		<meta name="keywords" content="">
+		<!--ls:end[meta-keywords]-->
+		<!--ls:begin[meta-description]-->
+		<meta name="description" content="">
+		<!--ls:end[meta-description]-->
+		<!--ls:begin[meta-vpath]-->
+		<meta name="vpath" content="">
+		<!--ls:end[meta-vpath]-->
+		<!--ls:begin[stylesheet]-->
+		<link type="text/css" href="/ContentTemplates/common/css/customer.css" rel="stylesheet">
+		<!--ls:end[stylesheet]-->
+		<!--ls:begin[stylesheet]-->
+		<link type="text/css" href="/ContentTemplates/common/css/reset.css" rel="stylesheet">
+		<!--ls:end[stylesheet]-->
+		<!--ls:begin[stylesheet]-->
+		<link type="text/css" href="/ContentTemplates/common/css/usps.css" rel="stylesheet">
+		<!--ls:end[stylesheet]-->
+		<!--ls:begin[stylesheet]-->
+		<link type="text/css" href="/ContentTemplates/common/css/fonts.css" rel="stylesheet">
+		<!--ls:end[stylesheet]-->
+		<!--ls:begin[head-injection]-->
+		<link href="/ContentTemplates/common/css/search-header-predict.css" media="all" rel="stylesheet" type="text/css" />
+		<link rel="canonical" href="https://www.usps.com/" />
+		<link rel="stylesheet" href="/ContentTemplates/common/css/globals/dijit-resets.css"  />
+		<link rel="stylesheet" href="/ContentTemplates/common/css/globals/widgets/modal-fluid/modal-fluid.css" type="text/css" media="all" />
+
+		<!--[if IE 6]>
+			<link rel="stylesheet" href="/ContentTemplates/common/css/usps-ie7.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/ContentTemplates/common/css/usps-ie6.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/ContentTemplates/common/css/globals/widgets/modal-fluid/modal-fluid-ie6.css" type="text/css" media="all" />
+		<![endif]-->
+
+		<!--[if IE 7]>
+			<link rel="stylesheet" href="/ContentTemplates/common/css/usps-ie7.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/ContentTemplates/common/css/globals/widgets/modal-fluid/modal-fluid-ie7.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="/ContentTemplates/assets/css/home-IE7.css" type="text/css" media="all" />
+		<![endif]-->
+		<link rel="stylesheet" href="/ContentTemplates/common/css/usps-print.css" type="text/css" media="print" />
+		<link rel="stylesheet" href="/ContentTemplates/assets/css/templates.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="/ContentTemplates/assets/css/components.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="/ContentTemplates/assets/css/home.css" type="text/css" media="all" />
+
+		<!--ls:end[head-injection]-->
+
+		<!--ls:begin[script]-->
+
+		<!--ls:end[script]-->
+
+
+
+<!-- Temp - Styles For possible Akamai Cache, Remove on next update. -->
+
+  <style type="text/css">
+
+#carousel li.cp7 a.hover{
+
+	width: 132px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/order-free-kit-btn.png);
+
+	top: 125px;
+
+	left:49px;
+
+}
+
+
+
+#carousel li.cyan a.hover{
+
+	width: 165px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/change-your-address-now.png);
+
+	top: 305px;
+
+	left:252px;
+
+}
+
+
+
+#carousel li.bsn a.hover{
+
+	width: 119px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/buy-stamps-now.png);
+
+	top: 108px;
+
+	left:48px;
+
+}
+
+
+
+
+
+#carousel li.ppo a.hover{
+
+	width: 80px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/passport-start-now.png);
+
+	top: 295px;
+
+	left:266px;
+
+}
+
+
+
+
+
+
+
+#carousel li.hml a.hover{
+
+	width: 151px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/holdmail-btn.png);
+
+	top: 305px;
+
+	left:226px;
+
+}
+
+
+
+
+
+#carousel li.pmfr a.hover{
+
+	width: 105px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/prepaid-btn.png);
+
+	top: 153px;
+
+	left:48px;
+
+}
+
+
+
+
+
+#carousel li.pmfr a.hover.lmo {
+
+	width: 67px;
+
+	height: 8px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/learn-more-link.gif);
+
+	top: 199px;
+
+	left:48px;
+
+}
+
+
+
+
+#carousel li.ems a.hover{
+
+	width: 104px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/expmail-learnmore-btn.png);
+
+	top: 143px;
+
+	left:49px;
+
+}
+
+
+#carousel li.mcp a.hover{
+	width: 100px;
+	height: 19px;
+	background-image: url(/ContentTemplates/assets/images/promos/hov/learn_more_btnroll.png);
+	top: 294px;
+	left:310px;
+}
+
+
+
+
+#carousel li.pob a.hover{
+
+	width: 174px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/pobox-btn.png);
+
+	top: 306px;
+
+	left:282px;
+
+}
+
+
+
+#carousel li.trp a.hover{
+
+	width: 85px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/troops-btn-rollover.png);
+
+	top: 306px;
+
+	left:237px;
+
+}
+
+
+#carousel li.gxg2 a.hover{
+
+	width: 143px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/gxg-btn-rollover.png);
+
+	top: 126px;
+
+	left:49px;
+
+}
+
+
+#carousel li.stor a.hover{
+
+	width: 103px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/shop-btn-rollover.png);
+
+	top: 111px;
+
+	left:50px;
+
+}
+
+
+#carousel li.whn a.hover{
+
+	width: 104px;
+
+	height: 27px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/whatsnew-btn-rollover.png);
+
+	top: 140px;
+
+	left:49px;
+
+}
+
+
+#carousel li.ml a.hover.es {
+
+	width: 56px;
+
+	height: 12px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/ml-spanish-btn-rollover.png);
+
+	top: 312px;
+
+	left:286px;
+
+}
+
+
+#carousel li.ml a.hover.zh {
+
+	width: 50px;
+
+	height: 11px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/ml-chinese-btn-rollover.png);
+
+	top: 310px;
+
+	left:378px;
+
+}
+
+
+#carousel li.wrap a.hover{
+
+	width: 136px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/wrapup-hol-btn.png);
+
+	top: 225px;
+
+	left:439px;
+
+}
+
+
+#carousel li.insgi a.hover{
+
+	width: 82px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/insurance-hol-btn.png);
+
+	top: 294px;
+
+	left:271px;
+
+}
+
+
+#carousel li.trohol a.hover{
+
+	width: 104px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/troops-hol-btn.png);
+
+	top: 106px;
+
+	left:49px;
+
+}
+
+
+
+#carousel li.pckup a.hover{
+
+	width: 119px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/pckg-pickup-hol-btn.png);
+
+	top: 294px;
+
+	left:291px;
+
+}
+
+
+#carousel li.polhol a.hover{
+
+	width: 103px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/findloc-hol-btn.png);
+
+	top: 302px;
+
+	left:278px;
+
+}
+
+
+
+#carousel li.pfs2 a.hover{
+
+	width: 82px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/pfs-holt2-btn-rollover.png);
+
+	top: 306px;
+
+	left:250px;
+
+}
+
+
+#carousel li.polo2 a.hover{
+
+	width: 103px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/polo2-btn-rollover.png);
+
+	top: 302px;
+
+	left:278px;
+
+}
+
+
+#carousel li.prima a.hover{
+
+	width: 105px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/pri-mail-hol-lrnmore-btn.png);
+
+	top: 107px;
+
+	left:48px;
+
+}
+
+
+#carousel li.cstor a.hover{
+
+	width: 143px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/cardstore-hol-btn.png);
+
+	top: 150px;
+
+	left:49px;
+
+}
+
+
+#carousel li.fosta a.hover{
+
+	width: 127px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/stamps-buynow-btn.png);
+
+	top: 121px;
+
+	left:49px;
+
+}
+
+
+#carousel li.tnc a.hover{
+
+	width: 82px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/trackconfirm-lrnmore-btn.png);
+
+	top: 306px;
+
+	left:242px;
+
+}
+
+
+#carousel li.shon a.hover{
+
+	width: 104px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/store-shopnow-btn.png);
+
+	top: 107px;
+
+	left:49px;
+
+}
+
+
+#carousel li.hdm a.hover{
+
+	width: 82px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/holdmail-hol-btn-rollover.png);
+
+	top: 294px;
+
+	left:223px;
+
+}
+
+
+
+#carousel li.prl a.hover{
+
+	width: 198px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/printlabel-hol-btn-rollover.png);
+
+	top: 107px;
+
+	left:49px;
+
+}
+
+
+#carousel li.prla a.hover{
+
+	width: 199px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/printlabel-btn.png);
+
+	top: 125px;
+
+	left:48px;
+
+}
+
+
+#carousel li.hpse a.hover{
+
+	width: 127px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/pse-hol-rollover-btn.png);
+
+	top: 107px;
+
+	left:49px;
+
+}
+
+
+#carousel li.hry a.hover{
+
+	width: 105px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/expressmail-hol-btn-learnmore.png);
+
+	top: 121px;
+
+	left:48px;
+
+}
+
+
+#carousel li.rtr a.hover{
+
+	width: 136px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/returns-btn-rollover.png);
+
+	top: 225px;
+
+	left:130px;
+
+}
+
+
+#carousel li.wnew a.hover{
+
+	width: 104px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/whatsnew-hp-banner-v2-btn-rollover.png);
+
+	top: 137px;
+
+	left:49px;
+
+}
+
+
+#carousel li.pfs2 a.hover{
+
+	width: 80px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/pfs-learnmore-rollover-btn.png);
+
+	top: 306px;
+
+	left:291px;
+
+}
+
+
+#carousel li.val a.hover{
+
+	width: 104px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/valentines-day-btn-rollover.png);
+
+	top: 107px;
+
+	left:49px;
+
+}
+
+
+#carousel li.sur a.hover{
+
+	width: 86px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/insurance-btn-rollover.png);
+
+	top: 299px;
+
+	left:303px;
+
+}
+
+
+#carousel li.bigl a.hover{
+
+	width: 137px;
+
+	height: 27px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/biggest-loser-rollover.png);
+
+	top: 268px;
+
+	left:121px;
+
+}
+
+
+
+#carousel li.floc a.hover{
+
+	width: 105px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/find-location-btn-rollover-feb.png);
+
+	top: 306px;
+
+	left:299px;
+
+}
+
+
+
+#carousel li.gxg3 a.hover{
+
+	width: 143px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/gxg-btn-rollover-feb.png);
+
+	top: 136px;
+
+	left:48px;
+
+}
+
+
+
+#carousel li.ppd a.hover{
+
+	width: 107px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/passport-day-lrn-more-btn.png);
+
+	top: 136px;
+
+	left:48px;
+
+}
+
+
+
+#carousel li.emfr a.hover{
+
+	width: 142px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/express-mail-frb-btn.png);
+
+	top: 148px;
+
+	left:50px;
+
+}
+
+
+#carousel li.npf a.hover{
+
+	width: 103px;
+
+	height: 19px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/npf-banner-rollover-btn.png);
+
+	top: 302px;
+
+	left:278px;
+
+}
+
+
+
+#carousel li.ncns a.hover{
+
+	width: 97px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/new-cns-btn-rollover.png);
+
+	top: 118px;
+
+	left:49px;
+
+}
+
+
+#carousel li.chk a.hover.elmo {
+
+	width: 79px;
+
+	height: 10px;
+
+	background-image: url(/ContentTemplates/assets/images/mailcampaign/free-eddm-kit-learn-more-btn.png);
+
+	top: 314px;
+
+	left:35px;
+
+}
+
+
+#carousel li.chk a.hover.eddm {
+
+	width: 266px;
+
+	height: 10px;
+
+	background-image: url(/ContentTemplates/assets/images/mailcampaign/free-eddm-kit-btn.png);
+
+	top: 314px;
+
+	left:151px;
+
+}
+
+
+#carousel li.nas a.hover {
+
+	width: 118px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/need-stamp-btn-rollover.png);
+
+	top: 100px;
+
+	left:49px;
+
+}
+
+
+#carousel li.tdb a.hover {
+
+	width: 104px;
+
+	height: 26px;
+
+	background-image: url(/ContentTemplates/assets/images/promos/hov/taxes-2012-btn-rollover.png);
+
+	top: 120px;
+
+	left:49px;
+
+}
+
+
+
+</style>
+
+  <script type="text/javascript">
+
+    var ecompageid="home";
+
+    function loginAnchor_BeaconDoer()  {	try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: RegisterSignIn', 'WT.z_section', 'Home_Header', 'WT.z_link', 'RegisterSignIn') }catch(e){} }
+
+    function loginSignin_BeaconDoer()  {	try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: SignInButton', 'WT.z_section', 'Home_Header', 'WT.z_link', 'SignInButton') }catch(e){} }
+
+    function loginForgot_BeaconDoer()  {	try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: ForgotPassword', 'WT.z_section', 'Home_Header', 'WT.z_link', 'ForgotPassword') }catch(e){} }
+
+    function loginSignup_BeaconDoer()  {	try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: SignupNow', 'WT.z_section', 'Home_Header', 'WT.z_link', 'SignupNow') }catch(e){} }
+
+    function loginProfile_BeaconDoer() {	try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: LoggedInMyProfile', 'WT.z_section', 'Home_Header', 'WT.z_link', 'LoggedInMyProfile') }catch(e){} }
+
+    function loginSignout_BeaconDoer() {	try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: LoggedInSignOut', 'WT.z_section', 'Home_Header', 'WT.z_link', 'LoggedInSignOut') }catch(e){} }
+
+  </script>
+
+  <script type="text/javascript">
+
+    var Nth=.006;
+
+    var pageval=1;
+
+  </script>
+
+  <script type="text/javascript" src="/survey/webpop/sub.js"></script>
+
+
+
+</head><body><!--ls:begin[body]--><div class="ls-canvas" id="page"><div class="ls-row" id="ls-row-1"><div class="ls-fxr" id="ls-gen1-ls-fxr"><div class="ls-area" id="ls-row-1-area-1"><div class="ls-area-body" id="ls-gen2-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1300669387514"><div class="iw_component my-component" id="1300669387514">
+
+  <!--  z#zzzinclude virtual="/send/global/includes/header.htm"-->
+
+  <!--  Start -->
+
+
+
+<div id="element1"><div class="iw_component" id="c1298376094684"><!--<div class="hide-fromsighted">
+
+<a href="#quickToolStart">Skip To Quick Tools</a><a href="#navigationStart">Skip To Navigation</a><a href="#navigationEnd">Skip to Main Content</a>
+
+</div>--><div id="utility-bar">
+
+<div class="page-section clearfix">
+
+<div class="left">
+
+	<div id="nav-tool-multilingual" class="nav-tool">
+		<div class="right-border">
+			<h2>
+				<a href="#" class="anchor" tabindex="0" name="anchor-login" id="multiling-anchor">
+					English<span class="hide-fromsighted"> Use arrow key to access related widget.</span>
+				</a>
+			</h2>
+			<div class="nav-window">
+				<div class="wrapper col_3">
+					<div class="background">
+						<div class="modal-insider"></div>
+						<div class="modal-corner-tl"></div>
+						<div class="modal-corner-tr"></div>
+						<div class="modal-corner-bl"></div>
+						<div class="modal-corner-br"></div>
+						<div class="modal-repeat-left"></div>
+						<div class="modal-repeat-right"></div>
+						<div class="modal-repeat-top"></div>
+						<div class="modal-repeat-bottom"></div>
+					</div>
+					<script type="text/javascript" src="/ContentTemplates/common/scripts/OneLinkUsps.js"></script>
+					<div class="content">
+						<div class="multi-option">
+							<a href="javascript:OneLink('en');" class="multi-link">English</a>
+						</div>
+						<div class="multi-option odd">
+							<a href="javascript:OneLink('es');" class="multi-link">Espa&ntilde;ol</a>
+						</div>
+						<div class="multi-option last">
+							<a href="javascript:OneLink('zh');" class="multi-link chinese"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<ul id="contact-list">
+
+<li>
+
+<a id="link-support" href="/customer-service/customer-service.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: CustomerService', 'WT.z_section', 'Home_Header', 'WT.z_link', 'CustomerService') }catch(e){}">Customer Service</a>
+
+</li>
+
+<li class="last">
+
+<a id="link-mobile" href="/mobile/info.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Header: USPSMobile', 'WT.z_section', 'Home_Header', 'WT.z_link', 'USPSMobile') }catch(e){}">USPS Mobile</a>
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="right">
+
+<div id="login-register"></div>
+<script type="text/javascript" src="/ContentTemplates/common/scripts/login.js"></script>
+
+<!--<div id="global-header-cart"></div>
+<script src="https://store.usps.com/store/usps_gh/shopping-cart2.jsp" type="text/javascript"></script>
+<div class="nav-pipe"></div>-->
+
+</div>
+
+</div>
+
+</div><div id="header">
+
+<div class="page-section">
+
+<div class="clearfix">
+
+<div class="left">
+
+<h2>
+
+<a href="/welcome.htm" name="link-logo" id="link-logo"><img id="main-logo" alt="USPS.com home. The profile of an eagle's head adjoining the words United States Postal Service are the two elements that are combined to form the corporate signature." src="/ContentTemplates/assets/images/global/usps_logo.gif"></a>
+
+</h2>
+
+</div>
+
+<div class="head-search right position-relative">
+
+<div id="search-form">
+
+<form action="/search.htm" id="form-search-submit" name="search" method="get"/>
+
+<label class="hide-fromsighted" for="search-text">Search USPS.com or Track Packages</label><input value="Search USPS.com or Track Packages" class="default hasDefault" name="q" autocomplete="off" id="search-text" rel="Search USPS.com or Track Packages" type="text"><input alt="Process Search" src="/ContentTemplates/assets/images/global/blank.gif" id="search-btn" type="image">
+
+</form>
+
+</div>
+
+<script type="text/javascript">
+
+		  // Assigns a default value to the Search field with id 'search-text'
+
+var v3s_default_value = 'Search USPS.com or Track Packages'; // default value
+
+if (document.getElementById("search-text")){
+
+	if (!document.getElementById("search-text").value) {
+
+		document.getElementById("search-text").value = v3s_default_value;
+
+	}
+
+	document.getElementById("search-text").onfocus = function() {
+
+  	if (this.value == v3s_default_value) {
+
+		this.value = '';
+
+  	}
+
+
+
+  	this.onblur = function() {
+
+  		if (this.value == '') {
+
+    		this.value = v3s_default_value;
+
+  		}
+
+		}
+
+	}
+
+}
+
+
+
+		  </script>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div id="alert">
+<div class="page-section">
+<div class="clearfix">
+<div class="alert">
+<a href="https://postalinspectors.uspis.gov/radDocs/consumer/SpamAlert.pdf" target="_blank" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Alertbar: BogusEmail', 'WT.z_section', 'Home_AlertBar', 'WT.z_link', 'BogusEmail') }catch(e){}">ALERT: Customers be aware of fraudulent package delivery messages sent by email or phone. &nbsp;&nbsp;<span>Read more »</span></a>
+</div>
+</div>
+</div>
+</div>
+
+<!--
+<a href="#">ALERT: 100+ Detroit-Area Post Offices Closed Due to Flooding.&nbsp;&nbsp;<span>Read more »</span></a>
+
+
+
+<div id="alert">
+<div class="page-section">
+<div class="clearfix">
+<div class="alert">
+<a href="#">ALERT: USPS.com applications are undergoing scheduled maintenance and will be back online shortly.</a>
+</div>
+</div>
+</div>
+</div>
+
+
+-->
+
+
+</div></div>
+
+
+
+
+
+	<!--  End -->
+
+
+
+
+
+</div></div></div></div><div class="ls-row-clr"></div></div></div><div class="ls-row" id="main"><div class="ls-fxr" id="ls-gen3-ls-fxr"><div class="ls-col" id="ls-row-2-col-1"><div class="ls-col-body" id="ls-gen4-ls-col-body"><div class="ls-row page-section clearfix" id="ls-row-2-col-1-row-1"><div class="ls-fxr" id="ls-gen5-ls-fxr"><div class="ls-area" id="main-side-content"><div class="ls-area-body" id="ls-gen6-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1300669387518">
+
+<div class="open iw_component" id="1300669387518" style="padding-bottom:0;">
+	<div class="open" id="quick-tools">
+		<h2 class=""><a name="quickToolStart" href="#">Quick Tools</a></h2>
+
+		<div id="qt-wrapper">
+			<div id="qt-hdr-wrapper">
+				<h3 style="padding-top: 10px;">Always a Click Away
+					<div class="inner-title">Roll over the tools menu across the site to access quick, handy tools.</div>
+				</h3>
+			</div>
+			<ul id="qt-options">
+				<li id="qt-track" class=""><a title="Track and Confirm" id="qt-track-link">Track &amp; Confirm</a></li>
+				<li id="qt-location" class=""><a title="Find Locations" id="qt-location-link">Find Locations</a></li>
+				<li id="qt-price" class=""><a title="Calculate a Price" id="qt-price-link">Calculate a Price</a></li>
+				<li id="qt-zip" class=""><a title="Look Up A ZIP Code" id="qt-zip-link">Look Up a ZIP Code&trade;</a></li>
+			</ul>
+			<div id="qt-cap"></div>
+		</div>
+	</div>
+</div>
+
+</div><div class="ls-cmp-wrap" id="w1300669394990"><div class="iw_component" id="1300669394990">
+
+</div></div><div class="ls-cmp-wrap" id="w1300669394991"><div class="iw_component" id="1300669394991"><p class="order-supplies"><a href="https://cns.usps.com/go" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_LeftAdSpot1: CNS_LeftAdSpot1', 'WT.z_section', 'Home_LeftAdSpot1', 'WT.z_link', 'CNS_LeftAdSpot1') }catch(e){}"><img src="/ContentTemplates/assets/images/home/pay-print-and-ship.png" alt="Pay, Print & Ship. Pay, print, and ship quickly with the redesigned Click-N-Ship®. Print a Shipping Label. Image of a print with a shipping label and brown box." /></a></p>
+
+</div></div></div></div><div class="ls-area" id="main-content"><div class="ls-area-body" id="ls-gen7-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1300669387519"><div class="iw_component" id="1300669387519">
+
+  <!--   z#zzzinclude virtual="/send/global/includes/navigation.htm"-->
+
+<!-- Start -->
+
+<div id="element1"><div class="iw_component" id="c1298473353078"><div id="nav_qt_wrapper">
+<div id="navigation">
+<a href="#TopNavSkip" class="hide-fromsighted" name="navigationStart">Skip Top Navigation</a>
+<div id="nav-cap-left" class="nav-cap"></div>
+<ul class="clearfix" id="navigation-list">
+<li rel="339" id="nav-ship" class="">
+<h3>
+<a name="nav-1" id="nav-1" rel="nav-ship" href="/ship/ship-a-package.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg') }catch(e){}">Ship a Package</a>
+</h3>
+<a href="#nav-1-end" class="hide-fromsighted">go to Send Mail header</a>
+<div class="dropdown">
+<div class="wrapper">
+<div class="list-wrapper">
+<ul>
+<li>
+<a href="/shipping/label.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: PrintLabel', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_PrintLabel') }catch(e){}">Print a Label with Postage ›</a>
+</li>
+<li>
+<a href="/shipping/carrierpickup/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: SchedPickup', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_SchedPickup') }catch(e){}">Schedule a Pickup ›</a>
+</li>
+<li>
+<a href="/get-mailing-shipping-supplies.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: OrderFreeBoxes', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_OrderFreeBoxes') }catch(e){}">Get Mailing & Shipping Supplies ›</a>
+</li>
+<li>
+<a href="/calculateretailpostage/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: CalcPrice', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_CalcPrice') }catch(e){}">Calculate a Price ›</a>
+</li>
+<li>
+<a href="https://tools.usps.com/go/ZipLookupAction!input.action" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: LookupZIPCode', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_LookupZIPCode') }catch(e){}">Look Up a ZIP Code&trade; ›</a>
+</li>
+</ul>
+<h4>Get Help To:</h4>
+<ul class="secondary">
+<li>
+<a href="/ship/service-chart.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: CompareServicesPrices', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_CompareServicesPrices') }catch(e){}">Compare Services & Prices ›</a>
+</li>
+<li>
+<a href="/ship/insurance-and-extra-services.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: InsureandExtraServs', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_InsureandExtraServs') }catch(e){}">Add Insurance & Extra Services ›</a>
+</li>
+<li>
+<a href="/ship/prepare-domestic-shipments.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: PrepDomShip', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_PrepDomShip') }catch(e){}">Prepare Domestic Shipments ›</a>
+</li>
+<li>
+<a href="/ship/prepare-international-shipments.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: PrepInternationalShip', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_PrepInternationalShip') }catch(e){}">Prepare International Shipments ›</a>
+</li>
+<li>
+<a href="/ship/file-insurance-claims.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ShipaPckg: FileClaim', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ShipaPckg_FileClaim') }catch(e){}">File an Insurance Claim ›</a>
+</li>
+</ul>
+</div>
+<div class="nav-dd-cap"></div>
+</div>
+</div>
+</li>
+<a id="nav-1-end" class="hide-fromsighted" name="nav-1-end" tabindex="-1">End of sub links</a>
+<li rel="317" id="nav-send" class="">
+<h3>
+<a name="nav-2" id="nav-2" rel="nav-send" href="/send/send-mail.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail') }catch(e){}">Send Mail</a>
+</h3>
+<a href="#nav-2-end" class="hide-fromsighted">go to Manage Your Mail header</a>
+<div class="dropdown">
+<div class="wrapper">
+<div class="list-wrapper">
+<ul>
+<li>
+<a href="/buy-stamps.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: BuyStamps', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_BuyStamps') }catch(e){}">Buy Stamps ›</a>
+</li>
+<li>
+<a href="/send/design-mail-and-postage.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: CreateCustPostage', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_CreateCustPostage') }catch(e){}">Create Customized Postage ›</a>
+</li>
+<li>
+<a href="/calculateretailpostage/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: SendMail_CalcPrice', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_CalcPrice') }catch(e){}">Calculate a Price ›</a>
+</li>
+<li>
+<a href="https://tools.usps.com/go/ZipLookupAction!input.action" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: LookupZIPCode', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_LookupZIPCode') }catch(e){}">Look Up a ZIP Code&trade; ›</a>
+</li>
+</ul>
+<h4>Get Help To:</h4>
+<ul class="secondary">
+<li>
+<a href="/send/service-chart.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: CompareServicesPrices', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_CompareServicesPrices') }catch(e){}">Compare Services & Prices ›</a>
+</li>
+<li>
+<a href="/send/insurance-and-extra-services.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: ExtraServices', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_ExtraServices') }catch(e){}">Mail with Extra Services ›</a>
+</li>
+<li>
+<a href="/send/address-letter-cards.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: AddressLettersandCards', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_AddressLettersandCards') }catch(e){}">Address Letters & Cards ›</a>
+</li>
+<li>
+<a href="/send/prepare-international-shipments.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: PrepInternationalMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_PrepInternationalMail') }catch(e){}">Prepare International Mail ›</a>
+</li>
+<li>
+<a href="/send/design-mail-and-postage.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: SendMail: DesignMailStamps', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'SendMail_DesignMailStamps ') }catch(e){}">Design Mail & Postage ›</a>
+</li>
+</ul>
+</div>
+<div class="nav-dd-cap"></div>
+</div>
+</div>
+</li>
+<a id="nav-2-end" class="hide-fromsighted" name="nav-2-end" tabindex="-1">End of sub links</a>
+<li rel="317" id="nav-manage" class="">
+<h3>
+<a name="nav-3" id="nav-3" rel="nav-manage" href="/manage/manage-your-mail.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail') }catch(e){}">Manage Your Mail</a>
+</h3>
+<a href="#nav-3-end" class="hide-fromsighted">go to Shop header</a>
+<div class="dropdown">
+<div class="wrapper">
+<div class="list-wrapper">
+<ul>
+<li>
+<a href="https://tools.usps.com/go/TrackConfirmAction!input.action" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: TrackConfirm', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_TrackConfirm') }catch(e){}">Track & Confirm ›</a>
+</li>
+<li>
+<a href="/locator/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: FindLocations', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_FindLocations') }catch(e){}">Find Locations ›</a>
+</li>
+<li>
+<a href="https://moversguide.usps.com/" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: ChangeAddress', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_ChangeAddress') }catch(e){}">Change Your Address ›</a>
+</li>
+<li>
+<a href="/holdmail/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: HoldMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_HoldMail') }catch(e){}">Hold Mail ›</a>
+</li>
+<li>
+<a href="/forward-mail/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: ForwardMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_ForwardMail') }catch(e){}">Forward Mail ›</a>
+</li>
+<li>
+<a href="/redelivery/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: SchdlaRedeliv', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_SchdlaRedeliv') }catch(e){}">Schedule a Redelivery ›</a>
+</li>
+</ul>
+<h4>Get Help To:</h4>
+<ul class="secondary">
+<li>
+<a href="/manage/get-a-po-box.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: GetOrRenewPOBox', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_GetOrRenewPOBox') }catch(e){}">Reserve or Renew a PO Box&trade; ›</a>
+</li>
+<li>
+<a href="/manage/file-insurance-claims.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: FileClaim', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_FileClaim') }catch(e){}">File an Insurance Claim ›</a>
+</li>
+<li>
+<a href="/manage/research-delivery-options.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: DelivOptions', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_DelivOptions') }catch(e){}">Research Delivery Options ›</a>
+</li>
+<li>
+<a href="/manage/mail-for-deceased-people.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: MailforDeceased', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_MailforDeceased') }catch(e){}">Manage Mail for the Deceased ›</a>
+</li>
+<li>
+<a href="/manage/know-mailbox-guidelines.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: MailboxGuidelines', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_MailboxGuidelines') }catch(e){}">Learn About Mailbox Guidelines ›</a>
+</li>
+<li>
+<a href="/manage/free-product-samples.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: ManageYourMail: LearnFreeProdSamples', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'ManageYourMail_LearnFreeProdSamples') }catch(e){}"><span>Learn About Free Product <br/>Samples ›</span></a>
+</li>
+</ul>
+</div>
+<div class="nav-dd-cap"></div>
+</div>
+</div>
+</li>
+<a id="nav-3-end" class="hide-fromsighted" name="nav-3-end" tabindex="-1">End of sub links</a>
+<li rel="349" id="nav-shop" class="">
+<h3>
+<a name="nav-4" id="nav-4" rel="nav-shop" href="/shop" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop') }catch(e){}">Shop</a>
+</h3>
+<a href="#nav-4-end" class="hide-fromsighted">go to Business Solutions header</a>
+<div class="dropdown">
+<div class="wrapper">
+<div class="list-wrapper">
+<ul>
+<li>
+<a href="/buy-stamps.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyStamps', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_BuyStamps') }catch(e){}">Buy Stamps ›</a>
+</li>
+<li>
+<a href="/get-mailing-shipping-supplies.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: GetFreeFlatRateBox', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_GetFreeFlatRateBox') }catch(e){}">Get Mailing & Shipping Supplies ›</a>
+</li>
+<li class="large">
+<a href="/order-pse.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: OrderPersStmpdEvlops', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_OrderPersStmpdEvlops') }catch(e){}"><span>Order Personalized Stamped Envelopes ›</span></a>
+</li>
+<li>
+<a href="/buy-custom-postage.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyCustomPstg', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_BuyCustomPstg') }catch(e){}">Buy Custom Postage ›</a>
+</li>
+<li>
+<a href="/buy-gifts-and-fun-stuff.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyGiftsFunStuff', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_BuyGiftsFunStuff') }catch(e){}">Buy Gifts & Fun Stuff ›</a>
+</li>
+<li>
+<a href="/buy-collectibles.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: BuyCollectibles', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_BuyCollectibles') }catch(e){}">Buy Collectibles ›</a>
+</li>
+</ul>
+<h4>Get Help To:</h4>
+<ul class="secondary">
+<li>
+<a href="/shop/money-orders.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: LearnDomIntlMoneyOrder', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_LearnDomIntlMoneyOrder') }catch(e){}">Learn About Domestic & International Money Orders ›</a>
+</li>
+<li>
+<a href="/shop/wire-money-internationally.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: LearnSureMoney', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_LearnSureMoney') }catch(e){}"><span>Learn About SureMoney&reg;<br/>(DineroSeguro&reg;) ›</span></a>
+</li>
+<li>
+<a href="/shop/apply-for-a-passport.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: Shop: ApplyForPassport', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'Shop_ApplyForPassport') }catch(e){}">Apply for a Passport ›</a>
+</li>
+</ul>
+</div>
+<div class="nav-dd-cap"></div>
+</div>
+</div>
+</li>
+<a id="nav-4-end" class="hide-fromsighted" name="nav-4-end" tabindex="-1">End of sub links</a>
+<li rel="295" id="nav-business" class="">
+<h3>
+<a name="nav-5" id="nav-5" rel="nav-business" href="/business/business-solutions.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions') }catch(e){}">Business Solutions</a>
+</h3>
+<div class="dropdown">
+<div class="wrapper">
+<div class="list-wrapper">
+<ul>
+<li>
+<a href="/calculatebusinesspostage/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: CalcBizPrice', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_CalcBizPrice') }catch(e){}">Calculate Business Prices ›</a>
+</li>
+<li>
+<a href="/business/every-door-direct-mail.htm"  onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: EveryDoorDirectMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_EveryDoorDirectMail') }catch(e){}">Try Every Door Direct Mail&trade; ›</a>
+</li>
+</ul>
+<h4>Get Help To:</h4>
+<ul class="secondary">
+<li>
+<a href="/business/why-choose-usps.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: SaveByShipWithUSPS', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_SaveByShipWithUSPS') }catch(e){}">Save by Shipping with USPS ›</a>
+</li>
+<li>
+<a href="/business/send-mail-for-business.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: AdvertiseWithMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_AdvertiseWithMail') }catch(e){}">Advertise with Mail ›</a>
+</li>
+<li>
+<a href="/business/service-chart.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: CompareBizServices', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_CompareBizServices') }catch(e){}">Compare Business Services ›</a>
+</li>
+<li>
+<a href="/business/add-extra-services.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: AddExtraServices', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_AddExtraServices') }catch(e){}">Add Extra Services ›</a>
+</li>
+<li>
+<a href="/business/find-payment-options.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: FindPaySolutions', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_FindPaySolutions') }catch(e){}">Find Payment Options ›</a>
+</li>
+<li>
+<a href="/business/ship-orders.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ShipOrder', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_ShipOrder') }catch(e){}">Ship Orders ›</a>
+</li>
+<li>
+<a href="/business/ship-internationally.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ShipIntntly', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_ShipIntntly') }catch(e){}">Ship Internationally ›</a>
+</li>
+<li>
+<a href="/business/receive-business-mail.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ReceiveBizMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_ReceiveBizMail') }catch(e){}">Receive Business Mail ›</a>
+</li>
+<li>
+<a href="/business/get-training-learn-to-grow.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: GetTrainingLearntoGrow', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_GetTrainingLearntoGrow') }catch(e){}">Get Training & Learn To Grow ›</a>
+</li>
+<li>
+<a href="/business/intelligent-mail.htm"  onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: IntelligentMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_IntelligentMail') }catch(e){}">Track with Intelligent Mail ›</a>
+</li>
+<li>
+<a href="/business/manage-address-quality.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: ManageAddrssQuality', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_ManageAddrssQuality') }catch(e){}">Manage Address Quality ›</a>
+</li>
+<li>
+<a href="/business/learn-about-remittance-mail.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: LearnRemittanceMail', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_LearnRemittanceMail') }catch(e){}">Learn About Remittance Mail ›</a>
+</li>
+<li>
+<a href="/business/expanded-access.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: LearnExpandedAccess', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_LearnExpandedAccess') }catch(e){}"><span>Learn About Expanded Access ›</span></a>
+</li>
+<li>
+<a href="/business/customer-relations-info.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Bluebar: BizSolutions: FindCustRelatnsInfo', 'WT.z_section', 'Home_BlueBar', 'WT.z_link', 'BizSolutions_FindCustRelatnsInfo') }catch(e){}">Find Customer Relations Info ›</a>
+</li>
+</ul>
+</div>
+<div class="nav-dd-cap"></div>
+</div>
+</div>
+</li>
+</ul>
+<div id="nav-cap-right" class="nav-cap"></div>
+<a id="TopNavSkip" class="hide-fromsighted" name="navigationEnd">End top navigation</a>
+</div>
+</div>
+</div></div>
+
+
+<!--  End -->
+
+
+</div></div><div class="ls-cmp-wrap" id="w1300669387521"><div class="iw_component" id="1300669387521"><div class="carousel" id="carousel">
+
+<div class="carousel-wrapper">
+
+<ul class="carousel-promos">
+
+
+
+
+
+
+	<li class="carousel-promo tdb">
+		<div>
+	        <img src="/ContentTemplates/assets/images/promos/taxes-2012-banner.jpg" alt="Mail Your Tax Return With Confidence. Tax Day is April 17, 2012. Find the right USPS® products and services to fit your tax day needs. Get Started. Image of a calculator and a calendar with a red circle around April 17th." ><br>
+  			<a href="/taxes/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: TaxRtrnWithConfidence_GetStarted', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'TaxRtrnWithConfidence_GetStarted') }catch(e){}" class="hover">Get Started</a>
+		</div>
+	</li>
+
+
+
+
+
+	<li class="carousel-promo chk">
+		<div>
+			<img src="/ContentTemplates/assets/images/mailcampaign/carousel-reach-every-homev2.jpg" alt="Reach Every Home, Every Address, Every Time. With Every Door Direct Mail&reg;, you’ll find the customers that matter most. Learn more. Get Your FREE Every Door Direct Mail Kit. Image of mail kit. Background image of a mail carrier, a customer, and a person in a chicken costume in front of a restaurant." ><br>
+			<a href="/business/every-door-direct-mail.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: ReachEveryHome_EveryAddress_LrnMore', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'ReachEveryHome_EveryAddress_LrnMore') }catch(e){}" class="hover elmo">Learn More</a>
+			<a href="https://eddmkit.com/uspsmail" target="_blank" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: ReachEveryHome_EveryAddress_GetFreeKit', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'ReachEveryHome_EveryAddress_GetFreeKit') }catch(e){}" class="hover eddm">Get your FREE Every Door Direct Mail Kit</a>
+		</div>
+	</li>
+	
+	
+	
+	<li class="carousel-promo cp7">
+		<div>
+		  <img src="/ContentTemplates/assets/images/promos/PHX_homepage_promos_PMFRKit.jpg" alt="Get a Free Shipping Kit. Learn about Priority Mail Flat Rate Shipping. Order Your Kit Now. Image of Priority Mail Flat Rate Supplies." ><br>
+		  <a href="https://www.prioritymail.com/" target="_blank" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: GetFreeShipKit_OrderKitNow', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'GetFreeShipKit_OrderKitNow') }catch(e){}" class="hover">Order Your Kit Now</a>
+		</div>
+	</li>
+	
+	
+	
+	<li class="carousel-promo bigl">
+		<div>
+			<img src="/ContentTemplates/assets/images/promos/biggest-loser-banner.png" alt="Watch It. Write It. Win It. Sweepstakes. Watch The Biggest Loser. Write a letter to support your favorite contestant. Win a week at the resort & more. Learn More. United States Postal Service with eagle icon. Image of The Biggest Loser logo, Tuesday 8/7c, NBC logo, and a Heart Health stamp. Background image of measuring tape wrapping around the banner." ><br>
+			<a href="/biggestloser/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: BggstLsr_LearnMore', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'BggstLsr_LearnMore') }catch(e){}" class="hover">Learn More</a>
+		</div>
+	</li>
+
+
+
+
+	<li class="carousel-promo pmfr">
+		<div>
+			<img src="/ContentTemplates/assets/images/promos/forever-envelope.jpg" alt="Prepaid Forever&reg; Priority Mail Flat Rate&reg; Packaging. Combine the convenience of Forever&reg; postage with simplicity of Flat Rate shipping. Buy Now. Learn More. Image of Priority Mail Flat Rate Supplies." ><br>
+			<a href="http://uspsstore.stamps.com/Store/catalog/sub_category.jsp?id=cat961410023&_requestid=3585" target="_blank" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: PrepaidForeverPriorityFltRate_BuyNow', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'PrepaidForeverPriorityFltRate_BuyNow') }catch(e){}" class="hover">Buy Now</a>
+			<a href="/ship/prepaid-forever-priority-mail.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: PrepaidForeverPriorityFltRate_LearnMore', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'PrepaidForeverPriorityFltRate_LearnMore') }catch(e){}" class="hover lmo">Learn More</a>
+		</div>
+	</li>
+
+
+
+
+	<li class="carousel-promo cyan">
+    	<div>
+  			<img src="/ContentTemplates/assets/images/promos/change-your-address-now.jpg" alt="Making a Move? Tell us when and where, and we'll update your address. Change Your Address Now. Image of a stack of mail. Background image of a parent and child with moving boxes." ><br>
+  			<a href="https://moversguide.usps.com/" target="_blank" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: MakingAMove_ChgYourAddrssNow', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'MakingAMove_ChgYourAddrssNow') }catch(e){}" class="hover">Change Your Address Now</a>
+		</div>
+    </li>
+
+
+
+
+    <li class="carousel-promo nas">
+		<div>
+	        <img src="/ContentTemplates/assets/images/promos/need-stamp-banner.jpg" alt="Need a Stamp? Find the right one for you. Buy Stamps Now. Image of Bonsai, Dragon, Cherry Blossoms, and Love stamps." ><br>
+  			<a href="https://store.usps.com/store/browse/category.jsp?categoryId=subcatS_S&categoryNavIds=catBuyStamps%3AsubcatS_S" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: NeedAStamp_BuyStampsNow', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'NeedAStamp_BuyStampsNow') }catch(e){}" class="hover">Buy Stamps Now</a>
+		</div>
+	</li>
+	
+	
+	
+	<li class="carousel-promo pob">
+		<div>
+		  <img src="/ContentTemplates/assets/images/promos/po-box.jpg" alt="Private. Permanent. Affordable. Get your mail where and when you want it with a PO Box&trade;. Reserve or Renew a PO Box. Image of keys. Background Image of a customer at her PO Box." title=""><br>
+		  <a href="/manage/get-a-po-box.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Carousel: PrivPermAffordble_ResrvOrRenwPOBox', 'WT.z_section', 'Home_Carousel', 'WT.z_link', 'PrivPermAffordble_ResrvOrRenwPOBox') }catch(e){}" class="hover">Reserve or Renew a PO Box</a>
+		</div>
+	</li>
+	
+	
+	
+	
+
+
+
+
+    
+	  
+
+
+
+
+
+
+
+
+</ul>
+
+</div>
+
+<div class="carousel-control">
+
+	<a href="" class="carousel-btn-prev"></a> <a href="" class="carousel-btn-next"></a>
+
+</div>
+
+
+
+</div></div><div class="ls-cmp-wrap" id="w1300669389557"><div class="iw_component" id="1300669389557"><div id="promos">
+
+<ul class="clearfix">
+
+
+
+<!-- <li><a href="/shippingdates/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot1: HolidayCheer_GetDates', 'WT.z_section', 'Home_AdSpot1', 'WT.z_link', 'HolidayCheer_GetDates') }catch(e){}"><img src="/adserver/phx/homepage/2011-shipping-dates.png" alt="Sending Holiday Cheer Overseas? Get the dates >" width="232" height="177" /></a></li> -->
+<!-- <li><a href="/holiday/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot1: WrpUpHlidaysFrmHme_LrnMore', 'WT.z_section', 'Home_AdSpot1', 'WT.z_link', 'WrpUpHlidaysFrmHme_LrnMore') }catch(e){}"><img src="/adserver/phx/homepage/wrapup-hol-promo.jpg" alt="Wrap up the Holidays from home. Learn more >" width="232" height="177" /></a></li> -->
+
+<!-- <li><a href="/holidayreturns/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot1: ReturnFromHome_LrnMore', 'WT.z_section', 'Home_AdSpot1', 'WT.z_link', 'ReturnFromHome_LrnMore') }catch(e){}"><img src="/adserver/phx/homepage/returns-promo.jpg" alt="Return your 'returns' from home. Learn more >" width="232" height="177" /></a></li> -->
+<!-- <li style="margin-top: -1px; margin-left: 1px;"><a href="/newwebsite.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot2: WhtsNewOnUSPScom_LatestUpdts', 'WT.z_section', 'Home_AdSpot2', 'WT.z_link', 'WhtsNewOnUSPScom_LatestUpdts') }catch(e){}"><img src="/adserver/phx/homepage/whatsnew-promo.png" alt="What's New on USPS.com. See the latest updates >" width="232" height="177" /></a></li> -->
+
+<!-- <li><a href="/new-prices.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot1: NewPricesJan22_LrnMore', 'WT.z_section', 'Home_AdSpot1', 'WT.z_link', 'NewPricesJan22_LrnMore') }catch(e){}"><img src="/adserver/phx/homepage/new-prices-january-2012.jpg" alt="New Prices. January 22, 2012. Learn More >" width="232" height="177" /></a></li> -->
+
+<li><a href="/new-prices.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot1: MailPrices_LrnMore', 'WT.z_section', 'Home_AdSpot1', 'WT.z_link', 'MailPrices_LrnMore') }catch(e){}"><img src="/adserver/phx/homepage/new-prices-2012-homepage.png" alt="Mailing & Shipping Prices. Learn More.  Image of a profile of an eagle’s head, which is one element of USPS® corporate logo." width="232" height="177" /></a></li>
+<li style="margin-top: -1px; margin-left: 1px;"><a href="/newwebsite.htm " onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot2: WhtsNewOnUSPScom_LatestUpdts', 'WT.z_section', 'Home_AdSpot2', 'WT.z_link', 'WhtsNewOnUSPScom_LatestUpdts') }catch(e){}"><img src="/adserver/phx/homepage/whatsnew-promo-v2.jpg" alt="What's new on USPS.com. See the latest updates >" width="232" height="177" /></a></li>
+<li style="margin-top: -1px; margin-left: 0px; margin-right: 0px;"><a href="http://about.usps.com/news/electronic-press-kits/expandedaccess/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot3: AdSpot3', 'WT.z_section', 'Home_AdSpot3', 'WT.z_link', 'AdSpot3') }catch(e){}"><img src="/adserver/phx/homepage/village-postage-office.jpg" alt="Village Post Office. We've expanded access to our products & services >. An illustration of an eagle's profile with the text Village Post Office Doe Run, MO 63637. Approved Postal Provider." width="234" height="177" /></a></li>
+
+
+<!-- <li style="margin-top: -1px; margin-left: 0px; margin-right: 0px;"><a href="http://about.usps.com/what-we-are-doing/our-future-network/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot3: AdSpot3', 'WT.z_section', 'Home_AdSpot3', 'WT.z_link', 'AdSpot3') }catch(e){}"><img src="/adserver/phx/homepage/our-future-network.jpg" alt="Our Future Network. Information for residential and business customers >. A visual of a United States Postal Service facility." width="234" height="177" /></a></li> -->
+
+<!-- <li style="margin-top: -1px; margin-left: 0px; margin-right: 0px;"><a href="http://about.usps.com/news/electronic-press-kits/expandedaccess/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot3: AdSpot3', 'WT.z_section', 'Home_AdSpot3', 'WT.z_link', 'AdSpot3') }catch(e){}"><img src="/adserver/phx/homepage/village-postage-office.jpg" alt="Village Post Office. We've expanded access to our products & services >. An illustration of an eagle's profile with the text Village Post Office Doe Run, MO 63637. Approved Postal Provider." width="234" height="177" /></a></li> -->
+<!-- <li style="margin-top: -1px; margin-left: 0px; margin-right: 0px;"><a href="http://about.usps.com/news/electronic-press-kits/bog/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot3: BOGMeetingRecordedAudio', 'WT.z_section', 'Home_AdSpot3', 'WT.z_link', 'BOGMeetingRecordedAudio') }catch(e){}"><img src="/adserver/phx/homepage/recorded-audiocast-02092012.jpg" title="Board of Governors. Listen to a recording of the Feb. 9, 2012 meeting. Picture of the United States Postal Service U.S. Mail emblem." alt="Board of Governors. Listen to a recording of the Feb. 9, 2012 meeting. Picture of the United States Postal Service U.S. Mail emblem." width="234" height="177" /></a></li> -->
+
+<!-- <li style="margin-top: -1px; margin-left: 0px; margin-right: 0px;"><a href="http://about.usps.com/news/electronic-press-kits/bog/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot3: BOGMeetingLiveAudio', 'WT.z_section', 'Home_AdSpot3', 'WT.z_link', 'BOGMeetingLiveAudio') }catch(e){}"><img src="/adserver/phx/homepage/live-audiocast-02092012.jpg" title="Board of Governors. Listen to a live audio webcast of the board's meeting. Picture of the United States Postal Service U.S. Mail emblem. Feb. 9, 2012 at 8:30 a.m. ET"   alt="Board of Governors. Listen to a live audio webcast of the board's meeting. Picture of the United States Postal Service U.S. Mail emblem. Feb. 9, 2012 at 8:30 a.m. ET" width="234" height="177" /></a></li> -->
+
+
+<!-- <li style="margin-top: -1px; margin-left: 1px;"><a href="/holidayreturns/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot2: ReturnFromHome_LrnMore', 'WT.z_section', 'Home_AdSpot2', 'WT.z_link', 'ReturnFromHome_LrnMore') }catch(e){}"><img src="/adserver/phx/homepage/returns-promo.jpg" alt="Return your 'returns' from home. Learn more >" width="232" height="177" /></a></li> -->
+
+<!-- <li style="margin-top: -1px; margin-left: 1px;"><a href="https://shop.usps.com/webapp/wcs/stores/servlet/CategoryDisplay?langId=-1&storeId=10052&catalogId=10001&categoryId=10000036&parent_category_rn=10000002&top_category=10000002" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot2: AdSpot2', 'WT.z_section', 'Home_AdSpot2', 'WT.z_link', 'AdSpot2') }catch(e){}"><img src="/adserver/phx/homepage/smallpromo-2.png" alt="Any Weight. Same Rate. Get free Flat Rate boxes >" width="232" height="177" /></a></li> -->
+<!-- <li style="margin-top: -1px; margin-left: 1px;"><a href="https://shop.usps.com/webapp/wcs/stores/servlet/CategoryDisplay?langId=-1&storeId=10052&catalogId=10001&categoryId=10000036&parent_category_rn=10000002&top_category=10000002" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Home_AdSpot2: AdSpot2', 'WT.z_section', 'Home_AdSpot2', 'WT.z_link', 'AdSpot2') }catch(e){}"><img src="/adserver/phx/homepage/smallpromo-2.png" alt="Any Weight. Same Rate. Get free Flat Rate boxes >" width="232" height="177" /></a></li> -->
+
+
+</ul>
+
+
+
+</div>
+
+</div></div></div></div><div class="ls-row-clr"></div></div></div></div></div><div class="ls-row-clr"></div></div></div><div class="ls-row" id="ls-row-3"><div class="ls-fxr" id="ls-gen8-ls-fxr"><div class="ls-area" id="ls-row-3-area-1"><div class="ls-area-body" id="ls-gen9-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1300669387515"><div class="iw_component my-component" id="1300669387515">
+
+
+
+
+  <!--   z#zzzinclude virtual="/send/global/includes/footer.htm"  -->
+
+  <!--  Start -->
+
+
+
+<div id="element1"><div class="iw_component" id="c1298473344118"><div id="global_footer_component">
+
+<div id="footer">
+
+<div class="page-section">
+
+<!--<a href="#FooterNavSkip" class="hide-fromsighted" name="footerNavigationStart">Skip Footer Navigation</a>-->
+
+<ul class="clearfix" id="footer-links">
+
+<li class="list">
+
+<h3>LEGAL</h3>
+
+<ul>
+
+<li>
+
+<a href="http://about.usps.com/who-we-are/privacy-policy/privacy-policy-highlights.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PrivacyPolicy', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'PrivacyPolicy') }catch(e){}">Privacy Policy&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://about.usps.com/termsofuse.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: TermsofUse', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'TermsofUse') }catch(e){}">Terms of Use&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://about.usps.com/who-we-are/foia/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: FOIA', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'FOIA') }catch(e){}">FOIA&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://about.usps.com/who-we-are/no-fear-act/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: NoFEARActEEOData', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'NoFEARActEEOData') }catch(e){}">No FEAR Act EEO Data&nbsp;&rsaquo;</a>
+
+</li>
+
+</ul>
+
+</li>
+
+<li class="list">
+
+<h3>ON USPS.COM</h3>
+
+<ul>
+
+<li>
+
+<a href="/gov-services/gov-services.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: GovtServices', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'GovtServices') }catch(e){}">Government Services&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="/shop" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: BuyStampsShop', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'BuyStampsShop') }catch(e){}">Buy Stamps &amp; Shop&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="/shipping/label.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PrintLabelwithPostage', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'PrintLabelwithPostage') }catch(e){}">Print a Label with Postage&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="/customer-service/customer-service.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: CustomerService', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'CustomerService') }catch(e){}">Customer Service&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="/globals/site-index.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: SiteIndex', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'SiteIndex') }catch(e){}">Site Index&nbsp;&rsaquo;</a>
+
+</li>
+
+</ul>
+
+</li>
+
+<li class="list lspace-mid">
+
+<h3>ON ABOUT.USPS.COM</h3>
+
+<ul>
+
+<li>
+
+<a href="http://about.usps.com/" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: AboutUSPSHome', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'AboutUSPSHome') }catch(e){}">About USPS Home&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://about.usps.com/news/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: Newsroom', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'Newsroom') }catch(e){}">Newsroom&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://about.usps.com/news/service-alerts/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: MailServiceUpdates', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'MailServiceUpdates') }catch(e){}">Mail Service Updates&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://about.usps.com/forms-publications/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: FormsandPublications', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'FormsandPublications') }catch(e){}">Forms &amp; Publications&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://about.usps.com/careers/welcome.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: Careers', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'Careers') }catch(e){}">Careers&nbsp;&rsaquo;</a>
+
+</li>
+
+</ul>
+
+</li>
+
+<li class="list last lspace-last">
+
+<h3>OTHER USPS SITES</h3>
+
+<ul>
+
+<li>
+
+<a href="https://gateway.usps.com/bcg/login.htm" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: BizCustGateway', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'BizCustGateway') }catch(e){}">Business Customer Gateway&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="https://postalinspectors.uspis.gov" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PostalInspectors', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'PostalInspectors') }catch(e){}">Postal Inspectors&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://www.uspsoig.gov" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: InspectorGeneral', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'InspectorGeneral') }catch(e){}">Inspector General&nbsp;&rsaquo;</a>
+
+</li>
+
+<li>
+
+<a href="http://pe.usps.gov" onclick="try{ dcsMultiTrack('DCS.dcsuri','USPS','WT.ti','Link: Footer: PostalExplorer', 'WT.z_section', 'Home_Footer', 'WT.z_link', 'PostalExplorer') }catch(e){}">Postal Explorer&nbsp;&rsaquo;</a>
+
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+<div id="footer-copyright">Copyright&copy; 2012 USPS. All Rights Reserved.</div>
+
+<!--<span class="hide-fromsighted" id="FooterNavSkip"></span>-->
+
+</div>
+
+</div>
+
+<div>
+
+<script type="text/javascript" src="/ContentTemplates/common/scripts/webtrends.js"></script><script type="text/javascript">
+
+
+
+			var _tag=new WebTrends();
+
+			_tag.dcsGetId();
+
+
+
+			</script><script type="text/javascript">
+
+
+
+			_tag.dcsCustom=function(){
+
+			// Add custom parameters here.
+
+			//_tag.DCSext.param_name=param_value;
+
+			}
+
+			_tag.dcsCollect();
+
+
+
+			</script>
+
+<noscript>
+
+<div>
+
+<img alt="" height="1" width="1" id="DCSIMG" src="http://sdc.usps.com/dcs731qdj000004f27giixw3q_2i4w/njs.gif?dcsuri=/nojavascript&WT.js=No&WT.tv=9.3.0&WT.dcssip=www.usps.com"></div>
+
+</noscript>
+
+</div>
+
+</div>
+
+</div></div>
+
+
+
+
+
+  <!--  End -->
+
+</div></div></div></div><div class="ls-row-clr"></div></div></div><div class="ls-row" id="ls-row-4"><div class="ls-fxr" id="ls-gen10-ls-fxr"><div class="ls-area" id="ls-row-4-area-1"><div class="ls-area-body" id="ls-gen11-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1300669387516"><div class="iw_component extra-component" id="1300669387516"><script type="text/javascript">
+
+
+
+
+
+
+
+ </script><script type="text/javascript" src="/ContentTemplates/common/scripts/dojobuild/dojo/dojo.js"></script><script type="text/javascript" src="/ContentTemplates/common/scripts/external/plugd/base-1.3.0.min.js"></script><script type="text/javascript" src="/ContentTemplates/common/scripts/usps/profiles/global.js"></script><script type="text/javascript" src="/ContentTemplates/common/scripts/dojobuild/dojo/fx/easing.js"></script><script type="text/javascript" src="/ContentTemplates/common/scripts/usps/usps.js"></script><script type="text/javascript" src="/ContentTemplates/assets/scripts/components.js"></script><script type="text/javascript" src="/ContentTemplates/assets/scripts/home.js"></script>
+
+</div></div><div class="ls-cmp-wrap" id="w1300669387517"><div class="iw_component extra-component" id="1300669387517"><div></div>
+
+</div></div></div></div><div class="ls-row-clr"></div></div></div></div><!--ls:end[body]--></body></html>

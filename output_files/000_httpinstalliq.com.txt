@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html>
+  <head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="InstallIQ Installation Management. InstallIQ is an installation manager that will help you through the download and installation process, making it as easy as possible for you to get the product you are looking for."/>
+    <meta name="keywords" content="InstallIQ, installation manager, installation management, W3i, software network, download distribution, application network, marketing of mobile, software marketing, application marketing, application discovery, marketing software applications, app marketing, app advertising"/>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="language" content="en" />
+    <meta name="robots" content="all, follow" />
+    <title>InstallIQ | W3i</title>
+	
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" type="text/css" href="css/type.css" media="all" />
+
+<style>
+dl.FAQ dt {
+	font-weight:bold;
+	margin: 5px 0;
+	cursor: pointer;
+}
+dl.FAQ dd {
+	margin: 0 0 1.2em 0;
+	padding: 0;
+}
+.story-wrapper {margin: 0;}
+
+
+@-webkit-keyframes grow{
+from {width: 665px;}
+to 	{width: 865px;}
+}
+@-moz-keyframes grow{
+from {width: 665px;}
+to 	{width: 865px;}
+}
+
+@-ms-keyframes grow{
+from {width: 665px;}
+to 	{width: 865px;}
+}
+
+@-o-keyframes grow{
+from {width: 665px;}
+to 	{width: 865px;}
+}
+
+@keyframes grow{
+from {width: 665px;}
+to 	{width: 865px;}
+}
+
+.prcessImg {
+display: block;
+z-index: 99;
+position:relative;	
+}
+.prcessImg img {
+max-width: 100%;
+height:auto;	
+}
+.prcessImg:hover {
+width:865px;
+-webkit-animation-duration: 1s;
+-webkit-animation-name: grow;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-direction: normal;
+}
+</style>
+<!--[if IE 6]>
+<style>
+	.prcessImg img {width: 100%;}
+</style>
+<![endif]-->
+
+  </head>
+
+<body>
+      <div id="header-wrapper">
+        <div id="header">
+			  
+				<h1 id="logo">
+				  <a href="index.html"><img src="images/install_iq_icon.png" alt="InstallIQ" title="InstallIQ" width="111" height="111" /></a>
+				  <div id="white-outline"></div>
+				  <div id="red-outline"></div>
+				</h1>
+			  
+				<nav id="secondary-nav">
+				  <ol>
+					  <li><a href="index.html#InstallIQFAQs">FAQ</a></li>
+            <li><a href="index.html#PrivacyTrust">Privacy</a></li>
+					  <li><a href="contact.html">Contact</a></li>
+				  </ol>
+				</nav>
+				
+			</div>
+		</div>
+	  
+		<div id="page-wrapper">
+        
+			<div class="content-wrapper">
+           <h2>InstallIQ&trade; – Installation Management – A better way to keep apps free</h2>
+
+<div class="story-wrapper"><div class="story-content-wrapper with-sidebar"><div class="story-sidebar-wrapper"><a href="http://www.truste.org/pvr.php?page=validate&amp;softwareProgramId=46&amp;sealid=112" rel="external"><img src="images/trustetrusteddownload.png" width="168" height="45" alt="TRUSTe Trusted Download" /></a><div class="story-sidebar">
+<!--<p>All downloads use the TRUSTe-certified installer, InstallIQ&trade; <a href="http://www.w3i.com/information/installiq_learnmore_w3i.html" rel="external">Learn more.</a></p>-->
+
+<p>InstallIQ was the first installation manager to be certified by the TRUSTe Trusted Download program. TRUSTe certified means that TRUSTe has reviewed our installation path and approved our installer.</p>
+
+</div></div><div class="story-content">
+
+
+
+
+                 <h3>What is InstallIQ</h3>
+
+                    <p>InstallIQ is an installation manager that will help you through the download and installation process, making it as easy as possible for you to get the product you are looking for. Don’t worry! When using InstallIQ, you can be assured that your download is completely safe. And because we want you to have control over what you are downloading, we have made sure that InstallIQ follows these three principles:</p>
+
+                      <ul>
+                        <li>Choice – choose the software you value</li>
+                        <li>Consent – additional software is only installed with your consent</li>
+                        <li>Control – you have the control to accept,  decline, or exit at any time</li>
+                      </ul>
+                    
+                    <p>Every product that is run through the InstallIQ manager is free. But, in order to make this happen, InstallIQ shows you advertisements during the installation process. Your support of these advertisements, which are all safe and free to download, helps poor, but brilliant, app developers make money from their free and awesome software.</p>
+                    <p>How does InstallIQ work? <br /><a href="#" class="prcessImg"><img src="images/process_v2.png" alt="InstallIQ Process" title="InstallIQ Process" /></a></p>
+
+                    <p>InstallIQ is completely safe to use. Although, if you don’t believe us, you should know that every product and advertised software that you see during the process is run through an extensive Quality Assurance (“QA”) process before they are ever shown to you. And if that’s not enough, continued QA checks are run the entire time that any product or advertised software is live in our network. Part of these QA processes are to check every app with a plethora of the most up-to-date security software, such as Symantec, Norton, McAfee, and more, because we hate nasty software that messes up your computer just as much as you do.</p>
+                  
+                  
+</div></div></div>                  
+			</div>
+			
+            
+  <div id="InstallIQFAQs" class="story-wrapper odd"><div class="story content-wrapper clearfix"><h3>Frequently Asked Questions</h3><div class="story-content-wrapper">
+
+<p>Click on each question below to show/hide the answer (<a href="#InstallIQFAQs" onclick="showall();" id="linkshowall">Expand all</a> / <a href="#InstallIQFAQs" onclick="hideall();" id="linkhideall">Collapse all</a>).</p>
+                  
+<dl class="FAQ">
+  <dt>What is InstallIQ?</dt>
+  <dd>InstallIQ is an installation manager that will  assist you, from start to finish, through the download process.</dd>
+  
+  
+  <dt>Why should I use InstallIQ?</dt>
+  <dd>By using InstallIQ, you are ensuring that your  download is completely safe and free from any viruses, with the added benefit  of more free software that you can choose to install.  InstallIQ will do all of the installation  work for you so that you do not have to figure out how to download the  application that you want.</dd>
+  
+  
+  <dt>Why do I see advertisements when I am installing software?</dt>
+  <dd>To keep the product that you came in for free, we show advertisements during the installation process. These  advertisements are free to download and completely optional for you.</dd>
+  
+  
+  <dt>Is the software and all of the advertisements free?</dt>
+  <dd>Yes. The software you came to install is free.  The additional advertisements offered through InstallIQ are  free to download although some applications  may be trial-versions, that will require a purchase to use the full-version of  the software. </dd>
+  
+  
+  <dt>What happens if I accept an advertisement?</dt>
+  <dd>When you accept an advertisement, it is added to your download and will be available to use once the installation is finished.</dd>
+  
+  
+  <dt>Can I install the software I chose without installing any of the advertisements?</dt>
+  <dd>Absolutely!   All of the advertisements that you see are completely optional.</dd>
+  
+  <dt>How do I decline an advertisement?</dt>
+  <dd>You can choose not to install any of the advertisements by clicking on the &ldquo;Decline&rdquo; button at the bottom of the installer  screen. This will then take you to the  next step in the process.</dd>
+  
+  
+  
+  <dt>Are all the advertisements I see in InstallIQ  safe to install?</dt>
+  <dd>Yes. We run all of our advertisers through an  extensive Quality Assurance (&ldquo;QA&rdquo;) process before they can even be offered to  users.  We also make sure to continue  doing QA checks on advertisers the entire time that they are live in our network. Our goal is to only offer safe applications that will not harm your  computer.</dd>
+
+  
+  
+  <dt>Does InstallIQ collect any personal information?</dt>
+  <dd>No, InstallIQ does not collect any personal  information during the installation process. InstallIQ may, however, include  some advertisements that ask for personal information after the installation is  complete. Providing this information is completely optional, but it may be  required to use the downloaded application. Collection of personal information by an advertisement is controlled by the advertisement provider and you should  read their privacy policy before providing information.</dd>
+  
+  
+  <dt>How do I report a problem with the product I  have installed or with InstallIQ?</dt>
+  <dd>If you run into any issues with the product you are installing or with the installer itself, please <a href="contact.html">click here</a> or click on the Contact Us link found at the top of this page. Our Customer Service Team  will contact the appropriate team members to address the issue with the  product.</dd>
+  
+  
+  <dt>What does TRUSTe certified mean?</dt>
+  <dd>TRUSTe certified means that TRUSTe has reviewed our installation path and approved our installer, InstallIQ. So you can choose the software you value, only installing additional software with your consent, and have the control to accept, decline, or exit at any time. TRUSTe is the leading online privacy solution provider and gives users the confidence needed to install the apps they discover. </dd>
+  
+  
+  <dt>Does InstallIQ install malware or scareware?</dt>
+  <dd>InstallIQ does not install any malware or scareware.  We run all of our software through an extensive QA process before being offered  to users.  We also continue doing QA  checks on software the entire time that they are live in our network. Our goal  is to only offer safe applications that will not harm your computer.</dd>
+  
+  
+  <dt>How do I uninstall software I have installed  through InstallIQ?</dt>
+  
+  <dd>Any of the software you have installed can easily be uninstalled. If the  software you installed is an application, <a href="http://www.installiqlearnmore.com/remove.html" rel="external">click here</a> to learn  how to uninstall. If you have installed a browser add-on, <a href="http://www.installiqlearnmore.com/addon_remove.html" rel="external">click  here</a>. If you want to reset your start page or default search, <a href="http://www.installiqlearnmore.com/Reset%20Start%20Page%20and%20Default%20Search.html" rel="external">click  here</a> to learn how.<br />&nbsp;<br />
+  If you have installed the InstallIQ Updater you can quickly view and  uninstall any software you are no longer interested in. You can access  InstallIQ Updater by going to the start menu and selecting InstallIQ Updater.  In the Installed Software tab you will see all the software you have installed  through InstallIQ and simply click the Uninstall link to remove the software. </dd>
+  
+  <dt>What is the InstallIQ Updater?</dt>
+  <dd>The InstallIQ Updater allows you to easily view  the software you have installed and uninstall any software you are no longer  interested in. <a href="http://www.installiqlearnmore.com/iqu.html" rel="external">Learn More</a>.</dd>
+  
+  <dt>What is the contact information if I have any  further questions regarding InstallIQ?</dt>
+  <dd>You can contact our Customer Service Team by  filling out the form on the <a href="contact.html">Contact Us</a> page or by mail using the address below.<br />&nbsp;<br />
+  
+  Postal Service:<br />
+  Attention: W3i<br />
+  1900 Medical Arts Ave. S.<br />
+  Sartell,  MN 56377</dd>
+</dl>
+
+
+</div></div></div>           
+
+<div id="PrivacyTrust" class="story-wrapper"><div class="story content-wrapper clearfix"><h3>Privacy and Trust</h3><div class="story-content-wrapper">
+
+<h4>An installer that can be Trusted</h4>
+
+<p>We want you to be informed of our privacy practices. The following applies to our websites, and products, and covers how we collect and use the information we receive. This is only a summary, for more information, please read our complete <a href="http://policy.installiq.com/PrivacyPolicy_Full.html" rel="external">Privacy Policy</a>.</p>
+
+
+
+<p><b>Information We Collect</b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://policy.installiq.com/PrivacyPolicy_Full.html#InfoCollect" rel="external">Additional details</a>
+
+<ul>
+
+<li>We collect information you choose to submit, for example, when you download one of our products, subscribe to our online services, or participate in a survey or contest.</li>
+
+<li>We may obtain additional information about you, such as updated address, demographic or lifestyle information, from other sources.</li>
+
+<li>We use common Internet technologies, such as cookies, on our Web sites and in our e-mails.</li>
+
+</ul>
+
+</p>
+
+
+
+<p><b>Uses of information</b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://policy.installiq.com/PrivacyPolicy_Full.html#UsesofInfo" rel="external">Additional details</a>
+
+<ul>
+
+<li>We use the information you submit to provide our services including the presentation of personalized content.</li>
+
+<li>We use your information to inform you of other products or services offered by us and our partners.</li>
+
+<li>We may share information about you with vendors we have hired to provide services on our behalf.</li>
+
+<li>We may share information about you with our partners and companies that provide online content, if those companies host that content.</li>
+
+<li>We may share your name and postal address with our subsidiaries and selected other companies for mail offers of their products and services, if you consent.</li>
+
+</ul>
+
+</p>
+
+
+
+<p><b>Important information</b>
+
+<ul>
+
+<li>For information and tips on children’s online privacy visit <a href="http://www.ftc.gov/privacy" rel="external">www.ftc.gov/privacy</a> and <a href="http://www.OnGuardOnline.gov" rel="external">www.OnGuardOnline.gov</a></li>
+
+<li>Any personal information you provide will be maintained in the United States</li>
+
+<li>We encourage you to read our full <a href="http://policy.installiq.com/PrivacyPolicy_Full.html" rel="external">Privacy Policy</a></li>
+
+</ul>
+
+</p>
+
+
+
+
+</div></div></div>
+            
+            
+        
+			<div id="footer" class="content-wrapper clearfix">
+          <nav id="primary-footer-links">
+            <ol>
+              <li>Copyright 2011 ©W3i, LLC All Rights Reserved.</li>
+              <li>1.855.W3i.APPS</li>
+              <li><a href="mailto:info@W3i.com">info@W3i.com</a></li>
+            </ol>
+          </nav>
+          <nav id="secondary-footer-links">
+            <ol>
+              <li><a href="http://policy.installiq.com/PrivacyPolicy_Full.html" rel="external">Privacy Center</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+	  
+ 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script>    window.jQuery || document.write("<script src='js/jquery-1.7.1.min.js'>\x3C/script>")</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("dl.FAQ dd").hide();
+  $("dl.FAQ dt").click(function(){
+  $(this).next().toggle();
+});
+});
+
+function showall()
+{
+  $("dl.FAQ dd").show();
+}
+
+function hideall()
+{
+  $("dl.FAQ dd").hide();
+}
+
+function externalLinks() {
+    if (!document.getElementsByTagName) return;
+    var anchors = document.getElementsByTagName("a");
+    for (var i = 0; i < anchors.length; i++) {
+        var anchor = anchors[i];
+        if (anchor.getAttribute("href") &&
+       anchor.getAttribute("rel") == "external")
+            anchor.target = "_blank";
+    }
+}
+window.onload = externalLinks;
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-71373-37']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

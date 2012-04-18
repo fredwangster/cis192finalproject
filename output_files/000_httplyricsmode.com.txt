@@ -1,0 +1,750 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Lyrics, Song Lyrics – LyricsMode.com</title>
+<meta name="description" content="Lyrics - Comprehensive online lyrics resource featuring 800000+ lyrics for 45000+ artists.">
+<meta name="keywords" content="Lyrics,Song Lyrics,Music Lyrics,New Lyrics,Songs Lyrics">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/i/css.css?0416" type="text/css" media="all">
+<link rel="shortcut icon" type="image/ico" href="/i/favicon.ico">
+<!--[if lte IE 8]><link rel="stylesheet" href="/i/ie.css" type="text/css" media="all"><![endif]-->
+<!--[if lte IE 6]><script type="text/javascript" src="/i/js/ddround.js"></script><![endif]-->
+<link rel="search" type="application/opensearchdescription+xml" href="/features/opensearch/opensearch.xml" title="Lyrics search">
+<link rel="alternate" type="application/rss+xml" title="LyricsMode - Last updates" href="http://www.lyricsmode.com/rss/last_updates.xml">
+<link rel="alternate" type="application/rss+xml" title="LyricsMode - Upcoming lyrics" href="http://www.lyricsmode.com/rss/upcoming_lyrics.xml">
+<link rel="alternate" type="application/rss+xml" title="LyricsMode - Top 100 lyrics" href="http://www.lyricsmode.com/rss/top_100_lyrics.xml">
+<link rel="alternate" type="application/rss+xml" title="LyricsMode - Top New lyrics" href="http://www.lyricsmode.com/rss/top_new_lyrics.xml">
+<link rel="alternate" type="application/rss+xml" title="LyricsMode - Top 100 artists" href="http://www.lyricsmode.com/rss/top_100_artists.xml">
+<link rel="alternate" type="application/rss+xml" title="LyricsMode - New albums" href="http://www.lyricsmode.com/rss/new_albums.xml">
+<link rel="alternate" type="application/rss+xml" title="LyricsMode - Upcoming albums" href="http://www.lyricsmode.com/rss/upcoming_albums.xml">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="/i/js/packet.js?0416"></script>
+<meta property="og:title" content="Lyrics, Song Lyrics – LyricsMode.com">
+</head>
+<body class="mt-15"><!--<![endif]-->
+<table cellpadding="0" cellspacing="0" class="b-10" bgcolor="#f6f6f6" align="center">
+<tr>
+<td class="pad-10" bgcolor="#dadada">
+<table cellpadding="0" cellspacing="0" class="b-2" width="930" bgcolor="#FFFFFF">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%" class="bb-2">
+<tr>
+<td width="311px" bgcolor="#C9EAFF"><a href="http://www.lyricsmode.com" title="Lyrics"><img src="/i/logo.jpg" border="0" width="311" height="108" alt="Lyrics"></a></td>
+<td valign="top">
+<div class="bl">
+<table cellpadding="3" cellspacing="2" bgcolor="#CCEBFF" width="100%">
+<tr><td>
+<div class="t_title">Lyrics, Song Lyrics, Music Lyrics, New Lyrics, Songs Lyrics – LyricsMode.com</div>
+</td></tr>
+</table>
+</div>
+<form action="/search.php" style="margin: 0;" id="LMsearchForm">
+<table cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #9ECCEA">
+<tr>
+<td class="f_bgd" height="85px">
+<table cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellpadding="2" cellspacing="0">
+<tr>
+<td>
+<select id="what" name="what" class="in">
+<option  value="songs">Search in Song names</option><option  value="bands">Search in Band names</option>										</select>
+</td>
+<td>
+<input id="s" type="text" name="s" maxlength="70" value="" class="in" style="width:295px;">
+<div id="ss_container"></div>
+</td>
+<td>
+<input type="submit" value="Search!" class="in">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td noWrap>&nbsp;</td></tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+<script type="text/javascript">
+if (typeof(search_suggestions_init) == 'function')
+{
+search_suggestions_init();
+}
+</script>
+</td>
+</tr>
+</table>
+<div class="bb-2">
+<table class="bb-t" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="nav n_bgd_s" align="center" width="10%"><a href="http://www.lyricsmode.com/" style="color:#666666" class="nav" title="lyrics">lyrics</a></td>
+<td><div class="n_bord"></div></td>
+<td class="nav" align="center" width="10%"><a href="/updates/" class="nav" title="updates">updates</a></td>
+<td><div class="n_bord"></div></td>
+<td class="nav" align="center" width="10%">
+<a href="/top/" class="nav" title="top 100">top 100</a>
+</td>
+<td><div class="n_bord"></div></td>
+<td class="nav" align="center" width="10%"><a href="/albums/" class="nav" title="albums">albums</a></td>
+<td><div class="n_bord"></div></td>
+<td class="nav" align="center" width="11%"><a href="/upcoming_albums.php" class="nav" title="upcoming albums">upcoming</a></td>
+<td><div class="n_bord"></div></td>
+<td class="nav" align="center" width="11%"><a href="/top_new/" class="nav" title="top new">top new</a></td>
+<td><div class="n_bord"></div></td>
+<td class="nav" align="center" width="10%"><a href="/lyrics_request.php" class="nav" title="request lyrics">request</a></td>
+<td><div class="n_bord"></div></td>
+<td class="nav" align="center" width="10%"><a href="/lyrics_submit.php" class="nav" title="submit lyrics">submit</a></td>
+<td><div class="n_bord"></div></td>
+<td width="23%" align="center" class="nav" style="color:#999999"><div id="userNotLogged"><a href="/login.php" style="color:#008000" rel="nofollow">login</a>&nbsp;·&nbsp;<a href="/register.php" style="color:#0066CC" rel="nofollow">sign up</a></div>
+<div id="userLogged"><a href="/my/" style="color:#008000" rel="nofollow">my profile</a>&nbsp;·&nbsp;<a href="/?a=logout" style="color:#800000" rel="nofollow">logout</a></div>
+<script type="text/javascript">
+// User logged
+var isLogged = getCookieValue("lm_username") && getCookieValue("lm_c");
+if (isLogged)
+{
+document.getElementById('userLogged').style.display = 'block';
+document.getElementById('userNotLogged').style.display = 'none';
+}
+</script>
+</td>
+</tr>
+</table>
+</div>
+<div style="margin:15px auto 0px auto; height: 90px; width:740px">
+<!-- BEGIN STANDARD TAG - 728 x 90 - LyricsMode: Main Page - DO NOT MODIFY -->
+<SCRIPT TYPE="text/javascript" SRC="http://ad.yieldmanager.com/st?ad_type=ad&ad_size=728x90&section=2652451"></SCRIPT>
+<!-- END TAG -->
+</div>
+<!-- BROWSE BY BAND -->
+<div class='alpha'>
+<span class="nav">Browse by band :</span>
+<a class="l" href="/lyrics/0-9/">0-9</a> <a class="l" href="/lyrics/a/">A</a> <a class="l" href="/lyrics/b/">B</a> <a class="l" href="/lyrics/c/">C</a> <a class="l" href="/lyrics/d/">D</a> <a class="l" href="/lyrics/e/">E</a> <a class="l" href="/lyrics/f/">F</a> <a class="l" href="/lyrics/g/">G</a> <a class="l" href="/lyrics/h/">H</a> <a class="l" href="/lyrics/i/">I</a> <a class="l" href="/lyrics/j/">J</a> <a class="l" href="/lyrics/k/">K</a> <a class="l" href="/lyrics/l/">L</a> <a class="l" href="/lyrics/m/">M</a> <a class="l" href="/lyrics/n/">N</a> <a class="l" href="/lyrics/o/">O</a> <a class="l" href="/lyrics/p/">P</a> <a class="l" href="/lyrics/q/">Q</a> <a class="l" href="/lyrics/r/">R</a> <a class="l" href="/lyrics/s/">S</a> <a class="l" href="/lyrics/t/">T</a> <a class="l" href="/lyrics/u/">U</a> <a class="l" href="/lyrics/v/">V</a> <a class="l" href="/lyrics/w/">W</a> <a class="l" href="/lyrics/x/">X</a> <a class="l" href="/lyrics/y/">Y</a> <a class="l" href="/lyrics/z/">Z</a>&nbsp;&nbsp;<span class="in" style="color:#0099FF">|</span>&nbsp;&nbsp;<a href="/top/" class="l" style="color:#000">Top 100</a>
+</div>				<!-- /BROWSE BY BAND -->
+<!--/HEADER-->
+<!--BODY-->
+<script type="text/javascript" src="/i/js/index_scrollbar.js"></script>
+<script type="text/javascript">
+</script>
+<table cellpadding="8" cellspacing="0" width="100%">
+<tr>
+<td width="322" valign="top" style="padding-top:16px">
+<!--feature album-->
+<table style="border:solid 1px #ff6100;border-bottom:0px;cursor:pointer" width="100%" cellpadding="3" cellspacing="2" onclick="location.href='/lyrics/m/m_ward/a_wasteland_companion/'">
+<tr>
+<td style="background:url(/i/fb_bgd.gif)" class="title">
+<b>&#1522; A Wasteland Companion &#1522; lyrics</b><p style="margin:3px 11px"><b>M. Ward</b></p>
+</td>
+</tr>
+<tr>
+<td height="30" style="padding: 9px" align=center><img border="0" src="/i/features/1/4/7/9354403434f83f84bc9e69.jpg" width="290" height="100" alt="M. Ward - A Wasteland Companion lyrics"></td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%" style="border:solid 1px #ff6100">
+<tr><td height="6"></td></tr>
+<tr>
+<td width="33%" align="center" valign="top">
+<a href="/lyrics/t/taproot/episodes/" class="smm"><img alt="Taproot - Episodes lyrics" border="0" width="78" height="78" src="/i/features/1/4/7/15077635804f83fac4a1da0.jpg" align="middle" alt="Episodes lyrics"><br><b>Taproot</b><br>"Episodes"</a>				</td>
+<td width="33%" align="center" valign="top">
+<a href="/lyrics/b/bonnie_raitt/slipstream/" class="smm"><img alt="Bonnie Raitt - Slipstream lyrics" border="0" width="78" height="78" src="/i/features/1/4/7/14348675364f83facd96b45.jpg" align="middle" alt="Slipstream lyrics"><br><b>Bonnie Raitt</b><br>"Slipstream"</a>				</td>
+<td width="33%" align="center" valign="top">
+<a href="/lyrics/m/monica/new_life/" class="smm"><img alt="Monica - New Life lyrics" border="0" width="78" height="78" src="/i/features/1/4/7/11534757314f83fad6affa5.jpg" align="middle" alt="New Life lyrics"><br><b>Monica</b><br>"New Life"</a>				</td>
+</tr>
+<tr><td height="6"></td></tr>
+<tr>
+<td width="33%" align="center" valign="top">
+<a href="/lyrics/m/mxpx/plans_within_plans/" class="smm" title="Mxpx - Plans Within Plans lyrics"><img alt="Mxpx - Plans Within Plans lyrics" border="0" width="78" height="78" src="/i/features/1/4/6/14962983224f7aa819ba114.jpg" align="middle"><br><b>Mxpx</b><br>"Plans Within Plans"</a>				</td>
+<td width="33%" align="center" valign="top">
+<a href="/lyrics/r/rascal_flatts/changed/" class="smm" title="Rascal Flatts - Changed lyrics"><img alt="Rascal Flatts - Changed lyrics" border="0" width="78" height="78" src="/i/features/1/4/6/6250193054f7aa737df325.jpg" align="middle"><br><b>Rascal Flatts</b><br>"Changed"</a>				</td>
+<td width="33%" align="center" valign="top">
+<a href="/lyrics/l/labrinth/electronic_earth/" class="smm" title="Labrinth - Electronic Earth lyrics"><img alt="Labrinth - Electronic Earth lyrics" border="0" width="78" height="78" src="/i/features/1/4/6/10229558064f7aa70fce38a.jpg" align="middle"><br><b>Labrinth</b><br>"Electronic Earth"</a>				</td>
+</tr>
+<tr><td height="28" align="right" colspan="3" style="padding:4px"><a href="/lyrics/c/christmas_songs/" class="ssm" style="color:#ff6100">Christmas lyrics</a> | <a href="/new_albums.php" class="ssm" style="color:#ff6100">All new albums »</a></td></tr>
+</table>
+<!--/feature album-->
+<!--ad-->
+<div align="center" style="margin-top:20px">
+<!-- BEGIN STANDARD TAG - 300 x 250 - LyricsMode: Main Page - DO NOT MODIFY -->
+<SCRIPT TYPE="text/javascript" SRC="http://ad.yieldmanager.com/st?ad_type=ad&ad_size=300x250&section=2652451"></SCRIPT>
+<!-- END TAG -->
+</div>
+<!--/ad-->
+</td>
+<td style="padding-top:16px" valign="top">
+<table cellpadding="0" cellspacing="0" style="margin-bottom:10px" width="100%">
+<tr>
+<td width="35px"><img src="/i/iphone.jpg" width="24" height="45" alt="iPhone"></td>
+<td nowrap><a href="http://m.lyricsmode.com/" target="_blank" class="h4_l" style="font:bold 14px Verdana; color:#FF6100">http://m.lyricsmode.com/</a><h4><font style="color:#FF6100">&ndash; mobile version is now available!</font></h4><p style="margin-top:4px">Get any lyrics you want everywhere you want via LyricsMode Mobile version. <a href="/about/mobile.php" class="l">Read more &raquo;</a></p></td>
+</tr>
+</table>
+<!--most popular lyrics-->
+<fieldset style="padding: 0px; border: 0px solid red; border-top:8px solid #74caff">		<legend><map name="title"><h1>Lyrics</h1></map></legend>		<table cellpadding="3" style="border:1px solid #DADADA; margin-top:8px" width="100%">					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>Gotye - <a href="/lyrics/g/gotye/somebody_that_i_used_to_know.html" class="l" title="Somebody That I Used To Know lyrics">Somebody That I Used To Know lyrics</a></div>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>One Direction - <a href="/lyrics/o/one_direction/what_makes_you_beautiful.html" class="l" title="What Makes You Beautiful lyrics">What Makes You Beautiful lyrics</a></div>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Fun - <a href="/lyrics/f/fun/we_are_young.html" class="l" title="We Are Young lyrics">We Are Young lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Adele - <a href="/lyrics/a/adele/someone_like_you.html" class="l" title="Someone Like You lyrics">Someone Like You lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Lmfao - <a href="/lyrics/l/lmfao/sexy_and_i_know_it.html" class="l" title="Sexy And I Know It lyrics">Sexy And I Know It lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Taylor Swift - <a href="/lyrics/t/taylor_swift/safe_and_sound.html" class="l" title="Safe And Sound lyrics">Safe And Sound lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Jason Mraz - <a href="/lyrics/j/jason_mraz/i_wont_give_up.html" class="l" title="I Won't Give Up lyrics">I Won't Give Up lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Maroon 5 - <a href="/lyrics/m/maroon_5/payphone.html" class="l" title="Payphone lyrics">Payphone lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Justin Bieber - <a href="/lyrics/j/justin_bieber/boyfriend.html" class="l" title="Boyfriend lyrics">Boyfriend lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Linkin Park - <a href="/lyrics/l/linkin_park/burn_it_down.html" class="l" title="Burn It Down lyrics">Burn It Down lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Rihanna - <a href="/lyrics/r/rihanna/we_found_love.html" class="l" title="We Found Love lyrics">We Found Love lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Selena Gomez - <a href="/lyrics/s/selena_gomez/hit_the_lights.html" class="l" title="Hit The Lights lyrics">Hit The Lights lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Kelly Clarkson - <a href="/lyrics/k/kelly_clarkson/stronger.html" class="l" title="Stronger lyrics">Stronger lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Adele - <a href="/lyrics/a/adele/set_fire_to_the_rain.html" class="l" title="Set Fire To The Rain lyrics">Set Fire To The Rain lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Drake - <a href="/lyrics/d/drake/take_care.html" class="l" title="Take Care lyrics">Take Care lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Nicki Minaj - <a href="/lyrics/n/nicki_minaj/beez_in_the_trap.html" class="l" title="Beez In The Trap lyrics">Beez In The Trap lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>Carly Rae Jepsen - <a href="/lyrics/c/carly_rae_jepsen/call_me_maybe.html" class="l" title="Call Me Maybe lyrics">Call Me Maybe lyrics</a></div>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															One Direction - <a href="/lyrics/o/one_direction/one_thing.html" class="l" title="One Thing lyrics">One Thing lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>Kanye West & Jay-Z - <a href="/lyrics/k/kanye_west_jay_z/niggas_in_paris.html" class="l" title="Niggas In Paris lyrics">Niggas In Paris lyrics</a></div>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Katy Perry - <a href="/lyrics/k/katy_perry/part_of_me.html" class="l" title="Part Of Me lyrics">Part Of Me lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Nicki Minaj - <a href="/lyrics/n/nicki_minaj/starships.html" class="l" title="Starships lyrics">Starships lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>Demi Lovato - <a href="/lyrics/d/demi_lovato/give_your_heart_a_break.html" class="l" title="Give Your Heart A Break lyrics">Give Your Heart A Break lyrics</a></div>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															The Wanted - <a href="/lyrics/t/the_wanted/glad_you_came.html" class="l" title="Glad You Came lyrics">Glad You Came lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Jennifer Lopez - <a href="/lyrics/j/jennifer_lopez/dance_again.html" class="l" title="Dance Again lyrics">Dance Again lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Dev - <a href="/lyrics/d/dev/naked.html" class="l" title="Naked lyrics">Naked lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Kanye West - <a href="/lyrics/k/kanye_west/mercy.html" class="l" title="Mercy lyrics">Mercy lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>Snoop Dogg - <a href="/lyrics/s/snoop_dogg/young_wild_and_free.html" class="l" title="Young, Wild And Free lyrics">Young, Wild And Free lyrics</a></div>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Carrie Underwood - <a href="/lyrics/c/carrie_underwood/good_girl.html" class="l" title="Good Girl lyrics">Good Girl lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Bob - <a href="/lyrics/b/bob/so_good.html" class="l" title="So Good lyrics">So Good lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>Far East Movement - <a href="/lyrics/f/far_east_movement/live_my_life.html" class="l" title="Live My Life lyrics">Live My Life lyrics</a></div>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Jay Sean - <a href="/lyrics/j/jay_sean/im_all_yours.html" class="l" title="I'm All Yours lyrics">I'm All Yours lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															<div class="tran-song"><div class="tran"></div>Justin Bieber - <a href="/lyrics/j/justin_bieber/as_long_as_you_love_me.html" class="l" title="As Long As You Love Me lyrics">As Long As You Love Me lyrics</a></div>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Madonna - <a href="/lyrics/m/madonna/girl_gone_wild.html" class="l" title="Girl Gone Wild lyrics">Girl Gone Wild lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Trey Songz - <a href="/lyrics/t/trey_songz/heart_attack.html" class="l" title="Heart Attack lyrics">Heart Attack lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Coldplay - <a href="/lyrics/c/coldplay/princess_of_china.html" class="l" title="Princess Of China lyrics">Princess Of China lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Rihanna - <a href="/lyrics/r/rihanna/where_have_you_been.html" class="l" title="Where Have You Been lyrics">Where Have You Been lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Jessie J - <a href="/lyrics/j/jessie_j/laserlight.html" class="l" title="Laserlight lyrics">Laserlight lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Chris Brown - <a href="/lyrics/c/chris_brown/till_i_die.html" class="l" title="Till I Die lyrics">Till I Die lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Pitbull - <a href="/lyrics/p/pitbull/back_in_time.html" class="l" title="Back In Time lyrics">Back In Time lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Lana Del Rey - <a href="/lyrics/l/lana_del_rey/blue_jeans.html" class="l" title="Blue Jeans lyrics">Blue Jeans lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Nelly Furtado - <a href="/lyrics/n/nelly_furtado/big_hoops.html" class="l" title="Big Hoops lyrics">Big Hoops lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Kanye West - <a href="/lyrics/k/kanye_west/way_too_cold.html" class="l" title="Way Too Cold lyrics">Way Too Cold lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Cheryl Cole - <a href="/lyrics/c/cheryl_cole/call_my_name.html" class="l" title="Call My Name lyrics">Call My Name lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															J Cole - <a href="/lyrics/j/j_cole/sideline_story.html" class="l" title="Sideline Story lyrics">Sideline Story lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															The Saturdays - <a href="/lyrics/t/the_saturdays/30_days.html" class="l" title="30 Days lyrics">30 Days lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Usher - <a href="/lyrics/u/usher/let_me_see.html" class="l" title="Let Me See lyrics">Let Me See lyrics</a>													</td>												</tr>					<tr>															<td style="width:274px; border-bottom:1px dashed #dadada">															Flo-Rida - <a href="/lyrics/f/flo_rida/whistle.html" class="l" title="Whistle lyrics">Whistle lyrics</a>													</td>																				<td style="width:274px; border-bottom:1px dashed #dadada">															Wiz Khalifa - <a href="/lyrics/w/wiz_khalifa/work_hard.html" class="l" title="Work Hard lyrics">Work Hard lyrics</a>													</td>												</tr>				<tr>			<td height="24" colspan="2" align="right"><a href="/top/" class="ssm">View top 100 lyrics &raquo;</a></td>		</tr>		</table>	</fieldset>					<!--/most popular lyrics-->
+</td>
+</tr>
+</table>
+<table cellpadding="8" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="322">
+<!-- top 20 -->
+<fieldset style="padding: 0px; border:0px; border-top:8px solid #ff6100">
+<legend><map name="title"><font class="leg_title">Top artists</font></map></legend>
+<div id="top_artists">
+<table cellpadding="3" cellspacing="2" style="margin-top:8px" width="100%">
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>40 total</b></font></span><a href="/lyrics/a/adele/" class="ar" title="Adele lyrics">Adele lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>26 total</b></font></span><a href="/lyrics/t/the_script/" class="ar" title="The Script lyrics">The Script lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>24 total</b></font></span><a href="/lyrics/c/christina_perri/" class="ar" title="Christina Perri lyrics">Christina Perri lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>42 total</b></font></span><a href="/lyrics/f/florence_and_the_machine/" class="ar" title="Florence And The Machine lyrics">Florence And The Machine lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>151 total</b></font></span><a href="/lyrics/t/taylor_swift/" class="ar" title="Taylor Swift lyrics">Taylor Swift lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>153 total</b></font></span><a href="/lyrics/j/jason_mraz/" class="ar" title="Jason Mraz lyrics">Jason Mraz lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>22 total</b></font></span><a href="/lyrics/o/one_direction/" class="ar" title="One Direction lyrics">One Direction lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>80 total</b></font></span><a href="/lyrics/a/avenged_sevenfold/" class="ar" title="Avenged Sevenfold lyrics">Avenged Sevenfold lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>118 total</b></font></span><a href="/lyrics/s/snsd/" class="ar" title="SNSD lyrics">SNSD lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>174 total</b></font></span><a href="/lyrics/b/beyonce/" class="ar" title="Beyonce lyrics">Beyonce lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>322 total</b></font></span><a href="/lyrics/h/hillsong_united/" class="ar" title="Hillsong United lyrics">Hillsong United lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>170 total</b></font></span><a href="/lyrics/c/coldplay/" class="ar" title="Coldplay lyrics">Coldplay lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>161 total</b></font></span><a href="/lyrics/s/super_junior/" class="ar" title="Super Junior lyrics">Super Junior lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>105 total</b></font></span><a href="/lyrics/j/justin_bieber/" class="ar" title="Justin Bieber lyrics">Justin Bieber lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>117 total</b></font></span><a href="/lyrics/b/bigbang/" class="ar" title="Bigbang lyrics">Bigbang lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>488 total</b></font></span><a href="/lyrics/e/eminem/" class="ar" title="Eminem lyrics">Eminem lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>100 total</b></font></span><a href="/lyrics/d/demi_lovato/" class="ar" title="Demi Lovato lyrics">Demi Lovato lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>104 total</b></font></span><a href="/lyrics/k/katy_perry/" class="ar" title="Katy Perry lyrics">Katy Perry lyrics</a></td>
+</tr>
+<tr bgcolor="#FFEBDF">
+<td height="25px"><span style="float:right"><font class="sm"><b>150 total</b></font></span><a href="/lyrics/l/lady_gaga/" class="ar" title="Lady GaGa lyrics">Lady GaGa lyrics</a></td>
+</tr>
+<tr >
+<td height="25px"><span style="float:right"><font class="sm"><b>127 total</b></font></span><a href="/lyrics/n/nicki_minaj/" class="ar" title="Nicki Minaj lyrics">Nicki Minaj lyrics</a></td>
+</tr>
+</table>
+</div>
+</fieldset>
+<!-- top 20 -->
+</td>
+<td valign="top">
+<!--Breakout lyrics, Last Updates-->
+<fieldset class="bookmark_menu" style="padding: 0px; border:0px; border-top:8px solid #74caff">
+<legend><map name="title"><span class="leg_title"><span>Breakout lyrics</span>&nbsp;/&nbsp;<span>Last Updates</span></span></map></legend>
+<table cellpadding="3" style="border: 1px solid #DADADA;margin-top:10px" width="100%">
+<tr class="tr">
+<td height="25">Maroon 5</td>
+<td>
+<span style="float:right">
+<b style="color:red">New!</b>
+</span>
+<a href="/lyrics/m/maroon_5/payphone.html" class="l" title="Payphone lyrics">Payphone lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Never The Strangers</td>
+<td>
+<span style="float:right">
+<b style="color:red">New!</b>
+</span>
+<a href="/lyrics/n/never_the_strangers/moving_closer.html" class="l" title="Moving Closer lyrics">Moving Closer lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Linkin Park</td>
+<td>
+<span style="float:right">
+<b style="color:red">New!</b>
+</span>
+<a href="/lyrics/l/linkin_park/burn_it_down.html" class="l" title="Burn It Down lyrics">Burn It Down lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Minor Threat</td>
+<td>
+<span style="float:right">
+<b style="color:red">New!</b>
+</span>
+<a href="/lyrics/m/minor_threat/minor_threat.html" class="l" title="Minor Threat lyrics">Minor Threat lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Ritchie Valens</td>
+<td>
+<span style="float:right">
+<b style="color:red">New!</b>
+</span>
+<a href="/lyrics/r/ritchie_valens/la_bamba.html" class="l" title="La Bamba lyrics">La Bamba lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Jessie J</td>
+<td>
+<span style="float:right">
+<b style="color:red">New!</b>
+</span>
+<a href="/lyrics/j/jessie_j/price_tag.html" class="l" title="Price Tag lyrics">Price Tag lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Future</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">28</span>
+</span>
+<a href="/lyrics/f/future/same_damn_time.html" class="l" title="Same Damn Time lyrics">Same Damn Time lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Adele</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">15</span>
+</span>
+<a href="/lyrics/a/adele/set_fire_to_the_rain.html" class="l" title="Set Fire To The Rain lyrics">Set Fire To The Rain lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Florence And The Machine</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">10</span>
+</span>
+<a href="/lyrics/f/florence_and_the_machine/shake_it_out.html" class="l" title="Shake It Out lyrics">Shake It Out lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Avenged Sevenfold</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">10</span>
+</span>
+<a href="/lyrics/a/avenged_sevenfold/so_far_away.html" class="l" title="So Far Away lyrics">So Far Away lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Beyonce</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">9</span>
+</span>
+<a href="/lyrics/b/beyonce/halo.html" class="l" title="Halo lyrics">Halo lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Krissy And Ericka</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">9</span>
+</span>
+<a href="/lyrics/k/krissy_and_ericka/1251.html" class="l" title="12:51 lyrics">12:51 lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Jason Mraz</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">9</span>
+</span>
+<a href="/lyrics/j/jason_mraz/i_wont_give_up.html" class="l" title="I Won't Give Up lyrics">I Won't Give Up lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Simple Plan</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">8</span>
+</span>
+<a href="/lyrics/s/simple_plan/summer_paradise.html" class="l" title="Summer Paradise lyrics">Summer Paradise lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Florence And The Machine</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">8</span>
+</span>
+<a href="/lyrics/f/florence_and_the_machine/never_let_me_go.html" class="l" title="Never Let Me Go lyrics">Never Let Me Go lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Daughter</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">8</span>
+</span>
+<a href="/lyrics/d/daughter/youth.html" class="l" title="Youth lyrics">Youth lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Ed Sheeran</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">8</span>
+</span>
+<a href="/lyrics/e/ed_sheeran/the_a_team.html" class="l" title="The A Team lyrics">The A Team lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Coldplay</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">6</span>
+</span>
+<a href="/lyrics/c/coldplay/viva_la_vida.html" class="l" title="Viva La Vida lyrics">Viva La Vida lyrics</a>
+</td>
+</tr>
+<tr class="tr">
+<td height="25">Boys Like Girls</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">6</span>
+</span>
+<a href="/lyrics/b/boys_like_girls/two_is_better_than_one.html" class="l" title="Two Is Better Than One lyrics">Two Is Better Than One lyrics</a>
+</td>
+</tr>
+<tr >
+<td height="25">Beyonce</td>
+<td>
+<span style="float:right">
+<img src="/i/up.gif" alt="Up"> <span style="color:green">5</span>
+</span>
+<a href="/lyrics/b/beyonce/i_miss_you.html" class="l" title="I Miss You lyrics">I Miss You lyrics</a>
+</td>
+</tr>
+</table>
+<table cellpadding="3" style="border: 1px solid #DADADA;margin-top:10px" width="100%">
+<tr class="tr">
+<td height="25">
+Taylor Swift					</td>
+<td>
+<a href="/lyrics/t/taylor_swift/by_the_way.html" class="l" title="By The Way lyrics">By The Way lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Taylor Swift					</td>
+<td>
+<a href="/lyrics/t/taylor_swift/white_blank_page.html" class="l" title="White Blank Page lyrics">White Blank Page lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Avenged Sevenfold					</td>
+<td>
+<a href="/lyrics/a/avenged_sevenfold/so_far_awaya_tribute_to_the_rev.html" class="l" title="So Far Away(A Tribute To The Rev) lyrics">So Far Away(A Tribute To The Rev) lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Gotye					</td>
+<td>
+<a href="/lyrics/g/gotye/state_of_the_art.html" class="l" title="State Of The Art lyrics">State Of The Art lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Shinee					</td>
+<td>
+<a href="/lyrics/s/shinee/the_shinee_world_japanese.html" class="l" title="The SHINee World Japanese lyrics">The SHINee World Japanese lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Shinee					</td>
+<td>
+<a href="/lyrics/s/shinee/amigo_japanese.html" class="l" title="Amigo Japanese lyrics">Amigo Japanese lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/kiss.html" class="l" title="Kiss lyrics">Kiss lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/doin_dirt.html" class="l" title="Doin' Dirt lyrics">Doin' Dirt lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/tickets.html" class="l" title="Tickets lyrics">Tickets lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/sad.html" class="l" title="Sad lyrics">Sad lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/fortune_teller.html" class="l" title="Fortune Teller lyrics">Fortune Teller lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/ladykiller.html" class="l" title="Ladykiller lyrics">Ladykiller lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/love_somebody.html" class="l" title="Love Somebody lyrics">Love Somebody lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/the_man_who_never_lied.html" class="l" title="The Man Who Never Lied lyrics">The Man Who Never Lied lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/lucky_strike.html" class="l" title="Lucky Strike lyrics">Lucky Strike lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Maroon 5					</td>
+<td>
+<a href="/lyrics/m/maroon_5/daylight.html" class="l" title="Daylight lyrics">Daylight lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Miley Cyrus					</td>
+<td>
+<a href="/lyrics/m/miley_cyrus/so_long_farewell_bette_bob.html" class="l" title="So Long Farewell Bette Bob lyrics">So Long Farewell Bette Bob lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Miley Cyrus					</td>
+<td>
+<a href="/lyrics/m/miley_cyrus/my_giants_wins_their_4_super_bowl.html" class="l" title="My Giants Wins Their 4 Super Bowl lyrics">My Giants Wins Their 4 Super Bowl lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr class="tr">
+<td height="25">
+Miley Cyrus					</td>
+<td>
+<a href="/lyrics/m/miley_cyrus/roy_rogers_ghost_in_bonzana.html" class="l" title="Roy Rogers Ghost In Bonzana lyrics">Roy Rogers Ghost In Bonzana lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+<tr >
+<td height="25">
+Akon					</td>
+<td>
+<a href="/lyrics/a/akon/honey_im_home.html" class="l" title="Honey I'm Home lyrics">Honey I'm Home lyrics</a>
+</td>
+<td class="sm2" align="center">
+added: apr 17, 2012					</td>
+</tr>
+</table>
+</fieldset>
+<!--/Breakout lyrics, Last Updates-->
+</td>
+</tr>
+</table>
+<!--/BODY-->
+</td>
+</tr>
+<tr>
+<td class="foot bt-2" align="center">
+<table cellpadding="1" cellspacing="2" width="100%">
+<tr>
+<td style="padding-left:14px">
+<a href="/lyrics/m/madonna/" class="seo" title="Madonna lyrics">Madonna lyrics</a>						</td>
+<td>
+<a href="/lyrics/e/eminem/" class="seo" title="Eminem lyrics">Eminem lyrics</a>						</td>
+<td>
+<a href="/lyrics/b/beyonce/" class="seo" title="Beyonce lyrics">Beyonce lyrics</a>						</td>
+<td>
+<a href="/lyrics/r/rihanna/" class="seo" title="Rihanna lyrics">Rihanna lyrics</a>						</td>
+<td>
+<a href="/lyrics/t/taylor_swift/" class="seo" title="Taylor Swift lyrics">Taylor Swift lyrics</a>						</td>
+</tr>
+<tr>
+<td style="padding-left:14px">
+<a href="/lyrics/d/drake/" class="seo" title="Drake lyrics">Drake lyrics</a>						</td>
+<td>
+<a href="/lyrics/d/demi_lovato/" class="seo" title="Demi Lovato lyrics">Demi Lovato lyrics</a>						</td>
+<td>
+<a href="/lyrics/s/selena_gomez/" class="seo" title="Selena Gomez lyrics">Selena Gomez lyrics</a>						</td>
+<td>
+<a href="/lyrics/k/katy_perry/" class="seo" title="Katy Perry lyrics">Katy Perry lyrics</a>						</td>
+<td>
+<a href="/lyrics/a/adele/" class="seo" title="Adele lyrics">Adele lyrics</a>						</td>
+</tr>
+<tr>
+<td style="padding-left:14px">
+<a href="/lyrics/l/lady_gaga/" class="seo" title="Lady GaGa lyrics">Lady GaGa lyrics</a>						</td>
+<td>
+<a href="/lyrics/n/nicki_minaj/" class="seo" title="Nicki Minaj lyrics">Nicki Minaj lyrics</a>						</td>
+<td>
+<a href="/lyrics/j/jason_derulo/" class="seo" title="Jason Derulo lyrics">Jason Derulo lyrics</a>						</td>
+<td>
+<a href="/lyrics/f/florence_and_the_machine/" class="seo" title="Florence And The Machine lyrics">Florence And The Machine lyrics</a>						</td>
+<td>
+<a href="/lyrics/l/lmfao/" class="seo" title="Lmfao lyrics">Lmfao lyrics</a>						</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="50" bgcolor="#FFFFFF" align="right" class="foot b_foot">
+<a href="/mtv.htm" rel="nofollow" style="float: left; margin-top: 13px;"><img src="/i/mtv_networks.png" border="0" alt="MTV networks" width="136" height="24"></a>
+<a href="http://lyricsseal.org/" onclick="window.open('http://lyricsseal.com/check/lyricsmode.com/MmExNzNjODcyNDBmZTVhNjNlNzUwMTYxNWVhYWIwMTEzMDFlZDA1YWY2OWJiMmMzNmQwOTk2YTU1YTU1YTg2MA%3D%3D', 'ls', 'toolbar=0,status=0,scrollbars=1,width=560,height=600'); return false;" class="ls" rel="nofollow" style="margin-top:7px"><span class="lsh">Verify License <span>lyricsmode.com</span></span></a>
+<a href="/about/advertising.php" rel="nofollow" class="link">Advertising</a>&nbsp;|&nbsp;<a href="/about/about.php" rel="nofollow" class="link">About</a>&nbsp;|&nbsp;<a href="/about/contact.php" rel="nofollow" class="link">Contact</a>&nbsp;|&nbsp;<a href="/about/terms.php" rel="nofollow" class="link">Terms of Use</a>&nbsp;|&nbsp;<a href="/about/privacy_policy.php" rel="nofollow" class="link">Privacy Policy</a>&nbsp;|&nbsp;<a href="/about/mobile.php" rel="nofollow">Mobile version</a><p style="margin-top:5px"><b><font color="#FF6100">LYRICS</font><font color="#1A82C1">MODE</font></b><font color="#666666"> &copy; 2012</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<script language="javascript" type="text/javascript">
+function unline_link(i) {
+document.getElementById("bnd_link"+i).style.textDecoration = 'none';
+document.getElementById("sng_link"+i).style.textDecoration = 'none';
+}
+function deline_link(i) {
+document.getElementById("bnd_link"+i).style.textDecoration = 'underline';
+document.getElementById("sng_link"+i).style.textDecoration = 'underline';
+}
+</script>
+<!--ringtones-->
+<!--/ringtones-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-3592869-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script language="javascript" type="text/javascript">
+if (typeof DD_roundies !== 'undefined')
+{
+DD_roundies.addRule('.arr,#l_ipod,#l_favorites,#l_email,#l_print,#l_translate,.align-left,.align-center,.align-right,.report_bad,.customize,.correct,.v_up,.v_down,.digg,.delicious,.stumbleupon,.reddit,.twitter,.facebook,.aim,.ring_left,.ring_right,.search,#b_blog,#b_email,#b_subscribe,.submit');
+}
+</script>
+<!-- Begin comScore Tag -->
+<script>
+document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ?
+"https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script>
+COMSCORE.beacon({
+c1:2,
+c2:6745264,
+c3:"",
+c4:document.location,
+c5:"",
+c6:"",
+c15:""
+});
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6745264&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-84PgIiyhfAiVo"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-84PgIiyhfAiVo.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>

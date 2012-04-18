@@ -1,0 +1,4476 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="/assets/images/favicon.ico" rel="shortcut icon">
+		
+
+
+
+<title>
+	
+		
+			Famous Biographies &amp; TV Shows  - Biography.com
+		
+		
+	
+</title>
+
+
+
+		
+			
+				<meta name="description" content="Explore Bio.com, your source for true stories about notable people. Watch full episodes, read exclusive biographies and discover the unexpected ways you're connected to your favorite celebrities.">
+				<meta name="keywords" content="">
+			
+			
+		
+			
+		
+		
+		
+		
+		
+		
+			<link rel="canonical" href="http://www.biography.com" /> 
+		
+		
+		
+		
+		
+		
+
+
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jqueryUI/js/jquery-ui-1.8.16.custom.min.js"></script>
+
+	<!-- SWF Object Initialization -->
+	<script type="text/javascript" src="/assets/scripts/libraries/swfobject/swfobject.js"></script>
+
+	<!-- Login Scripts -->
+	<script type="text/javascript" src="http://cdn.gigya.com/JS/gigya.js?apikey=2_bJHG7skjRfyO4EHX_f6ABYLFEJ_HNdVqdW5Broj7hiIHHGTY4sG2wYSS7X8N4u_W"></script>
+    <script type="text/javascript" src="http://ssos.biography.com/aetn_socialize/js/socialize/bio/socialize.js"></script>
+	<script type="text/javascript" src="/assets/scripts/utilities/login/login.js"></script>	
+
+	<!-- Ad Script -->
+	<script type="text/javascript" src="/assets/scripts/utilities/advertisments.js"></script>	
+	
+	<!-- Omniture Custom Link Tracking -->
+	<script type="text/javascript" src="/assets/scripts/libraries/omniture/customlinktracking.js"></script>
+	
+	<!-- Facebook Scripts -->
+	<script src="http://connect.facebook.net/en_US/all.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/facebook/facebook-initialization.js"></script>
+
+	<script type="text/javascript" src="/assets/scripts/initializations/common-initialization.js"></script>
+
+	<!-- Gigya Scripts -->
+	<script type="text/javascript" src="/assets/scripts/libraries/gigyabar/followus.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/gigyabar/sharebar.js"></script>
+	
+		
+
+<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.scrolling-carousel/jquery.scrolling-carousel.js"></script>
+<script type="text/javascript" src="/assets/scripts/initializations/homepage-initialization.js"></script>
+<script type="text/javascript" src="/assets/scripts/modules/who-knows-who.js"></script>
+
+		
+
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/fonts/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/scripts/libraries/jQuery/plugins/jqueryUI/css/custom-theme/jquery-ui-1.8.9.custom.css" />
+
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/assets/css/browsers/ie.css" />
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="/assets/css/browsers/ie7.css" />
+	<![endif]-->
+	<!--[if IE 8]>
+		<link rel="stylesheet" type="text/css" href="/assets/css/browsers/ie8.css" />
+	<![endif]-->
+	
+	
+	
+		
+		
+		
+
+
+   
+	<meta property="og:title" content="Bio.com"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="http://www.biography.com"/>
+	<meta property="og:image" content="http://www.biography.com/assets/images/logo.png"/>
+	<meta property="og:description" content="Explore Bio.com, your source for true stories about notable people. Watch full episodes, read exclusive biographies and discover the unexpected ways you&#039;re connected to your favorite celebrities."/>
+	<meta property="og:site_name" content="BIO"/>
+	<meta property="fb:admins" content="100001148659782"/>
+	<meta property="fb:app_id" content="104784826244596"/> 
+
+
+		
+		<link href="https://plus.google.com/104557227002725623584" rel="publisher" /> 
+	</head>
+
+
+
+	
+    	<body id="home">
+    
+	
+
+		<div id="quantcast"></div>
+		
+
+
+<script type="text/javascript">
+function Querystring(qs)
+{ // optionally pass a querystring to parse
+        this.params = {};
+
+        if (qs == null) qs = location.search.substring(1, location.search.length);
+        if (qs.length == 0) return;
+
+        // Turn <plus> back to <space>
+        qs = qs.replace(/\+/g, ' ');
+        var args = qs.split('&'); // parse out name/value pairs separated via &
+
+        // split out each name=value pair
+        for (var i = 0; i < args.length; i++) {
+            var pair = args[i].split('=');
+            var name = decodeURIComponent(pair[0]);
+
+            var value = (pair.length==2) ? decodeURIComponent(pair[1]) : "";
+
+            this.params[name] = value;
+        }
+}
+
+Querystring.prototype.get = function(key, default_)
+{
+        var value = this.params[key];
+        return (value != null) ? value : default_;
+}
+
+Querystring.prototype.contains = function(key)
+{
+        var value = this.params[key];
+        return (value != null);
+}
+
+var qs = new Querystring();
+var dartTest = qs.get('test');
+var profileId = '';
+
+if(typeof dartTest == 'undefined') {
+	dartTest = '';
+}
+
+if (9357941 != 0) {
+	profileId = 9357941;
+}
+
+//TODO: Need to make sure we clean up certain parameters here according to dart rules (i.e., pid)
+//TODO: Need to truncate certain dart tag values according to dart rules
+
+var dart = {
+	ord: Math.random()*10000000000000000,
+	hpOrd: 0,
+	siteName: "aetn.bio.home",
+	s1: "biohome",
+	s2: "",
+	aid: profileId,
+	kw: "",
+	test: dartTest,
+	pid: location.pathname.replace (/\//g, "_"),
+	
+	group: [
+	
+	]
+};
+
+dart.hpOrd = dart.ord;
+
+var numberOfTiles = 0;
+function tileNumberAndDcopt() {
+	numberOfTiles = numberOfTiles + 1;
+	if (numberOfTiles == 1) {
+		return numberOfTiles + ";dcopt=ist";
+	}
+	return numberOfTiles;
+};
+
+function getGroups() {
+	var groupTag ='';
+	
+	for (var i = 0; i < dart.group.length; i++) {
+		if(dart.group[i].length > 1)
+			groupTag += 'group=' + dart.group[i] + ';'; 
+	}
+	
+	return groupTag;
+	
+}
+
+//If this is the home page and it is a box ad increment the ord values for each ad
+function getOrd(s1, size) 
+{
+	if (s1 == "biohome" && size == "300x250") {
+		dart.hpOrd = dart.hpOrd+1;
+		return dart.hpOrd;
+	} else {
+		return dart.ord;
+	}
+}
+
+/*************************************************
+@description This is the callback function that quantcast will call with the resulting segments
+@param result the list of segments from quantcast
+*************************************************/
+function qc_results(result) {
+	var preQuantSeqs ='';
+	var qcAdKeys = [];
+	var qcValue = {};
+	
+	//preQuantSeqs='Q=MM:Q=100:Q=AA:Q=3549:Q=NC:Q=HHWK:';//test purpose only
+	for (var i = 0; i < result.segments.length; i++) {
+		if(result.segments[i].id.length >1)
+			preQuantSeqs += 'Q=' + result.segments[i].id + ':'; //customizable per your ad server
+			qcValue.q = result.segments[i].id;
+			qcAdKeys.push(qcValue);
+	}
+	//console.log("creating cookie with segs: " + preQuantSeqs);
+	window.bio.quantcast.createCookie(preQuantSeqs, 1); //set to expire in 24 hours (if the cookie does not already exist)
+	window.bio.quantcast.setQuantSegs(preQuantSeqs.replace(/:/g,';'));
+	window.bio.quantcast.setAdKeys(qcAdKeys);
+}
+
+window.bio = window.bio || {};
+
+/*************************************************
+@class Provide the Logic for handling quantcast integration
+@requires jQuery 1.3+
+@returns 
+*************************************************/
+window.bio.quantcast = (function($) {
+
+	var qcBaseURL = 'http://pixel.quantserve.com/api/segments.json';
+	var qcCookieName = 'ckQuantSegs';
+	
+	var _s = {
+		"$parent" : $(this),
+		"quantSegs": '',
+		"adKeys": {}
+	};
+	
+	/**
+	 * @private
+	 * @param name the name of the cookie to create
+	 * @param value the value to set in the cookie
+	 * @param days the number of days the cookie should live for
+	 */
+	function createCookie(value,days) {
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+		}
+		else var expires = "";
+		document.cookie = qcCookieName+"="+value+expires+"; path=/";
+	}
+	
+	/**
+	 * @private
+	 * @param name the name of the cookie to read
+	 */
+	function readCookie() {
+		var nameEQ = qcCookieName + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+	
+	/**
+	 * @public Called from the quantcast callback method (qc_results) 
+	 * @param quantSegs the quantcast segments
+	 */
+	function setQuantSegs(quantSegs) {
+		_s.quantSegs = quantSegs;
+		
+	}
+	
+	/**
+	 * @public  
+	 * @returns The current quantcast segments
+	 */
+	function getQuantSegs() {
+		return _s.quantSegs;
+		
+	}
+	
+	function setAdKeys(qcAdKeys) {
+		_s.adKeys = qcAdKeys;
+	}
+	
+	function getAdKeys() {
+		return _s.adKeys;
+	}
+
+	/**
+	 * @public 
+	 * @param qcAccountId the quantcast account id
+	 */
+	function init(qcAccountId) {
+		if(readCookie(qcCookieName)==null || readCookie(qcCookieName) == ''){
+			var container = document.getElementById('quantcast');
+			var newScript = document.createElement('script');
+			newScript.type = "text/javascript";
+			newScript.src = qcBaseURL + '?a=' + qcAccountId + '&callback=qc_results';
+			container.appendChild (newScript);
+			//container.innerHTML = '<scri'+'pt type="text/javascript" src="' + qcBaseURL + '?a=' + qcAccountId + '&callback=qc_results" ></sc'+'ript>';
+			//container.innerHTML = "hello world";
+			//document.write('<scri'+'pt type="text/javascript" src="' + qcBaseURL + '?a=' + qcAccountId + '&callback=qc_results" ></sc'+'ript>');		
+		}else{
+			_s.quantSegs = readCookie(qcCookieName).replace(/:/g,';');
+		}
+	}
+	
+    return {
+        "createCookie": createCookie,
+        "readCookie" : readCookie,
+        "setQuantSegs" : setQuantSegs,
+        "getQuantSegs": getQuantSegs,
+        "getAdKeys": getAdKeys,
+        "setAdKeys": setAdKeys,
+         "init": init
+    };
+	
+})(jQuery);
+
+window.bio.quantcast.init('p-84eTroxoNX3JE');
+
+function ifrmResize( width, height, ad_size_id, ad_id, time ){
+	if(ad_size_id == 'ad_300x250_top_multisize'){
+		//resizing ad
+		//alert("width: "+ width + " height: " + height);
+		document.getElementById('ad-box-iframe').height=height ;
+		document.getElementById('ad-box-iframe').width=width ;
+		
+		if(width == 250) {
+			document.getElementById('ad-box-iframe').setAttribute('style', 'border: 0px;');
+		}
+	}
+}
+
+</script>
+
+		
+
+
+
+
+
+<!--nutch-ignore-->
+<div id="header">
+	<div class="master-margin">
+		<div id="login"></div>
+		<div id="header-social-media-links">
+			<ul>
+				<li><a href="/mobile">Mobile</a></li>
+				<li class="divider">&bull;</li>
+				<li><a href="http://www.biography.com/emails">Email Updates</a></li>
+				<li class="divider">&bull;</li>
+				<li><div id="divButtons"></div></li>
+			</ul>
+			
+			
+		</div>
+	</div>
+	<div id="header-body">
+		<div class="master-margin ie7fixnav">
+			<a href="/"><img id="header-logo" src="/assets/images/logo.png"/></a>
+			
+
+
+
+
+
+
+
+<ul id="primary-nav">
+
+	<li class="dropdown-fly">
+	
+		<a href="/people" class="redhover">People</a>
+		
+			
+			
+			
+				
+				
+					
+					<div style="/*display:block;*/" id="dropdown-flyout-people" class="dropdown-flyout dropdown-flyout-people">
+						<div class="dropdown-flyout-group-columns dropdown-flyout-group-columns-people clearfix">
+					
+					
+					
+				
+				
+				
+				
+				    
+				    	
+				    	
+				    		<div class="float-left border-grey-right dropdown-flyout-inner-column flyout-column-people ">
+				    	
+				    
+					<h5 class="red-text">April Icons</h5>
+					
+					
+						
+					
+					<a href="/people/abraham-lincoln-9382540"><img src="/imported/rendition/images/Biography/Images/Profiles/L/Abraham-Lincoln-9382540-1-402_144x144.jpg" class="image-people-flyout"/>
+						
+						
+							<strong class="dot">Abraham Lincoln</strong></a>
+				
+				
+				
+				
+				
+				
+				
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/people/martin-luther-king-jr-9365086">Martin Luther King, Jr.</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/albert-einstein-9285408">Albert Einstein</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/maya-angelou-9185388">Maya Angelou</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/kurt-cobain-9542179">Kurt Cobain</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/billie-holiday-9341902">Billie Holiday</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				    
+				    	
+				    	
+				    		<div class="float-left border-grey-right dropdown-flyout-inner-column flyout-column-people ">
+				    	
+				    
+					<h5 class="red-text">Popular Groups</h5>
+					
+					
+						
+					
+					<a href="/people/groups/notorious"><img src="/imported/rendition/images/Biography/Images/Profiles/W/Aileen-Wuornos-11735792-1-402_144x144.jpg" class="image-people-flyout"/>
+						
+						
+							<strong class="dot">Notorious</strong></a>
+				
+				
+				
+				
+				
+				
+				
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/people/groups/names-we-like">Names We Like</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/groups/famous-childrens-authors">Children's Authors</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/groups/us-first-ladies/">U.S. First Ladies</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/groups/women-who-rock">Women Who Rock</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/groups/unnatural-death/suicide/">People Who Committed Suicide</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				    
+				    	
+				    	
+				    		<div class="float-left border-grey-right dropdown-flyout-inner-column flyout-column-people ">
+				    	
+				    
+					<h5 class="red-text">Pictures</h5>
+					
+					
+						
+					
+					<a href="/people/groups/the-bee-gees/photos/bee-gees"><img src="/imported/images/Biography/Images/Promos/beegees-402.jpg" class="image-people-flyout"/>
+						
+						
+							<strong class="dot">The Bee Gees</strong></a>
+				
+				
+				
+				
+				
+				
+				
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/people/groups/historic-hair-band-members/photos">Should Have Been in an 80s Hair Band</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/warren-beatty-9203570/photos">Beatty's Babes</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/groups/celebrity-golfers/photos/celebrity-golfers">Celebrity Golfers</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/groups/famous-rivals/photos/famous-rivals">Famous Rivals</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/martin-luther-king-jr-9365086/photos">Martin Luther King, Jr.</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				    
+				    	
+				    		<div class="float-left dropdown-flyout-inner-column flyout-column-people ">
+				    	
+				    	
+				    
+					<h5 class="red-text">In the Headlines</h5>
+					
+					
+						
+					
+					<a href="/people/robin-gibb-20728001"><img src="/imported/rendition/images/Biography/Images/Profiles/G/Robin-Gibb-20728001-1-402_144x144.jpg" class="image-people-flyout"/>
+						
+						
+							<strong class="dot">Robin Gibb</strong></a>
+				
+				
+				
+				
+				
+				
+				
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/people/anders-behring-breivik-20617893">Anders Behring Breivik</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/mitt-romney-241055">Mitt Romney</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/daw-aung-san-suu-kyi-9192617">Daw Aung San Suu Kyi</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/barack-obama-12782369">Barack Obama</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+					<div class="clearfix"></div>
+					</div>	
+					
+							<p class="left-text padding-left-10">
+								<a href="/people" class="red-text">See all people</a>
+					
+						
+						
+							</p>
+					</div>						
+					
+				
+		
+		
+	
+	
+	</li>
+	
+	<li class="divider">&middot;</li>
+	
+
+	<li class="dropdown-fly">
+	
+		<a href="/tv" class="redhover">TV</a>
+		
+			
+			
+			
+				
+				
+					
+					
+					<div id="dropdown-flyout-tv" class="dropdown-flyout dropdown-flyout-tv">
+						<div class="dropdown-flyout-group-columns dropdown-flyout-group-columns-tv clearfix" >
+					
+					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+								
+					
+				
+				
+				
+				
+					<div class="float-left dropdown-flyout-inner-column flyout-column-tv-large ">
+						<h5 class="red-text">Shows</h5>
+						
+						<div class="list-of-shows">
+							<div class="list-of-shows-column left-column">
+								
+									
+									
+											
+										
+										
+											<a href="/tv/classroom">BIO Classroom</a>
+										
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/biochannel-special">BioChannel Special</a>
+										
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/biography">Biography</a>
+										
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/celebrity-ghost-stories">Celebrity Ghost Stories</a>
+										
+										
+										
+									
+									
+											
+										
+										
+										
+											<a href="/tv/celebrity-house-hunting">Celebrity House Hunting&nbsp;<span class="new-left-arrow">NEW</span></a>
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/ghostly-encounters">Ghostly Encounters</a>
+										
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/i-survived">I Survived</a>
+										
+										
+										
+									
+									
+											
+										
+											</div>
+											<div class="list-of-shows-column right-column">
+										
+										
+											<a href="/tv/i-survived-beyond-and-back">I Survived Beyond and Back</a>
+										
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/inside-story">Inside Story</a>
+										
+										
+										
+									
+									
+											
+										
+										
+										
+											<a href="/tv/killer-kids">Killer Kids&nbsp;<span class="new-left-arrow">NEW</span></a>
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/mobsters">Mobsters</a>
+										
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/my-ghost-story">My Ghost Story</a>
+										
+										
+										
+									
+									
+											
+										
+										
+											<a href="/tv/notorious">Notorious</a>
+										
+										
+										
+									
+									
+											
+										
+										
+										
+											<a href="/tv/outlaw-bikers">Outlaw Bikers&nbsp;<span class="new-left-arrow">NEW</span></a>
+										
+										
+									
+																
+							<a href="/tv"><span class="red-underline"><span>see all shows</span></span></a>
+							</div>
+						</div>
+					</div>
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				
+				
+					<div class="float-left border-grey-left dropdown-flyout-inner-column flyout-column-tv-med">
+						<h5 class="red-text">My Ghost Story SEASON PREMIERE Saturday 9/8c</h5>
+						
+						
+							
+						
+						<a href="/tv/my-ghost-story"><img src="/imported/images/Biography/Images/Shows/My-Ghost-Story/my-ghost-story-all-shows.jpg" class="image-tv-flyout"/>
+							
+							
+								<strong>My Ghost Story</strong></a>
+				
+				
+				
+				
+				
+				
+								
+					
+				
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				
+				
+					<div class="float-left border-grey-left dropdown-flyout-inner-column flyout-column-tv-med">
+						<h5 class="red-text">I Survived... NEW episodes Sundays at 9/8c</h5>
+						
+						
+							
+						
+						<a href="/tv/i-survived"><img src="/imported/images/Biography/Images/Shows/I-Survived/i-survived-all-shows.jpg" class="image-tv-flyout"/>
+							
+							
+								<strong>I Survived...</strong></a>
+				
+				
+				
+				
+				
+				
+								
+					
+				
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+					<div class="clearfix"></div>
+					</div>	
+					
+					
+							<p class="left-text padding-left-10">
+								<a href="/tv" class="red-text" style="display:inline;">See all bio TV</a>
+								<span class = "divider">&nbsp;|&nbsp;&nbsp;</span>
+								<a href="/tv/daily-schedule" class="red-text" style="display:inline;">See schedule </a>
+						
+						
+							</p>
+					</div>						
+					
+				
+		
+		
+	
+	
+	</li>
+	
+	<li class="divider">&middot;</li>
+	
+
+	<li class="dropdown-fly">
+	
+		<a href="/videos" class="redhover">Video</a>
+		
+			
+			
+			
+				
+				
+					
+					
+					
+					<div id="dropdown-flyout-video" class="dropdown-flyout dropdown-flyout-video">
+						<div class="dropdown-flyout-group-columns dropdown-flyout-group-columns-video clearfix">
+					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+									
+						<div class="float-left border-grey-right dropdown-flyout-inner-column flyout-column-video">
+					
+						<h5 class="red-text">Full Biographies</h5>
+						
+						
+							
+						
+						<a href="/people/kurt-cobain-9542179/videos/kurt-cobain-full-episode-2171433365"><img src="/imported/images/Biography/Images/Video Stills/Video Flyout/People/Small/kurt-cobain-flyout.jpg" class="image-video-small-flyout"/>
+							
+							
+								<strong class=dot>Kurt Cobain</strong></a>
+<!--						-->
+<!--							
+
+
+
+<span class="flyout-column-float-right-comments">
+	<img class="flyout-column-comment-img" src="/assets/images/common/small-comment-bubble.png" />
+	<span class="flyout-column-comments">
+		
+
+
+
+
+
+	
+	
+		
+			
+			
+		<div class="comment-count"><a href="#disqus_thread" class="blue-underline" data-disqus-identifier=""><span>Post a comment</span></a></div>	
+		
+	
+
+
+
+	</span>
+	
+</span>
+-->
+<!--						-->
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/people/chelsea-handler-20680075/videos/chelsea-handler-full-episode-2169884883">Chelsea Handler</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/whitney-houston-9344818/videos/whitney-houston-full-episode-2192386072">Whitney Houston</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/pocahontas-9443116/videos/pocahontas-full-episode-2074727568">Pocahontas</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/abraham-lincoln-9382540/videos/abraham-lincoln-full-episode-2080266133">Abraham Lincoln</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+									
+						<div class="float-left border-grey-right dropdown-flyout-inner-column flyout-column-video">
+					
+						<h5 class="red-text">Music Legends</h5>
+						
+						
+							
+						
+						<a href="/people/debbie-harry-200813/videos/debbie-harry-mini-bio-2079138699"><img src="/imported/images/Biography/Images/Video Stills/Video Flyout/People/Small/debbie-harry-flyout.jpg" class="image-video-small-flyout"/>
+							
+							
+								<strong class=dot>Debbie Harry</strong></a>
+<!--						-->
+<!--							
+
+
+
+<span class="flyout-column-float-right-comments">
+	<img class="flyout-column-comment-img" src="/assets/images/common/small-comment-bubble.png" />
+	<span class="flyout-column-comments">
+		
+
+
+
+
+
+	
+	
+		
+			
+			
+		<div class="comment-count"><a href="#disqus_thread" class="blue-underline" data-disqus-identifier=""><span>Post a comment</span></a></div>	
+		
+	
+
+
+
+	</span>
+	
+</span>
+-->
+<!--						-->
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/people/duke-ellington-9286338/videos/duke-ellington-mini-bio-2078940062">Duke Ellington</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/madonna-9394994/videos/madonna-mini-bio-2079122166">Madonna</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/stevie-wonder-9536078/videos/stevie-wonder-mini-bio-2078968240">Stevie Wonder</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/elvis-presley-9446466/videos/elvis-presley-mini-bio-2078938730">Elvis Presley</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+									
+						<div class="float-left border-grey-right dropdown-flyout-inner-column flyout-column-video">
+					
+						<h5 class="red-text">Famous Athletes</h5>
+						
+						
+							
+						
+						<a href="/people/magic-johnson-9356150/videos/magic-johnson-mini-bio-2192799584"><img src="/imported/images/Biography/Images/Video Stills/Video Flyout/People/Small/magic-johnson-flyout.jpg" class="image-video-small-flyout"/>
+							
+							
+								<strong class=dot>Magic Johnson</strong></a>
+<!--						-->
+<!--							
+
+
+
+<span class="flyout-column-float-right-comments">
+	<img class="flyout-column-comment-img" src="/assets/images/common/small-comment-bubble.png" />
+	<span class="flyout-column-comments">
+		
+
+
+
+
+
+	
+	
+		
+			
+			
+		<div class="comment-count"><a href="#disqus_thread" class="blue-underline" data-disqus-identifier=""><span>Post a comment</span></a></div>	
+		
+	
+
+
+
+	</span>
+	
+</span>
+-->
+<!--						-->
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/people/michael-phelps-345192/videos/michael-phelps-mini-bio-2192812019">Michael Phelps</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/babe-ruth-9468009/videos">Babe Ruth</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/jackie-robinson-9460813/videos/jackie-robinson-mini-bio-2191621562">Jackie Robinson</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/people/althea-gibson-9310580/videos/althea-gibson-mini-bio-2192487634">Althea Gibson</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+									
+						<div class="float-left dropdown-flyout-inner-column flyout-column-video">
+					
+					
+						<h5 class="red-text">Full Episodes</h5>
+						
+						
+							
+						
+						<a href="/tv/i-survived/videos"><img src="/imported/images/Biography/Images/Video Stills/Video Flyout/Shows/Small/i-survived-global-video-small.jpg" class="image-video-small-flyout"/>
+							
+							
+								<strong class=dot>I Survived</strong></a>
+<!--						-->
+<!--							
+
+
+
+<span class="flyout-column-float-right-comments">
+	<img class="flyout-column-comment-img" src="/assets/images/common/small-comment-bubble.png" />
+	<span class="flyout-column-comments">
+		
+
+
+
+
+
+	
+	
+		
+			
+			
+		<div class="comment-count"><a href="#disqus_thread" class="blue-underline" data-disqus-identifier=""><span>Post a comment</span></a></div>	
+		
+	
+
+
+
+	</span>
+	
+</span>
+-->
+<!--						-->
+				
+								
+					
+				
+					
+							
+								<ul>
+								
+									<li><a href="/tv/celebrity-ghost-stories/videos">Celebrity Ghost Stories</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/tv/celebrity-house-hunting/videos">Celebrity House Hunting</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/tv/i-survived-beyond-and-back/videos">I Survived Beyond and Back</a></li>	
+								
+								
+								
+							
+								
+								
+									<li><a href="/tv/my-ghost-story/videos">My Ghost Story</a></li>	
+								
+								
+								</ul>
+							
+						
+					</div>
+				
+				
+				
+				
+				
+				
+					
+					<div class="clearfix"></div>
+					</div>	
+					
+						
+						
+							<p class="left-text bottom-flyout-video-padding">
+								<a href="/videos" class="red-text ">See all videos</a>
+						
+							</p>
+					</div>						
+					
+				
+		
+		
+	
+	
+	</li>
+	
+	<li class="divider">&middot;</li>
+	
+
+	<li class="dropdown-fly">
+	
+		<a href="/photos" class="redhover">PHOTOS</a>
+		
+		
+		
+	
+	
+	</li>
+	
+	<li class="divider">&middot;</li>
+	
+
+	<li class="dropdown-fly">
+	
+		<a href="/bio-now" class="redhover">BIO NOW</a>
+		
+		
+		
+	
+	
+	</li>
+	
+	<li class="divider">&middot;</li>
+	
+
+	<li class="dropdown-fly">
+	
+		<a href="/on-this-day" class="redhover">ON THIS DAY</a>
+		
+		
+		
+	
+	
+	</li>
+	
+	<li class="divider">&middot;</li>
+	
+
+	<li class="dropdown-fly">
+	
+	
+		
+
+
+
+
+
+<a href="http://shop.history.com/?v=biography" class="redhover">SHOP</a>
+<div id="dropdown-flyout-shop" class="dropdown-flyout dropdown-flyout-shop">
+	<div class="dropdown-flyout-group-columns dropdown-flyout-group-columns-shop">
+		<div class="dropdown-flyout-inner-column flyout-column-shop clearfix">
+			
+				<h5>
+					<span>MOST POPULAR</span>
+				</h5>
+				<div class="flyout-shop-product">
+					<ul>
+						
+							<li>
+								<a href="http://shop.history.com/detail.php?p=364892">
+									
+										<img class="shop-image" src="http://shop.history.com/img/product/resized/331/00364892-660331_catl_100.jpg?k=6317fb62&pid=364892&s=catl&sn="/>
+									
+								</a>
+								<h6><span class="bold-text"><a href="http://shop.history.com/detail.php?p=364892">I Survived: Beyond and Back: Tony/ Sharon/ Bob DVD</a></span> DVD</h6>
+								<h6><span class="red-text">$24.95</span></h6>
+								<a href="http://shop.history.com/detail.php?p=364892" class="red-button">Buy Now</a>
+							</li>
+						
+							<li>
+								<a href="http://shop.history.com/detail.php?p=257495">
+									
+										<img class="shop-image" src="http://shop.history.com/img/product/resized/825/00257495-415825_catl_100.jpg?k=86fcf6c4&pid=257495&s=catl&sn="/>
+									
+								</a>
+								<h6><span class="bold-text"><a href="http://shop.history.com/detail.php?p=257495">Celebrity Ghost Stories Carrie Fisher, Rue McClanahan, John Waters, Federico Castelluccio DVD</a></span> DVD</h6>
+								<h6><span class="red-text">$19.99</span></h6>
+								<a href="http://shop.history.com/detail.php?p=257495" class="red-button">Buy Now</a>
+							</li>
+						
+					</ul>
+				</div>
+			
+			<div class="clearfix"></div>
+			
+				<h5>
+					<span>PROMOTIONS</span>
+				</h5>
+				<ul class="shop-promotions">
+					
+						<li><a href="http://shop.history.com/best-sellers/index.php?v=biography&fbst=60&ecid=TV1-AET-2105089&pa=TV1-AET-2105089"><span class="bold-text">Tax Day Sale! Spend $40, Save $10! Use Coupon Code TAXDAY</span></a></li>
+					
+				</ul>
+				<hr/>
+			
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<p class="left-text padding-left-10">
+		<a href="http://shop.history.com/?v=biography" class="red-text">Shop now</a>
+	</p>
+</div>
+	
+	</li>
+	
+
+</ul>
+
+
+			
+
+
+
+
+
+<form id="search-header-search" action="/search-results">
+	
+	
+	<div class = "hdr-search-form-container">
+		<input type="text" id="hdr-search-header-search-text" class="search-header-search-text quick-search" name="searchText" autocomplete="off" placeholder="search" value="">
+		<input type="submit" id="hdr-search-header-search-submit" name="search-header-search-submit" class="search-header-search-submit" value="">
+	</div>
+</form>
+		</div>
+		<div id="header-strip">
+			<div class="master-margin header-strip-text">
+				<div id="dropdown-show-schedule-toggle" class="dropdown-show-schedule-toggle off">SEE WHAT'S ON TONIGHT!</div>
+				
+				<a href="/tv/my-ghost-story" class="show-promo">
+				<img class="small-show-img" src="/imported/images/Biography/Images/Promos/Header Strip/strip-MGS.png"/>
+				<span class="strip-text-wrapper"><span class="current-show-text"><span style="text-transform:capitalize">My Ghost Story SEASON PREMIERE Saturday 9/8c</span><strong></strong></span></span>
+				</a>
+				
+			</div>
+		</div>
+		<div id="header-schedule" class="header-schedule hide">
+
+			<div class="master-margin position-relative">
+				<div id="tonight-on-bio">Tonight on Bio</div>
+				
+
+
+
+
+<ul class="show-schedule-list">
+	
+	
+	<li>
+		<div class="show-schedule-time">
+			<strong>8:00 PM</strong>
+			<p>TV14 V-L </p>
+		</div>
+		<div class="show-schedule-detail">
+		
+		
+			<strong><a href="/tv/outlaw-bikers">Outlaw Bikers:</a> <a href="/tv/outlaw-bikers/episodes/the-devil-you-dont-know">The Devil You Don't Know</a></strong>
+			<p>Making a vow to take down organized crime in Toronto, two RCMP officers chase a minor tip on a known drug dealer, hoping he'll lead them to bigger fish.</p>
+		
+		
+		
+		</div>	
+		<div class="clear-fix"></div>
+	</li>
+	
+	
+	<li>
+		<div class="show-schedule-time">
+			<strong>9:00 PM</strong>
+			<p>TV14 V-L </p>
+		</div>
+		<div class="show-schedule-detail">
+		
+		
+			<strong><a href="/tv/outlaw-bikers">Outlaw Bikers:</a> <a href="/tv/outlaw-bikers/episodes/the-last-spartan">The Last Spartan</a></strong>
+			<p>Winnipeg, the 1970s. A city ruled by rival biker gangs, the Spartans and Los Bravos. The two gangs use brutality and intimidation to wield their power, fighting for control of the city's drug trade.</p>
+		
+		
+		
+		</div>	
+		<div class="clear-fix"></div>
+	</li>
+	
+	
+	<li>
+		<div class="show-schedule-time">
+			<strong>10:00 PM</strong>
+			<p>TV14 V-L </p>
+		</div>
+		<div class="show-schedule-detail">
+		
+		
+			<strong><a href="/tv/outlaw-bikers">Outlaw Bikers:</a> <a href="/tv/outlaw-bikers/episodes/fallen-angels">Fallen Angels</a></strong>
+			<p>Police officer Andy Richards and his partner enter deeper into the dangerous world of the East End Hells Angels than anyone has ever dared to go.</p>
+		
+		
+		
+		</div>	
+		<div class="clear-fix"></div>
+	</li>
+	
+</ul>
+				<div class="time-note">Times shown are ET</div>
+			</div>
+		</div>
+		
+
+
+
+		
+		<div class="master-margin">
+			
+
+
+
+		</div>
+	</div>
+</div>
+<!--/nutch-ignore-->
+
+	    
+
+
+
+
+
+
+
+<div class="header-extension">
+
+	
+	<!-- container to hold shadow image for carousel -->
+	<div class="master-margin"> 
+		<img src = "/assets/images/carousel-side-shadow.png"  id = "carousel-shadow" />
+		
+		<div id="homepage-carousel" class="master-margin clearfix">
+			
+			<!-- id: homepage card 20800503 -->
+			<div class="carousel-pane">
+					<input type="hidden" name="cardSeq" class="cardSeq" value="1" />
+
+				<div class="home-hero-area">
+					<div id="featured-blog-article" class="hero-container">
+						<div class="primary-area card">
+							<div class="pic-container">
+								<div class="title-wrapper"></div>
+								<img src="/imported/images/Biography/Images/Cards/hp-card-branford-marsalis.jpg" alt="Branford Marsalis" title="Branford Marsalis"/> 
+							</div>
+							<div class="info-container">
+								
+								
+									<div class="eyebrow">Group</div>
+									
+										<h1 class="headline"><p style="font-size: 36px; width: 270px; line-height: 34px; padding-top: 10px;"><a style="color:#fff;" href="/people/groups/musicians/saxophonists/">Famous<br />Sax<br />Players</a></p>
+<p style="font-size: 11px; padding-top: 30px; line-height: 16px; width: 300px;"><img src="imported/images/Biography/Images/Cards/groups-icon.png" height="13" width="16" /><a style="color:#000;" href="/people/groups/musicians/saxophonists/">see more saxophonists</a><br /><img src="imported/images/Biography/Images/Cards/profile-icon.png" height="13" width="16" /><a style="color:#000;" href="/people/branford-marsalis-16194687">read Branford Marsalis' bio</a></p></h1>
+									
+									
+									<div class="link-container">
+									
+									</div>
+								
+							</div>
+							
+							<div class="secondary-area">
+								<div class="hero-connections-container">
+									
+									
+										<div class="single-wrapper">
+											<span class="label single"><a href="/people/groups/musicians/saxophonists/">SAXOPHONE PLAYERS</a></span>
+										</div>
+									
+									
+									
+									<ul class="hero-connections">
+										
+										<!-- id: homepage card subitem 20800495 -->
+										<li>
+											
+											
+												<a href="/people/coleman-hawkins-9331743"><img src="/imported/rendition/images/Biography/Images/Profiles/I/Coleman-Hawkins-WC-9331743-1-402_144x144.jpg" alt="Coleman Hawkins" title="Coleman Hawkins" /></a>
+											
+											<a href="/people/coleman-hawkins-9331743" class="dot">Coleman Hawkins</a>
+											<div class="description"><p>helped establish the saxophone as one of the most popular instruments in jazz.</p></div>
+										</li>
+										
+										<!-- id: homepage card subitem 20800497 -->
+										<li>
+											
+											
+												<a href="/people/jimmy-dorsey-9542033"><img src="/imported/rendition/images/Biography/Images/Profiles/D/Jimmy-Dorsey-9542033-1-402_144x144.jpg" alt="Jimmy Dorsey" title="Jimmy Dorsey" /></a>
+											
+											<a href="/people/jimmy-dorsey-9542033" class="dot">Jimmy Dorsey</a>
+											<div class="description"><p>was known for playing the clarinet and alto saxophone in The Dorsey Brothers.</p></div>
+										</li>
+										
+										<!-- id: homepage card subitem 20800499 -->
+										<li>
+											
+											
+												<a href="/people/john-coltrane-9254106"><img src="/imported/rendition/images/Biography/Images/Profiles/C/John-Coltrane-9254106-1-402_144x144.jpg" alt="John Coltrane" title="John Coltrane" /></a>
+											
+											<a href="/people/john-coltrane-9254106" class="dot">John Coltrane</a>
+											<div class="description"><p>was a American jazz saxophonist and is an iconic figure of 20th-century jazz.</p></div>
+										</li>
+										
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="ad-area">
+						<div class="top-area">
+							
+								
+									
+
+
+
+
+
+<div class="square-advertisment-module">
+	<div class="ad" id="ad-box">
+		<div class="ad-container ad-box-container">
+			
+			
+			
+				
+					<iframe id="ad-box-iframe1" width="300" height="250" frameborder="0"
+					marginheight="0" marginwidth="0" scrolling="no"
+					src="/ad/iframetarget.jsp?pos=top&amp;size=300x250&amp;tile=2"></iframe>
+					<div class="ad-label-text">ADVERTISEMENT</div>
+				
+				
+			
+		</div>
+		
+			
+				<script type="text/javascript">
+					document.getElementById('ad-box-iframe1').src = '/ad/iframetarget.jsp?pos=top&size=300x250&tile=' + tileNumberAndDcopt();
+				</script>
+			
+			
+		 
+	</div>
+</div>
+
+	
+								
+								
+								
+							
+							
+						</div>
+						<!-- id: homepage card videofeature 20800501 -->
+						<div class="bottom-area show video">
+							
+							
+								<h3><span>GROUP</span></h3>
+								
+									<a href="/people/groups/famous-jazz-musicians"><img class="video-img" src="/imported/images/Biography/Images/Cards/hp-card-group-charlie-parker.jpg" alt="Charlie Parker" title="Charlie Parker"/></a>
+								
+								<a href="/people/groups/famous-jazz-musicians" class="dot">Famous Jazz Musicians</a>
+								
+								<div class="description"><p style="font-size: 13px; padding-top: 10px;">With its roots in the blues, jazz has been referred to as America's  classical music, which has branched off into a variety of forms. See our  group of jazz stars.</p></div>
+								<div class="link-container">
+									
+								</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- id: homepage card 20800367 -->
+			<div class="carousel-pane">
+					<input type="hidden" name="cardSeq" class="cardSeq" value="2" />
+
+				<div class="home-hero-area">
+					<div id="featured-blog-article" class="hero-container">
+						<div class="primary-area card">
+							<div class="pic-container">
+								<div class="title-wrapper"></div>
+								<img src="/imported/images/Biography/Images/Cards/hp-card-will-smith.jpg" alt="Will Smith" title="Will Smith"/> 
+							</div>
+							<div class="info-container">
+								
+								
+									<div class="eyebrow">Photos</div>
+									
+									
+										<h2 class="headline"><p style="font-size: 34px; width: 240px; line-height: 33px; padding-top: 10px;"><a style="color: #fff;" href="/people/groups/celebrity-golfers/photos">Celebrity<br />Golfers<br /></a></p>
+<p style="font-size: 11px; padding-top: 15px; line-height: 14px; width: 300px;"><img src="imported/images/Biography/Images/Cards/photos-icon.png" height="13" width="16" /><a href="/people/groups/celebrity-golfers/photos">stars who hit the links</a><br /> <img src="imported/images/Biography/Images/Cards/profile-icon.png" height="13" width="16" /><a href="/people/will-smith-9542165">read Will Smith's bio</a></p></h2>
+									
+									<div class="link-container">
+									
+									</div>
+								
+							</div>
+							
+							<div class="secondary-area">
+								<div class="hero-connections-container">
+									
+									
+										<div class="single-wrapper">
+											<span class="label single"><a href="/people/groups/celebrity-golfers">CELEBRITY GOLFERS</a></span>
+										</div>
+									
+									
+									
+									<ul class="hero-connections">
+										
+										<!-- id: homepage card subitem 20800359 -->
+										<li>
+											
+											
+												<a href="/people/mark-wahlberg-9542335"><img src="/imported/rendition/images/Biography/Images/Profiles/W/Mark-Wahlberg-9542335-1-402_144x144.jpg" alt="Mark Wahlberg" title="Mark Wahlberg" /></a>
+											
+											<a href="/people/mark-wahlberg-9542335" class="dot">Mark Wahlberg</a>
+											<div class="description"><p>got his start as rapper Marky Mark and later found success as a model and actor.</p></div>
+										</li>
+										
+										<!-- id: homepage card subitem 20800361 -->
+										<li>
+											
+											
+												<a href="/people/samuel-l-jackson-9542182"><img src="/imported/rendition/images/Biography/Images/Profiles/J/Samuel-L.-Jackson-9542182-1-402_144x144.jpg" alt="Samuel L. Jackson" title="Samuel L. Jackson" /></a>
+											
+											<a href="/people/samuel-l-jackson-9542182" class="dot">Samuel L. Jackson</a>
+											<div class="description"><p>was named the highest-grossing actor of all time in 2011.</p></div>
+										</li>
+										
+										<!-- id: homepage card subitem 20800363 -->
+										<li>
+											
+											
+												<a href="/people/justin-timberlake-201200"><img src="/imported/rendition/images/Biography/Images/Profiles/T/Justin-Timberlake-201200-1-402_144x144.jpg" alt="Justin Timberlake" title="Justin Timberlake" /></a>
+											
+											<a href="/people/justin-timberlake-201200" class="dot">Justin Timberlake</a>
+											<div class="description"><p>made it big with boy band 'N Sync before becoming a solo singer and actor.</p></div>
+										</li>
+										
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="ad-area">
+						<div class="top-area">
+							
+								
+								
+								
+									
+
+
+
+
+
+<div class="square-advertisment-module">
+	<div class="ad" id="ad-box">
+		<div class="ad-container ad-box-container">
+			
+			
+			
+				
+					<iframe id="ad-box-iframe2" width="300" height="250" frameborder="0"
+					marginheight="0" marginwidth="0" scrolling="no"
+					src="/ad/iframetarget.jsp?pos=top&amp;size=300x250&amp;tile=2"></iframe>
+					<div class="ad-label-text">ADVERTISEMENT</div>
+				
+				
+			
+		</div>
+		
+			
+				<script type="text/javascript">
+					document.getElementById('ad-box-iframe2').src = '/ad/iframetarget.jsp?pos=mid1&size=300x250&tile=' + tileNumberAndDcopt();
+				</script>
+			
+			
+		 
+	</div>
+</div>
+
+
+								
+							
+							
+						</div>
+						<!-- id: homepage card videofeature 20800365 -->
+						<div class="bottom-area show video">
+							
+							
+								<h3><span>WATCH VIDEO</span></h3>
+								
+									<a href="/people/george-clooney-9251385/videos/george-clooney-full-episode-2074651179"><img class="video-img" src="/imported/images/Biography/Images/Cards/hp-card-video-george-clooney.jpg" alt="George Clooney" title="George Clooney"/></a>
+								
+								<a href="/people/george-clooney-9251385/videos/george-clooney-full-episode-2074651179" class="dot">George Clooney - Full Episode</a>
+								
+								<div class="description"><p style="font-size: 13px; padding-top: 10px;"><i><i>People</i>'s</i> sexiest man alive is an Oscar-winning actor best known for playing Dr. Doug Ross on TV's <i><i>ER</i></i> and Danny Ocean in the <i><i>Ocean's Eleven</i></i> films.</p></div>
+								<div class="link-container">
+									
+								</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- id: homepage card 20801657 -->
+			<div class="carousel-pane">
+					<input type="hidden" name="cardSeq" class="cardSeq" value="3" />
+
+				<div class="home-hero-area">
+					<div id="featured-blog-article" class="hero-container">
+						<div class="primary-area card">
+							<div class="pic-container">
+								<div class="title-wrapper"></div>
+								<img src="/imported/images/Biography/Images/Cards/lists/HP-lists-slides-blue.jpg" alt="Who would you pick for your carpool?" title="Who would you pick for your carpool?"/> 
+							</div>
+							<div class="info-container">
+								
+								
+									<div class="eyebrow">Short List</div>
+									
+									
+										<h2 class="headline"><p style="font-size: 36px; width: 370px; line-height: 35px; padding-top: 10px;"><a href="/people/short-list/who-would-you-pick-for-your-carpool">Who would you pick for your carpool?</a></p>
+<p style="font-size: 12px; padding-top: 20px;"><a href="/people/short-list/who-would-you-pick-for-your-carpool"><img src="imported/images/Biography/Images/Cards/SL-bt.png" height="37" width="106" /></a></p></h2>
+									
+									<div class="link-container">
+									
+									</div>
+								
+							</div>
+							
+							<div class="secondary-area">
+								<div class="hero-connections-container">
+									
+									
+										<div class="single-wrapper">
+											<span class="label single"><a href="/people/short-list/who-would-you-pick-for-your-carpool">STAFF PICKS</a></span>
+										</div>
+									
+									
+									
+									<ul class="hero-connections">
+										
+										<!-- id: homepage card subitem 20801649 -->
+										<li>
+											
+											
+												<a href="/people/robert-downey-jr-9542052"><img src="/imported/rendition/images/Biography/Images/Profiles/D/Robert-Downey-Jr-9542052-1-402_144x144.jpg" alt="Robert Downey Jr." title="Robert Downey Jr." /></a>
+											
+											<a href="/people/robert-downey-jr-9542052" class="dot">Robert Downey Jr.</a>
+											<div class="description"><p>is known for his roles in a wide variety of films, including <i>Iron Man, Chaplin, Soapdish,</i> and <i>Wonder Boys.</i></p></div>
+										</li>
+										
+										<!-- id: homepage card subitem 20801651 -->
+										<li>
+											
+											
+												<a href="/people/steve-mcqueen-9394602"><img src="/imported/rendition/images/Biography/Images/Profiles/M/Steve-Mcqueen-9394602-1-402_144x144.jpg" alt="Steve McQueen" title="Steve McQueen" /></a>
+											
+											<a href="/people/steve-mcqueen-9394602" class="dot">Steve McQueen</a>
+											<div class="description"><p>One of the most popular actors of the 1960s and 70s, Steve McQueen had a cool, tough guy persona.</p></div>
+										</li>
+										
+										<!-- id: homepage card subitem 20801653 -->
+										<li>
+											
+											
+												<a href="/people/john-belushi-9206502"><img src="/imported/rendition/images/Biography/Images/Profiles/B/John-Belushi-9206502-1-402_144x144.jpg" alt="John Belushi" title="John Belushi" /></a>
+											
+											<a href="/people/john-belushi-9206502" class="dot">John Belushi</a>
+											<div class="description"><p>was an actor and comedian, one of the first performers on "Saturday Night Live" and one half of the Blues Brothers.</p></div>
+										</li>
+										
+									</ul>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="ad-area">
+						<div class="top-area">
+							
+								
+								
+									
+
+
+
+
+
+<div class="square-advertisment-module">
+	<div class="ad" id="ad-box">
+		<div class="ad-container ad-box-container">
+			
+			
+			
+				
+					<iframe id="ad-box-iframe3" width="300" height="250" frameborder="0"
+					marginheight="0" marginwidth="0" scrolling="no"
+					src="/ad/iframetarget.jsp?pos=top&amp;size=300x250&amp;tile=2"></iframe>
+					<div class="ad-label-text">ADVERTISEMENT</div>
+				
+				
+			
+		</div>
+		
+			
+				<script type="text/javascript">
+					document.getElementById('ad-box-iframe3').src = '/ad/iframetarget.jsp?pos=bottom&size=300x250&tile=' + tileNumberAndDcopt();
+				</script>
+			
+			
+		 
+	</div>
+</div>
+
+
+								
+								
+							
+							
+						</div>
+						<!-- id: homepage card videofeature 20801655 -->
+						<div class="bottom-area show video">
+							
+							
+								<h3><span>WATCH VIDEO</span></h3>
+								
+									<a href="/people/cyndi-lauper-17169536/videos/cyndi-lauper-mini-bio-2079136800"><img class="video-img" src="/imported/images/Biography/Images/Cards/hp-card-video-cyndi-lauper.jpg" alt="Cyndi Lauper" title="Cyndi Lauper"/></a>
+								
+								<a href="/people/cyndi-lauper-17169536/videos/cyndi-lauper-mini-bio-2079136800" class="dot">Cyndi Lauper - Mini Bio</a>
+								
+								<div class="description"><p>Cyndi Lauper forged her own path with her unique sound and one-of-a-kind  look. Her video for &ldquo;Girls Just Wanna have Fun&rdquo; became a pop anthem,  and made her a staple of the MTV generation.</p></div>
+								<div class="link-container">
+									
+								</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+		</div> <!--  end carousel -->
+	</div> <!--  end carousel container -->
+</div>
+<div class="master-margin clearfix" id="content-body">
+	<div class="home left-column">
+		
+		<div class="header">
+			<a href="/bio-now"><h2><img alt="Bio.Now" src="/assets/images/common/bio-now-logo.png" width = "82" alt = "bio now"></h2></a>
+		</div>
+		
+			<!-- id: news 20803621 -->
+			
+
+
+
+
+
+
+
+
+
+<div class="news-post-preview">
+	
+		
+			<a href="/bio-now/anne-frank-her-diary-reconsidered-20803621"><img class="main" src="/imported/images/Biography/Images/Bio-now/Landing Page Images/04-2012/bio-now-anne-frank-landing.jpg" alt="" /></a>
+			<div class="lead-in">
+		<h3 class="post-title"><a href="/bio-now/anne-frank-her-diary-reconsidered-20803621">Anne Frank: Her Diary Reconsidered</a></h3>
+		<span class="date-stamp">April 17, 2012</span>
+		by <a href="/bio-now/author/kim-gilmore-20748399"><span class="by-line">Kim Gilmore</span></a>
+		
+			<div class="bio-now-content"> 
+ <p>Readers throughout the world have learned about the horrors of the Holocaust by reading <i>The Diary of a Young Girl</i> by <a href="/people/anne-frank-9300892">Anne Frank</a>. Written in a personal style, almost... <a class="read-more" href="/bio-now/anne-frank-her-diary-reconsidered-20803621">read more</a></p>
+</div>
+		
+	</div>
+		
+		
+	
+</div>
+
+		
+			<!-- id: news 20800341 -->
+			
+
+
+
+
+
+
+
+
+
+<div class="news-post-preview">
+	
+		
+		
+			<div class="float-left"><a href="/bio-now/photo-of-the-week-creatures-great-and-small-20800341"><img class="small" src="/imported/images/Biography/Images/Bio-now/Landing Page Images/04-2012/POTW-041612-mccartneys-LP.jpg" alt="McCartneys" /></a></div>
+			<div class="float-right"><div class="lead-in">
+		<h3 class="post-title"><a href="/bio-now/photo-of-the-week-creatures-great-and-small-20800341">Photo of the Week: Creatures Great and Small</a></h3>
+		<span class="date-stamp">April 16, 2012</span>
+		by <a href="/bio-now/author/julien-mcnab-20717721"><span class="by-line">Julien McNab</span></a>
+		
+	</div></div>
+		
+	
+</div>
+
+		
+			<!-- id: news 20800319 -->
+			
+
+
+
+
+
+
+
+
+
+<div class="news-post-preview">
+	
+		
+		
+			<div class="float-left"><a href="/bio-now/works-of-art-inspired-by-the-titanic-20800319"><img class="small" src="/imported/images/Biography/Images/Bio-now/Landing Page Images/04-2012/kate winslet-landing.jpg" alt="Kate Winslet Titanic" /></a></div>
+			<div class="float-right"><div class="lead-in">
+		<h3 class="post-title"><a href="/bio-now/works-of-art-inspired-by-the-titanic-20800319">Works of Art Inspired by the Titanic</a></h3>
+		<span class="date-stamp">April 13, 2012</span>
+		by <a href="/bio-now/author/eudie-pak-20800313"><span class="by-line">Eudie Pak</span></a>
+		
+	</div></div>
+		
+	
+</div>
+
+		
+			<!-- id: news 20799875 -->
+			
+
+
+
+
+
+
+
+
+
+<div class="news-post-preview">
+	
+		
+		
+			<div class="float-left"><a href="/bio-now/lookalike-of-the-week-i-am-your-father-20799875"><img class="small" src="/imported/images/Biography/Images/Bio-now/Landing Page Images/04-2012/LOTW-042012-jones.jpg" alt="" /></a></div>
+			<div class="float-right"><div class="lead-in">
+		<h3 class="post-title"><a href="/bio-now/lookalike-of-the-week-i-am-your-father-20799875">Lookalike of the Week: I Am Your Father</a></h3>
+		<span class="date-stamp">April 12, 2012</span>
+		by <a href="/bio-now/author/kayla-arias-20720081"><span class="by-line">Kayla Arias</span></a>
+		
+	</div></div>
+		
+	
+</div>
+
+		
+			<!-- id: news 20795891 -->
+			
+
+
+
+
+
+
+
+
+
+<div class="news-post-preview">
+	
+		
+		
+			<div class="float-left"><a href="/bio-now/magic-johnson-and-larry-birds-rivalry-20795891"><img class="small" src="/imported/images/Biography/Images/Bio-now/Landing Page Images/04-2012/magic-bird-landing.jpg" alt="" /></a></div>
+			<div class="float-right"><div class="lead-in">
+		<h3 class="post-title"><a href="/bio-now/magic-johnson-and-larry-birds-rivalry-20795891">Magic Johnson and Larry Bird's Rivalry</a></h3>
+		<span class="date-stamp">April 12, 2012</span>
+		by <a href="/bio-now/author/josh-mapes-20717887"><span class="by-line">Josh Mapes</span></a>
+		
+	</div></div>
+		
+	
+</div>
+
+		
+		<br />
+		<a href = "/bio-now" class = "red">Read more BIO Now posts</a>
+		
+		<div id="left-col-module-wrapper">
+			
+			
+			
+		</div>
+	</div>
+	<div class="home center-column">
+		
+			<!-- id: homepage on this day 20480543 -->
+			
+
+
+
+
+
+
+
+
+
+
+<!-- DIsplay Type: [0] -->
+<div class="on-this-day module">
+	
+		
+			<div class="born on-this-day-container white">
+				<div class="header">
+					<a href="/on-this-day"><h2><span class="bold">On This Day - </span><span>April 17</span></h2></a>
+				</div>
+				<div class="born">
+					<h3><span>Born On This Day</span></h3>
+					<div class="info-container">
+						<p class="dot"><a href="/people/victoria-beckham-485406">Victoria Beckham</a></p>
+						<div class="date">
+							<strong>Born:</strong> 1974
+							
+								| 38 years old
+							
+						</div>
+						<div class="body-text"><p>Victoria Beckham is a fashion designer and singer chiefly known for her work with the Spice Girls and for being the wife of soccer star David Beckham.</p></div>
+						<a class="red-underline" href="/people/victoria-beckham-485406"><span>read more</span></a>
+						<div class="show-more"><a href="/on-this-day"><span id="more-on-this-day-button" class="red-button">More On This Day</span></a></div>
+					</div>
+					<div class="pic-container"> <img class="main" src="/imported/images/Biography/Images/OTD/april/0417-BOTD-Victoria-Beckham.jpg" alt="" /> </div>
+					
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+	
+	
+		
+	
+	
+	<div class="universal-rollover rollover-with-image clearfix profile-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<img src="/imported/rendition/images/Biography/Images/Profiles/B/Victoria-Beckham-485406-1-402_144x144.jpg"/>
+				
+				<ul>
+					
+						<li class="bold">In these groups:</li>
+						
+							
+								
+									<li><a href="/people/groups/celebrity-couples">Celebrity Couples</a></li>
+								
+								
+							
+						
+							
+								
+									<li><a href="/people/groups/aries/">Famous Arians</a></li>
+								
+								
+							
+						
+							
+								
+								
+									<li>
+										<a href="/people/groups/models/">Famous Models</a>
+									</li>
+								
+							
+						
+							
+								
+								
+							
+						
+					
+				</ul>
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/victoria-beckham-485406">Victoria Beckham</a></h3>
+				<h4>
+				
+					Entrepreneur, Fashion Designer, Model, Singer / 1974 - 
+				
+				</h4>
+				<div class="description">
+				
+					<p>Victoria Beckham is a fashion designer and singer chiefly known for her work with the Spice Girls and for being the wife of soccer star David Beckham.</p>
+				
+				</div>
+				<p class="links">
+					
+						<a href="/people/victoria-beckham-485406" class="red small-person-icon">See full bio</a>
+					
+					
+						| <a href="/people/victoria-beckham-485406/videos/the-spice-girls-mini-bio-2079146064" class="red small-camera-icon">Watch video</a>
+					
+				</p>
+				
+				
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+				</div>
+			</div>
+		
+		
+		
+		
+		
+	
+</div>
+
+
+		
+		
+
+
+
+
+
+	<div class="hide">
+		
+		
+	</div>
+
+	<div class="on-this-day module" id="born-on-this-day-module">
+		<div id="otd-profile-lists" style="display:none;">
+			
+			<div id="otd-profiles">
+				
+					<div class="user-profile-header">
+						<div class="user-profile-image"><a href="/people/taksin-37287"><img src="/assets/images/no-image.jpg" alt="Taksin" title="Taksin"></a></div>
+						
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+		
+	
+	
+	<div class="profile-rollover rollover-with-image clearfix profile-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<img src="/assets/images/no-image.jpg"/>
+				
+				<ul>
+					
+						<li class="bold">In these groups:</li>
+						
+							
+								
+									<li><a href="/people/groups/aries/">Famous Arians</a></li>
+								
+								
+							
+						
+							
+								
+									<li><a href="/people/groups/royalty/kings-and-queens/male/">Famous Kings</a></li>
+								
+								
+							
+						
+							
+								
+								
+									<li>
+										<a href="/people/groups/military-leaders/">Famous Military Leaders</a>
+									</li>
+								
+							
+						
+							
+								
+								
+							
+						
+					
+				</ul>
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/taksin-37287">Taksin</a></h3>
+				<h4>
+				
+					Military Leader, King / 1734 - 1782
+				
+				</h4>
+				<div class="description">
+				
+					Taksin was a Thai general, conqueror, and later a king. He brilliantly reunited Thailand through military means, but was ineffectual as a politician. <br>
+				
+				</div>
+				<p class="links">
+					
+						<a href="/people/taksin-37287" class="red small-person-icon">See full bio</a>
+					
+					
+				</p>
+				
+				
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+					</div>
+				
+					<div class="user-profile-header">
+						<div class="user-profile-image"><a href="/people/georges-jf-k%C3%B6hler-38049"><img src="/imported/rendition/images/Biography/Images/Profiles/K/Georges-J.F.-Kohler-38049-1-402_144x144.jpg" alt="Georges J.F. Köhler" title="Georges J.F. Köhler"></a></div>
+						
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+		
+	
+	
+	<div class="profile-rollover rollover-with-image clearfix profile-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<img src="/imported/rendition/images/Biography/Images/Profiles/K/Georges-J.F.-Kohler-38049-1-402_144x144.jpg"/>
+				
+				<ul>
+					
+						<li class="bold">In these groups:</li>
+						
+							
+								
+									<li><a href="/people/groups/aries/">Famous Arians</a></li>
+								
+								
+							
+						
+							
+								
+									<li><a href="/people/groups/scientists/physiologists/">Famous Physiologists</a></li>
+								
+								
+							
+						
+							
+								
+								
+									<li>
+										<a href="/people/groups/famous-named-georges/">Famous People Named Georges</a>
+									</li>
+								
+							
+						
+							
+								
+								
+							
+						
+					
+				</ul>
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/georges-jf-k%C3%B6hler-38049">Georges J.F. Köhler</a></h3>
+				<h4>
+				
+					Physiologist / 1946 - 1995
+				
+				</h4>
+				<div class="description">
+				
+					Georges Kohler, a German immunologist that won a Nobel Prize, with two other scientists, for his work on a technique to produce monoclonal antibodies. <br>
+				
+				</div>
+				<p class="links">
+					
+						<a href="/people/georges-jf-k%C3%B6hler-38049" class="red small-person-icon">See full bio</a>
+					
+					
+				</p>
+				
+				
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+					</div>
+				
+					<div class="user-profile-header">
+						<div class="user-profile-image"><a href="/people/sirimavo-rd-bandaranaike-39086"><img src="/imported/rendition/images/Biography/Images/Profiles/B/Sirimavo-R-D-Bandaranaike-39086-1-402_144x144.jpg" alt="Sirimavo R.D. Bandaranaike" title="Sirimavo R.D. Bandaranaike"></a></div>
+						
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+		
+	
+	
+	<div class="profile-rollover rollover-with-image clearfix profile-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<img src="/imported/rendition/images/Biography/Images/Profiles/B/Sirimavo-R-D-Bandaranaike-39086-1-402_144x144.jpg"/>
+				
+				<ul>
+					
+						<li class="bold">In these groups:</li>
+						
+							
+								
+									<li><a href="/people/groups/famous-female-leaders">Notable Female Leaders</a></li>
+								
+								
+							
+						
+							
+								
+									<li><a href="/people/groups/aries/">Famous Arians</a></li>
+								
+								
+							
+						
+							
+								
+								
+									<li>
+										<a href="/people/groups/political-leaders/prime-ministers/">Famous Prime Ministers</a>
+									</li>
+								
+							
+						
+							
+								
+								
+							
+						
+					
+				</ul>
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/sirimavo-rd-bandaranaike-39086">Sirimavo R.D. Bandaranaike</a></h3>
+				<h4>
+				
+					Prime Minister / 1916 - 2000
+				
+				</h4>
+				<div class="description">
+				
+					Sirimavo Bandaranaike became the world's first woman prime minister in 1960 when she was elected the leader of the Sri Lanka Freedom Party. 
+				
+				</div>
+				<p class="links">
+					
+						<a href="/people/sirimavo-rd-bandaranaike-39086" class="red small-person-icon">See full bio</a>
+					
+					
+				</p>
+				
+				
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+					</div>
+				
+					<div class="user-profile-header">
+						<div class="user-profile-image"><a href="/people/victoria-beckham-485406"><img src="/imported/rendition/images/Biography/Images/Profiles/B/Victoria-Beckham-485406-1-402_144x144.jpg" alt="Victoria Beckham" title="Victoria Beckham"></a></div>
+						
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+		
+	
+	
+	<div class="profile-rollover rollover-with-image clearfix profile-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<img src="/imported/rendition/images/Biography/Images/Profiles/B/Victoria-Beckham-485406-1-402_144x144.jpg"/>
+				
+				<ul>
+					
+						<li class="bold">In these groups:</li>
+						
+							
+								
+									<li><a href="/people/groups/celebrity-couples">Celebrity Couples</a></li>
+								
+								
+							
+						
+							
+								
+									<li><a href="/people/groups/aries/">Famous Arians</a></li>
+								
+								
+							
+						
+							
+								
+								
+									<li>
+										<a href="/people/groups/models/">Famous Models</a>
+									</li>
+								
+							
+						
+							
+								
+								
+							
+						
+					
+				</ul>
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/victoria-beckham-485406">Victoria Beckham</a></h3>
+				<h4>
+				
+					Entrepreneur, Fashion Designer, Model, Singer / 1974 - 
+				
+				</h4>
+				<div class="description">
+				
+					<p>Victoria Beckham is a fashion designer and singer chiefly known for her work with the Spice Girls and for being the wife of soccer star David Beckham.</p>
+				
+				</div>
+				<p class="links">
+					
+						<a href="/people/victoria-beckham-485406" class="red small-person-icon">See full bio</a>
+					
+					
+						| <a href="/people/victoria-beckham-485406/videos/the-spice-girls-mini-bio-2079146064" class="red small-camera-icon">Watch video</a>
+					
+				</p>
+				
+				
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+					</div>
+				
+					<div class="user-profile-header">
+						<div class="user-profile-image"><a href="/people/archibald-alexander-9180248"><img src="/imported/rendition/images/Biography/Images/Profiles/A/Archibald-Alexander-9180248-1-402_144x144.jpg" alt="Archibald Alexander" title="Archibald Alexander"></a></div>
+						
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+		
+	
+	
+	<div class="profile-rollover rollover-with-image clearfix profile-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<img src="/imported/rendition/images/Biography/Images/Profiles/A/Archibald-Alexander-9180248-1-402_144x144.jpg"/>
+				
+				<ul>
+					
+						<li class="bold">In these groups:</li>
+						
+							
+								
+									<li><a href="/people/groups/aries/">Famous Arians</a></li>
+								
+								
+							
+						
+							
+								
+									<li><a href="/people/groups/religious-leaders/ministers/">Famous Ministers</a></li>
+								
+								
+							
+						
+							
+								
+								
+									<li>
+										<a href="/people/groups/famous-named-alexander/">Famous People Named Alexander</a>
+									</li>
+								
+							
+						
+							
+								
+								
+							
+						
+					
+				</ul>
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/archibald-alexander-9180248">Archibald Alexander</a></h3>
+				<h4>
+				
+					Minister, Theologian, Journalist / 1772 - 1851
+				
+				</h4>
+				<div class="description">
+				
+					Archibald Alexander was a Protestant clergyman and educator whose teachings, reviews and sermons gave him wide influence during his day. <br>
+				
+				</div>
+				<p class="links">
+					
+						<a href="/people/archibald-alexander-9180248" class="red small-person-icon">See full bio</a>
+					
+					
+				</p>
+				
+				
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+					</div>
+				
+					<div class="user-profile-header">
+						<div class="user-profile-image"><a href="/people/samuel-chase-9245493"><img src="/imported/rendition/images/Biography/Images/Profiles/C/Samuel-Chase-9245493-1-402_144x144.jpg" alt="Samuel Chase" title="Samuel Chase"></a></div>
+						
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+		
+	
+	
+	<div class="profile-rollover rollover-with-image clearfix profile-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<img src="/imported/rendition/images/Biography/Images/Profiles/C/Samuel-Chase-9245493-1-402_144x144.jpg"/>
+				
+				<ul>
+					
+						<li class="bold">In these groups:</li>
+						
+							
+								
+									<li><a href="/people/groups/aries/">Famous Arians</a></li>
+								
+								
+							
+						
+							
+								
+									<li><a href="/people/groups/famous-named-samuel/">Famous People Named Samuel</a></li>
+								
+								
+							
+						
+							
+								
+								
+									<li>
+										<a href="/people/groups/political-leaders/us-representatives/">Famous Congressional Representatives</a>
+									</li>
+								
+							
+						
+							
+								
+								
+							
+						
+					
+				</ul>
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/samuel-chase-9245493">Samuel Chase</a></h3>
+				<h4>
+				
+					U.S. Representative, Government Official / 1741 - 1811
+				
+				</h4>
+				<div class="description">
+				
+					<p>Samuel Chase was a Justice of the U.S. Supreme Court. He was acquitted in an impeachment trial for allegedly letting his partisan beliefs affect his decisions.</p>
+				
+				</div>
+				<p class="links">
+					
+						<a href="/people/samuel-chase-9245493" class="red small-person-icon">See full bio</a>
+					
+					
+				</p>
+				
+				
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+					</div>
+				
+			</div>
+			<div id="temp-fb-user-bornonthisday" class="facebook-user on-this-day">
+				<img class="facebook-image" src="/assets/images/common/blank-fb-user.gif">
+				<img class="facebook-icon" src="/assets/images/common/facebook_favicon.png">
+			</div>
+		</div>
+		<div class="on-this-day-profiles clearfix">
+			<h3><span>Born On This Day</span></h3>
+			<div id="on-this-day-birthday-container">
+				
+			</div>
+			<div class="show-more" id = "more-birthdays"><a href="/people/groups/born-on-april-17/">See more born today</a></div>
+			<p id = "not-logged-in-txt" class = "description">Connect to Facebook to see which of your friends share a birthday with your favorite bio personalities.<p>
+			<div class="email-link-container"><a href="http://www.biography.com/emails" class="red-underline email"><span>Get On This Day daily email updates</span></a></div>
+			<div id = "fb-connect-home-on-day-button" class="fb-connect-home-on-day-button"><a href="#fb-connect-header"><img class="fb-connect-header" src="/assets/images/facebook-sign-in.png"></a></div>
+		</div>
+	</div>
+
+
+		<div class="shortlists module">
+			<h3><span>Short List</span></h3>
+			<ol class="shortlist clearfix">
+				
+				<!-- id: short list 20759799 -->
+				<li class="top left">
+					<div class="float-left"><span>1</span></div>
+					<div class="float-right">
+						<p class="headline"><a href="/people/short-list/who-would-you-want-in-your-spring-break-house">Who would you want in your spring break house? </a></p>
+						
+						<p class="votes">
+							<span>3044</span>
+							
+								votes so far
+							
+						</p>
+					</div>
+				</li>
+				
+				<!-- id: short list 20681007 -->
+				<li class="top">
+					<div class="float-left"><span>2</span></div>
+					<div class="float-right">
+						<p class="headline"><a href="/people/short-list/which-celebrity-would-you-elect-to-be-the-next-us-president">Which celebrity would you elect to be the next U.S. President? </a></p>
+						
+						<p class="votes">
+							<span>27059</span>
+							
+								votes so far
+							
+						</p>
+					</div>
+				</li>
+				
+				<!-- id: short list 20734327 -->
+				<li class="left">
+					<div class="float-left"><span>3</span></div>
+					<div class="float-right">
+						<p class="headline"><a href="/people/short-list/which-rock-star-would-make-a-good-us-supreme-court-justice">Which rock star would make a good U.S. Supreme Court justice? </a></p>
+						
+						<p class="votes">
+							<span>18813</span>
+							
+								votes so far
+							
+						</p>
+					</div>
+				</li>
+				
+				<!-- id: short list 20715913 -->
+				<li class="">
+					<div class="float-left"><span>4</span></div>
+					<div class="float-right">
+						<p class="headline"><a href="/people/short-list/who-would-you-want-to-be-your-celebrity-workout-buddy">Who would want to be your celebrity workout buddy?</a></p>
+						
+						<p class="votes">
+							<span>4834</span>
+							
+								votes so far
+							
+						</p>
+					</div>
+				</li>
+				
+			</ol>
+			
+			<a class="red view-all" href="/people/short-list/">See more Short Lists</a>
+		</div>
+	</div>
+	<div class="home right-column"> 		
+	
+		<!-- Right Rail: Start -->
+		
+
+
+
+
+
+
+
+
+
+
+
+<!--nutch-ignore--> 
+
+<!-- Right Rail: Start -->
+
+
+
+	
+	
+	
+		
+			
+
+
+
+
+
+
+		
+			
+			
+				
+			
+			
+			
+			
+			
+			
+				
+			
+
+			
+			
+			
+			
+			
+			
+			
+						
+			
+			
+		
+			
+			
+			
+				
+
+
+
+
+	<!-- Facebook Scripts -->
+	<script type="text/javascript" src="/assets/scripts/modules/facebook-connections.js"></script>
+
+<!------- BEGIN: Your Connections Module ------->
+
+	
+		
+		
+	
+		
+
+
+	
+		
+		
+	
+		
+
+
+<div class="hide">
+	
+	<span id="mainProfileIds">37287,38049,39086,485406,9180248,9245493</span>
+	
+	
+	
+	<span id="relatedProfileIds">9331710,9504796,9354805</span>
+	
+</div>
+<div class="hide">
+
+	
+		
+		<span id="mainProfile">
+			profile id: 37287 <br/>
+			profile name: Taksin</br>
+			profile occupation: Military Leader, King<br/>	
+		</span>
+		
+		<span id="mainProfile">
+			profile id: 38049 <br/>
+			profile name: Georges J.F. Köhler</br>
+			profile occupation: Physiologist<br/>	
+		</span>
+		
+		<span id="mainProfile">
+			profile id: 39086 <br/>
+			profile name: Sirimavo R.D. Bandaranaike</br>
+			profile occupation: Prime Minister<br/>	
+		</span>
+		
+		<span id="mainProfile">
+			profile id: 485406 <br/>
+			profile name: Victoria Beckham</br>
+			profile occupation: Entrepreneur, Fashion Designer, Model, Singer<br/>	
+		</span>
+		
+		<span id="mainProfile">
+			profile id: 9180248 <br/>
+			profile name: Archibald Alexander</br>
+			profile occupation: Minister, Theologian, Journalist<br/>	
+		</span>
+		
+		<span id="mainProfile">
+			profile id: 9245493 <br/>
+			profile name: Samuel Chase</br>
+			profile occupation: U.S. Representative, Government Official<br/>	
+		</span>
+		
+	
+
+	
+	
+	
+		
+		<span id="relatedProfile">
+			related profile id: 9331710<br/>
+			related profile name: Stephen Hawking<br/>
+			related profile occupation: <br/>
+			related profile img: /imported/images/Biography/Images/Profiles/H/Stephen-Hawking-9331710-1-402.jpg<br/>
+			related profile URL: /people/stephen-hawking-9331710<br/>
+		</span>
+		
+		<span id="relatedProfile">
+			related profile id: 9504796<br/>
+			related profile name: Margaret Thatcher<br/>
+			related profile occupation: <br/>
+			related profile img: /imported/images/Biography/Images/Profiles/T/Margaret-Thatcher-9504796-2-402.jpg<br/>
+			related profile URL: /people/margaret-thatcher-9504796<br/>
+		</span>
+		
+		<span id="relatedProfile">
+			related profile id: 9354805<br/>
+			related profile name: Steve Jobs<br/>
+			related profile occupation: <br/>
+			related profile img: /imported/images/Biography/Images/Profiles/J/Steven-Jobs-9354805-2-402.jpg<br/>
+			related profile URL: /people/steve-jobs-9354805<br/>
+		</span>
+		
+		
+	
+</div>
+<div class="hide">
+
+		
+		
+	
+	
+		<span id="displayPageType">homepage</span>	
+	
+	<div id="loggedinuser-sso-link">http://ssos.biography.com</div>
+</div>
+
+
+
+	<script>
+		
+		var limitFriendCount = 5;
+		var returnedFriendConnectiondataForSidebar,returnedSingleConnectiondataForSidebar;
+	
+		function getMyConnectionHTMLDisplay(data){
+			myRealConnectionsData = data;
+			
+			myConnectionHTML='';
+			
+			if(myRealConnectionsData[0].BioConnections){
+				//for(x=0; x < 3; x++){
+				if($('#displayPageType').html()=="homepage"){
+					hide = false;
+					myConnectionHTML += getConnectionListHTML(myRealConnectionsData[0],myRealConnectionsData[0].BioConnections[0],"home",hide,0,'my');
+					$('#your-connections-more-connections-button').html("FIND OUT MORE");
+				}
+				else{
+					for(x=0; x < myRealConnectionsData[0].BioConnections.length; x++){
+						if($('#displayPageType').html()=="other" || $('#displayPageType').html()=="homepage"){
+							hide = (x > 2) ? true : false;
+							myConnectionHTML += getConnectionListHTML(myRealConnectionsData[0],myRealConnectionsData[0].BioConnections[x],"other",hide,x,'my');
+						}
+						else if($('#displayPageType').html()=="group"){
+							hide = (x > 2) ? true : false;
+							myConnectionHTML += getConnectionListHTML(myRealConnectionsData[0],myRealConnectionsData[0].BioConnections[x],"group",hide,x,'my');
+						}
+						else{
+							hide = (x > 2) ? true : false;
+							myConnectionHTML += getConnectionListHTML(myRealConnectionsData[0],myRealConnectionsData[0].BioConnections[x],"profile",hide,x,'my');
+						}
+					}
+					if(myRealConnectionsData[0].BioConnections.length<3){
+						$('#your-connections-more-connections-button').hide();
+					}
+					else{
+						//$('#your-connections-more-connections-button').html("Show More Connections ("+(myRealConnectionsData[0].BioConnections.length-3)+")");
+						$('#your-connections-more-connections-button').html("See more bio connections");
+					}
+				}
+				
+			}
+			else{
+				if($('#displayPageType').html()=="homepage"){
+					$('.logged-in-list-container .show-more').hide();
+					myConnectionHTML +='<div id="your-connections-module" style="padding-top:10px" class="module"><h5><span>Your Connections</span></h5>'+showPageSpecificTypeEmptyText($('#displayPageType').html(),'You have no connections!',false)+'</div>';
+				}
+				else{
+					myConnectionHTML += showPageSpecificTypeEmptyText($('#displayPageType').html(),'You have no connections!',false);
+				}
+				$('#your-connections-more-connections-button').hide();
+				$('#specific-profile-connection').hide();
+			}
+	
+			
+			nameArray = myRealConnectionsData[0].facebookProfileName.split(" ");
+			$("#facebook-user-name").html(nameArray[0]);
+			$("#top-facebook-image").attr("src",myRealConnectionsData[0].facebookProfileImage);
+			$('.loading-list-container').hide();
+			$('.logged-in-list-container.logged-in').show();
+			$('.logged-in-list-container.my').show();
+			$("#my-connections-list").html(myConnectionHTML);
+			
+			//initialize logout button
+			$(".small-login-link-html.logout").click(function(e){
+				e.preventDefault();
+				var params = {
+					callback: socialze_logout_callback
+				}
+				aetn.socialize.logout(params);
+			});
+		}
+		
+		function getFriendConnectionHTMLDisplay(data){
+			FriendDataReturn = data;
+			//console.info(data); // json data 
+			//console.info(FriendsConnectionsData); // json data 				
+			friendConnectionHTML='';
+			//FriendsConnectionsData={};
+			
+			for(z=0; z < FriendDataReturn.length;z++){
+				if(FriendDataReturn[z].BioConnections){
+					myRealFriendConnectionsData.push(FriendDataReturn[z]);
+				}
+				else{
+					//
+				}	
+			}
+			
+			if(myRealFriendConnectionsData.length>0){
+				if($('#displayPageType').html()=="homepage"){
+					hide = false;
+					friendConnectionHTML += getFriendConnectionListHTML(myRealFriendConnectionsData[0],myRealFriendConnectionsData[0].BioConnections[0],hide,0,"home",false);
+				}
+				else{
+					for(x=0; x < myRealFriendConnectionsData.length; x++){
+						hide = (x > 1) ? true : false;					
+						friendConnectionHTML += getFriendConnectionListHTML(myRealFriendConnectionsData[x],myRealFriendConnectionsData[x].BioConnections[0],hide,x,'friend',true);
+																																							
+					}
+				}
+				
+			}
+			else{
+				friendConnectionHTML='<li class="clearfix connection ">None of your friends have any connections!</li>';
+			}
+	
+		
+			$('.loading-list-container, .loading-friend').hide();
+			$('.logged-in-list-container.logged-in').show();
+			$('.logged-in-list-container.friend').show();
+			$("#friends-connections-list").html(friendConnectionHTML);
+		}
+		
+		function getConnectionListHTML(groupFriendObject,friendObject,style,hide,x,type){
+			returnHTML =' '; 
+			if(style=="home"){
+
+					returnHTML +='<div class="clearfix logged-out-list-facebook-users">';
+						returnHTML +='<strong class="facebook-heading-bold">Welcome '+groupFriendObject.facebookProfileName.split(' ')[0]+' You are connected with...</strong>';
+						returnHTML +='<div style="padding-left: 40px;">';
+							returnHTML +='<div class="facebook-user-container ">';
+								returnHTML +='<div class="facebook-user ">';
+									returnHTML +='<img class="facebook-image" src="'+groupFriendObject.facebookProfileImage+'">';
+									returnHTML +='<img class="facebook-icon" src="/assets/images/common/facebook_favicon.png">';
+								returnHTML +='</div>';
+							returnHTML +='<a href="/" class="dot">You</a><br>';
+							returnHTML +='<div id="small-login-link-html"><a href="'+$('#loggedinuser-sso-link').html() + "/user/" + username + '" class="small-login-link-html">settings</a> | <a href="#" class="small-login-link-html logout">logout</a></div>';
+						returnHTML +='</div>';
+
+								returnHTML +='<div class="facebook-user-container you">';
+									returnHTML +='<div class="facebook-user you">';
+									returnHTML +='<a href="'+friendObject.BioProfileURL+'"><img class="facebook-image" style="height:58x; width:58px; display:block;" src="'+friendObject.BioProfileImage+'" alt="'+friendObject.BioProfileURL+'"></a>';
+									returnHTML +='</div>';
+								returnHTML +='<a href="'+friendObject.BioProfileURL+'" class="dot">'+friendObject.BioProfileName+'</a>'; 
+								returnHTML +='</div>';	
+
+						returnHTML +='</div>';			
+					returnHTML +='</div>';
+			}
+			else{
+				returnHTML +='<li '; 
+					if(style=="other"){ returnHTML +=' style="border-top:none;" '; } 
+					returnHTML +=' class="clearfix connection ';
+					if(hide){ returnHTML +=' hide '; } 
+				returnHTML +='">';
+				returnHTML +='<div class="float-left ">';
+					returnHTML +='<a href="'+friendObject.BioProfileURL+'"><img class="facebook-image" src="'+friendObject.BioProfileImage+'"></a>';
+				returnHTML +='</div>';
+				returnHTML +='<div class="bio-profile-user float-right">';
+
+					if(style=="other"){
+						returnHTML +='<p><a class="dot" href="'+friendObject.BioProfileURL+'">'+friendObject.BioProfileName+'</a></p>';
+						returnHTML +='<p>'+friendObject.BioProfileOccupation+'</p>';
+					}
+					else{
+						returnHTML +='<p>'+friendObject.BioConnection;
+						if(friendObject.moreConnection){
+							returnHTML +='. <a href="#see-more-connections" class="red-underline see-more-link" id="moreconnection-'+type+'-'+x+'-'+friendObject.BioLinkProfileId+'"><span>see more connections</span></a>';
+						}
+						returnHTML +='</p>';					
+						returnHTML +='<p class="social-share-connections">';
+							returnHTML +='<a href="#" id="sharefacebookconnection-'+type+'-'+x+'-'+friendObject.BioLinkProfileId+'" class="fb-share-connection-button facebook-share-button"><img alt="facebook" src="/assets/images/common/facebook-share-button.png"></a>';
+							//returnHTML +='<a href="#" id="sharetwitterconnection-'+type+'-'+x+'-'+friendObject.BioLinkProfileId+'" class="twitter-share-connection-button facebook-share-button"><img alt="twitter" src="/assets/images/common/twitter-share-button.png"></a>';
+							//returnHTML +='<a style="display:none;" href="http://twitter.com/share?url=http://biography.com/bio-now&text='+friendObject.BioConnection.replace(/<\/?[^>]+>/gi, "")+'" class="twitter-share-button" data-url="http://biography.com/bio-now" data-text="'+friendObject.BioConnection+'" data-count="none"><img alt="twitter" src="/assets/images/common/twitter-share-button.png"></a>';
+						returnHTML+='<a target="_blank" href="http://twitter.com/share?url=http://biography.com/bio-now&text='+friendObject.BioConnection.replace(/<\/?[^>]+>/gi, "")+encodeURIComponent(' #bio @bio')+' " class="twitter-share-button" data-url="http://biography.com/bio-now" data-text="'+friendObject.BioConnection.replace(/<\/?[^>]+>/gi, "")+encodeURIComponent('#bio @bio')+' " data-count="none"><img alt="twitter" src="/assets/images/common/twitter-share-button.png"></a>';	
+						returnHTML +='</p>';
+					}
+					
+					returnHTML +='</div>';
+				returnHTML +='</li>';				
+			}
+
+			
+			return returnHTML;
+		}
+		
+		function getFriendConnectionListHTML(groupFriendObject,friendObject,hide,x,type,showMoreConnections){
+			returnHTML =' '; 
+			if(type=="home"){
+					returnHTML +='<div class="clearfix logged-out-list-facebook-users">';
+						returnHTML +='<strong class="facebook-heading-bold">Your friend '+groupFriendObject.facebookProfileName.split(' ')[0]+' is connected to...</strong>';
+						returnHTML +='<div style="padding-left: 40px;">';
+							returnHTML +='<div class="facebook-user-container ">';
+								returnHTML +='<div class="facebook-user ">';
+									returnHTML +='<img class="facebook-image" src="'+groupFriendObject.facebookProfileImage+'">';
+									returnHTML +='<img class="facebook-icon" src="/assets/images/common/facebook_favicon.png">';
+								returnHTML +='</div>';
+							returnHTML +='<a href="/" class="dot">'+groupFriendObject.facebookProfileName+'</a>';
+						returnHTML +='</div>';
+
+								returnHTML +='<div class="facebook-user-container you">';
+									returnHTML +='<div class="facebook-user you">';
+									returnHTML +='<a href="'+friendObject.BioProfileURL+'"><img class="facebook-image" style="height:58x; width:58px; display:block;" src="'+friendObject.BioProfileImage+'" alt="'+friendObject.BioProfileURL+'"></a>';
+									returnHTML +='</div>';
+								returnHTML +='<a href="'+friendObject.BioProfileURL+'" class="dot">'+friendObject.BioProfileName+'</a>'; 
+								returnHTML +='</div>';	
+
+						returnHTML +='</div>';			
+					returnHTML +='</div>';
+					returnHTML +='<div class="show-more">'; 
+						returnHTML +='<a href="/my-connections" id="your-connections-more-connections-button" class="blue-button" style="color:#fff;">See More Bio Connections</a>'; 
+					returnHTML +='</div>';
+			}
+			else{
+				returnHTML +='<li class="clearfix connection '; if(hide){ returnHTML +=' hide '; } returnHTML +='">';
+				returnHTML +='<div class="float-left ">';
+					returnHTML +='<img class="facebook-image" src="'+groupFriendObject.facebookProfileImage+'">';
+				returnHTML +='</div>';
+				returnHTML +='<div class="bio-profile-user float-right">';
+					returnHTML +='<p>'+friendObject.BioConnection;
+					if(friendObject.moreConnection && showMoreConnections){
+						returnHTML +='. <a href="#see-more-connections" class="red-underline see-more-link" id="moreconnection-'+type+'-'+x+'-'+friendObject.BioLinkProfileId+'"><span>see more connections</span></a>';
+					}
+					returnHTML +='</p>';			
+					returnHTML +='<p class="social-share-connections">';
+						returnHTML +='<a href="#" id="sharefacebookconnection-'+type+'-'+x+'-'+friendObject.BioLinkProfileId+'" class="fb-share-connection-button facebook-share-button"><img alt="facebook" src="/assets/images/common/facebook-share-button.png"></a>';
+						//returnHTML +='<a href="#" id="sharetwitterconnection-'+type+'-'+x+'-'+friendObject.BioLinkProfileId+'" class="twitter-share-connection-button facebook-share-button"><img alt="twitter" src="/assets/images/common/twitter-share-button.png"></a>';
+						returnHTML+='<a target="_blank" href="http://twitter.com/share?url=http://biography.com/bio-now&text='+friendObject.BioConnection.replace(/<\/?[^>]+>/gi, "")+encodeURIComponent(' #bio @bio')+' " class="twitter-share-button" data-url="http://biography.com/bio-now" data-text="'+friendObject.BioConnection.replace(/<\/?[^>]+>/gi, "")+encodeURIComponent('#bio @bio')+' " data-count="none"><img alt="twitter" src="/assets/images/common/twitter-share-button.png"></a>';	
+					returnHTML +='</p>';
+					returnHTML +='</div>';
+				returnHTML +='</li>';
+				
+			}
+			
+			return returnHTML;
+		}
+	
+		function showPageSpecificTypeEmptyText(pageType,defaultText, showMoreText,friendsText){
+			htmlForDisplay= (defaultText)? defaultText : (friendsText)? 'Your friends share no connections, but they have other connections' : 'You share no connections, but you have other connections';
+
+			
+			if(pageType=="group"){		
+				if(friendsText){
+					htmlForDisplay = (showMoreText) ? 'Your friends share no connections with '+$('#name-of-group-title').text() : 'Your friends share no connections with '+$('#name-of-group-title').text(); 		
+				}
+				else{
+					htmlForDisplay = (showMoreText) ? 'You share no connections with '+$('#name-of-group-title').text()+', but you are connected to other people on biography.com' : 'You share no connections with '+$('#name-of-group-title').text()+', but you have other connections'; 		
+				}
+			}
+			else if(pageType=="profile"){
+				if(friendsText){
+					htmlForDisplay = (showMoreText) ? 'Your friends  share no connections with '+$('#name-of-profile-title').text() : 'Your friends share no connections with '+$('#name-of-profile-title').text();
+				}
+				else{
+					htmlForDisplay = (showMoreText) ? 'You share no connections with '+$('#name-of-profile-title').text()+', but you are connected to other people on biography.com' : 'You share no connections with '+$('#name-of-profile-title').text()+', but you have other connections';
+				}
+			}
+			else if(pageType=="otd"){
+				if(friendsText){
+					htmlForDisplay = (showMoreText) ? 'Your friends share no connections with anyone on '+$('#name-of-onthisday-title').text() : 'You share no connections with anyone on '+$('#name-of-onthisday-title').text();
+				}
+				else{
+					htmlForDisplay = (showMoreText) ? 'You share no connections with anyone on '+$('#name-of-onthisday-title').text()+', but you are connected to other people on biography.com ' : 'You share no connections with anyone on '+$('#name-of-onthisday-title').text()+', but you have other connections';
+				}
+			}
+			
+			return htmlForDisplay;
+		}
+	</script>
+	
+	<div class="hide">
+		<div id="your-connection-dialog-pop-up" class="hide your-connection-dialog-pop-up"> pop</div>
+		<div id="bio-connection-share-url"></div>
+	</div>
+	<div id="your-connections-module" class="module">
+		
+			
+				<script>
+					window.getSpecificHomepageURL = true;
+				</script>
+				<div class="header">
+					<a href="/my-connections"><h2><span class="bold">facebook</span>
+						connections</h2></a>
+				</div>
+			
+				
+		
+		
+
+		<div class="loading-list-container loading initial-fb-rail-load">
+		
+		</div>
+		<div class="not-logged-in logged-out-list-container">
+					
+				<div class="clearfix logged-out-list-facebook-users top">
+					<strong class="facebook-heading-bold">Who Are My Famous Connections?</strong>
+					<div style="padding-left: 35px;">
+						<div class="facebook-user-container ">
+							<div class="facebook-user ">
+								<img class="facebook-image" src="/assets/images/placeholder-profile-image.jpg">
+								<img class="facebook-icon" src="/assets/images/common/facebook_favicon.png">
+							</div>
+							<a href="/" class="dot">You</a> 
+						</div>
+						
+							
+							<div class="facebook-user-container you">
+								<div class="facebook-user you">
+									<a href="/people/stephen-hawking-9331710"><img class="facebook-image" style="height:58x; width:58px; display:block;" src="/imported/rendition/images/Biography/Images/Profiles/H/Stephen-Hawking-9331710-1-402_144x144.jpg" alt="Stephen Hawking"></a>
+								</div>
+								<a href="/people/stephen-hawking-9331710" class="dot">Stephen Hawking</a> 
+							</div>				
+							
+						
+							
+						
+							
+						
+					</div>
+
+									
+				</div>
+				<div class="clearfix logged-out-list-facebook-users" style="border-top:none;">
+					<strong class="facebook-heading-bold">Who Are My Friend's Famous Connections?</strong>
+					<div style="padding-left: 35px;">
+						<div class="facebook-user-container ">
+							<div class="facebook-user ">
+								<img class="facebook-image" src="/assets/images/placeholder-profile-image.jpg">
+								<img class="facebook-icon" src="/assets/images/common/facebook_favicon.png">
+							</div>
+							<a href="/" class="dot">Your <br>Friend</a> 
+						</div>
+						
+						
+							
+						
+							
+							<div class="facebook-user-container you">
+								<div class="facebook-user you">
+									<a href="/people/margaret-thatcher-9504796"><img class="facebook-image" style="height:58x; width:58px; display:block;" src="/imported/rendition/images/Biography/Images/Profiles/T/Margaret-Thatcher-9504796-2-402_144x144.jpg" alt="Margaret Thatcher"></a>
+								</div>
+								<a href="/people/margaret-thatcher-9504796" class="dot">Margaret Thatcher</a> 
+							</div>				
+							
+						
+							
+						
+					</div>
+									
+				</div>
+			
+			<div class="description">
+				<p>Sign in with <a href="#fb-connect-header"  class="fb-connect-header">Facebook</a> to see how you and your friends are connected to famous icons.</p>
+			</div>
+			<div class="fb-connect-home"><a href="#fb-connect-header"><img class="fb-connect-header" src="/assets/images/facebook-sign-in.png"></a></div>
+		</div>
+		<div class="logged-in logged-in-list-container">
+			<div class="logged-in-list-container my">
+				
+				
+					
+					<!--
+						<h5><span>Your Top 3 Connections</span></h5>
+					-->
+					
+						
+				
+				
+				<ul id="my-connections-list" class="clearfix">
+				</ul>
+				<div class="show-more"> 
+					<a href="/my-connections" id="your-connections-more-connections-button" class="blue-button" style="color:#fff;">See More Bio Connections</a> 
+				</div>
+			</div>
+			<div class="loading-friend loading initial-fb-rail-load">
+		
+			</div>
+			<div class="logged-in-list-container friend">
+				
+				
+					
+					
+					
+				
+				
+				<ul id="friends-connections-list" class="connections-list">
+					
+				</ul>
+
+			</div>
+		</div>
+	</div>
+<!------- END: Your Connections Module -------> 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+		
+
+
+		
+		
+			
+
+
+
+
+
+
+		
+			
+			
+				
+			
+			
+			
+			
+			
+			
+				
+			
+
+			
+			
+			
+			
+			
+			
+			
+				
+
+
+
+
+	
+		<div class="people-in-this-group module clearfix">
+			<h5><span>Popular Groups</span></h5>
+			<ul class="clearfix">
+				
+					
+					
+						
+					
+					<li>
+						<p>
+							<a class="picture-group" href="/people/groups/the-bee-gees">
+								
+									<img src="/imported/rendition/images/Biography/Images/Profiles/G/Robin-Gibb-20728001-1-402_30x30.jpg">
+								
+									<img src="/imported/rendition/images/Biography/Images/Profiles/G/Barry-Gibb-20761655-1-402_30x30.jpg">
+								
+									<img src="/imported/rendition/images/Biography/Images/Profiles/G/Maurice-Gibb-20761543-1-402_30x30.jpg">
+								
+									<img src="/assets/images/no-image.jpg">
+								
+							</a>
+							
+
+
+
+
+
+
+
+	<div class="universal-rollover rollover-with-image clearfix group-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<div class="pic-container clearfix position-fix">
+						<ul class="featured-group-list">
+							
+								<li>
+									<a href="/people/groups/the-bee-gees"><img src="/imported/rendition/images/Biography/Images/Profiles/G/Robin-Gibb-20728001-1-402_30x30.jpg"></a> 
+								</li>
+							
+								<li>
+									<a href="/people/groups/the-bee-gees"><img src="/imported/rendition/images/Biography/Images/Profiles/G/Barry-Gibb-20761655-1-402_30x30.jpg"></a> 
+								</li>
+							
+								<li>
+									<a href="/people/groups/the-bee-gees"><img src="/imported/rendition/images/Biography/Images/Profiles/G/Maurice-Gibb-20761543-1-402_30x30.jpg"></a> 
+								</li>
+							
+								<li>
+									<a href="/people/groups/the-bee-gees"><img src="/assets/images/no-image.jpg"></a> 
+								</li>
+							
+						</ul>
+					</div>
+				
+				<ul class = "member-list">
+					
+						<li class="bold">In this group:</li>
+						
+							<li><a href="/people/robin-gibb-20728001" class = "dot">Robin Gibb</a></li>
+						
+							<li><a href="/people/barry-gibb-20761655" class = "dot">Barry Gibb</a></li>
+						
+							<li><a href="/people/maurice-gibb-20761543" class = "dot">Maurice Gibb</a></li>
+						
+					
+				</ul>
+				
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/groups/the-bee-gees">The Bee Gees</a></h3>
+				<div class="description">
+				
+					<p>After over 40 years of recording and over 220 million in album sales the trio of brothers has sadly been reduced to two, yet their music will live forever on dance floors and in doctor's offices around the world.</p>
+				
+				</div>
+				
+					<a href="/people/groups/the-bee-gees" class="red">View group</a> 
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+
+
+							<span class="bold"><a href="/people/groups/the-bee-gees">The Bee Gees</a></span>
+						</p>
+						<p>3 people in this group</p>
+						
+						<div class="clearfix"></div>
+					</li>
+				
+					
+					
+						
+					
+					<li>
+						<p>
+							<a class="picture-group" href="/people/groups/tax-truants">
+								
+									<img src="/imported/rendition/images/Biography/Images/Profiles/G/Judy-Garland-9306838-402_30x30.jpg">
+								
+									<img src="/imported/rendition/images/Biography/Images/Profiles/S/Snoop-Dogg-197052-1-402_30x30.jpg">
+								
+									<img src="/imported/rendition/images/Biography/Images/Profiles/A/Marc-Anthony-241193-1-402_30x30.jpg">
+								
+									<img src="/imported/rendition/images/Biography/Images/Profiles/C/Nicolas-Cage-9234498-1-402_30x30.jpg">
+								
+							</a>
+							
+
+
+
+
+
+
+
+	<div class="universal-rollover rollover-with-image clearfix group-layout">
+		<div class="universal-rollover-top"></div>
+		<div class="universal-rollover-middle clearfix">
+			<div class="right-column">
+				
+					<div class="pic-container clearfix position-fix">
+						<ul class="featured-group-list">
+							
+								<li>
+									<a href="/people/groups/tax-truants"><img src="/imported/rendition/images/Biography/Images/Profiles/G/Judy-Garland-9306838-402_30x30.jpg"></a> 
+								</li>
+							
+								<li>
+									<a href="/people/groups/tax-truants"><img src="/imported/rendition/images/Biography/Images/Profiles/S/Snoop-Dogg-197052-1-402_30x30.jpg"></a> 
+								</li>
+							
+								<li>
+									<a href="/people/groups/tax-truants"><img src="/imported/rendition/images/Biography/Images/Profiles/A/Marc-Anthony-241193-1-402_30x30.jpg"></a> 
+								</li>
+							
+								<li>
+									<a href="/people/groups/tax-truants"><img src="/imported/rendition/images/Biography/Images/Profiles/C/Nicolas-Cage-9234498-1-402_30x30.jpg"></a> 
+								</li>
+							
+						</ul>
+					</div>
+				
+				<ul class = "member-list">
+					
+						<li class="bold">In this group:</li>
+						
+							<li><a href="/people/judy-garland-9306838" class = "dot">Judy Garland</a></li>
+						
+							<li><a href="/people/snoop-dogg-197052" class = "dot">Snoop Dogg</a></li>
+						
+							<li><a href="/people/marc-anthony-241193" class = "dot">Marc Anthony</a></li>
+						
+					
+				</ul>
+				
+					<a href="/people/groups/tax-truants" class="red more-members">16 others</a>
+				
+			</div>
+			<div class = "left-column">
+				<h3 class="dot"><a href="/people/groups/tax-truants">Tax Truants</a></h3>
+				<div class="description">
+				
+					<p>These actors, musicians, business leaders and entrepreneurs all have two things in common: They're filthy rich and have famously tried to dodge the IRS. Unfortunately for them, they've all gotten caught at one point or another and have made headlines for ripping off Uncle Sam. From Nicholas Cage to Leona Helmsley to Wesley Snipes, check our list of epic tax evaders.</p>
+				
+				</div>
+				
+					<a href="/people/groups/tax-truants" class="red">View group</a> 
+				
+			</div>
+		</div>
+		<div class="universal-rollover-bottom"></div>
+	</div>
+
+
+							<span class="bold"><a href="/people/groups/tax-truants">Tax Truants</a></span>
+						</p>
+						<p>19 people in this group</p>
+						
+						<div class="clearfix"></div>
+					</li>
+				
+			</ul>
+			<p class="home-link"><a href="/people" class="red"><span class="bold-text">See more People</span></a></p>
+		</div>
+	
+	
+
+			
+						
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+		
+
+
+		
+		
+			
+
+
+
+
+
+
+		
+			
+			
+				
+			
+			
+			
+			
+			
+			
+				
+			
+
+			
+			
+			
+			
+			
+			
+			
+						
+			
+				
+
+
+
+
+
+
+	
+	
+		
+	
+
+
+
+
+	
+		
+		
+	
+	
+		
+
+
+
+
+	<div class="shop-module module">
+		<h5><span>Shop Bio</span></h5>
+		
+			<!-- TODO: remove after debugging done SKU [] id [] -->
+			<div class = "shop-item clearfix">
+			<a href="">
+				
+			</a> 
+			<div class = "product-details-container clearfix">
+				<div class = "product-details">
+					<a href="" class = "title-link">
+						<strong></strong>
+					</a>
+				
+					<div class="note"></div>
+					<a href="" class="price red"></a>
+					<p class="description"></p>
+				</div>
+			</div>	
+			<div class="button-container">					
+				<a href="" class="red-button">Buy Now</a>
+			</div>
+			
+			
+			
+			
+		</div>
+		<hr/>
+	
+		
+	</div>
+	
+		<!-- Yaw: Put home page code here -->
+	
+
+
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+		
+
+
+		
+		
+	
+		
+	
+	
+
+
+
+<!-- Right Rail: End -->
+
+<!--/nutch-ignore--> 
+	</div>
+</div>
+
+
+<!--nutch-ignore-->
+<div id="who-knows-who-module" class="module" offset="0" connectionsNeeded="5" startId="9357941">
+	<div class="master-margin">
+		<h3><span>Celebrity Connections</span></h3>
+		<div class="module-content">
+			<ul class="people"> 
+			</ul>
+			<ul class="relationships">
+			</ul>
+			<div>
+				<span id="who-knows-who-more-connections-button" class="red-button">Show More Connections</span>
+			</div>
+		</div>
+		<div class="fact-check">
+			<em>Fact Check: We strive for accuracy and fairness. If you see something that doesn't look right, <a href='/support'>contact us!</a></em>
+		</div>
+	</div>
+</div>
+<!--/nutch-ignore-->
+
+
+
+
+
+
+<div class="clearfix module" id="featured-videos">
+	<div class="master-margin featured-videos-clips">
+		<div class="module" style="margin-bottom:15px;">
+			<h3><span>Watch Biography Videos</span></h3>		
+		</div>
+
+	<!-- Begin Featured Videos -->
+	<div class = "clearfix">
+		
+			<div class = "col-1">
+			<h3><span>Full Biographies</span></h3>
+			<div class="clearfix">
+				<div class="float-left video-image-container"> 
+					<a href="/people/kurt-cobain-9542179/videos/kurt-cobain-full-episode-2171433365">
+						<img class="video-placeholder" src="/imported/images/Biography/Images/Video Stills/Homepage Thumbnails/People/kurt-cobain-homepage.jpg" alt=""/>
+						<span class="video-play-button"></span>
+						<p class="title">Kurt Cobain - Full Episode<span class="runtime">45:18</span></p>
+					</a>
+					
+				</div>
+				<div class="float-right clearfix video-image-container"> 
+					<a href="/people/amelia-earhart-9283280/videos/amelia-earhart-full-episode-2071933358">
+						<img class="video-placeholder" src="/imported/images/Biography/Images/Video Stills/Homepage Thumbnails/People/amelia-earhart-homepage.jpg" alt=""/>
+						<span class="video-play-button"></span>
+						<p class="title">Amelia Earhart - Full Episode<span class="runtime">41:43</span></p>
+					</a>
+				</div>
+			</div>
+			</div>	
+
+		
+		
+		
+		
+			<div class = "col-2">
+			<h3><span>Celebrity Ghost Stories</span></h3>
+				<div class="video-image-container">
+					<a href="/tv/celebrity-ghost-stories/videos/margaret-cho-not-alone-2126657347">
+						<img class="video-placeholder" src="/imported/images/Biography/Images/Video Stills/Homepage Thumbnails/People/margaret-cho-footer-2.jpg" alt=""/>
+						<span class="video-play-button"></span>
+						<p class="title">Margaret Cho - Not Alone<span class="runtime">2:18</span></p>
+					</a>
+				</div>
+			</div>
+		
+		
+		
+			<div class = "col-3">
+				<h3><span>Mini Bios</span></h3>
+				<div class="video-image-container">
+					<a href="/people/truman-capote-9237547/videos/truman-capote-mini-bio-2174103286">
+						<img class="video-placeholder" src="/imported/images/Biography/Images/Video Stills/Homepage Thumbnails/People/truman-capote-homepage.jpg" alt=""/>
+						<span class="video-play-button"></span>
+						<p class="title">Truman Capote - Mini Bio<span class="runtime">3:31</span></p>
+					</a>
+				</div>
+			</div>
+				
+		
+		</div>
+		<!-- End Featured Videos -->
+		
+		<!--  Begin Video Playlists -->
+		
+			<div class="col-1">
+				<h5><span>More Full Biographies</span></h5>
+				<div class="float-left clearfix">
+					<div class="video-playlist">
+						<ul>
+							
+								<li><a href="/people/jackson-pollock-9443818/videos/jackson-pollock-full-episode-2073249904">Jackson Pollock - Full Episode</a></li>
+							
+								<li><a href="/people/hunter-s-thompson-9506260/videos/hunter-s-thompson-full-episode-2073248652">Hunter S. Thompson - Full Episode</a></li>
+							
+								<li><a href="/people/reba-mcentire-9542065/videos/reba-mcentire-full-episode-2074728197">Reba McEntire - Full Episode</a></li>
+							
+								<li><a href="/people/john-wilkes-booth-9219681/videos/john-wilkes-booth-full-episode-2073404006">John Wilkes Booth - Full Episode</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="float-right clearfix">
+					<div class="video-playlist">
+						<ul>
+							
+								<li><a href="/people/groups/bonnie-and-clyde/videos/bonnie-clyde-full-episode-2072036565">Bonnie & Clyde - Full Episode</a></li>
+							
+								<li><a href="/people/benjamin-franklin-9301234/videos/benjamin-franklin-full-episode-2073416372">Benjamin Franklin - Full Episode</a></li>
+							
+								<li><a href="/people/twiggy-9512626/videos/twiggy-full-episode-2074899474">Twiggy - Full Episode</a></li>
+							
+								<li><a href="/people/john-ritter-9542508/videos/john-ritter-full-episode-2073400885">John Ritter - Full Episode</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+		
+			<div class="col-2">
+				<div class="video-playlist">
+					<h5><span>More Celebrity Ghost Stories</span></h5>
+					<ul>
+						
+							<li><a href="/tv/celebrity-ghost-stories/videos/phyllis-diller-a-lady-ghost-2173708997">Phyllis Diller - A Lady Ghost</a></li>
+						
+							<li><a href="/tv/celebrity-ghost-stories/videos/mickey-rooney-a-message-2173723674">Mickey Rooney - A Message</a></li>
+						
+							<li><a href="/tv/celebrity-ghost-stories/videos/alan-thicke-russian-ghost-2165348869">Alan Thicke - Russian Ghost</a></li>
+						
+							<li><a href="/tv/celebrity-ghost-stories/videos/joan-osborne-whos-up-there-2167425573">Joan Osborne - Who's Up There?</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		
+		
+			<div class="col-3">
+				<div class="video-playlist">
+					<h5><span>More Mini Bios</span></h5>
+					<ul>
+						
+							<li><a href="/people/natalie-portman-9542326/videos/natalie-portman-mini-bio-2179560070">Natalie Portman - Mini Bio</a></li>
+						
+							<li><a href="/people/sugar-ray-leonard-9379459/videos/sugar-ray-leonard-mini-bio-2192804056">Sugar Ray Leonard - Mini Bio</a></li>
+						
+							<li><a href="/people/coco-chanel-9244165/videos/coco-chanel-mini-bio-17753871">Coco Chanel - Mini Bio</a></li>
+						
+							<li><a href="/people/andy-warhol-9523875/videos/andy-warhol-mini-bio-2168460552">Andy Warhol - Mini Bio</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		
+	<!--  End Video Playlists -->
+	</div>
+</div>
+
+
+
+
+        
+
+
+
+<!--nutch-ignore-->
+<div id="footer">
+	
+	
+
+
+
+<!--nutch-ignore-->
+<div id="skinny-footer-wrapper">
+	<div id="skinny-footer" class="master-margin">
+		<div id="footer-navigation">
+		
+		
+		
+		
+		
+				
+			<div id="bio-navigation">
+				<h5>Bio.com</h5>
+				<ul>
+					<li><a rel="" href="/site-map">Site Map</a></li>
+					<li><a rel="" href="/emails">Email Updates</a></li>
+					<li><a rel="" href="/support">FAQ / Contact Us</a></li>
+					<li><a rel="" href="/mobile">Mobile</a></li>
+					<li><a rel="" href="http://shop.history.com/?v=biography">Shop BIO</a></li>
+					<li><a rel="" href="/bio-rss-feeds">RSS Feeds</a></li>
+					<li><a rel="" href="/tv/classroom">Classroom</a></li>
+					<li><a rel="" href="/cite-this-site">Cite This Site</a></li>
+				</ul>
+			</div>
+			<div id="corporate-navigation">
+				<h5>A+E Networks Corporate</h5>
+				<ul>
+					<li><a rel="" href="http://www.aetn.com/advertise">Advertise With Us</a></li>
+					<li><a rel="" href="http://www.aetn.com/">Corporate Information</a></li>
+					<li><a rel="" href="http://www.aetn.com/careers.html">Employment Opportunities</a></li>
+					<li><a rel="" href="http://www.aetn.com/termsofuse/ ">Terms of Use</a></li>
+					<li><a rel="" href="http://www.aetn.com/privacy/">Private Policy</a></li>
+					<li><a rel="" href="/tv-parental-guidelines">TV Parental Guidelines</a></li>
+					<li><a rel="" href="http://www.aetn.com/DMCA/">Copyright Policy</a></li>
+					<li><a rel="" href="http://www.aetn.com/ad_choices/ ">Ad Choices</a></li>
+				</ul>
+			</div>
+			<div id="digital-navigation">
+			<h5>A+E Networks Digital</h5>
+			<ul class="image-list">
+				<li class="first">
+					<a rel="" href="http://www.aetv.com/" id = "ae">A&amp;E</a>
+				</li>
+				<li>
+					<a rel="" href="http://www.biography.com/" id = "bio">Biography</a>
+				</li>
+				<li>
+					<a rel="" href="http://www.history.com/" id = "history">History</a>
+				</li>
+				<li>
+					<a rel=""" href="http://www.mylifetime.com/" id = "my-lifetime">My Lifetime</a>
+				</li>
+				<li>
+					<a rel="" href="http://www.mylifetime.com/movies/lifetime-movie-network" id = "lmn">LMN</a>
+				</li>
+			</ul>
+			<ul class="text-list">
+				<li><a rel="" href="http://www.crimeandinvestigationnetwork.com/crime-and-investigation/">Crime and Investigation</a></li>
+				<li>|</li>
+				<li><a rel="" href="http://www.historyenespanol.com/espanol/">History en Espa&ntilde;ol</a></li>
+				<li>|</li>
+				<li><a rel="" href="http://www.history.com/schedule/h2/">H2</a></li>
+				<li>|</li>
+				<li><a rel="" href="http://www.lifetimemoms.com/">LifetimeMoms</a></li>
+				<li>|</li>
+				<li><a rel="" href="http://military.history.com/">Military History</a></li>
+				<li>|</li>
+				<li><a rel="" href="http://www.roiworld.com/">Roiworld</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="copyright" class="note">&copy; 1996&ndash;2012 <a href="http://www.aetn.com/" class="footer-copy-link">A+E Television Networks, LLC</a>. All Rights Reserved.</div>
+	</div>
+</div>
+<!--/nutch-ignore-->
+
+</div>
+
+
+
+
+
+
+
+	
+	
+		<!-- Bio Web App Version: [090_BIO-20120406_1200] -->
+	
+
+
+
+<!--/nutch-ignore-->
+        
+
+
+<!--nutch-ignore-->
+
+
+    
+
+<script language="JavaScript">
+ var omniture = {
+    s_account: "aebio,aetnglobalprod",
+    linkInternalFilters: ".biography.com",
+    visitorMigrationServer: "aebio.112.2o7.net",
+    visitorMigrationServerSecure: "aebio.102.112.2o7.net"
+};
+</script>
+
+<script>
+var url = location.href;
+var url_parts = url.split('?');
+var omni_evar12 = url_parts[0];
+var omni_evar41 = dart.siteName+':'+dart.s1;
+if (dart.s2 != '') {
+	omni_evar41 = omni_evar41 + ':' + dart.s2;
+} 
+</script>
+			
+<!-- SiteCatalyst code version: H.20.3.Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript">
+	var omnitureSuiteName = "aebio,aetnglobalprod";
+	var s_account="aebio,aetnglobalprod";
+	var omnitureLinkInternalFiltersStr="";
+</script>
+<script language="JavaScript" type="text/javascript" src="/assets/scripts/libraries/omniture/s_code.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on the next lines. */
+
+s.pageName="BIO:Home";
+s.campaign="";
+s.referrer="";
+s.events="";
+s.eVar1="None";
+s.eVar2="None";
+s.eVar3="None";
+s.eVar4="None";
+s.eVar5="Non-TV";
+s.eVar6="None";
+s.eVar7="None";
+s.eVar8="None";
+s.eVar9="Homepage";
+s.eVar10="None";
+s.eVar11="Famous Biographies & TV Shows";
+s.eVar12=omni_evar12;
+s.eVar13="None";
+s.eVar14="www.biography.com";
+s.eVar15="";
+s.eVar16="0";
+s.prop17="";
+s.eVar18="";
+s.eVar19="";
+s.eVar20="None";
+s.eVar21="None";
+s.eVar22="None";
+s.eVar41=omni_evar41;
+s.eVar49="BIO:Home";
+s.pageType="";
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+src="http://aehistory.112.2O7.net/b/ss/aehistory/1/H.20.3--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.20.3. -->
+
+
+
+
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">''
+	_qoptions={qacct:"p-84eTroxoNX3JE",labels:"BIO:Home"};
+	_qoptions_temp=_qoptions;
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<a href="http://www.quantcast.com/p-84eTroxoNX3JE" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-84eTroxoNX3JE.gif?labels=BIO:Home" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+
+    
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "3005002", c3: "", c4: "6357324" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=3005002&c3=&c4=6357324&cv=2.0&cj=1" /> </noscript>
+<!-- End comScore Tag -->
+
+ 
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->  
+<script type="text/javascript" src="/assets/scripts/libraries/nielsen/audiencemeasurement.js"></script>
+<noscript>
+  <div>
+    <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-204971h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+    width="1" height="1" alt="" />
+  </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+    
+<!--/nutch-ignore-->			
+
+			
+				
+
+
+        
+
+<!-- Rubicon Project Insight Tag -->
+<!-- Account: AE Digital Site: AE Digital -->
+<script type="text/javascript" defer="defer" src="http://tap-cdn.rubiconproject.com/partner/scripts/rubicon/alice.js?pc=7847/14047"></script> 
+        
+
+
+
+        <div id="fb-root"></div>	
+		
+
+
+<!--nutch-ignore-->
+    
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-225576-3']);
+  _gaq.push(['_setDomainName', 'biography.com']);
+  _gaq.push(['_addIgnoredRef', 'biography.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Google Analytics -->
+				
+<!--/nutch-ignore-->
+			
+				
+
+
+		
+		
+
+
+<!-- Global Footer JS!!!! -->
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.placeholder/jquery.placeholder.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.cookie/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jqueryUI/js/tabs/jquery.ui.tabs.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.validate/jquery.validate.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.hoverIntent/jquery.hoverIntent.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.universal-rollover/jquery.universal-rollover.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.styled-select/jquery.styled-select.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.styled-radio/jquery.styled-radio.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.quick-search/jquery.quick-search.js"></script>
+	<script type="text/javascript" src="/assets/scripts/libraries/jQuery/plugins/jquery.isChildOf/jquery.isChildOf.js"></script>
+	
+	
+
+	
+	<!-- Disqus Comment Scripts -->
+	<script type="text/javascript" src="http://crypto-js.googlecode.com/files/2.0.0-crypto-sha1.js"></script>
+	<script type="text/javascript" src="http://crypto-js.googlecode.com/files/2.0.0-hmac-min.js"></script>
+	<script type="text/javascript">
+		var disqus_shortname = 'biography';
+		var disqus_developer = 1; // developer mode is on
+	
+		//render the comments counts
+		$(document).ready(function(){
+			(function () {
+		    var s = document.createElement('script'); s.async = true;
+			    s.type = 'text/javascript';
+			    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+			    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+			}());
+		});
+	</script>
+	
+	<script type="text/javascript" src="/assets/scripts/utilities/url.js"></script>	
+	
+		
+	</body>
+</html>

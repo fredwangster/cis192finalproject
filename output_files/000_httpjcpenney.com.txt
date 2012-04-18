@@ -1,0 +1,306 @@
+
+<SCRIPT LANGUAGE=Javascript>
+<!--
+function PopupWindow(pagename)
+{
+	var popWind;
+	
+	//Close the popup window if it's currently open
+  		if (popWind && (navigator.appName == "Microsoft Internet Explorer"))
+		{
+			popWind.close();
+		}
+			popWind=window.open(pagename, Site,'width=520,height=400,toolbar=no,directories=no,menubar=no,scrollbars=no,resizable=no,top=5,left=5');
+	
+	//If client is using Netscape Navigator 3.0 or higher, set the popup window as the focus.
+	if ( (navigator.appName != "Microsoft Internet Explorer") && (navigator.appVersion.substring(0,1) == "3" || "4") )
+		popWind.focus();
+}
+
+//-->
+</SCRIPT>
+
+<script LANGUAGE=Javascript>
+function show_div(div_id) 
+{ 
+	document.getElementById(div_id).style.display = 'block'; 
+}
+</script>
+
+
+<HTML lang="en">
+	<HEAD>
+		<TITLE>jcpenney: Women's Clothing, Men's Clothing, Boy's & Girl's Clothing, Bedroom Furniture, and Window Treatments</TITLE>
+		<meta name="Title" content="jcpenney: Women's Clothing, Men's Clothing, Boy's & Girl's Clothing, Bedroom Furniture, and Window Treatments">
+		<link rel="canonical" href="http://www.jcpenney.com/jcp/default.aspx">
+		<meta name="description" content="FREE Shipping at jcpenney.com.  Shop for women's clothing, men's clothing, boy’s and girl’s clothing, home furniture, bedding, jewelry and shoes.">
+		<meta name="keywords" content="women's clothing, men's clothing, furniture, bedding, jewelry, kids, shoes">
+	</HEAD>
+	<BODY BGCOLOR=#FFFFFF VLINK=#000000 ALINK=#000000 LINK=#000000 LEFTMARGIN=8 MARGINWIDTH=8 MARGINHEIGHT=4 TOPMARGIN=4 >
+	
+<script type="text/javascript" src="javascript/readCookie.js"></script>
+<script type="text/javascript" src="http://media.richrelevance.com/rrserver/js/0.4/p13n.js"></script>
+<script type="text/javascript">
+	var R3_COMMON = new r3_common();
+	R3_COMMON.setApiKey('5387d7af823640a7');
+	R3_COMMON.setBaseUrl('http://recs.richrelevance.com/rrserver/');
+	R3_COMMON.setSessionId(getSessionID());
+	var vid = getVID();
+	if (vid) {
+		R3_COMMON.setUserId(vid);
+	}
+	var R3_HOME = new r3_home();
+	r3();
+</script>
+
+	<CENTER>
+		<TABLE WIDTH=772 CELLPADDING=0 CELLSPACING=0 BORDER=0 >
+			<TR>
+				<TD>
+				</TD>
+			</TR>
+		</TABLE>
+	
+	
+<script type='text/JavaScript' src='http://www.jcpenney.com/jcp/Javascript/fsmenu.js?version=06172011'></script>
+
+<script language=JavaScript type='text/javascript'> 
+  function SetSelected() {
+    var deptId = 0;
+    var element = getTabElement(deptId);
+    var isOpera, isIE = false;
+    var browserName=navigator.appName;
+    if (element != null){
+       if(typeof(window.opera) != 'undefined'){isOpera = true;}
+       if(!isOpera && browserName=="Microsoft Internet Explorer") {isIE = true;}
+       if(isIE){getTabElement(deptId).setAttribute('className', 'selected');}
+       else {getTabElement(deptId).setAttribute('class', 'selected');}
+     }
+
+  }
+</script>
+
+<script language=JavaScript type='text/javascript'> 
+  function getTabElement(deptId){
+    try {
+      var elems = document.getElementById('nm').getElementsByTagName('a'); 
+      var num = elems.length; 
+      for(var c=0;c<num;c++){
+          var val = elems[c].getAttribute('did'); 
+          if (val!=null && val==deptId)
+              return elems[c]; 
+      }
+    }
+    catch (err){};
+  }
+</script>
+
+<script language=JavaScript type='text/javascript'> 
+    try {
+          addEvent(window, 'load', SetSelected);
+    }
+    catch(err) {};
+</script>
+
+<script language=JavaScript type='text/javascript'> 
+    try {
+         document.execCommand('BackgroundImageCache', false, true);
+    }
+    catch(err) {};
+</script>
+
+<script language=JavaScript type='text/javascript'> 
+    try {
+      var listMenu = new FSMenu('listMenu', false, 'visibility', 'visible', 'hidden');
+      listMenu.showDelay = 300;
+      listMenu.switchDelay = 300;
+      listMenu.hideDelay = 500;
+      listMenu.cssLitClass = 'highlighted';
+      listMenu.showOnClick = 1;
+      addEvent(listMenu, 'show',  function(mN) { setTimeout(this.myName + '.ieSelBoxFixShow("' + mN  + '")', 10) }, 1); 
+      addEvent(listMenu, 'hide', function(mN) { this.ieSelBoxFixHide(mN) }, 1); 
+    }
+    catch(err) {};
+</script>
+
+
+<!-- ServerData = vcBuy+M6oymWw3EtJaXbBw== -->
+<LINK REL="stylesheet" TYPE="TEXT/css" HREF="http://www.jcpenney.com/jcp/CSS/JCPStyles.css?v=01062012"></LINK><script language="VBScript" src="http://www.jcpenney.com/jcp/vbscript/AmsScript.vbs?version=11172010"></script><SCRIPT LANGUAGE=Javascript1.2 SRC="http://www.jcpenney.com/jcp/Javascript/jcp.js?version=03102012"></SCRIPT>
+<script type='text/JavaScript'>addEvent(window, 'load', CheckForCookie);</script>
+<TABLE WIDTH=770 CELLPADDING=0 CELLSPACING=0 BORDER=0 BORDERCOLOR="Purple" CLASS="headerborder"><TR><TD><TABLE WIDTH=770 CELLPADDING=0 CELLSPACING=0 BORDER=0 BORDERCOLOR="Orange"><TR><TD WIDTH=69 valign=bottom><A TABINDEX="1" HREF="http://www.jcpenney.com/jcp/default.aspx"><IMG SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/JCP_Header_logo.gif"BORDER=0 ALT="JCPenney" TITLE="JCPenney"></A></TD><TD WIDTH=30><img width=30 height=1 src="HTTP://cache.jcpenney.com/images/seasonal/spacer.gif" alt=""></TD><TD WIDTH=204><TABLE WIDTH=204 HEIGHT=20 CELLSPACING=0 CELLPADDING=0 BORDER=0 BORDERCOLOR="Pink"><FORM NAME=frmSearch METHOD=GET ACTION="http://www.jcpenney.com/jcp/XGN.aspx?cmResetCat=true&CmCatId=homepage" onSubmit="return ValidateSearchTxt();"><TR><TD WIDTH=170><INPUT TABINDEX=100 TYPE=text ID=SearchString NAME=SearchString STYLE="HEIGHT:20px;WIDTH:175px;" Class="searchbox2" onMouseOver="clearDefault(this)" MAXLENGTH=175 VALUE=" Enter search term or item #" TITLE=" Enter search term or item #"></TD><TD WIDTH=5><img width=5 height=1 src="HTTP://cache.jcpenney.com/images/seasonal/spacer.gif" alt=""></TD><TD><INPUT TABINDEX=101 TYPE=image HEIGHT="16" WIDTH="21" SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_gosearch.gif" BORDER=0 ALT="search" title="search" name="submit search"></TD><TD WIDTH=8><img width=8 height=1 src="HTTP://cache.jcpenney.com/images/seasonal/spacer.gif" alt=""><INPUT TYPE=Hidden NAME=JSEnabled>
+<INPUT TYPE=Hidden NAME=mscssid VALUE=>
+<INPUT TYPE=Hidden NAME=cmResetCat VALUE=true><INPUT TYPE=Hidden NAME=hdnOnGo VALUE=false>
+</TD></TR></FORM></TABLE></TD><TD ALIGN=RIGHT WIDTH=464 VALIGN=BOTTOM ><TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=464 HEIGHT=69 VALIGN=TOP BORDER=0 BORDERCOLOR="Yellow"><TR><TD VALIGN=TOP ALIGN=RIGHT HEIGHT=10><TABLE BORDER="0" BORDERCOLOR="Red" CELLPADDING="0" CELLSPACING="0"><TR><TD><TABLE BORDER="0" BORDERCOLOR="Green" CELLPADDING="0" CELLSPACING="0"><TR><TD align=center Width="65" Class="quicklinks"><A tabindex="9" onclick="" Class="quicklinks" HREF='http://www.jcpenney.com/jcp/x2.aspx?DeptID=56530&CatID=56530&cmResetCat=True&CmCatId=homepage'>store services</A></TD><TD Width="5"></TD><TD align=center Width="52" Class="quicklinks"><A tabindex="12" onclick="" Class="quicklinks" HREF='http://www.jcpenney.com/jcp/AccountServices.aspx?cmResetCat=True&CmCatId=homepage'>track order</A></TD><TD Width="5"></TD><TD align=center Width="5" Class="quicklinks"><A tabindex="14" onclick="" Class="quicklinks" HREF='http://www.jcpenney.com/jcp/CustomerService.aspx?cmResetCat=True&CmCatId=homepage'>help</A></TD><TD Width="5"></TD><TD align=center Width="75" Class="quicklinksphonenumber">1-800-322-1189</A></TD></TR></TABLE></TD></TR></TABLE></TD></TR><TR><TD VALIGN=TOP ALIGN=LEFT HEIGHT=10><TABLE BORDER="0" BORDERCOLOR="Red" CELLPADDING="0" CELLSPACING="0"><TR><TD><TABLE BORDER="0" BORDERCOLOR="Green" CELLPADDING="0" CELLSPACING="0"><TR><TD Width="5"></TD><TD align=center Width="90" Class="aprilbooks"><A tabindex="7" onclick="" Class="aprilbooks" HREF='http://book.jcp.com/'>april books</A></TD><TD Width="13"></TD><TD align=center Width="70" Class="storequicklinks"><A tabindex="5" onclick="" Class="storequicklinks" HREF='http://www.jcpenney.com/jcp/StoreLocatorMenu.aspx?cmResetCat=True&CmCatId=homepage'>find a store</A></TD><TD Width="13"></TD><TD align=center Width="88" Class="storequicklinks"><A tabindex="15" onclick="" Class="storequicklinks" HREF='http://www.jcpenney.com/jcp/x2.aspx?DeptID=58824&CatID=58824&cmResetCat=True&CmCatId=homepage'>gifts + registry</A></TD><TD Width="95"></TD><TD Width="21"><A tabindex="2" HREF='http://jcpalerts.com/offers' onmouseover="btn_StoreQuickLinks1_8.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_mobileSignUp.gif'" onmouseout="btn_StoreQuickLinks1_8.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_mobileSignUp.gif'"><IMG id=btn_StoreQuickLinks1_8 SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_mobileSignUp.gif" Width="21" Height="21" Border=0 Alt="sign up for emails and mobile alerts" Title="sign up for emails and mobile alerts"/></A></TD><TD Width="5"></TD><TD Width="21"><A tabindex="2" HREF='http://jcpalerts.com/offers' onmouseover="btn_StoreQuickLinks1_10.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_emailSignUp.gif'" onmouseout="btn_StoreQuickLinks1_10.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_emailSignUp.gif'"><IMG id=btn_StoreQuickLinks1_10 SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_emailSignUp.gif" Width="21" Height="21" Border=0 Alt="sign up for emails and mobile alerts" Title="sign up for emails and mobile alerts"/></A></TD><TD Width="5"></TD><TD Width="20"><A tabindex="2" HREF="javascript:PopupWindow('http://www.facebook.com/jcpenney')"" onmouseover="btn_StoreQuickLinks1_12.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_joinusFacebook.gif'" onmouseout="btn_StoreQuickLinks1_12.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_joinusFacebook.gif'"><IMG onclick='cmCreatePageviewTag("Facebook - JCP","SocialNetwork|Facebook","",null,"",null,null,"","N","","","","","","","","","");
+' id=btn_StoreQuickLinks1_12 SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_joinusFacebook.gif" Width="20" Height="20" Border=0 Alt="Join us on Facebook" Title="Join us on Facebook"/></A></TD><TD Width="5"></TD><TD Width="20"><A tabindex="4" HREF="javascript:PopupWindow('http://twitter.com/jcpenney')"" onmouseover="btn_StoreQuickLinks1_14.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_joinusTwitter.gif'" onmouseout="btn_StoreQuickLinks1_14.src='HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_joinusTwitter.gif'"><IMG onclick='cmCreatePageviewTag("Facebook - JCP","SocialNetwork|Twitter","",null,"",null,null,"","N","","","","","","","","","");
+' id=btn_StoreQuickLinks1_14 SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/GH_joinusTwitter.gif" Width="20" Height="20" Border=0 Alt="Follow us on Twitter" Title="Follow us on Twitter"/></A></TD></TR></TABLE></TD></TR></TABLE></TD></TR><TR><TD HEIGHT=5 ALIGN=RIGHT><BODY></BODY></TD></TR></TABLE></TD></TR></TABLE></TD></TR><TR><TD WIDTH=772 HEIGHT=10></TD></TR><TR><TD VALIGN=CENTER HEIGHT=30><div id="nm">
+	<ul id="nm_tabs">
+		
+				<li id="rptTab_ctl00_tab">
+					<a id="rptTab_ctl00_tab_link" tabindex="200" title="home store" onmouseover="listMenu.show('rptTabItem_ctl00_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl00_tab_items');" did="70749" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=70749&amp;CatID=70749&amp;cmAMS_T=G1&amp;cmAMS_C=D1B&amp;cmAMS_V=X2H2">home store</a>					
+				</li>
+			
+				<li id="rptTab_ctl01_tab">
+					<a id="rptTab_ctl01_tab_link" tabindex="201" title="bed + bath" onmouseover="listMenu.show('rptTabItem_ctl01_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl01_tab_items');" did="82319" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=82319&amp;CatID=82319&amp;cmAMS_T=G1&amp;cmAMS_C=D2B&amp;cmAMS_V=X2H2">bed + bath</a>					
+				</li>
+			
+				<li id="rptTab_ctl02_tab">
+					<a id="rptTab_ctl02_tab_link" tabindex="202" title="women" onmouseover="listMenu.show('rptTabItem_ctl02_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl02_tab_items');" did="70656" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=70656&amp;CatID=70656&amp;cmAMS_T=G1&amp;cmAMS_C=D3B&amp;cmAMS_V=X2H2">women</a>					
+				</li>
+			
+				<li id="rptTab_ctl03_tab">
+					<a id="rptTab_ctl03_tab_link" tabindex="203" title="men" onmouseover="listMenu.show('rptTabItem_ctl03_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl03_tab_items');" did="70673" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=70673&amp;CatID=70673&amp;cmAMS_T=G1&amp;cmAMS_C=D4B&amp;cmAMS_V=X2H2">men</a>					
+				</li>
+			
+				<li id="rptTab_ctl04_tab">
+					<a id="rptTab_ctl04_tab_link" tabindex="204" title="juniors + guys" onmouseover="listMenu.show('rptTabItem_ctl04_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl04_tab_items');" did="70646" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=70646&amp;CatID=70646&amp;cmAMS_T=G1&amp;cmAMS_C=D5B&amp;cmAMS_V=X2H2">juniors + guys</a>					
+				</li>
+			
+				<li id="rptTab_ctl05_tab">
+					<a id="rptTab_ctl05_tab_link" tabindex="205" title="kids" onmouseover="listMenu.show('rptTabItem_ctl05_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl05_tab_items');" did="70675" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=70675&amp;CatID=70675&amp;cmAMS_T=G1&amp;cmAMS_C=D6B&amp;cmAMS_V=X2H2">kids</a>					
+				</li>
+			
+				<li id="rptTab_ctl06_tab">
+					<a id="rptTab_ctl06_tab_link" tabindex="206" title="baby" onmouseover="listMenu.show('rptTabItem_ctl06_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl06_tab_items');" did="70676" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=70676&amp;CatID=70676&amp;cmAMS_T=G1&amp;cmAMS_C=D7B&amp;cmAMS_V=X2H2">baby</a>					
+				</li>
+			
+				<li id="rptTab_ctl07_tab">
+					<a id="rptTab_ctl07_tab_link" tabindex="207" title="shoes" onmouseover="listMenu.show('rptTabItem_ctl07_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl07_tab_items');" did="74491" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=77583&amp;CatID=77583&amp;cmAMS_T=G1&amp;cmAMS_C=D8B&amp;cmAMS_V=X2H2">shoes</a>					
+				</li>
+			
+				<li id="rptTab_ctl08_tab">
+					<a id="rptTab_ctl08_tab_link" tabindex="208" title="handbags + accessories" onmouseover="listMenu.show('rptTabItem_ctl08_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl08_tab_items');" did="73375" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=73375&amp;CatID=73375&amp;cmAMS_T=G1&amp;cmAMS_C=D9B&amp;cmAMS_V=X2H2">handbags + accessories</a>					
+				</li>
+			
+				<li id="rptTab_ctl09_tab">
+					<a id="rptTab_ctl09_tab_link" tabindex="209" title="jewelry + watches" onmouseover="listMenu.show('rptTabItem_ctl09_tab_items',this, 0, 30);" onmouseout="listMenu.hide('rptTabItem_ctl09_tab_items');" did="70737" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=70737&amp;CatID=70737&amp;cmAMS_T=G1&amp;cmAMS_C=D10B&amp;cmAMS_V=X2H2">jewelry + watches</a>					
+				</li>
+			
+				<li id="rptTab_ctl10_tab">
+					<a id="rptTab_ctl10_tab_link" tabindex="210" title="patio" onmouseover="listMenu.show('rptTabItem_ctl10_tab_items',this, -27, 30);" onmouseout="listMenu.hide('rptTabItem_ctl10_tab_items');" did="72511" href="http://www.jcpenney.com/jcp/X2.aspx?DeptID=80422&amp;CatID=80422&amp;cmAMS_T=G1&amp;cmAMS_C=D11B&amp;cmAMS_V=X2H2">patio</a>					
+				</li>
+			
+				<li id="rptTab_ctl11_tab">
+					<a id="rptTab_ctl11_tab_link" tabindex="211" title="best prices" onmouseover="listMenu.show('rptTabItem_ctl11_tab_items',this, -76, 30);" onmouseout="listMenu.hide('rptTabItem_ctl11_tab_items');" did="73298" href="http://www.jcpenney.com/jcp/x2.aspx?DeptID=73298&amp;CatID=73298&amp;cmAMS_T=G1&amp;cmAMS_C=D12B&amp;cmAMS_V=X2H2">best prices</a>					
+				</li>
+			
+	</ul>
+</div>
+
+<div id='navigationTabDiv' name='navigationTabDiv'></div>
+<script language=JavaScript type='text/javascript'> 
+var navTabDiv = document.getElementById('navigationTabDiv');
+var DomainLink = window.location.protocol + '//' + window.location.host + '/jcp/getjcpheaderc.aspx?function=getmenuitems&ver=20120417&fx=3';
+if ((navTabDiv != null) && (navTabDiv != '')) {
+try {
+include(DomainLink); }
+catch(err) {
+ }}
+function include(pURL) {
+if (window.XMLHttpRequest) { // code for Mozilla, Safari, ** And Now IE 7 **, etc 
+xmlhttp=new XMLHttpRequest();
+} else if (window.ActiveXObject) { //IE 
+xmlhttp=new ActiveXObject('Microsoft.XMLHTTP'); }
+if (typeof(xmlhttp)=='object') {
+xmlhttp.onreadystatechange=postFileReady;
+xmlhttp.open('GET', pURL, true);
+xmlhttp.send(null); }}
+// function to handle asynchronous call
+function postFileReady() {
+if (xmlhttp.readyState==4) { 
+if (xmlhttp.status==200) { 
+navTabDiv.innerHTML=xmlhttp.responseText; }}}
+</script></TD></TR><TR><TD><TABLE WIDTH=772 CELLSPACING=0 CELLPADDING=0 BORDER=0><TR><TD WIDTH=485 ALIGN=LEFT>
+<table cellSpacing="0" cellPadding="0" border="0">
+	<tr>
+		
+				<td height="30px">
+					<div id="pbRepeater_ctl00_pbLinkDiv"><a id="pbRepeater_ctl00_pbLink" href="http://www.jcpenney.com/jcp/X2.aspx?DeptID=86036&amp;PCatID=86036&amp;CatID=86036&amp;CatTyp=DEP&amp;Dep=Month&amp;cmDeptReset=true&amp;cmAMS_T=G1&amp;cmAMS_C=B1default&amp;cmCatID=globalnav"><img id="pbRepeater_ctl00_pbImage" tabindex="301" title="April Month-long Values" src="HTTP://cache.jcpenney.com/images/brands/0900631b81e89b65B.gif" alt="April Month-long Values" style="border-width:0px;" /></a></div>
+				</td>
+			
+				<td height="30px">
+					<div id="pbRepeater_ctl01_pbLinkDiv"><a id="pbRepeater_ctl01_pbLink" onClick="cmCreatePageviewTag('Sephora (40713)', '40713')" href="http://www.sephora.com/?om_mmc=jcp-hmpg-0-default-----------&amp;site=jcp"><img id="pbRepeater_ctl01_pbImage" tabindex="302" title="Sephora" src="HTTP://cache.jcpenney.com/images/brands/0900631b81e96369B.gif" alt="Sephora" style="border-width:0px;" /></a></div>
+				</td>
+			
+				<td height="30px">
+					<div id="pbRepeater_ctl02_pbLinkDiv"><a id="pbRepeater_ctl02_pbLink" href="http://www.jcpenney.com/jcp/X2.aspx?DeptID=78028&amp;PCatID=78028&amp;CatID=78028&amp;CatTyp=DEP&amp;Dep=Liz+Claiborne&amp;cmDeptReset=true&amp;cmAMS_T=G1&amp;cmAMS_C=B3default&amp;cmCatID=globalnav"><img id="pbRepeater_ctl02_pbImage" tabindex="303" title="Liz Claiborne" src="HTTP://cache.jcpenney.com/images/brands/0900631b819ec9ccB.gif" alt="Liz Claiborne" style="border-width:0px;" /></a></div>
+				</td>
+			
+				<td height="30px">
+					<div id="pbRepeater_ctl03_pbLinkDiv"><a id="pbRepeater_ctl03_pbLink" href="http://www.jcpenney.com/jcp/XGN.aspx?DeptID=70755&amp;PCatID=70755&amp;CatID=86884&amp;CatTyp=RLE&amp;Dep=KITCHEN+%26+DINING&amp;Cat=emeril&amp;cmDeptReset=true&amp;cmAMS_T=G1&amp;cmAMS_C=B4default&amp;cmCatID=globalnav"><img id="pbRepeater_ctl03_pbImage" tabindex="304" title="Emeril" src="HTTP://cache.jcpenney.com/images/brands/0900631b81e90a10B.gif" alt="Emeril" style="border-width:0px;" /></a></div>
+				</td>
+			
+	</tr>
+</table>
+</TD><TD ALIGN=RIGHT><TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0><TR><TD ALIGN=RIGHT VALIGN=TOP WIDTH=20 class="shoppingbag"><A HREF="http://www.jcpenney.com/jcp/bag.aspx"><IMG SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/GN_shoppingbag.gif" TABINDEX="350" WIDTH=20 HEIGHT=30 BORDER=0 ALT="go to shopping bag" TITLE="go to shopping bag"></A></TD><TD VALIGN=MIDDLE ALIGN=LEFT WIDTH=220><TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0 WIDTH=220 class="shoppingbagborder"><TR><TD WIDTH=10></TD><TD><A TABINDEX="351" class="shoppingbag" HREF="http://www.jcpenney.com/jcp/bag.aspx">shopping bag</A></TD><TD><A TABINDEX="352" id='itemCountAnchor' class="shoppingbag" HREF="http://www.jcpenney.com/jcp/bag.aspx">4 items</A></TD><TD><A TABINDEX="353" id='itemtotalAnchor' class="shoppingbag" HREF="http://www.jcpenney.com/jcp/bag.aspx">$137.00</A></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE><noscript><table width=772><tr><td height=2></td></tr><tr><td valign=top><img border=0 src=HTTP://cache.jcpenney.com/images/seasonal/colorchange/BrowserErrorIcon.gif /></td><td valign=bottom><font class="errormessagesmall">Javascript is disabled in your browser. </font><font class="errormessagesmallnonbold">Javascript must be enabled to shop our site and place an order. </font><a class="javascriptlink" href='http://www.jcpenney.com/jcp/CustomerServiceSub.aspx?cattyp=csr&catid=77457&CmCatId=homepage' target=_blank>How to enable Javascript...</a><br /></td></tr><tr><td height=12></td></tr></table></noscript><div id="cookiesDisabledDiv" style="display:none"><table width=772><tr><td height=2></td></tr><tr><td valign=top><img border=0 src=HTTP://cache.jcpenney.com/images/seasonal/colorchange/BrowserErrorIcon.gif /></td><td valign=bottom><font class="errormessagesmall">Cookies are disabled in your browser. </font><font class="errormessagesmallnonbold">Cookies must be enabled to shop our site and place an order. </font><a class="javascriptlink" href='http://www.jcpenney.com/jcp/CustomerServiceSub.aspx?cattyp=csr&catid=82311&CmCatId=homepage' target=_blank>How to enable cookies...</a><br /></td></tr><tr><td height=12></td></tr></table></div><script language="Javascript"> function clearDefault(el) {if (el.defaultValue==el.value) el.value = ''} </script><div id='clustername' style='display:none;' runat='server'>5|320B</div>
+	
+		<TABLE WIDTH=772 CELLPADDING=0 CELLSPACING=0 BORDER=0>
+			<tr>
+				<td TabIndex=2000><a href="javascript: var w = window.open('http://www.jcpenney.com/jcp/freeship4u.aspx?refpagename=Default%25252Easpx&refdeptid=&refcatid=&cmAMS_T=T1&cmAMS_C=C1&CmCatId=homepage', '', 'top=0,left=0,resizable=yes,scrollbars=yes,fullscreen=no,width=453,height=526'); w.focus();"><img Alt=" free shipping over $50, Free to Stores no minimum.  Use Code JCPSHIP get details" src="http://cache.jcpenney.com/images/Seasonal/T1_C01_000_041512_AprilW_V2.gif"  Width="553" Height="41" Border=0></a></td>
+				<td TabIndex=2001><a href="http://calendar.jcpenney.com?"><img Alt=" april is hopping" src="http://cache.jcpenney.com/images/Seasonal/T1_C02_000_041512_AprilW_V2.gif"  Width="219" Height="41" Border=0></a></td>
+			</tr>
+			<tr>
+				<td TabIndex=2002 rowspan=4><Map Name="jcpMapBanner C3"><AREA SHAPE="rect" HREF="http://www.jcpenney.com/jcp/XGN.aspx?deptid=86461&pcatid=86461&catid=86463&cattyp=NRC&dep=April&pcat=April&cat=color+your+world&refpagename=Default%252Easpx&refdeptid=&refcatid=&cmAMS_T=T1&cmAMS_C=C3&CmCatId=homepage" COORDS="29,40,301,148" Alt="shop colors"><AREA SHAPE="rect" HREF="http://book.jcp.com/?" COORDS="31,157,161,171" Alt="browse the book"><AREA SHAPE="rect" HREF="http://www.jcpenney.com/jcp/XGN.aspx?n=508&deptid=86461&pcatid=86461&catid=86463&cattyp=NRC&dep=April&pcat=April&cat=color+your+world&refpagename=Default%252Easpx&refdeptid=&refcatid=&cmAMS_T=T1&cmAMS_C=C3&CmCatId=homepage" COORDS="318,4,528,535" Alt="color your world"></MAP><img USEMAP="#jcpMapBanner C3" src="http://cache.jcpenney.com/images/Seasonal/T1_C03_000_041512_AprilWelc.jpg"  Width="553" Height="552" Border=0 Alt=" sweet april" Title=" "></td>
+				<td TabIndex=2003><img Alt="" src="http://cache.jcpenney.com/images/Seasonal/T1_C04_000_041512_AprilWelc.jpg"  Width="219" Height="75" Border=0></td>
+			</tr>
+			<tr>
+				<td TabIndex=2004><img Alt="" src="http://cache.jcpenney.com/images/Seasonal/T1_C06_000_041512_AprilWelc.jpg"  Width="219" Height="140" Border=0></td>
+			</tr>
+			<tr>
+				<td TabIndex=2005><img Alt="" src="http://cache.jcpenney.com/images/Seasonal/T1_C07_000_041512_AprilWelc.jpg"  Width="219" Height="167" Border=0></td>
+			</tr>
+			<tr>
+				<td TabIndex=2006><img Alt="" src="http://cache.jcpenney.com/images/Seasonal/T1_C08_000_041512_AprilWelc.jpg"  Width="219" Height="170" Border=0></td>
+			</tr>
+			<tr>
+				<td TabIndex=2007 rowspan=2><img Alt="" src="http://cache.jcpenney.com/images/Seasonal/T1_C05_000_041512_AprilWelc.jpg"  Width="553" Height="69" Border=0></td>
+				<td TabIndex=2008><img Alt="" src="http://cache.jcpenney.com/images/Seasonal/T1_C09_000_041512_AprilWelc.jpg"  Width="219" Height="35" Border=0></td>
+			</tr>
+			<tr>
+				<td TabIndex=2009><img Alt="" src="http://cache.jcpenney.com/images/Seasonal/T1_C10_000_041512_AprilWelc.jpg"  Width="219" Height="34" Border=0></td>
+			</tr>
+			
+<!-- BEGIN COREMETRICS SUPPORT -->
+<script language="javascript1.1" src="coremetrics/v31/eluminatev7.js"></script>
+<script language="javascript1.1" src="coremetrics/v31/techpropsv1.js"></script>
+<script language="javascript1.1" src="coremetrics/cmdatatagutilsv21.js"></script>
+<script language="javascript1.1"> var cmJv = "1.1" </script>
+<script language="javascript1.2"> var cmJv = "1.2" </script>
+<script language="javascript1.3"> var cmJv = "1.3" </script>
+<script language="javascript1.4"> var cmJv = "1.4" </script>
+<script language="javascript1.5"> var cmJv = "1.5" </script>
+<script language="javascript1.1">
+<!-- 
+cmSetProduction(true, 90024642, null, 90090265, 90046288, false);
+cmCreateTechPropsTag("default.aspx","homepage");
+//-->
+</script>
+<!-- END COREMETRICS -->
+
+<!-- BEGIN MARKETING TAGS SUPPORT -->
+<script src="http://jcp.netmng.com/?aid=1123" type="text/javascript" defer="defer"></script><script id="WebIQOptIn.v2" type="text/javascript" language="JavaScript" src="WebIQ/webiq_jcpenney03.js"></script>
+<!-- END MARKETING TAGS SUPPORT -->
+
+			<TR>
+				<TD COLSPAN=2>
+					<IMG SRC="HTTP://cache.jcpenney.com/images/seasonal/colorchange/spacer.gif" WIDTH=5 HEIGHT=4 BORDER=0 ALT="" TITLE="">
+				</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=2 ALIGN=Center>
+				<TABLE BORDER="0" BORDERCOLOR="Red" CELLPADDING="0" CELLSPACING="0"><TR><TD><TABLE BORDER="0" BORDERCOLOR="Green" CELLPADDING="0" CELLSPACING="0"><TR><TD align=center Class="navlinkfooter"><A tabindex="4100" onclick="" Class="navlinkfooter" HREF='http://jobs.jcp.com'>careers</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4102" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.com/jcp/PartnerSites.aspx?cmResetCat=True&CmCatId=homepage'>other products and services</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4104" onclick="" Class="navlinkfooter" HREF='http://www.jcprewards.com/portal.aspx?CID=JCPFTR08'>jcp rewards</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4106" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.com/giftcards'>gift cards</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4110" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.com/jcp/CustomerServiceSub.aspx?DeptID=12476&CatID=15624&CatTyp=CSR&cmResetCat=True&CmCatId=homepage'>para ayuda</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4112" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.com/jcp/JCPRoute.aspx?Target=CREDITCENTER&cmResetCat=True&CmCatId=homepage'>credit card</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4114" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.net/Our-Company.aspx'>about us</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4114" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.net/Media-Room.aspx'>media</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4114" onclick="" Class="navlinkfooter" HREF='http://ir.jcpenney.com/phoenix.zhtml?c=70528&p=irol-irHome'>investors</A></TD><TD align=center Width="20" Class="navtext">|</A></TD><TD align=center Class="navlinkfooter"><A tabindex="4116" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.com/jcp/CustomerServiceSub.aspx?DeptID=12476&CatID=25278&CatTyp=CSR&cmResetCat=True&CmCatId=homepage'>contact us</A></TD></TR></TABLE></TD></TR></TABLE>
+				</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=2 HEIGHT=7>
+					
+				</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=3 ALIGN=Center CLASS=CopyrightInfo>
+					<TABLE BORDER="0" BORDERCOLOR="Red" CELLPADDING="0" CELLSPACING="0"><TR><TD><TABLE BORDER="0" BORDERCOLOR="Green" CELLPADDING="0" CELLSPACING="0"><TR><TD align=center Class="navlinkfooter"><A tabindex="4200" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.com/jcp/CustomerServiceMenu.aspx?cus=Copyright&cmResetCat=True&CmCatId=homepage'>Copyright/legal notice</A></TD><TD Width="4"></TD><TD align=center Class="navlinkfooterbold"><A tabindex="4202" onclick="" Class="navlinkfooterbold" HREF='http://www.jcpenney.com/jcp/CustomerServiceSub.aspx?CatTyp=CSR&CatID=12490&cmResetCat=True&CmCatId=homepage'>Privacy Policy/</A></TD><TD align=center Class="navlinkfooterbold"><A tabindex="4203" onclick="" Class="navlinkfooterbold" HREF='http://www.jcpenney.com/jcp/CustomerServiceSub.aspx?CatTyp=CSR&CatID=12490&cmResetCat=True&CmCatId=homepage#california'>California Privacy Rights</A></TD><TD Width="8"></TD><TD align=center Class="navlinkfooter"><A tabindex="4205" onclick="" Class="navlinkfooter" HREF='http://www.jcpenney.com/jcp/SiteMap.aspx?cmResetCat=True&CmCatId=homepage#'>Site Map  </A></TD><TD Width="8"></TD><TD align=center Class="navlinkfooterbold"><A tabindex="4207" onclick="" Class="navlinkfooterbold" HREF='http://www.jcpenney.net/Customers/Product-Recalls.aspx'>Product Recalls</A></TD><TD Width="8"></TD><TD align=center Class="navlinkfooter">©JCP Media, Inc.,2012.</A></TD><TD Width="8"></TD><TD align=center Class="navlinkfooter">All Rights Reserved.</A></TD></TR></TABLE></TD></TR></TABLE>
+				</TD>
+			</TR>
+		</TABLE>
+	</CENTER>
+	</BODY>
+</HTML>

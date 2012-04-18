@@ -1,0 +1,455 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<html>
+
+<head>
+    <title>FoxTab :: Explore the way you like it.</title>
+	<meta name="description" content="FoxTab provides a new fascinating and elegant method for finding and selecting a tab in the browser.">
+<meta name="keywords" content="FoxTab, Firefox, Add-On, Add-Ons, Extensions, Tab, Tabs, Web, Browser, Web Browser, Mozilla ">
+<link rel="shortcut icon" href="/favicon.ico"> 
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/style.css">
+
+<script type="text/javascript" src="/scripts/main.js"></script> 
+
+	
+
+	<style>
+	   .installation-guide-bg {
+			position : absolute;
+			width : 100%;
+			height: 1500px;
+			z-index: 1000;
+			top: 0px;
+			left: 0px;
+			opacity: 0;
+			background-color : #000000;
+	   }
+
+	   .installation-guide-img-container {
+			position : absolute;
+			width : 100%;
+			z-index: 1001;
+			top: 0px;
+			//opacity: 0;
+	   }
+	   .installation-guide-img {
+		  float:right;
+		  opacity: 0;
+		  margin-right:10px;
+		  margin-top:10px;
+
+		}
+	</style>
+	<script language="javascript">
+
+
+
+	   function createInstallationGuide() {
+			var body = document.getElementsByTagName("body")[0];
+			var div = document.createElement("div");
+			div.setAttribute("class", "installation-guide-bg")
+			body.appendChild(div);
+			var div_container = document.createElement("div");
+			div_container.setAttribute("class", "installation-guide-img-container")
+		//	var img = document.createElement("img");
+
+			var img = document.getElementById("installation-guide-img")
+			img.setAttribute("class", "installation-guide-img")
+			img.setAttribute("id", "installation-guide-img")
+			img.addEventListener("mousedown",function(e) {
+				body.removeChild(div);
+				div_container.removeChild(e.currentTarget);
+			},false);
+		//	img.setAttribute("src","/images/installationGuide.png")
+			div_container.appendChild(img);
+			img.style.display ="block"
+			body.appendChild(div_container);
+			img.style.marginTop = (document.documentElement.scrollTop+10) +"px"
+			var interval;
+			var opacity = 0;
+			var opacityDelta = 0.03
+			var sizeInterval = function(div) {
+				  opacity += opacityDelta;
+				  div.style['opacity'] = opacity;
+				  finalOpacity = 0.8;
+				  if (div.id=="installation-guide-img") finalOpacity = 1
+				  if (opacity>=finalOpacity) {
+					  clearInterval(interval)
+					  interval = null;	  
+					  if (div.id!="installation-guide-img") {
+					     opacity = 0;
+						 interval = setInterval(sizeInterval, 1, img);
+					  }
+				  }
+			}
+			interval = setInterval(sizeInterval, 1, div);
+	   }
+	   
+
+	   img = new Image();
+	   img.src = "/images/download_button_over.png"
+
+	</script>
+</head>
+
+<body>
+   <center>
+   <div id="main">
+
+	   	   <script type="text/javascript">
+			var current_tab_id = "a"
+			function onTabOver(id) {
+
+				var last_link = document.getElementById("tab-" + current_tab_id);
+				last_link.className = "tab tab-" + current_tab_id
+
+				var last_strip = document.getElementById("links-strip-" + current_tab_id);
+				last_strip.style.display = 'none';
+
+				var new_link = document.getElementById("tab-" + id);
+				new_link.className = "tab-selected tab-" + id
+
+
+
+				var new_strip = document.getElementById("links-strip-" + id);
+				new_strip.style.display = '';
+				current_tab_id = id;
+			}
+	   </script>
+	   <div id="header">
+			
+
+		  <div id="social-links" style="padding-right:30px">
+		     <table align="right">
+			   <tr>
+			     <td>
+				   <a href="http://www.twitter.com/foxtab" target="_blank"><img src="/images/link_twitter.png" width="161" height="12" border="0" title="Follow us on Twitter"/></a>
+				 </td>
+				 <td style="padding-left:18px;padding-top:2px">
+				   <a href="http://www.facebook.com/pages/FoxTab/48806321694" target="_blank"><img src="/images/link_facebook.png" width="151" height="15" border="0" title="Join us on Facebook"/></a>
+				 </td>
+			   </tr>
+			 </table>
+		  </div>
+
+
+		  <div id="header-content">
+			  <a href="/" id="logo" title="foxtab.com"></a>
+
+			  <div id="menu" style="padding-right:30px">
+				  <table>
+					 <tr>
+					   <td align="right">
+						  <div id="tabs">
+							    <a class="home-link" href="/" title="foxtab.com"></a>
+							    <a href="/gettingstarted/" id="tab-a" class="tab-selected tab-a" title="Product" onclick="onTabOver('a');return false"></a>
+							    <a href="/troubleshooting/" id="tab-b" class="tab tab-b" title="Support" onclick="onTabOver('b');return false"></a>
+							    <a href="/contactus/" id="tab-c" class="tab tab-c" title="Contact Us"></a>
+						  </div>
+					   </td>
+					 </tr>
+					 <tr>
+					   <td align="right">
+						   <div id="links-strip-a">
+							 <div id="links-strip-left"></div>
+							 <div id="links-strip-middle">
+								<ul>
+									<li><a href="/gettingstarted/" title="Getting Started">Getting Started</a></li> 
+									<li>|</li> 
+									<li><a href="/features/" title="Features List">Features List</a></li>
+									<li>|</li> 
+									<li><a href="/howitlooks/" title="How it Look?">How it Looks?</a></li>
+									<li>|</li> 
+									<li><a href="/tipsandtricks/" title="Tips and Tricks">Tips and Tricks</a></li>
+									<li>|</li> 
+									<li><a href="/testimonials/" title="Testimonials">Testimonials</a></li>
+								</ul>
+							 </div>
+							 <div id="links-strip-right"></div>
+						   </div>
+
+						   <div id="links-strip-b" style="display:none;margin-right:20px" style="">
+							 <div id="links-strip-left"></div>
+							 <div id="links-strip-middle">
+								<ul>
+									<li><a href="/troubleshooting/" title="Troubleshooting">Troubleshooting</a></li> 
+									<li>|</li> 
+									<li><a href="/faq/" title="F.A.Q">F.A.Q</a></li>
+									<li>|</li> 
+									<li><a href="/changelog/" title="Change Log">Change Log</a></li>
+									<li>|</li> 
+									<li><a href="/localization/" title="Localization">Localization</a></li>
+								</ul>
+							 </div>
+							 <div id="links-strip-right"></div>
+						   </div>
+						   <div id="links-strip-c" style="display:none;height:30px"></div>
+					   </td>
+					 </tr>
+				  </table>	
+			 </div>
+		  </div>	 
+	   </div>
+
+	   <script type="text/javascript">
+			
+	   </script>
+
+	   <div id="main-page-canvas">
+			<div id="main-page-canvas-left"></div>
+			<div id="main-page-canvas-middle">
+				<table>
+				  <tr>
+					<td align="left" valign="top" style="padding-left:10px;padding-top:42px">
+					  <img src="/images/main_canvas_text.png" width="386" height="74"/>
+					</td>
+					<td rowspan="5" align="left" valign="top" style="padding-left:20px;padding-top:45px">
+					  <img src="/images/main_canvas_image.png" width="428" height="290"/>
+					</td>
+
+				  </tr>
+				  <tr>
+					<td align="left" valign="top" height="100" style="padding-left:10px;padding-top:30px">
+					   <a href="foxtab_1.4.4.xpi" id="download-link" title="Download FoxTab!" onclick="createInstallationGuide();"></a>
+					</td>
+				  </tr>
+				  <tr>
+					<td align="left" valign="top" height="50" class="inner-text" style="color:#ebebeb;padding-left:15px;padding-top:6px">
+					  Mozilla Firefox 6,<br>
+					  Windows XP or Vista, Linux, Mac OS X.
+
+					</td>
+				  </tr>
+				  <tr>
+					<td align="left" valign="top" class="inner-text" style="font-size:10px;color:#ebebeb;padding-left:15px;padding-top:12px">
+					   <img src="/images/stars.png" width="127" height="21"/>
+					</td>
+				  </tr>
+				  <tr>
+					<td align="left" valign="top" class="inner-text" style="font-size:10px;color:#ebebeb;padding-left:17px;padding-top:2px">
+					   Rated 5/5 on Mozilla AMO.<br>
+					 <!--  <a href="https://addons.mozilla.org/en-US/firefox/reviews/display/8879"  class="inner-text" style="font-size:10px;color:#ebebeb" target="_blank">Read 1000+ reviews.</a>-->
+					</td>
+				  </tr>
+
+
+				</table>
+			</div>
+			<div id="main-page-canvas-right"></div>			 
+	   </div>
+
+	   <div id="canvas" style="padding-top:0px">
+		  <div>
+			
+			  <table>
+			     <tr>
+				  <td valign="top">
+				    <table>
+					   <tr>
+					    <td valign="top">
+						  <div><h4 id="underline">WHAT IS FOXTAB?</h4></div>
+						  <div class="inner-text">
+FoxTab is a popular free 3D tab management add-on for the Firefox browser.<br>
+FoxTab powers Firefox with the following features:<br>
+&nbsp;&nbsp;– Top Sites (aka Speed Dial) for quickly accessing your favorite web sites<br>
+&nbsp;&nbsp;– Tab Flipper – to easily flip between opened tabs using mouse or keyboard gestures<br>
+&nbsp;&nbsp;– Recently Closed Tabs – for reopening a tab that was recently closed<br>
+<br>
+As the web is rapidly turning into an application environment where dozens of tabs are being opened
+concurrently, accessing a page visually is in times the fastest and best possible option.<br>
+FoxTab introduces to Firefox the best and most attractive way for accessing the web as never seen
+before on any other browser or operating system.
+						  </div>
+					   </td>
+					   <td style="padding-left:13px;padding-right:5px;padding-top:24px">
+					     <img src="/images/foxtab_screenshot1.jpg" width="329" height="240">
+					   </td>
+					  </tr>
+					</table>
+				  </td>
+				 </tr>
+				  <tr>
+					<td>
+					  <div id="main-horz-separator"></div>
+					</td>
+				  </tr>
+			     <tr>
+				  <td valign="top" style="padding-top:3px">
+				    <table>
+					   <tr>
+					   <td valign="top" style="padding-top:45px">
+					     <img src="/images/foxtab_screenshots2.jpg" width="440" height="196">
+					   </td>
+					    <td valign="top" style="padding-left:40px">
+						  <div><h4 id="underline">WHAT CAN YOU DO?</h4></div>
+						  <div class="inner-text" style="padding-top:2px">
+								<ul>
+								  <li>
+									Easily access your favorite top sites.
+								  </li>
+								  <li>
+									Enjoy many tabs management options.
+								  </li>
+								  <li>
+									Have <b>6</b> layouts to choose from.
+								  </li>
+								  <li>
+									For each layout, select the perspective that you find the most fun and useful to use.
+								  </li>
+								  <li>
+									Customize the way FoxTab looks with a set of predefined themes or by creating your own customized one.
+								  </li>
+								  <li>
+									Set thumbnails to be in Landscape or Portrait orientation.
+								  </li>
+								</ul>
+								<div style="margin-top:5px;margin-left:25px"><a href="/features/">Read More...</a></div>
+						  </div>
+					   </td>
+					  </tr>
+					</table>
+				  </td>
+				 </tr>
+
+			     <tr>
+				  <td valign="top" style="padding-left:10px;padding-top:3px">
+				    <table>
+					  <tr>
+					    <td>
+							<table>
+							   <tr>
+								 <td valign="top" style="padding-top:5px">
+								   <a href="http://news.cnet.com/8301-17939_109-10044366-2.html" target="_blank"><img src="/images/cnet_logo.jpg" width="161" height="57" border="0"></a>
+								 </td>
+							   </tr>
+							   <tr>
+								 <td valign="top"  class="inner-text" style="padding-left:10px;padding-top:4px;font-size:14px;color:#5c5c5c">
+								  “FoxTab turns your browser tabs into a spectacle"
+								 </td>
+							   </tr>
+							   <tr>
+								 <td valign="top" style="padding-left:28px;padding-top:32px">
+								   <a href="http://lifehacker.com/5051868/foxtab-brings-innovative-attractive-tab-switching-to-firefox" target="_blank"><img src="/images/lifehacker_logo.jpg" width="158" height="44" border="0"></a>
+								 </td>
+							   </tr>
+							   <tr>
+								 <td valign="top"  class="inner-text" style="padding-left:45px;padding-top:7px;font-size:14px;color:#5c5c5c">
+								  "FoxTab brings innovative, attractive tab switching to Firefox"
+								 </td>
+							   </tr>
+							</table>
+						</td>
+						<td valign="top" style="padding-left:70px;padding-top:40px">
+						   <table>
+						     <tr>
+							   <td>
+							     <a href="http://www.twitter.com/foxtab" target="_blank"><img src="/images/twitter_button.jpg" width="188" height="154" border="0" title="Follow us on Twitter"></a>
+							   </td>
+							   <td style="padding-left:10px">
+							     <a href="http://www.facebook.com/pages/FoxTab/48806321694" target="_blank"><img src="/images/facebook_button.jpg" width="195" height="112" border="0" title="Join us on Facebook"></a>
+							   </td>
+							 </tr>
+						   </table>
+						</td>
+					  </tr>
+					</table>
+				  </td>
+				 </tr>
+
+				</table>
+
+				 <br>	
+		  </div>
+	   </div>
+	   <img id="installation-guide-img" src="/images/installationGuide.png" width="281" height="152" style="display:none">
+
+	      <div id="footer">
+	  <table>
+		<tr>
+		  <td align="left" valign="top">
+			  <ul>
+				<li><a href="/" id="footer-link">Home</a></li>
+				<li><a href="/gettingstarted/" id="footer-link" title="Getting Started">Getting Started</a></li>
+				<li><a href="/features/" id="footer-link" title="Features List">Features List</a></li>
+				<li><a href="/howitlooks/" id="footer-link" title="How it Looks?">How it Looks?</a></li>
+
+			  </ul>
+		  </td>
+		  <td width="70"></td>
+		  <td align="left" valign="top">
+			  <ul>
+				<li><a href="/tipsandtricks/" id="footer-link" title="Tips and Tricks">Tips and Tricks</a></li>
+				<li><a href="http://www.foxtab.com/affiliate/matomy/" id="footer-link" title="Testimonials">Become An Affiliate</a></li>
+				<li><a href="/troubleshooting/" id="footer-link" title="Troubleshooting">Troubleshooting</a></li> 
+				<li><a href="/faq/" id="footer-link" title="F.A.Q">F.A.Q</a></li>
+
+			  </ul>
+		  </td>
+		  <td width="70"></td>
+		  <td align="left" valign="top">
+			  <ul>
+				<li><a href="/changelog/" id="footer-link" title="Change Log">Change Log</a></li>
+				<li><a href="/localization/" id="footer-link" title="Localization">Localization</a></li>
+				<li><a href="/mediakit/" id="footer-link">Media Kit</a></li>
+				<li><a href="/contactus/" id="footer-link">Contact Us</a></li>
+			  </ul>
+		  </td>
+
+
+		  <td width="130" align="center" valign="top">
+			<div id="footer-separator"></div>
+		  </td>
+		  <td align="left" valign="top">
+			  <table align="left">
+			    <tr>
+				  <td class="footer-text" style="padding-top:6px;padding-bottom:6px">
+				    Follow Us:
+				  </td>
+				</tr>
+			    <tr>
+					<td><a href="http://www.twitter.com/foxtab" target="_blank"><img src="/images/twitter_logo.jpg" width="93" height="25" border="0" title="Follow us on Twitter"/></a></td>
+					<td style="padding-left:20px"><a href="http://www.facebook.com/pages/FoxTab/48806321694" target="_blank"><img src="/images/facebook_logo.jpg" width="83" height="31" border="0" title="Join us on Facebook"/></a></td>
+			    </tr>
+			    <tr>
+				<td style="padding-top:5px" class="footer-text" colspan="2">
+Apps:
+<table style="margin-top:5px">
+
+  <tr>
+<td><a href="http://apps.foxtab.com/Audioconverter/" id="footer-link">Audio Converter</a></td>
+<td style="padding-left:15px"><a href="http://apps.foxtab.com/videotomp3/" id="footer-link">Videos to Mp3</a>
+</td>
+</tr>
+ <tr>
+<td><a href="http://apps.foxtab.com/flvconverter/" id="footer-link">FLV Video Converter</a></td>
+<td style="padding-left:15px"><a href="http://apps.foxtab.com/flvtomp3/" id="footer-link">FLV to Mp3</a>
+</td>
+</tr>
+				</td>
+			    </tr>
+		      </table>
+		  </td>
+		
+		</tr>
+		<tr><td height="5"></td></tr>
+	  </table>
+   </div>
+<div class="inner-text" style="margin-bottom:10px">
+Installer is powered by <a href="http://www.installcore.com/" style="color:#0b76B1">InstallCore.com</a>
+</div>
+   <script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-5682216-1");
+		pageTracker._trackPageview();
+   </script>
+
+   </div>
+</body>
+</html>
+

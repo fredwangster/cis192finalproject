@@ -1,0 +1,930 @@
+  <!DOCTYPE html>
+<html lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta chartset="utf-8" />
+<meta name="description" content="The Rush Limbaugh Show is the most listened to radio talk show in America, broadcast on over 600 radio stations nationwide. It is hosted by America's Anchorman, Rush Limbaugh" />
+<meta name="keywords" content="rush limbaugh, eib network" />
+<meta name="language" content="EN"/>
+<!-- FB Open Graph Meta Tags -->
+<meta property="og:title" content="Home - Rush Limbaugh - The Rush Limbaugh Show"/>
+<meta property="og:url" content="http://www.rushlimbaugh.com/"/>
+<meta property="og:type" content="home"/>
+<meta property="og:site_name" content="Rush Limbaugh"/>
+<meta property="og:image" content="http://www.rushimg.com/cimages//media/logos/twoifbyteabostoncontest/952182-1-eng-GB/TwoifByTeaBostonContest.jpg"/>
+<meta property="og:description"
+content="The Rush Limbaugh Show is the most listened to radio talk show in America, broadcast on over 600 radio stations nationwide. It is hosted by America's Anchorman, Rush Limbaugh"/>
+<!-- FB Open Graph Meta Tags -->
+
+<link rel="SHORTCUT ICON" href="/favicon.ico" />
+<link rel="ICON" type="/image/vnd.microsoft.icon" href="/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed of All Contents on the www.RushLimbaugh.com" href="http://feeds.feedburner.com/RushLimbaugh-AllContent" />
+
+<title>Home - Rush Limbaugh - The Rush Limbaugh Show</title>
+
+<script src="/js/dart.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/js/ellipsis.js"></script>      
+        
+	
+	<script src="/js/stepcarousel.js"></script>
+	 
+	<script src="http://www.rushimg.com/js/kyte_auth.20110923-1113.js"></script>
+	<script src="http://www.rushimg.com/js/kyte_init_full.20110923-1113.js"></script>
+	<script src="http://media.kyte.tv/js/kyte.js"></script>
+	<script src="http://www.rushimg.com/js/kyte_badge.20120315-1641.js"></script>
+	<script src="http://www.rushimg.com/js/kyte_script.20110916-1558.js"></script>
+	<script src="http://www.rushimg.com/js/default.20120221-1314.js"></script>
+	<script src="http://www.rushimg.com/js/html5.20110708-1509.js"></script>
+	<script src="http://www.rushimg.com/js/calendar.20111018-1406.js"></script>
+	<script src="http://common.rushlimbaugh.com/js/s_code.js"></script>
+
+        
+	<link rel="stylesheet" href="http://www.rushimg.com/css/kyte_styles.20111028-1056.css" />  
+	<link rel="stylesheet" href="http://www.rushimg.com/css/default.20120119-1316.css" />
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="http://www.rushimg.com/css/default_mobile.20120315-1641.css" />
+    <link rel="stylesheet" media="print" href="http://www.rushimg.com/css/print.20120103-1716.css"  />
+		
+	<div id="fb-root" style="visibility: hidden"></div><script src="http://connect.facebook.net/en_US/all.js#appId=208337502541180&amp;xfbml=1"></script>
+</head>
+ 
+<body onLoad="idetector();" itemscope itemtype="http://schema.org/WebPage">
+	<div id="container">
+		<!-- TOP LOG IN/OUT -->
+	<section>
+        <div class="memberlogin">
+			<form class="memberloginfields logged_out" action="/account/login" method="post">
+				<p>
+                    <input name="username" type="text" id="username" value="Username" />
+                    <input id="password-clear" type="text" value="Password" />
+                    <input id="password" type="password" name="password" value="" />
+                    
+                    <input type="hidden" name="return" value="/">
+                    <input type="image" id="button" border="0" src="/images/button_login_small.gif"> <input type="hidden" name="button" value="" alt="Login Button">
+				</p>
+			</form>
+            
+			<form class="memberloginfields logged_in" action="/account/logout" method="post">
+                <p class="membergreet">Dittos,&nbsp;<span class="logged_in_username"></span>!&nbsp;
+                        <input type="image" id="button" border="0" src="/images/button_logout_small.gif" alt="Log Out Button">
+                        <input type="hidden" name="button" value="">
+                        <input type="hidden" name="return" value="/">
+                </p>
+			</form>
+         
+           <div class="loginspacer_mobile"></div> 
+            
+			<ul class="logged_out">
+               <li><a href="/pages/static/join">Join</a>&nbsp;&nbsp;|&nbsp;</li>
+					<li><a href="http://premierenetworks.clearchannel.com/main.html" target="_blank">Help</a>&nbsp;&nbsp;|&nbsp;</li>
+					<li><a href="/account/password">Forgot Password</a></li>
+			</ul>
+			<ul class="logged_in">
+					<li><a href="/account/update">Update Account</a>&nbsp;&nbsp;|&nbsp;</li>
+					<li><a href="/account/renew">Renew</a>&nbsp;&nbsp;|&nbsp;</li>
+					<li><a href="http://premierenetworks.clearchannel.com/main.html" target="_blank">Help</a></li>
+			</ul>
+		</div>
+    </section>
+		<!-- LEADER AD -->
+		<section id="topad">
+			<div class="adtitle">ADVERTISEMENT</div>
+												<script type="text/javascript">
+if(typeof(cachebuster) == "undefined"){var cachebuster = Math.floor(Math.random()*10000000000)}
+if(typeof(dcopt) == "undefined"){var dcopt = "dcopt=ist;"} else {var dcopt = ""}
+dcopt = "";
+if(typeof(dfptile) == "undefined"){var dfptile = 1} else {dfptile++}
+document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=;sz=270x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*!sz*270x90;' + dcopt + ';tile=' + dfptile + ';ord=' + cachebuster + '?"></scr'+'ipt>');
+</script>
+<noscript><a href="http://ad.doubleclick.net/jump/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=;sz=270x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*!sz*270x90;ord=8473471463?" target="_blank" ><img src="http://ad.doubleclick.net/ad/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=;sz=270x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*!sz*270x90;ord=8473471463?" border="0" alt="" /></a></noscript>	
+		</section>
+		
+		
+		<section id="topleader">
+			<div class="adtitle">ADVERTISEMENT</div>
+												<script type="text/javascript">
+if(typeof(cachebuster) == "undefined"){var cachebuster = Math.floor(Math.random()*10000000000)}
+if(typeof(dcopt) == "undefined"){var dcopt = "dcopt=ist;"} else {var dcopt = ""}
+dcopt = "";
+if(typeof(dfptile) == "undefined"){var dfptile = 1} else {dfptile++}
+document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=top;sz=728x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*top!sz*728x90;' + dcopt + ';tile=' + dfptile + ';ord=' + cachebuster + '?"></scr'+'ipt>');
+</script>
+<noscript><a href="http://ad.doubleclick.net/jump/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=top;sz=728x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*top!sz*728x90;ord=8473471463?" target="_blank" ><img src="http://ad.doubleclick.net/ad/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=top;sz=728x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*top!sz*728x90;ord=8473471463?" border="0" alt="" /></a></noscript>	
+		</section>
+		
+		 
+		<!-- HEADER HOME BUTTON -->
+		<section>
+		<div id="homebutton"><a href="/"><img src="/images/spacer.gif" class="homespacerbutton" alt="Back Home Button" /></a></div>
+		</section>
+      
+      <!-- TAGLINE -->
+
+		<section id="tagline_mobile">
+		The Rush Limbaugh Show<br />Excellence in Broadcasting
+		</section>
+
+		<!-- MAIN NAV -->
+
+		<nav id="mainnav" class="navbox">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/videos">Audio/Video</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/podcast">Podcasts</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/daily">Archives</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/stackofstuff">Stack of Stuff</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/email-rush">Email</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/stations">Stations</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="https://members.premiereinteractive.com/store/" target="_blank">Store</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/pages/static/limbaugh-letter">Newsletter</a></li>
+				<li><img src="/images/dottedline.png" alt="" /></li>
+				<li><a href="/videos?uri=channels/456319">Parodies</a></li>
+			</ul>
+		</nav>
+		<div class="clear_all"></div>
+		
+		 
+		<!-- TOP SUB NAV -->
+		<nav id="topsubnav">
+			<ul>
+				<li><a onClick="whichBrs();this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.rushlimbaugh.com')" href="#">Make Rush Your Home Page</a>&nbsp;|&nbsp;</li>
+				<li><a href="/pages/static/faq">FAQ</a>&nbsp;|&nbsp;</li>
+				<li><a href="/pages/static/contact">Contact</a></li>
+			</ul>
+		</nav>
+		 
+		 
+		<!-- SUB NAV LIKE -->
+		<section id="facebooklike">
+      <div class="rssicon1"><a href="/rss"><img src="/images/icon_rss.png" alt="RSS Icon" /></a></div>
+      <div class="rssicon2"><a href="/rss">RSS</a></div>
+		<div class="float_l"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/rushlimbaugh&layout=button_count&show_faces=false&width=50&action=like&colorscheme=light&height=21" scrolling="no" frameborder="0" class="icon_social1" allowTransparency="true" height="80" width="100"></iframe></div>
+      <div class="clear_all"></div>
+		</section>
+
+		
+		<!-- MINIBAR -->
+		<section id="minibar">
+			<div class="adtitle">ADVERTISEMENT</div>
+												<script type="text/javascript">
+if(typeof(cachebuster) == "undefined"){var cachebuster = Math.floor(Math.random()*10000000000)}
+if(typeof(dcopt) == "undefined"){var dcopt = "dcopt=ist;"} else {var dcopt = ""}
+dcopt = "";
+if(typeof(dfptile) == "undefined"){var dfptile = 1} else {dfptile++}
+document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=;sz=984x27;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*!sz*984x27;' + dcopt + ';tile=' + dfptile + ';ord=' + cachebuster + '?"></scr'+'ipt>');
+</script>
+<noscript><a href="http://ad.doubleclick.net/jump/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=;sz=984x27;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*!sz*984x27;ord=8473471463?" target="_blank" ><img src="http://ad.doubleclick.net/ad/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=;sz=984x27;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*!sz*984x27;ord=8473471463?" border="0" alt="" /></a></noscript>	
+
+		</section><!-- BODY CONTENT -->
+<div id="intcontain">
+	<div id="intbg">
+
+		<!-- LEFT COLUMN -->
+		<div id="leftcolumn">
+
+			<!-- DISGRONIFIER -->
+			<div id="topwhitebar">
+
+				<section>
+
+				<form class="archivesearch" action="/search/" name="site_search" onsubmit="if(document.getElementById('query').value.length == 0 || document.getElementById('query').value == 'Archive Search'){alert('Please enter a valid search term.'); return false;} this.submit(); return false;">
+					<input class="searchfield" name="query" type="text" id="query" value="Archive Search" />
+                                        <input type="image" src="/images/button_go.gif" name="go" value="go" class="searchbutton" alt="Search Button" />
+				</form>
+            
+            <form id="browsebydate">
+			<div class="datetitle">Browse by Date:</div>
+			<div class="datetitle1"><input name="ADate" id="datefield" value="mm/dd/yyyy" onClick="displayDatePicker('ADate');"></div>
+			<div class="datetitle2"><input type="button" id="cal" value="" onClick="displayDatePicker('ADate');"></div>
+			</form>
+
+				<div class="clear_all"></div>
+				</section>
+			</div>
+
+			 
+			<!-- CAROUSEL -->
+			<div id="rushgallerywrapper">
+				<div class="carleftarrow">
+					<a href="javascript:stepcarousel.stepBy('rushgallery', -4)"><img src="/images/car_leftarrow.gif" alt="" /> </a>
+				</div>
+				<div class="carrightarrow">
+					<a href="javascript:stepcarousel.stepBy('rushgallery', 4)"><img src="/images/car_rightarrow.gif" alt="" /> </a>
+				</div>
+				<div id="rushgallery" class="stepcarousel">
+					<div class="belt">
+						<div class="panel" style="width: auto;">
+							<a href="http://Twitter.com/rushlimbaugh" target="_self"><img src="http://www.rushimg.com/cimages/media/thumb_generic_rush/thumb_twitter/941029-1-eng-GB/THUMB_Twitter_reference.jpg" /> </a>
+							<div id="carbottom0" class="carbottom">
+								<a href="http://Twitter.com/rushlimbaugh" target="_self">Follow Rush on Twitter</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/does_romney_s_tax_plan_accept_the_premise_of_the_left_s_class_warfare" target="_self"><img src="http://www.rushimg.com/cimages/media/thumbs/thumb_romneyclasswarfare/952368-1-eng-GB/THUMB_RomneyClassWarfare_reference.jpg" /> </a>
+							<div id="carbottom1" class="carbottom">
+								<a href="/daily/2012/04/17/does_romney_s_tax_plan_accept_the_premise_of_the_left_s_class_warfare" target="_self">Romney's Tax Plan and Class Warfare</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/obama_bashes_big_oil_speculators_in_rose_garden_campaign_appearance" target="_self"><img src="http://www.rushimg.com/cimages/media/thumbs/thumb_obama041712/952371-1-eng-GB/THUMB_Obama041712_reference.jpg" /> </a>
+							<div id="carbottom2" class="carbottom">
+								<a href="/daily/2012/04/17/obama_bashes_big_oil_speculators_in_rose_garden_campaign_appearance" target="_self">Obama Bashes Big Oil Speculators</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/if_nobody_likes_mitt_romney_why_is_he_leading_obama_by_five_in_the_gallup_poll" target="_self"><img src="http://www.rushimg.com/cimages/media/thumb_generic_obamas/thumb_mittobama/952365-1-eng-GB/THUMB_MittObama_reference.jpg" /> </a>
+							<div id="carbottom3" class="carbottom">
+								<a href="/daily/2012/04/17/if_nobody_likes_mitt_romney_why_is_he_leading_obama_by_five_in_the_gallup_poll" target="_self">If Nobody Likes Mitt, Why is He Leading Obama?</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/win_a_trip_to_boston_from_two_if_by_tea" target="_self"><img src="http://www.rushimg.com/cimages/media/thumbs/thumb_twoifbyteabostoncontest/952380-1-eng-GB/THUMB_TwoIfByTeaBostonContest_reference.jpg" /> </a>
+							<div id="carbottom4" class="carbottom">
+								<a href="/daily/2012/04/17/win_a_trip_to_boston_from_two_if_by_tea" target="_self">Win a Trip to Boston from Two If By Tea</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/the_jobless_numbers_manipulation" target="_self"><img src="http://www.rushimg.com/cimages/media/thumb_generic_obamas/thumb_obamaunemployment/911892-1-eng-GB/THUMB_ObamaUnemployment_reference.jpg" /> </a>
+							<div id="carbottom5" class="carbottom">
+								<a href="/daily/2012/04/17/the_jobless_numbers_manipulation" target="_self">The Jobless Numbers Manipulation</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/the_flat_tax_and_fairness" target="_self"><img src="http://www.rushimg.com/cimages/media/thumb_generic_obamas/thumb_obamamoneypile/911883-1-eng-GB/THUMB_ObamaMoneyPile_reference.jpg" /> </a>
+							<div id="carbottom6" class="carbottom">
+								<a href="/daily/2012/04/17/the_flat_tax_and_fairness" target="_self">The Flat Tax and Fairness</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/you_won_t_believe_what_my_iphone_did_in_the_car_this_morning" target="_self"><img src="http://www.rushimg.com/cimages/media/thumb_generic_rush/thumb_rushditto041712/952374-1-eng-GB/THUMB_RushDItto041712_reference.jpg" /> </a>
+							<div id="carbottom7" class="carbottom">
+								<a href="/daily/2012/04/17/you_won_t_believe_what_my_iphone_did_in_the_car_this_morning" target="_self">You Won't Believe What My iPhone Did</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/i_m_not_getting_your_e_mails_bob_lutz_but_let_s_talk_about_electrification_anyway" target="_self"><img src="http://www.rushimg.com/cimages/media/thumbs/thumb_lutzplane/952377-1-eng-GB/THUMB_LutzPlane_reference.jpg" /> </a>
+							<div id="carbottom8" class="carbottom">
+								<a href="/daily/2012/04/17/i_m_not_getting_your_e_mails_bob_lutz_but_let_s_talk_about_electrification_anyway" target="_self">I'm Not Getting Your E-mails, Bob Lutz</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/17/pearls_of_wisdom" target="_self"><img src="http://www.rushimg.com/cimages/media/thumb_generic_rush/thumb_rushquote/920316-1-eng-GB/THUMB_RushQUote_reference.jpg" /> </a>
+							<div id="carbottom9" class="carbottom">
+								<a href="/daily/2012/04/17/pearls_of_wisdom" target="_self">Pearls of Wisdom</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/16/2012_cure_a_thon_raises_over_3_million" target="_self"><img src="http://www.rushimg.com/cimages/media/thumbs/thumb_cureathon/951166-1-eng-GB/THUMB_Cureathon_reference.jpg" /> </a>
+							<div id="carbottom10" class="carbottom">
+								<a href="/daily/2012/04/16/2012_cure_a_thon_raises_over_3_million" target="_self">2012 Cure-A-Thon Raises Over $3 Million</a>
+							</div>
+						</div>
+						<div class="panel" style="width: auto;">
+							<a href="/daily/2012/04/13/el_rushbo_kicks_off_our_22nd_annual_leukemia_lymphoma_society_cure_a_thon_with_a_400_000_donation" target="_self"><img src="http://www.rushimg.com/cimages/media/thumbs/thumb_leukemialogo/950890-1-eng-GB/THUMB_LeukemiaLogo_reference.jpg" /> </a>
+							<div id="carbottom11" class="carbottom">
+								<a href="/daily/2012/04/13/el_rushbo_kicks_off_our_22nd_annual_leukemia_lymphoma_society_cure_a_thon_with_a_400_000_donation" target="_self">Rush Kicks Off Cure-A-Thon w/ $400K Donation</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<section itemprop="mainContentOfPage">
+
+<!-- ARTICLES -->
+<div id="intcontent">
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/win_a_trip_to_boston_from_two_if_by_tea" itemprop="url">Win a Trip to Boston from Two If By Tea</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><a href="http://twoifbytea.com/revere/index.php" target="_blank"><img class="img_middle" src="http://www.rushimg.com/cimages//media/logos/twoifbyteabostoncontest/952182-1-eng-GB/TwoifByTeaBostonContest.jpg"/></a>RUSH: A trip to Boston for two winners of four each, four people times two.  We don't send two people someplace, we send four, in case somebody wants to take the kids or the family.</p>
+<ul>
+
+<li><a href="http://twoifbytea.com/revere/index.php" target="_blank"><b>Read Official Rules at TwoIfByTea.com</b></a></li>
+
+</ul>
+</section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644383">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/win_a_trip_to_boston_from_two_if_by_tea">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/i_m_not_getting_your_e_mails_bob_lutz_but_let_s_talk_about_electrification_anyway" itemprop="url">I'm Not Getting Your E-mails, Bob Lutz -- But Let's Talk About "Electrification" Anyway</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img class="img_middle" src="http://www.rushimg.com/cimages//media/rushmontages/rushdittolutz2/952219-1-eng-GB/RushDittoLutz.jpg"/>RUSH: There is not a battery in the world that would get that 747 even down the runway at 30 miles an hour without needing a charge.</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644384">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/i_m_not_getting_your_e_mails_bob_lutz_but_let_s_talk_about_electrification_anyway">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/you_won_t_believe_what_my_iphone_did_in_the_car_this_morning" itemprop="url">You Won't Believe What My iPhone Did in the Car This Morning</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p>RUSH: If there is anybody in this audience listening that writes for an Apple or high-tech blog -- or if there is anybody listening to this program that works for or at Apple, Incorporated -- you have to hear what happened to me this morning.</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644385">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/you_won_t_believe_what_my_iphone_did_in_the_car_this_morning">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/obama_bashes_big_oil_speculators_in_rose_garden_campaign_appearance" itemprop="url">Obama Bashes Big Oil Speculators in Rose Garden Campaign Appearance</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img class="img_middle" src="http://www.rushimg.com/cimages//media/obamamontages/obamaoildrill041712/952222-1-eng-GB/ObamaOilDrill041712.jpg"/>RUSH: Obama's out in the Rose Garden today for a campaign appearance, and he starts trashing Big Oil, starts trashing the oil speculators. Let me ask a question: "Aren't these green energy people all speculating and are they not speculating with our money, taxpayer dollars?"</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644386">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/obama_bashes_big_oil_speculators_in_rose_garden_campaign_appearance">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/the_jobless_numbers_manipulation" itemprop="url">The Jobless Numbers Manipulation</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img id="eZObject_61147" class="img_middle" src="http://www.rushimg.com/cimages//media/obamamontages/obamaunemploymentmath/948537-1-eng-GB/ObamaUnemploymentMath.jpg"/>RUSH: There is no massive new job creation going on, and there isn't any economic growth to speak of. That's all you need to know.</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644390">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/the_jobless_numbers_manipulation">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/does_romney_s_tax_plan_accept_the_premise_of_the_left_s_class_warfare" itemprop="url">Does Romney's Tax Plan Accept the Premise of the Left's Class Warfare?</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img class="img_middle" src="http://www.rushimg.com/cimages//media/romney/romneyobamaclasswarfare2/952275-1-eng-GB/RomneyObamaClassWarfare2.jpg"/>RUSH: Change the concept of "wealth" to being a uniquely American aspiration! Change the concept of "wealth" to something everybody wants to be! Everybody has that dream. Everybody wants that opportunity. Some people are willing to work harder at it than others. But there's no reason to be defensive about this.</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644389">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/does_romney_s_tax_plan_accept_the_premise_of_the_left_s_class_warfare">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/if_nobody_likes_mitt_romney_why_is_he_leading_obama_by_five_in_the_gallup_poll" itemprop="url">If Nobody Likes Mitt Romney, Why is He Leading Obama by Five in the Gallup Poll?</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img class="img_middle" src="http://www.rushimg.com/cimages//media/obamamontages/mittobamagallup2/952356-1-eng-GB/MittObamaGallup.jpg"/>RUSH: This Washington Post story warns their readers: Don't think this election's a slam dunk. This election's nowhere near over. This election's gonna be closer than any of us thinks. (This is from the perspective of people that think Obama should win and they want him to win in a landslide, and they're a little bit upset.)</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644392">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/if_nobody_likes_mitt_romney_why_is_he_leading_obama_by_five_in_the_gallup_poll">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/the_flat_tax_and_fairness" itemprop="url">The Flat Tax and Fairness</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p>RUSH: Liberals don't want "equality." They claim they do, but they don't. They don't want "fairness." They claim they do, but they don't. They want inequality, and they want unfairness on the people they wanna punish, which is most everybody.</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=channels/456178/1644393">Listen Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/the_flat_tax_and_fairness">Read Transcript</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/pearls_of_wisdom" itemprop="url">Pearls of Wisdom</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img xhtml:id="eZObject_61539" class="img_middle" src="http://www.rushimg.com/cimages//media/pearlsofwisdom/rushquote041712/952359-1-eng-GB/RushQUote041712.jpg"/></p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      			      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/pearls_of_wisdom">Read More</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/quick_hits_page" itemprop="url">Quick Hits Page </a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p>London Olympics Issues Invitation to the Late Keith Moon... Secret Service Scandal Involved More Than 20 Women...Politico: Republicans to Slash Food Stamps... HuffPo Wins Pulitzer... Scott Walker Aide Attacked for Working at Hooters in College... Barney Frank Covers His Rear on Obamacare... Photo of GSA Official Looks Like a Cialis Commercial...</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      			      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/quick_hits_page">Read More</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="member_only_article">
+			<img src="/images/247MemberOnlyIcon.png" alt="24/7 Members Only" />
+		</div>
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/morning_update_ok" itemprop="url">Morning Update: OK?</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img class="img_right" src="http://www.rushimg.com/cimages//media/images/00-rush-morning-update3/885010-1-eng-GB/00-Rush-Morning-Update_small.gif"/>Tombstone, Arizona is a historic desert town. As in every desert town, an ample water supply isn’t a luxury; it’s a vital necessity. Unfortunately for Tombstone, a primary source of their water infrastructure is on parkland managed by Obama’s federal government.</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      	<a href="/videos?uri=videos?uri=channels/384062/1644480">Watch Now (Members Only)</a>		      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/morning_update_ok">Read More</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+		<article itemscope itemtype="http://schema.org/Article">
+				<div class="member_only_article">
+			<img src="/images/247MemberOnlyIcon.png" alt="24/7 Members Only" />
+		</div>
+				<div class="homearticle">
+			<header>
+			<h1 class="black" itemprop="name">
+			    					<a href="/daily/2012/04/17/rush_s_stack_of_stuff" itemprop="url">Rush's Stack of Stuff</a>
+							</h1>
+			 </header>
+						<time datetime="2012-04-17" pubdate="pubdate">April 17, 2012</time>
+			<meta itemprop="datePublished" content="2012-04-17T00:00:00-07:00" />
+						<section itemprop="description">
+
+<p><img class="img_left" src="http://www.rushimg.com/cimages//media/thumbs/eibmic23years/886121-1-eng-GB/EIBMic23Years.jpg"/>Do Your Show Prep: Everything Rush reads to prepare for the show.</p>
+
+<p>Some of the topics we're loaded with today: Obama to "Crack Down" on Oil Companies || Beckel Drops the F-Bomb on Fox || Obama GSA Scandal Deepens || Obama Secret Service Scandal Deepens</p></section>
+	        <div class="clear_all"></div>
+			<footer>
+			<div class="readmore">
+				
+		      			      	<img src="/images/icon_eib.png" class="eibicon" alt="" />
+								<a href="daily/2012/04/17/rush_s_stack_of_stuff">Read More</a>
+							</div>
+			</footer>
+		</div>
+	</article>
+	
+	<div id="morearticles" class="align_c">
+		<a href="/daily/2012/04/16">More Articles &raquo;</a>
+	</div>
+
+
+	<!-- END ARTICLES COLUMN -->
+</div>
+</section>
+				<!-- END LEFT COLUMN -->
+			</div>
+
+			<!-- RIGHT COLUMN -->
+<div id="rightcolumn">
+
+
+	<!-- TOP MEDIUM REC AD -->
+
+   <section>   
+	<div id="mediumrec_int">
+								<script type="text/javascript">
+if(typeof(cachebuster) == "undefined"){var cachebuster = Math.floor(Math.random()*10000000000)}
+if(typeof(dcopt) == "undefined"){var dcopt = "dcopt=ist;"} else {var dcopt = ""}
+dcopt = "";
+if(typeof(dfptile) == "undefined"){var dfptile = 1} else {dfptile++}
+document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=top;sz=300x250;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*top!sz*300x250;' + dcopt + ';tile=' + dfptile + ';ord=' + cachebuster + '?"></scr'+'ipt>');
+</script>
+<noscript><a href="http://ad.doubleclick.net/jump/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=top;sz=300x250;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*top!sz*300x250;ord=8473471463?" target="_blank" ><img src="http://ad.doubleclick.net/ad/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=top;sz=300x250;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*top!sz*300x250;ord=8473471463?" border="0" alt="" /></a></noscript>		<div class="adtitle">ADVERTISEMENT</div>
+	</div>
+	</section>
+
+
+	<!-- MEMBERS KYTE PLAYER -->
+	<div class="rightcolumntitle">
+		<h1>Rush 24/7 Audio/Video</h1>
+	</div>
+   
+   <div class="membersbar">
+            
+         <img src="/images/onair_off.gif" width="375" height="53" border="0" usemap="#onairmap2">
+         <map name="onairmap2">
+         <area shape="rect" coords="4,31,176,49" href="/videos?uri=channels/441627" alt="Listen to the Latest Show" />
+         <area shape="rect" coords="188,30,369,49" href="/videos?uri=channels/381257" alt="Watch the Latest Show" />
+      </map>
+         
+		   </div>
+
+	<div id="membersbg">
+
+	<div id="badgemobile">
+   <div id="itsThaBadge1"></div>
+   <script type="text/javascript"> 
+      badge_load('381257','1');
+   </script>
+
+   <div id="itsThaBadge2"></div>
+   <script type="text/javascript"> 
+      badge_load('441627', '2');
+   </script>
+   
+    <div id="itsThaBadge3"></div>
+   <script type="text/javascript"> 
+      badge_load('384062','3');
+   </script>
+
+   <div id="itsThaBadge4"></div>
+   <script type="text/javascript"> 
+      badge_load('456178', '4');
+   </script>
+   
+   </div>
+   
+   <div class="clear_all"></div>
+   
+   <div class="loginspacer_mobile"></div> 
+ 
+   
+	
+      
+   <div class="clear_all"></div>
+   
+  
+ 
+
+	</div>
+	
+	<div class="membersbar2">
+   <a href="/podcast">Podcast Center</a>&nbsp;|&nbsp;<a href="/videos">Click for More Audio/Video</a><br />
+   <a href="/pages/static/join"><img src="/images/members_joinbar.gif" alt="Join Rush 24/7" /></a>
+    </div>
+
+	<div class="rightcolumnshadow"></div>
+ 
+
+
+	<!-- BANNER -->
+	<section>
+	<div id="inahurry">
+   
+
+<p><a href="/pages/static/e-newsletter" target="_self"><img class="img_middle" src="http://downloades.rushlimbaugh.com/images/banner_rushnewsletter.jpg"/></a></p>
+   <p id="museumgraphic"><a href="http://download.premiereradio.net/guest/rushlimb/LimbaughMuseum/Iphone2/PRELOAD_Outside.html" target="_blank"><img class="img_middle" src="/images/LimbMuseumAd.jpg"/></a></p>
+   </div>
+	</section> 
+
+
+	<!-- FACEBOOK -->
+	<div class="rightcolumntitle">
+		<h1>Facebook</h1>
+	</div>
+
+	<div class="rightcolumnbg">
+   
+	<div id="facebookmodule"><iframe src="http://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/RushLimbaugh&width=365&colorscheme=light&show_faces=false&stream=true&header=false&height=395" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+   
+   <div id="facebookmodule_mobile"><iframe src="http://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/RushLimbaugh&width=320&colorscheme=light&show_faces=false&stream=true&header=false&height=395" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+   
+	</div>
+	<div class="rightcolumnshadow"></div>
+
+
+
+	<!-- BOTTOM MEDIUM REC AD -->
+	<section>
+	<div id="mediumrec_int">
+								<script type="text/javascript">
+if(typeof(cachebuster) == "undefined"){var cachebuster = Math.floor(Math.random()*10000000000)}
+if(typeof(dcopt) == "undefined"){var dcopt = "dcopt=ist;"} else {var dcopt = ""}
+dcopt = "";
+if(typeof(dfptile) == "undefined"){var dfptile = 1} else {dfptile++}
+document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=bottom;sz=300x250;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*bottom!sz*300x250;' + dcopt + ';tile=' + dfptile + ';ord=' + cachebuster + '?"></scr'+'ipt>');
+</script>
+<noscript><a href="http://ad.doubleclick.net/jump/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=bottom;sz=300x250;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*bottom!sz*300x250;ord=8473471463?" target="_blank" ><img src="http://ad.doubleclick.net/ad/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=bottom;sz=300x250;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*bottom!sz*300x250;ord=8473471463?" border="0" alt="" /></a></noscript>		<div class="adtitle">ADVERTISEMENT</div>
+	</div>
+	</section>
+
+
+	<!-- MOST POPULAR -->
+	<div class="rightcolumntitle">
+		<h1>Most Popular</h1>
+	</div>
+
+	<div class="rightcolumnbg mostpopular">
+		<ul>
+						<li><a href="http://www.rushlimbaugh.com/daily/2012/04/16/axelrod_speaks_the_truth_by_accident_obama_boulevard_is_a_dead_end">Axelrod Speaks the Truth by Accident: Obama Boulevard is a Dead End</a></li> 			<li><a href="http://www.rushlimbaugh.com/daily/2012/04/16/after_years_of_cultural_rot_why_are_we_surprised_by_the_secret_service_scandal">After Years of Cultural Rot, Why are We Surprised by the Secret Service Scandal?</a></li> 			<li><a href="http://www.rushlimbaugh.com/daily/2012/04/16/maher_reignites_the_war_on_moms">Maher Reignites the War on Moms</a></li> 			<li><a href="http://www.rushlimbaugh.com/daily/2012/04/16/calypso_louie_threatens_obama">Calypso Louie Threatens Obama</a></li> 			<li><a href="http://www.rushlimbaugh.com/daily/2012/04/16/study_confirms_undeniable_truth_of_life_24">Study Confirms Undeniable Truth of Life #24</a></li> 			<li><a href="http://www.rushlimbaugh.com/daily/2012/04/16/cheney_rips_obama_rallies_for_romney">Cheney Rips Obama, Rallies for Romney</a></li> 			<li><a href="http://www.rushlimbaugh.com/daily/2012/04/16/lib_pundits_fed_up_with_outrage_over_rosen_maher">Lib Pundits Fed Up with Outrage Over Rosen, Maher</a></li> 		</ul>
+	</div>
+	<div class="rightcolumnshadow"></div>
+
+	<!-- EIB FEATURES -->
+	<div class="rightcolumntitle">
+		<h1>EIB Features</h1>
+	</div>
+<div class="featuresint">
+      
+
+<p><a href="http://www.rushlimbaugh.com/library" target="_self"><img id="eZObject_54440" class="img_middle" src="http://www.rushimg.com/cimages//media/multimedia/libraryfeature3/883928-1-eng-GB/LibraryFeature.jpg"/></a><a href="http://itunes.apple.com/us/app/rush-limbaugh/id406055530?mt=8#ls=1" target="_blank"><img class="img_middle" src="http://www.rushimg.com/cimages//media/images/righ-column-banner-rush-iphone-app/869880-1-eng-US/Righ-Column-Banner-Rush-iPhone-App.jpg"/></a><a href="/daily/2010/03/05/statement_from_rush_limbaugh_executive_director_and_lead_researcher_of_the_forthcoming_turtle_preservation_society_of_palm_beach" target="_self"><img class="img_middle" src="http://www.rushimg.com/cimages//media/images/righ-column-banner-turtle-preservation-society-of-palm-beach/869886-1-eng-US/Righ-Column-Banner-Turtle-Preservation-Society-of-Palm-Beach.jpg"/> </a></p>
+
+<p><a href="/Pages/Static/Only-the-Rich-Pay-Taxes" target="_self"><img class="img_middle" src="http://www.rushimg.com/cimages//media/images/taxesfeature/882460-1-eng-GB/TaxesFeature.jpg"/></a></p>
+
+<p><a href="http://www.rushlimbaugh.com/pages/static/limbaugh-letter" target="_self"><img id="eZObject_57812" class="img_middle" src="http://www.rushimg.com/cimages//media/limbaughletter247/january2012limbaughlettersidebarad/917347-1-eng-GB/January2012LimbaughLetterSidebarAd.jpg"/></a></p>
+      <div id="goreflash">
+      <embed src="/images/gorecountdown.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="365" height="163"></embed>
+      </div>
+      <div id="gorestatic">
+     	<a href="/daily/2006/01/27/algore_we_have_ten_years_left_before_earth_cooks"><img src="/images/goreclockstatic.jpg" alt="Al Gore Countdown Clock" width="365" height="163" /></a>
+      </div>
+   </div>
+	<div class="rightcolumnshadow"></div>
+      
+	<!-- END RIGHT COLUMN -->
+</div>
+<div class="clear_all"></div>
+		<!-- END BODY INT -->
+	</div>
+	 
+<!-- FAT FOOTER -->
+<footer>
+<div id="footerinterior">
+
+	<!-- BOTTOM LEADER -->
+	<section>
+	<div id="bottomleader">
+												<script type="text/javascript">
+if(typeof(cachebuster) == "undefined"){var cachebuster = Math.floor(Math.random()*10000000000)}
+if(typeof(dcopt) == "undefined"){var dcopt = "dcopt=ist;"} else {var dcopt = ""}
+dcopt = "";
+if(typeof(dfptile) == "undefined"){var dfptile = 1} else {dfptile++}
+document.write('<scr'+'ipt type="text/javascript" src="http://ad.doubleclick.net/adj/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=bottom;sz=728x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*bottom!sz*728x90;' + dcopt + ';tile=' + dfptile + ';ord=' + cachebuster + '?"></scr'+'ipt>');
+</script>
+<noscript><a href="http://ad.doubleclick.net/jump/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=bottom;sz=728x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*bottom!sz*728x90;ord=8473471463?" target="_blank" ><img src="http://ad.doubleclick.net/ad/prnd/prn-rush;prngenre=conservative_talk;prntype=web;prnpage=home;pos=bottom;sz=728x90;u=prngenre*conservative_talk!prntype*web!prnpage*home!pos*bottom!sz*728x90;ord=8473471463?" border="0" alt="" /></a></noscript>	
+		<div class="adtitle">ADVERTISEMENT</div>
+	</div>
+	</section>
+
+	<!-- FOOTER MAP -->
+	<div id="footertitle">
+		<header>
+		<h1>
+			RushLimbaugh.com - &copy;
+			<script type="text/javascript">var d = new Date(); document.write(d.getUTCFullYear());</script>
+			Premiere Radio Networks. All Rights Reserved.
+		</h1>
+		</header>
+	</div>
+
+	<nav class="footerpad1">
+	<h1>Main Navigation</h1>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/daily">Archives</a></li>
+		<li><a href="/stackofstuff">Stack of Stuff</a></li>
+		<li><a href="/email-rush">Email</a></li>
+		<li><a href="/stations">Stations</a></li>
+		<li><a href="/videos">Video/Audio</a></li>
+		<li><a href="/videos?uri=channels/456319">Parodies</a></li>
+		<li><a href="/library">Library</a></li>
+		<li><a href="/pages/static/contact">Contact</a></li>
+		<li><a href="/pages/static/site-map">Full Site Map</a></li>
+	</ul>
+	</nav>
+	<nav class="footerpad2">
+	<h1>Miscellaneous</h1>
+	<ul>
+		<li><a href="http://itunes.apple.com/us/app/rush-limbaugh/id406055530?mt=8#ls=1" target="_blank">iPhone App</a></li>
+		<li><a href="http://www.facebook.com/RushLimbaugh" target="_blank">Facebook</a></li>
+		<li><a href="http://download.premiereradio.net/guest/rushlimb/LimbaughMuseum/Iphone2/PRELOAD_Outside.html" target="_blank">Limbaugh Museum of Broadcasting</a></li>
+		<li><a href="/daily/2010/03/05/statement_from_rush_limbaugh_executive_director_and_lead_researcher_of_the_forthcoming_turtle_preservation_society_of_palm_beach">Turtle Preservation Society</a></li>
+		<li><a href="/daily/2006/01/27/algore_we_have_ten_years_left_before_earth_cooks">Al Gore Doomsday Countdown</a></li>
+	</ul>
+	</nav>
+	<nav class="footerpad2">
+	<h1>Help &amp; Support</h1>
+	<ul>
+		<li><a href="/pages/static/faq">FAQ</a></li>
+		<li><a href="http://premierenetworks.clearchannel.com/main.html" target="_blank">Rush 24/7 Member Support</a></li>
+		<li><a href="http://premierenetworks.clearchannel.com/pages/technical_faq.html?feed=434972&article=8954642" target="_blank">Streaming Audio/Video Help</a></li>
+		<li><a href="http://premierenetworks.clearchannel.com/pages/downloads.html?feed=434976&article=8941892" target="_blank">Computer &amp; Browser Compatibility</a></li>
+		<li><a href="/pages/static/customer-service">Customer Service</a></li>
+		<li><a href="/account/password">Forgot Password</a></li>
+		<li><a href="/account/update">Update Account</a></li>
+	</ul>
+	</nav>
+	<nav class="footerpad2">
+	<h1>Store &amp; Subscriptions</h1>
+	<ul>
+		<li><a href="https://members.premiereinteractive.com/store/" target="_blank">Store</a></li>
+		<li><a href="/pages/static/join">Join Rush 24/7</a></li>
+		<li><a href="/pages/static/limbaugh-letter">The Limbaugh Letter</a></li>
+		<li><a href="/rss">RSS Feeds</a></li>
+		<li><a href="/pages/static/e-newsletter">Rush In A Hurry E-Newsletter</a></li>
+	</ul>
+	<div class="footerdiv"></div>
+	<h1>Legal</h1>
+	<ul>
+		<li><a href="http://www.premiereinteractive.com/legal/#privacy" target="_blank">Rush Limbaugh.com Privacy Policy</a></li>
+		<li><a href="http://www.premiereinteractive.com/legal/#terms" target="_blank">Rush 24/7 Terms &amp; Conditions</a></li>
+	</ul>
+	</nav>
+
+	<nav id="footermobile">
+   <a href="/pages/static/contact">Contact</a>&nbsp;|&nbsp;
+	<a href="http://www.facebook.com/RushLimbaugh">Facebook</a>&nbsp;|&nbsp;
+   <a href="http://itunes.apple.com/us/app/rush-limbaugh/id406055530?mt=8#ls=1">iPhone App</a>&nbsp;|&nbsp;
+   <span class="textwrap"><a href="/pages/static/e-newsletter">Rush in a Hurry E-Newsletter</a></span>&nbsp;|&nbsp;
+   <a href="/pages/static/join">Join Rush 24/7</a>&nbsp;|&nbsp;
+   <a href="/account/login">Member Login</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/account/logout">Logout</a>&nbsp;|&nbsp;
+   <a href="http://premierenetworks.clearchannel.com/main.html">Customer Service</a>&nbsp;|&nbsp;
+   <a href="http://www.premiereinteractive.com/legal/#privacy">Privacy Policy</a>&nbsp;|&nbsp;
+   <span class="textwrap"><a href="http://www.premiereinteractive.com/legal/#terms">Terms &amp; Conditions</a></span>
+   <div class="divider15"></div>
+   RushLimbaugh.com - &copy;
+			<script type="text/javascript">var d = new Date(); document.write(d.getUTCFullYear());</script>
+			Premiere Radio Networks. All Rights Reserved.
+   </nav>
+   
+</div>
+
+</footer>
+
+<!-- END FAT FOOTER -->
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+s.pageName="home:Home - Rush Limbaugh"
+s.prop1=""
+s.prop2=""
+s.prop3="Home - Rush Limbaugh"
+s.prop4=""
+s.prop5="website"
+s.prop6="RushLimbaugh"
+s.prop7="PREMIERE"
+s.prop8="NEWSTALK" 
+s.prop10="home"
+s.prop35= site_visitor
+s.hier1="RushLimbaugh,PREMIERE"
+s.hier2="RushLimbaugh,NEWSTALK"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)
+</script>
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+(function () {
+var d = new Image(1, 1);
+d.onerror = d.onload = function () {
+d.onerror = d.onload = null;
+};
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-704373h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+<div>
+<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-704373h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+width="1" height="1" alt="" />
+</div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-d8BTN2GVeWkVc",
+labels:"Premiere.RushLimbaugh"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-d8BTN2GVeWkVc.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- Start Google Analytics tag -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6395550-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End Google Analytics tag -->
+</body>
+</html>
+<!-- Page generated Wednesday April 18, 2012 -->

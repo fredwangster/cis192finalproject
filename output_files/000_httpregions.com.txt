@@ -1,0 +1,171 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	Regions | Personal Banking | Banking Solutions
+</title><meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+    <script src="https://www.regions.com/JS/loadMedia.min.js" type="text/javascript"></script>
+    <script src="https://www.regions.com/JS/cmbd-jquery.min.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        $savedlocationLink = $("a#savedlocationLink");
+	        $locationLink = $("div#lfo a#locationLink");
+	        $servicesLink = $("div#sfo a#servicesLink");
+	        $privacyLink = $("div#pfo a#privacyLink");
+
+	        // Labelify our location Flyout
+	        $("input.locationField").labelify();
+
+	        // Validators
+	        $("input#locationZipCode").ForceNumericOnly();
+	        $("input#locationState").ForceAlphaOnly();
+
+	        // Handle Resizing
+	        $(window).resize(function () {
+	            if ($privacyLink.position() != null) { $("div#privacy_menu").css("left", $privacyLink.position().left + 9); }
+	            if ($locationLink.position() != null) $("div#location_menu").css("left", $locationLink.position().left + 1);
+	            if ($savedlocationLink.position() != null) $("div#savedlocation_menu").css("left", $savedlocationLink.position().left + 1);
+	            if ($servicesLink.position() != null) $("div#services_menu").css("left", $servicesLink.position().left + 1);
+	        });
+
+	        // Toggle opening
+	        $locationLink.click(function () {
+	            if ($.browser.msie && $.browser.version <= 6) {
+	                return true;
+	            }
+	            else {
+	                $("div#location_menu").css("left", $locationLink.position().left + 1).toggle();
+	                $locationLink.toggleClass("menu-open");
+	                return false;
+	            }
+	        });
+
+	        $savedlocationLink.click(function () {
+	            if ($.browser.msie && $.browser.version <= 6) {
+	                return true;
+	            }
+	            else {
+	                $("div#savedlocation_menu").css("left", $savedlocationLink.position().left + 1).toggle();
+	                return false;
+	            }
+	        });
+
+	        $servicesLink.click(function () {
+	            if ($.browser.msie && $.browser.version <= 6) {
+	                return true;
+	            }
+	            else {
+	                $("div#services_menu").css("left", $servicesLink.position().left + 1).toggle();
+	                $servicesLink.toggleClass("menu-open");
+	                return false;
+	            }
+	        });
+
+	        $privacyLink.click(function () {
+	            $("div#privacy_menu").css("left", $privacyLink.position().left).toggle();
+	            $privacyLink.toggleClass("menu-open");
+	            return false;
+	        });
+
+	        // "Submit" the form
+	        $("div#locationFind").click(function () {
+	            branchSubmit();
+	        });
+
+	        // Hide the location dropdown if they click off on the page
+	        $(document).mouseup(function (e) {
+	            if ($(e.target).parent("a.locations_fo").length == 0 && $(e.target).parent(".Locations").length == 0 && $(e.target).parent("#location_menu").length == 0) {
+	                $locationLink.removeClass("menu-open");
+	                $("div#location_menu").hide();
+	            }
+
+	            if ($(e.target).parent("a.savedlocations_fo").length == 0 && $(e.target).parent(".Locations").length == 0 && $(e.target).parent("#savedlocation_menu").length == 0) {
+	                $("div#savedlocation_menu").hide();
+	            }
+
+	            if ($(e.target).parent("a.services_fo").length == 0 && $(e.target).parent(".Services").length == 0 && $(e.target).parent("#services_menu").length == 0) {
+	                $servicesLink.removeClass("menu-open");
+	                $("div#services_menu").hide();
+	            }
+
+	            if ($(e.target).parent("a.privacy_fo").length == 0 && $(e.target).parent("#Login").length == 0) {
+	                $privacyLink.removeClass("menu-open");
+	                $("div#privacy_menu").hide();
+	            }
+	        });
+	    });
+	</script>
+	
+<link href="App_Themes/2010/Ems.css" type="text/css" rel="stylesheet" /><link rel="icon" href="https://www.regions.com/favicon.ico" />
+	<meta name="template" content="Overview: 1" />
+	<meta name="keywords" content="personal banking, banking solutions, regions bank" />
+	<meta name="google-site-verification" content="vXT9FGmfvJVEQNDR2BPDLdv2noKJ0DvNqE2yVyHsDVE" />  <meta name="msvalidate.01" content="271EC74B887EECA7ECC5010F53938575" />  <meta name="google-site-verification" content="xFEMHdf6OM2EmVN8nKd0IP5bTdF-j2DPFhVs2PssdIU" /><script>var __app_started=false;if(document.addEventListener) document.addEventListener("DOMContentLoaded",main,false);else { document.write("<script id=__ie_onload><\/script>"); var script=document.getElementById("__ie_onload"); script.onreadystatechange=function(){ if(this.readyState == "complete") main();}}window.onload = main; function main(){ if(__app_started) return; checkMobileBrowser("https://m.regions.com/"); __app_started = true;};</script></head>
+<body>
+	<form name="aspnetForm" method="post" action="templateOverview.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0NDI3MzU5NTQPZBYCZg9kFgICAQ9kFgICAg8VAhdodHRwczovL3d3dy5yZWdpb25zLmNvbRdodHRwczovL3d3dy5yZWdpb25zLmNvbWRkgCEmGtjvWcFnJr/w9Nb2XPx93vc=" />
+
+<script type='text/javascript'>function GWLSubmit(){document.forms[0].action='https://www.regions.com/system/gateway.rf';document.forms[0].elements['__VIEWSTATE'].value='';document.forms[0].elements['__VIEWSTATE'].name='ignore';document.forms[0].submit();}</script><script type='text/javascript'>function rateSubmit(){document.forms[0].action='https://www.regions.com/Rates.rf';document.forms[0].elements['__VIEWSTATE'].value='';document.forms[0].elements['__VIEWSTATE'].name='ignore';document.forms[0].submit();}</script><script type='text/javascript'>function googleSubmit(){window.parent.location.href = 'https://www.regions.com/GoogleSearch.rf';document.forms[0].action='https://www.regions.com/GoogleSearch.rf';document.forms[0].elements['__VIEWSTATE'].value='';document.forms[0].elements['__VIEWSTATE'].name='ignore';document.forms[0].submit();}</script><script type='text/javascript'>function branchSubmit(){document.forms[0].action='https://www.regions.com/Locations.rf';document.forms[0].elements['__VIEWSTATE'].value='';document.forms[0].elements['__VIEWSTATE'].name='ignore';document.forms[0].submit();}</script>
+		<div>
+			<div class="emsPage">
+				<div class="emsInfonobackground"><div class="Token" onmouseover="return window.status='W:1 A:2';" onmouseout="return window.status='';">.</div><div class="Token" onmouseover="return window.status='v4.0.22';" onmouseout="return window.status='';">.</div></div>
+				<div class="emsHeaderTop"><div class="Services"><div id="sfo"> <a class="services_fo" id="servicesLink" href="https://www.regions.com/Services.rf"> <span>Services</span> </a> </div><div id="services_menu"><div id="services_menuTop"></div><div id="services_menuMid"><div id="sfo_personal"><h2>Personal</h2><ul>      <li><a href="https://www.planservices.com/regions/" title="1PlanPlus - Participant" target="_blank">1PlanPlus - Participant</a></li>      <li><a href="https://secure.thepaymentwindow.com/epayments/default.asp?siteId=11165&siteLoc=REG93E8FE78" title="Collections" target="_parent">Collections</a></li>      <li><a href="https://mymortgage.regionsmortgage.com/upmb/disp" title="My Mortgage" target="_blank">My Mortgage</a></li>      <li><a href="http://www.regions.com/personal_banking/alternative_education_loans.rf" title="My Student Loan" target="_blank">My Student Loan</a></li>      <li><a href="http://www.regions.com/personal_banking/regionsnet.rf" title="Regions Online Banking" target="_blank">Regions Online Banking</a></li>      <li><a href="https://trustonline.regions.com/weblink" title="Trust Online" target="_blank">Trust Online</a></li></ul></div><div id="sfo_business"><h2>Business</h2><ul>      <li><a href="https://www.sponsorinsight.com/regions/index.cfm" title="1PlanPlus - Sponsor" target="_blank">1PlanPlus - Sponsor</a></li>      <li><a href="http://www.inettracer.com/regions_homepage.asp" title="Commercial Card Services" target="_blank">Commercial Card Services</a></li>      <li><a href="https://expresstradelc.regions.com/icc" title="Express Trade LC" target="_blank">Express Trade LC</a></li>      <li><a href="http://itreasury.regions.com" title="iTreasury" target="_blank">iTreasury</a></li>      <li><a href="http://www.regions.com/commercial_banking/tms_disbursing_funds.rf" title="Integrated Payables" target="_parent">Integrated Payables</a></li>      <li><a href="https://onlineimagelockbox.regions.com/" title="Image Lockbox Online" target="_blank">Image Lockbox Online</a></li>      <li><a href="https://icapture.regions.com/" title="Quick Deposit" target="_blank">Quick Deposit</a></li>      <li><a href="https://www.consumercardaccess.com/main/spectrum/Home" title="Spectrum Card - Employee" target="_blank">Spectrum Card - Employee</a></li>      <li><a href="https://www.paycardsolutions.com/spectrum" title="Spectrum Card - Employer" target="_blank">Spectrum Card - Employer</a></li>      <li><a href="https://achalert.regions.com" title="Regions ACH Alert" target="_blank">Regions ACH Alert</a></li>      <li><a href="http://fx.regions.com/" title="RegionsFX" target="_parent">RegionsFX</a></li>      <li><a href="http://www.regions.com/small_business/regionsnet_business.rf" title="Regions Online Banking" target="_parent">Regions Online Banking</a></li>      <li><a href="https://payroll.regions.com/servlet/gateway?action=login&SC=9CCB08EC69ACD2FB6F99174A9CE578E9" title="Regions Online Payroll" target="_blank">Regions Online Payroll</a></li>      <li><a href="https://tokens.regions.com/" title="Token Management System" target="_parent">Token Management System</a></li></ul></div></div><div id="services_menuBot"></div></div><div class="Itm"><a href="https://www.regions.com/personal_banking/open_account.rf" title="Open an Account" target="_parent">Open an Account</a></div><div class="Itm">|</div><div class="Itm"><a href="https://www.regions.com/about_regions/careers.rf" title="Careers" target="_parent">Careers</a></div><div class="Itm"><a href="https://www.regions.com/contact.rf" title="Contact Us" target="_parent">Contact Us</a></div><div class="Last"><a mporgnav href="http://espanol.regions.com/enes/" onclick="return switchLanguage('es');function switchLanguage(lang) {MP.SrcUrl=unescape('mp_js_orgin_url');MP.UrlLang='mp_js_current_lang';MP.init();MP.switchLanguage(MP.UrlLang==lang?'en':lang);return false;}">En Español</a></div></div><div class="Locations"><div id="savedBranch" style="display: none;"><div id="savedlocation_menu"><div id="savedlocation_highlight"><span id="locationDisplayName"></span><br /><span id="locationPhone"></span><br /></div><br /><span id="locationAddress"><br />,  </span><br /><span id="locationLobbyHours"></span><br /><a href="https://www.regions.com/Map.rf?id=" id="locationMap">Map</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="https://www.regions.com/Directions.rf?id=" id="locationDrivingDirections">Driving Directions</a>&nbsp;&nbsp | &nbsp;&nbsp;<a href="https://www.regions.com/Map.rf?id=" id="locationMoreDetails">More Details</a></div><div class="Txt">My Branch: <a href="https://www.regions.com/Map.rf?id=" class="savedlocations_fo" id="savedlocationLink"></a> | <a href="https://www.regions.com/Locator.rf">Change Location</a></div></div><div id="findBranch" style="display: block;"><div id="lfo"> <a class="locations_fo" href="https://www.regions.com/Locator.rf" id="locationLink"><span>Locations</span></a> </div><div id="location_menu">  <input id="locationZipCode" name="locationZipCode" class="locationField" value="" title="ZIP Code" tabindex="1" type="text" autocomplete="off" maxlength="5" onkeydown="branchCK(this,event);" />  &nbsp;<strong>OR</strong> <br />  <input name="locationCity" type="text" class="locationField" id="locationCity" tabindex="2" title="City" value="" autocomplete="off" maxlength="25" onkeydown="branchCK(this,event);" />  <input name="locationState" type="text" class="locationField" id="locationState" tabindex="3" title="State" value="" autocomplete="off" maxlength="2" onkeydown="branchCK(this,event);" />  <br /><div class="Button" id="locationFind"></div></div></div></div></div>
+				<div class="emsHeaderMain"><div class="Logo" id="Logo"><script type="text/javascript">$("#Logo").click(function() { window.parent.location.href = 'https://www.regions.com/Personal_banking.rf';});</script></div><div class="Menu"><div class="Sel"><a class="Selected" href="https://www.regions.com/personal_banking.rf" title="Personal Banking" target="_parent">Personal Banking</a></div><div class="Sep"></div><div class="Itm"><a href="https://www.regions.com/small_business.rf" title="Small Business Banking" target="_parent">Small Business Banking</a></div><div class="Sep"></div><div class="Itm"><a href="https://www.regions.com/commercial_banking.rf" title="Commercial Banking" target="_parent">Commercial Banking</a></div></div><div class="Search"><div class="Button" onclick="googleSubmit();"></div><div class="Itm"><input name="googleSearch" class="Google" onkeydown="searchCK(this,event);" type="text"/></div></div></div>
+				
+	<div class="emsLoginBranding"><div class="Login"><div class="LoginHdr"><div class="hdrL">Online Banking Login</div><div class="hdrR"></div></div><div class="LoginContent"><table border="0" cellspacing="0" cellpadding="0" width="100%">   <tr>    <td>Online ID</td>    <td style="text-align: right;"><input id="OnlineID" name="OnlineID" style="width: 130px;" type="text" class="inLoginData" tabindex="1" onfocus="this.select();" onclick="this.select();" onkeydown="loginCK(this,event)" autocomplete="off" value="" /></td>   </tr>   <tr><td colspan="2" style="font-size:10px;text-align: right;"><a href="http://www.regions.com/personal_banking/online_banking_help.rf#userid" title="" target="_parent">Forgot Online ID?</a></td></tr>   <tr><td colspan="2" style="height:5px;"></td></tr>   <tr>    <td>Password</td>    <td style="text-align: right;"><input id="Password" name="Password" style="width: 130px;" type="password" autocomplete="off" maxlength="50" class="inLoginData" onkeydown="loginCK(this,event);" tabindex="2" /></td>   </tr>   <tr><td colspan="2" style="font-size:10px;text-align: right;"><a href="https://securebank.regions.com/ForgottenPassword.aspx" title="" target="_parent">Forgot Password?</a></td></tr>   <tr><td colspan="2" style="height:10px;"></td></tr>  </table>  <table border="0" cellspacing="0" cellpadding="0" width="100%">   <tr>    <td style="vertical-align:bottom;"><input id="RememberOnlineID" type="checkbox" tabindex="3" /></td>    <td style="font-size:10px; vertical-align:bottom;">Remember Online ID</td>    <td><div style="float: right;" class="LoginButton" onclick="loginSubmit();" tabindex="4"></div></td>   </tr>  </table>  <div style="clear: both; padding-top: 8px; border-bottom: 1px solid #ccc;"></div>  <div style="clear: both; padding-top: 7px;">   <div style="margin: 0px 0px 4px 0px;"><a href="https://securebank.regions.com/enroll/enrollment.aspx" title="" target="_parent">Enroll for Online Banking</a></div>   <div style="margin: 0px 0px 4px 0px;"><a href="http://www.regions.com/demos/overview.rf" title="" target="_parent">Take a tour of online banking</a></div>   <div style="margin: 0px 0px 4px 0px;"><a href="http://www.regions.com/personal_banking/online_banking_help.rf" title="" target="_parent">Need help logging in?</a></div>  </div>
+<script type="text/javascript">
+	var f1=new rememberForm("aspnetForm");
+	f1.persistfields("OnlineID");
+	f1.addtoggle("RememberOnlineID");
+	f1.addsetfocus("Password");
+
+	function loginCK(btn,event) {if (event.keyCode == 13) {event.returnValue=false;event.cancel = true;loginSubmit();}}
+	function loginSubmit(){
+		var onlineID = document.forms[0].OnlineID.value;
+		var onlinePW = document.forms[0].Password.value;
+		var rememberMe = document.forms[0].RememberOnlineID.checked;
+		if ((onlineID == "") || (onlinePW == "")){
+			alert("Please enter proper credentials to logon to Internet Banking!");
+			document.forms[0].OnlineID.focus();
+			return;
+		}
+		else{
+			document.forms[0].action="https://securebank.regions.com/login.aspx?brand=regions";
+			document.forms[0].elements["__VIEWSTATE"].value="";
+			document.forms[0].elements["__VIEWSTATE"].name="ignore";
+			if(is_nav2 || is_nav3 || is_nav4 || is_ie5down || is_firefox0){
+				window.location = "http://www.regions.com/system/unsupportedbrowser.rf";
+			}
+			else{
+				var f1=new rememberForm("aspnetForm");
+				f1.saveUsername("OnlineID", onlineID, rememberMe)
+				document.forms[0].submit();
+			}
+		}
+	}
+</script>
+</div><div id="pfo"> <a href="#" class="privacy_fo" id="privacyLink"> <span>Privacy &amp; Security</span> </a><div id="privacy_menu">
+<ul>
+	<li><a href="http://www.regions.com/about_regions/report_fraud.rf">Report fraud and e-mail scams</a></li>
+	<li><a href="http://www.regions.com/about_regions/protecting_self_online.rf">Learn how to protect yourself</a></li>
+	<li><a href="http://www.regions.com/personal_banking/online_security.rf">Find out how we protect you</a></li>
+	<li><a href="http://www.regions.com/about_regions/email_fraud.rf">Learn more about online fraud</a></li>
+</ul>
+</div></div></div><div id="bb1" class="LBranding"><script defer="defer" type="text/javascript">loadMediaImg_wHRef("bb1", "671", "205", "https://images.regions.com/Img/loadMediaW.swf", "https://images.regions.com/virtualMedia/img2896.jpg", "5", "http://www.regions.com/promotion/open.rf?WT.ac=Banner_Personal_LifeGreenChecking_Couch", "Wherever you are, you can open LifeGreen Checking online. Open an account in less than 10 minutes. Click here to open online.", "_parent")</script></div></div>
+	<div class="emsCaseBranding"><div class="CBranding"><div class="CBrandingHdr"><div class="hdrL">I want to...</div><div class="hdrR"><a href="https://www.regions.com/FAQ/how_do_I.rf" title="More" target="_parent">More</a></div></div><div class="Itm"><a href="https://www.regions.com/personal_banking/open_account.rf" title="Open an account" target="_parent">Open an account</a></div><div class="Itm"><a href="https://www.regions.com/locator.rf" title="Find a branch/ATM" target="_parent">Find a branch/ATM</a></div><div class="Itm"><a href="https://www.regions.com/about_regions/careers.rf" title="Work at Regions" target="_parent">Work at Regions</a></div><div class="Itm"><a href="http://realestate.regions.com" title="Find Properties for Sale" target="_parent">Find Properties for Sale</a></div>	</div>	<div id="cc1" class="CImage"><script defer="defer" type="text/javascript">loadMediaImg_wHRef("cc1", "221", "120", "https://images.regions.com/Img/loadMediaW.swf", "https://images.regions.com/virtualMedia/img3804.jpg", "5", "http://www.regions.com/personal_banking/now_banking.rf?WT.ac=CaseAd_Personal_NowBanking", "Regions Now Banking - Cash services you need, with or without a checking account. Click here to learn more.", "_parent")</script></div>	<div id="cc2" class="CImage"><script defer="defer" type="text/javascript">loadMediaImg_wHRef("cc2", "221", "120", "https://images.regions.com/Img/loadMediaW.swf", "https://images.regions.com/virtualMedia/img3803.jpg", "5", "http://www.regions.com/mortgage/preserve_homeownership.rf?WT.ac=CaseAd_Personal_HARP_HouseMoney", "Regions Mortgage - Helping to preserve Homeownership. Click here to learn more.", "_parent")</script></div>	<div id="cc3" class="CImage"><script defer="defer" type="text/javascript">loadMediaImg_wHRef("cc3", "221", "120", "https://images.regions.com/Img/loadMediaW.swf", "https://images.regions.com/virtualMedia/img3107.jpg", "5", "http://www.regions.com/personal_banking/identityprotect.rf?WT.ac=CaseAd_Personal_RegionsIdentityProtect", "Regions IdentityProtect. A great way to protect your good name. Click here to learn more.", "_parent")</script></div></div>
+	<div class="emsMainBranding"><div class="MBranding"><div><div class="Arrow"></div><div class="Hdr"><a href="https://www.regions.com/personal_banking/everyday_banking.rf" title="Banking Solutions" target="_parent">Banking Solutions</a></div></div><div class="Itm"><a href="https://www.regions.com/personal_banking/checking.rf" title="Checking" target="_parent">Checking</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/money_market_main.rf" title="Money Market" target="_parent">Money Market</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/savings_cds.rf" title="Savings" target="_parent">Savings</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/cds.rf" title="CDs" target="_parent">CDs</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/platinum_visa_check.rf" title="Regions Visa&reg; CheckCard" target="_parent">Regions Visa&reg; CheckCard</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/everyday_banking.rf" title="More" target="_parent">More</a></div></div><div class="MBrandingSep"></div><div class="MBranding"><div><div class="Arrow"></div><div class="Hdr"><a href="https://www.regions.com/personal_banking/loans_credit.rf" title="Loans and Lines of Credit" target="_parent">Loans and Lines of Credit</a></div></div><div class="Itm"><a href="https://www.regions.com/personal_banking/credit_cards.rf" title="Credit Cards" target="_parent">Credit Cards</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/home_equity_main.rf" title="Home Equity" target="_parent">Home Equity</a></div><div class="Itm"><a href="https://www.regions.com/mortgage.rf" title="Mortgages" target="_parent">Mortgages</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/auto_loans.rf" title="Auto Loans" target="_parent">Auto Loans</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/alternative_education_loans.rf" title="Student Loans" target="_parent">Student Loans</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/loans_credit.rf" title="More" target="_parent">More</a></div></div><div class="MBrandingSep"></div><div class="MBranding"><div><div class="Arrow"></div><div class="Hdr"><a href="https://www.regions.com/personal_banking/regionsnet.rf" title="Regions Online Banking" target="_parent">Regions Online Banking</a></div></div><div class="Itm"><a href="https://www.regions.com/personal_banking/get_started_online_statements.rf" title="Enroll Today" target="_parent">Enroll Today</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/regionsnet_bill_pay.rf" title="Bill Pay" target="_parent">Bill Pay</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/mobile_banking.rf" title="Mobile Banking" target="_parent">Mobile Banking</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/personal_pay.rf" title="Personal Pay" target="_parent">Personal Pay</a></div><div class="Itm"><a href="https://securebank.regions.com/ForgottenPassword.aspx" title="Password Reset" target="_blank">Password Reset</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/regionsnet.rf" title="More" target="_parent">More</a></div></div><div class="MBrandingSep"></div><div class="MBranding"><div><div class="Arrow"></div><div class="Hdr"><a href="https://www.regions.com/personal_banking/investing.rf" title="Insurance and Investing" target="_parent">Insurance and Investing</a></div></div><div class="Itm"><a href="https://www.regions.com/personal_banking/insurance.rf" title="Insurance" target="_parent">Insurance</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/trust_asset.rf" title="Trust and Asset Management" target="_parent">Trust and Asset Management</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/retirement_planning.rf" title="Retirement Planning" target="_parent">Retirement Planning</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/private_client.rf" title="Private Client Services" target="_parent">Private Client Services</a></div><div class="Itm"><a href="https://www.regions.com/personal_banking/investing.rf" title="More" target="_parent">More</a></div></div></div>
+	<div class="emsHeadlines"><div class="Headline"><div class="Hdr">News Headlines</div><script type="text/javascript">var news = new Array();var newsLinks = new Array();news[0] = "Important information regarding 2011 FDIC insurance rules";newsLinks[0] = "https://www.regions.com/FAQ/insured_deposits.rf";news[1] = "Regions Bank Completes 16-state Rollout of Regions Now Banking Product Suite";newsLinks[1] = "http://ir.regions.com/releasedetail.cfm?ReleaseID=659659";news[2] = "Money-saving tips: 10 Ways to Save Money Today.";newsLinks[2] = "http://savewithregions.com/advice/savings/10-Best-Ways-to-Save-Money.html";news[3] = "Teaching Kids About Money: Learn How to Jump-start the Conversation.";newsLinks[3] = "http://savewithregions.com/advice/lifeStages/Teaching-Kids-About-Money.html";news[4] = "If you have been affected by recent storms or are having difficulty making your loan payments, Regions has a team to help.";newsLinks[4] = "https://www.regions.com/personal_banking/loan_payment_hardship.rf";var cycleTime = 3000; var fadeTime = 2000; var position = 0; $(document).ready(function() { $newsContent = $("div#newsContent"); $newsContent.html(buildContent()); checkPosition() }); function cycleNews() { $newsContent.fadeOut(fadeTime, function() { $newsContent.html(buildContent()).show(); checkPosition(); window.setTimeout(cycleNews, cycleTime) }) } function buildContent() { var a; if (newsLinks[position].length == 0) { a = news[position] } else { a = "<a href='" + newsLinks[position] + "'>" + news[position] + "</a>" } return a } function checkPosition() { position++; if (position >= news.length) { position = 0 } } window.setTimeout(cycleNews, cycleTime);</script><div id="newsContent"></div></div></div>
+
+				<div class="emsFooter"> <div class="Footer"><div class="Itm"><a href="https://www.regions.com/about_regions.rf" title="About Regions" target="_parent">About Regions</a></div><div class="Itm">|</div><div class="Itm"><a href="http://ir.regions.com" title="Investor Relations" target="_parent">Investor Relations</a></div><div class="Itm">|</div><div class="Itm"><a href="http://www.regions.com/about_regions/privacy_security.rf" title="Privacy & Security" target="_parent">Privacy & Security</a></div><div class="Itm">|</div><div class="Itm"><a href="http://www.regions.com/about_regions/terms_conditions.rf" title="Terms & Conditions" target="_parent">Terms & Conditions</a></div><div class="Itm"><a href="http://www.regions.com/personal_banking/ehl.rf" title="Equal Housing Lender" target="_parent">Equal Housing Lender</a></div><div class="Itm">|</div><div class="Itm"><a href="http://www.regions.com/about_regions/economic_update.rf" title="Economic Reports" target="_parent">Economic Reports</a></div><div class="Itm">|</div><div class="Itm"><a href="http://realestate.regions.com" title="Property for Sale" target="_parent">Property for Sale</a></div></div><div class="FollowUs"><div class="Itm">Call 1-800-REGIONS</div><div class="Itm"><a href="javascript:void(0);" onClick="oOobj2.OnClick()"><img src="https://images.regions.com/Img/sm_558800_oo.gif" border="0" title="Feedback" style="margin-right:5px;">Feedback</a></div></div><div class="Copyright">		<div class="EHL"></div>		<div class="FDIC">Member FDIC</div><div class="Itm">&copy; 2012 Regions Financial Corporation. All Rights reserved.</div>	</div></div>			
+			</div>
+		</div>
+		
+	<!-- Start: WebAnalytics -->
+	<script src="https://www.regions.com/js/wtbase.js" type="text/javascript"></script><noscript><div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="https://statse.webtrendslive.com/dcs4b71fc10000gs8u88h5t1k_6n2i/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.0.3"/></div></noscript>
+	<script type="text/javascript"> var bt_test = false </script>  <script src="https://www.regions.com/js/_bt.js" type="text/javascript"></script>
+	<!-- End: WebAnalytics -->
+
+	</form>
+</body>
+</html>

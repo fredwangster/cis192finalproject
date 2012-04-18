@@ -1,0 +1,318 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+<title>Wells Fargo - Personal &amp; Business Banking - Student, Auto &amp; Home Loans - Investing &amp; Insurance </title>
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><meta http-equiv="Content-type" content="text/html" />
+<meta http-equiv="Cache-Control" content="must-revalidate" /><meta http-equiv="Cache-Control" content="no-store" /><meta http-equiv="Cache-Control" content="no-cache" /><meta http-equiv="Cache-Control" content="private" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta name="description" content="Wells Fargo is a provider of banking, mortgage, investing, credit card, insurance, and consumer and commercial financial services." />
+<meta name="keywords" content="checking accounts, savings accounts, student loans, personal loans, investments, online banking, auto loans, home loans" />
+<link rel="stylesheet" type="text/css" href="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/css/home/home.css" />
+<link rel="stylesheet" type="text/css" href="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/css/global/exit_lightbox.css" />
+<script type="text/javascript">
+document.write("<"+"style>#navContainer div ul.deepLink,img.tasAd {visibility:hidden}</"+"style>");
+</script>
+</head>
+<body>
+<div id="main">
+<div id="masthead"><img src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/header/logo_62sq.gif" width="62" height="62" alt="Wells Fargo" id="logo" />
+<form id="frmSearch" action="/search/search" method="get">
+<a href="/browser/jaws_setting"><img src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/s.gif" width="1" height="1" alt="JAWS users can change text link setting to hear clearer link descriptions" /></a>
+<input type="text" size="26" maxlength="75" name="query" id="query" title="Search" tabindex="2" /><input type="submit" value="Search" tabindex="2" name="searchBtn" class="submitBtn" id="searchBtn"/>
+</form>
+<div id="utility"><a href="/locator" tabindex="1">Find Locations</a> | <a href="/help/" tabindex="1">Customer Service</a> | <strong><a href="/spanish/" tabindex="1" lang="es" xml:lang="es">En Espa&#241;ol</a></strong></div>
+<div class="clearAll">&nbsp;</div> 
+</div>
+<div class="clearAll">&nbsp;</div><!-- Conditional statement for IE 6 and 7  to fix a css bug. --> <!--[if lte IE 7]> <style type="text/css">#tabNav ul {margin-bottom:-4px}</style> <![endif]-->
+<div id="tabNav"><ul><li class="tabOn"><span title="Personal. Selected">Personal</span></li><li><a href="/biz/" tabindex="2" title="Small Business. Serving businesses with up to $20 million in annual revenue">Small Business</a></li><li><a href="/com" tabindex="2" title="Commercial. Serving businesses with over $20 million in annual revenue">Commercial</a></li><li><a href="/about/" tabindex="2">About Us</a></li></ul><div class="clearAll">&nbsp;</div></div>
+<div id="container">
+<h1 class="hidden">Personal Homepage</h1>
+<div id="signon">
+<h2 id="hdrSignon">View Your Accounts</h2>
+<form autocomplete="off" name="signon" id="frmSignon" action="https://online.wellsfargo.com/signon" method="post">
+<div><strong><label for="destination">Go to</label>:</strong><select name="destination" id="destination" tabindex="2"><option value="AccountSummary" selected="selected">Account Summary</option><option value="Transfer">Transfer</option><option value="BillPay">Bill Pay</option><option value="Brokerage">Brokerage</option><option value="Trade">Trade</option><option value="MessageAlerts">Messages &amp; Alerts</option><option value="MainMenu">Account Services</option></select> </div>
+<div><strong><label for="userid">Username</label>:</strong><br />
+<input type="text" accesskey="U" id="userid" name="userid"  size="13" maxlength="14" tabindex="2" /></div>
+<div><strong><label for="password">Password</label>:</strong><br />
+<input type="password" accesskey="P" id="password" name="password"  size="13" maxlength="14" tabindex="2" />
+<input type="hidden" name="screenid" value="SIGNON" /><input type="hidden" name="origination" value="WebCons" /><input type="hidden" name="LOB" value="Cons" />
+<input type="submit" value="Go" name="btnSignon" id="btnSignon" class="submitBtn" tabindex="2"/></div> 
+<input type="hidden" id="u_p" name="u_p" value=""/>
+</form>
+<script type="text/javascript">document.getElementById("userid").focus();</script>
+<div class="clearAll">&nbsp;</div>
+<p><a href="/help/faqs/signon_faqs" class="signonHelp" tabindex="3">Username / Password Help</a></p>
+<div class="signonDivider">&nbsp;</div>
+<p id="persMsg">Need to set up online access?<br/><a href="https://adfarm.mediaplex.com/ad/ck/6878-38920-3408-45">Sign Up Now</a> or <a href="https://adfarm.mediaplex.com/ad/ck/6878-38920-3408-46">Take a Tour</a><!-- DEFAULT_SIGNON_AD --></p>
+<div class="signonDivider">&nbsp;</div>
+<h2>Account Services</h2>
+<ul>
+<li><a href="/wfonline/mymoneymap"><strong>Try My Money Map (It's Free!)</strong></a></li>
+<li><a href="/wfonline/messages/?mplx=6878-38920-3408-151"><strong>Set Up Account Alerts</strong></a></li>
+<li><a href="/wfonline/onlinestmts"><strong>Get Online Statements</strong></a></li>
+<li><a href="/help/services" ><strong>More &gt;</strong></a></li>
+</ul>
+<div class="signonDivider">&nbsp;</div>
+<h2>Find ATMs/Locations</h2>
+<form id="frmLocator" action="/locator/atm/preSearch" >
+<input type="text" size="28" maxlength="70" id="location" name="location" value="Enter Zip code or City & State" title="Find atms/locations" />
+<input type="submit" value="Go" id="locationGo" name="locationGo" class="submitBtn" />
+</form>
+<div class="signonDivider">&nbsp;</div>
+ 
+
+
+
+<h2>Fraud Prevention &amp; <br/>Online Security</h2>
+<ul>
+<li><strong><a href="/privacy_security/fraud/report/fraud">Report Phish and Email Scams</a></strong></li>
+<li><strong><a href="/privacy_security/fraud/">Visit Our Fraud Information Center</a></strong></li>
+<li><strong><a href="/privacy_security/online/guarantee">Read Our Online Security Guarantee</a></strong></li>
+</ul>
+
+ 
+<img src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/hp/stagecoach_bg_wht.jpg" width="232" height="62" alt="Together we'll go far" id="stagecoach"/></div>
+<div id="content">
+ 
+
+
+	
+		
+
+ 
+<div id="mainAd"><a href="https://adfarm.mediaplex.com/ad/ck/1221-4131-3408-219"><img width="731" src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/ads/tas/default/iau_492_731x194.jpg" height="194" class="tasAd" id="WF_CON_HP_PRIMARY_BNR" alt="You could save $492* on auto insurance. Compare quotes from multiple companies through Wells Fargo Insurance. Compare Quotes"/></a></div>
+<div id="navContainer">
+<div id="navLeft"> 
+<h2>Banking</h2>
+<ul id="WF_CON_HP_DEEPLINK_1" class="tasLinkContainer">
+<li><a href="/wfonline/">Online Banking</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-4130-3408-606" title="Get Free Access to Online Banking" class="sub">Get Free Access</a></li></ul></li>
+<li><a href="/mobile/">Mobile Banking</a></li>
+<li><a href="/wfonline/bill_pay/">Bill Pay</a></li>
+<li><a href="/checking/">Checking</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-8226-3408-194" title="Open A Checking Account In Minutes" class="sub">Open In Minutes</a></li></ul></li>
+<li><a href="/savings_cds/">Savings &amp; CDs</a></li>
+<li><a href="/credit_cards/" >Credit Cards</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-4127-3408-292" title="Earn Credit Card Rewards" class="sub">Earn Rewards</a></li></ul></li>
+<li><a href="/per/more/banking" class="last" title="More banking accounts and services">More</a></li>
+</ul>
+</div>
+<div id="navMid">
+<h2>Loans</h2>
+<ul id="WF_CON_HP_DEEPLINK_2" class="tasLinkContainer">
+<li><a href="/mortgage/home-loans">Home Lending</a></li>
+<li style="padding-left:9px"><a href="/mortgage/">Home Mortgage</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-4356-3408-401" title="Free Mortgage Prequalification" class="sub">Free Prequalification</a></li></ul></li>
+<li style="padding-left:9px"><a href="/equity/">Home Equity</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-4128-3408-346" title="Low Home Equity Rates" class="sub">Low Rates</a></li></ul></li>
+<li><a href="/student/">Student Loans</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-7304-3408-178" title="Apply Now For a Student Loan" class="sub">Apply Now</a></li></ul></li>
+<li><a href="/personal_credit/">Personal Loans</a></li>
+<li><a href="/autoloans/">Auto Loans</a></li>
+<li><a href="/per/more/loans_credit" class="last" title="More loans and credit options">More</a></li>
+</ul>
+</div>
+<div id="navRight">
+<h2>Investing & Insurance</h2>
+<ul id="WF_CON_HP_DEEPLINK_3" class="tasLinkContainer">
+<li><a href="/investing/retirement/">Retirement</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-4129-3408-353" title="Compare IRAs" class="sub">Compare IRAs</a></li></ul></li>
+<li><a href="/investing/investmentservices/">Investment Services</a><ul class="deepLink"><li><a href="https://adfarm.mediaplex.com/ad/ck/1221-4129-3408-349" title="Invest Online" class="sub">Invest Online</a></li></ul></li>
+<li><a href="/theprivatebank/">The Private Bank</a></li>
+<li><a href="/investing/mutual_funds/">Mutual Funds</a></li>
+<li><a href="/insurance/">Insurance</a></li>
+<li><a href="/insurance/id_credit_protection/idtheft?ref=WELLSROSPAG0066&eitp=WELLSCONFRM0008">Identity Theft Protection</a></li>
+<li><a href="/investing/more" class="last" title="More investing and insurance">More</a></li>
+</ul>
+</div>
+<div class="clearAll">&nbsp;</div>
+</div>
+<div class="rowContainer">
+<div class="contentSmLeft">
+<form id="actListForm" action="/go.htm">
+<h3><label for="actList">Open an Account</label></h3>
+<select name="dropdown" id="actList" >
+<option value="personal.openAccount.Checking">Checking</option>
+<option value="personal.openAccount.Savings">Savings</option>
+<option value="personal.openAccount.CDs">CDs</option>
+<option value="personal.openAccount.CreditCards">Credit Cards</option>
+<option value="personal.openAccount.PLL">Personal Lines &amp; Loans</option>
+<option value="personal.openAccount.AutoLoans">Auto Loans</option>
+<option value="personal.openAccount.HomeEquityLoansLines">Home Equity Loans &amp; Lines</option>
+<option value="personal.openAccount.HomeMortgage">Home Mortgage</option>
+<option value="personal.openAccount.StudentLoans">Student Loans</option>
+<option value="personal.openAccount.WellsTradeBrokerageAcct">WellsTrade Brokerage Account</option>
+<option value="personal.openAccount.IRAs">IRAs</option>
+<option value="personal.openAccount.HealthSavingsAcct">Health Savings Account</option>
+<option value="personal.openAccount.IdentityTheftProtection">Identity Theft Protection</option>
+<option value="personal.openAccount.More">More</option>
+</select>
+<input type="submit" value="Go" name="actGo" id="actGo" class="submitBtn"/>
+</form>
+<br />
+<h3><label>Applications</label></h3>
+<a href="/jump/applications/inprogress">Finish Application or View Status</a>
+</div> 
+<div class="contentSm">
+<form id="ratesListForm" action="/go.htm">
+<h3><label for="ratesList">Check Today's Rates</label></h3>
+<select name="dropdown" id="ratesList">
+<option value="personal.checkRates.Mortgage">Mortgage</option>
+<option value="personal.checkRates.HomeEquity">Home Equity</option>
+<option value="personal.checkRates.CDS">CDs (Time Account)</option>
+<option value="personal.checkRates.CreditCard">Credit Card</option>
+<option value="personal.checkRates.PersonalLoans">Personal Loans</option>
+<option value="personal.checkRates.More">More</option>
+</select>
+<input type="submit" value="Go" name="ratesGo" id="ratesGo" class="submitBtn"/>
+</form>
+<br />
+<h3><label>Wells Fargo Assist<sup>SM</sup></label></h3>
+<a href="/financial-assistance" style="padding-left:9px">Get help with payment challenges</a>
+</div>
+<div class="contentSm">
+<a href="https://adfarm.mediaplex.com/ad/ck/1221-49442-3408-49" class="234x84"><img src="/img/ads/consumer/regional/234x84/oth_financialliteracybanner_234x84.gif" alt="April is Financial Education Month. It's never too early or too late to start saving. Learn How" border="0" class="adv" height="84" width="234"/></a>
+</div>
+<div class="clearAll">&nbsp;</div>
+</div>
+<div class="rowContainer">
+<div class="contentSmLeft"><a href="https://adfarm.mediaplex.com/ad/ck/1221-7271-3408-136" class="234x84"><img id="WF_CON_HP_SECONDARY_A_BNR" width="234" src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/ads/tas/default/sav_makesavingeasy_234x84.gif" height="84" class="adv tasAd" alt="Make saving easy. Set up automatic transfers from your checking account. Start Now"/></a></div>
+<div class="contentSm"><a href="https://adfarm.mediaplex.com/ad/ck/1221-4356-3408-419" class="234x84"><img id="WF_CON_HP_SECONDARY_B_BNR" width="234" src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/ads/tas/default/mtg_2ndprequalfindout06_234x84.gif" height="84" class="adv tasAd" alt="Buying a house? Estimate how much you may be able to borrow. Get Started"/></a></div>
+<div class="contentSm"><a href="https://adfarm.mediaplex.com/ad/ck/1221-4130-3408-599" class="234x84"><img id="WF_CON_HP_SECONDARY_C_BNR" width="234" src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/ads/tas/default/olb_itseasy_234x84.gif" height="84" class="adv tasAd" alt="Bank online-it's easy. Get free online access to your Wells Fargo accounts. Sign Up Now"/></a></div>
+<div class="clearAll">&nbsp;</div> 
+</div>
+<div class="clearAll">&nbsp;</div>
+</div> 
+<div class="clearAll">&nbsp;</div> 
+</div>
+<div class="divider">&nbsp;</div>
+<div id="footer" align="center">
+<p id="footerNav"><a href="/about/">About Us</a> | <a href="/careers/">Careers</a> | <a href="/privacy_security/">PRIVACY, Security &amp; Legal</a> | <a href="/privacy_security/fraud/report/fraud">Report Email Fraud</a> | <a href="/sitemap">Sitemap</a><br />
+<a href="/about/diversity/">Diversity &amp; Accessibility</a> | <a href="https://online.wellsfargo.com/common/html/wibdisc.html">Online Access Agreement</a></p>
+<div class="notnot">
+<h4>Investment and Insurance Products:</h4>
+<ul>
+<li>Are Not insured by the FDIC or any other federal government agency</li>
+<li>Are Not deposits of or guaranteed by a Bank or any Bank Affiliate</li>
+<li>May Lose Value</li>
+</ul>
+</div>	 
+<p class="discl">Brokerage products and services are offered through Wells Fargo Advisors. Wells Fargo Advisors is the trade name used by two separate registered broker-dealers: Wells Fargo Advisors, LLC and Wells Fargo Advisors Financial Network, LLC, Members <a  id="sipc" href="http://www.sipc.org/">SIPC</a>, non-bank affiliates of Wells Fargo &amp; Company and  is intended only for United States residents. <em>WellsTrade</em><sup>&reg;</sup> is offered through Wells Fargo Advisors, LLC. </p>
+<p class="discl">Access to the service may be limited, delayed or unavailable during periods of peak demand, market volatility, system upgrades or maintenance, or electronic, communication or system problems, or for other reasons.</p>
+<p class="discl">Insurance products are offered through our affiliated nonbank insurance agencies (California license #26-0070024).</p>
+<p class="discl">Deposit and loan products offered by Wells Fargo Bank, N.A., Member FDIC. </p>
+ 
+
+    
+        
+            <p xmlns="http://www.w3.org/1999/xhtml" xmlns:cms="http://documentum.wellsfargo.com/schema/CMS" xmlns:function="http://documentum.wellsfargo.com/schema/Function" xmlns:ia="http://documentum.wellsfargo.com/schema/IA" xmlns:meta="http://documentum.wellsfargo.com/schema/Metadata" xmlns:widget="http://documentum.wellsfargo.com/schema/Widget" xmlns:wireframe="http://documentum.wellsfargo.com/schema/Wireframe" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/TR/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="discl" style="color:#000">
+    <strong>Important new FDIC insurance rules in effect from December 31, 2010 through December 31, 2012.</strong> <a href="/jump/about/fdic" style="text-decoration:underline">Learn More</a>
+</p>
+    
+
+
+
+<p id="copyright">&copy; 1999 - 2012 Wells Fargo. All rights reserved. NMLSR ID 399801
+<img src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/hp/al_ehl_house_gen.gif" alt="" width="14" height="10" style="padding:0 5px 0 15px" /><strong style="color:#000">Equal Housing Lender</strong></p>
+  </div>
+</div>
+
+<div id="exitLb" class="c71a">
+<div class="c71aTitle3"><img src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/header/logo_62sq.gif" alt="Wells Fargo">
+ <a class="closeLink hideBox" href="#" role="button"><img src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/global/close_gray.gif" alt="close"></a>     
+ <div id="exitMastBorder">&nbsp;</div>
+ <div class="clearAll">&nbsp;</div>
+ </div>  
+ <div class="contentWrap">     
+ 	<div class="content">
+		<h2>You are leaving the Wells Fargo website</h2> 
+	   <p>You are leaving wellsfargo.com and entering a website that Wells Fargo does not control. Wells Fargo has provided this link for your convenience, but does not endorse and is not responsible for the content, links, privacy policy, or security policy of this website.</p>  
+    </div>     
+	<div class="buttonBarPage" ><input id="exitPageContinueBtn" value="Continue" class="primary" type="button" /><input id="exitPageCloseBtn" value="Close" class="secondary" type="button" /></div>
+  </div>
+</div>
+
+
+<noscript><img src="//a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/img/s.gif?Log=1&jsoff=true" width="1" height="1" alt="" /></noscript>
+
+<script type="text/javascript" src="/javascript/user-prefs.js"></script>
+<script type="text/javascript" src="/javascript/global/constructors/flash_detect.js"></script>
+<script type="text/javascript">
+function domReady(callBack){ callBack();}
+var tasInfo={"pageID":"per_home","Url":"/tas","data":{},"App_ID":"WWW","deepLinks":["WF_CON_HP_DEEPLINK_1","WF_CON_HP_DEEPLINK_2","WF_CON_HP_DEEPLINK_3"]};
+</script>
+
+<script type="text/javascript" src="/javascript/global/tas.js"></script>
+<script type="text/javascript" src="/javascript/projects/home/lightBox.js"></script>
+<script type="text/javascript">
+/* Prevent framing */
+if (self != top) {
+    if (document.images){
+        top.location.replace(window.location.href);}
+    else{
+        top.location.href = window.location.href;}
+}
+// End framing
+
+var FocusNeeded = true;
+var isNS6 = navigator.userAgent.toLowerCase().indexOf("gecko") == -1 ? false : true;
+function showIt() {
+    if (FocusNeeded) {document.signon.userid.focus();}
+}
+function entrevous(keypressed) {
+    var key;
+    if (isNS6) {key=keypressed.keyCode;}
+    else if (document.all) {key=window.event.keyCode;}
+    else {key=keypressed.which;}
+    if (key==13) {document.signon.submit();}
+}
+function navigate(listId){
+    var List=document.getElementById(listId);
+    window.location.href=List.options[List.selectedIndex].value ;
+}
+
+
+function collectPcPrint() {
+	var formObj = document.getElementById("frmSignon");
+	fortyone.collect("u_p");
+	return true;
+}
+
+var jsSwitch = "on" ;
+function set_onSubmit(){
+ var formObj = document.getElementById("frmSignon");
+ if(jsSwitch=='on'){
+	 formObj.onsubmit=collectPcPrint ;
+     }
+ }
+ 
+ function setLocationStyles(){
+	var locationFld=document.getElementById("location");
+	locationFld.onclick=function(){	locationFld.select(); locationFld.style.color='#000'; };
+	locationFld.onfocus=function(){	locationFld.select(); locationFld.style.color='#000'; };
+	}
+
+ function setOtherServicesForm(){ 
+		document.getElementById("sipc").onclick=function(){return checkExit();};	
+	}	
+	function checkExit(){	
+		var smartDatemenu=document.getElementById("sipc");
+		var lightbox=new LightBox("exitLb",500,350);     //Instantiates a new LightBox object   
+		var exitLocation="http://www.sipc.org/";  
+		var exitDestination=document.getElementById("exitDestination");
+		
+		lightbox.show();
+		document.getElementById("exitPageContinueBtn").onclick=function(){window.location.href=exitLocation;};
+		document.getElementById("exitPageCloseBtn").onclick=function(){lightbox.hide();};	
+		return false;
+	}
+	
+(function(){
+		set_onSubmit();
+		document.signon.destination.onkeypress=entrevous;
+		setLocationStyles();
+		setOtherServicesForm();
+		})();
+
+</script>
+
+</body></html>

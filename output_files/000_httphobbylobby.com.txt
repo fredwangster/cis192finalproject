@@ -1,0 +1,552 @@
+
+	
+		
+		
+		
+
+	
+		
+		
+	
+		
+		
+		
+		
+		
+		 
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+						
+		
+		
+		
+		
+		
+		
+		
+		
+
+	 
+		
+			 
+		
+		
+		
+		
+		
+
+		
+
+
+
+		
+		 		
+
+		
+
+
+		
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+			   
+				
+				
+				
+								
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+	_gat._getTrackerByName()._trackEvent(category, action);
+	setTimeout('document.location = "' + link.href + '"', 100);
+  }
+</script>
+	
+	
+	
+	
+	
+	<title>Hobby Lobby - Hobby Lobby </title>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="revisit-after" content="1 days"> 
+	<meta name="robots" content="all"> 
+	<meta name="resource-type" content="document">
+	<meta name="classification" content="Commercial">
+	<meta name="robots" content="FOLLOW">
+	<meta name="distribution" content="Global">
+	<meta name="rating" content="General">
+	<meta name="author" content="Hobby Lobby Advertising">
+	<meta name="copyright" content="Hobby Lobby - All Rights reserved.">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	
+	<link rel="stylesheet" type="text/css" href="/assets/css/global.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/customize_page.css" />
+	
+	<script type="text/javascript" src="/assets/scripts/swfobject.js"></script>
+	<script type="text/javascript">
+	 <!--
+	 function clearEmailField()
+{
+	document.getElementById("header_email_address").value = "";	
+}
+
+
+
+
+
+
+var thispage = "%2Fhome%2Ecfm";
+;
+
+
+
+/***********************************************
+* AnyLink Drop Down Menu- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+/* Not currently using menu 1
+//Contents for menu 1
+var menu1=new Array()
+menu1[0]='<a href="http://www.javascriptkit.com">JavaScript Kit</a>'
+menu1[1]='<a href="http://www.freewarejava.com">Freewarejava.com</a>'
+menu1[2]='<a href="http://codingforums.com">Coding Forums</a>'
+menu1[3]='<a href="http://www.cssdrive.com">CSS Drive</a>'
+*/
+
+//Contents for menu 2
+var menu2=new Array()
+menu2[0]='<a href="/cookies.cfm?mybackground=stylesheet1.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/default_icon.jpg" alt="Default" width="20" height="20" border="0" /> Default </a>'
+menu2[1]='<a href="/cookies.cfm?mybackground=stylesheet2.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/sustainability_icon.jpg" alt="Sustainability" width="20" height="20" border="0" /> Sustainability </a>'
+menu2[2]='<a href="/cookies.cfm?mybackground=stylesheet3.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/candy_circles_icon.jpg" alt="Candy Circles" width="20" height="20" border="0" /> Candy Circles </a>' 
+menu2[3]='<a href="/cookies.cfm?mybackground=stylesheet4.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/colored_noodles_icon.jpg" alt="Funky Zebra" width="20" height="20" border="0" /> Funky Zebra </a>'
+menu2[4]='<a href="/cookies.cfm?mybackground=stylesheet5.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/reused_icon.jpg" alt="Reused" width="20" height="20" border="0" /> Reused </a>'
+menu2[5]='<a href="/cookies.cfm?mybackground=stylesheet6.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/fall_flowers_icon.jpg" alt="Fall Flowers" width="20" height="20" border="0" /> Vintage Flowers </a>'
+menu2[6]='<a href="/cookies.cfm?mybackground=stylesheet7.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/thriving_stripes_icon.jpg" alt="Thriving Stripes" width="20" height="20" border="0" /> Thriving Stripes </a>'
+menu2[7]='<a href="/cookies.cfm?mybackground=stylesheet8.css&thispage=' + thispage + '"><img src="/assets/images/customized_backgrounds/geometric_icon.jpg" alt="Geometric" width="20" height="20" border="0" /> Geometric </a>'
+
+		
+var menuwidth='140px' //default menu width
+var menubgcolor='white'  //menu bgcolor
+var disappeardelay='2500'  //menu disappear speed onMouseout (in miliseconds)
+var hidemenu_onclick="yes" //hide menu when user clicks within menu?
+
+/////No further editting needed
+
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+if (ie4||ns6)
+document.write('<div id="dropmenudiv" style="visibility:hidden;width:'+menuwidth+';background-color:'+menubgcolor+'" onMouseover="clearhidemenu()" onMouseout="dynamichide(event)"></div>')
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+
+function showhide(obj, e, visible, hidden, menuwidth){
+if (ie4||ns6)
+dropmenuobj.style.left=dropmenuobj.style.top="-500px"
+if (menuwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=menuwidth
+}
+if (e.type=="click" && obj.visibility==hidden || e.type=="mouseover")
+obj.visibility=visible
+else if (e.type=="click")
+obj.visibility=hidden
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=0
+if (whichedge=="rightedge"){
+var windowedge=ie4 && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-15 : window.pageXOffset+window.innerWidth-15
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetWidth
+}
+else{
+var topedge=ie4 && !window.opera? iecompattest().scrollTop : window.pageYOffset
+var windowedge=ie4 && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure){ //move up?
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetHeight
+if ((dropmenuobj.y-topedge) < dropmenuobj.contentmeasure) //up no good either?
+edgeoffset=dropmenuobj.y+obj.offsetHeight-topedge
+}
+}
+return edgeoffset
+}
+
+function populatemenu(what){
+if (ie4||ns6)
+dropmenuobj.innerHTML=what.join("")
+}
+
+
+function dropdownmenu(obj, e, menucontents, menuwidth){
+if (window.event) event.cancelBubble=true
+else if (e.stopPropagation) e.stopPropagation()
+clearhidemenu()
+dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
+populatemenu(menucontents)
+
+if (ie4||ns6){
+showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")-0+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")-obj.offsetHeight+17+"px"
+
+}
+<!-- changed offset to put menu above by changing sign on obj.offsetHeight from + to - and adding -70 after obj.offsetHeight -->
+<!-- you can change the -70 to move the menu up or down -->
+return clickreturnvalue()
+}
+
+function clickreturnvalue(){
+if (ie4||ns6) return false
+else return true
+}
+
+function contains_ns6(a, b) {
+while (b.parentNode)
+if ((b = b.parentNode) == a)
+return true;
+return false;
+}
+
+function dynamichide(e){
+if (ie4&&!dropmenuobj.contains(e.toElement))
+delayhidemenu()
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.currentTarget, e.relatedTarget))
+delayhidemenu()
+}
+
+function hidemenu(e){
+if (typeof dropmenuobj!="undefined"){
+if (ie4||ns6)
+dropmenuobj.style.visibility="hidden"
+}
+}
+
+function delayhidemenu(){
+if (ie4||ns6)
+delayhide=setTimeout("hidemenu()",disappeardelay)
+}
+
+function clearhidemenu(){
+if (typeof delayhide!="undefined")
+clearTimeout(delayhide)
+}
+
+if (hidemenu_onclick=="yes")
+document.onclick=hidemenu
+
+
+	 -->
+	</script>
+		
+	
+		<link rel="stylesheet" type="text/css" href="/assets/css/no_side_menu.css" />
+	
+	
+	
+		
+<link rel="stylesheet" type="text/css" href="/assets/css/home.css" />
+
+
+<script type="text/javascript">
+	swfobject.registerObject("home_flash", "9.0.0");
+</script>
+		
+		
+	
+
+
+<link href="/assets/css/customize/stylesheet1.css" rel="stylesheet" type="text/css" />
+
+ 
+	
+	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="screen" href="/assets/css/ie6_specific.css" /><![endif]-->
+
+</head>
+
+<body  >
+	<div id="container"><!-- Start Container -->
+	
+		<div id="header"><!-- Start Header -->
+			<div id="logo"><!-- Start Logo -->
+								
+				<a href="/home.cfm"><img src="/assets/images/global/logo.jpg" alt="Hobby Lobby Logo" border="0" /></a>
+				
+				<!-- <a href="/home.cfm"><img src="/assets/images/global/logo.jpg" alt="Hobby Lobby Logo" border="0" id="header_logo" /></a> -->
+			
+			</div><!-- End Logo -->
+			
+			<div id="header_right_content"><!-- Start header_right_content - container for online shopping info area nad email signup form -->
+				<div id="online_shopping_info_area"><!-- start online shopping info area --->
+					<a href="/shop" id="header_shop_online_link">Shop Online</a>
+					<a href="/StoreLocator/">Store Finder</a>
+				</div><!-- end online shopping info area --->
+	
+				<div id="email_signup_form"><!-- Start Email Signup Form -->
+					<form action="/email_subscriptions/subscribe.cfm" method="post" name="joinlist">
+						<input type="text" name="email" value="subscribe for weekly savings" id="header_email_address" onFocus="javascript:clearEmailField();" />
+						<input type="image" src="/assets/images/global/email_join.jpg" alt="join" id="email_join_button" />
+					</form>
+					<p><a href="http://www.hobby-lobby.com/welcome.htm" rel="nofollow" onClick="recordOutboundLink(this, 'Outbound Links', 'hobby-lobby.com');return false;"><img src="/assets/images/home/hl_international_1.jpg" alt="Hobby Lobby International - RC Models" border="0" /></a></p>
+				</div><!-- End Email Signup Form -->
+			</div><!-- end header_right_content -->
+	   </div><!-- End Header -->
+		
+		<div id="top_menu_bar"><!-- Start Top Menu Bar -->
+			<div class="text_nav">
+					<ul>
+						<li><a href="/home.cfm">Home</a></li>
+						<li>|</li>
+						<li><a href="/weekly/weekly.cfm">In Store Specials</a></li>
+						<li>|</li>
+						<li><a href="/stores/stores.cfm">Stores</a></li>
+						<li>|</li>
+						<li><a href="/project_inspiration/project_inspiration.cfm">Project: Inspiration<img src="/assets/images/global/tm.png" alt="tm" border="0" /><span class="pi_popup"><img src="/assets/images/global/thought_bubble_animation.gif" alt="project inspiration" border="0" /></span></a></li>
+						<li>|</li>
+						<li><a href="/gift_cards/gift_cards.cfm">Gift Cards</a></li>
+						<li>|</li>
+						<li><a href="https://applications.usbank.com/oad/begin?locationCode=9697&amp;sourceCode=58000&amp;preparerType=customer&amp;redirect=hl3000" target="_blank">Hobby Lobby Visa&reg;</a></li>
+						<li>|</li>
+						<li><a href="/careers/careers.cfm">Careers</a></li>
+						<li>|</li>
+						<li><a href="/email_subscriptions/email_subscriptions.cfm">E-Mail Subscriptions</a></li>
+					</ul>
+				</div>
+		</div><!-- End Top Menu Bar -->
+		
+		<div id="bodyblock" align="right" ><!-- Start Body  Block -->
+			
+			
+		
+			
+				            
+				<div id="full_content" >
+			
+			
+	
+			
+		
+
+
+
+
+
+			
+		<object id="home_flash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="950" height="350">
+            <param name="movie" value="/assets/dynamic/_home/week.16/homepage_feature.swf" />
+            <param name="wmode" value="transparent" />
+            <!--[if !IE]>-->
+            <object type="application/x-shockwave-flash" data="/assets/dynamic/_home/week.16/homepage_feature.swf" width="950" height="350">
+            <param name="wmode" value="transparent" />
+            <!--<![endif]-->
+            <img src="/assets/dynamic/_home/week.16/alternate.jpg" />				
+            <!--[if !IE]>-->
+            </object>
+            <!--<![endif]-->
+        </object> 
+		  	  
+   
+
+	<map name="specials" id="specials"><area shape="rect" coords="-2,317,175,353" href="/weekly/weekly.cfm?page=1&amp;menu=1" alt="See Today's Ad" /></map>
+
+	<br />
+	
+	<p id="department_list">
+		<a href="/art">Arts</a>  |
+		<a href="/party">Cards &amp; Party</a>  |  
+		<a href="/crafts">Crafts</a>  | 
+		<a href="/fabric">Fabric</a>  |
+		<a href="/floral">Floral</a>  |
+		<a href="/frames">Frames</a>  |
+		<a href="/hobbies">Hobbies</a>  |
+		<a href="/homeaccents">Home Accents</a>  |                         
+		<a href="/jewelry">Jewelry</a>  |  
+		<a href="/needleart">Needle Art</a>  |  
+		<a href="/scrapbooking">Scrapbooking</a>  |
+		<a href="/seasonal"> Seasonal</a>  |  
+		<a href="/wearables">Wearables</a>  |    
+		<a href="/wedding">Wedding</a>
+	</p>
+    
+    <div id="homepage_shopping_cart_area">
+        <img src="/assets/images/home/shoppingCart.gif" alt="hobby lobby" usemap="#Map" border="0" />
+        <map name="Map" id="Map">
+          <area shape="rect" coords="3,4,214,141" href="/shop/home.cfm" />
+          <area shape="rect" coords="234,3,445,140" href="/shop/giftcards.cfm" />
+          <area shape="rect" coords="467,4,677,140" href="/stores/store_tour.cfm" />
+          <area shape="rect" coords="699,4,908,139" href="/careers/careers.cfm" />
+        </map>
+        
+          
+        <div class="homepage_bottom_box">
+          <p>Super Savings and Super Selection now online!  You will find your favorite products at our everyday low prices.</p>
+      </div>
+        
+        <div class="homepage_bottom_box">
+            <p>Hobby Lobby gift cards are the 
+            perfect gift for your crafting friends 
+            and family for any occasion.</p>
+        </div>
+            
+        <div class="homepage_bottom_box">
+            <p>With over 60,000 items ranging from scrapbooking to home decor, Hobby Lobby is the 
+            place to shop for super selection and 
+            savings every day.</p>
+        </div>
+        
+        <div class="homepage_bottom_box" id="last_homepage_bottom_box">
+            <p>At Hobby Lobby, we know the value 
+            of exceptional people. No matter 
+            what location or department you 
+            choose, an opportunity is awaiting you today.</p>
+        </div>
+
+    </div>
+	
+	<br class="clear_left" />
+	<br />
+		
+	<a href="/project_inspiration/project_inspiration.cfm" class="large_home_box"><img src="/assets/images/home/pi.jpg" alt="project inspiration" border="0" /></a>
+	<a href="https://applications.usbank.com/oad/begin?locationCode=9697&amp;sourceCode=58000&amp;preparerType=customer&amp;redirect=hl3000" target="_blank" class="large_home_box"><img src="/assets/images/home/credit.jpg" alt="hobby lobby credit card" border="0" /></a>
+	
+	
+	<br class="clear_left" />
+
+
+	<p id="survey_link"><br /></p>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+	
+			</div><!-- End Content Area -->
+			
+		</div><!-- End Body Block -->
+		
+		<div id="ftr" class="clearfix"><!-- Start Footer -->
+			<div class="text_nav">
+				<ul>
+					<li><a href="/stores/store_hours.cfm">Store Hours</a></li>
+					<li>|</li>
+					<li><a href="/stores/store_tour.cfm">Tour</a></li>
+					<li>|</li>
+					<li><a href="/customer_service/customer_service.cfm">Customer Service</a></li>
+					<li>|</li>
+					<li><a href="/our_company/our_company.cfm">Our Company</a></li>
+					<li>|</li>
+					<li><a href="/holiday_messages/holiday_messages.cfm">Holiday Messages</a></li>
+					<li>|</li>
+					<li><a href="/recalls/recalls.cfm">Recalls</a></li>
+					<li>|</li>
+					<li><a href="/sitemap/sitemap.cfm">Site Map</a></li>
+					<li>|</li>
+					<li><a href="" onClick="return dropdownmenu(this, event, menu2, '200px')" onMouseOut="delayhidemenu()" style="color:#ff8128;">Customize</a></li>
+				</ul>
+			</div>
+		</div><!-- End Footer -->
+		
+	</div><!-- End Container -->
+	
+	
+		
+	<div id="socialMediaFooter">
+		<a href="http://www.facebook.com/hobbylobby" id="facebookIconFooter"></a> 
+		<a href="http://twitter.com/hobbylobbystore" id="twitterIconFooter"></a>
+        <a href="http://pinterest.com/HobbyLobby/" id="pintrestIconFooter"></a>
+	</div>
+	
+    <p style="text-align:center; font-size:10px;">&copy; 2012 Hobby Lobby 
+			<br /><a href="/email_subscriptions/privacy_policy.cfm">Privacy Policy</a>
+	</p>
+    	
+	
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2759128-1");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+		
+</body>
+</html>
+
+		
+

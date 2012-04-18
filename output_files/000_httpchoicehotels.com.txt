@@ -1,0 +1,472 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/"><head><link rel="SHORTCUT ICON" href="/assets/choicehotels/img/faviconA.ico" /><meta name="keywords" content="" /><meta name="description" content="Choice Hotels Official Site. Great hotel rooms at great rates. Whether you travel for business, leisure, or family vacation, find rooms and suites and book hotel reservations online. Best Internet Rate Guarantee! Choice Hotels-Comfort Inn, Comfort Suites, Quality, Cambria Suites, Sleep Inn, Clarion, MainStay Suites, Suburban Extended Stay Hotels, Econo Lodge, Rodeway." /><meta name="tag1 key" content="tag1 value" /><meta name="tag2 key" content="tag2 value" /><meta name="google-site-verification" content="iROk5hNJG7RdxsTpV8WRDWJ1ZEzuUZo4ohOuaQ-KV2E" /><meta name="msvalidate.01" content="6CF093BE20CE8ED589BE0AA53BE7BE48" /><link rel="canonical" href="http://www.choicehotels.com" /><title>Hotels - Hotel Rooms, Hotel Reservations, Choice Hotels - Motels</title><link type="text/css" rel="stylesheet" href="http://www.choicehotels.com/assets/choicehotels/css/choicehotels.css" /><link type="text/css" rel="stylesheet" href="http://www.choicehotels.com/assets/choicehotels/css/jquery.qtip.css" /><link type="text/css" rel="stylesheet" href="http://www.choicehotels.com/assets/choicehotels/css/jquery.treeview.css" /><link type="text/css" rel="stylesheet" href="http://www.choicehotels.com/assets/javascript/jquery/ui/themes/choice-theme/jquery-ui-1.8.9.custom.css" /><script type="text/javascript" src="/assets/javascript/jquery/jquery-1.4.4.min.js"></script><script type="text/javascript" src="/assets/javascript/jquery/ui/jquery-ui-1.8.9.custom.min.js"></script><script type="text/javascript" src="/assets/javascript/jquery/qtip/jquery.qtip.min.js"></script><script type="text/javascript" src="/assets/javascript/jquery/thickbox/jquery.thickbox.js"></script><script type="text/javascript" src="/assets/javascript/jquery/jcarousel/jquery.jcarousel.pack.js"></script><script type="text/javascript" src="http://api.roomkey.com/js/connector/connector.js"></script><script type="text/javascript">
+                     if (typeof CopterConnect != 'undefined') {
+                        CopterConnect.origopen = CopterConnect._open;
+                        CopterConnect._open = function(a,b) {
+                           return this.origopen(a, 'ChoiceHotelsHJVSWindow');
+                        };
+                     }
+                     var hjvs = function(puswitch,hc,city,cntry,lat,long,state) { if (typeof CopterConnect != 'undefined') { var cntries = ["US"]; if ($.inArray(cntry,cntries) == 0) { if (puswitch == 'l'){ try { var lnch = CopterConnect.load('8c31177ca48577cba23904f2001df240', { location : city, country : cntry, lat : lat, lng : long, state : state}); if (lnch) { s.linkTrackVars = 'events'; s.linkTrackEvents = 'event23'; s.events = 'event23'; s.tl(this,'o','PopUnder-Open'); } } catch(err) { }; } }else if (puswitch == 'u') { CopterConnect.unload(); var hjvswin = window.open("about:blank",'ChoiceHotelsHJVSWindow'); if (hjvswin) hjvswin.close(); s.linkTrackVars = 'events'; s.linkTrackEvents = 'event24'; s.events = 'event24'; s.tl(this,'o','PopUnder-Close'); } } };
+                     
+                     
+                  </script><script type="text/javascript">
+               var SESSION_ID = "";
+
+               
+               (function() { var sites = [ 'http://www.ascendcollection.com', 'http://www.cambriasuites.com', 'http://www.choicehotels.com', 'http://www.clarionhotel.com', 'http://www.comfortinn.com', 'http://www.comfortsuites.com', 'http://www.econolodge.com', 'http://www.mainstaysuites.com', 'http://www.qualityinn.com', 'http://www.rodewayinn.com', 'http://www.sleepinn.com', 'http://www.suburbanhotels.com' ]; window.setSidCookies = function() { var start = '<img src="'; var normalEnd = '/ires/GetSidPixelTag?sid=' + SESSION_ID + '" border="0" width="1" height="1"'; var specialEndPrefix = '/ires/GetSidPixelTag?sid=' + SESSION_ID + '" border="0" width="1" height="1" onload="javascript:$(\'body\').append(\'<script src='; var specialEndSuffix1 = '/ires/CheckSidCookie?nosidurl='; var specialEndSuffix2 = window.location.href; var specialEndSuffix3 = '></script'; var lcHostname = window.location.hostname.toLowerCase(); var comfortinn = 'comfortinn'; var sleepinn = 'sleepinn'; $.each(sites, function() { var lcSite = this.toLowerCase(); if (((lcSite.indexOf(comfortinn) >= 0) && (lcHostname.indexOf(comfortinn) < 0)) || ((lcSite.indexOf(sleepinn) >= 0) && (lcHostname.indexOf(comfortinn) >= 0))) { $('body').append(start + this + specialEndPrefix + this + specialEndSuffix1 + specialEndSuffix2 + specialEndSuffix3 + '>\');"' + '/>'); } else { $('body').append(start + this + normalEnd + '/>'); } }); }; })();$.get("/ires/en-US/html/SidGenerator", function(data) { SESSION_ID = data; if (location.href.indexOf("http://") == 0) { $(function() { if (typeof setSidCookies != 'undefined') setSidCookies(); }); $(function() { if ((typeof setStopMobiCookies != 'undefined') && (!$.cookie('stop_mobi'))) setStopMobiCookies(); }); } }, "text" );
+         var LOCALE = {
+            language: "en",
+            country: "US"
+         };
+      </script><script type="text/javascript">
+            (function (w) {
+               w.tm2BootPosition = 0;
+               w.tm2BootAsync = true;
+               w.tmPageId = 2;
+               w.tmParam = {};
+               var conf = { host: 'pfna.levexis.com',
+                  account: 'choicehotels',
+                  version: '3',
+                  async: true,
+                  cdn: (location.protocol === 'https:') ? 'sec.levexis.com' : 'res.levexis.com',
+                  waitService: 'wt.tagman.com',
+                  waitTest: false,
+                  bootstrap: true,
+                  param: w.tmParam || {} };
+               // do not change values below this line
+               function ap(sr , ol) {
+                  var e = document.createElement('script'); 
+                  e.src = sr;
+                  e.async = true;
+                  if (ol) {
+                     e.onload = e.onerror = function() { if (!this.loaded) { ol(); this.loaded = true; } };
+                     e.onreadystatechange = function() { if (this.readyState === 'complete' || this.readyState === 'loaded') { this.onload(); } };
+                  }
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore( e , s);
+               }	
+               w.TMAN = w.TMAN || {};	
+               w.TMAN.startTime = +new Date();
+               w.TMAN.asyncLoader = function() {
+                  TMAN.addContainer( new TMAN.Container(conf.account, w.tmPageId, conf) );
+               };
+               var tm = '//' + conf.cdn + '/clientfiles/v' + conf.version + '/' + conf.account + '.js'; 
+               if (conf.waitService && conf.waitTest) ap ( '//' + conf.waitService + '/wait/0/' + Math.random() , function() { TMAN.waitLatency=new Date() - TMAN.startTime; } );
+               
+               if (conf.async) {
+                  w.TMAN.position = {};
+                  w.TMAN.doTags = function(p) { TMAN.currentPosition = p; };
+                  w.TMAN.addParam = function(n,v) {
+                     w.tmParam[n]=v;
+                  };
+                  ap(tm);	
+               } else {
+                  document.write('<script src="' + tm + '"><\/script>');
+               }
+            })(window);
+         </script><script type="text/javascript" src="/assets/javascript/swfobject/swfobject.js"></script><script type="text/javascript" src="/assets/javascript/chi/chi.js"></script><script type="text/javascript" src="/assets/javascript/chi/chi.webmetrics.js"></script><script type="text/javascript" src="/json/Language/en/errors/messages.json"></script></head><body class="layout-16"><div class="mod-enable-cookies"><span class="info-image"><img border="0" align="absmiddle" width="16" height="16" alt="Information" src="/assets/choicehotels/img/information.gif" /></span><span class="info-text1">Cookies must be enabled.</span><span>To continue shopping on our site, please enable cookies in your Web browser.</span></div><script type="text/javascript">chi('enable-cookies').DOMready();</script><div class="gbl-wrp-1"><div class="gbl-wrp-2"><div class="gbl-wrp-3"><div class="gbl-wrp-4"><div class="gbl-wrp-5"><div class="header"><div class="hdr-logo"><h1><a href="http://www.choicehotels.com" title="Hotels - Hotel Rooms, Hotel Reservations, Choice Hotels - Motels" alt="Hotels - Hotel Rooms, Hotel Reservations, Choice Hotels - Motels"><span>Hotels - Hotel Rooms, Hotel Reservations, Choice Hotels - Motels</span></a></h1></div><div class="hdr-personalization-nav"><dl class="personalization-nav" rev="{ &#34;myAccount&#34;: &#34;My Account&#34;, &#34;myReservation&#34;: &#34;My Reservations&#34;, &#34;signOut&#34;: &#34;Sign Out&#34;, &#34;greeting&#34;: &#34;Hi, &#34; }"><dt class="sign-in"><a href="https://secure.choicehotels.com/ires/en-US/html/SignIn?on-login-success=" class="sign-in-flyout" rev="/ires/en-US/html/SignInFlyoutForm?on-login-success=&amp;destination=&amp;cpProgramViewed=&amp;merchantID=&amp;RID=&amp;selectedAward=" rel="nofollow" title="Sign in" alt="Sign in">Sign in</a></dt><dt class="my-reservation"><a href="https://secure.choicehotels.com/ires/en-US/html/ViewResForm" rev="/ires/en-US/html/MyReservationFlyout" rel="nofollow" title="My Reservations" alt="My Reservations">My Reservations</a></dt><dt class="rewards-program"><a href="http://www.choicehotels.com/en/choice-privileges" rev="/ires/en-US/html/ChoicePrivilegesFlyout" rel="" title="Choice Privileges" alt="Choice Privileges">Choice Privileges&reg;</a></dt><dt class="customer-support"><a href="http://www.choicehotels.com/ires/en-US/html/CustomerSupport" rev="/ires/en-US/html/CustomerSupportFlyout" title="Customer Support" alt="Customer Support">Customer Support</a></dt><dt class="language"><a href="#" title="Language" alt="Language">Language<span> :</span></a></dt><dd class="language"><a href="http://www.choicehotels.com/en" title="English">English</a></dd><dd class="language"><a href="http://www.choicehotels.com/es" title="Español">Español</a></dd><dd class="language"><a href="http://www.choicehotels.com/fr" title="Français">Français</a></dd></dl></div><div class="hdr-hotels-nav"><ul><li class="comfort-inn"><a href="http://www.comfortinn.com" rel="/media/fragments/en/brand-flyouts/comfort-inn-flyout.html" title="Comfort Inn"><span>Comfort Inn</span></a></li><li class="comfort-suites"><a href="http://www.comfortsuites.com" rel="/media/fragments/en/brand-flyouts/comfort-suites-flyout.html" title="Comfort Suites"><span>Comfort Suites</span></a></li><li class="quality"><a href="http://www.qualityinn.com" rel="/media/fragments/en/brand-flyouts/quality-inn-flyout.html" title="Quality"><span>Quality</span></a></li><li class="sleep-inn"><a href="http://www.sleepinn.com" rel="/media/fragments/en/brand-flyouts/sleep-inn-flyout.html" title="Sleep Inn"><span>Sleep Inn</span></a></li><li class="clarion"><a href="http://www.clarionhotel.com" rel="/media/fragments/en/brand-flyouts/clarion-flyout.html" title="Clarion"><span>Clarion</span></a></li><li class="cambria-suites"><a href="http://www.cambriasuites.com" rel="/media/fragments/en/brand-flyouts/cambria-suites-flyout.html" title="Cambria Suites"><span>Cambria Suites</span></a></li><li class="mainstay-suites"><a href="http://www.mainstaysuites.com" rel="/media/fragments/en/brand-flyouts/mainstay-suites-flyout.html" title="MainStay Suites"><span>MainStay Suites</span></a></li><li class="suburban"><a href="http://www.suburbanhotels.com" rel="/media/fragments/en/brand-flyouts/suburban-flyout.html" title="Suburban Extended Stay Hotel"><span>Suburban Extended Stay Hotel</span></a></li><li class="econolodge"><a href="http://www.econolodge.com" rel="/media/fragments/en/brand-flyouts/econolodge-flyout.html" title="Econo Lodge"><span>Econo Lodge</span></a></li><li class="rodeway-inn"><a href="http://www.rodewayinn.com" rel="/media/fragments/en/brand-flyouts/rodeway-inn-flyout.html" title="Rodeway Inn"><span>Rodeway Inn</span></a></li><li class="ascend"><a href="http://www.ascendcollection.com" rel="/media/fragments/en/brand-flyouts/ascend-collection-flyout.html" title="Ascend Collection"><span>Ascend Collection</span></a></li></ul></div></div><script>
+         
+         if ($('.hdr-personalization-nav dt.logout')) 
+         { 
+            $('.hdr-personalization-nav dt.logout').attr('style','display: none;');
+         }
+         $('.hdr-personalization-nav dt.my-account a').addClass('has-flyout');
+         $('.hdr-personalization-nav dt.sign-in a').addClass('has-flyout');
+         $('.hdr-personalization-nav dt.has-reservation a').addClass('has-flyout');
+         $('.hdr-personalization-nav dt.language a').addClass('has-flyout');
+         $('.hdr-personalization-nav dt.customer-support a').addClass('has-flyout');
+         $('.hdr-personalization-nav dt.rewards-program a').addClass('has-flyout');
+         $('.hdr-personalization-nav dt.my-reservation a').addClass('has-flyout');
+         $('.hdr-personalization-nav dd').hide();
+         $('.hdr-hotels-dropdown-nav button').hide();
+         $(document).ready(chi.mod['header'].load);
+      </script><div class="hdr-search"><div><a href="http://www.choicehotels.com" title="Home" class="home-link home-link-en"><span>Home</span></a><form name="datesform" method="GET" action="/ires/en-US/html/HotelList" enctype="multipart/form-data" id="datesform" class=""><input type="hidden" name="ienc" value="UTF-8" /><input type="hidden" name="optional" value="false" /><input type="hidden" name="chain" value="A" /><input type="hidden" name="brand_segment" value="" /><input type="hidden" name="areaid" /><input type="hidden" name="areatype" /><input type="hidden" name="type" /><input type="hidden" name="latitude" /><input type="hidden" name="longitude" /><input type="hidden" name="state" rel="" /><input type="hidden" name="country" rel="" /><input type="hidden" name="dateFormat" value="mm/dd/yy" /><input type="hidden" name="js" value="false" /><input type="hidden" name="radius" value="80" /><input id="maparg" type="hidden" name="map" value="n" /><h2 class="search-heading"><div class="en"><span>Search</span></div></h2><fieldset class="search-combined"><div id="search-destination" class="search-destination"><label for="placename"><span>City, Attraction, Address, Airport, Zip or Hotel Code</span></label><input name="placename" autocomplete="off" onfocus="&#xA;               javascript: &#xA;               if( !$(this).hasClass('auto-clr') &amp;&amp; ($(this).val() == $(this).attr('rel')) ){ &#xA;               $(this).val(''); &#xA;               }&#xA;               " onblur="&#xA;               javascript: &#xA;               if( !$(this).hasClass('auto-clr') &amp;&amp; ($(this).val() == '') ){ &#xA;               $(this).val($(this).attr('rel'));&#xA;               }&#xA;               " rel="City, Attraction, Address, Airport, Zip or Hotel Code" value="City, Attraction, Address, Airport, Zip or Hotel Code" /></div></fieldset><fieldset class="search-dates"><div class="check-in"><label><span>Check-In</span></label><input type="text" name="arrivalDate" value="mm/dd/yy" rel="mm/dd/yy" /></div><div class="check-out"><label><span>Check-Out</span></label><input type="text" name="departureDate" value="mm/dd/yy" rel="mm/dd/yy" /></div></fieldset><fieldset class="search-occupancy multi-room-off"><div class="fly-wrp-1"><div class="fly-wrp-2"><div class="fly-wrp-3"><div class="fly-wrp-4"><div class="fly-wrp-5"><div class="rooms"><label class="total" for="nroom"><span>Rooms</span></label><select name="nroom" id="nroom" size="1" class="total"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select><label for="nadult1" class="item-1"><span>Room1:</span></label><label for="nadult2" class="item-2"><span>Room2:</span></label><label for="nadult3" class="item-3"><span>Room3:</span></label><label for="nadult4" class="item-4"><span>Room4:</span></label><label for="nadult5" class="item-5"><span>Room5:</span></label></div><div class="adults"><label class="total" for="search-adults"><span>Adults</span></label><input id="search-adults" class="total" type="text" readonly="readonly" /><select id="nadult1" name="nadult1" size="1" class="item-1"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nadult2" name="nadult2" size="1" class="item-2"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nadult3" name="nadult3" size="1" class="item-3"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nadult4" name="nadult4" size="1" class="item-4"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nadult5" name="nadult5" size="1" class="item-5"><option value="1" selected="selected">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></div><div class="children"><label class="total has-dfn" for="search-children" rev="350"><span>Children</span></label><div class="dfn"><h3>Kid-Friendly</h3><p>
+         Kids under 18 stay for free, if they share the same room with their parents or grandparents, and no additional bedding is required.
+      </p><p>
+         * Ages, discount and amenities may vary outside the United States of America.
+      </p></div><input type="text" readonly="readonly" id="search-children" class="total" /><select id="nchild1" name="nchild1" size="1" class="item-1"><option value="0" selected="selected">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nchild2" name="nchild2" size="1" class="item-2"><option value="0" selected="selected">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nchild3" name="nchild3" size="1" class="item-3"><option value="0" selected="selected">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nchild4" name="nchild4" size="1" class="item-4"><option value="0" selected="selected">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select><select id="nchild5" name="nchild5" size="1" class="item-5"><option value="0" selected="selected">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></div><a href="#" class="fly-wrp-close">Close</a></div></div></div></div></div></fieldset><fieldset class="search-srp"><label class="select-rate" for="srp-select"><span>Select Rate</span></label><select class="srp-select" name="srp"><option value="RACK" selected="selected">Best Available Rate</option><option value="SSC">Senior Rate</option><option value="S3A">AAA/CAA Program Rate*</option><option value="SRD">Choice Privileges Reward Night</option><option value="SGM">Government/Military Rate</option><option value="LSTATE">State Government Rate</option><option value="entersrp">Special Rate/Corp ID*</option></select><div class="srp-select-flyout srp-select-flyout-compact"><div class="fly-wrp-1"><div class="fly-wrp-2"><div class="fly-wrp-3"><div class="fly-wrp-4"><div class="fly-wrp-5"><div class="selected-rate-wrp"><input type="text" readonly="readonly" class="selected-rate" value="RACK" /></div><dl class="rates-listing"><dt><label class="has-dfn"><input class="selected-srp-radio" type="radio" value="RACK" name="selected-srp" /><span>Best Available Rate</span></label><div class="dfn"><a class="fly-wrp-close-dfn" href="#" onClick="$('.qtip').qtip('hide')"><div class="fly-wrp-close-dfn"><img src="/assets/choicehotels/img/close.png" border="0" /></div></a><div class="rate-details-long-desc">This is the best available, non-qualified rate with no restrictions. Eligible for <strong>Choice Privileges</strong>® points or Airline Rewards at all brands in the U.S., Canada, Europe, Mexico, Australasia and the Caribbean.<br /></div></div></dt><dt><label class="has-dfn"><input class="selected-srp-radio" type="radio" value="SSC" name="selected-srp" /><span>Senior Rate</span></label><div class="dfn"><a class="fly-wrp-close-dfn" href="#" onClick="$('.qtip').qtip('hide')"><div class="fly-wrp-close-dfn"><img src="/assets/choicehotels/img/close.png" border="0" /></div></a><div class="rate-details-long-desc">There must be an AARP member or guest age 60 or older in the room to receive this discount. Eligible for <strong>Choice Privileges</strong>® points or Airline Rewards at all brands in the U.S., Canada, Europe, Mexico, Australasia and the Caribbean. Ages, discount and amenities may vary outside of the United States of America. Rate is subject to availability.</div></div></dt><dt><label class="has-dfn"><input class="selected-srp-radio" type="radio" value="S3A" name="selected-srp" /><span>AAA/CAA Program Rate*</span></label><div class="dfn"><a class="fly-wrp-close-dfn" href="#" onClick="$('.qtip').qtip('hide')"><div class="fly-wrp-close-dfn"><img src="/assets/choicehotels/img/close.png" border="0" /></div></a><div class="rate-details-long-desc">AAA/CAA members save up to 10% at all Choice hotels in North America. This rate requires a valid AAA/CAA ID number to complete the reservation. Enter the 16-digit AAA membership number (without spaces) that is printed on your card. <br /><br /><img src="/media/choicehotels/en/aaa-card-lrg.png" alt="" width="153" height="98" /><br /><br />Guest must show AAA/CAA card at check-in. Rate is subject to availability. This rate is eligible for <strong>Choice Privileges</strong>® points or Airline Rewards at all brands in the U.S., Canada, Europe, Mexico and the Caribbean.<br /></div></div></dt><dd><label><span>Enter ID</span><input class="enter-id" type="text" maxlength="16" value="" /></label><p>This rate plan requires a valid AAA/CAA ID number to complete the reservation. If you do not have a valid AAA/CAA ID, please select another rate plan.</p><div class="submit-subform"><button type="button" class="subform-aaa"><div class="btn-wrp-1"><div class="btn-wrp-2">Select</div></div></button></div></dd><dt><label class="has-dfn"><input class="selected-srp-radio" type="radio" value="SRD" name="selected-srp" /><span>Choice Privileges Reward Night</span></label><div class="dfn"><a class="fly-wrp-close-dfn" href="#" onClick="$('.qtip').qtip('hide')"><div class="fly-wrp-close-dfn"><img src="/assets/choicehotels/img/close.png" border="0" /></div></a><div class="rate-details-long-desc">There are no blackout dates and U.S. and Canadian residents can reserve a room up to 30 days in advance in the U.S. or Canada or 60 days in advance at all other locations. European residents can reserve a room up to 30 days in advance in Europe or 60 days in advance at all other locations.</div></div></dt><dt><label class="has-dfn"><input class="selected-srp-radio" type="radio" value="SGM" name="selected-srp" /><span>Government/Military Rate</span></label><div class="dfn"><a class="fly-wrp-close-dfn" href="#" onClick="$('.qtip').qtip('hide')"><div class="fly-wrp-close-dfn"><img src="/assets/choicehotels/img/close.png" border="0" /></div></a><div class="rate-details-long-desc">Reserved for travel on official government business only for federal employees. Military personnel, their dependents and members of several government/military oriented associations are extended the rate for official and leisure travel. An eligible party must occupy the room to qualify for this rate. Rate is subject to availability.<br /><br />Eligible for <strong>Choice Privileges</strong>® points or Airline Rewards at all brands in the U.S., Canada, Europe, Mexico, Australasia and the Caribbean.<br /></div></div></dt><dt><label class="has-dfn"><input class="selected-srp-radio" type="radio" value="LSTATE" name="selected-srp" /><span>State Government Rate</span></label><div class="dfn"><a class="fly-wrp-close-dfn" href="#" onClick="$('.qtip').qtip('hide')"><div class="fly-wrp-close-dfn"><img src="/assets/choicehotels/img/close.png" border="0" /></div></a><div class="rate-details-long-desc">Local, county and state employees qualify for the State Government rate when traveling on official business. City, County or State Government ID required at check in.</div></div></dt><dt><label class="has-dfn"><input class="selected-srp-radio" type="radio" value="entersrp" name="selected-srp" /><span>Special Rate/Corp ID*</span></label><div class="dfn"><a class="fly-wrp-close-dfn" href="#" onClick="$('.qtip').qtip('hide')"><div class="fly-wrp-close-dfn"><img src="/assets/choicehotels/img/close.png" border="0" /></div></a><div class="rate-details-long-desc">Available only to customers with a special rate ID. Eligible customer must be in the room in order to receive this rate. Eligible for <strong>Choice Privileges</strong>® points or Airline Rewards at all brands in the U.S., Canada, Europe, Mexico, Australasia and the Caribbean. Rate is subject to availability.</div></div></dt><dd><label class="step-1"><span>Enter ID</span><input class="enter-client-id" type="text" maxlength="8" /></label><div class="submit-subform step-1"><button type="button" class="subform-srp-1"><div class="btn-wrp-1"><div class="btn-wrp-2">Submit</div></div></button></div><label class="step-2"><span>Please confirm ID:</span><input class="enter-id" type="hidden" /></label><p class="step-2"><strong>TEXT</strong></p><div class="submit-subform step-2"><button type="button" class="subform-srp-2"><div class="btn-wrp-1"><div class="btn-wrp-2">Yes, Confirm</div></div></button></div></dd></dl><div class="id-required">*Id Required</div><a href="#" class="fly-wrp-close">Close</a></div></div></div></div></div></div><div class="srp-select-description"></div></fieldset><fieldset class="search-button"><button type="submit" name="find"><div class="search-btn-wrp-1 search-btn-wrp-1-en"><span>Find Hotels</span></div></button></fieldset></form></div><script>
+                  
+                  $('fieldset.search-occupancy').attr('className','search-occupancy multi-room-1');
+
+                  $(document).ready(chi.mod['search'].load);
+               </script></div><div class="main"><div class="module mod-media-space"><div id="media-space-swf-container" style="min-height: 240px; _height: 240px;"><div id="media-space-swf"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="970" height="240" id="Home"><param name="movie" value="/media/choicehotels/en/swf/CarouselDocument.swf" /><param name="allowfullscreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="trustContent" value="true" /><param name="wmode" value="transparent" /><param name="flashvars" value="globalX=0" /><a href="/en/bestrate">
+<img src="/media/choicehotels/en/ch-home-BiRG-media-space.jpg" alt="Choice Hotels" />
+</a></object></div></div><script type="text/javascript">
+         function flashReady() {
+            swfobject.getObjectById( "Home" ).receivedFromExternalInterface( jsonToPass );
+         }
+         
+         if ($.browser.mozilla || $.browser.webkit) {
+            var flashvars = {};
+            var params = {};
+            params.allowfullscreen = "true";
+            params.allowScriptAccess = "always";
+            params.trustContent="true";params.wmode="transparent";
+            flashvars.globalX = 0;
+            var attributes = {};
+            attributes.id = "Home";
+            attributes.name=  "Home";
+
+            swfobject.embedSWF("/media/choicehotels/en/swf/CarouselDocument.swf", "media-space-swf", "970", "240", "9.0.0.0", '/assets/javascript/swfobject/expressInstall.swf', flashvars, params, attributes);
+         }
+         
+         else {
+            swfobject.registerObject("Home", "9", "/assets/javascript/swfobject/expressInstall.swf");
+         }
+         
+		   var jsonToPass = {
+	   
+    "cssPath": "/media/choicehotels/en/swf/css/module.css",
+    "fontPaths": [
+        "/media/choicehotels/en/swf/fonts/Avenir_45_Book_FONT.swf",
+        "/media/choicehotels/en/swf/fonts/Avenir_55_Roman_FONT.swf",
+        "/media/choicehotels/en/swf/fonts/Avenir_85_Heavy_FONT.swf"
+    ],
+    "buttonCarouselOn":"/media/choicehotels/en/swf/btn_onw.png",
+    "buttonCarouselOff":"/media/choicehotels/en/swf/btn_off.png",
+    "xButtonPanelPos":835,
+    "yButtonPanelPos":210,
+    "showCarousel": true,
+    "timeInterval": 7,
+    "imageBackgroundURL": "",
+    "panels": [
+        {
+            "panelImageURL": "/media/choicehotels/en/7272_choicehotels_spring_promo_971x239.jpg",
+            "panelLinkURL": "",
+            "panelNewWindow": true,
+            "panelAnalyticsLinkName": "CH.com Homepage - Panel - AnaLinkFoo",
+            "analyticsLinkName": "CH.com Homepage - Carousel - 1 Circle",
+            "panelTitle": "",
+            "xPanelTitlePos": 0,
+            "yPanelTitlePos": 0,
+            "titleCssClass": "TitlePanel",
+            "titleShadow": false,
+            "titleStroke": false,
+            "titleStrokeColor": 0xffffff,
+            "panelSubTitle": "",
+            "xPanelSubTitlePos": 0,
+            "yPanelSubTitlePos": 0,
+            "subTitleCssClass": "SubTitlePanel",
+            "subtitleShadow": false,
+            "panelDetail": "",
+            "xPanelDetailPos": 0,
+            "yPanelDetailPos": 0,
+            "detailCssClass": "DetailPanel",
+            "detailShadow": false,
+            "detailWidth": 0,
+            "buttonImageURL": "/media/choicehotels/en/button2.png",
+            "buttonText": "",
+            "buttonShadow": false,
+            "xButtonPos": 335,
+            "yButtonPos": 200,
+            "buttonTextCssClass": "ButtonText",
+            "buttonLinkURL": "/earnafreenight?intcmp=FPflash1freentspringpromo",
+            "buttonAnalyticsLinkName": "CH.com Homepage - Button - AnaLinkFoo",
+            "buttonNewWindow": false,
+            "imageLogoURL": "",
+            "xLogoPos": 0,
+            "yLogoPos": 0
+        },
+        {
+            "panelImageURL": "/media/choicehotels/en/ch-home-BiRG-media-space.jpg",
+            "panelLinkURL": "",
+            "panelNewWindow": true,
+            "panelAnalyticsLinkName": "CH.com Homepage - Panel - AnaLinkFoo",
+            "analyticsLinkName": "CH.com Homepage - Carousel - 2 Circle",
+            "panelTitle": "",
+            "xPanelTitlePos": 0,
+            "yPanelTitlePos": 0,
+            "titleCssClass": "TitlePanel",
+            "titleShadow": false,
+            "titleStroke": false,
+            "titleStrokeColor": 0xffffff,
+            "panelSubTitle": "",
+            "xPanelSubTitlePos": 0,
+            "yPanelSubTitlePos": 0,
+            "subTitleCssClass": "SubTitlePanel",
+            "subtitleShadow": false,
+            "panelDetail": "",
+            "xPanelDetailPos": 0,
+            "yPanelDetailPos": 0,
+            "detailCssClass": "DetailPanel",
+            "detailShadow": false,
+            "detailWidth": 0,
+            "buttonImageURL": "/media/choicehotels/en/button2.png",
+            "buttonText": "",
+            "buttonShadow": false,
+            "xButtonPos": 660,
+            "yButtonPos": 170,
+            "buttonTextCssClass": "ButtonText",
+            "buttonLinkURL": "/en/bestrate?intcmp=FPflash2BIRGfreent",
+            "buttonAnalyticsLinkName": "CH.com Homepage - Button - AnaLinkFoo",
+            "buttonNewWindow": false,
+            "imageLogoURL": "",
+            "xLogoPos": 0,
+            "yLogoPos": 0
+        },
+        {
+            "panelImageURL": "/media/choicehotels/en/2-featured-hotels-1.jpg",
+            "panelLinkURL": "",
+            "panelNewWindow": true,
+            "panelAnalyticsLinkName": "CH.com Homepage - Panel - AnaLinkFoo",
+            "analyticsLinkName": "CH.com Homepage - Carousel - 3 Circle",
+            "panelTitle": "",
+            "xPanelTitlePos": 0,
+            "yPanelTitlePos": 0,
+            "titleCssClass": "TitlePanel",
+            "titleShadow": false,
+            "titleStroke": false,
+            "titleStrokeColor": 0xffffff,
+            "panelSubTitle": "",
+            "xPanelSubTitlePos": 0,
+            "yPanelSubTitlePos": 0,
+            "subTitleCssClass": "SubTitlePanel",
+            "subtitleShadow": false,
+            "panelDetail": "",
+            "xPanelDetailPos": 0,
+            "yPanelDetailPos": 0,
+            "detailCssClass": "DetailPanel",
+            "detailShadow": false,
+            "detailWidth": 0,
+            "buttonImageURL": "/media/choicehotels/en/button2.png",
+            "buttonText": "",
+            "buttonShadow": false,
+            "xButtonPos": 429,
+            "yButtonPos": 182,
+            "buttonTextCssClass": "ButtonText",
+            "buttonLinkURL": "/en/choice-privileges?intcmp=CPfeaturedhotelFPflash4",
+            "buttonAnalyticsLinkName": "CH.com Homepage - Button - AnaLinkFoo",
+            "buttonNewWindow": false,
+            "imageLogoURL": "",
+            "xLogoPos": 0,
+            "yLogoPos": 0
+        },
+        {
+            "panelImageURL": "/media/choicehotels/en/quality-media-space-final.jpg",
+            "panelLinkURL": "",
+            "panelNewWindow": true,
+            "panelAnalyticsLinkName": "CH.com Homepage - Panel - AnaLinkFoo",
+            "analyticsLinkName": "CH.com Homepage - Carousel - 4 Circle",
+            "panelTitle": "",
+            "xPanelTitlePos": 0,
+            "yPanelTitlePos": 0,
+            "titleCssClass": "TitlePanel",
+            "titleShadow": false,
+            "titleStroke": false,
+            "titleStrokeColor": 0xffffff,
+            "panelSubTitle": "",
+            "xPanelSubTitlePos": 0,
+            "yPanelSubTitlePos": 0,
+            "subTitleCssClass": "SubTitlePanel",
+            "subtitleShadow": false,
+            "panelDetail": "",
+            "xPanelDetailPos": 0,
+            "yPanelDetailPos": 0,
+            "detailCssClass": "DetailPanel",
+            "detailShadow": false,
+            "detailWidth": 0,
+            "buttonImageURL": "/media/choicehotels/en/button3.png",
+            "buttonText": "",
+            "buttonShadow": false,
+            "xButtonPos": 70,
+            "yButtonPos": 175,
+            "buttonTextCssClass": "ButtonText",
+            "buttonLinkURL": "http://www.qualityinn.com?intcmp=qualityFPflash5",
+            "buttonAnalyticsLinkName": "CH.com Homepage - Button - AnaLinkFoo",
+            "buttonNewWindow": false,
+            "imageLogoURL": "",
+            "xLogoPos": 0,
+            "yLogoPos": 0
+        }]
+   };</script></div><script type="text/javascript">
+         chi.mod["client-alerts"].preflang = '';
+         chi.mod["client-alerts"].messages = {};
+         chi.mod["client-alerts"].messages.IE6 = '<phrase id="AlertIE6"> <p>You are currently using Internet Explorer 6 to browse the new ChoiceHotels.com. For an optimal viewing experience, and to view all the new features of the site, please upgrade to Internet Explorer 7 or select another browser.</p> <ul> <li><a href="http://www.microsoft.com/Windows/internet-explorer/" target="_blank">Upgrade to Internet Explorer 7</a></li> <li><a href="http://www.mozilla.com/en-US/firefox/firefox.html" target="_blank">Firefox</a></li> </ul> </phrase>';
+         chi.mod["client-alerts"].messages.german = 'Es tut uns leid. Die Seite, die Sie suchen, ist nicht mehr aktiv, da wir die deutsche Übersetzung auf www.choicehotels.com deaktiviert haben. Sie als unser Kunde sind uns sehr wichtig und wir entschuldigen uns für die Unannehmlichkeiten.  Um Ihre Reservierung in englischer Sprache durchzuführen schließen Sie bitte einfach dieses Fenster. Oder Sie besuchen unsere deutschsprachige Webseite <tag id="link-choicehotels-de">www.choicehotels.de</tag>.';
+         chi.mod["client-alerts"].messages.japanese = 'ChoiceHotels.comにおける日本語サポートは都合により中止となりました。この度はご不便をおかけ致しまして誠に申し訳ございません。日本語でのご予約、ご変更、キャンセル等のお手続き、ならびにカスタマーサポートをご希望のお客様はチョイスホテルズ・ジャパンデスク0053-161-6337（日本国内通話無料）までご連絡をお願いします。ジャパンデスクの詳細はこちらから：http://choicehotels-jpdesk.seesaa.net/';
+         $(document).ready(chi.mod['client-alerts'].load);
+      </script><div class="lay-wrp-1"><div class="lay-wrp-2"><div class="mod-brands-reward-program"><img src="/assets/choicehotels/img/emailer-img/en/gp-offer-logo.png" title="Choice Privileges Reward Program" alt="Choice Privileges Reward Program" /><p><a href="https://secure.choicehotels.com/ires/en-US/html/GPMApplication">Join now &gt;</a></p></div><div class="mod-user-login"><form name="user-login-form" class="user-login-form" method="POST" action="https://secure.choicehotels.com/ires/en-US/html/SignInConfirmation" enctype="multipart/form-data"><fieldset class="user-login-form"><input type="hidden" name="ienc" value="UTF-8" /><input type="hidden" name="on-login-success" value="" /><input type="hidden" name="on-login-error" value="HomePageLanding1" /><h3>Sign In</h3><dl class="user-login-form-en"><dt class="user-login-form-user-name"><label for="user-login-form-user-name">Username</label></dt><dd class="user-login-form-user-name"><input type="text" name="username" value="" size="20" maxlength="20" id="user-login-form-user-name" /></dd><dt class="user-login-form-password"><label for="user-login-form-password">Password</label></dt><dd class="user-login-form-password"><input type="password" name="password" id="user-login-form-password" value="" size="20" maxlength="20" /></dd><dt class="user-login-form-sign-in-button">
+                  -
+               </dt><dd class="user-login-form-sign-in-button"><button class="" type="submit" name="signinSubmit" id="" onclick="hjvs('u');"><div class="btn-wrp-1"><div class="btn-wrp-2">Sign In</div></div></button></dd></dl><ul><li><a name="forgotpwd" href="https://secure.choicehotels.com/ires/en-US/html/LoginHelp">Forgot Username or Password?</a></li><li><a href="http://www.choicehotels.com/ires/en-US/html/ProfileInfo">First time here? Create a Profile ›</a></li></ul></fieldset></form><script>chi('user-login').DOMready();</script></div><div id="promo-tab-" class="module mod-promo mod-promo-large-single-left"><ul class="promos"><li class="loop-odd loop-one-of-three loop-1 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://www.barclaycardus.com/apply/Landing.action?campaignId=1398&amp;cellNumber=44&amp;referrerid=CHHOMEPAGE" target="_blank" rel="nofollow"><img src="/media/choicehotels/en/choice-privileges/gp/NewsUpdates/Visanew75x55--chpl.jpg" alt="" /></a></div><div class="promoText"><h4>Earn 2 free nights and Elite Gold Status</h4><p><span class="call-to-action"><a href="http://www.barclaycardus.com/apply/Landing.action?campaignId=1398&amp;cellNumber=44&amp;referrerid=CHHOMEPAGE" target="_blank" rel="nofollow">Learn More.  See Terms and Conditions</a></span></p></div></div></div></div></div></div></li><li class="loop-even loop-two-of-three loop-2 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://www.choicehotels.com/ires/en-US/html/CustomerSupport" target="_blank"><img src="/media/promotions/en/national/50x50-customer-support--chpl.jpg" alt="" /></a></div><div class="promoText"><h4>Need help? Ask a question </h4><p><span class="call-to-action"><a href="http://www.choicehotels.com/ires/en-US/html/CustomerSupport" target="_blank" rel="/ires/en-US/html/PromoFlyout/choicehotels/en/customer-support.xml">Customer Support</a></span></p></div></div></div></div></div></div></li></ul><div class="promo-more-link"></div></div><script type="text/javascript">$(document).ready(chi.mod['promo'].load);</script></div><div class="lay-wrp-3"><div class="promo-panel-tab-container"><div id="promo-tab-only-tab" class="module mod-promo mod-promo-vertical-wide"><ul class="promos"><li class="loop-odd loop-one-of-three loop-1 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://www.choicehotels.com/en/socialmedia" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel2_SocialMediaPromo');" rel="nofollow"><img src="/media/choicehotels/en/caribbean-icon-ch-home--chpl.png" alt="" /></a></div><div class="promoText"><h4>Enter The Caribbean Dreamin’ Sweepstakes</h4><p>Like us on Facebook and enter for a chance to win a trip to the Caribbean and other fun travel prizes.<span class="call-to-action"><a href="http://www.choicehotels.com/en/socialmedia" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel2_SocialMediaPromo');" rel="nofollow">More details</a></span></p></div></div></div></div></div></div></li><li class="loop-even loop-two-of-three loop-2 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://www.choicehotels.com/en/hoteldeals/prepaid-packages" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel5_APR');" rel="nofollow"><img src="/media/promotions/en/national/20text60x60--chpl.png" alt="" /></a></div><div class="promoText"><h4>Book early and save up to 20%</h4><p>Save up to 20% off our Best Available Rate when you book in advance on ChoiceHotels.com.<span class="call-to-action"><a href="http://www.choicehotels.com/en/hoteldeals/prepaid-packages" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel5_APR');" rel="nofollow">More details</a></span></p></div></div></div></div></div></div></li><li class="loop-odd loop-three-of-three loop-3 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://www.choicehotels.com/en/mobile" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel7_MOBILE');" rel="nofollow"><img src="/media/choicehotels/en/mobile/choice_mobile_page_phones_nov2011--chpl.png" alt="" /></a></div><div class="promoText"><h4>Book hotels on the go!</h4><p>Find and book more than 6,000 Choice Hotels properties anytime, anywhere.<span class="call-to-action"><a href="http://www.choicehotels.com/en/mobile" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel7_MOBILE');" rel="nofollow">Available on your mobile device</a></span></p></div></div></div></div></div></div></li><li class="loop-even loop-one-of-three loop-4 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://www.choicehotels.com/en/deals/partner-offers" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel8_PRTNROFFERS');" rel="nofollow"><img src="/media/promotions/en/general/partner-offers-75x55--chpl.png" alt="" /></a></div><div class="promoText"><h4>Partner offers</h4><p><span class="call-to-action"><a href="http://www.choicehotels.com/en/deals/partner-offers" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel8_PRTNROFFERS');" rel="nofollow">Great partner offers for our guests</a></span></p></div></div></div></div></div></div></li><li class="loop-odd loop-two-of-three loop-5 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://www.choicehotels.com/en/about-choice/platinum-gold-winners" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel9_PLTGOLD');"><img src="/media/choicehotels/en/award-winning-hotels-75x55--chpl.png" alt="" /></a></div><div class="promoText"><h4>Award-winning getaways</h4><p>Book at these Choice hotels and find out why they’re our Gold and Platinum winners<span class="call-to-action"><a href="http://www.choicehotels.com/en/about-choice/platinum-gold-winners" onclick="var s=s_gi('chchoice');s.tl(this,'o','CHcarousel9_PLTGOLD');">See our top ranked hotels!</a></span></p></div></div></div></div></div></div></li><li class="loop-even loop-three-of-three loop-6 "><div class="itm-wrp-1"><div class="itm-wrp-2"><div class="itm-wrp-3"><div class="itm-wrp-4"><div class="itm-wrp-5"><div class="thumbnail"><a href="http://svmcards.net/choice" target="_blank" onclick="var s=s_gi('chchoice');s.tl(this,'e','Gift Card Promo');" rel="nofollow"><img src="/media/promotions/en/general/gift-card-75x55-2--chpl.png" alt="" /></a></div><div class="promoText"><h4>Choice Hotels® Gift Card</h4><p>Convenient, flexible and easy to use<span class="call-to-action"><a href="http://svmcards.net/choice" target="_blank" onclick="var s=s_gi('chchoice');s.tl(this,'e','Gift Card Promo');" rel="nofollow">Purchase now</a></span></p></div></div></div></div></div></div></li></ul><div class="promo-more-link"></div></div><script type="text/javascript">$(document).ready(chi.mod['promo'].load);</script></div></div><div class="lay-wrp-4"><div class="module mod-brand-landing-custom-content"><table style="height: 57px;" border="0" width="290">
+<tbody>
+<tr>
+<td><a class="content-link" href="http://www.choicehotels.com/en/bestrate" rel="nofollow"><img src="/media/promotions/en/general/check-mark.jpg" alt="" width="71" /></a></td>
+<td> </td>
+<td><span class="page_heading"><a class="content-link" href="http://www.choicehotels.com/en/bestrate">Our Best Internet Rate Guarantee just got better!  »</a></span><br />Find a lower Internet rate. Get a <strong>free night</strong>.*<br /></td>
+</tr>
+</tbody>
+</table>
+<hr style="margin:5px 0; color:#cccccc;" size="1" />
+<table style="height: 57px;" border="0" width="290">
+<tbody>
+<tr>
+<td><a class="content-link" href="http://www.choicehotels.com/en/hotel-packages" rel="nofollow"><img src="/media/choicehotels/en/green-tag.png" alt="" /></a></td>
+<td>   <br /></td>
+<td><span class="page_heading"><a class="content-link" href="http://www.choicehotels.com/en/hotel-packages" rel="nofollow">Hotel Deals »</a></span><br />Plan your trip with great hotel packages and travel deals</td>
+</tr>
+</tbody>
+</table>
+<hr style="margin:5px 0; color:#cccccc;" size="1" />
+<table style="height: 57px;" border="0" width="290">
+<tbody>
+<tr>
+<td><img src="/media/choicehotels/en/envelope.png" alt="" /><br /></td>
+<td>    <br /></td>
+<td>
+<div style="color:#ff6600; font: bold 16px arial, ms sans-serif; text-decoration:none;">Sign me up!</div>
+Start saving with special offers from Choice</td>
+</tr>
+</tbody>
+</table></div><div class="module mod-hp-email-signup"><form action="https://secure.choicehotels.com/ires/en-US/html/EmailSignUpConfirm" name="EmailSignUpForm" method="POST" enctype="multipart/form-data"><input type="hidden" name="sid" value="xvzwdi.H-OP9gvnKg.4" /><fieldset><dl><dt class="form-email-address "><input name="email_required" id="email_required" type="hidden" value="yes" />*E-mail Address</dt><dd class="form-email-address"><input name="email" id="email" size="35" maxlength="60" type="text" class="" value="" /></dd><dt class="form-confirm-email-address ">*Confirm E-mail Address</dt><dd class="form-confirm-email-address"><input name="confirmEmail" id="confirmEmail" size="35" maxlength="60" onpaste="return false" class="" type="text" value="" /></dd><dt class="form-first-name "><span class="required-field">*</span>First Name</dt><dd class="form-first-name"><input name="nameFirst" id="nameFirst" size="20" maxlength="18" type="text" value="" class=" " /></dd><dt class="form-last-name "><span class="required-field">*</span>Last Name</dt><dd class="form-last-name"><input name="nameLast" id="nameLast" size="20" maxlength="20" type="text" value="" class=" " /></dd></dl><p class="required-fields">*Required fields</p><button name="emailSignUp" type="submit"><div class="btn-wrp-1"><div class="btn-wrp-2">Submit</div></div></button></fieldset></form></div><script>
+          $(document).ready(function() {
+             $(document).ready(chi.mod['hp-email-signup'].load);
+             chi.mod['hp-email-signup'].enterEmailAddress = "Enter your e-mail address";
+          });
+      </script></div></div></div><div class="footer"><div class="ftr-nav"><ul>
+<li><a href="http://www.choicehotels.com/en/hotel-packages">Special Offers &amp; Packages</a></li>
+<li><a href="http://www.choicehotels.com/en/special-offers">Deals and Programs</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-ideas">Travel Ideas</a></li>
+<li><a href="http://www.choicehotels.com/en/group-travel">Groups &amp; Meetings</a></li>
+<li><a href="https://secure.choicehotels.com/ires/en-US/html/TACityLogin" rel="nofollow">Travel Agents</a></li>
+<li><a href="http://www.choicehotels.com/ires/en-US/html/CustomerSupport" target="_blank" rel="nofollow">Customer Support</a></li>
+</ul></div><div class="ftr-deal-signup"><div class="ftr-app-store"><a href="http://www.choicehotels.com/iphoneapp" target="_blank"><img src="/assets/choicehotels/img/appimage.jpg" border="0" alt="" /></a></div></div><div class="ftr-section-nav"><ul>
+<li><a href="http://investor.choicehotels.com/phoenix.zhtml?c=99348&amp;p=IROL-irhome" rel="nofollow">Investor Info</a></li>
+<li><a href="http://careers.choicehotels.com">Corporate Careers</a></li>
+<li><a href="http://www.choicehotels.com/en/about-choice/aboutchoicehotels">About Choice Hotels</a></li>
+<li><a href="http://www.choicehotels.com/en/responsibility">Corporate Social Responsibility</a></li>
+<li><a href="http://media.choicehotels.com/phoenix.zhtml?c=217856&amp;p=irol-overview">Media Center</a></li>
+<li><a href="/en/about-choice/platinum-gold-winners">Award-Winning Hotels</a></li>
+<li><a href="http://svmcards.net/choice" target="_blank">Gift Card</a></li>
+<li><a href="http://www.choicehotels.com/en/affiliateprogram" rel="nofollow">Affiliate Program</a></li>
+<li><a href="http://www.choicehotels.com/en/pet-friendly-hotels">Pet-friendly Hotels</a></li>
+<li><a href="http://www.choicehotels.com/en/sports-travel">Sports Travel</a></li>
+<li><a href="http://www.choicehotelsfranchise.com/">Franchise Opportunities</a></li>
+<li><a href="http://www.choicehotels.com/en/sitemap">Site Map</a></li>
+<li><a href="http://www.choicehotels.com/en/privacypolicy" rel="nofollow">Privacy and Security Policy</a></li>
+<li><a href="http://www.choicehotels.com/en/online-terms-of-use" rel="nofollow">Terms Of Use</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-alerts">Travel Alerts</a></li>
+<li><a href="http://www.choicehotels.com/ires/en-US/html/DirectoryOrder" rel="nofollow">Travel Directory</a></li>
+<li><a href="http://www.choicehotels.com/en/citysitemap">US Cities A-L</a></li>
+<li><a href="http://www.choicehotels.com/en/citysitemappage2">US Cities M-Z</a></li>
+<li><a href="http://www.choicehotels.com/en/intlcitysitemap">International Cities</a></li>
+<li><a href="http://www.choicehotels.com/en/attractionsitemap">Attractions</a></li>
+<li><a href="http://www.choicehotels.com/en/airporthotels">Airport Hotels</a></li>
+<li><a href="http://www.choicehotels.com/orlando-florida-hotels">Orlando Hotels</a></li>
+<li><a href="http://www.choicehotels.com/new_york_city-new_york-hotels">New York City Hotels</a></li>
+<li><a href="http://www.choicehotels.com/san_antonio-texas-hotels">San Antonio Hotels</a></li>
+<li><a href="http://www.choicehotels.com/chicago-illinois-hotels">Chicago Hotels</a></li>
+<li><a href="http://www.choicehotels.com/houston-texas-hotels">Houston Hotels</a></li>
+<li><a href="http://www.choicehotels.com/new_orleans-louisiana-hotels">New Orleans Hotels</a></li>
+<li><a href="http://www.choicehotels.com/kissimmee-florida-hotels">Kissimmee Hotels</a></li>
+<li><a href="http://www.choicehotels.com/ocean_city-maryland-hotels">Ocean City Hotels</a></li>
+<li><a href="http://www.choicehotels.com/en/caribbean">Caribbean</a></li>
+</ul></div><div class="ftr-seo-nav"><ul>
+<li><a href="http://www.choicehotels.com/en/internationalsites">International Sites</a></li>
+<li><a href="http://www.choicehotels.com/" title="Hotels">Choice Hotels</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-ideas/asia-vacations">Asia &amp; Pacific</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-ideas/canada-vacations">Canada</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-ideas/southamerica-vacations">Central &amp; South America</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-ideas/europe-vacations">Europe &amp; Middle East</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-ideas/mexico-vacations">Mexico</a></li>
+<li><a href="http://www.choicehotels.com/en/travel-ideas/usa-vacations">United States</a></li>
+<li><a href="http://www.choicehotels.com/en/regional-sitemap">U.S. Regional Websites</a></li>
+<li><a href="http://www.choicehotels.com/hoteldeals">Deals Sitemap</a></li>
+<li><a href="http://www.choicehotels.com/en/mobile" title="Choice Hotels mobile app">Mobile Apps</a></li>
+<li><a href="http://m.choicehotels.com/">Mobile Site</a></li>
+</ul></div><div class="ftr-credits"><p>© 1995-2012. Choice Hotels International, Inc. All rights reserved.</p><p>Hotel properties listed on this site are individually owned and operated by independent franchisees of Choice Hotels International, Inc.</p></div><div class="ftr-feature-nav"><ul><li class="verisign"><script language="JavaScript">veri_lang = 'en';</script><script language="JavaScript" type="text/javascript" src="/assets/javascript/getverisignsealimage.js"></script></li></ul></div></div></div></div></div></div></div><div id="TMAN_BOTTOM_BODY"></div><script>
+            TMAN.doTags(TMAN.position.BOTTOM_BODY);
+         </script><script type="text/javascript">
+         var _marinClientId = "3wwczcep90";
+         var _marinProto = (("https:" == document.location.protocol) ? "https://" : "http://");
+         document.write(unescape("%3Cscript src='" + _marinProto + "tracker.marinsm.com/tracker/" + _marinClientId + ".js' type='text/javascript'%3E%3C/script%3E"));
+      </script><script type="text/javascript">
+         try {
+            _marinTrack.trackPage();
+         } catch(err) {}
+      </script><noscript><img src="https://tracker.marinsm.com/tp?act=1&amp;cid=3wwczcep90&amp;script=no" /></noscript><div id="collect-webmetrics"><script type="text/javascript">
+
+            var s_account="chchoice";
+
+            var ni_profile="choicehotels";
+
+         </script><script type="text/javascript" src="/assets/javascript/s_code.js"></script><script type="text/javascript">
+            // wmetric: sc s.pageName ;
+            var wm_pageName="Home Page - choice";
+            // wmetric: sc s.server ;
+            var wm_server="chcom4";
+            // wetric: sc s.prop3 s.eVar3 ;
+            var wm_langPreference="";
+            // wmetric: sc s.prop4 s.eVar4 ;
+            var wm_pageLang="en";
+            // wmetric: sc s.eVar13 ;
+            var wm_internalPromo="";
+            // wmetric: sc s.prop24 s.eVar24 ;
+            var wm_keyword="";
+            
+            // wmetric: sc s.prop19 ;
+            var wm_statusCode="";
+            // wmetric: sc s.campaign ;
+            
+                  var wm_promo="";
+               
+            s.pageName=wm_pageName;
+            s.server=wm_server;
+            s.prop3=wm_langPreference;
+            s.eVar3=wm_langPreference;
+            s.prop4=wm_pageLang;
+            s.eVar4=wm_pageLang;
+            s.eVar13=wm_internalPromo;
+            s.eVar24=wm_keyword;
+            s.prop24=wm_keyword;
+            s.prop19=wm_statusCode;
+            s.campaign=wm_promo;
+            
+
+            function sendWebmetricsToOmniture()
+            {
+               var s_code=s.t();
+               if(s_code)
+                  document.write(s_code);
+            }
+
+             
+      // wmetric: sc s.eVar2 ;
+      var wm_corpType="";
+      
+      
+      // wmetric: sc s.eVar5 ;
+      var wm_pageType="";
+      
+            s.channel="choice";
+
+            // wmetric: sc s.prop8 s.eVar8 ;
+            var wm_searchCountry="";
+            // wmetric: sc s.prop9 s.eVar9 ;
+            var wm_searchDest="";
+            // wmetric: sc s.prop10 s.eVar10 ;
+            var wm_searchChain="";
+            // wmetric: sc s.prop11 s.eVar11 ;
+            var wm_searchStateCountry="";
+            // wmetric: sc s.prop14 ;
+            var wm_placeType="";
+          
+            s.eVar2=wm_corpType;
+            s.prop8=wm_searchCountry;
+            s.eVar8=wm_searchCountry;
+            s.prop9=wm_searchDest;
+            s.eVar9=wm_searchDest;
+            s.prop10=wm_searchChain;
+            s.eVar10=wm_searchChain;
+            s.prop11=wm_searchStateCountry;
+            s.eVar11=wm_searchStateCountry;
+            s.prop14=wm_placeType;
+         
+      s.eVar5=wm_pageType;
+      
+   </script><div id="send-webmetrics"><script type="text/javascript">
+
+            sendWebmetricsToOmniture();
+
+         </script></div></div><script language="JavaScript" type="text/javascript" src="/assets/javascript/wv326redirect_A.js"></script></body></html>

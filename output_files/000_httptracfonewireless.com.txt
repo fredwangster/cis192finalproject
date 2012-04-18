@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.tools.min.js"></script>
+<script type="text/javascript" src="js/jquery/modernizr-1.6.min.js"></script>
+<script type="text/javascript" src="js/jquery/scripts.js"></script>
+<title>TracFone&reg; Wireless, Inc. - Find a No-Contract Plan that's right for you.</title>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="blueprint/screen.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="blueprint/print.css" type="text/css" media="print" />
+<!--[if IE]><link rel="stylesheet" href="blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+<!--[if lte IE 8]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection" /><![endif]-->
+<link rel="stylesheet" href="css/noCSS3.css" type="text/css" media="screen, projection" />
+<script type="text/javascript">
+$(document).ready(function() {
+// initialize scrollable together with the navigator plugin
+	var api = $('#browsable').scrollable({circular: true}).autoscroll({ autoplay: true, interval: 6000 }).navigator().data('scrollable');	
+	window.setTimeout(function () { api.stop(); }, 19000);
+	$('#browsable').scrollableAddClones();
+});
+</script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <h1 id="logo" class="span-6"><a href="index.html"><img src="images/logo.png" alt="TracFone&reg; Wireless, Inc" id="header-image" /></a></h1>
+    <ul id="topNav" class="span-12 clearfix last">
+      <li><a href="index.html" class="current span-4">Why No Contract</a></li>
+      <li><a href="brands.html" class="span-4">Our Brands</a></li>
+      <li><a href="help-me-choose.html" class="span-4 last">Help Me Choose</a></li>
+    </ul>
+  </div>
+</div>
+
+  <div id="slider-holder"></div>
+  <div id="feature-rotator">
+
+	<div id="carousel-holder"> 
+    	<div id="carousel"> 
+ 
+<div><a class="prev browse left"></a></div>
+<div class="scrollable" id="browsable">   
+   <div class="items">
+      <div>
+         <img src="images/slideshow/multibrand-control.jpg" alt="Choose no-contract for CONTROL - You can use your phone based on your needs. Change plans based on your usage - without any fees or contracts." />
+      </div> 
+      <div>
+         <img src="images/slideshow/multibrand-freedom.jpg" alt="Choose no-contract for FREEDOM - Enjoy contract-free wireless on you terms! Buy and add minutes as you need them." />
+      </div>
+      <div>
+         <img src="images/slideshow/multibrand-savings.jpg" alt="Choose no-contract for SAVINGS - Pay only for the minutes you use. You won't be surprised by overspending or unexpectedly high cell phone bills." />
+      </div>	  
+   </div>
+</div>
+<div><a class="next browse right"></a></div>
+
+<div class="navi">
+	<a href="#0" class="active"></a>
+	<a href="#1" ></a>
+	<a href="#2" ></a>
+</div>
+            
+		</div> 
+        <div class="clear"></div> 
+
+    </div> <!-- end #carousel-holder -->
+  </div> <!-- end #feature-rotator -->
+		
+
+<div class="container clearfix" id="find-the-best">
+  <p class="left-col">ALREADY KNOW WHAT YOU WANT? <br> <br>GET STARTED NOW!</p>
+  <div id="find-the-best-optionsWrap">
+  <div id="find-the-best-options">
+  <div id="find-the-best-options-arrow"></div>
+  <div class="columns">
+  <div class="col-tf">
+	<h3>Control</h3>
+	<a href="http://www.tracfone.com/" title="TracFone&reg;"><img src="images/tracfone_sml.png" width="146" height="140" alt="TracFone&reg;" /></a>
+	<p>Low cost, contract-free wireless on your terms.</p>
+	<a class="btn" href="http://www.tracfone.com/" title="View TracFone&reg; website">TracFone</a>
+  </div>
+  <div class="col-nt">
+	<h3>Flexibility</h3>
+	<a href="http://www.net10.com/" title="NET10&reg;"><img src="images/net10_sml.png" width="146" height="140" alt="NET10&reg;" /></a>
+	<p>Switch between plans with no additional cost.</p>
+	<a class="btn" href="http://www.net10.com/" title="View NET10&reg; website">NET10&reg;</a>
+  </div>
+  <div class="col-st">
+	<h3>Straight Forward</h3>
+	<a href="http://www.straighttalk.com/" title="Straight Talk&reg;"><img src="images/straighttalk_sml.png" width="146" height="140" alt="Straight Talk&reg;" /></a>
+	<p>Nationwide unlimited plans and more.</p>
+	<a class="btn" href="http://www.straighttalk.com/" title="View Straight Talk&reg; website">Straight Talk&reg;</a>
+  </div>
+  </div>
+</div></div>
+  
+</div><!-- END #find-the-best -->
+<div id="main" class="why-prepaid">
+  <div class="container">
+    <div class="span-24">
+      <div class="help-me-choose">
+        <p><strong>Help Me Choose &#8211;</strong> &nbsp;We’ll help you find the best no contract wireless service for you!<a href="help-me-choose.html">Let's Begin</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- END Help Me Choose -->
+  <div id="content" class="container">
+    <div id="how-it-works">
+      <div class="airtime-cards span-8"> <img src="images/airtime-cards.png" alt="Airtime Cards" /> </div>
+      <div class="span-8">
+        <h3>How It Works</h3>
+        <p><strong>With no contract, or "contract-free" wireless service, a whole new world awaits.</strong></p>
+        <p>Gone are the restrictive contracts that require long-term commitments and cancellation fees. With no contract wireless, simply buy a cell phone and select what you need, such as a number of minutes or days of service. When you run out of minutes, you can buy more minutes immediately, or within a particular time period. You can choose to discontinue using the phone without paying any fees or penalties. </p>
+      </div>
+      <div class="prepend-1 span-6 last">
+        <div class="benefits">
+          <p><strong>Benefits Include</strong></p>
+          <ul>
+            <li class="checked">Pay as you go, monthly, and annual plan options</li>
+            <li class="checked">No contracts</li>
+            <li class="checked">Easy purchase/refill of additional minutes</li>
+            <li class="checked">No cancellation or activation fees</li>
+            <li class="checked">No credit check required</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- END How It Works -->
+    <hr />
+    <div id="great-coverage">
+      <div class="prepend-1 span-11 append-bottom">
+        <h3>We Have Great Coverage</h3>
+        <p><strong>TracFone&reg; Wireless, Inc. provides nationwide no contract wireless service.</strong></p>
+        <p>We use the nation's leading cellular providers to create a national footprint covering 99% of the U.S. population. This gives you service everywhere cellular service is available.</p>
+        <p>You can use your TracFone&reg; Wireless, Inc. devices across the U.S., and if you move, you can relocate your wireless number with just a phone call.</p>
+      </div>
+      <div class="prepend-2 span-7 last"> <img src="images/coverage.png" alt="Coverage Map" /> </div>
+    </div>
+    <hr />
+    <!-- END Great Coverage
+    
+    <div class="example-savings span-9">
+      <div class="box"> <strong><u>Example Savings</u></strong>
+        <p>If you are on a plan that gives you 500 Anytime Minutes and you end up using 600 instead, you will typically be charged $0.40 or more in minute overage charges.</p>
+        <p>That would cost you $40 more than you wanted to pay. If you do not sign up for a Text or Data plan and you end up sending/receiving texts, you most likely will be charged $0.20 or more per text. If you use Data, or send pictures you will pay more!</p>
+      </div>
+    </div> -->
+    <!-- END Example Savings -->
+    <div class="clearfix" id="about-us">
+      <div class="prepend-2 span-11p append-1 last">
+        <h3>About Us</h3>
+        <p><a href="http://www.tracfone.com/about.jsp?nextPage=about.jsp&amp;task=about#bottcontact">TracFone Wireless</a> is America's largest &ldquo;No-Contract&rdquo; cellular service provider in the U.S. with  over 17 million subscribers. TracFone Wireless is a subsidiary of América Móvil  S.A.B. de C.V. (&quot;<a href="http://www.americamovil.com" target="_blank">AMX</a>&quot;)  (BMV: AMX; NYSE: AMX; Nasdaq: AMOV; LATIBEX: XAMXL), the fourth largest cell  phone company in the world and the largest in all of the Americas with more  than 200 million cell phone subscribers.&nbsp;</p>
+        <p>Our  formula for success is simple — exclusive focus on &ldquo;No-Contract&rdquo; cell phones  and service. It&rsquo;s all we do. Our customers enjoy the freedom and flexibility  our services provide.&nbsp; TracFone Wireless believes that cell phone  ownership is a right, not a privilege and an important part of everyone&rsquo;s life  for success in today's world. Everyone should have the right to always know  what their cell phone service will cost and no one should have to pay more than  they want or can afford. TracFone Wireless believes in making the cost to own  &amp; maintain a cell phone as low as possible and TracFone Wireless never  charges extra fees to activate, reactivate or cancel your service.<br />
+        </p>
+        <p>We  market four brands that cover everyone&rsquo;s needs for cellular service: TracFone  brand is for light users that want the lowest out-of-pocket costs while the  NET10 brand is for medium to heavy users that desire more minutes for the  money. Straight Talk is for anyone that want &ldquo;everything you need in a cell  phone without a contract&rdquo; with its &ldquo;all you need&rdquo; and &ldquo;unlimited&rdquo; plans sold  exclusively at Walmart. SafeLink brand is a government supported program that  provides a free cell phone and airtime each month for income-eligible  customers.</p>
+</div>
+    </div>
+    <!-- END About Us -->
+    <div class="find-a-plan">
+      <p><span class="callout">18 Million People Choose TracFone<span style="font-size:11px; vertical-align:top;">&reg;</span> Wireless, Inc. How about you?</span><a href="help-me-choose.html">Find a service that’s right for you</a></p>
+    </div>
+    <!-- END Find a Plan -->
+    <p class="topLink"><a href="#header">Back to top</a></p>
+  </div>
+  <!-- END #content -->
+</div>
+<!-- END #main -->
+<div id="footer">
+  <!-- brand-bar -->
+  <div id="brand-bar" class="container">
+    <ul>
+      <li class="cola">
+        <h2><a href="http://www.tracfone.com/" class="span-3"><img src="images/tf-logo-bw.png" alt="TracFone&reg;" /></a></h2>
+        <p class="span-5"><strong>Flexibility</strong><br />
+          Switch between service with no additional cost.</p>
+      </li>
+      <li class="colb">
+        <h2><a href="http://www.net10.com/" class="span-4"><img src="images/n10-logo-bw.png" alt="NET10&reg;" /></a></h2>
+        <p class="span-4"><strong>Control</strong><br />
+          Low cost, contract-free wireless on your terms.</p>
+      </li>
+      <li class="colc">
+        <h2><a href="http://www.straighttalk.com/" class="span-3"><img src="images/st-logo-bw.png" alt="Straight Talk&reg;" /></a></h2>
+        <p class="span-5 last"><strong>Straight Forward</strong><br />
+          Nationwide unlimited plans and more.</p>
+      </li>
+    </ul>
+  </div>
+  <!-- END brand-Bar -->
+  <!-- colopholon -->
+  <div id="colopholon">
+    <div class="container">
+      <p class="span-18"><img class="append-bottom" src="images/logo.png" alt="TracFone&reg;" /><br />
+        <small>TRACFONE&reg;, NET10&reg; and STRAIGHT TALK&reg; are registered trademarks of TracFone&reg; Wireless, Inc., a subsidiary of Am&eacute;rica M&oacute;vil.<br />
+        All other trademarks, service marks, and trade names referenced in this site are the property of their respective owners.</small></p>
+      <p class="social-links-title">Find Us On The Web</p>
+      <ul id="social-links" class="prepend-2 span-4 last">
+        <li><a href="http://www.facebook.com/TracFoneDeals"><img src="images/facebook.png" alt="facebook" /></a></li>
+        <li><a href="http://twitter.com/#!/tracfonecalls"><img src="images/twitter.png" alt="twitter" /></a></li>
+        <li><a href="http://www.youtube.com/tracfonevideos"><img src="images/youtube.png" alt="youtube"/></a></li>
+      </ul>
+      <!-- END social-links -->
+    </div>
+  </div>
+  <!-- END colopholon -->
+</div>
+<!-- END footer -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19443566-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

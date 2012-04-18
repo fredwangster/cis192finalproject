@@ -1,0 +1,3108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+	<head>	
+<!--<COMMENT TITLE="MONITOR"></COMMENT>-->
+<meta name="rating" content="GENERAL"/>
+<meta name="robots" content="noodp"/>
+<title>Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares</title>
+<meta name="description" content="Plan your trip with Expedia. Buy airline tickets, read reviews & reserve a hotel. Find deals on vacations, rental cars & cruises. Great prices guaranteed!">
+<meta name="keywords" content="Expedia, Travel, Cheap Flights, Hotels, Vacations, Cruises, Cheap Airfare, Airline Tickets, Travel Agency, Car Rental, Hotel Reservations, Vacation Packages, Cruise Deals">
+<meta name="msvalidate.01" content="ADF9631428903DBA778A77046B80A4A8" />
+<meta name="msvalidate.01" content="3F675B8EC041A0CA8496F5CA19F92C16" />
+<meta name="verify-v1" content="aeVxP6zTHeQzT620ipj5+ikXd/VXcdlKoYUJ/C6vVdY=" />
+<META name="y_key" content="016fe886aca30800" />
+<meta property="fb:page_id" content="64067037679" />
+<link href="http://www.expedia.com/" rel="canonical" /><!--[if IE 7]>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<![endif]-->
+<![if !(IE 7)]>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<![endif]>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+<script src="/static/default/default/scripts/external/yui/v2.8.1/bundle/yui-bundle-min.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/default/default/scripts/global_ex.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/default/default/scripts/exp/core/util/v1.0.0/util.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/default/default/scripts/expedia/core/e.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/default/default/scripts/expedia/core/srvy.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/default/default/scripts/exp/core/date/v3.0.0/date.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/ui_toolkit/v1.0/js/libs/LAB.min.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+
+<script type="text/javascript">
+var calConfig = exp.core.date.CalendarControl.config = exp.core.date.CalendarControl.Config;
+var DPDisplay = exp.core.date.datePickerDisplay = exp.core.date.DatePickerDisplay('CalFrame', '/static/default/default/html/calendar/v3.0.0/calendar.html');
+exp.core.date.CalendarControl.config.setFormatConfig('mmddyy', '/');
+exp.core.date.CalendarControl.config.setUnitConfig(0, ['January','February','March','April','May','June','July','August','September','October','November','December'], ['S','M','T','W','T','F','S']);
+exp.core.date.CalendarControl.config.setTextConfig('Close');
+
+var g_calendar = exp.core.date.calendar = exp.core.date.Calendar(exp.core.date.CalendarControl.config);
+
+var g_datepicker = exp.core.date.datePicker = exp.core.date.DatePickerControl(exp.core.date.calendar, DPDisplay, true);
+var g_dateUpdater = exp.core.date.dateUpdater = exp.core.date.DateUpdater(exp.core.date.calendar);
+function getDatePicker() {return g_datepicker;}
+DPDisplay.useAphrodite2 = exp.core.date.datePickerDisplay;
+</script>
+<link rel="stylesheet" href="/static/fusion/v2.3/styles/core.css?v=release-2012-04-r3-42-439113" />
+<link rel="stylesheet" href="/static/default/default/styles/exp/global/headerFooter.css?v=release-2012-04-r3-42-439113" />
+<link rel="stylesheet" href="/static/fusion/v2.3/styles/ushp.css?v=release-2012-04-r3-42-439113" />
+<!-- 16 ms -->
+<!--[if IE 6]>
+<link rel="stylesheet" href="/static/fusion/v2.3/styles/coreIE6.css?v=release-2012-04-r3-42-439113" />
+<link rel="stylesheet" href="/static/default/default/styles/exp/global/headerFooterIE6.css?v=release-2012-04-r3-42-439113" />
+<!-- 0 ms -->
+<![endif]-->
+<style type="text/css">
+	#divFooter { clear: both; }
+	.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	.clearfix { display: inline-block; }
+	/* Hides from IE-mac \*/
+	* html .clearfix { height: 1%; }
+	.clearfix { display: block; }
+	/* End hide from IE-mac */
+	
+	#xp_hp_contentContainer { padding-top:16px;}
+	#xp_hp_aCol { position:relative; z-index:1; margin-top: 0px;}
+	#xp_hp_bCol {position:relative; z-index:0;}
+	
+	/* for psf widgets */
+	.xp-brand-colWidth{width:146px;}
+	.xp-brand-colPadding{padding-right:16px;}
+	.xp-brand-noUnderline{text-decoration:none !important;}
+
+	#xp_brand_widget .xp-h-large-secondary { font-size: 1.6em; }
+	#xp_brand_widget .xp-h-large {color:#333333 !important;font-family:arial;font-size:16px;text-transform:uppercase;}
+	#xp_brand_widget #xp_brand_image { margin-bottom: 3px; }
+	#xp_brand_widget .xp-s-dv {border-bottom:medium none;padding-bottom:0px !important;}
+	#xp_brand_widget #xp_brand_link_cnt {width:76px;}
+	#xp_brand_widget #xp_brand_link_cnt .top {padding-bottom:4px;vertical-align:bottom;}
+	#xp_brand_widget #xp_brand_link_cnt a {font-size:12px;}
+	#xp_brand_widget #xp_brand_price_cnt {width:70px;text-align:right;}
+	#xp_brand_widget #xp_brand_price_cnt .top {padding-bottom:4px;vertical-align:bottom;}
+	#xp_brand_widget #xp_brand_price_lnk {font-size:22px;}
+	#xp_destinationDeals_nav { margin-bottom: 0 !important; }
+
+	.xp-content-table {width:100%} 
+	.xp-dropdown {font-size:12px; background:#d4e9ee; padding:8px 0px 0px 16px;} 
+	.xp-t-body-21 {font-size:21px;vertical-align:middle;}
+	.xp-t-body-logo {background:no-repeat center center;height:25px;width:125px;}
+	#xp_destinationDeals_widget .xp-bx-rnd-cnt{margin:0;padding:0 0 0;}
+	.xp-content-table th{background:#d4e9ee !important;text-align:left;padding:8px 0px 8px 16px;border-bottom:1px solid #ccc;border-top:none;font-weight:normal;}
+	.xp-content-table td {padding:8px 8px 8px 16px;border-bottom:1px dotted #ccc;}
+	.xp-content-table td a {font-weight:bold;}
+	.xp-content-table .xp-content-table-last-td {background:#eeeeee;text-align:center;padding-left:0px;}
+	.xp-content-table .xp-nested-table { border:0px; padding:8px 0px 8px 0px;}
+	.tab-wrap {margin-bottom: 0px;}
+	.tab-wrap .panes { border: none; padding-top:0px;}	
+	.tab-wrap .panes .tab-content { padding: 0; }
+	.tab-wrap .panes .tab-content .tab-box-inner { padding-top: 0; }
+	.tab-wrap .tab-content .tab-box-inner { margin-top: 0; }
+	ul.tabs a { padding: 6px 16px; }
+	
+	#xp_destinationDeals_navlist li { font-size:12px; }
+	#xp_destinationDeals_widget .xp-bx-rnd-cnt{margin:0;padding:0 0 0;}
+	#xp_destinationDeals_widget .xp-s-paragraph-half div{padding:8px 16px 8px 8px;} 
+	.xp_clear_navlist { clear:both; }
+	.xp-s-bestvalue {color:#f06601;font-weight:bold;position:absolute;top:-18px;}
+	#xp_destinationDeals_widget .xp-pl-widget {margin-bottom:16px;}
+	#xp_destinationDeals_widget .xp-h-large {
+		font-weight:normal;text-transform:uppercase;font-size:16px;font-family:arial;color:#333 !important;margin:0; padding:14px 0 0 16px;}
+	#xp_destinationDeals_widget .starRating span {display:none;}
+	
+	/* SEO widget */
+	.SEOInfoSection {width:628px; line-height:14px; margin-bottom:14px;} 
+	.SEOInfoSection .SEOInfoA {float:left; width:166px;}
+	.SEOInfoSection .SEOInfoB {float:left; width:460px;}
+	.SEOInfoSection .SEOInfoSub {margin-top:16px; font-weight:bold;}
+	.SEOInfoSection .top16 {margin-top:16px; font-size:14px;}
+
+	.SEOInfoSection h1.SEOMain {margin-bottom:14px;}
+	.SEOInfoSection h3.SEOHead {margin-bottom:7px;}
+	.SEOInfoSection .activityInfoCol ul {margin-top:0;margin-left:14px; }
+	.SEOInfoSection .activityInfoCol {float:left; width:205px;}
+	/* End SEO widget */
+</style>
+<link rel="stylesheet" type="text/css" href="/static/publish/region_us/css/home.css?v=2" />	</head>
+	
+	<body class="homepage">
+
+<script type="text/javascript">
+var axel = Math.random();
+var a = axel * 10000000000000;
+document.write('<iframe src="http://fls.doubleclick.net/activityi;src=2588783;type=nausc547;cat=naush134;ord=' + a + '?" width="1" height="1" frameborder="0"></iframe>');
+document.write('<iframe src="http://fls.doubleclick.net/activityi;src=2588797;type=nausc826;cat=naush555;ord=' + a + '?" width="1" height="1" frameborder="0"></iframe>');
+</script>
+<noscript>
+<iframe src="http://fls.doubleclick.net/activityi;src=2588783;type=nausc547;cat=naush134;ord=1?" width="1" height="1" frameborder="0"></iframe>
+<iframe src="http://fls.doubleclick.net/activityi;src=2588797;type=nausc826;cat=naush555;ord=1?" width="1" height="1" frameborder="0"></iframe>
+</noscript>
+<!--ActivityId:c9b6ea8b-249e-472a-8914-f19a708c95d0;-->
+
+
+
+<script src="/static/default/default/scripts/popunder.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/header/headUtil.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+<div itemscope itemtype="http://schema.org/Product" id="xp-hdr" style="float:left;">
+	<script type="text/javascript">
+		if (typeof xp  === "undefined"){
+			var xp = {};
+		}
+	
+		if (typeof xp.namespace === "undefined"){
+			xp.namespace = function() {
+				var args = arguments, root = null, pkg;
+				for (i=0; i<args.length; i=i+1) {
+					pkg = args[i].split('.');
+					root = window;
+					
+					for (j=0; j<pkg.length; j=j+1) {
+						root[pkg[j]] = root[pkg[j]] || {};
+						root = root[pkg[j]];
+					}
+				}
+				return root;
+			};
+		}
+	
+		xp.namespace("xp.nav");
+		xp.nav.trackAnalytics = function (obj, type, id){
+			if('undefined' != typeof(s_exp_trackClick) && s_exp_trackClick){
+				s_exp_trackClick(obj, type, id);			
+			}
+			return true;
+		}	
+
+		xp.namespace("xp.nav.event");
+		xp.nav.event.onDOMReady = function(callback) {
+            var callbackWrapper = function() {
+                setTimeout(callback, 0);
+            };
+			if (window.addEventListener){
+		  		window.addEventListener('load', callbackWrapper, false);
+			}else if (window.attachEvent){
+				window.attachEvent('onload', callbackWrapper);
+			}else {
+			 	if ( window.onload != null ) {
+	      			var _onload = window.onload;
+	      			window.onload = function ( e ) {
+	        			_onload(e);
+	        			window[callbackWrapper]();
+	      			};
+	    		} else
+	      			window.onload = callbackWrapper;
+			}
+		}
+		
+	</script>
+	
+		
+		
+		
+	
+	    <!-- inline CSS for the header and associated widgets -->
+	    <style type="text/css">
+	     	#xp-hdr{font-size:11px;font-family:arial,helvetica,clean,sans-serif;color: #006699;}
+	     	
+	        #xp-hdr .xp-hdr-width {width:992px;}
+	        #xp-hdr .xp-hsprite {background: #fff url(http://media.expedia.com/media/content/shared/images/navigation/headersprites.png?v=1) repeat-x scroll;}
+	        
+	        /* grey fade at bottom of sprite */	        		        
+	        #xp-hdr .xp-hdr-top {min-height:72px;height:auto !important;height:72px;background-position: bottom left;}	           
+	              
+	        /* logo */    
+	        #xp-hdr .xp-hdr-logo {position:absolute; float:left;display: inline;no-repeat;margin: 21px 0 0 14px; padding:0;}
+			#xp-hdr .xp-thhdr-logo {position:absolute; float:left;display: inline;no-repeat;margin: 15px 0 0 14px; padding:0;}
+	        #xp-hdr .xp-hdr-logo a img {border: none;}
+			#xp-hdr .xp-thhdr-logo a img {border: none;}
+	      
+	      	/* service links */
+	        #xp-hdr .xp-hdr-svc {float:right;margin:7px 8px 0 0;}
+			#xp-hdr .xp-hdr-svc a {color: #006699;text-decoration:underline;}
+			#xp-hdr .xp-hdr-svc a:hover {color: #02b3fd;}
+	        
+	        #xp-hdr .xp-hdr-svc ul {float:left;margin:0;padding:0;}
+	        #xp-hdr .xp-hdr-svc ul li {margin:4px 0 0 0;line-height:12px;font-size:11px;border-right: 1px solid #999;list-style:none;float:left;padding: 0 6px 0 6px;}
+			#xp-hdr .xp-hdr-svc ul .xp-no-border-right {border-right: none; padding: 0 0 0 6px;}
+			#xp-hdr .xp-hdr-svc ul .xp-srch-pad {line-height:20px;margin:0;padding: 0 0 0 8px; }
+			#xp-hdr .xp-hdr-svc ul .xp-srch-zeropad {line-height:20px;margin:0;padding: 0px; }
+			
+			#xp-hdr .xp-hdr-bold {font-weight: bold;}
+	     
+	        /* sbtn sprited */
+	        #xp-hdr .xp-hdr-svc .xp-hdr-srch {margin: 0; padding:0;}
+	        #xp-hdr .xp-hdr-svc .xp-hdr-sfrm {margin: 0; padding:0;}
+			#xp-hdr .xp-hdr-svc .xp-hdr-sinput {font-size:11px;float:left; margin:0;padding:2px 0 2px 3px;width:144px;border: 1px solid #999;color: #000;min-height:20px;height:20px}	                
+	        #xp-hdr .xp-hdr-svc a.xp-hdr-sbtn {float:left;cursor: pointer;margin: 0px 0 0 5px;padding: 0 5px 0 0;text-align:center; display:inline-block;border:none;text-decoration:none;font-weight: bold;background-position: right -121px;height:20px;}
+	        #xp-hdr .xp-hdr-svc a.xp-hdr-sbtn:hover {background-position: right -141px;}
+	        #xp-hdr .xp-hdr-svc a.xp-hdr-sbtn span {margin:0;padding: 0 0 0 5px;background-position: left -121px;display:inline-block;}
+	        #xp-hdr .xp-hdr-svc a.xp-hdr-sbtn:hover span {background-position: left -141px;}      
+	       
+	        #xp-hdr .xp-hdr-ad {clear:right;float:right;padding:0;margin: 5px 8px 7px 0;display:block;}
+	        #xp-hdr .xp-hdr-ad img {border:none;}
+	       	        
+	        #xp-hdr .xp-hdr-eap-logo{clear:right;float:right;padding:0;margin: 5px 8px 7px 0;display:block;}
+	        #xp-hdr .xp-hdr-eap-logo img {border:none;}
+	           
+	        /* tabs sprited */
+	        #xp-hdr .xp-hdr-tab {background-position: left -90px;height:30px;position:relative;}
+	        #xp-hdr .xp-hdr-tab ul {margin:0;padding:0;}
+	        #xp-hdr .xp-hdr-tab li {font-weight:bold;font-size:12px;list-style:none;float:left;margin:0;padding:0;}  
+			#xp-hdr .xp-hdr-tab ul li a {float:left;display:block;height:30px;text-decoration:none;color:#003e7e;background:transparent url(http://media.expedia.com/media/content/shared/images/navigation/headersprites.png?v=1) no-repeat scroll;background-position: right 0px;}
+			#xp-hdr .xp-hdr-tab ul li a:hover {background-position: right -30px;} 
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-last a {background-position: left 0px;}
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-last a:hover {background-position: left -30px;} 
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-selected a,
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-selected a:hover,
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-lastselected a,
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-lastselected a:hover {background:transparent url(http://media.expedia.com/media/content/shared/images/navigation/headersprites.png?v=1) no-repeat scroll;background-position: right -60px;}
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-lastselected a,
+			#xp-hdr .xp-hdr-tab ul li.xp-hdr-tab-lastselected a:hover {background-position: left -60px;}
+			#xp-hdr .xp-hdr-tab ul li a.xp-hdr-tab-highlight {color:#c94402;text-transform: uppercase;}
+			#xp-hdr .xp-hdr-tab ul li a span {padding-left:10px;padding-right:10px;display:block;padding-top:7px;}
+	        #xp-hdr .xp-hdr-arng {background: #b8e4f8;font-weight:bold;font-size:11px;float:left;margin:0;padding:0;color: #333333;}  
+        	#xp-hdr .xp-hdr-arng {text-align:center;padding: 3px 0 3px 0;}			
+			#xp-hdr .xp-hdr-arng a {color: #006699;}
+			#xp-hdr .xp-hdr-arng a:hover {color: #02b3fd;}
+			#xp-hdr .xp-hdr-arng-img {display: inline-block;background-position:0px -162px;height: 13px;width: 17px;margin: 0 2px 0 auto;padding:0 ;vertical-align:middle}
+
+	        .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	        .clearfix { display: inline-block; }
+	        /* Hides from IE-mac \*/
+	        * html .clearfix { height: 1%; }
+	        .clearfix { display: block; } 
+			/* Hides from IE-mac */
+			
+			#nav-woodpecker {border-style: solid; border-color: black; height: 32px; background-color: rgb(255, 0, 0); text-align: center; 
+				 vertical-align: middle; font-size: 22px; color: white;font-style: normal;line-height:120%;}
+			#nav-woodpecker .nav-woodpecker-b{font-weight: bold; text-decoration: underline;}
+			#nav-tool-travelalert { color: #cc0000 !important; }
+			#nav-tool-travelalert:hover, #nav-tool-travelalert:active { color: #ff2323 !important; }
+
+			
+	    </style>
+		
+
+
+            
+        
+	
+		
+
+	    <script src="/static/default/default/scripts/exp/core/ChannelTracking.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+
+			
+
+	    <div class="xp-hdr-width xp-hdr-top xp-hsprite clearfix"> 
+	         <div id="nav-head-logo" class="xp-hdr-logo">
+				<a title="Expedia.com" href="http://www.expedia.com/" onclick="window.top.location.href='http://www.expedia.com/?rfrr=Head:Nav:Multi:Home'; return false;">
+					 <img itemprop="image" src="http://media.expedia.com/media/content/shared/images/navigation/expedia.com.png?v=1" alt="Expedia.com"/>
+				</a>		 
+	         </div>
+	         <div style="clear: both;"></div>
+	         <div id="nav-head-service" class="xp-hdr-svc">
+	            <ul>
+			
+
+	                        <li id="nav-tool-welc" class="xp-no-border-right">
+	                            <span class="xp-hdr-bold">Welcome - Already a member?</span>
+	                            [ <a id="nav-tool-signin" rel="nofollow" target="_top" href="http://www.expedia.com/pub/agent.dll?qscr=logi&ussl=1"  onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:None:SignIn')" >Sign In</a> ]
+	                        </li>
+	                     <li class="">
+	                        
+							<a id="nav-tool-itinerary" rel="nofollow" target="_top" href="http://www.expedia.com/pub/agent.dll?qscr=litn" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:None:Trips')" >
+				
+	                                My Itineraries
+	                         </a>
+	                     </li>
+	                 
+	                 
+						<li class="">
+	                        <a id="nav-tool-account" rel="nofollow" target="_top" href="http://www.expedia.com/pub/agent.dll?qscr=info" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:None:Profile')" >
+	                            My Account
+	                        </a>
+	                    </li>
+	                 
+	                	<li id="customersupport" class="">
+	                    	<a 	id="nav-tool-cs" rel="nofollow" target="_top" href="http://support.expedia.com"
+	onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:None:CustSupport')">
+	<span>Customer Support</span>
+</a>
+
+						</li>	                    	
+	                    <li class="xp-no-border-right">
+	                         
+<script src="/static/default/default/scripts/external/opinionlab/oo_engine.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+
+<a id="nav-tool-feedback" rel="nofollow" target="_top" href="https://secure.opinionlab.com/ccc01/comment_card.asp" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:None:Opinion');OpinionLab.O_LC();return false;" >
+    Feedback
+</a>
+
+
+	                     </li>	
+
+		                <li id="nav-head-srch-li" class="xp-no-border-right xp-srch-pad">
+	                		<script language="JavaScript" type="text/javascript" src="//media.expedia.com/media/content/shared/scripts/external/baynote/baynote-searchBox.js"></script>
+<div id="baynote_searchBox" class="xp-hdr-srch">
+	<form id="baynote_searchForm" action="http://search.expedia.com/socialsearch/query" method="get" name="baynote_searchForm" onsubmit="baynote_inline_handleSubmit();return false;" class="xp-hdr-sfrm"> 
+				<input id="baynote_isDefault" type="hidden" value="1" />
+		<input id="baynote_st" type="hidden" name="st" value="1" />
+		<input id="baynote_cn" type="hidden" name="cn" value="expedia" />
+		<input id="baynote_cc" type="hidden" name="cc" value="www" />
+		<input id="baynote_q"  type="text" name="q" value="Search Expedia" maxlength="128" onfocus="baynote_handleFocus()" onblur="baynote_handleBlur()" class="xp-hdr-sinput"/>
+		<input id="baynote_searchButton" type="submit" alt="Search all of Expedia.com" value="Go" style="display:none;"/>
+		<a href="#" class="xp-hdr-sbtn xp-hsprite" onclick="return baynote_inline_handleSubmit();"><span class="xp-hsprite">Go</span></a>
+	</form>
+</div>						
+<script type="text/javascript">	
+	function baynote_inline_handleSubmit(){
+		var q = (document.getElementById("baynote_isDefault").value == "1") ? "" : document.getElementById("baynote_q").value;
+		var st = document.getElementById("baynote_st").value;
+		var cn = document.getElementById("baynote_cn").value;
+		var cc = document.getElementById("baynote_cc").value;
+		var url = document.getElementById("baynote_searchForm").action;
+		url += "?st=" + st + "&cn=" + cn + "&cc=" + cc + "&q=" + q;
+		if(window.parent) 
+			window.parent.document.location = url;
+		else
+			 window.location = url;		
+	}
+
+	function initBaynote(){
+		baynote_validateSearchBox();
+	}
+
+	xp.nav.event.onDOMReady(initBaynote);
+</script>
+
+		                </li>  
+
+					
+
+
+				</ul>
+	          </div>
+	              <div id="nav-head-ad" class="xp-hdr-ad">	
+			
+				
+				
+					
+													
+	              </div> 
+	    </div>    
+	    <div id="tab-navigation" class="xp-hdr-width clearfix xp-hsprite xp-hdr-tab">
+	        
+
+
+
+<ul>
+<li id="tab-home" class="xp-hdr-tab-selected">
+<a rel="nofollow" target="_top" title="Expedia Travel" href="http://www.expedia.com/" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Multi:Home' );"
+>
+<span>Home</span>
+</a>
+</li>
+<li id="tab-flthotel">
+<a target="_top" title="Vacation Packages" href="http://www.expedia.com/Vacation-Packages" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Package:FltHotel' );"
+>
+<span>Vacation Packages</span>
+</a>
+</li>
+<li id="tab-hotels">
+<a target="_top" title="Hotels" href="http://www.expedia.com/Hotels" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Hotels:Hotels' );"
+>
+<span>Hotels</span>
+</a>
+</li>
+<li id="tab-cars">
+<a target="_top" title="Car Rental" href="http://www.expedia.com/Cars" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Cars:Cars' );"
+>
+<span>Cars</span>
+</a>
+</li>
+<li id="tab-flights">
+<a target="_top" title="Cheap Flights" href="http://www.expedia.com/Flights" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Flights:Flights' );"
+>
+<span>Flights</span>
+</a>
+</li>
+<li id="tab-cruises">
+<a target="_top" title="Cruises" href="http://cruise.expedia.com/" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Cruise:Cruises' );window.top.location.href='/pubspec/scripts/eap.asp?goto=cruiselaunch';return false;"
+>
+<span>Cruises</span>
+</a>
+</li><li id="tab-tshop">
+<a target="_top" title="Attractions" href="http://www.expedia.com/Activities" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Tshop:Tshop' );"
+>
+<span>Things to Do</span>
+</a>
+</li><li id="tab-deals">
+<a target="_top" title="Deals &amp; Offers" href="http://www.expedia.com/Deals" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Multi:Deals' );"
+class="xp-hdr-tab-highlight" >
+<span>Deals &amp; Offers</span>
+</a>
+</li><li id="tab-groupon">
+<a target="_top" title="GROUPON Getaways" href="http://www.expedia.com/p/info-other/groupon-tab.htm" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Multi:Groupon' );"
+>
+<span>GROUPON Getaways</span>
+</a>
+</li><li id="tab-rewards" class="xp-hdr-tab-last">
+<a target="_top" title="Travel Rewards" href="http://www.expedia.com/daily/highlights/rewards.asp" onclick="xp.nav.trackAnalytics(this,'a','Head:Nav:Multi:Rewards' );"
+>
+<span>Rewards</span>
+</a>
+</li></ul>
+<div style="float:right;height:30px;">
+    <div style="float:left;margin:4px 6px 0 0;"><g:plusone annotation="none" href="http://www.expedia.com" width="90" size="medium"></g:plusone>
+<script>window.___gcfg = {lang: 'en-US'};xp.nav.event.onDOMReady(function() {if (!hasMetaDataSet("ROBOTS", ["NOINDEX","NOARCHIVE","NOGPLUS"])){var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);}})</script>
+
+</div>
+    <div style="float:left;margin-top:4px;">
+
+<div id="button-facebook"></div>
+<![if !(IE 7)]>
+<script>xp.nav.event.onDOMReady(function(){if (!hasMetaDataSet("ROBOTS", ["NOFACEBOOK"])){document.getElementById('button-facebook').innerHTML='<iframe src="http://www.facebook.com/plugins/like.php?href=www.facebook.com%2Fexpedia&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;colorscheme=light&amp;height=21&ref=header&locale=en_US" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>'}})</script>
+<![endif]>
+</div>
+</div>
+       
+	    </div>    
+	
+</div>	
+<div style="clear:both"></div>
+
+		<div class="wpOuter"><div class="wpInner">
+<div id="id_adWALLPAPER" align="center" style="margin:auto;">
+<!-- v.1n --><!-- 2.0.1.68 /html.cms/TPID=1&EAPID=00000&PLACEMENT=WALLPAPER&LOCATION=HOME&SUBLOCATION=SEARCH&SECURE=0&ADSIZE=280X645&LANGID=1033&tile=c9b6ea8b-249e-472a-8914-f19a708c95d0&IPGEO=504.PHILADELPHIA&ip=130.91.142.179&USERTYPE=SHOPPER&EMAIL=NO -->
+<!-- Baseline Default (b)--><!--There is nothing here--><!-- 2.0.1.68 end (1ms) -->
+
+</div>
+</div></div>
+
+
+		<div id="xp_hp_contentContainer" class="xp-grd-ctn xp-grd-widget xp-b-clearfix">
+			<div id="xp_hp_aCol" class="xp-grd-col-10 module">
+                    <input type="hidden" id="PostToSearch" value="/Search" />
+
+				
+<script src="/static/default/default/scripts/exp/typeahead/Typeahead.js?v=release-2012-04-r3-42-439113"></script>
+<script src="/static/default/default/scripts/exp/search/common/v2.0.0/wizard.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+<!--[if IE 7]>
+	<style>
+		.xp-w-bx-cnt-lob label {padding-top:0px;}
+		.xp-w-bx-cnt-flightType label {padding-top:0px; }
+		.xp-w-cell-dateField select {margin-top: 1px;}
+		.homepage .xp-w-bx-cnt-inn-bot {padding: 10px 12px 5px; position: relative;}
+		.homepage .xp_uw_lowerMerchContainer{margin-top: -28px; position: relative;}
+		.pbestPriceGuaranteeImage{margin-bottom: 0px;}
+		#flightHotelButton{margin-top: 1px;}
+		#flightHotelCarButton{margin-top: 1px;}
+	</style>
+<![endif]-->
+
+
+
+	<script type="text/javascript">
+		if (typeof(cx.exp.search.common.setABValue)!='undefined')
+		{
+	        cx.exp.search.common.setABValue('1593', '0');
+		}
+	</script>
+
+
+	<script type="text/javascript">
+		if (typeof(cx.exp.search.common.setABValue)!='undefined')
+		{
+	        cx.exp.search.common.setABValue('1594', '0');
+		}
+	</script>
+
+
+	<script type="text/javascript">
+		if (typeof(cx.exp.search.common.setABValue)!='undefined')
+		{
+	        cx.exp.search.common.setABValue('1595', '0');
+		}
+	</script>
+<script src="/static/default/default/scripts/external/ZParse/zparse.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+<script type="text/javascript">
+    expNamespace('cx.exp.widgetlibrary.search.common.container');
+</script>
+<div id="container" class="xp-b-clearfix xp-pl-widget">
+	<input type="hidden" name="uw_wizardstate" id="uw_wizardstate" value="">
+    <div class="xp-w-rnd-out-top"><span><!-- --></span></div>
+	<div id="xp_uw_cnt-out" class="xp-w-rnd-out-cnt">
+<h2 class="xp-h-headline xp-t-large xp-t-color-2nd xp-s-row xp-item-desc">PLAN YOUR TRIP ON EXPEDIA</h2>		<div class="xp-w-rnd-inn-top"><span><!-- --></span></div>
+		<div id="xp_uw_cnt-inn" class="xp-w-rnd-inn-cnt">
+			<div id="xp_uw_topContainer" class="xp-w-bx-cnt-inn-top xp-b-clearfix">
+				<p id="xp_uw_ajaxErrorContainer" class="errorMessage xp-b-noXpend" >Sorry,we had a problem. Please try again.</p>
+					<div id="xp_uw_lobContainer" class="xp-w-bx-cnt-lob" >
+                            <div class="xp-w-lob-pos">
+								<div id="existing_upsell" style="visibility:visible">
+<div class='upsell-en_US'>
+	<span>Book flight + Hotel at the same time, save up to $525. Click to learn more.</span>
+</div>
+								</div>
+                            </div>
+							<ul class="xp-w-lob-sa">
+										
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="flight-only" class="wizardRadio xp-b-left" wizardType="flightOnly" type="radio" checked name="srch"/>
+			<label id="flight-only-label" for="flight-only" class="xp-b-left xp-w-label-lob">
+													Flight
+			</label>
+		</div>
+    </li>
+										                                  
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="hot-only" class="wizardRadio xp-b-left" wizardType="hotelOnly" type="radio"  name="srch"/>
+			<label id="hot-only-label" for="hot-only" class="xp-b-left xp-w-label-lob">
+												Hotel
+			</label>
+		</div>
+    </li>
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="car-only" class="wizardRadio xp-b-left" wizardType="carOnly" type="radio"  name="srch"/>
+			<label id="car-only-label" for="car-only" class="xp-b-left xp-w-label-lob">
+												Car
+			</label>
+		</div>
+    </li>
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="activities-only" class="wizardRadio xp-b-left" wizardType="activitiesOnly" type="radio"  name="srch"/>
+			<label id="activities-only-label" for="activities-only" class="xp-b-left xp-w-label-lob">
+												Activities
+			</label>
+		</div>
+    </li>
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="cruise-only" class="wizardRadio xp-b-left" wizardType="cruiseOnly" type="radio"  name="srch"/>
+			<label id="cruise-only-label" for="cruise-only" class="xp-b-left xp-w-label-lob">
+											Cruise
+			</label>
+		</div>
+    </li>
+							</ul>
+								<div class="xp-w-lob-pac">
+							<div  class="xp-w-lobTL" ><!-- --></div>
+							<div  class="xp-w-lobBL" ><!-- --></div>
+							<div  class="xp-w-lobTR" ><!-- --></div>
+							<div  class="xp-w-lobBR" ><!-- --></div>
+                            <ul>
+										
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="flight-hot" class="wizardRadio xp-b-left" wizardType="flightAndHotel" type="radio"  name="srch"/>
+			<label id="flight-hot-label" for="flight-hot" class="xp-b-left xp-w-label-lob">
+													Flight + Hotel
+			</label>
+		</div>
+    </li>
+										                                 
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="flight-car" class="wizardRadio xp-b-left" wizardType="flightAndCar" type="radio"  name="srch"/>
+			<label id="flight-car-label" for="flight-car" class="xp-b-left xp-w-label-lob">
+												Flight + Car
+			</label>
+		</div>
+    </li>
+										
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="flight-hot-car" class="wizardRadio xp-b-left" wizardType="flightHotelAndCar" type="radio"  name="srch"/>
+			<label id="flight-hot-car-label" for="flight-hot-car" class="xp-b-left xp-w-label-lob">
+												Flight + Hotel + Car
+			</label>
+		</div>
+    </li>
+										
+    <li>
+		<div class="xp-b-clearfix">
+			<input id="hot-car" class="wizardRadio xp-b-left" wizardType="hotelAndCar" type="radio"  name="srch"/>
+			<label id="hot-car-label" for="hot-car" class="xp-b-left xp-w-label-lob">
+													Hotel + Car
+			</label>
+		</div>
+    </li>
+							</ul>
+                        </div>
+				</div>
+			</div>
+
+
+			<div id="xp_uw_bottomContainer" class="xp-w-bx-cnt-inn-bot xp-b-clearfix" >
+				<script type="text/javascript">
+					cx.exp.widgetlibrary.search.common.container.requestURI = "/Home.htm";
+				</script>
+
+				<div id="xp_uw_form" class="xp-b-clearfix">
+						
+
+
+
+
+		<script type="text/javascript">
+		if (typeof(cx.exp.search.common.setABValue)!='undefined')
+		{	 
+	  	            cx.exp.search.common.setABValue('842', '1'); 
+	  	            cx.exp.search.common.setABValue('808', '0'); 
+		}
+		</script>
+
+
+
+<div id="uw_flight_wiz">
+
+<FORM NAME="fltWizFrm" method="post" action="/Home.htm"  id="fltWizFrm"
+>	
+		<input type="hidden" name="action" id="action" value="">
+		<input type="hidden" name="uw_flight_add_multi_dest_hidden" id="uw_flight_add_multi_dest_hidden" value="false">
+		<input type="hidden" name="uw_flight_default_date" id="uw_flight_default_date" value="04/18/2012">
+<input type="hidden" name="flightSearchWizard_inpBundType" value=""  />
+
+                        <input type="hidden" id="test843" name='test843' value="" />
+
+	<!-- destination and date panel -->
+<div>
+    <h2 class="xp-w-wiztitle">Flight</h2>
+
+<!-- error  panel -->
+<fieldset id="errorPnl">
+	<div id="errDiv" class="xp-b-noXpend xp-w-row"><!-- div for error messages  --></div>
+	<span id="requiredFieldMessage" class="xp-b-noXpend" > Please complete the highlighted fields below</span>
+	<span id="dateSequenceMessage" class="xp-b-noXpend" > The check-out date must occur after the check-in date. Please change the date</span>
+	<span id="dateFormatMessage" class="xp-b-noXpend" > Date format should be mm/dd/yy</span>
+	<span id="ageRequiredMessage" class="xp-b-noXpend" > Please provide the ages of children below</span> 
+  <span id="priorToCurrentDateMessage" class="xp-b-noXpend" > The check-in or check-out date is prior to the current date.</span>
+  <div id="maxNumberofTravellersMessage" class="xp-b-noXpend" > We are only able to book between 1 and 6 travellers. Please adjust the number of travellers for your search.</div>
+	<div id="notequalmessage" class="xp-b-noXpend" > Leaving from and going to field must be different</div>
+	<div id="dateSequenceMessage2" class="xp-b-noXpend" > The highlighted departure date is prior to the previous departure date.</div>
+    <div id="uw_errorMessage_childrenMustNotBeAlone" class="xp-b-noXpend" > Children must not be allowed to travel without either a Senior or Adult.</div>
+    <span id="dateBookedTooFarOut" class="xp-b-noXpend" > We can only accept dates that occur between 04/17/2012 and 03/13/2013. Please enter a new date.</span>
+	
+</fieldset>
+<!-- end of error panel -->
+
+	<fieldset id="uw_flight_types_pnl" class="xp-s-row">
+		<ul id="uw_flight_type" class="xp-b-noSpace xp-w-bx-cnt-flightType">
+				<li class="xp-w-bx-cnt-fli">
+<input type="radio" name="flightSearchWizard_inpFlightType" value="RoundTrip" id="uw_flight_type0" class="xp-b-floatL" checked="checked">
+</input>					<label id="uw_flight_type_return_label" for="uw_flight_type0" class="xp-b-floatL">Roundtrip</label>
+				</li>
+				<li class="xp-w-bx-cnt-fli">
+<input type="radio" name="flightSearchWizard_inpFlightType" value="OneWay" id="uw_flight_type1" class="xp-b-floatL">
+</input>					<label id="uw_flight_ow_return_label" for="uw_flight_type1" class="xp-b-floatL">One way</label>
+				</li>
+				<li class="xp-w-bx-cnt-fli xp-w-cell-last">
+<input type="radio" name="flightSearchWizard_inpFlightType" value="Multi" id="uw_flight_type2" class="xp-b-floatL">
+</input>						<label id="uw_flight_ow_muliple_label" for="uw_flight_type2" class="xp-b-floatL">Multiple Destinations</label>
+				</li>
+		</ul>
+			<div id="uw_flight_flex_cnt" class="xp-b-floatL xp-b-clearfix xp-b-clear">
+<input type="checkbox" name="flightSearchWizard_inpHasFlexibleDates" value="ON" id="uw_flight_flex" class="xp-w-checkbox">
+</input>				<label for="uw_flight_flex" class="xp-w-label-si" id="uw_flight_flex_label">My dates are flexible (popular routes only)</label>
+			</div>
+	</fieldset>
+
+	<fieldset id="uw_flight_flex_fields" style="display:none;" >
+
+		<div class="xp-w-half-row xp-b-clearfix">
+            <div class="xp-w-cell-half">
+            <label id="uw_flight_flex_origin_label" for="uw_flight_flex_origin_input">Leaving from:</label>
+            <select id='uw_flight_flex_origin_input' class="xp-w-half" required="true" requiredmessage="requiredFieldMessage">
+                <option value=''>-Select from list-</option>
+                    <option value=ATL >Atlanta, GA (ATL-Hartsfield Intl.)</option>
+                    <option value=AUS >Austin, TX (AUS-Austin-Bergstrom International Airport)</option>
+                    <option value=BWI >Baltimore, MD (BWI-Baltimore Washington)</option>
+                    <option value=BOS >Boston, MA (BOS-Logan Intl.)</option>
+                    <option value=CLT >Charlotte, NC (CLT-Douglas Intl.)</option>
+                    <option value=ORD >Chicago, IL (ORD-O'Hare)</option>
+                    <option value=CLE >Cleveland, OH (CLE-Hopkins Intl.)</option>
+                    <option value=CMH >Columbus, OH (CMH-Port Columbus Intl.)</option>
+                    <option value=DFW >Dallas, TX (DFW-Dallas-Fort Worth Intl.)</option>
+                    <option value=DEN >Denver, CO (DEN-Denver Intl.)</option>
+                    <option value=DTW >Detroit, MI (DTW-Wayne County)</option>
+                    <option value=FLL >Fort Lauderdale, FL (FLL)</option>
+                    <option value=RSW >Fort Myers, FL (RSW-Southwest Florida Regional)</option>
+                    <option value=BDL >Hartford, CT (BDL-Bradley Intl.)</option>
+                    <option value=HNL >Honolulu, Oahu, HI (HNL-Honolulu Intl.)</option>
+                    <option value=IAH >Houston, TX (IAH-Bush Intercontinental)</option>
+                    <option value=IND >Indianapolis, IN (IND-Indianapolis Intl.)</option>
+                    <option value=JAX >Jacksonville, FL (JAX-Jacksonville Intl.)</option>
+                    <option value=MCI >Kansas City, MO (MCI-Kansas City Intl.)</option>
+                    <option value=LAS >Las Vegas, NV (LAS-McCarran Intl.)</option>
+                    <option value=LAX >Los Angeles, CA (LAX-Los Angeles Intl.)</option>
+                    <option value=MIA >Miami, FL (MIA-Miami Intl.)</option>
+                    <option value=MSP >Minneapolis, MN (MSP-Minneapolis-St. Paul Intl.)</option>
+                    <option value=BNA >Nashville, TN (BNA)</option>
+                    <option value=MSY >New Orleans, LA (MSY-New Orleans Intl.)</option>
+                    <option value=JFK >New York, NY (JFK-Kennedy)</option>
+                    <option value=LGA >New York, NY (LGA-LaGuardia)</option>
+                    <option value=EWR >Newark, NJ (EWR-Newark International Airport)</option>
+                    <option value=OAK >Oakland, CA (OAK-Oakland Intl.)</option>
+                    <option value=SNA >Orange County, CA (SNA-John Wayne Intl.)</option>
+                    <option value=MCO >Orlando, FL (MCO-Orlando Intl.)</option>
+                    <option value=PHL >Philadelphia, PA (PHL-Philadelphia Intl.)</option>
+                    <option value=PHX >Phoenix, AZ (PHX-Sky Harbor Intl.)</option>
+                    <option value=PIT >Pittsburgh, PA (PIT-Greater Pittsburgh Intl.)</option>
+                    <option value=PDX >Portland, OR (PDX-Portland Intl.)</option>
+                    <option value=RDU >Raleigh, NC (RDU-Raleigh Durham Intl.)</option>
+                    <option value=RNO >Reno, NV (RNO-Reno-Tahoe International)</option>
+                    <option value=SLC >Salt Lake City, UT (SLC-Salt Lake City Intl.)</option>
+                    <option value=SAT >San Antonio, TX (SAT-San Antonio Intl.)</option>
+                    <option value=SAN >San Diego, CA (SAN-Lindbergh Field)</option>
+                    <option value=SFO >San Francisco, CA (SFO-San Francisco Intl.)</option>
+                    <option value=SJC >San Jose, CA (SJC-San Jose Intl.)</option>
+                    <option value=SEA >Seattle, WA (SEA-Seattle Tacoma)</option>
+                    <option value=STL >St. Louis, MO (STL-Lambert-St. Louis Intl.)</option>
+                    <option value=TPA >Tampa, FL (TPA-Tampa Intl.)</option>
+                    <option value=DCA >Washington, DC (DCA-Ronald Reagan National)</option>
+                    <option value=IAD >Washington, DC (IAD-Washington Dulles Intl.)</option>
+                    <option value=PBI >West Palm Beach, FL (PBI-Palm Beach Intl.)</option>
+            </select>
+            </div>
+
+            <div class="xp-w-cell-half xp-w-cell-last">
+            <label id="uw_flight_flex_destination_label" for="uw_flight_flex_destination_input">Going to:</label>
+            <select id='uw_flight_flex_destination_input' class="xp-w-half" required="true" requiredmessage="requiredFieldMessage" notEqual="uw_flight_flex_origin_input" notequalmessage="notequalmessage">
+                <option value=''>-Select from list-</option>
+                    <option value=ATL >Atlanta, GA (ATL-Hartsfield Intl.)</option>
+                    <option value=AUS >Austin, TX (AUS-Austin-Bergstrom International Airport)</option>
+                    <option value=BWI >Baltimore, MD (BWI-Baltimore Washington)</option>
+                    <option value=BOS >Boston, MA (BOS-Logan Intl.)</option>
+                    <option value=CLT >Charlotte, NC (CLT-Douglas Intl.)</option>
+                    <option value=ORD >Chicago, IL (ORD-O'Hare)</option>
+                    <option value=CLE >Cleveland, OH (CLE-Hopkins Intl.)</option>
+                    <option value=CMH >Columbus, OH (CMH-Port Columbus Intl.)</option>
+                    <option value=DFW >Dallas, TX (DFW-Dallas-Fort Worth Intl.)</option>
+                    <option value=DEN >Denver, CO (DEN-Denver Intl.)</option>
+                    <option value=DTW >Detroit, MI (DTW-Wayne County)</option>
+                    <option value=FLL >Fort Lauderdale, FL (FLL)</option>
+                    <option value=RSW >Fort Myers, FL (RSW-Southwest Florida Regional)</option>
+                    <option value=BDL >Hartford, CT (BDL-Bradley Intl.)</option>
+                    <option value=HNL >Honolulu, Oahu, HI (HNL-Honolulu Intl.)</option>
+                    <option value=IAH >Houston, TX (IAH-Bush Intercontinental)</option>
+                    <option value=IND >Indianapolis, IN (IND-Indianapolis Intl.)</option>
+                    <option value=JAX >Jacksonville, FL (JAX-Jacksonville Intl.)</option>
+                    <option value=MCI >Kansas City, MO (MCI-Kansas City Intl.)</option>
+                    <option value=LAS >Las Vegas, NV (LAS-McCarran Intl.)</option>
+                    <option value=LAX >Los Angeles, CA (LAX-Los Angeles Intl.)</option>
+                    <option value=MIA >Miami, FL (MIA-Miami Intl.)</option>
+                    <option value=MSP >Minneapolis, MN (MSP-Minneapolis-St. Paul Intl.)</option>
+                    <option value=BNA >Nashville, TN (BNA)</option>
+                    <option value=MSY >New Orleans, LA (MSY-New Orleans Intl.)</option>
+                    <option value=JFK >New York, NY (JFK-Kennedy)</option>
+                    <option value=LGA >New York, NY (LGA-LaGuardia)</option>
+                    <option value=EWR >Newark, NJ (EWR-Newark International Airport)</option>
+                    <option value=OAK >Oakland, CA (OAK-Oakland Intl.)</option>
+                    <option value=SNA >Orange County, CA (SNA-John Wayne Intl.)</option>
+                    <option value=MCO >Orlando, FL (MCO-Orlando Intl.)</option>
+                    <option value=PHL >Philadelphia, PA (PHL-Philadelphia Intl.)</option>
+                    <option value=PHX >Phoenix, AZ (PHX-Sky Harbor Intl.)</option>
+                    <option value=PIT >Pittsburgh, PA (PIT-Greater Pittsburgh Intl.)</option>
+                    <option value=PDX >Portland, OR (PDX-Portland Intl.)</option>
+                    <option value=RDU >Raleigh, NC (RDU-Raleigh Durham Intl.)</option>
+                    <option value=RNO >Reno, NV (RNO-Reno-Tahoe International)</option>
+                    <option value=SLC >Salt Lake City, UT (SLC-Salt Lake City Intl.)</option>
+                    <option value=SAT >San Antonio, TX (SAT-San Antonio Intl.)</option>
+                    <option value=SAN >San Diego, CA (SAN-Lindbergh Field)</option>
+                    <option value=SFO >San Francisco, CA (SFO-San Francisco Intl.)</option>
+                    <option value=SJC >San Jose, CA (SJC-San Jose Intl.)</option>
+                    <option value=SEA >Seattle, WA (SEA-Seattle Tacoma)</option>
+                    <option value=STL >St. Louis, MO (STL-Lambert-St. Louis Intl.)</option>
+                    <option value=TPA >Tampa, FL (TPA-Tampa Intl.)</option>
+                    <option value=DCA >Washington, DC (DCA-Ronald Reagan National)</option>
+                    <option value=IAD >Washington, DC (IAD-Washington Dulles Intl.)</option>
+                    <option value=PBI >West Palm Beach, FL (PBI-Palm Beach Intl.)</option>
+            </select>
+            </div>
+		</div>
+		
+		<div class="xp-w-row xp-b-clearfix">
+			<p class="uw_flight_flex_destination_text xp-b-floatR">
+				<a id="uw_flight_flex_destination_flyout_link" class="OmnitureLink xp-l-il xp-l-info" href="javascript:void(0);">
+					<span class="xp-l-text">Don't see the city you're looking for?</span>
+					<span id="uw_flight_flex_destination_flyout_icn" class="xp-l-icn"><!-- --></span></a>
+			</p>
+		</div>
+		
+		<div id="uw_flight_flex_destination_tooltip" class="xp-bx-cs-tt-outCnt">
+				<div id="uw_flight_flex_destination_small_arrow" class="xp-b-floatL xp-w-cs-tt-arrow"><!-- --></div>
+				<div class="xp-bx-cs-tt-rnd-top"><span><!-- --></span></div>
+				<div id="uw_flight_flex_destination-bg" class="xp-w-cs-tt-cnt">
+					<div class="xp-w-cs-innercnt xp-b-clearfix">
+						<p id="uw_flight_flex_destination_tooltip_close" class="xp-b-floatR xp-l-il xp-bx-cs-tt-close">
+						<a href="#" class="xp-l-close-2nd"><span>Close</span><span class="xp-l-icn"><!-- --></span></a></p>
+					
+						<div class="xp-bx-cs-tt-row">
+							<h3 id="uw_flight_flex_destination_title" class="xp-h-small">
+								Don't see the city you're looking for?
+							</h3>
+							<p id="uw_flight_flex_destination_content" class="xp-t-body xp-w-s-top">Flexible-date searches are currently available only for our most popular routes. You can still search for flights in the usual way by putting in your departure and return dates.</p>
+						</div>
+					</div>
+				</div>
+				<div class="xp-bx-cs-tt-rnd-bot"><span><!-- --></span></div>
+		</div>
+
+		<div class="xp-w-rnd-inn-cnt">
+			<div class="xp-w-row xp-b-clearfix">
+				<div class="xp-w-cell xp-w-cell-half">
+					<label id="uw_flight_flex_departure_label" for="uw_flight_flex_departure_input">Departure month:</label>
+					<select id='uw_flight_flex_departure_input'>
+							<option value='04/01/2012' >April 2012</option>										
+							<option value='05/01/2012' >May 2012</option>										
+							<option value='06/01/2012' >June 2012</option>										
+							<option value='07/01/2012' >July 2012</option>										
+							<option value='08/01/2012' >August 2012</option>										
+							<option value='09/01/2012' >September 2012</option>										
+							<option value='10/01/2012' >October 2012</option>										
+							<option value='11/01/2012' >November 2012</option>										
+							<option value='12/01/2012' >December 2012</option>										
+							<option value='01/01/2013' >January 2013</option>										
+							<option value='02/01/2013' >February 2013</option>										
+							<option value='03/01/2013' >March 2013</option>										
+					</select>
+				</div>
+				<div class="xp-w-cell xp-w-cell-half xp-w-cell-last">
+					<label id="uw_flight_flex_triplength_label" for="uw_flight_flex_triplength_input">Trip length:</label>
+<select name="flightSearchWizard_inpTripLength" id="uw_flight_flex_triplength_input">
+			<option value="0,1,10" >1 - 10 nights</option>
+
+						<option value="1,0,0">Weekend</option>
+			<option value="0,2,4" >2 - 4 nights</option>
+
+			<option value="0,3,5" >3 - 5 nights</option>
+
+			<option value="0,5,7" >5 - 7 nights</option>
+
+			<option value="0,7,10" >7 - 10 nights</option>
+
+			<option value="0,1,1" >1 nights</option>
+
+			<option value="0,2,2" >2 nights</option>
+
+			<option value="0,3,3" >3 nights</option>
+
+			<option value="0,4,4" >4 nights</option>
+
+			<option value="0,5,5" >5 nights</option>
+
+			<option value="0,6,6" >6 nights</option>
+
+			<option value="0,7,7" >7 nights</option>
+
+			<option value="0,8,8" >8 nights</option>
+
+			<option value="0,9,9" >9 nights</option>
+
+			<option value="0,10,10" >10 nights</option>
+
+</select>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+
+	<fieldset id="uw_flight_pnl">
+		<div class="xp-w-rnd-inn-cnt">
+			<div class="xp-w-row xp-b-clearfix">
+				<div id="uw_flight_origin" class="xp-w-cell-large">
+					<label id="uw_flight_origin_label" for="uw_flight_origin_input"><span id='uw_flight_text1' class='xp-w-blue'>Flight 1: </span>Leaving from:</label> 
+							<input type="text" value="" id="uw_flight_origin_input" required="true" requiredmessage="requiredFieldMessage" maxLength="100"/>
+							<input type="hidden" name="flightSearchWizard_inpOrigin" id="uw_flight_origin_input_tla"/>
+				</div>
+				<div id="uw_flight_dep_date" class="xp-w-cell-small">
+					<label id="uw_flight_dep_date_label" for="uw_flight_dep_date_input" >Departing:</label>
+<input type="text" name="flightSearchWizard_inpDepartureDate" value="mm/dd/yy" id="uw_flight_dep_date_input" maxlength="12" requiredmessage="requiredFieldMessage" priortocurrentdatemessage="priorToCurrentDateMessage" priorToCurrentDate="true" datemessage="dateFormatMessage" format="allow" autocomplete="off" date="true" required="true" />
+				</div>
+				<div id="uw_flight_dep_time" class="xp-w-cell-mid xp-w-cell-last">
+					<label id="uw_flight_dep_time_label" for="uw_flight_dep_time_input" >Time:</label>
+<select name="flightSearchWizard_inpDepartureTime" id="uw_flight_dep_time_input">
+<option value="12AM" >								12 AM							
+</option>
+<option value="1AM" >								1 AM							
+</option>
+<option value="2AM" >								2 AM							
+</option>
+<option value="3AM" >								3 AM							
+</option>
+<option value="4AM" >								4 AM							
+</option>
+<option value="5AM" >								5 AM							
+</option>
+<option value="6AM" >								6 AM							
+</option>
+<option value="7AM" >								7 AM							
+</option>
+<option value="8AM" >								8 AM							
+</option>
+<option value="9AM" >								9 AM							
+</option>
+<option value="10AM" >								10 AM							
+</option>
+<option value="11AM" >								11 AM							
+</option>
+<option value="12PM" >								12 PM							
+</option>
+<option value="1PM" >								1 PM							
+</option>
+<option value="2PM" >								2 PM							
+</option>
+<option value="3PM" >								3 PM							
+</option>
+<option value="4PM" >								4 PM							
+</option>
+<option value="5PM" >								5 PM							
+</option>
+<option value="6PM" >								6 PM							
+</option>
+<option value="7PM" >								7 PM							
+</option>
+<option value="8PM" >								8 PM							
+</option>
+<option value="9PM" >								9 PM							
+</option>
+<option value="10PM" >								10 PM							
+</option>
+<option value="11PM" >								11 PM							
+</option>
+<option value="362"  selected="selected">								Any							
+</option>
+<option value="361" >								Morn.							
+</option>
+<option value="721" >								Noon							
+</option>
+<option value="1081" >								Eve.							
+</option>
+</select>
+				</div>
+			</div>
+
+			<div class="xp-w-row xp-b-clearfix">
+				<div id="uw_flight_dest" class="xp-w-cell xp-w-cell-large">
+					<label id="uw_flight_destination_label" for="uw_flight_destination_input">Going to:</label>
+							<input type="text" value="" id="uw_flight_destination_input" class="xp-b-clear" required="true" requiredmessage="requiredFieldMessage" notEqual="uw_flight_origin_input" notequalmessage="notequalmessage" maxLength="100"/>
+							<input type="hidden" name="flightSearchWizard_inpDestination" id="uw_flight_destination_input_tla"/>
+				</div>
+				<div id="uw_flight_ret_date_container">
+					<div id="uw_flight_ret_date" class="xp-w-cell-small">
+						<label id="uw_flight_return_date_label" for="uw_flight_return_date_input">Returning:</label>
+<input type="text" name="flightSearchWizard_inpReturnDate" value="mm/dd/yy" id="uw_flight_return_date_input" maxlength="12" requiredmessage="requiredFieldMessage" priortocurrentdatemessage="priorToCurrentDateMessage" afterEqual="uw_flight_dep_date_input" priorToCurrentDate="true" datemessage="dateFormatMessage" format="allow" required="true" date="true" autocomplete="off" afterequalmessage="dateSequenceMessage" />
+					</div>
+					<div id="uw_flight_ret_time" class="xp-w-cell-mid xp-w-cell-last">
+							<label id="uw_flight_return_time_label" for="uw_flight_return_time">Time:</label>
+<select name="flightSearchWizard_inpReturnTime" id="uw_flight_return_time">
+<option value="12AM" >									12 AM
+</option>
+<option value="1AM" >									1 AM
+</option>
+<option value="2AM" >									2 AM
+</option>
+<option value="3AM" >									3 AM
+</option>
+<option value="4AM" >									4 AM
+</option>
+<option value="5AM" >									5 AM
+</option>
+<option value="6AM" >									6 AM
+</option>
+<option value="7AM" >									7 AM
+</option>
+<option value="8AM" >									8 AM
+</option>
+<option value="9AM" >									9 AM
+</option>
+<option value="10AM" >									10 AM
+</option>
+<option value="11AM" >									11 AM
+</option>
+<option value="12PM" >									12 PM
+</option>
+<option value="1PM" >									1 PM
+</option>
+<option value="2PM" >									2 PM
+</option>
+<option value="3PM" >									3 PM
+</option>
+<option value="4PM" >									4 PM
+</option>
+<option value="5PM" >									5 PM
+</option>
+<option value="6PM" >									6 PM
+</option>
+<option value="7PM" >									7 PM
+</option>
+<option value="8PM" >									8 PM
+</option>
+<option value="9PM" >									9 PM
+</option>
+<option value="10PM" >									10 PM
+</option>
+<option value="11PM" >									11 PM
+</option>
+<option value="362"  selected="selected">									Any
+</option>
+<option value="361" >									Morn.
+</option>
+<option value="721" >									Noon
+</option>
+<option value="1081" >									Eve.
+</option>
+</select>
+					</div>
+				</div>
+			</div>
+			<div id="uw_flight_multi_dest_container"></div>
+
+<input type="hidden" id="flMultidestTemplate" value="
+	<div class='xp-w-rnd-inn-cnt'>
+		<div class='xp-w-row xp-b-clearfix'>
+			<div id='uw_flight_leavingfrom_container@{flightno}' class='xp-w-cell xp-w-cell-large'>
+				<label id='uw_flight_origin_label@{flightno}' for='uw_flight_origin_input@{flightno}'><span id='uw_flight_text@{flightno}' class='xp-w-blue'>Flight @{flightno}:</span> Leaving from:</label> 
+				<input type='text' name='flightSearchWizard_inpMultiLeavingFrom' id='uw_flight_origin_input@{flightno}' maxLength='100' value='@{multiOrig}'/>
+			</div>
+				<div id='uw_flight_dep_time_container@{flightno}' class='xp-w-cell-small'>
+					<label id='uw_flight_dep_date_label@{flightno}' for='uw_flight_dep_date_input@{flightno}' style='display: block;'>Departing:</label>
+					<input type='text' name='flightSearchWizard_inpMultiDepartureDate' id='uw_flight_dep_date_input@{flightno}' maxlength='12' autocomplete='off' date='false' datemessage='dateFormatMessage' requiredmessage='requiredFieldMessage' value='@{multiDate0}'/>
+				</div>
+					<div class='xp-w-cell xp-w-cell-mid xp-w-cell-last'>
+						<label id='uw_flight_return_time_label@{flightno}' for='uw_flight_dep_time_input@{flightno}'>Time:</label>
+						<select name='flightSearchWizard_inpMultiDepartureTime' id='uw_flight_dep_time_input@{flightno}'>
+							<option value =12AM [:if '12AM'==timeindex:]selected='selected'[:/if:]>
+								12 AM							
+							</option>										
+							<option value =1AM [:if '1AM'==timeindex:]selected='selected'[:/if:]>
+								1 AM							
+							</option>										
+							<option value =2AM [:if '2AM'==timeindex:]selected='selected'[:/if:]>
+								2 AM							
+							</option>										
+							<option value =3AM [:if '3AM'==timeindex:]selected='selected'[:/if:]>
+								3 AM							
+							</option>										
+							<option value =4AM [:if '4AM'==timeindex:]selected='selected'[:/if:]>
+								4 AM							
+							</option>										
+							<option value =5AM [:if '5AM'==timeindex:]selected='selected'[:/if:]>
+								5 AM							
+							</option>										
+							<option value =6AM [:if '6AM'==timeindex:]selected='selected'[:/if:]>
+								6 AM							
+							</option>										
+							<option value =7AM [:if '7AM'==timeindex:]selected='selected'[:/if:]>
+								7 AM							
+							</option>										
+							<option value =8AM [:if '8AM'==timeindex:]selected='selected'[:/if:]>
+								8 AM							
+							</option>										
+							<option value =9AM [:if '9AM'==timeindex:]selected='selected'[:/if:]>
+								9 AM							
+							</option>										
+							<option value =10AM [:if '10AM'==timeindex:]selected='selected'[:/if:]>
+								10 AM							
+							</option>										
+							<option value =11AM [:if '11AM'==timeindex:]selected='selected'[:/if:]>
+								11 AM							
+							</option>										
+							<option value =12PM [:if '12PM'==timeindex:]selected='selected'[:/if:]>
+								12 PM							
+							</option>										
+							<option value =1PM [:if '1PM'==timeindex:]selected='selected'[:/if:]>
+								1 PM							
+							</option>										
+							<option value =2PM [:if '2PM'==timeindex:]selected='selected'[:/if:]>
+								2 PM							
+							</option>										
+							<option value =3PM [:if '3PM'==timeindex:]selected='selected'[:/if:]>
+								3 PM							
+							</option>										
+							<option value =4PM [:if '4PM'==timeindex:]selected='selected'[:/if:]>
+								4 PM							
+							</option>										
+							<option value =5PM [:if '5PM'==timeindex:]selected='selected'[:/if:]>
+								5 PM							
+							</option>										
+							<option value =6PM [:if '6PM'==timeindex:]selected='selected'[:/if:]>
+								6 PM							
+							</option>										
+							<option value =7PM [:if '7PM'==timeindex:]selected='selected'[:/if:]>
+								7 PM							
+							</option>										
+							<option value =8PM [:if '8PM'==timeindex:]selected='selected'[:/if:]>
+								8 PM							
+							</option>										
+							<option value =9PM [:if '9PM'==timeindex:]selected='selected'[:/if:]>
+								9 PM							
+							</option>										
+							<option value =10PM [:if '10PM'==timeindex:]selected='selected'[:/if:]>
+								10 PM							
+							</option>										
+							<option value =11PM [:if '11PM'==timeindex:]selected='selected'[:/if:]>
+								11 PM							
+							</option>										
+							<option value =362 [:if '362'==timeindex:]selected='selected'[:/if:]>
+								Any							
+							</option>										
+							<option value =361 [:if '361'==timeindex:]selected='selected'[:/if:]>
+								Morn.							
+							</option>										
+							<option value =721 [:if '721'==timeindex:]selected='selected'[:/if:]>
+								Noon							
+							</option>										
+							<option value =1081 [:if '1081'==timeindex:]selected='selected'[:/if:]>
+								Eve.							
+							</option>										
+						</select>				
+					</div>
+			</div>
+		</div>
+		<div class='xp-w-row xp-b-clearfix'>
+			<div id='uw_flight_goingto_container@{flightno}' class='xp-w-cell xp-w-cell-large'>
+				<label id='uw_flight_destination_label@{flightno}' for='uw_flight_destination_input@{flightno}'>Going to:</label>
+				<input type='text' name='flightSearchWizard_inpMultiGoingTo' id='uw_flight_destination_input@{flightno}' class='xp-b-clear' notEqual='uw_flight_origin_input@{flightno}' notequalmessage='notequalmessage' maxLength='100' value='@{multiDest}'/>
+			</div>
+		</div>
+	</div>
+	
+">
+		</div>
+	</fieldset>
+</div>
+<!-- end of destination and date panel -->
+	
+<!-- traveller selection panel -->
+<fieldset id="uw_flight_trvlr_pnl">
+	<div id="uw_flight_trvlr_container" class="xp-w-section xp-b-clearfix">
+		<div class="xp-w-rnd-inn-cnt">
+			<div class="xp-w-row xp-b-clearfix">
+				<div id="uw_flight_trvlr_adult" class="xp-w-cell-small">
+					<label id="uw_flight_adults_label" for="uw_flight_adults_input">
+						Adult<br />(18-64)
+					</label>
+<select name="flightSearchWizard_inpNumAdults" id="uw_flight_adults_input">
+							<option value="0" >0</option>
+
+							<option value="1"  selected="selected">1</option>
+
+							<option value="2" >2</option>
+
+							<option value="3" >3</option>
+
+							<option value="4" >4</option>
+
+							<option value="5" >5</option>
+
+							<option value="6" >6</option>
+
+</select>
+				</div>
+				<div id="uw_flight_trvlr_seniors" class="xp-w-cell-small">
+					<label id="uw_flight_seniors_label" for="uw_flight_seniors_input">
+						Seniors<br />(65+)
+					</label>
+<select name="flightSearchWizard_inpNumSeniors" id="uw_flight_seniors_input">
+								<option value="0"  selected="selected">0</option>
+
+								<option value="1" >1</option>
+
+								<option value="2" >2</option>
+
+								<option value="3" >3</option>
+
+								<option value="4" >4</option>
+
+								<option value="5" >5</option>
+
+								<option value="6" >6</option>
+
+</select>
+        </div>
+				<div id="uw_flight_trvlr_children" class="xp-w-cell-small">
+					<label id="uw_flight_children_label" for="uw_flight_children_input">
+						Children<br />(0-17)
+					</label>
+<select name="flightSearchWizard_inpNumChildren" id="uw_flight_children_input">
+							<option value="0"  selected="selected">0</option>
+					
+							<option value="1" >1</option>
+					
+							<option value="2" >2</option>
+					
+							<option value="3" >3</option>
+					
+							<option value="4" >4</option>
+					
+							<option value="5" >5</option>
+					
+							<option value="6" >6</option>
+					
+</select>
+        </div>
+			</div>
+		</div>
+	</div>
+</fieldset>
+<!-- end of traveller selection panel -->
+
+	<input type="hidden" id="flChildAgeEntryTemplate" value="
+		<label id='uw_flight_child_age_label@{childno}' for='uw_flight_child_age_input@{childno}' class='xp-w-label-narrow-child'>Child @{childno}:</label>
+        <select id='uw_flight_child_age_input@{childno}' name='flightSearchWizard_inpChildAges' mask='@{agemask}' message='ageRequiredMessage'>
+            <option value='-1'>-?-</option>
+            <option value='0' [:if 0==childAge:]selected='selected'[:/if:]>&lt;1</option>
+                [:list 1..17 as j:]
+                    <option value='@{j}' [:if j==childAge:]selected='selected'[:/if:]>@{j}</option>
+                [:/list:]
+        </select>
+	">
+
+<!-- children age panel -->
+<fieldset id="uw_flight_child_age_pnl" class="xp-b-noXpend">
+	<div id="uw_flight_child_age_pnl_ttl" class="xp-w-row xp-t-mLine">
+			<p id="uw_child_div_label" class="xp-t-bold xp-s-bottom-s">Specify the ages of children at time of travel:</p>
+			<p id="uw_child_sb_div_label" class="xp-t-body xp-s-bottom-s">Discounts may be offered to children of certain ages.</p>
+			<a id="uw_flight_age_rules" href="/pub/agent.dll?qscr=hgen&rhtx=HTX_FLTSRCH_RT&hfnm=h_FW_default.htx#travs">Airline age rules and unaccompanied minors</a>
+	</div>
+	<div id="uw_flight_child_age_container" class="xp-w-row xp-b-clearfix"></div>
+</fieldset>
+<!-- end of children age panel -->
+
+<!-- children options panel -->
+<fieldset id="uw_flight_infants_container" class="xp-b-noXpend">
+	<div id="uw_flight_infants_ttl">
+		<p id="uw_flight_infants_desc_sub_label" class="xp-w-row xp-t-body">Children under 2 years old can travel in laps or seats</p>
+	</div>
+	<div class="xp-s-title">
+			<div id="uw-hfc-chldOptRow1" class="xp-w-infantOption xp-b-clearfix" >
+			<div id="uw_flight_infants_wo_seat_cnt">
+				<input type="radio" name="flightSearchWizard_inpInfantsInLap" value="2" id="uw_flight_infants_wo_seat_inp" class="xp-b-left xp-w-radiobutton" checked="checked">
+</input><label id="uw_flight_infants_wo_seat" for="uw_flight_infants_wo_seat_inp" class="xp-b-left">Infant(s) without a reserved seat (in an adult's lap)</label>
+			</div>
+		</div>
+		
+			<div id="Div1" class="xp-w-infantOption xp-b-clearfix" >
+			<div id="uw_flight_infants_seat_cnt">
+				<input type="radio" name="flightSearchWizard_inpInfantsInLap" value="1" id="uw_flight_infants_seat_inp" class="xp-b-left xp-w-radiobutton">
+</input><label id="uw_flight_infants_seat" for="uw_flight_infants_seat_inp" class="xp-b-left">Infant(s) in a reserved seat</label>
+			</div>
+		</div>
+	</div>
+
+</fieldset>
+<!-- end of children options panel -->
+	<!-- additional options panel -->
+	<div class="xp-b-clearfix" id="uw_flight_add" >
+	<fieldset id="uw_flight_add_show_pnl">
+		<div class="xp-b-floatL">
+			<p><span id="uw_flight_show_additional_link_cnt" class="xp-l-il xp-l-expand xp-t-body xp-t-bold"><a class="xp-l-right" href="#" id="uw_flight_show_additional_link"><span class="xp-l-text">Show Additional Options</span><span class="xp-l-icn"></span></a></span></p>
+		</div>
+	</fieldset>
+
+<fieldset id="uw_flight_add_hide_pnl" class="xp-b-noXpend" >
+	<div class="xp-b-floatL xp-s-title">
+		<p><span id="uw_flight_hide_additional_link_cnt" class="xp-l-il xp-l-collapse xp-t-body xp-t-bold"><a class="xp-l-right" href="#" id="uw_flight_hide_additional_link"><span class="xp-l-text">Hide Additional Options</span><span class="xp-l-icn"></span></a></span></p>
+	</div>
+	<p id="uw_flight_low_fare_label" class="xp-w-row xp-w-section xp-b-clear xp-t-body">Low fare note: To increase your chances of finding low fares, leave the following unselected.</p>
+	<div  id="uw_flight_directFlights_div" class="xp-w-row xp-b-clearfix">
+			<input type="checkbox" name="flightSearchWizard_inpIsNonstopOnly" value="ON" id="uw_flight_directFlights_input" class="xp-w-checkbox xp-b-left">
+</input><label id="uw_flight_directFlights_label" for="uw_flight_directFlights_input" class="xp-b-left">Nonstop flights only</label>
+	</div>
+	<div id="uw_flight_refundFlights_div" class="xp-w-row xp-b-clearfix">
+			<input type="checkbox" name="flightSearchWizard_inpIsAvoidChangePenalty" value="ON" id="uw_flight_refundFlights_input" class="xp-w-checkbox xp-b-left">
+</input><label id="uw_flight_refundFlights_label" for="uw_flight_refundFlights_input" class="xp-b-left">Refundable flights only</label>
+	</div>
+
+		<div class="xp-w-row xp-b-clearfix">
+			<div id="uw_flight_prefAirline_div" class="xp-w-cell xp-w-cell-half">
+				<label id="uw_flight_prefAirline_label" for="uw_flight_prefAirline_input">Preferred airline:</label>
+<select name="flightSearchWizard_inpFlightAirlinePreference" id="uw_flight_prefAirline_input">
+					<option value=""  selected="selected">No Preference</option>
+
+<option value="JP" >							Adria Airways
+</option>
+<option value="A3" >							Aegean
+</option>
+<option value="EI" >							Aer Lingus
+</option>
+<option value="SU" >							Aeroflot-Russian Airlines
+</option>
+<option value="2K" >							AeroGal
+</option>
+<option value="AR" >							Aerolineas Argentinas
+</option>
+<option value="VW" >							Aeromar Airlines
+</option>
+<option value="AM" >							Aeromexico
+</option>
+<option value="VV" >							Aerosvit Airlines
+</option>
+<option value="KC" >							Air Astana
+</option>
+<option value="BT" >							Air Baltic
+</option>
+<option value="BP" >							Air Botswana
+</option>
+<option value="AC" >							Air Canada
+</option>
+<option value="CA" >							Air China
+</option>
+<option value="UX" >							Air Europa
+</option>
+<option value="AF" >							Air France
+</option>
+<option value="AI" >							Air India
+</option>
+<option value="KM" >							Air Malta
+</option>
+<option value="MK" >							Air Mauritius
+</option>
+<option value="NZ" >							Air New Zealand
+</option>
+<option value="FJ" >							Air Pacific
+</option>
+<option value="TN" >							Air Tahiti Nui
+</option>
+<option value="TS" >							Air Transat
+</option>
+<option value="AB" >							airberlin
+</option>
+<option value="FL" >							AirTran Airways
+</option>
+<option value="AS" >							Alaska Airlines
+</option>
+<option value="AZ" >							Alitalia
+</option>
+<option value="NH" >							All Nippon Airways
+</option>
+<option value="AA" >							American Airlines
+</option>
+<option value="OZ" >							Asiana Airlines
+</option>
+<option value="OS" >							Austrian Airlines
+</option>
+<option value="AV" >							Avianca
+</option>
+<option value="BD" >							bmi
+</option>
+<option value="BA" >							British Airways
+</option>
+<option value="SN" >							Brussels Airlines
+</option>
+<option value="BW" >							Caribbean Airlines
+</option>
+<option value="CX" >							Cathay Pacific
+</option>
+<option value="KX" >							Cayman Airways
+</option>
+<option value="CI" >							China Airlines
+</option>
+<option value="CZ" >							China Southern Airlines
+</option>
+<option value="DE" >							Condor
+</option>
+<option value="CM" >							Copa
+</option>
+<option value="SS" >							Corsairfly
+</option>
+<option value="OK" >							Czech Airlines
+</option>
+<option value="DL" >							Delta
+</option>
+<option value="9H" >							Dutch Antilles Express
+</option>
+<option value="MS" >							Egyptair
+</option>
+<option value="LY" >							El Al
+</option>
+<option value="EK" >							Emirates
+</option>
+<option value="OV" >							Estonian Air
+</option>
+<option value="ET" >							Ethiopian Airlines
+</option>
+<option value="EY" >							Etihad Airways
+</option>
+<option value="BR" >							EVA Airways
+</option>
+<option value="AY" >							Finnair
+</option>
+<option value="BE" >							Flybe
+</option>
+<option value="F9" >							Frontier Airlines
+</option>
+<option value="GA" >							Garuda
+</option>
+<option value="GF" >							Gulf Air
+</option>
+<option value="HU" >							Hainan Air
+</option>
+<option value="HA" >							Hawaiian Airlines
+</option>
+<option value="HX" >							Hong Kong Airlines
+</option>
+<option value="IB" >							Iberia
+</option>
+<option value="FI" >							Icelandair
+</option>
+<option value="7I" >							Insel Air International
+</option>
+<option value="JL" >							Japan Airlines
+</option>
+<option value="9W" >							Jet Airways
+</option>
+<option value="B6" >							JetBlue Airways
+</option>
+<option value="M5" >							Kenmore Air
+</option>
+<option value="KL" >							KLM
+</option>
+<option value="KE" >							Korean Air
+</option>
+<option value="LR" >							LACSA
+</option>
+<option value="LA" >							LAN Airlines
+</option>
+<option value="4M" >							Lan Argentina
+</option>
+<option value="XL" >							LAN Ecuador
+</option>
+<option value="LP" >							LAN Peru
+</option>
+<option value="LO" >							LOT-Polish Airlines
+</option>
+<option value="LT" >							LTU
+</option>
+<option value="LH" >							Lufthansa
+</option>
+<option value="MH" >							Malaysia Airlines
+</option>
+<option value="IG" >							Meridiana fly
+</option>
+<option value="ME" >							Middle East Airlines
+</option>
+<option value="OA" >							Olympic
+</option>
+<option value="EC" >							Openskies
+</option>
+<option value="PR" >							Philippine Airlines
+</option>
+<option value="PU" >							Pluna Lineas Aereas Uruguayas
+</option>
+<option value="PW" >							PrecisionAir
+</option>
+<option value="P0" >							Proflight Commuter
+</option>
+<option value="QF" >							Qantas Airways
+</option>
+<option value="QR" >							Qatar Airways
+</option>
+<option value="AT" >							Royal Air Maroc
+</option>
+<option value="RJ" >							Royal Jordanian
+</option>
+<option value="S7" >							S7 Airlines
+</option>
+<option value="SK" >							SAS
+</option>
+<option value="S4" >							SATA Internacional
+</option>
+<option value="SV" >							Saudi Arabian Airlines
+</option>
+<option value="SQ" >							Singapore Airlines
+</option>
+<option value="SA" >							South African Airways
+</option>
+<option value="SY" >							Sun Country Airlines
+</option>
+<option value="PY" >							Surinam Airways
+</option>
+<option value="LX" >							Swiss International Air Lines
+</option>
+<option value="TA" >							TACA
+</option>
+<option value="JJ" >							TAM Airlines
+</option>
+<option value="TP" >							TAP Portugal
+</option>
+<option value="RO" >							Tarom-Romanian Air Transport
+</option>
+<option value="TG" >							Thai Air International
+</option>
+<option value="UN" >							Transaero Airlines
+</option>
+<option value="TK" >							Turkish Airlines
+</option>
+<option value="PS" >							Ukraine International Airlines
+</option>
+<option value="UA" >							UNITED
+</option>
+<option value="US" >							US Airways
+</option>
+<option value="VN" >							Vietnam Airlines
+</option>
+<option value="VX" >							Virgin America
+</option>
+<option value="VS" >							Virgin Atlantic
+</option>
+<option value="VA" >							Virgin Australia (VA)
+</option>
+<option value="V2" >							Vision Airlines
+</option>
+<option value="Y4" >							Volaris
+</option>
+<option value="WS" >							WestJet
+</option>
+</select>
+			</div>
+			<div id="uw_flight_class_div" class="xp-w-cell xp-w-cell-half xp-w-cell-last">
+				<label id="uw_flight_class_label" for="uw_flight_class_input">Class:</label>
+<select name="flightSearchWizard_inpFlightClass" id="uw_flight_class_input">
+								<option  value=1>
+									First Class
+								</option>						
+								<option  value=2>
+									Business
+								</option>
+								<option  selected='selected'  value="3">
+									Economy/Coach
+								</option>
+								<option  value=5>
+									Premium Economy
+								</option>
+</select>
+			</div>
+		</div>
+			<p class="xp-w-row"><span class="xp-l-il xp-l-info"><a class="xp-l-right" href="javascript:void(0);" id="uw_flight_airline_tt_link"><span class="xp-l-text">More info</span><span class="xp-l-icn"></span></a></span></p>
+			<!-- toolTip -->
+			<div id="uw_flight_airline_tt" class="xp-bx-cs-tt-outCnt">
+				<div id="uw_flight_airline_tt_arrow" class="xp-b-floatL xp-w-cs-tt-arrow"><!-- --></div>
+				<div class="xp-bx-cs-tt-rnd-top"><span><!-- --></span></div>
+				<div id="uw_flight_airline_tt_bg" class="xp-w-cs-tt-cnt">
+					<div class="xp-w-cs-innercnt xp-b-clearfix">
+						<p id="uw_flight_airline_tt_close" class="xp-b-floatR xp-l-il xp-bx-cs-tt-close">
+							<a href="#" class="xp-l-close-2nd"><span>Close</span><span class="xp-l-icn"><!-- --></span></a></p>
+						
+						<div class="xp-bx-cs-tt-row">
+							<h3 id="uw_flight_airline_tt_title" class="xp-s-row">
+								No preference search
+							</h3>
+							<p id="uw_flight_airline_tt_text" class="xp-t-body xp-t-lHeight-med">
+A no preference search covers those airlines to which Expedia has access, which is most airlines. The flights displayed are those for which Expedia was able to confirm availability. By searching for flights on just one airline, you may be able to find additional choices and possibly even lower prices.							</p>
+						</div>
+					</div>
+				</div>
+				<div class="xp-bx-cs-tt-rnd-bot"><span><!-- --></span></div>
+			</div>
+			<!-- toolTip -->
+
+</fieldset>
+</div>
+
+	<!-- end of additional options panel -->
+
+
+
+<!-- search button  -->
+		<p id="uw-flight-submit" class="xp-b-clearfix uw-submit-button"><span class="xp-b-right">
+			<span class="xp-b-leftSubmit2"><!-- --></span>
+			<a href="#" id="uw_flight_submit_lnk" class="xp-b-submit2" onClick="try{trackClick(this, 'a', document.getElementById('pageId').value + '.SrchWzd.Flight');}catch(e){}">Search For Flights</a>
+			<span class="xp-b-rightSubmit2"><!-- --></span>
+		</span></p>
+		
+<!-- AB testing -->
+		
+<!-- cross-sell search button  -->
+		<br />
+		<p id="uw-flight-fh-submit" class="xp-b-clearfix"><span class="xp-b-right">
+			<span class="xp-b-leftSubmit2"><!-- --></span>
+			<a href="#" id="uw_flight_fh_submit_lnk" class="xp-b-submit2" onClick="try{trackClick(this, 'a', document.getElementById('pageId').value + '.SrchWzd.FH');}catch(e){}">Search for Flight+Hotel</a>
+			<span class="xp-b-rightSubmit2"><!-- --></span>
+		</span></p>
+</FORM>
+</div>
+
+<script type="text/javascript" id="flightOnlyJs">
+flightOnlyFn = function(model){
+
+		var typeaheadO = {};
+		typeaheadO.id = 'uw_flight_origin_input';
+		typeaheadO.On = true;
+		typeaheadO.MinChar = 3;
+		typeaheadO.MaxItems =  10;
+		typeaheadO.Path = 'http://suggest.expedia.com/hint/es/v1/ac';
+		typeaheadO.Locale = "en_US";
+		typeaheadO.abTest = "842.1|808.0";
+		typeaheadO.lob = "FLIGHTS";
+		typeaheadO.closeText = "Close";
+		typeaheadO.contiueText = "Continue typing to refine search";
+		TA.setup(typeaheadO);
+		TA.init('uw_flight_origin_input');
+		var typeaheadD = {};
+		typeaheadD.id = 'uw_flight_destination_input';
+		typeaheadD.On = true;
+		typeaheadD.MinChar = 3;
+		typeaheadD.MaxItems =  10;
+		typeaheadD.Path = 'http://suggest.expedia.com/hint/es/v1/ac';
+		typeaheadD.Locale = "en_US";
+		typeaheadD.abTest = "842.1|808.0";
+		typeaheadD.lob = "FLIGHTS";
+		typeaheadD.closeText = "Close";
+		typeaheadD.contiueText = "Continue typing to refine search";
+		TA.setup(typeaheadD);
+		TA.init('uw_flight_destination_input');
+
+	//toolTip
+		cx.exp.search.flight.tooltipIsOpen = false;
+		cx.exp.search.flight.tooltipLinkAction = "open";
+		cx.exp.search.flight.tooltipChgState = function(event, action)
+		{
+			if(action==="changeable")
+			{
+				action = cx.exp.search.flight.tooltipLinkAction;
+			}
+			
+			if(action==="open")
+			{
+				cx.exp.search.flight.tooltip.show();
+				cx.exp.search.flight.tooltipIsOpen = true;
+				cx.exp.search.flight.tooltipLinkAction = "close"
+				YAHOO.util.Event.stopEvent(event);
+			}
+			else if ((action==="close" || action==="closeByBody") && cx.exp.search.flight.tooltipIsOpen)
+			{
+				cx.exp.search.flight.tooltip.hide();
+				cx.exp.search.flight.tooltipIsOpen = false;
+				cx.exp.search.flight.tooltipLinkAction = "open"
+				if (action==="close") {YAHOO.util.Event.stopEvent(event);}
+			}
+		}
+		cx.exp.search.flight.tooltip = new YAHOO.widget.Overlay("uw_flight_airline_tt", { 
+													context:["uw_flight_airline_tt_link","tl","tr", ["beforeShow", "windowResize"], [27,-31]],
+													visible:false, 
+													width:"416px",
+													zindex:"999"
+													}); 
+		cx.exp.search.flight.tooltip.render(); 
+
+		YAHOO.util.Event.addListener("uw_flight_airline_tt_link", "click", cx.exp.search.flight.tooltipChgState, "changeable", true); 
+		YAHOO.util.Event.addListener("uw_flight_airline_tt_close", "click", cx.exp.search.flight.tooltipChgState, "close", true); 
+		YAHOO.util.Event.addListener("uw_flight_airline_tt", "click", cx.exp.search.flight.tooltipChgState, "open", true); 
+		YAHOO.util.Event.addListener(document.body, "click", cx.exp.search.flight.tooltipChgState, "closeByBody", true); 
+	//toolTip
+
+		newModel = 	new cx.exp.search.common.model({
+							nRooms:			1,			
+							numAdults: 		[1,],
+							numChildren: 	[0,],
+							numSeniors: 	[0,],
+							childAges:		[[],],
+							infantOnLap:	true,
+							origin:"",
+							searchNear:"",
+							isDefaultTravellers: true,            						
+						prefillEveryField: false
+					});
+
+	if (!model) {
+		model = newModel;
+	}else{
+		model.mergeUnchangedDefaults(newModel);
+	}
+
+	var flightWizardDTO = new cx.exp.search.common.template.flightWizardDTO({
+		agetemplate : 'flChildAgeEntryTemplate',
+		ageHTMLStyles : ['xp-w-cell-xsmall'],
+		chldAgeDiv : 'uw_child_age_div0',
+		inpChldAge : 'uw_flight_child_age_input0',
+		chldAgeCnt : 'uw_flight_child_age_container',
+		inpAdults : 'uw_flight_adults_input',
+		inpSeniors : 'uw_flight_seniors_input',
+		countChldSelect : 'uw_flight_children_input',
+
+		chldAgePnlDiv : 'uw_flight_child_age_pnl',
+		chldOptPnlDiv : 'uw_flight_infants_container',
+		swAddOptPnlDiv : 'uw_flight_add_show_pnl',
+		hdAddOptPnlDiv : 'uw_flight_add_hide_pnl',
+		addOptPnl : 'uw_flight_add',
+
+		inpFlightAirlinePreference : 'uw_flight_prefAirline_input',
+		inpFlightClass : 'uw_flight_class_input',
+		inpIsNonstopOnly : 'uw_flight_directFlights_input',
+		inpIsAvoidChangePenalty : 'uw_flight_refundFlights_input',
+		inpInfantsOnSeat : 'uw_flight_infants_seat_inp',
+		inpInfantsOnLap : 'uw_flight_infants_wo_seat_inp',
+		returnDateContainer : 'uw_flight_ret_date_container',
+		multipleDestinationsContainer : 'uw_flight_multi_dest_container',
+		flightTypeCheckboxes : 'uw_flight_type',
+		flightDestination : 'uw_flight_destination0',
+		hasFlexDate : true,
+		elmPrefix : 'uw_flight_'
+	});
+		
+	var config = new cx.exp.search.flight.config( {
+		formId : 'fltWizFrm',
+		parentDivId : 'uw_flight_wiz',
+		lob : 'flightOnly',
+		dynModel : model,		
+		flightWizardDTO : flightWizardDTO,
+		minimumCalendarOffset : '04/17/2012',
+		maximumCalendarOffset :	'03/13/2013',
+		calendarMinDayOffset : '0',
+		defaultAdultSelected : 1,
+		defaultChildSelected : 0,
+		defaultSeniorSelected : 0,
+		maximumAdultCount : 6,
+		maximumChildCount : 6,
+		maximumSeniorCount : 6,
+		dateFormat : 'mm/dd/yy',
+		defaultTimeCode : '362',
+		multidestTotalCount: '5',
+		maxNumberofTravellers: 6,
+		hasXsellHotelFlight : true,
+		searchActionFlightOnly : 'flightSearchWizard@searchFlights',
+		hasShopSurvey : false,
+		searchActionFlightHotel : 'flightSearchWizard@searchFlightHotel',
+		postToSearch: '/Search'
+	});
+	
+		expNamespace("cx.exp.uw.flight.flexible.destination");
+		cx.exp.uw.flight.flexible.destination.tooltipIsOpen = false;
+		cx.exp.uw.flight.flexible.destination.tooltipLinkAction = "open";
+		cx.exp.uw.flight.flexible.destination.tooltipChgState = function(event, action)
+		{
+			if(action==="changeable")
+			{
+				action = cx.exp.uw.flight.flexible.destination.tooltipLinkAction;
+			}
+			
+			if(action==="open")
+			{
+				cx.exp.uw.flight.flexible.destination.tooltip.show();
+				cx.exp.uw.flight.flexible.destination.tooltipIsOpen = true;
+				cx.exp.uw.flight.flexible.destination.tooltipLinkAction = "close"
+				YAHOO.util.Event.stopEvent(event);
+			}
+			else if (action==="close" && cx.exp.uw.flight.flexible.destination.tooltipIsOpen)
+			{
+				cx.exp.uw.flight.flexible.destination.tooltip.hide();
+				cx.exp.uw.flight.flexible.destination.tooltipIsOpen = false;
+				cx.exp.uw.flight.flexible.destination.tooltipLinkAction = "open"
+				YAHOO.util.Event.stopEvent(event);
+			}
+		}
+		// Re-align just before the overlay is shown and whenever the window is resized to account for changes in the position  
+		// of the context element after the initial context alignment 
+			cx.exp.uw.flight.flexible.destination.tooltip = new YAHOO.widget.Overlay("uw_flight_flex_destination_tooltip", { 
+																									context:["uw_flight_flex_destination_flyout_icn","tl","tr", ["beforeShow", "windowResize"], [27,-34]],
+																								visible:false, 
+																								width:"233px",
+																									zindex:"999"
+																									}); 
+		cx.exp.uw.flight.flexible.destination.tooltip.render(); 
+
+		YAHOO.util.Event.addListener("uw_flight_flex_destination_flyout_link", "click", cx.exp.uw.flight.flexible.destination.tooltipChgState, "changeable", true); 
+		YAHOO.util.Event.addListener("uw_flight_flex_destination_tooltip_close", "click", cx.exp.uw.flight.flexible.destination.tooltipChgState, "close", true); 
+		YAHOO.util.Event.addListener("uw_flight_flex_destination_tooltip", "click", cx.exp.uw.flight.flexible.destination.tooltipChgState, "open", true); 
+		YAHOO.util.Event.addListener(document.body, "click", cx.exp.uw.flight.flexible.destination.tooltipChgState, "close", true);
+	cx.exp.search.common.replaceAction("fltWizFrm", cx.exp.widgetlibrary.search.common.container.requestURI);
+	return cx.exp.search.flight.wizard.subscribe(null, null, config);
+}
+
+        USwiz = true;
+
+</script>
+
+					<div id="divInterstitial" class="xp-w-cont-spinner"></div>
+				</div>
+				<div id="lowerMerchContainer" class="xp_uw_lowerMerchContainer">
+<a href="/p/info-other/guarantees.htm?mcicid=hp.bpg"><img class="pbestPriceGuaranteeImage" src="/static/fusion/v2.3/images/homepage/BPG_logo.jpg" width="150" height="34" alt="Best Price Guarantee" /></a>				</div>
+			</div>
+		</div>
+
+<div class="xp-w-rnd-inn-wht-bot"><span><!-- --></span></div>
+	</div>
+	<div class="xp-w-rnd-out-bot"><span><!-- --></span></div>
+</div>
+
+<script type="text/javascript">
+cx.exp.widgetlibrary.search.common.container.titleDiv = YAHOO.util.Dom.get("xp_uw_title");
+cx.exp.widgetlibrary.search.common.container.wizardDiv = YAHOO.util.Dom.get('xp_uw_form');
+cx.exp.widgetlibrary.search.common.container.ajaxErrDiv = YAHOO.util.Dom.get("xp_uw_ajaxErrorContainer");
+cx.exp.widgetlibrary.search.common.container.interstitialDiv = YAHOO.util.Dom.get('divInterstitial');
+cx.exp.widgetlibrary.search.common.container.ajaxTimeout = parseInt('10000');
+cx.exp.widgetlibrary.search.common.container.spinnerDelay = parseInt('2000');
+cx.exp.widgetlibrary.search.common.container.timer;
+cx.exp.widgetlibrary.search.common.container.wizardType = '';
+cx.exp.widgetlibrary.search.common.container.wizardObj = null;
+cx.exp.widgetlibrary.search.common.container.cacheWizardContent = new Object();
+cx.exp.widgetlibrary.search.common.container.historyObject = null;
+cx.exp.widgetlibrary.search.common.container.radioButtons = YAHOO.util.Dom.getElementsByClassName("wizardRadio", "input", "xp_uw_lobContainer");
+cx.exp.widgetlibrary.search.common.container.selectedRadioButton = null; //will be init in the .subscribeAllEvents function
+
+
+// for drop down - AJAX call
+expNamespace('cx.exp.widgetlibrary.search.common.dropdown');
+
+cx.exp.widgetlibrary.search.common.dropdown.AjaxObject = {
+	    handleSuccess:function(response){
+	        try{ 
+	            var responseObject = YAHOO.lang.JSON.parse(response.responseText).response;
+	            var dropDownDestinationId = document.getElementById("dropDown_destinationId");
+				var destinationSelectElement = document.getElementById(dropDownDestinationId.value);
+				var browser=navigator.appName;
+				if(browser=="Microsoft Internet Explorer")
+				{
+					var optionHTML = responseObject.destinationList;
+					var selectHTML = '<select>'+optionHTML+'</select>';
+					var objE = document.createElement("div"); 
+					objE.innerHTML = selectHTML; 
+					var selectDOM = objE.childNodes[0];
+					destinationSelectElement.options.length=0;
+			      	destinationSelectElement.innerHTML = '';
+			      var selectedNum = -1;
+			      var optionCount = 0;
+			      for (var i = 0, num = selectDOM.childNodes.length; i < num; i++) 
+			      {
+			        if(selectDOM.childNodes[0].selected && selectedNum == -1)
+			        {
+			             selectedNum = optionCount;
+			        }
+			        if(selectDOM.childNodes[0].nodeName=="OPTION")
+			        {
+			             optionCount++;
+			        }
+			      	destinationSelectElement.appendChild(selectDOM.childNodes[0]);
+			      }
+			      destinationSelectElement.selectedIndex = selectedNum; 
+				}
+				else
+				{
+					destinationSelectElement.innerHTML = responseObject.destinationList;
+				}
+	        }catch (e){ 
+	            if(window.console && console.log){console.log("There was a problem updating the destination options! exception: " + e);}
+	        } 
+	    },
+	    handleFailure:function(response){
+	    	var namespace = cx.exp.widgetlibrary.search.common.container;
+	    },
+	    startRequest:function(url) {
+	        //set disable state to radio buttons before async call started
+	        cx.exp.widgetlibrary.search.common.dropdown.Callback.argument = { wizardType: cx.exp.widgetlibrary.search.common.container.wizardType};
+	        YAHOO.util.Connect.asyncRequest('GET', url , cx.exp.widgetlibrary.search.common.dropdown.Callback , null);
+	    }
+	};
+
+cx.exp.widgetlibrary.search.common.dropdown.changeSelectedDestination = function (selectElement) {
+	var index = selectElement.selectedIndex;
+	var selectedDestValue = selectElement.options[index].value;
+	if(selectedDestValue=='others')
+	{
+		// TODO drop down here is where the popup window for other POSs should live 
+		window.open('http://www.expedia.com','otherPOSs','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no');
+		
+		selectElement.options[0].selected = true;
+	}
+};
+
+cx.exp.widgetlibrary.search.common.dropdown.updateDestinationByOrigin = function() {
+
+	// for dropdown, initial the destination based on the current origin/initial origin to empty(default hint)
+    var dropDownOriginId = document.getElementById("dropDown_originId");
+    if(dropDownOriginId!=null)
+    {
+    	var originSelectElement = document.getElementById(dropDownOriginId.value);
+		cx.exp.widgetlibrary.search.common.dropdown.changeSelectedOrigin(originSelectElement);
+    }
+  
+};
+
+cx.exp.widgetlibrary.search.common.dropdown.changeSelectedOrigin = function (selectElement) {
+	
+	var namespace = cx.exp.widgetlibrary.search.common.container;
+	var index = selectElement.selectedIndex;
+	if(index==null || index==-1)
+	{
+		index = 0;
+	}
+	var selectedOriginValue = selectElement.options[index].value;
+
+	if(selectedOriginValue=='others')
+	{
+		// TODO drop down here is where the popup window for other POSs should live 
+		window.open('http://www.expedia.com','otherPOSs','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no');
+		
+		selectElement.options[0].selected = true;
+		selectedOriginValue='';
+	}
+	
+	var randomnumber=Math.floor(Math.random()*11000000000);
+	var sUrl = '/ws/SearchWizardWebService/v1/populateDestination?type=' + namespace.wizardType;
+    sUrl = sUrl + '&factory=com.expedia.e3.cx.expedia.widgetlibrary.search.common.impl.searchWizardContentHelper.home'
+    sUrl = sUrl + '&response=json' + '&rand=' + randomnumber;
+
+ 	// for drop down
+    	sUrl = sUrl + '&isDropDownOnBool=false'
+			+ '&selectedOrigin='+selectedOriginValue
+    		+ '&isOriginGroupByCountry=false'
+    		+ '&isDestGroupByCountry=false'
+    		+ '&isTopCitiesOnBool=false';
+    var dropDownIsPackage = document.getElementById("dropDown_isPackage");
+    if(dropDownIsPackage!=null)
+    {
+    	var dropDownIsPackageValue = dropDownIsPackage.value;
+  		sUrl = sUrl + '&isPackage='+dropDownIsPackageValue;
+    }
+  	    
+   cx.exp.widgetlibrary.search.common.dropdown.AjaxObject.startRequest(sUrl);  
+    //YAHOO.util.Connect.asyncRequest('GET', url , cx.exp.widgetlibrary.search.common.dropdown.Callback , null);
+};
+
+cx.exp.widgetlibrary.search.common.dropdown.Callback = { 
+	    success:cx.exp.widgetlibrary.search.common.dropdown.AjaxObject.handleSuccess, 
+	    failure:cx.exp.widgetlibrary.search.common.dropdown.AjaxObject.handleFailure, 
+	    scope:cx.exp.widgetlibrary.search.common.dropdown.AjaxObject.AjaxObject, 
+	    timeout:cx.exp.widgetlibrary.search.common.container.ajaxTimeout, 
+		argument: { wizardType: '' }
+	};
+
+
+
+//enable/disable state of LOB selector radio buttons
+cx.exp.widgetlibrary.search.common.container.disableRadioButtons = function(state){
+    var radioButtons = cx.exp.widgetlibrary.search.common.container.radioButtons;
+    for (var i=0; i<radioButtons.length; i++) {
+        if(state===true){ //disabling
+            radioButtons[i].setAttribute('disabled', 'true');
+        } else { //enableing
+            radioButtons[i].removeAttribute('disabled');
+            //set the selected radio button
+            if(radioButtons[i].getAttribute('wizardtype') != cx.exp.widgetlibrary.search.common.container.selectedRadioButton){
+                radioButtons[i].checked = false;
+            } else {
+                radioButtons[i].checked = true;
+            }
+        }
+    }
+};
+
+cx.exp.widgetlibrary.search.common.container.AjaxObject = {
+    handleSuccess:function(response){
+        var namespace = cx.exp.widgetlibrary.search.common.container;
+        try{ 
+            var responseObject = YAHOO.lang.JSON.parse(response.responseText).response;
+            var content = new Object();
+			
+            // update the html in the relevant elements to that returned from the web service.
+            if (!(YAHOO.lang.isNull(namespace.titleDiv) || YAHOO.lang.isUndefined(namespace.titleDiv))) {
+                var titleHTML = responseObject.title;
+                if (YAHOO.lang.isUndefined(titleHTML)) {
+                    titleHTML = '';
+                }
+                namespace.titleDiv.innerHTML = titleHTML;
+                content.title = titleHTML;
+            }
+            if (!(YAHOO.lang.isNull(namespace.wizardDiv) || YAHOO.lang.isUndefined(namespace.wizardDiv))) {
+                var wizardHTML = responseObject.wizard;
+                if (YAHOO.lang.isUndefined(wizardHTML)) {
+                    wizardHTML = "";
+                }
+                namespace.wizardDiv.innerHTML = wizardHTML;
+                content.wizard = wizardHTML;               
+            }
+            namespace.cacheWizardContent[response.argument.wizardType] = content;
+
+			// Note: the wizard's JavaScript code needs to be parsed (note the naming convention wizardType+'Js')
+            var jsCode = document.getElementById(response.argument.wizardType + "Js");
+			if (jsCode) {
+                eval(jsCode.innerHTML);
+            }
+			// Let's start up the wizard by calling it's initializer function (note the naming convention wizardType+'Fn')
+			eval('namespace.wizardObj = '+response.argument.wizardType + 'Fn(namespace.historyObject);');
+			
+			// for dropdown, initial the destination based on the current origin/initial origin to empty(default hint)
+			cx.exp.widgetlibrary.search.common.dropdown.updateDestinationByOrigin();
+			
+            //if the response was OK set the selectedRadioButton value to the new selected wizardType
+            namespace.selectedRadioButton = response.argument.wizardType;
+        }catch (e){ 
+            namespace.showError(true);
+            if(window.console && console.log){console.log("There was a problem updating the wizard values! exception: " + e);}
+        } finally {
+	        if (namespace.timer){
+	        	clearTimeout(namespace.timer);
+	        }        
+            namespace.showSpinner(false);
+            //remove disable state from radio buttons after async call finished
+            namespace.disableRadioButtons(false);
+			
+        }
+    },
+    handleFailure:function(response){
+    	var namespace = cx.exp.widgetlibrary.search.common.container;
+    	if (namespace.timer){
+        	clearTimeout(namespace.timer);
+        }
+        namespace.showSpinner(false);
+        namespace.showError(true);
+        //remove disable state from radio buttons after async call finished
+        namespace.disableRadioButtons(false);
+    },
+    startRequest:function(url) {
+        //set disable state to radio buttons before async call started
+        cx.exp.widgetlibrary.search.common.container.disableRadioButtons(true);
+        cx.exp.widgetlibrary.search.common.container.Callback.argument = { wizardType: cx.exp.widgetlibrary.search.common.container.wizardType};
+        YAHOO.util.Connect.asyncRequest('GET', url , cx.exp.widgetlibrary.search.common.container.Callback , null);
+    }
+};
+
+cx.exp.widgetlibrary.search.common.container.Callback = { 
+    success:cx.exp.widgetlibrary.search.common.container.AjaxObject.handleSuccess, 
+    failure:cx.exp.widgetlibrary.search.common.container.AjaxObject.handleFailure, 
+    scope:cx.exp.widgetlibrary.search.common.container.AjaxObject.AjaxObject, 
+    timeout:cx.exp.widgetlibrary.search.common.container.ajaxTimeout, 
+	argument: { wizardType: '' }
+};
+
+cx.exp.widgetlibrary.search.common.container.showSpinner = function (show) {
+    var namespace = cx.exp.widgetlibrary.search.common.container;
+    if(show) {
+        YAHOO.util.Dom.setStyle(namespace.wizardDiv, 'display','none');
+        YAHOO.util.Dom.setStyle(namespace.interstitialDiv, 'display','block');
+    }else {
+    	YAHOO.util.Dom.setStyle(namespace.wizardDiv, 'display','block');
+        YAHOO.util.Dom.setStyle(namespace.interstitialDiv, 'display','none');
+    }
+};
+
+cx.exp.widgetlibrary.search.common.container.showError = function (show) {
+    var namespace = cx.exp.widgetlibrary.search.common.container;
+    if(show) {
+        YAHOO.util.Dom.setStyle(namespace.ajaxErrDiv, 'display','block');        
+    }else {
+        YAHOO.util.Dom.setStyle(namespace.ajaxErrDiv, 'display','none');
+    }
+};
+
+cx.exp.widgetlibrary.search.common.container.changeWizardContent = function(){
+
+	if (false) {
+		if (this.getAttribute('wizardType') == 'flightAndHotel') {
+			// show image and text line
+			document.getElementById('pkgLPBenefitText').setAttribute("style", "visibility: visible;");
+			document.getElementById('pkgLPBenefitInfo').setAttribute("style", "padding-left: 5px; padding-bottom: 5px; visibility: visible; display: block");
+			document.getElementById('existing_upsell').setAttribute("style", "visibility: hidden;");
+		}
+		else {
+			// hide image and text line
+			document.getElementById('pkgLPBenefitText').setAttribute("style", "visibility: hidden;");
+			document.getElementById('pkgLPBenefitInfo').setAttribute("style", "visibility: hidden; display: none");
+			document.getElementById('existing_upsell').setAttribute("style", "visibility: visible;");
+		}
+	}
+
+	var namespace = cx.exp.widgetlibrary.search.common.container, radioButton;
+	if (namespace.wizardObj){
+		namespace.historyObject = namespace.wizardObj.saveToObj(namespace.wizardObj, namespace.historyObject);
+	}
+    namespace.wizardType = this.getAttribute('wizardType');
+
+    var content = namespace.cacheWizardContent[namespace.wizardType];
+    if (!YAHOO.lang.isUndefined(content)) {
+        if (!(YAHOO.lang.isNull(namespace.titleDiv) || YAHOO.lang.isUndefined(namespace.titleDiv))) {
+            namespace.titleDiv.innerHTML = content.title;
+        }
+        if (!(YAHOO.lang.isNull(namespace.wizardDiv) || YAHOO.lang.isUndefined(namespace.wizardDiv))) {
+            namespace.wizardDiv.innerHTML = content.wizard;
+        }
+		// Note: the wizard's JavaScript code has been already parsed, no need to eval() the script tag contents again
+		// Let's start up the wizard by calling it's initializer function (note the naming convention wizardType+'Fn')
+		eval('namespace.wizardObj = '+namespace.wizardType + 'Fn(namespace.historyObject);');
+		// for dropdown, initial the destination based on the current origin/initial origin to empty(default hint)
+       cx.exp.widgetlibrary.search.common.dropdown.updateDestinationByOrigin();
+		
+        return;
+    }
+    if(namespace.spinnerDelay){
+     	namespace.timer = window.setTimeout(function(){ namespace.showSpinner(true); }, namespace.spinnerDelay);
+	}else {
+		namespace.showSpinner(true);
+	}
+    namespace.showError(false);
+		var randomnumber=Math.floor(Math.random()*11000000000);
+    var sUrl = '/ws/SearchWizardWebService/v1/handleRequest?type=' + namespace.wizardType;
+    sUrl = sUrl + '&factory=com.expedia.e3.cx.expedia.widgetlibrary.search.common.impl.searchWizardContentHelper.home'
+    sUrl = sUrl + '&response=json' + '&rand=' + randomnumber;
+
+ 	// for drop down
+    	sUrl = sUrl + '&isDropDownOnBool=false'
+    		+ '&isOriginGroupByCountry=false'
+    		+ '&isDestGroupByCountry=false'
+    		+ '&isTopCitiesOnBool=false'
+    		+ '&isPackage=false'
+    		+ '&isAddtionalOff=false';
+    
+    namespace.AjaxObject.startRequest(sUrl);  
+};
+
+cx.exp.widgetlibrary.search.common.container.subscribeAllEvents = function() {
+    var namespace = cx.exp.widgetlibrary.search.common.container, radioButton; 
+    var content = new Object();
+	var defaultLob = 'flightOnly';
+    //initial the selectedRadioButton (will be run once)
+    cx.exp.widgetlibrary.search.common.container.selectedRadioButton = defaultLob;
+
+    if (!(YAHOO.lang.isNull(namespace.titleDiv) || YAHOO.lang.isUndefined(namespace.titleDiv))) {
+        content.title = namespace.titleDiv.innerHTML
+    }
+    if (!(YAHOO.lang.isNull(namespace.wizardDiv) || YAHOO.lang.isUndefined(namespace.wizardDiv))) {
+    	content.wizard = namespace.wizardDiv.innerHTML
+    }
+    namespace.cacheWizardContent[defaultLob] = content;
+
+	// Since this function is the entry point to wizard JS functionality,
+	// let's whether we have a saved wizard state available (back button support)
+	var history = YAHOO.util.Dom.get('uw_wizardstate').value;
+	// preloadNonDefault will contain the wizard type that should be initially on the page IF it is other than the default wizard
+	// otherwise (if we don't need to change the default shown wizard) it can be null.
+	var preloadNonDefault = null;
+	if (history){
+		namespace.historyObject = new cx.exp.search.common.model(YAHOO.lang.JSON.parse(history));
+		if (defaultLob == namespace.historyObject.lob){
+			// Default wizard needs to be shown - already rendered on the page
+			// Let's start up the wizard by calling it's initializer function (note the naming convention wizardType+'Fn')
+			eval('namespace.wizardObj = '+namespace.historyObject.lob + 'Fn(namespace.historyObject);');
+			
+			 // for dropdown, initial the destination based on the current origin/initial origin to empty(default hint)
+			cx.exp.widgetlibrary.search.common.dropdown.updateDestinationByOrigin();
+		}
+		else{
+			// We need to show a wizard other than the default)
+		    preloadNonDefault = namespace.historyObject.lob;
+		}
+	}
+	else
+	{
+		// Previously saved wizard state not available. Default wizard will be shown.
+		// Let's start up the wizard by calling it's initializer function (note the naming convention wizardType+'Fn')
+		eval('namespace.wizardObj = '+'flightOnlyFn(null);');
+	}
+
+    var radioButtons = cx.exp.widgetlibrary.search.common.container.radioButtons;
+    for (var i=0; i<radioButtons.length; i++) {
+        var radioButton = radioButtons[i];
+        if (!(YAHOO.lang.isNull(radioButton) || YAHOO.lang.isUndefined(radioButton))) {
+               YAHOO.util.Event.addListener(radioButton, "click", namespace.changeWizardContent);
+				if (preloadNonDefault === radioButton.getAttribute('wizardType')){
+					// If we need to activate a wizard other than the default one, let's manually call the LOB change handler
+					namespace.changeWizardContent.call(radioButton);
+				}
+				else if (!preloadNonDefault && radioButton.checked && defaultLob != radioButton.getAttribute('wizardType')){
+					// If a radio button is pre-selected, make sure we have the right wizard
+					namespace.changeWizardContent.call(radioButton);
+				}
+        }
+    }
+};
+
+YAHOO.util.Event.onDOMReady(cx.exp.widgetlibrary.search.common.container.subscribeAllEvents);
+</script>
+
+        <script type="text/javascript">
+            try {
+                if (window.jQuery) {
+                    if (jQuery('#hot-only:checked').length > 0) {
+                        jQuery(window).load(function() {
+                            loadHotelSRScripts(3000);
+                        });
+                    } else {
+                        jQuery("body").delegate("#hot-only", "change", function(){
+                            loadHotelSRScripts(500);
+                        });
+                    }
+                }
+            } catch(e) {}
+            function loadHotelSRScripts(delay) {
+                setTimeout(function() { 
+try{jQuery.ajax({url:"/minify/hotelSearch.css-min-1461303533.css?v=release-2012-04-r3-42-439113",cache:true,async:true,dataType:"text"});}catch(e){}
+try{jQuery.ajax({url:"/minify/hotelSearch.js-min-256191855.js?v=release-2012-04-r3-42-439113",cache:true,async:true,dataType:"text"});}catch(e){}
+                }, delay);
+            }
+        </script>
+			</div>
+			<div id="xp_hp_bCol" class="xp-grd-col-8 module xp-grd-last" >
+
+
+<div id="id_adCXHOMECORE" align="center" style="margin:auto;">
+<!-- v.1n --><!-- 2.0.1.68 /html.cms/TPID=1&EAPID=00000&PLACEMENT=CXHOMECORE&LOCATION=HOME&SUBLOCATION=SEARCH&SECURE=0&ADSIZE=416X268&LANGID=1033&tile=c9b6ea8b-249e-472a-8914-f19a708c95d0&IPGEO=504.PHILADELPHIA&ip=130.91.142.179&USERTYPE=SHOPPER&EMAIL=NO -->
+<!-- Baseline Default (b)--><!--There is nothing here--><!-- 2.0.1.68 end (1ms) -->
+
+</div>
+									
+
+<div style="font-family:Arial;font-size:12px;width:416px;">
+<div style="height:18px;"></div>
+<link rel="stylesheet" type="text/css" href="/static/publish/region_us/css/slider.css?v=2" />
+<script type="text/javascript" src="/static/publish/region_us/js/doubleclickSlider.js?v=1"></script>
+<script type="text/javascript">
+	var _siteRoot='index.html',_root='index.html';
+    if(!window.slider) var slider={};
+	slider.data=[ {"id":"slide-1","client":"","desc":""},
+				 {"id":"slide-2","client":"","desc":""},
+				 {"id":"slide-3","client":"","desc":""}];
+   </script>
+   <div class="wrap">
+   <div id="slide-holder">
+   <div id="slide-runner">
+   <div id="slide-1" class="SliderBox" style="z-index: 3;">
+
+
+<div id="id_adCXHOMECORE_1" align="center" style="margin:auto;">
+<!-- v.1n --><!-- 2.0.1.68 /html.cms/TPID=1&EAPID=00000&PLACEMENT=CXHOMECORE_1&LOCATION=HOME&SUBLOCATION=SEARCH&SECURE=0&ADSIZE=416X224&LANGID=1033&tile=c9b6ea8b-249e-472a-8914-f19a708c95d0&IPGEO=504.PHILADELPHIA&ip=130.91.142.179&USERTYPE=SHOPPER&EMAIL=NO -->
+<!-- Baseline Default (b)--><!--There is nothing here--><!-- 2.0.1.68 end (1ms) -->
+
+</div>
+</div>
+<div id="slide-2" class="SliderBox" style="z-index: 2;">
+
+
+<div id="id_adCXHOMECORE_2" align="center" style="margin:auto;">
+<!-- v.1n --><!-- 2.0.1.68 /html.cms/TPID=1&EAPID=00000&PLACEMENT=CXHOMECORE_2&LOCATION=HOME&SUBLOCATION=SEARCH&SECURE=0&ADSIZE=416X224&LANGID=1033&tile=c9b6ea8b-249e-472a-8914-f19a708c95d0&IPGEO=504.PHILADELPHIA&ip=130.91.142.179&USERTYPE=SHOPPER&EMAIL=NO -->
+<!-- Baseline Default (b)--><!--There is nothing here--><!-- 2.0.1.68 end (1ms) -->
+
+</div>
+
+</div>
+<div id="slide-3" class="SliderBox" style="z-index: 1;">
+
+
+<div id="id_adCXHOMECORE_3" align="center" style="margin:auto;">
+<!-- v.1n --><!-- 2.0.1.68 /html.cms/TPID=1&EAPID=00000&PLACEMENT=CXHOMECORE_3&LOCATION=HOME&SUBLOCATION=SEARCH&SECURE=0&ADSIZE=416X224&LANGID=1033&tile=c9b6ea8b-249e-472a-8914-f19a708c95d0&IPGEO=504.PHILADELPHIA&ip=130.91.142.179&USERTYPE=SHOPPER&EMAIL=NO -->
+<!-- Baseline Default (b)--><!--There is nothing here--><!-- 2.0.1.68 end (1ms) -->
+
+</div>
+
+</div>
+
+</div>
+<div id="slide-controls" style="display: block;"> 
+            <p id="slide-nav"></p>
+          </div>
+</div>
+</div>
+</div>
+<div style="clear:both;"></div>
+
+				
+				</div>
+			
+				<div id="belowColWide">
+<!--[if lt IE 8]>
+<style type="text/css">
+.dividerLine { margin: 25px 0px 12px 0px;}
+span.offerline2  { 
+	content: ".";
+	display: inline-block;
+	height: 12px;
+	clear: both;
+}
+</style>
+<![endif]-->
+<script src="/static/publish/region_us/js/adslider.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Expedia Everywhere -->	
+<div class="HPEverywhere">
+	<div class="column HPMobileCol1">
+		<h2 class="ExpediaHeadings">
+			<span class="ExpediaHeadingsColorA">Expedia</span> 
+			<span class="ExpediaHeadingsColorB">Everywhere</span>
+		</h2>
+		<p class="HPDealSubCol">
+		Get the latest travel deals on your iPhone, iPad, Android phone or tablet.
+		</p>
+	</div>
+	
+	<div class="column HPsocial1">
+		<a href="/p/info-mobile/app.htm?mcicid=hp.mobile"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/20120118_expedia_app_icon_hp.gif" class="HPsocial" alt="Expedia Hotels App" class="EverywhereIcons" /></a>
+		<h3 class="HPSectionInfo"><span class="ExpediaHeadingsColorB">Download</span> our <span class="ExpediaHeadingsColorA">FREE</span> Mobile App</h3>
+		<p class="xp-t-body-global">
+			<a href="/p/info-mobile/app.htm?mcicid=hp.mobile">Get It Now &raquo;</a>
+		</p>
+	</div>
+	<div class="column HPmiddleSocial">
+		<a href="http://facebook.com/expedia" 
+		onClick="s_exp_trackClick(this,'e','Homepage.Facebook.Icon')" target="_blank"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/20120118_facebook_icon_hp.gif" class="HPsocial" alt="Facebook icon" class="EverywhereIcons" /></a>
+		<h3 class="HPSectionInfo">Like us on Facebook</h3>
+		<![if !(IE 7)]>
+			<div class="fb-like" data-href="http://facebook.com/expedia" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="arial"></div>
+		<![endif]>
+	</div>
+			
+	<div class="column HPmiddleSocialRT">
+		<a href="https://twitter.com/expedia" 
+		onClick="s_exp_trackClick(this,'e','Homepage.Twitter.Icon')" target="_blank"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/20120118_twitter_icon_hp.gif" class="HPsocial" alt="Twitter icon" class="EverywhereIcons"/></a>
+		<h3 class="HPSectionInfo">Follow us on Twitter</h3>
+		<p>
+			<a href="https://twitter.com/expedia" class="twitter-follow-button" data-show-count="true" onClick="s_exp_trackClick(this,'e','Homepage.Twitter.Follow')" target="_blank">Follow @expedia</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</p>
+	</div>
+</div>	
+<div class="dividerLine clear"></div>
+<div id="subColDeal">
+	<div class="column HPDealCol1">
+		<h2 class="ExpediaHeadings">
+			<span class="ExpediaHeadingsColorA">Today's</span><br />
+			<span class="ExpediaHeadingsColorB">Top Deals</span>
+		</h2>
+		<p class="HPDealSubCol">
+			Start your search with a look<br />at the best rates on our site.
+		</p>
+	</div>
+<div id="dealsleftarrow"></div>
+<div id="now_adcontainer" class="adcontainer">
+	<div id="now_ads" class="inner_adcontainer">
+
+			
+			<div class="adBox" style="left: 0px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/p/multi-deal/vacation-ideas-asap.htm?mcicid=157995536"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_asap.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/p/multi-deal/vacation-ideas-asap.htm?mcicid=157995536">Daily Deals</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/p/multi-deal/vacation-ideas-asap.htm?mcicid=157995536">Save up to 50% </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 162px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/deals/luxury_sale/default.asp?mcicid=157412751"><img src="http://media.expedia.com/media/content/expus/graphics/promos/deals/146x146luxurysale.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/deals/luxury_sale/default.asp?mcicid=157412751">4+ Star Hotels</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/deals/luxury_sale/default.asp?mcicid=157412751">Savings up to 45% off </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 324px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/p/multi-deal/last-minute.htm?mcicid=157241270"><img src="http://media.expedia.com/media/content/expus/graphics/promos/deals/03-09-12_lmd_default_146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/p/multi-deal/last-minute.htm?mcicid=157241270">Stay, Fly & Cruise</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/p/multi-deal/last-minute.htm?mcicid=157241270">Don't miss these rates </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 486px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/deals/gaming_sale/default.asp?mcicid=158181023"><img src="http://media.expedia.com/media/content/expus/graphics/promos/deals/aprilgaming_146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/deals/gaming_sale/default.asp?mcicid=158181023">Bet on Vegas</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/deals/gaming_sale/default.asp?mcicid=158181023">Save up to 40% </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 648px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/deals/texas/default.asp?mcicid=158433412"><img src="http://media.expedia.com/media/content/expus/graphics/promos/deals/033012_texas_stor-3235_146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/deals/texas/default.asp?mcicid=158433412">Big Savings</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/deals/texas/default.asp?mcicid=158433412">Hotels from $40</a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 810px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&DestId=601784:NAS&Hotelids=460393,460427,460429,8870,436224,13636,442404,878320,1866976,665114,539097,7412,794535,3645,1631751,1782699,22905&Numadult=2&merchtext=Book+your+Bahamas+Trip+and+save+up+to+$400+Instantly!+Book+select+hotels+today+through+May+14,+2012+for+travel+now+through+October+31,+2012.&mcicid=157327179"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_bahamas_v1.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&DestId=601784:NAS&Hotelids=460393,460427,460429,8870,436224,13636,442404,878320,1866976,665114,539097,7412,794535,3645,1631751,1782699,22905&Numadult=2&merchtext=Book+your+Bahamas+Trip+and+save+up+to+$400+Instantly!+Book+select+hotels+today+through+May+14,+2012+for+travel+now+through+October+31,+2012.&mcicid=157327179">Bahamas Savings</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/pubspec/scripts/eap.asp?GOTO=PACKAGEWIZ&DestId=601784:NAS&Hotelids=460393,460427,460429,8870,436224,13636,442404,878320,1866976,665114,539097,7412,794535,3645,1631751,1782699,22905&Numadult=2&merchtext=Book+your+Bahamas+Trip+and+save+up+to+$400+Instantly!+Book+select+hotels+today+through+May+14,+2012+for+travel+now+through+October+31,+2012.&mcicid=157327179">Up to $400 Instantly </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 972px;">
+				<div class="adcontent">
+					<a href="http://cruise.expedia.com/Campaign.aspx?name=Cruise%2DEXP.EUR040312&tab=europe&sb=price&mcicid=157244486"><img src="http://media.expedia.com/media/content/expus/graphics/promos/cruise/europecruisesale146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://cruise.expedia.com/Campaign.aspx?name=Cruise%2DEXP.EUR040312&tab=europe&sb=price&mcicid=157244486">Europe Cruise Sale</a>
+					</span>
+					<span class="offerline2"><a href="http://cruise.expedia.com/Campaign.aspx?name=Cruise%2DEXP.EUR040312&tab=europe&sb=price&mcicid=157244486">Save up to 75% </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 1134px;">
+				<div class="adcontent">
+					<a href="http://cruise.expedia.com/Campaign.aspx?name=Cruise%2DEXP.BEACH041312&tab=bahamas&sb=price&mcicid=158417151"><img src="http://media.expedia.com/media/content/expus/graphics/promos/cruise/beaches_cruise_sale_146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://cruise.expedia.com/Campaign.aspx?name=Cruise%2DEXP.BEACH041312&tab=bahamas&sb=price&mcicid=158417151">Island Cruises</a>
+					</span>
+					<span class="offerline2"><a href="http://cruise.expedia.com/Campaign.aspx?name=Cruise%2DEXP.BEACH041312&tab=bahamas&sb=price&mcicid=158417151">Up to 75% off </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 1296px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/pubspec/scripts/eap.asp?GOTO=HotGroup&GroupName=Save+20+percent+on+stays+at+MGM+Grand+Hotel+and+Casino+Las+Vegas.+Book+by+May+7,+2012+for+stays+through+December+27,+2012.&HotelID1=12628&InDate=05/08/12&OutDate=05/10/12&NumAdult=1&mcicid=158856174"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_vegassign.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/pubspec/scripts/eap.asp?GOTO=HotGroup&GroupName=Save+20+percent+on+stays+at+MGM+Grand+Hotel+and+Casino+Las+Vegas.+Book+by+May+7,+2012+for+stays+through+December+27,+2012.&HotelID1=12628&InDate=05/08/12&OutDate=05/10/12&NumAdult=1&mcicid=158856174">MGM Grand Hotel</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/pubspec/scripts/eap.asp?GOTO=HotGroup&GroupName=Save+20+percent+on+stays+at+MGM+Grand+Hotel+and+Casino+Las+Vegas.+Book+by+May+7,+2012+for+stays+through+December+27,+2012.&HotelID1=12628&InDate=05/08/12&OutDate=05/10/12&NumAdult=1&mcicid=158856174">Save 20% </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 1458px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/deals/beach/default.asp?mcicid=159072133"><img src="http://media.expedia.com/media/content/expus/graphics/promos/deals/041012_beaches_stor-3239_146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/deals/beach/default.asp?mcicid=159072133">Beaches on Sale</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/deals/beach/default.asp?mcicid=159072133">Hotels from </a></span>
+					
+				</div>
+			</div>
+	</div>
+</div>
+<div id="dealsrightarrow"></div>		
+<script>
+var options = {
+	forward: '#dealsrightarrow',
+	backward: '#dealsleftarrow',
+	innercontainer: '#now_ads',
+	movedistance: 162,
+	interval: 1000,
+	maxdisplayed: 4,
+	useheadline: true,
+	outercontainer: '#subColDeal'
+};
+$('#now_adcontainer').adslider(options);
+</script></div>
+<div class="dividerLine clear"></div><div id="subColValue">
+	<div class="column HPDealCol1">
+		<h2 class="ExpediaHeadings">
+			<span class="ExpediaHeadingsColorA">Featured</span><br />
+			<span class="ExpediaHeadingsColorB">Offers</span>
+		</h2>
+		<p class="HPDealSubCol">
+			See what's in store<br />from our travel partners.
+		</p>
+	</div>
+<div id="valueleftarrow" class="inactive"></div>
+<div id="everyday_adcontainer" class="adcontainer">
+	<div id="everyday_ads" class="inner_adcontainer">
+
+			
+			<div class="adBox" style="left: 0px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/partner/hotel/marriott/default.asp?rfrr=Meso.Marriott.Tab1&mcicid=151969076"><img src="http://media.expedia.com/media/content/expus/graphics/promos/other/travelhook/homepage_146x146_jw_cancun.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/partner/hotel/marriott/default.asp?rfrr=Meso.Marriott.Tab1&mcicid=151969076">Travel w/ Marriott</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/partner/hotel/marriott/default.asp?rfrr=Meso.Marriott.Tab1&mcicid=151969076">Learn More </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 162px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/partner/cvb/fort_worth0711/default.asp?mcicid=154549459"><img src="http://media.expedia.com/media/content/expus/graphics/promos/other/travelhook/120309_ms_ad_unit_fort_worth_146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/partner/cvb/fort_worth0711/default.asp?mcicid=154549459"></a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/partner/cvb/fort_worth0711/default.asp?mcicid=154549459"> </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 324px;">
+				<div class="adcontent">
+					<a href="http://cruise.expedia.com/Search.aspx?cl=Norwegian+Cruise+Line&ds=Alaska&cat=Popular&mcicid=158861454"><img src="http://media.expedia.com/media/content/expus/graphics/promos/other/travelhook/120413_ms_ncl_akandeu_cruises_ak_146x146.jpg" /></a>
+					<span class="offertext">
+						<a href="http://cruise.expedia.com/Search.aspx?cl=Norwegian+Cruise+Line&ds=Alaska&cat=Popular&mcicid=158861454"></a>
+					</span>
+					<span class="offerline2"><a href="http://cruise.expedia.com/Search.aspx?cl=Norwegian+Cruise+Line&ds=Alaska&cat=Popular&mcicid=158861454"> </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 486px;">
+				<div class="adcontent">
+					<a href="http://cruise.expedia.com/Search.aspx?ds=Europe&cl=Norwegian+Cruise+Line%40&mcicid=151443149"><img src="http://media.expedia.com/media/content/expus/graphics/promos/other/travelhook/120413_ms_ncl_akandeu_cruises_eu_146x146v2.jpg" /></a>
+					<span class="offertext">
+						<a href="http://cruise.expedia.com/Search.aspx?ds=Europe&cl=Norwegian+Cruise+Line%40&mcicid=151443149"></a>
+					</span>
+					<span class="offerline2"><a href="http://cruise.expedia.com/Search.aspx?ds=Europe&cl=Norwegian+Cruise+Line%40&mcicid=151443149"> </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 648px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/TripExplorer?mcicid=146518829"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_tripExplorer_v1.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/TripExplorer?mcicid=146518829">Trip Explorer</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/TripExplorer?mcicid=146518829">Find deals on a map </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 810px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/hotel/book_early_save/default.asp?mcicid=149582277"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_bookEarlyAndSave.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/hotel/book_early_save/default.asp?mcicid=149582277">Book Early & Save</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/hotel/book_early_save/default.asp?mcicid=149582277">Save 20% or more </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 972px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/daily/promos/vacations/las-vegas-last-minute/default.asp?mcicid=158443527"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_lasvegas_v1.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/daily/promos/vacations/las-vegas-last-minute/default.asp?mcicid=158443527">Las Vegas Deals</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/daily/promos/vacations/las-vegas-last-minute/default.asp?mcicid=158443527">Go tonight! </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 1134px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/p/multi-deal/last-minute.htm?&mcicid=158603142#hotels/Orlando"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_orlando_v1.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/p/multi-deal/last-minute.htm?&mcicid=158603142#hotels/Orlando">Orlando Hotels</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/p/multi-deal/last-minute.htm?&mcicid=158603142#hotels/Orlando">Book tonight and save </a></span>
+					
+				</div>
+			</div>
+
+			
+			<div class="adBox" style="left: 1296px;">
+				<div class="adcontent">
+					<a href="http://www.expedia.com/p/multi-deal/last-minute.htm?mcicid=158595562#hotels/New York"><img src="http://media.expedia.com/media/content/expus/graphics/launch/home/146x146_newyork_v1.jpg" /></a>
+					<span class="offertext">
+						<a href="http://www.expedia.com/p/multi-deal/last-minute.htm?mcicid=158595562#hotels/New York">New York City</a>
+					</span>
+					<span class="offerline2"><a href="http://www.expedia.com/p/multi-deal/last-minute.htm?mcicid=158595562#hotels/New York">Stay this weekend </a></span>
+					
+				</div>
+			</div>
+	</div>
+</div>
+<div id="valuerightarrow" class="inactive"></div>
+<script>
+var options = {
+	forward: '#valuerightarrow',
+	backward: '#valueleftarrow',
+	innercontainer: '#everyday_ads',
+	movedistance: 162,
+	interval: 1000,
+	maxdisplayed: 4,
+	useheadline: true,
+	outercontainer: '#subColValue'
+};
+$('#everyday_adcontainer').adslider(options);
+</script></div>
+<div class="dividerLine clear"></div>	<div class="column HPWhyCol">
+		<h2 class="ExpediaHeadings">
+			<span class="ExpediaHeadingsColorA">Why book with</span><br />
+			<span class="ExpediaHeadingsColorB">Expedia?</span>
+		</h2>
+	</div>
+
+	<div class="column HPWhyCol1">			
+		<h4 class="HPSectionInfo ExpediaHeadingsColorB"><img src="http://media.expedia.com/media/content/expus/graphics/other/010212_itpaystobook_checkbox_16x16.gif" class="HPcheckmark" alt="*" />Largest Selection</h4>
+		<ul class="xp-t-body-global HPWhyBook">
+			<li>140,000+ hotels worldwide</li>
+			<li>130+ airlines</li>
+			<li>Over 500,000 guest reviews</li>
+		</ul>
+	</div>
+	<div class="column HPWhyCol2">
+			<h4 class="HPSectionInfo ExpediaHeadingsColorB"><img src="http://media.expedia.com/media/content/expus/graphics/other/010212_itpaystobook_checkbox_16x16.gif" class="HPcheckmark" alt="*" />Save More</h4>
+			<ul class="xp-t-body-global HPWhyBook">
+				<li><a href="/daily/highlights/best-rate-guarantee/default.asp?mcicid=hp.bpginfo">Get the best rates, or get a refund&mdash;plus a $50 coupon</a></li>
+				<li><a href="/daily/promos/vacations/package_savings/default.asp?mcicid=hp.pkgsaveinfo">Save up to $500 on flight + hotel packages</a></li>
+			</ul>
+	</div>
+
+	<div class="column HPWhyCol3">
+		<h4 class="HPSectionInfo ExpediaHeadingsColorB"><img src="http://media.expedia.com/media/content/expus/graphics/other/010212_itpaystobook_checkbox_16x16.gif" class="HPcheckmark"  alt="*" />We're Always Here</h4>
+		<ul class="xp-t-body-global HPWhyBook">
+			<li><a href="http://support.expedia.com/">Call or email us, anytime</a></li>
+			<li>Get 24-hour support before, during, and after your trip</li>
+		</ul>
+	</div>	
+	<div class="dividerLine clear top16"></div><div id="HPnewsLetterContent">
+	<div id="HPnewsLetterIcon"></div>    
+	<div class="HPnewsLetterText">Get deals in your inbox!</div>
+	<div id="HPformDiv" class="HPnewsLetterForm">
+	    <span id="HPerrorMsg" class="errorMsg">Please enter a valid email address.</span>
+	    <form id="HPnewsForm" action=""><input type="submit" class="submitButton" value=""/><input type="text" id="HPuemail" name="uemail" value='Sign up for Expedia Email' class="emailField" /></form>
+	</div>
+</div>
+<script type="text/javascript" language="javascript" > 
+(function($) {     
+$('.closeAlert').click(function(){$(this).parent().fadeOut('fast');return false;});
+$('#HPuemail').focus(function(){$(this).removeClass('errorEmail').css('color','#333').val("")});
+		
+$('#HPnewsForm').submit(function(){ 
+	var uMail, reg;
+	uMail = $('#HPuemail');
+	reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/; 
+	if(reg.test(uMail.val()) == false) {
+		$('#HPerrorMsg').show();
+		uMail.addClass('errorEmail').val("");
+		return false;
+	}
+	else {
+		window.location="/daily/home/ec.asp?rfrr=HP:Newsletter:SignUp&email="+ uMail.val() +"&fromHomePage=true";
+		return false;
+	}
+});
+})($);   
+</script> <!-- need to use newsletter_wide -->
+<div class="dividerLine clear"></div>
+
+	
+<div class="HPETravel"> 
+		<div  class="column HPETravelCol1">
+			<h1 class="ExpediaHeadings">
+				<span class="ExpediaHeadingsColorA">Expedia</span><br />
+				<span class="ExpediaHeadingsColorB">Travel</span>
+			</h1>
+			<p class="xp-t-body-global">
+				Plan your next great vacation with Expedia. As the world's largest online travel agency, we make it easy to get the best prices on flights, hotels, and flight + hotel vacations.
+			</p>
+		</div>
+		
+		<div  class="column HPETravelMap1">
+			<h2 class="ExpediaHeadings">
+				<span class="ExpediaHeadingsColorA">Browse</span><br />
+				<span class="ExpediaHeadingsColorB">by Continent</span>
+			</h2>
+			<p class="xp-t-body-global">
+				<a href="/Asia.d6023099.Destination-Travel-Guide">Asia</a>
+				<span class="HPgreyline">|</span>
+				<a href="/Africa-And-Indian-Ocean.d6023185.Destination-Travel-Guide">Africa</a>
+				<span class="HPgreyline">|</span>
+				<a href="/United-States-Of-America.d201.Destination-Travel-Guide">United States</a>
+				<br />
+				<a href="/Canada.d31.Destination-Travel-Guide">Canada</a>
+				<span class="HPgreyline">|</span>
+				<a href="/South-America.d6023117.Destination-Travel-Guide">South America</a>
+				<span class="HPgreyline">|</span>					
+				<a href="/Europe.d6022967.Destination-Travel-Guide">Europe</a>
+				<br />
+				<a href="/Australia-New-Zealand-And-The-South-Pacific.d6023180.Destination-Travel-Guide">Australia &amp; South Pacific</a>
+				<span class="HPgreyline">|</span>
+				<a href="/Mexico-And-Central-America.d6023181.Destination-Travel-Guide">Mexico &amp; Central America</a>
+				<span class="HPgreyline">|</span>
+				<a href="/Caribbean.d6022969.Destination-Travel-Guide">Caribbean</a>
+			</p>
+		</div>
+		
+		<div  class="column HPETravelMap2">
+	<img src="http://media.expedia.com/media/content/expus/graphics/launch/home/20120121_homepage_map.gif" width="275" height="131" alt="world map" />
+		</div>
+	</div>
+	
+	<div class="dividerLine clear"></div><div class="bottomText">
+	<div class="bottomTextSection">
+		<h2 class="bottomTextHeaderInline ExpediaHeadingsColorA">Featured Hotel Destinations</h2>
+		<div class="seotopsection">Expedia works hard to secure the best hotel rates in the most popular destinations. Browse hotels by destination to get started and check out our hotel reviews,<br /> written by customers just like you.</div>
+		<ul class="bottomTextLinkList">
+			<li><a href="/Anaheim-Hotels.d5921.Travel-Guide-Hotels">Anaheim Hotels</a></li>
+			<li><a href="/Boston-Hotels.d178239.Travel-Guide-Hotels">Boston Hotels</a></li>
+			<li><a href="/Walt-Disney-World-Orlando-Hotels.0-n6034436-0.Travel-Guide-Filter-Hotels">Walt Disney World Area Hotels</a></li> 
+			<li><a href="/Las-Vegas-Hotels.d178276.Travel-Guide-Hotels">Las Vegas Hotels</a></li> 
+			<li><a href="/Maui-Island-Hotels.d180073.Travel-Guide-Hotels">Maui Hotels</a></li>
+			<li><a href="/New-York-Hotels.d178293.Travel-Guide-Hotels">New York Hotels</a></li>
+			<li><a href="/San-Francisco-Hotels.d178305.Travel-Guide-Hotels">San Francisco Hotels</a></li>
+			<li><a href="/Seattle-Hotels.d178307.Travel-Guide-Hotels">Seattle Hotels</a></li>
+			<li><a href="/London-Hotels.d178279.Travel-Guide-Hotels">London Hotels</a></li> 
+			<li><a href="/Paris-Hotels.d179898.Travel-Guide-Hotels">Paris Hotels</a></li> 
+			<li><a href="/Cancun-Hotels.d179995.Travel-Guide-Hotels">Cancun Hotels</a></li>  
+			<li><a href="/Playa-Del-Carmen-Riviera-Maya-Hotels.0-n9369-0.Travel-Guide-Filter-Hotels">Playa Del Carmen Hotels</a></li>  
+		</ul>
+	</div>
+	<div class="bottomTextSection">
+		<h2 class="bottomTextHeaderInline ExpediaHeadingsColorA">Top Flight Destinations</h2>
+		<div class="seotopsection">It's easy to book a low-cost flight anywhere in the world with Expedia. Check out fares on flights to our top destinations.</div>
+		<ul class="bottomTextLinkList">
+			<li><a href="/Cheap-Flights-To-New-York.d178293.Travel-Guide-Flights">Flights to New York</a></li>
+			<li><a href="/Cheap-Flights-To-Las-Vegas.d178276.Travel-Guide-Flights">Flights to Las Vegas</a></li>
+			<li><a href="/Cheap-Flights-To-Los-Angeles.d178280.Travel-Guide-Flights">Flights to Los Angeles</a></li>
+			<li><a href="/Cheap-Flights-To-Orlando.d178294.Travel-Guide-Flights">Flights to Orlando</a></li>
+			<li><a href="/Cheap-Flights-To-Miami.d178286.Travel-Guide-Flights">Flights to Miami</a></li>
+			<li><a href="/Cheap-Flights-To-San-Francisco.d178305.Travel-Guide-Flights">Flights to San Francisco</a></li>
+			<li><a href="/Cheap-Flights-To-Chicago.d178248.Travel-Guide-Flights">Flights to Chicago</a></li>
+			<li><a href="/Cheap-Flights-To-Boston.d178239.Travel-Guide-Flights">Flights to Boston</a></li>
+			<li><a href="/Cheap-Flights-To-Vancouver.d178315.Travel-Guide-Flights">Flights to Vancouver</a></li>
+		</ul>
+	</div>
+	<div class="bottomTextSection">
+		<h2 class="bottomTextHeaderInline ExpediaHeadingsColorA">Top Rental Car Locations</h2>
+		<div class="seotopsection">Booking a rental car anywhere in the world couldn't be simpler with Expedia. Browse below to find the best deals in some of our top locations.</div>
+		<ul class="bottomTextLinkList">
+			<li><a href="/Car-Rentals-In-Toronto.d178314.Car-Rental-Guide">Toronto Car Rental</a></li>
+			<li><a href="/Car-Rentals-In-Vancouver.d178315.Car-Rental-Guide">Vancouver Car Rental</a></li>
+			<li><a href="/Car-Rentals-In-Denver.d178254.Car-Rental-Guide">Denver Car Rental</a></li>
+			<li><a href="/Car-Rentals-In-New-York.d178293.Car-Rental-Guide">New York Car Rental</a></li>
+			<li><a href="/Car-Rentals-In-Honolulu.d1488.Car-Rental-Guide">Honolulu Car Rental</a></li>
+			<li><a href="/daily/cars/dallas-car-rental.asp">Dallas Car Rental</a></li>
+			<li><a href="/daily/cars/New-Orleans-car-rental.asp">New Orleans Car Rental</a></li>
+			<li><a href="/Car-Rentals-In-Reno.d602688.Car-Rental-Guide">Reno Car Rental</a></li>
+			<li><a href="/Car-Rentals-In-San-Antonio.d178303.Car-Rental-Guide">San Antonio Car Rental</a></li>
+		</ul>
+	</div>
+	<div class="bottomTextSection">
+		<h2 class="bottomTextHeaderInline ExpediaHeadingsColorA">Popular Vacation Destinations</h2>
+		<div class="seotopsection">It's easy to shop our featured cities for the top travel deals. And for great vacation values, check out our <a style="text-decoration:underline;" href="/All-Inclusive-Vacations">All-Inclusive Vacations</a>.</div>
+		<ul class="bottomTextLinkList">
+			<li><a href="/Las-Vegas.d178276.Destination-Travel-Guides">Las Vegas Vacations</a></li>
+			<li><a href="/Orlando.d178294.Destination-Travel-Guides">Orlando Vacations</a></li>
+			<li><a href="/New-York.d178293.Destination-Travel-Guides">New York Vacations</a></li>
+			<li><a href="/Miami.d178286.Destination-Travel-Guides">Miami Vacations</a></li>
+			<li><a href="/San-Diego.d178304.Destination-Travel-Guides">San Diego Vacations</a></li>
+			<li><a href="/San-Francisco.d178305.Destination-Travel-Guides">San Francisco Vacations</a></li>
+			<li><a href="/Los-Angeles.d178280.Destination-Travel-Guides">Los Angeles Vacations</a></li>
+			<li><a href="/New-Orleans.d178292.Destination-Travel-Guides">New Orleans Vacations</a></li>
+			<li><a href="/Vancouver.d178315.Destination-Travel-Guides">Vancouver Vacations</a></li>
+			<li><a href="/Boston.d178239.Destination-Travel-Guides">Boston Vacations</a></li>
+			<li><a href="/Seattle.d178307.Destination-Travel-Guides">Seattle Vacations</a></li>
+			<li><a href="/Honolulu.d1488.Destination-Travel-Guides">Honolulu Vacations</a></li>
+		</ul>
+	</div>
+	<div class="bottomTextSection">
+		<h2 class="bottomTextHeaderInline ExpediaHeadingsColorA">Popular Cruises</h2>
+		<div class="seotopsection">Get away by finding some of the best deals on cruises anywhere in the world.</div>
+		<ul class="bottomTextLinkList">
+			<li><a href="http://cruise.expedia.com/Search.aspx?ds=Caribbean">Caribbean Cruises</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?ds=Bahamas">Bahamas Cruises</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?ds=Mexico">Mexico Cruises</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?ds=Europe">Europe Cruises</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?ds=Alaska">Alaska Cruises</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?ds=Hawaii">Hawaii Cruises</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?dp=Miami%2c+Florida">Cruises From Miami</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?dp=New+York%2c+New+York">Cruises From New York</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?dp=Galveston%2c+Texas">Cruises From Galveston</a></li> 
+			<li><a href="http://cruise.expedia.com/Search.aspx?dp=Tampa%2c+Florida">Cruises From Tampa</a></li> 
+			<li><a href="http://cruise.expedia.com/Search.aspx?dp=New+Orleans%2c+Louisiana">Cruises From New Orleans</a></li>
+			<li><a href="http://cruise.expedia.com/Search.aspx?dp=Baltimore%2c+Maryland">Cruises From Baltimore</a></li>
+		</ul>
+	</div>
+</div><p class="legaltext"><span class="belowClmnLegalText">*Savings based on all vacation package bookings with Flight + Hotel on Expedia.com in 2011, as compared to price of the same components booked separately. Savings will vary based on origin/destination, length of trip, stay dates and selected travel supplier(s). Savings not available on all packages.</span></p>				</div>
+			
+			
+            
+		
+		
+		</div>
+
+<link rel="stylesheet" href="/static/footer/footer.css?v=release-2012-04-r3-42-439113" />
+<!-- 0 ms -->
+<script src="/static/footer/footer.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+<div id="footer" class="footer">
+    <div class="footer-separator">&nbsp;</div>
+    <div class="footer-rounded-box footer-links">
+        <span class="footer-rounded-box-tr-top"><span><!-- --></span></span>
+        <div class="footer-rounded-box-cnt">
+            	<!-- SWXL widget : b -->
+
+                        <div id="footer-local-links" class="footer-list-container">
+                <div id="footer-local-links-header">Expedia Links:</div>
+                <ul class="footer-list">
+                    <li><a href="http://flights.expedia.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:LocalLinks')">Low Cost Flights</a><span>|</span></li>
+                    <li><a href="http://rental-cars.expedia.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:LocalLinks')">Airport Rental Cars</a><span>|</span></li>
+                    <li><a href="http://www.expedia.com/daily/highlights/rewards.asp" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:LocalLinks')">Expedia Rewards</a></li>
+                </ul>
+            </div>
+            <div id="footer-sitemap-links" class="footer-list-container">
+                <div id="footer-sitemap-links-header">Expedia Sitemaps:</div>
+                <ul class="footer-list">
+                    <li><a href="http://www.expedia.com/Destinations-In-United-States-Of-America.d201.Hotel-Destinations" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Sitemaps')">Hotels Sitemap</a><span>|</span></li>
+                    <li><a href="http://www.expedia.com/Destinations-In-United-States-Of-America.d201.Flight-Destinations" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Sitemaps')">Flights Sitemap</a><span>|</span></li>
+                    <li><a href="http://www.expedia.com/United-States-Of-America.d201.Destination-Travel-Guide" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Sitemaps')">Vacations Sitemap</a><span>|</span></li>
+                    <li><a href="http://www.expedia.com/Destinations-In-United-States-Of-America.d201.Car-Rental-Destinations" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Sitemaps')">Rental Cars Sitemap</a><span>|</span></li>
+					<li><a href="http://cruise.expedia.com/USCruises.aspx" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Sitemaps')">Cruises Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer-separator-thin-up"><!-- --></div>
+            <div class ="footer-links-inner footer-links-inner-background">
+                <div id="footer-partner-services" class="footer-list-container">
+                    <div id="footer-partner-services-header">Partner Services:</div>
+                    <ul class="footer-list">
+                        <li><a href="https://joinexpedia.com/us/us.asp" rel="nofollow" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Add a Hotel</a><span>|</span></li>
+                        <li><a href="http://access.expedia.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Become an Affiliate</a><span>|</span></li>
+                        <li><a href="http://access.expedia.com/Home/TravelAgentOverview" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Travel Agents Affiliate Program</a><span>|</span></li>
+                        <li><a href="http://www.expediaaffiliate.com/private-label-xml.html" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Expedia Private Label</a><span>|</span></li>
+                        <li><a href="http://www.expedia.com/daily/highlights/rewards/cobrand_card_compare.asp?citiCode=EFA" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Expedia MasterCard</a><span>|</span></li>
+                    	<li><a href="http://www.expediafranchise.com" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Expedia Franchise</a><span>|</span></li>
+                    	<li><a href="http://www.joinecsc.com" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Expedia CruiseShipCenters Agent</a></li>
+                    </ul>
+                </div>
+                <div id="footer-expedia-partners" class="footer-list-container">
+                    <div id="footer-expedia-partners-header">Expedia Partners:</div>
+                    <ul class="footer-list">
+						<li><a href="http://egencia.com/en/why-egencia/understanding-business-travel-management/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Egencia Business Travel</a><span>|</span></li>
+                        <li><a href="http://www.hotels.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Hotels.com</a><span>|</span></li>
+                        <li><a href="http://www.tripadvisor.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">TripAdvisor</a><span>|</span></li>
+                        <li><a href="http://www.venere.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Venere</a><span>|</span></li>
+                        <li><a href="http://www.hotwire.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Hotwire</a><span>|</span></li>
+                        <li><a href="http://www.classicvacations.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">ClassicVacations.com</a><span>|</span></li>
+                        <li><a href="http://www.bloglines.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Bloglines</a><span>|</span></li>
+                        <li><a href="http://www.carrentals.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">CarRentals.com</a><span>|</span></li>
+                        <li><a href="http://www.citysearch.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">CitySearch</a><span>|</span></li>
+                        <li><a href="http://www.evite.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Evite</a><span>|</span></li>
+                        <li><a href="http://www.gifts.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Gifts</a><span>|</span></li>
+                        <li><a href="http://www.lendingtree.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Lending Tree</a><span>|</span></li>
+                        <li><a href="http://www.match.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Match</a><span>|</span></li>
+                        <li><a href="http://www.hsn.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Online Shopping</a><span>|</span></li>
+                        <li><a href="http://www.pronto.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Pronto</a><span>|</span></li>
+                        <li><a href="http://www.servicemagic.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">ServiceMagic</a><span>|</span></li>
+                        <li><a href="http://www.shoebuy.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Shoes</a><span>|</span></li>
+                        <li><a href="http://www.thedailybeast.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">The Daily Beast</a><span>|</span></li>
+                        <li><a href="http://www.ticketweb.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">TicketWeb</a><span>|</span></li>
+                        <li><a href="http://www.travel-ticker.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Travel Ticker</a><span>|</span></li>
+                    	<li><a href="http://www.cruiseshipcenters.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners')">Expedia CruiseShipCenters</a></li>
+                    </ul>
+                </div>
+                <div id="footer-corporate-links" class="footer-list-container">
+                    <img id="footer-corporate-links-image" alt="expedia.com" src="//media.expedia.com/media/content/shared/images/navigation/footer/logo-small.gif"/>
+                    <ul class="footer-list">
+                        <li><a href="http://mediaroom.expedia.com/about-expediacom-180" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">About Expedia</a><span>|</span></li>
+                        <li><a href="http://www.advertising.expedia.com/en-us/Pages/default.aspx" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Advertising</a><span>|</span></li>
+                        <li><a href="http://mediaroom.expedia.com" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Media Room</a><span>|</span></li>
+                        <li><a href="http://www.expediajobs.com/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Jobs</a><span>|</span></li>
+                        <li><a href="http://www.expedia.com/daily/service/privacy.asp" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Privacy Policy</a><span>|</span></li>
+                        <li><a href="http://www.expedia.com/daily/service/legal.asp" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Terms of Use</a><span>|</span></li>
+                        <li><a href="http://www.expedia.com/daily/sitetour/default.asp" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Site Map</a><span>|</span></li>
+                        <li><a href="http://investors.expediainc.com/phoenix.zhtml?c=190013&p=irol-irhome" rel="nofollow" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Investor Relations</a><span>|</span></li>
+                        <li><a href="javascript:void(0);" onclick="window.open('http://www.expedia.com/daily/service/aboutourads.asp','AboutOurAds','scrollbars=yes,status=no,toolbar=yes,resizable=yes,width=480,height=620');xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink');return false;" rel="nofollow">About Our Ads</a></li>
+                    </ul>
+                </div>
+                <div class="footer-separator-thin-down"><!-- --></div>
+                <div id="footer-global-sites" class="footer-list-container">
+                    <div id="footer-global-sites-header">Global Sites:</div>
+                    					
+					<ul class="footer-list">
+					   <li><a href="http://www.expedia.com.ar" title="Expedia.com.ar"  class="flag-ar" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.com.au" title="Expedia.com.au"  class="flag-au" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.at" title="Expedia.at"  class="flag-at" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.be" title="Expedia.be"  class="flag-be" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.com.br" title="Expedia.com.br"  class="flag-br" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.ca" title="Expedia.ca"  class="flag-ca" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.dk" title="Expedia.dk"  class="flag-dk" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.fr" title="Expedia.fr"  class="flag-fr" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.de" title="Expedia.de"  class="flag-de" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.co.uk" title="Expedia.co.uk"  class="flag-uk" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.co.in" title="Expedia.co.in"  class="flag-in" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.ie" title="Expedia.ie"  class="flag-ie" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.it" title="Expedia.it"  class="flag-it" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.co.jp" title="Expedia.co.jp"  class="flag-jp" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.com.my" title="Expedia.com.my"  class="flag-my" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.mx" title="Expedia.mx"  class="flag-mx" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.nl" title="Expedia.nl"  class="flag-nl" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.co.nz" title="Expedia.co.nz"  class="flag-nz" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.no" title="Expedia.no"  class="flag-no" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.com.sg" title="Expedia.com.sg"  class="flag-sg" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.es" title="Expedia.es"  class="flag-es" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					   <li><a href="http://www.expedia.se" title="Expedia.se"  class="flag-se" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:AllSites')"></a></li>
+					</ul>
+
+                </div>
+            </div>
+
+        </div>
+        <span class="footer-rounded-box-tr-bot"><span><!-- --></span></span>
+    </div>
+        <div class="footer-statements">
+        <div id="footer-legal-text">
+          <ul class="footer-list">
+                <li>
+                    Expedia, Inc. is not responsible for content on external Web sites.
+                </li>
+            </ul> 
+        </div>
+                <div id="footer-copyright" class="footer-list-container">
+            &copy;2012 <a href="http://www.expediainc.com/" rel="nofollow" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Copyright')">Expedia, Inc.</a> All rights reserved.
+        </div>
+    </div>
+
+</div>	
+	
+  
+<script type="text/javascript" src="//media.expedia.com/media/content/shared/scripts/external/baynote/baynote.js"></script>
+
+
+
+
+
+
+<div style="display:none;">
+	<input type="hidden" id="pageId" value="Homepage" />
+</div>
+<script type="text/javascript">
+if('undefined' != typeof(fnTHJSInc) && fnTHJSInc)
+{
+	fnTHJSInc();
+}
+function trackClick(linkObj,linkType,linkID)
+{
+	if('undefined' != typeof(s_exp_trackClick) && s_exp_trackClick)
+	{
+		s_exp_trackClick(linkObj,linkType,linkID);
+	}
+}
+</script>
+
+<script src="/static/default/default/scripts/exp/core/ChannelTracking.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+
+	<script language="javascript" type="text/javascript">
+		
+	var s_account = "expedia1";
+	
+	//We only want to log s_BrandEAPID for a select group of tpid/eapid pairs.  
+	//Enter the pair below and set the value to the logged eapid
+	//s_BrandEAPID table, lookup is 'expedia<Tpid>-<EAPID>'
+	s_BrandEAPIDTable = new Object();
+	s_BrandEAPIDTable['expedia30035-327'] = '327';
+	s_BrandEAPIDTable['expedia30036-392'] = '392';
+	s_BrandEAPIDTable['expedia30009-314'] = '314';
+	s_BrandEAPIDTable['expedia6-10122'] = '10122';
+	s_BrandEAPIDTable['expedia30007-711'] = '711';
+	s_BrandEAPIDTable['expedia30007-712'] = '712';
+
+	var s_BrandEAPID = '';
+	if('undefined' != typeof(s_BrandEAPIDTable['expedia1-00000']))
+	{
+		s_BrandEAPID = s_BrandEAPIDTable['expedia1-00000'];
+	}
+	
+	//This returns empty string if not in test env
+	var s_accountDevPostfix = '';
+	
+	//If s_BrandEAPID is set then the OM code will append it to s_account
+	//So append the dev postfix to account if blank, but s_BrandEAPID otherwise
+	if (s_BrandEAPID.length > 0) {
+		s_BrandEAPID += s_accountDevPostfix;
+	} else {
+		s_account += s_accountDevPostfix;
+	}
+	
+	//This is for future use so that OM can add 'dev' by itself
+	s_exp_isTest = s_accountDevPostfix.length > 0;
+	</script>
+<script src="/static/default/default/scripts/siteAnalytics.js?v=release-2012-04-r3-42-439113"></script>
+<!-- 0 ms -->
+	<script language='javascript' type='text/javascript' >
+	s_exp.pageName = 'Homepage'; 
+	s_exp.server = 'www.expedia.com'; 
+	s_exp.channel = ''; 
+	if('undefined' != typeof(RecentlyViewedData) && RecentlyViewedData){RecentlyViewedData.omniTrac(s_exp);}
+	s_exp.prop2 = '';
+		s_exp.prop3 = '';
+	
+        s_exp.prop4 = '';
+	s_exp.prop5 = '';
+	s_exp.prop6 = '';
+	s_exp.prop11 = '0'; 
+	s_exp.prop12 = '2bf25271530a4d48aa9967fcc1680b0b';
+	
+	
+	if (typeof(s_prop34)!='undefined') {s_exp.prop34 = s_prop34;s_exp.eVar34=s_prop34;}
+	
+	if ('undefined' != typeof(OmnitureABIds)){
+		 for (var i = 0; i < OmnitureABIds.length; i++) {
+			PLSetABTestIDAndValue(OmnitureABIds[i]);
+		}
+	}
+	
+	
+	s_exp.eVar2 = s_exp.prop2;
+	s_exp.eVar3 = s_exp.prop3;
+	s_exp.eVar4 = s_exp.prop4;
+	s_exp.eVar5 = s_exp.prop5;
+	s_exp.eVar6 = s_exp.prop6;
+	s_exp.eVar28 = '';
+	s_exp.eVar45 = '';
+	
+	if (typeof(s_OpaqueBannerVisible)!='undefined') {s_exp.events = 'event12';}
+	
+	
+	
+        s_exp.prop4 = '';
+	
+	
+    s_exp.prop1 = '';
+    s_exp.prop30 = '';
+    s_exp.eVar37 = '';
+    s_exp.prop37 = s_exp.eVar37;
+    s_exp.prop10 = '';
+	
+	
+	if ('undefined' != typeof(ProductSiteAnalyticsLogger) 
+	 && 'undefined' != typeof(ProductSiteAnalyticsLogger.updateOmniture))
+	{
+		ProductSiteAnalyticsLogger.updateOmniture(s_exp);
+	}
+  </script>
+    <div id="sCodeDiv"><!-- s_code will load here --></div>
+	<script language="javascript" type="text/javascript"><!--
+	var s_code=s_exp.t();if(s_code)document.getElementById('sCodeDiv').innerHTML = s_code;//--></script>
+		
+	</body>
+</html>

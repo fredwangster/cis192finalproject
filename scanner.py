@@ -17,13 +17,14 @@ def scanner(url_list, unique_code):
                 continue
             url_name = url.replace("/","").replace(":","")
             try:
-                os.mkdir('./new_dir')
+                os.mkdir('./output_files')
             except:
                 pass
-            html_name = "./new_dir/" + unique_code+"_"+str(url_name[0:-1])+".txt"
-            f = open(html_name, 'w')
-            f.write(host.read())
-            f.close()
+            html_name = "./output_files/" + unique_code+"_"+str(url_name[0:-1])+".txt"
+            if not os.path.isfile(html_name):  
+                f = open(html_name, 'w')
+                f.write(host.read())
+                f.close()
             a = Analyzer(html_name, url_name)
             a.start()
             i=1+i

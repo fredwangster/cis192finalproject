@@ -1,0 +1,1003 @@
+
+<!DOCTYPE HTML>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+	<head>
+	<meta name="viewport" content="width=1008px">
+		<meta name="description" content="Weather Underground provides local & long range Weather Forecast, weather reports, maps & tropical weather conditions for locations worldwide." />
+		<meta name="keywords" content="weather, weather forecast, local weather forecast, long range weather forecast, weather reports" />
+	<meta name="msapplication-task" content="name=Local Weather;action-uri=http://www.wunderground.com/;icon-uri=" />
+	<meta name="msapplication-task" content="name=Maps and Radar;action-uri=http://www.wunderground.com/maps/;icon-uri=" />
+	<meta name="msapplication-task" content="name=Severe;action-uri=http://www.wunderground.com/severe.asp;icon-uri=" />
+	<meta name="msapplication-task" content="name=Tropical;action-uri=http://www.wunderground.com/tropical/;icon-uri=" />
+	<meta name="msapplication-task" content="name=WunderPhotos;action-uri=http://www.wunderground.com/wximage/;icon-uri=" />
+	<meta name="application-name" content="Weather Underground"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<meta http-equiv="Refresh" content="2092;URL=/?MR=1" />
+		<meta name="ICBM" content="39.959702, -75.196800" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline v2.0" l gen true for "http://www.wunderground.com" r (nz 0 vz 0 lz 0 oz 0 cz 0) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.wunderground.com"  r (n 0 s 0 v 0 l 0))' />
+	<title>Weather Forecast & Reports - Long Range & Local | Wunderground : Weather Underground</title>
+		<link rel="stylesheet" type="text/css" href="http://icons-ak.wxug.com/css/wu3_base.css?v=2012041001" />
+		<link rel="stylesheet" type="text/css" href="http://icons-ak.wxug.com/css/wu3_print.css?v=1.6" media="print" />
+	<link rel="stylesheet" type="text/css" href="http://icons-ak.wxug.com/css/slimbox2.css" media="screen" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+	<link href="https://plus.google.com/wunderground/" rel="publisher" />
+	<script type="text/javascript">
+		$.noConflict();
+	</script>
+	<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/jquery.scrollto.min.js?v=1.2.15"></script>
+	<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/jquery.tablesorter.min.js?v=1.2.15"></script>
+	<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/wui.min.js?v=1.2.15"></script>
+	<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/wui.autocomplete.min.js?v=1.2.15"></script>
+	<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/wui.glossary.min.js?v=1.2.15"></script>
+	<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/wui.rapidfire.min.js?v=1.2.15"></script>
+	<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/slimbox2.js"></script>
+		<script type="text/javascript" src="http://icons-ak.wxug.com/scripts/wui.tripplanner.min.js?v=1.2.15"></script>
+		<script type="text/javascript" src="http://icons.wunderground.com/scripts/swfobject.js"></script>
+	<script type="text/javascript">
+		<!--
+			function bodyOnLoad()
+			{
+			
+			}
+		//-->
+	</script>
+</head>
+	<!-- Iterate ad calls
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+-->
+	<body onload="document.getElementById('wuSearch').focus()">
+	<!-- WHY IE, WHY -->
+<center>
+	<div id="pageHeader" class="headerOff">
+		<div id="headerContent">
+		<div id="optionBar">
+		<div id="wuSites">
+		<span class="b">Main Site</span>
+		<a href="http://m.wund.com/">Mobile</a>
+		<a href="http://i.wund.com/">iPhone</a>
+		<a href="http://www.wund.com/">Lite</a>
+		<a href="http://www.fullscreenweather.com/">Full Screen</a>
+		<a href="/download/index.asp">Downloads</a>
+		</div>
+		<div id="unitPrefs">
+		<a id="cfToggle" class="cfToggleF" href="/cgi-bin/findweather/getForecast?setunits=metric" title="Switch to Metric"></a>
+		</div>
+		<div id="wuLinks">
+		<a href="/member/membersettings.html?page=prefs">Settings</a>
+		<a href="/login.asp">Sign In or Sign Up</a>
+		</div>
+		</div>
+		<div id="logo"><a href="/"><img src="http://icons-ak.wxug.com/i/wu/wuLogoUrl.png" alt="Weather Underground" /></a></div>
+		<div id="navContent" class="posRel">
+		<div id="favoritesBar">
+	<a class="favoritesTitle" href="/favorites/edit.html">Favorites</a>
+	<div class="favoritesScrollContainer">
+		<div class="noFavs">You don't appear to have any favorites yet, or your cookies may be disabled.</div>
+	</div>
+	<div class="favoritesScrollButtons">
+		<a href="javascript:void(0);" class="favoritesScrollRight disabled" onclick="wui.favorites.scroll.right();">&#x25BA;</a>
+		<a href="javascript:void(0);" class="favoritesScrollLeft disabled" onclick="wui.favorites.scroll.left();">&#x25C4;</a>
+	</div>
+</div>
+		<div id="welcome">
+		Welcome to Weather Underground!
+		</div>
+		<div id="featureMenu">
+		<div id="featuregroup" class="featureGroup">
+		<a href="/" id="grouptitle" class="groupTitle brTop5"><span>Local Weather</span></a>
+		<div id="fulllist" class="fullList g1 menuHide brBot5">
+		<ul>
+		<li><a href="/favorites/">My Favorites</a></li>
+		<li><a href="/history/">History Data</a></li>
+		<li><a href="/weatherstation/">Weather Stations</a></li>
+		<li><a href="/stickers/">Weather Stickers&reg;</a></li>
+		<li><a href="/wxradio/index.html">Weather Radio</a></li>
+		<li><a href="/printer/cityforecast.asp" class="brBot5">Forecast Flyer</a></li>
+		</ul>
+		</div>
+	</div>
+		<div id="featuregroup" class="featureGroup">
+		<a href="/maps/" id="grouptitle" class="groupTitle brTop5"><span>Maps &amp; Radar</span></a>
+		<div id="fulllist" class="fullList g2 menuHide brBot5">
+		<ul>
+		<li><a href="/radar/">Radar</a></li>
+		<li><a href="/wundermap/?sat=1">Satellite</a></li>
+		<li><a href="/wundermap/">WunderMap&reg;</a></li>
+		<li><a href="http://www.fullscreenweather.com/">Full Screen Weather</a></li>
+		<li><a href="/maps/health/">Health Maps</a></li>
+		<li><a href="/Aviation_Maps/">Aviation Maps</a></li>
+		<li><a href="/MAR/">Marine Maps</a></li>
+		<li><a href="/radar/mosaic.asp">Regional Radar</a></li>
+		<li><a href="/wundermap/?zoom=4&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=1&mm.mdl=GFS&mm.type=SURPRE&mm.hour=0&mm.opa=100&mm.clk=0&hur=0&fire=0&tor=0&ndfd=0&pix=0&dir=0&ads=0&tfk=0&fodors=0&ski=0&ls=0&rad2=0">Model Maps</a></li>
+		<li><a href="/ndfdimage/viewimage">Forecast Maps</a></li>
+		<li><a href="/severe.asp">U.S. Severe Maps</a></li>
+		<li><a href="/tropical/">Tropical Maps</a></li>
+		<li><a href="/maps/" class="brBot5">Current Conditions</a></li>
+		</ul>
+		</div>
+	</div>
+		<div id="featuregroup" class="featureGroup">
+		<a href="/severe.asp" id="grouptitle" class="groupTitle brTop5"><span>Severe Weather</span></a>
+		<div id="fulllist" class="fullList g3 menuHide brBot5">
+		<ul>
+		<li><a href="/climate/extremes.asp">Record Extremes</a></li>
+		<li><a href="/tropical/">Tropical &amp; Hurricane</a></li>
+		<li><a href="/severeconvective.asp">Convective Outlook</a></li>
+		<li><a href="/severe.asp">U.S. Severe Alerts</a></li>
+		<li><a href="/severe/europe.html">Europe Severe Alerts</a></li>
+		<li><a href="/stormreport.asp">Storm Reports</a></li>
+		<li><a href="/tornado/" class="brBot5">Tornadoes</a></li>
+		<li><a href="/resources/severe/severe.asp">Severe Headlines</a></li>
+		</ul>
+		</div>
+	</div>
+		<div id="featuregroup" class="featureGroup">
+		<a href="/photos/" id="grouptitle" class="groupTitle brTop5"><span>Photos &amp; Video</span></a>
+		<div id="fulllist" class="fullList g4 menuHide brBot5">
+		<ul>
+		<li><a href="/wximage/">Photo Galleries</a></li>
+		<li><a href="/worldview/">World View</a></li>
+		<li><a href="/climate/videos.asp">Climate Videos</a></li>
+		<li><a href="/webcams/">Webcams</a></li>
+		<li><a href="/wximage/favorites.html" class="brBot5">My Favorite Photos</a></li>
+		</ul>
+		</div>
+	</div>
+		<div id="featuregroup" class="featureGroup">
+		<a href="/blog/" id="grouptitle" class="groupTitle brTop5"><span>Blogs</span></a>
+		<div id="fulllist" class="fullList g5 menuHide brBot5">
+		<ul>
+		<li><a href="/blog/JeffMasters/article.html">Dr. Jeff Masters</a></li>
+		<li><a href="/blog/weatherhistorian/article.html">Weather Historian</a></li>
+		<li><a href="/blog/#met">Meteorology Blogs</a></li>
+		<li><a href="/blog/index.html?range=updated&t=1334714966#mem">Member Blogs</a></li>
+		<li><a href="/blog/RickyRood/article.html">Climate Change Blog</a></li>
+		<li><a href="/community/chat.asp">Community Chat</a></li>
+		<li><a href="/blog/index.html?range=favs#mem" class="brBot5">My Favorite Blogs</a></li>
+		</ul>
+		</div>
+	</div>
+		<div id="featuregroup" class="featureGroup">
+		<a href="/travel/" id="grouptitle" class="groupTitle brTop5"><span>Travel &amp; Activities</span></a>
+		<div id="fulllist" class="fullList g6 menuHide brBot5">
+		<ul>
+		<li><a href="/travelplanner/">Travel Planner</a></li>
+		<li><a href="/roadtrip/">Road Trip Planner</a></li>
+		<li><a href="/beach-weather/">Beach Weather</a></li>
+		<li><a href="/ski/">Ski &amp; Snow</a></li>
+		<li><a href="/sports/">Sports</a></li>
+		<li><a href="/flights/">Flight Tracking</a></li>
+		<li><a href="/Aviation/">General Aviation</a></li>
+		<li><a href="/MAR/">Marine &amp; Boating</a></li>
+		<li><a href="/garden-weather/">Gardening</a></li>
+		<li><a href="/sky/index.asp">Astronomy</a></li>
+		<li><a href="/travel/index.asp#parks" class="brBot5">U.S. National Parks</a></li>
+		</ul>
+		</div>
+	</div>
+		<div id="featuregroup" class="featureGroup">
+		<a href="/resources/" id="grouptitle" class="groupTitle brTop5"><span>Resources</span></a>
+		<div id="fulllist" class="fullList g7 menuHide brBot5">
+		<ul>
+		<li><a href="/education/winterdriving.asp">Winter Driving Tips</a></li>
+		<li><a href="/wxradio/wubroadcast.html">Broadcast Network</a></li>
+		<li><a href="/twitter/">Twitter Weather</a></li>
+		<li><a href="/climate/">Climate Change</a></li>
+		<li><a href="/climate/videos.asp">Climate Videos</a></li>
+		<li><a href="/resources/severe/severe.asp">Severe Weather</a></li>
+		<li><a href="/calculators/solar.html">Solar Calculator</a></li>
+		<li><a href="/business/">Business Center</a></li>
+		<li><a href="/DisplayPollen.asp">Pollen Index</a></li>
+		<li><a href="/glossary/">Weather Glossary</a></li>
+		<li><a href="/radar/help.asp">About Maps &amp; Radar</a></li>
+		<li><a href="/education/education.asp">Education</a></li>
+		</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	(function($){
+		$('.featureGroup','#featureMenu').each(function(){
+		var container = $(this);
+		var grouptitle = $('.groupTitle',$(this));
+		var fulllist = $('.fullList',$(this));
+		var inactive = false;
+		if(!$(this).hasClass('activeGroup')) inactive=true;
+		grouptitle.mouseenter(function(){
+		fulllist.removeClass('menuHide').addClass('menuShow');
+		if(inactive) container.addClass('activeGroup');
+		});
+		$(this).mouseleave(function(){
+		fulllist.addClass('menuHide').removeClass('menuShow');
+		if(inactive) container.removeClass('activeGroup');
+		});
+		grouptitle.click(function(e) {
+		if (fulllist.hasClass('menuShow')) {
+		// link behavior is okay
+		}
+		else {
+		// cancel the click event
+		e.preventDefault();
+		// show the menu
+		fulllist.removeClass('menuHide').addClass('menuShow');
+		if(inactive) container.addClass('activeGroup');
+		}
+		});
+		});
+	})(jQuery);
+</script>
+		</div>
+		</div>
+	</div>
+	<div id="quickMenuDropdown" class="brBot3 none">
+		<ul>
+		<li><a href="/email/mainmenu.php">My Email &amp; Text Alerts</a></li>
+		<li><a href="/webcams/signup.html" class="brBot3">My Webcams</a></li>
+		</ul>
+	</div>
+</center>
+		<center>
+		<div id="wuPage984">
+		<div id="innerContent" class="tm20">
+		<div class="switch336">
+		<div class="adBox br5">
+		<div class="adCreative unit300x250">
+</div>
+		</div>
+</div>
+<div id="hpSearch">
+	<div id="title" class="brTop5">WunderSearch<span class="sup">&reg;</span></div>
+	<div id="searchArea">
+		<div id="searchFields">
+		<form action="/cgi-bin/findweather/hdfForecast" name="wxsearch">
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td class="b nobr">Enter a location</td>
+		<td><input type="text" name="query" value="" id="wuSearch" class="br5" x-webkit-speech /></td>
+		<td><input type="submit" value="Search" id="searchSubmit" class="br5" /></td>
+		</tr>
+		<tr>
+		<td>&nbsp;</td>
+		<td colspan="2"><span>Type your <a href="/zipweather/zip1000.asp">zip code</a>, <a href="/CI.asp?L=A">city</a>, state, airport code or country</span></td>
+		</tr>
+		</table>
+		</form>
+		</div>
+		<script type="text/javascript">
+		(function() {
+		if (wui && wui.autocomplete) {
+		var items = [];
+		wui.autocomplete.addItems(items);
+		// translation
+		wui.autocomplete.setGroupTitles({
+		"recent": "Recent Cities",
+		"city": "City",
+		"state": "State",
+		"hurricane": "Hurricane",
+		"ski_resort": "Ski Resort",
+		"Site_feature": "Site Features",
+		"Beach": ""
+		});
+		}
+		})();
+		</script>
+	</div>
+	<div id="geoBox" class="brBot5" style="background: url(http://icons-ak.wxug.com/i/wpbg/ALL/640-nt_clear.jpg) no-repeat; background-position: top center;">
+		<div id="geoData" class="local br5 bs225x333">
+		<table cellspacing="0" cellpadding="6" id="condTable">
+		<tr>
+		<td class="nobr b vaT"><div class="textData">Current Location:</div></td>
+		<td class="vaT"><a href="" class="iconSwitchBig"><img src="http://icons-ak.wxug.com/i/c/k/nt_clear.gif" alt="Clear" class="condIcon" /></a></td>
+		<td class="vaT full">
+		<div class="textData">
+		<a href="/cgi-bin/findweather/getForecast?query=19104" class="b">Philadelphia, PA</a>
+		<span class="none">&ndash; Broad and Washington, Philadelphia, Pennsylvania (PWS)</span>
+		</div>
+		<div class="textData">
+  <span class="nobr"><span class="b">67.8</span>&nbsp;&deg;F</span>
+ Clear</div>
+		</td>
+		<td>
+		<a href="/cgi-bin/findweather/getForecast?query=19104" class="moreData">Full Conditions &amp; Forecast</a>
+		</td>
+		</tr>
+		</table>
+		<table cellspacing="0" cellpadding="0" class="full">
+		<tr>
+		<td class="vaT">
+		<table cellspacing="3" cellpadding="0" id="locTable">
+		<thead>
+		<tr>
+		<td colspan="5" class="b pb">Nearby Airports</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=KPHL">Philadelphia</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">68</span>&nbsp;&deg;F</span>
+</td>
+		<td class="div">|</td>
+		<td>Clear</td>
+		</tr>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=KPNE">Northeast Philadelphia</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">64</span>&nbsp;&deg;F</span>
+</td>
+		<td class="div">|</td>
+		<td>Clear</td>
+		</tr>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=KLOM">Philadelphia Wings Airport</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">57</span>&nbsp;&deg;F</span>
+</td>
+		<td class="div">|</td>
+		<td>Clear</td>
+		</tr>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=KVAY">Mount Holly</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">66</span>&nbsp;&deg;F</span>
+</td>
+		<td class="div">|</td>
+		<td>Clear</td>
+		</tr>
+		</tbody>
+		</table>
+		<div class="p10"><a href="/member/membersettings.html?page=favorites" id="wrongLoc">Wrong location?</a></div>
+		<script type="text/javascript">
+		(function(wui,$){
+		new wui.tooltip({
+		button: $('#wrongLoc'),
+		content: 'We tried to find your location, but sometimes the results are incorrect. If this isn\'t your location, search for your city instead. On the city page for your home city, click the home button: <a style="display: block; width: 26px; height: 24px; overflow: hidden; background: url(http://icons.wxug.com/i/wu/setHome.png) no-repeat;"></a>',
+		hoverClass: "hover",
+		position: {
+		collision: "fit none"
+		}
+		});
+		})(wui,jQuery);
+		</script>
+		</td>
+		<td class="vaT">
+		<table cellspacing="3" cellpadding="0" id="pwsTable">
+		<thead>
+		<tr>
+		<td colspan="5" class="b pb">Nearby Weather Stations</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=19104&amp;sp=KPAPHILA30" class="cap">CBS3 Studios</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">67.3</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=19104&amp;sp=KPAPHILA21" class="cap">Broad and Washington</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">67.8</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=19104&amp;sp=KPAPHILA4" class="cap">Port Richmond (JcWeather)</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">68.5</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td><a href="/cgi-bin/findweather/getForecast?query=19104&amp;sp=KPAFOLCR3" class="cap">Folcroft Skywarn NKN-018</a></td>
+		<td class="div">|</td>
+		<td>
+  <span class="nobr"><span class="b">65.2</span>&nbsp;&deg;F</span>
+</td>
+		</tr>
+		<tr>
+		<td colspan="5">&nbsp;</td>
+		</tr>
+		<tr>
+		<td colspan="5" class="pt">
+		<a href="/wundermap/?lat=39.959702&lon=-75.196800&zoom=10&wxsn=1">See all Weather Stations</a>
+		<span class="div">|</span>
+		<a href="/weatherstation/">About Weather Stations</a>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		</td>
+		</tr>
+		</table>
+		</div>
+		<a href="/wximage/karalegal/2284" id="picCred" class="br5">
+		<span id="creditIcon"></span>
+		<span id="creditText"><span>Image uploaded by:</span> karalegal</span>
+		</a>
+	</div>
+</div>
+	<div class="tm12">
+	</div>
+<div class="primeContent636 tm12">
+	<div class="fLeft contentMod cm204 br5 rm12">
+	<div class="cmTitle brTop5">WunderPhotos<span class="sup">&reg;</span></div>
+	<div id="wunderphotos_contain">
+		<div id="photostrip">
+		<div class="wrapper">
+		<div class="inner">
+		<div class="elt" name="katy99780"><a href="/wximage/katy99780/3220?gallery=VIPPICT" id="thumb_0"><img src="http://icons-ak.wxug.com/data/wximagenew/k/katy99780/3220-thumb250.jpg" class="fitWidth" alt="My sister's house" /></a></div>
+		<div class="elt" name="ibswedee"><a href="/wximage/ibswedee/487?gallery=VIPPICT" id="thumb_1"><img src="http://icons-ak.wxug.com/data/wximagenew/i/ibswedee/487-thumb250.jpg" class="fitHeight" alt="Discovery" /></a></div>
+		<div class="elt" name="myshare"><a href="/wximage/myshare/1296?gallery=VIPPICT" id="thumb_2"></a></div>
+		<div class="elt" name="BEME"><a href="/wximage/BEME/1484?gallery=VIPPICT" id="thumb_3"></a></div>
+		<div class="elt" name="BEME"><a href="/wximage/BEME/1480?gallery=VIPPICT" id="thumb_4"></a></div>
+		<div class="elt" name="Skyepony"><a href="/wximage/Skyepony/569?gallery=VIPPICT" id="thumb_5"></a></div>
+		<div class="elt" name="lazy2"><a href="/wximage/lazy2/0?gallery=VIPPICT" id="thumb_6"></a></div>
+		<div class="elt" name="Fotoguy77"><a href="/wximage/Fotoguy77/449?gallery=VIPPICT" id="thumb_7"></a></div>
+		<div class="elt" name="Fotoguy77"><a href="/wximage/Fotoguy77/446?gallery=VIPPICT" id="thumb_8"></a></div>
+		<div class="elt" name="SurfYak"><a href="/wximage/SurfYak/27?gallery=VIPPICT" id="thumb_9"></a></div>
+		</div>
+		</div>
+		<a href="javascript:void(0);" class="prev"><img src="http://icons-ak.wxug.com/i/w/wu3_PhotoLeft.png" alt="" /></a>
+		<a href="javascript:void(0);" class="next"><img src="http://icons-ak.wxug.com/i/w/wu3_PhotoRight.png" alt="" /></a>
+		<div class="photoData">
+		<div class="dots">
+		<span class="active">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		<span class="inactive">&bull;</span>
+		</div>
+		<div class="photoBy">Uploaded by: <a href="/wximage/katy99780/" id="photoByName">katy99780</a></div>
+		<div class="photoNum">1,483,357
+ photos uploaded!</div>
+		<div class="photoUp"><a href="/wximage/multiupload.html">Upload a photo now</a></div>
+		</div>
+		</div>
+		<script type="text/javascript">
+		(function(id,$){
+		var wunderimages = [ { "image": "http://icons-ak.wxug.com/data/wximagenew/k/katy99780/3220-thumb250.jpg", "height": "188", "title":"My sister\x27s house", "loaded": true }, { "image": "http://icons-ak.wxug.com/data/wximagenew/i/ibswedee/487-thumb250.jpg", "height": "179", "title":"Discovery", "loaded": true }, { "image": "http://icons-ak.wxug.com/data/wximagenew/m/myshare/1296-thumb250.jpg", "height": "167", "title":"April Sierra Snow", "loaded": false }, { "image": "http://icons-ak.wxug.com/data/wximagenew/b/BEME/1484-thumb250.jpg", "height": "169", "title":"HORIZONTAL STRIKES", "loaded": false }, { "image": "http://icons-ak.wxug.com/data/wximagenew/b/BEME/1480-thumb250.jpg", "height": "167", "title":"No Potluck Dinner Tonite!", "loaded": false }, { "image": "http://icons-ak.wxug.com/data/wximagenew/s/Skyepony/569-thumb250.jpg", "height": "188", "title":"Discovery Leaving for D.C. Tomorrow", "loaded": false }, { "image": "http://icons-ak.wxug.com/data/wximagenew/l/lazy2/0-thumb250.jpg", "height": "188", "title":"Northeastern MN Spring Snow Storm", "loaded": false }, { "image": "http://icons-ak.wxug.com/data/wximagenew/f/Fotoguy77/449-thumb250.jpg", "height": "167", "title":"Wall Cloud", "loaded": false }, { "image": "http://icons-ak.wxug.com/data/wximagenew/f/Fotoguy77/446-thumb250.jpg", "height": "300", "title":"Kansas Tornado", "loaded": false }, { "image": "http://icons-ak.wxug.com/data/wximagenew/s/SurfYak/27-thumb250.jpg", "height": "167", "title":"Lightning over Houston", "loaded": false } ];
+		var wrapper = $("div[class=wrapper]",id);
+		var prev = $("a[class=prev]",id);
+		var next = $("a[class=next]",id);
+		var photoby = $("a[id=photoByName]","#wunderphotos_contain");
+		var photos = $("div[class=elt]",id);
+		var dots = $("div[class=dots] span",id)
+		var pos = 0;
+		var pos_prev = 0;
+		var max = photos.length - 1;
+		$.loadwunderimage = function(index){
+		if(wunderimages[index]["loaded"])
+		return;
+		var img = new Image();
+		var imgclass="fitWidth";
+		if(wunderimages[index]["height"]<=185)
+						imgclass="fitHeight";
+					$(img).load(function () {
+						$('#thumb_'+index).append(this);
+						wunderimages[index]["loaded"]=true;
+					}).error(function () {
+						wunderimages[index]["loaded"]=false;
+						//console.log("Image ['"+images[index]["image"]+"'] Failed to Load");
+					}).attr({'src': wunderimages[index]["image"], 'class':imgclass, 'alt':wunderimages[index]["title"] });
+				};
+
+				var scrollBy = function(i) {
+					scrollLoc(pos + i);
+				};
+
+				var scrollLoc = function(i) {
+					pos_prev = pos;
+					if (i < 0)
+						pos = 0;
+					else if (i > max)
+		pos = max;
+		else
+		pos = i;
+		$.loadwunderimage(pos);
+		var elt = photos.eq(pos);
+		$(wrapper).scrollTo(elt, 500);
+		$(photoby).html(elt.attr("name"));
+		$(photoby).attr("href","/wximage/"+elt.attr("name")+"");
+		if (dots) {
+		$(dots[pos_prev]).removeClass("active").addClass("inactive");
+		$(dots[pos]).removeClass("inactive").addClass("active");
+		}
+		if(pos < max)
+						$.loadwunderimage(pos + 1);
+				};
+
+				$(prev).click(function(){
+					scrollBy(-1);
+				});
+				$(next).click(function(){
+					scrollBy(1);
+				});
+			})("#wunderphotos_contain",jQuery);	
+		</script>
+	</div>
+	<div class="cmFooter brBot5"><a title="WunderPhotos - Click Here for Latest Weather Photos" href="/wximage/">Visit WunderPhotos</a></div>
+</div>
+	<div class="fLeft contentMod cm204 br5 rm12">
+		<div class="cmTitle brTop5">Maps & Radar</div>
+		<div id="maps_contain" class="h252">
+		<div class="cmImage"><a href="/maps/"><img src="http://icons-ak.wunderground.com/data/images/us_sf.gif" alt="" /></a></div>
+		<div class="cmData">
+		<div><a href="/maps/">U.S. Current Fronts</a></div>
+		<div>This map shows the current radar, frontal boundaries, and areas of high and low pressure for the United States.</div>
+		</div>
+		</div>
+		<div class="cmFooter brBot5">
+		<a title="Weather Maps & Radar" href="/maps/">Visit Maps & Radar</a>
+		</div>
+	</div>
+	<div class="fLeft contentMod cm204 br5">
+	<div class="cmTitle brTop5">WunderBlogs<span class="sup">&reg;</span></div>
+	<div class="cmData">
+		<div class="blogCopy h238">
+		<div id="blogTitle"><a href="/blog/JeffMasters/comment.html?entrynum=2074">Postcards from the AMS hurricane conference: Bob Simpson honored</a></div>
+		<img src="http://icons-ak.wxug.com/i/w/jmasters_45x45.jpg" alt="Dr. Jeff Masters" id="blogPhoto" />
+		<div class="tm12">By Dr. Jeff Masters</div>
+		<div id="blogDate">8:49 AM EDT on April 17, 2012</div>
+		<p>I'm in Ponte Verda Beach, Florida this week, where the world's hurricane experts are gathered to attend the 30th Conference on Hurricanes and Tropical Meteorology of the American Meteorological Society. The conference st... <a href="/blog/JeffMasters/comment.html?entrynum=2074" class="nobr">Continue Reading</a></p>
+		</div>
+	</div>
+		<div class="cmFooter brBot5">
+		<a title="Wunderblog - Blogs on Weather Forecast" href="/blog/">Visit WunderBlogs</a>
+		</div>
+</div>
+</div>
+<div class="switch336 tm12">
+	<div class="contentMod cm336 br5">
+	<div class="cmTitle brTop5">Travel Planning</div>
+	<div class="h252">
+		<div class="tabSelect">
+		<div class="cmTabs">
+		<a href="?show=event" class="contentTabActive brTop5">Travel Planner</a>
+		<a href="/roadtrip/" class="contentTab brTop5">Road Trip Planner</a>
+		</div>
+		</div>
+		<div class="cmData">
+		<form action="/cgi-bin/findweather/getForecast" method="get" id="trip">
+		<input type="hidden" value="query" name="airportorwmo" />
+		<input type="hidden" value="PlannerHistory" name="historytype" />
+		<input type="hidden" value="/tripplanner/index.asp" name="backurl" />
+		<table cellspacing="0" cellpadding="5" id="trip_panel_0" class="full">
+		<tr>
+		<td>Destination? *</td>
+		<td><input type="text" id="destSearch" value="" name="code" maxlength="300" /></td>
+		</tr>
+		<tr>
+		<td>When are you going?</td>
+		<td>
+		<div id="searchDates">
+		<table cellspacing="0" cellpadding="0">
+		<tr>
+		<td>
+		<div id="dateBegin">
+		<input type="text" name="date" readonly="readonly" value="Start Date" />
+		<input type="hidden" name="year" size="2" value="" />
+		<input type="hidden" name="month" size="2" value="" />
+		<input type="hidden" name="day" size="2" value="" />
+		</div>
+		</td>
+		<td>
+		<div class="b rm5 lm5">to</div>
+		</td>
+		<td>
+		<div id="dateEnd">
+		<input type="text" name="dateend" readonly="readonly" value="End Date" />
+		<input type="hidden" name="yearend" size="2" value="" />
+		<input type="hidden" name="monthend" size="2" value="" />
+		<input type="hidden" name="dayend" size="2" value="" />
+		</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+		</td>
+		</tr>
+		<tr>
+		<td>Is there an activity you would like to explore?</td>
+		<td>
+		<select name="activity" id="destActivity">
+		<option value="4wheeling" >4-Wheeling</option>
+		<option value="Airtours" >Airtours</option>
+		<option value="ATV" >ATV</option>
+		<option value="Ballooning" >Ballooning</option>
+		<option value="Baseball" >Baseball</option>
+		<option value="Beachcombing" >Beachcombing</option>
+		<option value="Beaches" >Beaches</option>
+		<option value="Biking" >Biking</option>
+		<option value="Birdwatching" >Birdwatching</option>
+		<option value="Boating" >Boating</option>
+		<option value="Camping" >Camping</option>
+		<option value="Canoeing" >Canoeing</option>
+		<option value="Canopy" >Canopy Tours</option>
+		<option value="Cricket" >Cricket</option>
+		<option value="Xcountry" >Cross-Country Skiing</option>
+		<option value="Deepsea" >Deep Sea Fishing</option>
+		<option value="Frisbee_Golf" >Frisbee Golf</option>
+		<option value="Fly_Fishing" >Fly Fishing</option>
+		<option value="Football" >Football</option>
+		<option value="Game_Fishing" >Game Fishing</option>
+		<option value="Gocarts" >Go Carts</option>
+		<option value="Golf" >Golf</option>
+		<option value="Hanggliding" >Hang Gliding</option>
+		<option value="Helicopter" >Helicopter Tours</option>
+		<option value="Hike" >Hiking</option>
+		<option value="Riding" >Horseback Riding</option>
+		<option value="Ice_Skating" >Ice Skating</option>
+		<option value="Inline_Skating" >Inline Skating</option>
+		<option value="Jetski" >Jetskiing</option>
+		<option value="Jogging" >Jogging</option>
+		<option value="Kiteboarding" >Kiteboarding</option>
+		<option value="Lagoon" >Lagoon Diving</option>
+		<option value="Miniture_Golf" >Miniature Golf</option>
+		<option value="Mountain_Biking" >Mountain Biking</option>
+		<option value="Mountain_Climbing" >Mountain Climbing</option>
+		<option value="NASCAR" >NASCAR</option>
+		<option value="Parasailing" >Parasailing</option>
+		<option value="Rafting" >Rafting</option>
+		<option value="Rappelling" >Rappelling</option>
+		<option value="Rock_Climbing" >Rock Climbing</option>
+		<option value="Rugby" >Rugby</option>
+		<option value="Sailing" >Sailing</option>
+		<option value="Scuba" >Scuba</option>
+		<option value="Sea_Kayaking" >Sea Kayaking</option>
+		<option value="Ski" >Skiing</option>
+		<option value="Skydiving" >Skydiving</option>
+		<option value="Skygazing" >Skygazing</option>
+		<option value="Snorkeling" >Snorkeling</option>
+		<option value="Snowboarding" >Snowboarding</option>
+		<option value="Snowmobile" >Snowmobile</option>
+		<option value="Snowshoeing" >Snowshoeing</option>
+		<option value="Snowtubing" >Snowtubing</option>
+		<option value="Snuba" >Snuba</option>
+		<option value="Soccer" >Soccer</option>
+		<option value="Starparty" >Starparty</option>
+		<option value="Sunbathing" >Sunbathing</option>
+		<option value="Swimming" >Swimming</option>
+		<option value="Volleyball" >Volleyball</option>
+		<option value="Walking" >Walking</option>
+		<option value="Watersking" >Waterskiing</option>
+		<option value="Whitewater_Rafting" >Whitewater Rafting</option>
+		<option value="Windsurfing" >Windsurfing</option>
+		<option value="" selected="selected">No, thanks.</option>
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td class="grey">* Required field</td>
+		<td class="taR"><input type="submit" value="Explore!" /></td>
+		</tr>
+		</table>
+		</form>
+		<script type="text/javascript">
+		<!--
+				jQuery(document).ready(function($) {
+					if (wui && wui.autocomplete) {
+						var a = new wui.autocomplete({
+							input: "#destSearch",
+							autosubmit: false,
+							onSelect: function(value, item) {
+								wui.tripplanner.activate();
+							}
+						});
+					}
+					wui.tripplanner.initialize({
+						startActive: true,
+						elt_input: $("#destSearch")
+					}, {
+						dateFormat: "mm/dd"
+					});
+				});
+				-->
+		</script>
+		</div>
+	</div>
+	<div class="cmFooter brBot5">
+		<a href="/travel/">View all Travel Tools</a>
+	</div>
+</div>
+</div>
+<div class="clear"></div>
+		</div>
+		<div class="clearItem" id="bannerBot" style="display: block !important;">
+		<div>&nbsp;</div>
+		<center class="tm20">
+		</center>
+		</div>
+		<div id="preFooter">&nbsp;</div>
+		</div>
+	</center>
+		<div id="footer">
+	<div id="footerContents">
+		<div id="subNav">
+		<ul class="rb">
+		<li class="b"><a href="/">Local Weather</a></li>
+		<li><a href="/favorites/">My Favorites</a></li>
+		<li><a href="/history/">History Data</a></li>
+		<li><a href="/weatherstation/">Weather Stations</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/US/Region/US/Temperature.html">Maps &amp; Radar</a></li>
+		<li><a href="/radar/">Radar</a></li>
+		<li><a href="/wundermap/?sat=1">Satellite</a></li>
+		<li><a href="/wundermap/">WunderMap&trade;</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/severe.asp">Severe Weather</a></li>
+		<li><a href="/tropical/">Tropical &amp; Hurricane</a></li>
+		<li><a href="/stormreport.asp">Storm Reports</a></li>
+		<li><a href="/severe.asp">U.S. Severe Alerts</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/photos/">Photos &amp; Video</a></li>
+		<li><a href="/wximage/">Photo Galleries</a></li>
+		<li><a href="/worldview/">World View</a></li>
+		<li><a href="/webcams/">Webcams</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/blog/">Blogs</a></li>
+		<li><a href="/blog/JeffMasters/article.html">Dr. Jeff Masters</a></li>
+		<li><a href="/blog/#met">Meteorology Blogs</a></li>
+		<li><a href="/blog/index.html?range=updated&t=1334714966#mem">Member Blogs</a></li>
+		</ul>
+		<ul class="rb">
+		<li class="b"><a href="/travel/">Travel &amp; Activities</a></li>
+		<li><a href="/travelplanner/">Travel Planner</a></li>
+		<li><a href="/roadtrip/">Road Trip Planner</a></li>
+		<li><a href="/ski/">Ski &amp; Snow</a></li>
+		</ul>
+		<ul>
+		<li class="b"><a href="/education/">Resources</a></li>
+		<li><a href="/calculators/solar.html">Solar Calculator</a></li>
+		<li><a href="/climate/">Climate Change</a></li>
+		<li><a href="/business/">Business Center</a></li>
+		</ul>
+		</div>
+		<div id="goodies">
+		<div id="actions">
+		<a href="/stickers/" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="http://icons-ak.wxug.com/i/w/footer-sticker-color.png" /></td>
+		<td>Get Free Weather Stickers&reg;</td>
+		</tr>
+		</table>
+		</a>
+		<a href="/wximage/multiupload.html" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="http://icons-ak.wxug.com/i/w/footer-photo-color.png" /></td>
+		<td>Upload Your Photos</td>
+		</tr>
+		</table>
+		</a>
+		<a href="/weather/api/" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="http://icons-ak.wxug.com/i/w/footer-api-color.png" /></td>
+		<td>Weather API for Developers <span class="new">NEW!</span></td>
+		</tr>
+		</table>
+		</a>
+		<a href="/members/signup.asp" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="http://icons-ak.wxug.com/i/w/footer-member-color.png" /></td>
+		<td>Become a Site Member</td>
+		</tr>
+		</table>
+		</a>
+		<a href="http://www.facebook.com/wunderground/" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="http://icons-ak.wxug.com/i/w/footer-facebook.png" /></td>
+		<td>Find us on Facebook</td>
+		</tr>
+		</table>
+		</a>
+		<a href="http://twitter.com/wunderground" class="br5 bs005xCCC">
+		<table cellspacing="0" cellpadding="1">
+		<tr>
+		<td><img src="http://icons-ak.wxug.com/i/w/footer-twitter.png" /></td>
+		<td>Follow us on Twitter</td>
+		</tr>
+		</table>
+		</a>
+		</div>
+		<div id="service">
+		<div class="b">Custom Weather Services</div>
+		<div>In addition to this website, we provide a number of free and professional weather services.</div>
+		<ul>
+		<li><a href="/weather/api/">Weather API for Developers - JSON</a></li>
+		<li><a href="/autobrand/">Website Autobrand&reg;</a></li>
+		<li><a href="/newspaper/index.asp">Newspapers</a></li>
+		<li><a href="http://wiki.wunderground.com/index.php/Weather_Stickers">Weather Stickers&reg;</a></li>
+		<li><a href="/about/data.asp">About Our Data</a></li>
+		</ul>
+		</div>
+		<div id="adsales">
+		<div class="b">Advertise On This Site</div>
+		<div>Weather Underground has extensive targeting capabilities to fulfill all of your client's advertising needs.</div>
+		<ul>
+		<li><a href="/about/adinfo.asp">Advertise With Us</a></li>
+		<li><a href="http://icons-ak.wxug.com/ads/WUMediaKit.pdf?v=1209">Media Kit</a> (PDF)</li>
+		</ul>
+		</div>
+		<br class="clear" />
+		</div>
+		<div id="signoff">
+		<table cellspacing="0" cellpadding="0" class="full">
+		<tr>
+		<td id="copyright">Copyright &copy; 2012 Weather Underground, Inc.</td>
+		<td id="moreInfo">
+		<a href="/about/background.asp">About Us</a> -
+		<a href="/about/contact.asp">Contact</a> -
+		<a href="http://wuhelp.wunderground.com/?AS5000_page=">Support</a> -
+		<a href="/about/employment.asp">Employment</a> -
+		<a href="/about/pr/news.asp">Press Releases</a> -
+		<a href="/members/tos.asp">Terms of Service</a> -
+		<a href="/members/tos.asp#privacy">Privacy Policy</a> -
+		<a href="http://www.cafepress.com/wunderground/">WU Gear</a>
+		</td>
+		</tr>
+		</table>
+		</div>
+	</div>
+</div>
+  <script type="text/javascript" src="http://icons-ak.wxug.com/scripts/wui.shrink.min.js?v=1.2.15"></script>
+	<div id="iconspopcontainer"></div>
+	<script type="text/javascript">
+		(function($) {
+		jQuery("a[class^='iconSwitch']").click(function() {
+		icon = jQuery(this);
+		popcontain = jQuery('<div class="iconSwitchPop none"></div>').insertAfter('#iconspopcontainer');
+		jQuery(popcontain).load('/member/membersettings.html?responder=1&request=iconspopbox', function() {
+		jQuery(popcontain).removeClass("none");
+		jQuery(popcontain).position({ of: icon, my: "left top", at: "left top", offset: "0", collision: 'fit fit' });
+		});
+		return false;
+		});
+		})(jQuery);
+	</script>
+		<script type="text/javascript" src="/set.js"></script>
+<!-- Begin Google Analytics -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-5000463-5");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+<!-- End Google Analytics -->
+<!-- Begin FB -->
+	<div id="fb-pixel" class="none"></div>
+<!-- End FB -->
+		<!-- Start Quantcast tag -->
+		<script type="text/javascript">
+		function qc_results(result)
+		{
+		var expdate = new Date ();
+		var newcookie = "";
+		expdate.setTime (expdate.getTime() + (3 * 24 * 60 * 60 * 1000)); // 3 days from now
+		for (var i = 0; i < result.segments.length; i++)
+				{
+				var delim = "";
+	
+				if (i)
+					delim = "|";
+	
+				newcookie = newcookie + delim + result.segments[i].id ; 
+				}
+	
+			document.cookie="qct2" + "=" + newcookie + "; expires=" + expdate.toGMTString() + "; path=/; domain=.wunderground.com";
+			}
+			</script>
+		<script type="text/javascript" src="http://pixel.quantserve.com/api/segments.json?a=p-01lvMKu--eLQE&callback=qc_results"></script>
+		<script type="text/javascript">
+		_qoptions={
+		qacct:"p-01lvMKu--eLQE",
+		labels:"Category.Index,Page.Index,GeoIP.country_code.US,GeoIP.region.PA,GeoIP.dma_code.504,GeoIP.domain.unknown"
+		};
+		</script>
+		<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+		<noscript><img src="http://pixel.quantserve.com/pixel/p-01lvMKu--eLQE.gif" style="display: none" height="1" width="1" alt="Quantcast" /></noscript>
+		<!-- End Quantcast tag -->
+  <!-- Start Quantcast2 tag -->
+  <script type="text/javascript">
+  _qoptions={
+  qacct:"p-01lvMKu--eLQE",
+  //labels:"Advertiser.Campaign",
+		labels:"",
+  media:"ad"
+  };
+  </script>
+  <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+  <noscript>
+  <img src="http://pixel.quantserve.com/pixel/p-01lvMKu--eLQE.gif?media=apl" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+  </noscript>
+  <!-- End Quantcast2 tag -->
+		<!-- Begin comScore Tag -->
+		<script type="text/javascript">
+		var _comscore = _comscore || [];
+		_comscore.push({ c1: "2", c2: "6164429" });
+		(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+		})();
+		</script>
+		<noscript>
+		<img src="http://b.scorecardresearch.com/p?c1=2&c2=6164429&cv=2.0&cj=1" />
+		</noscript>
+		<!-- End comScore Tag -->
+		<!-- START Nielsen Online SiteCensus V6.0 -->
+		<!-- COPYRIGHT 2010 Nielsen Online -->
+		<script type="text/javascript">
+		(function () {
+		var d = new Image(1, 1);
+		d.onerror = d.onload = function () {
+		d.onerror = d.onload = null;
+		};
+		d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-203014h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+		})();
+		</script>
+		<noscript>
+		<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-203014h&amp;cg=0&amp;cc=1&amp;ts=noscript" style="display: none;" width="1" height="1" alt="" />
+		</noscript>
+		<!-- END Nielsen Online SiteCensus V6.0 -->
+	<div class="none">
+		<!-- BEGIN Tacoda -->
+		<script LANGUAGE="JavaScript">var tcdacmd="dt";</script>
+		<script SRC="http://an.tacoda.net/an/11619/slf.js" LANGUAGE="JavaScript"></script>
+		<!-- END Tacoda -->
+		<!-- Ootem_WeatherUnderground_Retargeting  -->
+		<img src="http://ads.revsci.net/adserver/ako?rsi_noads=1&rsi_pixel=1&rsi_account=E4DC79A1D7A03AC0C663B33E4955AF2A&rsi_site=E30113A596F8DC27340E31590C581BFE&rsi_event=C7AA6BE151F9C0105FA02D382154F648" />
+		<span id="admeld">
+		<script type="text/javascript">
+		admeld_publisher = 331;
+		admeld_site = 'wu_audience_data';
+		admeld_size = '1x1';
+		admeld_placement = 'ros';
+		</script>
+		<script type="text/javascript" src="http://js.admeld.com/meld120.js"></script>
+		</span>
+		<!-- BEGIN BlueKai -->
+		<img height="1" width="1" src="http://tags.bluekai.com/site/4302" />
+		<!-- END BlueKai -->
+		<!-- BEGIN Legolas -->
+		<script type="text/javascript" src="http://rt.legolas-media.com/lgrt?ci=2&ti=13247&pbi=10910"></script>
+		<!-- END Legolas -->
+	</div>
+</body>
+</html>
+<!-- WUICATEGORY | Index | Index -->
+<!-- SERVERHOSTNAME | 365-s4 | Apr 17 2012 18:09:41 -->

@@ -1,0 +1,835 @@
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+<script type="text/javascript">
+	var partner = "dk";
+	var ver = "alpha";
+	var mkt = "";
+	var mkw = "";
+	var dks = "CA68DF4E%2DDA72%2D48D3%2D8F39%2D0C480F13F10420120417203817%5Falpha";
+	var cip = "130.91.142.179";
+	var useragent = "Python%2Durllib%2F2%2E7";
+	var referer = "";
+	var dkdt = "";
+	var dkcat = "";
+	var dkgeo = "";
+	var dkparentgeo = "";
+	var dkq = "";
+	var dkloc = "";
+	var baseurl = "http%3A%2F%2Fwww%2Edexknows%2Ecom%2Findex%2Easp%3F";
+	var pgt = "1";
+	var geocentroid = "";
+    var pdt = "";
+	
+	var zoomlevel = "";
+	
+	var akamai_host = "http://images.dexknows.com";
+	
+	
+	var isVUrl = false;
+	
+	
+
+	    var profile_dkid = "";
+	    var profile_pbizid = "";
+	    var profile_pgt = "1";
+	    var profile_pdt = "";
+	    var profile_dkdt = "20120417203817";
+	    var profile_dkcat = "";
+	    var profile_dkgeo = "";
+	    var profile_dkzone = "";
+	    var profile_dks = "CA68DF4E%2DDA72%2D48D3%2D8F39%2D0C480F13F10420120417203817%5Falpha";
+	    var profile_dkloc = "";
+	    var profile_mkt = "";
+	    var profile_mkw = "";
+	    var profile_partner = "dk";
+	    var profile_pass = "";
+	    var profile_dkq = "";
+	    var profile_baseurl = "http%3A%2F%2Fwww%2Edexknows%2Ecom%2Findex%2Easp%3F";
+	    var profile_dkitem = "";
+	    var profile_ref = "";
+        var profile_pdt = "";
+            
+            var DKCOM1506=false;
+        
+</script>
+	
+    <!-- ==================================== -->
+	<TITLE>Yellow Pages Online, Phone Book & Business Directory | DexKnows</TITLE>
+	<META name="description" content="Find local business listings, driving directions, maps, people and local information at DexKnows.com."/>
+	<META name="keywords" content="Yellow pages, white pages, local maps, driving directions, people search, local directory, phone book, phone directory, DexKnows, qwestdex, online phone book, business directory, internet yellow pages, business listings, residential listings, directory search"/>	
+	<meta name="google-site-verification" content="sLIvwJYgyPYxCwTWIFoDgOKPNvY931KcOspEVWedphk" />
+	<META name="y_key" content="e1eb94bce5c50666"> 
+	<META name="msvalidate.01" content="C8F72E2FE2CD78316053B9F3D6208179" />
+	<meta name="robots" content="noodp,noydir">  
+	<!-- ==================================== -->
+	
+	<link rel="stylesheet" type="text/css" href="http://images.dexknows.com/desktop/styles/main-min.css?ver=2012-04-05" />
+	<script type="text/javascript" src="http://scripts.dexknows.com/desktop/jquery-1.5.1.min.js"></script> 
+
+</head>
+
+<body id="homepage" >
+
+<!-- Start of DoubleClick Floodlight Tag: Please do not remove - Activity name of this tag: Dex_B2C_LP -->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="http://fls.doubleclick.net/activityi;src=3053866;type=dextw257;cat=dex_b708;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://fls.doubleclick.net/activityi;src=3053866;type=dextw257;cat=dex_b708;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+
+
+    <div class="globalBar">
+        <ul class="headerTabs">
+            <li><a href="http://www.dexknows.com" onClick="return gtc(false, 'x.mw.nav.1', this.href)" class="active">Find a Business</a></li>
+            <li><a href="http://dexknows.whitepages.com" onClick="return gtc(false, 'x.mw.nav.2', this.href)">Find a Person</a></li>
+            <li><a href="http://www.dexknows.com/mobile" onClick="return gtc(false, 'x.mw.nav.3', this.href)">Get Local with Mobile</a></li>
+            <li class="last"><a href="http://www.dexone.com" onClick="return gtc(false, 'x.mw.nav.4', this.href)">Advertise</a></li>
+        </ul>
+        <ul class="quickLinks">
+
+            <li class="last"><a id="loginLinkHeader" href="http://www.dexknows.com" onClick="trackZone('x.mw.nav.16', this.href); return showLB('gigyaDex')">Log In</a></li>
+            <li><a id="signUpLinkHeader" href="http://www.dexknows.com" onClick="showRecaptcha('signUp'); trackZone('x.mw.nav.15', this.href); return showLB('signUpReview')">Sign Up</a></li>		           
+
+        </ul>
+        <div class="clear"></div>
+    </div>
+
+	<div class="wrapper">
+		<span class="dexText">DexKnows.com</span>
+		<h1>Find the best <em>local businesses</em> in your neighborhood.</h1>
+		<div class="search">			
+			<form name="search" id="search" action="/search/">	 
+				<div class="whatBox">
+					<label for="what">What are you looking for?</label>
+					<input id="what" class="what" name="what" value="" type="text" tabindex="1" />
+					<input type="hidden" id="suggestedWhat" name="suggestedWhat" value="" />
+					<h4>(Category or Business Name)</h4>
+				</div>				
+				<div class="whereBox">
+					<label for="where">Where?</label>
+					<input id="where" class="where" name="where" value="" type="text" tabindex="2" noMetro="true" />
+					<input type="hidden" id="suggestedWhere" name="suggestedWhere" value=" " />
+					<h4>(City, State)</h4>
+				</div>
+				<a href="javascript:document.search.submit();" class="searchSubmit" >Submit</a>
+				<input type="hidden" id="hash" name="hash" value="" />
+			</form>
+			<div class="clear"></div>
+		</div>		
+		<img src="http://images.dexknows.com/desktop/images/img_hp_main.png?ver=2012-04-05" />		
+	</div>
+	
+	<div class="hpFooter">
+		<div class="hpFooterInner">
+			<div class="topCities">
+				<h5>Top Cities</h5>
+				<ul class="first">
+					<li><a title="Albuquerque, New Mexico" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-albuquerque-nm/">Albuquerque</a></li>
+					<li><a title="Boise, Idaho" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-boise-id/">Boise</a></li>
+					<li><a title="Chicago, Illinois" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-chicago-il/">Chicago</a></li>
+					<li><a title="Colorado Springs, Colorado" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-colorado_springs-co/">Colorado Springs</a></li>
+					<li><a title="Denver, Colorado" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-denver-co/">Denver</a></li>
+					<li><a title="Des Moines, Iowa" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-des_moines-ia/">Des Moines</a></li>
+					<li><a title="Fayetteville, North Carolina" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-fayetteville-nc/">Fayetteville</a></li>
+					<li><a title="Las Vegas, Nevada" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-las_vegas-nv/">Las Vegas</a></li>
+					<li><a title="Minneapolis, Minnesota" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="/geo/c-minneapolis-mn/">Minneapolis</a></li>
+				</ul>
+				<ul class="second">
+					<li><a title="Omaha, Nebraska" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-omaha-ne/">Omaha</a></li>
+					<li><a title="Orlando, Florida" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-orlando-fl/">Orlando</a></li>
+					<li><a title="Phoenix, Arizona" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-phoenix-az/">Phoenix</a></li>
+					<li><a title="Portland, Oregon" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-portland-or/">Portland</a></li>
+					<li><a title="Salt Lake City, Utah" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-salt_lake_city-ut/">Salt Lake City</a></li>
+					<li><a title="Seattle, Washington" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-seattle-wa/">Seattle</a></li>
+					<li><a title="St. Paul, Minnesota" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-saint_paul-mn/">St. Paul</a></li>
+					<li><a title="Tacoma, Washington" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-tacoma-wa/">Tacoma</a></li>
+					<li><a title="Tucson, Arizona" onclick="return gtc(false, '1.mw.nav.7', this.href)" href="http://www.dexknows.com/geo/c-tucson-az/">Tucson</a></li>
+				</ul>
+			</div>
+			<div class="topCategories">
+				<h5>Top Categories</h5>
+				<ul class="first">
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/law/lawyers/general_practice_lawyers/" title="">Attorneys</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/automotive/vehicle_service_and_repair/auto_parts/">Auto Parts</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/automotive/vehicle_service_and_repair/general_auto_service/">Auto Repair</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/health_care/alternative_health_care/chiropractors/">Chiropractors</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/real_estate/facilities_management/cleaning_services/">Cleaning Services</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/health_care/health_care_services/counseling/">Counseling</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/health_care/dentistry/general_dentists/">Dentists</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/construction/contractors/general_contractors/">General Contractors</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/travel_and_tourism/hotels_and_lodging/">Hotels and Lodging</a></li>
+				</ul>
+				<ul class="second">
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/construction/contractors/hvac_contractors/">HVAC Contractors</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/finance/insurance/insurance_agents_and_brokers/">Insurance Agents and Brokers</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/construction/contractors/landscape_contractors/">Landscape Contractors</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/construction/contractors/plumbers/">Plumbers</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/health_care/doctors/general_practitioners/">Primary Care</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/food_and_beverage/restaurants/">Restaurants</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/construction/contractors/roofers/">Roofers</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/transportation/storage/">Storage</a></li>
+					<li><a onClick="return gtc(false, '1.mw.nav.8', this.href)" href="http://www.dexknows.com/local/pets/veterinarians/">Veterinarians</a></li>
+				</ul>				
+			</div>
+			<div class="getLocal">
+				<h5>Get Local With...</h5>
+				<ul class="first">
+					<li><a onClick="return gtc(false, '1.mw.dwnld.ip', this.href)" href="http://itunes.apple.com/us/app/dexknows/id306021114?mt=8">Dex Mobile for iPhone</a></li>
+					<li><a onClick="return gtc(false, '1.mw.dwnld.andr', this.href)" href="https://play.google.com/store/apps/details?id=com.mportal.dexknows.ui">Dex Mobile for Android</a></li>
+					<li><a onClick="return gtc(false, '1.mw.dwnld.ipd', this.href)" href="http://www.dexknows.com/tablets/ipad/">Dex CityCentral for iPad</a></li>
+					<li class="secondTitle">Other Dexknows Sites</li>
+					<li><a onClick="return gtc(false, '1.gl.nav.hi', this.href)" href="http://www.dexknows.com/local/home_improvement/">DexKnows Home Improvement</a></li>
+					<li><a onClick="return gtc(false, '1.gl.nav.wed', this.href)" href="http://www.dexknows.com/local/weddings/">DexKnows Weddings</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+		 
+ <div class="footer">
+	    <a onclick="return gtc(true, 'x.ft.nav.ma', this.href)" 
+	        href="https://account.dexknows.com/login.jsp" rel="nofollow">Advertiser Login</a> | 
+	    <a onclick="return gtc(true, 'x.ft.nav.adv', this.href)" 
+	        href="http://www.dexone.com/" rel="nofollow">Advertise</a> | 
+	    <a onclick="return gtc(true, 'x.ft.nav.help', this.href)" 
+	        href="http://www.dexknows.com/info/help.asp" rel="nofollow">Help</a> | 
+	    <a onclick="return gtc(true, 'x.ft.nav.abrhd', this.href)" 
+	        href="http://www.dexone.com/company/" rel="nofollow">About Us</a> | 
+	    <a onclick="return gtc(true, 'x.ft.nav.pybo', this.href)" 
+	        href="http://www.dexknows.com/eBill" rel="nofollow">Pay Bill</a> | 
+	    <a onclick="return gtc(true, 'x.ft.nav.cu', this.href)" 
+	        href="http://www.dexknows.com/info/contactUs.asp" rel="nofollow">Contact Us</a> | 
+	    <a onclick="return gtc(true, 'x.ft.nav.ft', this.href)" 
+	        href="http://www.dexknows.com/info/freeTools.asp" rel="nofollow">Free Tools</a> | 	     
+	    <a onclick="return gtc(true, 'x.ft.nav.ft', this.href)" 
+	        href="http://www.youtube.com/user/DexAdvertising?feature=mhee" rel="nofollow">Dex Commercials</a> | 	     
+	    <a onclick="return gtc(true, 'x.ft.nav.rec', this.href)" 
+	        href="http://green.dexknows.com/" rel="nofollow">Recycle</a> | 
+	    
+	    <a onclick="return gtc(true, 'x.ft.nav.syd', this.href)" 
+	        href="http://green.dexknows.com/DexGreen/selectDexAction.do" rel="nofollow">Select Your Dex</a> | 
+	    
+	   
+		<a onclick="return gtc(true, 'x.ft.nav.nat', this.href)" 
+    	    href="http://www.dexonenational.com" rel="nofollow">National</a> | 
+		<p>
+	    <a onclick="return gtc(true, 'x.ft.nav.clec', this.href)" 
+	        href="http://www.dexone.com/telco" rel="nofollow">Telco</a> | <a onclick="return gtc(true, 'x.ft.nav.yp', this.href)" 
+	        href="http://www.dexknows.com">Yellow Pages</a> |
+		<a onclick="return gtc(false, 'x.ft.nav.wp', this.href)" 
+	        href="http://dexknows.whitepages.com" rel="nofollow">White Pages</a>  | 
+	    <a onclick="return gtc(false, 'x.ft.nav.browse', this.href)" 
+	        href="http://www.dexknows.com/browse-directory.asp">Local Business Directory</a> |	    
+	    <a onclick="return gtc(true, 'x.ft.nav.wed', this.href)" 
+	        href="http://www.dexknows.com/local/weddings">DexKnows Weddings</a> |
+		<a onclick="return gtc(true, 'x.ft.nav.hi', this.href)" 
+	        href="http://www.dexknows.com/local/home_improvement">DexKnows Home Improvement</a> |
+		<a onclick="return gtc(true, 'x.ft.nav.matters', this.href)" 
+	        href="http://marketingmatters.dexone.com/">Marketing Matters</a>
+
+
+		<span class="copy">&copy; Dex 2012 All Rights Reserved.  
+		    <a href="http://www.dexone.com/privacy-policy" onclick="return gtc(true, 'x.ft.nav.pp', this.href)" rel="nofollow">Privacy Policy</a> and 
+		    <a href="http://www.dexone.com/terms-of-use" onclick="return gtc(true, 'x.ft.nav.tu', this.href)" rel="nofollow">Terms of Use</a></span> 
+	    </p>
+	    <p class="byDex"><img src="http://images.dexknows.com/desktop/images/dex_trans.png"></p>
+    </div> 
+	
+
+<!-- Begin 3rd Party Tracking Tags --> 
+
+<script language="javascript">
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script language="javascript">
+    COMSCORE.beacon({
+        c1: 2,
+        c2: 6035133,
+        c3: "",
+        c4: "http%3A%2F%2Fwww%2Edexknows%2Ecom%2Findex%2Easp",
+        c5: "",
+        c6: "",
+        c15: ""
+    });
+</script>
+<noscript> 
+    <img src="http://b.scorecardresearch.com/b?c1=2&c2=6035133&c3=&c4=http%3A%2F%2Fwww%2Edexknows%2Ecom%2Findex%2Easp&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" /> 
+</noscript> 
+
+
+
+
+<!-- Google Code for Dex Branding Display Campaign Remarketing List -->
+
+<script type="text/javascript">
+
+<!--
+
+    var google_conversion_id = 1019560772;
+
+    var google_conversion_language = "en";
+
+    var google_conversion_format = "3";
+
+    var google_conversion_color = "666666";
+
+    var google_conversion_label = "UwZ3CIzfxwEQxIaV5gM";
+
+    var google_conversion_value = 0;
+
+//-->
+
+</script>
+
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+
+</script>
+
+<noscript>
+
+<div style="display:inline;">
+
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1019560772/?label=UwZ3CIzfxwEQxIaV5gM&guid=ON&script=0"/>
+
+</div>
+
+</noscript>
+
+<!-- End of segment tag --> 
+
+
+<!-- End 3rd Party Tracking Tags --> 
+
+<img height="1" width="1" src="/images/directory.gif?dks=CA68DF4E%2DDA72%2D48D3%2D8F39%2D0C480F13F10420120417203817%5Falpha&dirv=&ord=20120417203817&trackversion=alpha&rip=130%2E91%2E142%2E179&pgreferer=&nodeid=&geoid=&what=&where=&mkt=&mkw=&cpaadct=&rcpaadct=&rpiadct=&epiadct=&bpiadct=&ppiadct=&fpiadct=&ypcct=&nafct=&spcct=&glct=&mwids=&rwids=&srcpgt=&tid=&pagetype=1&fidg=&pgnm=&pgret=&vw=L&usrwhat=&usrwhere=&pdmw=&pdrw=&suggestedWhat=&suggestedWhere=&">
+<img height="1" width="1" src="/images/dir2.gif?dks=CA68DF4E%2DDA72%2D48D3%2D8F39%2D0C480F13F10420120417203817%5Falpha&ord=20120417203817&mwids=&rwids=&">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var pgt = '1';
+  var businessID = '';
+  var gatcSrcPgt = '';
+  var mkt = '';
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27682698-1']);
+  _gaq.push(['_setCustomVar', 1, 'PageTypeId', pgt, 3]); 
+  _gaq.push(['_setCustomVar', 2, 'BusinessId', businessID, 3]);
+  _gaq.push(['_setCustomVar', 3, 'SrcPageTypeId', gatcSrcPgt, 2]); 
+  _gaq.push(['_setCustomVar', 4, 'Mkt', mkt, 2]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; 
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+              'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+	</div>
+
+<script type="text/javascript" src="http://scripts.dexknows.com/desktop/jquery/plugins/ui/ui.core.min.js"></script>
+<script type="text/javascript" src="http://scripts.dexknows.com/desktop/jquery/plugins/ui/ui.dialog.min.js"></script>
+<script type="text/javascript" src="http://scripts.dexknows.com/desktop/jquery/plugins/autocomplete/jquery.autocomplete.js?ver=2012-04-05"></script>
+<script type="text/javascript" src="http://scripts.dexknows.com/desktop/highslide-4.0.10/highslide-full.js"></script>
+<script type="text/javascript" src="http://scripts.dexknows.com/desktop/custom/dex-min.js?ver=2012-04-05"></script>
+<script type="text/javascript" src="http://scripts.dexknows.com/desktop/dexknowshp-min.js?ver=2012-04-05"></script>
+
+
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+<div class="dexDialog gigyaDex" id="gigyaDex">
+	<div class="dialogTop"></div>
+	<div class="dialogMiddle">
+		<div class="dialogInner">
+			<div class="highslide-header"><ul><li class="highslide-close"><a onclick="closeRegHighslide()" href="#">X</a></li></ul></div>
+			<!-- Content BEGINS -->					
+					
+				<div class="dialogHeader">
+					<img src="http://images.dexknows.com/desktop/images/img_reg_logoDex.gif" /><em>Log in</em>
+					<p class="addtlText">Don't have an account? <a href="#" onClick="trackZone('62.mw.register.6', this.href); openRegHighslide('signUpReview')">Sign Up</a></p> 
+				</div>
+				
+				<div id="errorAlert"></div>
+				
+				<div class="dialogBody">					
+					
+					
+						<div id="gigyaTop" class="gigyaTop">
+							<p>Select account:</p>
+							<div id="gigyaInner" class="gigyaButtons"></div>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+						<span class="regHr"></span>
+						<span class="regOr"><em>Or</em></span>
+					          
+		   
+					<div class="formWrapper">								
+						<form name="formLogIn" id="formLogIn" method="post" onsubmit="return loginAjax();" action="http://www.dexknows.com/">
+						
+															
+								<h3>Log in to your DexKnows account:</h3>
+							
+							
+							<div class="row">										
+								<input type="text" value="email" id="loginEmail" name="email" tabindex="13" maxlength="100" />
+							</div>
+							<div class="row">										
+								<input type="password" value="" id="loginPassword" name="password" tabindex="14" maxlength="20"/>
+							</div>
+							<div class="row control">
+								<input type="checkbox" value="1" name="rememberMe" id="rememberMeLabel" /><label for="rememberMe" id="rememberMeLabel">Remember Me</label>
+								<a href="#" class="forgotPassLink" id="forgotPassLink" onClick="openRegHighslide('forgotPassDialog')">Forgot Password?</a>
+							</div>
+							<div class="row control">
+								<input src="http://images.dexknows.com/desktop/images/btn_reg_login.gif" type="image" value="Login" onclick="return gigyaDexValidate()" />
+							</div>							
+							<input type="hidden" id="loginBusinessid" name="businessid" value="" />
+							<input type="hidden" id="loginDest" name="dest" value="http://www.dexknows.com/" />							
+							<input type="hidden" id="loginZoneLb" name="zone" value="62.mw.signin.6" />
+						</form>
+					</div>
+					
+				</div>
+			<!-- Content ENDS -->
+		</div>
+	</div>
+	<div class="dialogBottom"></div>
+</div>		
+
+
+<div class="dexDialog signUpReview" id="signUpReview">
+	<div class="dialogTop"></div>
+	<div class="dialogMiddle">
+		<div class="dialogInner">
+			<div class="highslide-header"><ul><li class="highslide-close"><a onclick="reRenderRecaptchaImg(); closeRegHighslide()" href="#">X</a></li></ul></div>
+			<!-- Inner BEGINS -->			
+			
+			<div style="display:none" id='favoriteMsg'>
+				<p class="topAlert favoriteBus"><em>In order to save your "Favorite" businesses,</em><em>please sign up or log in.</em></p>
+			</div>				
+			
+			<div style="display:none" id='reviewMsg'>
+				<p class="topAlert"> Thank you, your review will be posted shortly <em>Sign up or log in to edit, delete and share your reviews.</em></p>
+			</div>			
+			
+			<div class="dialogHeader">
+				<img src="http://images.dexknows.com/desktop/images/img_reg_logoDex.gif" /><em>Sign Up</em>
+				<p class="addtlText">Already have an account? <a href="#" onClick="trackZone('62.mw.signin.7', this.href); openRegHighslide('gigyaDex')">Log In</a></p> 
+			</div>					
+			
+			<div id="errorAlert"></div>
+			
+			<div class="dialogBody">
+				<!-- Body BEGINS -->
+				
+				<div id="gigyaTop" class="gigyaTop">
+					<p>Select account:</p>
+					<div id="gigyaInnerSignUp" class="gigyaButtons"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+				<span class="regHr"></span>
+				<span class="regOr"><em>Or</em></span>						
+		
+				<h3>Create a DexKnows account:</h3>
+				
+				<form name="signUpAcct" id="signUpAcct" method="post" onsubmit="return signUpAjax()" action="http://www.dexknows.com/">
+				
+				<div id="signUpWCaptcha">
+					<div class="formWrapper lft" id="signUpLft">						
+						<div class="row" id="accountLink">								
+							<input type="text" value="display name" id="captchaDispName" name="displayname" tabindex="5" maxlength="30" />
+							<span>30 characters or less</span>
+						</div>
+						<div class="row">
+							<input type="text" value="email" name="email" id="captchaEmail" tabindex="6" />
+						</div>
+						<div class="row">								
+							<input type="password"  id="captchaPassword" name="password" tabindex="7" maxlength="20" />
+							<span>At least 6 characters</span>
+						</div>
+						<div class="row">								
+							<input type="password"  id="captchaConfPass" name="confirmPass" tabindex="8" maxlength="20" />
+						</div>						
+					</div>
+					
+					<div class="formWrapper rgt" id="signUpRgt">						
+						<div class="row" id="accountLink">										
+							<input type="text" value="zip code" id="captchaZipCode" name="zipCode" tabindex="9" maxlength="5" />
+							<span>Optional</span>
+						</div>				
+						
+						<div class="row" id="recaptcha_widget" style="display:none">		
+							<div id="recaptcha_container" ><div id="recaptcha_box"><span class="recaptcha_only_if_image">Enter the words below:</span><span class="recaptcha_only_if_audio">Enter the numbers you hear:</span><input type="text" id="recaptcha_response_field" name="recaptcha_response_field" tabindex="10" /></div><div id="recaptcha_icon"><span><a href="javascript:Recaptcha.reload()"><img src="http://images.dexknows.com/desktop/images/recaptcha_refresh.png" /></a></span><span class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><img src="http://images.dexknows.com/desktop/images/recaptcha_audio.png" /></a></span><span class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><img src="http://images.dexknows.com/desktop/images/recaptcha_text.png" /></a></span><span><a href="javascript:Recaptcha.showhelp()"><img src="http://images.dexknows.com/desktop/images/recaptcha_help.png" /></a></span></div></div><div id="recaptcha_image"></div>												
+						</div>					 
+					
+						<div class="row control">								
+							<input type="checkbox" value="1" name="optin" id="captchaDeals" tabindex="11" />
+							<span>Yes, I want to find out about great deals, local recommendations and more!</span>
+						</div>
+						<div class="row control">								
+							<input type="checkbox" value="1" name="agree" id="captchaAgree" tabindex="12" id="agree" />
+							<span>I agree to <a href="http://www.dexoneadvertising.com/about_us/terms_of_use" target="_blank">terms of use</a> and <a href="http://www.dexoneadvertising.com/about_us/privacy_policy" target="_blank">privacy policy</a></span>
+						</div>
+						<div class="row control">																			
+							<input type="image" src="http://images.dexknows.com/desktop/images/btn_reg_signUp.gif" value="Sign Up" name="Sign Up" id="signUp" onclick="return reviewDexValidate('signUpWCaptcha')" />							
+						</div>						
+					</div>	
+				</div>
+				<div style="display:none" id="signUpNoCaptcha">
+					<div class="formWrapper lft" id="signUpLft">
+						<div class="row" id="accountLink">
+							<input type="text" value="display name" id="noCaptchaDispName" name="displayname" tabindex="5" maxlength="30" />
+							<span>30 characters or less</span>
+						</div>
+						<div class="row">
+							<input type="type" value="email" name="email" id="noCaptchaEmail" tabindex="6" />
+						</div>
+						<div class="row" id="accountLink">
+							<input type="text" value="zip code" id="noCaptchaZipCode" name="zipCode" tabindex="9" maxlength="5" />
+							<span>Optional</span>
+						</div>
+					</div>
+					
+					<div class="formWrapper rgt" id="signUpRgt">						
+						<div class="row">
+							<input type="password" value="" id="noCaptchaPassword" name="password" tabindex="7" maxlength="20" />
+							<span>At least 6 characters</span>
+						</div>
+						
+						<div class="row">
+							<input type="password" value="" class="confPass" id="noCaptchaConfPass" name="confirmPass" tabindex="8" maxlength="20" />
+						</div>
+						
+						<div class="row control">
+							<input type="checkbox" value="1" name="deals" id="noCaptchaDeals" />
+							<span>Yes, I want to find out about great deals, local recommendations and more!</span>
+						</div>
+						
+						<div class="row control">
+							<input type="checkbox" value="1" name="agree" id="noCaptchaAgree" />
+							<span>I agree to <a href="#">terms of use</a> and <a href="#">privacy policy</a></span>
+						</div> 
+						
+						<div class="row control">
+							<input type="image" src="http://images.dexknows.com/desktop/images/btn_reg_signUp.gif" value="Sign Up" name="Sign Up" id="signUp" onclick="return reviewDexValidate('signUpNoCaptcha')" />
+						</div>						
+					</div>	
+				</div>
+				
+				<input type="hidden" id="businessid" name="businessid" value="" />				
+				<input type="hidden" id="signupDest" name="dest" value="http://www.dexknows.com/?activate=1" />				
+				<input type="hidden" id="signupZoneLb" name="zone" value="62.mw.register.4" />
+				<input type="hidden" name="signUpBlock" id="signUpBlock" value="signUpWCaptcha" />
+				<input type="hidden" name="reviewSubmitted" id="reviewSubmitted" value="0" />
+				
+				</form>
+				<!-- Body ENDS -->
+				<div class="clear"></div>				
+			</div>
+			<!-- Inner ENDS -->
+		</div>
+	</div>
+	<div class="dialogBottom"></div>
+</div>
+	
+
+
+<div class="dexDialog activateLink" id="activateLink">
+    <div class="dialogTop"></div>
+    <div class="dialogMiddle">
+		<div class="dialogInner">            
+            <div class="highslide-header"><ul><li class="highslide-close"><a onclick="closeRegHighslide()" href="#">X</a></li></ul></div>
+			<!-- Inner BEGINS -->
+            	<div class="dialogHeader">
+    				<img src="http://images.dexknows.com/desktop/images/img_reg_logoDex.gif" /><em>Activation Link</em> 
+				</div>
+            	<div class="dialogBody">
+            	<!-- Body BEGINS -->
+                	<p class="addtl">Please check your email for an activation link from Dex Customer Service. If you do not receive the email within an hour, check your spam folder.</p>
+            	<!-- Body ENDS -->
+                </div>
+            <!-- Inner ENDS -->
+        </div>
+    </div>
+    <div class="dialogBottom"></div>
+</div>
+
+<div class="dexDialog forgotPassDialog" id="forgotPassDialog">
+    <div class="dialogTop"></div>
+    <div class="dialogMiddle">
+		<div class="dialogInner">
+            <div class="highslide-header"><ul><li class="highslide-close"><a onclick="closeRegHighslide()" href="#">X</a></li></ul></div>
+            <!-- Inner BEGINS -->
+            	<div class="dialogHeader">
+    				<img src="http://images.dexknows.com/desktop/images/img_reg_logoDex.gif" /><em>Forgot Password</em> 
+				</div>
+                <div id="errorAlert">
+                </div>
+            	<div class="dialogBody">
+            	<!-- Body BEGINS -->
+					<div id="forgotPassMsg">
+						<p class="addtl">Please enter your email address so that we can send you an email with a link to change your password..</p>
+					</div>
+					
+                    <div class="formWrapper">
+                    	<form id="formForgotPwd" method="post" onsubmit="return forgotPwdAjax()" action="http://www.dexknows.com/">
+                            <div class="row" >                            	
+								<input type="text" name="email" value="email" id="forgotEmail"  maxlength="100" />
+                            </div>
+
+                            <div class="row control">
+								<input src="http://images.dexknows.com/desktop/images/btn_reg_submit.gif" type="image" value="submit" onclick="return changePassRegValidate()" />
+							</div>														
+							<input type="hidden" id="dest" name="dest" value="http://www.dexknows.com/" />
+						</form>
+                    </div>
+            	<!-- Body ENDS -->
+                </div>
+            <!-- Inner ENDS -->
+        </div>
+    </div>
+    <div class="dialogBottom"></div>
+</div>
+
+<div class="dexDialog newPassDialog" id="newPassDialog">
+    <div class="dialogTop"></div>
+    <div class="dialogMiddle">
+		<div class="dialogInner">
+            <div class="highslide-header"><ul><li class="highslide-close"><a onclick="closeRegHighslide()" href="#">X</a></li></ul></div>
+            <!-- Content BEGINS -->
+            	<div class="dialogHeader">
+    				<img src="http://images.dexknows.com/desktop/images/img_reg_logoDex.gif" /><em>Password</em> 
+				</div>
+                <div id="errorAlert"></div>
+            	<div class="dialogBody">
+                	<p class="addtl">Please enter your new password</p>
+                    <div class="formWrapper">
+                    	<form id="changePasswordForm" class="changePasswordForm" method="post" action="http://www.dexknows.com/service/accountProxy.asp">
+                    		<p class="formInstr">Email Address: <span></span></p>
+							
+                            <div class="row">                            	
+								<input type="password" id="newPassword" name="password" tabindex="4" maxlength="20" />
+                                <span>At least 6 characters</span>
+                            </div>
+                            <div class="row">                            	
+								<input type="password" id="newConfPass" name="confirmPass" tabindex="5" maxlength="20" />
+                            </div>
+                            <div class="row control">
+                            	<input src="http://images.dexknows.com/desktop/images/btn_reg_resetPass.gif" type="image" value="Reset Password" onclick="return newPassValidate()"/>
+                            </div>
+							<input type="hidden" name="action" value="resetpwd" />
+                            <input type="hidden" name="key" value="" />
+                            <input type="hidden" name="dest" value="http://www.dexknows.com/user/favorites.asp" />
+                        </form>
+                    </div>                    
+                </div>
+            <!-- Content ENDS -->
+        </div>
+    </div>
+    <div class="dialogBottom"></div>
+</div>
+
+<div class="dexDialog linkAccounts" id="linkAccounts">
+    <div class="dialogTop"></div>
+    <div class="dialogMiddle">
+		<div class="dialogInner">
+            <div class="highslide-header"><ul><li class="highslide-close"><a onclick="closeRegHighslide()" href="#">X</a></li></ul></div>
+        	<div class="dialogHeader">
+				<img src="http://images.dexknows.com/desktop/images/img_reg_logoDex.gif" /><em>Link Accounts</em> 
+			</div>
+            <div id="errorAlert">
+            </div>
+        	<div class="dialogBody">
+        	<!-- Body BEGINS -->
+        	    
+            	<img id="userthumbnail" width="50" height="50" class="regProfPic" src="" />
+                <h3>Welcome<span id="userfirstname"></span>!</h3>
+
+                <div class="formWrapper">
+                	<p class="addtl">Do you currently have an account with Dexknows?</p>
+                	<p class="addtl">Should we link this account to the one you just created?</p>
+                	<form action="http://www.dexknows.com/" method="post" id="linkAccountsForm" onsubmit="return gigyaLinkAjax()">
+                        <div class="row" id="accountLink">
+                        	<p>Yes link my accounts:</p>
+                        	<input type="text" name="email" value="email" id="email" />
+
+                        </div>
+                        <div class="row" id="passwordRow">
+                        	<input type="password" value="" name="password" id="password" />
+                            <a href="#" class="forgotPassLink" id="forgotPassLink" onClick="openRegHighslide('forgotPassDialog')">Forgot Password?</a>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="row control">
+                        	<input src="http://images.dexknows.com/desktop/images/btn_reg_linkAccounts.gif" type="image" value="submit" onclick="trackZone('67.mw.linkact.1', 'http://www.dexknows.com/'); return addtlInfoValidate()"  />
+                        </div>
+						<input type="hidden" id="dest" name="dest" value="http://www.dexknows.com/" />
+						<input type="hidden" id="zone" name="zone" value="" />
+						<input type="hidden" id="gigyaid" name="gigyaid" />
+                    </form>
+                </div>
+                <div class="clear"></div>
+            	<span class="regHr"></span>
+            	<span class="regOr"><em>Or</em></span>
+				<h6>Please provide this additional information to register</h6>
+                <div class="formWrapper addtlFormWrapper">
+                	<form action="http://www.dexknows.com/" method="post" id="signUpDialogForm" onsubmit="return gigyaRegisterAjax()">
+                        <div class="row">
+                        	<input type="text" id="dispName" value="display name" name="dispName" />
+                            <span>Will be displayed next to your reviews.</span>
+                        </div>
+                        <div class="row">
+                        	<span id="emailReadOnly"></span>
+                        	<input type="text" name="email" value="email" id="email" />
+                        </div>
+
+                        <div class="row">
+                        	<input type="text" value="zip code" name="zip" id="zip" />
+                            <span>Optional</span>
+                        </div>
+                        <div class="row control">
+                        	<input type="checkbox" value="1" name="deals" id="deals" />
+                            <span>Yes, I want to find out about great deals, local recommendations and more!</span>
+                        </div>
+
+                        <div class="row control">
+                        	<input type="checkbox" value="1" name="agree" id="agree" />
+                            <span>I agree to <a href="http://www.dexoneadvertising.com/about_us/terms_of_use" target="_blank">terms of use</a> and <a href="http://www.dexoneadvertising.com/about_us/privacy_policy" target="_blank">privacy policy</a></span>
+                        </div>
+                        <div class="row control submit">
+                        	<input src="http://images.dexknows.com/desktop/images/btn_reg_finish.gif" type="image" value="submit" onclick="trackZone('67.mw.linkact.1', 'http://www.dexknows.com/'); return signUpValidate()"  />
+                        </div>
+						<input type="hidden" id="dest" name="dest" value="http://www.dexknows.com/" />
+						<input type="hidden" id="zone" name="zone" value="" />
+						<input type="hidden" id="gigyaid" name="gigyaid" />
+                    </form>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dialogBottom"></div>
+</div>
+
+<div class="dexDialog feedBackDialog" id="feedBackDialog">
+	<div class="dialogTop"></div>
+	<div class="dialogMiddle">
+		<div class="dialogInner">
+			
+			<div class="highslide-header highslide-move">
+				<ul><li class="highslide-close"><a onclick="return hs.close(this)" href="#">X</a></li></ul>
+			</div>				
+				
+			<h2>Please share the issue you encountered with our search</h2>				
+			<!-- <form action="http://www.dexknows.com" method="post" id="frmFeedback" onsubmit="return feedbackAjax()"> -->
+			<form name="frmFeedback" action="http://www.dexknows.com" method="post" id="frmFeedback">
+			<div id="optUserType">	
+				<span>I am a(n):</span>
+				<ul>
+					<li><input name="userType" type="radio" value="advertiser" id="advertiser" /><label for="userTypeAd">Advertiser</label></li>
+					<li><input name="userType" type="radio" value="owner" id="owner" /><label for="userTypeBizOwner">Business Owner (non advertiser)</label></li>	
+					<li><input name="userType" type="radio" value="consumer" id="consumer" /><label for="userTypeConsumer">Consumer</label></li>	
+					<li><input name="userType" type="radio" value="employee" id="employee" /><label for="consumerEmployee">Employee</label>	</li>
+				</ul>
+			</div>				
+			
+			
+			<div id="issueType">
+				<p>Issue(s):</p>
+				<div id="errMsg">Please check at least one issue checkbox.</div>
+				<ul class="first">
+					<li><input type="checkbox" name="issueTypes" value="wrong_phone_number" id="wrong_phone_number" /><label for="wrongPhone">Wrong phone number</label></li>
+					<li><input type="checkbox" name="issueTypes" value="wrong_address" id="wrong_address" /><label for="wrongAddr">Wrong address</label></li>
+					<li><input type="checkbox" name="issueTypes" value="invalid_url" id="invalid_url" /><label for="wrongUrl">Invalid URL</label></li>
+					<li><input type="checkbox" name="issueTypes" value="duplicate_listing" id="duplicate_listing"  /><label for="wrongListing">Duplicate listing</label></li>
+					<li><input type="checkbox" name="issueTypes" value="business_not_exist" id="business_not_exist" /><label for="bizNonExist">Business doesn't exist</label></li>
+				</ul>
+				
+				<ul class="second">
+					<li><input type="checkbox" name="issueTypes" value="not_what_i_meant_by_my_search" id="not_what_i_meant_by_my_search" /><label for="wrongSearchRes">Not what I meant by my search</label></li>
+					<li><input type="checkbox" name="issueTypes" value="expected_more_popular_results" id="expected_more_popular_results" /><label for="expectedMore">Expected more popular results</label></li>
+					<li><input type="checkbox" name="issueTypes" value="wrong_category" id="wrong_category" /><label for="wrongCat">Wrong category</label></li>
+					<li><input type="checkbox" name="issueTypes" value="too_far_away" id="too_far_away" /><label for="tooFarAway">Too far away</label></li>
+					<li><input type="checkbox" name="issueTypes" value="incorrect_business_details" id="incorrect_business_details" /><label for="wrongDetails">Incorrect business details</label></li>
+				</ul>
+			</div>
+			
+		
+			<span>Comments:</span>
+			<textarea rows="3" cols="60" name="comments" id="comments" maxlength="250"></textarea>			
+			
+			<div>					
+				<img id="feedbackSubmitBtn" class="postReviewBtn" onclick="trackZone('6.mw.act.impress.2', 'http://www.dexknows.com/'); return feedbackAjax();" src="http://images.dexknows.com/desktop/images/btn_submit.png">				
+				<img id="feedbackCancelBtn" class="postReviewBtn" onclick="return hs.close(this);" src="http://images.dexknows.com/desktop/images/btn_feedback_cancel.png">					
+			</div>
+			<input type="hidden" id="fb_bid_prefix" value="">
+			<input type="hidden" id="fb_bid" value="">
+			<input type="hidden" id="fb_adtype" value="">
+			<input type="hidden" id="fb_index" value="">
+			<input type="hidden" id="fb_tooltip" value="">
+			<input type="hidden" id="fb_dest" value="http://www.dexknows.com/index.asp" />
+			<input type="hidden" id="fb_loggedIn" value="" />
+			</form>
+		</div>
+	</div>
+	<div class="dialogBottom"></div>
+</div> <!-- feedBackDialog ENDS -->
+
+<!-- socialize.js script should only be included once -->
+<script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_FYnHm3maZPs7YGHbzoN8mKjLHwkP834TcQAncOZ8aOwx6p8dutqMrDwCeFl7uWLr"></script>
+
+<script type="text/javascript">
+	var gigyaAPIKey 			= '2_FYnHm3maZPs7YGHbzoN8mKjLHwkP834TcQAncOZ8aOwx6p8dutqMrDwCeFl7uWLr';
+	var targetSite  			= 'http://www.dexknows.com';
+	var targetSiteSecure 		= 'http://www.dexknows.com';
+	var recaptcha_public_key 	= '6Lc3nMgSAAAAAE20Yq8e8TLje3fzXywIK4mXwSHb';
+	var akamai_host_img 		= 'http://images.dexknows.com/desktop/images';
+	var profileurl 				= '';
+	var gigyaShareTitle		    = ' | Dexknows.com\u2122';
+	var reviewShareTitle		= 'Review of  | Dexknows.com\u2122';	
+	var shareProfileDescription = 'I found  on dexknows.com and thought you might want to check it out. Find business information, reviews, maps, coupons, driving directions and more.';
+	var shareReviewDescription  = 'I just reviewed  on dexknows.com and thought you might want to check it out. Find business information, reviews, maps, coupons, driving directions and more.';
+	var logo_url				= 'http://images.dexknows.com/desktop/images/logo_dexKnows.gif';
+	var couponUrl				= '/coupons';
+	var currPageUrl				= 'http://www.dexknows.com/';
+	var shareCouponDescription  = 'I found coupons for  on dexknows.com and thought you might want to check it out. Find business information, reviews, maps, coupons, driving directions and more.';
+	var businessname		    = '';	
+	var shareCouponDescription  = 'I found coupons for  on dexknows.com and thought you might want to check it out. Find business information, reviews, maps, coupons, driving directions and more.';   	
+</script>
+
+
+
+		<script type="text/javascript">			
+			var gigyaSignUpRdUrl 	= 'http://www.dexknows.com/';			
+		</script>
+		
+
+
+<script type="text/javascript" src="http://scripts.dexknows.com/desktop/user-reg-min.js?ver=2012-04-05"></script>
+
+
+		
+		<script type="text/javascript">						
+			gigya.services.socialize.showLoginUI(conf,reglogin_params);			
+			gigya.services.socialize.showLoginUI(conf,regsignup_params); 
+			gigya.services.socialize.addEventHandlers(conf, {onLogin: onLoginHandler});	
+			
+		</script>
+		
+
+
+</body>
+</html>

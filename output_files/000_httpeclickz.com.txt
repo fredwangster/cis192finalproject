@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">`
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>eClickZ | Performance Based Ad Network | Pay Per Click Search Engine | PPC Advertising | PPC Publishers</title>
+<meta name="keywords" value="pay per click, pay per click search engine, pay per click advertising, pay per click publisher, ppc advertising, ppc search">
+<meta name="description" value="As a leading developer of pay-per-click advertising services, eClickZ connects millions of consumers with thousands of businesses via our AdCenter platform and strategic partnerships.">
+<link href="http://www.eclickz.com/css/stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="http://www.eclickz.com/css/dropdown.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="http://www.eclickz.com/js/Activex_Run.js"></script>
+<script type="text/javascript" src="http://www.eclickz.com/js/jquery.min.js" ></script>
+<script type="text/javascript" src="http://www.eclickz.com/js/easySlider1.5.js"></script>
+<script type="text/javascript" src="http://www.eclickz.com/js/jquery.dropdownPlain.js"></script>
+<script type="text/javascript" src="http://www.eclickz.com/js/common.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript"> 
+	$(document).ready(function(){	
+		$("#slider").easySlider({
+			auto: false,
+			continuous: true 
+		});
+	// for login slider 
+      $(".signin").click(function(e) {          
+		e.preventDefault();
+			  $("fieldset#signin_menu").toggle();
+		$(".signin").toggleClass("menu-open");
+		  });
+		$("fieldset#signin_menu").mouseup(function() {
+			return false
+		});
+		$(document).mouseup(function(e) {
+			if($(e.target).parent("a.signin").length==0) {
+				$(".signin").removeClass("menu-open");
+				$("fieldset#signin_menu").hide();
+			}
+		});	
+		//onBlur & onFocus
+		$('.subscribe').addClass("idleField");
+		$('.subscribe').focus(function() {
+			$(this).removeClass("idleField").addClass("focusField");
+			if (this.value == this.defaultValue){ 
+				this.value = '';
+			}
+			if(this.value != this.defaultValue){
+				this.select();
+			}
+		});
+		$('.subscribe').blur(function() {
+			$(this).removeClass("focusField").addClass("idleField");
+			if ($.trim(this.value) == ''){
+				this.value = (this.defaultValue ? this.defaultValue : '');
+			}
+		});
+  });
+</script>
+</head>
+<body>
+<div id="container">
+	<!-- / header \ -->
+	<div id="header">
+		<!-- / header left \ -->
+		<div id="headerLeft">
+			<div class="headerLeft_top">
+				<div class="logo"><a href="http://www.eclickz.com"><img src="http://www.eclickz.com/images/logo.jpg" alt="" /></a></div>
+				<div class="menu">
+				<ul>
+					<li class="active"><a href="http://www.eclickz.com">Home</a></li>
+					<li><a href="http://advertiser.eclickz.com">Advertisers</a></li>
+					<li><a href="http://publisher.eclickz.com">Publishers</a></li>
+					<li><a href="http://platform.eclickz.com">Platform</a></li>
+					<li><a href="http://corporate.eclickz.com/about">About Us</a></li> 
+				</ul>
+				</div>
+			</div>
+			<div class="flash">
+				<script language="javascript" type="text/javascript">view_flash('http://www.eclickz.com/swf/homepage.swf','709px','161px','transparent');</script>
+			</div>
+	  </div>
+		<!-- \ header left / -->
+		<!-- / header right \ -->
+		<div class="sign_up">
+			<div class="login">
+     		<ul class="dropdown">
+		    	<li><a href="#" class="signup" title="Sign Up" id="dd"></a>
+		    		<ul class="sub_menu" onmouseover="javascript:signupMouseOver();" onmouseout="javascript:signupMouseOut();">
+		    			 <li><a href="http://advertiser.eclickz.com/signup" title="Advertiser">Advertiser</a> | <a href="http://publisher.eclickz.com/signup">Publisher</a></li>
+					</ul>
+		    	</li>
+			  </ul> 
+      	<a href="#" class="signin" title="Login"></a>
+      	<fieldset id="signin_menu">
+		<form onsubmit="javascript: return logincheck();" name="login_frm" id="login_frm" method="post" action="http://adcenter.eclickz.com">
+				<div class="formBox">
+				<select onchange="javascript:loginopt(this);">
+				<option selected="selected" value="1">Advertiser</option>
+				<option value="2">Publisher</option>
+				</select>
+				<p><input onfocus="if(this.value=='Username')this.value='';" onblur="if(this.value=='')this.value='Username';" name="login_userid" type="text" value="Username" id="username" /></p>
+				<p><input onfocus="if(this.value=='*******')this.value='';" onblur="if(this.value=='')this.value='*******';" name="login_password" type="password" value="*******" id="password" /></p>
+				<p><input name="submit" type="image" src="http://www.eclickz.com/images/go.gif" class="gobtn" /><a id="forgot_pass" href="http://adcenter.eclickz.com/forgot">Forgot your password?</a></p>
+				</div>
+		</form>
+		</fieldset>
+      </div>
+	  <div class="blogreview">
+	  <h3>We're Hiring!</h3><br>
+	  <font style="font-size:10px;">We're looking for smart, experienced and fun people to help us on our mission to bring more trust to the online community.</font><br>
+	  <br><a href="http://corporate.eclickz.com/careers">Learn More &#187;</a>
+	  </div>
+		</div>
+		<!-- \ header right / -->
+	</div>
+	<!-- \ header / -->
+	<!-- / middle \ -->
+	<div id="middle">
+
+		<div class="panel">
+			<!-- / ppc box \ -->		
+			<div class="ppcBox">
+				<h2>Advertiser <span>Solutions</span></h2>
+				<div class="bluebox">
+					<h3><img src="http://www.eclickz.com/images/icon8.gif" alt="" align="left" /> Increase website traffic</h3>
+					<p>Maximize your advertising dollar by distributing your ad media on channels across eClickZ Network, including thousands of websites, portals and search engines.</p>
+					<ul>
+						<li>Buy quality traffic at $0.10 per click</li>
+						<li>Initial deposit of $100 gets you started</li>
+						<li>Click-Watcher&reg; Fraud Protected Traffic</li>
+						<li>Detailed keyword and financial reporting</li>
+					</ul>
+					<p class="learnmore"><a href="http://advertiser.eclickz.com"><img src="http://www.eclickz.com/images/learnmore.gif" alt="" /></a></p>
+			  </div>
+			</div>
+			<!-- \ ppc box / -->
+			<!-- / web box \ -->		
+			<div class="webBox">
+				<h2>Publisher <span>Solutions</span></h2>
+				<div class="orangebox">
+					<h3><img src="http://www.eclickz.com/images/icon7.gif" alt="" align="left" /> Monetize your Ad Space</h3>
+					<p>For owners of quality websites and blogs, monetize your Ad Space utilizing a plethora of linking methods and earn big bucks from our exclusive ad inventory.</p>
+					<ul>
+						<li>Highest revenue shares in the industry</li>
+						<li>Quick and easy implementation options</li>
+						<li>Real-time detailed reporting & statistics</li>
+						<li>Net 30 monthly payments like clock-work</li>
+					</ul>
+					<p class="learnmore"><a href="http://publisher.eclickz.com"><img src="http://www.eclickz.com/images/learnmore1.gif" alt="" /></a></p>				
+			  </div>
+			</div>
+			<!-- \ web box / -->
+			<!-- / news box \ -->		
+			<div class="newsBox">
+				<h2>Contests</h2>
+				<div class="news">
+					<div class="scroll"><center>
+				<a href="http://www.facebook.com/pages/eClickZ/150372273552"><img src="http://www.eclickz.com/images/contest/ipad2.gif" border="0"></a><br><font style="font-size:11px;"><a href="http://www.facebook.com/pages/eClickZ/150372273552">Like us</a> on Facebook and you<br>may just win a iPad2!*</font><br><font style="font-size:9px;color:#c0c0c0;">Offer ends December 15, 2011</font><br>
+				<img src="http://www.eclickz.com/images/contest/x5.gif"><br><font style="font-size:11px">Our top affiliate who earns the most money wins a brand new BMW X5*</font><br><font style="font-size:9px;color:#c0c0c0;">Offer ends March 1, 2013<br><br>iPad2 is a registered trademark of Apple Inc.<br>*Terms and conditions apply.</font></center>
+					</div>
+				</div>
+			</div>
+</div>
+<h2>Valued Advertisers Include</h2>
+<style type="text/css">
+#scrolling-area {
+background:url(http://www.eclickz.com/images/valued_advertisers.gif) repeat-x;
+width:950px;
+display:block;
+height:90px;
+}
+</style>
+<div id="scrolling-area"></div>
+<script> 
+function scrollbox() {
+var current_x = 0;
+var box = document.getElementById('scrolling-area');
+setInterval(function(){
+box.style.backgroundPosition = current_x + 'px 0px';
+current_x += -1;
+}, 25);
+}
+scrollbox();
+</script>
+		<div class="panel">
+			<div class="bar">
+				<h2><img src="http://www.eclickz.com/images/icon9.gif" alt="" align="left" /> <span>Browse our</span> popular search categories</h2>
+				<!-- / search box \ -->
+				<div class="searchBox">
+				<form method="post" action="http://search.eclickz.com">
+					<input name="affiliate" type="hidden" value="house"/>
+					<input name="Terms" type="text" value="" class="textfield" />
+					<input name="submit" type="image" src="http://www.eclickz.com/images/searchbtn.gif" />
+				</div>
+				<!-- \ search box / -->
+			</div>
+			<!-- / bot box \ -->
+			<div class="botBox">
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Computing" rel="nofollow">Computing</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Web+Hosting" rel="nofollow">Web Hosting</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Computer+Hardware" rel="nofollow">Computer Hardware</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Software" rel="nofollow">Software</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Computer+Games" rel="nofollow">Computer Games</a> ...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Homelife" rel="nofollow">Homelife</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Home+Improvement" rel="nofollow">Home Improvement</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Cooking" rel="nofollow">Cooking</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Home+Buying" rel="nofollow">Home Buying</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Pets" rel="nofollow">Pets</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Gardening" rel="nofollow">Gardening</a> ...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Education+&amp;+Career" rel="nofollow">Education &amp; Career</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Job+Search" rel="nofollow">Job Search</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Careers" rel="nofollow">Careers</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=College" rel="nofollow">College</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Arts+&amp;+Humanities" rel="nofollow">Arts & Humanities</a> ...
+				</div>
+				<div class="itembox last">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Entertainment" rel="nofollow">Entertainment</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Music" rel="nofollow">Music</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Gambling" rel="nofollow">Gambling</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Games" rel="nofollow">Games</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Sports" rel="nofollow">Sports</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Movies+&amp;+TV" rel="nofollow">Movies & TV</a> ...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Reference" rel="nofollow">Reference</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=US+Govt+Agencies" rel="nofollow">US Govt Agencies</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Environment" rel="nofollow">Environment</a>,
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=History" rel="nofollow">History</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Lookup" rel="nofollow">Lookup</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=News" rel="nofollow">News</a>...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Shopping" rel="nofollow">Shopping</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Auto" rel="nofollow">Auto</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Sporting+Goods" rel="nofollow">Sporting Goods</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Computers" rel="nofollow">Computers</a>,
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Books" rel="nofollow">Books</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Gifts" rel="nofollow">Gifts</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Electronics" rel="nofollow">Electronics</a> ...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Finance" rel="nofollow">Finance</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Home+Finance" rel="nofollow">Home Finance</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Debt" rel="nofollow">Debt</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Insurance" rel="nofollow">Insurance</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Investing" rel="nofollow">Investing</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Personal+Finance" rel="nofollow">Personal Finance</a> ...
+				</div>
+				<div class="itembox last">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Travel" rel="nofollow">Travel</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Air+Travel" rel="nofollow">Air Travel</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Lodging" rel="nofollow">Lodging</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=US+Travel" rel="nofollow">US Travel</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Cruises" rel="nofollow">Cruises</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Adventure+Travel" rel="nofollow">Adventure Travel</a> ...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Health" rel="nofollow">Health</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Diseases" rel="nofollow">Diseases</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Drugs" rel="nofollow">Drugs</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Fitness" rel="nofollow">Fitness</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Medicine" rel="nofollow">Medicine</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Sexual+Health" rel="nofollow">Sexual Health</a>,
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Nutrition" rel="nofollow">Nutrition</a> ...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Small+Business+Directory" rel="nofollow">Small Business Directory</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=B2B" rel="nofollow">B2B</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Economics" rel="nofollow">Economics</a>,
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Financing" rel="nofollow">Financing</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Insurance" rel="nofollow">Insurance</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Investing" rel="nofollow">Investing</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Law" rel="nofollow">Law</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Trade" rel="nofollow">Trade</a> ...
+				</div>
+				<div class="itembox">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Science" rel="nofollow">Science</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Animals" rel="nofollow">Animals</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Astronomy" rel="nofollow">Astronomy</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Earth+Science" rel="nofollow">Earth Science</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Geography" rel="nofollow">Geography</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Physics" rel="nofollow">Physics</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Space" rel="nofollow">Space</a> ...
+				</div>
+				<div class="itembox last">
+					<h3><a href="http://search.eclickz.com/?affiliate=house&Terms=Society+&amp;+Culture" rel="nofollow">Society & Culture</a></h3>
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Sexuality" rel="nofollow">Sexuality</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Religion" rel="nofollow">Religion</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Food+&amp;+Drink" rel="nofollow">Food & Drink</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Relationships" rel="nofollow">Relationships</a>, 
+					<a href="http://search.eclickz.com/?affiliate=house&Terms=Families" rel="nofollow">Families</a> ...
+				</div>
+			</div>
+			<!-- \ bot box / -->
+
+			<!-- \ news box / -->
+		</div>
+		</div>
+	<!-- \ middle / -->
+	<!-- / footer \ -->
+  <div id="footer">
+	<p><a href="http://www.eclickz.com">Home</a> - <a href="http://advertiser.eclickz.com">Advertisers</a> - <a href="http://publisher.eclickz.com">Publishers</a> - <a href="http://adcenter.eclickz.com">Client Login</a> - <a href="http://corporate.eclickz.com/contact">Contact Us</a> - <a href="http://corporate.eclickz.com/privacy">Privacy Policy</a> - <a href="http://corporate.eclickz.com/terms">Terms of Use</a> - <a href="http://blog.eclickz.com">Blog</a></p>
+	&copy;2012 <span>eClickZ.com LLC</span>. All right reserved<br />
+	<g:plusone count="false"></g:plusone>
+	<a href="http://www.twitter.com/eClickZcom"><img src="http://www.eclickz.com/images/twitter.gif" alt="" border="0" align="top" /></a>
+        <a href="http://www.facebook.com/pages/eClickZ/150372273552"><img src="http://www.eclickz.com/images/facebook.gif" alt="" border="0" align="top" /></a>	</div>
+	<!-- \ footer / -->	
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4250302-2']);
+  _gaq.push(['_setDomainName', '.eclickz.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-eeuVIFUHPWNUA"
+});
+</script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-eeuVIFUHPWNUA.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "13026538" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=13026538&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+</body>
+</html>

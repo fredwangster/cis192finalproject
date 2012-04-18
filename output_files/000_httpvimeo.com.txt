@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--     _
+  __   _|_|_ __ ___   ___  ___
+  \ \ / / | '_ ' _ \ / _ \/ _ \
+   \ V /| | | | | | |  __/ |_| |
+    \_/ |_|_| |_| |_|\___|\___/
+               you know, for videos
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Vimeo, Video Sharing For You</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <meta name="viewport" content="width=1024,maximum-scale=1.0" />
+
+        <meta name="description" content="Vimeo is a respectful community of creative people who are passionate about sharing the videos they make. We provide the best tools and highest quality video in the universe." />
+
+        
+<link rel="stylesheet" type="text/css" media="all" href="http://a.vimeocdn.com/combine.php?type=css&amp;version=69738&amp;files=global,lightbox,land,forage,embed,share,moo_rainbow&amp;ssl=0" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://a.vimeocdn.com/p/1.4.14/css/player.core.opt.css" />
+
+<!--[if gte IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://a.vimeocdn.com/css/ie.css?69738" />
+<![endif]-->
+
+<!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://a.vimeocdn.com/css/ie6.css?69738" />
+    <script type="text/javascript" src="http://a.vimeocdn.com/js/ie6.js?69738-1334714877"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://a.vimeocdn.com/combine.php?type=js&amp;version=69738&amp;files=mootools.v1.11_jsmin,mootools_ext,lab,land,forage,share,flash.detection,moo_rainbow,embed,paginator&amp;ssl=0"></script>
+    <script type="text/javascript" src="http://a.vimeocdn.com/p/1.4.14/js/player.core.opt.js"></script>
+
+<link rel="apple-touch-icon-precomposed" media="(resolution: 326dpi)" href="http://a.vimeocdn.com/images/apple-touch-icon-114.png" />
+<link rel="apple-touch-icon-precomposed" media="(resolution: 163dpi)" href="http://a.vimeocdn.com/images/apple-touch-icon-57.png" />
+<link rel="apple-touch-icon-precomposed" media="(resolution: 132dpi)" href="http://a.vimeocdn.com/images/apple-touch-icon-72.png" />
+        
+        
+    </head>
+    <body>
+        <input type="hidden" id="xsrft" class="xsrft" name="token" value="896466ce08462c07bb76b1c96d456596" />
+
+        <img src="http://a.vimeocdn.com/images/smoke.png" id="lightbox_wrapper" class="lightbox_wrapper" style="display:none;" alt="" />
+        <div id="lightbox"></div>
+
+        <div id="outer_wrap">
+    <div id="inner_wrap">
+        <div id="everything">
+            <div id="top">
+                <div id="logo"><a href="/"><img src="http://a.vimeocdn.com/images/logo_vimeo_land.png" alt="Vimeo" /></a></div>
+                <div id="newmenudo">
+    <div id="capright" class="menudo_image"></div>
+    <ul id="nav" class="grandpappy">
+        <li class="firstborn search" id="menudo_search_subtier">
+            <div class="rounded_input">
+                <div class="contain menudo_image">
+                    <form action="/videos/" method="get" onsubmit="menudo_search(); return false;">
+                        <input name="search" id="menudo_search_field" type="text" onblur="menudo_search_blur()" onclick="menudo_search_click()" value="Search Videos" class="field"  autocomplete="off" maxlength="50" />
+                        <input type="submit" value="" onclick="menudo_search(); return false;" class="button" />
+                    </form>
+                </div>
+            </div>
+            <ul class="dotted favoritechild menudo_subtier">
+                <li id="menudo_search_videos" class="first selected first">
+                    <a href="javascript:void(0)" onclick="menudo_search_change('Videos')">Search Videos</a>
+                    <div class="left_shoulder menudo_image"></div>
+                    <div class="right_shoulder menudo_image"></div>
+                </li>
+                <li id="menudo_search_people" class=""><a href="javascript:void(0)" onclick="menudo_search_change('People')">Search People</a></li>
+                <li id="menudo_search_groups" class=""><a href="javascript:void(0)" onclick="menudo_search_change('Groups')">Search Groups</a></li>
+                <li id="menudo_search_channels" class=""><a href="javascript:void(0)" onclick="menudo_search_change('Channels')">Search Channels</a></li>
+                <li id="menudo_search_forums" class="last"><a href="javascript:void(0)" onclick="menudo_search_change('Forums')">Search Forums</a></li>
+                <li style="margin-top: 0px; background: transparent;">
+                    <div class="cheek_left menudo_image"></div>
+                    <div class="cheek_fill"></div>
+                    <div class="cheek_right menudo_image"></div>
+                </li>
+            </ul>
+                    </li>
+        <li class="firstborn help">
+            <a class="label" href="/help">Help</a>
+            <ul class="dotted favoritechild">
+                <li class="first">
+                    <div class="left_shoulder menudo_image"></div>
+                    <div class="right_shoulder menudo_image"></div>
+                    <a href="/help">Help Center</a>
+                </li>
+                                    <li><a href="/help/basics">Vimeo Basics</a></li>
+                
+                                    <li><a href="/guidelines">Community Guidelines</a></li>
+                
+                <li><a href="/forums">Community Forums</a></li>
+                <li class="last"><a href="/api">Developers</a></li>
+                <li style="margin-top: 0px; background: transparent;">
+                    <div class="cheek_left menudo_image"></div>
+                    <div class="cheek_fill"></div>
+                    <div class="cheek_right menudo_image"></div>
+                </li>
+            </ul>
+        </li>
+        <li class="firstborn explore" id="menudo_explore">
+            <a href="/explore" class="label">Explore</a>
+            <ul class="favoritechild dotted">
+                <li class="first">
+                    <a href="/videoschool">Video School</a>
+                    <div class="left_shoulder menudo_image"></div>
+                    <div class="right_shoulder menudo_image"></div>
+                </li>
+                <li><a href="/musicstore">Music Store<span class="new">New!</span></a></li>
+                <li><a href="/perks">Perks<span class="new">New!</span></a></li>
+                <li><a href="/categories">Categories</a></li>
+                                    <li><a href="/groups">Groups</a></li>
+                    <li><a href="/channels">Channels</a></li>
+                                <li><a href="/hd">HD Videos</a></li>
+                <li><a href="/staffpicks">Staff Picks</a></li>
+                <li class="last"><a href="/everywhere">Everywhere</a></li>
+                <li style="margin-top: 0px; background: transparent;">
+                    <div class="cheek_left menudo_image"></div>
+                    <div class="cheek_fill"></div>
+                    <div class="cheek_right menudo_image"></div>
+                </li>
+            </ul>
+        </li>
+                    <li class="firstborn login">
+                                    <a class="label" href="/log_in" rel="nofollow">Log In</a>
+                            </li>
+            <li class="firstborn join">
+                <a href="/join" title="Join Vimeo"><div class="joinimage loggedout"></div></a>
+            </li>
+            </ul>
+    </div>            </div>
+
+                            <div id="cap" class="native"></div>
+            
+            <div id="main">
+                <div id="header">
+                    <h1>Welcome, you're new, aren't you?</h1>
+                    <div id="intro">
+                        Vimeo is a respectful community of creative people who are passionate about sharing the videos they make. We provide the best tools and highest quality video in the universe. See for yourself and <a href="/join" rel="nofollow">Join today!</a>
+                        <img src="http://a.vimeocdn.com/images/white940.gif" alt="" id="wgo_topline" />
+                        <img src="http://a.vimeocdn.com/images/white940.gif" alt="" id="wgo_bottomline" />
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column" id="columnA">
+
+                        <div id="tabs">
+                            <ul>
+                                <li class="active">
+                                    <div id="videos" class="softcorner native tab" style="background-color: #f4f4ee; -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius: 10px; -moz-border-radius-topright: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius: 10px; " onclick="tab_stream(this);">
+	Videos we like</div>                                </li>
+                                <li>
+                                    <div id="explore" class="softcorner native tab" style="background-color: #f4f4ee; -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius: 10px; -moz-border-radius-topright: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius: 10px; " onclick="tab_stream(this);">
+	Explore</div>                                </li>
+                                <li>
+                                    <div id="activity" class="softcorner native tab" style="background-color: #f4f4ee; -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius: 10px; -moz-border-radius-topright: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius: 10px; " onclick="tab_stream(this);">
+	Right now</div>                                </li>
+                            </ul>
+
+                            <div class="clear"></div>
+                        </div>
+
+                                                <div id="content_wrapper" class="softcorner native" style="background-color: #e6e6dc; -moz-border-radius-topright: 15px; -webkit-border-top-right-radius: 15px; border-top-right-radius: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-bottom-right-radius: 15px; border-bottom-right-radius: 15px; -moz-border-radius-bottomleft: 15px; -webkit-border-bottom-left-radius: 15px; border-bottom-left-radius: 15px; " >
+	<div id="stream_loading" style="display:none;">Loading...</div>
+
+                            <div id="videos_content">
+                                                                <div id="videos_meat" class="softcorner native" style="background-color: #ffffff; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; " >
+	<div class="vimeo_holder" style="position:relative;width:560px;height:312px">
+            <style>
+            .vimeo_holder div, .vimeo_holder dl, .vimeo_holder dt, .vimeo_holder dd, .vimeo_holder ul, .vimeo_holder ol, .vimeo_holder li, .vimeo_holder h1, .vimeo_holder h2, .vimeo_holder h3, .vimeo_holder h4, .vimeo_holder h5, .vimeo_holder h6, .vimeo_holder pre, .vimeo_holder form, .vimeo_holder fieldset, .vimeo_holder input, .vimeo_holder textarea, .vimeo_holder p, .vimeo_holder blockquote, .vimeo_holder th, .vimeo_holder td{margin:0;padding:0;}
+            .vimeo_holder div, .vimeo_holder aside, .vimeo_holder header {background:transparent;}
+            .vimeo_holder table{border-collapse:collapse;border-spacing:0;}
+            .vimeo_holder fieldset, .vimeo_holder img{border:0;}
+            .vimeo_holder address, .vimeo_holder caption, .vimeo_holder cite, .vimeo_holder code, .vimeo_holder dfn, .vimeo_holder em, .vimeo_holder strong, .vimeo_holder th, .vimeo_holder var{font-style:normal;font-weight:normal;}
+            .vimeo_holder ol, .vimeo_holder ul {list-style:none;}
+            .vimeo_holder caption, .vimeo_holder th {text-align:left;}
+            .vimeo_holder q:before, .vimeo_holder q:after{content:'';}
+            .vimeo_holder abbr, .vimeo_holder acronym {border:0;}
+            .vimeo_holder * {line-height: normal;}
+        </style>
+        <!--[if lt IE 9]><style scoped="scoped">.a.d .ab {display: block;}.a.d .bp {background: #000;filter: alpha(opacity='70');}</style><![endif]--><style scoped="scoped">.f {overflow: hidden;padding: 0;margin: 0;width: 100%;height: 100%;background: transparent;}.f > div {width: 100%;height: 100%;}.f .t .at,.f .t .b {visibility: hidden !important;}.f .t .k,.f .t .j,.f .t .b {opacity: 0;filter:alpha(opacity=0);}.f .ab {position: absolute;left: 0;top: 0;z-index: 1;width: 100%;height: 100%;background-position: 50% 50%;background-repeat: no-repeat;background-color: #000;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;background-size: 100% auto;}.by.t .ab + div {position: absolute;z-index: 2;opacity: 1 !important;}.f .x,.f .w {background: #000;}.f .x .ab {-webkit-background-size: auto 100% !important;-moz-background-size: auto 100% !important;background-size: auto 100% !important;}.f .w .ab {-webkit-background-size: 100% auto !important;-moz-background-size: 100% auto !important;background-size: 100% auto !important;}.f object {z-index: 2;position: absolute;}body.aa {overflow: hidden;}body.aa .f .b, .a.r .b {max-width: 50%;margin-left: -25%;left: 50%;}.br {display: none !important;}.an {opacity: 0 !important;filter: alpha(opacity='0');}.bn {visibility: hidden !important;}</style><div id="player_40477489_180779306" class="f player"><style scoped="scoped">.a aside button.z.ce:after {content: 'Remove';}.a aside button.z:after {content: 'Later';}.a aside button.bl.ce:after {content: ' on';}.a aside button.bl:after {content: ' off';}</style><div class="t"><div class="bf"><div class="ab br" style="background-image: url(http://b.vimeocdn.com/ts/279/878/279878356_640.jpg);" data-thumb="http://b.vimeocdn.com/ts/279/878/279878356_640.jpg"></div></div><div class="at"><header class="k"><div class="v"><a href="http://vimeo.com/evert1"><img width="60" height="60" src="http://b.vimeocdn.com/ps/271/389/2713892_75.jpg" alt=""></a></div><hgroup><h1><a href="http://vimeo.com/40477489" class="ch">JETMAN</a></h1><h4>from&nbsp;<a href="http://vimeo.com/evert1" class="ch">Evert Cloetens&nbsp;<span class="ar dk">Plus</span></a></h4></hgroup></header><aside class="j"><button class="cs av"><canvas width="30" height="20"></canvas>Like</button><button class="z av"><canvas width="30" height="20"></canvas></button><button class="cf av"><canvas width="30" height="20"></canvas>Share</button><button class="aw av"><canvas width="30" height="20"></canvas>Embed</button><button class="bl av">Scaling is</button></aside></div><div class="b"><button class="as av"><canvas width="20" height="20"></canvas></button><div class="h av"><div class="i"><canvas class="bt" height="8"></canvas><div class="bs" data-min="0" data-max="1"></div><div class="bq" data-min="0" data-max="1"></div><div class="m"><div class="n"><span>00:00</span><div class="ax"></div><div class="dj"></div></div></div><div class="af"><div class="n"><span>248</span><div class="ax cn"></div><div class="ax"></div></div></div></div><div class="be"><canvas width="34" height="15"></canvas></div><div class="aq on"><button>HD</button></div><div class="r"><canvas width="12" height="12"></canvas></div></div></div><div class="e br"></div><div class="bp br"></div></div></div></div>
+                                    <div id="clips">
+                                        <ul class="videos">
+				<li class="top">
+			<a href="/40291524"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/278/359/278359387_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/40291524">The Boundaries of Life and Death</a></h3>
+				<div class="byline">by <a href="/user11094289">Saskia&nbsp;Kretzschmann</a> 4 days ago</div>
+				<div class="description">"The Boundaries which divide life from death are at best shadowy and vague. Who shall say where the one ends, and where the other begins?"&hellip;</div>
+				<div class="stat"><span class="likes"><strong>240</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+					<li>
+			<a href="/39696941"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/273/919/273919794_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/39696941">The Truth About Stanley</a></h3>
+				<div class="byline">by <a href="/thetruthaboutstanley">www.thetruthaboutstanley.com</a> 2 weeks ago</div>
+				<div class="description">No home, no belongings, plenty of baggage. A short film about a man, his stories and the boy who listened, by award-winning director&hellip;</div>
+				<div class="stat"><span class="likes"><strong>89</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+					<li>
+			<a href="/39432556"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/271/989/271989083_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/39432556">Slugabed 'Sex'</a></h3>
+				<div class="byline">by <a href="/user2625100">Chris&nbsp;Ullens</a> 2 weeks ago</div>
+				<div class="description">Music video directed and animated by Chris Ullens for Slugabed's 'Sex' track on Ninja Tune.
+
+Commissioned for Ninja Tune by Martin&hellip;</div>
+				<div class="stat"><span class="likes"><strong>173</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+					<li>
+			<a href="/40477489"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/279/878/279878356_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/40477489">JETMAN</a></h3>
+				<div class="byline">by <a href="/evert1">Evert&nbsp;Cloetens</a> 1 day ago</div>
+				<div class="description">The ultimate dream of flight - soaring through the air, with total freedom in all three dimensions, not within a heavy and complicated&hellip;</div>
+				<div class="stat"><span class="likes"><strong>387</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+					<li>
+			<a href="/35058030"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/255/256/255256619_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/35058030">Jericho</a></h3>
+				<div class="byline">by <a href="/user2277556">Liam&nbsp;Gavin</a> 3 months ago</div>
+				<div class="description">Short film 
+Written and Directed by Liam Gavin.
+
+SCREENINGS & AWARDS
+*Grand Jury Prize: Yasujiro Ozu International Short Film Festival*&hellip;</div>
+				<div class="stat"><span class="likes"><strong>194</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+					<li>
+			<a href="/39763162"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/274/428/274428025_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/39763162">Steve Aoki ft. Kid Cudi & Travis Barker 'Cudi The Kid'</a></h3>
+				<div class="byline">by <a href="/jamsutton">Jam&nbsp;Sutton</a> 1 week ago</div>
+				<div class="description">Director: Jam Sutton http://www.jamsutton.com
+Edit & Post Production: Jam Sutton
+Production: Doomsday Entertainment
+Exec. Producer:&hellip;</div>
+				<div class="stat"><span class="likes"><strong>412</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+					<li>
+			<a href="/40351643"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/278/785/278785807_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/40351643">No Money Down Low Monthly Payments</a></h3>
+				<div class="byline">by <a href="/lukasvojir">Lukas&nbsp;Vojir</a> 3 days ago</div>
+				<div class="description">No Money Down Low Monthly Payments
+
+Music: Nero's Day at Disneyland (http://www.myspace.com/nerosdayatdisneland)
+Art/Direction/3D/Motion:&hellip;</div>
+				<div class="stat"><span class="likes"><strong>644</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+					<li>
+			<a href="/36689556"><div class="thumbnail"><img src="http://b.vimeocdn.com/ts/251/699/251699385_200.jpg" width="125" height="94" alt="" /></div></a>
+			<div class="digest">
+				<h3><a href="/36689556">THE END IS A BEGINNING - SEAN PECKNOLD</a></h3>
+				<div class="byline">by <a href="/user8154042">DRAGONFRAME</a> 2 months ago</div>
+				<div class="description">New short film by Sean Pecknold.</div>
+				<div class="stat"><span class="likes"><strong>200</strong> likes</span></div>
+			</div>
+
+			<div class="clear"></div>
+		</li>
+										
+</ul>
+
+ 
+<div class="pagination">
+	<ul>
+			<li class="selected">1</li>
+	
+
+			
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(2); return false;" >2</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(3); return false;" >3</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(4); return false;" >4</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(5); return false;" >5</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(6); return false;" >6</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(7); return false;" >7</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(8); return false;" >8</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(9); return false;" >9</a></li>
+				
+		
+					<li><a href="javascript:void(0)" onclick="page_home_videos(10); return false;" >10</a></li>
+				
+		
+			<li class="dots">...</li>
+			
+
+			<li><a href="javascript:void(0)" onclick="page_home_videos(38); return false;" >38</a></li>
+		
+		<li class="arrow"><a href="javascript:void(0)" onclick="page_home_videos(2); return false;" ><img src="http://a.vimeocdn.com/images/page_arrow_next_on.gif" alt="next" /></a></li>		
+		</ul>
+	<div class="clear"></div>
+</div>
+
+                                    </div></div>                            </div>
+
+                            <div id="explore_content" style="display:none;"></div>
+                            <div id="activity_content" style="display:none;"></div></div>                    </div>
+
+                    <div class="column" id="columnB">
+                        <a href="/join" rel="nofollow"><img src="http://a.vimeocdn.com/images/btn_signup.png" alt="Sign up for Vimeo" class="signup" width="300" height="50" /></a>
+
+                        
+    <div class="nippleBox ad_box">
+	<div class="bar" style="background-color: #4ebaff;">
+		<h4>Advertisement</h4>	</div>
+	<div class="nipple" style="border-top-color: #4ebaff;"></div>
+	<div class="content">
+		<div class="ad" id="dfp-ad-1" style="width:300px; height:250px;">
+            <iframe src="http://ad.doubleclick.net/adi/5480.iac.vimeo/home_logged_out;clipid=;tile=1;sz=300x250;s=vm;ord=196131191?" width="300" height="250" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no">
+            <script language="JavaScript" src="http://ad.doubleclick.net/adj/5480.iac.vimeo/home_logged_out;clipid=;tile=1;sz=300x250;s=vm;ord=196131191?" type="text/javascript"></script>
+            <noscript><a href="http://ad.doubleclick.net/jump/5480.iac.vimeo/home_logged_out;clipid=;tile=1;sz=300x250;s=vm;ord=196131191?" target="_blank"><img src="http://ad.doubleclick.net/ad/5480.iac.vimeo/home_logged_out;clipid=;tile=1;sz=300x250;s=vm;ord=196131191?"></a></noscript>
+            </iframe>
+
+    </div>	</div>
+</div>
+                                                <div class="nippleBox arrogantSunflower">
+	<div class="bar">
+		<h4>Staff Blog</h4>	</div>
+	<div class="nipple"></div>
+	<div class="content">
+		<div id="blog" class="blog">
+                            <h3><a href="/blog:485">Help Us Choose The World’s Best Videos — Vote in the Vimeo Festival + Awards Now!</a></h3>
+                            <p>You've got opinions, right? Because at this moment, we really want to hear them. We just unfurled the shortlists for the 2012 Vimeo Festival + Awards,&hellip;</p>
+                            <div class="digest">
+                                <a href="/sniebauer"><img  src="http://b.vimeocdn.com/ps/341/512/3415127_30.jpg" alt="" title="Stephen Niebauer" width="30" height="30" class="portrait" /></a>                                <div class="byline">by <a href="/sniebauer">Stephen Niebauer</a> 6 hours ago</div>
+                                <div class="clear"></div>
+                            </div>
+                            <p class="see_more"><a href="/blog">See more from the Staff Blog</a></p>
+                        </div>	</div>
+</div>
+                        <div class="nippleBox arousedBaboon">
+	<div class="bar">
+		<h4>Explore Vimeo</h4>	</div>
+	<div class="nipple"></div>
+	<div class="content">
+		<div class="products">
+        <ul class="dottedlist">
+            <li class="first">
+                <a href="/plus" id="product_plus">
+                    <div class="home_icon"></div>
+                    <h3>Vimeo Plus</h3>
+                    <p>An affordable way for you to take your Vimeo experience to the next level.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <a href="/pro" id="product_pro">
+                    <div class="home_icon"></div>
+                    <h3>Vimeo PRO</h3>
+                    <p>Simple and affordable video-hosting for businesses.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <a href="/videoschool" id="product_vvs">
+                    <div class="home_icon"></div>
+                    <h3>Video School</h3>
+                    <p>A fun place for anyone to learn how to make better videos.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <a href="/categories" id="product_categories">
+                    <div class="home_icon"></div>
+                    <h3>Categories</h3>
+                    <p>An ever-changing catalog of Vimeo's great content and active communities.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <a href="/groups" id="product_groups">
+                    <div class="home_icon"></div>
+                    <h3>Groups</h3>
+                    <p>Share your videos with communities of people who have similar interests.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <a href="/channels" id="product_channels">
+                    <div class="home_icon"></div>
+                    <h3>Channels</h3>
+                    <p>A simple and beautiful way for anyone to showcase and watch videos.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <a href="/musicstore" id="product_music">
+                    <div class="home_icon"></div>
+                    <h3>Music Store</h3>
+                    <p>Discover, download, and license music for your videos.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+            <li class="last">
+                <a href="/perks" id="product_perks">
+                    <div class="home_icon"></div>
+                    <h3>Perks</h3>
+                    <p>Get awesome discounts on the products you need.</p>
+                </a>
+                <div class="clear"></div>
+            </li>
+        </ul>
+    </div>	</div>
+</div>                    </div>
+
+                    <div class="clear"></div>
+                </div>
+
+                <div id="footer">
+                    <div class="legal_container">
+                        TM + &copy;2012 Vimeo, LLC. All rights reserved. <a href="/about">About</a> / <a href="/jobs">Jobs</a> / <a href="/guidelines">Community Guidelines</a> / <a href="/blog">Blog</a> / <a href="/terms" rel="nofollow">Terms of Service</a> / <a href="/privacy" rel="nofollow">Privacy Statement</a> / <a href="/videoschool">Video School</a> / <a href="/musicstore">Music Store</a> / <a href="/help">Help Center</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://action.media6degrees.com/orbserv/hbjs?pixId=5985&amp;pcv=68" type="text/javascript"></script><script type="text/javascript">
+document.addEvent('domready', function() {
+    var iframes = $E('iframe', 'blog');
+    if (iframes) {
+        iframes.setStyles('width:300px;height:200px');
+    }
+});
+</script>
+        <script type="text/javascript">
+    var vimeo_startup = {
+        domain: '.vimeo.com',
+        vimeo_url: 'vimeo.com'
+    },
+    vimeo = {
+        app_version: 'v5'
+    };
+
+            var PRO_USER_OPTED_IN = false;
+    
+    </script>
+<script type="text/javascript" src="http://a.vimeocdn.com/js/global.js?69738-1334714877"></script>
+<script type="text/javascript">
+                        
+                    var cur_search_type = 'Videos';
+                                    var player40477489_180779306,player40477489_180779306_element = document.getElementById('player_40477489_180779306'),clip40477489_180779306 = {config:{"request":{"cached_timestamp":1334714763,"source":"cache","signature":"4c683168ab5c816d8242729f99342015","timestamp":1334714877,"expiration":21600,"referrer":"","vimeo_url":"vimeo.com","player_url":"player.vimeo.com","cdn_url":"a.vimeocdn.com","cookie_domain":".vimeo.com"},"video":{"id":40477489,"title":"JETMAN","width":1280,"height":720,"duration":248,"url":"http:\/\/vimeo.com\/40477489","thumbnail":"http:\/\/b.vimeocdn.com\/ts\/279\/878\/279878356_640.jpg","embed_code":"<iframe src=\"http:\/\/player.vimeo.com\/video\/40477489?title=0&amp;byline=0&amp;portrait=0\" width=\"400\" height=\"225\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe><p><a href=\"http:\/\/vimeo.com\/40477489\">JETMAN<\/a> from <a href=\"http:\/\/vimeo.com\/evert1\">Evert Cloetens<\/a> on <a href=\"http:\/\/vimeo.com\">Vimeo<\/a>.<\/p>","hd":1,"owner":{"name":"Evert Cloetens","portrait":"http:\/\/b.vimeocdn.com\/ps\/271\/389\/2713892_75.jpg","url":"http:\/\/vimeo.com\/evert1"},"stats":{"comments":26,"likes":387,"plays":12010},"files":{"h264":["hd","sd","mobile"]},"smil":{"url":"https:\/\/player.vimeo.com\/config\/40477489.smil","qualities":["hd","sd","mobile"]}},"security":{"embed_permission":"public","hd_embed":1,"privacy":"anybody"},"analytics":{"ga_account":"UA-76641-35","comscore_c1":"1","comscore_c2":"10348289"},"user":{"liked":0,"watch_later":0,"preferences":{"hd":1,"scaling":1,"volume":100,"html":2},"status":{"mod":0,"logged_in":0,"owner":0}},"embed":{"alt_color":"c0c0c0","color":"00adef","autoplay":false,"loop":0,"pause_info":1,"on_site":1,"api":{"on":0,"player_id":null,"version":1},"toggle":{"badge":0,"byline":1,"portrait":1,"title":1,"byline_badge":{"type":"plus","image":"http:\/\/a.vimeocdn.com\/images\/plus_icon.gif","url":"http:\/\/vimeo.com\/evert1"},"embed":1,"hd":1,"like":1,"scaling":1,"share":1,"watch_later":1,"playbar":1,"fullscreen":1,"logo":0,"custom_logo":0,"volume":1},"outro":{"type":"nothing"}}},assets: {"js_path":"http:\/\/a.vimeocdn.com\/p\/1.4.14\/js\/","css_path":"http:\/\/a.vimeocdn.com\/p\/1.4.14\/css\/","ming":{"touch":{"css":["player.touch.opt.css"],"js":["player.touch.js"]},"mobile":{"css":["player.mobile.opt.css"],"js":["player.mobile.js"]},"desktop":{"css":["player.desktop.opt.css"],"js":["player.desktop.js"]}},"moogaloop":["swfobject.v2.2.js"],"cache":1},uniqueId: '40477489_180779306',options: {ming: {html_path: "http://a.vimeocdn.com/p/1.4.14/html_opt",css_path: "http://a.vimeocdn.com/p/1.4.14/css/player.overlays.opt.css",version: '1.4.14'},moogaloop: {force_embed: 0,force_info: 1,ref_id: 'player40477489_180779306',swfs: {cover: {desktop: "http:\/\/a.vimeocdn.com\/p\/flash\/moogalover\/1.1.17\/moogalover.swf?v=1.0.0",mobile: "http:\/\/a.vimeocdn.com\/p\/flash\/mobilover\/1.1.17\/mobilover.swf?v=1.0.0"},player: {desktop: "http:\/\/a.vimeocdn.com\/p\/flash\/moogaloop\/5.2.22\/moogaloop.swf?v=1.0.0",mobile: "http:\/\/a.vimeocdn.com\/p\/flash\/mobiloop\/1.2.22\/mobiloop.swf?v=1.0.0"}},versions: {player: '5.2.22',cover: '1.1.17',js: '1.4.14'}},noplayer: {html_path: "http://a.vimeocdn.com/p/1.4.14/html_opt",css_path: "http://a.vimeocdn.com/p/1.4.14/css/player.overlays.opt.css"}},thumbs: {1280: 'http://b.vimeocdn.com/ts/279/878/279878356_1280.jpg',960: 'http://b.vimeocdn.com/ts/279/878/279878356_640.jpg',640: 'http://b.vimeocdn.com/ts/279/878/279878356_640.jpg'}};Player.checkRatio(player40477489_180779306_element.getElementsByTagName('div')[0],player40477489_180779306_element.getElementsByTagName('div')[0].getElementsByTagName('div')[0],clip40477489_180779306.config);function initPlayer40477489_180779306() {player40477489_180779306 = new Player(player40477489_180779306_element,clip40477489_180779306,Player.init.loader);}Player.init.queue.push(initPlayer40477489_180779306);if (!Player.init.loaderAdded) {window.addEvent('domready', function() {Player.init.loader();});Player.init.loaderAdded = true;}var _gaq = _gaq || [];            
+    EventCenter.fire('domready');
+</script>
+
+        <script type="text/javascript">
+    function trigger_pageview(url) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_trackPageview', url]);
+    }
+
+   function add_custom_var(name, value, level, slot) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_setCustomVar', slot, name, value, level]);
+   }
+
+    var _comscore = _comscore || [],
+        _gaq = _gaq || [];
+
+    _comscore.push({
+        c1: "2",
+        c2: "10348289"
+    });
+
+    _gaq.push(
+        ['_setAccount', "UA-76641-8"],
+        ['_setDomainName', 'vimeo.com'],
+                    ['_setLocalRemoteServerMode'],
+            ['_setLocalGifPath', 'http://utmtrk.vimeo.com/__utm.gif'],
+                        ['_setCustomVar', 1, 'user_status', 'logged_out', 2],
+        ['_setCustomVar', 5, 'version', 'v5', 3],
+        ['_trackPageview']      );
+
+    $LAB.script([
+        "http://b.scorecardresearch.com/beacon.js",
+        "http://www.google-analytics.com/ga.js"
+    ]);
+</script>    </body>
+</html>

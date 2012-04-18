@@ -1,0 +1,652 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script  language="javascript" type="text/javascript">
+	thisNode = 'homepage';
+	commercialNode = 'homepage';
+</script>
+
+<script language="javascript" type="text/javascript" src="http://www.washingtonpost.com/wp-srv/ad/wpni_generic_ad.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.washingtonpost.com/wp-srv/ad/express_ad.js"></script>
+
+
+<HTML>
+
+<HEAD>
+<TITLE>
+
+                        Washington Post Express: Music, Film, Food, Arts, Events, Style, Fitness in D.C.</TITLE>
+
+	
+	<META NAME="Generator" CONTENT="EditPlus">
+	<META NAME="Author" CONTENT="The Washington Post Company">
+	<META NAME="Keywords" CONTENT="Washington Post Express, Express, Washington Post, DC restaurants, DC music, DC food, DC happy hours, Washington DC events, movies in DC">
+	<META NAME="Description" CONTENT="Express, The Washington Post's free daily, covers dining, music, movies, arts, fitness, shopping and more in Washington D.C., Maryland and Virginia.">
+	
+	<!-- v04 master CSS -->
+	<link rel="stylesheet" href="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_css/master.css" type="text/css" media="all">	
+
+	<!-- Webtype -->
+	<link href="http://cloud.webtype.com/css/603c74dd-0390-4e6a-ac28-f210372f94c1.css" rel="stylesheet" type="text/css" />
+
+	<!-- the necessary css for UItoTop -->	
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_css/ui.totop.css" />
+
+	<!-- the necessary css for nyroModal -->	
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_css/nyroModal.css" />
+
+	<script language="javascript">
+	   var templateURL = 'http://www.expressnightout.com/wp-content/themes/eno_v04.1';
+	</script>
+
+	<!-- v04 master JS -->
+	<script language="javascript" type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_js/master.js"></script>
+
+	<!-- jquery v1.5.1 min -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+	<!-- Slides jquery plugin -->
+	<script type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_js/slides.min.jquery.js"></script>
+
+	<!-- Reflection jquery plugin -->
+	<script type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_js/reflection.js"></script>
+
+	<!-- Easing jquery plugin ( optional for UItoTop jquery plugin ) -->
+	<script type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_js/easing.js"></script>
+
+	<!-- UItoTop jquery plugin -->
+	<script type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_js/jquery.ui.totop.js"></script>
+
+	<!-- nyroModal v2 jquery plugin from http://nyromodal.nyrodev.com/ -->
+	<script type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_js/jquery.nyroModal.custom.min.js"></script>
+	<!--[if IE 6]>
+		<script type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/jquery.nyroModal-ie6.min.js"></script>
+	<![endif]-->
+
+	<!-- jstarget plugin from http://www.456bereastreet.com/archive/200610/opening_new_windows_with_javascript_version_12/ -->
+	<script type="text/javascript" src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_js/v04jstarget.js"></script>
+
+	<script type="text/javascript">
+
+		/* Slides */
+		$(function(){
+			$("#slides").slides({
+				start: 8,
+				animationComplete: function(current) {
+					if (current == 1)
+					{
+						document.getElementById('slides_prev_disabled').style.display = "block";
+					}
+					else
+					{
+						document.getElementById('slides_prev_disabled').style.display = "none";
+					}
+					if (current == 8)
+					{
+						document.getElementById('slides_next_disabled').style.display = "block";
+					}
+					else
+					{
+						document.getElementById('slides_next_disabled').style.display = "none";
+					}
+				}
+			});
+		});
+
+		/* UItoTop */
+
+		$(document).ready(function() {
+
+			$("#slides").css({'left':'0px'});
+
+			/*
+			var defaults = {
+	  			containerID: 'moccaUItoTop', // fading element id
+				containerHoverClass: 'moccaUIhover', // fading element hover class
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+	 		};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+			/* Contests Auto-click */
+					});
+
+
+	</script>
+
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-25912361-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+	<link rel="alternate" type="application/rss+xml" title="Express Night Out &raquo; Feed" href="http://www.expressnightout.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Express Night Out &raquo; Comments Feed" href="http://www.expressnightout.com/comments/feed/" />
+<link rel='stylesheet' id='pbd-alp-style-css'  href='http://www.expressnightout.com/wp-content/plugins/pbd-ajax-load-posts/css/style.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.expressnightout.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+</HEAD>
+
+<body onload="anchorSlideDown();">
+<div id="header">
+	<div id="header_container">
+		<a href="/" class="logo"></a>
+		<form action="http://www.expressnightout.com" id="searchform" method="get">
+    <div>
+        <input type="text" value="" name="s" id="s" class="text"/>
+		<input type="submit" id="searchsubmit" value="" class="submit"/>
+    </div>
+</form>
+
+		<a href="http://twitter.com/expressnightout" target="_new" class="twitter"></a>
+		<a href="http://www.facebook.com/pages/Express-A-Publication-of-The-Washington-Post/38931805774" target="_new" class="facebook"></a>
+	</div>
+</div>
+
+<div id="container">
+	<div id="mainrail">
+		<a href="http://expressafterdeadline.tumblr.com/" class="afterdeadline" target="_new"></a>	
+		<div id="nav">
+			<span class="left">
+				<span class="tag"></span>
+				<a href="/" class="link"></a>
+			</span>			
+			<a href="/" class="all">all stories</a>
+			<a href="/category/arts/" class="arts" onmouseover="toggleNav('overlay_arts','show');" onmouseout="toggleNav('overlay_arts','hide');">arts, etc.</a>
+			<a href="/category/food-drink/" class="foodanddrink">food & drink</a>
+			<a href="/category/styles/" class="styles" onmouseover="toggleNav('overlay_styles','show');" onmouseout="toggleNav('overlay_styles','hide');">styles</a>
+			<a href="/category/fit/" class="fit">fit</a>
+			<a href="/category/columns/" class="columns" onmouseover="toggleNav('overlay_columns','show');" onmouseout="toggleNav('overlay_columns','hide');">columns</a>
+			<div id="overlay_arts" onmouseover="toggleNav('overlay_arts','show');" onmouseout="toggleNav('overlay_arts','hide');">
+				<a href="/category/arts/" class="mainlink">arts, etc.</a>
+				<a href="/category/arts/music/">&nbsp; &nbsp;Music</a>
+				<a href="/category/arts/film/">&nbsp; &nbsp;Film</a>
+				<a href="/category/arts/stage/">&nbsp; &nbsp;Stage</a>
+				<a href="/category/arts/books/">&nbsp; &nbsp;Books</a>
+				<a href="/category/arts/exhibits/">&nbsp; &nbsp;Exhibits</a>
+				<a href="/category/arts/television/">&nbsp; &nbsp;Television</a>
+				<a href="/category/arts/comedy/">&nbsp; &nbsp;Comedy</a>
+				<a href="/category/arts/etc/">&nbsp; &nbsp;etc.</a>
+			</div>
+			<div id="overlay_styles" onmouseover="toggleNav('overlay_styles','show');" onmouseout="toggleNav('overlay_styles','hide');">
+				<a href="/category/styles/" class="mainlink">styles</a>
+				<a href="/category/styles/fashion/">&nbsp; &nbsp;Fashion</a>
+				<a href="/category/styles/home/">&nbsp; &nbsp;Home</a>				
+				<a href="/category/styles/grab-bag/">&nbsp; &nbsp;Grab Bag</a>
+				<a href="/category/styles/bio/">&nbsp; &nbsp;B.I.O.</a>
+			</div>
+			<div id="overlay_columns" onmouseover="toggleNav('overlay_columns','show');" onmouseout="toggleNav('overlay_columns','hide');">
+				<a href="/category/columns/" class="mainlink">columns</a>
+				<a href="/category/columns/baggage-check">&nbsp; &nbsp;Baggage Check</a>				
+				<a href="/category/columns/broadcast-muse/">&nbsp; &nbsp;Broadcast Muse</a>
+				<a href="/category/columns/dc-rider/">&nbsp; &nbsp;DC Rider</a>
+				<a href="/category/columns/dear-manolo/">&nbsp; &nbsp;Dear Manolo</a>
+				<a href="/category/columns/eaters-digest/">&nbsp; &nbsp;Eaters Digest</a>
+				<a href="/category/columns/inside-jokes/">&nbsp; &nbsp;Inside Jokes</a>				
+				<a href="/category/columns/sound-bets/">&nbsp; &nbsp;Sound Bets</a>				
+				<a href="/category/columns/speaker-of-the-blouse/">&nbsp; &nbsp;Speaker of the Blouse</a>				
+				<a href="/category/columns/the-reelist/">&nbsp; &nbsp;The Reelist</a>				
+			</div>
+		</div>
+		
+		<div id="content">			<ul id="stories">				
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/just-cant-get-enough/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/ZumbaChristopherVo-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="ZumbaChristopherVo" title="ZumbaChristopherVo" />						</span>
+						<span class="post">
+							<h2>
+								Fit							</h2>
+<h1>Just Can’t Get Enough</h1>							<span class="postoverflow_container">
+								<p>What does Christopher Vo — one of the principal dancers in “Come Fly Away” — do to take a break from the stage? Dance some more. In addition to being a professional ho...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/an-addiction-in-the-family/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/baggagecheckapril17-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="baggagecheckapril17" title="baggagecheckapril17" />						</span>
+						<span class="post">
+							<h2>
+								Baggage Check | Fit							</h2>
+<h1>An Addiction in the Family</h1>							<span class="postoverflow_container">
+								<p>My sister is a drug addict. She was hospitalized for heroin withdrawal, quickly signed herself out of rehab and recently had a blood clot in her lung. She doesn’t seem to re...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/the-body-eclectic/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/AJJacobs-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="You can ask A.J. Jacobs why getting as healthy as possible can make for a messy personal life when he speaks Wednesday at Sixth &amp; I Historic Synogague." title="AJJacobs" />						</span>
+						<span class="post">
+							<h2>
+								Fit							</h2>
+<h1>The Body Eclectic</h1>							<span class="postoverflow_container">
+								<p>“My Life as an Experiment” is more than the title of A.J. Jacobs’ 2009 book; it’s a declaration of journalistic intent. The comedic writer’s newest release, “Drop ...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/noisy-neighbors/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/Sound-bets-Christopher-Chen-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="Sound-bets-Christopher-Chen" title="Sound-bets-Christopher-Chen" />						</span>
+						<span class="post">
+							<h2>
+								Music | Sound Bets							</h2>
+<h1>Noisy Neighbors</h1>							<span class="postoverflow_container">
+								<p>Blogs can be tough work. Not the personal-journal kind, where you detail last night’s meal, but the regularly updated professional-looking type you have to maintain on time ...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/outside-in/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/floral1-e1334334402951-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="floral" title="floral" />						</span>
+						<span class="post">
+							<h2>
+								Home							</h2>
+<h1>Outside In</h1>							<span class="postoverflow_container">
+								<p>Click on the FTD website, and you can still order a snoozy bouquet of daisies or — distressingly — a dozen roses that seem to have been scribbled on with rainbow markers. ...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/professional-pumps/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/pargata1-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="pargata" title="pargata" />						</span>
+						<span class="post">
+							<h2>
+								Dear Manolo | Fashion							</h2>
+<h1>Professional Pumps</h1>							<span class="postoverflow_container">
+								<p>I am a tax attorney in a formal office. I work with charming elderly gentlemen who might drop dead if they encounter a naked toe at work. However, spring is passing towards su...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/change-of-a-dress/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/Mylie-Dress-e1334333304762-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="_Mylie-Dress" title="_Mylie-Dress" />						</span>
+						<span class="post">
+							<h2>
+								Grab Bag							</h2>
+<h1>Change of a Dress</h1>							<span class="postoverflow_container">
+								<p>Just like last season and the season before that and the season before that and … Shoshanna’s new collection of femme frocks and separates is killing it. Today, Urban Chic...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/face-time-trisha-yearwood/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/tricia-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="tricia" title="tricia" />						</span>
+						<span class="post">
+							<h2>
+								Food &amp; Drink | Television							</h2>
+<h1>Face Time: Trisha Yearwood</h1>							<span class="postoverflow_container">
+								<p>No, you’re not watching CMT — that’s really country music star Trisha Yearwood demo-ing recipes for Brunswick Stew and chicken barbecue on the Food Network. After the "S...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/snap-judgment/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/dcriderapril13-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="dcriderapril13" title="dcriderapril13" />						</span>
+						<span class="post">
+							<h2>
+								DC Rider							</h2>
+<h1>Snap Judgment</h1>							<span class="postoverflow_container">
+								<p>If I seem more drowsy than usual, it’s because I haven’t been able to sleep on the MARC train for weeks. The culprit? Photographer Eddie Winter’s collection of images of...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/a-home-of-your-very-own/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/first-place1-e1334173679611-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="Mandy Stahl, 29, moves into her new studio in Cleveland Park. Stahl left a group house in Mt. Pleasant, where she had three roommates, to find a place of her own." title="first-place1" />						</span>
+						<span class="post">
+							<h2>
+								Home							</h2>
+<h1>A Home of Your Very Own</h1>							<span class="postoverflow_container">
+								<p>In February, Mandy Stahl, 29, moved out of her room in a newly renovated row house in Mt. Pleasant that had three outdoor decks and ample space. The living arrangement was abo...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/whedons-world/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/cabinmirror-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="In any other movie, the woman in the mirror would definitely be a victim. But here?" title="cabinmirror" />						</span>
+						<span class="post">
+							<h2>
+								Film | Riffs							</h2>
+<h1>Whedon’s World</h1>							<span class="postoverflow_container">
+								<p>“The Cabin in the Woods,” opening Friday, is a horror movie with a twist: namely, it was written by Joss Whedon, who inspires rabid devotion from fans of his series “Buf...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/into-wheedons-woods/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/cabin2-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="Fran Kranz regrets ever having mocked &quot;Buffy.&quot;" title="cabin2" />						</span>
+						<span class="post">
+							<h2>
+								Film							</h2>
+<h1>Into Whedon&#8217;s &#8216;Woods&#8217;</h1>							<span class="postoverflow_container">
+								<p>It’s a typical horror movie set-up: Five hot, young college students spend a weekend at a creepy cabin in the woods. So, you know bad things are about to happen. But what do...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/reality-tv-makes-itself-at-home/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/03/ThisOldHouse3-e1333116648749-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="Heather Garcia, left, and her husband, Rick, far right, a Revolutionary War re-enactor, discuss their Alexandria home with Tom Silva while taping “Ask This Old House.”" title="ThisOldHouse" />						</span>
+						<span class="post">
+							<h2>
+								Home | Television							</h2>
+<h1>Reality TV Makes Itself at Home</h1>							<span class="postoverflow_container">
+								<p>In a light drizzle on a November morning, Heather and Rick Garcia stood outside their Old Town Alexandria house and greeted Tom Silva, a general contractor who stars on PBS’...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/rock-n-roll-power-plant/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/mnss-press-photo3-bassos-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="Richard Edwards, third from left, leads Chicago rockers Margot &amp; the Nuclear So and So’s — a band with exactly zero Margots." title="mnss-press-photo3-bassos" />						</span>
+						<span class="post">
+							<h2>
+								Music							</h2>
+<h1>Rock ’N’ Roll Power Plant</h1>							<span class="postoverflow_container">
+								<p>A few years ago, Richard Edwards relocated from Indianapolis a couple hundred miles north to Chicago — a short move that had a huge impact on the music he makes with Margot ...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+				
+				<li>
+					<a href="http://www.expressnightout.com/2012/04/emergent-situation/" class="containerlink">
+						<span class="image">
+							<img width="146" height="130" src="http://www.expressnightout.com/wp-content/uploads/2012/04/380_Main-photo-Tom-Oxley1-146x130.jpg" class="attachment-thumbnail wp-post-image" alt="The Ting Tings’ Jules de Martino and Katie White mix hip-hop beats and syrupy pop." title="380_Main-photo-Tom-Oxley" />						</span>
+						<span class="post">
+							<h2>
+								Music							</h2>
+<h1>Emergent Situation</h1>							<span class="postoverflow_container">
+								<p>Starting a long U.S. tour for a new record can be a nerve-wracking venture for even the most seasoned act. The U.K.-based Ting Tings faced an additional obstacle in March as t...</p>							</span>
+						</span>
+					</a>
+				</li>
+
+							</ul>
+
+			<div class="navigation">
+				<span class="previous"></span>
+				<span class="next"><a href="http://www.expressnightout.com/page/2/" >older stories</a></span>
+			</div>
+
+			<span class="footer"></span>
+		</div>
+	</div>	
+	<div id="rightrail_container">
+		<div id="rightrail">
+
+
+
+
+
+
+			<div id="printedition">
+				<span class="tag"></span>
+				<a href="javascript:void(0);" onclick="toggleCalendar('printedition_calendar');" class="calendar"></a>
+				<div id="printedition_calendar">
+					
+			<div id="calendar_container">
+				<div id="calendar">
+					<div id="calendar_header">
+						<a href="javascript:changeMonth2('2012-03');" id="calendar_header_previousarrow" class="enabled"></a>
+						<a href="javascript:void(0);" id="calendar_header_nextarrow" class="disabled"></a>
+
+	<span class="month">April 2012</span>
+
+					</div>
+					<div id="calendar_datecontainer">
+					<span class="dayofweek">S</span>
+							<span class="dayofweek">M</span>							
+							<span class="dayofweek">T</span>
+							<span class="dayofweek">W</span>
+							<span class="dayofweek">T</span>
+							<span class="dayofweek">F</span>
+							<span class="dayofweek">S</span>
+					
+						<div id="calendar_week">
+							<span class="daydisabled">1</span>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04022012.pdf" class="dayenabled">2</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04032012.pdf" class="dayenabled">3</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04042012.pdf" class="dayenabled">4</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04052012.pdf" class="dayenabled">5</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04062012.pdf" class="dayenabled">6</a>
+							<span class="daydisabled">7</span>
+</div>
+						<div id="calendar_week">
+							<span class="daydisabled">8</span>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04092012.pdf" class="dayenabled">9</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04102012.pdf" class="dayenabled">10</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04112012.pdf" class="dayenabled">11</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04122012.pdf" class="dayenabled">12</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04132012.pdf" class="dayenabled">13</a>
+							<span class="daydisabled">14</span>
+</div>
+						<div id="calendar_week">
+							<span class="daydisabled">15</span>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04162012.pdf" class="dayenabled">16</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04172012.pdf" class="dayenabled">17</a>
+							<a href="http://www.expressnightout.com/printedition/PDF/EXPRESS_04182012.pdf" class="todayenabled">18</a>
+							<span class="daydisabled">19</span>
+							<span class="daydisabled">20</span>
+							<span class="daydisabled">21</span>
+</div>
+						<div id="calendar_week">
+							<span class="daydisabled">22</span>
+							<span class="daydisabled">23</span>
+							<span class="daydisabled">24</span>
+							<span class="daydisabled">25</span>
+							<span class="daydisabled">26</span>
+							<span class="daydisabled">27</span>
+							<span class="daydisabled">28</span>
+</div>
+						<div id="calendar_week">
+							<span class="daydisabled">29</span>
+							<span class="daydisabled">30</span>
+							<span class="daydisabled">&nbsp;</span>
+							<span class="daydisabled">&nbsp;</span>
+							<span class="daydisabled">&nbsp;</span>
+							<span class="daydisabled">&nbsp;</span>
+							<span class="daydisabled">&nbsp;</span>
+</div>
+
+					</div>					
+				</div>
+				<a href="javascript:void(0);" onclick="toggleCalendar('printedition_calendar');" class="close">close x</a>
+			</div>				</div>
+				<div id="slides">
+					<div class="slides_container">
+						<div class="slide">
+							<a href="javascript:void(0);" onclick="toggleCalendar('printedition_calendar');"><img src="http://www.expressnightout.com/wp-content/themes/eno_v04.1/v04_images/printedition_wantmore.jpg" class="reflect"></a>
+							<div class="caption">
+								<p>Want More?</p>
+							</div>
+						</div>
+												<div class="slide">
+							<a id="issuulink" style="display:block;" href="/printedition/PDF/EXPRESS_04102012.pdf"><img border="0" src="http://www.expressnightout.com/printedition/thumbnails/2012-04-10.jpg" width="210" alt="Tuesday, April 10th, 2012" class="reflect" /></a>
+							<a id="pdflink" style="display:none;" href="/printedition/PDF/EXPRESS_04102012.pdf?issuusl=ignore"><img border="0" src="http://www.expressnightout.com/printedition/PDF/2012-04-10/page_000.jpg" width="210" alt="Tuesday, April 10th, 2012" class="reflect" /></a>
+							<div class="caption">
+								<p>Tuesday, April 10th</p>
+							</div>
+						</div>
+						<div class="slide">
+							<a id="issuulink" style="display:block;" href="/printedition/PDF/EXPRESS_04112012.pdf"><img border="0" src="http://www.expressnightout.com/printedition/thumbnails/2012-04-11.jpg" width="210" alt="Wednesday, April 11th, 2012" class="reflect" /></a>
+							<a id="pdflink" style="display:none;" href="/printedition/PDF/EXPRESS_04112012.pdf?issuusl=ignore"><img border="0" src="http://www.expressnightout.com/printedition/PDF/2012-04-11/page_000.jpg" width="210" alt="Wednesday, April 11th, 2012" class="reflect" /></a>
+							<div class="caption">
+								<p>Wednesday, April 11th</p>
+							</div>
+						</div>
+						<div class="slide">
+							<a id="issuulink" style="display:block;" href="/printedition/PDF/EXPRESS_04122012.pdf"><img border="0" src="http://www.expressnightout.com/printedition/thumbnails/2012-04-12.jpg" width="210" alt="Thursday, April 12th, 2012" class="reflect" /></a>
+							<a id="pdflink" style="display:none;" href="/printedition/PDF/EXPRESS_04122012.pdf?issuusl=ignore"><img border="0" src="http://www.expressnightout.com/printedition/PDF/2012-04-12/page_000.jpg" width="210" alt="Thursday, April 12th, 2012" class="reflect" /></a>
+							<div class="caption">
+								<p>Thursday, April 12th</p>
+							</div>
+						</div>
+						<div class="slide">
+							<a id="issuulink" style="display:block;" href="/printedition/PDF/EXPRESS_04132012.pdf"><img border="0" src="http://www.expressnightout.com/printedition/thumbnails/2012-04-13.jpg" width="210" alt="Friday, April 13th, 2012" class="reflect" /></a>
+							<a id="pdflink" style="display:none;" href="/printedition/PDF/EXPRESS_04132012.pdf?issuusl=ignore"><img border="0" src="http://www.expressnightout.com/printedition/PDF/2012-04-13/page_000.jpg" width="210" alt="Friday, April 13th, 2012" class="reflect" /></a>
+							<div class="caption">
+								<p>Friday, April 13th</p>
+							</div>
+						</div>
+						<div class="slide">
+							<a id="issuulink" style="display:block;" href="/printedition/PDF/EXPRESS_04162012.pdf"><img border="0" src="http://www.expressnightout.com/printedition/thumbnails/2012-04-16.jpg" width="210" alt="Monday, April 16th, 2012" class="reflect" /></a>
+							<a id="pdflink" style="display:none;" href="/printedition/PDF/EXPRESS_04162012.pdf?issuusl=ignore"><img border="0" src="http://www.expressnightout.com/printedition/PDF/2012-04-16/page_000.jpg" width="210" alt="Monday, April 16th, 2012" class="reflect" /></a>
+							<div class="caption">
+								<p>Monday, April 16th</p>
+							</div>
+						</div>
+						<div class="slide">
+							<a id="issuulink" style="display:block;" href="/printedition/PDF/EXPRESS_04172012.pdf"><img border="0" src="http://www.expressnightout.com/printedition/thumbnails/2012-04-17.jpg" width="210" alt="Tuesday, April 17th, 2012" class="reflect" /></a>
+							<a id="pdflink" style="display:none;" href="/printedition/PDF/EXPRESS_04172012.pdf?issuusl=ignore"><img border="0" src="http://www.expressnightout.com/printedition/PDF/2012-04-17/page_000.jpg" width="210" alt="Tuesday, April 17th, 2012" class="reflect" /></a>
+							<div class="caption">
+								<p>Tuesday, April 17th</p>
+							</div>
+						</div>
+						<div class="slide">
+							<a id="issuulink" style="display:block;" href="/printedition/PDF/EXPRESS_04182012.pdf"><img border="0" src="http://www.expressnightout.com/printedition/thumbnails/2012-04-18.jpg" width="210" alt="Wednesday, April 18th, 2012" class="reflect" /></a>
+							<a id="pdflink" style="display:none;" href="/printedition/PDF/EXPRESS_04182012.pdf?issuusl=ignore"><img border="0" src="http://www.expressnightout.com/printedition/PDF/2012-04-18/page_000.jpg" width="210" alt="Wednesday, April 18th, 2012" class="reflect" /></a>
+							<div class="caption">
+								<p>Wednesday, April 18th</p>
+							</div>
+						</div>
+
+					</div>
+					<a href="#" class="prev"></a>
+					<a href="#" class="next"></a>
+					<span id="slides_prev_disabled"></span>
+					<span id="slides_next_disabled"></span>
+				</div>
+			</div>
+
+
+
+
+
+			<div id="dcrider">
+				<span class="logo"></span>
+				<span class="header">DC Rider</span>
+				<p>Train times, alerts and<br>tools to navigate Metro</p>
+				<span class="links"><a href="http://itunes.apple.com/us/app/dc-rider/id382298536?mt=8" target="_new">iPhone</a> | <a href="https://market.android.com/details?id=dcrider.views" target="_new">android</a></span>
+				<span class="seal"></span>
+			</div>
+			<div id="ad">
+				<span class="advertisement">advertisement</span>
+				<span class="skyscraper"><script>placeAd2(commercialNode,'skyHalfBigFlex',true,'')</script></span>
+			</div>
+			<div id="additional">
+				<a href="/category/styles/bio/" class="bio"></a>
+				<a href="http://www.washingtonpostads.com/products/products-express" target="_new" class="advertise"></a>
+				<a href="http://postfun.washingtonpost.com/express/expresslist" id="contests_button" class="contests nyroModal"></a>
+				<a href="http://expressnightout.com/contact-us/" class="contactus"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<span class="text">&copy; Copyright 2012 The Washington Post Company | <a href="http://www.washingtonpost.com" target="_new">washingtonpost.com</a> | <a href="/user-agreement/" class="nyroModal">User Agreement</a> and <a href="/privacy-policy/" class="nyroModal">Privacy Policy</a></span>
+	<span class="newsletter">
+		<!--<form method="post" action="/newsletter-signup" class="nyroModal">
+			<span class="text">Join Our Newsletter <input type="text" id="test" name="email" class="textbox" value="your email" onfocus="if(this.value=='your email'){this.value='';}"><input type="submit" value="" class="submit">
+		</form>-->
+	</span>
+
+	<script type="text/javascript">
+		$(function() {
+			$('.nyroModal').nyroModal();
+		});
+	</script>
+
+  <!-- smartlook includes --> 
+	<script type="text/javascript"> 
+		var issuuConfig = { 
+			guid: 'e15cd6fb-8c01-4a3e-8dec-f2539c944b2f', 
+			domain: '*.expressnightout.com' ,
+			
+			slSelection: [
+			{docTypes: "pdf", action: "pop", viewer: "magazine"}
+
+]
+			
+		}; 
+	</script> 
+	<script type="text/javascript"> 
+		document.write(unescape("%3Cscript src='http://static.issuu.com/smartlook/ISSUU.smartlook.js' type='text/javascript'%3E%3C/script%3E")); 
+	</script> 
+	<!-- end smartlook includes --> 
+
+<!-- Omni Tag -->
+	<script type="text/javascript">
+	<!--
+		var ex_content_type = "blog";
+	var ex_section = "Home";
+	var ex_subsection = "";
+	var ex_author = "";
+	var ex_page_num = "";
+	var ex_headline = "";
+	var ex_search_keywords = "";
+	var ex_search_result_count = "";
+-->
+</script>
+<!-- End Omni Tag -->
+<!--Tracking code --->
+<!--
+<script type="text/javascript" src="http://www.washingtonpost.com/wp-srv/javascript/omniture/express/omni_ex.js"></script>
+-->
+<!--Tracking code --->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pbd_alp = {"startPage":"1","maxPages":"886","nextLink":"http:\/\/www.expressnightout.com\/page\/2\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.expressnightout.com/wp-content/plugins/pbd-ajax-load-posts/js/load-posts.js?ver=1.0'></script>
+</body>
+</HTML>

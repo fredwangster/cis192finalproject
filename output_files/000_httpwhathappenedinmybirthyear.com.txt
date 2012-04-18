@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; CHARSET=UTF-8" />
+    <title>What happened in my birth year?</title>
+    <link rel="stylesheet" href="default.css?v=1_06" type="text/css" media="screen,projection,print" />
+    <script type="text/javascript" src="default.js?v=1_06"></script>
+</head>
+<body id="all" onload="init()">
+
+<form action="" method="post" onsubmit="return submitYear()" name="mainForm" id="mainForm">
+<p>
+What happened in&nbsp;
+<input type="text" name="birthYear" id="birthYear"
+        class="formInput" value="my birth year" onclick="clickedYearInput()" />&nbsp;
+<input type="submit" value="?" class="formButton" />
+</p>
+
+<div class="ad">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4135663670627621";
+/* What Happened Ad Better */
+google_ad_slot = "5801580151";
+google_ad_width = 234;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+</form>
+
+<div id="countDownBox">&nbsp;</div>
+<div id="result">&nbsp;</div>
+
+<div id="navigation"><a href="javascript:Misc.toggleElm('aboutBox')" id="navigationLink">more...</a></div>
+
+<div id="aboutBox">
+Please also visit my other site where you can <a href="http://www.gamesforthebrain.com" target="_blank" class="importantLink">exercise your brain with games</a>!<br /><br />
+Advertisement: <a href="http://famousdaily.com/subscribe/birthyear.html" target="_blank" rel="nofollow" class="importantLink">Get a newsletter every day to find out what happened on this date</a>.<br /><br />
+
+<div class="credits">
+What Happened In My Birth Year offers a look into the past and the history surrounding you, and was created by <a href="http://outer-court.com" target="_blank">Philipp Lenssen</a>.
+Some content is from <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons licensed</a> <a href="http://wikipedia.org" target="_blank">Wikipedia</a> with
+credit to its individual authors; this site is also <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC licensed</a>. Covers are reproduced under fair use and copyright to their individual publishers.
+</div>
+
+</div>
+
+<div id="mainIframeWrapper">
+<div class="closeButtonWrapper"><a href="javascript:closeLink()" class="closeButton" title="close">&nbsp;x&nbsp;</a></div>
+<iframe src="about:blank" id="mainIframe" /></iframe>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-60595-41");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

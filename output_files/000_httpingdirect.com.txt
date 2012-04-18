@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta property="fb:admins" content="1459481572"/>
+	<meta property="fb:app_id" content="139545451180"/>
+	<meta charset="utf-8" />
+	<meta name="robots" content="NOODP" />
+	<meta name="description" content="An FDIC insured national bank offering one of the highest savings rates with no fees and no minimums. ING DIRECT also provides highly competitive checking account rates, certificates of deposit, mortgages and home equity lines of credit." />
+	<meta name="keywords" content="ING DIRECT, save, money, savings, money market, rates, banking, FDIC, home equity, mutual funds, line of credit, home equity line of credit" />
+	<title>Online Banking - ING DIRECT USA - Save Your Money!&reg;</title>
+	<link rel="shortcut icon" href="https://images.ingdirect.com/home/favicon.png" />
+	<link rel="stylesheet" href="/css/home/styles.cshtml?css=index-web&v=1204" />
+<link rel="stylesheet" href="/css/home/styles.cshtml?css=fallback&v=1204" />	<script src="https://home.ingdirect.com/js/index.js?v=1204"></script>
+	<script src="https://stats.ingdirect.com/urchin.js?v=1204"></script>
+</head>
+<body>
+	<div id="header">
+		<a onclick="js.urchin('/homepage/topnav/logo');" href="/" class="logo" title="ING DIRECT USA - Save Your Money!&reg;">ING DIRECT USA - Save Your Money!&reg;</a>
+		<div id="topnav"><a onclick="js.urchin('/homepage/topnav/open_account');" href="/open-account" title="OPEN ACCOUNT">OPEN ACCOUNT</a> | <a onclick="js.pop(this.href, '_help', '/homepage/topnav/help', 'toolbar=1,location=1');" href="https://helpcenter.ingdirect.com/" target="_help" title="HELP">HELP</a> | <a onclick="js.urchin('/homepage/topnav/sign_in');" href="https://secure.ingdirect.com/myaccount/InitialINGDirect.html?command=displayLogin&device=web&local=en_US&userType=Client" title="SIGN IN">SIGN IN</a></div>
+		<form onsubmit="return (this.q.value == '') ? false : true;" action="https://search.ingdirect.com/search" method="GET" class="searchfrm" name="gs" id="frmSearch">
+			<input type="text" class="s5 search-box" value="" maxlength="256" size="32" name="q" /><input type="submit" class="searchbutton" border="0" value="Search" valign="bottom" name="btnG" id="search-button" /><input type="hidden" name="filter" value="p" /><input type="hidden" value="static_fe" name="client" /><input type="hidden" value="xml_no_dtd" name="output" /><input type="hidden" value="static_fe" name="proxystylesheet" /><input type="hidden" value="date:D:L:d1" name="sort" /><input type="hidden" value="3" name="entqr" /><input type="hidden" value="UTF-8" name="oe" /><input type="hidden" value="UTF-8" name="ie" /><input type="hidden" value="1" name="ud" /><input type="hidden" value="a__transite_static_policy" name="entsp" /><input type="hidden" value="static_cc" name="site" /><input type="hidden" value="5" name="numgm" /><input type="hidden" value="title.description.author.keywords" name="getfields" />
+		</form>
+	</div>
+	<div id="main">
+		<ul id="nav">
+			<li class="view_my_account"><a onclick="js.urchin('/homepage/leftnav/view_my_account')" href="https://secure.ingdirect.com/myaccount/INGDirect/login.vm" title="Already a Saver? Sign in here">View My Account</a></li>
+			<li class="banking"><a onclick="js.urchin('/homepage/leftnav/banking');" href="/banking" title="Find info on Orange Savings, Electric Orange Checking, CDs, Mortgages and Business Accounts">Banking</a></li>
+			<li class="investing"><a onclick="js.pop(this.href, '_investing', '/homepage/leftnav/investing', 'width=1020,height=760,toolbar=yes,locationbar=yes,menubar=yes,statusbar=yes,location=yes');" href="http://www.sharebuilder.com/em/LPINVBALL" target="_investing" title="Learn more about low cost investing in stocks, mutual funds and ETFs at ShareBuilder">Investing</a></li>
+			<li class="retirement"><a onclick="js.pop(this.href, '_retirement', '/homepage/leftnav/retirement', 'width=1020,height=700,toolbar=yes,locationbar=yes,menubar=yes,statusbar=yes,location=yes');" href="http://www.sharebuilder.com/affiliates/?PC=sb&SID=200047902071157&ANYURL=http%3a%2F%2Fretiremyway.com&cmpid=30300017" target="_retirement" title="Get a personalized Retirement plan and find the IRA that's right for you">Retirement</a></li>
+		</ul>
+		<div id="content"></div>
+	</div>
+	<div id="footer">
+		<div id="addThis" class="addthis_toolbox addthis_default_style">
+			<a class="addthis_button_facebook_like fb-like" fb:like:font="arial" fb:like:layout="button_count" fb:like:action="like" fb:like:href="http://www.facebook.com/ingdirect"></a>
+			<a class="addthis_button_twitter_follow_native tw-follow" tf:screen_name="ingdirect" tf:show-count="false"></a>
+			<a class="addthis_button_google_plusone goog" g:plusone:size="medium" g:plusone:count="false" g:plusone:annotation="none"></a>
+		</div>
+		<div id="links"><a onclick="js.urchin('/homepage/footer/cafes_text');" href="http://cafes.ingdirect.com/" title="Visit a Caf&eacute;" target="_blank">Visit a Caf&eacute;</a> | <a onclick="js.urchin('/homepage/footer/shop_text');" href="https://shop.ingdirect.com/" title="Check out the Shop" target="_blank">Check out the Shop</a> | <a onclick="js.urchin('/homepage/footer/mobile_text');" href="http://www.ingdirect.com/mobile" title="Get our Mobile App" target="_blank">Get our Mobile App</a> | <a onclick="js.urchin('/homepage/footer/wts_text');" href="http://www.wethesavers.com/" title="We the Savers Blog" target="_blank">We the Savers Blog</a> | <a onclick="js.urchin('/homepage/footer/atm_text');" href="https://secure.ingdirect.com/myaccount/INGDirect/atm_locate.vm" title="Find a Free ATM">Find a Free ATM</a> | <a onclick="js.urchin('/homepage/footer/capitalone');" href="https://home.ingdirect.com/capitalone" title="Capital One">Capital One</a></div>
+		<div id="logos"><a onclick="js.urchin('/homepage/footer/fdic');" href="http://www2.fdic.gov/idasp/StruReportNew.asp?inCert1=35489&ReportName=10&From=EzFind" target="_fdic" class="fdic" title="Member FDIC"></a></div>
+	</div>
+	<div class="clear"></div>
+	<div id="disclaimer">ING Bank, fsb, and its subsidiaries, including ShareBuilder Corporation, have been acquired by Capital One Financial Corporation and are no longer affiliated with ING Groep N.V. ("ING"). The trademarks ING, ING DIRECT, ING Lion, and the ING Lion logo, alone or as a part of any trademark, logo, work or domain name are trademarks of ING and are used by permission.</div>
+	<script>
+		var addthis_config = { pubid: 'wethesavers' };
+		window.onload = function() {
+			js.makeTitles(); js.urchin('/index');
+				js.optimost = false;
+				js.byId('content').style.marginTop = '34px';
+				js.fallback();
+			try { runUrchin(); } catch (e) { }
+			js.addThis();
+			js.track('https://fls.doubleclick.net/activityi;src=806653;type=gener917;cat=flood114;ord=' + (Math.random() * 10000000000000) + '?');
+		};
+	</script>
+</body>
+</html>
+

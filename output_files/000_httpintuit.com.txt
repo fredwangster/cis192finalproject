@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+			<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+		<head>
+			<!-- Mimic Internet Explorer 7 --><!---Compatibility Mode for IE 8--->
+   		<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	
+	<link rel="canonical" href="http://www.intuit.com/" />
+		<meta name="robots" content="noodp" /> 
+		<meta name="robots" content="noydir" />
+
+			<title>Intuit&reg; Small Business | Accounting Software, Pay by Mobile, Free Website Builder</title>
+				<meta name="keywords" content="Intuit, Accounting Software, Online Accounting, Web Hosting, Free Website, Website Builder, Small Business, Credit Card Processing, Process Credit Cards, Payroll, Payroll Services, Online Payroll" />
+										<meta name="description" content="Build Your Business w/ Intuit. Get QuickBooks Accounting Software, a Free Website Builder, Credit Card Processing &amp; Payroll Services. NEW: Pay by Mobile!" />
+									
+								<link rel="shortcut icon" href="http://images.smallbusiness.intuit.com/sbweb/common/images/icons/favicon.ico"  type="image/x-icon" />
+	
+	<link rel="stylesheet" type="text/css" href="http://images.smallbusiness.intuit.com/sbweb/common/css/global.css?version=0044" />
+				<link rel="stylesheet" type="text/css" href="http://images.smallbusiness.intuit.com/sbweb/common/css/contexts/corporate.css?version=0003" />
+					<link rel="stylesheet" type="text/css" href="http://images.smallbusiness.intuit.com/sbweb/common/css/footer.css?version=0011" />
+				<script type="text/javascript" src="http://images.smallbusiness.intuit.com/sbweb/common/javascript/jquery/jquery_core.js?version=0002"></script><script type="text/javascript" src="http://images.smallbusiness.intuit.com/sbweb/common/javascript/sbweb/sbweb.jquery.libraries-min.js?version=0005"></script>
+				<!--[if lt IE 7]>
+			<script type="text/javascript" src="/sbweb/common/includes/header/js/DD_belatedPNG.js"></script>
+			<![endif]-->
+			
+			<script type="text/javascript" src="http://images.smallbusiness.intuit.com/sbweb/common/javascript/vendor/test_and_target/mbox.js?version=0001"></script>
+			
+			<script type="text/javascript" src="http://images.smallbusiness.intuit.com/sbweb/common/javascript/sbweb/sbweb.global.javascript-min.js?version=0115"></script>
+		<link rel="stylesheet" href="http://images.smallbusiness.intuit.com/sbweb/common/css/contexts/corporate/min/splash.merged-min.css?version=26" type="text/css" />
+				<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAAqD4_SwMwdwY1fSsVEwnCxSmrEIeoNd4Dbn8tp5FFkWsxMPxPhRoRa4XE7SciGWDbXkZBEt3Sfo4cA"></script>
+	<script type="text/javascript" src="http://images.smallbusiness.intuit.com/sbweb/common/javascript/contexts/corporate/min/splash.merged-min.js?version=20"></script>
+				<script type="text/javascript">
+		
+		var EL_AKAMAIURL = "http://images.smallbusiness.intuit.com";
+		var EL_CID = "";
+		var EL_IS_IE7 = false;
+		
+	   	
+		var CURRENT_TIME = new Date(1334714968547);
+	</script>
+
+<script type="text/javascript" src="/common/javascript/hs_omniture_utils.js"></script>
+	
+	<script>
+		var co_context = "corporate";
+		var isCartPage = "false";
+		var co_tertiaryNav = "";
+		var co_type = "category";
+		var currentDomain = "";
+		var co_id = "cat0000000000006340954";
+	</script>
+
+	<script type="text/javascript">
+						currentDomain = "corporate";
+					</script>
+				</head>
+		<body onLoad="sbweb.event.bodyLoad();" onUnload="sbweb.event.bodyUnload();" >
+			<div id="mainBody">
+				<script type="text/javascript">
+	
+			
+				var scAccount = "intuitcom,intuitsbe";
+			
+				var BASE_PATH = "/sbweb/common/components/site_catalyst";
+				var CONTEXT = "corp";
+			
+				var renderStartTime = new Date();
+			
+			var isIframe = "";
+		</script>
+		
+		<script type="text/javascript" src="http://images.smallbusiness.intuit.com/sbweb/common/components/site_catalyst/header/min/sc_header_merged-min.js?version=009"></script>
+			<script type="text/javascript">
+			
+			//Check to see if QB segment has a product set. If not check for the cookie that IPD sets then set a default product on the QB segment.
+			//I am doing this globally to catch and segment QB users no matter which site the visit.
+			var qbProduct = propertySegmentation.getProductPurchased('QB');
+			if(!qbProduct){
+				if(sbweb.util.cookies.getCookie('hasQuickBooks')){
+					propertySegmentation.setProductPurchased('QB', 'QBDT');
+				}
+			}
+			
+			//Function to update visit for current site
+			propertySegmentation.updateVisit('ICOM');
+		</script>
+		
+	<script>
+		var hasProduct = false;
+		var currentProduct = propertySegmentation.checkForAnyProduct();
+		if (currentProduct){
+			hasProduct = true;
+		}
+		
+		var hasQBproduct = propertySegmentation.getProductPurchased("QB");
+		var hasQBOproduct = propertySegmentation.getProductPurchased("QBO");
+	</script>
+	
+	<div class="mboxDefault"></div>			
+	<script type="text/javascript">
+		mboxCreate("sbweb_global","property=corporate", "hasProduct="+ hasProduct, "currentProduct=" + currentProduct);
+	</script>
+	
+	<div id="header-container">
+				<div id="navigationContainer">
+							<link rel="stylesheet" type="text/css" href="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/css/header_styles.css?version=037" /> 
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/css/header_styles_ie6.css?version=001" />	
+<![endif]--> 
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="/sbweb/common/includes/header/css/header_styles_ie7.css?version=001" /> 
+<![endif]-->
+<!-- suppress the skype span tag-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		window.setTimeout(function() {
+			$('.skype_pnh_container').html('');
+			$('.skype_pnh_print_container').removeClass('skype_pnh_print_container');
+		}, 800);
+
+		$(".qboNav li").find("a").click(function(e){
+			var hoverSelect = $(this).attr("name");
+				document.cookie = "navigation_param=" + hoverSelect + ";domain=.intuit.com";
+		  });
+	});
+	function openChat(){
+		chatwindow=window.open("https://sales.liveperson.net/hc/37343836/?cmd=file&file=visitorWantsToChat&site=37343836&SESSIONVAR!skill=homestead-service-english", 'chat', 'height=475px,width=400px');
+	}
+</script>
+<div id="header_top_background">
+	<div id="header_white_background" class="global-sprite"></div>
+</div>
+<div id="header_main_nav_view">
+	<div id="L1_left_shadow" class="global-sprite"></div>
+	<div id="L1_right_shadow" class="global-sprite"></div>	
+	<div id="header_logo"><a href="http://www.intuit.com" title="Intuit"><img id="intuitLogo" class="global-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Intuit" /></a></div>
+	<div id="header_sub_nav_container">
+		<ul class="ul1">
+			<li class="no_border li1"><a href="http://about.intuit.com/">About Intuit</a></li>
+			<li class="li1"><a href="http://security.intuit.com/">Security Center</a></li>
+		</ul>
+		<form id="searchIntuitHeader" action="/sbweb/common/catalog/category/internal_search/search_redirect.jsp" method="get">
+			<input type="text" class="search_box global-sprite" name="searchTerm" value="Search Small Business" size="18" />
+			<input type="image" class="search_box_submit global-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" width="24" height="29" value="" name="submit" />
+		</form>
+		<script>
+			//This should be placed right after the input field to make sure visitor cannot enter invalid values before page is fully loaded.
+			$("#searchIntuitHeader").validate({
+				rules: {
+			        "searchTerm": {
+			            javascript: true,
+						maxlength: 100
+			        }
+			    }
+			});
+		</script>
+		<ul class="ul1">
+			<li class="no_border li1">
+				<a href="https://www.intuit.com/commerce/checkout/shoppingcart.jsp" title="Shopping Cart">My Cart </a>
+					</li>
+			<li class="li1"><a href="http://smallbusiness.intuit.com/small-business/support/index.jsp">User Support</a></li>
+			<li id="sign_in" class="li1">
+				<a class="sign-in-link" href="http://www.intuit.com/login/">Sign In <span class="blue-down-arrow global-sprite"></span></a>
+				<div id="utility_dropdown" style="display:none;">
+					<ul>
+						<li><a href="https://www.intuit.com/login/?content=iwsContent">Intuit Websites</a></li>
+						<li><a href="https://www.intuit.com/login/?content=qboContent">QuickBooks Online</a></li>
+						<li><a href="https://www.intuit.com/login/?content=pyrContent">Intuit Payroll</a></li>
+						<li><a href="https://www.intuit.com/login/?content=null">Other Services</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div id="header_tertiary_nav_container">
+			<p id="contact-us-container" class="call_sales global-sprite">
+												<span id="wcnSalesText">Interested? <span style="font-weight:normal;font-size: 11px;line-height:16px;color:#505050;">Call Sales</span></span><br>
+												<span id="fmsLearnOrientPhoneNumber" class="dark_gray wcnPhoneNumber">
+							(877) 683-3280
+						</span>&nbsp;&nbsp;															
+												<span id="wcnHours"><style>
+		p.call_sales span {
+			font-size: 10px;
+			color: #999;
+		}
+	</style>
+
+	
+							M-F 5am-6pm PT
+						</span>
+											</p>
+										</div>
+	<div id="header_L1">
+			<ul id="L1">
+				<style>
+div.iws-pos1 {left: 4px;}
+.level2-item span.arrow_down_blue, .level2-item span.arrow_down_orange {margin-left: 5px;}
+</style>
+<li class="top-level-item">
+	<a id="L1A" class="L1A L1-link global-sprite" href="http://www.intuit.com/website-building-software/"></a>
+	<div id="L2A" class="L2">
+		<ul>
+			<!-- Domain Names Section Starts -->
+			<li class="level2-item">
+				<a class="L2-link hover-underline" href="http://www.intuit.com/domain-name-registration/">
+					Domain Names
+					<span class="global-sprite arrow_down_blue"></span>
+				</a>
+				<div class="top_tab iws-pos1">
+					<a href="http://www.intuit.com/domain-name-registration/" class="L2-link">
+						<span>Domain Names</span>
+						<span class="global-sprite arrow_down_orange"></span>
+					</a>
+				</div>
+				<div class="L3 narrow">
+					<div id="L2A_L3A_container">											
+						<ul>
+							<li class="first"><a href="http://www.intuit.com/websites/domain-hosting/" class="global-sprite">Domain &amp; Hosting</a></li>
+							<li><a href="http://www.intuit.com/websites/domain-email/" class="global-sprite">Domain Email</a></li>
+							<!-- <li><a href="http://www.intuit.com/websites/free-domain/" class="global-sprite">Free Domain</a></li> -->
+						</ul>									
+				      	<span class="bottom_cta IE_rounded_A"></span>
+					</div>
+				</div>
+			</li>
+			<!-- Domain Names Section Ends -->					
+			<!-- Web Hosting Section Starts -->
+			<li class="level2-item">
+				<a class="L2-link hover-underline" href="http://www.intuit.com/websites/hosting/">Web Hosting</a>
+			</li>
+			<!-- Web Hosting Section Ends -->						
+			<!-- Design a Website Section Starts -->
+			<li class="use-services level2-item">
+				<a class="L2-link" href="http://www.intuit.com/websites/design-a-website/">
+					Design a Website
+					<span class="global-sprite arrow_down_blue"></span>
+				</a>
+				<div class="top_tab pos3">
+					<a href="http://www.intuit.com/websites/design-a-website/" class="L2-link">
+						<span>Design a Website</span>
+						<span class="global-sprite arrow_down_orange"></span>
+					</a>
+				</div>
+				<div class="L3 narrow">
+					<div id="L2A_L3C_container">											
+						<ul>
+							<li class="first"><a href="http://www.intuit.com/websites/business-website-design/" class="global-sprite">Build a Business Website</a></li>
+							<li><a href="http://www.intuit.com/websites/website-templates/" class="global-sprite">Select Website Templates</a></li>
+							<li><a href="http://www.intuit.com/websites/create-a-site/" class="global-sprite">Create a Site</a></li>
+							<li><a href="http://www.intuit.com/web-site-design/" class="global-sprite">Buy Web Design Services</a></li>
+							<li><a href="http://www.intuit.com/websites/use-websites/" class="global-sprite">How to Build a Website</a></li>
+						</ul>									
+				      	<span class="bottom_cta IE_rounded_A"></span>
+					</div>
+				</div>
+			</li>
+			<!-- Design a Website Section Ends -->					
+			<!-- E-Commerce Section Starts -->
+			<li class="last_item user-support level2-item">
+				<a class="L2-link" href="http://www.intuit.com/ecommerce/create-your-online-store/">
+					E&ndash;Commerce
+					<span class="global-sprite arrow_down_blue"></span>
+				</a>
+				<div class="top_tab pos4">
+					<a href="http://www.intuit.com/ecommerce/create-your-online-store/" class="L2-link">
+						<span>E&ndash;Commerce</span>
+						<span class="global-sprite arrow_down_orange"></span>
+					</a>
+				</div>
+				<div class="L3 narrow">
+					<div id="L2A_L3D_container">																								
+						<ul>
+							<li class="first"><a href="http://www.intuit.com/websites/ecommerce-how-to/" class="global-sprite">How to Sell Online</a></li>
+							<li><a href="http://www.intuit.com/market-business/" class="global-sprite">Market Online</a></li>
+						</ul>																							
+					    <span class="bottom_cta IE_rounded_A"></span>
+					</div>
+				</div>
+			</li>
+			<!-- E-Commerce Section Starts -->									
+		</ul>
+	</div>								
+</li>
+<li class="top-level-item"><a id="L1B" class="L1B L1-link global-sprite hover-underline" href="http://quickbooks.intuit.com/"></a>
+<div id="L2B" class="L2">
+	<ul>
+		<li class="level2-item"><a class="L2-link tntAnClk_HPNav_QB_Overview" href="http://quickbooks.intuit.com/learn-about-accounting-software/">QuickBooks Overview<div class="global-sprite arrow_down_blue"></div></a>
+			<div class="top_tab pos1" style="display:none;"><a id="qb_overview" class="L2-link tntAnClk_HPNav_QB_Overview" href="http://quickbooks.intuit.com/learn-about-accounting-software/">QuickBooks Overview<div class="global-sprite arrow_down_orange"></div></a></div>
+			
+			<div id="bc-qb-overview" class="L3" style="height:220px !important;"> 
+				<div class="top_decorative_line tdl_A"></div>
+				<div id="L2B_L3A_container" class="L3_container">
+					<div class="L3_2col_paragraph_layout">
+						<ul class="left_col">
+							<li>
+								<h3><a  href="http://quickbooks.intuit.com/learn-about-accounting-software/"><span>Why Use Accounting Software</span></a></h3>
+								<p>Discover basic information about accounting software and whether it's right for you and your business.</p>
+							</li>
+						</ul>
+						<ul class="right_col">
+							<li>
+								<h3><a href="http://quickbooks.intuit.com/what-is-quickbooks/"><span>What Is QuickBooks</span></a></h3>
+								<p>Learn more about QuickBooks and how it can help your business, from organizing your finances to easing tax time stress.</p>
+							</li>
+							<li>
+								<h3><a href="http://quickbooks.intuit.com/quickbooks-advantages/"><span>How QuickBooks Is Better</span></a></h3>
+								<p>Find out what sets QuickBooks apart from the current method that you use to track your business finances.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<span class="bottom_cta IE_rounded_B"></span>
+			</div>
+		</li>		
+
+		<li class="level2-item"><a class="L2-link tntAnClk_HPNav_QB_Product" href="http://quickbooks.intuit.com/product/accounting-software/small-business-software.jsp">View QuickBooks Products<div class="global-sprite arrow_down_blue"></div></a>
+			<div class="top_tab pos2"><a class="L2-link tntAnClk_HPNav_QB_Product" href="http://quickbooks.intuit.com/product/accounting-software/small-business-software.jsp">View QuickBooks Products<div class="global-sprite arrow_down_orange"></div></a></div>
+			<div id="wcn_view_qb_products" class="L3 h340">
+				<div class="top_decorative_line"></div>
+				<div id="L2B_L3B_container" class="L3_container">
+					<div class="L3_left_nav">		
+						<ul class="qboNav">
+							<li id="qb-1" class="menuItem onHover">
+							<a id="L2B_L3B_0"  name="qboSelect_ss" class="orange global-sprite tntAnClk_HPNav_QBOSS_Product" href="http://www.quickbooksonline.intuit.com/" >QuickBooks Online Simple Start<div class="global-sprite arrow_right_blue"></div></a></li>
+							<li class="dotted-divider global-sprite"></li>
+							<li id="qb-2" class="menuItem">
+							<a id="L2B_L3B_9" name="qboSelect_es" class="orange global-sprite tntAnClk_HPNav_QBOES_Product" href="http://www.quickbooksonline.intuit.com/">QuickBooks Online Essentials<div class="global-sprite arrow_right_blue"></div></a></li>
+							<li class="dotted-divider global-sprite"></li>
+							<li id="qb-3" class="menuItem">
+							<a id="L2B_L3B_8" name="qboSelect_op" class="orange global-sprite tntAnClk_HPNav_QBOPS_Product" href="http://www.quickbooksonline.intuit.com/">QuickBooks Online Plus<div class="global-sprite arrow_right_blue"></div></a></li>
+							<li class="dotted-divider global-sprite"></li>
+							<li id="qb-4" class="menuItem"><a id="L2B_L3B_1" class="orange global-sprite tntAnClk_HPNav_QBPro_Product" href="http://quickbooks.intuit.com/pro/">QuickBooks Pro<div class="global-sprite arrow_right_blue"></div></a></li>
+							<li class="dotted-divider global-sprite"></li>
+							<li id="qb-5" class="menuItem"><a id="L2B_L3B_2" class="orange global-sprite tntAnClk_HPNav_QBPrem_Product" href="http://quickbooks.intuit.com/premier/">QuickBooks Premier<div class="global-sprite arrow_right_blue"></div></a></li>
+							<li class="dotted-divider global-sprite"></li>
+							<li id="qb-6" class="menuItem"><a id="L2B_L3B_3" class="orange global-sprite tntAnClk_HPNav_QBMac_Product" href="http://quickbooks.intuit.com/mac/">QuickBooks for Mac<div class="global-sprite arrow_right_blue"></div></a></li>
+							<li class="dotted-divider global-sprite"></li>
+							<li id="qb-7" class="menuItem"><a id="L2B_L3B_4" class="orange global-sprite" href="http://accountant.intuit.com/qbsiteae" target="_blank">QuickBooks Accountant<div class="global-sprite arrow_right_blue"></div></a></li>
+							<li class="dotted-divider global-sprite"></li>
+							<li id="qb-8" class="menuItem"><a id="L2B_L3B_5" class="orange global-sprite" href="http://www.aboutqb.com/ES_QBnav_WCN" target="_blank">QuickBooks Enterprise Solutions<div class="global-sprite arrow_right_blue"></div></a></li>
+							</ul>
+					</div>
+					
+					
+					<div class="L3_right_nav">
+						<div id="qb-1-content" class="L3-content" style="display:block;">
+							<div class="L3_right_nav_img">
+                            	<a class="boxshot-image" href="http://www.quickbooksonline.intuit.com/"><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-online-simple"></div></a>
+							</div>
+							<div class="L3_right_nav_content bullet" >										
+								<h2>QuickBooks Online Simple Start</h2>
+								<p>Get your business started right &ndash; create invoices, track sales & expenses</p>
+								<ul>
+									<li>No accounting experience needed</li>
+									<li>Anytime, anywhere access &ndash; nothing to install or upgrade</li>
+									<li>Free support and automatic data backups</li>
+								</ul>
+								<a title="Learn More" href="http://www.quickbooksonline.intuit.com/" class="learn-more-link">Learn More</a>
+							</div>
+						</div>
+						
+						<div id="qb-2-content" class="L3-content">
+							<div class="L3_right_nav_img">
+                            	<a class="boxshot-image" href="http://www.quickbooksonline.intuit.com/" ><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-online-essentials"></div></a>
+							</div>
+							<div class="L3_right_nav_content bullet" >										
+								<h2>QuickBooks Online Essentials</h2>
+								<p>Save time with more organizational tools for growing businesses</p>
+								<ul>
+									<li>Everything Simple Start has, and more</li>
+									<li>Automated banking to save you time and reduce errors</li>
+									<li>Advanced reporting to show you how your business is performing</li>
+								</ul>
+								<a title="Learn More" href="http://www.quickbooksonline.intuit.com/"  class="learn-more-link">Learn More</a>
+							</div>
+						</div>
+						
+						<div id="qb-3-content" class="L3-content">
+							<div class="L3_right_nav_img">
+                            	<a class="boxshot-image" href="http://www.quickbooksonline.intuit.com/" ><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-online-plus"></div></a>
+							</div>
+							<div class="L3_right_nav_content bullet" >										
+								<h2>QuickBooks Online Plus</h2>
+								<p>Advanced tools to manage your business at peak performance</p>
+								<ul>
+									<li>Everything Essentials has, and more</li>
+									<li>Easy, powerful inventory management</li>
+									<li>Manage purchase orders efficiently</li>
+								</ul>
+								<a title="Learn More" href="http://www.quickbooksonline.intuit.com/" class="learn-more-link">Learn More</a>
+							</div>
+						</div>
+						
+						<div id="qb-4-content" class="L3-content">
+							<div class="L3_right_nav_img">
+								<a class="boxshot-image" href="http://quickbooks.intuit.com/pro/"><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-pro">
+							</div></a>
+
+							</div>
+							<div class="L3_right_nav_content bullet">										
+								<h2>QuickBooks Pro</h2>
+								<p>Organize your finances and save time with software trusted by millions.</p>
+								<ul>
+									<li>Keep all your financial data in one place</li>
+									<li>Create professional invoices, and track sales & expenses</li>
+									<li>Auto-sync bank &amp; credit card transactions</li>
+								</ul>
+								<a title="Learn More" href="http://quickbooks.intuit.com/pro/" class="learn-more-link">Learn More</a>
+							</div>
+						</div>
+						
+						<div id="qb-5-content" class="L3-content">
+							<div class="L3_right_nav_img">
+								<a class="boxshot-image" href="http://quickbooks.intuit.com/premier/"><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-premier"></div></a>
+							</div>
+							<div class="L3_right_nav_content bullet">										
+								<h2>QuickBooks Premier</h2>
+								<p>Manage your finances with software that's tailored to your business type.</p>
+								<ul>
+									<li>Use forecasting tools to estimate future income & expenses</li>
+									<li>Track inventory and create purchase orders</li>
+									<li>Create industry-specific reports and charts</li>
+								</ul>
+								
+								<a title="Learn More" href="http://quickbooks.intuit.com/premier/" class="learn-more-link">Learn More</a>
+							</div>
+						</div>
+						
+						<div id="qb-6-content" class="L3-content">
+							<div class="L3_right_nav_img">
+                           		<a class="boxshot-image" href="http://quickbooks.intuit.com/mac/"><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-mac"></div></a>
+							</div>
+							<div class="L3_right_nav_content bullet">										
+								<h2>QuickBooks for Mac</h2>
+								<p>Organize your finances with software built specially for the Mac OS.</p>
+								<ul>
+									<li>Enter and pay bills from vendors</li>
+									<li>Automatically sync bank & credit card transactions</li>
+									<li>See income & expenses at a glance</li>
+								</ul>
+								<a title="Learn More" href="http://quickbooks.intuit.com/mac/" class="learn-more-link">Learn More</a>
+							</div>
+						</div>
+						
+						<div id="qb-7-content" class="L3-content">
+							<div class="L3_right_nav_img">
+                            	<a class="boxshot-image" href="http://accountant.intuit.com/qbsiteae" target="_blank" ><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-account"></div></a>
+							</div>
+							<div class="L3_right_nav_content bullet">										
+								<h2>QuickBooks Accountant</h2>
+								<p>Find and fix client entry errors faster.</p>
+								<ul>
+									<li>Save time with 8 powerful tools found only in QuickBooks Accountant.</li>
+									<li>Fix incorrectly recorded sales tax and payroll liabilities</li>
+									<li>Troubleshoot prior account balances</li>
+								</ul>
+								<a title="Learn More" href="http://accountant.intuit.com/qbsiteae" class="learn-more-link" target="_blank">Learn More</a>
+							</div>
+						</div>
+						
+						<div id="qb-8-content" class="L3-content">
+							<div class="L3_right_nav_img">			
+                            	<a class="boxshot-image" href="http://www.aboutqb.com/ES_QBnav_WCN" target="_blank"><div class="L3_right_nav_img quickbooks qb-card-sprite" id="qb-enterprise"></div></a>
+							</div>
+							<div class="L3_right_nav_content bullet">										
+								<h2>QuickBooks Enterprise Solutions</h2>
+								<p>Run your business efficiently with the most advanced edition of QuickBooks.</p>
+								<ul>
+									<li>Best for businesses with multiple users or locations</li>
+									<li>Enhanced reporting and inventory tools</li>
+									<li>Support and upgrades included for 1 year</li>
+								</ul>
+								<a title="Learn More" href="http://www.aboutqb.com/ES_QBnav_WCN" class="learn-more-link" target="_blank">Learn More</a>
+							</div>
+						</div>
+						<div class="bc-view-all-products" style="display:block;"><span class="bodyBold">Want to compare? </span><a href="http://quickbooks.intuit.com/product/accounting-software/small-business-software.jsp">View All QuickBooks Products</a></div>
+						<span class="bottom_cta IE_rounded_A"></span>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="use-quickbooks level2-item"><a class="L2-link tntAnClk_HPNav_QB_use" href="http://quickbooks.intuit.com/product/training/quick-book-training.jsp">How to Use QuickBooks<div class="global-sprite arrow_down_blue"></div></a>
+			<div class="top_tab pos3"><a href="http://quickbooks.intuit.com/product/training/quick-book-training.jsp" class="L2-link tntAnClk_HPNav_QB_use">How to Use QuickBooks<div class="global-sprite arrow_down_orange"></div></a></div>
+			<div id="wcn_how_to_use_qb_container" class="L3 L3_left_2col">
+				<div class="top_decorative_line tdl_B"></div>
+				<div id="L2B_L3C_container" class="L3_container" style="height:330px;">
+					<div class="L3_2col_paragraph_layout">
+						<ul class="left_col">
+							<li><h2><a href="http://quickbooks.intuit.com/product/training/quickbooks-training-solutions.jsp">Training for QuickBooks<br/>Desktop</a></h2></li>
+							<li>
+								<h3><a href="http://quickbooks.intuit.com/product/training/local_expert.jsp" title="Find a Local Expert"><span>Find a Local Expert</span></a></h3>
+								<p>Find a Certified QuickBooks ProAdvisor in your area to get one-on-one training.</p>
+							</li>
+							<li>
+								<h3><a href="http://quickbooks.intuit.com/product/training/instructor_seminar.jsp" title="Instructor-Led Classes"><span>Instructor-Led Classes</span></a></h3>
+								<p>Learn more about QuickBooks seminars that offer step-by-step guidance.</p>
+							</li>
+							<li>
+								<h3><a href="http://quickbooks.intuit.com/product/training/quick-book-training.jsp" title="Self-Paced CD Training"><span>Self-Paced CD Training</span></a></h3>
+								<p>With training software, you can learn at your own pace and on your own schedule.</p>
+							</li>
+							<li>
+								<h3><a href="http://quickbooks.intuit.com/product/training/students_educators.jsp" title="Students & Educators"><span>Students &amp; Educators</span></a></h3>
+								<p>Find student & instructor guides and discounted software licenses.</p>
+							</li>
+						</ul>
+						<ul class="right_col" style="margin-top:30px;">
+							<li>
+								<h3><a href="http://quickbookstraining.com/quickbooks-certification/certification.html" target="_blank" title="QuickBooks Certified User Program"><span>QuickBooks Certified User Program</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" alt="QuickBooks Certified User Program"/></a></h3>
+								<p>Find out more about how you can add QuickBooks Certified User to your r&eacute;sum&eacute;.</p>
+							</li>
+							<li>
+								<h3><a href="http://proadvisor.intuit.com/#TrainCert" target="_blank" title="Accountant Certification"><span>Accountant Certification</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></h3>
+								<p>For accountants looking to grow their customer base, becoming a QuickBooks ProAdvisor is a must.</p>
+							</li>
+							<li><h2 style="margin-top:10px;">Demos for QuickBooks<br/>Online</h2></li>
+							<li>
+								<h3><a href="http://www.youtube.com/user/quickbooksonline" target="_blank" title="Get Started with QuickBooks Online"><span>Get Started with QuickBooks Online</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></h3>
+								<p>View our online training videos to help you get started right with QuickBooks Online.</p>
+							</li>
+						</ul>
+					</div>
+					<span class="bottom_cta IE_rounded_B"></span>
+				</div>
+			</div>
+		</li>
+		<li class="last_item user-support level2-item"><a class="L2-link tntAnClk_HPNav_QB_Support" href="http://quickbooks.intuit.com/product/support/monthly_plan_financial_software.jsp">QuickBooks Support<div class="global-sprite arrow_down_blue"></div></a>
+			<div class="top_tab pos4"><a href="http://quickbooks.intuit.com/product/support/monthly_plan_financial_software.jsp" class="L2-link tntAnClk_HPNav_QB_Support">QuickBooks Support<div class="global-sprite arrow_down_orange"></div></a></div>
+			<div class="L3 L3_left_2col_B">
+				<div class="top_decorative_line tdl_C"></div>
+				<div id="L2B_L3D_container" class="L3_container">
+					<div class="L3_2col_paragraph_layout">
+						<ul id="wcn_qb_user_support_left_col" class="left_col">
+							<li>
+								<h3><a href="http://support.qbo.intuit.com/self-help.cfm" target="_blank"><span>Intuit Support for QuickBooks Online</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a></h3>
+								<p>Discover the guidance you need in our self-help menu of QuickBooks Online support topics.</p>
+							</li>
+							<li>
+								<h3><a href="http://proadvisor.intuit.com/accountant-match/" target="_blank"><span>Find a Local Expert</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a></h3>
+								<p>A Certified QuickBooks ProAdvisor can help you get started, troubleshoot, and use your software to its fullest potential.</p>
+							</li>
+							<li>
+								<h3><a href="http://quickbooks.intuit.com/product/support/monthly_plan_financial_software.jsp"><span>QuickBooks Desktop  Support Plans</span></a></h3>
+								<p>Discover the multiple protection and service plans we offer to our QuickBooks desktop customers.</p>
+							</li>
+						</ul>
+						<ul id="wcn_qb_user_support_right_col" class="right_col">
+							<li>
+								<h3><a href="http://support.quickbooks.intuit.com/support" target="_blank"><nobr><span>Intuit Support for QuickBooks Desktop</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></nobr></a></h3>
+								<p>Find quick, easy ways to get support in our QuickBooks desktop self-help menu.</p>
+							</li>
+							<li>
+								<h3><a href="http://community.intuit.com/quickbooks" target="_blank"><span>QuickBooks User Community</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a></h3>
+								<p>Reach out to our community for tips and advice, or provide your own insights about QuickBooks.</p>
+							</li>
+						</ul>
+					</div>
+					<span class="bottom_cta IE_rounded_B"></span>
+				</div>
+			</div>
+			
+		</li>
+	</ul>
+</div>
+</li>
+	
+<li class="top-level-item"><a id="L1C" class="L1C L1-link global-sprite" href="http://payroll.intuit.com/"></a>
+	<div id="L2C" class="L2">
+		<ul>
+			<li class="level2-item track" id="ems_baseball">
+				<a class="L2-link">Payroll Services Overview<div class="global-sprite arrow_down_blue"></div></a>
+				<div class="top_tab pos1" style="display:none;"><a class="navTrackEMS L2-link orange hover-underline" name="emscont_PRL_secnav-pso" class="L2-link" href="http://payroll.intuit.com/payroll-services-and-software/">Payroll Services Overview<div class="global-sprite arrow_down_orange"></div></a></div>
+				
+				<div id="bc-qb-overview" class="L3" style="height:220px !important;"> 
+					<div class="top_decorative_line tdl_A"></div>
+					<div id="L2C_L3A_container" class="L3_container">
+						<div class="L3_2col_paragraph_layout">
+							<ul class="left_col ">
+								<li>
+									<h3><a class="navTrackEMS" name="emscont_PRL_ternav-pso_why-payroll" href="http://payroll.intuit.com/payroll-system/"><span>Why Use a Payroll System</span></a></h3>
+									<p>Discover all the tasks a payroll system can achieve for you and why having one is so important to your business.</p>
+								</li>
+							</ul>
+							<ul class="right_col">
+								<li>
+									<h3><a class="navTrackEMS" name="emscont_PRL_ternav-pso_what-payroll" href="http://payroll.intuit.com/payroll-services-and-employee-benefits/"><span>What is Intuit Payroll</span></a></h3>
+									<p>Learn more about Intuit Payroll and the features that make it so accurate and easy to use.</p>
+								</li>
+								<li>
+									<h3><a class="navTrackEMS" name="emscont_PRL_ternav-pso_how-payroll" href="http://payroll.intuit.com/small-business-employee-payroll-and-benefits/"><span>How Intuit Payroll is Better</span></a></h3>
+									<p>Find out why Intuit Payroll is the leading payroll provider for small businesses, and also the best value.</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<span class="bottom_cta IE_rounded_B"></span>
+				</div>
+			
+			</li>
+			<li class="level2-item">
+				<a class="L2-link" href="http://payroll.intuit.com/compare/compare-quickbooks-payroll.jsp">View Payroll Services<div class="global-sprite arrow_down_blue"></div></a>
+				<div class="top_tab pos2"><a class="L2-link" href="http://payroll.intuit.com/compare/compare-quickbooks-payroll.jsp">View Payroll Services<div class="global-sprite arrow_down_orange"></div></a></div>
+				<div id="wcn_pyl_view_payroll_services" class="L3">
+					<div class="top_decorative_line"></div>
+					<div id="L2C_L3B_container" class="L3_container">
+						<div class="L3_left_nav">
+							<ul>
+								<li id="pay-1" class="menuItem onHover"><a id="L2C_L3B_0" class="orange global-sprite" href="http://payroll.intuit.com/payroll_services/online_payroll.jsp">Intuit Online Payroll<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pay-2" class="menuItem"><a id="L2C_L3B_1" class="orange global-sprite" href="http://payroll.intuit.com/payroll_services/basic_payroll.jsp">QuickBooks Payroll - Basic<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pay-3" class="menuItem"><a id="L2C_L3B_2" class="orange global-sprite" href="http://payroll.intuit.com/payroll_services/enhanced_payroll.jsp">QuickBooks Payroll - Enhanced<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pay-4" class="menuItem"><a id="L2C_L3B_3" class="orange global-sprite" href="http://payroll.intuit.com/payroll_services/assisted_payroll.jsp">QuickBooks Payroll - Assisted<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pay-5" class="menuItem"><a id="L2C_L3B_4" class="orange global-sprite" href="http://payroll.intuit.com/payroll_services/fullservice_payroll.jsp">Intuit Full Service Payroll<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pay-6" class="menuItem"><a id="L2C_L3B_5" class="orange global-sprite" href="http://payroll.intuit.com/payroll_services/employee_management.jsp">Employee Benefits &amp; Insurance<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pay-7" class="menuItem"><a id="L2C_L3B_6" class="orange global-sprite" href="http://payroll.intuit.com/product/apps.jsp">Mobile &amp; Web Apps<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pay-8" class="menuItem"><a id="L2C_L3B_7" class="orange global-sprite" href="https://onlinepayroll.intuit.com/welcome/1099.jsp?SC=Payrollcom1099WP">1099 Filing Service<div class="global-sprite arrow_right_blue"></div></a></li>
+							</ul>
+						</div>
+						<div class="L3_right_nav">
+							<div id="pay-1-content" class="L3-content" style="display:block;">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payroll.intuit.com/payroll_services/online_payroll.jsp" ><div class="L3_right_nav_img payroll payroll-card-sprite" id="pr-online"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit Online Payroll</h2>
+									<p>Easy, accurate payroll &ndash; free trial, QuickBooks not required.</p>
+									<ul>
+										<li>Instant, accurate paychecks</li>
+										<li>Calculates your payroll taxes for you</li>
+										<li>Automatically completes tax forms for you</li>
+									</ul>
+								   <a class="learn-more-link" href="http://payroll.intuit.com/payroll_services/online_payroll.jsp" title="Learn More">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pay-2-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payroll.intuit.com/payroll_services/basic_payroll.jsp"><div class="L3_right_nav_img payroll payroll-card-sprite" id="pr-basic"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>QuickBooks Payroll - Basic</h2>
+									<p>Create paychecks easily within QuickBooks</p>
+									<ul>
+										<li>Instant, accurate paychecks</li>
+										<li>Completes tax calculations for you</li>
+										<li>No tax forms included</li>
+									</ul>
+								   <a class="learn-more-link" href="http://payroll.intuit.com/payroll_services/basic_payroll.jsp" title="Learn More">Learn More</a>										
+								</div>
+							</div>
+							
+							<div id="pay-3-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payroll.intuit.com/payroll_services/enhanced_payroll.jsp"><div class="L3_right_nav_img payroll payroll-card-sprite" id="pr-enhanced"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>QuickBooks Payroll - Enhanced</h2>
+									<p>Easily manage paychecks and taxes seamlessly within QuickBooks.</p>
+									<ul>
+										<li>Instant, accurate paychecks</li>
+										<li>Calculates payroll taxes for you</li>
+										<li>Automatically completes tax forms for you</li>
+									</ul>
+								   <a class="learn-more-link" href="http://payroll.intuit.com/payroll_services/enhanced_payroll.jsp" title="Learn More">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pay-4-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payroll.intuit.com/payroll_services/assisted_payroll.jsp"><div class="L3_right_nav_img payroll payroll-card-sprite" id="pr-assisted"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>QuickBooks Payroll - Assisted</h2>
+									<p>We help manage your payroll from within QuickBooks</p>
+									<ul>
+										<li>Instant, accurate paychecks</li>
+										<li>Payroll taxes and filings done for you</li>
+										<li>No tax penalties, guaranteed</li>
+									</ul>									
+								   <a class="learn-more-link" href="http://payroll.intuit.com/payroll_services/assisted_payroll.jsp" title="Learn More">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pay-5-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payroll.intuit.com/payroll_services/fullservice_payroll.jsp"><div class="L3_right_nav_img payroll payroll-card-sprite" id="pr-payroll"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit Full Service Payroll</h2>
+									<p>You enter hours, we do the rest</p>
+									<ul>
+										<li>Instant, accurate paychecks</li>
+										<li>Payroll taxes and filings done for you-no penalties guaranteed</li>
+										<li>Dedicated U.S. based experts set-up and proactively audit your payroll</li>
+									</ul>
+								   <a class="learn-more-link" href="http://payroll.intuit.com/payroll_services/fullservice_payroll.jsp" title="Learn More">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pay-6-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payroll.intuit.com/payroll_services/employee_management.jsp"><div class="L3_right_nav_img payroll payroll-card-sprite" id="pr-manage"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet" >										
+									<h2>Employee Benefits &amp; Insurance</h2>
+									<p>Employee benefits at surprisingly low costs.</p>
+									<ul>
+										<li>Easily manage workers' comp payments</li>
+										<li>Offer your employees a tax-free health debit card</li>
+										<li>Provide an affordable 401(k) option to your employees</li>
+									</ul>
+								   <a class="learn-more-link" href="http://payroll.intuit.com/payroll_services/employee_management.jsp" title="Learn More">Learn More</a>
+								</div>
+							</div>
+							<div id="pay-7-content" class="L3-content">
+									<h2>Mobile Apps that Work with Payroll</h2>
+									<div style="float: left; width: 91px; margin-top: 16px;">
+                                	<div class="L3_right_nav_img payroll payroll-card-sprite-navigation" id="pr-iphone"></div>
+									</div>
+									<div style="float: left ; width: 285px; margin-top: 32px;">
+										<div style="margin-bottom: 5px;">Pay employees on the go with our Intuit Online Payroll Apps:</div>
+										<a class="learn-more-link" href="http://itunes.apple.com/us/app/online-payroll/id398106780?mt=8" target="_blank"><span style="font-weight: bold; color: #2971de;">iPhone</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a><span style="margin-right: 4px; margin-left: 4px;">or</span><a class="learn-more-link" href="https://market.android.com/details?id=com.intuit.ems.iopm&hl=en" target="_blank"><span style="font-weight: bold; color: #2971de;">Android</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a>
+									</div>
+									<div class="clear"></div>
+									<div style="float: left; width: 91px; margin-top: 14px;">
+                                	<a  href="http://workplace.intuit.com/viewmypaycheck"><div class="L3_right_nav_img payroll payroll-card-sprite-navigation" id="pr-android"></div></a>
+									</div>
+									<div style="float: left; width: 285px; margin-top: 32px;">
+										<div style="margin-bottom: 5px;">Give employees 24/7 anywhere access to their payroll information.</div>
+										<h3><a href="http://workplace.intuit.com/viewmypaycheck" target="_blank"><span>ViewMyPaycheck</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a></h3>
+									</div>
+									<div class="clear"></div>
+							</div>
+							
+							<div id="pay-8-content" class="L3-content">
+								<div class="L3_right_nav_img"><a class="boxshot-image" href="https://onlinepayroll.intuit.com/welcome/1099.jsp?SC=Payrollcom1099WP"><div class="L3_right_nav_img payroll payroll-card-sprite-navigation" id="pr-efile"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet" >										
+									<h2>1099 Filing Service</h2>
+									<p>E-file your 1099s in 3 easy steps</p>
+									<ul>
+										<li>One flat fee to E-file unlimited 1099-MISC forms</li>
+										<li>Free online chat support from experts</li>
+										<li>QuickBooks users can access this service directly from QuickBooks</li>
+									</ul>
+									<h3><a target="_blank" href='https://onlinepayroll.intuit.com/welcome/1099.jsp?SC=Payrollcom1099WP' title="1099 E-file Service"><span>Learn More</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a> </h3>
+								</div>
+							</div>
+							
+							<div class="bc-view-all-products" style="display:block;"><span class="bodyBold">Want to compare? </span><a href="http://payroll.intuit.com/compare/compare-quickbooks-payroll.jsp">View All Payroll Products</a></div>
+							<span class="bottom_cta IE_rounded_A"></span>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="use-payroll level2-item">
+				<a class="L2-link" href="http://payroll.intuit.com/payroll_resources/payroll_101">How to Use Payroll Services<div class="global-sprite arrow_down_blue"></div></a>
+				<div class="top_tab pos3"><a href="http://payroll.intuit.com/payroll_resources/payroll_101" class="L2-link">How to Use Payroll Services<div class="global-sprite arrow_down_orange"></div></a></div>
+				<div id="wcn_how_to_use_payroll_container" class="L3 L3_left_2col" >
+					<div class="top_decorative_line tdl_B"></div>
+					<div id="L2B_L3C_container" class="L3_container">
+						<div class="L3_2col_paragraph_layout">
+							<ul class="left_col" >
+								<li>
+									<h3><a href="http://payroll.intuit.com/payroll_resources/payroll_101/"><span>Payroll 101</span></a></h3>
+									<p>Learn the basics of payroll and what it means to your small business.</p>
+								</li>
+								<li>
+									<h3><a href="http://payroll.intuit.com/payroll_resources/guide_to_hiring"><span>Guide to Hiring and Paying Employees</span></a></h3>
+									<p>Becoming an employer is a big step. Get helpful advice and resources here.</p>
+								</li>
+								<li>
+									<h3><a href="http://payroll.intuit.com/payroll_resources/finding_good_employees"><span>Finding Good Employees</span></a></h3>
+									<p>Explore our useful tips for finding the right employees for your business.</p>
+								</li>
+								<li>
+									<h3><a href="http://payroll.intuit.com/payroll_resources/w2-forms.jsp"><span>Understanding W2 Forms</span></a></h3>
+									<p>Learn your way around mandatory government paperwork.</p>
+								</li>
+							</ul>
+							<ul class="right_col">
+								<li>
+									<h3><a href="http://payroll.intuit.com/hire-your-first-employee-free-book.jsp"><span>Hiring Your First Employee</span></a></h3>
+									<p>Sign up to receive a free guide to finding, choosing, and managing employees.</p>
+								</li>
+								<li>
+									<h3><a href="http://payroll.intuit.com/payroll_services/economic-stimulus-plan.jsp"><span>Economic Stimulus Plan: Your Business and Payroll</span></a></h3>
+									<p>Let Intuit help you catch up on stimulus tax rate changes and ensure your payroll is in ongoing compliance.</p>
+								</li>
+							</ul>
+						</div>
+						<span class="bottom_cta IE_rounded_B"></span>
+					</div>
+				</div>
+			
+			</li>
+			<li class="last_item user-support level2-item"><a class="L2-link" href="http://payroll.intuit.com/support/">Payroll Support<div class="global-sprite arrow_down_blue"></div></a>
+				<div class="top_tab pos4"><a href="http://payroll.intuit.com/support/" class="L2-link">Payroll Support<div class="global-sprite arrow_down_orange"></div></a></div>
+				<div class="L3 L3_left_2col_B h230">
+					<div class="top_decorative_line tdl_C"></div>
+					<div id="L2C_L3D_container" class="L3_container">
+						<div class="L3_2col_paragraph_layout">
+							<ul class="left_col">
+								<li>
+									<h3><a href="http://payroll.intuit.com/support/"><span>Payroll Support</span></a></h3>
+									<p>Get answers to questions about our payroll products.</p>
+								</li>
+								<li>
+									<h3><a href="http://payroll.intuit.com/support/newuser/"><span>Payroll for New Customers</span></a></h3>
+									<p>A resource designed for new Intuit Payroll customers using Payroll.</p>
+								</li>
+							</ul>
+							<ul class="right_col">
+								<li>
+									<h3><a href="http://payroll.intuit.com/support/PTS/index.jsp?cid=Payroll_HomePage_PTSPod_2010"><span>Paying Your Payroll Taxes</span></a></h3>
+									<p>Stay up to date on all the federal and state information you need to remain in compliance with the latest regulations.</p>
+								</li>
+								<li>
+									<h3><a href="http://community.intuit.com/quickbooks#tab-payroll" target="_blank"><span>Payroll User Community</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a></h3>
+									<p>Reach out to our community for tips and advice, or provide your own insights about our Payroll Services.</p>
+								</li>
+							</ul>
+						</div>
+					<span class="bottom_cta IE_rounded_B"></span>
+				</div>
+			</div>
+				
+			</li>
+		</ul>
+	</div>
+</li>
+
+<li class="top-level-item">
+	<a id="L1D" class="L1D L1-link global-sprite" href="http://payments.intuit.com/"></a>
+	<div id="L2D" class="L2">
+		<ul>							
+			<li class="level2-item">
+			<a class="L2-link " href="http://payments.intuit.com/">Credit Card Processing Overview<div class="global-sprite arrow_down_blue"></div></a>
+			<div class="top_tab pos1"><a class="L2-link" href="http://payments.intuit.com/">Credit Card Processing Overview<div class="global-sprite arrow_down_orange"></div></a></div>
+				<div id="ppCcpOverview" class="L3" style="height:120px !important;">
+                    <div class="top_decorative_line tdl_A"></div>
+                    <div id="L2B_L3A_container" class="L3_container">
+                      <div class="L3_2col_paragraph_layout">
+                        <ul class="left_col">
+                          <li>
+                            <h3><a  href="http://payments.intuit.com/intro-to-credit-card-processing.jsp" ><span>Intro to Intuit Credit Card Processing</span></a></h3>
+                            <p>Learn more about taking cards, and find the option that's best for you.</p>
+                          </li>
+                        </ul>
+                        <ul class="right_col">
+                          <li>
+                            <h3><a href="http://payments.intuit.com/taking-credit-cards.jsp" ><span>What Our Customers Are Saying</span></a></h3>
+                            <p>Watch a current customer discuss how his business has grown since accepting credit cards with Intuit. <a href="http://payments.intuit.com/taking-credit-cards.jsp?goMovie=1">Go to video</a></p>
+                          </li>
+            
+                        </ul>
+                      </div>
+                    </div>
+                    <span class="bottom_cta IE_rounded_B"></span>
+                  </div>
+			</li>
+			<li class="level2-item">
+				<a class="L2-link" href="http://payments.intuit.com/all-products/">Processing Options<div class="global-sprite arrow_down_blue"></div></a>
+				<div class="top_tab pos2"><a class="L2-link" href="http://payments.intuit.com/all-products/">Processing Options<div class="global-sprite arrow_down_orange"></div></a></div>
+				<div class="L3" style="height:380px;">
+					<div class="top_decorative_line"></div>
+					<div id="L2D_L3B_container" class="L3_container">
+						<div class="L3_left_nav">
+							<ul>
+								<li id="pmt-1" class="menuItem onHover"><a id="L2D_L3B_0" class="orange global-sprite" href="http://payments.intuit.com/products/online-credit-card-processing.jsp">On a Computer<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-2" class="menuItem"><a id="L2D_L3B_4" class="orange global-sprite" href="http://payments.intuit.com/products/basic-payment-solutions/mobile-credit-card-processing.jsp">On a Mobile Device<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-3" class="menuItem"><a id="L2D_L3B_1" class="orange global-sprite" href="http://payments.intuit.com/products/quickbooks-credit-card-processing-services.jsp">In QuickBooks<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-4" class="menuItem"><a id="L2D_L3B_3" class="orange global-sprite" href="http://payments.intuit.com/products/internet-merchant-accounts.jsp">In Your Web Store<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-5" class="menuItem"><a id="L2D_L3B_2" class="orange global-sprite" href="http://payments.intuit.com/industry/credit-card-processing-retailers.jsp">In Your Retail Store<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-6" class="menuItem"><a id="L2D_L3B_5" class="orange global-sprite" href="http://payments.intuit.com/products/check-processing-solutions/check-processing-solution.jsp">Via eChecks<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-7" class="menuItem"><a id="L2D_L3B_6" class="orange global-sprite" href="http://payments.intuit.com/paymentnetwork-electronic-invoicing-online-bill-payment/">From an E-mailed Invoice<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-8" class="menuItem"><a id="L2D_L3B_7" class="orange global-sprite" href="http://payments.intuit.com/product/add-ons.jsp">Payment Add-ons<div class="global-sprite arrow_right_blue"></div></a></li>
+								<li class="dotted-divider global-sprite"></li>
+								<li id="pmt-9" class="menuItem"><a id="L2D_L3B_8" class="orange global-sprite" href="http://payments.intuit.com/product/apps.jsp" class="no_border">Mobile &amp; Web Apps<div class="global-sprite arrow_right_blue"></div></a></li>
+							</ul>
+						</div>
+						<div class="L3_right_nav">
+							<div id="pmt-1-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payments.intuit.com/products/online-credit-card-processing.jsp"><div class="L3_right_nav_img payment payment-processing-card-sprite" id="pm-online"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit Online Terminal</h2>
+									<p>Accept credit card payments on a PC or Mac</p>
+									<ul>
+										<li>Automatically process recurring or scheduled charges</li>
+										<li>Create reports and e-mail receipts</li>
+										<li>No QuickBooks required</li>
+									</ul>
+									<p class="bodyBold recommended-users">Recommended for smaller businesses</p>
+									<a title="Learn More" href="http://payments.intuit.com/products/online-credit-card-processing.jsp" class="learn-more-link">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pmt-2-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payments.intuit.com/products/basic-payment-solutions/mobile-credit-card-processing.jsp"><div class="L3_right_nav_img payment payment-processing-card-sprite" id="pm-full"></div></a>
+									</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit GoPayment</h2>
+									<p>Use your mobile phone to get paid on the spot from anywhere</p>
+									<ul>
+										<li>Process credit cards safely and securely</li>
+										<li>E-mail or text receipts from your device</li>
+										<li>Works on iPhone, iPad, Android, Blackberry</li>
+									</ul>
+									<p class="bodyBold recommended-users">Recommended for doing business away from the office</p>
+									<a title="Learn More" href="http://payments.intuit.com/products/basic-payment-solutions/mobile-credit-card-processing.jsp" class="learn-more-link">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pmt-3-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payments.intuit.com/products/quickbooks-credit-card-processing-services.jsp"><div class="L3_right_nav_img payment payment-processing-card-sprite" id="pm-merchant"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit Merchant Service for QuickBooks</h2>
+									<p>Allows QuickBooks users to easily accept credit &amp; debit card payments.</p>
+									<ul>
+										<li>Payments online, by phone, fax, or e-mail</li>
+										<li>Transactions auto-record in QuickBooks</li>
+										<li>Enjoy exclusive tools through the Intuit Merchant Service Center</li>
+									</ul>
+									<p class="bodyBold recommended-users">Recommended for QuickBooks users</p>
+									<a title="Learn More" href="http://payments.intuit.com/products/quickbooks-credit-card-processing-services.jsp" class="learn-more-link">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pmt-4-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payments.intuit.com/products/internet-merchant-accounts.jsp"><div class="L3_right_nav_img payment payment-processing-card-sprite" id="pm-services"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit Merchant Service for Web Stores</h2>
+									<p>Simple, secure credit card processing for your Web store.</p>
+									<ul>
+										<li>Safely process all major credit cards</li>
+										<li>Can be used with a variety of e-commerce Web stores</li>
+										<li>Create reports and e-mail receipts</li>
+									</ul>
+									<p class="bodyBold recommended-users">Recommended for anyone selling on the web</p>
+									<a title="Learn More" href="http://payments.intuit.com/products/internet-merchant-accounts.jsp" class="learn-more-link">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pmt-5-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payments.intuit.com/industry/credit-card-processing-retailers.jsp"><div class="L3_right_nav_img payment payment-processing-card-sprite" id="pm-terminal"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit QuickBooks Point of Sale Merchant Service</h2>
+									<p>Accept credit cards in your QuickBooks Point of Sale</p>
+									<ul>
+										<li>Process credit & debit cards, track inventory & customers, all in one step</li>
+										<li>Save time with bank reconciliation in QuickBooks financial software</li>
+									</ul>
+									<p class="bodyBold recommended-users">Recommended for retailers</p>
+									<a title="Learn More" href="http://payments.intuit.com/industry/credit-card-processing-retailers.jsp" class="learn-more-link">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pmt-6-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payments.intuit.com/products/check-processing-solutions/check-processing-solution.jsp"><div class="L3_right_nav_img payment payment-processing-card-sprite" id="pm-solutions"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Check Processing Solutions</h2>
+									<p>Intuit offers three ways to process checks quickly and accurately.</p>
+									<ul>
+										<li>Scan or enter checks right into QuickBooks</li>
+										<li>Process checks anywhere with an online terminal</li>
+										<li>Convert checks at point of purchase</li>
+									</ul>
+									<a title="Learn More" href="http://payments.intuit.com/products/check-processing-solutions/check-processing-solution.jsp" class="learn-more-link">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pmt-7-content" class="L3-content">
+								<div class="L3_right_nav_img">
+                                	<a class="boxshot-image" href="http://payments.intuit.com/paymentnetwork-electronic-invoicing-online-bill-payment/"><div class="L3_right_nav_img payment payment-processing-card-sprite" id="pm-payment"></div></a>
+								</div>
+								<div class="L3_right_nav_content bullet">										
+									<h2>Intuit Payment Network</h2>
+									<p>Get paid faster with electronic invoicing.</p>
+									<ul>
+										<li>Customers pay safely online directly from your QuickBooks invoice</li>
+										<li>Payments funded sooner than paper checks</li>
+										<li>All transactions auto-record in QuickBooks</li>
+									</ul>
+									<a title="Learn More" href="http://payments.intuit.com/paymentnetwork-electronic-invoicing-online-bill-payment/" class="learn-more-link">Learn More</a>
+								</div>
+							</div>
+							
+							<div id="pmt-8-content" class="L3-content">
+								<h2>Payment Processing Add-ons</h2>
+								<span>										
+									<h3><a href="http://quickbooks.intuit.com/product/accounting-software/small-business-software.jsp"><span>QuickBooks</span></a></h3>
+									<p style="font-weight:normal;">Integrate QuickBooks with your payment processing to automatically record credit card transactions in your financial records.</p>
+								</span>
+								<span>										
+									<h3><a href="http://quickbooks.intuit.com/bookkeeping-accounting-systems/"><span>QuickBooks Online</span></a></h3>
+									<p style="font-weight:normal;">With QuickBooks Online, you can organize your finances from anywhere while automatically recording payment transactions.</p>
+								</span>
+							</div>
+							
+							<div id="pmt-9-content" class="L3-content">
+								<span class="L3_right_mobile_content">										
+									<h2>Mobile & Web Apps that Work with Payment Processing</h2>
+									<p>The Intuit App Center offers a number of mobile and Web apps that make your life easier. The featured apps below are designed to enhance our payment processing tools.</p>
+									<ul>
+										<li>
+                                        <a href="http://workplace.intuit.com/profitably" target="_blank"><div class="L3_right_nav_img paymentSM payment-processing-card-sprite" id="profitably"></div></a>
+											<h3 style="clear:left;"><a href="http://workplace.intuit.com/profitably" target="_blank"><span>Profitably</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a></h3>
+											<p>Features customer analytics and data-driven insights to help your business grow. (Web App)</p>
+										</li>
+										<li>
+                                        <a href="http://payments.intuit.com/products/basic-payment-solutions/mobile-credit-card-processing.jsp"><div class="L3_right_nav_img paymentSM payment-processing-card-sprite" id="expensify3"></div></a>
+											<h3 style="clear:left;"><a href="http://payments.intuit.com/products/basic-payment-solutions/mobile-credit-card-processing.jsp"><span>GoPayment</span></a></h3>
+											<p>Get paid on the spot from your mobile phone. (Mobile App)</p>
+										</li>
+									</ul>
+									<p class="app_center_cta"><a href="http://appcenter.intuit.com/" target="_blank"><span>Visit the Intuit App Center</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></p>
+								</span>
+							</div>
+							<div class="bc-view-all-products" style="display:block;"><span class="bodyBold">Want to compare? </span><a href="http://payments.intuit.com/all-products/">View All Payment Products</a></div>
+							<span class="bottom_cta IE_rounded_A"></span>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="use-processing level2-item">
+				<a class="L2-link" href="http://payments.intuit.com/demos/">How to Use Payment Processing<div class="global-sprite arrow_down_blue"></div></a>
+				<div class="top_tab pos3"><a href="http://payments.intuit.com/demos/" class="L2-link">How to Use Payment Processing<div class="global-sprite arrow_down_orange"></div></a></div>
+				<div class="L3 L3_left_2col" style="height:340px;">
+					<div class="top_decorative_line tdl_B"></div>
+					<div id="L2B_L3C_container" class="L3_container">
+						<div class="L3_2col_paragraph_layout">
+							<ul class="left_col">
+								<li>
+									<h3><a href="http://payments.intuit.com/merchant-accounts.jsp"><span>New to Credit Card Processing</span></a></h3>
+									<p>View our quick demo that walks you through the basics of payment processing.</p>
+								</li>
+								<li>
+									<h3><a href="http://payments.intuit.com/credit-card-processing.jsp"><span>Switching to Intuit Payment Solutions</span></a></h3>
+									<p>It's easy to make the switch to our payment solutions and start saving time and money.</p>
+								</li>
+							</ul>
+							<ul class="right_col">
+								<h3><a href="http://payments.intuit.com/demos/"><span>Demos to Help You Get Started</span></a></h3>
+								<li class="view_demo">
+									<a class="video vid1" title="View Demo" href="http://payments.intuit.com/demos/?demo=1"></a>
+									<div class="view_demo_p">
+										<p>See How Intuit Merchant Service for QuickBooks works for PCs</p>
+										<p><a href="http://payments.intuit.com/demos/?demo=1"><span>View Demo</span></a></p>
+										<p>2:51</p>
+									</div>
+								</li>
+								<li class="view_demo">
+									<a class="video vid2" title="View Demo" href="http://payments.intuit.com/demos/?demo=2"></a>
+									<div class="view_demo_p">
+										<p>See How Intuit Online Terminal works</p>
+										<p><a href="http://payments.intuit.com/demos/?demo=2"><span>View Demo</span></a></p>
+										<p>2:03</p>
+									</div>
+								</li>
+								<li class="view_demo">
+									<a class="video vid3" title="View Demo" href="http://payments.intuit.com/demos/?demo=3"></a>
+									<div class="view_demo_p">
+										<p>See How Intuit GoPayment works</p>
+										<p><a href="http://payments.intuit.com/demos/?demo=3"><span>View Demo</span></a></p>
+										<p>1:12</p>
+									</div>
+								</li>
+								
+							</ul>
+						</div>									
+						<span class="bottom_cta IE_rounded_B"></span>
+					</div>
+				</div>
+			</li>
+			<li class="last_item user-support level2-item">
+				<a class="L2-link" href="http://payments.intuit.com/support/">Payment Processing Support<div class="global-sprite arrow_down_blue"></div></a>
+				<div class="top_tab pos4"><a href="http://payments.intuit.com/support/" class="L2-link">Payment Processing Support<div class="global-sprite arrow_down_orange"></div></a></div>
+				<div class="L3 L3_left_2col_B" style="height:345px;">
+					<div class="top_decorative_line tdl_C"></div>
+					<div id="L2C_L3D_container" class="L3_container" style="height:345px;">
+						<div class="L3_2col_paragraph_layout">
+							<ul class="left_col">
+								<li>
+									<h3><a href="http://payments.intuit.com/support/"><span>Intuit Payments Support</span></a></h3>
+									<p>Get support and manage your Merchant Service Center account online from anywhere.</p>
+								</li>
+								<li>
+									<h3><a href="http://payments.intuit.com/support/faqs.jsp"><span>FAQs</span></a></h3>
+									<p>Have a question about payment processing? You'll most likely find the answer in our FAQs.</p>
+								</li>
+								<li>
+									<h3><a href="http://payments.intuit.com/support/glossary.jsp"><span>Payments Glossary</span></a></h3>
+									<p>Find the definitions of common payment processing terms and phrases.</p>
+								</li>
+								<li>
+									<h3><a href="http://payments.intuit.com/support/pci-resources.jsp"><span>Cardholder Data Security</span></a></h3>
+									<p>Stay up to date on all the federal and state information you need to remain in compliance with the latest regulations.</p>
+								</li>
+
+							</ul>
+							<ul class="right_col">
+								<li>
+									<h3><a href="http://payments.intuit.com/support/change-request-forms.jsp"><span>Account Change Form</span></a></h3>
+									<p>Need to update your account or contact info? Find all types of change request forms here.</p>
+								</li>
+								<li>
+									<h3><a href="http://payments.intuit.com/support/start-using.jsp"><span>Activate Your Account</span></a></h3>
+									<p>If you're a new Payment Solutions customer, set up your merchant account here.</p>
+								</li>
+								<li>
+									<h3><a href="http://community.intuit.com/category/credit-card-check-processing-and-billing-solutions" target="_blank"><span>Payments User Community</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png"></a></h3>
+									<p>Reach out to our community for tips and advice, or provide your own insights about our Payment Solutions.</p>
+								</li>
+							</ul>
+						</div>
+					<span class="bottom_cta IE_rounded_B"></span>
+				</div>
+			</div>
+			</li>
+		</ul>
+	</div>
+</li>
+
+<li class="top-level-item"><a id="L1E" class="L1E L1-link global-sprite" href="http://quickbooks.intuit.com/product/add-ons/checks-forms-and-supplies/computer-payroll-sofware.jsp"></a>
+	<div id="L2E" class="L2_B">
+		<div class="top_decorative_line tdl_B"></div>
+		<div id="checks-supplies-baseball-card">
+			<h2>Order checks, business cards, and more</h2>
+			<p class="subheading-text">Intuit has all the professional products you need to run a successful and organized business.</p>
+			<div class="checks_supplies">
+				<ul class="ext_links">
+					<li><a href="https://intuitmarket.intuit.com/fsg/businesschecks.aspx?source=qbnavb&track=52723" target="_blank"><span>Checks</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+					<li><a href="https://intuitmarket.intuit.com/fsg/customenvelopes.aspx?source=qbnavb&track=52723" target="_blank"><span>Envelopes</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+					<li><a href="https://intuitmarket.intuit.com/fsg/depositslips.aspx?source=qbnavb&track=52723" target="_blank"><span>Deposit Slips</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+				</ul>
+			</div>
+			<div class="checks_supplies">
+				<ul class="ext_links">
+					<li><a href="https://intuitmarket.intuit.com/fsg/product/dept.aspx?dept_id=38&source=qbnavb&track=52723" target="_blank"><span>Pre-Inked Stamps</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+					<li><a href="https://intuitmarket.intuit.com/fsg/taxforms.aspx?source=qbnavb&track=52723" target="_blank"><span>Tax Products</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+					<li><a href="https://intuitmarket.intuit.com/fsg/product/dept.aspx?dept_id=10&source=qbnavb&track=52723" target="_blank"><span>Labels & Storage</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+				</ul>
+			</div>
+			<div class="checks_supplies">
+				<ul class="ext_links">
+					<li><a href="https://intuitmarket.intuit.com/fsg/businessidentity.aspx?source=qbnavb&track=52723" target="_blank"><span>Business Identity</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+					<li><a href="http://intuitmarket.intuit.com/fsg/marketingmaterials.aspx?source=qbnavb&track=52723" target="_blank"><span>Marketing &amp; Signage</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+					<li><a href="https://intuitmarket.intuit.com/fsg/forms.aspx?source=qbnavb&track=52723" target="_blank"><span>Business Documents</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<a class="bc-view-all-products" target="_blank" href="http://quickbooks.intuit.com/product/add-ons/checks-forms-and-supplies/computer-payroll-sofware.jsp?source=qbnavb&track=52723">View All Checks &amp; Supplies</a>
+		<span class="bottom_cta IE_rounded_B"></span>
+	</div>
+</li>
+	
+
+<li class="top-level-item"><a id="L1F" class="L1F L1-link global-sprite" href="http://www.intuit.com/small-business-success" title="Small Business Success"></a>
+	<div class="L1_tab L1_pos6 hover-underline"><a href="http://www.intuit.com/small-business-success/">Small Business Success</a></div>
+	<div id="L2F" class="L2_C">
+		<div class="top_decorative_line tdl_B"></div>
+		<div id="small-business-baseball-card" class="overflowHidden">
+			<ul id="small-business-left-nav" class="floatLeft">
+				<li id="sb-1" class="menuItem onHover"><a class="orange sb-success-card-sprite" href="http://www.intuit.com/small-business-success/">Community & Resources<div class="global-sprite arrow_right_blue"></div></a></li>
+				<li class="dotted-divider global-sprite"></li>
+				<li id="sb-2" class="menuItem"><a class="orange sb-success-card-sprite" href="http://www.intuit.com/small-business-success/?goto=mobileAndWeb">Mobile & Web<div class="global-sprite arrow_right_blue"></div></a></li>
+				<li class="dotted-divider global-sprite"></li>
+				<li id="sb-3" class="menuItem"><a class="orange sb-success-card-sprite" href="http://www.intuit.com/small-business-success/?goto=intuitProducts">Intuit Products<div class="global-sprite arrow_right_blue"></div></a></li>
+			</ul>
+			<div id="small-business-L2-content" class="floatLeft">
+				<div id="sb-1-content" class="L3-content">
+					<h2>Community & Resources</h2>
+					<p class="subheading-text">
+						Get tips and advice from other small business owners and experts<br/>
+						to help you start or run your business. <a href="http://www.intuit.com/small-business-success/"><span>See More</span></a>
+					</p>
+					<div class="overflowHidden">
+						<div id="sb-love-local" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://lovealocalbusiness.intuit.com/" ></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://lovealocalbusiness.intuit.com/" target="_blank"><span>Love a Local Business</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a>
+							<p>Get your business<br/>nominated to win an<br/>Intuit hiring grant</p>
+						</div>
+						<div id="sb-blog" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://blog.intuit.com/" ></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://blog.intuit.com/" target="_blank"><span>Small Business Blog</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a>
+							<p>Read timely, insightful<br/>posts written about and<br/>for small businesses</p>
+						</div>
+					</div>
+					<div class="overflowHidden">
+						<div id="sb-index" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://index.intuit.com"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://index.intuit.com"><span>Small Business Index</span></a>
+							<p>The source for expert<br/>analysis of the latest<br/>small business trends</p>
+						</div>
+						<div id="sb-comm" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://community.intuit.com/"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://community.intuit.com/" target="_blank"><span>Intuit Community</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a>
+							<p>Connect and exchange<br/>ideas with other small<br/>business owners</p>
+						</div>
+					</div>
+				</div>
+				<div id="sb-2-content" class="L3-content">
+					<h2>Mobile & Web</h2>
+					<p class="subheading-text">
+						Find out how to use Mobile and Web apps to run your business<br/>
+						more efficiently wherever you go. <a href="http://www.intuit.com/small-business-success/"><span>See How</span></a>
+					</p>
+					<div class="overflowHidden">
+						<div id="sb-mobile-apps" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://www.intuit.com/mobile/"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://www.intuit.com/mobile/"><span>Mobile Apps</span></a>
+							<p>Run your small<br/>business on the go<br/>with our mobile apps</p>
+						</div>
+						<div id="sb-web-apps" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://appcenter.intuit.com/" target="_blank"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://appcenter.intuit.com/" target="_blank"><span>Web Apps</span><img class="link_icon" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/images/wcn/link_icon.png" /></a>
+							<p>Discover Web apps<br/>you can use to run<br/>your business</p>
+						</div>
+					</div>
+				</div>
+				<div id="sb-3-content" class="L3-content">
+					<h2>Intuit Products</h2>
+					<p class="subheading-text">
+						Intuit has everything you need to start and run a successful business:<br/>
+						products that save you time as you grow. <a href="http://www.intuit.com/small-business-success/"><span>See More</span></a>
+					</p>
+					<div class="overflowHidden">
+						<div id="sb-websites" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://www.intuit.com/website-building-software/"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://www.intuit.com/website-building-software/"><span>Website Services</span></a>
+							<p>We'll show you how<br/>to use the Web to<br/>attract new customers</p>
+						</div>
+						<div id="sb-qb" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://quickbooks.intuit.com/"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://quickbooks.intuit.com/"><span>QuickBooks</span></a>
+							<p>Save time by easily<br/>managing your finances<br/>in one place</p>
+						</div>
+					</div>
+					<div class="overflowHidden">
+						<div id="sb-payments" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://payments.intuit.com/"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://payments.intuit.com/"><span>Payment Processing</span></a>
+							<p>Accept payments<br/>anywhere and get<br/>paid faster</p>
+						</div>
+						<div id="sb-payroll" class="icon-sb sb-success-card-sprite floatLeft"><a href="http://payroll.intuit.com/"></a></div>
+						<div class="content-sb floatLeft">
+							<a href="http://payroll.intuit.com/"><span>Payroll Services</span></a>
+							<p>Worry-free payroll and<br/>taxes makes paying<br/>employees easy</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="bottom_cta IE_rounded_A"></span>
+	</div>
+</li>
+
+</ul>
+		</div>
+	</div>
+
+<div id="breadcrumb-tertiary-nav-container">
+	<div id="breadcrumbs-container">
+		<style>
+				#header-container{
+					margin-bottom:15px;
+				}
+			</style>
+		</div>
+	<div id="wcn-tertiary-nav-container">
+		</div>
+</div>
+
+<div class="mboxDefault"></div>
+<script type="text/javascript">mboxCreate('qb_11156_fms_learn_orient_nav');</script>
+
+<script type="text/javascript" src="http://images.smallbusiness.intuit.com/sbweb/common/includes/header/js/wcn.js?version=011"></script>
+
+<script type="text/javascript">
+						hideL2All();
+				</script>
+			</div>
+					</div>
+			
+		<div id="content-container">
+				<a name="top"></a>
+	<div id="intuitCorp">
+		<div class="mboxDefault">
+    <style type="text/css">
+			.sptB, .sptC, .sptD { display: none; }
+		</style>
+	</div>
+<script language="JavaScript1.2">
+    mboxCreate('HS_IntuitCom_SPT_LO' , 'pageContainsPrice=true', 'isIWSHomePage=false');
+</script><noscript id="noscriptStylings">
+		<style type="text/css">
+			.no-flash-content { display: block; }
+			.script-only { display: none; }
+		</style>
+	</noscript>
+	
+	<div class="mboxDefault"></div>
+	<script type="text/javascript">
+		var sSegmentAssignment = '';
+		var bIsQBDTCustomer = propertySegmentation.getProductPurchased("QB");
+		var sGetMostVisitedProperty = propertySegmentation.getMostVisitedProperty();
+		var cIncludeInTest = 'includeInTest=';
+
+		function callMboxCreate() {
+			$(document).ready(function() {
+				Selector.SelectIndex(2);
+			});
+			mboxCreate('HS_IntuitCom_Splash_BTT_Setup', cIncludeInTest);
+		}
+		if (sSegmentAssignment != '') {
+			cIncludeInTest += 1;
+			callMboxCreate();
+		} else if (bIsQBDTCustomer != '') {
+			cIncludeInTest += 2;
+			callMboxCreate();
+		} else if (sGetMostVisitedProperty != '') {
+			cIncludeInTest += 3;
+			callMboxCreate()
+		} else {
+			cIncludeInTest = '';
+			$(document).ready(function() {
+				Selector.SelectIndex(2);
+			});
+		}
+	</script>
+
+	<div id="SelectorHeroContainer">
+		<div id="SelectorIWSHeroCotainer" class="hero float-container">
+		<div class="quickTour">
+			<div class="flash-content script-only">
+				<div class="left-corner ss-wireframe-asset"></div>
+				<div class="right-corner ss-wireframe-asset"></div>
+				<a id="quickTourFlashLink" class="quickTourSplash" href="#" onclick="sbweb.flash.quicktour.playTourAdvance('quickTourFlash', 318, 200, 'http://images.smallbusiness.intuit.com', null, 'quickTourFlashLink'); return false;"></a>
+				<div id="quickTourFlash"></div>
+			</div>
+			<div class="no-flash-content">
+				<img class="quickTourStatic" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" border="0" width="318" height="200" />
+			</div>
+		</div>
+		<div class="hiw">
+			<h2 class="five-element-app-title">Get a Website</h2>
+			<h3 class="five-element-app-subtitle">and Get Found by Customers</h3>
+			<ul>
+				<li><span>Hundreds of designs to choose from</span></li>
+				<li><span>Easy changes - just drag &amp; drop</span></li>
+				<li><span>Publish in a few clicks</span></li>
+			</ul>
+			<div class="ctaContainer float-container">
+				<a href="https://websites.intuit.com/~site/Scripts_SignupSetup/SignupSetup.dll?IEC=INTUITCOM_QS36&amp;tdrc=set&amp;TARGET=%2F~site%2FScripts_Signup%2FSignup.dll%3FCMD%3DCMDLoginInformationCCR%26ACCOUNTINFONEWCONTENT%3DTRUE&amp;s_cid=intcom_iws_hero_cta_--TN--_--TV--" 
+	class="IWSSignupLink five-element-cta-tryfree IWSTrialSignupLink"onclick="fTV.fHref(this)"
+>
+	</a><a href="http://www.intuit.com/websites/how-it-works/?s_cid=intcom_iws_hero_text_--TN--_--TV--" class="learn-more-link" onclick="fTV.fHref(this)">Learn more</a>
+			</div>
+			<div class="trialMessage">
+				Free for 30 days &mdash; there's nothing to lose!<br />
+				And only <span style="font-weight: bold"><span class="sptA"><span class="footerColor">$4.99</span></span><span class="sptB">$7.99</span><span class="sptC">$7.99</span><span class="sptD">$7.99</span>/month</span> thereafter.*
+			</div>
+		</div>
+	</div>
+<div class="mboxDefault"></div>
+	<script type="text/javascript">
+		mboxCreate('qbo_promo_11894_entry_point');
+	</script>
+	
+	<div id="SelectorQBOHeroCotainer" class="hero float-container">
+		<div class="quickTour">
+			<div class="flash-content script-only">
+				<div class="five-element-flow-player" href="http://images.smallbusiness.intuit.com/sbweb/common/media/misc/fms.melissa.m4v">
+					<img class="quickTourSplash" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Melissa's Story - Before & After QuickBooks" />
+				</div>
+			</div>
+			<div class="no-flash-content"></div>
+		</div>
+		<div class="hiw">
+			<h2 class="five-element-app-title">QuickBooks Online</h2>
+			<h3 class="five-element-app-subtitle">Know where your business stands</h3>
+			<ul>
+				<li><span>Organize finances in one place</span></li>
+				<li><span>Track sales &amp; expenses</span></li>
+				<li><span>Get reliable records for tax time</span></li>
+			</ul>
+			
+			<!-- 11894 50% promo mbox -->	
+		 <div id="mboxdefault">
+		  <div id="qboDefault">
+			<div class="ctaContainer float-container qbo-try-it-free" style="width: 341px;">
+            <a href="http://quickbooks.intuit.com/bookkeeping-accounting-systems/?xcid=intcom_qbo_hero_cta_--TN--_--TV--" class="five-element-cta-tryfree" onclick="fTV.fHref(this, true)"></a>			
+				<div class="five-element-trial-message">
+					No contract, <br/>cancel anytime*
+				</div>
+			 </div>
+			 </div>
+			</div>
+			<!-- 50% promo -->
+			<script type="text/javascript">
+			  mboxCreate('qbo_11894_intuit_com');
+			</script>		 
+			<a href="http://quickbooks.intuit.com/finance-accounting-solutions/?xcid=intcom_qbo_hero_text_--TN--_--TV--" class="learn-more-link" onclick="fTV.fHref(this, true)"><span style="margin-left: 25px; color: #2C76E3">Learn more</span></a>
+		</div>
+	</div><div id="SelectorGoPayHeroCotainer" class="hero float-container">
+		<div class="quickTour">
+			<object id="myExperience1469072624001" class="BrightcoveExperience">
+			  <param name="bgcolor" value="#FFFFFF" />
+			  <param name="width" value="318" />
+			  <param name="height" value="200" />
+			  <param name="playerID" value="1443416125001" />
+			  <param name="playerKey" value="AQ~~,AAAAAEMlkfM~,Yy_51U2F2ILIT99MBKTvNUIqSgXz7OrQ" />
+			  <param name="isVid" value="true" />
+			  <param name="isUI" value="true" />
+			  <param name="dynamicStreaming" value="true" />
+			  <param name="wmode" value="transparent" />
+			  <param name="@videoPlayer" value="1469072624001" />
+			</object>
+			<script type="text/javascript">brightcove.createExperiences();</script>
+		</div>
+		<div class="hiw btt-hiw-a">
+			<h2 class="five-element-app-title">Intuit GoPayment</h2>
+			<h3 class="five-element-app-subtitle">Accept credit cards anywhere</h3>
+			<ul>
+				<li><span>Get paid on the spot</span></li>
+				<li><span>Low rates, no cancellation fees</span></li>
+				<li><span>Use iPhone<sup>&reg;</sup>, Android<sup>&reg;</sup> &amp; more</span></li>
+			</ul>
+			<div class="ctaContainer float-container">
+				<a rel="http://payments.intuit.com/pop-up/go-payment-pricing_two_price_option.jsp?xcid=intcom_ips_hero_cta_--TN--_--TV--&priorityCode=--pCode----TVA--" class="jModal five-element-cta-apply" width="939" height="500" href="javascript:void(0)" target="_blank" onclick="fTV.fHref(this)" title="Apply Now"></a>
+				<div class="five-element-trial-message">
+					Free Card Reader<br />
+					No Monthly Service Fee*
+				</div>
+			</div>
+			<a href="http://payments.intuit.com/?xcid=intcom_ips_hero_text_--TN--_--TV--&priorityCode=--pCode----TVA--" class="learn-more-link" onclick="fTV.fHref(this, true)">See all our payment products</a>
+		</div>
+		<div class="hiw btt-hiw-b">
+			<h2 class="five-element-app-title">Intuit Merchant Service for QuickBooks</h2>
+			<h3 class="five-element-app-subtitle">Accept Credit Cards Directly<br /> in QuickBooks</h3>
+			<div class="ctaContainer float-container">
+				<a href="http://payments.intuit.com/products/quickbooks-credit-card-processing-services.jsp?xcid=intcom_ips_hero_cta_--TN--_--TV--&priorityCode=--pCode----TVA--" class="five-element-cta-learn" width="939" height="500" onclick="fTV.fHref(this)" title="Learn More"></a>
+				<div class="five-element-trial-message">
+					<div class="btt-mobilefeat-icon"></div>
+					Mobile feature included free!
+				</div>
+			</div>
+		</div>
+	</div><div id="SelectorIOPHeroCotainer" class="hero float-container">
+		<div class="quickTour">
+			<div class="flash-content script-only">
+				<div class="five-element-flow-player" href="http://images.smallbusiness.intuit.com/sbweb/common/media/misc/iop.kristen.m4v">
+					<img class="quickTourSplash" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Kristen's Story - Intuit Online Payroll" />
+				</div>
+			</div>
+			<div class="no-flash-content"></div>
+		</div>
+		<div class="hiw">
+			<h2 class="five-element-app-title">Make payroll fast and easy</h2>
+			<ul>
+				<li><span>Create paychecks in minutes</span></li>
+				<li><span>Get free expert support</span></li>
+				<li><span>Works with QuickBooks</span></li>
+			</ul>
+			<div class="ctaContainer float-container">
+				
+			<a href='https://payroll.intuit.com/start/create-account.jsp?SC=intcom--TN----TV--' class="five-element-cta-tryfree" onclick="fTV.fHref(this, true)"></a> </div>
+			<a class="learn-more-link" href="http://payroll.intuit.com?SC=intcom--TN----TV--" onclick="fTV.fHref(this, true)">Learn More About Intuit Payroll</a>
+		</div>
+	</div>	<div id="SelectorIACHeroCotainer" class="hero float-container">
+		<div class="hiw" style="margin-left:600px">
+			<h2 class="five-element-app-title">Intuit App Center</h2>
+			<h3 class="five-element-app-subtitle">Unlock the power of QuickBooks</h3>
+			<ul>
+				<li><span>Find apps designed to work with QuickBooks</span></li>
+				<li><span>Give your productivity a boost</span></li>
+				<li><span>Manage customers, transactions, bills, &amp; more</span></li>
+			</ul>
+			<div class="ctaContainer float-container">
+				<a href="http://appcenter.intuit.com/promos/enhanceproductivitywithapps?utm_campaign=intuithpioptest&utm_medium=h3box&utm_source=intuithp&utm_term=--TV--&cid=intuithpioptest--TV--" onclick="fTV.fHref(this)" class="five-element-cta-learn"></a>
+			</div>
+		</div>
+	</div><ul id="selectorTabBarContainer">
+			<li id="SelectorIWS" class="selector-tab">
+				<div class="five-element-selector-title">Get Customers</div>
+				<div class="five-element-selector-subtitle">Website Services</div>
+				<div class="five-element-selector-tabicon five-element-ui-sprite"></div>
+			</li>
+			<li id="SelectorQBO" class="selector-tab">
+				<div class="five-element-selector-title">Manage Finances</div>
+				<div class="five-element-selector-subtitle">QuickBooks Online</div>
+				<div class="five-element-selector-tabicon five-element-ui-sprite"></div>
+			</li>
+			<li id="SelectorGoPay" class="selector-tab">
+				<div class="five-element-selector-title">Accept Credit Cards</div>
+				<div class="five-element-selector-subtitle">GoPayment</div>
+				<div class="five-element-selector-tabicon five-element-ui-sprite"></div>
+			</li>
+			<li id="SelectorIOP" class="selector-tab">
+				<div class="five-element-selector-title">Pay Employees</div>
+				<div class="five-element-selector-subtitle">Payroll Services</div>
+				<div class="five-element-selector-tabicon five-element-ui-sprite"></div>
+			</li>
+			<li id="SelectorIAC" class="selector-tab">
+				<div class="five-element-selector-title">Enhance Productivity</div>
+				<div class="five-element-selector-subtitle">Intuit App Center</div>
+				<div class="five-element-selector-tabicon five-element-ui-sprite"></div>	
+			</li>
+		</ul>
+	</div>
+
+	<div id="TertiaryContainer">
+		<div class="five-element-tertiary-panel">
+			<h4><a href="http://community.intuit.com/?xcid=intcom_comm_ask_--TN--_--TV--" title="Ask the Community" onclick="fTV.fHref(this)">Ask the Community</a></h4>
+			<h5>Intuit Community</h5>
+			<span class="recent-questions">Recent questions</span>
+			<ul id="wfmCommunityFeed"></ul>
+			<div class="five-element-tertiary-bottom-pinned">
+				<span class="global-override">See more questions on the</span>
+				<br />
+				<span><a href="http://community.intuit.com/?xcid=intcom_comm_ask_--TN--_--TV--" title="Ask the Community" onclick="fTV.fHref(this)">Grow Your Business Forum</a></span>
+			</div>
+		</div>
+		<div class="five-element-tertiary-panel">
+			<h4><a href="http://blog.intuit.com/?xcid=intcom_blog_read_--TN--_--TV--" title="Read Articles" onclick="fTV.fHref(this)">Read Articles</a></h4>
+			<h5>Intuit Small Business Blog</h5>
+			<ul id="wfmSmallBusinessFeed"></ul>
+		</div>
+		<div class="five-element-tertiary-panel">
+			<h4><a href="http://lovealocalbusiness.intuit.com/sbo/?xcid=intcom_lalb_win_--TN--_--TV--" title="Win a Business Grant" onclick="fTV.fHref(this)">Win a Business Grant</a></h4>
+			<h5>Love A Local Business</h5>
+			<div class="lalb-quote">
+				<p class="five-element-lalbquote"><img src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" class="five-element-openquote" width="30" height="25" alt="" />We have functioned for the last ten years on a small budget, able to do what we do thanks to strong community support and involvement, but this award will help us do so much more!<img src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" class="five-element-closequote" width="30" height="25" alt="" /></p>
+			</div>
+			<div class="five-element-tertiary-bottom-pinned">
+				<a href="http://blog.intuit.com/local/love-a-local-business-delivers-grant-to-blossom-birth/?xcid=intcom_lalb_birth_--TN--_--TV--" title="Mora Oommen, Blossom Birth" class="five-element-lalb-quotelink" onclick="fTV.fHref(this)">&mdash;Mora Oommen, Blossom Birth</a><br />
+				<a href="http://blog.intuit.com/local/love-a-local-business/?xcid=intcom_lalb_earn_--TN--_--TV--" title="Earn your own business grant" class="five-element-lalb-quotelink" onclick="fTV.fHref(this)">Earn your own business grant</a>
+			</div>
+		</div>
+		<div class="five-element-tertiary-panel">
+			<h4><a href="http://index.intuit.com/?xcid=intcom_sbi_track_--TN--_--TV--" title="Track Trends" onclick="fTV.fHref(this)">Track Trends</a></h4>
+			<h5>Intuit Small Business Index</h5>
+			<div id="SBIStaticChartContainer">
+				<div class="five-element-sbistaticchart"></div>
+				<a href="http://index.intuit.com/?xcid=intcom_sbi_report_--TN--_--TV--" onclick="fTV.fHref(this)" title="View latest report">View latest report</a><span class="five-element-sbistatichart-pipe"> | </span>
+				<a href="http://index.intuit.com/?xcid=intcom_sbi_trends_--TN--_--TV--" onclick="fTV.fHref(this)" title="See other trends">See other trends</a>
+			</div>
+		</div>
+	</div>
+   
+  	<div class="disclaimer-container float-container">
+		<a id="iwsOffer" class="right details" href="#" onclick="toggleOfferDetails('#iwsOfferDetails'); return false;">*Offer Details</a></div>
+
+	<div id="iwsOfferDetails">
+	<strong>Intuit Website</strong>
+	<br /><br />
+	Your 30 day free trial period begins when you click on "Click Here to Finish" during the registration process.
+	<span class="sptA">
+		After the first 30 days, you will automatically be charged <span class="footerColor">$4.99</span> a month for the 
+		Starter package unless you upgrade to another package during sign up or after your trial period. If you upgrade 
+		to another package, you will be charged at the then current monthly fee for that package. Additional fees apply 
+		for add-on services. Starter package is limited to 5 web pages.
+	</span>
+	<span class="sptB">
+		After the 30-day trial period, you will automatically be billed at the rate of $7.99 per month for the Starter package, 
+		unless you upgrade to another package during sign-up or after your trial period.  If you upgrade to a different package, 
+		you will be charged that package's monthly fee. Additional fees apply for add-on services. 
+	</span>
+	<span class="sptC">
+		After the 30-day trial period, you will automatically be billed at the rate of $7.99 per month for the Starter package, 
+		unless you upgrade to another package during sign-up or after your trial period.  If you upgrade to a different package, 
+		you will be charged that package's monthly fee. Additional fees apply for add-on services. 
+	</span>
+	<span class="sptD">
+		After the first 30 days, you will automatically be charged $7.99 a month for the 
+		Starter package unless you upgrade to another package during sign up or after your trial period. If you upgrade 
+		to another package, you will be charged at the then current monthly fee for that package. Additional fees apply 
+		for add-on services. Starter package is limited to 5 web pages.
+	</span>
+	See <a href="http://www.intuit.com/websites/website-pricing-packages/">packages and pricing</a> for details.
+	This offer is valid for new Intuit Website customers only and cannot be combined with other Intuit Website offers. Offer is 
+	good for a limited time only. Terms, conditions, pricing, features, service and support are subject to change without notice.
+	<br /><br /><br />
+	<strong>QuickBooks Online</strong>
+	<br /><br />
+	<p>
+	*First thirty (30) days of subscription to QuickBooks Online, starting from the date of enrollment, is free. Customers will 
+	be asked to present a valid credit card account for authorization when they subscribe. After the first 30 days, you will 
+	automatically be charged at the then current rate for the service(s) you have selected, until you cancel. You will be 
+	charged the applicable monthly fee for QuickBooks Online. You may cancel either service at anytime by calling 
+	866-272-8734 x111. Offer(s) are valid for new QuickBooks Online and QuickBooks Online Payroll customers only and is available 
+	for a limited time. Offer cannot be combined with any other QuickBooks Online offers. Terms, conditions, features, pricing, 
+	service and support are subject to change without notice.
+	<br /><br /> 
+	&dagger;First thirty (30) days of subscription to QuickBooks Online Essentials with Payroll or QuickBooks Online Plus with 
+	Payroll, starting from the date of enrollment, is free. Customers will be asked to present a valid credit card account for 
+	authorization when they subscribe. After the first 30 days, each month you will automatically be charged at the then current 
+	monthly rate for the service(s) you have selected (currently $51.16 for QuickBooks Online Essentials with Payroll and $63.16 
+	for QuickBooks Online Plus with Payroll), until you cancel. Stated monthly pricing for payroll includes the 1st employee and 
+	one state. Each additional active employee is currently $1.50/month. If you file taxes in more than one state, each additional 
+	state is currently $12/month. You may cancel the service at anytime by calling 866-272-8734 x111. Offer is valid for new 
+	QuickBooks Online with Payroll customers only and is available for a limited time. Offer cannot be combined with any other 
+	QuickBooks Online or Payroll offers. Terms, conditions, features, pricing, service and support are subject to change without notice. 
+	<br /><br />
+	See <a href="/qb/testing/digitas/includes/Terms_Of_Service.html" target="_blank">General Terms and Conditions</a> for additional details.</a>
+	<br /><br />
+	<a id="terms" target="_blank" href="/qb/testing/digitas/includes/Terms_Of_Service.html">Terms</a>
+	</p>
+	<br /><br />
+	<strong>Intuit Online Payroll</strong>
+	<br /><br />
+	<p>
+	Your 30 day free trial period begins when you run your first payroll. After the first 30 days, you pay the special $9.99 price 
+	for the next 2 months. After the first 30 days, you will automatically be charged at the then-current monthly fee for the service 
+	level you have selected, until you cancel. Currently the monthly pricing is $39 for Plus; or $25 for Basic; or $20 for Household 
+	for 1 employee and 1 state. For Basic &amp; Plus, 1 employee is included; each additional active employee is $1.50 per month. For 
+	Plus, if you file taxes in more than one state each additional state is $12 per month. Basic does not include state tax filing. 
+	Sales tax also may be charged where applicable. The trial is available for Intuit Online Payroll Plus, Basic or Household versions. 
+	You may cancel at any time online within your payroll account (click the Setup tab and then click Cancel Service) or by 
+	calling (866) 729-2925. This limited time offer is valid for new Intuit Online Payroll subscribers only and cannot be combined with 
+	other offers. Terms, conditions, pricing, features, service and support are subject to change without notice.
+	</p>
+	<br /><br />
+	<strong>Intuit GoPayment</strong>
+	<br /><br />
+	<p>
+	Offer available while supplies last and for a limited time only. Valid for new Intuit Merchant Service customers only. Account 
+	approval required. Free Intuit Credit Card Reader is compatible only with select phones; click here to see list. Once approved, you 
+	will be provided information in your approval email on how to redeem your card reader. Free card reader will ship within four weeks 
+	of redemption. Offer cannot be combined with any other Intuit Merchant Service offer. Only one free offer redemption per business or 
+	principal. Terms, conditions, pricing, features, service and support are subject to change without notice.
+	</p>
+</div><div id="OESModuleExpContainer">
+		<hr class="oes-hr" />
+		<h1 class="oes-h1-header">Intuit Small Business Products &amp; Services</h1>
+		<p class="oes-subheadtxt">Intuit has everything you need to start and run a successful business, with products that save you time as you grow.</p>
+		<div id="OESModuleContainer" class="oes-module-var-b">
+			<div id="OESModuleIPS">
+				<h4>Accept Credit Cards</h4>
+				<p>Never miss a sale again with Gopayment, our <a href="http://gopayment.com/">mobile credit card processing</a> app. For retail and other industries, <a href="http://payments.intuit.com/">accept credit cards</a> online, over the phone or via terminal.</p>
+			</div>
+			<div id="OESModuleIPP">
+				<h4>Small Business Apps Boost Your Productivity</h4>
+				<p>If you are a QuickBooks customer, unlock the full potential of your productivity with <a href="http://appcenter.intuit.com/">business apps</a> that offer flexible pricing, secure online access and easy, one click attach to your existing software.</p>
+			</div>
+			<div id="OESModuleQB">
+				<h4>Manage Business Finances</h4>
+				<p>Quickbooks is the number one accounting software. Whether you are looking for <a href="http://www.quickbooksonline.intuit.com/">online accounting software</a> or <a href="http://quickbooks.intuit.com/">desktop accounting software</a>, Quickbooks works where and when you need it.</p>
+			</div>
+			<div id="OESModuleIOP">
+				<h4>Pay Employees</h4>
+				<p>With Intuit Payroll, you can pay your employees anytime and anywhere with <a href="http://payroll.intuit.com/">online payroll</a>, or you can completely <a href="http://payroll.intuit.com/payroll_services/fullservice_payroll.jsp">outsource payroll</a> with our full service offering and we'll take care of everything.</p>
+			</div>
+		</div>
+		<hr class="oes-hr" />
+	</div>
+ 
+</div>
+
+</div>
+		</div>
+			<script type="text/javascript">
+		$(document).ready(function () {
+			// OES Global
+			$('#ftr-Footer-GlobalOESContainer a').bind('click', function() {
+				analyticsClick("footernov11_icom_global_oes_B");
+			});
+			// OES Websites
+			$('#ftr-Footer-WebsitesOESContainer a').bind('click', function() {
+				analyticsClick("footernov11_icom_websites_oes_B");
+			});
+			// OES QuickBooks
+			$('#ftr-Footer-QuickBooksOESContainer a').bind('click', function() {
+				analyticsClick("footernov11_icom_quickbooks_oes_B");
+			});
+			// OES Payroll
+			$('#ftr-Footer-PayrollOESContainer a').bind('click', function() {
+				analyticsClick("footernov11_icom_payroll_oes_B");
+			});
+			// OES Payments
+			$('#ftr-Footer-PaymentsOESContainer a').bind('click', function() {
+				analyticsClick("footernov11_icom_payments_oes_B");
+			});
+			
+			// Other Products
+			$('#ftr-FooterProductsOther a').bind('click', function() {
+				analyticsClick("footernov11_icom_OtherProducts_B");
+			});
+
+			// Featured Product
+			$('#ftr-FooterFeaturedProduct a').bind('click', function() {
+				analyticsClick("footernov11_icom_FeaturedProduct_B");
+			});
+
+			// Social & Corp
+			$('#ftr-FooterSocialCorpContainer a').bind('click', function() {
+				analyticsClick("footernov11_icom_SocialCorp_B");
+			});
+
+			// Audience
+			$('#ftr-FooterAudienceContent a').bind('click', function() {
+				analyticsClick("footernov11_icom_Audience_B");
+			});
+
+			// Legal
+			$('#ftr-FooterLegalContainer a').bind('click', function() {
+				analyticsClick("footernov11_icom_Legal_B");
+			});
+			
+		});
+	</script>
+	<div id="ftr-Footer">
+	<div id="ftr-FooterOESContainer" class="ftr-Footer-GlobalOESContainer">
+		<div class="ftr-footer-oes-bu-column">			
+			<h3 class="ftr-footer-oes-bu-column-no-topmarg">Website Services</h3>
+			<ul>
+				<li><a href="http://www.intuit.com/domain-name-registration/" title="Domain Name Registration">Domain Name Registration</a></li>
+				<li><a href="http://www.intuit.com/website-building-software/" title="Build a Website">Build a Website</a></li>
+				<li><a href="http://www.intuit.com/market-business/" title="Marketing Online">Marketing Online</a></li>
+				<li><a href="http://www.intuit.com/web-site-design/" title="Let Us Design Your Site">Let Us Design Your Site</a></li>
+				<li><a href="http://www.intuit.com/free-website-builder/" title="Free Website Builder">Free Website Builder</a></li>
+			</ul>
+			<h3>Payment Processing</h3>
+			<ul>
+				<li><a href="http://gopayment.com/" title="Mobile Credit Card Payments">Mobile Credit Card Payments</a></li>
+				<li><a href="http://payments.intuit.com/" title="Credit Card Processing">Credit Card Processing</a></li>
+				<li><a href="http://payments.intuit.com/products/internet-merchant-accounts.jsp" title="Online Merchant Accounts">Online Merchant Accounts</a></li>
+				<li><a href="http://payments.intuit.com/products/online-credit-card-processing.jsp" title="Credit Card Terminals">Credit Card Terminals</a></li>
+				<li><a href="http://payments.intuit.com/paymentnetwork-electronic-invoicing-online-bill-payment/" title="Accept Online Payments">Accept Online Payments</a></li>
+			</ul>
+		</div>
+		<div class="ftr-footer-oes-bu-column">
+			<h3 class="ftr-footer-oes-bu-column-no-topmarg">QuickBooks</h3>
+			<ul>
+				<li><a href="http://quickbooks.intuit.com/" title="Accounting Software">Accounting Software</a></li>
+				<li><a href="http://www.quickbooksonline.intuit.com/" title="Online Accounting">Online Accounting</a></li>
+				<li><a href="http://proadvisor.intuit.com/product/accounting-software/pro-business-accounting-software.jsp" title="Business Accounting">Business Accounting</a></li>
+				<li><a href="http://quickbooks.intuit.com/product/accounting-software/small-business-software.jsp" title="Small Business Accounting Software">Small Business Accounting Software</a></li>
+			</ul>
+		</div>
+		<div class="ftr-footer-oes-bu-column ftr-footer-oes-bu-column-skinny">
+			<h3 class="ftr-footer-oes-bu-column-no-topmarg">Payroll Services</h3>
+			<ul>
+				<li><a href="http://payroll.intuit.com/" title="Payroll Service">Payroll Service</a></li>
+				<li><a href="http://payroll.intuit.com/payroll_services/assisted_payroll.jsp" title="Outsource Payroll">Outsource Payroll</a></li>
+				<li><a href="http://payroll.intuit.com/payroll_resources/payroll_101/" title="How to Do Payroll">How to Do Payroll</a></li>
+				<li><a href="http://payroll.intuit.com/hire-your-first-employee-free-book.jsp" title="Hire an Employee">Hire an Employee</a></li>
+				<li><a href="http://payroll.intuit.com/payroll_services/enhanced_payroll.jsp" title="QuickBooks Payroll">QuickBooks Payroll</a></li>
+				<li><a href="http://payroll.intuit.com/payroll_services/online_payroll.jsp" title="Online Payroll">Online Payroll</a></li>
+			</ul>
+		</div>
+		<div id="ftr-FooterOESSearchContainer" class="ftr-footer-oes-search-container-global">
+			<h3 class="ftr-footer-oes-bu-column-no-topmarg">Search for What You Need</h3>
+			<p><strong>Suggested Terms:</strong> web hosting, point of sale, accept credit cards, pay employees</p>
+			<div id="ftr-FooterOESSearchFormContainer">
+			<form id="searchIntuitFooter" action="/sbweb/common/catalog/category/internal_search/search_redirect.jsp" method="get">
+				<input type="text" class="search_box global-sprite ftr-sprite" name="searchTerm" value="Search Small Business" size="18" />
+				<input type="image" class="search_box_submit global-sprite ftr-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" width="24" height="29" value="" name="submit" alt="Search" />
+			</form>
+			</div>
+		</div>
+		<div id="ftr-FooterOESBuProductContainer" class="ftr-footer-oes-bu-product-global">
+			<div id="ftr-FooterOESBuProductShadow" class="ftr-footer-sprite ftr-footer-oes-bu-productshadow-global"></div>
+			<h3>TurboTax Deluxe</h3>
+			<a href="http://turbotax.intuit.com/"><img id="ftr-FooterOESBuProduct" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Product Shot" height="83" width="76" /></a>
+			<ul>
+				<li><span>Max. tax refund, guaranteed</span></li>
+				<li><span>Free live tax advice</span></li>
+				<li><span>Free efile included</span></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="ftr-FooterProductInfoContainer">
+		<div id="ftr-FooterProductsContainer">
+			<div id="ftr-FooterProductsBG" class="ftr-footer-sprite"></div>
+			<div id="ftr-FooterFeaturedProductBG" class="ftr-footer-sprite"></div>
+			<div id="ftr-FooterProductsOther">
+				<h3>Other Intuit Products</h3>
+				<ul>
+					<li><a href="http://turbotax.intuit.com/" title="TurboTax Tax Preparation">TurboTax Tax Preparation</a></li>
+					<li><a href="http://www.mint.com/" title="Mint">Mint</a></li>
+					<li><a href="http://quicken.intuit.com/" title="Quicken">Quicken</a></li>
+					<li><a href="http://quickbase.intuit.com/" title="QuickBase">QuickBase</a></li>
+				</ul>
+				<ul>
+					<li><a href="http://smallbusiness.intuit.com/small-business/products-a-to-z/index.jsp" title="Products A-Z">Products A-Z</a></li>
+					<li><a href="http://pointofsale.intuit.com/point-of-sale-system/" title="Point of Sale Solutions">Point of Sale Solutions</a></li>
+					<li><a href="http://mobilepayment.intuit.com/" title="Get Paid on Your Mobile Phone: GoPayment">Get Paid on Your Mobile Phone: GoPayment</a></li>
+					<li><a href="https://intuitlabs.com/" title="">Intuit Labs</a></li>
+				</ul>
+			</div>
+			<div id="ftr-FooterFeaturedProduct">
+				<a href="http://pointofsale.intuit.com/point-of-sale-system/" title="Learn more about Intuit's Point of Sale system"><img id="ftr-FooterFeaturedProductImage" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Point of Sale" height="24" width="81" /></a>
+				<h3><a href="http://pointofsale.intuit.com/point-of-sale-system/" title="Manage Your Retail Store">Manage Your Retail Store</a></h3>
+				<h4 class="ftr-footer-featured-product-subheader">Point of Sale Products</h4>
+				<ul>
+					<li><a href="http://pointofsale.intuit.com/point-of-sale-system/" title="Point of Sale Software">Point of Sale Software</a></li>
+					<li><a href="http://pointofsale.intuit.com/product/accounting-software/retail-pos-solutions/compare-retail-pos-products/" title="Compare Products">Compare Products</a></li>
+					<li><a href="http://pointofsale.intuit.com/barcode-inventory-software/" title="Point of Sale for Hardware &amp; Supplies">Point of Sale for Hardware &amp; Supplies</a></li>
+					<li><a href="http://pointofsale.intuit.com/retail-merchant-services-credit-card-processing/" title="Accept Credit Cards">Accept Credit Cards</a></li>
+				</ul>
+				<p class="ftr-footer-featured-product-offer">For a 30-day free trial of QuickBooks Point of Sale, call: (866) 379-6636</p>
+			</div>
+		</div>
+		<div id="ftr-FooterSocialCorpContainer">
+			<div id="ftr-FooterSocialContent">
+				<ul>
+					<li class="ftr-footer-first-item-reset"><a href="http://blog.intuit.com/" title="Blog">Blog</a></li>
+					<li><a href="http://community.intuit.com/" title="Intuit Community">Intuit Community</a></li>
+					<li><a href="http://about.intuit.com/contact/" title="Contact">Contact</a></li>
+				</ul>
+				<ul class="ftr-FooterSocialIcons">
+					<li><a href="http://apps.shareholder.com/rss/rss.aspx?channels=5866&companyid=INTUIT" title="RSS Feed"><img id="ftr-FooterSocialRSS" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="RSS Feed" height="19" width="21" /></a></li>
+					<li><a href="http://twitter.com/#!/INTUIT" title="Twitter"><img id="ftr-FooterSocialTwitter" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Twitter" height="19" width="21" /></a></li>
+					<li><a href="http://www.facebook.com/intuit" title="Facebook"><img id="ftr-FooterSocialFacebook" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Facebook" height="19" width="21" /></a></li>
+					<li><a href="http://www.youtube.com/user/intuitsmallbusiness" title="YouTube"><img id="ftr-FooterSocialYouTube" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="YouTube" height="19" width="21" /></a></li>
+					<li><a href="http://www.linkedin.com/groups/Intuit-Small-Business-3723478" title="LinkedIn"><img id="ftr-FooterSocialLinkedIn" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="LinkedIn" height="19" width="21" /></a></li>
+				</ul>
+			</div>
+			<div id="ftr-FooterCorpContent">
+				<ul>
+					<li class="ftr-footer-first-item-reset"><a href="http://www.intuitcareers.com/" title="Careers">Careers</a></li>
+					<li class="ftr-footer-corp-content-last-item"><a href="http://about.intuit.com/international/" title="International Sites">International Sites</a></li>
+				</ul>
+			</div>
+			<div id="ftr-FooterHorizontalDivider" class="ftr-footer-horizontal-sprite"></div>
+		</div>
+		<div id="ftr-FooterAudienceContent">
+			<ul>
+				<li class="ftr-footer-first-item-reset"><strong>Audience:</strong></li>
+				<li class="ftr-footer-first-item-reset"><a href="http://accountant.intuit.com/" title="Accountants">Accountants</a></li>
+				<li><a href="http://developer.intuit.com/" title="Developers">Developers</a></li>
+				<li><a href="http://enterprisesuite.intuit.com/" title="Enterprise">Enterprise</a></li>
+				<li><a href="http://digitalinsight.com/home/" title="Financial Institutions">Financial Institutions</a></li>
+				<li><a href="http://healthcare.intuit.com/" title="Healthcare">Healthcare</a></li>
+				<li><a href="http://www.intuitsolutionproviders.com/" title="Intuit Solution Providers">Intuit Solution Providers</a></li>
+				<li><a href="http://quickbooks.intuit.com/point-of-sale-system/" title="Retailers">Retailers</a></li>
+			</ul>
+			<a href="http://clicktoverify.truste.com/pvr.php?page=validate&url=www.intuit.com&sealid=101"><img id="ftr-FooterTrusteLogo" class="global-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="TRUSTe Certified Privacy" height="33" width="99" /></a>
+		</div>
+	</div>
+	
+	<div id="ftr-FooterLegalContainer" class="ftr-footer-horizontal-sprite">
+		<div id="ftr-FooterLegalContent">
+			<img id="ftr-FooterLogo" class="ftr-footer-sprite" src="http://images.smallbusiness.intuit.com/sbweb/common/images/sprites/tp.gif" alt="Intuit" height="24" width="81" />
+			<p><span class="ftr-footer-copyright">&copy; 2012 Intuit, Inc. All rights reserved.</span> Intuit and QuickBooks are registered trademarks of Intuit, Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+			<ul>
+				<li class="ftr-footer-first-item-reset"><a href="http://smallbusiness.intuit.com/small-business/privacy/index.jsp" title="Privacy">Privacy</a></li>
+				<li><a href="http://security.intuit.com/" title="Security">Security</a></li>
+				<li><a href="http://about.intuit.com/legal/" title="Legal">Legal</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script>
+		//This should be placed right after the input field to make sure visitor cannot enter invalid values before page is fully loaded.
+		$("#searchIntuitFooter").validate({
+			rules: {
+		        "searchTerm": {
+	 	           javascript: true,
+					maxlength: 100
+		        }
+		    }
+		});
+	</script>	
+	
+<div class="clear"></div>
+				<div class="tntHideContent">
+				<script type="text/javascript">
+				setMilestone("HOME");
+			</script>
+		</div>
+			
+			<!-- beginning of footer_includes.jsp -->
+	<script type="text/javascript">
+				ATGInclude.isEnabled = true;
+			</script>
+			
+			<script type="text/javascript">
+								CorpInclude.isEnabled = true;
+							</script>
+						<script type="text/javascript">
+						scAccount = 'intuitcom,intuitsbe';
+					</script>
+				<script type="text/javascript">
+						scDate = '2012|04|17';
+					</script>
+				<script type="text/javascript">
+						scRCSegment = 'default';
+					</script>
+				<script type="text/javascript">
+						scPriorityCode = '4899600000';
+					</script>
+				<script type="text/javascript">
+						scShopperId = '00000006139101418W0';
+					</script>
+				<script type="text/javascript">
+						scProfileId = '00000006139101418W0';
+					</script>
+				<script type="text/javascript">
+						scABTestId = '0000000000002228129';
+						scABTestSegment = 'T2';
+					</script>
+				<script type="text/javascript">
+		        		if (renderStartTime != null)
+		        		{
+			        		scLoadTime = new Date() - renderStartTime;
+		        		}
+		        	</script>
+				<script src="/sbweb/common/components/site_catalyst/footer/sc_footer_manager.js" type="text/javascript"></script>
+				<!-- Google Analytics Pixel -->
+					<script type="text/javascript">
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-27492671-1']);
+					  _gaq.push(['_setDomainName', 'intuit.com']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					</script>
+				<form id="jsParamLoad" style="display:none;" >
+		<input id="co_id" value="cat0000000000006340954" type="hidden" />
+		<input id="co_displayName" value="" type="hidden" />
+		<input id="nav_isProduction" value="true" type="hidden" />
+		<input id="domainKey" value="corporate" type="hidden" />
+		<input id="priorityCode" value="4899600000" type="hidden" />
+		<input id="testGroup" value="T2" type="hidden" />
+		<input id="profileSegment" value="default" type="hidden" />
+		<input id="productName" value="" type="hidden" />
+		<input id="boxshotPath" value="" type="hidden" />
+	</form>
+	
+	<!-- End of footer_includes.jsp -->
+	
+</body>
+	</html>	

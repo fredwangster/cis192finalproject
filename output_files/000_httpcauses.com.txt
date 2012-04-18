@@ -1,0 +1,668 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://www.facebook.com/2008/fbml"
+      xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+    <script src="//cdn.optimizely.com/js/1013001.js"></script>
+
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>causes.com | Anyone can change the world.</title>
+  <link rel="shortcut icon" href="https://causes-assets0.causes.com/images/icons/causes.gif?1313694282" />
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://causes-assets0.causes.com/javascripts/jquery-utils.js?1332439807" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js" type="text/javascript"></script>
+<script src="https://causes-assets3.causes.com/javascripts/jquery.facebookready.js?1313694283" type="text/javascript"></script>
+<script src="https://causes-assets1.causes.com/javascripts/plugins/jquery.fb_perm_checking_form.js?1323397527" type="text/javascript"></script>
+<script src="https://causes-assets3.causes.com/javascripts/plugins/jquery.hint.js?1329867005" type="text/javascript"></script>
+<script src="https://causes-assets0.causes.com/javascripts/shared/global.js?1334603921" type="text/javascript"></script>
+<script src="https://causes-assets3.causes.com/javascripts/jquery-ujs-rails.js?1334180412" type="text/javascript"></script>
+
+  <link href="https://causes-assets0.causes.com/stylesheets/cdc/base.css?1330107787" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://causes-assets1.causes.com/stylesheets/shared/alert_banner.css?1329263630" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://causes-assets3.causes.com/stylesheets/shared/ads.css?1325811386" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://causes-assets3.causes.com/stylesheets/shared/buttons.css?1333057054" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://causes-assets1.causes.com/stylesheets/shared/global_footer.css?1330107787" media="screen" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+.micro_progress {
+  background-image: url(https://causes-assets3.causes.com/images/facebook/nav/progress-empty.gif?1313694282 );
+}
+.micro_progress span {
+  background-image: url(https://causes-assets1.causes.com/images/facebook/nav/progress-fill.gif?1313694282 );
+}
+a.button_green {
+  background-image:
+    url(https://causes-assets3.causes.com/images/causes_dot_com/button-green-100x21.png?1313694282 );
+}
+a.button_green_short_skinniest {
+  background-image:
+    url(https://causes-assets0.causes.com/images/causes_dot_com/button-green-60x20.png?1313694282 );
+}
+a.button_green_tall_skinnier {
+  background-image:
+    url(https://causes-assets0.causes.com/images/causes_dot_com/button-green-90x21.png?1313694282 );
+}
+a.button_green_tall_skinny {
+  background-image:
+    url(https://causes-assets1.causes.com/images/causes_dot_com/button-green-100x27.png?1313694282 );
+}
+a.button_green_tall_normal {
+  background-image:
+    url(https://causes-assets3.causes.com/images/causes_dot_com/button-green-120x27.png?1313694282 );
+}
+a.button_green_tall_fat {
+  background-image:
+    url(https://causes-assets1.causes.com/images/causes_dot_com/button-green-150x27.png?1313694282 );
+}
+a.button_green_tall_obese {
+  background-image:
+    url(https://causes-assets0.causes.com/images/causes_dot_com/button-green-180x27.png?1313694282 );
+}
+a.arrowed {
+  background-image: url(https://causes-assets2.causes.com/images/causes_dot_com/right-blue-arrow.png?1313694282 );
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+}
+p.notice {
+  background-image: url(https://causes-assets1.causes.com/images/icons/yield-y.gif?1313694282 );
+}
+#site_header_container {
+  background-image:
+    url(https://causes-assets2.causes.com/images/causes_dot_com/site_header/header-bottom-bkgd.png?1318237807);
+}
+.logging_out #sign_out_container {
+  background-image:
+    url(https://causes-assets2.causes.com/images/facebook/small_progress_bar.gif?1313694282 );
+}
+
+/* old versus new global header searches */
+#search_form input[type=text] {
+  background-image:
+    url('https://causes-assets2.causes.com/images/causes_dot_com/site_header/search-dark.png');
+}
+#search_form.global_search input[type=text] { background-image: none; }
+
+#search_form.global_search input[type=submit],
+.global_header .home_logo,
+.global_header .profile_stats .user_links .arrow,
+.global_header .profile_stats .stat .info .arrow,
+.global_header .notifications {
+  background-image:
+    url(https://causes-assets3.causes.com/images/shared/global_header_sprite.png?1323371836);
+}
+.dollars_raised .icon,
+.activities_completed .icon,
+.notification_wissle a,
+.cause_wrapper ul li.selected a {
+  background-image:
+    url(https://causes-assets0.causes.com/images/causes_dot_com/general_sprite.png?1313694282 );
+}
+.photo_arrow {
+  background-image:
+    url(https://causes-assets1.causes.com/images/causes_dot_com/site_header/photo-arrow.png?1318237807 );
+}
+.cause_selector input[type=submit] {
+  background-image: url(https://causes-assets2.causes.com/images/facebook/buttons/button_17.gif?1313694282);
+}
+#site_header #logo {
+  background-image: url(https://causes-assets1.causes.com/images/causes_dot_com/site_header/logo.png?1318276901);
+}
+.alert_banner .close_hat {
+  background-image:
+    url(https://causes-assets3.causes.com/images/causes_dot_com/site_header/close-hat.png?1318237807 );
+}
+</style>
+
+
+
+  
+  
+  
+    <link href="https://causes-assets1.causes.com/stylesheets/home/index.css?1323455829" media="screen" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+  a.button_17,
+  span.button_17 {
+    background-image: url(https://causes-assets2.causes.com/images/facebook/buttons/button_17.gif?1313694282);
+  }
+  a.button_17 > span,
+  span.button_17 > span {
+    background-image: url(https://causes-assets2.causes.com/images/facebook/buttons/button_17.gif?1313694282);
+  }
+  #overall_impact {
+    background-image: url('https://causes-assets2.causes.com/images/causes_dot_com/home/index/impact-bar.png?1313694282');
+  }
+  #pager .tab_causes a {
+    background-image: url('https://causes-assets3.causes.com/images/causes_dot_com/home/index/tab-causes.png?1313694282');
+  }
+  #pager .tab_projects a {
+    background-image: url('https://causes-assets1.causes.com/images/causes_dot_com/home/index/tab-projects.png?1313694282');
+  }
+  #pager .tab_wishes a {
+    background-image: url('https://causes-assets2.causes.com/images/causes_dot_com/home/index/tab-wishes.png?1313694282');
+  }
+  #promos #were-hiring h2 {
+    background-image: url('https://causes-assets0.causes.com/images/causes_dot_com/home/index/were-hiring.png?1313694282');
+  }
+  #promos #businesses h2 {
+    background-image: url('https://causes-assets0.causes.com/images/causes_dot_com/home/index/businesses.png?1313694282');
+  }
+  #promos #nonprofits h2 {
+    background-image: url('https://causes-assets3.causes.com/images/causes_dot_com/home/index/nonprofits.png?1313694282');
+  }
+  .big_head #search_form input.text {
+    background-image: url('https://causes-assets3.causes.com/images/causes_dot_com/site_header/search.png?1313694282');
+  }
+  .simple a {
+    background-image: url(https://causes-assets0.causes.com/images/causes_dot_com/home/index/join_btn.png?1313694282);
+  }
+  .simple a:hover {
+    background-image: url(https://causes-assets0.causes.com/images/causes_dot_com/home/index/join_btn.png?1313694282);
+  }
+    .hero_90 a,
+    .hero_90 a:hover {
+      background-image: url(https://causes-prod.s3.amazonaws.com/photos/kX/xq/qk/rE/WW/SI/tv/w1O.jpg);
+    }
+    .hero_93 a,
+    .hero_93 a:hover {
+      background-image: url(https://causes-prod.s3.amazonaws.com/photos/Fv/sw/8a/m2/ny/i7/ZW/YoO.jpg);
+    }
+    .hero_96 a,
+    .hero_96 a:hover {
+      background-image: url(https://causes-prod.s3.amazonaws.com/photos/d7/XM/Uk/VS/E6/Xj/ds/CGO.jpg);
+    }
+    .hero_98 a,
+    .hero_98 a:hover {
+      background-image: url(https://causes-prod.s3.amazonaws.com/photos/YN/BO/MM/a8/Pj/Es/j0/oqO.jpg);
+    }
+</style>
+
+  <script src="https://causes-assets1.causes.com/javascripts/plugins/jquery.cycle.js?1313694283" type="text/javascript"></script>
+<script src="https://causes-assets3.causes.com/javascripts/plugins/jquery.hint.js?1329867005" type="text/javascript"></script>
+<script src="https://causes-assets2.causes.com/javascripts/home/old_index.js?1315017866" type="text/javascript"></script>
+  <meta property="og:title" content="causes.com" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.causes.com" />
+<meta property="og:image" content="https://causes-assets2.causes.com/images/causes-nav-logo.gif?1313694282" />
+<meta property="fb:app_id" content="2318966938" />
+<meta property="fb:admins" content="100000195287954,622449146,2516204,500314419,15500745,205768,8503355,203070,1203053,660361306,4800539,100000681020523,100003679651300,12403725,15911281,1225510,42,507760852,717861822,100002044996047,204381,100002476091813,13300663,828,559280872,23709375,6302533,11502085,557971663,100003301362252,100002905188821,573718549,1062552506,207996,1609877,39109816,501438,13307213" />
+<meta property="og:site_name" content="Causes" />
+<meta property="og:description" content="causes.com empowers anyone with a good idea or passion for change to impact the world." />
+
+
+  <script type="text/javascript">
+//<![CDATA[
+var mpq=[];mpq.push(["init","63551b33703ed8a476c1c89945731f0e"]);(function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+  $(function(){
+    mpq.register(Causes.data.tracking_data);
+  });
+//]]>
+</script>
+  <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="FyRYT6IujyxFlPQZOJ6IuPm0yp&#47;&#47;S8kZpfaDFL3E08Q="/>
+</head>
+
+<body>
+
+  
+    <div class="promotion clearfix alert_banner_container connect yellow" id="alert_banner_46e392d78a73e447d3726d65cdb986c322e952ec">    <div class="alert_banner">
+      <p>See Chimpanzee, Save Chimpanzees <a style='float:none; display:inline; position:static' href='http://www.causes.com/causes/652532-disneynature/actions/1596665?utm_source=top&utm_medium=hat&utm_campaign=chimp' class='gray_btn'>Take the Pledge</a></p>      <a href="#" class="close_hat promotion_close_link" data-promotion="alert_banner_46e392d78a73e447d3726d65cdb986c322e952ec">x</a>    </div>
+</div>
+
+  <link href="https://causes-assets0.causes.com/stylesheets/shared/global_header.css?1332877704" media="screen" rel="stylesheet" type="text/css" /><script src="https://causes-assets1.causes.com/javascripts/check_login.js?1334523378" type="text/javascript"></script>
+<script src="https://causes-assets3.causes.com/javascripts/shared/fb_login_button.js?1334339034" type="text/javascript"></script><div class="global_header">
+  <div class="border_styles">
+    <div class="global_content clearfix">
+      <a href="http://www.causes.com/" class="home_logo" tabindex="1">Causes.com</a>
+<form accept-charset="UTF-8" action="http://www.causes.com/search" class="global_search" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>  <input autocomplete="off" class="hint text" id="q" name="q" tabindex="2" title="Search" type="text" />  <input class="submit" name="commit" tabindex="3" type="submit" value="Search" /></form>      <ul class="nav">
+  <li><a href="http://www.causes.com/causes" tabindex="5">Find a Cause</a></li>
+  <li><a href="http://www.causes.com/causes/new" tabindex="6">Start a Cause</a></li>
+</ul>
+        <div class="login_withfb">
+          <script type="text/javascript">
+        Causes.fb_login_callback = 'window.location.reload();'
+        Causes.fb_cancel_callback = 'window.location.reload();'
+      </script>
+      <a class='fb_login_link default' href='#'>Log In</a>
+  </div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+  <div class="wrapper">
+    <div id="site_content" class="clearfix">
+      
+
+<div id="hero" class="hero_simple">
+
+  <div class="simple_animator">
+    <ul class="runit">
+      <li class="simple hero_93">
+      <a href="http://www.causes.com/causes/621445-animals/actions/1641420">Stop the Seal Slaughter - Sign the Petition</a>
+      </li>
+      <li class="simple hero_96">
+      <a href="http://www.causes.com/causes/621636-civic-engagement-make-our-voices-heard/actions/1641483">Should Florida repeal “Stand Your Ground?” - Take the Poll</a>
+      </li>
+      <li class="simple hero_98">
+      <a href="http://www.causes.com/justdance?utm_source=Homepage&amp;utm_medium=Hero&amp;utm_campaign=JustDance">Earn $1 for local children's hospitals</a>
+      </li>
+      <li class="simple hero_90">
+      <a href="http://www.causes.com/chimpanzee?utm_source=baby&amp;utm_medium=hero&amp;utm_campaign=chimp">See Chimpanzee, Save Chimpanzees</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="clearfix" id="hero_tabs">
+    <ul class="clearfix" id="pager">
+      <li class="tab_causes"><a href="#">Causes</a></li>
+      <li class="tab_projects"><a href="#">Projects</a></li>
+      <li class="tab_wishes"><a href="#">Wishes</a></li>
+    </ul>
+    How will <strong>you</strong> use Causes to make a difference?
+  </div>
+  <ul id="slideshow">
+    <li class="causes">
+      <a href="http://www.causes.com/thecove">
+        <img alt="Photo_causes" src="https://causes-assets2.causes.com/images/causes_dot_com/home/index/photo_causes.jpg?1313694282" />
+        <img alt="Photocredit_causes" class="credit" src="https://causes-assets2.causes.com/images/causes_dot_com/home/index/photocredit_causes.png?1313694282" />
+        <img alt="Black-bkgd" class="text_bkgd left_text_bkgd" src="https://causes-assets0.causes.com/images/causes_dot_com/home/index/black-bkgd.png?1313694282" />
+        <img alt="Text_causes" class="text left_text" src="https://causes-assets1.causes.com/images/causes_dot_com/home/index/text_causes.png?1313694282" />
+      </a>
+    </li>
+    <li class="projects">
+      <a href="http://www.causes.com/campaigns/129367">
+        <img alt="Photo_projects" src="https://causes-assets1.causes.com/images/causes_dot_com/home/index/photo_projects.jpg?1313694282" />
+        <img alt="Black-bkgd" class="text_bkgd left_text_bkgd" src="https://causes-assets0.causes.com/images/causes_dot_com/home/index/black-bkgd.png?1313694282" />
+        <img alt="Text_projects" class="text left_text" src="https://causes-assets3.causes.com/images/causes_dot_com/home/index/text_projects.png?1313694282" />
+      </a>
+    </li>
+    <li class="wishes">
+      <a href="http://wishes.causes.com/">
+        <img alt="Photo_wishes" src="https://causes-assets2.causes.com/images/causes_dot_com/home/index/photo_wishes.jpg?1313694282" />
+        <img alt="Photocredit_wishes" class="credit" src="https://causes-assets1.causes.com/images/causes_dot_com/home/index/photocredit_wishes.png?1313694282" />
+        <img alt="Black-bkgd" class="text_bkgd right_text_bkgd" src="https://causes-assets0.causes.com/images/causes_dot_com/home/index/black-bkgd.png?1313694282" />
+        <img alt="Text_wishes" class="text right_text" src="https://causes-assets0.causes.com/images/causes_dot_com/home/index/text_wishes.png?1313694282" />
+      </a>
+    </li>
+  </ul>
+
+</div>
+
+<div id="overall_impact">
+  <ul class="clearfix">
+    <li class="big">
+      <strong>170 million</strong>
+      <div class="unit">Causes members</div>
+      <a href="http://www.causes.com/" class="button_17"><span></span>Join the Movement</a>
+    </li>
+    <li>
+      <strong>500,000</strong>
+      <div class="unit">member-created causes</div>
+      <a href="http://www.causes.com/causes" class="button_17"><span></span>Find a Cause</a>
+    </li>
+    <li class="big">
+      <strong>$40 million</strong>
+      <div class="unit">raised for 27,000 nonprofits</div>
+      <a href="http://www.causes.com/causes" class="button_17"><span></span>Support a Project</a>
+    </li>
+    <li>
+      <strong>400,000</strong>
+      <div class="unit">Birthday Wishes</div>
+      <a href="http://wishes.causes.com/" class="button_17"><span></span>Donate Your Birthday</a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="clearfix">
+  <div id="primary_col">
+    <div id="examples">
+  <h2>Here's what people are excited about <strong>today</strong>:</h2>
+  <ul class="clearfix">
+      <li>
+        <h3>FUNDRAISING PROJECTS</h3>
+        <div class="photo_frame">
+          <a class="photo" style="background-image: url(https://causes-prod.s3.amazonaws.com/photos/pT/Gz/bk/us/kq/Bo/JF/uOH.jpg);" href="/campaigns/173938">
+          </a>
+        </div>
+        <div class="title">
+          <a href="/campaigns/173938">Choose a Naturally Bright Idea to help Seventh Generation donate $10k to Teach for America &amp; Win</a>
+        </div>
+        <div class="impact">
+          $10,060.60 raised
+        </div>
+        <p>
+          Here's one Naturally Bright idea for back to school and all year: Keep your clothing looking smart with Seventh Generation Natural 2X Concentrated Laundry Detergent. It's formulated with tough stain fighting enzymes and without artificial brighteners. Tell us your Naturally Bright idea for Fall in the comments below.
+        </p>
+        <a href="/campaigns/173938" class="button_17"><span></span>Learn More</a>
+      </li>
+      <li>
+        <h3>CAUSES</h3>
+        <div class="photo_frame">
+          <a class="photo" style="background-image: url(https://causes-prod.s3.amazonaws.com/photos/ID/5u/sW/KP/5p/z5/5P/3BH.jpg);" href="/causes/621445-animals">
+          </a>
+        </div>
+        <div class="title">
+          <a href="/causes/621445-animals">Animals</a>
+        </div>
+        <div class="impact">
+          148,688 members
+        </div>
+        <p>
+          We love all animals and want to raise awareness and money to help support them.
+        </p>
+        <a href="/causes/621445-animals" class="button_17"><span></span>Learn More</a>
+      </li>
+      <li>
+        <h3>WISHES</h3>
+        <div class="photo_frame">
+          <a class="photo" style="background-image: url(http://graph.facebook.com/100000185810130/picture?type=large)" href="http://wishes.causes.com/wishes/455889">
+          </a>
+        </div>
+        <div class="title">
+          <a href="http://wishes.causes.com/wishes/455889">Jeffrey Zlotnik's Birthday Wish</a>
+        </div>
+        <div class="impact">
+          $2,725 raised
+        </div>
+        <p>
+          I'm trying to raise $2,300 for
+          The Meditation Initiative
+        </p>
+        <a href="http://wishes.causes.com/wishes/455889" class="button_17"><span></span>Learn More</a>
+      </li>
+  </ul>
+</div>
+
+    <ul class="clearfix" id="promos">
+  <li id="were-hiring">
+    <h2>We're hiring!</h2>
+    <p>
+      Causes is devoted to bringing the best of engineering and
+      product design to the world of activism and philanthropy.
+    </p>
+    <a href="/jobs">See our current openings &rsaquo;</a>
+  </li>
+  <li id="businesses">
+    <h2>Businesses</h2>
+    <p>
+      Build brand recognition and reputation by working with Causes. Our
+      tools will help you achieve your goals.
+    </p>
+    <a href="http://exchange.causes.com/resources/companies/">See what we can do &rsaquo;</a>
+  </li>
+  <li id="nonprofits">
+    <h2>Nonprofits</h2>
+    <p>
+      Build communities of supporters, conduct fundraising campaigns,
+      build volunteer capacity, and more.
+    </p>
+    <a href="http://exchange.causes.com/resources/nonprofits/">Learn more &rsaquo;</a>
+  </li>
+</ul>
+
+  </div>
+
+  <div id="secondary_col">
+    <div class="section" id="birthday_wish">
+  <h2>Birthday Wish</h2>
+  <p>
+    <img align="left" alt="Cake" src="https://causes-assets1.causes.com/images/causes_dot_com/home/index/cake.png?1313694282" />
+    Want to do something really special for your birthday? This year, donate
+    your birthday and raise funds for the charity of your choice. You'll get
+    to spend your special day making a difference.
+  </p>
+  <a href="http://wishes.causes.com/">Create a Birthday Wish</a>
+</div>
+
+    <div class="section" id="gift_cards">
+  <h2>Causes Charity Gift Cards</h2>
+  <p>
+    <img align="left" alt="Giftcard_mini" src="https://causes-assets2.causes.com/images/causes_dot_com/home/index/giftcard_mini.png?1313694282" />
+    Causes Charity Gift Cards are now available in Safeway and Vons grocery
+    stores throughout California! They are a perfect gift for birthdays, the
+    holidays, or anytime you want to give the gift of giving.
+  </p>
+  <a href="http://www.safeway.com/IFL/Grocery/Store-Locator" target="_blank">Find a Gift Card</a> |
+  <a href="/gift_cards">Learn More</a>
+</div>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="site_footer_container clearfix">
+  <div class="site_footer">
+    <div class="footer_links">
+      <div class="social_buttons">
+        <div class="fb_badge">
+          <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.causes.com%2F&amp;layout=button_count&amp;show_faces=false&amp;width=105&amp;action=like&amp;colorscheme=light&amp;height=20&amp;font=arial" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:105px; height:20px;" allowTransparency="true"></iframe>
+
+        </div>
+          <a href="http://twitter.com/causes"
+            class="twitter-follow-button"
+            data-show-count="false"
+            data-link-color="#378398"
+            data-width="120px">Follow Causes</a>
+          <script src="http://platform.twitter.com/widgets.js"
+                type="text/javascript"></script>
+      </div>
+      <ul class="clearfix">
+        <li class="first"><a href="http://www.causes.com/">Home</a></li>
+        <li><a href="http://wishes.causes.com/?bws=causes_header">Wishes</a></li>
+        <li><a href="http://support.causes.com">Help</a></li>
+        <li><a href="/widgets">Widgets</a></li>
+        <li><a href="/jobs">Jobs</a></li>
+        <li><a href="http://nonprofits.causes.com" target="blank">Nonprofits</a></li>
+        <li><a href="http://exchange.causes.com" target="blank">Causes Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="http://www.causes.com/tos">Terms</a></li>
+        <li class="last"><a href="http://www.causes.com/privacy" target="blank">Privacy</a></li>
+      </ul>
+      <div class="tagline">
+        &copy; Causes 2012. Anyone can change the world.
+      </div>
+    </div>
+    <script type="text/javascript">
+  turn_client_track_id = "";
+</script>
+<script type="text/javascript" src="https://r.turn.com/server/beacon_call.js?b2=74XOXD8700rH-LBo8ZozNEjYo7Ud6FDEiivj8z2gDdk-zAAVfcUmQWduQphhuZohKpBViS8iU3NOerOrcjQD_A">
+</script>
+<noscript>
+  <img border="0" src="https://r.turn.com/r/beacon?b2=74XOXD8700rH-LBo8ZozNEjYo7Ud6FDEiivj8z2gDdk-zAAVfcUmQWduQphhuZohKpBViS8iU3NOerOrcjQD_A&amp;cid=">
+</noscript>
+
+    <script type="text/javascript">
+adroll_adv_id = "3VCDCE6YVBCVFK7GF2ZI64";
+adroll_pix_id = "VJHNDJJWBRAHNILZIXX2GW";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+
+  </div>
+</div>
+  
+
+  <script type="text/javascript">
+  turn_client_track_id = "";
+</script>
+<script type="text/javascript" src="https://r.turn.com/server/beacon_call.js?b2=74XOXD8700rH-LBo8ZozNEjYo7Ud6FDEiivj8z2gDdk-zAAVfcUmQWduQphhuZohKpBViS8iU3NOerOrcjQD_A">
+</script>
+<noscript>
+  <img border="0" src="https://r.turn.com/r/beacon?b2=74XOXD8700rH-LBo8ZozNEjYo7Ud6FDEiivj8z2gDdk-zAAVfcUmQWduQphhuZohKpBViS8iU3NOerOrcjQD_A&amp;cid=">
+</noscript>
+
+  <script type="text/javascript">
+adroll_adv_id = "3VCDCE6YVBCVFK7GF2ZI64";
+adroll_pix_id = "VJHNDJJWBRAHNILZIXX2GW";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+
+
+  
+<script type="text/javascript">
+//<![CDATA[
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', "UA-31836-20"]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+      'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+
+// Begin entry point tracking code.
+
+(function(){
+  function get_cookie(c_name) {
+    var i, x, y, ARRcookies=document.cookie.split(";");
+    for (i = 0;i < ARRcookies.length;i++) {
+      x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+      y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+      x = x.replace(/^\s+|\s+$/g, "");
+      if (x === c_name) {
+        return unescape(y);
+      }
+    }
+
+    return undefined;
+  }
+
+  function set_cookie(c_name, value, exdays) {
+    var exdate = new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value = escape(value) +
+      ((exdays===null) ? "" : "; expires=" + exdate.toUTCString());
+    document.cookie = c_name + "=" + c_value;
+  }
+
+  /* if NAME if passed as a parameter to the current URL, return its value. */
+  function getParam(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.href);
+    if(results === null)
+      return "";
+    else
+      return decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+
+  var cookie_name = "causes-entry-point-tracking";
+
+  // If this user has just entered causes.
+  if (typeof get_cookie(cookie_name) === "undefined"){
+
+    set_cookie(cookie_name, true, (new Date()) + 1); //1 day expiry
+
+    /* Try to get entry point data from the URL parameters. */
+
+    /* If a user comes through a facebook profile link, he'll have fb_source as
+       a URL param key. We read it off, and prepend the value with fb_ to
+       indicate that he came from Facebook (the values could be ambiguous). */
+    var fb_source =
+      (getParam("fb_source") ? "fb_" + getParam("fb_source") : "");
+
+    var ref =
+      (getParam("causes_ref") || getParam("ref") || fb_source ||
+       getParam("fb_ref") || "unknown");
+    var template = (getParam("template") || "unknown");
+
+    _gaq.push(['_trackEvent', 'Entries', ref, template]);
+  }
+})();
+
+//]]>
+</script>
+
+
+    <script type="text/javascript">
+  if (typeof(Causes) === 'undefined') {
+    Causes = {};
+  }
+  Causes.data = {"fb_auth_perms":"email, publish_stream, user_birthday, publish_actions","tracking_data":{"usertype":"Guest"}};
+</script>
+
+<div id="fb-root"></div>
+<script type="text/javascript" src="https://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript">
+
+  FB.init({
+    appId      : 2318966938,
+    oauth      : true,
+    status     : true, // check login status
+    cookie     : true, // enable cookies to allow the server to access the session
+    xfbml      : true  // parse XFBML
+  });
+
+  FB.getLoginStatus(function(response) {
+    if ($.facebookReady) {
+      $.facebookReady();
+    }
+
+    if (response && response.authResponse) {
+      new Image().src = 'https://www.causes.com/oauth/refresh?' + $.param({
+        token:   response.authResponse.accessToken,
+        expires: response.authResponse.expiresIn
+      });
+    }
+  });
+
+  (function() {
+    FB.Event.subscribe('auth.authResponseChange', function(response) {
+      if (response && response.authResponse) {
+        FB.XFBML.parse();
+      } else {
+        $(document.body).addClass("logging_out");
+        var url = null;
+        Causes.Global.logout(url);
+      }
+    });
+
+    FB.Event.subscribe('auth.login', function(response) {
+      if (response && response.authResponse) {
+        $.post('/oauth/log_publish_actions_perm');
+      }
+    });
+  })();
+</script>
+
+
+  
+
+</body></html>

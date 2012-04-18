@@ -1,0 +1,581 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<!-- STARTHeaderContainer1 --> 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+          <base href="http://www.zmags.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="" />
+  <meta name="rights" content="" />
+  <meta name="language" content="en-GB" />
+  <meta name="description" content="Create dynamic interactive rich media merchandising, including marketing campaigns, digital magazines and catalogs across tablets, mobile and social channels. " />
+  <meta name="generator" content="Joomla! 1.6 - Open Source Content Management" />
+  <title>Rich Media Campaigns, Digital Catalog Software | Zmags</title>
+  <link href="/templates/zestard/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_djmenu/assets/css/djmenu.css" type="text/css" />
+  <link rel="stylesheet" href="/" type="text/css" />
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/media/k2/assets/js/jquery-1.6.4.min.js" type="text/javascript"></script>
+  <script src="/components/com_k2/js/k2.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/jquery-1.4.min.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/loopedslider.min.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/jquery-easing-1.3.pack.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/jquery-easing-compatibility.1.2.pack.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/coda-slider.1.1.1.pack.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/footerslider/jquery.easySlider1.7.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/footerslider/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+  <script src="http://www.zmags.com/templates/zestard/script/swfobject.js" type="text/javascript"></script>
+  <script src="/modules/mod_djmenu/assets/js/dropline-helper.js" type="text/javascript"></script>
+  <script src="/modules/mod_djmenu/assets/js/djmenu.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});var K2SitePath = '/';
+	(function($){ // Mootools Safe Mode ON
+	
+	window.addEvent('domready',function(){
+		var DJMenusAll = $$('#dj-main86 li.dj-up');
+		var wrapper = $('');
+		DJMenusAll.each(function(djmenu){
+			if(djmenu.getElement('.dj-drop')) {
+				DJMenus.include(new DJMenu(djmenu,0,wrapper,{transition: 'cubic:out', duration: 200, delay: 1200,
+		height_fx: true, width_fx: true, opacity_fx: true, mid: 86,
+		height_fx_sub: true, width_fx_sub: true, opacity_fx_sub: true }));
+			} else {
+				djmenu.addEvent('mouseenter',function(){
+					djmenu.addClass('hover');
+				});
+				djmenu.addEvent('mouseleave',function(){
+					djmenu.removeClass('hover');
+				});
+			}
+		});		
+	});
+	
+	})(document.id);
+  </script>
+
+        <link href="/templates/zestard/favicon.jpg" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+        <link href="/templates/zestard/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/templates/zestard/css/style_inner_slider.css" rel="stylesheet" type="text/css" />
+        <link href="/templates/zestard/css/style_footer_slider.css" rel="stylesheet" type="text/css" />
+        <link href="/templates/zestard/css/r2i-styles.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript">
+            //<![CDATA[
+
+            jQuery(document).ready(function() {                
+                if ($("#slider-customer").length > 0){
+                    jQuery("#slider-customer").easySlider({auto:true,continuous:true,numeric:true});                    
+            }});
+            //]]> 
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-10715543-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>    
+    </head>
+<!-- ENDHeaderContainer1 -->   
+    <body>
+                
+            <div id="header-row">
+                   <!-- STARTHeaderContainer --> 
+                <div id="header">
+                    <div id="logo"><a href="http://www.zmags.com"><img src="/templates/zestard/images/logo-2.png" alt="Zmags" width="222" height="44" border="0" /></a></div>
+
+                    <div id="top-links">
+                        
+<ul class="menu">
+<li id="item-466"><a href="/careers" >Careers</a></li><li id="item-467"><a href="/blog/" >Blog</a></li><li id="item-468"><a href="http://community.zmags.com/" target="_blank" >Community</a></li><li id="item-469"><a href="/component/djcatalog2/?view=itemstable&amp;Itemid=469" >Resources</a></li><li id="item-470"><a href="/contact" >Contact</a></li><li id="item-471"><a class="customer-login-top" href="http://admin.zmags.com/login.do" target="_blank" >Customer Login</a></li></ul>
+
+                    </div>
+                    <div id="nav">
+                        <ul id="dj-main86" class="dj-main"><li class="dj-up itemid472 first"><a href="/product-and-services" class="dj-up_a " ><span class="dj-drop" >Products &amp; Services</span></a>
+<ul class="dj-submenu">
+<li class="submenu_top" style="display: none"> </li>
+<li class="itemid556 first"><a href="/product-and-services" class="" >Overview</a></li>
+<li class="itemid537"><a href="/product-and-services/professional" class="" >Zmags Professional </a></li>
+<li class="itemid538"><a href="/product-and-services/commerce-pro" class="" >CommercePro</a></li>
+<li class="itemid552"><a href="/product-and-services/business-consulting" class="" >Business Consulting </a></li>
+<li class="itemid539"><a href="/product-and-services/customer-support" class="" >Customer Support</a></li>
+<li class="itemid513 last"><a href="/product-and-services/professional-services" class="" >Professional Services</a></li>
+<li class="submenu_bot" style="display: none"> </li>
+</ul>
+</li>
+<li class="dj-up itemid473"><a href="/customer-showcase" class="dj-up_a " ><span class="dj-drop" >Customers</span></a>
+<ul class="dj-submenu">
+<li class="submenu_top" style="display: none"> </li>
+<li class="itemid557 first"><a href="/customer-showcase" class="" >Overview</a></li>
+<li class="itemid541"><a href="/customer-showcase#showcase" class="" >Showcase</a></li>
+<li class="itemid655 last"><a href="/component/djcatalog2/items/19" class="" >Case Studies</a></li>
+<li class="submenu_bot" style="display: none"> </li>
+</ul>
+</li>
+<li class="dj-up itemid474"><a href="/about/overview" class="dj-up_a " ><span class="dj-drop" >About Zmags</span></a>
+<ul class="dj-submenu">
+<li class="submenu_top" style="display: none"> </li>
+<li class="itemid542 first"><a href="/about/overview" class="" >Overview</a></li>
+<li class="itemid543"><a href="/about/leadership" class="" >Leadership</a></li>
+<li class="itemid545"><a href="/about/careers" class="" >Careers</a></li>
+<li class="itemid546"><a href="/about/contact" class="" >Contact</a></li>
+<li class="itemid603 last"><a href="/sitemap" class="" >Sitemap</a></li>
+<li class="submenu_bot" style="display: none"> </li>
+</ul>
+</li>
+<li class="dj-up itemid475"><a href="/news" class="dj-up_a " ><span class="dj-drop" >News</span></a>
+<ul class="dj-submenu">
+<li class="submenu_top" style="display: none"> </li>
+<li class="itemid558 first"><a href="/news" class="" >Overview</a></li>
+<li class="itemid547"><a href="/news/press-releases" class="" title="title-press-release-page" >Press Releases</a></li>
+<li class="itemid548 last"><a href="/news/zmags-in-the-news" class="" >Zmags in the News</a></li>
+<li class="submenu_bot" style="display: none"> </li>
+</ul>
+</li>
+<li class="dj-up itemid476 last"><a href="/live-events" class="dj-up_a " ><span class="dj-drop" >Events</span></a>
+<ul class="dj-submenu">
+<li class="submenu_top" style="display: none"> </li>
+<li class="itemid550 first"><a href="/component/djcatalog2/?view=events&amp;cid=17&amp;Itemid=550" class="" >Live Events</a></li>
+<li class="itemid551 last"><a href="http://www.zmags.com/component/djcatalog2/items/13" class="" >Webinars</a></li>
+<li class="submenu_bot" style="display: none"> </li>
+</ul>
+</li>
+</ul>
+                    </div>
+
+                </div>
+           <!-- ENDHeaderContainer -->
+            </div>
+
+            <div id="banner-row">
+                <div class="left-ban"></div>
+                <div class="right-ban"></div>
+                <div class="custom">
+	<div class="container">
+<div id="loopedSlider">
+<div class="slider-container">
+<div class="slides">
+<div><a href="/product-and-services"><img src="/images/slides/panel-1.jpg" alt="First Image" border="0" height="395" width="966" /></a></div>
+<div><a href="/media/djcatalog/zmags-datasheet-final.pdf" target="_blank"><img src="/images/slides/panel-2.jpg" alt="Second Image" border="0" height="395" width="966" /></a></div>
+<div><a href="/customer-showcase"><img src="/images/slides/home-panel-3.jpg" alt="Third Image" border="0" height="395" width="966" /></a></div>
+</div>
+</div>
+<a class="previous" href="#"></a> <a class="next" href="#"></a></div>
+</div></div>
+            </div>
+            <script type="text/javascript" charset="utf-8">
+                jQuery(document).ready(function() {
+                    // Option set as a global variable
+                    //$.fn.loopedSlider.defaults.addPagination = true;
+
+                    $('#loopedSlider').loopedSlider({
+                        autoStart: 14000,
+                        hoverPause: true,
+                        slidespeed: 2000,
+                        addPagination: true 
+                    });
+                });
+            </script>
+            
+        <!-- Main content -->
+
+        <div id="main">
+                            <div class="custom">
+	<div class="digital-catalog-text">Zmags is the only rich media platform that brings commerce into the digital catalog
+<div class="digital-catalog-btn">
+<div class="request-demo"><a href="/demo" target="_blank"><img src="/templates/zestard/images/request-demo.png" border="0" /></a></div>
+<div class="free-trail"><a href="/trial" target="_blank"><img src="/templates/zestard/images/free-trail.png" border="0" /></a></div>
+</div>
+</div></div>
+                <div class="item-page">
+
+
+
+
+
+	
+
+	<div></div>
+ 	
+	</div>
+                
+                                
+	
+    <div id="sections"><ul>
+<li style="border: none; padding-right: 20px; width: 218px; padding-left: 0px;"> <div class="home-section-block"><span class="title">PRESS RELEASE:</span>PartyLite Upgrades to Zmags CommercePro to Strengthen E-Commerce Sales</div>
+<a href="http://www.zmags.com/press/201-partylite" target="_blank">&gt; read&nbsp;now</a> </li><li> <div class="home-section-block"><span class="title">WEBINAR:</span>Taking Your Brand Beyond the Web (Why You Need to Do it Now)</div>
+<a href="http://www.zmags.com/webinar" target="_blank">&gt; watch&nbsp;recording</a> </li><li> <div class="home-section-block"><span class="title">PRESS RELEASE:</span>Zmags Transforms the Tablet, Smartphone and Web Consumer Experience</div>
+<a href="http://www.zmags.com/press/192-convergence-press-release" target="_blank">&gt; read&nbsp;more</a> </li><li> <div class="home-section-block"><span class="title">WEBINAR:</span>Going Digital: Celebrating Home's Journey Into Online Commerce</div>
+<a href="http://event.on24.com/r.htm?e=444855&s=1&k=19556D3AFC152187AC14C56B242793C6&partnerref=-ZM05" target="_blank">&gt; watch&nbsp;recording</a> </li></ul>
+</div>
+ 
+                
+           
+                
+                <div id="bottom-logos">
+                    <div class="custom">
+<p><a href="/component/content/article?id=106">Featured Customers</a></p>
+<div id="slider-customer">
+<ul>
+    <li>
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/20120229_202415_general-logo-1.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://www.facebook.com/AudiDanmark?sk=app_148607701875415" target="_blank"><img src="http://www.zmags.com/images/showcase/20120229_202024_automative-logo-1.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://www.celebratinghome.com/CATALOG.ASHX" target="_blank"><img src="http://www.zmags.com/images/showcase/multi-level-marketing-logo-1.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/fashion-logo-1.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://www.express.com/content.jsp?pageName=092011-zmags-snippet-1#zmagsPage=1" target="_blank"><img src="http://www.zmags.com/images/showcase/fashion-logo-2.png" border="0" /></a>
+    </div>
+</div>
+
+
+</li><li><div class="slider-item">
+<div class="left">
+        <a href="http://partylite.com/en-us/Catalogs/onlinecatalogs/fallholidaycatalog.aspx" target="_blank"><img src="http://www.zmags.com/images/showcase/20120229_203346_multi-level-marketing-logo-2.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/general-logo-3.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/fashion-logo-3.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/general-logo-4.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/consumer-brnad-logo-4.png" border="0" />
+    </div>
+</div>
+
+
+</li><li><div class="slider-item">
+<div class="left">
+        <a href="http://www.kennethcole.com/family/index.jsp?categoryId=12099907" target="_blank"><img src="http://www.zmags.com/images/showcase/fashion-logo-4.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/general-logo-5.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/fashion-logo-5.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://viewer.zmags.com/publication/c9afa9fc#/c9afa9fc/1" target="_blank"><img src="http://www.zmags.com/images/showcase/other-brands-logo-5.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/general-logo-6.png" border="0" />
+    </div>
+</div>
+
+
+</li><li><div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/20120229_203506_fashion-logo-6.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/general-logo-7.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://www.supersavvyme.co.uk/beauty/magazine.aspx" target="_blank"><img src="http://www.zmags.com/images/showcase/consumer-brnad-logo-7.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://www.neimanmarcus.com/store/sitelets/christmasbook/christmasbook.jhtml?icid=JP_FlipBook_CB11" target="_blank"><img src="http://www.zmags.com/images/showcase/fashion-logo-7.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/20120229_202910_general-logo-8.png" border="0" />
+    </div>
+</div>
+
+
+</li><li><div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/fashion-logo-8.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://www.tesco.com/wine/zone/default.aspx?name=virtualwinemagazine" target="_blank"><img src="http://www.zmags.com/images/showcase/general-logo-9.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/fashion-logo-9.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/general-logo-10.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/fashion-logo-10.png" border="0" />
+    </div>
+</div>
+
+
+</li><li><div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/fashion-logo-11.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://uk.lizearle.com/catalogview" target="_blank"><img src="http://www.zmags.com/images/showcase/lizearle-logo.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <a href="http://www.dickssportinggoods.com/shop/index.jsp?categoryId=12324357&ab=Monetate_HP_Right_Burton_DigitalCatalog" target="_blank"><img src="http://www.zmags.com/images/showcase/burton-logo.png" border="0" /></a>
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/wholefoods-logo.png" border="0" />
+    </div>
+</div>
+
+
+<div class="slider-item">
+<div class="left">
+        <img src="http://www.zmags.com/images/showcase/homebase-logo.png" border="0" />
+    </div>
+</div>
+
+
+
+</ul>
+</div>
+</div>
+
+<div class="custom">
+	<div class="customer-millions-section">
+<div class="customer-upadates-proven-part-one">.</div>
+<div class="customer-upadates-proven-part-two"><img src="/images/customer-update-img-2.jpg" height="99" border="0" width="236" /></div>
+<div class="customer-upadates-proven-part-two"><img src="/images/customer-update-img-3.jpg" height="99" border="0" width="236" /></div>
+<div class="request-demo-button" style="margin-top: 30px;"><a title="Watch a Demo" href="/demo" target="_blank"><img src="/images/request-demo-button.jpg" height="55" border="0" width="200" /></a></div>
+</div></div>
+                </div>
+                        </div>
+
+        
+
+
+        <div id="footer-box">
+            <!-- STARTFooterContainer --> 
+            <div id="footer">
+                <div class="sitemap">
+                    <ul class="section">
+                        <li style="width: 155px; padding-left: 10px;" class="footer-nav1">
+                            		<div class="moduletable">
+					<h3>Products & Services</h3>
+					
+<ul class="menu">
+<li id="item-560"><a href="/product-and-services" >Overview</a></li><li id="item-561"><a href="/product-and-services/professional" >Zmags Professional </a></li><li id="item-562"><a href="/product-and-services/commerce-pro" >CommercePro</a></li><li id="item-567"><a href="/product-and-services/business-consulting" >Business Consulting </a></li><li id="item-565"><a href="/product-and-services/customer-support" >Customer Support</a></li><li id="item-566"><a href="/product-and-services/professional-services" >Professional Services</a></li></ul>
+		</div>
+	
+                        </li>
+                        <li style="width: 92px;" class="footer-nav2">
+                            		<div class="moduletable">
+					<h3>Customers</h3>
+					
+<ul class="menu">
+<li id="item-568"><a href="/customer-showcase" >Overview</a></li><li id="item-569"><a href="/customer-showcase#showcase" >Showcase</a></li><li id="item-656"><a href="/component/djcatalog2/items/19" >Case Studies</a></li></ul>
+		</div>
+	
+                        </li>
+                        <li style="width: 125px;" class="footer-nav3">
+                            		<div class="moduletable">
+					<h3>About Zmags</h3>
+					
+<ul class="menu">
+<li id="item-571"><a href="/about/overview" >About Us</a></li><li id="item-572"><a href="/about/leadership" >Leadership</a></li><li id="item-574"><a href="/about/careers" >Careers</a></li><li id="item-575"><a href="/about/contact" >Contact</a></li><li id="item-604"><a href="/sitemap" >Sitemap</a></li></ul>
+		</div>
+	
+                        </li>    
+                        <li style="width: 120px;" class="footer-nav4">
+                            		<div class="moduletable">
+					<h3>News</h3>
+					
+<ul class="menu">
+<li id="item-579"><a href="/news" >Overview</a></li><li id="item-580"><a href="/news/press-releases" >Press Releases</a></li><li id="item-581"><a href="/news/zmags-in-the-news" >Zmags in the News</a></li></ul>
+		</div>
+	
+                        </li>
+                        <li style="width: 110px;" class="footer-nav5">
+                            		<div class="moduletable">
+					<h3>Events</h3>
+					
+<ul class="menu">
+<li id="item-583"><a href="/events/events" >Live Events</a></li><li id="item-584"><a href="http://www.zmags.com/component/djcatalog2/items/13" >Webinars</a></li></ul>
+		</div>
+	
+                        </li>
+                        <li style="width: 100px; padding-right: 0px;margin-top: -3px;" class="footer-nav6">
+                            		<div class="moduletable">
+					
+<ul class="menu">
+<li id="item-531"><a href="/careers" >Careers </a></li><li id="item-532"><a href="/contact" >Contact</a></li><li id="item-533"><a href="/blog" >Blog</a></li><li id="item-534"><a href="http://community.zmags.com/" >Community</a></li><li id="item-535"><a href="http://www.zmags.com/component/djcatalog2/?view=itemstable&Itemid=469" >Resources</a></li></ul>
+		</div>
+	
+                        </li>
+                        <li style="padding-left: 25px; padding-right: 0px;" class="footer-nav7">
+                            <div class="custom">
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td width="60"><strong>USA</strong><br /> Support</td>
+<td>+1 866 989 6247<br /> +1 877 239 7522</td>
+</tr>
+<tr>
+<td></td>
+<td><br /></td>
+</tr>
+<tr>
+<td><strong>UK</strong><br /> Support</td>
+<td>+44 208 334 8158<br /> +44 (0) 800 975 0242</td>
+</tr>
+<tr>
+<td></td>
+<td><br /></td>
+</tr>
+<tr>
+<td><strong>Denmark</strong><br /> Support</td>
+<td>+45 70 20 80 06<br /> +45 80 88 97 92</td>
+</tr>
+</tbody>
+</table></div>
+                        </li>
+
+                    </ul>
+                </div>
+                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                        <td class="hr">&nbsp;</td>
+                        <td style="padding: 0px 10px;" width="125" align="center">
+                            <div class="custom">
+	<p><a class="footer-fbfollow" href="http://www.facebook.com/zmags" target="_blank"> </a> <a class="footer-twfollow" href="http://www.twitter.com/zmags" target="_blank"> </a> <a class="footer-lnfollow" href="http://www.linkedin.com/company/167901?trk=srch_hero_comp_name" target="_blank"> </a></p></div>
+                        </td>
+                        <td class="hr">&nbsp;</td>
+                    </tr>
+                </table>
+
+                <div class="copyright">Copyright &copy; 2005-2012 Zmags inc. All rights reserved.
+				<br />
+				<a href="/support" target="_blank" style="font-size:10px; color:#777777;">Customer Support Policies</a> </div>
+            </div>
+            <!-- ENDFooterContainer -->    
+        </div>
+        
+        <!-- Start of HubSpot Logging Code  -->
+        <script type="text/javascript" language="javascript">
+         var hs_portalid=44710;
+         var hs_salog_version = "2.00";
+         var hs_ppa = "zmags.app4.hubspot.com";
+         document.write(unescape("%3Cscript src='" + document.location.protocol + "//" + hs_ppa + "/salog.js.aspx' type='text/javascript'%3E%3C/script%3E"));
+       </script>
+       <!-- End of HubSpot Logging Code -->
+    
+    </body>
+</html>

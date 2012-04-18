@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+<html>
+	<body onload="document.acsForm.submit();">
+	
+		<form name="acsForm" action="https://www.shopyourwayrewards.com/sywr/CASLogon?sid=36&CAS_SERVICE_KEY=http%3A%2F%2Fwww.shopyourwayrewards.com%2Fsywr%2F" method="post">
+            <div style="display: none">
+            
+	            <textarea rows=10 cols=80 name="logonPassword"></textarea>
+			
+	            <textarea rows=10 cols=80 name="loginId"></textarea>
+			
+	            <textarea rows=10 cols=80 name="screenName"></textarea>
+			
+	            <textarea rows=10 cols=80 name="errorCode"></textarea>
+			
+            </div>
+          </form>
+	</body>
+</html>

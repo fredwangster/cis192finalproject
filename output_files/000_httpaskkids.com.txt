@@ -1,0 +1,1200 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+<script type="text/javascript ">
+var _urlSuffix = "&o=0&l=dir";
+</script>
+<html>
+<head>
+<title>Ask Kids</title>
+<!--[if IE]><script type="text/javascript" src="inc/js/kids/excanvas.js"></script><![endif]-->
+<script type="text/javascript" src="inc/js/kids/dom-drag.js"></script>
+<script type="text/javascript" src="inc/js/local/json.js"></script>
+<script type="text/javascript" src="inc/js/a10f/cookies.js"></script>
+<script type="text/javascript" src="inc/js/kids/hp.js"></script>
+<script type="text/javascript" src="inc/js/a10f/a10_framework.js"></script>
+<script type="text/javascript" src="inc/js/a10f/jsr_class.js"></script>
+<script type="text/javascript">
+function _RP(p) {
+return "http://wzus.askkids.com/r?t=p&d=us&s=k&c=h&app=aoth&dqi=&askid=&l=dir&o=0&oo=0&sv=0a5c4079&ip=825b8eb3&id=F90C33AF08C710A26A203B03C17A99ED&q=&p=0&qs=121&ac=24&g=382bMfQ1AFFHP6" + pob(p);
+}
+function _SP(p) {
+return "http://wzus.askkids.com/i/b.html?t=p&d=us&s=k&c=h&app=aoth&dqi=&askid=&l=dir&o=0&oo=0&sv=0a5c4079&ip=825b8eb3&id=F90C33AF08C710A26A203B03C17A99ED&q=&p=0&qs=121&ac=24&g=382bMfQ1AFFHP6" + pob(p);
+}
+function ptxt(a)
+{
+var pt="";
+if (a.innerHTML) {
+pt=a.innerHTML;
+pt=pt.replace(/<\/?[^>]+>/ig, "");
+pt=pt.replace(/&amp;/g, "&");
+}
+return pt;
+}
+function pk(li,p,i) {
+if(li && li.href) {
+if (li.wzup) return true;
+if (!p.u)p.u=li.href;
+if (document.all && navigator.userAgent.indexOf("MSIE") != -1) {
+p.u = enc(p.u);
+}
+var a=(i)?obj(i):li;
+if (!p.pt){
+switch (p.en.toLowerCase()){
+case "js":
+case "is":
+p.pt = p.en.toUpperCase() + " thumbnail";
+break;
+default :
+p.pt = ptxt(a);
+}
+}
+li.href = _RP(p);
+li.wzup = 1;
+}
+return true;
+}
+function spk(li,p)
+{
+if (li && li.href && p) {
+if (!p.u)p.u=li.href;
+if (!p.pt)p.pt=ptxt(li);
+}
+return (new Image()).src=_SP(p);
+}
+function ct(li, id) {
+if (li && li.href && id) {
+if (li.wzup) return true;
+var url = li.href;
+var oInnerHTML = li.innerHTML;
+li.href = "http://wzus.askkids.com/r?t=a&d=us&s=k&c=h&app=aoth&ti=1&ai="+enc(id)+"&dqi=&askid=&l=dir&o=0&oo=0&sv=0a5c4079&ip=825b8eb3&u="+enc(url)+"";
+if(navigator.userAgent.toLowerCase().indexOf('msie') != -1 && li.innerHTML != oInnerHTML){
+li.innerHTML=oInnerHTML;
+}
+li.wzup = 1;
+}
+return true;
+}
+function sct(id,li,im) {
+if (id){
+var url="";
+if (li) {
+url = ((li.href) ? li.href : li);
+}
+var retVal = "http://wzus.askkids.com/i/b.html?t=a&d=us&s=k&c=h&app=aoth&ti=1&ai="+enc(id)+"&dqi=&askid=&l=dir&o=0&oo=0&sv=0a5c4079&ip=825b8eb3&u="+enc(url)+"";
+retVal = retVal + "&rnd="+Math.random().toString();
+var img = new Image();
+img.src = retVal;
+if(!im) {
+setTimeout(function(){ img }, 100);
+}
+return retVal;
+}
+}
+function enc(s)
+{
+return (typeof encodeURIComponent != "undefined") ? encodeURIComponent(s) : escape(s);
+}
+function obj(id,d)
+{
+if (! d) { d=document; }
+var o=d.getElementById(id);
+return o;
+}
+function pob(po) {
+po = po||{};
+if (document.all && navigator.userAgent.indexOf("MSIE 6.0") != -1) {
+po.u = escape(po.u);
+po.u = po.u.replace(/%3A/g, ":");
+po.u = po.u.replace(/%3F/g, "?");
+po.u = po.u.replace(/%3D/g, "=");
+po.u = po.u.replace(/%26/g, "&");
+po.u = po.u.replace(/%25/g, "%");
+}
+return "&en="+h(po.en)+"&io="+h(po.io)+"&ep="+h(po.ep)+"&eo="+h(po.eo)+"&b="+h(po.b)+"&bc="+h(po.bc)+"&br="+h(po.br)+"&tp="+h(po.tp)+"&ec="+h(po.ec)+"&pt="+enc(h(po.pt))+"&ex="+h(po.ex)+"&url="+enc(h(po.url))+"&u="+h(po.u);
+}
+function h(v){return (v!=null&&v!='undefined')?v:"";}
+function cspk(li,src,io,sp) {
+var en="co";
+if( src == "ahdict"){en="ah";}
+if( src == "roget"){en="ro";}
+if( src == "wiki"){en="wk";}
+if( src == "col"){en="cb";}
+if( src == "hmwh"){en="h0";}
+if( src == "hmff"){en="h1";}
+if( src == "wordnet"){en="wn";}
+if( src == "wordnetuk"){en="wn";}
+var p={};
+p.en=en;
+p.b="sa";
+p.tp="d";
+p.ec="1";
+p.io=io;
+if(sp) {
+spk(li,p);
+} else {
+pk(li,p);
+}
+return true;
+}
+</script>
+<style>
+html, body {
+margin:0px;
+padding:0px;
+overflow:hidden;
+border-width:0px;
+width:100%;
+height:100%;
+}
+body {
+background-image:url(http://sp.askkids.com/i/askforkids/a10f/hp/bg_notebook2.gif);
+background-repeat:repeat-x;
+}
+#ftLinksCnt td div {
+margin-left: 5px;
+margin-right: 5px;
+}
+#q {
+left: 0px;
+border: 1px solid #7F9DB9;
+width: 400px;
+height: 20px;
+line-height: 20px;
+padding: 4px 0 0 1px;
+}
+#sbut {
+background-image:url(http://sp.askkids.com/i/askforkids/a10f/hp/search1.gif);
+width:77px;
+height:26px;
+border: medium none;
+padding: 0;
+vertical-align: top;
+}
+#logoBox {
+margin: 0px;
+padding: 0px;
+margin-top: 22px;
+}
+#logoBox img {
+vertical-align: bottom;
+margin: 0px;
+padding: 0px;
+}
+#headerBox{
+margin-left: 60px;
+z-index: 100;
+position: relative;
+}
+#queryContainer{
+z-index: 500;
+vertical-align: top;
+}
+#doodle {
+z-index: 0;
+}
+#pencilBoxContainer {
+z-index: 2;
+position: relative;
+top: -70px;
+}
+#d1, #d2, #d3, #d4, #d5, #d6 {
+position:relative;
+cursor:pointer;
+z-index:10;
+}
+#dog {
+margin-left:370px;
+width:289px;
+height:314px;
+background-image: url( http://sp.askkids.com/i/askforkids/a10f/hp/hp_img0.png );
+}
+#dogOverlay {
+position: absolute;
+top: 100px;
+left: 370px;
+width: 289px;
+height: 314px;
+z-index: 99;
+}
+#msgBubble {
+position:absolute;
+top:285px;
+margin-left:475px;
+z-index:1000;
+}
+#msg {
+height:130px;
+left:107px;
+position:absolute;
+top:17px;
+width:170px;
+font-family:courier;
+font-size:0.85em;
+font-weight:bold;
+z-index:1000;
+color:#0000CC;
+}
+#stamp {
+margin-left: 350px;
+width: 300px;
+}
+#ad {
+position:absolute;
+top:50px;
+left:623px;
+z-index:5;
+}
+#label1 {
+border:0px;
+position:absolute;
+top:128px;
+left:60px;
+z-index:100;
+}
+#label2 {
+border:0px;
+position:absolute;
+top:179px;
+left:60px;
+z-index:100;
+}
+#label3 {
+border:0px;
+position:absolute;
+top:232px;
+left:70px;
+z-index:100;
+}
+#label5 {
+border:0px;
+position:absolute;
+top:275px;
+left:65px;
+z-index:100;
+}
+#label6 {
+border:0px;
+position:absolute;
+top:365px;
+left:65px;
+z-index:100;
+}
+#label7 {
+border:0px;
+position:absolute;
+top:319px;
+left:73px;
+z-index:10;
+}
+#label8 {
+border:0px;
+position:absolute;
+top:280px;
+left:70px;
+z-index:100;
+}
+#promo {
+position:absolute;
+top:420px;
+left:75px;
+z-index:100;
+width:275px;
+height:135px;
+}
+#promoTopLeft {
+position:absolute;
+top:0px;
+left:0px;
+width:162px;
+height:302px;
+}
+#promoBotRight {
+position:absolute;
+top:550px;
+right:0px;
+width:184px;
+height:138px;
+}
+#toolDiv {
+position:absolute;
+z-index:100;
+right:0px;
+top:10px;
+overflow:hidden;
+}
+#toolOps {
+position:absolute;
+z-index:100;
+right:75px;
+font-family:Courier New;
+}
+#toolBox {
+position:relative;
+z-index:100;
+margin-right:-20px;
+}
+#tool_pen, #tool_pencil, #tool_marker {
+z-index:9;
+}
+#drawTool {
+z-index:9;
+position:relative;
+margin-right:-700px;
+top:20px;
+}
+.L, .L:hover {
+text-decoration:none;
+font-family: Courier New;
+color:#000;
+font-size: 1em;
+}
+.L:hover {
+text-decoration:underline;
+color: #000;
+}
+.L:visited {
+color: #000;
+}
+.KT1 {
+color:#999999;
+font-family:Courier New;
+font-size:0.85em;
+}
+.KL1 {
+color:#0000CC;
+font-family:Courier New;
+font-size:0.85em;
+text-decoration:none;
+}
+.KL2:hover {
+text-decoration:underline;
+}
+.b {
+font-weight:bold;
+}
+.KL2 {
+color: black;
+font-family:Courier New;
+font-size: 1em;
+line-height:0.8em;
+text-decoration:none;
+}
+div#logo{
+z-index:100;
+height: 56px;
+width: 205px;
+background-image: url(http://sp.askkids.com/i/askforkids/a10f/hp/logo.png);
+}
+#headerLinks {
+position:absolute;
+right:0px;
+top: 20px;
+margin-right: 15px;
+z-index:1000;
+}
+a.headerLink, a.headerLink:visited, a.headerLink:hover{
+color: black;
+}
+#sgpane {
+position:absolute;
+}
+.zm {
+line-height:20px;
+padding-left:6px;
+}
+a,body,div,form,h1,h2,h3,h4,h5,h6,input,ol,option,p,select,table,td,th,ul,.L21, .T14{font-family:Arial,sans-serif;font-size:small;}
+a,a:visited { color:#0046D4;}
+.L19, .L21, .L23, .L13, .L6, .L20,.L1, .L16 {text-decoration:none;}
+.T3, .T5, .T7,.L13,.L20, .L3, .L8,.T19,.L16, a.L16:visited {font-size:.85em;}
+.T2{font-size:1.1em;}
+.L6, .L1, .L16 {color:#00C;}
+.L1:hover, .L16:hover {text-decoration:underline;}
+.T2, .T5, .T14 {color:#C00;}
+.L21, .L21:visited, .L20, .L20:visited, .L8, .L8:visited {color:#666;}
+.L13, .L13:visited {color:#FFF;}
+a.L3 {color:#0000CC}
+a.L3:visited {color:#0046D4;}
+.T19 {color:#Cf1a1a;font-family: "Trebuchet MS", Arial, sans-serif;text-transform: uppercase;}
+.T21{ font-size:1.6em; color:#Cf1a1a;}
+.b {font-weight:bold;}
+.T6 { font-size:1.2em; }
+a.L4, a.L4:visited { font-size:1.2em; }
+a.L4 {color:#0000CC;}
+a.L4:visited {color:#663399;}
+img.preload {
+display: none
+}
+#stickerPreload {
+display: none
+}
+</style>
+<!--[if IE]>
+<style>
+input {
+margin-top: -1px;
+}
+</style>
+<![endif]-->
+<!--[if IE 6]>
+<style type="text/css">
+#stickerPanel {
+margin-top: -20px;
+}
+</style>
+<![endif]-->
+<script type="text/javascript">
+if(!ask) {
+var ask = {};
+}
+if(!ask.kids) {
+ask.kids = {};
+}
+ask.kids._canvasContext = null;
+ask.kids._animIndex = 1;
+ask.kids._animHandle = null;
+ask.kids._penCoords = [[410,182],[440,189],[410,182],[452,207],[434,220],[412,211],[410,182],[477,211],[410,182],[531,221],[521,241],[484,237],[484,208],[528,223],[585,222],[645,198],[700,172],[750,137],[782,112],[815,81],[857,51],[912,32],[912,0]];
+ask.kids._penIndex = 0;
+ask.kids._drawMode = false;
+ask.kids._drawingStarted = false;
+ask.kids._view = "draw";
+ask.kids._drawingStates = [];
+ask.kids._currentDrawingState = null;
+ask.kids._currentStyle = null;
+ask.kids._currentDrawingTool = null;
+ask.kids._prevCoords = null;
+ask.kids._toolOffset = 0;
+ask.kids._urlPrefix = "http://sp.askkids.com";
+ask.kids._urlPrefixResults = "http://www.askkids.com/";
+ask.kids._boxAnimation = false;
+ask.kids._dogAnimated = false;
+ask.kids._boxState = 0;
+ask.kids._stickerPage = 0;
+ask.kids._maxPage = 1;
+ask.kids._kidsCookieDomain = "askkids.com";
+function getDimension() {
+var x, y;
+if (self.innerHeight)
+{
+x = self.innerWidth;
+y = self.innerHeight;
+}
+else if (document.documentElement && document.documentElement.clientHeight)
+{
+x = document.documentElement.clientWidth;
+y = document.documentElement.clientHeight;
+}
+else if (document.body)
+{
+x = document.body.clientWidth;
+y = document.body.clientHeight;
+}
+return [x,y];
+}
+function init() {
+var qbox = $('q');
+if (qbox) {
+qbox.focus();
+}
+var dimension = getDimension();
+$('doodle').width = dimension[0] - 20;
+$('doodle').height = dimension[1];
+ask.kids.ctx = $('doodle').getContext('2d');
+ask.kids.initCanvas();
+ask.kids.toggleBox();
+$('pageBody').style.height = $('doodle').height;
+a10.element.show('pencilBoxContainer');
+document.onselectstart = function () { return false; }
+}
+ask.kids.initCanvas = function() {
+ask.kids.ctx.lineJoin = 'round';
+ask.kids.ctx.lineCap = 'round';
+ask.kids.retrieveDrawing();
+}
+ask.kids.stickMode = function() {
+$('stickers').style.display = '';
+$('tool_pen').style.display = 'none';
+$('tool_pencil').style.display = 'none';
+$('tool_marker').style.display = 'none';
+ask.kids._drawMode = false;
+if(ask.kids._view == 'draw') {
+slideLoop('drawTool', -490, -290, 50, "marginRight");
+}
+ask.kids._view = "stick";
+var drawUrl = $('btn_draw').src;
+$('btn_draw').src = drawUrl.substring(0, drawUrl.length - 5) + "n.png";
+var stickUrl = $('btn_stick').src;
+$('btn_stick').src = stickUrl.substring(0, stickUrl.length - 5) + "a.png";
+}
+ask.kids.stickerScrollLeft = function() {
+if(ask.kids._stickerPage > 0) {
+var prevLeft = ask.kids._stickerPage * -400;
+ask.kids._stickerPage--;
+var newLeft = ask.kids._stickerPage * -400;
+slideLoop('stickerPanel', prevLeft, newLeft, 40, "left");
+}
+}
+ask.kids.stickerScrollRight = function() {
+if(ask.kids._stickerPage < ask.kids._maxPage) {
+var prevLeft = ask.kids._stickerPage * -400;
+ask.kids._stickerPage++;
+var newLeft = ask.kids._stickerPage * -400;
+slideLoop('stickerPanel', prevLeft, newLeft, -40, "left");
+}
+}
+ask.kids.updatePagingStatus = function() {
+if(ask.kids._stickerPage > 0) {
+$('stickLeft').style.display = '';
+} else {
+$('stickLeft').style.display = 'none';
+}
+if(ask.kids._stickerPage != ask.kids._maxPage) {
+$('stickRight').style.display = '';
+} else {
+$('stickRight').style.display = 'none';
+}
+}
+ask.kids.drawMode = function() {
+$('stickers').style.display = 'none';
+$('tool_pen').style.display = '';
+$('tool_pencil').style.display = '';
+$('tool_marker').style.display = '';
+_picking = true;
+if(ask.kids._view == 'stick') {
+slideLoop('drawTool', -290, -490, -50, "marginRight");
+}
+ask.kids._view = "draw";
+var drawUrl = $('btn_draw').src;
+$('btn_draw').src = drawUrl.substring(0, drawUrl.length - 5) + "a.png";
+var stickUrl = $('btn_stick').src;
+$('btn_stick').src = stickUrl.substring(0, stickUrl.length - 5) + "n.png";
+if(ask.kids._currentDrawingTool) {
+ask.kids.setDrawingTool(ask.kids._currentDrawingTool);
+}
+}
+ask.kids.cancelDefaultAction = function(e) {
+if (e.preventDefault) {
+e.preventDefault();
+}
+else {
+e.returnValue = false;
+e.cancelBubble = true;
+}
+};
+ask.kids.selectTool = function(event, tool) {
+ask.kids.setDrawingTool(tool);
+_picking = true;
+ask.kids.cancelDefaultAction(event);
+}
+ask.kids.setDrawingTool = function(tool) {
+ask.kids._drawMode = true;
+$('tool_pen').style.display = '';
+$('tool_pencil').style.display = '';
+$('tool_marker').style.display = '';
+ask.kids._currentDrawingTool = tool;
+if(tool == "pencil") {
+$('tool_pencil').style.display = 'none';
+ask.kids.ctx.lineWidth = 1;
+ask.kids.ctx.globalAlpha = 1;
+ask.kids.ctx.strokeStyle = "#404040";
+ask.kids._currentDrawingStyle = { "lineWidth" : 1, "globalAlpha" : 1, "strokeStyle" : "#404040"};
+$("cursor").src = "http://sp.askkids.com/i/askforkids/a10f/hp/cursor_pencil.gif";
+ask.kids._toolOffset = 40;
+} else if(tool == "pen") {
+$('tool_pen').style.display = 'none';
+ask.kids.ctx.lineWidth = 1;
+ask.kids.ctx.globalAlpha = 1;
+ask.kids.ctx.strokeStyle = "#011BD0";
+ask.kids._currentDrawingStyle = { "lineWidth" : 1, "globalAlpha" : 1, "strokeStyle" : "#011BD0"};
+$("cursor").src = "http://sp.askkids.com/i/askforkids/a10f/hp/cursor_pen.gif";
+ask.kids._toolOffset = 34;
+} else if(tool == "marker") {
+$('tool_marker').style.display = 'none';
+ask.kids.ctx.lineWidth = 10;
+ask.kids.ctx.globalAlpha = 0.5;
+ask.kids.ctx.strokeStyle = "#EAFF5A";
+ask.kids._currentDrawingStyle = { "lineWidth" : 10, "globalAlpha" : 0.5, "strokeStyle" : "#EAFF5A"};
+$("cursor").src = "http://sp.askkids.com/i/askforkids/a10f/hp/cursor_hilite.gif";
+ask.kids._toolOffset = 32;
+}
+return false;
+}
+ask.kids.restoreBox = function() {
+if($('stickers').style.display == 'none') {
+$('tool_pen').style.display = '';
+$('tool_pencil').style.display = '';
+$('tool_marker').style.display = '';
+}
+}
+ask.kids.animatePencil = function() {
+$("pencil").style.display = '';
+$("pencil").style.left = ask.kids._penCoords[ask.kids._penIndex][0] + "px";
+$("pencil").style.top = (ask.kids._penCoords[ask.kids._penIndex][1]-260) + "px";
+ask.kids._penIndex++;
+if(ask.kids._penIndex > ask.kids._penCoords.length-1) {
+$("pencil").style.display = 'none';
+return;
+}
+if(ask.kids._penIndex > 15 && !ask.kids._dogAnimated) {
+ask.kids.animateDog();
+ask.kids._dogAnimated = true;
+}
+setTimeout(ask.kids.animatePencil, 100);
+}
+ask.kids.animateDog = function() {
+$("dog").src = "http://sp.askkids.com/i/askforkids/a10f/hp/dog" + ask.kids._animIndex + ".gif";
+ask.kids._animIndex++;
+if(ask.kids._animIndex > 3) {
+ask.kids._animIndex = 1;
+}
+ask.kids._animHandle = setTimeout(ask.kids.animateDog, 100);
+}
+ask.kids.redrawLast = function() {
+ask.kids.ctx.restore();
+ask.kids.ctx.beginPath();
+var points = ask.kids._drawingStates[ask.kids._drawingStates.length - 1]['points'];
+ask.kids.ctx.moveTo(points[0][0], points[0][1]);
+for(var j = 1; j < points.length; j++) {
+ask.kids.ctx.lineTo(points[j][0], points[j][1]);
+}
+ask.kids.ctx.stroke();
+ask.kids.ctx.closePath();
+}
+ask.kids.redraw = function(skinStickers) {
+ask.kids._drawMode=true;
+if (ask.kids._drawingStates.length > 0) {
+for(var i = 0; i < ask.kids._drawingStates.length; i++) {
+if(ask.kids._drawingStates[i].type == "drawing") {
+ask.kids.ctx.lineWidth = ask.kids._drawingStates[i]['lineWidth'];
+ask.kids.ctx.strokeStyle = ask.kids._drawingStates[i]['strokeStyle'];
+ask.kids.ctx.globalAlpha = ask.kids._drawingStates[i]['globalAlpha'];
+ask.kids.ctx.beginPath();
+var points = ask.kids._drawingStates[i]['points'];
+ask.kids.ctx.moveTo(points[0][0], points[0][1]);
+for(var j = 1; j < points.length; j++) {
+ask.kids.ctx.lineTo(points[j][0], points[j][1]);
+}
+ask.kids.ctx.stroke();
+ask.kids.ctx.closePath();
+} else if(ask.kids._drawingStates[i].type == "sticker" && !skinStickers){
+if(!ask.kids._drawingStates[i].obj) {
+var img = document.createElement("img");
+img.style.position = "absolute";
+img.style.zIndex = 11;
+img.style.left = ask.kids._drawingStates[i]['left'] + "px";
+img.style.top = ask.kids._drawingStates[i]['top'] + "px";
+img.style.id = ask.kids._drawingStates[i]['id'];
+img.src = ask.kids._urlPrefix + ask.kids._drawingStates[i]['url'];
+ask.kids._drawingStates[i].obj = img;
+document.body.appendChild(img);
+Drag.init(img);
+}
+}
+}
+}
+ask.kids._drawMode=false;
+}
+ask.kids.limitReached = function() {
+return ask.kids._drawingStates.length > 100;
+}
+function mdown(e) {
+if (a10.event.element(e) == $('q') || a10.event.element(e) == $('sbut')) {
+return;
+}
+if(ask.kids._drawMode && !_picking) {
+if(ask.kids.limitReached()) {
+alert("You're out of Memory! Reset or undo to continue.")
+return;
+}
+ask.kids._drawingStarted = true;
+var canvas = $('doodle');
+if (canvas.getContext){
+ask.kids.ctx.beginPath();
+ask.kids.ctx.moveTo(e.clientX, e.clientY );
+ask.kids._currentDrawingState = [];
+ask.kids._currentDrawingState[0] = [e.clientX, e.clientY ];
+}
+ask.kids.cancelDefaultAction(e);
+$("cursor").style.display = '';
+$("cursor").style.left = e.clientX + "px";
+$("cursor").style.top = (e.clientY-ask.kids._toolOffset) + "px";
+}
+}
+function mup(e) {
+if(ask.kids._drawMode && ask.kids._drawingStarted && !_picking) {
+ask.kids._drawingStarted = false
+$("cursor").style.display = 'none';
+ask.kids.cancelDefaultAction(e);
+var canvas = $('doodle');
+if (canvas.getContext){
+ask.kids.ctx.closePath();
+var state = {};
+state['points'] = ask.kids._currentDrawingState;
+state['type'] = "drawing";
+state['lineWidth'] = ask.kids.ctx.lineWidth;
+state['globalAlpha'] = ask.kids.ctx.globalAlpha;
+state['strokeStyle'] = ask.kids.ctx.strokeStyle;
+ask.kids._drawingStates[ask.kids._drawingStates.length] = state;
+if(ask.kids._currentDrawingTool == "marker") {
+var dimension = getDimension();
+ask.kids.ctx.clearRect(0,0,dimension[0] - 20,dimension[1] );
+ask.kids.redraw(true);
+ask.kids._drawMode = true;
+}
+}
+ask.kids._prevCoords = null;
+}
+_picking = false;
+}
+function mmove(e) {
+if(ask.kids._drawingStarted && !_picking) {
+ask.kids.cancelDefaultAction(e);
+if(ask.kids._prevCoords != null) {
+var xDiff = Math.abs(ask.kids._prevCoords[0] - e.clientX);
+var yDiff = Math.abs(ask.kids._prevCoords[1] - (e.clientY ));
+if(xDiff < 3 && yDiff < 3) {
+return;
+}
+} else {
+ask.kids._prevCoords = [];
+ask.kids._prevCoords[0] = e.clientX;
+ask.kids._prevCoords[1] = e.clientY ;
+}
+var canvas = $('doodle');
+if (canvas.getContext){
+ask.kids.ctx.lineTo(e.clientX, e.clientY );
+ask.kids.ctx.closePath();
+ask.kids.ctx.stroke();
+ask.kids.ctx.beginPath();
+ask.kids.ctx.moveTo(e.clientX, e.clientY );
+$("cursor").style.left = e.clientX + "px";
+$("cursor").style.top = (e.clientY - ask.kids._toolOffset) + "px";
+ask.kids._currentDrawingState[ask.kids._currentDrawingState.length] = [e.clientX, e.clientY ];
+}
+}
+}
+ask.kids.resize = function() {
+var dimension = getDimension();
+$('doodle').width = dimension[0] - 20;
+$('doodle').height = dimension[1] ;
+$('pageBody').style.height = $('doodle').height;
+ask.kids.redraw();
+}
+function cloneState(state) {
+if (state['type'] && state['type'] == 'sticker') {
+for (i in state) {
+if (i == 'obj') {
+this.top = parseInt(state.obj.style.top);
+this.left = parseInt(state.obj.style.left);
+}
+else {
+this[i] = state[i];
+}
+}
+}
+else {
+for (i in state) {
+this[i] = state[i];
+}
+}
+}
+ask.kids.toString = function(states) {
+var tempState = [];
+for(var i = 0; i < states.length; i++) {
+tempState[tempState.length] = new cloneState(states[i]);
+}
+return tempState.toJSONString();
+}
+ask.kids.toggleBox = function() {
+if(ask.kids._boxAnimation) {
+return ;
+}
+ask.kids.hideMsgBubble();
+ask.kids._boxAnimation = true;
+if(!ask.kids._boxState) {
+slideLoop('drawTool', -700, ask.kids._view == "draw" ? -490 : -290, 50, "marginRight");
+ask.kids._boxState = 1;
+$('toolOps').style.display = '';
+sct(43935);
+} else {
+slideLoop('drawTool', ask.kids._view == "draw" ? -490 : -290, -700, -50, "marginRight");
+ask.kids._boxState = 0;
+$('toolOps').style.display = 'none';
+ask.kids._drawMode = false;
+ask.kids._currentDrawingTool = null
+ask.kids.restoreBox();
+sct(43933);
+}
+a10.element.toggle('dogOverlay')
+}
+ask.kids.undo = function() {
+if(ask.kids._drawingStates && ask.kids._drawingStates.length > 0) {
+var currentTool = ask.kids._currentDrawingTool;
+var currentDrawing = ask.kids._drawMode;
+var lastState = ask.kids._drawingStates[ask.kids._drawingStates.length-1];
+if(lastState.type == 'sticker') {
+document.body.removeChild(lastState.obj);
+}
+ask.kids._drawingStates = ask.kids._drawingStates.slice(0, ask.kids._drawingStates.length-1);
+var dimension = getDimension();
+ask.kids.ctx.clearRect(0,0,dimension[0] - 20,dimension[1] );
+ask.kids.redraw();
+if (currentDrawing) {
+ask.kids.setDrawingTool(currentTool);
+}
+ask.kids._drawMode = currentDrawing;
+}
+_picking = true;
+}
+ask.kids.reset = function() {
+var prevTool = ask.kids._currentDrawingTool;
+var prevDrawing = ask.kids._drawMode;
+var dimension = getDimension();
+ask.kids.ctx.clearRect(0,0,dimension[0] - 20,dimension[1] );
+for(var i =0; i < ask.kids._drawingStates.length; i++) {
+if(ask.kids._drawingStates[i].type == "sticker") {
+document.body.removeChild(ask.kids._drawingStates[i].obj);
+}
+}
+ask.kids._drawingStates = [];
+_picking = true;
+if(ask.kids._drawMode && prevTool != '') {
+ask.kids.setDrawingTool(prevTool);
+}
+ask.kids._drawMode = prevDrawing;
+}
+function slideLoop(elementId, start, end, incr, prop) {
+var next = parseInt($(elementId).style[prop]) + incr;
+if(isNaN(next)) {
+next = start + incr;
+}
+if(incr > 0) {
+if(next > end) {
+$(elementId).style[prop] = end + "px";
+ask.kids._boxAnimation = false;
+return;
+}
+} else {
+if(next < end) {
+$(elementId).style[prop] = end + "px";
+ask.kids._boxAnimation = false;
+return;
+}
+}
+$(elementId).style[prop] = next + "px";
+setTimeout("slideLoop('"+elementId+"'," + start + "," + end+","+incr+",'"+prop+"')", 40);
+}
+ask.kids.initSticker = function(event, sticker, src, clickId) {
+if(ask.kids.limitReached()) {
+alert("You're out of Memory! Reset or undo to continue.")
+return false;
+}
+var img = document.createElement("img");
+img.style.position = "absolute";
+img.style.zIndex = 11;
+img.src = src;
+img.style.left = parseInt(event.clientX) -20 + "px";
+img.style.top = parseInt(event.clientY) - (img.height+100) + "px";
+img.id = "s" + new Date().getTime();
+ie6pngfix(img);
+document.body.appendChild(img);
+Drag.init(img);
+ask.kids._drawingStates[ask.kids._drawingStates.length] = {type:"sticker", url : img.src.substring(img.src.indexOf("/", 8)), obj : img, left : parseInt(img.style.left), top : parseInt(img.style.top), id : img.id};
+img.onmouseup = function(event) { sct(clickId); };
+return false;
+}
+ask.kids.showMsgBubble = function() {
+if (ask.kids._boxAnimation || ask.kids._boxState) {
+return;
+}
+a10.element.hide('show');
+$('msgBubble').style.display = '';
+}
+ask.kids.hideMsgBubble = function() {
+a10.element.hide('msgBubble');
+}
+ask.kids.save = function() {
+_picking = true;
+if(ask.kids._drawingStates != null) {
+var xml = '<?xml version="1.0" encoding="utf-8"?><methodCall><methodName>xmlPost</methodName><callerKey></callerKey><element type="kd" id="';
+var kdid = Cookie.getCookie("kdid");
+if(kdid != null && kdid != '') {
+xml += kdid;
+}
+xml += '"><attribute name="title">Kids Homepage</attribute><attribute name="link">http://www.askkids.com</attribute><attribute name="padData"> <![CDATA[';
+xml += ask.kids.toString(ask.kids._drawingStates);
+xml += ']]></attribute></element></methodCall>';
+var xhr = ask.kids.getRequestObj();
+var url = new String(window.location);
+url = url.substring(0, url.lastIndexOf('/'));
+url += "/mystuffapi/saveElement";
+var params = "xml="+xml+'&'+'method=xmlPost';
+xhr.open("POST", url, true);
+xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+xhr.setRequestHeader("Content-length", params.length);
+xhr.setRequestHeader("Connection", "close");
+xhr.onreadystatechange = function() {
+if(xhr.readyState == 4 && xhr.status == 200) {
+var xml = xhr.responseXML;
+var el = xml.getElementsByTagName('element')[0];
+if (el && el.attributes[0]) {
+var elitem = xml.getElementsByTagName('element')[0];
+var id = elitem.attributes[0].value;
+var userid =elitem.attributes[1].value;
+var nextYr = new Date();
+nextYr.setTime(nextYr.getTime() + 31536000000);
+Cookie.setCookie("PUID", userid, nextYr, "/", ask.kids._kidsCookieDomain);
+Cookie.setCookie("kdid", id, nextYr, "/", ask.kids._kidsCookieDomain);
+}
+}
+}
+xhr.send(params);
+}
+}
+ask.kids.retrieveDrawing = function() {
+var puid = Cookie.getCookie("PUID");
+var drawingId = Cookie.getCookie("kdid");
+if(puid) {
+var xhr = ask.kids.getRequestObj();
+var url = new String(window.location);
+url = url.substring(0, url.lastIndexOf('/'));
+url += "/mystuffapi/getElement";
+var params = "method=element&callerKey=&type=kd&detail=full&start=0&numRec=10&sort=date&id="+drawingId+"&uid=" + puid;
+xhr.open("GET", url+"?"+params, true);
+xhr.onreadystatechange = function() {
+if(xhr.readyState == 4 && xhr.status == 200) {
+var xml = xhr.responseXML;
+if(xml) {
+var elements = xml.getElementsByTagName('element');
+if(elements.length > 0) {
+var element = elements[0];
+var attrs = element.getElementsByTagName('attribute');
+for (var i=attrs.length - 1; i >= 0; i--) {
+var attr = attrs[i];
+if (attr) {
+var attrName = attr.attributes[0].value;
+if (attrName == 'padData') {
+var data = attr.childNodes[0].nodeValue;
+if(data) {
+ask.kids._drawingStates = data.parseJSON();
+ask.kids.redraw(false);
+}
+}
+}
+}
+}
+}
+}
+}
+xhr.send(null);
+}
+}
+ask.kids.getRequestObj = function() {
+if (window.XMLHttpRequest) {
+return new XMLHttpRequest();
+} else if (window.ActiveXObject) {
+try {
+return new ActiveXObject("Msxml2.XMLHTTP");
+} catch (e) {
+try {
+return new ActiveXObject("Microsoft.XMLHTTP");
+} catch (E) {
+return null;
+}
+}
+}
+else {
+return null;
+}
+}
+window.onresize = ask.kids.resize;
+var _suggestUrls = {web : "http://ss.ask.com/query?"};
+var _path = "http://www.askkids.com/web";
+var _disableSSApplicable = false;
+var _sharedSprite = "http://sp.askkids.com/sh/i/sprite/shared2.png";
+</script>
+</head>
+<body onload="init();" onmousedown="return mdown(event)" onmousemove="return mmove(event)" onmouseup="return mup(event)">
+<span style="display:none">
+<img src="http://wzus.askkids.com/i/i.gif?t=v&d=us&s=k&c=h&app=aoth&dqi=&askid=&l=dir&o=0&oo=0&sv=0a5c4079&p=homepage&ord=6587010" height=1 width=1 id="SessionTracker"/>
+</span>
+<img id="pixel" src="http://sp.askkids.com/i/askforkids/a10f/hp/pixl.gif" width="1" height="1" style="position:absolute;top:0px;left:0px;">
+<script type="text/javascript">
+function ie6pnghack(img, sizingMethod) {
+if(a10.browser.isIE6()) {
+var pixelUrl = $('pixel').src;
+if (img) {
+if(img.src.indexOf('pixl.gif') == -1) {
+img.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='" + img.src + "', sizingMethod='" + sizingMethod + "')";
+img.src = pixelUrl;
+}
+}
+}
+}
+function ie6pngfixscale(img) {
+ie6pnghack(img, 'scale');
+}
+function ie6pngfix(img) {
+ie6pnghack(img, 'image');
+}
+</script>
+<div id="pageBody">
+<div id="headerLinks">
+<div class="nobr">
+<a class="KL2 b headerLink" onmousedown="return ct(this,30033);" href="http://sp.askkids.com/docs/askkids/help.shtml" target="_top">Help</a>
+<span class="KT2 b">&#160;|&#160;</span>
+<a class="KL2 b headerLink" onmousedown="return ct(this,30034);" href="http://sp.askkids.com/docs/askkids/contact.shtml" target="_top">Report a Problem</a>
+</div>
+</div>
+<canvas id="doodle" style="position:absolute;top:0px;left:0px;overflow:hidden;" width="800" height="600"></canvas>
+<form action="web" style="margin:0;padding:0">
+<div id="headerBox">
+<div id="logoBox">
+<div id="logo"></div>
+</div>
+<div id="queryContainer">
+<input type="text" name="q" id="q" value="" autocomplete="off"><button id="sbut" value="search" name="search" type="submit"></button>
+</div>
+<div style="clear:both"></div>
+</div>
+<input id="qsrc" type="hidden" name="qsrc" value="0" />
+<input type="hidden" name="o" value="0" />
+<input type="hidden" name="l" value="dir" />
+</form>
+<div id="dogContainer">
+<div>
+<div id="dog">
+</div>
+</div>
+<a href="http://www.askkids.com/movies?pch=mov" onclick="return ask.kids.hp.ch('mov',this);">
+<img id="label2" src="http://sp.askkids.com/i/askforkids/a10f/hp/label2.png" onmouseover="this.src='http://sp.askkids.com/i/askforkids/a10f/hp/label2o.png'" onmouseout="this.src='http://sp.askkids.com/i/askforkids/a10f/hp/label2.png'" onload="ie6pngfix(this)">
+</a>
+<a href="http://www.askkids.com/games?pch=vdg" onclick="return ask.kids.hp.ch('vdg',this);">
+<img id="label3" src="http://sp.askkids.com/i/askforkids/a10f/hp/label3.png" onmouseover="this.src='http://sp.askkids.com/i/askforkids/a10f/hp/label3o.png'" onmouseout="this.src='http://sp.askkids.com/i/askforkids/a10f/hp/label3.png'" onload="ie6pngfix(this)">
+</a>
+<a href="http://answers.askkids.com/" onclick="return ask.kids.hp.ch('mov',this);">
+<img id="label8" src="http://sp.askkids.com/i/askforkids/a10f/hp/label8.png" onmouseover="this.src='http://sp.askkids.com/i/askforkids/a10f/hp/label8o.png'" onmouseout="this.src='http://sp.askkids.com/i/askforkids/a10f/hp/label8.png'" onload="ie6pngfix(this)">
+</a>
+<div id="promo"></div>
+<div id="promoTopLeft"></div>
+<div id="promoBotRight"></div>
+<div id="cursors">
+<img id="cursor" src="http://sp.askkids.com/i/askforkids/a10f/hp/cursor_pencil.gif" style="display:none;position:absolute;z-index:11">
+<img id="pencil" src="http://sp.askkids.com/i/askforkids/a10f/hp/pencil.png" style="display:none;position:absolute;z-index:11" onload="ie6pngfix(this)">
+</div>
+</div>
+<div id="footer" style="width:100%;position:absolute;bottom:0;">
+<style type="text/css">
+#ftLinksCnt {
+margin:0;
+padding:0;
+width:100%;
+clear:both;
+}
+</style>
+<div id="ftLinksCnt">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="right">
+<div>
+<div class="nobr">
+<a href="http://sp.askkids.com/docs/askkids/privacypolicy_new.shtml" onmousedown="return ct(this,30025)" class="KL1 b" target="_top">Privacy Policy</a>
+<span class="KL1 b">&#160;|&#160;</span>
+<a class="KL1 b" onmousedown="return ct(this,30032);" href="http://sp.askkids.com/docs/askkids/index.shtml">About</a>
+<span class="KL1 b">&#160;|&#160;</span>
+<a class="KL1 b" onmousedown="return ct(this,30034);" href="http://sp.askkids.com/docs/askkids/editorialpolicy.shtml">Parents</a>
+</div>
+<div class="nobr"><span class="KL1 b"><b>Partner Sites:</b>&nbsp;</span>
+<a href="http://www.bloglines.com/" class="KL1 b" target="_blank">Bloglines</a>&nbsp;|&nbsp;
+<a href="http://www.citysearch.com/" class="KL1 b" target="_blank">Citysearch</a>&nbsp;|&nbsp;
+<a href="http://www.thedailybeast.com/" class="KL1 b" target="_blank">The Daily Beast</a>&nbsp;|&nbsp;
+<a href="http://answers.ask.com/" class="KL1 b" target="_blank">Ask Answers</a>&nbsp;|&nbsp;
+<a href="http://www.life123.com/" class="KL1 b" target="_blank">Life123</a>&nbsp;|&nbsp;
+<a href="http://www.reference.com/" class="KL1 b" target="_blank">Reference</a>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td align="right">
+<div class="KT1">&#169;&#160;2012&#160;Ask.com</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<script type="text/javascript">
+var _noSSFoundMsg = "No Search Suggestions Found";
+var _disableSSMsg = "Disable";
+var _language = "en";
+var _country = "US";
+</script>
+<div id="sgpane" style="display:none;left:0px;z-index:1010;"><div id="sgbody" style="position:absolute;z-index:1;left:16px;top:40px;width:208px;background-color:#FFF;"></div>
+<div class="T14 b" style="position:absolute;top:20px;height:20px;z-index:1;left:20px;width:203px;background-color:#FFF;border-bottom:solid 1px #ccc;">Search Suggestions</div>
+</div>
+<span style="display:none">
+<img src="http://wzus.askkids.com/i/i.gif?t=a&d=us&s=k&c=h&app=aoth&ti=2&ai=20014&dqi=&askid=&l=dir&o=0&oo=0&sv=0a5c4079&ip=825b8eb3&ord=6587010" height=1 width=1 />
+</span>
+<div id="stickerPreload">
+<img class="preload" src="http://sp.askkids.com/i/askforkids/a10f/hp/d1.png">
+<img class="preload" src="http://sp.askkids.com/i/askforkids/a10f/hp/d2.png">
+<img class="preload" src="http://sp.askkids.com/i/askforkids/a10f/hp/d3.png">
+<img class="preload" src="http://sp.askkids.com/i/askforkids/a10f/hp/d4.png">
+<img class="preload" src="http://sp.askkids.com/i/askforkids/a10f/hp/d5.png">
+</div>
+<span style="display:none">
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker('UA-5081537-28');
+pageTracker._setDomainName('askkids.com');
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</span>
+<span style="display:none">
+<script type="text/javascript">
+function addEvent(obj, evType, fn){
+if (obj.addEventListener){
+obj.addEventListener(evType, fn, false);
+return true;
+} else if (obj.attachEvent){
+var r = obj.attachEvent("on"+evType, fn);
+return r;
+} else {
+return false;
+}
+}
+function comScore(){
+var host = (("https:" == document.location.protocol) ? "https://sb" : "http://b");
+var headTag = document.getElementsByTagName("head")[0];
+var scanalytics = document.createElement("script");
+scanalytics.setAttribute("type", "text/javascript");
+scanalytics.setAttribute("src", host + ".scorecardresearch.com/beacon.js");
+scanalytics.onload = scanalytics.onreadystatechange = function(){
+try {
+COMSCORE.beacon({
+c1:2,
+c2:6034776,
+c3:"",
+c4:"",
+c5:"",
+c6:"",
+c15:""
+});
+} catch(err) {
+}
+};
+headTag.appendChild(scanalytics);
+}
+addEvent(window, 'load', comScore);
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6034776&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+</span>
+</body>
+<script type="text/javascript" src="inc/js/a10f/bubble.js"></script>
+<script type="text/javascript" src="inc/js/a10f/ss.js"></script>
+</html>

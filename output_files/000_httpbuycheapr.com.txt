@@ -1,0 +1,1257 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+	
+		
+		
+		 
+		 		
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content=" - compare prices at BuyCheapr.com">
+		<meta name="keywords" content="">
+		<title>
+			 Home - BuyCheapr.com
+		 </title>
+
+
+	
+	
+	
+		
+		
+		
+ 			<link rel="stylesheet" type="text/css" href="/us/css-jsp/styles_v2.css">
+		
+	
+
+
+	
+
+	
+		
+		
+		
+			<script type="text/javascript" src="/us/js-jsp/scripts_v2.js"></script>
+		
+	
+
+
+
+
+		<link rel="shortcut icon" href="/us/img/favicon/favicon.ico" type="image/x-icon"></link>
+
+
+		
+
+	
+		
+		
+					<script type="text/javascript" src="/us/js/easySlider1.7.js"></script>
+		 
+	</head>
+
+
+	<body>
+
+		<div class="container">
+			<div id="top-background"></div>
+			
+				
+
+			<div class="header home-header">
+			 
+
+
+
+
+
+			<div class="header-top">
+				<h1 id="logo">
+					<a href="/us/index.jsp" title="BuyCheapr.com"></a>
+				</h1>
+
+				<!-- search field -->
+				<div class="search-top-part">
+					<form id="search-top-form" action="/us/result.jsp" method="get">
+						<input id="input_query" name="q" class="search-txt-01 inner-box-shadow" value="" type="text">
+						<div id="submit_btn" class="search-bt-01" onclick="da.forms.setTargetAndSubmit('search-top-form','/us/result.jsp');"></div>
+
+						<input type="hidden" name="qs" value="ti">
+
+						
+						
+					</form>
+				</div>
+
+				<a class="shop-bt" href="#" onclick="da.forms.setTargetAndSubmit('search-top-form','/us/result.jsp');">
+					<span>SHOP</span>
+				</a>
+				
+				
+				<a class="research-bt" href="#" onclick="da.forms.setTargetAndSubmit('search-top-form','/us/research.jsp');">
+					<span>RESEARCH</span>
+				</a>
+				
+				<div class="login-part">
+					
+					
+				
+				
+
+				
+				
+
+				
+				
+					<a href="/us/login.jsp">LOGIN</a>
+					
+					
+				
+									
+					
+					
+					
+				</div>
+			</div>
+			
+			
+			
+			<div class="menu-part">
+
+
+				<ul class="main-nav">
+					<li class="first">
+						<a href="/us/category.jsp?catid=72">COMPUTER</a>
+						<ul class="sub-nav">
+							<li><a href="/us/offercategory.jsp?catid=9006">Monitors</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=9007">Laptops</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=ultraportable_laptop&catid=9007">Ultraportables</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=6">Printers</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=96601">Tablet PCs</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=graphics_and_publishing&catid=96394">Multimedia Software</a>
+							</li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="/us/category.jsp?catid=3">ELECTRONICS</a>
+						<ul class="sub-nav">
+							<li><a href="/us/offercategory.jsp?catid=96252">Flat Panel TVs</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=7185">Digital Cameras</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=410">Camcorder</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=89">MP3 Player</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=1398">GPS Devices</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=93767">Mobile Phones</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=9">PDAs and Electronic Organizers</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=87">DVD Recorder</a>
+							</li>
+						</ul>
+					</li>
+					
+					
+					
+					<li>
+						<a href="/us/offercategory.jsp?catid=96424">SPORTS &amp; OUTDOOR</a>
+						<ul class="sub-nav">
+							<li><a href="/us/offercategory.jsp?attributeValue=bikes&catid=96424">Bikes</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=sp_fitness_types_treadmills&catid=96424">Treadmills</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=sp_type_soccer&catid=96424">Soccer</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=sp_type_golf&catid=96424">Golf</a>
+							</li>
+						</ul>
+					</li>
+
+					
+					<li>
+						<a href="/us/category.jsp?catid=2010">CLOTHING</a>
+						<ul class="sub-nav">
+							<li><a href="/us/offercategory.jsp?attributeValue=ap_gender_age_women&catid=31515">Women</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=attributeValue=ap_gender_age_men&catid=31515">Men</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=96602">Shoes</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=68185">Luggage</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=category_22686">Sunglasses</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="/us/category.jsp?catid=253">KIDS</a>
+						<ul class="sub-nav">
+							<li><a href="/us/offercategory.jsp?catid=96425">Toys</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=85708">Baby Care</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=61192">Car Seats</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=61193">Baby Carriers</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=96393">Cots, Cribs and Bassinets</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=61194">Buggies and Strollers</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="/us/offercategory.jsp?catid=113">GARDEN</a>
+						<ul class="sub-nav">
+							<li><a href="/us/offercategory.jsp?attributeValue=garden_tools&catid=113">Garden Tools</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=swimming_pool_and_spa_supplies&catid=113">Pools</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?attributeValue=ga_greenhouses_and_sheds_greenhouses&catid=113">Greenhouses</a>
+							</li>
+						</ul>
+					</li>
+
+
+					<li>
+						<a href="/us/category.jsp?catid=279">OFFICE</a>
+						<ul class="sub-nav">
+							<li><a href="/us/offercategory.jsp?catid=367">Fax Machines</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=318">Photocopiers</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=95263">Office Supplies</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=323">Shredders</a>
+							</li>
+							<li><a href="/us/offercategory.jsp?catid=327">Voice Recorders and Transcribers</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="/us/category.jsp?catid=0">MORE...</a>
+					</li>
+				</ul>
+
+			</div>
+
+			</div>
+			
+			<div class="content home-content">
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+			<div class="main-top-part">
+			
+				
+
+				<div class="slier-wraper">
+					<div class="slider-part" id="slider">
+						
+								
+
+
+
+
+
+
+
+
+
+<ul>	
+	
+	
+	<li class="outdoor">
+	
+		
+		
+		<a href="/us/result.jsp?q=Hiking+Clothing&qs=ti">
+			<img class="simg-0" src="/us/img/slider/autumn/outdoor.jpg" alt="Shop for Outdoor Clothes">
+		</a>
+		<h2 class="pos">
+			<a href="/us/result.jsp?q=Hiking+Clothing&qs=ti">More family fund with the best <b>prices</b><br> for your outdoor adventure.</a>
+		</h2>
+		
+		
+		<a href="/us/result.jsp?q=Hiking+Clothing&qs=ti" class="slogen">
+			<span class="slogen-but">Discover our <b>Outdoor</b> Highlights</span>
+		</a>
+	</li>
+	
+	
+	
+	<li class="bikes hide">
+	
+		
+		
+		<a href="/us/result.jsp?q=Bicycle&qs=ti">
+			<img class="simg-1" src="" alt="Shop for Bikes">
+		</a>
+		<h2 class="pos">
+			<a href="/us/result.jsp?q=Bicycle&qs=ti">
+				Just ride and leave the expensive offers behind.
+			</a>
+		</h2>
+		<a href="/us/result.jsp?q=Bicycle&qs=ti" class="slogen">
+			<span class="slogen-but">Discover the<br>best bargain<br>for<br><b>Bikes</b></span>
+		</a>
+	</li>
+	
+	
+	<li class="kite hide">
+	
+		
+		
+		<a href="/us/result.jsp?q=Kite&qs=ti">
+			<img class="simg-2" src="" alt="Shop for Kites">
+		</a>
+		<h2 class="pos dark-blue">
+			<a href="/us/result.jsp?q=Kite&qs=ti">Tell the expensive offers<br>to go fly a kite.</a>
+		</h2>
+		<a href="/us/result.jsp?q=Kite&qs=ti" class="slogen">
+			<span class="slogen-but">Find the<br>best offers for<br><b>Kites</b><br>here</span>
+		</a>
+	</li>
+	
+	
+	<li class="adventure hide">
+	
+		
+		
+		<a href="/us/result.jsp?q=Canoe&qs=ti">
+			<img class="simg-3" src="" alt="Shop for Canoes">
+		</a>
+		<h2 class="pos dark-blue">
+			<a href="/us/result.jsp?q=Canoe&qs=ti">Get ready for a great<br>adventure with the<br>best <b>prices.</b></a>
+		</h2>
+		<a href="/us/result.jsp?q=Canoe&qs=ti" class="slogen">
+			<span class="slogen-but">Find the<br>right<br><b>Canoe</b><br>for you</span>
+		</a>
+	</li>
+	
+	
+	<li class="hiking hide">
+	
+		
+		
+		<a href="/us/result.jsp?q=Hiking+Gear&qs=ti">
+			<img class="simg-4" src="" alt="Shop for Hiking Gears">
+		</a>
+		<h2 class="pos">
+			<a href="/us/result.jsp?q=Hiking+Gear&qs=ti">
+				You...the fields...fresh air...<br>and the <b>best price</b> for your<br>hiking gear.
+			</a>
+		</h2>
+		<a href="/us/result.jsp?q=Hiking+Gear&qs=ti" class="slogen">
+			<span class="slogen-but">Discover our<br><b>Hiking<br>Gear</b><br>Specials</span>
+		</a>
+	</li>
+	
+	
+	<li class="bags hide">
+	
+		
+		
+		<a href="/us/result.jsp?q=Bag&qs=ti">
+			<img class="simg-5" src="" alt="Shop for Bags">
+		</a>
+		<h2 class="pos dark-blue">
+			<a href="/us/result.jsp?q=Bag&qs=ti">
+				Enjoy newest autumn<br>fashion at the best <b>price.</b>
+			</a>
+		</h2>
+		<a href="/us/result.jsp?q=Bag&qs=ti" class="slogen">
+			<span class="slogen-but">Our Autumn<br><b>Bags</b><br>collection</span>
+		</a>
+	</li>
+	
+	
+	<li class="mountainbike hide">
+	
+		
+		
+		<a href="/us/result.jsp?q=Mountain+Bike&qs=ti">
+			<img class="simg-6" src="" alt="Shop for Mountain Bikes">
+		</a>
+		<h2 class="pos">
+			<a href="/us/result.jsp?q=Mountain+Bike&qs=ti">
+				He&apos;s not the only<br>one going down-hill...<br>so are our <b>prices.</b>
+			</a>
+		</h2>
+		<a href="/us/result.jsp?q=Mountain+Bike&qs=ti" class="slogen">
+			<span class="slogen-but">Find the best<br>price for<br><b>Mountain<br>Bikes</b><br>now</span>
+		</a>
+	</li>
+</ul>
+
+<script type="text/javascript">
+
+	$(function() {
+		//will be executed on document.onload
+
+		$("#slider").easySlider({
+			 auto : true
+			,continuous : true
+			,speed : 500	//ms
+			,pause : 7000	//ms	NOTE, image loading on demand only works if the pause is greater than 1000ms
+			,images: [
+			     //list of images to load on demand ordered by position in the slider
+				 //{clazz: "simg-0", url:"/us/img/slider/01.jpg"},
+				 {clazz: "simg-1", url:"/us/img/slider/autumn/bikes.jpg"}
+				,{clazz: "simg-2", url:"/us/img/slider/autumn/kite.jpg"}
+				,{clazz: "simg-3", url:"/us/img/slider/autumn/adventure.jpg"}
+				,{clazz: "simg-4", url:"/us/img/slider/autumn/hiking.jpg"}
+				,{clazz: "simg-5", url:"/us/img/slider/autumn/bags.jpg"}
+				,{clazz: "simg-6", url:"/us/img/slider/autumn/mountainbike.jpg"}
+			]
+		});
+	});
+</script>
+
+									
+					</div>
+				</div>
+				
+				<script type="text/javascript">
+				
+					$(function() {
+						//will be executed on document.onload
+						$("#slider .hide").removeClass("hide");
+					});
+				</script>
+				
+				<!--/slier-wraper-->
+				
+				
+				
+				
+					<div class="recently-reviewed-part">
+						<h3>Recently Reviewed:</h3>
+						<ul class="reviewed-list">
+						
+							
+
+								<li>
+									
+									<a href="/us/show_review.jsp?review_id=2629&q=proctor+silex+juicer" class="from-website">
+										proctor silex juicer
+										
+									</a>
+
+									<p>i have had a proctor silas  juicit  juicer for 32 years...up until just now(!!!) it has worked like a dream.  ...</p>
+
+									<div class="rating review-stars-big">
+										<div class="good" style="width: 96.0px;"></div>
+									</div>
+									
+								</li>
+
+							
+
+								<li>
+									
+									<a href="/us/show_review.jsp?review_id=2612&q=danbury+mint+catalog" class="from-website">
+										danbury mint catalog
+										
+									</a>
+
+									<p>They offer great variety of things me and my family will love. I look forward to shopping for their merchandis...</p>
+
+									<div class="rating review-stars-big">
+										<div class="good" style="width: 96.0px;"></div>
+									</div>
+									
+								</li>
+
+							
+
+								<li>
+									
+									<a href="/us/show_review.jsp?review_id=2625&q=sunbeam+rocket+grill" class="from-website">
+										sunbeam rocket grill
+										
+									</a>
+
+									<p>I absolutely love this grill.  It is so easy to use and clean up - just throw the bag away!  I will gladly buy...</p>
+
+									<div class="rating review-stars-big">
+										<div class="good" style="width: 96.0px;"></div>
+									</div>
+									
+								</li>
+
+							
+							
+						</ul>
+						<a href="/us/write_review.jsp" class="link-bt-01">WRITE A REVIEW</a>
+					</div>
+				
+			</div>
+			
+<!--/main-top-part-->
+			
+			
+			
+			
+			
+			
+			<div class="clear"></div>
+			<div class="wraper-part">
+				<table class="layout-table">
+					<tbody>
+						<tr>
+						
+							
+						
+						
+							<td class="left-side-part">
+							
+							
+								
+									<div class="hot-offers-part">
+										
+										<div class="hot-mid-con">
+											<h2>Hot Offers</h2>
+											
+											<ul class="product-list">
+											
+												
+													<li>
+														<div>
+															<a href="product.jsp?prodpar=sc&prodid=110264126">
+																<img alt="" src="http://di1.shopping.com/images/pi/21/be/fc/110264126-100x100-0-0.jpg?p=p1.0efdc9e5f2c2a7a57cc2&a=2&c=1&l=8054230&t=120417220924&r=15">
+															</a>
+														</div>
+														
+														<div class="name">
+															<a href="product.jsp?prodpar=sc&prodid=110264126" class="name">
+																Kodak Easyshare M577 Digital Camera Purple
+															</a>
+														</div>
+														
+														<span class="price">	
+															$ 82.90 - $ 139.99
+														</span>
+														
+														<div class="link-bt-02 compare-price">
+															<a href="product.jsp?prodpar=sc&prodid=110264126">COMPARE PRICES</a>
+														</div>
+													</li>
+												
+													<li>
+														<div>
+															<a href="product.jsp?prodpar=sc&prodid=106834251">
+																<img alt="" src="http://di1.shopping.com/images/pi/34/dc/d8/106834251-100x100-0-0.jpg?p=p2.2c9b5763a48df44cfe8d&a=2&c=1&l=8054230&t=120417220924&r=5">
+															</a>
+														</div>
+														
+														<div class="name">
+															<a href="product.jsp?prodpar=sc&prodid=106834251" class="name">
+																Nikon P500 Light Field Camera
+															</a>
+														</div>
+														
+														<span class="price">	
+															$ 259.00 - $ 445.00
+														</span>
+														
+														<div class="link-bt-02 compare-price">
+															<a href="product.jsp?prodpar=sc&prodid=106834251">COMPARE PRICES</a>
+														</div>
+													</li>
+												
+													<li>
+														<div>
+															<a href="product.jsp?prodpar=sc&prodid=86572911">
+																<img alt="" src="http://di1.shopping.com/images/pi/59/14/1c/86572911-100x100-0-0.jpg?p=p2.2c9b5763a48df44cfe8d&a=2&c=1&l=8054230&t=120417220924&r=7">
+															</a>
+														</div>
+														
+														<div class="name">
+															<a href="product.jsp?prodpar=sc&prodid=86572911" class="name">
+																Nikon COOLPIX P90 Digital Camera
+															</a>
+														</div>
+														
+														<span class="price">	
+															$ 447.69 - $ 619.99
+														</span>
+														
+														<div class="link-bt-02 compare-price">
+															<a href="product.jsp?prodpar=sc&prodid=86572911">COMPARE PRICES</a>
+														</div>
+													</li>
+													
+											</ul>
+										</div>
+									</div>
+									<!--/hot-offers-part-->
+								
+			
+			
+								<div class="box shop-by brands brands-sprite">
+									<h3>Shop By Brand</h3>
+									<div>
+										<img usemap="#brandsMap" src="/us/img/transparent.gif">
+
+										<map name="brandsMap">
+											
+											
+											<area shape="rect" coords="4,32,90,48" href="/us/result.jsp?x=0&y=0&qs=ti&q=Canon" alt="Canon" title="Canon">
+											<area shape="rect" coords="96,21,220,65" href="/us/result.jsp?x=0&y=0&qs=ti&q=Samsung" alt="Samsung" title="Samsung">
+											<area shape="rect" coords="225,25,321,58" href="/us/result.jsp?x=0&y=0&qs=ti&q=Sony" alt="Sony" title="Sony">
+											<area shape="rect" coords="8,89,65,143" href="/us/result.jsp?x=0&y=0&qs=ti&q=Nikon" alt="Nikon" title="Nikon">
+											<area shape="rect" coords="75,94,215,144" href="/us/result.jsp?x=0&y=0&qs=ti&q=Toshiba" alt="Toshiba" title="Toshiba">
+											<area shape="rect" coords="218,100,318,129" href="/us/result.jsp?x=0&y=0&qs=ti&q=Bosch" alt="Bosch" title="Bosch">
+											<area shape="rect" coords="10,160,63,212" href="/us/result.jsp?x=0&y=0&qs=ti&q=Nike" alt="Nike" title="Nike">
+											<area shape="rect" coords="85,167,205,203" href="/us/result.jsp?x=0&y=0&qs=ti&q=Panasonic" alt="Panasonic" title="Panasonic">
+											<area shape="rect" coords="223,174,315,196" href="/us/result.jsp?x=0&y=0&qs=ti&q=Miele" alt="Miele" title="Miele">
+											<area shape="rect" coords="5,225,60,255" href="/us/result.jsp?x=0&y=0&qs=ti&q=JVC" alt="JVC" title="JVC">
+											<area shape="rect" coords="95,230,190,255" href="/us/result.jsp?x=0&y=0&qs=ti&q=Philips" alt="Philips" title="Philips">
+											<area shape="rect" coords="225,225,310,265" href="/us/result.jsp?x=0&y=0&qs=ti&q=dyson" alt="dyson" title="dyson">
+											<area shape="rect" coords="3,285,80,325" href="/us/result.jsp?x=0&y=0&qs=ti&q=Levis" alt="Levis" title="Levis">
+											<area shape="rect" coords="90,285,210,312" href="/us/result.jsp?x=0&y=0&qs=ti&q=Kenwood" alt="Kenwood" title="Kenwood">
+											<area shape="rect" coords="220,274,318,336" href="/us/result.jsp?x=0&y=0&qs=ti&q=Sony+Ericsson" alt="Sony Ericsson" title="Sony Ericsson">
+										</map>
+									</div>
+								</div>
+								
+								<div class="box shop-by store store-sprite">
+									<h3>Shop By Store</h3>
+									<div>
+										<img usemap="#storesMap" src="/us/img/transparent.gif">
+										
+										<map name="storesMap">
+											
+	
+											<area shape="rect" coords="0,40,92,79" href="/us/result.jsp?attributeValue=store_ebay_4136640&q=ebay" alt="ebay" title="ebay">
+											<area shape="rect" coords="98,47,212,75" href="/us/result.jsp?attributeValue=store_amazon&q=Amazon.com" alt="Amazon.com" title="Amazon.com">
+											<area shape="rect" coords="237,21,300,90" href="/us/result.jsp?attributeValue=store qvc&q=QVC" alt="QVC" title="QVC">
+											<area shape="rect" coords="11,97,88,173" href="/us/result.jsp?attributeValue=store_radioshack_9689&q=RadioShack" alt="RadioShack" title="RadioShack">
+											<area shape="rect" coords="100,120,204,155" href="/us/result.jsp?attributeValue=store_cooking_com_133052&q=Cooking.com" alt="Cooking.com" title="Cooking.com">
+											<area shape="rect" coords="219,120,318,161" href="/us/result.jsp?attributeValue=store_zappos_com&q=Zappos.com" alt="Zappos.com" title="Zappos.com">
+											<area shape="rect" coords="0,190,95,264" href="/us/result.jsp?attributeValue=store_staples_4173960&q=Staples" alt="Staples" title="Staples">
+											<area shape="rect" coords="105,202,210,247" href="/us/result.jsp?attributeValue=store nordstrom&q=Nordstrom" alt="Nordstrom" title="Nordstrom">
+											<area shape="rect" coords="224,208,325,249" href="/us/result.jsp?attributeValue=store_macys_com&q=Macys" alt="Macy's" title="Macy's">
+											<area shape="rect" coords="13,283,86,354" href="/us/result.jsp?attributeValue=store_saks_fifth_avenue_9689&q=saks+fifth+avenue" alt="Saks Fifth Avenue" title="Saks Fifth Avenue">
+											<area shape="rect" coords="97,298,219,330" href="/us/result.jsp?attributeValue=store_office_depot_4158555&q=Office+Depot" alt="Office Depot" title="Office Depot">
+											<area shape="rect" coords="229,277,315,343" href="/us/result.jsp?attributeValue=store_best_buy_4131001&q=Best+Buy" alt="Best Buy" title="Best Buy">
+										</map>
+									</div>
+								</div>
+								
+								<div class="clear"></div>
+								
+								
+								
+								<div class="box-without-border box-01 iphone-box">
+									<div class="left-img">
+										<a href="#">
+											<span class="app-img"></span>
+										</a>
+									</div>
+									<div class="txt-right">
+										
+										<h2 class="coming-soon">Coming Soon...</h2>
+										
+										<h3>
+											<a href="#">Shopping Helper in your Pocket</a>
+										</h3>
+										<p>
+											Compare prices and get the best deals through our IPhone App. BuyCheapr.com is a premiere price comparing engine for all internet shoppers.
+										</p>
+										
+									</div>
+									<div class="clear"></div>
+								</div>
+								
+			
+			
+								
+								 
+								<div class="box-without-border box-01 box-02 plugin-box">
+									<h2 class="coming-soon">Coming Soon...</h2>
+								
+									<div class="txt-right">
+										<h3>
+											<a href="#">Shopping Helper in your Browser</a>
+										</h3>
+										<p>
+											BuyCheapr.com acts as your personal shopping assistant in your browser sidebar! This application for your browser finds the best deals for you.
+										</p>
+										
+									</div>
+									<div class="left-img">
+										<a href="#">
+											<span class="browser-plugin-img"></span>
+										</a>
+									</div>
+								</div>
+
+								
+								
+								<div class="clear"></div>
+
+
+								<div class="facebook wraper-01">
+						
+									<h3>
+										<span class="logo"></span>
+										<a href="http://www.facebook.com/pages/BuyCheaprcom/295802600443521" target="_blank">
+											BuyCheapr.com on facebook
+										</a>
+									</h3>
+									<div class="like-it">
+
+<span class="left like-button">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=295802600443521&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://www.facebook.com/pages/BuyCheaprcom/295802600443521" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false"></div>
+		</span>								
+										<p class="left">Join our facebook community and get the latest informantion</p>
+
+
+									</div>
+								</div>
+								<div class="twitter  wraper-01">
+									<h3>
+										<span class="logo"></span>
+										<a href="http://twitter.com/#!/BuyCheaprCom" target="_blank">
+											BuyCheapr.com on Twitter
+										</a>
+									</h3>
+									<div class="small-logo">
+										<a href="http://twitter.com/#!/BuyCheaprCom" target="_blank" class="left">
+											<span class="shopping-bag-img"></span>
+										</a>
+										<p class="left tweets"></p>
+									</div>
+								</div>
+								<div class="clear"></div>
+								
+								
+								<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/BuyCheaprCom.json?callback=da.social.twitter.insertRecentPostsCallback&count=1"></script>
+								
+							 
+						
+				
+							</td>
+				
+				
+				
+				
+				
+				
+				
+							 
+				
+				
+							<td class="right-side-part home-right-side-part">
+					
+								
+									
+									<div class="box viewing-box">
+										<div class="user-part">
+											<h3>
+												<span>What Users Are Viewing Right Now</span>
+											</h3>
+											<div class="pro">
+												<a href="product.jsp?prodpar=pr&prodid=910011816">
+													<img alt="" src="http://i.pgcdn.com/pi/91/00/11/910011816_125.jpg">
+												</a>
+											</div>
+											
+											<div class="name">
+												<a href="product.jsp?prodpar=pr&prodid=910011816" class="name">Tank water fiberglass Wound 30 Gal  DAYTON 5PFV6</a>
+											</div>
+											
+											<p> by Dayton Electric Manufacturing Co.</p>
+											
+											<div class="link-bt-02 compare-price">
+												<span class="price">	
+													$ 310.50 - $ 310.50
+												</span>
+											</div>
+										</div>
+									</div>
+									<!-- /box-->
+								
+								
+								
+								
+								
+								
+								
+								<div class="box box-03 freq-srch-box">
+									<h3>Frequently searched</h3>
+									<div class="tages-part">
+			
+			
+										
+											<a class="hs5" href="/us/result.jsp?q=17+55mm+f+2.8&qs=rl">17 55mm f 2.8</a>
+										
+											<a class="hs6" href="/us/result.jsp?q=18+200mm+f&qs=rl">18 200mm f</a>
+										
+											<a class="hs6" href="/us/result.jsp?q=30gb+ipod&qs=rl">30gb ipod</a>
+										
+											<a class="hs6" href="/us/result.jsp?q=30mm+f+1.4&qs=rl">30mm f 1.4</a>
+										
+											<a class="hs7" href="/us/result.jsp?q=32+1080&qs=rl">32 1080</a>
+										
+											<a class="hs3" href="/us/result.jsp?q=32+gb+sandisk+view&qs=rl">32 gb sandisk view</a>
+										
+											<a class="hs8" href="/us/result.jsp?q=4+gb&qs=rl">4 gb</a>
+										
+											<a class="hs5" href="/us/result.jsp?q=4wd+rc+buggy&qs=rl">4wd rc buggy</a>
+										
+											<a class="hs3" href="/us/result.jsp?q=500mm+reflex+lens&qs=rl">500mm reflex lens</a>
+										
+											<a class="hs6" href="/us/result.jsp?q=50mm+f1.4&qs=rl">50mm f1.4</a>
+										
+											<a class="hs4" href="/us/result.jsp?q=77mm+uv+filter&qs=rl">77mm uv filter</a>
+										
+											<a class="hs4" href="/us/result.jsp?q=Sanyo+ECJ-D55S&qs=rl">Sanyo ECJ-D55S</a>
+										
+											<a class="hs5" href="/us/result.jsp?q=canon+10-22mm&qs=rl">canon 10-22mm</a>
+										
+											<a class="hs5" href="/us/result.jsp?q=canon+12-24mm&qs=rl">canon 12-24mm</a>
+										
+											<a class="hs4" href="/us/result.jsp?q=canon+ef+f+1.4&qs=rl">canon ef f 1.4</a>
+										
+											<a class="hs3" href="/us/result.jsp?q=canon+ef+s+55+250mm&qs=rl">canon ef s 55 250mm</a>
+										
+											<a class="hs4" href="/us/result.jsp?q=canon+f+1.8+lens&qs=rl">canon f 1.8 lens</a>
+										
+											<a class="hs4" href="/us/result.jsp?q=canon+f+2.8+lens&qs=rl">canon f 2.8 lens</a>
+										
+											<a class="hs5" href="/us/result.jsp?q=canon+sd1100&qs=rl">canon sd1100</a>
+										
+											<a class="hs6" href="/us/result.jsp?q=cbk4+300&qs=rl">cbk4 300</a>
+										
+									
+									</div>
+								</div>
+								<!-- /box-->
+
+
+
+
+								
+								
+									<div class="box-without-border box-03 expert-reviews">
+										<h3>Expert Reviews</h3>
+										<ul>
+										
+											
+				
+												<li>
+													<div class="from-website" onclick="mclick(findChild(this, 'a')); return false;">
+														<a href="http://alatest.de/redirect/sources/232276/50296/1328012608/">
+															<img src="http://ii.alatest.com/source/100x60/e/8/allgame-com-0.png">
+														</a>
+													</div>
+
+													<div class="source">
+														<span>Source:</span>
+														<span class="name">allgame.com</span>
+													</div>
+													
+													<div class="test-title" onclick="mclick(findChild(this, 'a')); return false;">
+														<a href="http://alatest.de/redirect/pro-reviews/39764345/50296/1328012608/">Championship Surfer</a>
+													</div>
+													
+													
+														<div class="author">by All Game Guide</div>
+													
+													
+													<p class="summary"><span class="title">Review summary:</span>&nbsp;This text refers to the PC version of this title.Championship Surfer is developed by ...</p>
+													
+													<div class="full-review" onclick="mclick(findChild(this, 'a')); return false;">
+														<a href="http://alatest.de/redirect/pro-reviews/39764345/50296/1328012608/">Read Full Review</a>
+													</div>
+												</li>
+				
+											
+				
+												<li>
+													<div class="from-website" onclick="mclick(findChild(this, 'a')); return false;">
+														<a href="http://alatest.de/redirect/sources/10276/50296/1328012608/">
+															<img src="http://ii.alatest.com/source/100x60/d/9/deafgamers-com-0.png">
+														</a>
+													</div>
+
+													<div class="source">
+														<span>Source:</span>
+														<span class="name">deafgamers.com</span>
+													</div>
+													
+													<div class="test-title" onclick="mclick(findChild(this, 'a')); return false;">
+														<a href="http://alatest.de/redirect/pro-reviews/39541591/50296/1328012608/">Stronghold</a>
+													</div>
+													
+													
+													
+													<p class="summary"><span class="title">Review summary:</span>&nbsp;For the last three years we have been treated to a quality historic RTS. Impressions ...</p>
+													
+													<div class="full-review" onclick="mclick(findChild(this, 'a')); return false;">
+														<a href="http://alatest.de/redirect/pro-reviews/39541591/50296/1328012608/">Read Full Review</a>
+													</div>
+												</li>
+				
+											
+											
+										</ul>
+									</div>
+								
+
+			
+							</td>
+						</tr>
+					
+					</tbody>
+				
+				</table>
+			</div>
+			<div class="clear"></div>
+			<!--/content-->
+			</div>
+			
+			<div class="footer home-footer">
+			 
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="footer-top">
+			
+			
+			<p class="copyright">&copy;2009-2012 <a href="/us/" class="footer-base-lnk">BuyCheapr.com</a></p>
+			<form id="search-bottom-form" method="get">
+				<div class="search-but">
+					<input class="search-txt-02 inner-box-shadow" name="q" type="text">
+					<div class="search-bt-02" onclick="da.forms.setTargetAndSubmit('search-bottom-form','/us/result.jsp');"></div>
+				</div>
+	
+	
+				<input type="hidden" name="qs" value="ti">
+	
+				
+				
+			</form>
+		</div>
+		
+		<div class="footer-con">
+			<div class="footer-links-part">
+				<dl class="first">
+					<dt>ABOUT US</dt>
+					<dd>
+						<a href="/us/about.jsp" rel="nofollow">
+							About BuyCheapr.com
+						</a>
+					</dd>
+					<dd><a href="/us/terms_of_use.jsp" rel="nofollow">Terms of Use</a></dd>
+					<dd><a href="/us/privacy_policy.jsp" rel="nofollow">Privacy Policy</a></dd>
+					<dd><a href="/us/imprint.jsp" rel="nofollow">Contact / Imprint</a></dd>
+					<dd><a href="/us/sitemap.jsp">Sitemap</a></dd>
+				</dl>
+				<dl class="second">
+					<dt>PRODUCTS</dt>
+					<dd>
+						<ul>
+							<li><a href="/us/category.jsp?catid=72">Computers</a></li>
+							<li><a href="/us/category.jsp?catid=3">Consumer Electronics</a></li>
+							<li><a href="/us/offercategory.jsp?catid=96424">Sports &amp; Outdoor</a></li>
+							<li><a href="/us/category.jsp?catid=2010">Clothing</a></li>
+						</ul>
+					</dd>
+					<dd>
+						<ul>
+							<li><a href="/us/category.jsp?catid=253">Kids</a></li>
+							<li><a href="/us/offercategory.jsp?catid=113">Garden</a></li>
+							<li><a href="/us/category.jsp?catid=279">Office</a></li>
+							<li><a href="/us/category.jsp?catid=0">More...</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt>REVIEWS</dt>
+					
+					<dd><a href="/us/write_review.jsp" title="Write a Review">Write a Review</a></dd>
+					<dd><a href="/us/user_reviews.jsp" title="User Reviews">User Reviews</a></dd>
+					<dd><a href="/us/expert_reviews.jsp" title="Expert Reviews">Expert Reviews</a></dd>
+				</dl>
+			</div>
+		</div>
+
+			</div>
+			
+			
+			
+			
+
+
+
+
+	<div class="rate-us-part">
+		<div class="rate-bt"></div>
+		<div class="rate-us-part-con">
+			<div class="rate-us-part-con-inner">
+				<form action="rate_us.jsp" method="get">
+					<div class="close">close <span class="removeButton"></span></div>
+					<h1>
+						<span class="small-logo"></span>
+					</h1>
+					<h3>
+					 	How likely are you to recommend BuyCheapr.com?
+					</h3>
+					<h4>
+						Likelihood to recommend BuyCheapr.com
+					</h4>
+					<div class="like-part">
+						<div class="rate-us-frame"></div>
+						<dl class="first">
+							<dt>1</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>2</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>3</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>4</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>5</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>6</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>7</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>8</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl>
+							<dt>9</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<dl class="last">
+							<dt>10</dt>
+							<dd>
+								<input type="radio" name="a">
+							</dd>
+						</dl>
+						<span class="left">Not likely at all</span>
+						<span class="right">Very Likely</span> </div>
+					<h3>
+					 	Did BuyCheapr.com meet your shopping needs?
+					</h3>
+					<div class="part2">
+						<input type="radio" name="b">
+						Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="b">
+						No </div>
+					<h3>Please tell us the reason for your score above.</h3>
+					<p>
+						<textarea name="c" cols="60" rows="5"></textarea>
+					</p>
+					<p>
+						<input type="submit" class="link-bt-01 submit" value="SUBMIT">
+					</p>
+					<div class="clear"></div>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	
+<!--/rate-us-part--> 	
+			
+			
+			
+			<script type="text/javascript">
+			
+			  var _gaq = _gaq || [];
+			  _gaq.push(["_setAccount", "UA-4224591-8"]);
+			  _gaq.push(["_trackPageview"]);
+			
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+			
+			</script>
+
+			<div id="bottom-background"></div>
+		</div>
+		
+<!--/container-->
+	</body>
+</html>
+
+
+	
+	
+	
+	
+	
+	
+
+

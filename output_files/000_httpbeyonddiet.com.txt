@@ -1,0 +1,1055 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xmlns:bd="http://www.beyonddiet.com/2011/bdml" xml:lang="en" lang="en">
+<head>
+    
+
+<!-- ChartBeat -->
+<script type="text/javascript">    var _sf_startpt = (new Date()).getTime()</script>
+
+<!-- GA -->
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27870759-1']);
+    _gaq.push(['_trackPageview']);
+
+    // track campaigns
+    _gaq.push(['_setCampSourceKey', 'src']);
+    _gaq.push(['_setCampMediumKey', 'med']);
+    _gaq.push(['_setCampNameKey', 'camp']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" /><title>
+	
+
+    
+    Gluten Free Weight Loss Diet Including Healthy Meal Plans presented by Isabel De
+    Los Rios |
+
+
+    
+
+Beyond Diet
+</title><link rel="stylesheet" href="/content/reset.css" /><link rel="stylesheet" href="/content/text.css" /><link rel="stylesheet" href="/content/960.css" /><link rel="Stylesheet" type="text/css" href="/Content/fonts.css?6582415" />
+<link rel="Stylesheet" type="text/css" href="/Content/Site.css?6582415" />
+<link rel="Stylesheet" type="text/css" href="/Content/jquery-ui.css?6582415" />
+
+
+
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/content/ie7.css" />
+         <script type="text/javascript" src="/scripts/json2.js"></script>
+    <![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" href="/content/ie8.css" /><![endif]-->
+    <!--[if gte IE 9]><link rel="stylesheet" href="/content/ie9.css" /><![endif]-->
+    
+    <script type="text/javascript" src="/scripts/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.inputhints.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/site.js?6582415"></script>
+
+    
+
+<meta property="fb:admins" content="47702244,562453015,527287623,47700560" />
+<link rel="icon" href="//d3f3hlqdx4azlp.cloudfront.net/icons/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="//d3f3hlqdx4azlp.cloudfront.net/icons/favicon.ico" type="image/x-icon" />
+
+<script type="text/javascript" src="/scripts/api.js?6582415"></script>
+<script type="text/javascript" src="/scripts/mbox.js?6582415"></script>
+
+    <meta property="og:title" content="Gluten Free Weight Loss and Healthy Meal Plans | Beyond Diet" />
+    <meta name="description" content="Stop Counting Calories, Start Eating Well and Start Living! Beyond Diet is not just a diet, it's also a community and a way of supporting each other on our weight loss journeys." />
+    <meta property="og:url" content="http://www.beyonddiet.com/BD?food=figs&tag=organic" />
+    <meta property="og:image" content="http://d3f3hlqdx4azlp.cloudfront.net/images/bd-home-thumb.png" />
+    <link rel="Stylesheet" type="text/css" href="/Content/bubbletip/bubbletip.css?6582415" />
+<link rel="Stylesheet" type="text/css" href="/areas/bd/content/Landing.css?6582415" />
+<link rel="Stylesheet" type="text/css" href="/areas/members/content/Comments.css?6582415" />
+<link rel="Stylesheet" type="text/css" href="/areas/members/content/RecipeRotator.css?6582415" />
+<link rel="Stylesheet" type="text/css" href="/Content/fancybox/jquery.fancybox-1.3.4.css?6582415" />
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rock+Salt" />
+    <script type="text/javascript" src="/areas/members/scripts/Comments.js?6582415"></script>
+<script type="text/javascript" src="/areas/Members/Scripts/jquery.corner.js?6582415"></script>
+<script type="text/javascript" src="/Scripts/jwplayer/jwplayer.js?6582415"></script>
+<script type="text/javascript" src="/scripts/mbox.js?6582415"></script>
+<script type="text/javascript" src="/Areas/BD/Scripts/Home.js?6582415"></script>
+<script type="text/javascript" src="/Scripts/jquery.fancybox-1.3.4.pack.js?6582415"></script>
+<script type="text/javascript" src="/Scripts/jquery.easing-1.3.pack.js?6582415"></script>
+<script type="text/javascript" src="/Scripts/Api.js?6582415"></script>
+<script type="text/javascript" src="/areas/members/scripts/RecipeRotator.js?6582415"></script>
+<script type="text/javascript" src="/Scripts/EmailSequenceOptIn.js?6582415"></script>
+
+
+    <script type="text/javascript" src="/scripts/MicrosoftAjax.js"></script>
+
+    <script type="text/javascript" src="/scripts/MicrosoftMvcAjax.js"></script>
+
+    
+
+    <script type="text/javascript">
+        var currentSlideNo = 1;
+        var nextSlideNo = 2;
+        var autoFade = self.setInterval("fadeTransition()", 10000);
+        // load recipe rotato
+        $.ajax({
+            url: '/Members/Home/RecipeRotator',
+            cache: false,
+            success: function (html) {
+                $('#recipeRotator')
+                        .html(html)
+                        .slideDown('fast');
+
+                initilizeRotater();
+
+                //Initializes Video When box is opened to avoid black screen after closing and re-opening the lightbox that contains that video. The setupVid function is in Home.js
+                $('.fancybox').click(function () {
+                    setupVid('BDTour3.f4v', 'rtmp://s3c7v71h3ecynl.cloudfront.net/cfx/st', 'true', 'https://s3.amazonaws.com/beyonddiet/images/VideoPreviewImages/HomePageWelcome.png', 'http://d1elkx0np4icf9.cloudfront.net/BDTour3H264.mp4');
+                });
+
+
+                $('.fancybox').fancybox({
+                    'transitionIn': 'elastic',
+                    'transitionOut': 'elastic',
+                    'easingIn': 'easeOutBack',
+                    'easingOut': 'easeInBack',
+                    'speedIn': 1000,
+                    'speedOut': 500,
+                    'overlayShow': true,
+                    'hideOnOverlayClick': true,
+                    'enableEscapeButton': true,
+                    'showCloseButton': true,
+                    'onClosed': function () { $('#replay, #join').hide(); }
+                });
+            }
+        });
+
+        
+        
+//        // load member quote
+//        $.ajax({
+//            url: '/BD/Quotes',
+//            cache: false,
+//            success: function (html) {
+//                if (html != "") {
+//                    $('#memberQuotes')
+//                        .html(html)
+//                        .slideDown('fast');
+//                }
+//            }
+//        });
+
+
+    </script>
+
+    <style type="text/css">
+        #replay
+        {
+            background: transparent url("//d3f3hlqdx4azlp.cloudfront.net/images/PublicHomeReplay.png") no-repeat top left;
+            width: 480px;
+            height: 180px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #replay:hover
+        {
+            background-position: 0 -180px;
+            cursor: pointer;
+        }
+        #join
+        {
+            background: transparent url("//d3f3hlqdx4azlp.cloudfront.net/images/PublicHomeJoin.png") no-repeat top left;
+            width: 480px;
+            height: 180px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #join:hover
+        {
+            background-position: 0 -180px;
+            cursor: pointer;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    
+
+
+    <div id="head" class="container_12">
+
+        <div class="grid_5">
+
+               
+    
+<a href="/">
+    <img src="//d3f3hlqdx4azlp.cloudfront.net/images/logo.png" alt="Beyond Diet" /></a>
+
+        </div>
+
+        <div id="quick_menu" class="grid_7">
+
+            <div class="right">
+
+                
+
+    
+    
+
+<a target="_blank" href="http://go.beyonddiet.com/FacebookFanpage"><img src="http://www.facebook.com/favicon.ico" alt="Join our Facebook Fanpage!" style="margin-top: 2px;" /></a>
+<a target="_blank" href="http://go.beyonddiet.com/TwitterPage"><img src="http://www.twitter.com/favicon.ico" alt="Follow us on Twitter!" style="margin-top: 2px;margin-left:8px;"/></a>
+<a target="_blank" href="http://go.beyonddiet.com/YoutubePage"><img src="http://www.youtube.com/favicon.ico" alt="Check us out on YouTube" style="margin-top: 2px;margin-left:8px;" /></a>
+
+<div class="quick_divide">
+</div>
+
+<a href="/BD/Home/Contact">Contact Us</a>
+
+<div class="quick_divide">
+</div>
+
+<a href="/BD/Account/Register">Register</a>
+
+<div class="quick_divide">
+</div>
+
+<a class="home-login-top-link" href="/BD/Account/LogOn">Log on</a>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+    
+
+<div id="nav" class="container_12">
+
+    <ul id="jsddm" class="list bd-nav">
+        
+
+<li class="first active">
+    <a class="pri" href="/BD">Home</a></li>
+<li class="">
+    <a class="pri" href="/Members/Tools">Tools</a>
+</li>
+<!--<li><a class="pri" href="">The Program</a></li>-->
+
+<li class="">
+    <a class="pri"  href="/Members/Stories">Share</a></li>
+<li class="">
+    <a class="pri"  href="/Members/Ask">Ask</a></li>
+
+<li class="">
+    <a class="pri"  href="/Members/Recipes">Recipes</a></li>
+
+<li class="">
+    <a class="pri" href="/Members/Categories/Shopping-List">
+        Shopping</a></li>
+
+
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        //fix primary nav shift problem
+                        $('#nav li a.pri').each(function () {
+                            $(this).css({ 'width': $(this).parent().width(), 'padding': '12px 0px' });
+                        });
+                    });
+        </script>
+    </ul>
+</div>
+
+
+    
+<div id="slider-container">
+    <div class="slider-static">
+        
+<link rel="Stylesheet" href="/Content/bubbletip/bubbletip.css" />
+<script type="text/javascript" src="/scripts/jQuery.bubbletip-1.0.6.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $('input[title]').inputHints();
+        $('input#Password').hide();
+
+        $('input#PasswordLabel').focus(function () {
+            $('input#PasswordLabel').hide();
+            $('input#Password').show().focus();
+        });
+
+        $('input#Password').blur(function () {
+            if ($('input#Password').attr('value') == '') {
+                $('input#Password').hide();
+                $('input#PasswordLabel').show();
+            }
+        });
+
+        var checkedCreds = false;
+        $('#logOn').submit(function () {
+            if (checkedCreds) // bypass if we've already checked
+                return true;
+
+            if ($('#UserName').val() == '' || $('#Password').val() == '') {
+                $('#validation-message').html("Please enter your username/email and password.");
+                showValidationMsg();
+            }
+            else {
+                // ajax authenticate before submitting
+                $.ajax({
+                    url: 'https://www.beyonddiet.com/BD/Account/Authenticate',
+                    data: { userID: $('#UserName').val(), password: $('#Password').val() },
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    cache: false,
+                    success: function (data) {
+                        if (data.isValid) {
+                            checkedCreds = true;
+                            $('#logOn').submit();
+                        }
+                        else {
+                            $('#validation-message').html(data.message);
+                            showValidationMsg();
+                        }
+                    },
+                    error: function (res) { // error event does not get triggered for jsonp requests
+                        // log error
+                        $.ajax({
+                            url: '/Members/Home/LogError',
+                            data: { message: res.responseText },
+                            type: 'POST',
+                            cache: false
+                        });
+
+                        // try to post anyway
+                        checkedCreds = true;
+                        $('#logOn').submit();
+                    }
+                });
+            }
+
+            return false;
+        });
+    });
+
+    function showValidationMsg() {
+        // show bubble validation message
+        $('input#UserName').bubbletip($('#validation-message'), {
+            width: 400,
+            bindShow: 'focus',
+            bindHide: 'blur',
+            offsetTop: 10
+        }).focus();
+    }
+</script>
+<!-- Tooltip validation messages -->
+<div id="validation-message" class="error" style="display: none;">
+    Your username or password is incorrect.
+</div>
+<!-- /Tooltip validation messages -->
+<div id="login-or-return">
+    <a class="smaller-bm homeToPresentation2 split-test" href="http://go.beyonddiet.com/home-to-landing-stick"></a>
+    <div class="login-now">
+        <h3 class="small-bm">
+            Login</h3>
+        
+        
+        
+        <form action="https://www.beyonddiet.com/BD/Account/LogOn" method="post" id="logOn">
+        <input type="hidden" name="returnUrl" value="" />
+        <div class="editor-field">
+            <input class="login-textbox" id="UserName" name="UserName" title="Username or Email" type="text" value="" />
+        </div>
+        <div class="editor-field">
+            <input class="login-textbox" id="Password" name="Password" type="password" />
+            <input id="PasswordLabel" name="PasswordLabel" value="Password" class="hint login-textbox"
+                type="text" />
+        </div>
+        <button class="smaller-tm" type="submit" id="login-now-button">
+        </button>
+        <div class="editor-label small-tm">
+            <input checked="checked" id="RememberMe" name="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />
+            <label for="RememberMe" style="font-weight: normal; color: #fff; font-size: 12px;">
+                Remember Me?</label>
+        </div>
+        <p style="font-weight: normal; color: #A2D78A; font-size: 12px; width: 200px; position: absolute;
+            bottom: 12px; left: 15px;">
+            Already purchased? &nbsp;<a href="/BD/Account/Register"><b>Register Now</b></a>
+        </p>
+        <span style="position: absolute; bottom: 1px; right: 21px; width: 150px;">
+            <a href="/BD/Account/ForgotPassword">Forgot your password?</a></span>
+        </form>
+        
+    </div>
+</div>
+<div class="join-now" class="right">
+    <h3>
+        Join Now</h3>
+    <p style="margin-top: 4px;">
+        Learn more and sign up for Beyond Diet today.</p>
+    <a class="join-button" href="http://go.beyonddiet.com/home-joinnow"></a>
+
+
+</div>
+
+    </div>
+    <div class="slide" id="slide-1">
+        <a id="slide-postit" href="/Members/Pages/AboutIsabel"></a>
+        <h1>
+            Stop Counting Calories,<br />
+            Start Eating Well and<br />
+            <b>Start Living!</b></h1>
+        <p>
+            Beyond Diet is just that! It’s not just a diet, it's<br />
+            also a community and a way of supporting
+            <br />
+            each other on our weight loss journey.
+            <br />
+            <br />
+            <a href="/BD/Quiz/DietKnowledge">
+                <img src="//d3f3hlqdx4azlp.cloudfront.net/buttons/dk-quiz-button2.png" alt="Think you're smart about fat loss? Test your knowledge here!" /></a>
+        </p>
+    </div>
+    <div class="slide" id="slide-2" style="display: none;">
+        <div class="left">
+            <a href="http://www.beyonddiet.com/Members/Recipes/Spagetti-Squash-with-Basil--Parsley?token=nW8BOwHrnI">
+                <img class="css-thumbnail" width="250" style="margin-top: 100px; margin-left: 30px;"
+                    src="http://pics.prod.beyonddiet.com/recipes/24589-001-original.jpg" alt="Spaghetti Squash with Basil & Parsley" /></a></div>
+        <div class="left" style="width: 390px; padding: 20px;">
+            <h3 class="large-tm" style="font-size: 22px;">
+                Beyond Diet's Recipe of the Week</h3>
+            <h3 class="medium-tm">
+                <b><a href="http://www.beyonddiet.com/Members/Recipes/Spagetti-Squash-with-Basil--Parsley?token=nW8BOwHrnI">
+                    Spaghetti Squash with Basil & Parsley</a></b></h3>
+            <p class="recipe-slide-text" style="width:347px;">
+            This is like a salad, very refreshing, perfect for those warmer days in Autumn... easy to make, even if a bit messy!
+            </p>
+            <p>
+                Submitted by Kathy
+                <img id="uploadImage" width="65" src="http://pics.prod.beyonddiet.com/profiles/Katarenka-001-image.jpg"
+                    alt="Kathy"></p>
+            <p style="font-size: 14px;">
+                Each week, Isabel will select the best of her approved recipes from the Beyond Diet
+                community to share here.</p>
+        </div>
+    </div>
+    <div class="slide" id="slide-3" style="display: none;">
+        <h3>
+            Our goal is to help
+            <br />
+            <b>1 million+</b><br />
+            families live healthier.</h3>
+        <p class="left">
+            You may not know me yet, but hopefully you soon will. This picture is me with my
+            wonderful family...hubbie, kids, and parents. Why am I sharing this personal picture
+            with you? Because the nutrition information I am excited to share with you today,
+            literally changed the lives of my entire family.
+        </p>
+        <a href="/bd/pages/families" id="greens-find-out"></a>
+    </div>
+    <div class="title-container">
+        <div class="slide-title left active-title" id="slideTitle-1" style="height: 45px;">
+            Stop Counting Calories</div>
+        <div class="slider-title-seperator" id="seperate1">
+        </div>
+        <div class="slide-title left" id="slideTitle-2">
+            Recipe of the Week</div>
+        <div class="slider-title-seperator" id="seperate2">
+        </div>
+        <div class="slide-title left" id="slideTitle-3">
+            Helping 1,000,000+ Families
+            <br />
+            Live Healthier</div>
+    </div>
+    <div class="button-container">
+        <div class="animateButton active" id="button-1">
+        </div>
+        <div class="animateButton" id="button-2">
+        </div>
+        <div class="animateButton" id="button-3">
+        </div>
+    </div>
+</div>
+
+
+
+    <div id="main" class="container_12">
+
+        
+        
+    <div id="content_top" class="rightColumnSmall grid_12">
+    
+    </div>
+
+    <div id="content" class="rightColumnSmall">
+        <div id="nonmembers_shadow"></div>
+        <div id="content_shift">
+            <!-- shifts top margin up into the content_top div -->           
+            <div id="left_pane" class="two-col-left">
+
+                
+
+    <div id="lower-content">
+
+        <div id="HotMix">
+            <h2>
+                What's Happening on Beyond Diet</h2>
+
+            <p class="disclaimer">
+                * All items and claims expressed by users of Beyond Diet only reflect their own
+                specific results, may not be typical, and are not guaranteed. We are very proud
+                of what Beyond Diet has done for many people and we hope you are too.</p>
+
+            
+
+<div class="clear">
+</div>
+
+<div class="content_divide_blue_small">
+</div>
+
+<div class="post">
+    
+
+    <div class="thumbnail">
+        <a href="/Members/Ask/Milk-and-I-dont-get-along-Since-prograde-protein-is-whey-will-it-give-me-a">
+            <img src="http://pics.prod.beyonddiet.com/profiles/bf-001-thumb.jpg" alt="Milk and I don&#39;t get along! Since prograde protein is whey, will it give me a problem?" /></a>
+    </div>
+
+    
+
+    <div>
+        <span class="qa-icon left"></span><span class="category left">
+            <a class="category" href="/Members/Ask">Ask a Question</a>&nbsp;|&nbsp;</span>
+        
+              <span class="date">&nbsp;|&nbsp;
+                7 hours
+                ago</span>
+    </div>
+
+    <h3>
+        <a href="/Members/Ask/Milk-and-I-dont-get-along-Since-prograde-protein-is-whey-will-it-give-me-a">Milk and I don&#39;t get along! Since prograde protein is whey, will it give me a problem?</a></h3>
+
+    <div class="clear-right">
+    </div>
+
+    <p>
+        <span class="left">From&nbsp;
+            Betty
+            &nbsp;|&nbsp;</span>
+        
+        <span class="qa-nocheck">2
+        Answers
+        </span>
+        
+    </p>
+
+</div>
+
+
+<div class="clear">
+</div>
+
+<div class="content_divide_blue_small">
+</div>
+
+<div class="post">
+    
+
+    <div class="thumbnail">
+        <a href="/Members/Ask/HELP-How-do-I-go-about-eating-this-much-food-and-manage-to-not-go-over-my">
+            <img src="http://pics.prod.beyonddiet.com/profiles/kasteele-003-thumb.jpg" alt="HELP! How do I go about eating this much food and manage to not go over my calorie intake for the" /></a>
+    </div>
+
+    
+
+    <div>
+        <span class="qa-icon left"></span><span class="category left">
+            <a class="category" href="/Members/Ask">Ask a Question</a>&nbsp;|&nbsp;</span>
+        
+              <span class="date">&nbsp;|&nbsp;
+                10 hours
+                ago</span>
+    </div>
+
+    <h3>
+        <a href="/Members/Ask/HELP-How-do-I-go-about-eating-this-much-food-and-manage-to-not-go-over-my">HELP! How do I go about eating this much food and manage to not go over my calorie intake for the day?</a></h3>
+
+    <div class="clear-right">
+    </div>
+
+    <p>
+        <span class="left">From&nbsp;
+            Kat
+            &nbsp;|&nbsp;</span>
+        
+        <span class="qa-nocheck">1
+        Answer
+        </span>
+        
+    </p>
+
+</div>
+
+
+<div class="post">
+    
+
+    <div>
+        <span class="date left">
+            1 day
+            ago </span>
+        
+    </div>
+    <br />
+    <h3>
+        
+        <a href="http://go.beyonddiet.com/Its-Test-Kitchen-Tuesday">
+            It&#39;s Test Kitchen Tuesday!</a>
+        
+    </h3>
+
+    <p>
+        Another Tuesday and another Beyond Diet Test Kitchen! This week&#39;s lunch consists of Apple Chicken Sausage Patties (from Kayleigh) and Cucumber Salad/Slaw (from Barbara). You can check out each week&#39;s recipes in the BD Test Kitchen section of Recipes :)</p>
+
+    
+
+    <p>
+        <a href="http://go.beyonddiet.com/Its-Test-Kitchen-Tuesday">More inside Beyond Diet...</a></p>
+
+    
+</div>
+
+
+
+
+<div class="content_divide_blue_small clear-both"></div>
+<div class="post">
+    
+
+    <div>
+        <span class="category left">
+        <span class="recipe-icon left"></span>
+            <a class="category" href="/Members/Recipes">Recipes</a>
+            &nbsp;|&nbsp; </span><span class="num-comments left">
+                
+<a href="/Members/Recipes/Stuffed-Potato-Boats#disqus_thread" data-disqus-identifier="recipe-Stuffed-Potato-Boats">
+</a>
+                &nbsp;|&nbsp;</span> <span class="date">
+                    1 day
+                    ago</span>
+    </div>
+
+    <h3>
+        <a href="/Members/Recipes/Stuffed-Potato-Boats">Stuffed Baked *Potato Boats*</a>
+    </h3>
+
+    <p>
+        This makes 12 *boats* (stuffed potato skins). My kids and husband always want 2 each and I love to freeze them for another time, too!  So delicious and Hubby &amp; Kid tested &amp; Loved always! :) My kids...</p>
+
+    <p>
+        <a href="/Members/Recipes/Stuffed-Potato-Boats">More inside Beyond Diet...</a>
+    </p>
+
+</div>
+
+
+
+
+<div class="content_divide_blue_small clear-both"></div>
+<div class="post">
+    
+
+    <div class="thumbnail">
+        <a href="/Members/Recipes/CUCUMBER-SALAD">
+            <img src="http://pics.prod.beyonddiet.com/recipes/25984-001-thumb.jpg" alt="CUCUMBER SALAD" /></a>
+    </div>
+
+    
+
+    <div>
+        <span class="category left">
+        <span class="recipe-icon left"></span>
+            <a class="category" href="/Members/Recipes">Recipes</a>
+            &nbsp;|&nbsp; </span><span class="num-comments left">
+                
+<a href="/Members/Recipes/CUCUMBER-SALAD#disqus_thread" data-disqus-identifier="recipe-CUCUMBER-SALAD">
+</a>
+                &nbsp;|&nbsp;</span> <span class="date">
+                    3 days
+                    ago</span>
+    </div>
+
+    <h3>
+        <a href="/Members/Recipes/CUCUMBER-SALAD">CUCUMBER SALAD</a>
+    </h3>
+
+    <p>
+        This is a nice snack that is flavorful and great to eat in the spring or summer to go along with dinner or a lunch snack. Vinegar shrinks the tummy and cucumbers are full of vitamins.  Just one...</p>
+
+    <p>
+        <a href="/Members/Recipes/CUCUMBER-SALAD">More inside Beyond Diet...</a>
+    </p>
+
+</div>
+
+
+
+
+<div class="content_divide_blue_small clear-both"></div>
+<div class="post">
+    
+
+    <div class="thumbnail">
+        <a href="/Members/Recipes/Eggs-Florentine-by-Vi">
+            <img src="http://pics.prod.beyonddiet.com/recipes/25893-001-thumb.jpg" alt="Eggs Florentine by Vi" /></a>
+    </div>
+
+    
+
+    <div>
+        <span class="category left">
+        <span class="recipe-icon left"></span>
+            <a class="category" href="/Members/Recipes">Recipes</a>
+            &nbsp;|&nbsp; </span><span class="num-comments left">
+                
+<a href="/Members/Recipes/Eggs-Florentine-by-Vi#disqus_thread" data-disqus-identifier="recipe-Eggs-Florentine-by-Vi">
+</a>
+                &nbsp;|&nbsp;</span> <span class="date">
+                    4 days
+                    ago</span>
+    </div>
+
+    <h3>
+        <a href="/Members/Recipes/Eggs-Florentine-by-Vi">Eggs Florentine by Vi</a>
+    </h3>
+
+    <p>
+        A delicious way to have your Veggie for Breakfast (or whenever)</p>
+
+    <p>
+        <a href="/Members/Recipes/Eggs-Florentine-by-Vi">More inside Beyond Diet...</a>
+    </p>
+
+</div>
+
+
+
+
+<script type="text/javascript">
+
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'beyond-diet';
+    var disqus_developer = 0;
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    } ());
+
+</script>
+
+
+        </div>
+
+        <h2>
+            What is Beyond Diet About?</h2>
+
+        <div class="content_divide_blue_small clear-both">
+        </div>
+
+        <ul class="home-about">
+            <li>
+                <img class="css-thumbnail" src="https://s3.amazonaws.com/beyonddiet/images/hp-about-asking.png"
+                    alt="Asking Questions" title="Asking Questions" />
+                <h4>
+                    <a href="/Members/Ask">Asking Questions</a></h4>
+
+                <p>
+                    Need a little clarification? Worried that you might be eating something that will
+                    unravel all your efforts? This is the place to ask those questions. We're all here
+                    to help and we've created a quick and easy place to get that help. Whether it’s
+                    me, one of our coaches, or someone else a little more familiar with the program;
+                    someone will have the answer you are looking for.</p>
+
+            </li>
+            <li>
+                <img class="css-thumbnail" src="https://s3.amazonaws.com/beyonddiet/images/hp-about-sharing.png"
+                    alt="Sharing" title="Sharing" />
+                <h4>
+                    <a href="/Members/Stories">Sharing</a></h4>
+
+                <p>
+                    If you've ever needed a little support from someone in a moment of frustration or
+                    you are so excited about your accomplishments you just have to tell someone...this
+                    is the place! Share anything and everything and get instant feedback from others
+                    on the same journey you're on.</p>
+
+            </li>
+            <li class="clear-both">
+                <img class="css-thumbnail" src="https://s3.amazonaws.com/beyonddiet/images/hp-about-recipe.png"
+                    alt="Recipes" title="Recipes" />
+                <h4>
+                    <a href="/Members/Recipes">Recipes</a></h4>
+
+                <p>
+                    Here are some of my very favorite and extremely delicious recipes that you can prepare
+                    in your own home. The best part is they are simple and basic, yet delicious and
+                    creative (I definitely don’t have hours to spend in the kitchen and I'm guessing
+                    you don't either).</p>
+
+            </li>
+            <li>
+                <img class="css-thumbnail" src="https://s3.amazonaws.com/beyonddiet/images/hp-about-tools.png"
+                    alt="Useful Tools" title="Useful Tools" />
+                <h4>
+                    <a href="/Members/Tools">Useful Tools</a></h4>
+
+                <p>
+                    These tools were specifically designed to help you reach your fat loss goals. Everything
+                    from figuring out your specific metabolism to how many servings of carbs, fat, and
+                    protein you consume each day. It's our goal to make your life surrounding food easier
+                    and these tools will do just that.
+                </p>
+
+            </li>
+        </ul>
+        
+    </div>
+
+
+
+            </div>
+            <div id="right_pane" class="two-col-right">
+            
+                
+
+    <div id="home-right">
+
+        <div id="home-stats" class="box">
+            
+
+<h4>Community Stats</h4>
+<div class="boxSeparator">
+    <img src="http://d6jtqbvif6eld.cloudfront.net/images/content_divide_grey.png" alt="">   
+</div>
+   <p><span class="count stats inactive-link" id="Users"></span> MEMBERS</p>
+    <p><span class="count stats inactive-link" id="AskQuestionSelectedAnswers"></span> QUESTIONS ANSWERED</p>
+
+
+        </div>
+
+        
+
+<div class="box newsletter-signup">
+    <h4 class="sidebar-newsletter">
+        Get the FREE Newsletter</h4>
+
+    <div class="boxSeparator">
+        <img src="http://d6jtqbvif6eld.cloudfront.net/images/content_divide_grey.png" alt="">
+    </div>
+
+    <p class="hp-text">
+        Recipes, Health & Diet Info and Great Health Advice</p>
+
+    
+
+<div id="ESForm">
+    <form action="/BD/EmailSequence/SubmitEmail" method="post" onclick="Sys.Mvc.AsyncForm.handleClick(this, new Sys.UI.DomEvent(event));" onsubmit="Sys.Mvc.AsyncForm.handleSubmit(this, new Sys.UI.DomEvent(event), { insertionMode: Sys.Mvc.InsertionMode.replace, loadingElementId: &#39;ESLoading&#39;, updateTargetId: &#39;ESResponse&#39;, onBegin: Function.createDelegate(this, ESValidate), onFailure: Function.createDelegate(this, ESError), onSuccess: Function.createDelegate(this, ESSubmitted) });"><input id="ESEmail" name="ESEmail" title="Enter Email" type="text" value="" />
+    <input id="ESFood" name="ESFood" type="hidden" />
+    <input id="ESTag" name="ESTag" type="hidden" />
+    <input id="ESVTag" name="ESVTag" type="hidden" />
+    <input id="ESHost" name="ESHost" type="hidden" value="www.beyonddiet.com" />
+    <input id="ESPage" name="ESPage" type="hidden" value="/BD" />
+    <input id="ESReferrer" name="ESReferrer" type="hidden" value="" />
+    <input id="ESSequence" name="ESSequence" type="hidden" value="Beyond Diet E-Course Newsletter" />
+    <input id="ESTags" name="ESTags" type="hidden" value="Subscribers" />
+    <input id="ESFormLocation" name="ESFormLocation" type="hidden" value="Sidebar" />
+    <input id="ESSubmit" type="submit" value="Sign Up" class="button" />
+    
+    <span id="ESLoading" class="loading" style="display: none">&nbsp; </span>
+
+    <div id="ESResponse" class="red clear-left" style="display: none;">
+    </div>
+    <div class="clear"></div>
+
+    </form>
+</div>
+
+    <div class="clear"></div>
+    <p class="hp-text">
+        <span>We respect your privacy 100% - your email address will only be used to receive
+            our information-rich newsletter.</span></p>
+
+</div>
+
+
+
+        <div id="recipeRotator" class="box rotater" style="">
+        </div>
+
+        
+        <a class="fancybox take-tour smaller-bm" href="#take-tour-lightbox"></a>
+
+        <div style="display: none">
+
+            <div id="take-tour-lightbox" style="text-align: center; width: 660px; height: 420px;">
+
+                <div id="FullControls_wrapper" style="position: relative; width: 640px; height: 400px;">
+                    <object type="application/x-shockwave-flash" data="/areas/members/scripts/jwplayer/player.swf"
+                        width="100%" height="100%" bgcolor="#000000" id="FullControls" name="FullControls"
+                        tabindex="0">
+                    </object>
+                </div>
+
+                <div id="replay" class="center large-tm large-bm orange" style="display: none;">
+                    Replay This Video &raquo;</div>
+
+                <div class="clear-both">
+                </div>
+
+                <div id="close-video" class="center large-tm large-bm orange" style="display: none">
+                    Close Video &raquo;</div>
+
+                <div class="clear-both">
+                </div>
+
+                <a href="/bd/pages/joinnow">
+
+                    <div id="join" class="center large-tm large-bm orange" style="display: none;">
+                        Join Now &raquo;</div>
+
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="content_bottom" class="rightColumnSmall grid_12">
+    </div>
+
+
+
+        <div id="site_menu">
+
+            
+    
+    
+<p>
+    <a href="/BD">Home</a> | <a href="/Members/Tools">
+        Tools</a> | <a href="/Members/Stories">
+            Share</a> | <a href="/Members/Ask">
+                Ask</a> | <a href="/Members/Recipes">
+                    Recipes</a> | <a href="/Members/Categories/Shopping-List">
+                        Shopping</a> |
+    <a href="/BD/Home/Contact">Contact</a>
+    |
+    <a href="/BD/Pages/FAQ">FAQ</a>
+    | <a href='http://go.beyonddiet.com/SpecialServices'>Special Services</a> <span id="additionalFooter">
+    </span>
+    <div class="mboxDefault">
+    </div>
+    <script type="text/javascript">        mboxCreate('BD-Footer-Link');</script>
+</p>
+<p>
+    <a href="/Members/Categories/Fat-Burning-Foods">
+        Fat Burning Foods</a> | <a href="/Members/Categories/Fat-Loss">
+            Fat Loss</a> | <a href="/Members/Categories/Health-Concerns">
+                Health Concerns</a> | <a href="/Members/Categories/Lifestyle">
+                    Lifestyle</a> | <a href="/Members/Categories/Motivation">
+                        Motivation</a> | <a href="/Members/Categories/Supplements">
+                            Supplements</a> | <a href="/Members/Categories/Workouts">
+                                Workouts</a>
+</p>
+<p>
+    <a href="/BD/Pages/AboutUs">About Us</a>
+    |
+    <a href="/Members/Pages/HealthDisclaimer">Health Disclaimer</a>
+    |
+    <a href="/Members/Pages/PrivacyPolicy">Privacy Policy</a>
+    |
+    <a href="/Members/Pages/TermsConditions">Terms &amp; Conditions</a>
+    |
+    
+    <a href="/Members/Pages/Resources">Resources</a>
+    |
+    <a href="/Members/Pages/AboutIsabel">About Isabel</a>
+</p>
+<p id="legal">
+    &copy;
+    2012
+    Live Smart Solutions, Inc.
+</p>
+
+
+
+        </div>
+
+    </div>
+
+    
+
+    
+    <!-- Start Quantcast Tag -->
+
+    <script type="text/javascript">
+        _qoptions = { qacct: "p-84XbZlmxeKCBM", labels: "_fp.event.Beyond Diet Homepage" };
+    </script>
+
+    <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+
+    <noscript>
+        <img src="http://pixel.quantserve.com/pixel/p-84XbZlmxeKCBM.gif?labels=_fp.event.Beyond+Diet+Homepage"
+            style="display: none;" border="0" height="1" width="1" alt="Quantcast" />
+    </noscript>
+    <!-- End Quantcast tag -->
+
+
+    
+
+<!-- ChartBeat -->
+<script type="text/javascript">
+    var _sf_async_config = { uid: 21447, domain: "beyonddiet.com", path: window.location.pathname };
+    (function () {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function () { oldonload(); loadChartbeat(); };
+    })();
+
+</script>
+
+</body>
+</html>

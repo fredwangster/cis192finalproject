@@ -1,0 +1,1538 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta http-equiv="content-Language" content="en_us" />
+    <meta name="keywords" content="index keywords" />
+    <meta name="description" content="index description" />
+    <meta name="version" content="1.1.4-3192" />
+    <meta name="verify-v1" content="" />
+        <!-- Disable MSSmartTags -->
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+	        	<link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/design/templates/orient/root/css/screen_blue/header.css" media="screen" title="screen_blue" />
+	<link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/design/templates/orient/root/css/screen_blue/footer.css" media="screen" title="screen_blue" />
+	<link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/design/templates/orient/root/css/screen_blue/form.css" media="screen" title="screen_blue" />
+	<link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/design/templates/orient/root/css/screen_blue/layout.css" media="screen" title="screen_blue" />
+	<link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/design/templates/orient/root/css/screen_blue/general.css" media="screen" title="screen_blue" />
+	<link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/design/templates/orient/root/css/screen_blue/include.css" media="screen" title="screen_blue" />
+                        <link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/video/design/templates/orient/root/css/screen_blue/general.css" media="screen" title="screen_blue" />
+            <link rel="stylesheet" type="text/css" href="http://revolutionarypolitics.tv/video/design/templates/orient/root/css/screen_blue/include.css" media="screen" title="screen_blue" />
+                                            	<link rel="shortcut icon" href="http://revolutionarypolitics.tv/design/templates/orient/favicon.ico" type="image/x-icon" />
+    <!-- for link bar -->
+    <link rel="Home"     href="http://revolutionarypolitics.tv/" title="Home page" />
+    <link rel="Index"    href="http://revolutionarypolitics.tv/" title="Index" />
+    <link rel="search"   href="#" title="Search this site" />
+    <link rel="contents" href="#" title="Site map" />
+    <link rel="copyright" href="http://revolutionarypolitics.tv/staticPage.php?pg=copyright" title="Copyright information" />
+    <link rel="author"   href="http://revolutionarypolitics.tv/staticPage.php?pg=author" title="Author information" />
+    <script type="text/javascript">var JS_LANG = new Array();JS_LANG['talk_err_tip_compulsory'] = 'Required';</script>
+    <script type="text/javascript">
+   	var LANG_STATUS_ERROR_MSG = 'Enter alpha numeric characters only';
+   	var status_string_length = '10';
+   	var status_string_total_length = '10';
+	var cfg_site_url = 'http://revolutionarypolitics.tv/';
+	var LANG_LOADING = 'Loading';
+	var LANG_OR = 'or';
+	var LANG_CLOSE = 'Close';
+	var LANG_CANCEL = 'Cancel';
+	var FLAG_SUCCESS = 'Cancel';
+	var template_default = 'orient';
+	var stylesheet_screen_default = 'screen_blue';
+	var LANG_NEW_STATUS = '~New Status~';
+	var LANG_SETTINGS = 'Settings';
+	var LANG_LOGOUT = 'Logout';
+    var MY_PROFILE_URL = 'http://revolutionarypolitics.tv/members/myProfile.php';
+	var LANG_MY_PROFILE = 'My Profile';
+	var PROFILE_BASIC_URL = 'http://revolutionarypolitics.tv/members/profileBasic.php';
+	var LANG_PROFILE_BASIC = 'Edit Profile';
+	var MY_VIDEOS_URL = 'http://revolutionarypolitics.tv/video/videoList.php?pg=myvideos';
+	var LANG_MY_VIDEOS = 'My Videos';
+	var LANG_JS_REQUIRED = 'This is a required field.';
+	var LANG_JS_NUMBER = 'Please enter a valid number in this field.';
+	var LANG_JS_DIGITS = 'Please use numbers only in this field. Avoid spaces or other characters such as dots or commas.';
+	var LANG_JS_ALPHA = 'Please use letters only (a-z) in this field.';
+	var LANG_JS_ALPHANUM = 'Please use only letters (a-z) or numbers (0-9) only in this field. No spaces or other characters are allowed.';
+	var LANG_JS_DATE = 'Please enter a valid date.';
+	var LANG_JS_EMAIL = 'Please enter a valid email address. For example fred@domain.com .';
+	var LANG_JS_URL = 'Please enter a valid URL.';
+	var LANG_JS_DATEAU = 'Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.';
+	var LANG_JS_CURRENCY_DOLLAR = 'Please enter a valid amount.';
+	var LANG_JS_SELECTION = 'Please make a selection';
+	var LANG_JS_ONE_REQUIRED = 'Please select one of the above options.';
+	var LANG_JS_SUBSCRIBE = 'Subscribe';
+	var LANG_JS_UNSUBSCRIBE = 'Un Subscribe';
+	var member_manipulation_url = 'http://revolutionarypolitics.tv/members/memberHandling.php';
+		var menu_channel_left_position = -1;
+	var menu_channel_top_position = 38;
+	var menu_more_left_position = -1;
+	var menu_more_top_position = 38;
+	var search_header_left_pos = -96;
+	var search_header_top_pos = 25;
+	var search_footer_left_pos = -10;
+	var search_footer_top_pos = 28;
+	</script>
+				
+    				<script type="text/javascript">
+					var search_tag_text= 'Search';
+					function chooseSearchSelect(type, search_position)
+						{
+							var search_tag_text='Search';
+							tag_value=$('searchTags_'+search_position).value;
+							tag_value = escape(tag_value);
+							search_tag_text=escape(search_tag_text);
+							if(search_tag_text==tag_value)
+							    {
+									$('searchTags_'+search_position).focus();
+								  	return false;
+								}
+			  			   if(type == 'video')
+										search_page_location = 'http://revolutionarypolitics.tv/video/videoList.php?pg=videonew&tags='+tag_value;if(type == 'general')
+										search_page_location = 'http://revolutionarypolitics.tv/membersList.php?tags='+tag_value;if(search_page_location)
+							   window.location = search_page_location;						}
+				</script>
+				
+    <script type="text/javascript">var siteUserId='0'; var siteUrl='http://revolutionarypolitics.tv/';var pageId='index';var status_all='';
+	var show_shortcuts='http://revolutionarypolitics.tv/myProfile.php***!!!***My Profile#*~*#http://revolutionarypolitics.tv/members/profileBasic.php***!!!***Edit Profile';
+	 </script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/jquery.js"></script>
+      <script type="text/javascript">
+		//Initialize Jquery in $Jq variable
+		var $Jq = jQuery.noConflict();
+	</script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/prototype.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/scriptaculous.js?load=effects,controls,slider"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/effects.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/controls.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/slider.js"></script>
+	      <script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/event-selectors.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/functions.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/script.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/effects.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/online.js"></script>
+	<script type="text/javascript" src="http://revolutionarypolitics.tv/js/menu.js"></script>
+		
+
+    <script type="text/javascript">
+        statusSettingUrl = 'http://revolutionarypolitics.tv/profileSettings.php';
+        logoutUrl = 'http://revolutionarypolitics.tv/logout.php';
+
+                
+        function blockError(){ return true; }
+        window.onerror = blockError;
+		
+            </script>
+    <script type="text/javascript"	src="http://revolutionarypolitics.tv/js/memberStatus.js"></script>
+            <script type="text/javascript" src="http://revolutionarypolitics.tv/js/navigationBar.js"></script>
+    
+ <script type="text/javascript">
+	onlineTimer = setInterval('logInUser()', 10000);
+	curStatus = '';
+</script>
+<title>Revolutionary Politics::index title</title>
+</head>
+
+<body onload="logInUser();" onunload="logOutUser()">
+    
+
+
+<div class="clsBodyBackground">
+   		<div id="index" class="clsBodyContent">
+		<div id="selPageBody">
+	<div id="hideScreen" style="z-index: 100; display: none;" class="VeilStyle1c">&nbsp;</div>
+	<a href="#" id="alertHyperLink"></a>
+	<div id="selAlertbox" class="clsMsgAlert" style="display:none;position:absolute;">
+	<p id="selAlertMessage"></p>
+	<form name="formAlertBox" id="formAlertBox">
+    	<input type="button" class="clsSubmitButton" name="selAlertOkButton" id="selAlertOkButton" value="Ok" onClick="return hideAllBlocks();" />
+	</form>
+	</div>
+	<!-- Accessibility Links -->
+    <div id="top">
+      <ul>
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#selSubHeader">Skip to Navigation Links</a></li>
+        <li><a href="#footer">Skip to Footer</a></li>
+      </ul>
+    </div>
+	<!-- Header -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3902896-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<iframe name="facebook_logout" id="facebook_logout" style="display:none"></iframe>
+<script type="text/javascript">
+var loader_image = '<div class="clsLoader"><img src="http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/loader.gif" alt="Loading"/>Loading</div>';
+var subscription_loader_image = '<div class=""><img src="http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/loader.gif" alt="Loading"/></div>';
+
+</script>
+<div id="header">
+    	<h1><a href="http://revolutionarypolitics.tv/" title="Browse to homepage">RevolutionaryPolitics.tv</a></h1>
+      <div class="clsHeaderContents">
+        <div id="selTopHeaderLinks">
+          <div id="selWelcomeLinks">
+            <div id="selLeftTopHeaderLinks">
+              <div id="selTopHeaderCurve">
+                <div id="selMiddleTopHeaderLinks">
+                            <!-- Top header menu Begins -->
+                          		<ul class="clsTopWelcomeLinks">
+	<li><a class=" clsInActiveLink" href="http://revolutionarypolitics.tv/video/index.php">Home</a></li>
+		
+                 		<li class=""><a href="http://revolutionarypolitics.tv/login.php">Login</a></li>
+                    		<li class="clsNoBorder"><a class="" href="http://revolutionarypolitics.tv/signup.php">Signup</a></li>
+          </ul>
+                            <!-- End of Top header menu -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clsTopHeader">
+          <div id="selBanner" class="clsHeaderBanner">
+      		    	</div>
+          <div id="selRightHeader" class="clsRightHeader"> 
+          
+             <div class="clsOverflow">
+                
+                <!-- End of Stylesheet switcher -->
+                <div id="selStyle" lang="en" class="clsLangSwitcher">
+   <!-- -->
+</div>
+
+                <!-- End of Stylesheet switcher -->    
+                     
+                <!-- start of Multi-language support -->
+                
+                <!-- End of Multi-language support -->
+                
+            </div>
+
+			    <div id="selFormCommonSearch" class="">
+        <form name="formCommonSearch" id="formCommonSearch" method="post" action="http://revolutionarypolitics.tv/video/videoList.php?pg=videonew&tags=" >
+            <table align="right" class="clsTopSearchtable">
+                <tr>
+                    <td>
+                        <div class="clsSearchBoxBg"><input type="text" class="clsSearchTextBox" name="tags" id="searchTags_header" value="Search" tabindex="1000" />                    
+                        </div>
+                    </td>
+                    <td>
+                        <div class="clsTopGreyButtonLeft"><div class="clsTopGreyButtonRight"><div class="clsSearchModules">
+                            <ul>
+                                <li>
+									<a id="headerSearchSubmit" onmouseover="displaySearchModule('header')">Search</a>                                    
+                                </li>
+                            </ul>
+                        </div></div></div>
+                    </td>
+                </tr>
+            </table>                        
+        </form>
+    </div>
+
+            
+			<!-- Top Login Form Begins -->
+            	      	<!-- End of Top Login Form -->
+
+    	</div>
+        </div>
+      </div>
+    </div>  
+
+<!-- Start of Main Menu -->
+<div class="clsMainMenuMiddle">
+    <div class="clsMainMenuLeft">
+        <div class="clsMainMenuRight">
+            <div id="selNavigation" class="clsMainMenu">
+                <div id="selNavigationContent">
+                    <div id="selSubHeader">
+                        <h3>Sub Navigation Links</h3>
+                        <div id="selNav">
+                            <ul class="clsMenu">
+		                	                                                                      	                                    <li class=" clsFirstNav" id="menu_home"><a href="http://revolutionarypolitics.tv/index.php" ><span>Home</span></a></li>
+                                    		                                                                                            	                                    <li class="" id="menu_members"><a href="http://" ><span>Members</span></a></li>
+                                    		                                                                                            	                                    <li class="" id="menu_video_list"><a href="http://revolutionarypolitics.tv/video/videoList.php?pg=newvideo" ><span>Video List</span></a></li>
+                                    		                                                                                            	                                    <li class="" id="menu_mail"><a href="http://revolutionarypolitics.tv/members/mail.php?folder=inbox" ><span>Mail</span></a></li>
+                                    		                                                        						                                  
+                                    <li id="menu_empty" class="clsNoBorderBackground">&nbsp;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                            <div class="clsUploadButton">
+                    <a href="http://revolutionarypolitics.tv/video/members/videoUploadPopUp.php"><span>Upload</span></a>
+                </div>
+                    </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+Event.observe(window, 'load', function() {
+var menuLi=$$('.clsMenu li');
+menuLi.each(function (li)
+{
+	Event.observe(li,'mouseover',function()
+	{
+	li.addClassName('clsHoverMenu');
+	});
+	Event.observe(li,'mouseout',function()
+	{
+	li.removeClassName('clsHoverMenu');
+	});
+});
+
+
+	listen('mouseover', $('menu_home'), function()
+		
+		{
+		
+						
+		}
+
+	);
+	listen('mouseover', $('menu_members'), function()
+		
+		{
+		
+						
+		}
+
+	);
+	listen('mouseover', $('menu_video_list'), function()
+		
+		{
+		
+						
+		}
+
+	);
+	listen('mouseover', $('menu_mail'), function()
+		
+		{
+		
+						
+		}
+
+	);
+
+});
+
+
+function openPopupWindow(url){
+  window.open (url, "","status=0,toolbar=0,resizable=1,scrollbars=1");
+ }
+
+</script>
+<!-- end of Main Menu -->
+<div class="clsSideBarMainContainer">
+    
+<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/jquery/jcarousel/jquery.jcarousel.js"></script>
+<!--SIDEBAR-->
+
+  	<div class="sideBar1">
+
+
+
+            
+<div class="clsSideBarMargin">
+ <div class="lbsidebar">
+  <div class="rbsidebar">
+   <div class="bbsidebar">
+    <div class="blcsidebar">
+     <div class="brcsidebar">
+      <div class="tbsidebar">
+       <div class="tlcsidebar">
+        <div class="trcsidebar">                                                                                                                                                                                                                        
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                  <div class="clsSideBarLinks clsSideBarLoginContent" id="selSideBarLogin">
+    <div class="clsSideBar clsSideBarRight">
+    	<p class="clsSideBarLeftTitle">Login</p>
+        <form id="formIndexLogin" name="formIndexLogin" method="post" action="http://revolutionarypolitics.tv/login.php">
+        	<table class="clsSideLogin">
+            	<tr>
+                    <td class="clsUsernameWidth"><label for="login_user_name">Username:</label></td>
+                    <td><div class="clsSideLoginTextFieldBg"><input type="text" class="clsSideLoginTextField" name="user_name" value="" id="login_user_name" size="10" tabindex="1005" maxlength="25" /></div><div class="clsSideLoginUserName"></div></td>
+                </tr>
+                <tr>
+                    <td><label for="login_password">Password: </label></td>
+                    <td><div class="clsSideLoginTextFieldBg"><input type="password" class="clsSideLoginTextField" name="password" value="" id="login_password" size="10" tabindex="1010" maxlength="20" /></div><div class="clsSideLoginPassword"></div></td>
+                </tr>
+                <tr>
+                	<td><!-- --></td>
+                    <td><input type="checkbox" class="" name="remember" id="remember" value="1"  tabindex="1015"/> <label for="remember">Remember me</label>
+                    </td>
+                </tr>
+                <tr>
+                	<td><!-- --></td>
+                    <td class="clsLoginButton"><p class="clsButton1"><span><input type="submit" class="clsPointer" name="login_submit" id="login_submit" value="Login" /></span></p>
+                    <p><a id="selForgotPwd" href="http://revolutionarypolitics.tv/forgotPassword.php">Forgot Password?</a></p>
+                        </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+</div>                                                                                                                                                                                                                        
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                  
+
+
+
+            <div class="clsSideBarBanner">
+
+                              
+            </div>
+
+            
+            <!--<div class="clsSideBarMargin">
+ <div class="lbsidebar">
+  <div class="rbsidebar">
+   <div class="bbsidebar">
+    <div class="blcsidebar">
+     <div class="brcsidebar">
+      <div class="tbsidebar">
+       <div class="tlcsidebar">
+        <div class="trcsidebar">                                                                                                                                                                                                                        
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                  <div class="clsSideBarLinks">
+	<div class="clsSideBar">
+    	<div>
+			<p class="clsSideBarLeftTitle">Site Statistics</p>
+		</div>
+		<div class="clsSideBarRight">
+			<div class="clsSideBarContent">
+				<ul class="clsSiteStatistics">                        
+  									<li class="clsTotalMembers">
+                        		<span class="clsStatsTitle">Total Members:</span>
+		                        <span class="clsStatsInfo"><a href="http://revolutionarypolitics.tv/membersList.php">1630</a></span>
+                    		</li>
+			   						<li class="clsTotalvideo">
+                        		<span class="clsStatsTitle">Total Videos:</span>
+		                        <span class="clsStatsInfo"><a href="http://revolutionarypolitics.tv/video/videoList.php?pg=videonew">10341</a></span>
+                    		</li>
+			   						<li class="clsvideoStats">
+                        		<span class="clsStatsTitle">Total Video Views:</span>
+		                        <span class="clsStatsInfo">14040899</span>
+                    		</li>
+			   	                                
+				</ul>
+			</div>
+       </div>
+    </div>
+</div>
+</div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+</div>                                                                                                                                                                                                                        
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                  -->
+
+
+		
+	            		
+	<p class="clsSideBarLeftTitle clsTitleTopContributor">Top Contributors</p>
+                                                                                                  <!--cool new people video rounded corner starts -->
+        <div class="clsTopContributorSection">
+         <div class="lbtopcontributors">
+          <div class="rbtopcontributors">
+           <div class="bbtopcontributors">
+            <div class="blctopcontributors">
+             <div class="brctopcontributors">
+              <div class="tbtopcontributors">
+               <div class="tlctopcontributors">
+                <div class="trctopcontributors">
+                                                                                                                           <div class="clsSideBarLinks" >
+	<div class="clsSideBar clsTopContributorsSideBar">
+		<div class="clsSideBarRight">
+	<div class="clsSideBarContent">
+                	  <div class="clsTopContributorsNoBg">
+        	<div class="clsTopContributorsThumb">
+                <div onclick="Redirect2URL('http://revolutionarypolitics.tv/viewProfile.php?user=Liberty')"  class="clsThumbImageLink clsPointer">
+                	<div class="cls66PXthumbImage clsThumbImageOuter">
+                    <div class="clsrThumbImageMiddle">
+                        <div class="clsThumbImageInner">
+            				<img  src="http://revolutionarypolitics.tv/files/user_profile_avatar/155S.jpg" onclick="Redirect2URL('http://revolutionarypolitics.tv/viewProfile.php?user=Liberty')" />
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="clsTopContributorsThumbDetails">
+                <p class="clsTopContributorsThumbDetailsTitle">
+                    <a href="http://revolutionarypolitics.tv/viewProfile.php?user=Liberty">Liberty</a>
+                </p>
+                <p class="clsContributes">Videos:&nbsp;<span><a href="http://revolutionarypolitics.tv/video/videoList.php?pg=uservideolist&amp;user_id=155">4291</a></span></p>
+            </div>
+        </div>
+                 	  <div class="clsTopContributors">
+        	<div class="clsTopContributorsThumb">
+                <div onclick="Redirect2URL('http://revolutionarypolitics.tv/viewProfile.php?user=Bronko')"  class="clsThumbImageLink clsPointer">
+                	<div class="cls66PXthumbImage clsThumbImageOuter">
+                    <div class="clsrThumbImageMiddle">
+                        <div class="clsThumbImageInner">
+            				<img  src="http://revolutionarypolitics.tv/files/user_profile_avatar/8S.jpg" onclick="Redirect2URL('http://revolutionarypolitics.tv/viewProfile.php?user=Bronko')" />
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="clsTopContributorsThumbDetails">
+                <p class="clsTopContributorsThumbDetailsTitle">
+                    <a href="http://revolutionarypolitics.tv/viewProfile.php?user=Bronko">Bronko</a>
+                </p>
+                <p class="clsContributes">Videos:&nbsp;<span><a href="http://revolutionarypolitics.tv/video/videoList.php?pg=uservideolist&amp;user_id=8">2624</a></span></p>
+            </div>
+        </div>
+                 	  <div class="clsTopContributors">
+        	<div class="clsTopContributorsThumb">
+                <div onclick="Redirect2URL('http://revolutionarypolitics.tv/viewProfile.php?user=Revolution')"  class="clsThumbImageLink clsPointer">
+                	<div class="cls66PXthumbImage clsThumbImageOuter">
+                    <div class="clsrThumbImageMiddle">
+                        <div class="clsThumbImageInner">
+            				<img  src="http://revolutionarypolitics.tv/files/user_profile_avatar/1076S.jpg" onclick="Redirect2URL('http://revolutionarypolitics.tv/viewProfile.php?user=Revolution')" />
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="clsTopContributorsThumbDetails">
+                <p class="clsTopContributorsThumbDetailsTitle">
+                    <a href="http://revolutionarypolitics.tv/viewProfile.php?user=Revolution">Revolution</a>
+                </p>
+                <p class="clsContributes">Videos:&nbsp;<span><a href="http://revolutionarypolitics.tv/video/videoList.php?pg=uservideolist&amp;user_id=1076">1775</a></span></p>
+            </div>
+        </div>
+                 </div>
+</div>
+	</div>
+</div>
+                                                                                                             
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+<!--cool new people video rounded corner ends -->
+                                                                                          
+
+            
+            
+
+            <div class="clsSideBarBanner">
+
+
+
+            </div>            
+
+	</div>
+
+<!--end of SIDEBAR-->
+
+
+
+<!-- Main -->
+<div id="main" class="clsMain clsMainNoBanner  clsNoAdVertisement">
+          <meta name="google-site-verification" content="uyE2WD6IQpSzcCXd5Tzyt6xGIqYVv-qA_VTjV1oL78c" />
+<!-- Header ends --><script type="text/javascript" src="http://revolutionarypolitics.tv/js/swfobject.js"></script>
+	<script language="javascript">
+		function showEffectsInnerVideos()
+			{
+				Effect.Grow('innnerVideoList_1', {duration:1, direction: 'bottom-left'});
+				Effect.Grow('innnerVideoList_2', {duration:1.3, direction: 'bottom-left'});
+				Effect.Grow('innnerVideoList_3', {duration:1.6, direction: 'bottom-left'});
+				Effect.Grow('innnerVideoList_4', {duration:1.9, direction: 'bottom-left'});
+				Effect.Grow('innnerVideoList_5', {duration:2.2, direction: 'bottom-left'});
+				Effect.Grow('innnerVideoList_6', {duration:2.5, direction: 'bottom-left'});
+			}
+	</script>
+
+<script type="text/javascript" src="http://revolutionarypolitics.tv/js/lib/scriptaculous.js?load=effects"></script>
+
+<script type="text/javascript">
+function playThisVideo(video_id,video_title)
+	{
+
+	    var url = 'http://revolutionarypolitics.tv/video/indexRandVideoXmlCode.php';
+		var pars = '?ajax_page=true&video_id='+video_id+'&page=index';
+		var path=url+pars;
+		var method_type = 'post';
+		$('random_title').innerHTML = video_title;
+		populateRandVideoRequest(path, pars, method_type);
+	}
+function populateRandVideoRequest(url, pars, method_type)
+	{
+		var myAjax = new Ajax.Request(
+							url,
+							{
+							method: method_type,
+							parameters: pars,
+							onComplete: populateRandVideoResponse
+							});
+	}
+function populateRandVideoResponse(originalRequest)
+	{
+		var data = originalRequest.responseText;
+		eval(data);
+
+	}
+
+function playThisSideBarVideo(video_id,video_title)
+	{
+
+	    var url = 'http://revolutionarypolitics.tv/video/indexRandVideoXmlCode.php';
+		var pars = '?ajax_page=true&video_id='+video_id+'&small_video=yes';
+		var path=url+pars;
+		var method_type = 'post';
+		$('random_title').innerHTML = video_title;
+		populateSideBarRandVideoRequest(path, pars, method_type);
+	}
+
+function populateSideBarRandVideoRequest(url, pars, method_type)
+	{
+		var myAjax = new Ajax.Request(
+							url,
+							{
+							method: method_type,
+							parameters: pars,
+							onComplete: populateSideBarRandVideoResponse
+							});
+	}
+
+function populateSideBarRandVideoResponse(originalRequest)
+	{
+		var data = originalRequest.responseText;
+		eval(data);
+	}
+
+</script>
+<script type="text/javascript">
+var popup_info_left_position = 0;
+var popup_info_top_position = 0;
+</script>
+<script type="text/javascript" src="http://revolutionarypolitics.tv/video/js/index.js"></script>
+<script type="text/javascript" language="javascript" src="http://revolutionarypolitics.tv/video/js/thumbHover.js">
+</script>
+<script language="javascript" type="text/javascript" src="/js/AG_ajax_html.js"></script>
+
+<!--Lastwatched video rounded corner starts -->
+         <div class="lblvvideo">
+          <div class="rblvvideo">
+           <div class="bblvvideo">
+            <div class="blclvvideo">
+             <div class="brclvvideo">
+              <div class="tblvvideo">
+               <div class="tlclvvideo">
+                <div class="trclvvideo">
+                                                                                                                                                                                                                                       
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                          <div class="clsVideoListContainer">
+            <div class="clsRandomVideosTitle">
+                <h2>Videos Being Watched Now</h2>
+            </div>
+            <div class="clsRandomVideosList">
+            	<table>
+                  <tr>
+                    <td>
+                    	<div class="clsRandomVideoInfo">
+                    		<div id="flashcontent_youtube"></div>
+					    	<script type="text/javascript">
+							var so1 = new SWFObject("http://revolutionarypolitics.tv/files/flash/video/recentViewsPlayList.swf", "playList", "650", "110", "5",  null, true);
+							so1.addParam("allowSciptAccess", "always");
+							so1.addParam("wmode", "transparent");
+							so1.addVariable("xmlpath", "http://revolutionarypolitics.tv/video/videoRecentViewedXmlCode.php?");
+							so1.addVariable("listCounts", "6");
+							so1.write("flashcontent_youtube");
+							</script>
+                    	</div>
+                    </td>
+                  </tr>
+                </table>
+            </div>
+        </div>
+                   
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+<!--Lastwatched video rounded corner ends -->
+                                                                                                                                                                                                      
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                  <script type="text/javascript" language="javascript">
+//recentViewedSlideShowRepeat();
+</script>
+        <center>  </center><br />
+	           <div class="clsOverflow">
+                    <div class="clsVideoBlockTitleLeft"><h2 class="clsSideHeading clsTitleVideo">Videos</h2><img src="http://revolutionarypolitics.tv/design/templates/orient/root/images/foxLoader.gif" alt="" title="" id="loaderVideos" style="display:none" /> </div>
+                    <div class="clsIndexVideoLinks clsVideoBlockTitleRight">
+                        <div class="clsIndexLinkMiddle">
+                            <div class="clsIndexLinkRight">
+                                <div class="clsIndexLinkLeft">
+                                    <ul class="videoBlockMenu">
+                                    	                                                                                	
+	                                        <li id="li_recentlyviewedvideo" class="clsActiveFirstLink clsFirstLink"><a onclick="showIndexTabs('recentlyviewedvideo');"><span>Recently viewed</span></a></li>
+                                                                                                                                                                    <li id="li_recommendedvideo" class="" ><a onclick="showIndexTabs('recommendedvideo');"><span>Recommended</span></a></li>
+                                                                                    
+                                                                                	
+                                        <li id="li_newvideo" class=""><a onclick="showIndexTabs('newvideo');"><span>Recently Uploaded</span></a></li>
+                                                                                    
+                                                                                                                        <li id="li_topratedvideo" class=""><a onclick="showIndexTabs('topratedvideo');"><span>Top Rated</span></a></li>                                        
+                                                              
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                	</div>
+                </div>
+          	<div class="clsVideoIndexVideoBlock">
+         
+                           <!-- video rounded corner starts -->
+         <div class="lbvideos">
+          <div class="rbvideos">
+           <div class="bbvideos">
+            <div class="blcvideos">
+             <div class="brcvideos">
+              <div class="tbvideos">
+               <div class="tlcvideos">
+                <div class="trcvideos">
+                                                                                                                                                                                                                     
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                           
+     <div class="clsIndexVideoContainer">
+               <div class="clsOverflow">
+                    <div class="clsVideoPaging" id="nav_recentlyviewedvideo"></div>
+                    <div class="clsVideoPaging" style="display:none" id="nav_recommendedvideo"></div>
+                    <div class="clsVideoPaging" style="display:none" id="nav_newvideo"></div>
+                    <div class="clsVideoPaging" style="display:none" id="nav_topratedvideo"></div>
+                </div>
+                                <div class="clsIndexVideos" id="selIndex_recentlyviewedvideo">
+                						<script language="javascript" type="text/javascript">
+						//for video recently viewed paging
+						var videorecentlyviewedvideo = new paging();
+						videorecentlyviewedvideo.paging_var = 'start';
+						videorecentlyviewedvideo.paging_content_id = 'selrecentlyviewedvideoList';
+						videorecentlyviewedvideo.paging_link_id = 'nav_recentlyviewedvideo';
+						videorecentlyviewedvideo.page_no_id = 'selrecentlyviewedvideoPageNo';
+						videorecentlyviewedvideo.page_no_text = '{start} - {end} out of {total}';
+						videorecentlyviewedvideo.total_records = '10141';
+						videorecentlyviewedvideo.records_per_page = '8';
+						videorecentlyviewedvideo.class_obj = 'videorecentlyviewedvideo';
+						videorecentlyviewedvideo.paging_url = 'http://revolutionarypolitics.tv/video/index.php';
+						videorecentlyviewedvideo.method_type = 'post';
+						videorecentlyviewedvideo.pars = 'block=recentlyviewedvideo&module=video';
+						//currently simple paging only available
+						videorecentlyviewedvideo.paging_style = 'simple';//simple, extend
+						videorecentlyviewedvideo.carousel = true;
+						videorecentlyviewedvideo.anim_speed = 50;
+						videorecentlyviewedvideo.initPaging();
+					</script>
+					<div class="clsInfoPopUpContainerDiv clsDisplayNone" id="outerContainerDiv_recentlyviewedvideo"  onmouseover="hideCurrentToolTip()">
+</div>
+<div class="clsInfoPopUp clsDisplayNone" id="recentlyviewedvideo_DisplaySec" style="position:absolute;z-index:100000">
+
+</div>
+	<div id="selrecentlyviewedvideoProcess"></div>
+    <p class="clsPageNo" id="selrecentlyviewedvideoPageNo"></p>
+                	<div id="containerrecentlyviewedvideo" style="position:relative;margin-left:7px; width:645px;height:325px;overflow-x:hidden;">
+		<div id="selrecentlyviewedvideoList" class="clsVideoListCount" style="position:absolute;left:0px;top:0px;">
+</div>
+</div>
+
+                </div>
+                                               <div class="clsIndexVideos" id="selIndex_recommendedvideo" style="display:none;">
+                						<script language="javascript" type="text/javascript">
+						//for video recently viewed paging
+						var videorecommendedvideo = new paging();
+						videorecommendedvideo.paging_var = 'start';
+						videorecommendedvideo.paging_content_id = 'selrecommendedvideoList';
+						videorecommendedvideo.paging_link_id = 'nav_recommendedvideo';
+						videorecommendedvideo.page_no_id = 'selrecommendedvideoPageNo';
+						videorecommendedvideo.page_no_text = '{start} - {end} out of {total}';
+						videorecommendedvideo.total_records = '15';
+						videorecommendedvideo.records_per_page = '8';
+						videorecommendedvideo.class_obj = 'videorecommendedvideo';
+						videorecommendedvideo.paging_url = 'http://revolutionarypolitics.tv/video/index.php';
+						videorecommendedvideo.method_type = 'post';
+						videorecommendedvideo.pars = 'block=recommendedvideo&module=video';
+						//currently simple paging only available
+						videorecommendedvideo.paging_style = 'simple';//simple, extend
+						videorecommendedvideo.carousel = true;
+						videorecommendedvideo.anim_speed = 50;
+						videorecommendedvideo.initPaging();
+					</script>
+					<div class="clsInfoPopUpContainerDiv clsDisplayNone" id="outerContainerDiv_recommendedvideo"  onmouseover="hideCurrentToolTip()">
+</div>
+<div class="clsInfoPopUp clsDisplayNone" id="recommendedvideo_DisplaySec" style="position:absolute;z-index:100000">
+
+</div>
+	<div id="selrecommendedvideoProcess"></div>
+    <p class="clsPageNo" id="selrecommendedvideoPageNo"></p>
+                	<div id="containerrecommendedvideo" style="position:relative;margin-left:7px; width:645px;height:325px;overflow-x:hidden;">
+		<div id="selrecommendedvideoList" class="clsVideoListCount" style="position:absolute;left:0px;top:0px;">
+</div>
+</div>
+
+                </div>
+                                	
+                <div class="clsIndexVideos" id="selIndex_newvideo" style="display:none;">
+                						<script language="javascript" type="text/javascript">
+						//for video recently viewed paging
+						var videonewvideo = new paging();
+						videonewvideo.paging_var = 'start';
+						videonewvideo.paging_content_id = 'selnewvideoList';
+						videonewvideo.paging_link_id = 'nav_newvideo';
+						videonewvideo.page_no_id = 'selnewvideoPageNo';
+						videonewvideo.page_no_text = '{start} - {end} out of {total}';
+						videonewvideo.total_records = '10141';
+						videonewvideo.records_per_page = '8';
+						videonewvideo.class_obj = 'videonewvideo';
+						videonewvideo.paging_url = 'http://revolutionarypolitics.tv/video/index.php';
+						videonewvideo.method_type = 'post';
+						videonewvideo.pars = 'block=newvideo&module=video';
+						//currently simple paging only available
+						videonewvideo.paging_style = 'simple';//simple, extend
+						videonewvideo.carousel = true;
+						videonewvideo.anim_speed = 50;
+						videonewvideo.initPaging();
+					</script>
+					<div class="clsInfoPopUpContainerDiv clsDisplayNone" id="outerContainerDiv_newvideo"  onmouseover="hideCurrentToolTip()">
+</div>
+<div class="clsInfoPopUp clsDisplayNone" id="newvideo_DisplaySec" style="position:absolute;z-index:100000">
+
+</div>
+	<div id="selnewvideoProcess"></div>
+    <p class="clsPageNo" id="selnewvideoPageNo"></p>
+                	<div id="containernewvideo" style="position:relative;margin-left:7px; width:645px;height:325px;overflow-x:hidden;">
+		<div id="selnewvideoList" class="clsVideoListCount" style="position:absolute;left:0px;top:0px;">
+</div>
+</div>
+
+                </div>
+                                
+                                <div class="clsIndexVideos" id="selIndex_topratedvideo" style="display:none;">
+                						<script language="javascript" type="text/javascript">
+						//for video recently viewed paging
+						var videotopratedvideo = new paging();
+						videotopratedvideo.paging_var = 'start';
+						videotopratedvideo.paging_content_id = 'seltopratedvideoList';
+						videotopratedvideo.paging_link_id = 'nav_topratedvideo';
+						videotopratedvideo.page_no_id = 'seltopratedvideoPageNo';
+						videotopratedvideo.page_no_text = '{start} - {end} out of {total}';
+						videotopratedvideo.total_records = '564';
+						videotopratedvideo.records_per_page = '8';
+						videotopratedvideo.class_obj = 'videotopratedvideo';
+						videotopratedvideo.paging_url = 'http://revolutionarypolitics.tv/video/index.php';
+						videotopratedvideo.method_type = 'post';
+						videotopratedvideo.pars = 'block=topratedvideo&module=video';
+						//currently simple paging only available
+						videotopratedvideo.paging_style = 'simple';//simple, extend
+						videotopratedvideo.carousel = true;
+						videotopratedvideo.anim_speed = 50;
+						videotopratedvideo.initPaging();
+					</script>
+					<div class="clsInfoPopUpContainerDiv clsDisplayNone" id="outerContainerDiv_topratedvideo"  onmouseover="hideCurrentToolTip()">
+</div>
+<div class="clsInfoPopUp clsDisplayNone" id="topratedvideo_DisplaySec" style="position:absolute;z-index:100000">
+
+</div>
+	<div id="seltopratedvideoProcess"></div>
+    <p class="clsPageNo" id="seltopratedvideoPageNo"></p>
+                	<div id="containertopratedvideo" style="position:relative;margin-left:7px; width:645px;height:325px;overflow-x:hidden;">
+		<div id="seltopratedvideoList" class="clsVideoListCount" style="position:absolute;left:0px;top:0px;">
+</div>
+</div>
+
+                </div>
+                                <div class="clsVideoPopUpClear" style="width:150px;"></div>
+        </div>
+        
+ 		              
+        	                                      
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+<!-- video rounded corner ends -->
+                                                                                                                                                                                    
+                                                                        
+
+
+
+
+
+
+
+                  
+
+                               </div>
+                   <center><a href="http://images.ultracart.com/aff/2076E58252F7B7012B6B335A6F051400/index.html"><img src="http://images.ultracart.com/affiliate/displayImage.jsp?code=2076E58252F7B7012B6B335A6F051400"></a></center>
+         	   	<div class="clsVideoPlayerContainer">
+                <h2>Featured Videos - <span id="random_title">Ayn Rand - Liberty Vs Socialism</span></h2>
+                <table>
+                	<tr>
+                    	<td class="clsVideoPlayer">
+                            <div id="video_random_player">
+
+                                                                 <div id="flashcontent2" class="clsVideoPlayerBorder"></div>
+                                					<script type="text/javascript">
+         		    	var so1 = new SWFObject("http://revolutionarypolitics.tv/video/embedPlayer.php?vid=84b64e537f08e81b8dea8cce9_6901", "flvplayer", "424", "354", "7",  null, true);
+		                so1.addParam("allowFullScreen", "true");
+		                so1.addParam("wmode", "transparent");
+		                so1.addParam("autoplay", "false");
+		                so1.addParam("allowSciptAccess", "always");
+		                so1.addVariable("config", "http://revolutionarypolitics.tv/video/videoConfigXmlCodeHD.php?pg=video_6901_no_0_false_true_false_index");
+		                so1.write("flashcontent2");
+	                </script>
+					
+                                
+                            </div>
+                        </td>
+                    	<td class="clsVideoPlayerInfo">
+                        <div class="clsListedFeaturedVideo">
+                                                	<div id="featured_video_info_0" class="clsFeaturedVideoInfo clsActiveFeaturedVideoInfo">
+                            	<div class="clsFeaturedVideoThumb">
+                          			<a onClick="toggleFeaturedListClass(0);playThisVideo('6901','Ayn Rand - Liberty Vs Socialism')"><img src="http://revolutionarypolitics.tv/files/videos/thumbnails/84b64e537f08e81T.jpg" width="57px" height="50px;" /></a>
+                                </div>
+                                <div class="clsFeaturedVideoThumbDetails">
+                                	<p class="clsFeaturedVideoThumbDetailsTitle">
+							  <a title="Ayn Rand - Liberty Vs Socialism" class="clsPhotoVideoEditLinks" href="javascript:void(0)" onClick="toggleFeaturedListClass(0);playThisVideo('6901','Ayn Rand - Liberty Vs Socialism')" >Ayn Rand - Libe ...</a>
+							</p>
+                                   <p>07:04:00</p>
+                                </div>
+                            </div>
+                                                	<div id="featured_video_info_1" class="clsFeaturedVideoInfo">
+                            	<div class="clsFeaturedVideoThumb">
+                          			<a onClick="toggleFeaturedListClass(1);playThisVideo('14704','Ayn Rand - Individual Rights')"><img src="http://revolutionarypolitics.tv/files/videos/thumbnails/ef1f3fc8be928fdT.jpg" width="57px" height="50px;" /></a>
+                                </div>
+                                <div class="clsFeaturedVideoThumbDetails">
+                                	<p class="clsFeaturedVideoThumbDetailsTitle">
+							  <a title="Ayn Rand - Individual Rights" class="clsPhotoVideoEditLinks" href="javascript:void(0)" onClick="toggleFeaturedListClass(1);playThisVideo('14704','Ayn Rand - Individual Rights')" >Ayn Rand - Indi ...</a>
+							</p>
+                                   <p>00:09:25</p>
+                                </div>
+                            </div>
+                                                	<div id="featured_video_info_2" class="clsFeaturedVideoInfo">
+                            	<div class="clsFeaturedVideoThumb">
+                          			<a onClick="toggleFeaturedListClass(2);playThisVideo('6988','1968 - Martin Luther King\'s Prophetic Last speech - Remember')"><img src="http://revolutionarypolitics.tv/files/videos/thumbnails/251bd0442dfcc53T.jpg" width="57px" height="50px;" /></a>
+                                </div>
+                                <div class="clsFeaturedVideoThumbDetails">
+                                	<p class="clsFeaturedVideoThumbDetailsTitle">
+							  <a title="1968 - Martin Luther King\'s Prophetic Last speech - Remember" class="clsPhotoVideoEditLinks" href="javascript:void(0)" onClick="toggleFeaturedListClass(2);playThisVideo('6988','1968 - Martin Luther King\'s Prophetic Last speech - Remember')" >1968 - Martin L ...</a>
+							</p>
+                                   <p>03:14:00</p>
+                                </div>
+                            </div>
+                                                	<div id="featured_video_info_3" class="clsFeaturedVideoInfo">
+                            	<div class="clsFeaturedVideoThumb">
+                          			<a onClick="toggleFeaturedListClass(3);playThisVideo('8860','Ron Paul &quot;What if&quot;')"><img src="http://revolutionarypolitics.tv/files/videos/thumbnails/22bb543b251c39cT.jpg" width="57px" height="50px;" /></a>
+                                </div>
+                                <div class="clsFeaturedVideoThumbDetails">
+                                	<p class="clsFeaturedVideoThumbDetailsTitle">
+							  <a title="Ron Paul &quot;What if&quot;" class="clsPhotoVideoEditLinks" href="javascript:void(0)" onClick="toggleFeaturedListClass(3);playThisVideo('8860','Ron Paul &quot;What if&quot;')" >Ron Paul &quot; ...</a>
+							</p>
+                                   <p>03:43:00</p>
+                                </div>
+                            </div>
+                                                	<div id="featured_video_info_4" class="clsFeaturedVideoInfo">
+                            	<div class="clsFeaturedVideoThumb">
+                          			<a onClick="toggleFeaturedListClass(4);playThisVideo('12442','Walter E Williams - Free Markets &amp; The Common Man')"><img src="http://revolutionarypolitics.tv/files/videos/thumbnails/52156f7194073f0T.jpg" width="57px" height="50px;" /></a>
+                                </div>
+                                <div class="clsFeaturedVideoThumbDetails">
+                                	<p class="clsFeaturedVideoThumbDetailsTitle">
+							  <a title="Walter E Williams - Free Markets &amp; The Common Man" class="clsPhotoVideoEditLinks" href="javascript:void(0)" onClick="toggleFeaturedListClass(4);playThisVideo('12442','Walter E Williams - Free Markets &amp; The Common Man')" >Walter E Willia ...</a>
+							</p>
+                                   <p>00:04:51</p>
+                                </div>
+                            </div>
+                                                </div>
+                                                <div class="clsViewMoreFeaturedVideo">
+                        	<a href="http://revolutionarypolitics.tv/video/videoList.php?pg=videorecommended">View More</a>
+                        </div>
+                                                </td>
+                    </tr>
+                </table>
+
+      </div>
+      
+      <script type="text/javascript">
+      var total_featured_vidoes_list = 4;
+      function toggleFeaturedListClass(inc)
+            {
+                  $Jq("#featured_video_info_"+inc).addClass("clsActiveFeaturedVideoInfo");
+
+                  for(var i=0;i<=total_featured_vidoes_list;i++)
+                        {
+                              if(i != inc)
+                                    $Jq("#featured_video_info_"+i).removeClass("clsActiveFeaturedVideoInfo");
+                        }
+            }
+      </script>
+      
+         <center><a href="http://images.ultracart.com/aff/107D5E792A03C3012A30AC1B3C051600/index.html"><img src="http://images.ultracart.com/affiliate/displayImage.jsp?code=107D5E792A03C3012A30AC1B3C051600"></a></center>
+
+<div class="clsMainBlockCoolNewPeople">
+
+<script type="text/javascript">
+
+var mycarousel_itemList = [{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=davidinsiam', wrap_name:'davidinsiam', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'davidinsiam', title: 'davidinsiam'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=privetzayka', wrap_name:'privetzayka', url:'http://revolutionarypolitics.tv/files/user_profile_avatar/2744T.jpg', alt:'privetzayka', title: 'privetzayka'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=Thomas22', wrap_name:'Thomas22', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'Thomas22', title: 'Thomas22'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=ladyfish55', wrap_name:'ladyfish55', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'ladyfish55', title: 'ladyfish55'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=AussieOi', wrap_name:'AussieOi', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'AussieOi', title: 'AussieOi'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=Kmatx1947', wrap_name:'Kmatx1947', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'Kmatx1947', title: 'Kmatx1947'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=bobhar', wrap_name:'bobhar', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'bobhar', title: 'bobhar'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=2thessalonians3', wrap_name:'2thessalonians3<wbr>', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'2thessalonians3', title: '2thessalonians3'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=BettieBailey', wrap_name:'BettieBailey', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'BettieBailey', title: 'BettieBailey'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=JPCNYC', wrap_name:'JPCNYC', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'JPCNYC', title: 'JPCNYC'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=chipper1', wrap_name:'chipper1', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'chipper1', title: 'chipper1'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=diplomate', wrap_name:'diplomate', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'diplomate', title: 'diplomate'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=ramcneilly', wrap_name:'ramcneilly', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'ramcneilly', title: 'ramcneilly'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=mbnothingfree', wrap_name:'mbnothingfree', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'mbnothingfree', title: 'mbnothingfree'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=Chinookjoyce', wrap_name:'Chinookjoyce', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'Chinookjoyce', title: 'Chinookjoyce'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=TheJunkDriver', wrap_name:'TheJunkDriver', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'TheJunkDriver', title: 'TheJunkDriver'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=dsweatt', wrap_name:'dsweatt', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'dsweatt', title: 'dsweatt'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=gretamarie', wrap_name:'gretamarie', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'gretamarie', title: 'gretamarie'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=gladys1443', wrap_name:'gladys1443', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'gladys1443', title: 'gladys1443'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=sg2012', wrap_name:'sg2012', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'sg2012', title: 'sg2012'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=scatter', wrap_name:'scatter', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'scatter', title: 'scatter'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=louzecchin', wrap_name:'louzecchin', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'louzecchin', title: 'louzecchin'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=calebforaction', wrap_name:'calebforaction', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'calebforaction', title: 'calebforaction'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=smhill', wrap_name:'smhill', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'smhill', title: 'smhill'},{memUrl:'http://revolutionarypolitics.tv/viewProfile.php?user=svirtue2012', wrap_name:'svirtue2012', url:'http://revolutionarypolitics.tv/video/design/templates/orient/root/images/screen_blue/no_image/noImage_T.jpg', alt:'svirtue2012', title: 'svirtue2012'}];
+
+
+function mycarousel_initCallback(carousel)
+	{
+		  carousel.clip.hover(function() {
+			    carousel.stopAuto();
+		  }, function() {
+			    carousel.startAuto();
+		  });
+	};
+
+function mycarousel_itemVisibleInCallback(carousel, item, i, state, evt)
+	{
+		mycarousel_initCallback(carousel);
+		// The index() method calculates the index from a
+		// given index who is out of the actual item range.
+		var idx = carousel.index(i, mycarousel_itemList.length);
+		carousel.add(i, mycarousel_getItemHTML(mycarousel_itemList[idx - 1]));
+	};
+
+function mycarousel_itemVisibleOutCallback(carousel, item, i, state, evt)
+	{
+		carousel.remove(i);
+	}; 
+
+/**
+ * Item html creation helper.
+ */
+function mycarousel_getItemHTML(item)
+	{
+		return '<div class="clsCoolMemberThumbImageContainer"><div class="clsThumbImageLink clsPointer" onclick="Redirect2URL(\'' + item.memUrl + '\')"><div class="cls90PXthumbImage clsThumbImageOuter"><div class="clsrThumbImageMiddle"><div class="clsThumbImageInner"><img src="' + item.url + '" alt="' + item.title + '" /></div></div></div></div><div class="clsCoolMemberThumbImageTitle"><p><a href="' + item.memUrl + '" title="' + item.title + '">' + item.wrap_name + '</a></p></div>';
+	}; 
+	
+
+
+
+  $Jq(document).ready(function() {
+     $Jq('#cool_new_peoples').jcarousel({
+        wrap: 'circular',
+	  easing: 'linear',
+	  auto: 3,
+        animation: 1000,
+	itemVisibleInCallback: {onBeforeAnimation: mycarousel_itemVisibleInCallback},
+	itemVisibleOutCallback: {onAfterAnimation: mycarousel_itemVisibleOutCallback} 	  
+    });
+ });
+
+
+
+
+
+</script>
+
+<h2 class="clsSideHeading clsTitleCoolNewPeople">Cool New People...</h2>
+                                                                        <!--cool new people video rounded corner starts -->
+        <div class="clsCoolNewPeopleBG">
+         <div class="lbcoolnewpeople">
+          <div class="rbcoolnewpeople">
+           <div class="bbcoolnewpeople">
+            <div class="blccoolnewpeople">
+             <div class="brccoolnewpeople">
+              <div class="tbcoolnewpeople">
+               <div class="tlccoolnewpeople">
+                <div class="trccoolnewpeople">
+                                                                                                                                             <div class="clsCoolNewPeople">
+    <div class="">
+          <ul id="cool_new_peoples" class="jcarousel-skin-coolnewpeople">
+      </ul>
+         </div>
+</div>
+                                                                                           
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+<!--cool new people video rounded corner ends -->
+                                                                                                            </div>
+
+
+<script type="text/javascript">
+//Events for Channel and Menu More sub Menus
+//document.observe("dom:loaded", function() {
+Event.observe(window, 'load', function() {
+});
+//document.observe("dom:loaded", function() {
+Event.observe(window, 'load', function() {
+	
+
+ 	//Search block events
+	var searchTopText='';
+	var searchText='';
+	if($('searchTags_header'))
+		{
+			$('searchTags_header').observe('focus',function(){
+				if($('searchTags_header').value == search_tag_text)
+					{
+						searchTopText = $('searchTags_header').value;
+						$('searchTags_header').value='';
+					}
+			});
+			$('searchTags_header').observe('blur',function(){
+				if($('searchTags_header').value=="")
+					$('searchTags_header').value=searchTopText;
+			});
+		}
+	if($('searchTags_footer'))
+		{
+			$('searchTags_footer').observe('focus',function(){
+				if($('searchTags_footer').value == search_tag_text)
+					{
+						searchText=$('searchTags_footer').value;
+						$('searchTags_footer').value='';
+					}
+			});
+			$('searchTags_footer').observe('blur',function(){
+				if($('searchTags_footer').value=="")
+					$('searchTags_footer').value=searchText;
+			});
+		}
+});
+var forms_count = document.forms.length;
+
+		helpTipInitialize();
+/*
+window.onload = function() {
+		helpTipInitialize();
+		//loadChangeClass();
+	}
+*/
+if($('selMsgSuccess')){
+		hideAnimateBlock('selMsgSuccess');
+	}
+</script>
+
+<!-- sidebarmaincontainer ends -->
+
+</div>
+
+<!-- following div is to clear sidebar and main div -->
+
+<div class="clsSideMainContainerEndingDiv"><!----></div>
+
+<!-- / sidebarmaincontainer ends -->
+
+
+
+<!-- Footer begins -->
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Footer -->
+
+<div id="footer">
+
+<div class="clsFooterContent">
+
+             <div id="selMsgLoginConfirmMulti" class="clsPopupConfirmation" style="display:none;position:absolute;">
+
+              <p id="selAlertLoginMessage"></p>
+
+              <form name="msgConfirmformMulti1" id="msgConfirmformMulti1" method="post" action="" autocomplete="off">
+
+                <input type="submit" class="clsSubmitButton" name="yes" value="Yes" tabindex="1020" /> &nbsp;
+
+                <input type="button" class="clsSubmitButton" name="no" value="No" tabindex="1025" onclick="return hideAllBlocks()" />
+
+              </form>
+
+       </div>
+
+                  <div id="selMsgConfirmCommon" class="clsPopupConfirmation clsSubscriptionConfirm" style="display:none;position:absolute;">
+
+            <div id="msgConfirmTextCommon"></div>
+
+            <form name="msgConfirmformCommon" id="msgConfirmformCommon" method="post" action="http://revolutionarypolitics.tv/video/index.php" autocomplete="off">
+
+              <input type="submit" class="clsSubmitButton" name="common_confirm_yes" id="common_confirm_yes" value="Yes" tabindex="1030" /> &nbsp;
+
+              <input type="button" class="clsSubmitButton" name="common_confirm_no" id="common_confirm_no" value="No" tabindex="1035" onclick="return hideAllBlocks()" />
+
+              <input type="hidden" name="action" id="action" />
+
+            </form>
+
+      </div>
+
+      	<div class="clsFooterContentConainer">
+
+             <div id="selSubFooter"><h2><span>Miscellaneous Navigational Links</span></h2></div>
+
+      <div id="subFooter">
+
+         <ul class="clsFooterLinkList clsOverflow">
+
+            <li><div>
+
+          <h2>Account</h2>
+
+            <div>
+
+              <p><a href="http://revolutionarypolitics.tv/members/mail.php?folder=inbox">Inbox</a></p>
+
+            </div>
+
+                                              
+
+             
+
+            <div id="selDashStats">          
+
+                 
+                  
+
+                 <p><a href="http://revolutionarypolitics.tv/video/members/videoList.php?pg=myvideos">Videos List</a></p>
+
+                 
+                  
+                  
+
+                 <p><a href="http://revolutionarypolitics.tv/video/members/videoPlayList.php">Video Playlist</a></p>
+
+                 
+                  
+                  
+
+                 <p><a href="http://revolutionarypolitics.tv/video/members/videoList.php?pg=myfavoritevideos">Videos Favorites</a></p>
+
+                 
+                                                                                     
+
+             </div>
+
+              
+
+            <div id="selDashStats">          
+
+                 
+                 
+                                                                                     
+
+             </div>
+
+              
+
+            <div id="selDashStats">          
+
+                 
+                 
+                                                                                     
+
+             </div>
+
+             
+             
+        
+
+            
+
+            
+
+          </div></li>
+
+         	<li><div>
+
+         <h2>RevolutionaryPolitics.tv</h2>
+
+            <div>
+
+              <p><a href="http://revolutionarypolitics.tv/contactUs.php">Contact us</a></p>
+
+              <p><a href="http://revolutionarypolitics.tv/reportBugs.php">Report Bugs</a></p>
+
+            </div>
+
+          </div></li>
+
+            <li>
+
+          	
+                <h2>RSS</h2>
+
+                <div>
+
+                    
+                        <p class="rss"><a href="http://revolutionarypolitics.tv/video/rss.php">RSS Video</a></p>    
+
+                    
+                </div>
+
+            
+          </li>
+
+            <li><div>
+
+          <h2>Help info</h2>
+
+            <div>
+
+              <p><a href="http://revolutionarypolitics.tv/faq.php">Help Center</a></p>
+
+            </div>
+
+          </div></li>            
+
+            <li class="clsFooterNoBorder">
+
+          	<div class="">
+
+                <h2>Legal Terms</h2>
+
+	          <p><a href="http://revolutionarypolitics.tv/staticPage.php?pg=useterms">Terms of Use</a></p>
+
+                <p><a href="http://revolutionarypolitics.tv/staticPage.php?pg=privacy">Privacy Policy</a></p>
+
+                <p><a href="http://revolutionarypolitics.tv/staticPage.php?pg=prohibitedcontent">Prohibited Content</a></p>
+
+                <p><a href="http://revolutionarypolitics.tv/staticPage.php?pg=copyright">Copyright Notification</a></p>
+
+            </div>
+
+           </li>
+
+          </ul>
+
+       </div>
+
+   	</div>
+
+  <div class="clsCopyrightTable unitPng">
+
+       <p class="clsCopyright">&copy; 2009 - 2010 RevolutionaryPolitics.tv
+</p>
+
+       <p class="clsPoweredByAgriya"><span class="clsPoweredText">Powered By <a href="http://www.agriya.com">Agriya</a></span></p>
+
+  </div> 
+
+</div></div>
+
+</div>
+
+
+
+
+
+
+
+    
+
+
+ 
+
+ <script type="text/javascript">
+
+	initShowHideDivs();
+
+  </script>
+
+ 
+
+
+    <div class="clsSearchListMenu clsSearchListFinalMenu" style="display:none;" id="searchHeaderModuleList">
+
+        <ul onmouseover="allowHeaderSearchHide=false" onmouseout="allowHeaderSearchHide=true">
+
+            
+                <li onmouseover="allowHeaderSearchHide=false" onmouseout="allowHeaderSearchHide=true"><a onclick="chooseSearchSelect('video', 'header')">Videos</a></li>
+
+            
+                <li onmouseover="allowHeaderSearchHide=false" onmouseout="allowHeaderSearchHide=true"><a onclick="chooseSearchSelect('general', 'header')">Members</a></li>
+
+             
+
+        </ul>
+
+    </div>
+
+    <div class="clsSearchListMenu" style="display:none;" id="searchFooterModuleList">
+
+        <ul onmouseover="allowFooterSearchHide=false" onmouseout="allowFooterSearchHide=true">
+
+        	
+            
+                <li onmouseover="allowFooterSearchHide=false" onmouseout="allowFooterSearchHide=true"><a onclick="chooseSearchSelect('video', 'footer')">Videos</a></li>
+
+                
+				
+            
+                <li onmouseover="allowFooterSearchHide=false" onmouseout="allowFooterSearchHide=true"><a onclick="chooseSearchSelect('general', 'footer')">Members</a></li>
+
+                
+				
+             
+
+        </ul>
+
+       
+
+    </div>    
+
+
+
+
+<div id="subscriptionOption" class="clsSubscriptionToolTip" style="display:none;position:absolute;" onmouseover="javascript:subscription_hover=true;this.show()" onmouseout="subscription_hover=false;hideSubscriptionOption();"></div>
+
+<iframe id="selBackgroundIframe" frameborder="0" style="display:none;"></iframe>
+
+
+
+<script type="text/javascript">
+
+Event.observe(window, 'load', function() {
+
+	
+
+	
+	
+
+	if($('show_hide_theme_anchor'))
+
+		listen('click', $('show_hide_theme_anchor'), function() { allowHeaderSearchHide=true;hideHeaderSearchModule();});	
+
+	if($('main'))
+
+		{
+
+			listen('mouseover', $('main'), function() { allowHeaderSearchHide=true;hideHeaderSearchModule();});	
+
+			listen('mouseover', $('main'), function() { allowFooterSearchHide=true;hideFooterSearchModule();});		
+
+		}
+
+	if($('selAccount'))
+
+		listen('mouseover', $('selAccount'), function() { allowFooterSearchHide=true;hideFooterSearchModule();});
+
+	
+
+	if($('main'))
+
+		listen('mouseover', $('main'), function() { allowShortcutsHide=true;hideShortcutTarget();});
+
+
+
+});
+
+</script>
+
+
+             <!-- Kontera ContentLink(TM);-->
+<script type='text/javascript'>
+var dc_AdLinkColor = '#009600' ;
+var dc_PublisherID = 159303 ;
+</script>
+<script type='text/javascript' src='http://kona.kontera.com/javascript/lib/KonaLibInline.js'>
+</script>

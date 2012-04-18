@@ -1,0 +1,943 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<!--[if IE 6]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie6 ielt8"><![endif]-->
+		<!--[if IE 7]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie7 ielt8"><![endif]-->
+		<!--[if IE 8]><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="ie8"><![endif]-->
+		<!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->		<head>
+			<!-- Using MVC -->
+			<title>Flights, Hotels, Cruises, Car Rentals - Compare Prices - BookingBuddy</title>
+
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+			<meta http-equiv="Content-Language" content="en-us" />
+
+			<meta name="description" content="Find and book cheap flights, hotels, vacation packages, car rentals, cruises, and more with BookingBuddy. Compare prices and save!" />
+			<meta name="keywords" content="cheap airfares, cheap airline tickets, cheap flights, cheap tickets, compare prices, discount airlines, discount car rental, discount flights, domestic airline tickets, flight, international airline tickets, major airlines, online travel agencies, plane ticket prices, travel, travel search, travel search engine, bookingbuddy, booking, buddy, air travel, airfare, airfare deals, airline, airline tickets" />
+						<link rel="canonical" href="http://www.bookingbuddy.com" />
+			<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+			<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+			<script type="text/javascript">
+			 			 var useRefactoredOmni = true;
+		    </script>
+
+			<link rel="stylesheet" href="http://c.slimg.com/css/site/bb_affiliate/bookingbuddy_com.css?nano=1&amp;v=20120413154216" media="screen, projection" type="text/css" /><script type="text/javascript" src="http://j.slimg.com/js/site/bookingbuddy_refactor.js?nano=1&amp;v=20120413154216"></script>
+<script type="text/javascript">/* <![CDATA[*/
+BookingBuddy.Strings.ServerTime = "Tue, 17 Apr 2012 22:36:01 -0400";
+/* ]]>*/</script>
+<script type="text/javascript">/* <![CDATA[*/
+BookingBuddy.queryString = {};
+/* ]]>*/</script>
+			<script type="text/javascript">
+						var BookingBuddy = BookingBuddy || {};
+			BookingBuddy.OmnitureConfig = {"account":"slbbbcom","trackingServer":"stats.bookingbuddy.com","pageName":"Home","channel":"home","searchMode":"home","substate":false,"tieredPricingData":"SOURCEnone","expediaSource":"SOURCEnone","evars":[],"events":[],"adImpressionIds":[]};
+			var d0 = d0 || function (data) {
+	var htmlspecialcharsdecode = function(url) {
+		return url.replace("&amp;","&").replace("&quot;","\"").replace("&#039;","'").replace("&lt;","<").replace("&gt;",">");
+	}
+	data = decodeURIComponent(data);
+	var len = data.length;
+	var mid = Math.floor(len/2);
+	var add = mid % 2 == 0 ? 1 : 0;
+	var sub = len % 2 == 0 ? 1 : 0;
+	var strAr = [], tmp = '';
+	
+	for(var i=0;i<len;i++) {
+		strAr[i] = data.charAt(i);
+	}
+	
+	for(var i=0,swpIdx = 0; i<mid;i++) {
+		if(i%2 == 0) { // even
+			swpIdx = i+mid+add;
+		} else { // odd
+			swpIdx = len-i-sub;
+		}
+		tmp = strAr[i];
+		strAr[i] = strAr[swpIdx];
+		strAr[swpIdx] = tmp;
+	}
+	return htmlspecialcharsdecode(strAr.join(''));
+};
+			</script>
+		</head>
+				<body>
+			<!-- Rendered at 2012-04-17T22:36:01-04:00 -->
+			<!-- MVC Model -->
+				<div id="page_mask" style="display: none;"></div>
+		<div class="" id="page_wrapper">
+			<div id="pagetop">
+							  <div id="pagetop-logo">
+			    <a href="/">
+			      <span class="logo"><br></span>
+			    </a>
+			  </div>
+			  <div id="pagetop-user-area">
+			    		<div id="user_area" style="display: none;">
+			 <div class="user_welcome">Welcome Back!</div>
+			 <div class="user_action">
+			   <a href="#" onmousedown="try{this.href=d0('chi.tnoispprpsb%2Fsug%2Fahcnbesu');}catch(e){};;return true;">Manage Your Subscriptions</a>			   <span class="arrow">&raquo;</span>
+			 </div>
+			 <div class="user_action">
+			   <span class="logout fine_print">
+			     <span id="not_you">Not you?</span>
+				 <span class="redirect hide">%2F</span>
+				 Log out			   </span>
+			 </div>
+		</div>
+					<div id="billboard">
+			  <form action="/sub/join.php" method="post" class="smartForm" id="topjoin_form">
+			    <div class="top">
+			      <div id="dhtmlsignup_marker"></div>
+			      <div class="subinputs">
+			        <div class="formlabel">
+			          Sign up for weekly Top Travel Deals!					  <a href="#" onmousedown="try{this.href=d0('r%2Fveltdlawsnvwei-%2Felsee-terath%2Fto%3A.%2Fdwu.goikonbbwdwy%2Fcpmt');}catch(e){};;return true;" class="fine_print newWindow" target='_blank'>view sample</a>			        </div>
+				    <div class="forminput">
+					  <input id="topjoin_e1" type="text" title="EMail" value="enter your email address" maxlength="50" class="SubDealsFormInput smartElement common defaultClear required" size="40" name="email"  />
+				    </div>
+			        <div class="formbutton">
+					  <div class="left"></div>
+					  <input type="submit" value="Go" />
+					  <input type="submit" class="submit_arrow" value="" />
+					  <input type="submit" class="submit_arrow_right" value="" />
+					  <div class="right"></div>
+				    </div>
+			      </div>
+		        </div>
+			    <div class="bottom"></div>
+			  </form>
+			</div>
+						  </div>
+			  <div id="nav">
+						<div id="nav">
+		  <a class="navtab home_active" href="/"> Home </a>
+		  <a class="navtab air" href="/flight.php"> Flights </a>
+		<a href="/hotel.php" class="navtab hotel ">Hotels</a><a href="/vacation.php" class="navtab vacation ">Vacation Packages</a><a href="/car.php" class="navtab car ">Cars</a><a href="/cruise.php" class="navtab cruise ">Cruises</a><a href="/vacation-rentals.php" class="navtab vacation_rental ">Vacation Rentals</a><a href="#" onmousedown="try{this.href=d0('-seald%2F%2Feravtl');}catch(e){};;return true;" class="navtab deals ">Deals</a><a href="#" onmousedown="try{this.href=d0('4Fb%257o7.9d9u%26gmi%3Bodbrg%3DltFp%2532%25AF%252tbhol.uorkpnab6d7y6cdmd2h1t2%3Ab%2FbdfBbo7i0g2ubd7.5od%2F7h8%3Dt0%3F4m7cay9d1Benck6o2.fr0%2Fbp1t');}catch(e){};;return true;" class="navtab news"> Private Sale </a><a href="#" onmousedown="try{this.href=d0('ipnp.shot%2Faeitsnd');}catch(e){};;return true;" class="navtab destinations "> Destinations </a> 
+			<div class="clear"></div>
+		</div>
+						<div style="clear: both;"></div>
+			  </div>
+							<h1>Flights, Hotels, Cruises, Car Rentals - Compare Prices - BookingBuddy</h1>			</div>
+					<div id="billboard_column" class="billboard">
+
+			<div id="search_widget" class="home">
+				<div class="top_row_shadow top_row"></div>
+				<div class="middle_row">
+					<div id="pagetop_left_div">
+						<div id="step_1_widget" class="step_1_widget two_column home_tpt">
+							<div class="top">
+								<div class="left"></div>
+								<div class="middle">
+									<div class="middle_background"></div>
+								</div>
+								<div class="right"></div>
+							</div>
+							<div class="content_wrapper">
+								<div class="content">
+												<div class="title">
+				<div class="mode_logo travel"></div>
+				<h2 class="large_headline">
+					Save Big on Your Trip					<span class="description"></span>
+				</h2>
+				<div class="clear"></div>
+			</div>
+			<div id="bb_widget" class="air">
+				<div class="section_searchtype">
+					<label for="air_widget_form_show-searchforms">
+						<input id="air_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" checked="checked" name="home_booking" />&nbsp; Flights<br />
+					</label>
+					<label for="hotel_widget_form_show-searchforms">
+						<input id="hotel_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" name="home_booking" />&nbsp; Hotels<br />
+					</label>
+					<div class="book_together">
+						<label for="vacation_widget_form_show-searchforms">
+							<input id="vacation_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" name="home_booking" />&nbsp; Flight + Hotel<br />
+						</label>
+					</div>
+					<label for="car_widget_form_show-searchforms">
+						<input id="car_widget_form_show-searchforms" class="BBInputRadio toggle" type="radio" name="home_booking" />&nbsp; Cars<br />
+					</label>
+				</div>
+				
+				<div class="section_inputs home leftDotted ">
+					<form id="air_widget_form" class="smartForm searchForm skipStep2" method="get" action="/step2.php" style="">
+						<div class="search_widget_main air">
+										<div class="smartFormErrorMessages"></div>
+				<input type="hidden" class="hidden" name="search_mode" value="air" />
+			<input type="hidden" class="hidden" name="af" value="1274192" />
+				<div class="search_type">
+				<input type="radio" id="air_date2_block_show" name="st" title="Round Trip" value="roundtrip" checked="checked" class="smartElement toggle" />
+				<label for="air_date2_block_show">Round Trip</label>&nbsp;
+				<input type="radio" id="air_date2_block_hide" name="st" title="One-Way" value="oneway" class="smartElement toggle" />
+				<label for="air_date2_block_hide">One-Way</label>
+			</div>
+				<div class="non_stop">
+				<input id="air_non_stop" class="smartElement" type="checkbox" title="Non-Stop" name="non_stop" value="1" />
+				<label for="air_non_stop">Prefer non-stop</label>
+			</div>
+				<div class="cities">
+				<div class="departure_city">
+					<label for="air_departure_city">From:</label><br />
+					<input name="departure_city" id="air_departure_city" type="text" title="From" class="noFirstClick smartElement required common locationSuggest airport ajaxLocationSignup ipLocAirport" />
+				</div>
+
+				<div class="arrival_city">
+					<label for="air_arrival_city">To:</label><br />
+					<input name="arrival_city" id="air_arrival_city" type="text" title="To" class="noFirstClick smartElement required common locationSuggest airport ajaxLocationSignup" />
+				</div>
+			</div>
+				<div class="dates">
+				<div class="departure_date">
+					<label for="air_date1">Depart:</label><br />
+					<input name="departure_date" id="air_date1" type="text" value="mm/dd/yyyy" title="Depart" class="smartElement required common departureDate calendarUI" />
+					<select name="departure_time" id="air_departureTime" title="Departure Time" class="smartElement">
+					<option value="anytime">Anytime</option>
+<option value="morning">Morning</option>
+<option value="noon">Afternoon</option>
+<option value="evening">Evening</option>
+<option value="0">12:00 AM</option>
+<option value="1">1:00 AM</option>
+<option value="2">2:00 AM</option>
+<option value="3">3:00 AM</option>
+<option value="4">4:00 AM</option>
+<option value="5">5:00 AM</option>
+<option value="6">6:00 AM</option>
+<option value="7">7:00 AM</option>
+<option value="8">8:00 AM</option>
+<option value="9">9:00 AM</option>
+<option value="10">10:00 AM</option>
+<option value="11">11:00 AM</option>
+<option value="12">12:00 PM</option>
+<option value="13">1:00 PM</option>
+<option value="14">2:00 PM</option>
+<option value="15">3:00 PM</option>
+<option value="16">4:00 PM</option>
+<option value="17">5:00 PM</option>
+<option value="18">6:00 PM</option>
+<option value="19">7:00 PM</option>
+<option value="20">8:00 PM</option>
+<option value="21">9:00 PM</option>
+<option value="22">10:00 PM</option>
+<option value="23">11:00 PM</option>
+					</select>
+				</div>
+
+				<div id="air_date2_block" class="return_date">
+					<label for="air_date2">Return:</label><br />
+					<input name="return_date" id="air_date2" type="text" value="mm/dd/yyyy" title="Return" class="smartElement required common returnDate calendarUI" />
+					<select name="return_time" id="air_returnTime" title="Return Time" class="smartElement">
+						<option value="anytime">Anytime</option>
+<option value="morning">Morning</option>
+<option value="noon">Afternoon</option>
+<option value="evening">Evening</option>
+<option value="0">12:00 AM</option>
+<option value="1">1:00 AM</option>
+<option value="2">2:00 AM</option>
+<option value="3">3:00 AM</option>
+<option value="4">4:00 AM</option>
+<option value="5">5:00 AM</option>
+<option value="6">6:00 AM</option>
+<option value="7">7:00 AM</option>
+<option value="8">8:00 AM</option>
+<option value="9">9:00 AM</option>
+<option value="10">10:00 AM</option>
+<option value="11">11:00 AM</option>
+<option value="12">12:00 PM</option>
+<option value="13">1:00 PM</option>
+<option value="14">2:00 PM</option>
+<option value="15">3:00 PM</option>
+<option value="16">4:00 PM</option>
+<option value="17">5:00 PM</option>
+<option value="18">6:00 PM</option>
+<option value="19">7:00 PM</option>
+<option value="20">8:00 PM</option>
+<option value="21">9:00 PM</option>
+<option value="22">10:00 PM</option>
+<option value="23">11:00 PM</option>
+					</select>
+				</div>
+			</div>
+				<div class="service_class">
+				<label for="service_class">Class:</label>
+				<select name="sc" class="smartElement BBInputSelect" id="air_service_class">
+					<option value="business">Business</option>
+					<option value="economy_coach" selected="selected">Economy/Coach</option>
+					<option value="first_class">First Class</option>
+				</select>
+			</div>
+			<div class="travelers">
+			<label for="air_num_travelers">Travelers:</label>
+			<select name="num_travelers" id="air_num_travelers" title="Number of Travelers" class="smartElement common">
+				<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+			</select>
+		</div>
+			
+		<div class="nl_sub_inline hide">
+						<div class="hide smRoomAbove nl_sub_inline_departure">
+			  <label>
+			    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_departure" /> 
+			    <span class="left label nl_sub_inline_departure_desc"></span>
+			  </label>
+			  <br class="clear" />
+			</div>
+			<div class="hide smRoomAbove nl_sub_inline_route">
+			  <label>
+			    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_route" /> 
+			    <span class="left label nl_sub_inline_route_desc"></span>
+			  </label>
+			  <br class="clear" />
+			</div>
+						<div class="hide nl_sub_inline_e1_div">
+			  <input type="text" class="text smartElement defaultClear nl_sub_inline_e1" name="e1" value="enter your email address"  />
+			</div>
+		</div>
+				<div class="submit">
+            		<div class="submit_btn orange large ">
+			<input type="button" class="btn submitTrigger " value="SEARCH" />
+			<input type="button" class="submitTrigger submit_arrow " value="" />
+		</div>
+	        </div>
+
+							</div>
+					</form>
+					
+					<form id="hotel_widget_form" class="smartForm searchForm skipStep2 delayedLoad" method="get" action="/step2.php" style="">
+						<div class="search_widget_main hotel">
+										<div class="smartFormErrorMessages"></div>
+				<input type="hidden" class="hidden" name="search_mode" value="hotel" />
+			<input type="hidden" class="hidden" name="af" value="1274192" />
+				<div class="cities">
+				<div class="destination_city">
+					<label for="hotel_arrival_city">City:</label><br />
+					<input name="arrival_city" id="hotel_arrival_city" type="text" title="City" class="noFirstClick smartElement required common locationSuggest city ajaxLocationSignup"/>
+				</div>
+			</div>
+				<div class="dates">
+				<div class="arrival_date">
+					<label for="hotel_date1">Check-in:</label><br />
+					<input name="arrival_date" id="hotel_date1" type="text" value="mm/dd/yyyy" title="Check-in" class="smartElement required common departureDate calendarUI" />
+				</div>
+				<div class="return_date">
+					<label for="hotel_date2">Check-out:</label><br />
+					<input name="departure_date" id="hotel_date2" type="text" value="mm/dd/yyyy" title="Check-out" class="smartElement required common returnDate calendarUI" />
+				</div>
+			</div>
+				<div class="num_guests">
+				<label for="hotel_num_travelers">Guests:</label><br />
+				<select name="num_travelers" id="hotel_num_travelers" title="Number of Guests" class="smartElement common">
+					<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+			  </select>
+			</div>
+				<div class="num_rooms">
+				<label for="hotel_num_rooms">Rooms:</label><br />
+				<select name="num_rooms" id="hotel_num_rooms" title="Number of Rooms" class="smartElement common">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3+</option>
+				</select>
+			</div>
+				<div class="provider">
+				<label for="hotel_provider">Specific Hotel</label> (Optional):<br />
+				<input id="hotel_provider" name="provider" title="Specific Hotel" class="smartElement common"/>
+			</div>
+			
+		<div class="nl_sub_inline hide">
+							<div class="hide smRoomAbove nl_sub_inline_hotel_watch">
+					<label>
+						<input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_hotel_watch" />
+						<span class="left label nl_sub_inline_hotel_watch_desc"></span>
+					</label>
+					<br class="clear" />
+				</div>
+						<div class="hide smRoomAbove nl_sub_inline_departure">
+			  <label>
+			    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_departure" /> 
+			    <span class="left label nl_sub_inline_departure_desc"></span>
+			  </label>
+			  <br class="clear" />
+			</div>
+			<div class="hide smRoomAbove nl_sub_inline_route">
+			  <label>
+			    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_route" /> 
+			    <span class="left label nl_sub_inline_route_desc"></span>
+			  </label>
+			  <br class="clear" />
+			</div>
+							<div class="hide smRoomAbove nl_sub_inline_sa">
+					<label>
+						<input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_sa" />
+						<span class="left label nl_sub_inline_sa_desc"></span>
+					</label>
+					<br class="clear" />
+				</div>
+						<div class="hide nl_sub_inline_e1_div">
+			  <input type="text" class="text smartElement defaultClear nl_sub_inline_e1" name="e1" value="enter your email address"  />
+			</div>
+		</div>
+				<div class="submit">
+            		<div class="submit_btn orange large ">
+			<input type="button" class="btn submitTrigger " value="SEARCH" />
+			<input type="button" class="submitTrigger submit_arrow " value="" />
+		</div>
+	        </div>
+
+			<div class="group_link"><a href="http://rd.bookingbuddy.com/?r=bb_hotel_planner" target="_blank">Groups: Need 3+ rooms? Try HotelPlanner.com</a></div>
+							</div>
+					</form>
+					
+					<form id="vacation_widget_form" class="smartForm searchForm skipStep2 delayedLoad" method="get" action="/step2.php" style="">
+						<div class="search_widget_main vacation">
+										<div class="smartFormErrorMessages"></div>
+				<input type="hidden" class="hidden" name="search_mode" value="vacation" />
+			<input type="hidden" class="hidden" name="af" value="1274192" />
+				<div class="cities">
+				<div class="departure_city">
+			    	<label for="vacation_departure_city">From:</label><br />
+			    	<input name="departure_city" id="vacation_departure_city" type="text" title="From" class="noFirstClick smartElement required common locationSuggest airport ipLocAirport" />
+				</div>
+				<div class="destination_city">
+			    	<label for="vacation_arrival_city">To:</label><br />
+			    	<input name="arrival_city" id="vacation_arrival_city" type="text" title="To" class="noFirstClick smartElement required common locationSuggest airport " />
+				</div>
+			</div>
+				<div class="dates">
+			 	<div class="arrival_date">
+					<label for="vacation_date1">Depart:</label><br />
+					<input name="departure_date" id="vacation_date1" type="text" value="mm/dd/yyyy" title="Depart" class="smartElement required common departureDate calendarUI"/>
+				</div>
+
+				<div class="vacation_date2">
+					<label for="vacation_date2">Return:</label><br/>
+					<input name="return_date" id="vacation_date2" type="text" value="mm/dd/yyyy" title="Return" class="smartElement required common returnDate calendarUI"/>
+				</div>
+			</div>
+				<div class="num_travelers">
+				<label for="vacation_num_travelers">Travelers:</label>
+				<select name="num_travelers" id="vacation_num_travelers" title="Number of Travelers" class="smartElement common">
+				 <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option>				</select>
+			</div>
+			<div class="submit">
+            		<div class="submit_btn orange large ">
+			<input type="button" class="btn submitTrigger " value="SEARCH" />
+			<input type="button" class="submitTrigger submit_arrow " value="" />
+		</div>
+	        </div>
+
+							</div>
+					</form>
+					
+					<form id="car_widget_form" class="smartForm searchForm skipStep2 delayedLoad" method="get" action="/step2.php" style="">
+						<div class="search_widget_main car">
+										<div class="smartFormErrorMessages"></div>
+				<input type="hidden" class="hidden" name="search_mode" value="car" />
+			<input type="hidden" class="hidden" name="af" value="1274192" />
+				<div class="cities">
+				<div class="destination_city">
+					<label for="car_arrival_city">Pick-up City:</label><br />
+					<input name="pickup_city" id="car_arrival_city" title="Pick-up City" class="noFirstClick smartElement required common locationSuggest airport city" />
+				</div>
+			</div>
+				<div class="dates">
+				<div class="arrival_date">
+					<label for="car_date1">Pick-up:</label><br />
+					<input name="pickup_date" id="car_date1" type="text" value="mm/dd/yyyy" title="Pick-up" class="smartElement required common departureDate calendarUI"/>
+					<span class="date_input">
+						<select name="pickup_time" id="car_pickup_time" title="Pick-up Time" class="time smartElement">
+							<option value="0">12:00 AM</option>
+<option value="1">1:00 AM</option>
+<option value="2">2:00 AM</option>
+<option value="3">3:00 AM</option>
+<option value="4">4:00 AM</option>
+<option value="5">5:00 AM</option>
+<option value="6">6:00 AM</option>
+<option value="7">7:00 AM</option>
+<option value="8">8:00 AM</option>
+<option value="9">9:00 AM</option>
+<option value="10">10:00 AM</option>
+<option value="11" selected="selected">11:00 AM</option>
+<option value="12">12:00 PM</option>
+<option value="13">1:00 PM</option>
+<option value="14">2:00 PM</option>
+<option value="15">3:00 PM</option>
+<option value="16">4:00 PM</option>
+<option value="17">5:00 PM</option>
+<option value="18">6:00 PM</option>
+<option value="19">7:00 PM</option>
+<option value="20">8:00 PM</option>
+<option value="21">9:00 PM</option>
+<option value="22">10:00 PM</option>
+<option value="23">11:00 PM</option>
+						</select>
+					</span>
+				</div>
+
+				<div class="return_date">
+					<label for="car_date2">Drop-off:</label><br />
+					<input name="dropoff_date" id="car_date2" type="text" value="mm/dd/yyyy" title="Drop-off" class="smartElement required common returnDate calendarUI"/>
+					<span class="date_input">
+						<select name="dropoff_time" id="car_dropoff_time" title="Drop-off Time" class="time smartElement">
+							<option value="0">12:00 AM</option>
+<option value="1">1:00 AM</option>
+<option value="2">2:00 AM</option>
+<option value="3">3:00 AM</option>
+<option value="4">4:00 AM</option>
+<option value="5">5:00 AM</option>
+<option value="6">6:00 AM</option>
+<option value="7">7:00 AM</option>
+<option value="8">8:00 AM</option>
+<option value="9">9:00 AM</option>
+<option value="10">10:00 AM</option>
+<option value="11" selected="selected">11:00 AM</option>
+<option value="12">12:00 PM</option>
+<option value="13">1:00 PM</option>
+<option value="14">2:00 PM</option>
+<option value="15">3:00 PM</option>
+<option value="16">4:00 PM</option>
+<option value="17">5:00 PM</option>
+<option value="18">6:00 PM</option>
+<option value="19">7:00 PM</option>
+<option value="20">8:00 PM</option>
+<option value="21">9:00 PM</option>
+<option value="22">10:00 PM</option>
+<option value="23">11:00 PM</option>
+					 	</select>
+					</span>
+				</div>
+			</div>
+
+			<div class="note">(Not all providers offer all pick-up and drop-off times. Please check the rental times before booking on a provider's site.)</div>
+			
+		<div class="nl_sub_inline hide">
+						<div class="hide smRoomAbove nl_sub_inline_departure">
+			  <label>
+			    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_departure" /> 
+			    <span class="left label nl_sub_inline_departure_desc"></span>
+			  </label>
+			  <br class="clear" />
+			</div>
+			<div class="hide smRoomAbove nl_sub_inline_route">
+			  <label>
+			    <input type="checkbox" class="left block smMarginRight" name="nlp[]" value="nl_product_bb_route" /> 
+			    <span class="left label nl_sub_inline_route_desc"></span>
+			  </label>
+			  <br class="clear" />
+			</div>
+						<div class="hide nl_sub_inline_e1_div">
+			  <input type="text" class="text smartElement defaultClear nl_sub_inline_e1" name="e1" value="enter your email address"  />
+			</div>
+		</div>
+				<div class="submit">
+            		<div class="submit_btn orange large ">
+			<input type="button" class="btn submitTrigger " value="SEARCH" />
+			<input type="button" class="submitTrigger submit_arrow " value="" />
+		</div>
+	        </div>
+
+			<div class="group_link"><a href="http://www.hotelplanner.com/Rental-Car-Reservations/?sc=bbuddy_Car&noredir" target="_blank">Groups:Need 5+ cars? Try HotelPlanner.com</a></div>
+							</div>
+					</form>
+				</div>
+			</div>
+									</div>
+								<div class="clear"></div>
+							</div>
+							<div class="bottom">
+								<div class="left"></div>
+								<div class="middle"></div>
+								<div class="right"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div id="pagetop_right_div">
+						<div id="box_instructions"></div>
+						<div id="box_bullets"></div>
+					</div>
+				</div>
+				<div class="bottom_row_shadow bottom_row"></div>
+			</div>
+		</div>
+	
+		<div id="left_column" class="left_column">
+				<div class="module  ">
+			<div class="top">
+			  <div class="left">&nbsp;</div>
+			  <div class="right">&nbsp;</div>
+			  <div class="middle">&nbsp;</div>
+			</div>
+			<div class="title">Destination Spotlight: Las Vegas</div>
+			<div class="contents">
+			<div id="rev_spotlight">
+	<a href="/travel-deals/las-vegas-nv/travel/deals/"><img src="http://i.slimg.com/sc/bk/graphic/v/ve/vegas_spotlight.jpg" alt="Vegas" /></a>
+	<br />
+	<div class="headline">Explore Las Vegas</div>
+	<div class="body">
+		<p>Get your glitz, glitter, and gambling fix at that diamond in the dust, Las Vegas. Even not-so-high rollers can score pretty great travel deals to good old Sin City.</p>
+		<p><span class='arrow'>&raquo;</span>&nbsp;<a href="/travel-deals/las-vegas-nv/travel/deals/">Get our best Las Vegas Deals</a></p>
+		<p><span class='arrow'>&raquo;</span>&nbsp;<a href="/hotel_listings.php?city=1435">Compare Las Vegas Hotels</a></p>
+		<p><span class='arrow'>&raquo;</span>&nbsp;<a href="destinations/Las+Vegas-NV-travel-information.html?arrival_city=Las+Vegas%2C+NV&amp;city=1435">Find more information about Las Vegas</a></p>
+	</div>
+</div>			</div>
+			<div class="bottom">
+			  <div class="left">&nbsp;</div>
+			  <div class="right">&nbsp;</div>
+			  <div class="middle">&nbsp;</div>
+		    </div>
+		</div>
+				<div class="module  ">
+			<div class="top">
+			  <div class="left">&nbsp;</div>
+			  <div class="right">&nbsp;</div>
+			  <div class="middle">&nbsp;</div>
+			</div>
+			<div class="title">More Cheap Flights Deals</div>
+			<div class="contents">
+					
+			<table class="popular_links_module"><tbody>
+				<tr>
+					<td><a href="/cheap-flights/to-New+York-NY/">Cheap Flights to New York City</a></td><td><a href="/cheap-flights/to-Los+Angeles-CA/">Cheap Flights to Los Angeles</a></td></tr><tr><td><a href="/cheap-flights/to-Chicago-IL/">Cheap Flights to Chicago</a></td><td><a href="/cheap-flights/to-San+Francisco-CA/">Cheap Flights to San Francisco</a></td></tr><tr><td><a href="/cheap-flights/to-Boston-MA/">Cheap Flights to Boston</a></td><td><a href="/cheap-flights/to-Atlanta-GA/">Cheap Flights to Atlanta</a></td></tr><tr><td><a href="/cheap-flights/to-Seattle-WA/">Cheap Flights to Seattle</a></td><td><a href="/cheap-flights/to-Orlando-FL/">Cheap Flights to Orlando</a></td></tr><tr><td><a href="/cheap-flights/to-Denver-CO/">Cheap Flights to Denver</a></td><td><a href="/cheap-flights/to-Minneapolis-MN/">Cheap Flights to Minneapolis</a></td></tr><tr><td><a href="/cheap-flights/to-Dallas-TX/">Cheap Flights to Dallas</a></td><td><a href="/cheap-flights/to-Philadelphia-PA/">Cheap Flights to Philadelphia</a></td></tr><tr><td><a href="/cheap-flights/to-Phoenix-AZ/">Cheap Flights to Phoenix</a></td><td><a href="/cheap-flights/to-Portland-OR/">Cheap Flights to Portland</a></td></tr><tr><td><a href="/cheap-flights/to-Las+Vegas-NV/">Cheap Flights to Las Vegas</a></td><td><a href="/cheap-flights/to-Newark-NJ/">Cheap Flights to Newark</a></td></tr><tr><td><a href="/cheap-flights/to-Tampa-FL/">Cheap Flights to Tampa</a></td><td><a href="/cheap-flights/to-Washington-DC/">Cheap Flights to Washington</a></td></tr><tr><td><a href="/cheap-flights/to-Detroit-MI/">Cheap Flights to Detroit</a></td><td><a href="/cheap-flights/to-San+Diego-CA/">Cheap Flights to San Diego</a></td></tr><tr>				</tr>
+			</tbody></table>
+				
+					</div>
+			<div class="bottom">
+			  <div class="left">&nbsp;</div>
+			  <div class="right">&nbsp;</div>
+			  <div class="middle">&nbsp;</div>
+		    </div>
+		</div>
+				</div>
+
+		<div id="right_column" class="right_column">
+				<div id="top_deals_box" class="module deals_module top_deals" style="display:none;">
+			 <div class="top">
+			   <div class="left">&nbsp;</div>
+			   <div class="right">&nbsp;</div>
+			   <div class="middle">&nbsp;</div>
+			 </div>
+			 <div id="BB-top-deals-title" class="title">Our Top Travel Deals</div>
+			 <div class="deals_module_tag"></div>
+			 <div class="contents">
+			   <div id="top-deals-header">
+				 <div class="text-header">
+				   <span class="price-title">Price</span>
+				   <span class="destination-title">Destination</span>
+				   <span class="description-title">Description</span>	
+				 </div>
+				 <div class="separator-period"></div>
+			   </div>
+			   <div id="BB-deals-section" class="deals-section"> </div>
+			   
+			   			   <div id="dealssub" class="deals_sub wide">
+				 <div class="top">
+				   <div class="left">&nbsp;</div>
+				   <div class="right">&nbsp;</div>
+				   <div class="middle">&nbsp;</div>
+				 </div>
+				 <div class="contents"> 
+				   <div class="new_reg hide">
+				     <p class="sub_header">Thanks and Welcome!</p>
+					 <p class="message">New ways to save with top travel deals are on their way to you soon!</p>
+				   </div>
+				   <div class="existing_reg hide">
+					 <p class="sub_header">Welcome Back!</p>
+					 <p class="message">You are currently subscribed to our Top Deals Alert.</p>
+				   </div>
+				   <div class="unsubscribed">
+					 <p class="sub_header">Free! Get deals like these emailed each week!</p>
+					 <form action="" method="post" class="smartForm" id="dealssub_form">
+					   <div id="dealssub_form_errorMessages" class="smartFormErrorMessages"></div>
+					   <input type="hidden" name="nlp[]" value="nl_product_bbtd" />
+					   <input type="hidden" name="nlp[]" value="nl_product_tji" />
+					   <input type="hidden" name="nlp[]" value="nl_product_bb_tripreminder" />
+					   <input type="hidden" name="e2" value="" class="autoConfirmEmail" />
+
+					   <label for="dealssub_e1">Email Address:
+						 <input name="e1" type="text" title="Email Address" class="smartElement required noFirstClick" id="dealssub_e1" maxlength="50" size="40" />
+					   </label>
+
+					   <label for="dealssub_ac1">Home Airport:
+						 <input name="ac1" type="text" title="Home Airport" class="smartElement locationSuggest airport ipLocAirport required noFirstClick" id="dealssub_ac1" autocomplete="off" />
+					   </label>
+
+					   <div class="clear"></div>
+
+					   <div class="formbutton">
+						 <div class="left"></div>
+						 <input type="submit" class="noFirstClick" value="SIGN UP" />
+						 <input type="submit" class="submit_arrow noFirstClick" value="" />
+						 <input type="submit" class="submit_arrow_right noFirstClick" value="" />
+						 <div class="right"></div>
+					   </div>
+
+					   <div class="signup_terms">
+						 <a href="#" class="privacy">Privacy Policy</a>
+					   </div>
+					   <div class="clear"></div>
+					 </form>
+				   </div>
+				 </div>
+				 <div class="bottom">
+				   <div class="left">&nbsp;</div>
+				   <div class="right">&nbsp;</div>
+				   <div class="middle">&nbsp;</div>
+			     </div>
+			   </div>
+			   
+			   <div class='more_news'><a href="/travel-deals/" target="_self">More Deals <span class='arrow'>&raquo;</span></a></div>
+			 </div>
+			 <div class="bottom">
+			   <div class="left">&nbsp;</div>
+			   <div class="right">&nbsp;</div>
+			   <div class="middle">&nbsp;</div>
+			 </div>
+	    </div>
+				<div class="module  ">
+			<div class="top">
+			  <div class="left">&nbsp;</div>
+			  <div class="right">&nbsp;</div>
+			  <div class="middle">&nbsp;</div>
+			</div>
+			<div class="title">Travel News</div>
+			<div class="contents">
+			
+<div class="blog_entry">
+	<a href="http://rd.BookingBuddy.com/?ht=3139538607d8e4cc1890ab240fa4b268b5185304&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FDt_t6pF4hYQ%2Ftravel-news-and-travel-deals-from-smartertravel.html"><img class="left" src="http://i.slimg.com/bookingbuddy/blog/stm4cf6bc1250bc220101201.jpg" alt="Blog Photo" /></a>	<div class="blog_title">
+		<a href="http://rd.BookingBuddy.com/?ht=3139538607d8e4cc1890ab240fa4b268b5185304&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FDt_t6pF4hYQ%2Ftravel-news-and-travel-deals-from-smartertravel.html">Travel News and Travel Deals from SmarterTravel</a>
+	</div>
+	<div class="byline">
+		Posted December 13, 2010 by Booking Buddy	</div>
+	<div class="text">
+		What Are My Rights in a Really Long Delay? Ed Perkins on what you can legally demand when things go bad. FAA Loses Records for 119,000 Planes Lost data leaves aircraft vulnerable to terrorists, drug smugglers. Nearly All of US... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=3139538607d8e4cc1890ab240fa4b268b5185304&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FDt_t6pF4hYQ%2Ftravel-news-and-travel-deals-from-smartertravel.html">&raquo;</a>
+	</div>
+	<div class="comments">
+		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=4bda1e6bf82321b61a433c92d13aa5118619b530&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FDt_t6pF4hYQ%2Ftravel-news-and-travel-deals-from-smartertravel.html%23comments">Comments</a> 
+		
+				<a class="num_comments" href="http://rd.BookingBuddy.com/?ht=4bda1e6bf82321b61a433c92d13aa5118619b530&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FDt_t6pF4hYQ%2Ftravel-news-and-travel-deals-from-smartertravel.html%23comments">(7)</a>
+				
+	</div>
+</div>
+<div class="blog_entry">
+		<div class="blog_title">
+		<a href="http://rd.BookingBuddy.com/?ht=384db748924502b0877f9c5e07f266d6500b8fa8&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FcSX6NUHXxAo%2Fdaily-travel-news-and-deals-from-smartertravel.html">Daily Travel News and Deals from SmarterTravel</a>
+	</div>
+	<div class="byline">
+		Posted December 7, 2010 by Booking Buddy	</div>
+	<div class="text">
+		Destination of the Day: Italy - Find a Cheap Flight Now! Italy's Cinque Terre. Photo Submitted by Reader Sookyung. MORE EDITORS' PICKS: DEALS, NEWS, AND ADVICE Free Night at Atlantis, Paradise Island Plus, kids stay free! Book by January 23.... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=384db748924502b0877f9c5e07f266d6500b8fa8&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FcSX6NUHXxAo%2Fdaily-travel-news-and-deals-from-smartertravel.html">&raquo;</a>
+	</div>
+	<div class="comments">
+		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=36af8fe33c6e47d4f8b8f8af351096d92a4222bc&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FcSX6NUHXxAo%2Fdaily-travel-news-and-deals-from-smartertravel.html%23comments">Comments</a> 
+		
+				<a class="num_comments" href="http://rd.BookingBuddy.com/?ht=36af8fe33c6e47d4f8b8f8af351096d92a4222bc&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FcSX6NUHXxAo%2Fdaily-travel-news-and-deals-from-smartertravel.html%23comments">(5)</a>
+				
+	</div>
+</div>
+<div class="blog_entry">
+		<div class="blog_title">
+		<a href="http://rd.BookingBuddy.com/?ht=6a290f92fe957caffe5b6aadb9155fd09f20bcea&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F23UMLwpMBN8%2Ftravel-news-and-advice-from-smartertravel.html">Travel News and Advice from SmarterTravel</a>
+	</div>
+	<div class="byline">
+		Posted December 6, 2010 by Booking Buddy	</div>
+	<div class="text">
+		Destination of the Day: Las Vegas - Find a Cheap Flight Now! Las Vegas Photo Submitted by Reader MelindaSteffen MORE EDITORS' PICKS: DEALS, NEWS, AND ADVICE Are Bag Fees Buying Better Service? Some airlines are using fees to upgrade their... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=6a290f92fe957caffe5b6aadb9155fd09f20bcea&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F23UMLwpMBN8%2Ftravel-news-and-advice-from-smartertravel.html">&raquo;</a>
+	</div>
+	<div class="comments">
+		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=ff3c362ff45a642d63db1eea2550231f89a87f4d&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F23UMLwpMBN8%2Ftravel-news-and-advice-from-smartertravel.html%23comments">Comments</a> 
+		
+				<a class="num_comments" href="http://rd.BookingBuddy.com/?ht=ff3c362ff45a642d63db1eea2550231f89a87f4d&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2F23UMLwpMBN8%2Ftravel-news-and-advice-from-smartertravel.html%23comments">(4)</a>
+				
+	</div>
+</div>
+<div class="blog_entry">
+		<div class="blog_title">
+		<a href="http://rd.BookingBuddy.com/?ht=a5390988ed73fb2af53c3b2e44adecf63317c6d5&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FJyO_l-rbX8E%2Fbookingbuddy-blog-hosts-travel-news-from-smartertravel.html">BookingBuddy Blog Hosts Travel News from SmarterTravel</a>
+	</div>
+	<div class="byline">
+		Posted December 3, 2010 by Booking Buddy	</div>
+	<div class="text">
+		Where in the World: Guess Where This Photo Was Taken! Hint: Once considered a failure, this place is now a World Heritage Site. Find the Answer to Yesterday's Mystery Photo Here Hint: This iconic structure will be forever linked to... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=a5390988ed73fb2af53c3b2e44adecf63317c6d5&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FJyO_l-rbX8E%2Fbookingbuddy-blog-hosts-travel-news-from-smartertravel.html">&raquo;</a>
+	</div>
+	<div class="comments">
+		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=42193b7e4e064beb652f36e456bca37c17664ecb&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FJyO_l-rbX8E%2Fbookingbuddy-blog-hosts-travel-news-from-smartertravel.html%23comments">Comments</a> 
+		
+				<a class="num_comments" href="http://rd.BookingBuddy.com/?ht=42193b7e4e064beb652f36e456bca37c17664ecb&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FJyO_l-rbX8E%2Fbookingbuddy-blog-hosts-travel-news-from-smartertravel.html%23comments">(25)</a>
+				
+	</div>
+</div>
+<div class="blog_entry">
+		<div class="blog_title">
+		<a href="http://rd.BookingBuddy.com/?ht=e2915ecf8aec79df58af043efcbcd0827c6ce693&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FaOsY2Z2oOEw%2Ftravel-news-and-deals-from-smartertravel.html">Travel News and Deals from SmarterTravel</a>
+	</div>
+	<div class="byline">
+		Posted December 2, 2010 by Booking Buddy	</div>
+	<div class="text">
+		Where in the World: Guess Where This Photo Was Taken! Hint: This iconic structure will be forever linked to a famous musician. Find the Answer to Yesterday's Mystery Photo Here Hint: This place stands 368 meters tall and receives more... <a class="arrow" href="http://rd.BookingBuddy.com/?ht=e2915ecf8aec79df58af043efcbcd0827c6ce693&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FaOsY2Z2oOEw%2Ftravel-news-and-deals-from-smartertravel.html">&raquo;</a>
+	</div>
+	<div class="comments">
+		DISCUSSION: <a href="http://rd.BookingBuddy.com/?ht=b21cfff254dd0a388cb65877eabe4dd9610089e8&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FaOsY2Z2oOEw%2Ftravel-news-and-deals-from-smartertravel.html%23comments">Comments</a> 
+		
+				<a class="num_comments" href="http://rd.BookingBuddy.com/?ht=b21cfff254dd0a388cb65877eabe4dd9610089e8&amp;rdurl=http%3A%2F%2Ffeedproxy.google.com%2F%7Er%2Ftypepad%2Fbookingbuddy%2F%7E3%2FaOsY2Z2oOEw%2Ftravel-news-and-deals-from-smartertravel.html%23comments">(3)</a>
+				
+	</div>
+</div><div class="more_news"><a href="http://rd.BookingBuddy.com/?ht=8074d75a79b12e0c76b2ffb0bb2141bd7d769796&amp;rdurl=http%3A%2F%2Fblog.bookingbuddy.com%2F">More News <span class="arrow">&raquo;</span></a></div>			</div>
+			<div class="bottom">
+			  <div class="left">&nbsp;</div>
+			  <div class="right">&nbsp;</div>
+			  <div class="middle">&nbsp;</div>
+		    </div>
+		</div>
+				<div class="dart_ad module" style="display: none;">
+			<div class="ad_container">
+				<div class="ad_label">Advertisement</div>
+				<div class="ad_frame">
+					<div class="meta_data">{&quot;width&quot;:1,&quot;height&quot;:1,&quot;request&quot;:&quot;http:\/\/ad.doubleclick.net\/adj\/ta.bb.com\/homepage;oct=philadelphia;oco=united_states;ost=pennsylvania;owr=north_america;ptag=homepage_s;u=|||homepage|north_america|united_states|pennsylvania|philadelphia|||||;dcopt=ist;sz=1x1;tile=1;ord=1521998593;&quot;,&quot;endpoint&quot;:&quot;\/ad_wrapper.php&quot;}</div>
+				</div>
+			</div>  
+		</div>      
+		<noscript>  
+			<a href="http://ad.doubleclick.net/jump/ta.bb.com/homepage;oct=philadelphia;oco=united_states;ost=pennsylvania;owr=north_america;ptag=homepage_s;u=|||homepage|north_america|united_states|pennsylvania|philadelphia|||||;dcopt=ist;sz=1x1;tile=1;ord=1521998593;">
+				<img alt="" src="http://ad.doubleclick.net/ad/ta.bb.com/homepage;oct=philadelphia;oco=united_states;ost=pennsylvania;owr=north_america;ptag=homepage_s;u=|||homepage|north_america|united_states|pennsylvania|philadelphia|||||;dcopt=ist;sz=1x1;tile=1;ord=1521998593;" />
+			</a>
+		</noscript>
+				</div>
+		<div class="clear"></div>
+
+			</div>
+		<div id="page_wrapper_bottom"></div>
+		<div id="footer">
+					<div id="footer-div">
+		  <div class="boxcontent">
+			<span>Cheap flights, cheap tickets, and more at BookingBuddy.com. The fastest way to search your favorite travel sites.</span>
+			<br /><br />
+			<a href="/flight.php">Cheap Flights</a>
+| <a href="/hotel.php">Cheap Hotels</a>
+| <a href="/vacation.php">Cheap Vacation Packages</a>
+| <a href="/car.php">Cheap Car Rental</a>
+| <a href="/vacation-rentals.php">Cheap Vacation Rentals</a>
+| <a href="/cruise.php">Cheap Cruises</a>
+| <a href="#" onmousedown="try{this.href=d0('ipnp.shot%2Faeitsnd');}catch(e){};;return true;">Destinations</a>
+<br /> <a href="#" onmousedown="try{this.href=d0('apep.sh%2Ftflifia');}catch(e){};;return true;">Become an Affiliate</a>
+| <a href="http://blog.bookingbuddy.com/" onmousedown="try{this.href=d0('4Fb%257o7.9d9u%26gmi%3Bodbrg%3DltFp%2532%25AF%252tbhol.uorkpnab6d7y6cdmd2h1t2%3Ab%2FbdfBbo7i0g2ubd7.5od%2F7h8%3Dt0%3F4m7cay9d1Benck6o2.fr0%2Fbp1t');}catch(e){};;return true;">Travel News Blog</a>
+| <a href="#" onmousedown="try{this.href=d0('-seald%2F%2Feravtl');}catch(e){};;return true;">Travel Deals</a>
+| <a href="#" onmousedown="try{this.href=d0('chi.tnoispprpsb%2Fsug%2Fahcnbesu');}catch(e){};;return true;">Change Subscriptions</a>
+| <a href="#" onmousedown="try{this.href=d0('.phpp%2Fleh');}catch(e){};;return true;">Help</a>
+| <a href="#" onmousedown="try{this.href=d0('cp.phka%2Fbeedf');}catch(e){};;return true;">Feedback</a>
+| <a href="#" onmousedown="try{this.href=d0('itgouadm.coy%2Fdbbunkhotb%3Ak%2Foetwnr%2F.pot');}catch(e){};;return true;">Advertise on BookingBuddy Deals Network</a>
+<br /> <a href="#" onmousedown="try{this.href=d0('thp.p%2Fobau');}catch(e){};;return true;">About BookingBuddy</a>
+| <a href="#" onmousedown="try{this.href=d0('shp.p%2Ferps');}catch(e){};;return true;">Press Mentions</a>
+| <a href="#" onmousedown="try{this.href=d0('iplp.shan%2Foeitsmt');}catch(e){};;return true;">Testimonials</a>
+| <a href="#" onmousedown="try{this.href=d0('ths.pup%2Faontcc');}catch(e){};;return true;">Advertise</a>
+| <a href="#" onmousedown="try{this.href=d0('yhp.pca%2Firpv');}catch(e){};;return true;">Privacy Policy</a>
+| <a href="#" onmousedown="try{this.href=d0('shp.p%2Fretm');}catch(e){};;return true;">Terms of Use</a>
+| <a href="#" onmousedown="try{this.href=d0('vsleeric.moc%2Faademreahrtr%3At%2Faws.wmwr%2Feptt');}catch(e){};;return true;">Jobs</a>
+| <a href="#" onmousedown="try{this.href=d0('php.pam%2Ftise');}catch(e){};;return true;">Sitemap</a>
+<br /> <a href="http://www.bookingbuddy.co.uk">BookingBuddy UK</a>
+| Find <a href="http://www.tripadvisor.com/Flights" >airline tickets</a> at TripAdvisor			<br/>
+			&copy; 2003-2012 Smarter Travel Media LLC. All Rights Reserved. |
+			Also part of the Smarter Travel Media LLC Network:			<a href="http://www.smartertravel.com">www.SmarterTravel.com</a> | <a href="http://www.airfarewatchdog.com">www.AirfareWatchdog.com</a>
+		    <br/>
+		  </div>
+		</div>
+				</div>
+		<span class="hide" id="affiliateName">bookingbuddy_com</span>
+		<span class="hide" id="searchModeName">home</span>
+		<span class="hide" id="siteDomainBase">bookingbuddy.com</span>
+		<span class="hide" id="siteRedirectUrl">http://rd.BookingBuddy.com/</span>
+		<span class="hide" id="TACheckRatesMCID">13285</span>
+		<span class="hide" id="TAHotelPhotosMCID">12410</span>
+		<span class="hide" id="TAReviewsMCID">12064</span>
+		 		<span class="hide" id="firstClickBBDPopunder"></span>
+	
+		<!-- IE8 webslice -->
+		<span style="display: none" id="BookingBuddySlice" class="hslice">
+			<span style="display: none" class="entry-title">Booking Buddy</span>
+			<a style="display: none" href="http://ie8php.hosting0.smoothfusion.com/bookingbuddy/MVCView.php" rel="entry-content"></a>
+		</span>
+				<!-- Begin BlueKai Tag -->
+		<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)"></iframe>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		
+		        function track() {
+		                var mode = BookingBuddy.searchMode || 'air',
+					// This is a really bad hack, but we need to get this working at least temporarily.
+					// Makes sure that the mode for the homepage is set to air.
+					mode = mode=='home' ? 'air' : mode,
+		                        search_data = BBSavedSearchData.singleton().getCurrentState().getDataByMode(mode),
+		                        airport_code_regex = /\(([A-Za-z]{3})\)/,
+		                        match = null,
+		                        converted_date = null,
+		                        value = null;
+		
+		                if (search_data != null) {
+		                        bk_addPageCtx('Mode', mode);
+		                        for (var input in search_data) {
+		                                if (typeof search_data[input] != "function") {
+		                                        value = search_data[input];
+		                                        // if available, only send the airport code for c1 and c2 vars
+		                                        if ("c1" == input || "c2" == input) {
+		                                                match = search_data[input].match(airport_code_regex);
+		                                                if (match && match.length >= 2 && match[1]) {
+		                                                        value = match[1];
+		                                                }
+		                                        } else if ("d1" == input || "d2" == input) {
+		                                                // convert date to mm/dd/yyyy format
+		                                                if (search_data[input]) {
+		                                                        converted_date = new Date(search_data[input]);
+		                                                        value = (converted_date.getMonth() + 1) + '/' + converted_date.getDate() + '/' + converted_date.getFullYear();
+		                                                }
+		                                        }
+		                                        bk_addPageCtx(input, value);
+		                                }
+		                        }
+		
+		                        // The values for doJSTag are
+		                        // our Site ID, Max amount of times the pixel will fire for Buyer, allows pixel to fire multiple times for a user
+		                        bk_doJSTag(3556, 4, true);
+		                }
+		        }
+
+		        function async_load() {
+	                var e = document.createElement('script');
+	                e.type = 'text/javascript';
+	                e.async = true;
+	                e.src = 'http://www.bkrtx.com/js/bk-static.js';
+
+	                // trigger the tracking after the bluekai js has finished loading
+
+	                // FF/CHROME
+	                e.onload = track;
+
+	                // IE
+	                e.onreadystatechange = function() {
+	                        // only start the tracking if the js is fully loaded
+	                        if ($j.inArray(e.readyState, ['complete', 'loaded']) > -1) {
+	                                track();
+	                        }
+	                }
+
+	                // Add the script to the DOM
+	                var x = document.getElementsByTagName('script')[0];
+	                x.parentNode.insertBefore(e,x);
+		        }
+	
+		        // after page load initialize the asynconous download of the bluekai js and activate their tracking.
+		        $j(window).load(async_load);
+
+		}());
+		/* ]]> */
+		</script>
+		<!-- End BlueKai Tag -->
+			</body>
+				</html>
+		

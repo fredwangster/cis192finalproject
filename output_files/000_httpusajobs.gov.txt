@@ -1,0 +1,195 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>
+		
+    USAJOBS - The Federal Government&rsquo;s Official Jobs Site
+	</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta content="IE=EmulateIE8" http-equiv="X-UA-Compatible" />
+	<meta name="keywords" content="Jobs, Employment, Federal, United States Government, U.S. Government, Federal Civil Service, Official" />
+	<link rel="apple-touch-icon" href="/Content/images/png/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="/Content/images/ico/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="/Content/Styles/usajobs-base-min.css" />
+	<link rel="stylesheet" href="/Content/Styles/usajobs-style-min.css" />
+	<!--[if IE 7]>
+	<link rel="stylesheet"  href="/Content/Styles/usajobs-ie7.css" />
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<link rel="stylesheet"  href="/Content/Styles/usajobs-ie6.css" />
+	<![endif]-->
+	<script type="text/javascript" src="/Scripts/jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.validate-1.9.0.min.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.validate.unobtrusive.min.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+	<script type="text/javascript" src="/Scripts/jquery-ui-1.8.11.min.js"></script>
+	<script type="text/javascript">
+		var lis = '0';
+		var myInactivity = 1620000;
+	</script>
+	<script type="text/javascript" charset="UTF-8" src="/Scripts/usajobs-base-min.v1.3.js"></script>
+	
+	<script type="text/javascript" src="/foresee/foresee-trigger.js"></script>
+	
+</head>
+<body>
+	<div class="backgroundborders">
+		<div id="wrapper" class="container_16">
+			<div id="topmenu" class="grid_16 alpha omega">
+				
+<div id="menu" class="menu">
+    <ul class="nodropdown">
+        <li><a tabindex="1" href="/">Home</a></li>
+    </ul>
+    <ul class="dropdown">
+        <li id="sjLI" onmouseover="showMenu('sjDropDownMenu');" onmouseout="timedMenuClose();">
+            <a accesskey="S" href="/" onfocus="showMenu(&#39;sjDropDownMenu&#39;);">Search Jobs</a>
+            <ul id="sjDropDownMenu">
+                <li><a href="/">Search Jobs - Main Page</a></li>
+                <li><a href="/JobSearch/Search/AdvancedSearch">Advanced Search</a></li>            
+            </ul>
+        </li>
+        <li id="maLI" onmouseover="showMenu('maDropDownMenu');" onmouseout="timedMenuClose();">
+            <a href="/Applicant/MyAccount/Home" onfocus="showMenu(&#39;maDropDownMenu&#39;);">My Account</a>
+            <ul id="maDropDownMenu">
+                <li><a href="/Applicant/MyAccount/Home">My Account - Main Page</a></li>
+                <li><a href="/Profile">Profile</a></li>
+                <li><a href="/Applicant/Resume/ListResumes">Resumes</a></li>
+                <li><a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a></li>
+                <li><a href="/SavedJobs/ListSavedJobs">Saved Jobs</a></li>
+                <li><a href="/Applicant/Document/ListDocuments">Saved Documents</a></li>
+                <li><a href="/Application/ListApplications">Application Status</a></li>
+            </ul>
+        </li>
+        <li id="rcLI" onmouseover="showMenu('rcDropDownMenu');" onmouseout="timedMenuClose();">
+            <a href="/ResourceCenter" onfocus="showMenu('rcDropDownMenu');" accesskey="I">Resource Center</a>
+            <ul id="rcDropDownMenu">
+                <li><a href="/ResourceCenter">Resource Center - Main Page</a></li>
+                <li><a href="/ResourceCenter/Index/Interactive/FormsHome#icc">Supplemental Forms</a></li>
+                <li><a href="/IndividualsWithDisabilities">Individuals with Disabilities</a></li>
+                <li><a href="/Veterans">Veterans</a></li>
+                <li><a href="/StudentsAndGrads">Students and Recent Graduates</a></li>
+                <li><a href="/SeniorExecutives">Senior Executives</a></li>
+                <li><a href="/SpotlightsAll">Spotlights</a></li>
+                
+                <li><a href="http://help.usajobs.gov/index.php/Top_Ten_FAQ" onblur="timedMenuClose();" target="_blank">FAQs</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+				<div class="clear">
+				</div>
+				
+<span id="signin-createaccount">
+    
+    <a href="/Account/Login">Sign In</a>
+    or
+    <a href="/Account/Account">Create an Account</a>
+</span>
+
+			</div>
+			<!-- end #topmenu .grid_16 -->
+			<div class="clear">
+			</div>
+			
+    <div class="clear"></div>
+
+    
+
+    <div id="home" class="grid_16" style="background:transparent url(Content/images/jpg/usajobs-seal.jpg) no-repeat center top;">
+
+        <div id="refinesearchhome" class="grid_11 push_4 omega">
+            <form action="/JobSearch/Search/GetResults" id="homesearch" method="get">
+            <fieldset>
+                <legend>Search Jobs - Home</legend>
+                
+                <div class="what">
+                    <label class="inline" for="Keyword">
+                        What:</label>
+                        
+                    
+                    <span class="help"><a href="http://help.usajobs.gov/index.php/Keyword_Tips" target="_blank">Keyword Tips Icon</a></span>
+                    <input data-val="true" data-val-regex="-&#32;Keyword&#32;must&#32;not&#32;contain&#32;the&#32;special&#32;characters&#32;(&amp;lt;)&#32;or&#32;(&amp;gt;)." data-val-regex-pattern="[^&gt;&lt;]+" id="Keyword" name="Keyword" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Keyword" data-valmsg-replace="true"></span>
+                </div>
+                
+                <div class="where">
+                    <label for="Location">
+                        Where:</label>
+                    <input data-val="true" data-val-regex="-&#32;Location&#32;must&#32;not&#32;contain&#32;the&#32;special&#32;characters&#32;(&amp;lt;)&#32;or&#32;(&amp;gt;)." data-val-regex-pattern="[^&gt;&lt;]+" id="Location" name="Location" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Location" data-valmsg-replace="true"></span>
+                    <div id="options" style="float: right">
+                        <a href='/JobSearch/Search/AdvancedSearch'>
+                            Advanced Search &gt;</a><br />
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </fieldset>
+            
+            <div class="clear"></div>
+            
+            <div id="box">
+                <br />
+                <br />
+                <center>
+                    <input type="submit" name="search" value="Search!" id="search" /></center>
+                <br />
+            </div>
+            </form>
+        </div>
+
+        <div class="clear"></div>
+    
+        <div id="homeline2">
+            <a href="/IndividualsWithDisabilities">Individuals with Disabilities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <a href="/Veterans">Veterans</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <a href="/StudentsAndGrads">Students and Recent Graduates</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <a href="/SeniorExecutives">Senior Executives</a>&nbsp;&nbsp;&nbsp;
+        </div>
+        
+        <div id="followusajobs" class="grid_8 push_4">
+            <h2>Follow USAJOBS</h2>
+            <span>
+                <a class="facebook" href="http://www.facebook.com/USAJOBS" target="_blank">Facebook</a>
+                <a class="twitter" href="http://twitter.com/usajobs" target="_blank">Twitter</a>
+                <a class="youtube" href="http://www.youtube.com/user/usajobsapp" target="_blank">YouTube</a>
+            </span>
+        </div>
+    
+    </div>
+
+			<div class="clear">
+			</div>
+			<div id="footer" class="grid_16">
+				<a href="/Home/Sitemap">Site Map</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/Home/ContactUs">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<a href="http://help.usajobs.gov/index.php/Top_Ten_FAQ" target="_blank">Help/FAQs</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<a href="http://help.usajobs.gov/index.php/USAJobsHelp:Privacy_policy" target="_blank">Privacy Act and Public Burden Information</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.opm.gov/efoia/" target="_blank">FOIA</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<a href="http://help.usajobs.gov/index.php/About_Us" target="_blank">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.usa.gov/" target="_blank">USA.gov</a>
+<p id="statement">
+    This is a United States Office of Personnel Management website.<br />
+    USAJOBS is the Federal Government&rsquo;s official one-stop source for Federal jobs
+    and employment information.</p>
+
+			</div>
+			<!-- end #footer .grid_16 -->
+			<div class="clear">
+			</div>
+		</div>
+		<!-- end .container_16 -->
+	</div>
+</body>
+</html>

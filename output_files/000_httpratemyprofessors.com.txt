@@ -1,0 +1,926 @@
+
+
+
+		
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Rate My Professors | Find and rate your professor, campus and more - RateMyProfessors.com</title>
+
+<!-- <style type="text/css" media="screen">@import url( http://blog.ratemyprofessors.com/wp-content/themes/RMP/style.css );</style> -->
+
+<style type="text/css" media="screen">@import url("http://static.ratemyprofessors.com/wp-content/themes/RMP/style.css");</style>
+
+<!-- custom RMP header CSS -->
+<!--<style type="text/css">
+body{  font: 15px "trebuchet ms", helvetica, arial, sans-serif; background:url("http://blog.ratemyprofessors.com/wp-content/uploads/2012/03/PUNKD_RMP_tonight-2.jpg") no-repeat scroll center top #000000!important;}
+</style>--><!-- end custom RMP header CSS -->
+
+<script src="http://static.ratemyprofessors.com/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="http://static.ratemyprofessors.com/js/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+
+
+<script type='text/javascript' src='http://blog.ratemyprofessors.com/wp-includes/js/comment-reply.js'></script>
+
+
+<link rel="pingback" href="http://blog.ratemyprofessors.com/xmlrpc.php" />
+
+	<link rel='archives' title='April 2012' href='http://blog.ratemyprofessors.com/2012/04/' />
+	<link rel='archives' title='February 2012' href='http://blog.ratemyprofessors.com/2012/02/' />
+	<link rel='archives' title='November 2011' href='http://blog.ratemyprofessors.com/2011/11/' />
+	<link rel='archives' title='October 2011' href='http://blog.ratemyprofessors.com/2011/10/' />
+	<link rel='archives' title='September 2011' href='http://blog.ratemyprofessors.com/2011/09/' />
+	<link rel='archives' title='August 2011' href='http://blog.ratemyprofessors.com/2011/08/' />
+	<link rel='archives' title='April 2011' href='http://blog.ratemyprofessors.com/2011/04/' />
+	<link rel='archives' title='March 2011' href='http://blog.ratemyprofessors.com/2011/03/' />
+	<link rel='archives' title='January 2011' href='http://blog.ratemyprofessors.com/2011/01/' />
+	<link rel='archives' title='December 2010' href='http://blog.ratemyprofessors.com/2010/12/' />
+	<link rel='archives' title='November 2010' href='http://blog.ratemyprofessors.com/2010/11/' />
+	<link rel='archives' title='September 2010' href='http://blog.ratemyprofessors.com/2010/09/' />
+	<link rel='archives' title='August 2010' href='http://blog.ratemyprofessors.com/2010/08/' />
+	<link rel='archives' title='July 2010' href='http://blog.ratemyprofessors.com/2010/07/' />
+	<link rel='archives' title='June 2010' href='http://blog.ratemyprofessors.com/2010/06/' />
+	<link rel='archives' title='May 2010' href='http://blog.ratemyprofessors.com/2010/05/' />
+	<link rel='archives' title='February 2010' href='http://blog.ratemyprofessors.com/2010/02/' />
+	<link rel='archives' title='January 2010' href='http://blog.ratemyprofessors.com/2010/01/' />
+	<link rel='archives' title='October 2009' href='http://blog.ratemyprofessors.com/2009/10/' />
+	<link rel='archives' title='September 2009' href='http://blog.ratemyprofessors.com/2009/09/' />
+	<link rel='archives' title='August 2009' href='http://blog.ratemyprofessors.com/2009/08/' />
+	<link rel='archives' title='April 2009' href='http://blog.ratemyprofessors.com/2009/04/' />
+	<link rel='archives' title='September 2008' href='http://blog.ratemyprofessors.com/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://blog.ratemyprofessors.com/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://blog.ratemyprofessors.com/2008/07/' />
+	<link rel='archives' title='June 2008' href='http://blog.ratemyprofessors.com/2008/06/' />
+	<link rel='archives' title='May 2008' href='http://blog.ratemyprofessors.com/2008/05/' />
+	<link rel='archives' title='April 2008' href='http://blog.ratemyprofessors.com/2008/04/' />
+	<link rel='archives' title='March 2008' href='http://blog.ratemyprofessors.com/2008/03/' />
+	<link rel='archives' title='February 2008' href='http://blog.ratemyprofessors.com/2008/02/' />
+	<link rel='archives' title='January 2008' href='http://blog.ratemyprofessors.com/2008/01/' />
+	<link rel='archives' title='November 2007' href='http://blog.ratemyprofessors.com/2007/11/' />
+	<link rel='archives' title='October 2007' href='http://blog.ratemyprofessors.com/2007/10/' />
+	<link rel='archives' title='September 2007' href='http://blog.ratemyprofessors.com/2007/09/' />
+
+
+<link rel="alternate" type="application/rss+xml" title="Rate My Professors - Find and rate your professor, campus and more - RateMyProfessors.com &raquo; Feed" href="http://blog.ratemyprofessors.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Rate My Professors - Find and rate your professor, campus and more - RateMyProfessors.com &raquo; Comments Feed" href="http://blog.ratemyprofessors.com/comments/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.ratemyprofessors.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.ratemyprofessors.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1" />
+<link rel='shortlink' href='http://wp.me/11APl' />
+
+<!-- All in One SEO Pack 1.6.13.3 by Michael Torbert of Semper Fi Web Design[251,360] -->
+<meta name="description" content="Over 1.5 million professors &amp; 13 million opinions. Rate My Professors is the best professor ratings source based on student feedback. Find &amp; rate a professor!" />
+<meta name="keywords" content="Professor, Professors, Rate My Professor, Ratings, Campus, University, College, Clarity, Hotness, Academic, Academia, Department, School, Quality, Chili Peppers, Rebuttal, Classes, Courses, Schedule, Semester, Grade, GPA, Pass, Fail" />
+<link rel="canonical" href="http://blog.ratemyprofessors.com/" />
+<!-- /all in one seo pack -->
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://blog.ratemyprofessors.com/wp-content/plugins/recaptcha-form/gd-recaptcha.css" />
+<script type='text/javascript' src='http://blog.ratemyprofessors.com/wp-includes/js/tw-sack.js?ver=1.6.1'></script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+	function reportComment( commentID )
+	{
+
+			
+			var reporter_comment = document.getElementById( 'reportcomment_comment_textarea_' + commentID ).value;
+			var mysack = new sack( 'http://blog.ratemyprofessors.com/wp-content/plugins/report-comments/report.php?c='+commentID+'&r='+escape(reporter_comment) );
+				
+		mysack.method = 'POST';
+	
+		mysack.onError	= function() { die( "There was an error reporting this comment. Please try again later." ) };
+		mysack.onCompletion = function() { finishReport( commentID, eval( '(' + this.response + ')' )); }
+	
+		mysack.runAJAX();
+	}
+
+	function reportComment_AddTextArea( commentID )
+	{
+		document.getElementById( 'reportcomment_results_div_' + commentID ).innerHTML = "Please tell us why you are reporting this comment (optional):";
+
+		var textarea = "<textarea name=\"reportcomment_comment_textarea_" + commentID + "\" id=\"reportcomment_comment_textarea_" + commentID + "\" cols=\"55\" rows=\"4\" class=\"reportcomment_textarea\"></textarea><br /><input type=\"button\" name=\"Report Comment\" value=\"Report Comment\" onclick=\"reportComment( " + commentID + " );\" />";
+
+		document.getElementById( 'reportcomment_comment_div_' + commentID ).innerHTML = textarea;
+	}
+
+	function finishReport( commentID, response )
+	{
+		var message = '<span class="reportedcomment_text">'+response.message+'</span>';
+		document.getElementById( 'reportcomment_results_div_' + commentID ).innerHTML = message;
+			
+			document.getElementById( 'reportcomment_comment_div_' + commentID ).innerHTML = '';
+			}
+//]]>
+</script>
+
+<style type="text/css">
+	.reportedcomment_text { color: #777; }
+</style>
+
+
+<script language="javascript" src="http://static.ratemyprofessors.com/ts_files/mtvi_reporting.js"></script>
+<script type="text/javascript" src="http://btg.mtvnservices.com/aria/coda.html?site=ratemyprofessors.com"></script>
+
+<script type="text/javascript">
+var pageValue = location.toString();
+var nameExt = ".jsp";
+
+if(pageValue.indexOf("bbpress") >-1 )
+{
+if(pageValue.charAt(pageValue.lastIndexOf("/")+1) == "")
+{
+var pn = location.toString().substring(location.toString().lastIndexOf("//")+2, location.toString().length)+"home"+nameExt;
+var h2 = "forum/home";
+}
+else
+{
+var pn = location.toString().substring(location.toString().lastIndexOf("//")+2, location.toString().length)+nameExt;
+var h2 = pageValue.substring(pageValue.indexOf(".com")+5, pageValue.length);
+}
+var channel= "forum";
+}
+else if(pageValue.indexOf("homepage") >-1 )
+{
+if(pageValue.charAt(pageValue.lastIndexOf("/")+1) == "")
+{
+var pn = location.toString().substring(location.toString().lastIndexOf("//")+2, location.toString().length)+"home"+nameExt;
+var h2 = "home/home";
+}
+else
+{
+var pn = location.toString().substring(location.toString().lastIndexOf("//")+2, location.toString().length)+nameExt;
+var h2 = pageValue.substring(pageValue.indexOf(".com")+5, pageValue.length);
+}
+var channel= "home";
+}
+
+btg.config.Demdex.enabled = false;
+btg.config.DoubleClick.enabled = true;
+btg.config.DoubleClick.dartSite = 'rmp.mtvi';
+btg.config.DoubleClick.positionThreshold=2;
+
+btg.config.Omniture["trackExternalLinks"]= true;
+btg.config.Omniture["pageName"]= pn;
+btg.config.Omniture["channel"]= channel;
+btg.config.Omniture["hier2"]= h2;
+btg.config.Omniture["prop2"]= "USA";
+btg.config.Omniture["prop8"]= "visitor";
+
+//Initialize Controller
+
+//Send a page call
+btg.Controller.sendPageCall();
+</script>
+<script src="http://www.mtv.com/global/scripts/special/projx.jhtml?channelname=RateMyProfessors"></script>
+
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pauldnyc"></script>
+
+
+
+<script type="text/javascript">
+var addthis_config = {
+   ui_offset_top: 16
+};
+</script>
+
+
+<body class="home blog">
+
+<!-- end header -->
+
+<div id="siteWrapper">
+
+<div id="header">
+<h1><a href="http://www.ratemyprofessors.com">Rate My Professors &#8211; Find and rate your professor, campus and more &#8211; RateMyProfessors.com</a></h1>
+<div class="search">	  
+<form onsubmit="if(search.letter.value == '' || search.letter.value == 'Enter Last Name of Professor') {alert( 'Enter Last Name of Professor' );search.letter.focus();return false ;}return true;" id="search" name="search" method="get" action="http://www.ratemyprofessors.com/SearchProfs.jsp"> 
+<input type="text" class="searchBox" onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}" value="Enter Last Name of Professor" style="color: gray;" tabindex="1" name="letter" id="rmp_navFindTextInput"/> 
+<input type="submit" class="searchButton" tabindex="2" value="Search" id="search_submit"/> 
+<input type="button" class="webSearchButton" tabindex="3" value="Web" id="web_submit" onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'" /> 
+</form>
+</div>
+</div>
+
+
+
+<script language="Javascript">
+var loadsuccess=false;
+var url = "http://www.ratemyprofessors.com/member/jso.jsp";
+// this shows dynamic script insertion
+var script = document.createElement('script');
+script.setAttribute('src', url);
+
+// load the script
+document.getElementsByTagName('head')[0].appendChild(script); 
+</script>
+
+<div id="nav">
+<ul>
+<li id="navHome"><a href="http://www.ratemyprofessors.com">Home</a></li>
+<li id="navTAF"><a href="http://www.ratemyprofessors.com/About.jsp">About</a></li>
+<li id="navProfessors"><a href="http://www.ratemyprofessors.com/SearchProfs.jsp">Professors</a></li>
+<li id="navSchools"><a href="http://www.ratemyprofessors.com/SearchSchool.jsp">Schools</a></li>
+<!-- <li id="navSearch"><a href="/search">Search</a></li>
+<li id="navForum"><a href="http://www.ratemyprofessors.com/jive/vodka/viewForum.jsp?forum=2">Forum</a></li> -->
+<!-- <li id="navTAF"><a href="http://blog.ratemyprofessors.com">Blog</a></li> -->
+<li id="navSearch"><a href="http://www.ratemyprofessors.com/topLists11/topLists.jsp">Best Professors Lists</a></li> 
+<li id="logIn"><div id="sso"></div></li>
+</ul>
+</div>
+
+<div id="loginPage" class="rebuttalNotice" style="display:none;"><a class="hide" onclick="ShowHide4(); return false;" href="#"><span>X</span> CLOSE</a><iframe height="400" width="500" src="http://signin.ratemyprofessors.com"></iframe></div>
+
+
+
+
+<div id="ad728">
+
+<script type="text/javascript">
+//Place Ad
+btg.Controller.placeAd(
+{
+  size:'728x90',
+  isReloadable:true,
+  reloadInterval:45000,
+  keyValues:"!category=expand;!category=pop"       
+}
+);
+</script>
+<!-- <iframe src="http://www.ratemyprofessors.com/ads/ads_728.jsp" width="728" height="90" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no" seamless></iframe> -->
+</div>
+
+<div id="contentWrapper">
+<div id="content">
+<div class="wrapper">
+
+
+
+
+<div id="tabsMap">
+<ul>
+<li id="profTab"><h2><a href="#profContent">Find a Professor</a></h2></li>
+<li id="schoolTab"><h2><a href="#schoolContent">Find a School</a></h2></li>
+<!--<li id="cheggTab"><h2><a href="#cheggContent">Find a Textbook</a></h2></li>-->
+</ul>
+
+<div id="tabsMapContents">
+<ul>
+<li id="profContent">
+<form onsubmit="if(rmp_nameSearch.letter.value == '') {alert( 'Please enter the last name of the professor you want to search for.' );rmp_nameSearch.letter.focus();return false ;}return true;" method="get" name="rmp_nameSearch" id="rmp_nameSearch" action="http://www.ratemyprofessors.com/SearchProfs.jsp">
+<input class="searchBox" type="text" style="color:gray;" name="letter"  gtbfieldid="32" value="Enter Last Name of Professor" onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}"  />
+<input class="searchButton" type="submit" value="Search Professors"/>
+</form>
+
+<li id="schoolContent">
+<form onsubmit="if(rmp_schoolSearch.letter.value == '') {alert( 'Please enter name of the school you want to search for.' );rmp_schoolSearch.letter.focus();return false ;}return true;" method="get" name="rmp_schoolSearch" id="rmp_schoolSearch" action="http://www.ratemyprofessors.com/SearchSchool.jsp">
+<input class="searchBox" type="text" style="color:gray;"  name="letter" gtbfieldid="33" value="Enter School Name" onfocus="if(this.value=='Enter School Name'){this.value='';this.style.color='black'}"  />
+<input class="searchButton" type="submit" value="Search Schools"/>
+</form>
+<span>Or find school by state.</span><img usemap="#rmp_usaMap" alt="Map of USA" src="http://static.ratemyprofessors.com/wp-content/themes/RMP/images/map.gif" class="schoolMap" width="464" height="255" border="0" />
+
+<!-- image map for states -->
+
+<map id="rmp_usaMap" name="rmp_usaMap">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NY" title="New York" alt="New York" coords="395,40,388,40,379,53,379,59,361,63,365,69,366,75,387,68,394,73,404,77" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=AK" title="Alaska" alt="Alaska" coords="47,169,61,153,82,159,91,182,97,196,121,210,117,219,105,209,91,199,80,204,73,209,66,216,43,225,57,209,44,197" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=LA" title="Louisiana" alt="Louisiana" coords="275,171,298,172,300,177,295,190,311,188,320,206,278,204,281,194" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=IA" title="Iowa" alt="Iowa" coords="256,78,288,78,298,89,289,103,260,103" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=CT" title="Connecticut" alt="Connecticut" coords="433,82,456,93" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=RI" title="Rhode Island" alt="Rhode Island" coords="434,67,457,78" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=OH" title="Ohio" alt="Ohio" coords="333,88,336,111,351,110,360,99,359,79" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=SC" title="South Carolina" alt="South Carolina" coords="352,144,375,169,387,153,375,140,369,142,365,143" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=WV" title="West Virginia" alt="West Virginia" coords="364,98,352,111,356,122,366,119,381,96" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NH" title="New Hampshire" alt="New Hampshire" coords="407,34,404,55,410,54,415,51" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=ME" title="Maine" alt="Maine" coords="409,29,416,50,418,52,422,61,418,43,432,27,421,10,414,8" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NC" title="North Carolina" alt="North Carolina" coords="358,131,347,145,377,138,388,149,403,129,401,118" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=CT" title="Connecticut" alt="Connecticut" coords="403,67,414,66,415,69,405,77" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MT" title="Montana" alt="Montana" coords="143,20,215,31,213,68,169,61,169,67,154,67" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=KY" title="Kentucky" alt="Kentucky" coords="306,135,332,133,351,130,357,124,351,112,342,113,337,113,324,124,313,125" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NJ" title="New Jersey" alt="New Jersey" coords="431,94,458,105" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=PA" title="Pennsylvania" alt="Pennsylvania" coords="359,76,362,97,381,94,398,89,400,77,387,69" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MN" title="Minnesota" alt="Minnesota" coords="253,26,302,35,282,46,279,61,289,77,258,78" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=FL" title="Florida" alt="Florida" coords="374,181,374,188,391,216,391,230,389,235,368,213,366,199,352,190,345,194,334,189,325,190,326,187" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=WA" title="Washington" alt="Washington" coords="93,35,93,14,112,14,142,20,136,49,99,43" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NV" title="Nevada" alt="Nevada" coords="112,78,149,86,136,147,104,106" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MO" title="Missouri" alt="Missouri" coords="264,102,292,103,310,133,302,142,270,139" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=AL" title="Alabama" alt="Alabama" coords="321,151,338,149,344,173,346,186,325,189,327,193,324,195,318,185" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=SD" title="South Dakota" alt="South Dakota" coords="210,60,259,61,258,89,208,84" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MA" title="Massachussets" alt="Massachussets" coords="401,62,402,67,411,66,417,63,417,54,406,57" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=KS" title="Kansas" alt="Kansas" coords="212,112,258,113,261,136,210,136" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=CA" title="California" alt="California" coords="83,70,112,77,104,105,136,149,131,172,112,168,91,145,77,101" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=HI" title="Hawaii" alt="Hawaii" coords="140,230,155,225,165,234,184,243,199,253,219,270,219,283,199,289,189,271,179,259,166,255,159,248,152,246,148,247,143,245" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=AZ" title="Arizona" alt="Arizona" coords="139,129,176,136,169,188,155,189,129,171" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=TX" title="Texas" alt="Texas" coords="215,139,233,139,232,159,251,167,274,166,281,195,277,204,265,214,256,224,263,237,248,231,226,201,213,210,184,181,216,182" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=IL" title="Illinois" alt="Illinois" coords="293,86,298,89,288,104,308,136,318,117,315,91,311,85" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=AR" title="Arkansas" alt="Arkansas" coords="269,140,301,144,311,133,296,172,275,172" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NH" title="New Hampshire" alt="New Hampshire" coords="434,40,459,54" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=WY" title="Wyoming" alt="Wyoming" coords="168,61,212,67,209,103,161,98" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=CO" title="Colorado" alt="Colorado" coords="177,99,222,103,221,140,171,133" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=GA" title="Georgia" alt="Georgia" coords="337,149,343,173,345,184,373,180,376,170,354,146,350,144" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NJ" title="New Jersey" alt="New Jersey" coords="400,76,405,78,406,88,403,98,397,93" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=DC" title="Washington DC" alt="Washington DC" coords="433,134,458,147" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=VA" title="Virginia" alt="Virginia" coords="379,101,369,118,358,123,356,128,400,119,386,102" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=OK" title="Oklahoma" alt="Oklahoma" coords="270,137,273,166,250,166,231,161,232,137" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MI" title="Michigan" alt="Michigan" coords="320,83,324,88,329,85,343,86,352,85,356,69,344,53,335,42,328,42,312,37,295,49,312,58" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=WI" title="Wisconsin" alt="Wisconsin" coords="290,48,282,49,279,66,295,88,314,88,314,62,311,56" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=IN" title="Indiana" alt="Indiana" coords="315,89,318,113,313,124,327,123,336,111,333,87" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=UT" title="Utah" alt="Utah" coords="133,86,152,88,152,99,167,101,161,136,125,129" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NE" title="Nebraska" alt="Nebraska" coords="210,83,260,89,270,114,222,113,222,101,208,100" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=NM" title="New Mexico" alt="New Mexico" coords="217,138,214,185,174,184,173,188,168,188,177,132" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=VT" title="Vermont" alt="Vermont" coords="432,27,459,39" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=OR" title="Oregon" alt="Oregon" coords="78,69,128,81,130,60,139,49,98,43,92,33" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MA" title="Massachusetts" alt="Massachusetts" coords="434,54,460,67" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=DE" title="Deleware" alt="Deleware" coords="432,107,457,117" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=ND" title="North Dakota" alt="North Dakota" coords="212,29,253,31,256,61,210,60" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=TN" title="Tennessee" alt="Tennessee" coords="306,138,300,152,331,149,335,152,347,147,359,131" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=ID" title="Idaho" alt="Idaho" coords="140,19,145,21,151,54,155,68,170,67,167,89,129,81,129,63,137,50" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=VT" title="Vermont" alt="Vermont" coords="406,33,394,38,400,59,403,59" shape="poly">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MD" title="Maryland" alt="Maryland" coords="432,121,459,131" shape="rect">
+  <area href="http://www.ratemyprofessors.com/SelectSchool.jsp?country=0&amp;stateselect=MS" title="Mississippi" alt="Mississippi" coords="321,151,319,184,323,193,313,196,311,188,297,191,300,179,298,171,304,151" shape="poly">
+</map>
+
+
+<!-- end of image map for schools -->
+
+</li>
+
+<!--<li id="cheggContent">
+
+
+	<form action="http://www.ratemyprofessors.com/chegg-search.jsp" method="get">
+  <input class="searchBox" name="search_by" style="color: gray;" value="Enter ISBN, Title or Author Name" onfocus="if(this.value=='Enter ISBN, Title or Author Name'){this.value='';this.style.color='black'}" type="text" id="cheggQuery">
+  <input class="searchButton" value="Find a Textbook" type="submit" >
+ </form>
+</li>
+	
+</ul>-->
+
+
+
+
+
+</div><!-- closes tab map contents -->
+
+</div><!-- closes tab map -->
+
+<script type="text/javascript">$(function(){ $('#tabsMap').tabs();});</script>
+
+<!-- 
+<div id="leftPromos">
+<ul>
+</ul>
+<div id="ad160">
+<a href="http://ad.doubleclick.net/click;h=v8/392e/0/0/%2a/h;221748174;0-0;0;35515149;2321-160/600;35190500/35208318/1;u=pos-btf|tag-adj|mtype-standard|sz-160x600|tile-2;~aopt=2/1/b6/0;~sscs=%3fhttp://Oscars.mtvu.com" target="_blank">
+<img style="border:0;" alt="Click here to find out more!" src="http://s0.2mdn.net/viewad/1807016/VOTE_oscars_160x600.gif"/>
+</a>
+</div>
+</div>-->
+
+<div id="centerContent">
+
+<!--<h2>What's New?</h2>-->
+
+
+<div class="post-2748 post type-post status-publish format-standard sticky hentry category-misc" id="post-2748">
+<h3><a href="http://blog.ratemyprofessors.com/mtv-information-day-boston/" rel="bookmark" title="CLICK HERE FOR MORE INFO - MTV Information Day: Boston">MTV Information Day: Boston</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/misc/" title="View all posts in Misc." rel="category tag">Misc.</a> </p>-->
+
+
+<div class="postContent">
+
+ <a href="http://blog.ratemyprofessors.com/mtv-information-day-boston/" rel="bookmark" title="Read and comment on 'MTV Information Day: Boston'"><img src="http://www.mtvu.com/wp-content/uploads/2012/03/boston2811.jpg" alt="MTV Information Day: Boston" title="MTV Information Day: Boston" /></a>
+ <p>Attention enterprising Boston-area students! MTV is coming your way May 1 with their first ever <strong>MTV Information Day</strong>. MTV Execs will be on the ground to hear out your creative pitches and discuss fellowship &#038; internship opportunities.  Find out all details on how you can participate at <a href="http://www.mtvu.com/on-campus/mtv-information-day-boston/" target="_blank">Boston.mtvU.com.</a></p>
+<a href="http://blog.ratemyprofessors.com/mtv-information-day-boston/" rel="bookmark"><a href="http://www.mtvu.com/on-campus/mtv-information-day-boston/" target="_blank">Check out the details here!</a></a>
+ 
+ 
+ 
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/mtv-information-day-boston/" rel="bookmark" title="Read and comment on 'MTV Information Day: Boston'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<div class="post-2756 post type-post status-publish format-standard hentry category-misc" id="post-2756">
+<h3><a href="http://blog.ratemyprofessors.com/the-best-300-professors/" rel="bookmark" title="CLICK HERE FOR MORE INFO - The Best 300 Professors">The Best 300 Professors</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/misc/" title="View all posts in Misc." rel="category tag">Misc.</a> </p>-->
+
+
+<div class="postContent">
+
+ <a href="http://blog.ratemyprofessors.com/the-best-300-professors/" rel="bookmark" title="'The Best 300 Professors'"><img src="http://www.mtvu.com/wp-content/uploads/2012/03/feed281.jpg" alt="The Best 300 Professors" title="The Best 300 Professors" /></a>
+ <p>Pairing the power of the student reviews on RateMyProfessors.com with the college expertise of the gang at The Princeton Review, The Best 300 Professors is essentially a field guide to finding professors with the power to change your life.<br />
+&nbsp;</p>
+ <a href='http://blog.ratemyprofessors.com/the-best-300-professors/' rel='bookmark'>Read More!</a> 
+
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/the-best-300-professors/" rel="bookmark" title="Read and comment on 'The Best 300 Professors'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<div class="post-2453 post type-post status-publish format-standard hentry category-misc" id="post-2453">
+<h3><a href="http://blog.ratemyprofessors.com/collegeradiowoodie/" rel="bookmark" title="CLICK HERE FOR MORE INFO - WASU Wins College Radio Woodie">WASU Wins College Radio Woodie</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/misc/" title="View all posts in Misc." rel="category tag">Misc.</a> </p>-->
+
+
+<div class="postContent">
+
+ <a href="http://blog.ratemyprofessors.com/collegeradiowoodie/" rel="bookmark" title="'WASU Wins College Radio Woodie'"><img src="http://mtv.mtvnimages.com/content/ontv/woodieawards/2012/images/voting-pages/college-radio/wasu/281x211.jpg" alt="WASU Wins College Radio Woodie" title="WASU Wins College Radio Woodie" /></a>
+ <p>WASU is a non-profit station broadcasting specialty shows ranging from underground hip-hop, metal, talk, up and coming artists and more.  Last year they took home the mtvU Shoulda Coulda Woodie Award, but they seriously upped their game and are now the winner of mtvU’s 2012 College Radio Woodie Award.  <strong>Congratulations WASU!</strong></p>
+<div>
+&nbsp;
+</div>
+ <a href='http://blog.ratemyprofessors.com/collegeradiowoodie/' rel='bookmark'>Click here to see more!</a> 
+
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/collegeradiowoodie/" rel="bookmark" title="Read and comment on 'WASU Wins College Radio Woodie'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<div class="post-2364 post type-post status-publish format-standard hentry category-mtvu-videos tag-mtvu" id="post-2364">
+<h3><a href="http://blog.ratemyprofessors.com/fight-to-get-fit/" rel="bookmark" title="CLICK HERE FOR MORE INFO - Fight to Get Fit">Fight to Get Fit</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/mtvu-videos/" title="View all posts in mtvU Videos" rel="category tag">mtvU Videos</a> </p>-->
+
+
+<div class="postContent">
+
+
+<p><a href="http://www.mtvu.com/shows/student-bodies/its-usc-vs-ucla-in-a-fight-to-get-fit-trailer/"target="_blank"><img src="http://blog.ratemyprofessors.com/wp-content/uploads/2011/10/promo.jpg" alt="USC-UCLA" title="USC-UCLA" width="281" height="140" class="alignnone size-full wp-image-2362" /></a>mtvU&#8217;s Student Bodies is back and bigger than ever as students from rivals UCLA and USC compete to see who can take their fitness to the next level and win a trip to Spring Break 2012 in Vegas.
+<div></div>
+<p><a href="http://www.mtvu.com/shows/student-bodies/student-bodies-ucla-vs-usc-episode-1/" target="_blank">Check out the full episode!</a></p>
+
+
+
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/fight-to-get-fit/" rel="bookmark" title="Read and comment on 'Fight to Get Fit'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<div class="post-2338 post type-post status-publish format-standard hentry category-misc tag-beavis-and-butthead tag-promotion" id="post-2338">
+<h3><a href="http://blog.ratemyprofessors.com/witness-the-res-erection/" rel="bookmark" title="CLICK HERE FOR MORE INFO - Witness the res-erection">Witness the res-erection</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/misc/" title="View all posts in Misc." rel="category tag">Misc.</a> </p>-->
+
+
+<div class="postContent">
+
+
+<p><a href="http://www.mtv.com/shows/beavis_and_butthead/series.jhtml" target="_blank"><img class="alignleft" title="Beavis and Butthead" src="http://blog.ratemyprofessors.com/wp-content/uploads/2011/10/ratemy210x174.jpg" alt="Beavis and Butthead" width="210" height="174" /></a>Beavis and Butt-Head, America’s favorite culture critics, are back with all new episodes on MTV. This time around, they’re unleashing their dimwittedness on “Jersey Shore,” Ultimate Fighting, the internet and more. Brought back by creator Mike Judge, they’re dumber than ever. <a href="http://www.mtv.com/shows/beavis_and_butthead/series.jhtml" target="_blank">Click here!</a></p>
+
+
+
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/witness-the-res-erection/" rel="bookmark" title="Read and comment on 'Witness the res-erection'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<div class="post-2268 post type-post status-publish format-standard hentry category-professors-strike-back tag-croll-kali tag-psychology tag-queens-college" id="post-2268">
+<h3><a href="http://blog.ratemyprofessors.com/professor-croll-kali-queens-college/" rel="bookmark" title="CLICK HERE FOR MORE INFO - Nobody&#8217;s guaranteed an A!">Nobody&#8217;s guaranteed an A!</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/professors-strike-back/" title="View all posts in Professors Strike Back" rel="category tag">Professors Strike Back</a> </p>-->
+
+
+<div class="postContent">
+
+ <a href="http://blog.ratemyprofessors.com/professor-croll-kali-queens-college/" rel="bookmark" title="Read and comment on 'Nobody&#8217;s guaranteed an A!'"><img src="http://www.mtvu.com/sitewide/promoimages/uber/2011/professors_strike_back/croll/70x53.jpg" alt="Nobody&#8217;s guaranteed an A!" title="Nobody&#8217;s guaranteed an A!" /></a>
+ <p><strong>Professor Croll-Kali: Queens College &#8211; Psychology</strong>
+<p>She breaks down your comments on grading, work load and most importantly, cloning!</p>
+<a href="http://blog.ratemyprofessors.com/professor-croll-kali-queens-college/" rel="bookmark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Watch Professors Strike Back!</a>
+ 
+ 
+ 
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/professor-croll-kali-queens-college/" rel="bookmark" title="Read and comment on 'Nobody&#8217;s guaranteed an A!'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<div class="post-2226 post type-post status-publish format-standard hentry category-misc tag-professors tag-social-media tag-twitter" id="post-2226">
+<h3><a href="http://blog.ratemyprofessors.com/follow-the-leader/" rel="bookmark" title="CLICK HERE FOR MORE INFO - Follow the Leader!">Follow the Leader!</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/misc/" title="View all posts in Misc." rel="category tag">Misc.</a> </p>-->
+
+
+<div class="postContent">
+
+
+<p><a href="http://blog.ratemyprofessors.com/follow-the-leader/"><img class="alignnone" title="Professor Twitter Follow Button" src="http://blog.ratemyprofessors.com/wp-content/uploads/2011/09/Big_follow.jpg" alt="Professor Twitter Follow Button" width="281" height="211" /></a></p>
+<p><em>Attention Professors!</em> 
+RateMyProfessors would like to announce the addition of <strong>Professor Twitter Follow Buttons</strong> to the site.  For those of you who have decided to embrace the social media revolution, adding a Follow button to your Professor page is a great way to encourage your students to<a class="more-link" href="http://blog.ratemyprofessors.com/follow-the-leader/"> Read more...</a></p>
+
+
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/follow-the-leader/" rel="bookmark" title="Read and comment on 'Follow the Leader!'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<div class="post-2192 post type-post status-publish format-standard hentry category-professors-strike-back tag-criminal-justice tag-john-jay-college tag-kimora" id="post-2192">
+<h3><a href="http://blog.ratemyprofessors.com/professor-kimora-john-jay-college/" rel="bookmark" title="CLICK HERE FOR MORE INFO - Think she’s a weird professor? What about her shoes?">Think she’s a weird professor? What about her shoes?</a></h3>
+<!--<p class="attrib">Posted in <a href="http://blog.ratemyprofessors.com/category/professors-strike-back/" title="View all posts in Professors Strike Back" rel="category tag">Professors Strike Back</a> </p>-->
+
+
+<div class="postContent">
+
+ <a href="http://blog.ratemyprofessors.com/professor-kimora-john-jay-college/" rel="bookmark" title="Read and comment on 'Think she’s a weird professor? What about her shoes?'"><img src="http://blog.ratemyprofessors.com/wp-content/uploads/2011/08/70x53.jpg" alt="Think she’s a weird professor? What about her shoes?" title="Think she’s a weird professor? What about her shoes?" /></a>
+ <p><strong> Professor Kimora: John Jay College of Criminal Justice &#8211; Criminal Justice</strong>
+<p>The #2 Highest Rated Professor on RateMyProfessors.com, responds to your comments!</></p>
+<a href="http://blog.ratemyprofessors.com/professor-kimora-john-jay-college/" rel="bookmark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Watch Professors Strike Back!</a>
+ 
+ 
+ 
+
+
+
+
+</div>
+
+<div class="feedback">
+<span class="commentNumber"> </span>
+<span class="tags"> <!-- <a href="http://blog.ratemyprofessors.com/professor-kimora-john-jay-college/" rel="bookmark" title="Read and comment on 'Think she’s a weird professor? What about her shoes?'">comment on this post</a> --></span>
+</div>
+
+</div> <!-- closes post content -->
+
+
+
+
+<a href="http://blog.ratemyprofessors.com/page/2/" >Older Posts &raquo;</a>
+</div>
+
+
+
+</div><!-- closes wrapper -->
+</div><!-- closes content -->
+
+
+<div id="sideBar">
+
+<div id="recentComments"></div>
+
+<div id="ad300">
+<script type="text/javascript">
+
+btg.Controller.placeAd(
+{
+  size:'300x250',
+  isReloadable:true,
+  reloadInterval:45000,
+  keyValues:"!category=expand;!category=pop"       
+}
+);
+</script>
+</div>
+
+<ul>
+	<li id="example-widget-5" class="widget example"><div class="promo"><a href=http://twitter.com/ratemyprofessor><img src=http://blog.ratemyprofessors.com/wp-content/uploads/2011/12/twitter_newbird_blue1.png>@RateMyProfessor<small>Follow RMP on Twitter! It's a real tweet!</small></a></div></li>
+<li id="example-widget-3" class="widget example"><div class="promo"><a href=http://blog.ratemyprofessors.com/category/professors-strike-back/><img src=http://static.ratemyprofessors.com/images/site/promos/70x702.jpg>Professors Strike Back<small>Your profs are reading the comments. Now it's their turn... Watch Now!</small></a></div></li>
+<li id="example-widget-6" class="widget example"><div class="promo"><a href=http://www.ratemyprofessors.com/iphone><img src=http://static.ratemyprofessors.com/images/promo-iphone-app.gif>Get Rate My Professor on your iPhone<small>Download the app for free</small></a></div></li>
+<li id="text-4" class="widget widget_text"><h2 class="widgettitle">RMP on Facebook</h2>
+			<div class="textwidget"><script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US"></script>
+<script type="text/javascript">FB.init("afcdc4c292c165429ab3e8dd377749ca");</script>
+<fb:fan profile_id="144740972207883" stream="0" connections="10" logobar="0" width="300"></fb:fan></div>
+		</li>
+</ul>
+
+
+</div>
+
+
+<!-- closes side bar -->
+
+
+</div><!-- closes content wrapper -->
+
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201216.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'15156231',v:'ext',post:'0'});
+var load_cmc = function(){linktracker_init(15156231,0,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+
+<style>
+#footer .section ul li a {
+	float: none !important;
+}
+
+#footer .section ul li#twitter a {
+	float: none !important;
+}
+
+#footer .section ul li#facebook a {
+	float: none !important;
+}
+
+#footer .section {
+	height: 175px !important;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #005295;
+	font-weight: bold !important;
+}
+
+#footer #social.section {
+	background: none !important;
+	border-right: medium none;
+}
+
+#footer .section ul li#twitter a {
+	font-size: 12px;
+}
+
+#footer .section ul li#facebook a {
+	font-size: 12px;
+}
+
+#footer .section {
+	border-left: 0px solid #C6C6C6;
+	border-right: 0px solid #FFFFFF;
+}
+
+#footer #copyright.copyright {
+	background: url("http://www.ratemyprofessors.com/images/rmp-footer-logo.png") no-repeat scroll 675px
+		4px transparent;
+	padding: 8px 0 8px 0px;
+}
+
+.copyright {
+	margin-bottom: 10px;
+}
+
+#footer #divider.section {
+	width: 1px !important;
+	height: 85px !important;
+	border-right: 1px solid #C6C6C6;
+	border-left: 1px solid #FFFFFF;
+	margin-left: 0px !important;
+	margin-top: 45px !important;
+	padding-left: 0px !important;
+}
+
+#footer #help.section {
+	width: 180px !important;
+}
+
+#footer #legal.section {
+	width: 240px !important;
+}
+
+#footer #social.section {
+	width: 240px !important;
+}
+
+#footer #help.section ul li a {
+	margin-left: 55px !important;
+}
+
+#footer #legal.section ul li a {
+	width: 200px !important;
+	margin-left: 35px !important;
+}
+
+#footer #social.section ul li a {
+	margin-left: 45px !important;
+}
+
+.hr {
+	width: 0px;
+	height: 125px;
+	background-color: #cccccc;
+	position: relative;
+}
+
+#footer #siteSections.section {
+	width: 165px !important;
+	border-left: 0px solid #C6C6C6;
+}
+
+#footer #siteSections.section ul li a {
+	margin-left: 45px !important;
+}
+</style>
+
+<div id="footer">
+<div id="siteSections" class="section">
+<h4 ALIGN="CENTER">Site Sections</h4>
+<br>
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="http://www.ratemyprofessors.com/SearchProfs.jsp">Professors</a></li>
+<li><a href="http://www.ratemyprofessors.com/SearchSchool.jsp">Schools</a></li>
+</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="help" class="section">
+<h4 ALIGN="CENTER">Help and Support</h4>
+<br>
+<ul>
+<li><a href="http://www.ratemyprofessors.com/help.jsp">Help</a></li>
+<li><a href="http://www.ratemyprofessors.com/faq.jsp">FAQ</a></li>
+<li><a href="http://www.ratemyprofessors.com/ContactUs.jsp">Contact Us</a></li>
+<li><a href="http://srp.mtvn.com/sitefaq.html" target="_blank">Ad Choices</a></li>
+<li><a href="http://www.ratemyprofessors.com/RSSHelp.jsp">What is RSS?</a></li>
+</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="legal" class="section">
+<h4 ALIGN="CENTER">Terms and Policy</h4>
+<br>
+<ul>
+<li><a href="http://www.ratemyprofessors.com/TermsOfUse_us.jsp">Terms of Use (6/30/2011)</a></li>
+<li><a href="http://www.ratemyprofessors.com/PrivacyPolicy_us.jsp" target="_blank">Privacy Policy/Your CA</a></li>
+<li><a href="http://www.ratemyprofessors.com/PrivacyPolicy_us.jsp" target="_blank">Privacy Rights (6/30/2011)</a></li>
+<li><a href="http://www.ratemyprofessors.com/site_guidelines.jsp">Site Guidelines</a></li>
+<li><a href="http://www.ratemyprofessors.com/copyright_comp_policy.jsp">Copyright Compliance Policy</a></li>
+</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="social" class="section">
+<h4 ALIGN="CENTER">Social</h4>
+<br>
+<ul>
+<li id="facebook"><a href="http://www.facebook.com/pages/Rate-My-Professors/144740972207883" target="_blank">Like us on Facebook</a></li>
+<li id="twitter"><a href="http://twitter.com/ratemyprofessor/" target="_blank">Follow us on Twitter</a></li>
+</ul>
+</div>
+<div id="copyright" class="copyright">
+<p class="copyright">
+<br>
+<br>Copyright &copy; 2011 RateMyProfessors.com, LLC. Powered by <span class="mtvU">mtvU</span> and <span class="MTVN">MTV NETWORKS</span></p>
+</div>
+</div>
+
+<div id="footerSearch">
+<div class="search"> 
+<form id="search" onsubmit="if(search.letter.value == '') {alert( 'Please enter name of the professor you want to search for.' );search.letter.focus();return false ;}return true;" method="get" name="search" action="http://www.ratemyprofessors.com/SearchProfs.jsp">
+<input id="rmp_navFindTextInput" class="searchBox" type="text" name="letter" tabindex="1" style="color: black;" value="Enter Last Name of Professor" onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}">
+<input id="search_submit" class="searchButton" type="submit" value="Search" tabindex="2">
+<input id="web_submit" class="webSearchButton" type="button" onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'" value="Web" tabindex="3">
+</form>
+</div> 
+</div>
+
+
+<!-- Start Quantcast tag -->
+
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qoptions = { labels:"Viacom Domestic,MTVN Digital,MTVN Music and Logo,MTVN Music Group,mtvU Online" }; _qacct="p-94wNw88f65Rhk";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-94wNw88f65Rhk" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-94wNw88f65Rhk.gif?labels=Viacom%20Domestic%2CMTVN%20Digital%2CMTVN%20Music%20and%20Logo%2CMTVN%20Music%20Group%2CmtvU%20Online" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+
+<!-- End Quantcast tag -->
+
+
+<!-- Start Google Analytics  -->
+
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-304376-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<!-- End Google Analytics  -->
+
+<!-- PAGEOK -->
+
+
+
+<!-- mtvu-php-003 -->
+	<script language="Javascript">
+
+	String.prototype.trim = function() {
+		return this.replace(/^\s+|\s+$/g,"");
+	}
+	String.prototype.ltrim = function() {
+		return this.replace(/^\s+/,"");
+	}
+	String.prototype.rtrim = function() {
+		return this.replace(/\s+$/,"");
+	}
+
+	function updatesignon(str){
+		// alert ('updatesignon called - str');
+		// alert ('str : ' + str);
+		if(str==''){
+			document.getElementById("sso").innerHTML = "<p>Hi, <span>Guest!</span> [ <a href='http://www.ratemyprofessors.com/join.jsp'>create account</a> | <a href='http://www.ratemyprofessors.com/member/'>login</a> ]</p>";
+		}else{
+			document.getElementById("sso").innerHTML = "<p>Hi, <span>" + str + "</span> [ <a href='http://www.ratemyprofessors.com/member/'>my account</a> | <a href='http://www.ratemyprofessors.com/member/logout.jsp'>logout</a> ]</p>" ;
+		}
+	}
+
+
+	if (loadsuccess == true) {
+		// successful
+		// alert ('loadsuccess like true : ' + loadsuccess);
+		//alert ('ssousername : ' + ssousername);
+		updatesignon(ssousername);
+
+	} else {
+		// alert ('loadsuccess : ' + loadsuccess);
+		updatesignon('');
+	}
+
+	</script>
+	
+<style type="text/css">
+li#facebook a{ background:url("http://static.ratemyprofessors.com/images/rmp-sprite.png") -4px -352px no-repeat; padding:8px 0 8px 40px;}
+li#twitter a{ background:url("http://static.ratemyprofessors.com/images/rmp-sprite.png") -4px -404px no-repeat; padding:8px 0 8px 40px;}
+</style>
+</div><!-- closes site wrapper -->
+
+</body>
+</html>
+		

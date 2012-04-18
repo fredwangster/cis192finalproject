@@ -1,0 +1,849 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+<script type="text/javascript">
+// Redirect to m.cornell.edu for smart phones.
+// (We allow an override of the redirect with a certain parameter.)
+var CUhomepage = {};
+CUhomepage.ua = navigator.userAgent.toLowerCase();
+CUhomepage.params = location.search.toLowerCase();
+CUhomepage.mobileURL = "http://m.cornell.edu";
+CUhomepage.goMobile = false;
+// Detect iPhone and iTouch.
+if ((CUhomepage.ua.indexOf("iphone") > -1) || (CUhomepage.ua.indexOf("itouch") > -1)) {
+	CUhomepage.goMobile = true;
+}
+// Detect Android phone (and not tablet; only works if tablet removes "mobile" from user agent string.
+if ((CUhomepage.ua.indexOf("android") > -1) && (CUhomepage.ua.indexOf("mobile") > -1)) {
+	CUhomepage.goMobile = true;
+}
+// Override the redirect via parameter specification.
+if (CUhomepage.params.indexOf("overridemobile") > -1) {
+	CUhomepage.goMobile = false;
+}
+if (CUhomepage.goMobile) {
+	window.location = CUhomepage.mobileURL;
+}
+</script>
+
+
+<title>Cornell University</title> 
+<link rel="stylesheet" type="text/css" media="all" href="/styles/filters/filter_home.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="/styles/campaign.css.cfm?tid=1890" />
+
+<!--[if gte IE 8]>
+<style type="text/css">
+#spotlight-thumbnail { margin-top: -18px; }
+h2#events_heading { margin-bottom: -15px; }
+</style>
+<![endif]-->
+<style type="text/css">
+
+body { background: #d7d6d1 url(img/layout/header_bg_for_250px_panos.gif) repeat-x left top; }
+#sectiontitle, #sectiontitle h1, #sectiontitle a { height: 299px;}
+#sectiontitle p {top: 282px;}
+#campaignsection p.caption {top: 367px;}
+#campaign img { top: 296px;	}
+
+</style>
+
+
+<meta name="verify-v1" content="mPa4C6gsRy4fLbrE+2DHWHvJq13fTmswc25Kj3c33JM=" />
+
+
+
+
+<!-- universal head matter in -->
+
+<!-- head matter include in -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Language" content="en-us" />
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<meta name="author" content="Office of Web Communications, Cornell University" />
+<meta name="copyright" content="Copyright (c) 2012 Cornell University" />
+
+<meta name="description" content="Cornell University contains seven undergraduate colleges plus the College of Veterinary Medicine, the Law School, the Samuel Curtis Johnson Graduate School of Management, the Weill Cornell Medical College in New York City and Doha, Qatar, and the 93 fields of study in the Graduate School." />
+<meta name="keywords" content="university, ivy league, research, undergraduate research, graduate research, transnational, land grant, new york, agriculture and life sciences, architecture, art, planning, engineering, hotel administration, human ecology, industrial and labor relations, law, business management, medicine, pre-med, veterinary medicine, vet school" />
+
+<meta name="robots" content="all" />
+<meta http-equiv="imagetoolbar" content="false" />
+
+
+<!-- Emergency banner -->
+
+<script src="https://embanner.univcomm.cornell.edu/OWC-emergency-banner.js" type="text/javascript"> </script>
+
+
+<!-- head matter include out -->
+
+<!-- universal head matter out -->
+
+</head>
+
+
+<script type="text/javascript" language="javascript">
+
+var processing = false;
+var v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11;
+var enable_nettracker_ajax = false;
+var ENABLE_CLICK_TRACKER = false;
+
+function updateObject(nid, text)
+{
+	if (document.getElementById)
+	{
+		x = document.getElementById(nid);
+		x.innerHTML = text;
+	}
+	else if (document.all)
+	{
+		x = document.all[nid];
+		x.innerHTML = text;
+	}
+	else if (document.layers)
+	{
+		x = document.layers[nid];
+		x.document.open();
+		x.document.write(text);
+		x.document.close();
+	}
+}
+
+
+		// remote scripting library
+		// (c) copyright 2005 modernmethod, inc
+		var sajax_debug_mode =  false;
+		
+		function sajax_debug(text) {
+			if (sajax_debug_mode)
+				alert("RSD: " + text)
+		}
+ 		function sajax_init_object() {
+ 			sajax_debug("sajax_init_object() called..")
+ 			
+ 			var A;
+			try {
+				A=new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (e) {
+				try {
+					A=new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (oc) {
+					A=null;
+				}
+			}
+			if(!A && typeof XMLHttpRequest != "undefined")
+				A = new XMLHttpRequest();
+			if (!A)
+				sajax_debug("Could not create connection object.");
+			return A;
+		}
+		function sajax_do_call(func_name, url, args) {
+			var i, x, n,responseText;
+			url = url + "&rsargs="; 
+			for (i = 0; i < args.length-1; i++) 
+			url =	url + escape(args[i]) + escape("");
+			url = url + "&rsrnd=" + new Date().getTime();
+			x = sajax_init_object();
+			x.open("GET", url, true);
+			x.onreadystatechange = function() {
+				if (x.readyState != 4) 
+					return;
+				responseText = x.responseText.replace(/^\s+/,''); // remove leading space, cf loves to put extra whitespace.
+				sajax_debug("received " + responseText);
+				
+				var status;
+				var data;
+				status = responseText.charAt(0);
+				data = responseText.substring(1);
+				if (status == "-") 
+					alert("Error: " + data);
+				else  
+					args[args.length-1](data);
+			}
+			x.send(null);
+			sajax_debug(func_name + " url = " + url);
+			sajax_debug(func_name + " waiting..");
+			delete x;
+		}
+		
+		// wrapper for getCampaignSpace
+		
+		function x_getCampaignSpace() {
+			// count args; build URL
+			
+			sajax_do_call("getCampaignSpace",
+				"/index.cfm?&rs=getCampaignSpace",
+				x_getCampaignSpace.arguments);
+		}
+	 		
+		// wrapper for getCampaignID2
+		
+		function x_getCampaignID2() {
+			// count args; build URL
+			
+			sajax_do_call("getCampaignID2",
+				"/index.cfm?&rs=getCampaignID2",
+				x_getCampaignID2.arguments);
+		}
+	 		
+		// wrapper for getCampaignID
+		
+		function x_getCampaignID() {
+			// count args; build URL
+			
+			sajax_do_call("getCampaignID",
+				"/index.cfm?&rs=getCampaignID",
+				x_getCampaignID.arguments);
+		}
+	 		
+		// wrapper for clickTracker
+		
+		function x_clickTracker() {
+			// count args; build URL
+			
+			sajax_do_call("clickTracker",
+				"/index.cfm?&rs=clickTracker",
+				x_clickTracker.arguments);
+		}
+	 		
+		// wrapper for addNettrackerClickAjax
+		
+		function x_addNettrackerClickAjax() {
+			// count args; build URL
+			
+			sajax_do_call("addNettrackerClickAjax",
+				"/index.cfm?&rs=addNettrackerClickAjax",
+				x_addNettrackerClickAjax.arguments);
+		}
+	 		
+		// wrapper for getData
+		
+		function x_getData() {
+			// count args; build URL
+			
+			sajax_do_call("getData",
+				"/index.cfm?&rs=getData",
+				x_getData.arguments);
+		}
+	 		
+		// wrapper for getCampaignCaption
+		
+		function x_getCampaignCaption() {
+			// count args; build URL
+			
+			sajax_do_call("getCampaignCaption",
+				"/index.cfm?&rs=getCampaignCaption",
+				x_getCampaignCaption.arguments);
+		}
+	 
+
+function getRules(){
+	if (!document.styleSheets) return;
+	
+	if (document.styleSheets[1].cssRules)
+		return document.styleSheets[1].cssRules;
+	else if (document.styleSheets[1].rules)
+		return document.styleSheets[1].rules;
+	else return;
+}	
+
+function replaceBackgroundImage(newurl){
+	theRules = getRules();
+	theRules[7].style.background = "url(/img/home/main/"+newurl+") no-repeat scroll 0px -8px";
+	
+	theRules[8].style.background = "url(/img/home/main/"+newurl+") no-repeat scroll center 22px";
+}
+
+function replaceSpan1(z){
+	theRules = getRules();
+	theRules[5].style.top = z+"px";
+}
+function replaceSpan2(z){
+	theRules = getRules();
+	theRules[5].style.left = z+"px";
+}
+function replaceSpan3(z){
+	theRules = getRules();
+	theRules[5].style.width = z+"em";
+}
+
+function replaceP1(z){
+	theRules = getRules();
+	theRules[6].style.top = z+"px";
+}
+function replaceP2(z){
+	theRules = getRules();
+	theRules[6].style.width = z+"px";
+}
+function replaceP3(z){
+	theRules = getRules();
+	theRules[6].style.margin = "0px 0px 0px " + z+"px";
+
+}
+
+function replaceH3a(z){
+	theRules = getRules();
+	theRules[11].style.margin = "25px 0px 0px " + z+"px";
+}
+function replaceH3b(z){
+	theRules = getRules();
+	theRules[12].style.margin = "25px 0px 0px " + z+"px";
+}
+
+function finalize(){
+	updateObject("sectiontitle", v1)
+	updateObject("campaignsection", v2);
+	replaceSpan1(v3);
+	replaceSpan2(v4);
+	replaceSpan3(v5);
+	replaceP1(v6);
+	replaceP2(v7);
+	replaceP3(v8);
+	replaceH3a(v9);
+	replaceH3b(v10);
+	replaceBackgroundImage(v11);
+	processing = false;
+}
+
+function parseHelper(str, t){
+	s = str.substr(str.indexOf(t) + t.length);
+	s = s.substr(0, s.indexOf('|'));
+	return s;
+}
+
+function parseData(str){
+	replaceSpan1(parseHelper(str, "title_v="));
+	replaceSpan2(parseHelper(str, "title_h="));
+	replaceSpan3(parseHelper(str, "title_width="));
+	replaceP1(parseHelper(str, "caption_v="));
+	replaceP2(parseHelper(str, "caption_width="));
+	replaceP3(parseHelper(str, "caption_h="));
+	replaceH3a(parseHelper(str, "title_h="));
+	replaceH3b(parseHelper(str, "title_h="));
+	replaceBackgroundImage(parseHelper(str, "main_img="));
+}
+
+function processID(cid){
+	x_getData(cid, parseData);
+	x_getCampaignSpace(cid, function(t){updateObject("sectiontitle", t)});
+	x_getCampaignCaption(cid, "true", function(t){updateObject("campaignsection", t)});
+	if (enable_nettracker_ajax)
+		x_addNettrackerClickAjax(function(){return});
+	if (ENABLE_CLICK_TRACKER){
+		x_clickTracker("homepageajax", function(){return});
+	}
+}
+
+function cycleCampaign() {
+	updateObject("pleaseWait", " Please Wait...")
+	if (!processing)
+		x_getCampaignID(processID);
+	return false;
+}
+
+function cycleCampaign2(){
+	updateObject("pleaseWait", " Please Wait...")
+	if (!processing)
+		x_getCampaignID2(processID);
+	return false;
+}
+</script>
+
+
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/unitpngfix.js"></script>
+<![endif]--> 
+
+<body>
+	
+<!-- header in -->
+
+
+
+
+<!-- <style type="text/css">
+#cu-identity {background: #b31b1b url(http://www.cornell.edu/img/layout/header_bg/graveyard.gif) no-repeat top center;}
+#cu-logo {background: url(http://www.cornell.edu/img/layout/cu_logo_moon.gif) no-repeat top left;}
+#cu-logo a {background: url(http://www.cornell.edu/img/layout/cu_logo_moon.gif) no-repeat top left;}
+</style> -->
+
+
+
+<div id="header">
+
+<div id="skipnav">Skip directly to: <a href="#maincontent">content</a> | <a href="#content">section navigation</a> | <a href="#search-form">search</a></div>
+
+<hr />
+
+	<!-- The following div contains the Cornell University logo and search link -->
+	<div id="cu-identity">
+		<div id="cu-logo">
+			<a href="http://www.cornell.edu/"><img src="/img/cu_logo_unstyled.gif" alt="Cornell University" width="263" height="75" border="0" /></a>
+		</div>
+	
+		<!-- 
+			The search-form div contains a form that allows the user to search 
+			either pages or people within cornell.edu directly from the banner.
+		-->
+		<div id="search-form">
+			<form action="http://www.cornell.edu/search/" method="get" enctype="application/x-www-form-urlencoded">
+				<div id="search-input">
+					<label for="search-form-query">SEARCH:</label>
+					<input type="text" id="search-form-query" name="q" value="" size="20" />
+					<input type="submit" id="search-form-submit" name="submit" value="go" />
+				</div>
+	
+				<div id="search-filters">
+					
+					<input type="radio" id="search-filters1" name="tab" value="" checked="checked" />
+					<label for="search-filters1">Pages</label>
+					<input type="radio" id="search-filters2" name="tab" value="people" />
+					<label for="search-filters2">People</label>
+
+					<a href="http://www.cornell.edu/search/">more options</a>
+
+				</div>	
+			</form>
+		</div>
+	</div>
+
+	
+	<div id="mainnav">
+		<ul>
+			<li><a href="http://www.cornell.edu/admissions/" class="admissionslink" >Admissions</a></li>
+			<li><a href="http://www.cornell.edu/academics/" class="academicslink" >Academics</a></li>
+			<li><a href="http://www.cornell.edu/research/" class="researchlink" >Research</a></li>
+			<li><a href="http://www.cornell.edu/outreach/" class="outreachlink" >Outreach</a></li>
+			<li><a href="http://www.cornell.edu/landgrant/" class="landgrantlink" >Land&nbsp;Grant</a></li>
+			<li><a href="http://www.cornell.edu/studentlife/" class="studentlifelink" >Student&nbsp;Life</a></li>
+			<li><a href="http://www.cornell.edu/alumni/" class="alumnilink" >Alumni</a></li>
+		</ul>
+	</div><!-- end mainnav -->
+
+</div><!-- end header -->
+
+
+<!-- header out -->
+
+<hr />
+
+<!-- title and url in -->
+
+<div id="sectiontitle">
+		
+	
+<h1><a href="http://www.cornell.edu/video/?videoID=2018&autoplay=false" onclick="pageTracker._trackEvent('Pano', 'Click', 'Yamatai PULSE 2012 - yamatai2012.jpg');"><img src="/img/home/main/yamatai2012.jpg" alt="Yamatai PULSE 2012" width="740" height="289" border="0" /></a></h1>
+
+
+</div>
+<!-- title and url out -->
+
+<div id="campaignsection">
+
+	
+<script type="text/javascript" language="javascript">
+if (!cycleCampaign) var cycleCampaign = function(){return false;} 
+function isSupported(){
+	return document.styleSheets && (window.XMLHttpRequest || window.ActiveXObject);
+}
+</script>
+
+	<p class="caption">Cornell's Taiko drumming team takes the stage this weekend at Bailey Hall <a class="campaign_link" href="http://www.cornell.edu/video/?videoID=2018&autoplay=false">learn more</a> &raquo;   </p>
+	
+
+	
+</div>
+
+<div id="wrapper">
+
+<!-- content in -->
+<div id="content">
+
+<div id="maincontent">
+
+	<div id="about">
+		<h2><a href="http://www.cornell.edu/video/">Video on CornellCast <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></a></h2>
+        
+		
+		
+		
+		<div id="ccast1">
+        <div id="ccast_feature">
+        <a href="video?VideoID=803" onclick="pageTracker._trackEvent('CornellCast', 'Play', '803 - Entrepreneurial support from Cornell University Library');"><img class="video_thumb" src="http://www.cornell.edu/img/video/thumbs/2009/20091101_library_entrepreneurial_96x80.jpg" alt="" width="65" height="55" /><span class="unitPng"></span></a>
+        <p><a href="video?VideoID=803" onclick="pageTracker._trackEvent('CornellCast', 'Play', '803 - Entrepreneurial support from Cornell University Library');">Entrepreneurial support from Cornell University Library</a></p>
+        </div>
+        </div>
+     
+        
+        <h2><a href="http://www.cornell.edu/about/">About Cornell <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></a></h2>
+        <div id="map_bg">
+        <ul id="maplinks">
+			<li id="ithaca"><a href="http://www.cornell.edu/visiting/ithaca/">Ithaca</a></li>
+			<li id="nyc"><a href="http://www.cornell.edu/nyc/">New York</a></li>
+			<li id="doha"><a href="http://www.cornell.edu/visiting/qatar/">Doha</a></li>
+            <li id="zoom"><a href="http://www.cornell.edu/maps/world.cfm">more</a></li>
+		</ul>
+        </div>
+		<ul id="welcomelinks">
+			<li><a href="http://www.cornell.edu/about/">Facts about Cornell</a> and <a href="http://www.cornell.edu/visiting/ithaca/">Ithaca</a></li>
+			<li><a href="http://www.cornell.edu/visiting/">Visiting</a>, <a href="http://www.cornell.edu/maps/">Maps</a> and <a href="http://www.cornell.edu/visiting/ithaca/live_views.cfm">Live Views</a></li>
+			<li><a href="http://www.cornell.edu/diversity/">Diversity and Inclusiveness</a></li>
+			<li><a href="http://www.cornell.edu/disability/">Disability Information</a></li>
+            
+			<li><a href="http://www.cornell.edu/academics/colleges.cfm">Colleges and Schools</a></li>
+			<li><a href="http://www.cornell.edu/leadership/">Cornell Leadership</a></li>
+			<li><a href="/strategicplan/">Cornell Strategic Plan</a></li>
+  
+   
+		</ul>
+        
+        <a id="ezra" class="img" href="/about/mission">I would found an institution</a>
+
+	</div>
+	
+	<div id="news-events-spotlight">
+	<div id="news">
+		<h2><a href="http://chronicle.cornell.edu/">Chronicle Online <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></a></h2>
+			
+		
+		  
+			<ul id="tnlist">			
+					
+				<li>
+					<a href="http://www.news.cornell.edu/stories/April12/GettlemanPulitzer.html"><img class="thumbnail" src="http://www.cornell.edu/img/home/news/jeffrey-gettleman-75x75.jpg" alt="Jeffrey Gettleman" /></a>
+					<div class="story">				
+						<h3><a href="http://www.news.cornell.edu/stories/April12/GettlemanPulitzer.html">Jeffrey Gettleman '94 wins Pulitzer Prize for international reporting</a></h3>Philosophy major was cited for work done 
+at risk to his personal safety 
+					</div>			
+				</li> 
+			 		
+				<li>
+					<a href="http://www.news.cornell.edu/stories/April12/LawSomalia.html"><img class="thumbnail" src="http://www.cornell.edu/img/home/news/_generic/ndulo-teaching-75x75.jpg" alt="Muna Ndulo" width="75" height="75" /></a>
+					<div class="story">
+						<h3><a href="http://www.news.cornell.edu/stories/April12/LawSomalia.html">With help of five students, law professor Muna Ndulo helps Somalia</a></h3>The students contributed to a UN effort to restore democracy 
+					</div>
+				</li>
+					
+				<li>
+					<a href="http://www.news.cornell.edu/stories/April12/PopulationGrowth.html"><img class="thumbnail" src="http://www.cornell.edu/img/home/news/_generic/population-data-75x75.jpg" alt="bar chart" width="75" height="75" /></a>
+					<div class="story">
+						<h3><a href="http://www.news.cornell.edu/stories/April12/PopulationGrowth.html">Upstate New York counties see slow growth since 2010 census</a></h3>Thirty-seven of the state's 62 counties saw a population decrease
+					</div>
+				</li>
+			
+            
+				<li>
+                 <h3 class="more" id="releases">Read <a href="http://www.pressoffice.cornell.edu/releases/">press releases</a> and <a href="http://www.pressoffice.cornell.edu/inthenews/">Cornell in the News</a> <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></h3> 
+                
+                <h2 id="athletics_heading"><a href="http://www.cornellbigred.com">Athletics <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></a></h2>
+					<a href="http://www.cornellbigred.com/news/2012/4/12/EQUEST_0412120631.aspx"><img class="thumbnail" src="http://www.cornell.edu/img/home/athletics/_generic/lacrosse_tn.jpg" alt="lacrosse stick" width="75" height="75" /></a>
+					<div class="story">
+						<h3><a href="http://www.cornellbigred.com/news/2012/4/12/EQUEST_0412120631.aspx">Lacrosse programs raise more than $2,000 for breast cancer research</a></h3>All proceeds will go to the Cancer Resource Center of the Finger Lakes
+					</div>
+				</li>
+                
+                	<h3 class="more">Get the <a href="http://www.cornellbigred.com">latest scores</a> and <a href="http://www.cornellbigred.com/calendar.aspx">schedules</a> <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></h3>
+			 
+		
+		</ul>
+			
+		
+		 
+
+		
+		
+        
+	
+            
+
+			       
+         
+
+
+
+
+    </div>
+	<div id="events">
+
+			
+		
+			   
+					<h2><a href="http://www.cornell.edu/spotlight/">Spotlight <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></a></h2>
+					<div id="spotlight1">
+						
+                        
+                       
+ 
+ 
+ 
+ 
+
+
+
+
+
+<div id="spotlight2">
+<a href="http://www.news.cornell.edu/stories/April12/BakerGiftRealEstate.html" onclick="pageTracker._trackEvent('Spotlights', 'Click', '11M gift benefits Program in Real Estate');"><img src="http://www.cornell.edu/img/home/spotlight/real-estate-housing-hotel-180x75.jpg" alt="houses and hotels" border="0" id="spotlight-thumbnail"></a>
+<h3 id="spotlight-headline"><a href="http://www.news.cornell.edu/stories/April12/BakerGiftRealEstate.html" onclick="pageTracker._trackEvent('Spotlights', 'Click', '11M gift benefits Program in Real Estate');">Lisa and Richard Baker's $11M gift will benefit Program in Real Estate</a></h3>
+</div></div>
+  
+            
+               
+				 
+			
+			
+			
+		
+		
+	
+		<h2 id="events_heading"><a href="http://www.cornell.edu/events/">Events&nbsp;<img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt="&gt;&gt;" width="4" height="7" border="0" /></a></h2>
+		
+		
+				
+				
+		
+		<a href="http://events.cornell.edu/event/the_art_of_gensler">
+		<img class="featureImage" src="http://www.cornell.edu/img/home/events/art-gensler-180x75.jpg" alt="Art Gensler" /></a>
+		<ul id="eventslist">		
+			 <li>
+				<h3><a href="http://events.cornell.edu/event/the_art_of_gensler">The Art of Gensler</a></h3>
+				 <div class="event-date">Apr 17 
+				</div>
+			</li>
+			
+						
+			
+			<li>
+				<h3><a href="http://events.cornell.edu/event/has_the_ivy_changed_a_look_at_college_life_at_cornell_today">Has the Ivy Changed? A Look at College Life at Cornell Today</a></h3>
+				 <div class="event-date">
+				
+						Apr
+					17</div> 
+			</li> 
+			
+			
+			<li>
+				<h3><a href="http://events.cornell.edu/event/cornell_caring_community_celebration_on_ho_plaza">Caring Community Celebration on Ho Plaza</a></h3>
+				 <div class="event-date">
+				
+						Apr
+					17</div> 
+			</li> 
+			
+			
+			</ul>
+			 
+		
+		
+		
+		<h3 class="more">More Cornell <a href="http://www.cornell.edu/events/">Events</a> <img class="link-arrow" src="/img/layout/arrows/right_gray.gif" alt=">>" width="4" height="7" border="0" /></h3>
+	</div>
+	
+		</div>
+	
+    
+   
+</div><!-- end maincontent -->
+
+</div><!-- end content -->
+<!-- content out -->
+
+<hr />
+    
+<div id="explore" class="clearfix">
+	<div id="explore_content">
+    	<div id="link_list">
+    	<h2>Explore</h2>
+    	<ul>
+        	<li><a href="http://www.cornell.edu/libraries/">Libraries</a> and <a href="http://www.cornell.edu/collections/">Collections</a></li>
+			<li><a href="http://www.international.cornell.edu/">International Cornell</a></li>
+			<li><a href="/collaborative/">Collaborative Culture</a></li>
+            <li><a href="http://caringcommunity.cornell.edu">Caring Community</a></li>
+            <li><a href="/sustainability/">Sustainability at Cornell</a></li>
+            <li><a href="http://www.giving.cornell.edu/waystogive/">Giving to Cornell</a></li>
+        </ul>
+    	</div>
+        
+        <div id="big_feature">
+        <a id="now" href="http://now.cornell.edu/cu/" class="img unitPng">CornellNOW</a>
+       
+        </div>
+        
+        <div id="small_feature">
+  		<a id="nyc" href="http://nyc.cornell.edu" class="img unitPng">Cornell in NYC</a>
+    	</div>
+    
+    
+    </div>
+</div>    
+       
+
+
+<!-- footer in -->
+
+<div id="footerwrap">
+	<div id="footer">
+	
+	
+    
+<style type="text/css">
+ 
+#main_links {
+	float: left;
+	}
+ 
+#footer ul {
+	width: auto;
+	float: none;
+	display: block;
+	clear: both;
+	padding-bottom: 16px;
+	}
+ 
+#footer #social  {
+	 float: left;
+	 width: auto;
+	 height: 38px;
+	 padding: 0 8px 0 15px;
+	 margin: 2px 0 0 15px;
+	 border-left: 1px solid #bbb;
+	 border-right: 1px solid #bbb;
+ 	}
+
+#footerwrap #footer #social h4 {
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+	padding: 0;
+	}
+
+#footer #social ul {
+	padding: 2px 0 0 0;
+	}
+
+#footer #social ul li  {
+	 border: none;
+	 padding: 0;
+	 margin: 0 6px 0 0;
+ 	}
+	
+#footer #social ul li a {
+	border: none;
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-indent: -5000px;
+	overflow: hidden;
+	}
+
+a#footer_twitter {
+	background: url(http://www.cornell.edu/img/layout/social_sprite.gif) no-repeat left top;
+	}
+	
+a#footer_facebook {
+	background: url(http://www.cornell.edu/img/layout/social_sprite.gif) no-repeat -16px top; 
+	}	
+	
+a#footer_futurity {
+	background: url(http://www.cornell.edu/img/layout/social_sprite.gif) no-repeat -32px top;
+	}		
+		
+#print-copyright {
+	width: auto;
+	}
+
+	
+ </style>
+
+	
+	<div id="print-copyright">
+		<div id="printlink">
+			 <a href="https://www.hr.cornell.edu/jobs/">Jobs at Cornell</a> 
+		</div>
+		
+		<div id="copyright">
+	<a href="http://www.cornell.edu/about/site/copyright.cfm">Copyright Information</a>		
+		</div>
+	</div>
+	
+	<hr />
+    
+ 
+  
+<div id="main_links">
+	
+<ul>
+<li class="first"><a href="http://www.cornell.edu/">Home</a></li>
+<li><a href="http://www.cuinfo.cornell.edu/">CUinfo</a></li>
+<li><a href="http://my.cornell.edu/">myCornell</a></li>
+<li><a href="http://www.cornell.edu/emergency/">Emergency Info</a></li>
+<li><a href="http://www.cornell.edu/about/status/">Operating Status</a></li>
+<li><a href="http://www.cornell.edu/about/status/weather.cfm">Weather</a></li>
+</ul> 
+
+
+<hr />
+
+
+
+<ul>
+<li class="first"><a href="http://pressoffice.cornell.edu/">For Media</a> </li>
+<li><a href="http://www.cornell.edu/facultystaff/">For Faculty and Staff</a></li>
+<li><a href="http://www.cornell.edu/about/site/">Site Info</a></li>
+<li><a href="http://www.cornell.edu/contact/feedback.cfm">Feedback</a></li>
+<li><a href="http://www.cornell.edu/help/">Help</a></li>
+<li><a href="http://www.cornell.edu/contact/">Contact</a></li>
+</ul> 
+
+
+
+</div>
+
+<hr />
+    
+<div id="social">
+<h4>Cornell on:</h4>
+<ul>
+<li><a id="footer_facebook" href="http://www.facebook.com/CornellUniv" title="Cornell on Facebook">facebook</a></li>
+<li><a id="footer_twitter" href="http://twitter.com/cornell_univ" title="Cornell on Twitter">twitter</a></li>
+<li><a id="footer_futurity" href="http://futurity.org/tag/cornell-university/" title="Cornell on Futurity">futurity</a></li>
+</ul>    
+</div>
+    
+<hr />  
+    
+	</div><!-- end footer -->
+
+</div><!-- end footerwrap -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1628162-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+<!-- footer out -->
+
+</div><!-- end wrapper -->
+
+
+</body>
+</html>
+
+

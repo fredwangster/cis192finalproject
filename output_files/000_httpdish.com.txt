@@ -1,0 +1,588 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+    <meta http-equiv="x-ua-compatible" content="IE=8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=1280, maximum-scale=1">
+<script type="text/javascript" src="http://use.typekit.com/irz0rsq.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <title>DISH Satellite TV Packages From $19.99. Ask About HD Free For Life.</title>
+    <meta name="description" content="DISH Network brings you high quality satellite TV for all of your favorite channels & HD entertainment.  We're the premier satellite provider!">
+    <meta name="author" content="">
+    <link rel="canonical" href="http://www.dish.com"/>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="/js/jquery.autoSuggest.js"></script>
+    <script type="text/javascript" src="/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/js/swfobject.js"></script>
+    <script src="js/readCookie.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+
+        if (readCookie("userName") != null || readCookie("is_customer") == "yes") {
+            window.location = "http://www.mydish.com";
+        }
+    </script>
+
+    <script type="text/javascript">    //for smart-size
+    //var gS = -200;
+    var carouselTrackArr = [];</script>
+    <link rel="stylesheet" href="/css/autoSuggest.css" type="text/css" />
+	<meta name="WT.cg_n" content="Homepage" />
+    <style type="text/css">
+    <!--
+	#home-overlay-swf {
+		position: absolute;
+		z-index: 200;
+		margin-top: -150px;
+		}
+	#cboxOverlay {
+		opacity: 0.6 !important;
+		/* settings for IE */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
+		filter: alpha(opacity=50) !important;
+	}
+	-->
+    </style>
+	<script>
+	var shellPlayer ;
+	var flashvars = {displayPreloader:"false", playShell:"true"};
+	var params = {quality:"high", wmode:"transparent", scale:"noscale", mode:"opaque"};
+	var attributes = {id: "hero-swf"};
+	swfobject.embedSWF("/swf/shellPlayer.swf", "hero-swf", $(window).width(), "462", "9.0.0", false, flashvars, params,attributes);
+	swfobject.registerObject("hero-swf","9.0.0");	
+	</script>
+    </head>
+    <body>
+    <div id="top-nav" class="group">
+  <ul class="container">
+    <li class="active"><a href="/" title="DISH" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/top-nav/dish')">DISH</a></li>
+    <!--<li><a href="http://www.mydish.com" title="MyDISH" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/top-nav/mydish')">MyDISH</a></li>-->
+    <li><a href="https://secure.dishonline.com/login?from=dishnetwork" title="DISH ONLINE" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/top-nav/dishonline')">DISH ONLINE</a></li>
+    <li><a href="http://www.blockbusterathome.com" title="BLOCKBUSTER @HOME" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/top-nav/blockbuster-at-home')">BLOCKBUSTER @HOME&trade;</a></li>
+    <li id="account" class="group"><a href="/redirects/csa_links/?csa=logout" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/top-nav/login_out')"><strong>LOG IN / OUT</strong></a>
+    </li><a id="header-affil"></a>
+    <li id="dish-register"><a href="/redirects/csa_links/?csa=register" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/top-nav/register')">REGISTER</a></li>
+    <li class="pipe">&nbsp;&nbsp;</li>
+    <li id="order-dish"><a href="/redirects/csa_links/?csa=cart" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/top-nav/ordernow')">ORDER NOW:</a> <span id="order-phone" class="dynPhone">1-800-823-4929</span></li>
+    
+  </ul>
+</div>
+
+<script language="javascript" type="text/javascript" src="/js/readCookie.js"></script>
+
+<script language="javascript" type="text/javascript">
+    var userName = readCookie("userName");
+    var affilID = readCookie("affil");
+    var phoneNum = "1-800-823-4929";
+    var phone;
+    if (affilID) {
+		$.getScript("/js/affil.js", function(){			
+	        phone = returnPhoneNum(affilID);
+    		$(".dynPhone").html(phone); 
+		});
+    } 
+	else{    $(".dynPhone").html(phoneNum); }
+</script> 
+<script language="javascript" type="text/javascript" defer="defer">
+    var elemA = document.getElementById("order-phone");
+    if (window['partnerPhone']!=undefined) {
+        elemA.innerHTML = "<a>" + partnerPhone + "</a>";
+    }
+</script>
+<div id="main-nav-wrap">
+  <div id="main-nav" class="group container">
+    <ul>
+      <li id="home"><a href="/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/main-nav/dish')">DISH</a></li>
+      <li id="why-dish"><a href="/why-dish/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/main-nav/whydish')"><span></span>WHY DISH</a></li>
+      <li id="entertainment"><a href="/entertainment/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/main-nav/entertainment')"><span></span>ENTERTAINMENT</a></li>
+      <li id="technology"><a href="/technology/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/main-nav/technology')"><span></span>TECHNOLOGY</a></li>
+      <li id="support"><a href="/support/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/main-nav/support')"><span></span>SUPPORT</a></li>
+      <li id="search"><a href="/gsearch/?q=packages" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/main-nav/search')"><span></span>SEARCH</a></li>
+    </ul>
+  </div>
+  <div id="main-subnav">
+    <div class="container">
+      <div id="why-dish-subnav">
+        <h2>EIGHT REASONS DISH<sup>&reg;</sup> RULES ENTERTAINMENT:</h2>
+        <div class="container_12 group">
+          <ul class="grid_3 alpha">
+            <li><a href="/why-dish/#innovate" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/weinnovate')">We Innovate</a></li>
+            <li><a href="/why-dish/#carousel-two" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/tveverywhere')">TV Everywhere<sup>TM</sup></a></li>
+          </ul>
+          <ul class="grid_3">
+            <li><a href="/why-dish/#unbeatable" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/unbeatablevalue')">Unbeatable Value</a></li>
+            <li><a href="/why-dish/#movies" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/themostmovies')">The Most Movies</a></li>
+          </ul>
+          <ul class="grid_3">
+            <li><a href="/why-dish/#service" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/superiorservice')">Superior Service</a></li>
+            <li><a href="/why-dish/#stack" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/seehowwestackup')">See How We Stack Up</a></li>
+          </ul>
+          <ul class="grid_3 omega">
+            <li><a href="/why-dish/#carousel-four" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/designedforyou')">Designed For You</a></li>
+            <li><a href="/why-dish/#history" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/why-dish-subnav/afamilybusiness')">A Family Business</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="entertainment-subnav" class="group">
+        <div class="group container_12">
+          <ul>
+          	<li id="subnav-find-your-package" class="grid_2 alpha subnav-icon"><a href="/entertainment/packages/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/findyourpackage')"><span></span>Find Your Package</a></li>
+            <li id="subnav-channels" class="grid_2 subnav-icon"><a href="/entertainment/channels/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/channels')"><span></span>Channels</a></li>
+            <li id="subnav-blockbuster" class="grid_2 subnav-icon"><a href="/entertainment/blockbuster/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/blockbuster-at-home')"><span></span>Blockbuster @Home</a></li>
+            <li id="subnav-international" class="grid_2 subnav-icon"><a href="/entertainment/packages/international/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/international')"><span></span>International</a></li>
+            <li class="grid_2">
+            	<ul>
+                	<li><a href="/entertainment/packages/dish-latino" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/dishlatino')">DishLATINO</a></li>
+                    <li><a href="/entertainment/pay-per-view/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/pay-per-view')">Pay-Per-View</a></li>
+                    <li><a href="/entertainment/vod/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/videoondemand')">Video On Demand</a></li>
+                    <li><a href="/entertainment/internet-phone/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/internet-phone')">Internet &amp; Phone</a></li>
+                    <li><a href="/entertainment/movies/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/movies')">Movies</a></li>
+                    <li><a href="/entertainment/sports/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/sports')">Sports</a></li>
+                </ul>
+            </li>
+            <li class="grid_2 omega">
+            	<ul>
+                	<li><a href="/entertainment/music/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/music')">Music</a></li>
+                    <li><a href="/entertainment/gaming/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/games')">Games</a></li>
+                    <li><a href="/entertainment/hbo/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/hbo')">HBO<sup>&reg;</sup></a></li>
+                    <li><a href="/entertainment/cinemax/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/cinemax')">CINEMAX<sup>&reg;</sup></a></li>
+                    <li><a href="/entertainment/showtime/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/showtime')">SHOWTIME<sup>&reg;</sup></a></li>
+                    <li><a href="/entertainment/starz/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/entertainment-subnav/starz')">STARZ<sup>&reg;</sup></a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="technology-subnav" class="group">
+        <div class="group container_12">
+          <ul>
+          	<li id="subnav-hopper" class="grid_2 alpha subnav-icon"><a href="/technology/hopper/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/hopper')"><span></span>Hopper</a></li>
+            <li id="subnav-tv-everywhere" class="grid_2 subnav-icon"><a href="/technology/tv-everywhere/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/tveverywhere')"><span></span>TV Everywhere</a></li>
+            <li id="subnav-dvrs-receivers" class="grid_2 subnav-icon"><a href="/technology/receivers-dvrs/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/dvrs-receivers')"><span></span>DVRs &amp; Receivers</a></li>
+            <li id="subnav-tv-outdoors" class="grid_2 subnav-icon"><a href="/technology/tv-outdoors/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/tvoutdoors')"><span></span>TV Outdoors</a></li>
+            <li id="subnav-installation-services" class="grid_2 subnav-icon"><a href="/entertainment/internet-phone/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/internet-phone')"><span></span>Internet &amp; Phone</a></li>
+            <li class="grid_2 omega">
+            	<ul>
+                	<li><a href="/technology/dish-online/" title="DISH Online" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/dishonline')">DISH Online</a></li>
+                    <li><a href="/technology/high-definition/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/high-definition')">High-Definition</a></li>
+                    <li><a href="/technology/installation-services/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/installation-services')">Installation Services</a></li>                    
+                    <li><a href="/technology/3d-programming/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/3d')">3D</a></li>
+                    <li><a href="/technology/mobile/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/mobile')">Mobile</a></li>
+                    <li><a href="/technology/applications/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/apps')">Apps</a></li>
+                    <li><a href="/technology/google-tv/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/technology-subnav/googletv')">Google TV</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="support-subnav" class="group">
+        <div class="group container_12">
+          <ul>
+          	<li id="subnav-get-ready" class="grid_2 alpha subnav-icon"><a href="/support/installation/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/support-subnav/getreadyfordish')"><span></span>Get Ready For DISH</a></li>
+            <li id="subnav-tools-apps" class="grid_2 subnav-icon"><a href="/support/tools-apps/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/support-subnav/tools-apps')"><span></span>Tools &amp; Apps</a></li>
+            <li id="subnav-product-support" class="grid_2 subnav-icon"><a href="/support/product-support/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/support-subnav/productsupport')"><span></span>Product Support</a></li>
+            <li id="subnav-tech-support" class="grid_2 subnav-icon"><a href="/support/tech-support/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/support-subnav/techsupport')"><span></span>Tech Support</a></li>
+            <li id="subnav-get-connected" class="grid_2 subnav-icon"><a href="/support/get-connected/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/support-subnav/getconnected')"><span></span>Get Connected</a></li>
+            <li class="grid_2 omega">
+            	<ul>
+                	<h2>ALREADY HAVE DISH?</h2>
+                	<li>Visit MyDISH for existing customer support.</li>
+                    <li class="red"><a href="http://www.mydish.com/support/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/support-subnav/mydishsupport')">MyDISH Support</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="search-subnav" class="group">
+        <div>
+          <form id="siteSearch" action="/gsearch/">
+            <input name="q" id="search-subnav-search-box" type="text" value="Search Examples: HBO, DVR, HD, Program My Remote, TV Everywhere" defaultValue="Search Examples: HBO, DVR, HD, Program My Remote, TV Everywhere" />
+            <input name="searchButton" type="button" class="searchButton" value="Go" onclick="validate()" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end main-nav --> 
+</div>
+<form method="post" action="" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczNDM3MTI1Mw9kFgJmD2QWAgIEDw8WAh4NT25DbGllbnRDbGljawUTcmV0dXJuIHZhbFN1Ym1pdCgpO2RkZDp0oPiFMBQg/OXxD9PHV1X22OL2" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQK+zsfMBQKzoKSCCAKBk/m1CwLzoJK6BALs0bLrBj4P0dl0UdEdRgIkQtyY/MOgIBtx" />
+      <div id="home-overlay-swf">
+	
+      </div>
+      <div id="hero-swf">
+        <div id="slider2" class="group">
+          <div id="home-carousel-1" class="carousel-1 size-smart">
+            <div class="container_12 group light-txt">
+              <div class="grid_7">
+                <h1>The Hopper<br>
+                IS HERE!</h1>
+                <h2><strong>Get the Hopper FREE</strong><br>
+                with America's Top 200 package<br>
+                and above.</h2>
+                <div class="group"> <span class="button"><a href="/technology/hopper/?WT.ac=ACQ_MKTG_DISH_CAR1S_0312_HopperIsHere" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/buttons/home-carousel-1/getstarted')">Learn More</a></span></div>
+              </div>
+            </div>
+          </div>
+          <!-- end carousel 1 -->
+          
+          <div id="home-carousel-2" class="carousel-2 size-smart">
+            <div class="container_12 group dark-txt">
+              <div class="grid_6">
+                <h1>GET A<br/>SWEET<br/>
+                DEAL.</h1>
+                <h2>Promotional prices start at<br>
+                $19.99/mo. for 12 months*</h2>
+                <div class="group"> <span class="button"><a href="/redirects/csa_links/?csa=cart&WT.ac=ACQ_MKTG_DISH_CAR2_0412_getAsweetDeal_HOP" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/buttons/home-carousel-1/getstarted')">Get Started</a></span></div>
+              </div>
+            </div>
+          </div>
+          <!--end carousel 2 -->
+          <div id="home-carousel-3" class="carousel-3 size-smart">
+            <div class="container_12 group dark-txt">
+              <div class="grid_8">
+                <h1>GET MORE<br/>MOVIES.</h1>
+                <div class="grid_6 suffix_2">
+                  <h2></h2>
+                  <div class="group"> <span class="button"><a href="/entertainment/packages/?WT.ac=ACQ_MKTG_DISH_CAR3S_0412_getMoreMovies_MI4" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/buttons/home-carousel-1/getstarted')">Get Started</a></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end carousel 3 --> 
+      </div>
+      </div>
+      <!-- end main --> 
+      
+      <div id="ribbon-wrap">
+  <div id="ribbon" class="size-smart" name="ribbon"> </div>
+  <div class="container_12">
+    <ul class="group" id="ul-search">
+      <li id="find"><span></span>Find Your Package</li>
+      <li id="searchbox" >
+        <div id="dvSearchbox">
+          <input name="RibbonSearchBox" type="text" value="Ex: Nickelodeon, Hallmark, USA, TNT, Cartoon Network" id="RibbonSearchBox" onkeypress="return EnterKeySubmission(event,&#39;btnGo&#39;);" />
+        </div>
+      </li>
+      <li id="Li1">
+        <input type="submit" name="btnGo" value="" onclick="return valSubmit();" id="btnGo" class="go-button" style="display: block !important;
+            width: 47px !important;
+            height: 33px !important;
+            background: url(/images/buttons/go.png) no-repeat !important; 
+            position: absolute !important;
+            top: 6px;
+            left: -55px;
+            border: none;" />
+      </li>
+      <li id="browse"><a href="/entertainment/packages/#ribbon"><span></span>Browse All <br />Packages</a></li>
+    </ul>
+  </div>
+</div>
+<input type="hidden" name="hdValues" id="hdValues" />
+<script language="javascript">
+function valSubmit() {
+    //alert($('#dvSearchbox ul.as-selections').text());
+    if ($('#dvSearchbox ul.as-selections').text() == '') 
+    {
+        alert('Please enter at least one value from the list.'); 
+        return false;
+    }
+    else {
+        return true; 
+    }
+}</script> 
+      <!-- end ribbon -->
+      
+      <div id="promos" class="group light-txt">
+        <div class="container_12 group">
+          <div class="grid_4">
+            <a href="/testdrive/" title="Test Drive" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/buttons/testdrive/learnmore')"><img src="images/promo-1.jpg" alt="Why DISH?" /></a>
+            <h3>Test Drive TV Everywhere&trade;</h3>
+            <p>You're just seconds away from watching Live TV on your computer, iPad&reg;, iPhone&reg; or Android&trade; device.</p>
+          </div>
+          <div class="grid_4">
+            <a href="/entertainment/blockbuster/" title="Blockbuster @Home Learn More" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/imagelink/blockbuster-at-home/learnmore')"><img src="images/promo-2.jpg" alt="Entertainment" width="300" height="160" /></a>
+            <h3>Blockbuster @Home&trade;</h3>
+            <p>Get over 100,000 movies, TV shows and games delivered to your door. Plus, thousands of movies available to stream and over 20 awesome channels.</p>
+          </div>
+          <div class="grid_4"> <a href="/entertainment/internet-phone/" title="Bundle and Save" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/imagelink/bundleInternetPhone/learnmore')"><img src="images/promo-3.jpg" alt="Bundle and Save" /></a>
+                <h3>Bundle and Save.</h3>
+                <p>Save a bundle when you add high-speed Internet and phone to your TV package.</p>
+                <span class="disclaimer"><strong>Touch - Thursdays 9/8c FOX.</strong> TOUCH TM & © 2012 Twentieth Century Fox Film Corporation. All Rights Reserved.</span>
+                <input name="TextBox1" type="text" maxlength="1" id="TextBox1" />
+          </div>
+          <div class="grid_12 group">
+            <div class="grid_4 alpha order" id="promos-technology"> <span class="button red-button"><a href="/testdrive/" title="Test Drive" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/buttons/testdrive/learnmore')">Learn More</a></span> </div>
+            <div class="grid_4 order" id="promos-entertainment"> <span class="button red-button"><a href="/entertainment/blockbuster/" title="Blockbuster @Home Learn More" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/buttons/blockbuster-at-home/learnmore')">Learn More</a></span> </div>
+            <div class="grid_4 omega order" id="promos-technology"> <span class="button red-button"><a href="/entertainment/internet-phone/" title="Bundle and Save" onClick="dcsMultiTrack('DCS.dcsuri','/vpv/buttons/bundleInternetPhone/learnmore')">Learn More</a></span> </div>
+          </div>
+        </div>
+      </div>
+      <!-- end promos -->
+    </form>
+    <div id="footer">
+  <div id="footer-wrap" class="group container_12">
+    <div class="grid_3 alpha">
+      <h6>CORPORATE</h6>
+      <ul>
+        <li><a href="http://press.dishnetwork.com/Corporate-Info/Company-Overview" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/ourcompany')">Our Company</a></li>
+        <li><a href="http://careers.dish.com/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/careeropportunities')">Career Opportunities</a></li>
+        <li><a href="http://press.dishnetwork.com/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/presscenter')">Press Center</a></li>
+        <li><a href="http://dish.client.shareholder.com/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/investorrelations')">Investor Relations</a></li>
+        <li><a href="/legal/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/legal')">Legal</a></li>
+      </ul>
+    </div>
+    <div class="grid_3">
+      <h6>RESOURCES</h6>
+      <ul>
+      <li><a href="/support/tools-apps/locate-retailer/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/findaretailer')">Find A Retailer</a></li>
+        <li><a href="http://www.dishlatino.com/"  onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/dishlatino')">DishLATINO</a></li>
+        <li><a href="http://commercial.dishnetwork.com/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/businessowners')">Business Owners</a></li>
+        <li><a href="http://www.dishmediasales.com/" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/dishmediasales')">DISH Media Sales</a></li>
+      </ul>
+    </div>
+    <div class="grid_3">
+      <h6>CONNECT</h6>
+      <ul>
+        <li><a href="/chat/#email" id="send-feedback" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/sendfeedback')">Send Feedback</a></li>
+        <li><a href="https://dishnetworkmail.com/servlet/campaignrespondent?_ID_=dish.179" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/newsletter')">Newsletter</a></li>
+        <li><a href="/chat/" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/vpv/navigation/footer/contactus')">Contact Us</a></li>
+      </ul>
+    </div>
+    <div id="social" class="grid_3 omega">      
+       <p><a href="http://www.facebook.com/dishnetwork" target="_blank"><img src="/images/btn_facebook.jpg" alt="Fan us on Facebook" title="Fan us on Facebook" width="93" height="40" border="0" /></a></li></p>
+    <p><a href="http://www.twitter.com/dish" target="_blank"><img src="/images/btn_twitter.jpg" alt="Follow us on Twitter" title="Follow us on Twitter" width="93" height="40" border="0" /></a></li></p>
+    <p><a href="http://www.youtube.com/dish" target="_blank"><img src="/images/btn_youtube.jpg" alt="Watch us on YouTube" title="Watch us on YouTube" width="93" height="40" border="0" /></a></li></p>
+    </div>
+  </div>
+  <div id="copyright">
+    <div class="container_12">
+      <p>&copy;  2012, DISH Network L.L.C. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+ 
+    <script type="text/javascript">
+    //alert(document.documentMode);
+</script> 
+    <script type="text/javascript" src="js/main.js"></script> 
+    <script type="text/javascript">
+function caroTracker(thisID, currentIndex) {
+	this.carouselID = thisID;
+	this.selIndex = currentIndex;
+}
+
+$(function () {
+	cT = new caroTracker("slider1", 0);
+	carouselTrackArr.push(cT);
+	$('#slider1').bxSlider({
+		auto: false,
+		infiniteLoop: true,
+		pager: true,
+		randomStart: false,
+		onBeforeSlide: function (currentSlide, totalSlides) {
+			carouselTrackArr[0].selIndex = currentSlide;
+		}
+	});
+
+	cT = new caroTracker("slider2", 0);
+	carouselTrackArr.push(cT);
+	$('#slider2').bxSlider({
+		infiniteLoop: true,
+		pager: true,
+		randomStart: false,
+		onBeforeSlide: function (currentSlide, totalSlides) {
+			carouselTrackArr[1].selIndex = currentSlide;
+		}
+	});
+
+	cT = new caroTracker("slider3", 0);
+	carouselTrackArr.push(cT);
+	$('#slider3').bxSlider({
+		infiniteLoop: true,
+		pager: true,
+		randomStart: false,
+		onBeforeSlide: function (currentSlide, totalSlides) {
+			carouselTrackArr[2].selIndex = currentSlide;
+		}
+	});
+
+	cT = new caroTracker("slider4", 0);
+	carouselTrackArr.push(cT);
+	$('#slider4').bxSlider({
+		auto: false,
+		infiniteLoop: true,
+		pager: true,
+		randomStart: false,
+		onBeforeSlide: function (currentSlide, totalSlides) {
+			carouselTrackArr[3].selIndex = currentSlide;
+		}
+	});
+
+	cT = new caroTracker("slider5", 0);
+	carouselTrackArr.push(cT);
+	$('#slider5').bxSlider({
+		infiniteLoop: false,
+		pager: true,
+		randomStart: true,
+		onBeforeSlide: function (currentSlide, totalSlides) {
+			carouselTrackArr[4].selIndex = currentSlide;
+		}
+	});
+
+	cT = new caroTracker("slider6", 0);
+	carouselTrackArr.push(cT);
+	$('#slider6').bxSlider({
+		infiniteLoop: false,
+		pager: true,
+		randomStart: true,
+		onBeforeSlide: function (currentSlide, totalSlides) {
+			carouselTrackArr[5].selIndex = currentSlide;
+		}
+	});
+}); 
+</script>
+    <style type="text/css">
+#dvSearchbox{width:660px;}
+</style>
+    <script type="text/javascript">
+    var SuggestionData = [];
+    CallHandler();
+    function CallHandler() {
+        $.ajax({
+            url: "/entertainment/packages/AutoSuggestHandler.ashx",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            data: { 'value': '10000' },
+            responseType: "json",
+            success: OnComplete,
+            error: OnFail
+        });
+        return false;
+    }
+    function OnComplete(result) {
+        SuggestionData = result;
+
+        //var prefill1= {items: [{value: "HBO123", key: "HBO123"}]};
+
+        //  $(document).ready(function () {
+        $("#RibbonSearchBox").autoSuggest(
+                    SuggestionData,
+                    { // preFill: document.getElementById("hdValues").value, //either comma separated or an object.
+                        //{ selectedValuesProp: "key", selectedItemProp: "value", searchObjProps: "key" }, //uses custom list and key is the original value.
+                        //{selectedValuesProp: "key", selectedItemProp: "key", searchObjProps: "key" }, //selectedItemProp = value selectedValuesProp=key > can be retrieved in request.//value :modified display value, Key: orignial value                    
+                        minChars: 2,
+                        selectionLimit: 5
+                    }
+                );
+        //});
+    }
+    function OnFail(result) {
+        // alert('Request Failed');
+    }
+</script> 
+<script type="text/javascript">	
+		function startShellPlayer() {
+			shellPlayer = swfobject.getObjectById("hero-swf");
+			var expireDate=new Date();
+			expireDate.setFullYear(2012,3,5);// expires April 5th 2012
+			$.cookie("has_SeenHopper","yes", { expires: expireDate }) ;
+			$('#home-overlay-swf').remove();
+			shellPlayer.playFlashShell(0);
+		}
+
+		window.onload = function () {
+		    if (readCookie("is_customer") == null) {
+		        $(document).ready(function () {		            
+		            $.fn.colorbox({ href: "overlay-cookie.html" ,overlayClose:false,escKey:false});
+		        });	        
+		    }
+		    /*else {
+		        HopperVideo();
+		    }*/
+		}
+		function HopperVideo() {
+		        $('#home-overlay-swf').remove();
+		        startShellPlayer();
+		}
+	</script>
+    <!-- FACEBOOK -->
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2011 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 3.3  -->
+<!-- Created: 12/16/2011 3:51:46 PM -->
+<script src="/js/wt_www.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//sdc.dishnetwork.com/dcspimbaa1000082r0rno1v47_9w2z/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.dish.com"/></div>
+</noscript>
+<!-- END OF SmartSource Data Collector TAG -->
+<!-- Start Google Analytics Code -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6203852-15']);
+  _gaq.push(['_setDomainName', 'dish.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Google Analytics Code -->
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: DN Universal
+URL of the webpage where the tag is expected to be placed: http://www.dishnetwork.com
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 12/27/2011
+-->
+
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="http://fls.doubleclick.net/activityi;src=1831140;type=retar604;cat=dnuni822;u1=[BreadCrumb ];ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://fls.doubleclick.net/activityi;src=1831140;type=retar604;cat=dnuni822;u1=[BreadCrumb ];ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+
+<!-- Start of Webtrends Link Tracker -->
+<script src="/js/wt-helper.js" type="text/javascript"></script>
+<script src="/js/wt-helper-behaviors.js" type="text/javascript"></script>
+<!-- End of Webtrends Link Tracker -->
+
+</body>
+</html>

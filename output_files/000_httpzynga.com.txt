@@ -1,0 +1,155 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+   <head prefix="og: http://ogp.me/ns# playzynga:http://ogp.me/ns/apps/playzynga#">
+		<meta charset="utf-8" />
+
+		<title>Zynga Profile</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=1" />
+
+					<meta name="robots" content="noindex, nofollow">
+		
+		<link rel="shortcut icon" href="https://zynga.com/favicon.ico" type="image/x-icon" />
+					<link rel="stylesheet" type="text/css" href="https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/js/compiled/zui/modules/widgets/all.css" />
+							<link rel="stylesheet" type="text/css" href="https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/css/profile_original_zy.css" />	
+					
+		<!--[if IE]>
+							<link rel="stylesheet" type="text/css" href="https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/css/profile_ie.css" />
+					<![endif]-->
+
+		<script type="text/javascript" src="https://zynga1-a.akamaihd.net/zlive/dapi/r53416-prod/common/ifpc/ifpc.js"></script>
+		<script type="text/javascript" src="https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/js/compiled/zui/zui.js"></script>
+		<script type="text/javascript">
+			document.domain = 'zynga.com';
+
+			(function () {
+				var ctx = {
+					baseUrl: 'https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/js/compiled/zui/modules/',
+					waitSeconds: 60
+				};
+								ctx.priority = ["page-zyc-head-profile"];
+				ctx.catchError = true;
+								ZY.ZUI.context('zui', ctx);
+			}());
+		</script>
+
+					<script type="text/javascript" src="https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/js/compiled/zyc-head-profile.js"></script>
+		
+		<script src="https://connect.facebook.net/en_US/all.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				ZY.onDocReady();
+			});
+		</script>
+
+		
+					<script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-18016990-3']);
+				_gaq.push(['_setDomainName', '.zynga.com']);
+				_gaq.push(['_trackPageview']);
+			
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+			</head>
+
+	<body class="zprofile-webapp zl-en zy-unauthenticated">
+				<div class="main-bg-wrapper ">
+			<div class="main-bg ">
+				<div class="page-wrapper">
+					<div id="page" class="clear">
+						<div id="container" class="clear">
+							<div id="header-outer">
+	<div id="header" class="clear">
+		<div id="logo-container" track="zhdr2">
+			<div id="logo">
+				<div id="beta"></div>
+				<!-- Do not localize this string -->
+				<div class="header-logo-tooltip">home</div>
+			</div>
+			<div class="header-logo-concurrents-wrapper">
+				<div class="header-logo-concurrents"></div>
+			</div>
+		</div>
+		<div id="zbar-container">
+			<div id="zbar" gameId="1031">
+			</div>
+		</div>
+		<div class="zy-stats zy-unauthenticated ">
+							<div class="zy-fb-login-container">
+				</div>
+					</div>
+	</div>
+</div>
+							<div id="rail-o">
+								<div id="rail"></div>
+							</div>
+							<div id="content"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer-wrapper">
+				<div id="footer">
+					<div class="footer-inner clear">
+	<ul class="footer-section footer-first-section clear">
+		<li><a href="http://company.zynga.com" target="_blank">Company</a></li>
+		<li><a href="http://zyngablog.typepad.com/zynga/" target="_blank">Blog</a></li>
+		<li><a href="http://company.zynga.com/about/jobs/" target="_blank">Jobs</a></li>
+		<li><a href="http://www.zynga.org/" target="_blank">Zynga.org</a></li>
+		<li><a href="http://forums.zynga.com/" target="_blank">Forums</a></li>
+		<li><a href="https://zynga.com/#/FAQ/faq.php" target="_blank">FAQ</a></li>
+		<li><a href="http://support.zynga.com/app/home/cs2/1E3d3M3A3y3E3r1E1B1w1A1B1E4a3M3m3d3y4a3E3r1E1B" target="_blank">Support</a></li>
+					<li><a href="http://company.zynga.com/platform-partners " target="_blank">Developers</a></li>
+				<li><a href="http://www.zynga.com/about/" target="_blank">About</a></li>
+		<li class="zy-locale-setter pointer" style="display: none;"><span class="zy-locale-link"></span><a class="zy-locale-more"> › </a></li>
+	</ul>
+	<ul class="footer-section footer-second-section clear">
+		<li title="58885" class="zy-copyright">&copy; 2012 Zynga, Inc.</li>
+		<li class="zy-privacy">
+			<a href="http://company.zynga.com/about/privacy-center/privacy-policy" target="_blank">
+				Privacy Policy			</a>
+		</li>
+		<li class="zy-tos">
+			<a href="http://company.zynga.com/about/legal/terms-of-service" target="_blank">
+				Terms of Service			</a>
+		</li>
+	</ul>
+</div>
+				</div>
+			</div>
+		</div>
+		<div id="overlay"></div>
+
+		
+		<div id="fb-root"></div>
+
+		<script type="text/javascript" src="https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/js/ZLocalization.js"></script>
+		<script type="text/javascript" src="https://zynga1-a.akamaihd.net/zlive/zdc-58885-static/locale-profile/en_US.js"></script>
+
+		<script type="text/javascript">
+			ZY.Boot.configure({"tabLayout":{"profile":["profile\/profile","profile\/zfriends","profile\/feed"]},"webapp":"profile","build":"58885","common_static_uri":"https:\/\/zynga1-a.akamaihd.net\/zlive\/zdc-58885-static","common_web_prefix":"common_web:","corp_uri":"http:\/\/www.zynga.com","cookie_names":{"feedTs":"zy_feed_ts"},"dev":false,"default_page":"home","experiments":[],"enable_report_inappropriate_feed":true,"enable_report_block_user":true,"fb_appId":"176611639027113","fb_appInstalled":false,"fb_user_perms":"email,user_location,friends_location,user_birthday,publish_actions,user_games_activity,friends_games_activity,user_status,publish_stream","fb_thirdPartyId":null,"fb_virals_enabled":false,"feedsEnabled":true,"friends":[],"gameletsEnabled":false,"games":{"1":{"name":"Texas HoldEm Poker","url":"\/#\/play\/poker","playableOnZDC":true,"imgUrl":"http:\/\/photos-b.ak.fbcdn.net\/photos-ak-snc1\/v27562\/52\/2389801228\/app_1_2389801228_4018.gif","title":"Texas HoldEm Poker","description":"Play Zynga Poker--the world's largest Texas Hold'Em Poker game with over 7 million players each day! Play with friends or meet people from around the world. Get FREE chips every day that you play!","site_name":"Texas HoldEm Poker","appId":"2389801228"},"43":{"name":"Mafia Wars","url":"\/\/apps.facebook.com\/inthemafia\/","playableOnZDC":false},"45":{"name":"YoVille","url":"\/\/apps.facebook.com\/yoville\/","playableOnZDC":false},"46":{"name":"Vampire Wars","url":"\/\/apps.facebook.com\/vampiresgame\/","playableOnZDC":false},"61":{"name":"Cafe World","url":"\/\/apps.facebook.com\/cafeworld\/","playableOnZDC":false},"63":{"name":"FarmVille","url":"\/\/apps.facebook.com\/onthefarm\/","playableOnZDC":false},"64":{"name":"PetVille","url":"\/\/apps.facebook.com\/petvillegame\/","playableOnZDC":false},"67":{"name":"Pioneer Trail","url":"\/\/apps.facebook.com\/pioneertrail\/","playableOnZDC":false},"69":{"name":"Treasure Isle","url":"\/\/apps.facebook.com\/treasureisle\/","playableOnZDC":false},"75":{"name":"CityVille","url":"\/#\/play\/cityville","playableOnZDC":true,"imgUrl":"http:\/\/photos-f.ak.fbcdn.net\/photos-ak-snc1\/v27562\/71\/291549705119\/app_1_291549705119_514.gif","title":"CityVille","description":"Build the City of your Dreams! Open restaurants, build hotels, construct bridges, collect rent and even capture bandits. Become the mayor and then run for governor. It's a booming time, start building your own City now.","site_name":"CityVille","appId":"291549705119"},"81":{"name":"Empires & Allies","url":"\/\/apps.facebook.com\/empiresandallies\/","playableOnZDC":false},"88":{"name":"Adventure World","url":"\/\/apps.facebook.com\/playadventureworld\/","playableOnZDC":false},"91":{"name":"Words With Friends","url":"\/#\/play\/wordswithfriends","playableOnZDC":true,"imgUrl":"http:\/\/photos-a.ak.fbcdn.net\/photos-ak-snc1\/v43\/184\/168378113211268\/app_1_168378113211268_4420.gif","title":"Words With Friends","description":"The #1 word game on iOS & Android is now on Facebook!  Join your friends in everyone's favorite crossword game. Play Words With Friends now!","site_name":"Words With Friends","appId":"168378113211268"},"101":{"name":"Mafia Wars 2","url":"\/\/apps.facebook.com\/mafiawars-two\/","playableOnZDC":false},"115":{"name":"Hidden Chronicles","url":"\/#\/play\/hiddenchronicles","playableOnZDC":true,"imgUrl":"http:\/\/photos-e.ak.fbcdn.net\/photos-ak-snc1\/v85006\/71\/100333333405439\/app_1_100333333405439_1076.gif","title":"Hidden Chronicles","description":"Unlock the secret of Ramsey Manor in Hidden Chronicles, Zynga\u2019s mysterious new hidden object game. Explore gorgeous scenes to uncover thousands of cleverly-concealed objects, solve puzzles, and find clues that help you unravel the mystery.","site_name":"Hidden Chronicles","appId":"100333333405439"},"223":{"name":"CastleVille","url":"\/#\/play\/castleville","playableOnZDC":true,"imgUrl":"http:\/\/photos-b.ak.fbcdn.net\/photos-ak-snc1\/v85006\/109\/107040076067341\/app_1_107040076067341_1528.gif","title":"CastleVille","description":"CastleVille is the only game where you create your own Happy Ending! Make your Kingdom the fairest of them all. Play now!","site_name":"CastleVille","appId":"107040076067341"}},"gameIDs":{"POKER":1,"MAFIA_WARS":43,"YOVILLE":45,"VAMPIRE_WARS":46,"CAFE_WORLD":61,"FARMVILLE":63,"PETVILLE":64,"PIONEER_TRAIL":67,"TREASURE_ISLE":69,"CITYVILLE":75,"EMPIRES_AND_ALLIES":81,"ADVENTURE_WORLD":88,"WWF":91,"MAFIA_WARS_2":101,"HIDDEN_CHRONICLES":115,"CASTLEVILLE":223},"max_neighbors":5000,"locales":{"da_DK":"Dansk","de_DE":"Deutsch","en_US":"English (US)","es_ES":"Espa\u00f1ol","fr_FR":"Fran\u00e7ais","id_ID":"Bahasa Indonesia","it_IT":"Italiano","ja_JP":"\u65e5\u672c\u8a9e","ko_KR":"\ud55c\uad6d\uc5b4","nb_NO":"Norsk (bokm\u00e5l)","nl_NL":"Nederlands","pt_BR":"Portugu\u00eas","sv_SE":"Svenska","th_TH":"\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22","tr_TR":"T\u00fcrk\u00e7e","zh_TW":"\u7e41\u9ad4\u4e2d\u6587"},"minified_static_uri":"https:\/\/zynga1-a.akamaihd.net\/zlive\/zdc-58885-static\/js\/compiled\/minified","minified_common_static_uri":"https:\/\/zynga1-a.akamaihd.net\/zlive\/zdc-58885-static\/js\/compiled\/minified","miniprofilesEnabled":true,"pics_uri":"https:\/\/zynga3-a.akamaihd.net\/zgnprofiles","public_uri":"https:\/\/zynga.com","fbns":"playzynga","presence_setting":{"key":6,"option":{"on":100,"off":400}},"privacySettings":[],"online":true,"reject_terms":["Fuvg","Shpx","Xvxr","xlxr","Avttre","Phag","Tbbx","Cravf","Ovgpu","Pbpnvar","Snttbg","Wvmm","XXX","Uvgyre","Anmv","Arteb","Avtyrg","Crqbcuvyr","Cebfgvghgr","Chffl","Encr","Encvfg","Evzwbo","Oybjwbo","Grfgvpyr","Intvan","Gjng","Jrgonpx","Ornare","KKK","Juber","Dhrrs","Cbea","Ahgfnpx","Onyyfnpx","Ubbxre","Unaqwbo","Evzwbo","Snt","Qvyqb","Pbpxfhpx","Qvpxfhpx","Qrttb","Phavyvathf","Nahf","Nany"],"requireFBSession":false,"rewardVillePublicUri":"https:\/\/rewards.zynga.com","s3_uri":"https:\/\/zlive.s3.amazonaws.com","static_uri":"https:\/\/zynga1-a.akamaihd.net\/zlive\/zdc-58885-static","static_proxy_uri":"https:\/\/static-proxy.zynga.com","static_proxy_enabled":true,"user":{"auth":false,"locale":"en_US"},"variants":[],"zlive_id":18,"zmfs_invite_buttons_enabled":true,"show_helpers_on_feed_enabled":false,"send_feedback_url":"http:\/\/support.zynga.com\/CP_Suggestions_WebFull?feedback=0&gameId=1031&loc=en_US&custlayoutid=1&layout=webFull&layouttmpl=Tmpl_WebFull_1","zdc_ads_bac_uri":"\/\/zynga2-a.akamaihd.net\/zap\/bac\/wrapper\/5\/bac-wrapper.js","zdc_ads_rac_uri":"\/\/zynga2-a.akamaihd.net\/zap\/bac\/wrapper\/5\/rac-wrapper.js","zdc_ads_sac_uri":"\/\/zynga2-a.akamaihd.net\/zap\/bac\/wrapper\/5\/sac-wrapper.js","zoom_enabled":true,"zoomConf":{"apiURI":"\/\/zynga1-a.akamaihd.net\/zlive\/zoom\/r57435-prod\/js\/zoomapi.js","swfURI":"\/\/zynga1-a.akamaihd.net\/zlive\/zoom\/latest-prod\/swf\/zoomapi.swf","zoom_host":"184.75.160.202","zoom_port":8890,"skey":"ts:1334715051000 skey:75a8f2aa1741564ae39b784c0fbdc026","zoom_debug":0},"assetVersions":"{\"version\":\"ec2abc9afba3e7de7fca4d5ebdbd778a\",\"map\":{\"common\\\/web\\\/static\\\/js\\\/thirdparty\\\/JQueryPlugins.js\":\"42d8ca64ed39a4877d9be144d8c56c9a\",\"common\\\/web\\\/static\\\/js\\\/Constants.js\":\"7c9d38ed4a49e68442aed2a80680e213\",\"common\\\/web\\\/static\\\/js\\\/Events.js\":\"c658f1bf3c12d89513644c5a67997a25\",\"common\\\/web\\\/static\\\/js\\\/Server.js\":\"14a497d26b657e801394bc6eabe93cbc\",\"common\\\/web\\\/static\\\/js\\\/Utilities.js\":\"cfaf4dd73b432d9e2535868b569c245b\",\"common\\\/web\\\/static\\\/js\\\/Cache.js\":\"c171f3e334e2449e1405a96f64beab8c\",\"common\\\/web\\\/static\\\/js\\\/Controller.js\":\"e3fa2bd3c866133969fa56387ad58187\",\"common\\\/web\\\/static\\\/js\\\/Dialog.js\":\"45754c70ac729f9f77825a936744df42\",\"common\\\/web\\\/static\\\/js\\\/FBC.js\":\"312b7b558f20e1f773d8dc8200fcfe2f\",\"common\\\/web\\\/static\\\/js\\\/FeedController.js\":\"6de73190816946e15d42f5f8ab818dc7\",\"common\\\/web\\\/static\\\/js\\\/FeedFormatter.js\":\"cde1d2ea13c32129fe263097db4a71cf\",\"common\\\/web\\\/static\\\/js\\\/BrowserDetector.js\":\"7dd512ebdb88496d6db7382791af650b\",\"common\\\/web\\\/static\\\/js\\\/Header.js\":\"75bd4575694d13e9b35e2c226ab1364f\",\"common\\\/web\\\/static\\\/js\\\/NPSSurvey.js\":\"77844f0b4ba0bbda90df080f4eb12b2b\",\"common\\\/web\\\/static\\\/js\\\/UI.js\":\"d3408fc5c49a546d4c75a1f3fbb60329\",\"common\\\/web\\\/static\\\/js\\\/User.js\":\"b37bf285f4fc8683fdb9b0922f553c54\",\"common\\\/web\\\/static\\\/js\\\/MessagingServiceProxy.js\":\"5b4ec0cbd95eff91afae90f5de564d07\",\"common\\\/web\\\/static\\\/js\\\/TokenizerProxy.js\":\"c520688eaf4f6c7ac48255f3dc0ac588\",\"common\\\/web\\\/static\\\/js\\\/UserServiceProxy.js\":\"ec125ca7bad6a3216f37d1ef6d693aac\",\"common\\\/web\\\/static\\\/js\\\/GameServiceProxy.js\":\"94c5c5ae39405717f6e723fdf10e77f1\",\"common\\\/web\\\/static\\\/js\\\/LocalesServiceProxy.js\":\"9037b6972b90d1ac4288b2448bb82d22\",\"common\\\/web\\\/static\\\/js\\\/ZUIWidgetProxy.js\":\"ba68a867f087a29e80029834e07c6ac6\",\"common\\\/web\\\/static\\\/js\\\/Session.js\":\"1c17328c213ef227cca4c635f51361aa\",\"common\\\/web\\\/static\\\/js\\\/ZFriends.js\":\"46d978952a043bdaaa4242ef5ad59b69\",\"common\\\/web\\\/static\\\/js\\\/ConcurrentUsers.js\":\"1bd14f83819ea4f7882815e3f4b777ce\",\"common\\\/web\\\/static\\\/js\\\/ZTrack.js\":\"2cfcf685df73d2d46ae2305661e688e3\",\"common\\\/web\\\/static\\\/js\\\/Data.js\":\"a3790a9c9e1ad0eb64b976bcec581cb3\",\"common\\\/web\\\/static\\\/js\\\/ZPipe.js\":\"9894ca0de8e088576a7ccc8a85813020\",\"common\\\/web\\\/static\\\/js\\\/ZDCPageNavigator.js\":\"f15bf38ff78a0db7b09639a290e98a34\",\"common\\\/web\\\/static\\\/js\\\/FontRenderer.js\":\"b18143c786a951217c37780433b72047\",\"common\\\/web\\\/static\\\/js\\\/InviteFriendsDialog.js\":\"ef078be748d14bf85d1af31c424b539b\",\"common\\\/web\\\/static\\\/js\\\/ThreadedTask.js\":\"3e81340b38922a5dce766f45c04b2359\",\"common\\\/web\\\/static\\\/js\\\/ZoomBroadcastListener.js\":\"ce30e97ace08f5dc40f4d73b769638ec\",\"common\\\/web\\\/static\\\/js\\\/ZoomController.js\":\"ccc5a67c04d707181aa746d705258efa\",\"common\\\/web\\\/static\\\/js\\\/RecommendedZFriendsController.js\":\"6fd30dad1b172b1b720264d79070234e\",\"common\\\/web\\\/static\\\/js\\\/View.js\":\"a330eacbc9e63b912c15f4465d97cd0b\",\"common\\\/web\\\/static\\\/js\\\/SendFeedback.js\":\"ac9ce27d02f648546d145223dd87f110\",\"common\\\/web\\\/static\\\/js\\\/MiniProfile.js\":\"a75797de488c5bd42d51ce926e9ba325\",\"common\\\/web\\\/static\\\/js\\\/AutoNeighborDialog.js\":\"7a31e8805dbbf243d1deea58b1e81df3\",\"common\\\/web\\\/static\\\/js\\\/Report.js\":\"0e2389533092a603f99146d43c4bdd05\",\"common\\\/web\\\/static\\\/js\\\/Settings.js\":\"dd31b7f5c57690d94c22dec6ec07c6da\",\"common\\\/web\\\/static\\\/js\\\/twitterPost.js\":\"e2b1a5b933e0a0f6f56521de2f00a3e6\",\"common\\\/web\\\/static\\\/js\\\/ZFriendFtue.js\":\"8e03e19dbf99f1cf3ed2d0c14b8b2ed7\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/GameframeManager.js\":\"5a1b3f4b8fbd7426d6bd1f24fe5ae99f\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/FtueController.js\":\"0525fc0bd5df615fd1c18b251d05f135\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/FtueView.js\":\"c593d3b09a26f19658f398eca8cd3bc8\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/FtueTutorialController.js\":\"e3e6328eeb7e0025cd3f57547040470e\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/FtueSidebarController.js\":\"2974891da63583a79c00ec87cb070460\",\"webapps\\\/profile\\\/static\\\/js\\\/GamesDock.js\":\"3cfdf4c9f5e71d9fd57b47db95f36904\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/Sidebar.js\":\"0e991d2496e4c302894545b639d05817\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/HelpersController.js\":\"afe63d8ce0d94cd5bdb413d9c8488068\",\"webapps\\\/profile\\\/static\\\/js\\\/Gameboard\\\/RailLoading.js\":\"ac564cf81f1f12f84b176434f148fc5d\",\"webapps\\\/profile\\\/static\\\/js\\\/Home\\\/PublicContentWidget.js\":\"4127daa3cd99a279cad5e1f5e07161da\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/Requests.js\":\"58cabd41e1ff22a66322005a718752c6\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/Notifications.js\":\"20aded566d6dcc6445b56b482e559737\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/GameRequests.js\":\"583751d7c77891978568276ea66eff69\",\"webapps\\\/profile\\\/static\\\/js\\\/CollapsedGameRequests.js\":\"94f83a4d033ab4ad9c7df2ac910ff92a\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/Neighbors.js\":\"1bc466434419bc84292b8194501a22b7\",\"webapps\\\/profile\\\/static\\\/js\\\/NeighborFilterController.js\":\"7814f340214e352e4655cffe85191a52\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/Feed.js\":\"d4a350c52842a2f3af16f9c39e3b795a\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/SingleFeed.js\":\"3cb0245a4ed6b46e1fe3098ab823c21d\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/NeighborZeroState.js\":\"08bb8ce76686406a47c45ccdc0cfe153\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/LoginContainer.js\":\"d40e7a236e87f3cbc644233e24d06bba\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/Helpers.js\":\"0c36a2b3d0ba2952abd211effbfc5d8a\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/HelperInfo.js\":\"381ff3153a810b18292a9deb85578dcd\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/GameSummary.js\":\"4fdc08a2e223dac9f6b3c20d723d4b52\",\"webapps\\\/profile\\\/static\\\/js\\\/Home\\\/Games.js\":\"58380d64569e72113aad064c8db6006c\",\"webapps\\\/profile\\\/static\\\/js\\\/Home\\\/RTS.js\":\"1bfe29040f964a35573d6602422bfb36\",\"webapps\\\/profile\\\/static\\\/js\\\/Home\\\/SuggestedFriends.js\":\"e509ae45dc4192e196767122ff33ccb6\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/RailUserInfo.js\":\"c6cc68a38f6515855ece954e7a52edc0\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/PageActions.js\":\"a804913737e573026d9f88ac6a7cfb92\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/zAds.js\":\"65c15db4999cfabc060070b5f70999e6\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/FacebookLink.js\":\"cda4fa0d395076cfcd8c5d857aad7e4a\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/Info.js\":\"83a813157bf12aa458bdc477c54edddd\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/RailGamesPlayed.js\":\"fd69542907a7995dde3c19b6136d0df9\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/RailLoggedOut.js\":\"5b218e976162560653da5ff0bdb609fc\",\"webapps\\\/profile\\\/static\\\/js\\\/ZProfile\\\/LoginModule.js\":\"7ed38f1e67ed535e4bc2c386c9e97131\",\"webapps\\\/profile\\\/static\\\/js\\\/Rail\\\/ZFriends.js\":\"df19d1ae55e97d3f9355eb2867f22e21\",\"webapps\\\/profile\\\/static\\\/js\\\/Rail\\\/Ads.js\":\"8fb5400e4bd1eba2c6f0337f73fd7e56\",\"zprofile.css\":\"0bc8b74887e78293d72ebcfa5dedb33b\",\"facebookLink.css\":\"ee92e6ba15b3e511ea410e4bcb3489c3\",\"header.css\":\"a7ca18c81333f3b9265ff68cfef26447\",\"helpers.css\":\"a4e961f0cdef053e7c18ff1f78ed3e69\",\"home.css\":\"24b40c9071852e0e1ed6520b460aaffe\",\"profileInfo.css\":\"1873c859d6233874bc5da22d4b5ca6e1\",\"publicHome.css\":\"3d6be4f9abaa11832a7b93785e86eb51\",\"neighbors.css\":\"1ca76ff040235a8062eb2d8fdfbd1c11\",\"neighborZeroState.css\":\"5776c3d4d781b8e34e45194adce07fe1\",\"nps.css\":\"7e2480543af2a5a333ea76b1f2cdbd99\",\"rail.css\":\"c2da413cb123a41a26c254215aa52efb\",\"railLoggedOut.css\":\"911a1b030b642f7f90a85eb159f7e967\",\"statusUpdate.css\":\"ec0468c5547241bd213029864c0d98af\",\"sidebar.css\":\"0e9473fa590353b0136a25d7f6870266\",\"ftue.css\":\"eeba80f3480af0d7b199743b219d1af5\",\"gameboard.css\":\"1aba54f5372498c54268ca7f9371f743\",\"fake-sidebar.css\":\"8fe7b22b8c86e2e3d9ad34b820fcd9b4\",\"webapps\\\/profile\\\/static\\\/css\\\/zprofile-main.css\":\"71331a24ba5a2a44629b128f1d8757ba\"}}","ZPipeEnabled":true,"ZPIPE_PACKET_DELIMITER":"=====","ZPipeEnabledIE":true,"unsupportedRenderedFontLocales":"ja_JP,ko_KR,zh_TW,th_TH,tr_TR","showSendFeedback":true,"sendOfflineChatMessageEmails":true,"social_media_plugins":true,"useSecureCookie":true,"useNewAuth":true,"chatInboxMaxSize":250,"fastLoadEnabled":false,"ztrack_ajax_request_perf":1});
+
+					</script>
+
+		
+		<script type="text/javascript">
+ 			$(function () {
+				ZY.ZUI.dev = ZY.Env.dev;
+				ZY.ZUI.locale = ZY.Env.user.locale;
+
+ 				ZY.Barrier.once('ZY.Server.loaded', function () {
+					ZY.Server.setCSRFToken('');
+				});
+				ZY.Boot.load(["zyc--profile"], {"zyc--profile":"https:\/\/zynga1-a.akamaihd.net\/zlive\/zdc-58885-static\/js\/compiled\/zyc--profile.js"});
+			});
+		</script>
+		<script type="text/javascript" id="zbarJsUri" src="//zynga2-a.akamaihd.net/zbar/static/zbar/3.4/js/zbar.js"></script>
+
+			</body>
+</html>

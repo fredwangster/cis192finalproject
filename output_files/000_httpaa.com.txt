@@ -1,0 +1,4298 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    <!-- Meta Tags -->
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+
+	
+		
+			
+			<meta content="airline tickets, book flights online, airfares, deal, travel, fares, cheap, discount, American Airlines" name="keywords"/> <meta content="On AA.com you'll find great travel deals, discount flight tickets and American Airlines AAdvantage bonus mile offers." name="description"/> <title>Airline Reservations And Airline Tickets From American Airlines | AA.com</title>
+		
+		
+	
+
+	<link rel="stylesheet" type="text/css" href="/content/common/css/aa-reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/content/common/css/aa-global.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="/content/common/styles/jquery/aa-jquery-ui-1.7.2.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/content/common/css/aa-homepage.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="/content/common/styles/jquery/aa.dialog.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="/content/common/css/aa-dialogs.css" media="all" />
+
+
+
+
+
+<style media="all" type="text/css">
+    .hideDropDown { display: none }
+    #fieldsetRoomCount { display: none }
+    #fieldsetCabinPreference { display: none }
+    #aa-award-radios { display: none }
+    #aa-alternate-adultPassengerCount { display: none }
+    .cluetip-aaTooltip { margin-top: -35px !important;}
+	.clue-right-aaTooltip .cluetip-arrows { margin-top: 20px;}
+	#aa-destination-ideas { display: none }
+</style>
+
+<noscript>
+    <style media="all" type="text/css">
+        #aa-round-trip-hotel-group { display: none }
+        #redeemMilesSpan { display: none }
+        #aa-destination-ideas { display: none }
+        .hideDropDown { display: inline }
+        #aa-returningFrom { display: none }
+        #aa-leavingOn { display: none }
+    </style>
+</noscript>
+
+    
+<!--[if IE]>
+<style type="text/css">
+.destSearchContent .btnDialogRow { margin-top: 0 !important;}
+.ui-dialog .ui-dialog-content {padding: 18px 25px !important;} 
+</style>
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="/content/common/css/ie/aa-ie-6.css" media="all"/>
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="/content/common/css/ie/aa-ie-lte-7.css" media="all"/>
+<style type="text/css">
+.destSearchContent .mktMsgTxt {vertical-align: super;}
+</style>
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/content/common/css/ie/aa-ie-7.css" media="all"/>
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="/content/common/css/ie/aa-ie-lte-8.css" media="all"/>
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/content/common/css/ie/aa-ie-8.css" media="all"/>
+<![endif]-->
+
+
+	<script type="text/javascript" src="/apps/common/js/jquery/1.4/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/ui/1.8/jquery-ui-1.8.2.custom.min.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/ui/1.8/jquery.ui.datepicker-pt-BR-aa.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/ui/1.8/jquery.ui.datepicker-es-aa.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/ui/1.8/jquery.ui.datepicker-en-GB-aa.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/ui/1.8/jquery.ui.datepicker-en-aa.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/plugins/bgiframe/jquery.bgiframe.min.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/plugins/hoverintent/hoverIntent.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/plugins/superfish/superfish.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaGenericPopup.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaTextBoxMessage.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaTabs.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaSC.js"></script>
+<script type='text/javascript' src='/apps/common/js/jquery/plugins/swfobject/jquery.swfobject.1-1-1.min.js'></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaFooterAds.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaDateInput.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaCookie.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaAirportCode.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaPlaceHolder.js"></script>
+<script type='text/javascript' src='/dwr/interface/CountryLanguageSelectAjaxUtils.js'></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaCountryLanSelect.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/plugins/cluetip-1.0.3/jquery.cluetip.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/plugins/blockUI-2.38/jquery.blockUI-2.38.js"></script>
+<script type="text/javascript">
+    $j = jQuery.noConflict(); 
+</script>
+<script type='text/javascript' src='/dwr/interface/CancelVPNRAjaxUtil.js'></script>
+
+<script type='text/javascript' src='/dwr/engine.js'></script>
+<script type='text/javascript' src='/dwr/util.js'></script>
+<script type="text/javascript">	
+	function deleteVirtualPNR() {
+		var bps = jQuery('#bookingPathStateId').val();
+		if (bps != null || bps == 'undefined') {
+			CancelVPNRAjaxUtil.cancelVPNR(bps);
+		}
+	}
+</script>
+
+
+</head>
+
+
+
+    
+    
+    
+    
+        
+    
+
+
+<body class="aa-tier-level-REG">
+	<div id="aa-lang-en" class="aa-container aa-cntry-US">
+		<div id="aa-masthead">
+			
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='/dwr/interface/CancelVPNRAjaxUtil.js'></script>
+<script type='text/javascript' src='/dwr/engine.js'></script>
+<script type='text/javascript' src='/dwr/util.js'></script>
+
+
+
+<div id="modal_deleteVPNRModal" style="display: none;">
+    <p>
+	   Click OK to login and restart your reservation.<br/><br/>Click Cancel to continue with your reservation without logging in.
+	</p>
+	<p class="aa-align-right">
+        <button onclick="jQuery('div#modal_deleteVPNRModal').dialog('close')" class="aa-btn aa-btn-secondary" id="closeBtn">CANCEL </button>
+        <button onclick="forwardLogin()" class="aa-btn aa-btn-primary" id="saveBtn">OK</button>
+    </p>
+</div>
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#modal_deleteVPNRModal').dialog({modal:true,
+        										 autoOpen: false,
+        										 draggable: false,
+        										 resizable: false,
+        										 bgiframe: true,
+        										 dialogClass: 'stdAAcomDialog', 
+												 closeOnEscape: false,
+												 width: 500,
+												 height: "auto"
+		   										});
+	jQuery( 'a.ui-dialog-titlebar-close' ).remove();
+    });
+	function submitSearchForm(){
+		//Handling Secure Http Session
+		pageURL=document.location.href;
+		httpSession=pageURL.split(':');
+		document.getElementById("httpSession").value=httpSession[0];
+		return true;
+	}
+	
+	function deleteVPNRModal(){
+		var VPNR = jQuery('#virtualPNR').val();
+		var status = jQuery('#status').val();
+		if(VPNR == "true" && status !="Purchased"){
+			jQuery('#modal_deleteVPNRModal').dialog('open');
+			jQuery(window).scrollTop(0);
+		} else {
+			var url = jQuery('#loginURL').val();
+			window.location=url;
+		}
+	}
+	function forwardLogin(){
+		deleteVirtualPNR();
+		var url = jQuery('#loginURL').val();
+		window.location=url;
+	}
+	
+</script> 
+
+<input type="hidden" name="loginURL" value="/login/loginAccess.do?uri=%2flogin%2floginAccess.do&amp;previousPage=%2fhomePage.do&amp;bookingPathStateId=&amp;marketId=" id="loginURL" />
+
+
+<!--googleoff: all-->
+<div class="aa-utility-nav">
+    <ul>
+        <li id="aa-meta-skip-nav" class="aa-display-none"><a href="#aa-main-nav">Skip to global navigation</a></li>
+        <li id="aa-meta-skip-content" class="aa-display-none"><a href="#aa-content-frame">Skip to content</a></li>
+        <li id="aa-meta-skip-footer" class="aa-display-none"><a href="#aa-footer">Skip to footer</a></li>
+        
+        
+        <li class="aa-meta-bkg-none" id="aa-meta-login">
+            
+                
+                
+                    <a href="javascript:deleteVPNRModal();" id="loginLogoutLink" class="aa-pipe-right">Login</a>
+                
+            
+        </li>
+        <li><a href="/myAccount/reservationPreferencesAccess.do"  onclick= "deleteVirtualPNR()" title="My Account" class="aa-pipe-right">My Account</a></li>
+		
+
+
+
+
+
+
+<li id="aa-language-select" >
+    <div id="aa-language-select-tab">
+        <span class="aa-language-select-indicator aa-flag-US" title="United States"></span>
+        <a href="/worldwideSites.do" title="Worldwide Sites" class="aa-language-select-select aa-pipe-right">English<span class="aa-language-select-arrow"></span></a>
+    </div>
+    <div class="aa-meta-nav-dropDown" style="display: none;">	
+		<form id="splashForm" method="post" action="/international/mclaSplashSubmit.do">
+		 <div><a href="#" class="aa-close"></a></div>
+            <ul>
+                <li>
+                    <label for="aa-country-selector" class="aa-block">      
+                 		  Select Country
+                    </label>                                          
+						 
+					 <select name="countryselector" size="1" id="aa-country-selector">   
+					                           	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_AG"  > 
+                                Antigua And Barbuda
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_AR"  > 
+                                Argentina
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_AW"  > 
+                                Aruba
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_AU"  > 
+                                Australia
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_BB"  > 
+                                Barbados
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_BE"  > 
+                                Belgium
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_BZ"  > 
+                                Belize
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_BM"  > 
+                                Bermuda
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_BO"  > 
+                                Bolivia
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="pt_BR"  > 
+                                Brazil
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_CA"  > 
+                                Canada
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_KY"  > 
+                                Cayman Islands
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_CL"  > 
+                                Chile
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="cn_CN"  > 
+                                China
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_CO"  > 
+                                Colombia
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_CR"  > 
+                                Costa Rica
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_CW"  > 
+                                Curacao
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_DK"  > 
+                                Denmark
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_DO"  > 
+                                Dominican Republic
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_EC"  > 
+                                Ecuador
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_SV"  > 
+                                El Salvador
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="fi_FI"  > 
+                                Finland
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="fr_FR"  > 
+                                France
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="de_DE"  > 
+                                Germany
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_GT"  > 
+                                Guatemala
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_HT"  > 
+                                Haiti
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_HN"  > 
+                                Honduras
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_HK"  > 
+                                Hong Kong
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="hu_HU"  > 
+                                Hungary
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_IN"  > 
+                                India
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_IE"  > 
+                                Ireland
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_IL"  > 
+                                Israel
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="it_IT"  > 
+                                Italy
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_JM"  > 
+                                Jamaica
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="ja_JP"  > 
+                                Japan
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="ko_KR"  > 
+                                Korea
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_MX"  > 
+                                Mexico
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="nl_NL"  > 
+                                Netherlands
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_NZ"  > 
+                                New Zealand
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_NI"  > 
+                                Nicaragua
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_NO"  > 
+                                Norway
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_PA"  > 
+                                Panama
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_PE"  > 
+                                Peru
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_PR"  > 
+                                Puerto Rico
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="ru_RU"  > 
+                                Russia
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_ES"  > 
+                                Spain
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_SE"  > 
+                                Sweden
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="de_CH"  > 
+                                Switzerland
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_TT"  > 
+                                Trinidad and Tobago
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_TC"  > 
+                                Turks &amp; Caicos Islands
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_GB"  > 
+                                United Kingdom
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                                                                                 
+                                            
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="en_US" selected="selected" > 
+                                United States
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_UY"  > 
+                                Uruguay
+                          	</option>
+                                                	
+                            
+                                
+                                    
+                                        	
+                                            
+                                            
+                                            
+                                                  
+                                            
+                                        									                          
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="es_VE"  > 
+                                Venezuela
+                          	</option>
+                                              
+                    </select>					 
+                </li>
+                <li>
+                    <label for="aa-language-selector" class="aa-block">
+						Select Language
+                    </label>   					 
+                         
+					<select name="languageselector" size="1" id="aa-language-selector">
+                                                	
+                            
+                                
+                                    
+                                        	   
+										 
+                                            
+                                                  
+                                            
+                                            
+                                        											                         
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="url=http://www.aa.com?locale=en_US" selected="selected" >English</option>
+                                                	
+                            
+                                
+                                    
+                                        	   
+										 
+                                            
+                                            
+                                               
+                                            
+                                        											                         
+                                    
+                                	
+                                
+                            
+                                
+                                    
+                                	
+                                    	 	
+                                	
+                                
+                            
+							<option value="url=http://www.aa.com/es_US?locale=es_US"  >Español</option>
+                        
+                    </select>				
+                </li>
+                <li>
+                	<input type="checkbox" name="localePreferenceSaved" value="on" checked="checked" id="aa-country-language-save" />                 
+                    <label for="aa-country-language-save">
+                        Remember this selection?
+                    </label>
+                </li>
+                <li id="locale-change-alert" style="display: none;">
+                    <p><span class="aa-icon-alert-sm"></span>
+                    	By making this selection, you will be redirected to the homepage of the chosen country.</p> 
+                </li>
+                <li class="aa-align-right">
+                	<input type="submit" value="Select" onclick="deleteVirtualPNR()" id="aa-choose-locale" class="aa-btn aa-btn-primary-sm" />                    
+		            <input type="hidden" name="selectedCountry" value="" id="splashSelectedCountry" />
+		            <input type="hidden" name="anchorLocation" value="WorldWide_Sites" id="splashAnchorLocation" />
+		            <input type="hidden" name="url" value="" id="splashUrl" />
+		            <input type="hidden" name="_locale" value="en_US" id="currentLocale" />
+		            <input type="hidden" name="georedirect_param" value="" id="splashGeoRedirect" />    
+		            <input type="hidden" id="cancel" name = "cancel"  value="yes"/>
+		            
+
+
+
+	
+
+
+                </li>
+            </ul>     
+		</form>    
+    </div>
+</li>
+
+		<li><a href="/contactAA/viewContactAAAccess.do" title="Contact AA" class="aa-pipe-right aa-popup-contactaa" id="aa-TollbarContactAA" rel="contactAA">Contact AA</a></li>
+        <li><a href="/i18n/utility/FAQs/customerService_FAQ.jsp" title="FAQ" class="aa-link-faq" rel="FAQ">FAQ</a></li>
+        <li id="aa-site-search" class="aa-meta-bkg-none">
+            <form id="utilitySearchForm" action="/search/search.do" method="post" style="display: inline" onsubmit="trackAllFormValues(this);submitSearchForm();">
+                <div>
+                    <input id="aa-search-field" type="text" name="searchText" maxlength="1000" size="20" class="aa-swapValues"/>
+                    <input type="hidden" name="maxResultsOnPage" value="10" id="maxResultsOnPage" />
+                    <input type="hidden" name="siteSections" value="0" id="siteSections" />
+                    <input type="hidden" name="httpSession" value="" id="httpSession" />
+                    <input id="aa-search-button" type="submit" title="Go Find It!" value="GO" />
+                </div>
+            </form>
+        </li>
+    </ul>
+</div>
+<div id="aa-branding">
+    <div class="aa-branding-logo"> <a href="/homePage.do"  onclick= "deleteVirtualPNR()" title="American Airlines - home page" class="aa-logo-AA-main"> <span>American Airlines - home page</span></a> <a href="http://www.oneworld.com" onclick= "deleteVirtualPNR()" title="oneworld logo" class="aa-logo-oneworld-main"><span>oneworld</span></a></div>
+</div>
+<div id="aa-personalize">
+    
+
+
+
+
+
+</div>
+<!--googleon: all-->
+
+
+
+		</div>
+        
+            
+                
+                
+                
+            
+
+
+
+
+         
+        
+  
+
+
+
+
+
+
+ 
+    
+    <div id="aaJsWarning" class="aa-js-warning">
+        <a href="/closeJSEM.do?url=%2fhomePage.do%3fv_locale%3den_US%26v_mobileUAFlag%3dAA" class="aa-close"></a>
+        <p>
+        You must have <a href="/i18n/utility/javascript.jsp">JavaScript enabled</a> to fully experience and utilize AA.com
+        </p>
+    </div>
+    <script type="text/javascript">
+        var warnDiv = document.getElementById('aaJsWarning');
+        warnDiv.style.display = 'none';
+    </script>
+
+
+
+        
+            
+                
+                
+                 
+                 
+                
+            
+        
+        
+        <div id="aa-main-nav" class="aa-clearfix">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--googleoff: all-->
+<ul class="sf-menu aa-clearfix">
+    <li><a href="/reservation/reservationsHomeAccess.do?from=Nav"  onclick= "deleteVirtualPNR()">Reservations<span class="aa-nav-more"></span></a>
+        <ul>
+            <li><a class="aa-nav-secondary-more aa-nav-first-child" href="/reservation/roundTripSearchAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Book Flights<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/reservation/roundTripSearchAccess.do?anchorEvent=false&amp;from=Nav">Round-Trip</a></li>
+                    <li><a href="/reservation/oneWaySearchAccess.do?anchorEvent=false&amp;from=Nav">One-Way</a></li>
+                    <li><a href="/reservation/multiCitySearchAccess.do?anchorEvent=false&amp;from=Nav">Multi-City</a></li>
+                    <li><a class="aa-nav-last-child" href="/reservation/awardFlightSearchAccess.do?anchorEvent=false&amp;from=Nav">AAdvantage Award</a></li>
+                </ul>
+            </li>
+            <li><a href="/utilities/BookCar.jsp?src=AANAVCAR&amp;title=Book Car&amp;anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Book Car</a></li>
+            
+            <li><a href="/utilities/BookHotel.jsp?src=AANAVHOTEL&amp;title=Book Hotel&amp;anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Book Hotel</a></li>
+            
+            <li><a href="http://www.partner.viator.com/en/6852?title=Book Activities&amp;anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Book Activities</a></li>
+           
+            <li><a href="/utilities/AAVacations.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Book Vacation</a></li>
+            <li><a href="/utilities/AACruises.jsp?path=http://aa.cruises.com&amp;cid=cAAL20060922002&amp;title=Book Cruise&amp;anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Book Cruise</a></li>
+            
+            <li><a href="/i18n/urls/yourchoice.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Your Choice<sup>SM</sup> Trip Options</a></li>
+            <li><a id="aa-MyReservations-Page" href="/reservation/viewReservationsAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">My Reservations</a></li>
+            <li><a class="aa-nav-secondary-more" href="/reservation/flightCheckInViewReservationsAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Flight Check-In<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-single-last-child" href="/reservation/flightCheckInViewReservationsAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">View Boarding Pass Options</a></li>
+                </ul>
+            </li>
+            <li><a href="/travelInformation/flightscheduleAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Flight Schedules</a></li>
+            <li><a href="/seatmap/viewSeatsAccess.do?from=Nav" onclick= "deleteVirtualPNR()">View Available Seats</a></li>
+            <li><a class="aa-nav-secondary-more" href="/i18n/reservations/paymentOptions/main.jsp?from=Nav" onclick= "deleteVirtualPNR()">Payment Options<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/i18n/reservations/paymentOptions/creditDebitCards.jsp?from=Nav" onclick= "deleteVirtualPNR()">Credit/Debit Card</a></li>
+                    <li><a href="/i18n/productsGifts/giftCard.jsp?from=Nav" onclick= "deleteVirtualPNR()">Gift Cards</a></li>
+                    <li><a href="/i18n/utility/evoucher.jsp?from=Nav" onclick= "deleteVirtualPNR()">eVouchers</a></li>
+                    <li><a href="/i18n/reservations/flyNow.jsp" onclick= "deleteVirtualPNR()">Fly Now Payment Plan</a></li>
+                    <li><a href="/i18n/travelInformation/airportAmenities/AACreditCard.jsp?from=Nav" onclick= "deleteVirtualPNR()">American Airlines Credit Card</a></li>
+                    <li><a href="/i18n/reservations/paymentOptions/electronicChecks.jsp?from=Nav" onclick= "deleteVirtualPNR()">Electronic Checks</a></li>
+                    <li><a href="/i18n/reservations/paymentOptions/payPal.jsp?from=Nav" onclick= "deleteVirtualPNR()">PayPal</a></li>
+                    <li><a href="/i18n/reservations/paymentOptions/cashPayments.jsp?from=Nav" onclick= "deleteVirtualPNR()">Cash Payments</a></li>
+                    <li><a href="/i18n/urls/westernunion.jsp?from=Nav" onclick= "deleteVirtualPNR()">Western Union</a></li>
+                    <li><a href="/i18n/businessPrograms/prepaidTravel/prepaidTravel.jsp?from=Nav" onclick= "deleteVirtualPNR()">Prepaid Travel / AAirpass</a></li>
+                    <li><a class="aa-nav-last-child aa-link-faq" href="/i18n/utility/FAQs/reservations_FAQ.jsp#Payment+Options?from=Nav" onclick= "deleteVirtualPNR()" target="_blank">FAQs</a></li>
+                </ul>
+            </li>
+            <li><a href="/AAdvantage/purchaseUpgradesAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Buy Upgrades</a></li>
+            <li><a href="/i18n/reservations/refunds.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Refunds</a></li>
+            <li><a href="/i18n/businessPrograms/groupsMeetings/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Group&nbsp;&amp;&nbsp;Meeting Travel</a></li>
+            <li><a href="/i18n/urls/fivestarservice.jsp?anchorLocation=DirectURL&amp;title=fivestarservice" onclick= "deleteVirtualPNR()">Five Star Service</a></li>
+            <li><a class="aa-nav-last-child aa-link-faq" href="/i18n/utility/FAQs/reservations_FAQ.jsp?anchorEvent=false&amp;from=Nav" target="_blank">FAQs</a></li>            
+        </ul>
+    </li>
+    <li><a href="/travelInformation/travelInformationHomeAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Travel Information<span class="aa-nav-more"></span></a>
+        <ul>
+            <li><a id="aa-GatesAndTimes-Page" href="/travelInformation/gatesTimesAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Gates&nbsp;&amp;&nbsp;Times</a></li>
+            <li><a class="aa-nav-secondary-more" href="/travelInformation/fsnAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Flight Status Notification<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/travelInformation/viewOrDeleteFSNAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">View/Delete</a></li>
+                    <li><a class="aa-nav-last-child" href="/travelInformation/createFSNAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Create</a></li>
+                </ul>
+            </li>
+            <li><a href="/i18n/travelInformation/destinationInformation/airportInformation.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Airport Information</a></li>
+            <li><a href="/i18n/travelInformation/airportAmenities/electronicTimetable.jsp#one?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Timetables&nbsp;&amp;&nbsp;Downloads</a></li>
+            <li><a class="aa-nav-secondary-more" href="/i18n/travelInformation/checkingIn/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">About Checking In<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/i18n/travelInformation/checkingIn/checkInOptions.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Check-In Options</a></li>
+                    <li><a href="/i18n/travelInformation/checkingIn/arrivalTimes.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Suggested Arrival Times</a></li>
+                    <li><a class="aa-nav-last-child" href="/i18n/travelInformation/checkingIn/checkpoints.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Security Checkpoints</a></li>
+                </ul>
+            </li>
+            <li><a class="aa-nav-secondary-more" href="/i18n/travelInformation/baggage/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Baggage Information<span class="aa-nav-more"></span></a>
+                <ul>
+                   <li><a class="aa-nav-first-child" href="/i18n/travelInformation/baggage/baggageAllowance.jsp?anchorEvent=false&amp;from=Nav">Baggage Allowance</a></li>
+                   <li><a href="/i18n/travelInformation/baggage/carryOnAllowance.jsp?anchorEvent=false&amp;from=Nav">Carry-On Allowance</a></li> 
+                   <li><a href="/i18n/travelInformation/baggage/restrictedArticles.jsp?anchorEvent=false&amp;from=Nav">Restricted Items</a></li>
+                   <li><a href="/i18n/travelInformation/baggage/delayed.jsp?anchorEvent=false&amp;from=Nav">Delayed Baggage Information</a></li>
+                   <li><a href="/i18n/travelInformation/baggage/damaged.jsp?anchorEvent=false&amp;from=Nav">Damaged Baggage</a></li>
+                   <li><a href="/i18n/travelInformation/baggage/liabilityLimitations.jsp?anchorEvent=false&amp;from=Nav">Liability Limitations</a></li>
+                   <li><a class="aa-nav-last-child"  href="/i18n/travelInformation/travelTips/tips_baggage.jsp?anchorEvent=false&amp;from=Nav">Baggage Tips</a></li> 
+                </ul> 
+            </li>
+            <li><a href="/i18n/travelInformation/airportAmenities/main.jsp?title=Admirals Club&amp;anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Airport Clubs&nbsp;&amp;&nbsp;Lounges</a></li>
+            <li><a class="aa-nav-secondary-more" href="/i18n/travelInformation/specialAssistance/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Special Assistance<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/i18n/travelInformation/specialAssistance/customersWithDisabilities.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Customers with Disabilities</a></li>
+                    <li><a href="/i18n/travelInformation/specialAssistance/extraSpace.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Customers Requiring Extra Space</a></li>
+                    <li><a href="/i18n/travelInformation/specialAssistance/childrenTraveling.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Children Traveling</a></li>
+                    <li><a href="/i18n/travelInformation/specialAssistance/travelingWithPets.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Traveling with Pets</a></li>
+                    <li><a href="/i18n/travelInformation/specialAssistance/travelingWhilePregnant.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Traveling while Pregnant</a></li>
+                    <li><a class="aa-nav-last-child" href="/i18n/travelInformation/specialAssistance/healthAndWellbeing.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Health&nbsp;&amp;&nbsp;Well-being</a></li>
+                </ul>
+            </li>
+            <li><a href="/i18n/travelInformation/destinationInformation/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Destination Information</a></li>
+            <li><a class="aa-nav-secondary-more" href="/i18n/travelInformation/internationalTravel/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">International Travel<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/i18n/travelInformation/internationalTravel/passportInformation.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Passport Information</a></li>
+                    <li><a href="/i18n/travelInformation/internationalTravel/visaImmunizations.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Visa/Immunizations</a></li>
+                    <li><a href="/i18n/travelInformation/internationalTravel/usCustoms.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">U.S. Customs</a></li>
+                    <li><a class="aa-nav-last-child" href="/i18n/travelInformation/internationalTravel/currencyConverter.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Foreign Currency</a></li>
+                </ul>
+            </li>
+            <li><a class="aa-nav-secondary-more" href="/i18n/travelInformation/duringFlight/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">During Your Flight<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/i18n/travelInformation/duringFlight/cabinComfort.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Cabin Comfort</a></li>
+                    <li><a href="/i18n/travelInformation/duringFlight/onboardTechnology.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Onboard Technology</a></li>
+                    <li><a href="/i18n/travelInformation/duringFlight/dining/dining.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Dining</a></li>
+                    <li><a href="/i18n/travelInformation/duringFlight/entertainment/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Entertainment</a></li>
+                    <li><a class="aa-nav-last-child" href="/i18n/travelInformation/duringFlight/shopping/shopping.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Shopping</a></li>
+                </ul>
+            </li>
+            <li><a href="/i18n/travelInformation/tickets/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">AA Travel Centers</a></li>
+            <li><a href="/apps/tripInsurance.jsp?anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Trip Insurance</a></li>
+            <li><a href="/i18n/aboutUs/customerCommitment/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Customer Service and Contingency Plans</a></li>
+            <li><a class="aa-nav-last-child aa-link-faq" href="/i18n/utility/FAQs/travelInformation_FAQ.jsp?anchorEvent=false&amp;from=Nav" target="_blank">FAQs</a></li>
+        </ul>
+    </li>
+    <li><a href="/netsaaver/viewNetSAAverHome.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Travel Deals<span class="aa-nav-more"></span></a>
+        <ul>
+            <li><a class="aa-nav-first-child" href="/netsaaver/viewNetSAAverFareSales.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Fare Sales</a></li>
+            <li><a href="/netsaaver/viewAllPromotions.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Special Offers</a></li>
+            <li><a href="/i18n/urls/dealfinder.jsp?from=Nav" onclick= "deleteVirtualPNR()">DealFinder</a></li>
+            <li><a href="/i18n/urls/rss.jsp?from=Nav" onclick= "deleteVirtualPNR()">RSS Feeds</a></li>
+            <li><a href="/utilities/lastMinutePackage.jsp?anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Last-Minute Packages</a></li>
+            <li><a href="/myAccount/emailSubscriptionAlertsAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Email Subscriptions</a></li>
+            <li><a href="/netsaaver/netSAAverAAVacations.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Vacation Packages</a></li>
+            <li><a href="/utilities/AACruises.jsp?path=http://aa.cruises.com/promotion/fpp_specials/deals.asp&amp;cid=cAAL20060922005&amp;title=Cruise Deals&amp;anchorLocation=Navigation Menu&amp;from=Nav" onclick= "deleteVirtualPNR()">Cruise Deals</a></li>
+            <li><a class="aa-nav-secondary-more" href="/AAdvantage/viewBonusOffers.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">AAdvantage Bonus Offers<span class="aa-nav-more"></span></a>
+                <ul>
+                    <li><a class="aa-nav-first-child" href="/AAdvantage/viewAirlineSpecials.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Airline Offers</a></li>
+                    <li><a href="/AAdvantage/viewHotelSpecials.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Hotel Offers</a></li>
+                    <li><a href="/AAdvantage/viewCarSpecials.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Car Offers</a></li>
+                    <li><a class="aa-nav-last-child" href="/AAdvantage/viewAdditionalSpecials.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Additional Offers</a></li>
+                </ul>
+            </li>
+            <li><a class="aa-nav-last-child aa-link-faq" href="/i18n/utility/FAQs/netSAAverandSpecialOffers_FAQ.jsp?anchorEvent=false&amp;from=Nav"  >FAQs</a></li>
+        </ul>
+    </li>
+    <li><a href="/AAdvantage/aadvantageHomeAccess.do?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">AAdvantage<sup>&reg;</sup><span class="aa-nav-more"></span></a>
+         <ul>
+            <li><a class="aa-nav-first-child" href="/i18n/AAdvantage/programInformation/main.jsp?from=Nav" onclick= "deleteVirtualPNR()">Program Information</a></li>
+            <li>
+            	
+                 <a href="/AAdvantage/quickEnroll.do?from=Nav&amp;anchorEvent=false&amp;referer=/apps/&amp;anchorLocation=Navigation+Menu&amp;url=%2FAAdvantage%2FquickEnroll.do&amp;_locale=en_US&amp;reportedTitle=AAdvantage+Enroll+Now" onclick="deleteVirtualPNR()">Join Now</a>
+                 <img src="/content/images/common/wa.gif?Log=1&impressloc=Navigation+Menu&impresstitle=AAdvantage+Enroll+Now&impresshref=%2fAAdvantage%2fquickEnroll.do%3ffrom%3dNav%26amp%3banchorEvent%3dfalse%26amp%3breferer%3d%2fapps%2f&impresslocale=en_US"  width="1" height="1" class="aa-display-none" alt=""/> 
+            </li>
+            <li><a href="/myAccount/myAccountAccess.do" onclick= "deleteVirtualPNR()">My Account</a></li>
+            <li><a href="/i18n/AAdvantage/eliteStatus/main.jsp?from=Nav" onclick= "deleteVirtualPNR()">Elite Status</a></li>
+            <li><a href="/i18n/AAdvantage/earnMiles/main.jsp?from=Nav" onclick= "deleteVirtualPNR()">Earn Miles</a></li>
+            <li><a href="/i18n/AAdvantage/redeemMiles/main.jsp?from=Nav" onclick= "deleteVirtualPNR()">Redeem Miles</a></li>
+            <li><a href="/i18n/AAdvantage/purchasingMiles/main.jsp?from=Nav" onclick= "deleteVirtualPNR()">Buy and Share Miles</a></li>
+            <li><a href="/i18n/AAdvantage/eliteStatus/upgrades/500mileUpgrades.jsp?from=Nav" onclick= "deleteVirtualPNR()">Buy 500-Mile Upgrades</a></li>
+            <li><a href="/i18n/AAdvantage/newsOffers/main.jsp?from=Nav" onclick= "deleteVirtualPNR()">News and Offers</a></li>
+            <li><a class="aa-nav-last-child aa-link-faq" href="/i18n/utility/FAQs/AAdvantage_FAQ.jsp?from=Nav" target="_blank">FAQs</a></li>
+        </ul>
+
+    </li>
+    <li><a href="/i18n/productsGifts/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Products &amp; Gifts<span class="aa-nav-more"></span></a>
+        <ul>
+            <li><a class="aa-nav-first-child" href="/i18n/productsGifts/admiralsGift.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Admirals Club</a></li>
+            <li><a href="/i18n/productsGifts/giftCard.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Gift Card</a></li>
+            <li><a href="/i18n/AAdvantage/programDetails/purchasingMiles/purchasingMiles.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Buy, Gift, Share Miles</a></li>
+            <li><a href="/i18n/productsGifts/giftShop.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Airline Museum Gift Shop</a></li>
+            <li><a href="/i18n/travelInformation/airportAmenities/AACreditCard.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">AmericanAirlines Credit Card</a></li>
+            <li><a href="/i18n/productsGifts/luggagetags.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Luggage Tags</a></li>
+            <li><a class="aa-nav-last-child" href="/i18n/urls/fivestarservice.jsp?anchorLocation=DirectURL&amp;title=fivestarservice" onclick= "deleteVirtualPNR()">Five Star Service</a></li>
+        </ul>
+    </li>
+    <li><a href="/i18n/businessPrograms/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Business&nbsp;Programs<span class="aa-nav-more"></span></a>
+        <ul>
+            <li><a class="aa-nav-first-child" href="/i18n/businessPrograms/businessExtraa.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Business ExtrAA<sup>&reg;</sup></a></li>
+            <li><a href="/i18n/agencyPrograms/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Agency Reference</a></li>
+            <li><a href="/i18n/businessPrograms/cargo.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Cargo</a></li>
+            <li><a href="/i18n/businessPrograms/corporateTravel/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Corporate Card Programs</a></li>
+            <li><a href="/i18n/businessPrograms/prepaidTravel/prepaidTravel.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">AAirpass<sup>&reg;</sup></a></li>
+            <li><a href="/i18n/businessPrograms/groupsMeetings/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Group &amp; Meeting Travel</a></li>
+            <li><a class="aa-nav-secondary-more" href="/i18n/businessPrograms/incentivePrograms/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Incentive Programs<span class="aa-nav-more"></span></a>
+                <ul class="aa-nav-ul-compress">
+                    <li><a class="aa-nav-first-child" href="/i18n/businessPrograms/incentivePrograms/flightGift.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">  Individual Incentives/Travel</a></li>
+                    <li><a href="/i18n/businessPrograms/incentivePrograms/rewardWithMiles.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Reward with Miles</a></li>
+                    <li><a class="aa-nav-last-child" href="/i18n/businessPrograms/incentivePrograms/groupIncentiveTravel.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Group Incentive Travel</a></li>
+                </ul>
+            </li>
+            <li><a class="aa-nav-last-child" href="/i18n/businessPrograms/trainingAndConference.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Training &amp; Conference Center</a></li>
+        </ul>
+    </li>
+    <li class="aa-nav-last"><a href="/i18n/aboutUs/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">About Us<span class="aa-nav-more"></span></a>
+        <ul>
+            <li><a class="aa-nav-first-child" href="/i18n/aboutUs/corporateResponsibility/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Corporate Responsibility</a></li>
+            <li><a href="http://joinus.aa.com" onclick= "deleteVirtualPNR()">Join Us</a></li>
+            <li><a href="/i18n/aboutUs/environmental/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Environmental Footprint</a></li>
+            <li><a href="/i18n/aboutUs/newServiceRoutes.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">New Service Routes</a></li>
+            <li><a href="/i18n/aboutUs/whereWeFly/maps/world.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Where We Fly</a></li>
+            <li><a href="/i18n/amrcorp/newsroom/alliances-and-affiliates.jsp?from=Nav" onclick= "deleteVirtualPNR()">Alliances & Affiliates</a></li>
+            <li><a href="/i18n/aboutUs/ourPlanes/ourPlanes.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Our Planes</a></li>
+            <li><a href="/i18n/amrcorp/newsroom/corporate-information.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Corporate Information</a></li>
+            <li><a href="http://phx.corporate-ir.net/phoenix.zhtml?c=117098&amp;p=irol-IRHome&amp;from=Nav" onclick= "deleteVirtualPNR()">Investor Relations</a></li>
+            <li><a href="http://www.aacareers.com/us/frame_index.htm?http&amp;&amp;&amp;www.aacareers.com/us/index.shtml?from=Nav" onclick= "deleteVirtualPNR()">Careers</a></li>
+            <li><a href="/i18n/amrcorp/newsroom/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Newsroom</a></li>
+            <li><a href="/i18n/aboutUs/diversityInclusion/main.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Diversity &amp; Inclusion</a></li>
+            <li><a class="aa-nav-last-child" href="/i18n/aboutUs/airlineMuseum/airlineMuseum.jsp?anchorEvent=false&amp;from=Nav" onclick= "deleteVirtualPNR()">Airline Museum</a></li>
+        </ul>
+    </li>
+</ul>
+ 
+<!--googleon: all-->
+
+
+		</div>
+		<div id="aa-content-frame" class="aa-content-hp">
+			
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+<!-- ER 324 Begin -->
+
+
+	
+	
+		
+	
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='/dwr/interface/HomePageMyReservationsAjaxAction.js'></script>
+<script type='text/javascript' src='/home/js/homeUtil.js'></script>
+
+
+
+
+<div id="aa-native-america">
+	<!--<style type="text/css">
+
+#aa-booking-module strong.aa-content-alert {
+	display: none !important;
+}
+
+</style>-->
+
+<a href="/i18n/travelInformation/travelAlerts.jsp">Spain Travel Policy</a>
+</div>
+<ul id="aa-hp-module-tabs" class="aa-clearfix">
+	<li id="aa-hp-module-tabs-bookFlight%aa-booking-module" class="aa-hp-module-tabs-active">
+		<a href="/reservation/roundTripSearchAccess.do" title="Book your travel here!"><span>Book Travel</span></a>
+	</li>
+	<li id="aa-hp-module-tabs-myAccount%aa-hp-myAccount">
+        
+            
+            
+                <a href="/login/loginAccess.do?uri=%2flogin%2floginAccess.do&amp;previousPage=%2fhomePage.do&amp;bookingPathStateId=&amp;marketId=" title="Login to View AAdvantage Balances and Other Account Preferences."><span>Login</span></a>
+            
+        
+	</li>
+	<li id="aa-hp-module-tabs-flightStatus%aa-hp-flightStatus">
+		<a href="/travelInformation/gatesTimesAccess.do" title="Check your flight status now!"><span>Flight Status</span></a>
+	</li>
+	<li id="aa-hp-module-tabs-changeRes%aa-viewReservations">
+		<html:form action="/viewReservations.do" >
+		
+			
+            
+            	
+                <a href="#" onclick="javascript:viewReservationListLogin();" title="View or change your reservations."><span>My Reservations / Flight Check-In</span></a>
+            
+        	
+        </html:form>
+	</li>	
+</ul>
+<div id="aa-content-container">
+	<div id="aa-hp-promotions-internal-wrapper" class="aa-clearfix">
+		<div class="aa-hp-content-modules">
+            
+			<div id="aa-booking-module" class="aa-panel-main">			
+				
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="aa-hp-search-for">	
+  		<li id="aa-hp-icon-flights"><a href="/reservation/roundTripSearchAccess.do?anchorLocation=Shopping+Links+%28Reservations+Home%29&amp;url=%2Freservation%2FroundTripSearchAccess.do&amp;_locale=en_US&amp;reportedTitle=Flights" id="aa-hp-icon-active" title="Book a flight"><span>Flights</span></a></li>	
+		
+		<li id="aa-hp-icon-hotel"><a href="/utilities/BookHotel.jsp?src=AATABHOTEL&amp;anchorLocation=Shopping+Links+%28Reservations+Home%29&amp;url=%2Futilities%2FBookHotel.jsp&amp;_locale=en_US&amp;reportedTitle=Hotel" title="Book a hotel room"><span>Hotels</span></a></li>    
+		
+		<li id="aa-hp-icon-car"><a href="/utilities/BookCar.jsp?src=AATABCAR&amp;anchorLocation=Shopping+Links+%28Reservations+Home%29&amp;url=%2Futilities%2FBookCar.jsp&amp;_locale=en_US&amp;reportedTitle=Car" title="Book a car"><span>Cars</span></a></li>				
+		
+		<li id="aa-hp-icon-vacation"><a href="http://www.aavacations.com" title="Book a vacation"><span>Vacations</span></a></li>
+		<li id="aa-hp-icon-cruise"><a href="/utilities/AACruises.jsp?cid=cAAL20060922004&amp;anchorLocation=Shopping+Links+%28Reservations+Home%29&amp;url=%2Futilities%2FAACruises.jsp&amp;_locale=en_US&amp;reportedTitle=Cruise" title="Book a cruise"><span>Cruises</span></a></li>
+		
+		<li id="aa-hp-icon-activities"><a href="http://www.partner.viator.com/en/6852" title="Find Activities"><span>Activities</span></a></li>
+</ul>
+  
+ <script type="text/javascript">
+ jQuery(document).ready(function(){
+     jQuery('#aa-hp-icon-vacation a').click(function(){	 
+         captureExtClickThru(this.href, 'Shopping Links (Reservations Home)', 'Vacation', '', '', 'en_US', 'false');
+	 });
+     jQuery('#aa-hp-icon-activities a').click(function(){
+     	captureExtClickThru(this.href,'Shopping Links (Reservations Home)','Activities','','','$userLocale}','false');
+     });
+ });
+</script>
+
+                
+				<div id="aa-hp-module-booking">
+					
+					
+
+
+
+
+
+<script type="text/javascript" src="/apps/common/js/airportcode.js"></script>
+<script type="text/javascript"> 
+function calcTotalNoOfPsgrs2(){
+	var numPsgrs = 0;
+	var adultCount = document.getElementById("flightSearchForm.adultPassengerCount.flightHotel").value; 
+	if(adultCount == null) {
+      	adultCount = 0;
+	}
+    numPsgrs = parseInt(adultCount);
+    document.getElementById("flightSearchForm.passengerCount").value = numPsgrs;     	
+}
+
+function MultiCityLink(){
+
+	var  form = document.getElementById("reservationFlightSearchForm");
+	if(document.getElementById("flightSearchForm.tripType.redeemMiles").checked)	{
+		form.action=form.action + "?tripType=multi"; 
+	}
+	else{
+		form.action="/reservation/multiCitySearchAccess.do?anchorEvent=false&amp;from=Nav";
+	}
+	form.submit();
+}
+</script>
+
+
+<form id="reservationFlightSearchForm" method="post" action="/reservation/searchFlightsSubmit.do" class="aa-form-standard">
+	<div class="aa-form-fields-wrapper" id="aa-option-1a-travelOptions">
+        
+        <input type="hidden" name="currentCalForm" value="dep" />
+        <input type="hidden" name="currentCodeForm" value="" />
+		<ul>
+			<li>
+				<fieldset>
+					<legend>
+						<strong class="aa-content-alert">No Online Booking Fees!</strong>
+					</legend>
+					<p class="aa-option-1a-travelOptions-first-row">
+						<input type="radio" name="tripType" tabindex="1" value="roundTrip" checked="checked" id="flightSearchForm.tripType.roundTrip" class="aaSC_Control_BookTravel_RoundTrip" />
+						<label for="flightSearchForm.tripType.roundTrip">
+							Round-trip
+						</label>
+                        
+                            <span id="aa-round-trip-hotel-group">
+                                <input type="radio" name="tripType" tabindex="2" value="roundTripHotel" id="round-trip-hotel" class="aaSC_Control_BookTravel_RoundTripHotel" />
+                                <label for="round-trip-hotel" class="aa-flight-hotel">
+                                    Round-trip + Hotel
+                                </label>
+                            </span>
+                        
+                        
+      						<span class="aa-hp-option-right">
+                        
+                        
+							<input type="radio" name="tripType" tabindex="3" value="oneWay" id="flightSearchForm.tripType.oneWay" class="aaSC_Control_BookTravel_OneWay" />
+							<label for="flightSearchForm.tripType.oneWay">
+								One-Way
+							</label>
+						</span>
+                        
+					</p>
+					<p class="aa-option-1a-travelOptions-second-row">
+                        <span id="redeemMilesSpan">
+                            <input type="checkbox" name="searchCategory" tabindex="5" value="award" id="flightSearchForm.tripType.redeemMiles" class="aa-form-checkbox aaSC_Control_BookTravel_RedeemMiles aaSC_Target_BookTravel_RoundTripHotel_Disable aaSC_Target_BookTravel_AirPass_Disable" />
+                            <label for="flightSearchForm.tripType.redeemMiles" id="aa-redeem-label" class="aaSC_Target_BookTravel_RoundTripHotel_Disable aaSC_Flag_BookTravel_RedeemMiles aaSC_Target_BookTravel_AirPass_Disable">
+                                Redeem AAdvantage Miles 
+                            </label>
+                        </span>
+		                
+                        
+    						<a id="aa-hp-multi-city-link2"  href="#" onclick="MultiCityLink();" title="Select multiple city flights" tabindex="4" class="aaMultiCityLink aa-hp-option-right">Multi-city</a>
+                        
+					</p>
+				</fieldset>
+			</li>
+		</ul>
+	</div>
+	<div class="aa-form-fields-wrapper">
+		<ul class="aa-form-standard-ul aa-clearfix">
+			<li>
+				<fieldset>
+					<legend>
+						<label class="aa-block-label" title="Required field = Leaving From" for="reservationFlightSearchForm.originAirport">
+							Depart From
+						</label>
+					</legend>
+					<p class="aa-field-width-input" id="aa-p-depart-bookingModule">
+						<input type="text" name="originAirport" tabindex="6" value="PHL" id="reservationFlightSearchForm.originAirport" class="ui-autocomplete-input aaAutoComplete" />
+						<a href="javascript:void(0);" onclick="launchAirportCode('originAirport','reservationFlightSearchForm')" title="Find Airport" class="aa-icon aa-icon-find "></a>
+					</p>
+				</fieldset>
+			</li>
+			<li>
+				<fieldset>
+					<legend>
+						<label class="aa-block-label" title="Required field = Going To" for="reservationFlightSearchForm.destinationAirport">
+							Arrive In
+						</label>
+					</legend>
+					<p class="aa-field-width-input" id="aa-p-arrive-bookingModule">
+						<input type="text" name="destinationAirport" tabindex="7" value="" id="reservationFlightSearchForm.destinationAirport" class="ui-autocomplete-input aaAutoComplete" />
+						<a href="javascript:void(0);" onclick="launchAirportCode('destinationAirport','reservationFlightSearchForm')" title="Find Airport" class="aa-icon aa-icon-find ">
+						</a>
+					</p>
+                    
+                        <p class="aaSC_Target_BookTravel_RoundTripHotel_MakeInvisible aaSC_Target_BookTravel_RedeemMiles_MakeInvisible aaSC_Target_BookTravel_AirPass_MakeInvisible" >
+                            <a href="/i18n/disclaimers/destinationIdeas.jsp" id="aa-destination-ideas" class="aa-field-width-select" title="Find Travel Interests">
+                                Looking For Destination Ideas?
+                            </a>&nbsp;
+                        </p>
+                    
+				</fieldset>
+			</li>
+		</ul>
+	</div>
+	<div class="aa-form-fields-wrapper">
+		<ul class="aa-form-standard-ul aa-clearfix">
+			<li>
+				<fieldset>
+					<legend>
+						<label for="aa-leavingOn" class="aa-block-label" title="Required field = Leaving On">
+							Depart Date
+						</label>
+					</legend>
+					<p class="aa-field-width-input">
+						<select name="flightParams.flightDateParams.travelMonth" tabindex="8" id="reservationFlightSearchForm.flightParams.flightDateParams.travelMonth" class="hideDropDown moduleDrop"><option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+<option value="-1000" selected="selected">Month</option></select>
+						<select name="flightParams.flightDateParams.travelDay" tabindex="8" id="reservationFlightSearchForm.flightParams.flightDateParams.travelDay" class="hideDropDown"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="-1000" selected="selected">Day</option></select>
+						<input class="aaDatePicker" id="aa-leavingOn" tabindex="8" type="text" />
+					</p>
+					<p class="aa-field-width-select aaSC_Target_BookTravel_RoundTripHotel_Hide">
+						<select name="flightParams.flightDateParams.searchTime" tabindex="9" id="reservationFlightSearchForm.flightParams.flightDateParams.searchTime"><option value="120001">All Day</option>
+<option value="040001">Early Morning</option>
+<option value="090001" selected="selected">Morning</option>
+<option value="120002">Noon</option>
+<option value="1530">Afternoon</option>
+<option value="1830">Early Evening</option>
+<option value="200001">Evening</option>
+<option value="0100">1 am</option>
+<option value="0200">2 am</option>
+<option value="0300">3 am</option>
+<option value="0400">4 am</option>
+<option value="0500">5 am</option>
+<option value="0600">6 am</option>
+<option value="0700">7 am</option>
+<option value="0800">8 am</option>
+<option value="0900">9 am</option>
+<option value="1000">10 am</option>
+<option value="1100">11 am</option>
+<option value="1200">12 pm</option>
+<option value="1300">1 pm</option>
+<option value="1400">2 pm</option>
+<option value="1500">3 pm</option>
+<option value="1600">4 pm</option>
+<option value="1700">5 pm</option>
+<option value="1800">6 pm</option>
+<option value="1900">7 pm</option>
+<option value="2000">8 pm</option>
+<option value="2100">9 pm</option>
+<option value="2200">10 pm</option>
+<option value="2300">11 pm</option>
+<option value="0000">12 am</option></select>
+						&nbsp;
+					</p>
+				</fieldset>
+			</li>
+			<li id="aa-one-way">
+				<fieldset>
+					<legend>
+						<label for="aa-returningFrom" class="aa-block-label aaSC_Target_BookTravel_OneWay_Disable" title="Required field = Returning On">
+							Return Date
+						</label>
+					</legend>
+					<p class="aa-field-width-input">
+						<select name="returnDate.travelMonth" tabindex="10" id="reservationFlightSearchForm.returnDate.travelMonth" class="hideDropDown"><option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+<option value="-1000" selected="selected">Month</option></select>
+						<select name="returnDate.travelDay" tabindex="10" id="reservationFlightSearchForm.returnDate.travelDay" class="hideDropDown"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="-1000" selected="selected">Day</option></select>
+						<input class="aaDatePicker aaSC_Target_BookTravel_OneWay_Disable" id="aa-returningFrom" tabindex="10" type="text" />
+					</p>
+					<p class="aa-field-width-select aaSC_Target_BookTravel_RoundTripHotel_Hide">
+						<select name="returnDate.searchTime" tabindex="11" id="reservationFlightSearchForm.returnDate.searchTime" class="aaSC_Target_BookTravel_OneWay_Disable"><option value="120001">All Day</option>
+<option value="040001">Early Morning</option>
+<option value="090001">Morning</option>
+<option value="120002">Noon</option>
+<option value="1530" selected="selected">Afternoon</option>
+<option value="1830">Early Evening</option>
+<option value="200001">Evening</option>
+<option value="0100">1 am</option>
+<option value="0200">2 am</option>
+<option value="0300">3 am</option>
+<option value="0400">4 am</option>
+<option value="0500">5 am</option>
+<option value="0600">6 am</option>
+<option value="0700">7 am</option>
+<option value="0800">8 am</option>
+<option value="0900">9 am</option>
+<option value="1000">10 am</option>
+<option value="1100">11 am</option>
+<option value="1200">12 pm</option>
+<option value="1300">1 pm</option>
+<option value="1400">2 pm</option>
+<option value="1500">3 pm</option>
+<option value="1600">4 pm</option>
+<option value="1700">5 pm</option>
+<option value="1800">6 pm</option>
+<option value="1900">7 pm</option>
+<option value="2000">8 pm</option>
+<option value="2100">9 pm</option>
+<option value="2200">10 pm</option>
+<option value="2300">11 pm</option>
+<option value="0000">12 am</option></select>
+					</p>
+				</fieldset>
+			</li>
+		</ul>
+	</div>
+	<div id="aa-standard-booking-fields" class="aa-form-fields-wrapper">
+		<ul class="aa-form-standard-ul aa-clearfix">
+			<li>
+				<fieldset id="aa-fieldset-travelers">
+					<legend>
+						Travelers
+						<a id="aa-travelers-tip" rel="#tooltip-content-1" href="#tooltip-content-1" accesskey="h" class="aa-tooltip aa-icon-box aa-help aa-travelers-tip aaSC_Target_BookTravel_RoundTripHotel_Hide" title="Traveler Information">?</a>
+					</legend>
+                    <p>
+                        <span class="aaSC_Target_BookTravel_RoundTripHotel_Hide">
+						<select name="adultPassengerCount" tabindex="12" onchange="calcTotalNoOfPsgrsOnHomePage('')" id="flightSearchForm.adultPassengerCount"><option value="0">0</option>
+<option value="1" selected="selected">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option></select>
+                        </span>
+                        <span id="aa-alternate-adultPassengerCount"class="aaSC_Target_BookTravel_OneWay_Hide aaSC_Target_BookTravel_RoundTrip_Hide">
+						<select name="adultPassengerCount" tabindex="12" onchange="calcTotalNoOfPsgrsOnHomePage('flightHotel')" id="flightSearchForm.adultPassengerCount.flightHotel"><option value="1" selected="selected">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option></select>
+                        </span>
+                        <label for="adultPassengerCount" class="aaSC_Target_BookTravel_RoundTripHotel_Hide">
+                            Adult (16-64)
+                        </label>
+                    </p>
+
+                    <p class="aaSC_Target_BookTravel_RoundTripHotel_Hide">
+						<a href="/reservation/roundTripSearchAccess.do?promoCode=" class="aaMoreDetails" title="Other Travelers">Seniors, Children or Infants</a>
+					</p>
+				</fieldset>
+				<fieldset id="fieldsetRoomCount" class="aaSC_Target_BookTravel_RoundTrip_Hide aaSC_Target_BookTravel_OneWay_Hide">
+					<legend>
+						Rooms
+					</legend>
+					<p>
+						<select id="hotelRoomCount" name="hotelRoomCount" tabindex="13">
+							<option selected="selected" value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+					</p>
+				</fieldset>
+			</li>
+			<li>
+				<fieldset id="fieldsetCabinPreference" class="aaSC_Target_BookTravel_RoundTrip_Hide aaSC_Target_BookTravel_OneWay_Hide">
+					<legend>
+						Cabin Preference
+					</legend>
+					<p class="aa-field-width-select">
+						<select id="fhServiceClass" name="serviceclass" tabindex="14">
+							<option selected="selected" value="coach">
+								Coach
+							</option>
+							<option value="business">
+								Business
+							</option>
+							<option value="first">
+								First
+							</option>
+						</select>
+					</p>
+				</fieldset>
+				<fieldset id="aa-revenue-radios" class="aaSC_Target_BookTravel_RoundTripHotel_Hide aaSC_Target_BookTravel_RedeemMiles_Hide">
+					<legend>
+						Show Results By
+					</legend>
+					<p>
+						<input type="radio" name="searchTypeMode" tabindex="13" value="matrix" checked="checked" id="flightSearchForm.searchType.matrix" class="aa-vertical-align-middle aa-form-radio" />
+						<label for="flightSearchForm.searchType.matrix" class="ie-text-sm">
+							Price & Schedule
+						</label>
+                   </p>
+                   <p>
+						<input type="radio" name="searchTypeMode" tabindex="13" value="schedule" id="flightSearchForm.searchType.schedule" class="aa-vertical-align-middle aa-form-input-alt aa-form-radio" />
+						<label for="flightSearchForm.searchType.schedule" class="ie-text-sm">
+							Schedule
+						</label>
+					</p>
+				</fieldset>
+				<fieldset id="aa-award-radios" class="aaSC_Target_BookTravel_RoundTrip_Hide aaSC_Target_BookTravel_RoundTripHotel_Hide aaSC_Target_BookTravel_OneWay_Hide aaSC_Target_BookTravel_RedeemMiles_Show">
+					<legend>
+						Show Results By
+					</legend>
+					<p>
+						<input type="radio" name="awardDatesFlexible" tabindex="13" value="true" checked="checked" id="flightSearchForm.searchType.datesFlexible" class="aa-vertical-align-middle aa-form-radio" />
+						<label for="flightSearchForm.searchType.datesFlexible" class="ie-text-sm">
+							Dates Flexible
+						</label>
+                   </p>
+                   <p>
+						<input type="radio" name="awardDatesFlexible" tabindex="13" value="false" id="flightSearchForm.searchType.exactDates" class="aa-vertical-align-middle aa-form-input-alt aa-form-radio" />
+						<label for="flightSearchForm.searchType.exactDates" class="ie-text-sm">
+							Exact Dates
+						</label>
+					</p>
+				</fieldset>
+			</li>
+		</ul>
+	</div>
+	<div class="aa-form-fields-wrapper aa-no-focus">
+		<ul class="aa-form-standard-ul aa-clearfix">
+			<li>
+				<fieldset>
+					<p>
+						<a href="/i18n/utility/aacom_services_charges.jsp">Baggage & Optional Service Charges</a>
+ 
+
+					</p>
+					<p>
+						<a href="/travelInformation/flightscheduleAccess.do" title="Flight Schedules" class="aa-link-icon">Flight Schedules</a>
+					</p>
+					<p class="aaSC_Target_BookTravel_RoundTripHotel_Hide">
+						<a href="/reservation/roundTripSearchAccess.do?promoCode=" title="More Flight Search Options" class="aa-link-icon aaMoreDetails">More Flight Search Options</a>
+						<br/>
+						<span class="aa-note">(promo code, cabin preferences...)</span>
+					</p>
+				</fieldset>
+			</li>
+			<li>
+				<fieldset class="aa-btn-container">
+					<input type="submit" tabindex="14" value="Find Flights" id="flightSearchForm.button.reSubmit" class="aa-btn aa-btn-primary aaHomePageSubmit" />
+				</fieldset>
+			</li>
+		</ul>
+    	<input type="hidden" name="originAlternateAirportDistance" value="0" id="flightSearchForm.originAlternateAirportDistance" />
+    	<input type="hidden" name="destinationAlternateAirportDistance" value="0" id="flightSearchForm.destinationAlternateAirportDistance" />
+    	<input type="hidden" name="discountCode" value="" id="flightSearchForm.discountCode" />
+    	<input type="hidden" name="multi_success" value="button_multi_success" disabled="disabled" class="enableMultiCity" />
+    	<input type="hidden" name="dates_flex_success" value="button_dates_flexible" disabled="disabled" />	
+    	<input type="hidden" name="flightSearch" value="" class="flightSearch" />
+    	<input type="hidden" name="dateChanged" value="false" />
+    	<input type="hidden" name="fromSearchPage" value="true" />
+    	<input type="hidden" name="advancedSearchOpened" value="false" />
+    
+        <input type="hidden" name="numberOfFlightsToDisplay" value="10" id="flightSearchForm.numberOfFlightsToDisplay" />
+        
+    	<input type="hidden" id="searchCategoryHidden" class="searchCategory" name="searchCategory" value="" />
+    	<input type="hidden" id="aairpassSearchTypeHidden" class="aairpassSearchType" name="aairpassSearchType" value="false" />
+        <input type="hidden" id="moreOptionsIndicator" name="moreOptionsIndicator" value="" />
+        <input type="hidden" name="seniorPassengerCount" value="0" id="flightSearchForm.seniorPassengerCount" />
+        <input type="hidden" name="youngAdultPassengerCount" value="0" id="flightSearchForm.youngAdultPassengerCount" />
+        <input type="hidden" name="childPassengerCount" value="0" id="flightSearchForm.childPassengerCount" />
+        <input type="hidden" name="infantPassengerCount" value="0" id="flightSearchForm.infantPassengerCount" />
+    	<input type="hidden" name="passengerCount" value="1" id="flightSearchForm.passengerCount" />
+    </div>
+</form>
+<div id="destSearch" style="display:none"></div>
+<div style="margin: 0px;display:none" id="tooltip-content-1">To read more about traveling with American Airlines, visit our <a title="Travel Information FAQs" class="aa-pop-win-med" href="/i18n/utility/FAQs/travelInformation_FAQ.jsp">Travel Information FAQs</a><span title="New Window" class="aa-icon aa-icon-newWin aa-vertical-align-middle"> </span>.<br/>&nbsp;<br/>
+
+Read important information about <a title="Unaccompanied Minors travel policies" class="aa-pop-win-med" href="/i18n/disclaimers/childrenTravelingAloneChecklist.jsp">Unaccompanied Minors travel policies</a><span title="New Window" class="aa-icon aa-icon-newWin aa-vertical-align-middle"> </span>.<br/>&nbsp;<br/>
+
+Read about our policy for <a title="Lap Infants" class="aa-pop-win-med" href="/i18n/travelInformation/specialAssistance/childrenTraveling.jsp#seatingRestrictions">Lap Infants</a><span title="New Window" class="aa-icon aa-icon-newWin aa-vertical-align-middle"> </span>.<br/>
+</div>
+
+
+				</div>
+			</div>
+            
+            <div id="aa-hp-myAccount" style="display: none">
+                
+                    
+                    
+                                                
+                        
+                        	
+                        
+
+
+
+
+
+
+
+
+<div class="aa-panel-main">
+	<h2>
+		My Account
+		<span class="aa-icon-doubleCarat aa-icon-doubleCarat-lrg"></span>
+	</h2>
+	<ul class="aa-login-ul aa-clearfix">
+		<li>
+			Login to View AAdvantage Balances and Other Account Preferences.
+		</li>
+		
+	</ul>
+
+	<form id="loginForm" method="post"
+		action="https://www.aa.com/login/loginSubmit.do"
+		class="aa-form-standard" onsubmit="trackLogin(this);">
+		
+		<input type="hidden" name="previousPage" value="/homePage.do?selectedTab=aa-hp-myAccount&amp;locale=en_US" />
+		<div class="aa-form-fields-wrapper">
+			<ul class="aa-form-standard-ul aa-clearfix">
+				<li>
+					<fieldset>
+						<legend>
+							<label class="aa-block-label" for="loginForm.aadvantageNumber">
+								AAdvantage Number
+							</label>
+						</legend>
+						<p class="aa-field-width-input">
+							<input type="text" name="aadvantageNumber" maxlength="7"
+								size="20" tabindex="1"
+								value=""
+								id="loginForm.aadvantageNumber" autocomplete="off" />
+						</p>
+						<p>
+							<a href="/login/forgotAadvNumberAccessAction.do"
+								title="Forgot your AAdvantage Number?" 
+								onclick="javascript:trackMyAccountEvents('LoginRequestAADVnumber');">
+								Forgot your AAdvantage Number?
+							</a>
+						</p>
+					</fieldset>
+				</li>
+				<li>
+					<fieldset>
+						<legend>
+							<label class="aa-block-label" for="loginForm.password">
+								Password
+							</label>
+						</legend>
+						<p class="aa-field-width-input">
+							<input type="password" name="password" maxlength="12" size="20"
+								tabindex="2" value="" id="loginForm.password" />
+						</p>
+						<p>
+							<a href="/login/needPasswordAccess.do"
+								title="Forgot your password?"
+								onclick="javascript:trackMyAccountEvents('LoginRetrieveForgottenPassword');">
+								Forgot your password?
+							</a>
+						</p>
+					</fieldset>
+				</li>
+			</ul>
+		</div>
+		<div class="aa-form-fields-wrapper">
+			<ul class="aa-form-standard-ul">
+				<li class="aa-form-standard-ul-oneColumn">
+					<fieldset>
+						
+							
+							
+								<input type="checkbox" name="rememberMe" tabindex="3"
+									value="yes" id="loginForm.rememberMeCheckbox"
+									class="aa-form-checkbox" />
+							
+						
+						<label for="loginForm.rememberMeCheckbox">
+							Remember my AAdvantage Number on this computer.
+						</label>
+					</fieldset>
+				</li>
+				
+				<li class="aa-form-standard-ul-oneColumn">
+                    <fieldset class="aa-aadvantage-tnc-messaging">
+                    <label>By logging into my AAdvantage account, I hereby accept the <a title="Click For Print Version" href="/AAdvantage/print/printTermsConditionsAAdvantage.jsp" onclick="printPage(this.href);return false;">Terms and Conditions</a> of the AAdvantage program.</label>
+					</fieldset>
+                </li>
+                
+			</ul>
+		</div>
+		<p class="aa-align-right aa-btn-container">
+			<input type="submit" name="_button_go" tabindex="4"
+				value="Login"
+				class="aa-btn aa-btn-primary" />
+		</p>
+	</form>
+
+	<h3 class="aa-hdr-img-aadvantage">
+		<span></span>
+		<br />
+		...not yet an AAdvantage member?
+	</h3>
+	<p>
+		Discover the benefits of membership in American's travel awards program. Enroll today and start enjoying AAdvantage member benefits right away!
+		<a href="/i18n/AAdvantage/programDetails/main.jsp"
+			title="Learn More ">Learn More 
+		</a>
+	</p>
+	<p class="aa-align-right">
+		<strong>
+			
+               	<a href="/AAdvantage/quickEnroll.do?anchorLocation=homePage.do&amp;url=%2FAAdvantage%2FquickEnroll.do&amp;_locale=en_US&amp;reportedTitle=AAdvantage+Enroll+Now">Enroll Now!</a>
+               	<img src="/content/images/common/wa.gif?Log=1&impressloc=homePage.do&impresstitle=AAdvantage+Enroll+Now&impresshref=%2fAAdvantage%2fquickEnroll.do&impresslocale=en_US" border="0" width="1" height="1" class="aa-display-none" /> 
+		</strong>
+		<span class="aa-icon-doubleCarat aa-icon-doubleCarat-sml"></span>
+	</p>
+	<p>
+		<a class="aa-link-faq" href="/i18n/utility/FAQs/AAdvantage_FAQ.jsp"
+			target="_blank"
+			title="AAdvantage Account Questions?">
+			AAdvantage Account Questions?
+		</a>
+		<span class="aa-icon aa-icon-newWin aa-vertical-align-middle"
+			title="New Window"> </span>
+	</p>
+</div>
+                    
+                
+            </div>
+            
+			<div id="aa-hp-flightStatus" style="display: none">
+				
+                	
+
+
+
+
+<script type="text/javascript" src="/apps/common/js/airportcode.js"></script>
+
+<div class="aa-panel-main">
+    <h2>Flight Status<span
+            class="aa-icon-doubleCarat aa-icon-doubleCarat-lrg"></span></h2>
+    <form id="gatesTimesSearchForm" method="post" action="/gatesTimesSubmit.do" class="aa-form-standard">
+        <input type="hidden" name="currentCalForm" value="dep"/>
+        <input type="hidden" name="currentCodeForm" value=""/>
+
+        <div class="aa-form-fields-wrapper">
+            <ul class="aa-form-standard-ul aa-clearfix">
+                <li class="aa-indent-li aa-form-standard-ul-oneColumn">
+                    <fieldset>
+                        <label class="aa-block-label" for="aa-flightNumber-fs">
+                            Flight Number
+                        </label>
+
+                        <p>
+                            <input type="text" name="flightNumber" maxlength="4" tabindex="1" value="" id="aa-flightNumber-fs" />
+                        </p>
+                    </fieldset>
+                </li>
+            </ul>
+        </div>
+        <p>
+            <strong>And/Or</strong>
+        </p>
+
+        <div class="aa-form-fields-wrapper">
+            <ul class="aa-form-standard-ul aa-clearfix">
+                <li class="aa-indent-li">
+                    <fieldset>
+                        <label class="aa-block-label" for="aa-leavingFrom-fs">
+                            Depart From
+                        </label>
+
+                        <p class="aa-field-width-input" id="aa-p-depart-flightStatus">
+                            <input type="text" name="originAirport" tabindex="2" value="" id="gatesTimesSearchForm.originAirport" class="ui-autocomplete-input aaAutoComplete" /><a
+                                href="javascript:void(0);" onclick="launchAirportCode('originAirport','gatesTimesSearchForm')" 
+                                title="Find Airport"
+                                class="aa-icon aa-icon-find"></a>
+                        </p>
+                    </fieldset>
+                </li>
+                <li>
+                    <fieldset>
+                        <label class="aa-block-label" for="aa-goingTo-fs-flightStatus">
+                            Arrive In
+                        </label>
+
+                        <p class="aa-field-width-input" id="aa-p-arrive-flightStatus">
+                            <input type="text" name="destinationAirport" tabindex="3" value="" id="gatesTimesSearchForm.destinationAirport" class="ui-autocomplete-input aaAutoComplete" /><a
+                                href="javascript:void(0);" onclick="launchAirportCode('destinationAirport','gatesTimesSearchForm')"
+                                title="Find Airport"
+                                class="aa-icon aa-icon-find"></a>
+                        </p>
+                    </fieldset>
+                </li>
+            </ul>
+        </div>
+        <div class="aa-form-fields-wrapper">
+            <ul class="aa-form-standard-ul aa-clearfix">
+                <li class="aa-indent-li">
+                    <fieldset>
+                        <label class="aa-block-label" for="aa-date-fs">
+                            Date
+                        </label>
+
+                        <p class="aa-field-width-select">
+                            <select name="travelDate" id="gatesTimesForm.travelDate"><option value="Monday, April 16">Monday, April 16</option>
+						
+									
+				
+					
+						
+						
+							<option value="Tuesday, April 17" selected="selected">Tuesday, April 17</option>
+						
+									
+				
+					
+						
+						
+							<option value="Wednesday, April 18">Wednesday, April 18</option></select>
+
+                        </p>
+                    </fieldset>
+                </li>
+                <li>
+                    <fieldset>
+                        <label class="aa-block-label" for="aa-time-fs">
+                            Time
+                        </label>
+
+                        <p class="aa-field-width-select">
+                            <select name="flightParams.flightDateParams.searchTime" tabindex="5" id="aa-time-fs"><option value="000000">All Day</option>
+<option value="040000">Early Morning</option>
+<option value="080000" selected="selected">Morning</option>
+<option value="100000">Noon</option>
+<option value="140000">Afternoon</option>
+<option value="170000">Early Evening</option>
+<option value="200000">Evening</option>
+<option value="0100">1 am</option>
+<option value="0200">2 am</option>
+<option value="0300">3 am</option>
+<option value="0400">4 am</option>
+<option value="0500">5 am</option>
+<option value="0600">6 am</option>
+<option value="0700">7 am</option>
+<option value="0800">8 am</option>
+<option value="0900">9 am</option>
+<option value="1000">10 am</option>
+<option value="1100">11 am</option>
+<option value="1200">12 pm</option>
+<option value="1300">1 pm</option>
+<option value="1400">2 pm</option>
+<option value="1500">3 pm</option>
+<option value="1600">4 pm</option>
+<option value="1700">5 pm</option>
+<option value="1800">6 pm</option>
+<option value="1900">7 pm</option>
+<option value="2000">8 pm</option>
+<option value="2100">9 pm</option>
+<option value="2200">10 pm</option>
+<option value="2300">11 pm</option>
+<option value="0000">12 am</option></select>
+                        </p>
+                    </fieldset>
+                </li>
+            </ul>
+        </div>
+        <div class="aa-form-fields-wrapper">
+            <ul class="aa-form-standard-ul aa-clearfix">
+                <li>
+                    <p>
+                        <a title="Flight Status Questions? " target="_self"
+                           href="/i18n/utility/FAQs/travelInformation_FAQ.jsp#gatesAndTimes"
+                           class="aa-link-faq">Flight Status Questions? </a>
+                        <span class="aa-icon aa-icon-newWin aa-vertical-align-middle"
+                              title="New Window"></span>
+                    </p>
+                </li>
+                <li>
+                    <fieldset class="aa-btn-container aa-no-focus">
+                        <input type="submit" name="_button_success" tabindex="6" value="Go" id="gatesTimesForm.submit" class="aa-btn aa-btn-primary" />
+                    </fieldset>
+                </li>
+            </ul>
+        </div>
+    </form>
+    <h3>Flight Status Notification <span
+            class="aa-icon-doubleCarat aa-icon-doubleCarat-lrg"></span></h3>
+
+    <p>AA.com can proactively notify you of American Airlines or American Eagle flight departure or arrival status and gate information. <a
+            href="/i18n/travelInformation/travelHelp/connect.jsp"
+            title="Learn More " style="white-space: nowrap">Learn More </a></p>
+
+    <p class="aa-align-right">
+        <strong><a href="/travelInformation/fsnAccess.do"
+                   title="Create Flight Status Notification">Create Flight Status Notification</a></strong><span
+            class="aa-icon-doubleCarat aa-icon-doubleCarat-sml"></span>
+    </p>
+</div>
+			</div>
+            
+            <div id="aa-viewReservations" style="display:none">
+				<div class="aa-panel-main">
+					<img src="/content/images/common/loading_sequence.gif" border="0"/>
+				</div>
+            </div>
+		</div>
+		<div class="aa-hp-content-infoNews">		
+			
+            	
+                	
+					
+                
+
+
+
+
+
+   
+
+
+
+
+
+
+<script type="text/javascript">
+var aaHeroSlides = [
+
+    	
+    				{index:0, 			
+    				target:"/netsaaver/viewNetSAAverSpecialsDetails.do?fN=BeachSale.xml&locale=en_US&saleId=28", 
+    				altText:"Caribbean/Bermuda Flight Deals",
+    				title:"",    		
+    				locale:"en_US", 
+    				openInNewWin:"",	  
+					flashSrc:"",
+					imgSrc:"/content/images/intlFareTool/120410-jclass-carib-HP.jpg",  								
+    			    
+											
+    				isFlash:false,  
+					anchorLocation:"HomePageHero1",  				
+    				
+    									
+					restrictionsApply:"N",
+					restrictionsText:"*Each way based on r/t purchase on AA.com.",
+					restrictionsLink:"Taxes, fees, conditions apply."    				
+    				}				
+    	,			
+    	
+    				{index:1, 			
+    				target:"/netsaaver/viewNetSAAverSpecialsDetails.do?fN=Europe.Sale.xml&locale=en_US&saleId=27", 
+    				altText:"Europe Flight Deals",
+    				title:"",    		
+    				locale:"en_US", 
+    				openInNewWin:"",	  
+					flashSrc:"",
+					imgSrc:"/content/images/intlFareTool/120327-JB-Europe-HP.jpg",  								
+    			    
+											
+    				isFlash:false,  
+					anchorLocation:"HomePageHero1",  				
+    				
+    									
+					restrictionsApply:"N",
+					restrictionsText:"*Each way based on r/t purchase on AA.com.",
+					restrictionsLink:"Taxes, fees, conditions apply."    				
+    				}				
+    	,			
+    	
+    				{index:2, 			
+    				target:"https://www.aavacations.com/specials/haw1143-hawaii-vacations.asp?ADID=AACM-AAT-HAW-12-16", 
+    				altText:"American Airlines Hawaii Deals",
+    				title:"",    		
+    				locale:"en_US", 
+    				openInNewWin:"",	  
+					flashSrc:"",
+					imgSrc:"/content/images/promos/041112_hero_AAV_HawaiiTopDeals.jpg",  								
+    			    
+											
+    				isFlash:false,  
+					anchorLocation:"HomePageHero1",  				
+    				
+    									
+					restrictionsApply:"N",
+					restrictionsText:"*Each way based on r/t purchase on AA.com.",
+					restrictionsLink:"Taxes, fees, conditions apply."    				
+    				}				
+    	,			
+    	
+    				{index:3, 			
+    				target:"/tsaprecheck", 
+    				altText:"TSA PreCheck",
+    				title:"",    		
+    				locale:"en_US", 
+    				openInNewWin:"",	  
+					flashSrc:"",
+					imgSrc:"/content/images/home/hero/hero_precheck_v2.jpg",  								
+    			    
+											
+    				isFlash:false,  
+					anchorLocation:"HomePageHero1",  				
+    				
+    									
+					restrictionsApply:"N",
+					restrictionsText:"*Each way based on r/t purchase on AA.com.",
+					restrictionsLink:"Taxes, fees, conditions apply."    				
+    				}				
+    	,			
+    	
+    				{index:4, 			
+    				target:"/i18n/urls/la.jsp", 
+    				altText:"Los Angeles Your Gateway To The World",
+    				title:"",    		
+    				locale:"en_US", 
+    				openInNewWin:"",	  
+					flashSrc:"",
+					imgSrc:"/content/images/home/hero/hero_lax-gateway-to-world.jpg",  								
+    			    
+											
+    				isFlash:false,  
+					anchorLocation:"HomePageHero1",  				
+    				
+    									
+					restrictionsApply:"N",
+					restrictionsText:"*Each way based on r/t purchase on AA.com.",
+					restrictionsLink:"Taxes, fees, conditions apply."    				
+    				}				
+    	,			
+    	
+    				{index:5, 			
+    				target:"http://on.fb.me/tipsaabanner", 
+    				altText:"Facebook Tip",
+    				title:"",    		
+    				locale:"en_US", 
+    				openInNewWin:"Y",	  
+					flashSrc:"",
+					imgSrc:"/content/images/home/aadvantage_HomePage/aadvHome_tips-tab.jpg",  								
+    			    
+											
+    				isFlash:false,  
+					anchorLocation:"HomePageHero1",  				
+    				
+    									
+					restrictionsApply:"N",
+					restrictionsText:"*Each way based on r/t purchase on AA.com.",
+					restrictionsLink:"Taxes, fees, conditions apply."    				
+    				}				
+    				
+    					
+       
+];
+jQuery(document).ready(function(){
+    if (aaHeroSlides.length > 0) 
+        jQuery("#aa-hp-ad-hero").aaHeroAds(aaHeroSlides);
+});
+</script>
+
+<div id="aa-hero-ad-frame">
+    <div id="aa-hero-ad-ctrl">
+        <a id="hero-prev" href="#">Previous</a>
+        <span id="hero-pager"></span>
+        <a id="hero-next" href="#">Next</a>
+    </div>
+    <div id="aa-hp-ad-hero">
+    	
+    	<div>    
+		
+    		<a href="/netsaaver/viewNetSAAverSpecialsDetails.do?fN=BeachSale.xml&locale=en_US&saleId=28">
+				<img src="/content/images/intlFareTool/120410-jclass-carib-HP.jpg" alt="Caribbean/Bermuda Flight Deals" title="Caribbean/Bermuda Flight Deals"/>
+			</a>	
+					
+		<noscript>  
+			  	
+		
+		<img src="/content/images/common/wa.gif?impresstitle=Caribbean%2fBermuda+Flight+Deals&impresshref=%2fnetsaaver%2fviewNetSAAverSpecialsDetails.do%3ffN%3dBeachSale.xml%26locale%3den_US%26saleId%3d28&impresslocale=en_US&impressflash=false&impressloc=HomePageHero1" class="aa-display-none" border="0" width="0" height="0"/>		
+		</noscript>	
+		</div>		
+				
+    </div>
+</div>
+
+			<div class="aa-hp-content-info aa-clearfix">
+				<div class="aa-hp-content-fareSales">
+                     
+            		
+
+
+
+    
+        
+    
+    
+
+<h2>
+    Travel Deals
+    <span><a href="/myAccount/emailSubscriptionAlertsAccess.do">Edit Cities</a></span>
+</h2>
+<table cellpadding="0" cellspacing="0" id="aa-table-fareSales" class="clickable aa-hp-table-content">
+    <tfoot>
+        <tr>
+            <td  >
+                <p class="aa-note">
+                    
+                    *Each way, based on round-trip purchase. <a href="javascript:void(0);" onclick="window.open('/i18n/disclaimers/iplDisclaimerRevenue.jsp','TaxesandFees','scrollbars=yes,menu=no,width=600,height=250,top=125,left=325')">Price includes applicable taxes and fees.</a>
+                 </p>
+            </td>
+                
+                    <th>
+                        <a href="/netsaaver/viewNetSAAverFareSales.do">View All Deals</a>
+                    </th>
+                
+        </tr>
+    </tfoot>
+    <tbody>
+        
+        
+        
+            
+            
+            
+            <tr>
+                <td class="aa-hp-content-fareSales-flight">
+                    <p>
+                        Philadelphia
+                        <br />
+                        To Warsaw
+                    </p>
+                </td>
+                <th class="aa-hp-content-fareSales-fare">
+                    <a href="/reservation/netSAAverSearchAccess.do?initNetSAAver=TRUE&refererPage=netSAAverHome&searchFeature=netsaaver_alert_home&marketId=9829511&isNetSAAVER=true"  class="aa-currency-lrg">$470*</a>
+                    <p class="aa-hp-content-restrictions">
+                        <a href="/netsaaver/viewNetSAAverSpecialsDetails.do?contentId=16471831&amp;saleId=27&amp;contentType=FareSaleMarketing&amp;viewRestriction=true" class="aa-pop-win-med">Restrictions</a><span
+                            class="aa-icon aa-icon-newWin aa-vertical-align-middle" title="New Window"> </span>
+                    </p>
+                </th>
+            </tr>
+        
+            
+            
+            
+            <tr>
+                <td class="aa-hp-content-fareSales-flight">
+                    <p>
+                        Philadelphia
+                        <br />
+                        To Santiago
+                    </p>
+                </td>
+                <th class="aa-hp-content-fareSales-fare">
+                    <a href="/reservation/netSAAverSearchAccess.do?initNetSAAver=TRUE&refererPage=netSAAverHome&searchFeature=netsaaver_alert_home&marketId=9824731&isNetSAAVER=true"  class="aa-currency-lrg">$278*</a>
+                    <p class="aa-hp-content-restrictions">
+                        <a href="/netsaaver/viewNetSAAverSpecialsDetails.do?contentId=16470631&amp;saleId=22&amp;contentType=FareSaleMarketing&amp;viewRestriction=true" class="aa-pop-win-med">Restrictions</a><span
+                            class="aa-icon aa-icon-newWin aa-vertical-align-middle" title="New Window"> </span>
+                    </p>
+                </th>
+            </tr>
+        
+            
+            
+            
+            <tr>
+                <td class="aa-hp-content-fareSales-flight">
+                    <p>
+                        Philadelphia
+                        <br />
+                        To Budapest
+                    </p>
+                </td>
+                <th class="aa-hp-content-fareSales-fare">
+                    <a href="/reservation/netSAAverSearchAccess.do?initNetSAAver=TRUE&refererPage=netSAAverHome&searchFeature=netsaaver_alert_home&marketId=9829271&isNetSAAVER=true"  class="aa-currency-lrg">$467*</a>
+                    <p class="aa-hp-content-restrictions">
+                        <a href="/netsaaver/viewNetSAAverSpecialsDetails.do?contentId=16471831&amp;saleId=27&amp;contentType=FareSaleMarketing&amp;viewRestriction=true" class="aa-pop-win-med">Restrictions</a><span
+                            class="aa-icon aa-icon-newWin aa-vertical-align-middle" title="New Window"> </span>
+                    </p>
+                </th>
+            </tr>
+        
+        
+        
+    </tbody>
+</table>
+
+				</div>
+				<div class="aa-hp-content-newOffers">
+                	
+	            	
+						
+	                
+
+
+
+
+
+<h2>AA News and Offers</h2>
+<table cellpadding="0" cellspacing="0" id="aa-table-newsOffers" class="clickable aa-hp-table-content">
+    <tfoot>
+        <tr>
+            <td class="aa-hp-content-allOffers">
+                <a href="/listNewsAndOffersAccess.do?method=news">View All News</a> |
+                <a href="/netsaaver/viewAllPromotions.do?anchorLocation=homePage.do&title=All Offers" title="View All Offers">View All Offers</a>
+            </td>
+        </tr>
+    </tfoot>
+    
+        
+        
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+<tbody>
+    
+        
+			
+                
+                    
+                
+                <tr>
+                    <td>
+                        <p>
+                            
+                        	
+                                <a href="/viewPromotionDetails.do?itemDescriptor=PromotionContent&fN=bagFees_2082012.xml&type=HomePagePromotion&amp;anchorLocation=homePage.do&amp;url=bagFees_2082012.xml&amp;_locale=en_US&amp;repositoryName=PromotionContentRepository&amp;repositoryId=16422611&amp;reportedTitle=Changes+To+Mexico%2C+The+Caribbean%2C+Central+And+South+America+Bag+Charges&amp;reportedPos=1">Changes To Mexico, The Caribbean, Central And South America Bag Charges</a>
+                                
+                            
+                            
+                            
+                            
+    						<img src="/content/images/common/wa.gif?Log=1&impressloc=homePage.do&impresstitle=Changes+To+Mexico%2c+The+Caribbean%2c+Central+And+South+America+Bag+Charges&impresshref=%2fviewPromotionDetails.do%3fitemDescriptor%3dPromotionContent%26fN%3dbagFees_2082012.xml%26type%3dHomePagePromotion&impresslocale=en_US&impressposition=1" border="0" width="1" height="1" class="aa-display-none" />
+                        </p>
+                    </td>
+                </tr>
+	    	
+                
+                    
+                
+                <tr>
+                    <td>
+                        <p>
+                            
+                        	
+                                <a href="/viewPromotionDetails.do?itemDescriptor=PromotionContent&fN=phishingEmails_example10.xml&type=HomePagePromotion&amp;anchorLocation=homePage.do&amp;url=phishingEmails_example10.xml&amp;_locale=en_US&amp;repositoryName=PromotionContentRepository&amp;repositoryId=16359891&amp;reportedTitle=Fraudulent+Email+Alert+-+Phishing+Emails&amp;reportedPos=2">Fraudulent Email Alert - Phishing Emails</a>
+                                
+                            
+                            
+                            
+                            
+    						<img src="/content/images/common/wa.gif?Log=1&impressloc=homePage.do&impresstitle=Fraudulent+Email+Alert+-+Phishing+Emails&impresshref=%2fviewPromotionDetails.do%3fitemDescriptor%3dPromotionContent%26fN%3dphishingEmails_example10.xml%26type%3dHomePagePromotion&impresslocale=en_US&impressposition=2" border="0" width="1" height="1" class="aa-display-none" />
+                        </p>
+                    </td>
+                </tr>
+	    	
+                
+                    
+                
+                <tr>
+                    <td>
+                        <p>
+                            
+                        	
+                                <a href="/viewPromotionDetails.do?itemDescriptor=PromotionContent&fN=ordalosux.xml&type=HomePagePromotion&amp;anchorLocation=homePage.do&amp;url=ordalosux.xml&amp;_locale=en_US&amp;repositoryName=PromotionContentRepository&amp;repositoryId=16441171&amp;reportedTitle=Chicago+To+Waterloo+And+Sioux+City.+Earn+Double+AAdvantage+Miles&amp;reportedPos=3">Chicago To Waterloo And Sioux City. Earn Double AAdvantage Miles</a>
+                                
+                            
+                            
+                            
+                            
+    						<img src="/content/images/common/wa.gif?Log=1&impressloc=homePage.do&impresstitle=Chicago+To+Waterloo+And+Sioux+City.+Earn+Double+AAdvantage+Miles&impresshref=%2fviewPromotionDetails.do%3fitemDescriptor%3dPromotionContent%26fN%3dordalosux.xml%26type%3dHomePagePromotion&impresslocale=en_US&impressposition=3" border="0" width="1" height="1" class="aa-display-none" />
+                        </p>
+                    </td>
+                </tr>
+	    	
+                
+                    
+                
+                <tr>
+                    <td>
+                        <p>
+                            
+                        	
+                                <a href="/viewPromotionDetails.do?itemDescriptor=PromotionContent&fN=airberlin.xml&type=HomePagePromotion&amp;anchorLocation=homePage.do&amp;url=airberlin.xml&amp;_locale=en_US&amp;repositoryName=PromotionContentRepository&amp;repositoryId=16333881&amp;reportedTitle=oneworld+Welcomes+Its+Newest+Alliance+Member&amp;reportedPos=4">oneworld Welcomes Its Newest Alliance Member</a>
+                                
+                            
+                            
+                            
+                            
+    						<img src="/content/images/common/wa.gif?Log=1&impressloc=homePage.do&impresstitle=oneworld+Welcomes+Its+Newest+Alliance+Member&impresshref=%2fviewPromotionDetails.do%3fitemDescriptor%3dPromotionContent%26fN%3dairberlin.xml%26type%3dHomePagePromotion&impresslocale=en_US&impressposition=4" border="0" width="1" height="1" class="aa-display-none" />
+                        </p>
+                    </td>
+                </tr>
+	    	
+		
+        
+    		
+</tbody>
+
+</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+    <img src="/CookieServlet.jsp?pref=session" style="display:none"/>
+ 
+
+
+		</div>
+		<div id="aa-footer">
+			
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+	
+    
+    	
+    	
+<style type="text/css">
+div.aa-ad-bannerFooterAdserver a {
+        width:134px;
+        float:left;
+        display:inline-block;
+        margin:0;
+        text-align:center;
+    }
+</style>
+
+
+
+<div class="aa-row">
+    <div class="aa-ad-banners-sm aa-column aa-grid_8 aa-ad-bannerFooterAdserver">    
+        
+
+
+<!-- OpenX header script -->
+<script type="text/javascript" src="http://ox-d.aa.com/w/1.0/jstag"></script>
+
+<script type="text/javascript">
+    var OX_4e89db7b16915 = OX();
+    OX_4e89db7b16915.addPage("3734");
+    OX_4e89db7b16915.addVariable("TreatmentCode", "null");
+    OX_4e89db7b16915.fetchAds();
+</script>
+<!-- end generated tag -->
+
+<!-- OpenX body script -->
+<script type="text/javascript">
+    OX_4e89db7b16915.showAdUnit("33973");
+</script>
+<noscript>
+    <iframe id="4e89db7b16915" name="4e89db7b16915"
+            src="http://ox-d.aa.com/w/1.0/afr?auid=31348&cb=97120284&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
+            scrolling="no" width="120" height="60">
+		<a href="http://ox-d.aa.com/w/1.0/rc?cs=4e89db7b16915&cb=97120284&c.TreatmentCode=null">
+			<img src="http://ox-d.aa.com/w/1.0/ai?auid=31348&cs=4e89db7b16915&cb=97120284&c.TreatmentCode=null" border="0" alt=""/>
+		</a>
+    </iframe>
+</noscript>
+<!-- OpenX body script -->
+<script type="text/javascript">
+    OX_4e89db7b16915.showAdUnit("34367");
+</script>
+<noscript>
+    <iframe id="4e89db7b16915" name="4e89db7b16915"
+            src="http://ox-d.aa.com/w/1.0/afr?auid=31349&cb=97120284&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
+            scrolling="no" width="120" height="60">
+		<a href="http://ox-d.aa.com/w/1.0/rc?cs=4e89db7b16915&cb=97120284&c.TreatmentCode=null">
+		   <img src="http://ox-d.aa.com/w/1.0/ai?auid=31349&cs=4e89db7b16915&cb=97120284&c.TreatmentCode=null" border="0" alt=""/>
+		</a>
+    </iframe>
+</noscript>
+
+<!-- OpenX body script -->
+<script type="text/javascript">
+    OX_4e89db7b16915.showAdUnit("34369");
+</script>
+<noscript>
+    <iframe id="4e89db7b16915" name="4e89db7b16915"
+            src="http://ox-d.aa.com/w/1.0/afr?auid=31350&cb=97120284&c.TreatmentCode=null" frameBorder="0" frameSpacing="0"
+            scrolling="no" width="120" height="60">
+		<a href="http://ox-d.aa.com/w/1.0/rc?cs=4e89db7b16915&cb=97120284&c.TreatmentCode=null">
+		   <img src="http://ox-d.aa.com/w/1.0/ai?auid=31350&cs=4e89db7b16915&cb=97120284&c.TreatmentCode=null" border="0" alt="">
+		</a>
+    </iframe>
+</noscript>
+
+        
+    </div>
+    <div class="aa-ad-banner-lrg aa-column aa-grid_10">
+        
+
+
+<!--/* OpenX JavaScript tag */-->
+ 
+<!-- /*
+* The tag in this template has been generated for use on a
+* non-SSL page. If this tag is to be placed on an SSL page, change the
+* 'http://ox-d.aa.com/...'
+* to
+* 'https://ox-d.aa.com/...'
+*/ -->
+ 
+<script type="text/javascript">
+        document.write('<scr'+'ipt src="http://ox-d.aa.com/w/1.0/jstag"><\/scr'+'ipt>');
+</script>
+<script type="text/javascript">
+        OX.addVariable("TreatmentCode", "null");
+        OX.requestAd({"auid":"34371"});
+</script>
+<noscript>
+        <iframe id="4e89dae5e44c8"
+                name="4e89dae5e44c8"
+                src="http://ox-d.aa.com/w/1.0/afr?auid=31352&cb=31357544&c.TreatmentCode=null"
+                frameborder="0"
+                scrolling="no"
+                width="468"
+                height="60">
+                <a href="http://ox-d.aa.com/w/1.0/rc?cs=4e89dae5e44c8&cb=31357544&c.TreatmentCode=null" >
+                  <img src="http://ox-d.aa.com/w/1.0/ai?auid=31352&cs=4e89dae5e44c8&cb=31357544&c.TreatmentCode=null" border="0" alt=""/>
+                </a>
+        </iframe>
+</noscript> 
+        
+    </div>
+</div>
+    
+
+<div class="aa-footer-frame">
+    <div class="aa-footer-promotions-internal aa-clearfix">
+        
+        
+        <style type="text/css">
+#aa-hero-faresale-terms {
+	background:transparent !important;
+}
+#aa-hero-ad-ctrl {
+	background:transparent !important;
+}
+
+#aa-destination-ideas {
+	display:none !important;
+} 
+
+</style>
+
+
+<ul>
+    <li class="aa-footer-promo-default">
+        <h5><a href="/aadvantagefooter_5-8" title="Sign Up for AAdvantage Program" class="aa-link-icon"><img src="/content/images/footer/footer_aadv3.gif" alt="AAdvantage Program"/></a></h5>
+    </li>
+   <li class="aa-footer-promo-default">
+        <h5><a href="/preferredseatsfooter5_8" title="Preferred Seats" class="aa-link-icon"><img src="/content/images/footer/footer_pref_seats.gif" alt="Preferred Seats"/></a></h5>
+   </li>
+   <li class="aa-footer-promo-default">
+        <h5><a href="/emailexclusivesfooter_5-8" title="Sign Up for Email Exclusives" class="aa-link-icon"><img src="/content/images/footer/footer_email.gif" alt="Email Exclusives"/></a></h5>
+   </li>
+   <li class="aa-footer-promo-default">
+        <h5><a href="/restructuring" title="Information about American Airline's Chapter 11 reorganization" class="aa-link-icon"><img src="/content/images/restructuring/footer_restructuring4.gif" alt="Information about American Airline's Chapter 11 reorganization"/></a></h5>
+   </li>
+</ul>
+	
+    </div>
+</div>
+<div id="aa-footer-site-links" class="aa-clearfix">
+    
+    
+    <ul>
+    <li><a href="/i18n/travelInformation/airportAmenities/AdmiralsClub.jsp">Admirals Club</a></li>
+    <li><a href="/i18n/urls/dealfinder.jsp">DealFinder</a></li>
+    <li><a href="http://www.aacareers.com/us/frame_index.htm?index.shtml">Careers</a></li>
+    <li><a href="/i18n/utility/siteMap/siteMap.jsp">Site Map</a> </li>
+    <li><a href="/i18n/footer/legal.jsp">Legal</a> </li>
+    <li><a href="/i18n/footer/privacyPolicy.jsp">Privacy Policy</a></li>
+    <li><a href="/i18n/aboutUs/customerCommitment/main.jsp">Customer Service Plan &amp; Flight Irregularities</a></li>
+    <!--<li><a href="/i18n/utility/aacom_services_charges.jsp">Optional Charges</a></li>-->
+    <li><a href="/i18n/footer/copyright.jsp">Copyright</a></li>
+    <li><a href="/i18n/urls/rss.jsp">RSS</a></li>
+    <li id="aa-footer-social-network" style="width:auto !important;">
+       <ul class="aa-clearfix">
+            <li><a href="http://youtube.com/americanairlines" title="Follow us on You Tube" ><img src="/content/images/footer/footer_youtube.gif" alt="Follow us on You Tube" /></a></li>
+            <li> <a href="http://www.facebook.com/aa" title="Follow us on Facebook" ><img src="/content/images/footer/footer_facebook.gif" alt="Follow us on Facebook" /></a> </li>
+            <li> <a href="http://www.twitter.com/americanair" title="Follow us on Twitter"><img src="/content/images/footer/footer_twitter.gif" alt="Follow us on Twitter" /></a> </li>
+<!--            <li> <a href="/i18n/urls/rss.jsp" title="Follow us on RSS"><img src="/content/images/footer/footer_rss.gif"  alt="Follow us on RSS" /></a> </li>-->
+            <li><a href="/i18n/urls/mobile.jsp" title="Mobile Apps" ><img src="/content/images/footer/footer_apple.gif" alt="Mobile Apps" /></a></li>
+      </ul>
+  </li>
+</ul>
+	
+</div>
+<!--googleon: all-->
+
+
+		</div>
+	</div>
+	
+
+
+
+<script type="text/javascript">
+    
+    function hideIPhoneMessage() {
+        jQuery("#aaIPhoneMessage").hide();
+    }
+    function hideAndroidMessage() {
+        jQuery("#androidMessage").hide();
+    }
+    //ER1337(US23960)-iPad Banner for Full HTML changes
+     function hideIPadMessage() {
+        jQuery("#aaIPadMessage").hide();
+    }
+
+    jQuery(document).ready(function(){
+        jQuery.countryLanguageSelector();
+		//
+        jQuery("#aaIPhoneClose").click(function(e) {
+            e.preventDefault();
+            jQuery.aaCookie.set("aacomHideIPhoneMessage", "true");
+            hideIPhoneMessage();
+        });
+
+        if (jQuery.aaCookie.get("aacomHideIPhoneMessage")) {
+            hideIPhoneMessage();
+        }
+        jQuery("#androidClose").click(function(e) {
+            e.preventDefault();
+            jQuery.aaCookie.set("hideAndroidMessage", "true");
+            hideAndroidMessage();
+        });
+
+        if (jQuery.aaCookie.get("hideAndroidMessage")) {
+            hideAndroidMessage();
+        }
+        
+        //ER1337(US23960)-iPad Banner for Full HTML changes
+         jQuery("#aaIPadClose").click(function(e) {
+            e.preventDefault();
+            jQuery.aaCookie.set("hideIPadMessage", "true");
+            hideIPadMessage();
+        });
+
+        if (jQuery.aaCookie.get("hideIPadMessage")) {
+            hideIPadMessage();
+        }
+
+        var userLocale = "en_US";
+        var regional;
+
+        if (typeof jQuery.datepicker.regional[userLocale] == "undefined") {
+            if (typeof jQuery.datepicker.regional[userLocale.substring(0,2)] == "undefined") {
+                regional = jQuery.datepicker.regional[''];
+            } else {
+                regional = jQuery.datepicker.regional[userLocale.substring(0,2)];
+            }
+        } else {
+            regional = jQuery.datepicker.regional[userLocale];
+        }
+
+        jQuery.datepicker.setDefaults(regional);
+
+		jQuery.datepicker.setDefaults({
+			disabled: false,
+			numberOfMonths: 2,
+			showButtonPanel: true,
+			minDate: 0,
+			maxDate: +331,
+			hideIfNoPrevNext: true,
+			showAnim: 'fadeIn',
+			buttonImage: '/content/images/chrome/icons/aa-calendar-icon.png',
+            buttonText: '',
+			showOn: 'both'
+    	});
+
+        //
+        jQuery('ul.sf-menu').superfish({hoverClass:'current',autoArrows:false}); //.find('ul').bgIframe({src:'about:blank'});
+
+		//
+		jQuery(".aa-popup-contactaa").aaGenericPopup("CUSTOM", 675, 500);
+        jQuery(".aa-link-faq").aaGenericPopup("CUSTOM", 675, 500);
+        jQuery("#aa-search-field").aaTextBoxMessage('Search AA.com ...');
+        jQuery(".aa-pop-win-sm").aaGenericPopup("SMALL");
+        jQuery(".aa-pop-win-med").aaGenericPopup("MEDIUM");
+		jQuery(".aa-pop-win-lrg").aaGenericPopup("LARGE");
+        jQuery(".aa-pop-win-new").aaGenericPopup("SCREEN");
+        jQuery(".aa-popup-createNotification").aaGenericPopup("CUSTOM", 775, 500);
+    });
+</script>
+
+<!--[if lte IE 6]>
+<script type="text/javascript">
+jQuery(document).ready(function () {
+    jQuery('ul.sf-menu').find('ul').bgIframe({src:'about:blank'});
+});
+</script>
+<![endif]-->
+
+<script type='text/javascript'>
+ if (typeof(window.addEventListener) != 'undefined') {
+     window.addEventListener('load', eStara_loadlr, false);
+ } else if (typeof(document.addEventListener) != 'undefined') {
+     document.addEventListener('load', eStara_loadlr, false);
+ } else if (typeof(window.attachEvent) != 'undefined') {
+     window.attachEvent('onload', eStara_loadlr);
+ }
+ function eStara_quick_append(u) {
+     var s = document.createElement('script');
+     s.setAttribute('type', 'text/javascript');
+     s.setAttribute('src', u);
+     s.setAttribute('charset', 'UTF-8');
+     if (typeof(window.attachEvent) != 'undefined') document.body.appendChild(s);
+     else document.getElementsByTagName('head').item(0).appendChild(s);
+ }
+ function eStara_loadlr() {
+     try {
+         setTimeout( function() {
+            eStara_quick_append('//as00.estara.com/fs/lr.php?onload=1&accountid=200106280632', 0);
+         }, 50);
+     } catch (e) {}
+ }
+</script>
+
+
+	
+    
+	   
+
+
+<script type='text/javascript' src='/dwr/interface/HomePageUtils.js'></script>
+<script type='text/javascript' src='/dwr/interface/SmartSuggestAjaxUtils.js'></script>
+<script type="text/javascript" src="/apps/common/js/jquery/plugins/cycle/jquery.cycle.min.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/plugins/cluetip-1.0.3/jquery.cluetip.phase2.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaAirportAutoComplete.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/plugins/aaHeroAds.js"></script>
+<script type="text/javascript" src="/apps/common/js/jquery/aacom/utilities/aaUtils.js"></script>
+<script type="text/javascript" src="/apps/common/js/aaFunctions.js"></script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    var leavingOnGetTime = 0;
+    var returningFromGetTime = 0;
+
+    function aaBookingModuleFormatDate(paramMonth, paramDay) {
+        var d, nowTime = new Date();
+        var now = new Date(nowTime.getFullYear(), nowTime.getMonth(), nowTime.getDate());
+        if (paramMonth == "-1000" || paramDay == "-1000") {
+            d = null;
+        } else {
+            var checkDate = new Date(now.getFullYear(), parseInt(paramMonth) - 1, paramDay);
+            try {
+                d = new Date(
+                    ((checkDate < now) ? now.getFullYear() + 1 : now.getFullYear()),
+                    parseInt(paramMonth) - 1, paramDay
+                    );
+            } catch (e) {
+                d = null;
+            }
+        }
+        return d;
+    }
+
+    function dateCompareTo(date1, date2) {
+        if (!date1) date1 = new Date(0);
+        if (!date2) date2 = new Date(0);
+        return ( (date1.getTime() < date2.getTime()) ? -1 :
+                ((date1.getTime() > date2.getTime()) ?  1 : 0)
+               );
+    }
+
+    function populateLeavingOnGetTime() {
+        try {
+            leavingOnGetTime = jQuery("#aa-leavingOn").aaDateInput("getDate").getTime();
+        } catch (e) {
+            leavingOnGetTime = 0;
+        }
+    }
+    function populateReturningFromGetTime() {
+        try {
+             returningFromGetTime = jQuery("#aa-returningFrom").aaDateInput("getDate").getTime();
+         } catch (e) {
+             returningFromGetTime = 0;
+         }
+    }
+
+    function checkLeavingOn() {
+        if (jQuery("#aa-returningFrom").aaDateInput("getDate") != null
+                &&
+           (dateCompareTo(jQuery("#aa-leavingOn").aaDateInput("getDate"), jQuery("#aa-returningFrom").aaDateInput("getDate")) > 0)
+            ) {
+            jQuery("#aa-returningFrom").datepicker("setDate", null);
+            jQuery("#aa-returningFrom").blur();
+            synchReturningFromDropdowns();
+        }
+    }
+
+    function synchLeavingOnDropdowns() {
+        date = jQuery("#aa-leavingOn").aaDateInput("getDate");
+        jQuery("#reservationFlightSearchForm\\.flightParams\\.flightDateParams\\.travelMonth")
+            .val(
+                (date == null)
+                ? "-1000"
+                : date.getMonth() + 1
+            );
+        jQuery("#reservationFlightSearchForm\\.flightParams\\.flightDateParams\\.travelDay")
+            .val(
+                (date == null)
+                ? "-1000"
+                : date.getDate()
+            );
+    }
+
+    function checkReturningFrom() {
+        if (jQuery("#aa-returningFrom").aaDateInput("getDate") != null
+                &&
+           (dateCompareTo(jQuery("#aa-leavingOn").aaDateInput("getDate"), jQuery("#aa-returningFrom").aaDateInput("getDate")) > 0)
+            ) {
+            jQuery("#aa-leavingOn").datepicker("setDate", null);
+            jQuery("#aa-leavingOn").blur();
+            synchLeavingOnDropdowns();
+        }
+    }
+
+    function synchReturningFromDropdowns() {
+        date = jQuery("#aa-returningFrom").aaDateInput("getDate");
+        jQuery("#reservationFlightSearchForm\\.returnDate\\.travelMonth")
+            .val(
+                (date == null)
+                ? "-1000"
+                : date.getMonth() + 1
+            );
+        jQuery("#reservationFlightSearchForm\\.returnDate\\.travelDay")
+            .val(
+                (date == null)
+                ? "-1000"
+                : date.getDate()
+            );
+    }
+
+    jQuery(document).ready( function() {
+
+        jQuery(".aaMultiCityLink").click(function(e) {
+            jQuery(".enableMultiCity").attr("disabled", "");
+        });
+
+        jQuery(".aaHomePageSubmit").click( function(e) {
+            var retVal = true;
+
+            try {
+                jQuery(".flightSearch").val(
+                    ((jQuery("#flightSearchForm\\.tripType\\.redeemMiles")[0].checked) ? "award" : "revenue")
+                );
+                //
+                } catch(ex) { }
+
+            var fromDate = jQuery("#aa-leavingOn")[0].dateInput.getDate();
+            var toDate = jQuery("#aa-returningFrom")[0].dateInput.getDate();
+
+            jQuery(".aaSC_Control_BookTravel_RoundTripHotel:checked:first").each(function() {
+
+                var flightHotelURL = "http://www.aavacations.com/deeplink.asp?"
+                    + "ADID=AACM-DEP-ALL-09-01&searchType=matrix&"
+                    + "adults=" + jQuery("#flightSearchForm\\.adultPassengerCount\\.flightHotel").val() + "&"
+                    + "rooms=" + jQuery("#hotelRoomCount").val() + "&"
+                    + "serviceclass=" + jQuery("#fhServiceClass").val() + "&"
+                    + "from_date="
+                        + ((fromDate == null) ? "" :
+                              (fromDate.getMonth() + 1)
+                            + "/"
+                            + fromDate.getDate()
+                            + "/"
+                            + fromDate.getFullYear()
+                            )
+                        + "&"
+                    + "to_date="
+                        + ((toDate == null) ? "" :
+                              (toDate.getMonth() + 1)
+                            + "/"
+                            + toDate.getDate()
+                            + "/"
+                            + toDate.getFullYear()
+                            )
+                        + "&"
+                    + "from_city_code=" + jQuery("#reservationFlightSearchForm\\.originAirport").val() + "&"
+                    + "to_city_code=" + jQuery("#reservationFlightSearchForm\\.destinationAirport").val() + "&"
+                    + "to_time=0&"
+                    + "from_time=0"
+
+
+                captureExtLink("http://www.aavacations.com/deeplink.asp?ADID=AACM-DEP-ALL-09-01", document.location);
+
+                e.preventDefault();
+                aaGenericPopup.open(flightHotelURL, "aavacations", "SCREEN");
+            });
+
+            if (retVal) {
+                jQuery('#reservationFlightSearchForm').each(function() {
+                    trackAllFormValues(this);
+                });
+            }
+
+            return retVal;
+        });
+
+        jQuery(".aaMoreDetails").click( function(e) {
+            e.preventDefault();
+            jQuery("#reservationFlightSearchForm").each(function() {
+                var resForm = this;
+                jQuery(".aaSC_Control_BookTravel_RoundTrip:checked:first").each(function() {
+                     jQuery("#moreOptionsIndicator").val("roundTrip");
+                });
+                jQuery(".aaSC_Control_BookTravel_OneWay:checked:first").each(function() {
+                    jQuery("#moreOptionsIndicator").val("oneWay");
+                });
+
+                jQuery(".aaHomePageSubmit").click();
+            });
+        });
+
+        jQuery(".aaSC_Control_BookTravel_RoundTrip, .aaSC_Control_BookTravel_OneWay").click(function(e) {
+            jQuery("#aa-fieldset-travelers").removeClass("aa-two-up");
+        });
+
+        jQuery(".aaSC_Control_BookTravel_RoundTripHotel:checked").each(function() {
+            jQuery("#aa-fieldset-travelers").addClass("aa-two-up");
+        });
+
+        jQuery(".aaSC_Control_BookTravel_RoundTripHotel").click(function(e) {
+            jQuery("#aa-fieldset-travelers").addClass("aa-two-up");
+
+            jQuery(".aaSC_Control_BookTravel_RedeemMiles:checked").each(function() {
+                this.checked = false;
+//    			jQuery.aaSC.flag(
+//    				'This option is not available with Round Trip + Hotel.',
+//    				'left',
+//    				'.aaSC_Flag_BookTravel_RedeemMiles'
+//    				);
+            });
+            jQuery(".aaSC_Control_BookTravel_AirPass:checked").each(function() {
+                this.checked = false;
+            });
+
+        });
+
+        
+
+        jQuery("#aa-leavingOn").datepicker({
+            beforeShowDay: function(date) {
+                    return [
+                        true,
+                        ( (( returningFromGetTime == date.getTime())) ? "ui-state-highlight ui-state-active" : "" )
+                        ];
+                },
+            beforeShow: function (input, inst) {
+                populateReturningFromGetTime();
+                },
+            onSelect: function (dateText,inst) {
+                try {
+                    checkLeavingOn();
+                    synchLeavingOnDropdowns();
+                    populateLeavingOnGetTime();
+                } catch (ex) {
+                }
+            }
+        })
+        .datepicker("setDate", aaBookingModuleFormatDate(
+            jQuery("#reservationFlightSearchForm\\.flightParams\\.flightDateParams\\.travelMonth").val(),
+            jQuery("#reservationFlightSearchForm\\.flightParams\\.flightDateParams\\.travelDay").val()
+        ));
+
+        jQuery("#aa-returningFrom").datepicker({
+            beforeShowDay: function(date) {
+                    return [
+                        ( leavingOnGetTime <= date.getTime()),
+                        ( (leavingOnGetTime == date.getTime()) ? "ui-state-highlight ui-state-active" : "" )
+                        ];
+                },
+            beforeShow: function (input, inst) {
+                    if (inst.input.aaDateInput("getDate") == null) {
+                        inst.input.datepicker("setDate", (jQuery("#aa-leavingOn").aaDateInput("getDate")));
+                    };
+                    populateLeavingOnGetTime();
+                },
+            onSelect: function (dateText,inst) {
+                try {
+                    checkReturningFrom();
+                    synchReturningFromDropdowns();
+                    populateReturningFromGetTime();
+                } catch (ex) {
+                }
+            }
+        })
+        .datepicker("setDate", aaBookingModuleFormatDate(
+            jQuery("#reservationFlightSearchForm\\.returnDate\\.travelMonth").val(),
+            jQuery("#reservationFlightSearchForm\\.returnDate\\.travelDay").val()
+            ));
+
+        jQuery("#aa-leavingOn, #aa-returningFrom").aaDateInput({
+            userLocale: "en_US"
+            });
+
+        jQuery("#aa-leavingOn").blur(function() {
+            checkLeavingOn();
+            synchLeavingOnDropdowns();
+            populateLeavingOnGetTime();
+        });
+
+        jQuery("#aa-returningFrom").blur(function() {
+            checkReturningFrom();
+            synchReturningFromDropdowns();
+            populateReturningFromGetTime();
+        });
+
+        //
+        jQuery().aaSC();
+
+        //
+        jQuery(".aaFindAirport").aaAirportCode();
+
+        //
+        jQuery(".aaAutoComplete").aaAirportAutoComplete();
+        
+    });
+
+</script>
+
+
+<script type="text/javascript">
+var destinations = { 
+   		"destTypes" : [
+   			{ "dtID" : "0", "destTypeValue" : "ADVENTURE CITIES", "destTypeImageUrl" : "/content/images/promos/destinations/ADVENTURECITIES.jpg" },
+   			{ "dtID" : "1", "destTypeValue" : "BEACH CITIES", "destTypeImageUrl" : "/content/images/promos/destinations/BEACHCITIES.jpg" },
+   			{ "dtID" : "2", "destTypeValue" : "FAMILY CITIES", "destTypeImageUrl" : "/content/images/promos/destinations/FAMILYCITIES.jpg" },
+   			{ "dtID" : "3", "destTypeValue" : "GOLF CITIES", "destTypeImageUrl" : "/content/images/promos/destinations/GOLFCITIES.jpg" },
+   			{ "dtID" : "4", "destTypeValue" : "ROMANCE CITIES", "destTypeImageUrl" : "/content/images/promos/destinations/ROMANCECITIES.jpg" },
+   			{ "dtID" : "5", "destTypeValue" : "SKI CITIES", "destTypeImageUrl" : "/content/images/promos/destinations/SKICITIES.jpg" },
+   			{ "dtID" : "6", "destTypeValue" : "SPA CITIES", "destTypeImageUrl" : "/content/images/promos/destinations/SPACITIES.jpg" } 
+   		]
+   	}, selectedDestinationStr = '', prevDType, prevMessageIdx;
+
+    jQuery(document).ready(function(){
+		//
+		DWREngine.setTimeout(90000);
+		DWREngine.setErrorHandler(function(){});
+		
+		//
+		jQuery("#searchCategoryCheckBox").each(function() {
+				try {
+					this.checked = (jQuery(".searchCategory")[0].value == "award");
+				} catch(e) {
+			}
+		});
+
+		jQuery('a.aa-tooltip').each(function(){
+			jQuery(this).cluetip({
+	    		cluetipClass: 'aaTooltip',
+    			local:true,
+    			sticky: true, 
+    			dropShadow: false,
+    			dropShadowSteps:0,
+    			activation: 'click',
+    			closePosition: 'title',
+    			arrows: true,
+    			closeText: '',
+    			onShow: function(ct, c){
+					jQuery(ct).find('div#cluetip-close a').addClass('aa-close');
+					jQuery('#cluetip a.aa-pop-win-med').aaGenericPopup("MEDIUM");
+			  	}
+    		});
+		});
+
+		//
+		jQuery('#aa-hp-module-tabs').aaTabs('.aa-hp-content-modules');
+        
+	   //Set default tab based if selectedTab param set.
+        
+        
+       //Set default focus if login form active on tab.
+        
+            jQuery("li[id$='aa-hp-myAccount']").click(function(e) {
+                if( jQuery('#loginForm\\.aadvantageNumber').val() == '' ){
+                    jQuery('#loginForm\\.aadvantageNumber').focus();
+                }else{
+                    jQuery('#loginForm\\.password').focus();
+                }
+            });
+			jQuery("li[id$='aa-viewReservations']").click(function(e) {
+                if( jQuery('#reservationsLoginForm\\.aadvantageNumber').val() == '' ){
+                    jQuery('#reservationsLoginForm\\.aadvantageNumber').focus();
+                }else{
+                    jQuery('#reservationsLoginForm\\.password').focus();
+                }
+            });
+        
+	
+		//
+		jQuery.stripeTables('.aa-zebra');		
+		jQuery.aaFormFieldEffects();
+		
+		jQuery.tableToLinks('#aa-table-fareSales','a.aa-currency-lrg');
+		jQuery.tableToLinks('#aa-table-newsOffers','a');
+
+   //  start dialog code
+		var destDiv='div#destSearch';
+        jQuery(destDiv).dialog({
+            modal: true,
+            overlay: {
+                opacity: 0.5,
+                background: '#dddddd'
+            },
+            autoOpen: false,
+            draggable: false,
+            resizable: false,
+            title: 'Search by Destination',
+            width: 700,
+            height: 'auto',
+            stack: false,
+            closeOnEscape: true,
+			position:'center',
+			open:function(){jQuery(window).scrollTop(0);}		       		
+        });
+        jQuery('a#aa-destination-ideas').click(function(e){
+            e.preventDefault();
+			if (jQuery(destDiv).html() == '') {
+				jQuery(destDiv).load("/aa/reservation/searchByDestinationVR.do",function(){
+					jQuery(destDiv).dialog('open');
+				});
+			} else {
+				jQuery(destDiv).dialog('open');
+			} 
+			trackDestinationIdeas();   			       	     					     
+        });
+        //  end dialog code
+	});
+</script>
+
+    
+	
+	<!--//BEGIN REFERENCE PAGE TAG SCRIPT-->
+
+
+
+
+        <script type="text/javascript">
+            var v = {};
+            v["v_locale"] = '';
+			
+			    
+			
+        </script>
+<script type="text/javascript" src="/apps/common/js/wa.js"></script>
+<noscript>
+    <div>
+        <img src="/content/images/common/wa.gif?Log=1&amp;v_jd=1" alt="" width="1" height="1"/>
+    </div>
+</noscript>
+<!-- END REFERENCE PAGE TAG-->
+
+    
+    
+
+
+
+
+    
+           
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+ 
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+	
+	    
+    
+       
+    
+    
+
+
+
+
+    
+    
+    
+	
+	
+	
+	
+	
+	
+		
+    
+    
+    
+    
+	
+    
+	
+	
+	
+						
+    
+	
+    
+	
+      
+    
+	
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+	
+
+
+
+
+
+	
+
+				
+<!--oobegin 
+* OnlineOpinionF3cS v3.0
+* The following code is Copyright 1998-2006 Opinionlab, Inc.
+* All rights reserved. Unauthorized use is prohibited.
+* This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. US 6606581, 6421724, 6785717 B1 and other patents pending.
+* http://www.opinionlab.com
+-->
+<div class="noprint">
+	
+	
+		
+		  <script type="text/javascript" charset="windows-1252" src="/content/common/styles/onlineopinionF3cS/oo_engine_f.js"></script>
+		
+        
+		
+	
+	
+	
+			
+	<script type="text/javascript">
+	
+	
+	
+				custom_var='0|0|0||null';
+	
+	
+	_ht='http://www.aa.com/HomePage/US';	
+	</script>
+
+</div>
+<!--ooend-->
+
+
+
+	
+	
+</body>
+</html>

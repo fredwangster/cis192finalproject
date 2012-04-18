@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8/>
+<title>ConsumerAutoSource.com</title>
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight,light,bold' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/new.css" type="text/css" media="screen" charset="utf-8"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script type="text/javascript" src="/autoscript/consumerautosource-com.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+</head>
+<body>
+ 
+<script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19881042-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=159457947485446";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<div id="header">
+<div class="container_12 clearfix">
+<h1>ConsumerAutoSource</h1>
+<img src="images/.png" alt=" state flag" class="flag"/>
+</div>
+<div class="container_12 clearfix">
+<h2 class="center">Can you get Auto Insurance for only $1/day?</h2>
+<p class="left">(<span class="location"></span>) -- The answer is 'definitely'. With significant changes in policy - drivers who drive less then 25 miles per day and have no DUIs can get ridiculously cheap coverage. The path to these huge savings is easy and takes less then 5 minutes. Simply use the form below to start comparing rates from over 300 insurers and let them compete for your business.</p>
+</div>
+<div class="container_12 clearfix">
+<div id="video" class="right">
+<object width="350" height="275">
+<param name="movie" value="http://www.youtube.com/v/1fUlZVipfFs&amp;hl=en_US&amp;fs=1&amp;autoplay=0&amp;showinfo=0&amp;rel=0"/></param>
+<param name="allowFullScreen" value="true"/></param>
+<param name="allowscriptaccess" value="always"/></param>
+<param name="wmode" value="transparent"/></param>
+<embed src="http://www.youtube.com/v/1fUlZVipfFs&amp;hl=en_US&amp;fs=1&amp;autoplay=0&amp;showinfo=0&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="350" height="275"></embed>
+</object>
+</div>
+<form action="auto-sh.php" method="get" id="leadform" onsubmit="getdata();">
+<p>Type your zipcode &amp; compare insurers</p>
+<label for="zipcode">Simply enter your ZIP code then click GO to get the current rate:</label>
+<input type="hidden" id="c3" name="c3" value="1fUlZVipfFs"/>
+<input type="hidden" id="c2" name="c2" value=""/>
+<input type="text" id="zipcode" name="zipCode" value="" maxlength="5" class="center textfield"/>
+<input type="image" src="images/btn_go.png" class="submit" value="Compare Your New Rate!" onclick="_gaq.push(['_trackEvent', 'Submit', 'clicked', '1fUlZVipfFs']);"/>
+</form>
+</div>
+</div>
+</div>
+<div id="content" class="container_12 clearfix">
+<div class="insurance_logos center"><img src="images/insurance_logos.png"/></div>
+<div class="article">
+<h3>(<span class="location"></span>) -- Simple, Smart, Savings - The path to huge discounts (up to 60%!) on our auto insurance..</h3>
+<div id="socials" class="right">
+<h4>Share this with friends</h4>
+<div class="fb-like" data-href="http://www.consumerautosource.com/quote" data-send="false" data-width="200" data-show-faces="true" data-action="recommend" data-font="lucida grande"></div>
+ 
+<div class="addthis addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ed9e7094688f966"></script>
+ 
+</div>
+<p>Skeptical? Don't be. We've shown thousands of people (just like you)
+how to save hundreds on auto insurance. It's a simple trick that
+may seem too good to be true. It's not. Here's how it works:</p>
+<p>Have you seen any of the recent car insurance commercials? Specifically,
+the ones with a little green gecko that can save you 15% in 15 minutes?</p>
+<p>Well, if they claim this, it must be true. Or else they'd be getting sued.
+The key is that they can save certain people 15% or more. But not everyone.
+Each insurance company is different - and they all have discounts based
+on different factors. The only way to get the lowest price is to see which
+company offers the best discounts for your specific situation.</p>
+<p>For example, you may be able to get a discount if you meet the following:</p>
+<ol>
+<li>You haven't been in a car accident in the last year.</li>
+<li>You've never had a DUI.</li>
+<li>You drive less than 25 miles per day.</li>
+<li>You have no speeding tickets in the last 6 months</li>
+<li>You park your car in a garage.</li>
+</ol>
+<p>The reality is most drivers don't compare rates before choosing a car
+insurance provider. Fact: if you don't compare at least 5 insurers
+before making your decision, you're paying too much.</p>
+<p>Most people these days are too busy to spend their free time calling every
+car insurance company out there. The good news is that our site will compare
+rates from over 200 insurance companies for you. Simply fill-out one form
+and we will do the heavy lifting. Just sit back and prepare to save.</p>
+<p>The information we've provided above has made our insurance comparison process widely popular. To complete the rest of the process, you will have the opportunity to add addition information about your car(s) and driving record. The process usually takes 5 minutes or less! All the information provided is not kept by the service at ConsumerAutoSource. We merely provide this news-based information. The information provided by anyone using the services will go directly to the insurers (5-7 insurance firms) whom may contact you directly via email or phone.</p>
+<p>What we can promise you is that you will receive numerous <strong>FREE quotes</strong> from multiple insurers who want your business. We also know they will offer you the best deal right away. This is a win-win and <strong>in the next 5 minutes, you could save over $500 or even 60% on your auto insurance!</strong></p>
+</div>
+<div id="footer">
+<p class="links"><a href="privacy.php">Privacy Policy</a> <a href="terms.php">Terms of Use</a> <a href="disclosures.php">Disclosures</a><br/>&copy; 2012 All Rights Reserved</p>
+</div>
+</div>
+<script>
+	$(document).ready(function(){
+    $("#zipcode").focus();
+    $(".cityName").text('');
+    $(".location").text(', ');
+    $('#comment .submit').click(function(){
+	    $('#flash').fadeIn();
+	  });
+  });
+  	</script>
+<script type="text/javascript">
+    function getdata() {
+      var zipCode = $('#zipcode').val();
+      var c2 = $('#c2').val();
+      var c3 = $('#c3').val();
+      window.open('http://www.consumerautosource.com/auto-trouve.php?zipCode=' + zipCode + '&c2=' + c2 + '&c3=' + c3);
+      
+    }
+  </script>
+</body>
+<script type="text/javascript" src="http://pixel.sitescout.com/ap/edc9e38b401821d8"></script>
+</html>

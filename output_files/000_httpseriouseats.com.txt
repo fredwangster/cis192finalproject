@@ -1,0 +1,2017 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>Serious Eats: A Food Blog and Community</title>
+
+<meta name="description" content="Serious Eats is a food blog focused on sharing food enthusiasm through online conversation, multiple blogs, and video. Our combination of community and content brings together compelling original and acquired food video and spirited, inclusive discussion about all things food-related." />
+	<meta name="keywords" content="Serious Eats, food blog, community, forums, videos, eating out, recipes, food media, news, events, restaurants, dining, reviews" />
+
+<!-- JS Code for Chartbeat -->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+   
+	
+	   <script src="http://static.seriouseats.com/serious_eats/js/mt.js" type="text/javascript"></script>
+	
+	
+
+
+
+<script src="http://static.seriouseats.com/js/jquery.min.js"></script>
+
+	<script src="http://static.seriouseats.com/serious_eats/js/mt-site.js?20120417223339" type="text/javascript"></script>
+	
+	<script src="http://static.seriouseats.com/js/jquery.tools.scroll.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://static.seriouseats.com/js/jquery.accordion.min.js" type="text/javascript"></script>
+	<script src="http://static.seriouseats.com/js/accordion.js" type="text/javascript"></script>
+	<script type="text/javascript">
+var field_stars = new Array();
+function star_over(field, rating, on, off) {
+    for (var i = 1; i <= rating; i++) {
+        var star = document.getElementById(field + '_' + i);
+        star.src = on;
+    }
+    for (var i = rating + 1; i <= field_stars[field]; i++) {
+        var star = document.getElementById(field + '_' + i);
+        star.src = off;
+    }
+}
+function star_out(field, rating, on, off) {
+    var val = document.getElementById(field).value;
+    if (val) {
+        val = parseInt(val);
+    } else {
+        val = 0;
+    }
+    for (var i = 1; i <= val; i++) {
+        var star = document.getElementById(field + '_' + i);
+        star.src = on;
+    }
+    for (var i = val + 1; i <= field_stars[field]; i++) {
+        var star = document.getElementById(field + '_' + i);
+        star.src = off;
+    }
+}
+function star_click(field, rating) {
+    document.getElementById(field).value = rating;
+}
+</script>
+
+   	<script src="http://static.seriouseats.com/js/mobileRedirect.js" type="text/javascript"></script>
+	
+   	
+   	<script src="http://static.seriouseats.com/js/carousel.js" type="text/javascript"></script>
+
+    
+   	
+
+<!-- JS Code for Google Analytics -->
+<script type="text/javascript">
+	  	var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-962456-1']);
+                _gaq.push(['_setDomainName', '.seriouseats.com']);
+  		_gaq.push(['_trackPageview']);
+
+
+
+  		(function() {
+    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+	</script>
+
+
+
+ 
+
+
+
+
+   <link rel="stylesheet" type="text/css" href="http://static.seriouseats.com/css/general.css?v=121511" media="screen" />
+
+	
+	
+	
+	
+	
+	
+	<link rel="stylesheet" type="text/css" href="http://static.seriouseats.com/css/print.css" media="print" />
+
+	<!--[if lte IE 8]>
+	    <link rel="stylesheet" type="text/css" href="http://static.seriouseats.com/css/ie8.css" media="screen" charset="utf-8" />
+	  <![endif]-->
+	<!--[if IE 7]>
+	    <link rel="stylesheet" type="text/css" href="http://static.seriouseats.com/css/ie7.css" media="screen" charset="utf-8" />
+	  <![endif]-->
+
+
+
+
+
+
+	<meta name="copyright" content="Serious Eats 2012" />
+	<meta http-equiv="Content-Language" content="en-us" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+   <meta name="readability-verification" content="UA7kXkwV7ntCrsptquaq9Ufjh2FcJ9qzDV3C6C5b"/>
+	<link rel="Shortcut Icon" href="http://www.seriouseats.com/favicon.ico" />
+
+	
+
+<meta property="fb:page_id" content="168926019255" />
+	<link rel="alternate" type="application/atom+xml" title="Serious Eats" href="http://feeds.seriouseats.com/seriouseatsfeaturesvideos" />
+	
+
+   <script type="text/javascript">
+   /* <![CDATA[ */
+   $(document).ready(function() {
+       var u = mtGetUser();
+       if (u && u.is_authenticated) {
+           mtUpdateScores();
+       } else {
+           $('.scoring').addClass('scoring-scorable');
+       }
+       
+       	/* ------- Utilities BEGIN --------- */
+		// remove the default text on any search input box with the class "userField"
+		$(".userField").click(function() { 
+			    if ($(this).val() == 'Search Serious Eats'||'Search for Recipes' || 'Search Talk' || 'Search New York' || 'Search Sweets' || 'Search Drinks' || 'Search Slice' || 'Search AHT' || 'Search Photograzing' || 'Search Chicago') {   
+			        $(this).data('original', $(this).val()).val('');
+					$(this).addClass("selected");
+			    }
+			});
+		// put the default text back into any search input box with the class "userField" if the user hasn't typed anything
+		$(".userField").blur(function() { 
+			    if ($(this).val() == '') {   
+					$(this).removeClass("selected");
+			        $(this).val($(this).data('original'));
+			    }
+			});
+		// show and hide the newsletter form signup box
+		$("#subscribe-button").click(function(){
+			$("#newsletter-form").toggle("fast");
+			$(this).text($(this).text() == 'Go' ? 'Close' : 'Go');
+		});
+		/* ------- Utilities END --------- */
+
+   });
+   //mtAttachEvent('load', mtUpdateScores);
+   mtAttachEvent('usersignin', mtUpdateScores);
+   /* ]]> */
+   </script>
+
+
+<!-- socialize.js script should only be included once -->
+<script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_ArepGxju5Ep6wgk0f7-tEYmuzM15n0na_Bs7Cw9OzTw2SsDZeoXheFFxBGD9TVK5"></script>
+<script type="text/javascript">
+var conf={}
+</script>
+
+
+
+
+
+	<script type="text/javascript" src="http://use.typekit.com/kti2wqp.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+<link rel="stylesheet" href="http://www.seriouseats.com/css/new-master.css" type="text/css" media="screen" charset="utf-8" />
+
+	<script src="http://static.seriouseats.com/js/mobileRedirect.js" type="text/javascript"></script>
+	<meta name="verify-v1" content="14JpciACI6abt7F0ETJQ/O2Nh865c/CW09yNhrM7/lY=" />
+	
+    <script type="text/javascript">
+        $(document).ready(function(){
+            init_main_carousel(6500); // change this value to adjust delay between slides
+        });
+    </script>
+
+</head>
+
+<body id="home" class="sites">
+
+<div id="container">
+<div id="header" class="SE" style="background: url('http://static.seriouseats.com/images/siteassets/background_header.png') no-repeat scroll center 0px transparent">
+	<form id="SearchForm" action="http://www.seriouseats.com/cgi-bin/mte/mt-search.cgi" method="get">
+        <input type="hidden" name="__mode" value="gsearch" />
+        <input type="hidden" name="blog_id" value="31" />
+        <input type="hidden" name="site" value="All" />
+        <input id="searchBox" class="query userField" name="search" autocomplete="off" value="Search Serious Eats" />
+		<input type="submit" class="submit" value="Go" />
+    </form>
+
+
+
+
+
+	<div class="widget-sign-in widget">
+
+    <div id="signin-widget-content" class="widget-content" style="top:20px;"></div>
+
+
+
+
+</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function mtUpdateSignInWidget(u) {
+    var separator = '&nbsp;&nbsp;|&nbsp;&nbsp;';
+    var el = document.getElementById('signin-widget-content');
+    var content = '';
+    // alert (document.URL);
+    //alert (encodeURIComponent(document.URL));
+    if (!el) return;
+    if (u) {
+        if (u && u.is_authenticated) {
+            user = u;
+            mtSaveUser();
+        } else {
+            // user really isn't logged in; so let's do this!
+            return mtSignIn();
+        }
+    } else {
+        u = mtGetUser();
+    }
+    if (u && u.name) {
+        var url;
+		content += '<div id="login-tab" class="loggedIn"><div id="login-tab-inner">';
+        if (u.is_authenticated) {
+            if (u.is_author) {
+
+				url = 'http://www.seriouseats.com/user/profile/'; 
+
+
+            } else {
+                url = u.url;
+            }
+        } else if (u.url) {
+            url = u.url;
+        } else {
+            url = null;
+        }
+        if (url)
+            content += '<span class="welcome">Hello, <a href="' + url + '">' + u.name + '</a>.</span>';
+        else
+            content += '<span class="welcome">Hello, <strong>' + u.name + '.</span>';
+        if (u.is_author)
+            content += '<span class="account"><a href="http://www.seriouseats.com/cgi-bin/mte/mt-cp.cgi?__mode=edit&blog_id=31&return_to=' + encodeURIComponent(document.URL) + '">Account</a></span>';
+        
+        content += ' | <a href="javascript:void(0)" onclick="return mtSignOutOnClick()">Log out</a>';
+        
+		content += '</div></div><div class="clearer"><!-- --></div>'
+    } else if (u && u.is_banned) {
+        content = 'You do not have permission to sign in to this blog.';
+    } else {
+		content = '<div id="login-tab" class="notLoggedIn"><div id="login-tab-inner"><span class="welcome">Welcome to Serious Eats!</span><a onclick="return mtSignInOnClick(\'login-tab-inner\')" href="javascript:void(0)" id="login-link">Log in</a> or <a href="http://www.seriouseats.com/cgi-bin/mte/mt-cp.cgi?__mode=register&blog_id=31&blog_id=0&return_to=http%3A%2F%2Fwww.seriouseats.com%2Fwelcome%2F">join</a> the community.</div></div><div class="clearer"><!-- --></div>'
+    }
+    //alert ("content is: " + content);
+    el.innerHTML = content;
+}
+mtAttachEvent('usersignin', mtUpdateSignInWidget);
+mtUpdateSignInWidget();
+/* ]]> */
+</script>
+<script type="text/javascript">
+//mtAttachEvent('load', mtUpdateScores);
+//mtAttachEvent('usersignin', mtUpdateScores);
+</script>
+
+	 <h1 id="sitetitle" title="Serious Eats home" style="top:10px;"><a href="http://www.seriouseats.com">Serious Eats - seriouseats.com</a></h1>
+
+
+
+
+	<div id="navarea">
+		<div id="sociallinks">
+			<span class="label">Follow Serious Eats</span><a href="http://foursquare.com/seriouseats" id="link-foursquare">Foursquare</a><a href="http://twitter.com/seriouseats" id="link-twitter">Twitter</a><a href="http://www.facebook.com/seriouseats" id="link-facebook">Facebook</a>
+		</div>
+		<ul id="mainnav" class="global">
+			<li id="item-sites" class="has-subnav"><a href="#">Our Sites</a><ul id="subnav-sites">
+				<li id="item-SE"><a href="http://www.seriouseats.com">Home</a></li>
+						<li id="item-AHT"><a href="http://aht.seriouseats.com/">Burgers <span class="blogname">(A Hamburger Today)</span></a></li>
+						<li id="item-SL"><a href="http://slice.seriouseats.com/">Pizza <span class="blogname">(Slice)</span></a></li>
+						<li id="item-DR"><a href="http://drinks.seriouseats.com/">Drinks</a></li>
+						<li id="item-SW"><a href="http://sweets.seriouseats.com/">Sweets</a></li>
+					</ul></li>
+			<li id="item-cities" class="has-subnav"><a href="#">Cities</a>
+				<ul id="subnav-cities" >
+							<li id="item-SENY"><a href="http://newyork.seriouseats.com/">New York</a></li>
+							<li id="item-CH"><a href="http://chicago.seriouseats.com/">Chicago</a></li>
+							<li><a href="#"><span class="blogname">More Launching Soon!</span></a></li>
+						</ul>
+				</li>
+			<li id="item-community"class="has-subnav"><a href="#">Community</a>
+				<ul id="subnav-community">
+								<li id="item-TK"><a href="http://www.seriouseats.com/talk/">Talk</a></li>
+								<li id="item-PG"><a href="http://photograzing.seriouseats.com/">Photograzing</a></li>
+							</ul>
+				</li>
+			<li id="item-recipes"><a href="http://www.seriouseats.com/recipes/">Recipes</a></li>
+		</ul>
+		</div>
+
+
+
+<div id="whatshot">
+<div id="whatshot-wrapper">        
+	<h3>What's Hot</h3>
+
+<div id="skybox1" class="featured-item first">      
+ 
+
+	
+	<div id="sponsortext">Brought to you by</div><a href="http://www.seriouseats.com/serious-eats-comprehensive-guide/?ref=skybox1">	<img src="http://www.seriouseats.com/assets_c/2012/01/20120105-sebook-out-now-thumb-236xauto-209981.jpg" alt="The Serious Eats Book Now" /> </a>
+        
+
+</div><!--/#skybox1 -->
+
+
+
+
+
+
+
+	
+		
+		
+	
+		
+		
+	
+<div id="skybox2" class="featured-item">      
+ 
+   
+	<img src="http://www.seriouseats.com/assets_c/2011/09/201109-skybox-taste-tests-pb-236x152-thumb-236xauto-186956.jpg" alt="Taste Tests" /> 
+<div class="description"> 
+	<p><a href="http://www.seriouseats.com/all-taste-tests/?ref=skybox2" class="linksrc">Find out which brands we love</a></p> 
+	<p><a href="http://www.seriouseats.com/all-taste-tests/?ref=skybox2" class="linktitle">Taste Tests</a></p>             
+</div> 
+	
+</div><!--/#skybox2 -->
+
+
+
+
+
+
+
+	
+		
+		
+	
+		
+		
+	
+<div id="skybox3" class="featured-item">      
+ 
+   
+	<img src="http://www.seriouseats.com/assets_c/2011/06/skybox-sandwiches-236x152-thumb-236xauto-167509.jpg" alt="Sandwiches" /> 
+<div class="description"> 
+	<p><a href="http://www.seriouseats.com/a_sandwich_a_day?ref=skybox3" class="linksrc">A Different One Each Day</a></p> 
+	<p><a href="http://www.seriouseats.com/a_sandwich_a_day?ref=skybox3" class="linktitle">Sandwiches</a></p>             
+</div> 
+	
+</div><!--/#skybox3 -->
+
+
+
+
+
+
+
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+<div id="skybox4" class="featured-item last">      
+ 
+   
+	<img src="http://www.seriouseats.com/assets_c/2011/06/skybox-foodlab-236x152-thumb-236xauto-167484.png" alt="The Food Lab" /> 
+<div class="description"> 
+	<p><a href="http://www.seriouseats.com/the-food-lab?ref=skybox4" class="linksrc">Unraveling the Science of Cooking</a></p> 
+	<p><a href="http://www.seriouseats.com/the-food-lab?ref=skybox4" class="linktitle">The Food Lab</a></p>             
+</div> 
+	
+</div><!--/#skybox4 -->
+
+
+
+
+
+
+	<div class="clearfix"></div>
+	</div>
+</div>
+
+</div><!-- close header -->
+	<div id="content" class="homepage">
+<div id="threeColumn1">
+
+                       <div id="home-carousel" class="clearfix">
+                        <div class="scrollable">
+                        <div class="items">
+			
+			<div id="carousel1" class="carousel-full">
+                         <img src="http://newyork.seriouseats.com/assets_c/2012/04/20120408-five-and-diamond-primary-thumb-610xauto-233520.jpg" alt="" />
+                             <div class="carousel-title">
+		             	
+			          <p class="linksrc"><a href="http://newyork.seriouseats.com/" class="serious_eats_new_york_post" rel="nofollow">Serious Eats: New York</a></p>
+			     
+			     <p class="post-title"><a href="http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html?ref=carousel">Harlem: The 5 and Diamond Is a Diamond, With Some Rough</a></p>
+			     </div><!--/.carousel-title-->
+		             <div class="carousel-excerpt">
+					<p class="post-excerpt">Whenever you start talking about an up-and-coming neighborhood&mdash;particularly one that you live in&mdash;you run the risk of over-boosting. Suffice it to say, amongst the new arrivals in the area, there are the good, the bad and the ugly. Even within single establishments, menus can be hit or miss. The 5 and Diamond, a two-year old neighborhood restaurant with high aspirations (Ryan Skeen of Pera, Café Boulud, and Fish Tag helmed the kitchen when it first opened, but no longer has any association with the restaurant), gets many things right, but other things very wrong.</p>
+					<ul class="post-meta hmenu">
+						<li class="first">by <a href="#">J. Kenji López-Alt</a></li>
+						<li>Apr 17, 2012</li>
+						<li><a href="http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html#comments" class="commentCount">post a comment</a></li>
+						<li>
+							<span class="entry-scoring"> 
+								<a href="javascript:void(0)"  onclick="return mtScore(200918)" id="scoring-id-200918" class="scoring">
+									<span id="scoring-vote-200918" class="scoring-vote">Favorite this!</span>
+									<span id="scoring-score-200918" class="scoring-score">0</span> <span id="scoring-score-label-200918" class="scoring-score-label">&nbsp;Favorites</span>
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div><!--/.carousel-excerpt-->
+				<div class="carousel-share">
+					<div class="carousel-share-list">
+						<ul class="hmenu">
+							<li class="first"><a title="Send to Reddit" href="http://reddit.com/submit?url=http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html&title=Harlem: The 5 and Diamond Is a Diamond, With Some Rough">reddit</a></li>
+							<li><a title="Share on Twitter" href="http://twitter.com/?status=Harlem: The 5 and Diamond Is a Diamond, With Some Rough+http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html">twitter</a></li>
+							<li><a title="Send to StumbleUpon" href="http://www.stumbleupon.com/submit?url=http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html&title=Harlem: The 5 and Diamond Is a Diamond, With Some Rough">stumbleupon</a></li>
+							<li><a title="Send to Facebook" href="http://www.facebook.com/share.php?u=http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html">facebook</a></li>
+							<li><a title="Send to del.icio.us" href="http://del.icio.us/post?url=http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html&amp;title=Harlem: The 5 and Diamond Is a Diamond, With Some Rough">del.icio.us</a></li>						
+							<li><a title="Send to digg" href="http://digg.com/submit?phase=2&url=http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html&amp;title=Harlem: The 5 and Diamond Is a Diamond, With Some Rough">digg</a></li>
+						</ul>
+					</div>
+					<a href="#" class="carousel-share-link">Share This!</a>
+				</div><!--/.carousel-share-->
+			</div><!--/#carousel1-->
+			
+			<div id="carousel2" class="carousel-full">
+                         <img src="http://sweets.seriouseats.com/assets_c/2012/04/Sicilian sweets-thumb-610xauto-231682.jpg" alt="" />
+                             <div class="carousel-title">
+		             	
+			          <p class="linksrc"><a href="http://sweets.seriouseats.com/" class="sweets_post" rel="nofollow">Sweets</a></p>
+			     
+			     <p class="post-title"><a href="http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html?ref=carousel">9 Must-Try Sweets In Sicily</a></p>
+			     </div><!--/.carousel-title-->
+		             <div class="carousel-excerpt">
+					<p class="post-excerpt">Don't tell mainland Italians, but the sweets of Sicily might just be the country's best. Thanks to the island's hot-potato past (it's been ruled by Greeks and Romans, Byzantines and Arabs, French and Spanish) and its rich agriculture (hello, almonds and lemons, pistachios and oranges&mdash;not to mention olives and grapes), Sicilian food is among Italy's most varied and interesting cuisine. But when it comes to the sweets, we're <em>really</em> talking.</p>
+					<ul class="post-meta hmenu">
+						<li class="first">by <a href="#">Amanda Ruggeri</a></li>
+						<li>Apr 17, 2012</li>
+						<li><a href="http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html#comments"  class="commentCount">6 comments</a></li>
+						<li>
+							<span class="entry-scoring"> 
+								<a href="javascript:void(0)"  onclick="return mtScore(201021)" id="scoring-id-201021" class="scoring">
+									<span id="scoring-vote-201021" class="scoring-vote">Favorite this!</span>
+									<span id="scoring-score-201021" class="scoring-score">3</span> <span id="scoring-score-label-201021" class="scoring-score-label">&nbsp;Favorites</span>
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div><!--/.carousel-excerpt-->
+				<div class="carousel-share">
+					<div class="carousel-share-list">
+						<ul class="hmenu">
+							<li class="first"><a title="Send to Reddit" href="http://reddit.com/submit?url=http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html&title=9 Must-Try Sweets In Sicily">reddit</a></li>
+							<li><a title="Share on Twitter" href="http://twitter.com/?status=9 Must-Try Sweets In Sicily+http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html">twitter</a></li>
+							<li><a title="Send to StumbleUpon" href="http://www.stumbleupon.com/submit?url=http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html&title=9 Must-Try Sweets In Sicily">stumbleupon</a></li>
+							<li><a title="Send to Facebook" href="http://www.facebook.com/share.php?u=http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html">facebook</a></li>
+							<li><a title="Send to del.icio.us" href="http://del.icio.us/post?url=http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html&amp;title=9 Must-Try Sweets In Sicily">del.icio.us</a></li>						
+							<li><a title="Send to digg" href="http://digg.com/submit?phase=2&url=http://sweets.seriouseats.com/2012/04/9-must-try-sweets-sicily-italy.html&amp;title=9 Must-Try Sweets In Sicily">digg</a></li>
+						</ul>
+					</div>
+					<a href="#" class="carousel-share-link">Share This!</a>
+				</div><!--/.carousel-share-->
+			</div><!--/#carousel2-->
+			
+			<div id="carousel3" class="carousel-full">
+                         <img src="http://slice.seriouseats.com/assets_c/2012/04/20120415-fried-pizza-11-thumb-610xauto-233572.jpg" alt="" />
+                             <div class="carousel-title">
+		             	
+			          <p class="linksrc"><a href="http://slice.seriouseats.com/" class="slice_post" rel="nofollow">Slice</a></p>
+			     
+			     <p class="post-title"><a href="http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html?ref=carousel">The Pizza Lab: How To Make Fried Pizza At Home (à la Forcella)</a></p>
+			     </div><!--/.carousel-title-->
+		             <div class="carousel-excerpt">
+					<p class="post-excerpt">Neapolitan style pizza with one key difference. Before going in the oven, the stretched-out disk of dough is deep fried until crisp. I figured it was worth a deeper look. I'm glad I did, because I can tell you that these were some of the finest pies to ever come out of my home kitchen, and believe it or not, it's remarkably simple to do.</p>
+					<ul class="post-meta hmenu">
+						<li class="first">by <a href="#">J. Kenji López-Alt</a></li>
+						<li>Apr 17, 2012</li>
+						<li><a href="http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html#comments"  class="commentCount">12 comments</a></li>
+						<li>
+							<span class="entry-scoring"> 
+								<a href="javascript:void(0)"  onclick="return mtScore(201883)" id="scoring-id-201883" class="scoring">
+									<span id="scoring-vote-201883" class="scoring-vote">Favorite this!</span>
+									<span id="scoring-score-201883" class="scoring-score">5</span> <span id="scoring-score-label-201883" class="scoring-score-label">&nbsp;Favorites</span>
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div><!--/.carousel-excerpt-->
+				<div class="carousel-share">
+					<div class="carousel-share-list">
+						<ul class="hmenu">
+							<li class="first"><a title="Send to Reddit" href="http://reddit.com/submit?url=http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html&title=The Pizza Lab: How To Make Fried Pizza At Home (à la Forcella)">reddit</a></li>
+							<li><a title="Share on Twitter" href="http://twitter.com/?status=The Pizza Lab: How To Make Fried Pizza At Home (à la Forcella)+http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html">twitter</a></li>
+							<li><a title="Send to StumbleUpon" href="http://www.stumbleupon.com/submit?url=http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html&title=The Pizza Lab: How To Make Fried Pizza At Home (à la Forcella)">stumbleupon</a></li>
+							<li><a title="Send to Facebook" href="http://www.facebook.com/share.php?u=http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html">facebook</a></li>
+							<li><a title="Send to del.icio.us" href="http://del.icio.us/post?url=http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html&amp;title=The Pizza Lab: How To Make Fried Pizza At Home (à la Forcella)">del.icio.us</a></li>						
+							<li><a title="Send to digg" href="http://digg.com/submit?phase=2&url=http://slice.seriouseats.com/archives/2012/04/the-pizza-lab-how-to-make-fried-pizza-at-home.html&amp;title=The Pizza Lab: How To Make Fried Pizza At Home (à la Forcella)">digg</a></li>
+						</ul>
+					</div>
+					<a href="#" class="carousel-share-link">Share This!</a>
+				</div><!--/.carousel-share-->
+			</div><!--/#carousel3-->
+			
+			
+			<div id="carousel4" class="carousel-full">
+                         <img src="http://www.seriouseats.com/assets_c/2012/04/20120416-iceland-intro8-thumb-610xauto-233290.jpg" alt="" />
+                             <div class="carousel-title">
+		             
+			     <p class="post-title"><a href="http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html?ref=carousel">An Intro to Icelandic Food</a></p>
+			     </div><!--/.carousel-title-->
+		             <div class="carousel-excerpt">
+					<p class="post-excerpt">"What exactly is Icelandic food?" was the most popular question I was asked after returning from a week in Iceland. (Second place goes to: "Did everyone look like Björk?") To answer the first, the basic diet hasn't changed too much from the Viking Age, though of course chefs have become more imaginative with preparations over the years. The mainstays include: lamb, skyr, potatoes, fish, and other seafood. <em>A lot</em> of seafood. Here's a primer for anyone visiting Iceland or wondering, what <em>do</em> they eat up there?</p>
+					<ul class="post-meta hmenu">
+						<li class="first">by <a href="#">Erin Zimmer</a></li>
+						<li>Apr 16, 2012</li>
+						<li><a href="http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html#comments"  class="commentCount">23 comments</a></li>
+						<li>
+							<span class="entry-scoring"> 
+								<a href="javascript:void(0)"  onclick="return mtScore(201724)" id="scoring-id-201724" class="scoring">
+									<span id="scoring-vote-201724" class="scoring-vote">Favorite this!</span>
+									<span id="scoring-score-201724" class="scoring-score">4</span> <span id="scoring-score-label-201724" class="scoring-score-label">&nbsp;Favorites</span>
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div><!--/.carousel-excerpt-->
+				<div class="carousel-share">
+					<div class="carousel-share-list">
+						<ul class="hmenu">
+							<li class="first"><a title="Send to Reddit" href="http://reddit.com/submit?url=http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html&title=An Intro to Icelandic Food">reddit</a></li>
+							<li><a title="Share on Twitter" href="http://twitter.com/?status=An Intro to Icelandic Food+http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html">twitter</a></li>
+							<li><a title="Send to StumbleUpon" href="http://www.stumbleupon.com/submit?url=http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html&title=An Intro to Icelandic Food">stumbleupon</a></li>
+							<li><a title="Send to Facebook" href="http://www.facebook.com/share.php?u=http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html">facebook</a></li>
+							<li><a title="Send to del.icio.us" href="http://del.icio.us/post?url=http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html&amp;title=An Intro to Icelandic Food">del.icio.us</a></li>						
+							<li><a title="Send to digg" href="http://digg.com/submit?phase=2&url=http://www.seriouseats.com/2012/04/guide-to-food-iceland-fish-whale-skyr-hot-dogs.html&amp;title=An Intro to Icelandic Food">digg</a></li>
+						</ul>
+					</div>
+					<a href="#" class="carousel-share-link">Share This!</a>
+				</div><!--/.carousel-share-->
+			</div><!--/#carousel4-->
+			
+			
+			<div id="carousel5" class="carousel-full">
+                         <img src="http://www.seriouseats.com/assets_c/2012/04/20120411-grilled-cheese-variations-primary-thumb-610xauto-232546.jpg" alt="" />
+                             <div class="carousel-title">
+		             
+			     <p class="post-title"><a href="http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html?ref=carousel"> 21+ Ways to Upgrade Your Grilled Cheese</a></p>
+			     </div><!--/.carousel-title-->
+		             <div class="carousel-excerpt">
+					<p class="post-excerpt">Today is National Grilled Cheese day, we're told, so we decided to celebrate one of our favorite sandwiches in all its glory by giving you not 5, not 10, but a full 21+ ways to upgrade your basic grilled cheese. Including the Grilled Muffaleeze, the Faux Cuban Grilled Cheese, and more grilled cheese insanity. </p>
+					<ul class="post-meta hmenu">
+						<li class="first">by <a href="#">J. Kenji López-Alt</a></li>
+						<li>Apr 12, 2012</li>
+						<li><a href="http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html#comments"  class="commentCount">55 comments</a></li>
+						<li>
+							<span class="entry-scoring"> 
+								<a href="javascript:void(0)"  onclick="return mtScore(201205)" id="scoring-id-201205" class="scoring">
+									<span id="scoring-vote-201205" class="scoring-vote">Favorite this!</span>
+									<span id="scoring-score-201205" class="scoring-score">32</span> <span id="scoring-score-label-201205" class="scoring-score-label">&nbsp;Favorites</span>
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div><!--/.carousel-excerpt-->
+				<div class="carousel-share">
+					<div class="carousel-share-list">
+						<ul class="hmenu">
+							<li class="first"><a title="Send to Reddit" href="http://reddit.com/submit?url=http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html&title= 21+ Ways to Upgrade Your Grilled Cheese">reddit</a></li>
+							<li><a title="Share on Twitter" href="http://twitter.com/?status= 21+ Ways to Upgrade Your Grilled Cheese+http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html">twitter</a></li>
+							<li><a title="Send to StumbleUpon" href="http://www.stumbleupon.com/submit?url=http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html&title= 21+ Ways to Upgrade Your Grilled Cheese">stumbleupon</a></li>
+							<li><a title="Send to Facebook" href="http://www.facebook.com/share.php?u=http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html">facebook</a></li>
+							<li><a title="Send to del.icio.us" href="http://del.icio.us/post?url=http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html&amp;title= 21+ Ways to Upgrade Your Grilled Cheese">del.icio.us</a></li>						
+							<li><a title="Send to digg" href="http://digg.com/submit?phase=2&url=http://www.seriouseats.com/2012/04/how-to-upgrade-grilled-cheese-sandwiches-recipes-additions.html&amp;title= 21+ Ways to Upgrade Your Grilled Cheese">digg</a></li>
+						</ul>
+					</div>
+					<a href="#" class="carousel-share-link">Share This!</a>
+				</div><!--/.carousel-share-->
+			</div><!--/#carousel5-->
+			
+                        </div><!--/#items-->
+                        </div><!--/#scrollable-->
+			<ul id="carousel-thumbs" class="fmenu">
+			
+			      <li class="active"><a href="#carousel1">
+			      <img src="http://newyork.seriouseats.com/assets_c/2012/04/20120408-five-and-diamond-primary-thumb-autox90-233520.jpg" alt="Carousel Image One" /></a>
+			      </li>
+			
+			      <li><a href="#carousel2">
+			      <img src="http://sweets.seriouseats.com/assets_c/2012/04/Sicilian sweets-thumb-autox90-231682.jpg" alt="Carousel Image One" /></a>
+			      </li>
+			
+			      <li><a href="#carousel3">
+			      <img src="http://slice.seriouseats.com/assets_c/2012/04/20120415-fried-pizza-11-thumb-autox90-233572.jpg" alt="Carousel Image One" /></a>
+			      </li>
+			
+			
+			      <li><a href="#carousel4">
+			      <img src="http://www.seriouseats.com/assets_c/2012/04/20120416-iceland-intro8-thumb-autox90-233290.jpg" alt="Carousel Image Four" /></a>
+			      </li>
+			
+			
+			      <li><a href="#carousel5">
+			      <img src="http://www.seriouseats.com/assets_c/2012/04/20120411-grilled-cheese-variations-primary-thumb-autox90-232546.jpg" alt="Carousel Image Five" /></a>
+			      </li>
+			
+			</ul>
+			</div><!--/#home-carousel-->
+
+			<div id="recent-header" class="clearfix">
+				<h2>Recent Posts</h2>
+				<!-- filtering to implemented at a later date 
+				<ul class="hmenu">
+					<li class="first"><a href="#" class="current">All</a></li>
+					<li><a href="#">Serious Food</a></li>
+					<li><a href="#">Eating In</a></li>
+					<li><a href="#">Eating Out</a></li>
+					<li><a href="#">Recipes</a></li>
+					<li><a href="#">Talk</a></li>
+				</ul>
+				-->
+			</div>
+					
+
+<!-- Standard Posts 1,2 -->		
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html">
+		
+			<img src="http://newyork.seriouseats.com/assets_c/2012/04/20120408-five-and-diamond-primary-thumb-autox140-233520.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://newyork.seriouseats.com/" class="serious_eats_new_york_post" rel="nofollow">From Serious Eats: New York</a></p>
+	
+            
+               
+            
+               
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+               
+            
+               
+            
+	<h3><a href="http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html" title="Click here to read Harlem: The 5 and Diamond Is a Diamond, With Some Rough">Harlem: The 5 and Diamond Is a Diamond, With Some Rough</a></h3>
+
+
+
+
+
+<p>Whenever you start talking about an up-and-coming neighborhood&mdash;particularly one that you live in&mdash;you run the risk of over-boosting. Suffice it to say, amongst the new arrivals in the area, there are the good, the bad and the ugly. Even within single establishments, menus can be hit or miss. The 5 and Diamond, a two-year old neighborhood restaurant with high aspirations (Ryan Skeen of Pera, Café Boulud, and Fish Tag helmed the kitchen when it first opened, but no longer has any association with the restaurant), gets many things right, but other things very wrong. <a href="http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html" title="Continue reading Harlem: The 5 and Diamond Is a Diamond, With Some Rough">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/GoodEaterKenji">by J. Kenji López-Alt</a></li>
+		<li><a href="http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html">Apr 17, 2012</a></li>
+		<li><a href="http://newyork.seriouseats.com/2012/04/the-5-and-diamond-harlem-restaurant-review-salmon-burger.html#comments" class="commentCount">post a comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(200918)" id="scoring-id-200918" class="scoring">
+			        <span id="scoring-vote-200918" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-200918" class="scoring-score">0</span> <span id="scoring-score-label-200918" class="scoring-score-label">&nbsp;Favorites</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/how-do-you-pay-the-bill-at-restaurants.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/202044-check-bill-split-primary-thumb-autox140-233428.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/how-do-you-pay-the-bill-at-restaurants.html" title="Click here to read How Do You Pay the Bill at Restaurants?">How Do You Pay the Bill at Restaurants?</a></h3>
+
+
+
+
+
+<p>I'm partial to <a href="http://www.theawl.com/2011/03/how-to-split-a-check-at-a-restaurant">this take on The Awl</a>, which is a pretty simple guide: if you're over 25, <strong>split the damn thing evenly and stop complaining</strong>. And that's how I tend to go most of the time. Or I'll take an even more passive approach and abdicate any claim to figuring out the bill, with the promise of paying whatever I'm told. <a href="http://www.seriouseats.com/2012/04/how-do-you-pay-the-bill-at-restaurants.html" title="Continue reading How Do You Pay the Bill at Restaurants?">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/MFalk">by Max Falkowitz</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/how-do-you-pay-the-bill-at-restaurants.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/how-do-you-pay-the-bill-at-restaurants.html#comments"  class="commentCount">41 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(202044)" id="scoring-id-202044" class="scoring">
+			        <span id="scoring-vote-202044" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-202044" class="scoring-score">1</span> <span id="scoring-score-label-202044" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+	
+
+<!-- Talk Post 1 -->	
+
+	
+		<div class="indexTalkPost">
+						<h4 class="talkStar">Talk!</h4>
+						<h3><a href="http://www.seriouseats.com/talk/2012/04/judging-a-restaurant-by-its.html">Judging a restaurant by its....?</a></h3>
+						<p class="postFooter"><a href="http://www.seriouseats.com/talk/2012/04/judging-a-restaurant-by-its.html#comments"  class="commentCount">44 Comments</a>  
+						
+			
+						  | Posted by <a href="http://www.seriouseats.com/user/profile/vinnick">Mr. Nick</a>, April 14, 2012 at  7:04 PM</p>
+						
+					</div><!-- close indexTalkPost -->
+	
+
+
+<!-- Standard Posts 3,4,5 -->		
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/win-vip-tickets-to-the-sweetlife-festival-on.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/20120417-ramen-sweetlife-thumb-autox140-233772.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/win-vip-tickets-to-the-sweetlife-festival-on.html" title="Click here to read Win VIP Tickets to the Sweetlife Festival on April 28">Win VIP Tickets to the Sweetlife Festival on April 28</a></h3>
+
+
+
+
+
+<p>We've been telling you all about the food vendors at the <strong><a href="http://www.ticketfly.com/event/104377">Sweetlife Food + Music Festival</a></strong> on April 28 at Merriweather Post Pavilion in Columbia, MD. And that includes us! We'll be there too, making the Serious Eats muffuletta while jamming to all the bands playing. Today we have a pair of VIP tickets (that are otherwise sold-out!) to give away to a lucky serious eater here. Just listen to what VIPers get to eat..  <a href="http://www.seriouseats.com/2012/04/win-vip-tickets-to-the-sweetlife-festival-on.html" title="Continue reading Win VIP Tickets to the Sweetlife Festival on April 28">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/The Serious Eats Team">by The Serious Eats Team</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/win-vip-tickets-to-the-sweetlife-festival-on.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/win-vip-tickets-to-the-sweetlife-festival-on.html#comments"  class="commentCount">73 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(202239)" id="scoring-id-202239" class="scoring">
+			        <span id="scoring-vote-202239" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-202239" class="scoring-score">0</span> <span id="scoring-score-label-202239" class="scoring-score-label">&nbsp;Favorites</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/the-nasty-bits-tongue-tacos.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/20120409-tacos-tongue-nasty-bits-thumb-autox140-231599.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/the-nasty-bits-tongue-tacos.html" title="Click here to read The Nasty Bits: Tongue Tacos">The Nasty Bits: Tongue Tacos</a></h3>
+
+
+<div class="recipe-alert recipe-alert-sm">
+            
+<a class="arrow" href="http://www.seriouseats.com/recipes/2012/04/tacos-de-lengua-recipe.html">Get the Recipe!</a>
+
+        </div>
+    
+
+
+
+
+<p>At home, you have the freedom to use pork or lamb's tongue in lieu of the more classic beef or veal tongue. You cut up the tongue, put down a pat of oil or lard in your pan, and stand over the skillet until the tongue is ready to be moved onto the tortilla, and not one second before. Simple as that. <a href="http://www.seriouseats.com/2012/04/the-nasty-bits-tongue-tacos.html" title="Continue reading The Nasty Bits: Tongue Tacos">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/Chichi Wang">by Chichi Wang</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/the-nasty-bits-tongue-tacos.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/the-nasty-bits-tongue-tacos.html#comments"  class="commentCount">2 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(200961)" id="scoring-id-200961" class="scoring">
+			        <span id="scoring-vote-200961" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-200961" class="scoring-score">1</span> <span id="scoring-score-label-200961" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://sweets.seriouseats.com/2012/04/video-maria-del-mar-sacasa-making-of-a-sacher-torte.html">
+		
+			<img src="http://sweets.seriouseats.com/assets_c/2012/04/-thumb-autox140-233751.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://sweets.seriouseats.com/" class="sweets_post" rel="nofollow">From Sweets</a></p>
+	
+            
+               
+            
+               
+            
+	<h3><a href="http://sweets.seriouseats.com/2012/04/video-maria-del-mar-sacasa-making-of-a-sacher-torte.html" title="Click here to read Video: Making of a Sacher Torte">Video: Making of a Sacher Torte</a></h3>
+
+
+
+
+
+<p>Here at SE we've been known to mindlessly scarf down a hamburger or two, but that doesn't mean that we don't think that food can be a form of art. One look at the beautiful work of our own cake and sandwich recipe developer-food stylist <a href="http://www.seriouseats.com/user/profile/HighHeels&Frijoles">Maria Del Mar Sacasa</a> is all you need to know what we're talking about. Check out this video of the making of a Sacher Torte&mdash; it's as beautifully orchestrated as a ballet, but much more delicious.  <a href="http://sweets.seriouseats.com/2012/04/video-maria-del-mar-sacasa-making-of-a-sacher-torte.html" title="Continue reading Video: Making of a Sacher Torte">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/cvasios">by Carrie Vasios</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/video-maria-del-mar-sacasa-making-of-a-sacher-torte.html">Apr 17, 2012</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/video-maria-del-mar-sacasa-making-of-a-sacher-torte.html#comments"  class="commentCount">3 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(202218)" id="scoring-id-202218" class="scoring">
+			        <span id="scoring-vote-202218" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-202218" class="scoring-score">1</span> <span id="scoring-score-label-202218" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+
+<!-- Photograzing Posts 1,2 -->		
+
+<div class="PGPost post">
+
+<p class="linksrc"><a href="http://www.photograzing.com/" rel="nofollow">From Photograzing</a></p>
+
+<p class="caption">The latest photos from <a href="http://www.photograzing.com">Photograzing</a>, our photo sharing site. <a href="http://photograzing.seriouseats.com/upload">Add yours</a> today!</p>
+
+
+	
+             <div class="photograzingPost">
+		<div class="dropshadow2">
+			<div class="photoContainer">
+				<div class="tape"><!-- --></div>
+					<a href="http://www.orwhateveryoudo.com/2012/04/cherry-berry-on-a-cloud.html" target="_blank"><img src="http://photograzing.seriouseats.com/assets_c/2012/04/cherryberrysquare-thumb-245x245-232318.jpg" width="245" height="245" alt="Cherry Berry on a Cloud" /></a>
+
+			<p class="linkSource">source: <a href="http://www.orwhateveryoudo.com/2012/04/cherry-berry-on-a-cloud.html" target="_blank">http://www.orwhateveryoudo.com/2012/04/cherry-berry-on-a-cloud.html</a></p>
+
+				<h3><a href="http://photograzing.seriouseats.com/2012/04/cherry-berry-on-a-cloud.html" title="Click here to read Cherry Berry on a Cloud">Cherry Berry on a Cloud</a></h3>
+
+				<p class="byline">Posted by <a href="http://www.seriouseats.com/user/profile/orwhateveryoudo">Nicole J</a></p>
+
+				<p class="postFooter">
+							<a href="http://photograzing.seriouseats.com/2012/04/cherry-berry-on-a-cloud.html#comments" class="commentCount" rel="nofollow">Post a Comment</a>
+										
+						</p><!-- close postfooter -->
+
+				<div style="clear: left;"><!-- --></div>
+			</div><!--/.photoContainer-->
+		</div><!--/.dropshadow-->
+             </div><!--/.photograzingPost-->
+	
+             <div class="photograzingPost">
+		<div class="dropshadow2">
+			<div class="photoContainer">
+				<div class="tape"><!-- --></div>
+					<a href="http://whatsheshaving.com/2012/04/11/chocolate-marzipan-cake/" target="_blank"><img src="http://photograzing.seriouseats.com/assets_c/2012/04/5_x_5-thumb-245x245-232331.jpg" width="245" height="245" alt="Chocolate Marzipan Cake" /></a>
+
+			<p class="linkSource">source: <a href="http://whatsheshaving.com/2012/04/11/chocolate-marzipan-cake/" target="_blank">http://whatsheshaving.com/2012/04/11/chocolate-marzipan-cake/</a></p>
+
+				<h3><a href="http://photograzing.seriouseats.com/2012/04/chocolate-marzipan-cake.html" title="Click here to read Chocolate Marzipan Cake">Chocolate Marzipan Cake</a></h3>
+
+				<p class="byline">Posted by <a href="http://www.seriouseats.com/user/profile/whatsheshaving">What She's Having</a></p>
+
+				<p class="postFooter">
+							<a href="http://photograzing.seriouseats.com/2012/04/chocolate-marzipan-cake.html#comments" class="commentCount" rel="nofollow">Post a Comment</a>
+										
+						</p><!-- close postfooter -->
+
+				<div style="clear: left;"><!-- --></div>
+			</div><!--/.photoContainer-->
+		</div><!--/.dropshadow-->
+             </div><!--/.photograzingPost-->
+	
+
+
+<div class="clearer"></div>
+</div><!-- close PG -->
+
+<!-- Talk Post 2 -->	
+
+	
+		<div class="indexTalkPost">
+						<h4 class="talkStar">Talk!</h4>
+						<h3><a href="http://www.seriouseats.com/talk/2012/04/feelin-super-classy.html">Feelin' SUPER classy...</a></h3>
+						<p class="postFooter"><a href="http://www.seriouseats.com/talk/2012/04/feelin-super-classy.html#comments"  class="commentCount">20 Comments</a>  
+						
+			
+						  | Posted by <a href="http://www.seriouseats.com/user/profile/BitchinFixins">BitchinFixins</a>, April 14, 2012 at  2:10 PM</p>
+						
+					</div><!-- close indexTalkPost -->
+	
+
+
+<!-- Standard Posts 6,7 -->	
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/dinner-tonight-flank-steak-on-texas-toast-wit.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/20120416-flank-steak-food52-thumb-autox140-233445.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/dinner-tonight-flank-steak-on-texas-toast-wit.html" title="Click here to read Dinner Tonight: Flank Steak on Texas Toast with Chimichurri (via Food52)">Dinner Tonight: Flank Steak on Texas Toast with Chimichurri (via Food52)</a></h3>
+
+
+
+
+
+<p>This is a serious sandwich that'll take you to summer a bit early. Flank steak gets marinated in an herb and garlic-based Argentinean-style chimichurri flavored with arugula, which serves double duty as a spread for the grilled Texas toast later on. Thick slices of tomato complete this simple but imposing sandwich. Make sure to set aside some chimichurri from the start to mix with your mayo for the sandwich. <a href="http://www.seriouseats.com/2012/04/dinner-tonight-flank-steak-on-texas-toast-wit.html" title="Continue reading Dinner Tonight: Flank Steak on Texas Toast with Chimichurri (via Food52)">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/GoodEaterKenji">by J. Kenji López-Alt</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/dinner-tonight-flank-steak-on-texas-toast-wit.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/dinner-tonight-flank-steak-on-texas-toast-wit.html#comments"  class="commentCount">1 comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(202054)" id="scoring-id-202054" class="scoring">
+			        <span id="scoring-vote-202054" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-202054" class="scoring-score">3</span> <span id="scoring-score-label-202054" class="scoring-score-label">&nbsp;Favorites</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://drinks.seriouseats.com/2012/04/beer-event-recap-saison-festival-trinity-brewing-colorado.html">
+		
+			<img src="http://drinks.seriouseats.com/assets_c/2012/04/20120415saisonprimary-thumb-autox140-233655.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://drinks.seriouseats.com/" class="drinks_post" rel="nofollow">From Drinks</a></p>
+	
+            
+               
+            
+               
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+	<h3><a href="http://drinks.seriouseats.com/2012/04/beer-event-recap-saison-festival-trinity-brewing-colorado.html" title="Click here to read Top Sips from the 4th Annual Saison Festival at TRiNiTY Brewing, Colorado">Top Sips from the 4th Annual Saison Festival at TRiNiTY Brewing, Colorado</a></h3>
+
+
+
+
+
+<p>On April 14, <a href="http://www.trinitybrew.com/" target="_blank">TRiNiTY Brewing Company</a> held their 4th Annual Saison and Farmhouse Ale Festival at their newly remodeled brewery in in Colorado Springs. One of the most highly specialized beer festivals in the state, Saison Fest draws a large and diverse crowd to enjoy close to 30 different variations on the classic beer style, offered by 16 different breweries.  <a href="http://drinks.seriouseats.com/2012/04/beer-event-recap-saison-festival-trinity-brewing-colorado.html" title="Continue reading Top Sips from the 4th Annual Saison Festival at TRiNiTY Brewing, Colorado">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/Beertographer">by Sean M. Buchan</a></li>
+		<li><a href="http://drinks.seriouseats.com/2012/04/beer-event-recap-saison-festival-trinity-brewing-colorado.html">Apr 17, 2012</a></li>
+		<li><a href="http://drinks.seriouseats.com/2012/04/beer-event-recap-saison-festival-trinity-brewing-colorado.html#comments" class="commentCount">post a comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(201849)" id="scoring-id-201849" class="scoring">
+			        <span id="scoring-vote-201849" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-201849" class="scoring-score">1</span> <span id="scoring-score-label-201849" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+
+<!-- Talk Post 3 -->	
+
+	
+		<div class="indexTalkPost">
+						<h4 class="talkStar">Talk!</h4>
+						<h3><a href="http://www.seriouseats.com/talk/2012/04/do-i-need-pickle-rehab.html">Do I need pickle rehab?</a></h3>
+						<p class="postFooter"><a href="http://www.seriouseats.com/talk/2012/04/do-i-need-pickle-rehab.html#comments"  class="commentCount">23 Comments</a>  
+						
+			
+						  | Posted by <a href="http://www.seriouseats.com/user/profile/sobriquet">sobriquet</a>, April 12, 2012 at  7:24 PM</p>
+						
+					</div><!-- close indexTalkPost -->
+	
+
+
+<!-- Standard Posts 8,9,10 -->		
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/zakary-pelaccios-asparagus-kerabu.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/20120417-202135-asparagus-kerabu-thumb-autox140-233577.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/zakary-pelaccios-asparagus-kerabu.html" title="Click here to read Zak Pelaccio's Asparagus Kerabu">Zak Pelaccio's Asparagus Kerabu</a></h3>
+
+
+<div class="recipe-alert recipe-alert-sm">
+            
+<a class="arrow" href="http://www.seriouseats.com/recipes/2012/04/zakary-pelaccios-asparagus-kerabu-salad-recipe.html">Get the Recipe!</a>
+
+        </div>
+    
+
+
+
+
+<p>Spring is here and with it comes many stalks of wonderfully green asparagus, and while we love them simply steamed, drowned with hollandaise, or topped off with a wobbly poached egg, we're thinking this <strong>Asparagus Kerabu</strong> from <a href="http://fattycrew.com/the-crew/zak-pelaccio/">Zak Pelaccio</a>'s <em><strong><a href="http://www.amazon.com/Eat-Your-Hands-Zak-Pelaccio/dp/0061554200/?tag=serieats-20">Eat with Your Hands</a></strong></em> might just be our new asparagus go-to for the season. <a href="http://www.seriouseats.com/2012/04/zakary-pelaccios-asparagus-kerabu.html" title="Continue reading Zak Pelaccio's Asparagus Kerabu">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/Caroline Russock">by Caroline Russock</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/zakary-pelaccios-asparagus-kerabu.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/zakary-pelaccios-asparagus-kerabu.html#comments" class="commentCount">post a comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(202139)" id="scoring-id-202139" class="scoring">
+			        <span id="scoring-vote-202139" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-202139" class="scoring-score">0</span> <span id="scoring-score-label-202139" class="scoring-score-label">&nbsp;Favorites</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/gluten-free-how-to-make-a-no-roll-tart-gluten-free-crust.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/20120417-201698-GFTuesTart-Main-thumb-autox140-232864.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/gluten-free-how-to-make-a-no-roll-tart-gluten-free-crust.html" title="Click here to read How to Make a No-Roll, Gluten-Free Tart Crust">How to Make a No-Roll, Gluten-Free Tart Crust</a></h3>
+
+
+<div class="recipe-alert recipe-alert-sm">
+            
+<a class="arrow" href="http://www.seriouseats.com/recipes/2012/04/gluten-free-roasted-asparagus-tart.html">Get the Recipe!</a>
+
+        </div>
+    
+
+
+
+
+<p>As soon as spring arrives, I start thinking about tarts. Berry tarts, asparagus tarts&mdash;I love them all. It's time to revisit the technique for crusts so you're ready to make a tart whenever the mood hits you.  <a href="http://www.seriouseats.com/2012/04/gluten-free-how-to-make-a-no-roll-tart-gluten-free-crust.html" title="Continue reading How to Make a No-Roll, Gluten-Free Tart Crust">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/elizabeth.barbone">by Elizabeth Barbone</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/gluten-free-how-to-make-a-no-roll-tart-gluten-free-crust.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/gluten-free-how-to-make-a-no-roll-tart-gluten-free-crust.html#comments" class="commentCount">post a comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(201698)" id="scoring-id-201698" class="scoring">
+			        <span id="scoring-vote-201698" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-201698" class="scoring-score">1</span> <span id="scoring-score-label-201698" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://sweets.seriouseats.com/2012/04/let-them-eat-granola-peanut-butter-snack-cake.html">
+		
+			<img src="http://sweets.seriouseats.com/assets_c/2012/04/20120417-127677-LTE-Peanut-Butter-Granola-Cake-PRIMARY-thumb-autox140-233328.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://sweets.seriouseats.com/" class="sweets_post" rel="nofollow">From Sweets</a></p>
+	
+            
+               
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+	<h3><a href="http://sweets.seriouseats.com/2012/04/let-them-eat-granola-peanut-butter-snack-cake.html" title="Click here to read Let Them Eat: Peanut Butter Granola Snack Cake">Let Them Eat: Peanut Butter Granola Snack Cake</a></h3>
+
+
+<div class="recipe-alert recipe-alert-sm">
+            
+<a class="arrow" href="http://www.seriouseats.com/recipes/2012/04/peanut-butter-granola-snack-cake-recipe.html">Get the Recipe!</a>
+
+        </div>
+    
+
+
+
+
+<p>Satisfying and dense, this cake is crowned with a granola-based topping that melts and increases in crunchiness as it bakes, turning into a cookie-like shell. Peanut butter, cake, cookie&mdash;get all your cravings satisfied in a single bite. <a href="http://sweets.seriouseats.com/2012/04/let-them-eat-granola-peanut-butter-snack-cake.html" title="Continue reading Let Them Eat: Peanut Butter Granola Snack Cake">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/HighHeels&Frijoles">by Maria del Mar Sacasa</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/let-them-eat-granola-peanut-butter-snack-cake.html">Apr 17, 2012</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/let-them-eat-granola-peanut-butter-snack-cake.html#comments" class="commentCount">post a comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(201916)" id="scoring-id-201916" class="scoring">
+			        <span id="scoring-vote-201916" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-201916" class="scoring-score">1</span> <span id="scoring-score-label-201916" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+
+<!-- Talk Post 4 -->	
+
+	
+		<div class="indexTalkPost">
+						<h4 class="talkStar">Talk!</h4>
+						<h3><a href="http://www.seriouseats.com/talk/2012/04/celebrity-ridersif-you-were-one-what-foods-would-top-yo.html">Celebrity Riders...If you were one, what foods would top yours?</a></h3>
+						<p class="postFooter"><a href="http://www.seriouseats.com/talk/2012/04/celebrity-ridersif-you-were-one-what-foods-would-top-yo.html#comments"  class="commentCount">14 Comments</a>  
+						
+			
+						  | Posted by <a href="http://www.seriouseats.com/user/profile/jlewfoodie">jlewfoodie</a>, April 12, 2012 at 12:17 PM</p>
+						
+					</div><!-- close indexTalkPost -->
+	
+
+
+<!-- Standard Posts 11,12,13 -->		
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://drinks.seriouseats.com/2012/04/first-look-all-the-gin-drinks-at-scofflaw-in-chicago-new-cocktail-bar-logan-square-chicago.html">
+		
+			<img src="http://drinks.seriouseats.com/assets_c/2012/04/20120415-201935-scofflaw-martini-610p-thumb-autox140-233240.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://drinks.seriouseats.com/" class="drinks_post" rel="nofollow">From Drinks</a></p>
+	
+            
+               
+            
+               
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+               
+            
+	<h3><a href="http://drinks.seriouseats.com/2012/04/first-look-all-the-gin-drinks-at-scofflaw-in-chicago-new-cocktail-bar-logan-square-chicago.html" title="Click here to read First Look: All the Gin Drinks at Scofflaw in Chicago">First Look: All the Gin Drinks at Scofflaw in Chicago</a></h3>
+
+
+
+
+
+<p>An impressive collection of gins, easily surpassing 40 bottles, decorates Scofflaw's richly painted antique bar. Practically every variety of gin is represented, from London drys, Old Toms, and Dutch genevers, to the loosely defined but growing category of American gins. "Our bar program's inspiration comes from our love of gin," Shapiro says, "and the resurgence is a telling sign that the time is right."  <a href="http://drinks.seriouseats.com/2012/04/first-look-all-the-gin-drinks-at-scofflaw-in-chicago-new-cocktail-bar-logan-square-chicago.html" title="Continue reading First Look: All the Gin Drinks at Scofflaw in Chicago">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/rkamholz">by Roger Kamholz</a></li>
+		<li><a href="http://drinks.seriouseats.com/2012/04/first-look-all-the-gin-drinks-at-scofflaw-in-chicago-new-cocktail-bar-logan-square-chicago.html">Apr 17, 2012</a></li>
+		<li><a href="http://drinks.seriouseats.com/2012/04/first-look-all-the-gin-drinks-at-scofflaw-in-chicago-new-cocktail-bar-logan-square-chicago.html#comments" class="commentCount">post a comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(201935)" id="scoring-id-201935" class="scoring">
+			        <span id="scoring-vote-201935" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-201935" class="scoring-score">4</span> <span id="scoring-score-label-201935" class="scoring-score-label">&nbsp;Favorites</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/elements-princeton-restaurant-nj-jersey-tasting-menu-scott-anderson.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/20120411-elements11-thumb-autox140-232388.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/elements-princeton-restaurant-nj-jersey-tasting-menu-scott-anderson.html" title="Click here to read A Look at the Tasting Menu at Elements in Princeton, NJ">A Look at the Tasting Menu at Elements in Princeton, NJ</a></h3>
+
+
+
+
+
+<p>Before Elements opened in October 2008&mdash;in a former auto body shop&mdash;there wasn't much in the way of fine dining in Princeton. Quite a few Serious Eats editors and writers have spent time in Princeton but never seem to mention much beyond the Wawa hoagies. But the daily-rotating menu at Elements is an ambitious one, with nuanced dishes like a savory morcilla brownie topped with taragon ice cream. Take a look at what we recently ate.  <a href="http://www.seriouseats.com/2012/04/elements-princeton-restaurant-nj-jersey-tasting-menu-scott-anderson.html" title="Continue reading A Look at the Tasting Menu at Elements in Princeton, NJ">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/Erin Zimmer">by Erin Zimmer</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/elements-princeton-restaurant-nj-jersey-tasting-menu-scott-anderson.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/elements-princeton-restaurant-nj-jersey-tasting-menu-scott-anderson.html#comments"  class="commentCount">1 comment</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(193629)" id="scoring-id-193629" class="scoring">
+			        <span id="scoring-vote-193629" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-193629" class="scoring-score">0</span> <span id="scoring-score-label-193629" class="scoring-score-label">&nbsp;Favorites</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://sweets.seriouseats.com/2012/04/bi-rite-creamerys-salted-caramel-ice-cream.html">
+		
+			<img src="http://sweets.seriouseats.com/assets_c/2012/04/bi-rite-salted-caramel-ice-cream-primary-thumb-autox140-233127.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://sweets.seriouseats.com/" class="sweets_post" rel="nofollow">From Sweets</a></p>
+	
+            
+               
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+	<h3><a href="http://sweets.seriouseats.com/2012/04/bi-rite-creamerys-salted-caramel-ice-cream.html" title="Click here to read Scoop the Book: Bi-Rite Creamery's Salted Caramel Ice Cream">Scoop the Book: Bi-Rite Creamery's Salted Caramel Ice Cream</a></h3>
+
+
+<div class="recipe-alert recipe-alert-sm">
+            
+<a class="arrow" href="http://www.seriouseats.com/recipes/2012/04/bi-rite-creamery-san-francisco-salted-caramel-ice-cream-recipe.html">Get the Recipe!</a>
+
+        </div>
+    
+
+
+
+
+<p>Before there was salted caramel <em>everything</em>, there was Bi-Rite's salted caramel ice cream. It's by far the scoop shop's most popular flavor, and with good reason. This stuff is aces. The caramel is bitter, smoky, and intensely complex, but sweet cream has a way of rounding out all its nastiness for a scoop you really just can't stop eating. <a href="http://sweets.seriouseats.com/2012/04/bi-rite-creamerys-salted-caramel-ice-cream.html" title="Continue reading Scoop the Book: Bi-Rite Creamery's Salted Caramel Ice Cream">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/MFalk">by Max Falkowitz</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/bi-rite-creamerys-salted-caramel-ice-cream.html">Apr 17, 2012</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/bi-rite-creamerys-salted-caramel-ice-cream.html#comments"  class="commentCount">5 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(201844)" id="scoring-id-201844" class="scoring">
+			        <span id="scoring-vote-201844" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-201844" class="scoring-score">1</span> <span id="scoring-score-label-201844" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+
+<!-- Talk Post 5 -->	
+
+	
+		<div class="indexTalkPost">
+						<h4 class="talkStar">Talk!</h4>
+						<h3><a href="http://www.seriouseats.com/talk/2012/04/how-do-you-say-thank-you-with-food.html">How do you say 'Thank You' with food?</a></h3>
+						<p class="postFooter"><a href="http://www.seriouseats.com/talk/2012/04/how-do-you-say-thank-you-with-food.html#comments"  class="commentCount">23 Comments</a>  
+						
+			
+						  | Posted by <a href="http://www.seriouseats.com/user/profile/BitchinFixins">BitchinFixins</a>, April 12, 2012 at 10:29 AM</p>
+						
+					</div><!-- close indexTalkPost -->
+	
+
+
+<!-- Standard Posts 14,15,16 -->		
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://sweets.seriouseats.com/2012/04/scoop-the-book-sweet-cream-and-sugar-cones-from-bi-rite-creamery-ice-cream-recipes-giveaway.html">
+		
+			<img src="http://sweets.seriouseats.com/assets_c/2012/04/book-creamery1-thumb-autox140-233037.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://sweets.seriouseats.com/" class="sweets_post" rel="nofollow">From Sweets</a></p>
+	
+            
+               
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+	<h3><a href="http://sweets.seriouseats.com/2012/04/scoop-the-book-sweet-cream-and-sugar-cones-from-bi-rite-creamery-ice-cream-recipes-giveaway.html" title="Click here to read Scoop the Book: Sweet Cream and Sugar Cones from Bi-Rite Creamery">Scoop the Book: Sweet Cream and Sugar Cones from Bi-Rite Creamery</a></h3>
+
+
+
+
+
+<p>Even though it was years ago, I remember my first bite of San Francisco's Bi-Rite ice cream. It was salted caramel, of course, and it was more than a little transcendent. "<em>This</em> is what American ice cream should taste like," I thought. <a href="http://www.amazon.com/Sweet-Cream-Sugar-Cones-Creamery/dp/1607741849/?tag=serieats-20"><em>Sweet Cream and Sugar Cones</em></a> is a beautiful guide to the world of American ice cream. This week we'll be churning up some of Bi-Rite's most loved flavors and giving away five copies of the cookbook. <a href="http://sweets.seriouseats.com/2012/04/scoop-the-book-sweet-cream-and-sugar-cones-from-bi-rite-creamery-ice-cream-recipes-giveaway.html" title="Continue reading Scoop the Book: Sweet Cream and Sugar Cones from Bi-Rite Creamery">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/MFalk">by Max Falkowitz</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/scoop-the-book-sweet-cream-and-sugar-cones-from-bi-rite-creamery-ice-cream-recipes-giveaway.html">Apr 17, 2012</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/scoop-the-book-sweet-cream-and-sugar-cones-from-bi-rite-creamery-ice-cream-recipes-giveaway.html#comments"  class="commentCount">109 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(201784)" id="scoring-id-201784" class="scoring">
+			        <span id="scoring-vote-201784" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-201784" class="scoring-score">0</span> <span id="scoring-score-label-201784" class="scoring-score-label">&nbsp;Favorites</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://www.seriouseats.com/2012/04/los-angeles-mexicali-taco-and-co-is-back-and-better-than-ever.html">
+		
+			<img src="http://www.seriouseats.com/assets_c/2012/04/041412-201888-Mexicali-Taco-Chorizo-Asada-Primary-2-thumb-autox140-233693.jpg" alt="" />
+		
+		</a>
+	</div>
+	
+	
+	
+            
+               
+            
+               
+            
+               
+                  
+                    
+                  
+               
+            
+	<h3><a href="http://www.seriouseats.com/2012/04/los-angeles-mexicali-taco-and-co-is-back-and-better-than-ever.html" title="Click here to read Los Angeles: Mexicali Taco &amp; Co. Is Back and Better Than Ever">Los Angeles: Mexicali Taco & Co. Is Back and Better Than Ever</a></h3>
+
+
+
+
+
+<p>If you never left downtown Los Angeles, you'd be convinced that the whole wide world is awash in <strong><a href="http://mexicalitaco.com/">Mexicali Taco & Co.</a></strong> love. The former late night taco table long sat in a parking lot north of Staples Center, often siphoning off in-the-know event goers willing to trade in a yard of beer for some of LA's best street eats. After piling up enough gold stars from locals and food-blogging bigwigs alike, they managed to win the vaunted <a href="http://www.lataco.com/taco/mexicali-tacos-accepts-the-2011-taco-madness-award">2011 Taco Madness</a> bracket-style tournament. They quickly earned a whole new wave of hungry customers. Then they earned themselves an eviction notice. <a href="http://www.seriouseats.com/2012/04/los-angeles-mexicali-taco-and-co-is-back-and-better-than-ever.html" title="Continue reading Los Angeles: Mexicali Taco &amp; Co. Is Back and Better Than Ever">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/Farlizzle">by Farley Elliott</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/los-angeles-mexicali-taco-and-co-is-back-and-better-than-ever.html">Apr 17, 2012</a></li>
+		<li><a href="http://www.seriouseats.com/2012/04/los-angeles-mexicali-taco-and-co-is-back-and-better-than-ever.html#comments"  class="commentCount">2 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(201888)" id="scoring-id-201888" class="scoring">
+			        <span id="scoring-vote-201888" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-201888" class="scoring-score">1</span> <span id="scoring-score-label-201888" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+	<div class="home-excerpt post">
+	
+	
+	<div class="home-excerpt-thumb">
+		<a href="http://sweets.seriouseats.com/2012/04/awesome-shaved-ice-sno-beach-austin-texas.html">
+		
+			<img src="http://sweets.seriouseats.com/assets_c/2012/04/20120405snobeachice-thumb-autox140-230882.jpg" alt="" />
+		
+		</a>
+	</div>
+		
+			<p class="linksrc"><a href="http://sweets.seriouseats.com/" class="sweets_post" rel="nofollow">From Sweets</a></p>
+	
+            
+               
+            
+               
+            
+	<h3><a href="http://sweets.seriouseats.com/2012/04/awesome-shaved-ice-sno-beach-austin-texas.html" title="Click here to read Austin, TX: Awesome Shaved Ice at Sno Beach Food Truck">Austin, TX: Awesome Shaved Ice at Sno Beach Food Truck</a></h3>
+
+
+
+
+
+<p>As a child, my indulgent self was confused as to why people would order a Snow Cone from the Mr. Softee truck when you could have sundaes, milkshakes, and bars that replicated cartoon characters with gumballs for eyes. Other than the Snow Cone serving as a wet, hydrating "treat", I never felt it belonged with the other sweet and creamy contenders. But a recent visit to <strong>Sno Beach</strong> in Austin, Texas, could have easily swayed my childhood self. <a href="http://sweets.seriouseats.com/2012/04/awesome-shaved-ice-sno-beach-austin-texas.html" title="Continue reading Austin, TX: Awesome Shaved Ice at Sno Beach Food Truck">Continue reading &raquo;</a></p>
+	<ul class="post-meta hmenu">
+		<li class="first"><a href="http://www.seriouseats.com/user/profile/rms495">by Rob Sobotnik</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/awesome-shaved-ice-sno-beach-austin-texas.html">Apr 17, 2012</a></li>
+		<li><a href="http://sweets.seriouseats.com/2012/04/awesome-shaved-ice-sno-beach-austin-texas.html#comments"  class="commentCount">4 comments</a></li>
+		<li>
+			<span class="entry-scoring"> 
+			    <a href="javascript:void(0)" onclick="return mtScore(200544)" id="scoring-id-200544" class="scoring">
+			        <span id="scoring-vote-200544" class="scoring-vote">Favorite this!</span>
+			        (<span id="scoring-score-200544" class="scoring-score">1</span> <span id="scoring-score-label-200544" class="scoring-score-label">&nbsp;Favorite</span>)
+			    </a>
+			</span>
+		</li>
+	</ul>
+</div><!--/.home-excerpt-->
+
+
+
+
+	<div id="pageNav">
+		<h3 class="left"><a href="/index2.html">&laquo; older</a></h3>
+		<form method="get" id="pageNavSearch" action="http://www.seriouseats.com/cgi-bin/mte/mt-search.cgi">
+			<label>Find by category</label>
+			<select id="categoryselect" onchange="document.location=options[selectedIndex].value;">
+				<option value="">Select one ... </option>
+				<option value="http://seriouseats.com/eating-out/">Eating Out</option>
+				<option value="http://seriouseats.com/recipes/">Recipes</option>
+				<option value="http://seriouseats.com/columns/">Columns</option>
+			</select>
+		or ...
+	        <input type="hidden" id="IncludeBlogs2" name="IncludeBlogs" value="16,25,26,30,34" />
+	        <input type="hidden" name="limit" value="20" />
+	        <input id="searchBox2" class="query" name="search" value="" />
+			<input type="submit" value="Go" />
+		</form>
+		<div class="clearer"></div>
+	</div><!-- close page nav -->
+
+</div><!-- end column 1 -->
+<div id="threeColumn2" style="padding-top:0px;">
+<div id="SAY-ad">
+
+
+<div id="SERIOUSEATS_SERIOUSEATS_AD">
+<script src="http://adserver.adtechus.com/?adrawdata/3.0/5108.1/2265420/0/0/ADTECH;loc=100;noperf=1;"></script>
+</div>
+
+
+
+</div>
+
+
+
+	<div id="home-latest-columns">
+		<div id="home-latest-columns-header">
+			<h2>Latest Columns</h2>
+			<a href="http://www.seriouseats.com/columns/?ref=latestc">see all &raquo;</a>
+		</div>
+		
+		<div class="home-column-excerpt">
+		
+		
+		
+			<h3><a href="http://www.seriouseats.com/2012/04/serious-reads-why-calories-count-by-marion-nestle-book-review.html?ref=latestc">Serious Reads: Why Calories Count, by Marion Nestle and Malden Nesheim</a></h3>
+			<p><a href="http://www.seriouseats.com/user/profile/Leah Douglas">Leah Douglas</a></p>
+			<div class="thumb-100x90">
+				
+				<a href="http://www.seriouseats.com/2012/04/serious-reads-why-calories-count-by-marion-nestle-book-review.html"><img src="http://www.seriouseats.com/assets_c/2012/04/20120415-cals-210-thumb-autox90-233523.jpg" alt="" /></a>
+				
+			</div>
+		</div>
+		
+		<div class="home-column-excerpt">
+		
+		
+		
+			<h3><a href="http://www.seriouseats.com/2012/04/this-week-at-serious-eats-headquarters-20120413.html?ref=latestc">This Week at Serious Eats World Headquarters</a></h3>
+			<p><a href="http://www.seriouseats.com/user/profile/The Serious Eats Team">The Serious Eats Team</a></p>
+			<div class="thumb-100x90">
+				
+				<a href="http://www.seriouseats.com/2012/04/this-week-at-serious-eats-headquarters-20120413.html"><img src="http://www.seriouseats.com/assets_c/2012/04/201179-this-week-at-se-5-thumb-autox90-232872.jpg" alt="" /></a>
+				
+			</div>
+		</div>
+		
+		<div class="home-column-excerpt">
+		
+		
+		
+			<h3><a href="http://www.seriouseats.com/2012/04/16-asparagus-recipes-we-love.html?ref=latestc">16 Asparagus Recipes We Love</a></h3>
+			<p><a href="http://www.seriouseats.com/user/profile/Sarah Buchanan">Sarah Buchanan</a></p>
+			<div class="thumb-100x90">
+				
+				<a href="http://www.seriouseats.com/2012/04/16-asparagus-recipes-we-love.html"><img src="http://www.seriouseats.com/assets_c/2012/04/20120410-dt-asparagus-with-creme-fraiche-and-mustard-thumb-autox90-232039.jpg" alt="" /></a>
+				
+			</div>
+		</div>
+		
+	</div><!--/#home-latest-columns-->
+
+<!--Facebook Like Fan Box -->
+<div style="padding:10px 0 0 0;">
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fseriouseats&amp;width=292&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=true&amp;height=292" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:292px; padding-bottom:8px;" allowTransparency="true"></iframe>
+</div>
+<!--/Facebook Like Fan Box -->
+
+        <div id="home-latest-talk">
+		<div id="home-latest-talk-header">
+			<h2>Latest Talk</h2>
+			<a href="/talk/">see all &raquo;</a>
+		</div>
+		
+		<div class="home-talk-excerpt">
+			<h3><a href="http://www.seriouseats.com/talk/2012/04/kenjis-recipes.html?ref=latest">Kenji's Recipes</a></h3>
+                        
+<p class="byline">by <a href="http://www.seriouseats.com/user/profile/smsingram">smsingram</a> |
+
+				               
+							
+								<a href="http://www.seriouseats.com/talk/2012/04/kenjis-recipes.html#comments" class="commentCount" rel="nofollow">2 comments</a>
+							
+							
+										
+						</p>
+	</MTFeaturedEntries>		</div>
+		
+		<div class="home-talk-excerpt">
+			<h3><a href="http://www.seriouseats.com/talk/2012/04/switching-temperatures-mid-baking-in-a-gas-oven.html?ref=latest">Switching Temperatures Mid-Baking in a Gas Oven</a></h3>
+                        
+<p class="byline">by <a href="http://www.seriouseats.com/user/profile/soprettyashley">Ashley Joy</a> |
+
+				               
+							
+								<a href="http://www.seriouseats.com/talk/2012/04/switching-temperatures-mid-baking-in-a-gas-oven.html#comments" class="commentCount" rel="nofollow">2 comments</a>
+							
+							
+										
+						</p>
+	</MTFeaturedEntries>		</div>
+		
+		<div class="home-talk-excerpt">
+			<h3><a href="http://www.seriouseats.com/talk/2012/04/seafood-nyc.html?ref=latest">SEAFOOD NYC</a></h3>
+                        
+<p class="byline">by <a href="http://www.seriouseats.com/user/profile/mike1007">mike1007</a> |
+
+				               
+							<a href="http://www.seriouseats.com/talk/2012/04/seafood-nyc.html#comments" class="commentCount" rel="nofollow">post a comment</a>
+										
+						</p>
+	</MTFeaturedEntries>		</div>
+		
+		<div class="home-talk-excerpt">
+			<h3><a href="http://www.seriouseats.com/talk/2012/04/kitchenaid-parts.html?ref=latest">Kitchenaid Parts</a></h3>
+                        
+<p class="byline">by <a href="http://www.seriouseats.com/user/profile/Blooregard">Bloo</a> |
+
+				               
+							
+								<a href="http://www.seriouseats.com/talk/2012/04/kitchenaid-parts.html#comments" class="commentCount" rel="nofollow">5 comments</a>
+							
+							
+										
+						</p>
+	</MTFeaturedEntries>		</div>
+		
+		<div class="home-talk-excerpt">
+			<h3><a href="http://www.seriouseats.com/talk/2012/04/wine-tasting-picnic-ideas.html?ref=latest">Wine tasting picnic ideas</a></h3>
+                        
+<p class="byline">by <a href="http://www.seriouseats.com/user/profile/wednesdayvail">wednesdayvail</a> |
+
+				               
+							
+								<a href="http://www.seriouseats.com/talk/2012/04/wine-tasting-picnic-ideas.html#comments" class="commentCount" rel="nofollow">7 comments</a>
+							
+							
+										
+						</p>
+	</MTFeaturedEntries>		</div>
+		
+		<div class="home-talk-excerpt">
+			<h3><a href="http://www.seriouseats.com/talk/2012/04/off-brandthrift-groceriesstore-brands.html?ref=latest">Off Brand/Thrift groceries/Store Brands</a></h3>
+                        
+<p class="byline">by <a href="http://www.seriouseats.com/user/profile/BitchinFixins">BitchinFixins</a> |
+
+				               
+							
+								<a href="http://www.seriouseats.com/talk/2012/04/off-brandthrift-groceriesstore-brands.html#comments" class="commentCount" rel="nofollow">8 comments</a>
+							
+							
+										
+						</p>
+	</MTFeaturedEntries>		</div>
+		
+		<div class="home-talk-excerpt">
+			<h3><a href="http://www.seriouseats.com/talk/2012/04/new-column-on-se.html?ref=latest">New Column on SE</a></h3>
+                        
+<p class="byline">by <a href="http://www.seriouseats.com/user/profile/LadySabriel">Dana Bach</a> |
+
+				               
+							<a href="http://www.seriouseats.com/talk/2012/04/new-column-on-se.html#comments" class="commentCount" rel="nofollow">post a comment</a>
+										
+						</p>
+	</MTFeaturedEntries>		</div>
+		
+	</div><!--/#home-latest-talk-->
+
+</div><!-- end column 2 -->
+
+		<div class="clearer"></div>
+
+	</div><!-- close content div -->
+
+
+
+
+
+
+
+
+<div id="bottomBucket" class="feature">
+
+	<div class="bbColumn" id="bbColumn1">
+
+		
+
+			<p class="linksrc"><a href="http://www.seriouseats.com/" class="serious_eats_post" rel="nofollow">From Serious Eats</a></p>
+
+		    
+		    <a href="http://www.seriouseats.com/2012/02/vegan-experience-recipes-soups-salads-sandwiches-mains-snacks.html?ref=1"><img src="http://www.seriouseats.com/assets_c/2012/02/20120215-vegan-recipes-primary-thumb-autox133-219409.jpg" alt="The Vegan Experience, a Retrospective: All 28 of Kenji's Vegan Recipes" /></a>
+		    <h4><a href="http://www.seriouseats.com/2012/02/vegan-experience-recipes-soups-salads-sandwiches-mains-snacks.html?ref=1" rel="nofollow">The Vegan Experience, a Retrospective: All 28 of Kenji's Vegan Recipes</a></h4>
+
+		
+
+	</div><!-- close bbColumn1 -->
+
+
+	<div class="bbColumn" id="bbColumn2">
+
+		
+			<p class="linksrc"><a href="http://www.seriouseats.com/" class="serious_eats_post" rel="nofollow">From Serious Eats</a></p>
+
+		    
+		    <a href="http://www.seriouseats.com/2011/10/13-cheeses-everyone-should-know.html?ref=2"><img src="http://www.seriouseats.com/assets_c/2011/08/20110812-murrays-cheese-camembert-primary-thumb-autox133-179947.jpg" alt="13 Cheeses Everyone Should Know" /></a>
+
+			<h4><a href="http://www.seriouseats.com/2011/10/13-cheeses-everyone-should-know.html?ref=2" rel="nofollow">13 Cheeses Everyone Should Know</a></h4>
+
+		
+
+	</div><!-- close bbColumn2 -->
+
+
+
+	<div class="bbColumn" id="bbColumn3">
+
+		
+			<p class="linksrc"><a href="http://www.seriouseats.com/" class="serious_eats_post" rel="nofollow">From Serious Eats</a></p>
+
+		    
+		    <a href="http://www.seriouseats.com/2012/02/what-to-eat-in-new-orleans-nola-po-boys-beignets-mufuletta.html?ref=3"><img src="http://www.seriouseats.com/assets_c/2012/02/20120220-domilises-thumb-autox133-220445.jpg" alt="10 Must-Eats in New Orleans" /></a>
+
+			<h4><a href="http://www.seriouseats.com/2012/02/what-to-eat-in-new-orleans-nola-po-boys-beignets-mufuletta.html?ref=3" rel="nofollow">10 Must-Eats in New Orleans</a></h4>
+
+		
+
+	</div><!-- close bbColumn3 -->
+
+
+
+	<div class="bbColumn" id="bbColumn4">
+
+		
+
+			<p class="linksrc"><a href="http://www.seriouseats.com/" class="serious_eats_post" rel="nofollow">From Serious Eats</a></p>
+
+		    
+		    <a href="http://www.seriouseats.com/2011/11/touristy-places-that-are-actually-good-in-america.html?ref=4"><img src="http://www.seriouseats.com/assets_c/2011/11/20111116-hot-dougs-primary-thumb-autox133-200028.jpg" alt="29 Touristy Spots in America That Are Actually Good" /></a>
+
+			<h4><a href="http://www.seriouseats.com/2011/11/touristy-places-that-are-actually-good-in-america.html?ref=4" rel="nofollow">29 Touristy Spots in America That Are Actually Good</a></h4>
+
+		
+
+	</div><!-- close bbColumn4 -->
+
+
+</div><!-- /bottom bucket -->
+
+<div id="footer" class="shortFooter">
+
+	<div id="footerColumn1" class="footer-column">
+          <h3 id="h-still-hungry">Still Hungry?</h3>
+		<ul>	
+			<li><a href="http://www.seriouseats.com/?ref=footer">Home</a></li>
+			<li><a href="http://www.seriouseats.com/talk/?ref=footer">Talk</a></li>
+			<li><a href="http://www.seriouseats.com/recipes/?ref=footer">Recipes</a></li>
+			<li><a href="http://www.seriouseats.com/columns/?ref=footer">Columns</a></li>
+		</ul>
+          <div style="position:relative; top: 15px;"><a href="http://saymedia.com" target="_blank"><img title="SAY Channel Food" src="http://
+channels.saymedia.com/img/Food-light.png" border="0" alt="SAY Channel Food"></a></div>
+	</div><!-- close footerColumn1 -->
+		
+	<div id="footerColumn2" class="footer-column">
+	   <h3 id="h-delivery">Delivery</h3>
+		<p>Subscribe to our email newsletters so you don't miss anything delicious!</p>
+
+   		<form action="http://www.seriouseats.com/cgi-bin/mte/plugins/ProfileMail/profilemail.cgi" enctype="multipart/form-data" id="profile_edit" method="post">
+   		    <input type="hidden" name="__mode" value="save">
+   		    <input type="hidden" name="blog_id" value="31">
+   			<input value="Your Email Address:" type="text" name="email" class="short" onblur="if(this.value==''){this.style.color=''; this.form.reset()}" onfocus="this.value = ''; this.style.color = '#000';" />
+   			<div class="formField">
+   				<input type="checkbox" name="serious_eats_weekly_newsletter" id="serious_eats_weekly_newsletter"  /><label for="serious_eats_weekly_newsletter"> Weekly Newsletter</label>
+   		 		<br />
+   				<input type="hidden" name="name" value="" />
+   				<input type="checkbox" name="serious_eats_recipe_newsletter" id="serious_eats_recipe_newsletter"  /><label for="serious_eats_recipe_newsletter"> Recipe Newsletter</label>
+   				<br />
+   				<input type="checkbox" name="serious_eats_new_york_newsletter" id="serious_eats_new_york_newsletter"  /><label for="serious_eats_new_york_newsletter"> New York Newsletter</label>
+  				<br />
+   				<input type="checkbox" name="serious_eats_chicago_newsletter" id="serious_eats_chicago_newsletter"  /><label for="serious_eats_chicago_newsletter"> Chicago Newsletter</label>
+   				<br />
+   				<input type="checkbox" name="serious_eats_drinks_newsletter" id="serious_eats_drinks_newsletter"  /><label for="serious_eats_drinks_newsletter"> Drinks Newsletter</label>
+  				<br />
+   				<input type="checkbox" name="serious_eats_sweets_newsletter" id="serious_eats_sweets_newsletter"  /><label for="serious_eats_sweets_newsletter"> Sweets Newsletter</label>
+   				
+   			</div>
+   			<input type="image" value="Subscribe" src="http://seriouseats.com/imagesV2/buttons/subscribe.png" width="82" height="24" border="0" alt="subscribe" />
+   		</form>
+
+
+	</div><!-- close footerColumn2 -->
+		
+	<div id="footerColumn3" class="footer-column">
+           <h3 id="h-kiss-the-chef">Kiss the Chef</h3>
+		<ul>	
+			<li><a href="http://www.seriouseats.com/about/?ref=footer">About Us</a></li>
+			<li><a href="http://www.seriouseats.com/contact/?ref=footer">Contact Us</a></li>
+			<li><a href="http://www.seriouseats.com/advertise/?ref=footer
+">Advertise with Us</a></li>
+			<li><a href="http://www.seriouseats.com/jobs/?ref=footer">Jobs</a></li>
+		</ul>
+		<h3 id="h-family-style">Family Style</h3>
+		<ul>
+			<li><a href="http://www.seriouseats.com/?ref=footer">Serious Eats</a></li>
+			<li><a href="http://drinks.seriouseats.com/?ref=footer">Drinks</a></li>
+			<li><a href="http://sweets.seriouseats.com/?ref=footer">Sweets</a></li>
+			<li><a href="http://aht.seriouseats.com/?ref=footer">A Hamburger Today</a></li>
+			<li><a href="http://slice.seriouseats.com/?ref=footer">Slice</a></li>
+			<li><a href="http://newyork.seriouseats.com/?ref=footer">Serious Eats: New York</a></li>
+			<li><a href="http://chicago.seriouseats.com/?ref=footer">Serious Eats: Chicago</a></li>
+			<li><a href="http://photograzing.seriouseats.com/?ref=footer">Photograzing</a></li>
+		</ul>
+	</div><!-- close footerColumn3 -->
+
+	<div id="footerColumn4" class="footer-column">
+            <h3 id="h-feed-yourself">Feed Yourself</h3>
+			<p>Subscribe to our feeds:</p>
+			<p><a href="http://feeds.feedburner.com/seriouseatsfeaturesvideos">Serious Eats</a>, <a href="http://feeds.feedburner.com/seriouseatstalk">Talk</a>, <a href="http://feeds.feedburner.com/seriouseats/recipes">Recipes</a></p>
+			<br />
+			<p>Subscribe by email:</p>
+			<p><a href="http://www.feedburner.com/fb/a/emailverifySubmit?feedId=595294&amp;loc=en_US">All of Serious Eats</a></p>
+	</div><!-- close footerColumn4 --><div class="clearer"></div>
+
+	<a href="http://twitter.com/seriouseats" id="footer-twitter">Follow us on Twitter!</a>
+
+</div><!--/#footer -->
+
+<!-- footer links module -->
+<div id="footerLinks">
+<ul>
+
+<li><a href="http://www.seriouseats.com/faq/">FAQ</a></li>
+<li><a href="http://www.seriouseats.com/advertise/">Advertise</a></li>
+<li><a href="http://www.seriouseats.com/sitemap/">Sitemap</a></li>
+
+<li><a href="http://www.seriouseats.com/terms/">Terms of Use</a></li>
+<li><a href="http://www.seriouseats.com/privacy/">Privacy Policy</a></li>
+<li>&copy; 2006-2012</li>
+</ul>
+</div>
+<!-- /footer links module -->
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+ 
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+ 
+_qevents.push({
+qacct:"p-abhYEve3ZZl2E"
+});
+</script>
+ 
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-abhYEve3ZZl2E.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6036036" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036036&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+<script type="text/javascript">
+function recordOutboundLink(link, category, action, outgoingPageviewLink) {
+  try {
+    _gaq.push(['_trackEvent', category, action, outgoingPageviewLink]);
+    _gaq.push(['_trackPageview', outgoingPageviewLink]);
+    setTimeout('document.location = "' + link.href + '"', 100)
+  }catch(err){}
+}
+</script>
+
+<!-- Start Amazon Impression Reporting Script -->
+<script type="text/javascript" src="http://www.assoc-amazon.com/s/impression-counter?tag=serieats-20&o=1"></script>
+<noscript><img src="http://www.assoc-amazon.com/s/noscript?tag=serieats-20" alt="" /></noscript>
+<!-- End Amazon Impression Reporting Script -->
+
+
+
+
+<!-- chartbeat -->
+<script type="text/javascript">
+var cbjspath = "static.chartbeat.com/js/chartbeat.js?uid=2384&domain=seriouseats.com";
+var cbjsprotocol = (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://");
+document.write(unescape("%3Cscript src='"+cbjsprotocol+cbjspath+"' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<!-- chartbeat -->
+
+
+<!-- AddThis settings for Google Analytics -->
+<script type="text/javascript">
+     var addthis_config = {
+        data_ga_property: 'UA-962456-1',
+        data_ga_social : true
+     };
+</script>
+
+
+
+
+<!-- Addthis -->
+
+<!-- Addthis -->
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=seriouseats"></script>
+<!-- Addthis -->
+
+<!--  BuzzFeed code begins -->
+<div id="BF_WIDGET_1"></div>
+<script type="text/javascript">
+(function( ){
+	BF_WIDGET_JS=document.createElement('script'); BF_WIDGET_JS.type="text/javascript";
+	BF_WIDGET_SRC="http://ct.buzzfeed.com/wd/UserWidget?u=seriouseats.com&amp;to=1&amp;or=vb&amp;wid=1&amp;cb=" + (new Date()).getTime();
+	setTimeout(function() {document.getElementById('BF_WIDGET_1').appendChild(BF_WIDGET_JS);BF_WIDGET_JS.src=BF_WIDGET_SRC},1);
+})();
+</script>
+<!-- / BuzzFeed code ends -->
+
+</div><!-- close container -->
+<img src="http://view.atdmt.com/CLH/view/ndmcmnpb0050000045clh/direct/01/" width="1" height="1">
+
+<!-- For Outbrain related links module -->
+<input type="hidden" name="OBKey" value="8QWlOnGhPzt7yewf+5KceA=="/> <script LANGUAGE="JavaScript">var OBCTm='1296090325014'; </script><script LANGUAGE="JavaScript" src="http://widgets.outbrain.com/claim.js"></script>
+
+</body>
+</html>

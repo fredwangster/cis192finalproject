@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.scholastic.com/teachers/sites/default/files/scholastic_favicon.ico" type="image/x-icon" />
+  <title>Scholastic | Children's Books and Book Club | Scholastic.com</title>
+  <meta name="description" content="Scholastic.com, Internet portal and book club for the world's largest publisher & distributor of children's books. Offers content & products for children ages 0-13 and the educators & family members who support their development." />
+  <meta name="keywords" content="Scholastic,book club,children.s books,Scholastic Inc.,reading,books,literacy,classroom,teacher,student,parenting,kids,harry potter,educator,family,child development,student activities,teaching resources,parenting resources,characters,games" />
+
+  <link type='text/css' rel='stylesheet' href='http://www.scholastic.com/global_resources/universal/layout/styles.css?vers=4.0.48' />  <link type="text/css" rel="stylesheet" media="all" href="http://www.scholastic.com/teachers/sites/default/files/css/css_1679d1d031b30430dbec5835a7e914b8.css" />
+  <!-- core js -->
+  <script type="text/javascript" src="http://www.scholastic.com/teachers/sites/default/files/js/js_15c2bf618ab0f2e71203fafc017d3748.js"></script>
+  <!-- vars for metrics and ads -->
+  <script type="text/javascript" src="/menu/templates/s_code.js"></script>
+  <script type='text/javascript'>
+  var schlGradeFilter = "No Filter";
+  var schlGradeList = "";
+  var schlGradeRange = "";
+  var schlGradeRangeDart = "";
+  var schlRandom = Math.floor(Math.random()*10e12);
+  var schlSiteOmni = "Teachers";
+  var schlSiteOmniFull = "Main|TeachersEducators|Content|TeacherContent";
+  var schlSource = "";
+  var schlTermResource = "";
+  var schlTermSubject = "";
+  var schlTheme = "";
+  var schlThemeSponsored = "";</script>  <!--script type="text/javascript" src="/teachers/sites/all/modules/contrib/jquery_update/replace/jquery.min.js?8"></script-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script src="/teachers/sites/all/themes/scholastic/javascript/chome/jquery-1.4.2.min.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" src="/teachers/sites/all/themes/scholastic/javascript/chome/jquery.tweet.js" type="text/javascript"></script>
+<script src="/teachers/sites/all/themes/scholastic/javascript/chome/custom.js" language="javascript" type="text/javascript"></script>
+
+<script src="/teachers/sites/all/themes/scholastic/javascript/chome/jquery.zrssfeed.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" href="/teachers/sites/all/themes/scholastic/css/chomelayout.css" />
+<!--<link href="./css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>-->
+
+<script type="text/javascript">
+
+/* Omniture Variables Start */
+var schlPageId = "corp_home";
+var schlPageName = "Main:Dotcom:Homepage";
+var schlPageType = "landing";
+var schlRandom = Math.floor(Math.random()*10e12);
+var schlSiteOmni = "Main";
+var schlSiteOmniFull = "Main|Other|Corporate";
+var schlSiteTerm = "Dotcom Home";
+var schlSiteLevel1 = "";
+var schlSiteLevel2 = "Dotcom Home";
+var schlSiteLevel3 = "";
+var schlSiteLevel4 = "";
+var schlSiteLevel4 = "";
+var schlSiteLevel5 = "";
+var schlSiteLevel6 = "";
+/* Omniture Variables End */
+
+function Preload() {
+	var args = arguments;
+	document.imageArray = new Array(args.length);
+	for(var i=0; i<args.length; i++) {
+		document.imageArray[i] = new Image;
+		document.imageArray[i].src = args[i];
+	}
+}
+
+jQuery(function($){
+    $(".tweet").tweet({
+        join_text: "auto",
+        avatar_size: 32,
+        count: 3,
+        loading_text: "loading tweets..."
+    });
+
+	$('#blogrssfeed').rssfeed('http://oomscholasticblog.com/feed', {
+		limit: 3, content: true
+	}, 'blog');
+
+	$('#utuberssfeed').rssfeed('http://gdata.youtube.com/feeds/api/users/Thescholasticchannel/uploads?orderby=updated', {
+		limit: 3, content: true
+	}, 'utube');
+
+	$('#rssfeedright').rssfeed('http://oomscholasticblog.com/feed', {
+		limit: 2, content: true
+	}, 'rss');
+
+displayPersonal(); displaySignInOut();
+});
+</script>
+<script type="text/javascript" src="http://www.scholastic.com/global_resources/universal/header/3.0/universal.js?nodisplay=y"></script>
+
+
+</head>
+
+<body>
+
+
+<div id="container" class="not-front not-logged-in page-home one-sidebar sidebar-left">
+
+	<div id="logo"><h1><a href="http://www.scholastic.com/home"><img src="/teachers/sites/all/themes/scholastic/images/T1_Corphome_02.png" alt="Scholastic - Read Every Day. Lead a Better Life" title="Scholastic - Read Every Day. Lead a Better Life" width="210" height="78" border="0" /></a></h1></div>
+
+
+<div id="signIn_register">
+            <div id="universal-personalized"></div><div id="universal-account"><div id="universal-signInOut"></div><div id="universal-myAccount"></div></div>
+</div>
+
+
+
+	<div id="teacher-nav">
+    <ul class="teacher-nav-menu">
+      <li class="teacher-nav-menu-item1"><a title="Home" href="http://www.scholastic.com/home/"><span>Home</span></a></li>
+
+	    <li class="chome-nav-menu-item2"><a href="http://www2.scholastic.com/browse/home.jsp" onclick="saveCookie('header','teacherDefault');" title="Teachers"><span>Teachers</span></a></li>
+      <li class="chome-nav-menu-item3"><a href="http://www.scholastic.com/parents/" onclick="saveCookie('header','parents');" title="Parents"><span>Parents</span></a></li>
+
+
+      <li id="kids" class="chome-nav-menu-item4"><a href="javascript:void(0);" title="Kids"><span>Kids</span></a>
+
+		<div class="kids_dropdown disphide">
+		<ul>
+			<li><a onclick="saveCookie('header','bigKids');" href="http://www.scholastic.com/kids/stacks/"><p class="bold">The STACKS</p><p class="normal"> (Ages 8-12)</p></a></li>
+			<li><a href="http://www.scholastic.com/parents/play/"><p class="bold">Family Playground</p><p class="normal"> (Ages 3-7)</p></a></li>
+		</ul>
+		</div></li>
+
+
+      <li class="chome-nav-menu-item5"><a href="http://www.scholastic.com/administrator/" onclick="saveCookie('header','administrators');" title="Administrators"><span>Administrators</span></a></li>
+      <li class="chome-nav-menu-item6"><a href="http://www.scholastic.com/librarians/" onclick="saveCookie('header','librarians');" title="Librarians"><span>Librarians</span></a></li>
+      <li id="storia" class="chome-nav-menu-item7"><div class="teacher-nav-new"></div><a href="javascript:void(0);" onclick="saveCookie('header','storia');" title="Storia"><span>Storia&trade; <span class="teacher-nav-subhdr">eBooks</span></span></a>
+
+        <div class="storia_dropdown disphide">
+            <ul>
+                <li><a onclick="return RP_show();" href="https://my.scholastic.com/sps_my_account/accmgmt/GenericSignin.jsp">Create an Account / Sign In</a></li>
+                <li class="hdr">Shop for eBooks
+                    <ul class="dd-subnav">
+                        <li><a href="http://www.scholastic.com/storiaclubs">I am a Book Clubs customer</a></li>
+                        <li><a href="http://store.scholastic.com//webapp/wcs/stores/servlet/SearchEndecaCmd?categoryName=Ebooks&amp;catalogId=10051&amp;storeId=10052&amp;categoryId=10501&amp;parent_category_rn=&amp;top_category=&amp;N=3965&amp;goToView=CategoryPageView">I am not a Book Clubs customer</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://store.scholastic.com//webapp/wcs/stores/servlet/LandingPageView?storeId=10052&amp;catalogId=10051&amp;jspStoreDir=SSOStore&amp;pageName=storia/about">Learn About Storia</a></li>
+                <li><a href="http://store.scholastic.com//webapp/wcs/stores/servlet/LandingPageView?storeId=10052&catalogId=10051&jspStoreDir=SSOStore&pageName=storia/home&esp=SSO/ib/2012/vanityURL/txtl/ads/storiasso//landing////">Download Storia Free</a></li>
+            </ul>
+        </div>
+      </li>
+    </ul>
+	</div>
+
+
+<a name="top"></a>
+
+
+	<div id="content"> <!-- begin content area -->
+    								
+<div id="corp-home" class="layout1">
+
+	<div class="header-pane"></div>
+  <div class="content-rows">
+    <div class="row row1">
+      <div class="col two-col col1"><div class="panel-pane pane-views-panes pane-chome-placements-panel-pane-1 chomeImage"  id="chomeImage1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-chome-placements view-id-chome_placements view-display-id-panel_pane_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-chome-image-fid">        <div class="field-content chomeImageA"><a href="http://www.scholastic.com/readeveryday/"><img  class="imagefield imagefield-field_chome_image" width="644" height="371" alt="Scholastic Read Every Day Lead a Better Life" src="http://www.scholastic.com/teachers/sites/default/files/corp_bigtoutup_030112.jpg?1330725140" /></a></div>  </div>	<div class="views-field views-field-field-chome-image-fid-1">        <div class="field-content chomeImageB"><a href="http://www.scholastic.com/readeveryday/"><img  class="imagefield imagefield-field_chome_image" width="644" height="371" alt="Scholastic Read Every Day Lead a Better Life" src="http://www.scholastic.com/teachers/sites/default/files/corp_bigtoutover_030112.jpg?1330725145" /></a></div>  </div>
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+</div>
+          
+          <div class="col one-col col2">
+          
+              <!-- row 1 column 2 row 1 -->
+              <div class="row row1">
+                  <div class="col one-col col1"><div class="panel-pane pane-views-panes pane-chome-placements-1-right-top-panel-pane-1 chomeImage"  id="chomeImage2">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-chome-placements-1-right-top view-id-chome_placements_1_right_top view-display-id-panel_pane_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-chome-image-fid">        <div class="field-content chomeImageA"><a href="http://store.scholastic.com/webapp/wcs/stores/servlet/LandingPageView?storeId=10052&amp;catalogId=10051&amp;jspStoreDir=SSOStore&amp;pageName=storia/home"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="Storia" src="http://www.scholastic.com/teachers/sites/default/files/storia_ad_illustration-315x179.jpg?1334342820" /></a></div>  </div>	<div class="views-field views-field-field-chome-image-fid-1">        <div class="field-content chomeImageB"><a href="http://store.scholastic.com/webapp/wcs/stores/servlet/LandingPageView?storeId=10052&amp;catalogId=10051&amp;jspStoreDir=SSOStore&amp;pageName=storia/home"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="Storia" src="http://www.scholastic.com/teachers/sites/default/files/storia_ad_illustration-315x179_0.jpg?1334342823" /></a></div>  </div>
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+</div>		
+              </div>
+              
+              <!-- row 1 column 2 row 2 -->
+              <div class="row row2">
+                  <div class="col one-col col1"><div class="panel-pane pane-views-panes pane-chome-placements-2-right-bottom-panel-pane-1 chomeImage"  id="chomeImage3">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-chome-placements-2-right-bottom view-id-chome_placements_2_right_bottom view-display-id-panel_pane_1 view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-chome-image-fid">        <div class="field-content chomeImageA"><a href="http://www.scholastic.com/discovermore"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="discover more" src="http://www.scholastic.com/teachers/sites/default/files/discovermore.jpg?1334336763" /></a></div>  </div>	<div class="views-field views-field-field-chome-image-fid-1">        <div class="field-content chomeImageB"><a href="http://www.scholastic.com/discovermore"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="discover more" src="http://www.scholastic.com/teachers/sites/default/files/discovermore_rollover.jpg?1334336766" /></a></div>  </div>
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+</div>		
+              </div>
+
+          </div>
+          <div class="clearBox"><!-- --></div>
+    </div>
+
+    <div class="row row2">
+      <div class="col one-col col1"><div class="panel-pane pane-views-panes pane-chome-placements-3-bottom-left-panel-pane-1 chomeImage"  id="chomeImage4">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-chome-placements-3-bottom-left view-id-chome_placements_3_bottom_left view-display-id-panel_pane_1 view-dom-id-4">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-chome-image-fid">        <div class="field-content chomeImageA"><a href="http://read180.scholastic.com/reading-intervention-program"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="Read 180" src="http://www.scholastic.com/teachers/sites/default/files/corp_read180_up_031512.jpg?1332778636" /></a></div>  </div>	<div class="views-field views-field-field-chome-image-fid-1">        <div class="field-content chomeImageB"><a href="http://read180.scholastic.com/reading-intervention-program"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="Read 180" src="http://www.scholastic.com/teachers/sites/default/files/corp_read180_over_031512.jpg?1332778637" /></a></div>  </div>
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+</div>
+      <div class="col one-col col2"><div class="panel-pane pane-views-panes pane-chome-placements-4-bottom-center-panel-pane-1 chomeImage"  id="chomeImage5">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-chome-placements-4-bottom-center view-id-chome_placements_4_bottom_center view-display-id-panel_pane_1 view-dom-id-5">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-chome-image-fid">        <div class="field-content chomeImageA"><a href="https://clubs.scholastic.com/"><img  class="imagefield imagefield-field_chome_image" width="315" height="179" alt="Scholastic Book Clubs" src="http://www.scholastic.com/teachers/sites/default/files/corp_clubswinterup_030112.jpg?1331218290" /></a></div>  </div>	<div class="views-field views-field-field-chome-image-fid-1">        <div class="field-content chomeImageB"><a href="https://clubs.scholastic.com/"><img  class="imagefield imagefield-field_chome_image" width="315" height="179" alt="Scholastic Book Clubs" src="http://www.scholastic.com/teachers/sites/default/files/corp_clubswinterover_030112.jpg?1331218292" /></a></div>  </div>
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+</div>
+      <div class="col one-col col3"><div class="panel-pane pane-views-panes pane-chome-placements-5-bottom-right-panel-pane-1 chomeImage"  id="chomeImage6">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-chome-placements-5-bottom-right view-id-chome_placements_5_bottom_right view-display-id-panel_pane_1 view-dom-id-6">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-chome-image-fid">        <div class="field-content chomeImageA"><a href="http://www.scholastic.com/bookfairs/"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="Scholastic Book Fairs" src="http://www.scholastic.com/teachers/sites/default/files/corp_bookfairs_up_031512.jpg?1332778505" /></a></div>  </div>	<div class="views-field views-field-field-chome-image-fid-1">        <div class="field-content chomeImageB"><a href="http://www.scholastic.com/bookfairs/"><img  class="imagefield imagefield-field_chome_image" width="316" height="180" alt="Scholastic Book Fairs" src="http://www.scholastic.com/teachers/sites/default/files/corp_bookfairs_over_031512.jpg?1332778511" /></a></div>  </div>
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+</div>
+          <div class="clearBox"><!-- --></div>
+    </div>
+
+    <div class="row row3">
+      <div class="col one-col col1"></div>
+      <div class="col one-col col2"></div>		
+          <div class="clearBox"><!-- --></div>
+    </div>
+  </div>
+	
+</div>
+		<div class="clearBox"></div>
+
+<div class="otherInfoAboutScholastic">
+	<div id="newsFrmScholastic">
+
+		<h2>News from Scholastic</h2>
+		<div class="blogPost" id="blogrssfeed"></div>
+	</div>
+	<div id="joinOnline">
+		<h2>Join Us Online</h2>
+		<div class="socialMedias">
+			<p class="twitter"><a href="http://twitter.com/scholastic" title="Twitter" target="_blank"><img src="/teachers/sites/all/themes/scholastic/images/chome_twitter.png" width="40" height="40" border="0" alt="Twitter" title="Twitter" /></a></p>
+			<p class="faceBook"><a href="http://www.facebook.com/Scholastic" title="Facebook" target="_blank"><img src="/teachers/sites/all/themes/scholastic/images/chome_fb.png" width="37" height="38" border="0" alt="Facebook" title="Facebook" title="Facebook" /></a></p>
+			<p class="Rss"><a href="http://oomscholasticblog.com/subscribe" title="RSS" ><img src="/teachers/sites/all/themes/scholastic/images/chome_rss.png" width="38" height="39" border="0" alt="RSS" title="RSS" /></a></p>
+			<p class="uTube"><a href="http://www.youtube.com/TheScholasticChannel" title="YouTube" target="_blank"><img src="/teachers/sites/all/themes/scholastic/images/chome_youtube.png" width="41" height="40" border="0" alt="YouTube" title="YouTube" /></a></p>
+		</div>
+		<div class="twitterBlog blogpost">
+			<div class="tweet"></div>
+		</div>
+		<div class="faceBookBlog blogpost disphide">
+			<div id="fb-root"></div>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like-box" data-href="http://www.facebook.com/scholastic" data-border_color="#CEE6F2" data-height="100" data-width="292" data-show-faces="false" data-stream="false" data-header="false"></div>
+
+		</div>
+		<div class="RssBlog blogpost disphide">
+			<p class="blogPost" id="rssfeedright">
+
+			</p>
+      <p class="blogsubscribe" >
+      <a href="http://oomscholasticblog.com/subscribe">Subscribe to Scholastic</a>
+      </p>
+		</div>
+
+		<div class="uTubeBlog blogpost disphide" id="utuberssfeed"></div>
+	</div>
+	</div>
+</div>
+
+	</div><!-- end content -->
+
+	<div class="clearBox"></div>
+
+</div>
+<div id="footer-wrapper">
+
+
+
+  
+	<div id="footer-corporate" class="schl-group" data-analytics="CorporateFooter">
+
+	<div class="footer-links" id="footer-about">
+		<h2>About Scholastic</h2>
+    
+    	<ul>
+    	<li><a title="" href="http://www.scholastic.com/aboutscholastic/index.htm">Who We Are</a></li>
+		<li><a title="" href="http://www.scholastic.com/aboutscholastic/corporateresponsibility.htm">Corporate Responsibility</a></li>
+		<li><a title="" href="http://mediaroom.scholastic.com/">Media Room</a></li>		
+		<li><a title="" href="http://investor.scholastic.com/">Investor Relations</a></li>
+		<li><a title="" href="http://www.scholastic.com/aboutscholastic/international/">International</a></li>		
+		<li><a title="" href="http://www.scholastic.com/aboutscholastic/espanol/">Scholastic en Espa&ntilde;ol</a></li>
+		<li><a title="" href="http://www.scholastic.com/aboutscholastic/jobs.htm">Careers</a></li>
+		</ul>
+
+  	</div>
+
+  	<div class="footer-links" id="footer-website">
+  		<h2>Our Website</h2>
+    
+    	<ul>
+    	<li><a title="" href="http://www.scholastic.com/teachers/">Teachers</a></li>
+    	<li><a title="" href="http://www.scholastic.com/parents/">Parents</a></li>
+    	<li><a title="" href="http://www.scholastic.com/kids/stacks/">The Stacks (Ages 8-12)</a></li>
+    	<li><a title="" href="http://www.scholastic.com/parents/play/">Family Playground (Ages 3-7)</a></li>						
+		<li><a title="" href="http://www.scholastic.com/librarians/">Librarians</a></li>
+		<li><a title="" href="http://www.scholastic.com/administrator/">Administrators</a></li>
+		<li><a title="" href="http://teacher.scholastic.com/products/product_info/">Product Information</a></li>		
+		</ul>
+
+  	</div>
+  	
+
+  	<div class="footer-links" id="footer-help">
+  		<h2>Need Help?</h2>
+    
+    	<ul>
+    	<li><a title="" href="http://www.scholastic.com/custsupport/">Customer Service</a></li>
+		<li><a title="" href="http://www.scholastic.com/custsupport/contact_us.htm">Contact Us</a></li>
+		</ul>
+  
+  	</div>
+
+  	<div id="footer-social" class="footer-links">  		
+
+    	<div id="footer-join-us-online">
+    		<h2>Join Us Online</h2>
+    		<ol>
+    		<li><a href="http://twitter.com/Scholastic" target="_blank"><img src="http://www.scholastic.com/global_resources/universal/layout/images/icon-twitter.gif" border="0" alt="twitter" /></a></li>
+    		<li><a href="http://www.facebook.com/Scholastic" target="_blank"><img src="http://www.scholastic.com/global_resources/universal/layout/images/icon_facebook.gif" border="0" alt="facebook" /></a></li>
+    		<li><a href="http://onourmindsatscholastic.blogspot.com/" target="_blank"><img src="http://www.scholastic.com/global_resources/universal/layout/images/icon-rss.gif" border="0" alt="rss" /></a></li>
+    		<li><a href="http://www.youtube.com/TheScholasticChannel" target="_blank"><img src="http://www.scholastic.com/global_resources/universal/layout/images/icon-youtube.gif" border="0" alt="youtube" /></a></li>    		
+    		</ol>
+    	</div>
+	</div>
+	<script type="text/javascript">
+		if ( (typeof schlKids != 'undefined' && schlKids) || jQuery('#schlStacksHeader').length || readCookie('header') == 'bigKids' ) {
+			jQuery('#footer-social').remove();
+		}
+	</script>
+
+</div><!-- end of #footer-corporate -->
+
+<div id="footer-global" data-analytics="GlobalFooter">
+<a href="http://www.scholastic.com/privacy.htm" class="footer-global-pp">PRIVACY POLICY</a> &middot; <a href="http://www.scholastic.com/terms.htm">Terms of Use</a> &middot; TM &reg; &amp; &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Scholastic Inc. All Rights Reserved.
+</div>
+</div><!-- end footer wrapper -->
+
+
+    <!-- non-core js -->
+  <script type="text/javascript" src="http://www.scholastic.com/teachers/sites/default/files/js/js_c96d849ae9c6bf4da8d1928988f41134.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/teachers\/","jcarousel":{"ajaxPath":"\/teachers\/jcarousel\/ajax\/views"},"lightbox2":{"rtl":0,"file_path":"\/teachers\/(\\w\\w\/)sites\/default\/files","default_image":"\/teachers\/sites\/all\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false},"nice_menus_options":{"delay":800,"speed":1},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003cimg src=\"\/teachers\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\" alt=\"Close window\" title=\"Close window\" width=\"16\" height=\"16\" \/\u003e","throbber":"\u003cimg src=\"\/teachers\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\" alt=\"Loading...\" title=\"Loading\" width=\"32\" height=\"32\" \/\u003e"},"scholastic-modal-default":{"modalSize":{"type":"fixed","height":475,"width":720,"contentRight":70,"contentBottom":90},"modalTheme":"ScholasticModalDialog","modalOptions":{"opacity":".7","background":"#616161"},"closeImage":"\u003cimg src=\"\/teachers\/sites\/all\/modules\/custom\/save2orgnzr\/images\/modal-close.png\" alt=\"Close window\" title=\"Close\" width=\"26\" height=\"26\" class=\"scholastic-modal-close\" \/\u003e","closeText":""},"scholastic_sps":{"spscookie_isset":false},"getQ":"home","scholastic":{"buildEnvironment":"prod"}});
+//--><!]]>
+</script>
+
+  <div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<!-- ////////////////////////////////////////////////-->
+<!-- SiteCatalyst code version: H.5.
+Copyright 1997-2006 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+if (typeof(s) != 'undefined') {
+if (typeof(schlPageType) != 'undefined') {
+  if (schlPageType == 'landing' || schlPageType == 'listing') {
+    s.pageName=schlPageName;
+  }
+  else {
+    s.pageName=schlSiteOmni+':'+schlSiteLevel2+':'+schlPageType+':'+schlPageName;
+  }
+}
+s.channel=schlSiteOmni+":"+schlSiteTerm;
+s.server=schlSiteOmni;
+s.prop3=schlSiteOmni+":"+schlSiteLevel2;
+s.prop5=schlGradeList;
+if (schlGradeRange && schlGradeRange) {
+  s.prop5 += ",";
+}
+s.prop5 += schlGradeRange;
+s.prop18=schlSource;
+s.prop23=schlTermResource;
+s.prop26=schlThemeSponsored+schlTheme;
+s.prop41=schlGradeFilter;
+if (schlPageType != undefined) {
+  s.prop42=schlSiteOmni+":"+schlPageType;
+}
+s.hier3=schlSiteOmniFull
+if (schlSiteLevel2) {
+  s.hier3 += '|'+schlSiteLevel2;
+}
+if (schlSiteLevel3) {
+  s.hier3 += '|'+schlSiteLevel3;
+}
+if (schlSiteLevel4) {
+  s.hier3 += '|'+schlSiteLevel4;
+}
+if (schlSiteLevel5) {
+  s.hier3 += '|'+schlSiteLevel5;
+}
+if (schlSiteLevel6) {
+  s.hier3 += '|'+schlSiteLevel6;
+}
+s.eVar16="Teachers Content";
+s.list1=schlTermSubject;
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)
+} // End if (typeof(s) != 'undefined') 
+});
+//--></script>
+<script language="JavaScript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.5. -->
+<!-- ////////////////////////////////////////////////-->
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {
+  FB.init({
+    status : true, // check login status
+    cookie : true, // enable cookies to allow the server to access the session
+    xfbml  : true, // parse XFBML
+    oauth : true // enables OAuth 2.0
+  });
+});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"CToolsAJAX":{"scripts":{"\/teachers\/sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.min.js":true,"\/teachers\/misc\/drupal.js":true,"\/teachers\/sites\/all\/modules\/contrib\/lightbox2\/js\/lightbox.js":true,"\/teachers\/sites\/all\/modules\/contrib\/mollom\/mollom.js":true,"\/teachers\/sites\/all\/modules\/contrib\/nice_menus\/superfish\/js\/superfish.js":true,"\/teachers\/sites\/all\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.bgiframe.min.js":true,"\/teachers\/sites\/all\/modules\/contrib\/nice_menus\/superfish\/js\/jquery.hoverIntent.minified.js":true,"\/teachers\/sites\/all\/modules\/contrib\/nice_menus\/nice_menus.js":true,"\/teachers\/sites\/all\/modules\/contrib\/panels\/js\/panels.js":true,"\/teachers\/sites\/all\/modules\/contrib\/views_slideshow\/js\/jquery.cycle.all.min.js":true,"\/teachers\/sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_singleframe\/views_slideshow.js":true,"\/teachers\/sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_thumbnailhover\/views_slideshow.js":true,"\/teachers\/sites\/all\/modules\/custom\/save2orgnzr\/js\/modal.js":true,"\/teachers\/sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form.js":true,"\/teachers\/sites\/all\/modules\/contrib\/ctools\/js\/ajax-responder.js":true,"\/teachers\/sites\/all\/modules\/contrib\/ctools\/js\/modal.js":true,"\/teachers\/sites\/all\/modules\/contrib\/boxes\/boxes.js":true},"css":{"\/teachers\/modules\/node\/node.css":true,"\/teachers\/modules\/system\/defaults.css":true,"\/teachers\/modules\/system\/system.css":true,"\/teachers\/modules\/system\/system-menus.css":true,"\/teachers\/modules\/user\/user.css":true,"\/teachers\/sites\/all\/modules\/contrib\/cck\/theme\/content-module.css":true,"\/teachers\/sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":true,"\/teachers\/sites\/all\/modules\/contrib\/date\/date.css":true,"\/teachers\/sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":true,"\/teachers\/sites\/all\/modules\/contrib\/date\/date_popup\/themes\/jquery.timeentry.css":true,"\/teachers\/sites\/all\/modules\/contrib\/filefield\/filefield.css":true,"\/teachers\/sites\/all\/modules\/contrib\/lightbox2\/css\/lightbox.css":true,"\/teachers\/sites\/all\/modules\/contrib\/mollom\/mollom.css":true,"\/teachers\/sites\/all\/modules\/contrib\/nice_menus\/nice_menus.css":true,"\/teachers\/sites\/all\/modules\/contrib\/nice_menus\/nice_menus_default.css":true,"\/teachers\/sites\/all\/modules\/contrib\/panels\/css\/panels.css":true,"\/teachers\/sites\/all\/modules\/contrib\/tagadelic\/tagadelic.css":true,"\/teachers\/sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_singleframe\/views_slideshow.css":true,"\/teachers\/sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_thumbnailhover\/views_slideshow.css":true,"\/teachers\/sites\/all\/modules\/custom\/save2orgnzr\/css\/modal.css":true,"\/teachers\/sites\/all\/modules\/contrib\/ctools\/css\/modal.css":true,"\/teachers\/misc\/farbtastic\/farbtastic.css":true,"\/teachers\/sites\/all\/modules\/contrib\/calendar\/calendar.css":true,"\/teachers\/sites\/all\/modules\/contrib\/cck\/modules\/fieldgroup\/fieldgroup.css":true,"\/teachers\/sites\/all\/modules\/contrib\/views\/css\/views.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/layouts\/layout1\/layout1.css":true,"\/teachers\/sites\/all\/modules\/contrib\/boxes\/boxes.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/styles.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/tagging-interface.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/pagination.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/ads.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/genesis\/admin-styles.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/genesis\/messages.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/genesis\/forms.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/genesis\/tables.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/genesis\/typography.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/toBeRemoved.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/comments.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/lessonPlanLandings.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/teacherblogger.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/strategies-ideas.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/teacher-hp.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/resources-tools.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/books-authors.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/dailyStarters.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/listing-landing-pages.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/shop.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/new-teachers.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/featured-modules.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/contributor-works.css":true,"\/teachers\/sites\/all\/themes\/scholastic\/css\/savetoorganizerhide.css":true}}});
+//--><!]]>
+</script>
+
+</body>
+</html>

@@ -1,0 +1,689 @@
+
+
+
+
+
+
+   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+   <html lang="en">
+   <head>
+        <!-- START: META DATA -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+        <meta name="language" content="en">
+        <meta name="author" content="VA Web Solutions Office">
+        <meta name="subject" content="US Department of Veterans Affairs">
+        <meta name="keywords" content="veterans, benefits, services, VA, US Department of Veterans Affairs, Veterans Affairs, health, burial, memorial, compensation, pension, vocational rehabilitation, rehab, employment, counseling, insurance, appeals, board of veterans appeals, education, home loan guaranty">
+
+
+  
+        <meta name="description" content="The US Department of Veterans Affairs provides patient care and federal benefits to veterans and their dependents.  The home page for the Department of Veterans Affairs provides links to veterans benefits and services, as well as information and resources for other Departmental programs and offices.">
+  
+
+
+
+        <meta name="datecreated" content="20051003">
+        <meta name="datereviewed" content="20120417">
+
+
+
+        <meta name="resource-type" content="Homepage">
+        <!-- END: META DATA -->
+   
+        <title>U.S. Department of Veterans Affairs</title>
+   
+        <style type="text/css" media="screen,print">
+             @import url(/va_files/2009/styles/va-user-styles.css);
+             @import url(/va_files/2009/styles/vaSearch.css);
+             @import url(/va_files/2009/styles/jkmegamenu.css);
+             @import url(/va_files/2009/styles/va-styles.css);
+             @import url(homepage.css);
+        </style>
+
+<!--[if IE]>
+        <style type="text/css" media="screen">#slideNav ul li a { zoom:100%; }</style>
+<![endif]-->
+
+        <style type="text/css" media="screen">
+             #prBanner { display:none; }
+        </style>
+   
+        <style type="text/css" media="print">
+             #prBanner { padding:0px; margin:0px; border:0px; position: relative; }
+             #banner-wrapper { display:none; }
+             #banner-area-menu { display:none; }
+             #footer-area-links { display:none; }
+             #slideNav { display:none; }
+        </style>
+        
+        <!-- for xbox -->
+        <style type="text/css">
+           #simplemodal-container a.modalCloseImg {
+               background:url(images/x.png) no-repeat;  
+               width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-18px; cursor:pointer;}
+        </style> 
+        
+<!--[if lt IE 7]>
+        <style type='text/css'>
+           #simplemodal-container a.modalCloseImg {
+               background:none; right:-14px; width:22px; height:26px; 
+               filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/x.png', sizingMethod='scale');}
+        </style>
+<![endif]-->        
+
+        <script type="text/javascript" src="/va_files/2009/scripts/global.js"></script>
+        
+        <!-- for slideshow and xbox -->
+        <script type="text/javascript" src="index_xbox_slideshow.js"></script>
+        
+        <script type="text/javascript" src="/va_files/fsrscripts/triggerParams.js"></script>
+        <script type="text/javascript" src="/va_files/fsrscripts/stdLauncher.js"></script>
+        <script type="text/javascript">Poll();</script>
+
+   </head>
+
+   <body class="mainbody">
+       <div id="skiplink"> <a href="#content-wrapper">skip to page content</a> </div>
+       <!-- xbox -->
+       <script language="javascript" type="text/javascript">createXbox();</script>
+
+       <!-- OUTER CONTAINER -->
+       <div class="bdywrpr">
+       
+           <!-- START: VA PRINT BANNER -->
+           <img src="/va_files/2009/images/inter-header-banner-print.gif" id="prBanner" width="996" height="100" alt="United States Department of Veterans Affairs" title="United States Department of Veterans Affairs">
+           <!-- END: VA PRINT BANNER -->
+           
+           <!-- START: VA BANNER AND SEARCH FORM -->
+           <div id="banner-wrapper">
+                <!-- BANNER -->
+                <div id="banner-image">
+                     <a href="http://www.va.gov/" title="United States Department of Veterans Affairs"><img src="/va_files/2009/images/inter-header-banner-va-seal.gif" width="538" height="94" alt="United States Department of Veterans Affairs" title="United States Department of Veterans Affairs"></a>
+                </div>
+                <!-- END BANNER -->
+                
+                <!-- SEARCH -->
+                <div id="banner-area-search">
+                     <div id="search-area">
+                          <form name="searchForm" id="searchForm" method="GET" action="http://www.index.va.gov/search/va/va_search.jsp" style="margin:0px; padding:0px;">
+                                <script language="javascript" src="/va_files/2009/scripts/vaSearch.js" type="text/javascript"></script>
+                                <input name="TT" type="hidden" id="TThidden" value="1">
+                                     <!-- do not insert line breaks in the div tag below -->
+                                     <div id="mainSearchForm"><label for="searchtxt" style="display:none">Enter your search text</label><input name="QT" type="text" id="searchtxt" size="5" title="Enter your search text" value=""><label for="searchbtn" style="display:none">Button to start search</label><input name="searchbtn" type="submit" id="searchbtn" title="Button to start search" value="Search"></div>
+                                     <!-- do not insert line breaks in the div tag above -->
+                                     <div id="moreLink">&raquo;&nbsp;<a href="http://www.index.va.gov/search/va/va_adv_search.jsp" style="color:#ffffff" title="Go to Advanced Search Page">Open Advanced Search</a></div>
+                          </form>
+                     </div>
+                <!-- END SEARCH -->
+                </div>
+           </div>
+           <!-- END: VA BANNER AND SEARCH FORM -->
+           
+           <!-- START: MEGA MENU -->
+           <div id="banner-area-menu">
+                <!-- START: GLOBAL MEGA MENU LINKS -->
+                <script language="javascript" type="text/javascript">createMenu();</script>
+                <noscript>
+                      <!-- START: NOSCRIPT FOR GLOBAL MEGA MENU LINKS -->
+                      <ul>
+                         <li><a href="http://www.va.gov/" title="main menu item Home">Home</a></li>
+                         <li><a href="http://www.va.gov/landing2_vetsrv.htm" title="main menu item Veteran Services">Veteran Services</a></li>
+                         <li><a href="http://www.va.gov/landing2_business.htm" title="main menu item Business">Business</a></li>
+                         <li><a href="http://www.va.gov/landing2_about.htm" title="main menu item About VA">About VA</a></li>
+                         <li><a href="http://www.va.gov/landing2_media_room.htm" title="main menu item Media Room">Media Room</a></li>
+                         <li><a href="http://www.va.gov/landing2_locations.htm" title="main menu item Locations">Locations</a></li>
+                         <li><a href="http://www.va.gov/landing2_contact.htm" title="main menu item Contact Us">Contact Us</a></li>
+                      </ul>
+                      <!-- END: NOSCRIPT FOR GLOBAL MEGA MENU LINKS -->
+                </noscript>
+                <!-- END: GLOBAL MEGA MENU LINKS -->
+           </div>
+           <!-- END: MEGA MENU -->
+           
+           <div id="content-wrapper">
+                <div id="hpArea">
+                     <!--BEGIN SLIDESHOW-->
+                     <div id="slideshow-wrapper">
+
+
+
+   
+                          <!--start slide --> 
+   
+   
+   
+      
+                          <div id="slide1" class="slide">
+      
+   
+
+   
+
+     
+   
+     
+   
+                               <div class="slideImage-container"> 
+                                   <div class="slideImage">
+   
+   
+   
+         
+
+                                       <a href="ext_redirect.asp?url=http://www.flickr.com/photos/veteransaffairs/sets/72157629474294302/" title="VA Secretary Meets with Vets in Wilmington ">
+         
+      
+   
+   
+                                       <img src="images/news/7087471471_35ede00a0e_z.jpg" width="645" height="341" alt="Secretary Shinseki shakes hands with a VA volunteer">
+   
+
+   
+         
+
+                                       </a>
+         
+      
+   
+   
+                                   </div>
+   
+   
+   
+   
+   
+                                   <div class="slideCaption">
+                                        <p>&nbsp;</p>
+                                   </div>
+                               </div>
+                               
+                               <div class="slideText">
+                                    <div class="slideshow-content">
+                                         <h5>VA Secretary Meets with Vets in Wilmington</h5>
+                                         <p>On April 13, VA Secretary Eric Shinseki toured the Wilmington Veterans Affairs Medical Center and met with Veterans. He also met with local leadership to discuss VA&rsquo;s progress.&nbsp;<a title="View photos" href="ext_redirect.asp?url=http://www.flickr.com/photos/veteransaffairs/sets/72157629474294302/">View photos</a></p>
+                                    </div>
+                               </div>
+ 
+                          </div>
+                          <!--end slide -->
+   
+
+   
+                          <!--start slide --> 
+   
+   
+   
+      
+                          <div id="slide2" class="slide hide">
+      
+   
+
+   
+
+     
+   
+     
+   
+                               <div class="slideImage-container"> 
+                                   <div class="slideImage">
+   
+   
+   
+         
+
+                                       <a href="http://www.va.gov/opa/pressrel/pressrelease.cfm?id=2298" title="VA&#39;s Volunteer Service Celebrates Volunteer Week">
+         
+      
+   
+   
+                                       <img src="images/news/VAvolunteer.jpg" width="645" height="341" alt="A VA volunteer with a Veteran">
+   
+
+   
+         
+
+                                       </a>
+         
+      
+   
+   
+                                   </div>
+   
+   
+   
+   
+   
+                                   <div class="slideCaption">
+                                        <p>&nbsp;</p>
+                                   </div>
+                               </div>
+                               
+                               <div class="slideText">
+                                    <div class="slideshow-content">
+                                         <h5>VA&#39;s Volunteer Service Celebrates Volunteer Week</h5>
+                                         <p>It&#39;s National Volunteer Week, and VA is&nbsp;<a title="recognizing" href="http://www.prescott.va.gov/features/Making_a_Difference_in_the_Lives_of_Veterans.asp">recognizing</a>&nbsp;the invaluable contribution of volunteers across the country.&nbsp;<a title="Learn more" href="http://www.va.gov/opa/pressrel/pressrelease.cfm?id=2298">Learn more</a>&nbsp;
+</p>
+                                    </div>
+                               </div>
+ 
+                          </div>
+                          <!--end slide -->
+   
+
+   
+                          <!--start slide --> 
+   
+   
+   
+      
+                          <div id="slide3" class="slide hide">
+      
+   
+
+   
+
+     
+   
+     
+   
+                               <div class="slideImage-container"> 
+                                   <div class="slideImage">
+   
+   
+   
+   
+   
+                                       <img src="images/news/powlunch.jpg" width="645" height="341" alt="Former POWs and their families at a lunch">
+   
+
+   
+   
+   
+                                   </div>
+   
+   
+   
+   
+   
+                                   <div class="slideCaption">
+                                        <p>&nbsp;</p>
+                                   </div>
+                               </div>
+                               
+                               <div class="slideText">
+                                    <div class="slideshow-content">
+                                         <h5>Amarillo VA Medical Center Honors Former POWs</h5>
+                                         <p>About 50 former prisoners of war were honored at the Thomas E. Creek VA Medical Center in Amarillo, Texas on April 9. The facility recognizes former POWs twice a year.  </p>
+                                    </div>
+                               </div>
+ 
+                          </div>
+                          <!--end slide -->
+   
+
+   
+                          <!--start slide --> 
+   
+   
+   
+      
+                          <div id="slide4" class="slide hide">
+      
+   
+
+   
+
+     
+   
+     
+   
+                               <div class="slideImage-container"> 
+                                   <div class="slideImage">
+   
+   
+   
+         
+
+                                       <a href="ext_redirect.asp?url=http://www.flickr.com/photos/veteransaffairs/sets/72157629436578270/" title="VA Secretary Meets with Philadelphia Vets">
+         
+      
+   
+   
+                                       <img src="images/news/sechospitalvisit.jpg" width="645" height="341" alt="Secretary Shinseki meets with a Veteran">
+   
+
+   
+         
+
+                                       </a>
+         
+      
+   
+   
+                                   </div>
+   
+   
+   
+   
+   
+                                   <div class="slideCaption">
+                                        <p>&nbsp;</p>
+                                   </div>
+                               </div>
+                               
+                               <div class="slideText">
+                                    <div class="slideshow-content">
+                                         <h5>VA Secretary Meets with Philadelphia Vets</h5>
+                                         <p>On April 11, VA Secretary Eric Shinseki met with Veterans as he toured the Philadelphia VA Medical Center.&nbsp;<br><a title="View photos" href="ext_redirect.asp?url=http://www.flickr.com/photos/veteransaffairs/sets/72157629436578270/">View photos</a></p>
+                                    </div>
+                               </div>
+ 
+                          </div>
+                          <!--end slide -->
+   
+
+   
+                          <!--start slide --> 
+   
+   
+   
+      
+                          <div id="slide5" class="slide hide">
+      
+   
+
+   
+
+     
+   
+     
+   
+                               <div class="slideImage-container"> 
+                                   <div class="slideImage">
+   
+   
+   
+         
+
+                                       <a href="ext_redirect.asp?url=http://www.whitehouse.gov/joiningforces/" title="Joining Forces: Just Getting Started">
+         
+      
+   
+   
+                                       <img src="images/news/Joiningforces.jpg" width="645" height="341" alt="First Lady Michelle Obama at a Joining Forces event">
+   
+
+   
+         
+
+                                       </a>
+         
+      
+   
+   
+                                   </div>
+   
+   
+   
+   
+   
+                                   <div class="slideCaption">
+                                        <p>&nbsp;</p>
+                                   </div>
+                               </div>
+                               
+                               <div class="slideText">
+                                    <div class="slideshow-content">
+                                         <h5>Joining Forces: Just Getting Started</h5>
+                                         <p>Joining Forces, a White House initiative focused on employment opportunities and support for Veterans and their loved ones, is celebrating its one year anniversary. <br><a title="Learn more about Joining Forces" href="ext_redirect.asp?url=http://www.whitehouse.gov/joiningforces/">Learn more about Joining Forces</a></p>
+                                    </div>
+                               </div>
+ 
+                          </div>
+                          <!--end slide -->
+   
+
+
+
+
+
+
+                     </div>
+                     <!--END SLIDESHOW-->
+                     
+                     <!-- CONTENT -->
+                        <div class="hp-sections">
+    <!--start section 1 -->
+    <div class="hp-sect1">
+      <div class="hp-sect-banner">In The News</div>
+<!-- In the news: Begin -->
+      <p class="news-header">VA Voluntary Service Celebrates National Volunteer Week </p>
+     <p class="news-content">
+The Department of Veterans Affairs Voluntary Service (VAVS) joins a grateful Nation to celebrate National Volunteer Week, April 15-21.<br>
+<a href="http://www.va.gov/opa/pressrel/pressrelease.cfm?id=2298" title="Link to VA Press Release">More information</a>
+     </p>
+<!-- In the news: End -->
+<hr>
+
+<!-- In the news: Begin -->
+      <p class="news-header">VA Awards More Than $2.4 Million to Colorado Veterans Home at Rifle</p>
+     <p class="news-content">
+The Department of Veterans Affairs is awarding more than $2.4 million to make improvements, including energy conservation measures, to the Colorado State Veterans Home at Rifle.<br>
+<a href="http://www.va.gov/opa/pressrel/pressrelease.cfm?id=2296" title="Link to VA Press Release">More information</a>
+     </p>
+<!-- In the news: End -->
+<hr>
+<!-- In the news: Begin -->
+      <p class="news-header">Markey to Lead VA Insurance Program</p>
+     <p class="news-content">
+Vincent E. Markey of Philadelphia has been named director of the Department of Veterans Affairs&#39; Insurance Center, the eighth-largest life insurance program in the world covering more than 4 million Veterans, active-duty Servicemembers, and Reserve Component and National Guard members, plus 3.1 million spouses and children.<br>
+<a href="http://www.va.gov/opa/pressrel/pressrelease.cfm?id=2294" title="Link to VA Press Release">More information</a>
+     </p>
+<!-- In the news: End -->
+<hr>
+
+<!-- In the news: Begin -->
+      <p class="news-header">VA Announces Contract for Landscaping in Biloxi</p>
+     <p class="news-content">
+The Department of Veterans Affairs has selected a company for landscaping site improvements at the Biloxi Gulf Coast Veterans Health Care System in Biloxi, Miss., as part of the ongoing major capital improvement program.
+<a href="http://www.va.gov/opa/pressrel/pressrelease.cfm?id=2295" title="Link to VA Press Release">More information</a>
+     </p>
+<!-- In the news: End -->
+<hr>
+
+<!-- In the news: Begin -->
+      <p class="news-header">VA Grant Supports Improvement at Pennsylvania Veterans Facility</p>
+     <p class="news-content">
+The Department of Veterans Affairs is awarding nearly $1.9 million to install life safety fire alarms and sprinkler systems at the Pennsylvania Veterans home in Hollidaysburg.
+<a href="http://www.va.gov/opa/pressrel/pressrelease.cfm?id=2293" title="Link to VA Press Release">More information</a>
+     </p>
+<!-- In the news: End -->
+<hr>
+
+
+
+
+
+
+</div>
+
+    <!--start section 2 -->
+    <div class="hp-sect2">
+     <div class="hp-sect-banner">Hot Topics</div>       
+<!-- Hot Topics: Begin -->
+         <p class="news-header">VA Publishes Draft on Scientific Integrity for Public Comment</p>
+     <p class="news-content">
+At the direction of the President, VA and other federal agencies have drafted policies to foster a culture of transparency, integrity, and ethical behavior and to protect researchers from inappropriate influence in the development and application of scientific and technological findings.<br>  
+<a href=" http://www.va.gov/health/scint.asp" title="Go to the comments">Read the draft policy and comment.</a> 
+     </p>
+     <!-- Hot Topics: End -->  
+     <hr>  
+<!-- Hot Topics: Begin -->
+         <p class="news-header">VA Gulf War Task Force Report Released</p>
+     <p class="news-content">
+VA has released the second in a series of annual reports from its Gulf War Veterans Illnesses Task Force, outlining how the department will address the concerns of Veterans deployed during the Gulf War of 1990-1991. The report focuses on efforts to improve the delivery of health care for Gulf War Veterans, including the launch of a prototype clinical care model specifically for Gulf War Veterans.<br><a href="http://www.va.gov/opa/publications/2011_GWVI-TF_Report.pdf" title="Link to report file">View the complete report</a> 
+     </p>
+     <!-- Hot Topics: End -->  
+     <hr>  
+        
+    <!-- Hot Topics: Begin -->
+         <p class="news-header">VA Tribal Consultation in Washington, DC</p>
+     <p class="news-content">
+The Department of Veterans Affairs will host a Tribal Consultation on the following VA programs: Native American Direct Loan Program, Tribal Cemetery Grants, and and engaging Tribes locally and nationally in the workgroup activities pertaining to the VA/IHS Memorandum of Understanding.  The consultation will be held on Thursday, April 5, 2012 at 9:00am. The Consultation Session will be held at L&#39;Enfant Plaza Hotel, 480 L&#39;Enfant Plaza, SW, Washington, DC 20024.<br> <a href="http://www.va.gov/tribalgovernment/docs/FY2012_Consultation_Letter.pdf" title="Download the Dear Tribal Leader Letter">Download the Dear Tribal Leader Letter</a>
+
+
+</p>
+     <!-- Hot Topics: End -->  
+     
+     <hr>
+
+<!-- In the news: Begin -->
+      <p class="news-header">VA Publishes its 2011 Highlights for the Citizen</p>
+     <p class="news-content">
+On November 15th, VA published its 2011 Performance and Accountability Report (PAR).  The PAR enables the President, Congress, Veterans Service Organizations, and the public to assess VA&#39;s performance on behalf of America&#39;s Veterans.  The 2011 Highlights for the Citizen, which presents the most important information from the PAR in a condensed, user-friendly format, is now available.
+<a href="http://www.va.gov/budget/report/" title="Link to Report">View the report page</a> for more information
+     </p>
+<!-- In the news: End -->
+
+
+   
+    </div>
+    <!--start section 3 -->
+    <div class="hp-sect3">
+        <!--Start VA Connect section -->
+     <div class="hp-sect-banner">Connect with VA!</div>
+      <table summary="This table is for layout purposes only" border="0" cellpadding="4">
+       <tbody>
+       <tr>
+        <td style="width:60px" align="center"><a href="http://www.blogs.va.gov" title="VA Blog" style="text-decoration:none"><img alt="VA Blog" src="images/homepage/blogbutton.png"></a><br><a href="http://www.blogs.va.gov" title="VA Blog"><span style="font-size:11px">Blog</span></a></td>
+        <td style="width:60px" align="center"><a href="ext_redirect.asp?url=http://www.facebook.com/VeteransAffairs" title="VA on Facebook" style="text-decoration:none"><img alt="Facebook" src="images/homepage/facebook_32.png"></a><br><a href="ext_redirect.asp?url=http://www.facebook.com/VeteransAffairs" title="VA on Facebook"><span style="font-size:11px">Facebook</span></a></td>
+        <td style="width:60px" align="center"><a href="ext_redirect.asp?url=http://www.twitter.com/DeptVetAffairs/" title="VA on Twitter" style="text-decoration:none"><img alt="Twitter" src="images/homepage/twitter_32.png"></a><br><a href="ext_redirect.asp?url=http://www.twitter.com/DeptVetAffairs/" title="VA on Twitter"><span style="font-size:11px">Twitter</span></a></td>
+        <td style="width:60px" align="center"><a href="ext_redirect.asp?url=http://www.flickr.com/photos/VeteransAffairs/" title="VA on Flickr" style="text-decoration:none"><img alt="Flickr" src="images/homepage/flickr_32.png"></a><br><a href="ext_redirect.asp?url=http://www.flickr.com/photos/VeteransAffairs/" title="VA on Flickr"><span style="font-size:11px">Flickr</span></a></td>
+        <td style="width:60px" align="center"><a href="ext_redirect.asp?url=https://www.youtube.com/user/DeptVetAffairs" title="VA on YouTube" style="text-decoration:none"><img alt="YouTube" src="images/homepage/youtube_32.png"></a><br><a href="ext_redirect.asp?url=https://www.youtube.com/user/DeptVetAffairs" title="VA on YouTube"><span style="font-size:11px">YouTube</span></a></td>
+        </tr>
+        </tbody>
+        </table>
+        <table summary="Extra link for social media directory">
+        <tr>
+       <td style="padding-left:15px; padding-bottom:10px;"><a href="http://www.va.gov/opa/socialmedia.asp" title="Link to VA&rsquo;s social media directory"><span style="font-weight:bold;">View VA&rsquo;s social media directory</span></a></td>
+       </tr>
+       </table>
+                    <!--End VA Connect section -->
+                    <!--Start Quick List section -->
+     <div class="hp-sect-banner">Quick List</div>
+     <ul class="hp-sect-links">
+      <li><a href="http://vabenefits.vba.va.gov/vonapp/" title="Veterans ON&ndash;line Application (VONAPP)">Veterans ON&ndash;line Application (VONAPP)</a></li>
+      <li><a href="https://www.1010ez.med.va.gov/sec/vha/1010ez/" title="Enroll/Update Medical Benefits (10&ndash;10EZ)">Enroll/Update Medical Benefits (10&ndash;10EZ)</a></li>
+      <li><a href="http://www.myhealth.va.gov/" title="My HealtheVet">My Health<span style="font-weight:bold; font-size:14px"><i>e</i></span>Vet</a></li>
+      <li><a href="http://www.ebenefits.va.gov/" title="eBenefits">eBenefits</a></li>
+      <li><a href="http://www.insurance.va.gov/miscellaneous/choose.htm" title="Life Insurance Online Applications">Life Insurance Online Applications</a></li>
+      <li><a href="http://www.va.gov/vaforms/" title="VA Forms">VA Forms</a></li>
+      <li><a href="http://www.va.gov/jobs/" title="Federal Jobs for Veterans">Careers</a></li>
+      <li><a href="http://www.va.gov/about_va/va_notices.asp" title="VA Notices">Notices</a></li>
+     </ul>
+                    <!--End Quick List section -->
+                    <!--Start Highlights section -->
+     <div class="hp-sect-banner">Highlights</div>
+     <ul class="hp-sect-links">
+      <li><a href="http://www.va.gov/landing2_locations.htm" title="State and Local Resources">State and Local Resources</a></li>
+      <li><a href="http://www.gibill.va.gov/" title="Post 9/11 GI Bill">Post 9/11 GI Bill</a></li>
+      <li><a href="https://www.myhealth.va.gov/mhv-portal-web/anonymous.portal?_nfpb=true&amp;_pageLabel=rxRefill" title="Prescriptions">Prescriptions</a></li>
+      <li><a href="VA_2011-2015_Strategic_Plan_Refresh_wv.pdf" title="VA Strategic Plan FY 2011 &ndash; 2015">VA Strategic Plan FY 2011 &ndash; 2015</a></li>
+      <li><a href="http://www.va.gov/budget/products.asp" title="VA 2013 Budget Submission">VA 2013 Budget Submission</a></li>
+      <li><a href="ext_redirect.asp?url=http://www.veteranscrisisline.net" title="National Veterans Crisis Hotline 1&ndash;800&ndash;273&ndash;TALK (8255), Press 1">Veterans Crisis Line 1&ndash;800&ndash;273&ndash;8255, Press  1</a></li>
+     </ul>
+                    <!--End Highlights section -->
+                    <!--Start Special Programs section -->
+     <div class="hp-sect-banner">Special Programs</div>
+     <ul class="hp-sect-links">
+      <li><a href="http://www.oefoif.va.gov/" title="Returning Service Members">Returning Service Members (OEF/OIF)</a></li>
+      <li><a href="http://www.vba.va.gov/bln/vre/" title="Vocational Rehabilitation &amp; Employment">Vocational Rehabilitation &amp; Employment</a></li>
+      <li><a href="http://www.va.gov/homeless/" title="Homeless Veterans">Homeless Veterans</a></li>
+      <li><a href="http://www.vba.va.gov/bln/21/milsvc/" title="Military Service Benefits">Military Service Benefits</a></li>
+      <li><a href="http://www.va.gov/centerforminorityveterans/" title="Minority Veterans">Minority Veterans</a></li>
+      <li><a href="http://www.va.gov/survivors/" title="Surviving Spouses and Dependents">Surviving Spouses and Dependents</a></li>
+                        <li><a href="http://www.va.gov/womenvet/" title="Women Veterans">Women Veterans</a></li>
+      <li><a href="http://www.va.gov/adaptivesports/" title="Adaptive Sports">Adaptive Sports Program</a></li>
+     </ul>
+     <div style="text-align:center">
+      <a href="http://www.volunteer.va.gov/VoterAssistance.asp" title="Link to VA Volunteer Site">
+       <img alt="Link to VA Volunteer Site" src="images/news/VetsVote.gif" width="200" height="60">
+      </a>
+     </div>
+                    <!--End Special Programs section -->
+    </div>
+   </div>
+
+
+
+
+
+
+                     <!-- END CONTENT -->
+                     
+                     <div style="position:relative; clear:both; height:1px; overflow:hidden"> </div>
+                     
+                     <!-- START OF SmartSource Data Collector TAG -->
+                     <!-- Copyright (c) 1996-2011 WebTrends Inc.  All rights reserved. -->
+                     <!-- Version: 9.4.0 -->
+                     <!-- Tag Builder Version: 3.2  -->
+                     <!-- Created: 6/27/2011 11:38:31 AM -->
+                     <script src="/va_files/2009/scripts/webtrends.js" type="text/javascript"></script>
+                     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                     <!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+                     <!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+                     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                     <script type="text/javascript">
+                     //<![CDATA[
+var _tag=new WebTrends();
+//]]>
+                     </script>
+                     <script type="text/javascript">
+                     //<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+}
+_tag.dcsCollect();
+//]]>
+                     </script>
+                     <noscript>
+                     <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://www.analytics.va.gov/dcsrbis1b10000g8p1mpn2y26_4h1p/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;DCS.dcscfg=1&amp;WT.tv=9.4.0&amp;dcssip=www.va.gov"/></div>
+                     </noscript>
+                     <!-- END OF SmartSource Data Collector TAG -->
+                     
+                     <hr id="content-footer-divider">
+                     
+                     <!-- START: VA FOOTER -->
+                     <div id="footer-area">
+                             <p id="footer-area-links">
+     <a href="http://www.va.gov/" title="VA Home">VA Home</a>&nbsp;|
+     <a href="http://www.va.gov/privacy/" title="Privacy">Privacy</a>&nbsp;|
+     <a href="http://www.foia.va.gov/" title="FOIA">FOIA</a>&nbsp;|
+     <a href="http://www.va.gov/orpm/" title="Regulations">Regulations</a>&nbsp;|
+     <a href="http://www.va.gov/webpolicylinks.asp" title="Web Policies">Web Policies</a>&nbsp;|
+     <a href="http://www.va.gov/about_va/va_notices.asp" title="Notices">Notices</a>&nbsp;|
+     <a href="http://www.va.gov/orm/NOFEAR_Select.asp" title="No FEAR Act">No FEAR Act</a>&nbsp;|
+     <a href="http://www.va.gov/general/site_map.htm" title="Site Index">Site Index</a>&nbsp;|
+     <a href="ext_redirect.asp?url=http://www.usa.gov/" title="USA.gov">USA.gov</a>&nbsp;|
+     <a href="ext_redirect.asp?url=http://www.whitehouse.gov/" title="White House">White House</a>&nbsp;|
+     <a href="ext_redirect.asp?url=http://www.nationalresourcedirectory.gov/" title="National Resource Directory">National Resource Directory</a>&nbsp;|
+     <a href="http://www.va.gov/oig/" title="Inspector General">Inspector General</a>
+    </p>
+    <p id="footer-address">U.S. Department of Veterans Affairs &ndash; 810 Vermont Avenue, NW &ndash; Washington, DC 20420</p>
+   
+                     </div>
+                     <!-- END: VA FOOTER -->
+                </div>
+          
+                <p id="footer-review">Reviewed/Updated Date: <!-- START: LAST MOD DATE -->April 17, 2012<!-- END: LAST MOD DATE --></p>
+
+           </div>
+       </div>
+       <!-- OUTER CONTAINER -->
+
+   </body>
+</html>
+
+
+

@@ -1,0 +1,1786 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+
+<script type="text/javascript">
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function eraseCookie(name) {
+	createCookie(name,"",-1);
+}
+
+</script>
+
+
+
+
+
+<meta http-equiv="refresh" content="600;url=http://dailycaller.com?refresh=true">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>The Daily Caller</title>
+
+<link rel="stylesheet" href="http://cdn2.dailycaller.com/wp-content/themes/default/style1.19.css?v=1.19" type="text/css" media="screen" />
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="http://cdn2.dailycaller.com/wp-content/themes/default/style-ie7.css?v=1.19" type="text/css" media="screen" />
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller" href="http://feeds.dailycaller.com/dailycaller" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Politics" href="http://feeds.dailycaller.com/dailycaller-politics" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - U.S." href="http://feeds.dailycaller.com/dailycaller-us" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Entertainment" href="http://feeds.dailycaller.com/dailycaller-entertainment" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - World" href="http://feeds.dailycaller.com/dailycaller-world" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Sports" href="http://feeds.dailycaller.com/dailycaller-sports" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Business" href="http://feeds.dailycaller.com/dailycaller-business" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Tech" href="http://feeds.dailycaller.com/dailycaller-tech" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Video" href="http://feeds.dailycaller.com/dailycaller-video" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Opinion" href="http://feeds.dailycaller.com/dailycaller-opinion" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - KausFiles" href="http://feeds.dailycaller.com/dailycaller-kausfiles" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Matt Lewis and The News" href="http://feeds.dailycaller.com/dailycaller-mattlewis" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - Hammertime" href="http://feeds.dailycaller.com/dailycaller-hammertime" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller - DC Trawler" href="http://feeds.dailycaller.com/dailycaller-dctrawler" />
+
+
+<link rel="pingback" href="http://dailycaller.com/xmlrpc.php" />
+<link rel="icon" href="http://cdn2.dailycaller.com/wp-content/themes/default/images/favicon.ico" type="image/x-icon" />
+
+
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller &raquo; Feed" href="http://dailycaller.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Daily Caller &raquo; Comments Feed" href="http://dailycaller.com/comments/feed/" />
+<link rel='stylesheet' id='fancybox-css'  href='http://cdn2.dailycaller.com/wp-content/themes/default/js/fancybox/jquery.fancybox-1.3.4.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-postratings-css'  href='http://cdn2.dailycaller.com/wp-content/plugins/wp-postratings/postratings-css.css?ver=1.50' type='text/css' media='all' />
+<script type='text/javascript' src='http://dailycaller.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js?ver=1.5.2'></script>
+<script type='text/javascript' src='http://dailycaller.com/wp-content/plugins/ss-dc-exec-video/js/ooyala-companion-ad.js?ver=0.2001'></script>
+<script type='text/javascript' src='http://dailycaller.com/wp-includes/js/swfobject.js?ver=2.2'></script>
+<script type='text/javascript' src='http://widget.perfectmarket.com/dailycaller/load.js?ver=0.2'></script>
+<script type='text/javascript' src='http://cdn2.dailycaller.com/wp-content/themes/default/js/fancybox/jquery.fancybox-1.3.4.pack.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://cdn2.dailycaller.com/wp-content/themes/default/js/bxslider/jquery.bxSlider.min.js?ver=3.0'></script>
+<script type='text/javascript' src='http://apis.google.com/js/plusone.js?ver=1.0'></script>
+<script type='text/javascript' src='http://ox-d.dailycaller.com/w/1.0/jstag?ver=0.1'></script>
+<script type='text/javascript' src='http://dailycaller.com/wp-content/plugins/ss_esl/js/jquery_helper.js?ver=0.34'></script>
+<style type="text/css">img.nothumb{border:0;margin:0 0 0 2px !important;}</style>
+<!-- Tweet This v1.8.3 b037 mode alpha -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://dailycaller.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://dailycaller.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='The Daily Caller' href='http://dailycaller.com/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='shortlink' href='http://dailycaller.com/?p=2470441' />
+
+<!-- All in One SEO Pack 1.6.13.3 by Michael Torbert of Semper Fi Web Design[1052,1076] -->
+<meta name="keywords" content="barack obama,obamacare,warren buffett,elections 2012,mitt romney,mormonism,ron paul,jack hunter,coca-cola,bev perdue,north carolina,adolf hitler,joseph stalin,roger clemens,bob beckel, fox news, head start,fox news,head start,jennifer stefano,solyndra, department of energy, solar3d,department of energy,james nelson,solar3d,walter dalton,apple,coal,data center,greenpeace,barbara walters,the view,taurus 905 9mm revolver,fracking,u.s. geological survey,9th circuit court of appeals,arizona,immigration,voter id laws,sexual assault" />
+<link rel="canonical" href="http://dailycaller.com/" />
+<!-- /all in one seo pack -->
+<script type="text/javascript" src="http://cdn2.dailycaller.com/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://cdn2.dailycaller.com/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"eeeeee",lefticon:"333333",volslider:"5d5e5e",voltrack:"ffffff",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"cd2b2b",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+	<script type="text/javascript">
+	
+	jQuery(document).ready(function(){
+		jQuery('#more-slider').bxSlider({
+			prevText: '&laquo; Previous',
+			nextText: 'Next &raquo;'   
+		});
+	});
+
+	</script>
+	
+		<script language="javascript" type="text/javascript">
+		<!-- Begin
+		function ddrc_popup(URL,WIDTH,HEIGHT) {
+		day = new Date(); id = day.getTime();
+		eval("ddrcpage" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=' + WIDTH + ',height=' + HEIGHT + '');");
+		}
+		// End -->
+		</script>
+		
+	<!-- Start Facebook Opengraph -->
+	
+	<meta property="fb:app_id" content="143489452702" />
+	<meta property="og:site_name" content="The Daily Caller"/>
+	<meta property="og:title" content="The Daily Caller"/>
+	<meta property="og:url" content="http://dailycaller.com"/>
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://cdn2.dailycaller.com/dc.png" />
+	
+		
+	<!-- End Facebook Opengraph -->
+	
+	<!-- Vipers Video Quicktags v6.3.0 | http://www.viper007bond.com/wordpress-plugins/vipers-video-quicktags/ -->
+<style type="text/css">
+.vvqbox { display: block; max-width: 100%; visibility: visible !important; margin: 10px auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox object { max-width: 100%; } 
+</style>
+<script type="text/javascript">
+// <![CDATA[
+	var vvqflashvars = {};
+	var vvqparams = { wmode: "opaque", allowfullscreen: "true", allowscriptaccess: "always" };
+	var vvqattributes = {};
+	var vvqexpressinstall = "http://cdn2.dailycaller.com/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]>
+</script>
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+<script type="text/javascript">
+
+var currPic = 1;
+
+function doToggle(id, style){
+	var c = document.getElementById(id);
+	c.style.display = style;
+}
+
+function doPics(dir, max){
+	
+	currPic += dir;
+	
+	for(i=0; i<max; i++){
+		var c = document.getElementById('pic-' + (i+1));
+		
+		if ((i+1) == currPic) {
+			c.style.display = '';
+		} else {
+			c.style.display = 'none';
+		}
+	}
+	
+	var prev = document.getElementById('pic-arrow-prev');
+	var next = document.getElementById('pic-arrow-next');
+	
+	if (currPic > 1) {
+		prev.style.display = '';
+	} else {
+		prev.style.display = 'none';
+	}
+	
+	if (currPic < max) {
+		next.style.display = '';
+	} else {
+		next.style.display = 'none';
+	}
+}
+
+</script>
+
+<script language="javascript" type="text/javascript">
+<!-- 
+//Browser Support Code
+function emailAjaxSubscriptionSubmitFunction(isWidget){
+	var ajaxRequest;  // The variable that makes Ajax possible!
+
+	try{
+		// Opera 8.0+, Firefox, Safari
+		ajaxRequest = new XMLHttpRequest();
+	} catch (e){
+		// Internet Explorer Browsers
+		try{
+			ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try{
+				ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e){
+				// Something went wrong
+				alert("Your browser is not compatible with AJAX.");
+				return false;
+			}
+		}
+	}
+	
+	var prevSubmitHTML = document.getElementById('EmailSubmitButton').innerHTML;
+	document.getElementById('EmailSubmitButton').innerHTML = '<img src="/wp-content/themes/default/images/ajax-loader.gif">';
+
+	// Create a function that will receive data sent from the server
+	ajaxRequest.onreadystatechange = function(){
+		if(ajaxRequest.readyState == 4){
+			if(isWidget){
+				document.getElementById('widgetEmailResults').innerHTML = ajaxRequest.responseText;				
+			}
+			else{
+			document.getElementById('results').innerHTML = ajaxRequest.responseText;				
+			}
+
+			document.getElementById('EmailSubmitButton').innerHTML = prevSubmitHTML;
+		}
+	}
+	
+	
+	var email = document.getElementById('email').value;
+	if(is_null(email) || email=="Email Address"){
+		alert("Invalid Email Address. Please input an email address");
+		document.getElementById('EmailSubmitButton').innerHTML = prevSubmitHTML;			
+		return false;
+	}
+	else{
+		if(document.getElementById('TheDCLinks')){
+			var TheDCLinks = document.getElementById('TheDCLinks').checked;
+		}
+		else{
+			var TheDCLinks = false;
+		}
+		if(document.getElementById('CampusCaller')){
+			var CampusCaller = document.getElementById('CampusCaller').checked;
+		}
+		else{
+			var CampusCaller = false;
+		}		
+		if(document.getElementById('GinnisList')){		
+			var GinnisList = document.getElementById('GinnisList').checked;
+		}
+		else{
+			var GinnisList = false;
+		}		
+		if(document.getElementById('TheDCMorning')){
+			var TheDCMorning = document.getElementById('TheDCMorning').checked;			
+		}
+		else{
+			var TheDCMorning = false;
+		}		
+
+		var queryString = "?email=" + email;
+
+		if(TheDCLinks==true){	queryString = queryString + "&TheDCLinks=" + TheDCLinks;	}
+		if(CampusCaller==true){	queryString = queryString + "&CampusCaller=" + CampusCaller;	}
+		if(GinnisList==true){	queryString = queryString + "&GinnisList=" + GinnisList;	}
+		if(TheDCMorning==true){	queryString = queryString + "&TheDCMorning=" + TheDCMorning;	}
+
+			ajaxRequest.open("GET", "/wp-content/themes/default/goldlasso/mainsubscribe.php" + queryString, true);
+			ajaxRequest.send(null); 
+		
+	}
+}
+
+//-->
+</script>
+<script type="text/javascript">
+  function is_null(input){
+    return input==null;
+  }
+</script>
+
+</head>
+
+<body>
+	<div id="fb-root"></div>
+	<script src="http://connect.facebook.net/en_US/all.js"></script>
+	<script>
+	FB.init({ appId:'143489452702', channelUrl: 'http://dailycaller.com/channel.html', cookie:true, status:true, xfbml:true });
+	</script>
+	
+  <!--[if lt IE 7]>
+  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
+    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>
+    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>
+      <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>
+        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>
+      </div>
+      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>
+      <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
+      <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>
+      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>
+    </div>
+  </div>
+  <![endif]-->
+
+
+<div id="leaderboard-ad" style="width:900px;">
+<!-- OPENX_LOC[Homepage:Top] --><script type="text/javascript">OX.requestAd({"auid":"92720"});</script></div>
+
+
+
+<div id="page">
+		
+		<div id="header">
+		
+		<div id="header-top">
+			<div class="logo">
+				<a href="/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/logo.gif" border="0" alt="The Daily Caller" /></a>
+			</div>
+			
+						
+			<div id="search-login">
+				
+								
+				<div class="search alignright">
+					
+					<form id="searchform" action="http://topics.dailycaller.com/search" method="get" role="search">
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="bottom"><input id="q" type="text" name="q" value="Search" class="header-field" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" /></td>
+							<td><input id="searchsubmit" type="image" src="http://cdn2.dailycaller.com/wp-content/themes/default/images/search-btn.gif" value="Search"/></td>
+						</tr>
+					</table>
+					</form>
+				</div>
+				
+								
+								
+				<div class="login alignright">
+										
+						<div id="login-register" class="red" style="display:none;">
+							<a href="http://dailycaller.com/wp-login.php">Log In</a> | <a href="http://dailycaller.com/wp-login.php?action=register">Register</a>
+						</div>
+						
+						<div id="logged-in"></div>
+<div id="socialButtons" class="clearingfix">
+						<div id="gplus"><a href="https://plus.google.com/104273926598894453484/posts"  target="_blank"><img src="/wp-content/themes/default/images/social/png/32/google-plus.png" height="20" alt="Join Daily Caller on Google +" border="0" /></a></div>						
+						<div id="facebook"><a href="http://www.facebook.com/DailyCaller"  target="_blank"><img src="/wp-content/themes/default/images/social/png/32/facebook.png" height="20" alt="Join Daily Caller on Facebook" border="0" /></a></div>						
+						<div id="twitter"><a href="http://www.twitter.com/dailycaller" target="_blank"><img src="/wp-content/themes/default/images/social/png/32/twitter.png" height="20" alt="Follow Daily Caller on Twitter" border="0" /></a></div></div>
+						
+				</div>
+				
+				<div class="break"></div>
+			</div>
+			
+						
+			<div class="break"></div>
+		</div>
+		
+				
+			<div id="nav">
+				<ul>
+								<li class="static" style="border-left:0;"><a href="http://dailycaller.com/elections/" title="2012 Elections" style="width:109px;">2012 ELECTIONS</a></li>
+									
+					<li class="static" style="border-left:0;">
+						<a href="http://dailycaller.com/section/politics/" title="Politics" style="width:65px;">POLITICS</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/us/" title="US" style="width:33px;">US</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/entertainment/" title="Entertainment" style="width:104px;">ENTERTAINMENT</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/world/" title="World" style="width:56px;">WORLD</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/sports/" title="Sports" style="width:61px;">SPORTS</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/business/" title="Business" style="width:72px;">BUSINESS</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/tech/" title="Tech" style="width:49px;">TECH</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/video/" title="Video" style="width:51px;">VIDEO</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/opinion/" title="Opinion" style="width:59px;">OPINION</a>
+					</li>
+				
+		
+									
+					<li class="static">
+						<a href="http://dailycaller.com/section/guns-and-gear/" title="Guns and Gear" style="width:104px;">GUNS AND GEAR</a>
+					</li>
+				
+		
+				
+				
+				<li class="static dctrawler"><a href="http://dailycaller.com/blogs/" style="width:52px;">BLOGS</a>
+					<ul class="sub-menu">
+						<li style="border-top: 1px solid #ccc;"><a href="http://dailycaller.com/kausfiles/">KausFiles</a></li>
+						<li><a href="http://dailycaller.com/mattlewis/">Matt Lewis</a></li>
+						<li><a href="http://dailycaller.com/dc-trawler/">DC Trawler</a></li>
+						<li><a href="http://dailycaller.com/hammertime/">HammerTime</a></li>
+						<li><a href="http://dailycaller.com/author/mlabash/">Ask Matt Labash</a></li>
+					</ul>
+				</li>
+				<li class="static store" style="border-right:0;"><a href="http://jobs.dailycaller.com" style="width:49px;">JOBS</a></li>
+				
+				<li class="static tips" style="border-right:0; border-left:1px solid #999;"><a href="http://dailycaller.com/contact-form/?type=sendtip" class="popup_box_sendtips" title='Send A Tip' style="width:70px;">SEND TIPS</a></li>
+			</ul>
+			
+			<div class="break"></div>
+		</div>
+		
+				
+		<div id="header-bottom">
+								<div class="sub-nav clearingfix">
+								
+						
+									
+			<div id="buzz">
+							<strong>TRENDING:</strong>
+				<a href="http://topics.dailycaller.com/u.s.htm">U.S.</a> | <a href="http://topics.dailycaller.com/politics/republican-party.htm">REPUBLICAN PARTY</a> | <a href="http://topics.dailycaller.com/politics/obama-administration/barack-obama.htm">BARACK OBAMA</a> | <a href="http://topics.dailycaller.com/politics/mitt-romney.htm">MITT ROMNEY</a> | <a href="http://topics.dailycaller.com/politics/elections-2008/presidential-debates.htm">PRESIDENTIAL DEBATES</a> | <a href="http://topics.dailycaller.com/politics/healthcare/health-care.htm">HEALTH CARE</a>			</div>
+		
+							<div class="date">
+				April 17, 2012			</div>
+			</div>
+			
+			<div class="break"></div>
+		</div>
+		
+				
+	</div>
+	
+		
+			<div id="content">
+				
+		<div id="homepage-lead">
+						<h2 style="font-size:80px;line-height:73.6px;"><a href="http://dailycaller.com/2012/04/17/perdue-calls-on-state-party-chairman-to-resign-after-first-telling-reporter-to-get-over-it/"  style="color:#CC0000">NCee You Later</a></h2>			
+			<h3 style="font-size:28px;line-height:25.76px;"><a href="http://dailycaller.com/2012/04/17/perdue-calls-on-state-party-chairman-to-resign-after-first-telling-reporter-to-get-over-it/">Perdue calls on state party chairman to resign after first telling reporter to 'get over it'</a></h3>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/perdue-calls-on-state-party-chairman-to-resign-after-first-telling-reporter-to-get-over-it/"><img width="630" height="350" src="http://cdn2.dailycaller.com/2012/02/d4f642856bba422db686134fab88cd94-e1334697419882.jpg" class="attachment-full wp-post-image" alt="Obama Governors" title="Obama Governors" /></a>		</div>
+				
+			<div class="break"></div>
+		</div>
+		
+	    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'thedailycaller';
+        var disqus_domain = 'disqus.com';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+	
+		<div id="homepage-related">
+						<div class="link"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/icons/text.gif" /><a href="http://dailycaller.com/2012/04/17/bev-perdue-on-state-democratic-party-sexual-harassment-scandal-get-over-it-video/" ><font color=red>EARLIER:</font> Perdue to reporters: 'Get over it'</a></div>
+								<div class="link"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/icons/text.gif" /><a href="http://dailycaller.com/2012/04/17/nc-governor-who-downplayed-harassment-allegations-declared-april-sexual-assault-awareness-month/" ><font color=red>FLASHBACK:</font> Perdue declared April 'Sexual Assault Awareness Month'</a></div>
+								<div class="link"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/icons/text.gif" /><a href="http://dailycaller.com/2012/04/17/nc-lieutenant-governor-says-state-democratic-party-chair-should-resign/" ><font color=red>SERIOUSLY, GET OUT:</font> NC lieutenant governor disagrees with Perdue on resignation</a></div>
+								<div class="link"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/icons/text.gif" /><a href="http://dailycaller.com/2012/04/17/nc-sexual-harassment-scandal-reaches-obama-campaign/" ><font color=red>GOING NATIONAL:</font> NC harassment scandal reaches Obama campaign</a></div>
+					</div>
+		
+		
+	
+	<div id="deeper">	
+					<div class="deeper-box" style="clear:both;">			
+						<div class="deeper-post">
+								<div class="deeper-headline-first">
+										<h3><a href="http://dailycaller.com/2012/04/17/illinois-bishop-obama-intent-on-following-a-similar-path-as-hitler-stalin-audio/" class="red">Illinios bishop: Obama 'intent on following a similar path' as Hitler, Stalin</a> <span class="source"> - TheDC</span></h3>
+					
+						<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/illinois-bishop-obama-intent-on-following-a-similar-path-as-hitler-stalin-audio/"><span></span><img width="282" height="120" src="http://cdn2.dailycaller.com/2012/04/Jenky417-e1334700830810-300x128.jpg" class="attachment-282x300 wp-post-image" alt="Jenky417" title="Jenky417" /></a>		</div>
+					
+								<div class="subheadline-first">'No Catholic institution can ever cooperate with the intrinsic evil of killing innocent human life in the womb'</div>
+								
+				</div>
+				
+							</div>
+									
+			</div>
+							<div class="deeper-box" style="margin-left:20px;">			
+						<div class="deeper-post">
+								<div class="deeper-headline-first">
+										<h3><a href="http://dailycaller.com/2012/04/17/obama-bites-dog/" class="red">Obama bites dog</a> <span class="source"> - TheDC Trawler</span></h3>
+					
+						<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/obama-bites-dog/"><img width="282" height="120" src="http://cdn2.dailycaller.com/2011/12/e477a16ec01a495ab06868d628391f03-e1334713769696-300x128.jpg" class="attachment-282x300 wp-post-image" alt="Obama Bo" title="Obama Bo" /></a>		</div>
+					
+								<div class="subheadline-first">Say what you want about Romney, but at least he only put a dog on the roof of his car, not the roof of his mouth</div>
+								
+				</div>
+				
+							</div>
+									
+			</div>
+							<div class="deeper-box" style="clear:both;">			
+						<div class="deeper-post">
+								<div class="deeper-headline-first">
+										<h3><a href="http://dailycaller.com/2012/04/17/john-cusack-rips-obama-he-continued-that-imperial-presidency-of-the-bush-administration-video/" class="red">John Cusack: Obama 'continued that imperial presidency of the Bush administration'</a> <span class="source"> - TheDC</span></h3>
+					
+						<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/john-cusack-rips-obama-he-continued-that-imperial-presidency-of-the-bush-administration-video/"><span></span><img width="282" height="120" src="http://cdn2.dailycaller.com/2012/04/Cusack417-e1334690325653-300x128.png" class="attachment-282x300 wp-post-image" alt="Cusack417" title="Cusack417" /></a>		</div>
+					
+								<div class="subheadline-first">Hollywood star and MoveOn.org activist questions the White House's policies on killing US citizens abroad</div>
+								
+				</div>
+				
+							</div>
+									
+			</div>
+							<div class="deeper-box" style="margin-left:20px;">			
+						<div class="deeper-post">
+								<div class="deeper-headline-first">
+										<h3><a href="http://dailycaller.com/2012/04/17/video-disappears-of-dem-senate-candidate-calling-obama-amazing/" class="red">Video disappears of Dem. Senate candidate calling Obama 'amazing'</a> <span class="source"> - TheDC</span></h3>
+					
+						<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/video-disappears-of-dem-senate-candidate-calling-obama-amazing/"><img width="282" height="120" src="http://cdn2.dailycaller.com/2012/04/350x-e1334686507710-300x128.jpg" class="attachment-282x300 wp-post-image" alt="Heidi Heitkamp" title="Heidi Heitkamp" /></a>		</div>
+					
+								<div class="subheadline-first">North Dakota DNC member seeks to scrub video from Internet</div>
+								
+				</div>
+				
+							</div>
+									
+			</div>
+						<div class="break"></div>
+	</div>
+	
+		<div id="homepage-left">	
+			<div class="ad"><!-- OPENX_LOC[Homepage:Left1] --><script type="text/javascript">OX.requestAd({"auid":"92732"});</script></div>
+
+		<div class="box">
+		<h2><a href="http://dailycaller.com/section/opinion/">Opinion</a></h2>
+							
+											
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/jstefano/"><img src="http://cdn2.dailycaller.com/user_photos/jstefano-404484964-100.jpg" width="55" border="0" alt="Photo of Jennifer Stefano" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/17/what-i-want-people-to-take-away-from-my-exchange-with-bob-beckel/">What I want people to take away from my exchange with Bob Beckel</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/jstefano/">Jennifer Stefano</a></div>
+						<div class="author-title">Director, AFP Pennsylvania</div>						<div class="entry">Instead of focusing on Bob's f-bomb, I want people to focus on the conversation Bob and I were having.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/jhunter/"><img src="http://cdn2.dailycaller.com/user_photos/jhunter-1596289224-100.jpg" width="55" border="0" alt="Photo of Jack Hunter" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/17/the-deal-with-jack-hunter-ron-pauls-enduring-revolution/">The Deal with Jack Hunter: Ron Paul's enduring revolution</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/jhunter/">Jack Hunter</a></div>
+						<div class="author-title">Video Columnist</div>						<div class="entry">Paul is still drawing massive crowds and building a transformative movement.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/jnelson/"><img src="http://cdn2.dailycaller.com/user_photos/jnelson-94009945-100.jpg" width="55" border="0" alt="Photo of James Nelson" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/17/learning-from-the-solyndra-debacle/">Learning from the Solyndra debacle</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/jnelson/">James Nelson</a></div>
+						<div class="author-title">CEO, Solar3D</div>						<div class="entry">A solar company CEO explains why he thinks the Department of Energy's green-energy loan guarantee program should be abolished. </div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/shorwitz/"><img src="http://cdn2.dailycaller.com/user_photos/shorwitz-568757838-100.jpg" width="55" border="0" alt="Photo of Steven Horwitz" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/17/are-all-paychecks-created-equal/">Are all paychecks created equal?</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/shorwitz/">Steven Horwitz</a></div>
+						<div class="author-title">Professor, St. Lawrence University</div>						<div class="entry">The truth about the lingering gap between men's and women's earnings.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/repstein/"><img src="http://cdn2.dailycaller.com/user_photos/repstein-880414280-100.jpg" width="55" border="0" alt="Photo of Richard Epstein" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/17/term-limits-for-judges/">Term limits for judges</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/repstein/">Richard Epstein</a></div>
+						<div class="author-title">Senior Fellow, Hoover Institution</div>						<div class="entry">It's time to reform the courts and the administrative agencies.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/mcmorrisrodgers/"><img src="http://cdn2.dailycaller.com/user_photos/mcmorrisrodgers-336540147-100.jpg" width="55" border="0" alt="Photo of Rep. Cathy McMorris Rodgers" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/a-president-to-unite-us/">A president to unite us</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/mcmorrisrodgers/">Rep. Cathy McMorris Rodgers</a></div>
+						<div class="author-title">Vice Chair, House Republican Conference</div>						<div class="entry">We deserve a president who will bring Americans together. Mitt Romney can be that president.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/cedwards/"><img src="http://cdn2.dailycaller.com/user_photos/cedwards-1442144391-100.jpg" width="55" border="0" alt="Photo of Chris Edwards" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/the-tax-code-mess/">The tax-code mess</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/cedwards/">Chris Edwards</a></div>
+						<div class="author-title">Editor, DownsizingGovernment.org</div>						<div class="entry">The federal tax code is now 73,608 pages long.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/npatel/"><img src="http://cdn2.dailycaller.com/user_photos/npatel-259733207-100.jpg" width="55" border="0" alt="Photo of Neil Patel" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/chicago-politics-wonk-edition/">Chicago politics: Wonk edition</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/npatel/">Neil Patel</a></div>
+						<div class="author-title">Co-Founder and Publisher, The Daily Caller</div>						<div class="entry">The White House is attacking Chuck Blahous, a prominent policy analyst who thinks Obamacare will increase the debt.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/bobbarr/"><img src="http://cdn2.dailycaller.com/user_photos/bobbarr-611359718-100.jpg" width="55" border="0" alt="Photo of Bob Barr" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/charge-against-zimmerman-reeks-of-unprofessionalism/">Charge against Zimmerman reeks of unprofessionalism</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/bobbarr/">Bob Barr</a></div>
+						<div class="author-title">Former Congressman (R-GA)</div>						<div class="entry">The affidavit charging Zimmerman with second-degree murder is woefully inadequate.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/ltomlinson/"><img src="http://cdn2.dailycaller.com/user_photos/ltomlinson-1555751993-100.jpg" width="55" border="0" alt="Photo of Lucas Tomlinson" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/what-i-learned-in-afghanistan/">What I learned in Afghanistan</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/ltomlinson/">Lucas Tomlinson</a></div>
+						<div class="author-title">Former Human Terrain Analyst, US Military</div>						<div class="entry">There are limits to what the US government can accomplish in Afghanistan, just as there are limits to what it can accomplish in America.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/thenke/"><img src="http://cdn2.dailycaller.com/user_photos/thenke-604705536-100.jpg" width="55" border="0" alt="Photo of Tracy Henke" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/the-real-war-on-women/">The real war on women</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/thenke/">Tracy Henke</a></div>
+						<div class="author-title">COO, Americans for Prosperity</div>						<div class="entry">Women are handcuffed by government policies and regulations that constrain their ability to grow businesses and create jobs.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/marcorubio/"><img src="http://cdn2.dailycaller.com/user_photos/marcorubio-336878617-100.jpg" width="55" border="0" alt="Photo of Sen. Marco Rubio" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/tax-day-is-reminder-of-broken-tax-code/">Tax Day is reminder of broken tax code</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/marcorubio/">Sen. Marco Rubio</a></div>
+						<div class="author-title">U.S. Senator (R-FL)</div>						<div class="entry">Our economy needs a simplified, stable and predictable tax code that eliminates uncertainty, encourages new investment and stops punishing success.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+							
+			<div class="break"></div>
+			
+					</div>
+
+		<div class="box">			<div class="textwidget"><script type="text/javascript" src="https://www.civicscience.com/widget/jspoll/?elt=8a4ae271-7d0c-c064-b9a9-ac8c86373b87&amp;tgt=568"></script><div id="8a4ae271-7d0c-c064-b9a9-ac8c86373b87"></div></div>
+				</div><div class="ad"><!-- OPENX_LOC[Homepage:Left2] --><script type="text/javascript">OX.requestAd({"auid":"92733"});</script></div>
+
+		<div class="box">
+		<h2><a href="http://dailycaller.com/section/opinion/">Opinion</a></h2>
+							
+											
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/mjudge/"><img src="http://cdn2.dailycaller.com/user_photos/mjudge-498208095-100.jpg" width="55" border="0" alt="Photo of Mark Judge" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/trayvon-martin-and-the-right-to-be-left-alone/">Trayvon Martin and the right to be left alone</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/mjudge/">Mark Judge</a></div>
+						<div class="author-title">Author, A Tremor of Bliss</div>						<div class="entry">For me, the Trayvon Martin case is about something that is fundamental to America: the ability to take a walk without being hassled.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/ldavis/"><img src="http://cdn2.dailycaller.com/user_photos/ldavis-744703843-100.jpg" width="55" border="0" alt="Photo of Lanny Davis" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/16/shapiros-the-last-great-senate-a-must-read/">Shapiro's 'The Last Great Senate' a must-read</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/ldavis/">Lanny Davis</a></div>
+						<div class="author-title">Former Special Counsel to President Clinton</div>						<div class="entry">In his new book, Ira Shapiro recounts how the Senate became so partisan and dysfunctional.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/lrobinson/"><img src="http://cdn2.dailycaller.com/user_photos/lrobinson-426981159-100.jpg" width="55" border="0" alt="Photo of LaRue Robinson" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/15/what-college-football-can-learn-from-the-bobby-petrino-scandal/">What college football can learn from the Bobby Petrino scandal</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/lrobinson/">LaRue Robinson</a></div>
+						<div class="author-title">Blogger, Any Football Fan</div>						<div class="entry">Schools should think twice before hiring coaches with histories of unethical behavior.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/davidmitchell/"><img src="http://cdn2.dailycaller.com/user_photos/davidmitchell-1099331833-100.jpg" width="55" border="0" alt="Photo of David Fontaine Mitchell" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/13/the-war-on-reason/">The war on reason</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/davidmitchell/">David Fontaine Mitchell</a></div>
+						<div class="author-title">Commentator and Author</div>						<div class="entry">Our political debates are getting increasingly ridiculous, and both parties are to blame.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+								
+				<div class="separator"></div>							
+				<div class="contributor-widget">
+					<div class="userphoto"><a href="http://dailycaller.com/author/mmazza/"><img src="http://cdn2.dailycaller.com/user_photos/mmazza-426017584-100.jpg" width="55" border="0" alt="Photo of Michael Mazza" /></a></div>
+					<div class="user" style="width: 225px;">
+						<div class="headline blue"><a href="http://dailycaller.com/2012/04/13/washingtons-north-korea-strategy-is-failing/">Washington's North Korea strategy is failing</a></div>
+						<div class="name"><a href="http://dailycaller.com/author/mmazza/">Michael Mazza</a></div>
+						<div class="author-title">Research Fellow, AEI</div>						<div class="entry">The administration's wishy-washy approach to the North will never yield results.</div>
+					</div>				
+					
+					<div class="break"></div>			
+				</div>
+							
+			<div class="break"></div>
+			
+					</div>	<div class='homepage-posts'>
+						
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/barney-frank-obamacare-push-was-a-mistake/" rel="bookmark">Barney Frank: Obamacare push was a 'mistake'</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/barney-frank-obamacare-push-was-a-mistake/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2011/11/Barney-Frank-Presser-e1322621426722.jpg" class="attachment-308x500 wp-post-image" alt="Rep. Barney Frank" title="Rep. Barney Frank" /></a>		</div>
+							
+						<div class="subheadline">Retiring Dem says he 'would not have pushed it as hard'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/appeals-court-blocks-govt-rule-on-union-posters/" rel="bookmark">Appeals court blocks NLRB rule on union posters</a> <span class="source"> - AP</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/appeals-court-blocks-govt-rule-on-union-posters/"><img width="308" height="132" src="http://cdn2.dailycaller.com/nlrb1-e1322669245728.jpg" class="attachment-308x500 wp-post-image" alt="nlrb1" title="nlrb1" /></a>		</div>
+							
+						<div class="subheadline">The U.S. Court of Appeals for the District of Columbia issued a temporary injunction Tuesday</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/john-edwards-outgrows-500-haircut-goes-to-supercuts/" rel="bookmark">John Edwards outgrows $500 haircut, goes to Supercuts</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/john-edwards-outgrows-500-haircut-goes-to-supercuts/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/johnedwards-e1334680799560.jpg" class="attachment-308x500 wp-post-image" alt="John Edwards with a cheap haircut (left) and an expensive one" title="John Edwards with a cheap haircut (left) and an expensive one" /></a>		</div>
+							
+						<div class="subheadline">From $500 to $12.95 and it looks the exact same</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/16/nevada-dems-gsa-hearings-are-an-attack-on-las-vegas/" rel="bookmark">Nevada Dems: GSA hearings are 'an attack on Las Vegas'</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/16/nevada-dems-gsa-hearings-are-an-attack-on-las-vegas/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/Dina+Titus-e1334606640301.jpeg" class="attachment-308x500 wp-post-image" alt="Dina Titus" title="Dina Titus" /></a>		</div>
+							
+						<div class="subheadline">Allegation: Probe into extravagant GSA spending 'a cheap political stunt designed to embarrass Las Vegas'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/chicago-tea-party-tax-day-event-becomes-wisc-pep-rally-folk-music-concert-video/" rel="bookmark">Chicago tea party event becomes Wisc. pep rally, folk music concert</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/chicago-tea-party-tax-day-event-becomes-wisc-pep-rally-folk-music-concert-video/"><span></span><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/Chicago-tax-day-tea-party-rally-20121-e1334635454718.jpg" class="attachment-308x500 wp-post-image" alt="A tea party activist wears a replica of the 1775 Gadsden flag at the 2012 Tea Party Tax Day Rally in Chicago, Ill. (Michael Volpe / The Daily Caller)" title="Chicago tax day tea party rally 2012" /></a>		</div>
+							
+						<div class="subheadline">Wisconsin lieutenant governor rallies supporters of Gov. Scott Walker, Breitbart editor breaks into song</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/hologram-tupac-may-be-projected-onto-a-stage-near-you/" rel="bookmark">Hologram Tupac may be projected onto a stage near you</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/hologram-tupac-may-be-projected-onto-a-stage-near-you/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/Screen-shot-2012-04-17-at-11.37.14-AM-e1334677068961.png" class="attachment-308x500 wp-post-image" alt="Hologram Tupac" title="Hologram Tupac" /></a>		</div>
+							
+						<div class="subheadline">'Dre has a massive vision for this'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/kim-kardashian-for-mayor-video/" rel="bookmark">Kim Kardashian for mayor? [VIDEO]</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/kim-kardashian-for-mayor-video/"><span></span><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/03/kim-miami-e1333660910470.jpg" class="attachment-308x500 wp-post-image" alt="Kim Kardashian" title="Kim Kardashian" /></a>		</div>
+							
+						<div class="subheadline">The reality star announced on an un-aired episode of 'Khloe & Lamar' her plans to run for mayor of Glendale, Calif.</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/ted-nugent-obama-administration-evil-and-america-hating-video/" rel="bookmark">Ted Nugent: Obama administration 'evil' and 'America-hating' [VIDEO]</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/ted-nugent-obama-administration-evil-and-america-hating-video/"><span></span><img width="308" height="148" src="http://cdn2.dailycaller.com/2012/04/tednugent-e1334674525609.jpg" class="attachment-308x500 wp-post-image" alt="Ted Nugent" title="Ted Nugent" /></a>		</div>
+							
+						<div class="subheadline">American singer told crowd to vote for Mitt Romney at NRA convention</div>
+						
+						<div class="break"></div>
+		</div>
+		</div>
+			</div>
+		
+		<div id="homepage-center">
+				<div class='homepage-posts'>
+						
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/dallas-pastor-who-called-mormonism-a-cult-romney-is-lesser-of-two-evils/" rel="bookmark">Dallas pastor who called Mormonism a 'cult': Romney is 'lesser of two evils'</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/dallas-pastor-who-called-mormonism-a-cult-romney-is-lesser-of-two-evils/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2011/10/c5ed4_Robert-Jeffress-e1318809886378.jpg" class="attachment-308x500 wp-post-image" alt="Robert Jeffress" title="Robert Jeffress" /></a>		</div>
+							
+						<div class="subheadline">'I think there's a good biblical case for voting for Mitt Romney'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/obama-blames-gas-prices-on-speculators-not-administration-policy/" rel="bookmark">Obama reframes gas prices as GOP problem</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/obama-blames-gas-prices-on-speculators-not-administration-policy/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/143006064-e1334681595885.jpg" class="attachment-308x500 wp-post-image" alt="President Obama Announces Plan To Increase Oversight In Oil Markets" title="President Obama Announces Plan To Increase Oversight In Oil Markets" /></a>		</div>
+							
+						<div class="subheadline">Republicans call Obama press conference calling for more regulation another 'gimmick'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/warren-buffett-says-diagnosed-with-prostate-cancer/" rel="bookmark">Warren Buffett says diagnosed with prostate cancer</a> <span class="source"> - AP</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/warren-buffett-says-diagnosed-with-prostate-cancer/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/429790cf9756495491e2f32da5ed4856-e1334711068470.jpg" class="attachment-308x500 wp-post-image" alt="Obama Giving Pledge.JPEG" title="Obama Giving Pledge.JPEG" /></a>		</div>
+							
+						<div class="subheadline">Discovered on April 11, tells company's shareholders condition 'not remotely life-threatening'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/forth-worth-to-ban-the-hiring-of-smokers/" rel="bookmark">Forth Worth to ban the hiring of smokers?</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/forth-worth-to-ban-the-hiring-of-smokers/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/104210310smoking-e1334694087141.jpg" class="attachment-308x500 wp-post-image" alt="Employee Smoking" title="Employee Smoking" /></a>		</div>
+							
+						<div class="subheadline">Fort Worth city council briefed on proposal to ban the hiring of smokers</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/barbara-walters-do-you-like-it-when-hes-rough-video/" rel="bookmark">Barbara Walters: 'Do you like it when he's rough?'</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/barbara-walters-do-you-like-it-when-hes-rough-video/"><span></span><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/barbarawalters-e1334694316804.jpg" class="attachment-308x500 wp-post-image" alt="Barbara Walters" title="Barbara Walters" /></a>		</div>
+							
+						<div class="subheadline">'The View' co-host talks S&M with fellow hosts, shocks them with her blunt statements</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/appeals-court-upholds-arizonas-voter-id-requirement/" rel="bookmark">Appeals court upholds Arizona's voter ID requirement</a> <span class="source"> - AP</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/appeals-court-upholds-arizonas-voter-id-requirement/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/AZ-AP-e1334696534310.jpg" class="attachment-308x500 wp-post-image" alt="AZ AP" title="AZ AP" /></a>		</div>
+							
+						<div class="subheadline">9th Circuit: No proof was offered to show that ID requirement gave Latinos fewer opportunities to vote</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/south-dakota-prison-inmate-sues-hospital-for-circumcising-him/" rel="bookmark">South Dakota prison inmate sues hospital for circumcising him</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/south-dakota-prison-inmate-sues-hospital-for-circumcising-him/"><img width="308" height="131" src="http://cdn2.dailycaller.com/2012/04/mansueshospital-e1334691410156.jpg" class="attachment-308x500 wp-post-image" alt="Man sues hospital for circumcising him" title="Man sues hospital for circumcising him" /></a>		</div>
+							
+						<div class="subheadline">Convicted kidnapper:  'I was robbed of... the sense of security and well-being I am entitled to'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/heidi-montag-is-still-a-thing-and-she-has-a-new-album/" rel="bookmark">Heidi Montag is still a thing and she has a new album</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/heidi-montag-is-still-a-thing-and-she-has-a-new-album/"><img width="308" height="131" src="http://cdn2.dailycaller.com/2012/04/heidi-montag-album-e1334693221578.jpg" class="attachment-308x500 wp-post-image" alt="Heidi Montag" title="Heidi Montag" /></a>		</div>
+							
+						<div class="subheadline">She looks as desperate as ever on the cover of 'Dreams Come True'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/taliban-commander-turns-self-in-for-reward-on-wanted-poster/" rel="bookmark">Taliban commander turns self in... for reward on 'Wanted' poster</a> <span class="source"> - WaPo</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/taliban-commander-turns-self-in-for-reward-on-wanted-poster/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/taliban-e1334691819159.jpeg" class="attachment-308x500 wp-post-image" alt="Wanted" title="Wanted" /></a>		</div>
+							
+						<div class="subheadline">Afghan officials arrested him on the spot</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/malcom-x%e2%80%99s-grandson-on-iranian-television-slavery-continues-in-america/" rel="bookmark">Malcolm X's grandson on Iranian television: Slavery continues in America</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/malcom-x%e2%80%99s-grandson-on-iranian-television-slavery-continues-in-america/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/Malcom-X-Grandson-e1334675769289.jpg" class="attachment-308x500 wp-post-image" alt="Malcom X Grandson" title="Malcom X Grandson" /></a>		</div>
+							
+						<div class="subheadline">'[I]n these institutions people are forced to work for pennies on a dollar' says grandson of civil rights leader</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/lottery-winner-collecting-food-stamps-arraigned-on-welfare-fraud-charges/" rel="bookmark">Lottery winner collecting food stamps arraigned on welfare fraud charges</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/lottery-winner-collecting-food-stamps-arraigned-on-welfare-fraud-charges/"><img width="308" height="131" src="http://cdn2.dailycaller.com/2012/03/Screen-shot-2012-03-07-at-11.08.41-AM-e1331136568451.png" class="attachment-308x500 wp-post-image" alt="Lottery Winner on Food Stamps" title="Lottery Winner on Food Stamps" /></a>		</div>
+							
+						<div class="subheadline">Michigan woman who won $1 million and still claimed welfare money pleaded not guilty</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/16/media-matters-targets-revealed-business-wealth-christianity/" rel="bookmark">Media Matters' targets revealed: business, wealth, Christianity</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/16/media-matters-targets-revealed-business-wealth-christianity/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/136059131-e1334681819153.jpg" class="attachment-308x500 wp-post-image" alt="Holy Bible" title="Holy Bible" /></a>		</div>
+							
+						<div class="subheadline">Tax-exempt application describes targeting 'viewpoints that tend to overly promote ... conservative, Christian-influenced ideology'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/texas-city-lets-boy-with-leukemia-be-batman-for-a-day-video/" rel="bookmark">Texas city lets boy with leukemia be Batman for a day [VIDEO]</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/texas-city-lets-boy-with-leukemia-be-batman-for-a-day-video/"><span></span><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/Screen-shot-2012-04-17-at-2.58.30-PM-e1334689168126.png" class="attachment-308x500 wp-post-image" alt="A Wish With Wings" title="A Wish With Wings" /></a>		</div>
+							
+						<div class="subheadline">Arlington police, firemen helped make his dreams come true by acting out a bank robbery </div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/16/committee-dodd-frank-compliance-to-cost-private-sector-24-million-man-hours-per-year/" rel="bookmark">Committee: Dodd-Frank compliance to cost private sector 24 million man-hours per year</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/16/committee-dodd-frank-compliance-to-cost-private-sector-24-million-man-hours-per-year/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2010/07/9d25bc6533f1416bbf410de7670f4cda-e1334630848443.jpg" class="attachment-308x500 wp-post-image" alt="Obama Financial Overhaul" title="Obama Financial Overhaul" /></a>		</div>
+							
+						<div class="subheadline">And regulators have written only 185 of the expected 400 rules laid out in the law</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/christie-flip-flops-on-vp-possibility-arrogance/" rel="bookmark">Christie flip-flops on VP possibility 'arrogance'</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/christie-flip-flops-on-vp-possibility-arrogance/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/120117_chris_christie_ap_605-e1334689427928.jpeg" class="attachment-308x500 wp-post-image" alt="Chris Christie" title="Chris Christie" /></a>		</div>
+							
+						<div class="subheadline">NJ governor: '[If] Romney calls... I will sit down and talk'</div>
+						
+								<div class="link"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/icons/text.gif" /><a href="http://dailycaller.com/2012/04/17/christie-at-ind-fundraiser-i-dont-expect-to-be-asked-to-join-romney-ticket/" ><font color=red>CHRISTIE:</font> 'I'm not a rock star'</a></div>
+								<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/alec-baldwin-to-congress-raise-nea-budget-to-1b-video/" rel="bookmark">Alec Baldwin to Congress: Raise NEA budget to $1B [VIDEO]</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/alec-baldwin-to-congress-raise-nea-budget-to-1b-video/"><span></span><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/Screen-shot-2012-04-17-at-2.38.31-PM-e1334687963725.png" class="attachment-308x500 wp-post-image" alt="Alec Baldwin" title="Alec Baldwin" /></a>		</div>
+							
+						<div class="subheadline">The National Endowment for the Arts was awarded $146K in taxpayer funds this year</div>
+						
+								<div class="link"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/icons/text.gif" /><a href="http://dailycaller.com/2012/04/16/alec-baldwin-working-for-capital-one-might-not-have-been-the-smartest-move-video/" ><font color=red>TheDC:</font> Alec Baldwin: Working for Capital One 'might not have been the smartest move' </a></div>
+								<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/birfday-gift-gsa-official-took-taxpayer-funded-pacific-vacation/" rel="bookmark">'Birfday gift': GSA official took taxpayer-funded Pacific vacation</a> <span class="source"> - Roll Call</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/birfday-gift-gsa-official-took-taxpayer-funded-pacific-vacation/"><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/acd9b309f6604104855e134ac2f6b712-e1334689458570.jpg" class="attachment-308x500 wp-post-image" alt="GSA Waste" title="GSA Waste" /></a>		</div>
+							
+						<div class="subheadline">'It's yo birfday ... We gonna pawty like iz yo birfday!'</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/16/matthew-lesko-obama-admin-doesnt-need-help-giving-away-money-video/" rel="bookmark">Matthew Lesko: Obama admin doesn't need help giving away money</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/16/matthew-lesko-obama-admin-doesnt-need-help-giving-away-money-video/"><span></span><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/04/Lesko1-e1334616238240.jpg" class="attachment-308x500 wp-post-image" alt="Lesko" title="Lesko" /></a>		</div>
+							
+						<div class="subheadline">'Free money' informercial king jokes that plagiarism and acting like a fool on TV have helped him succeed</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/16/herman-cain-on-gingrich-i-dont-know-whats-going-on-in-his-head-video/" rel="bookmark">Herman Cain on Gingrich: 'I don't know what's going on in his head'</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/16/herman-cain-on-gingrich-i-dont-know-whats-going-on-in-his-head-video/"><span></span><img width="308" height="132" src="http://cdn2.dailycaller.com/2012/02/91f2f91a18324b94ab698f7cee967454-e1334632452733.jpg" class="attachment-308x500 wp-post-image" alt="Gingrich 2012" title="Gingrich 2012" /></a>		</div>
+							
+						<div class="subheadline">'Everybody knows that Speaker Gingrich is not going to get the nomination'</div>
+						
+						<div class="break"></div>
+		</div>
+		</div>
+			</div>
+	</div>
+	
+<div id="sidebar">
+<div class="ad"><!-- OPENX_LOC[Homepage:Right1] --><script type="text/javascript">OX.requestAd({"auid":"92721"});</script></div>
+
+		<div class="box blog-widget kausfiles-widget"><a href="http://dailycaller.com/kausfiles/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/kausfiles-widget.jpg" border="0" alt="" /></a>				<div class="headline" style="">
+					<h3>
+						<a href="http://dailycaller.com/2012/04/17/jon-alters-false-alarm/"><p>Jon Alter&#8217;s false alarm</p>
+</a>
+					</h3>
+					<div class="date">3:57 AM  04/17/2012</div>
+				</div>
+								<div class="headline" style="border-bottom: 0;">
+					<h3>
+						<a href="http://dailycaller.com/2012/04/16/do-dems-want-a-debate-on-welfare/"><p>Do Dems really want a debate on welfare?</p>
+</a>
+					</h3>
+					<div class="date">4:40 AM  04/16/2012</div>
+				</div>
+						</div>
+
+		<div class="box blog-widget mattlewis-widget"><a href="http://dailycaller.com/mattlewis/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/matt-lewis-widget2.jpg" border="0" alt="" /></a>					<div class="headline" style="">
+						<h3>
+							<a href="http://dailycaller.com/2012/04/17/jennifer-rubin-accuses-self-identified-lds-journalist-of-painting-mormons-as-backward-thinking/"><p>Jennifer Rubin accuses self-identified LDS journalist of painting Mormons as &#8216;backward thinking&#8217;</p>
+</a>
+						</h3>
+						<div class="date">3:26 PM  04/17/2012</div>
+					</div>
+										<div class="headline" style="border-bottom: 0;">
+						<h3>
+							<a href="http://dailycaller.com/2012/04/17/in-defense-of-web-slideshows-huffposts-pulitzer-proves-good-work-exists-online/"><p>In defense of celebrity slideshows: HuffPost&#8217;s Pulitzer proves serious and clickable content can coexist</p>
+</a>
+						</h3>
+						<div class="date">8:42 AM  04/17/2012</div>
+					</div>
+							</div>
+
+		<div class="box blog-widget trawler-widget"><a href="http://dailycaller.com/dc-trawler/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/trawler-widget4.jpg" border="0" alt="" /></a>					<div class="headline" style="">
+						<h3>
+							<a href="http://dailycaller.com/2012/04/17/obama-bites-dog/"><p>Obama bites dog</p>
+</a>
+						</h3>
+						<div class="date">4:54 PM  04/17/2012</div>
+					</div>
+										<div class="headline" style="border-bottom: 0;">
+						<h3>
+							<a href="http://dailycaller.com/2012/04/17/okay-heres-your-beckel-drops-f-bomb-on-live-tv-post/"><p>Okay, here&#8217;s your &#8220;Beckel drops f-bomb on live TV&#8221; post</p>
+</a>
+						</h3>
+						<div class="date">2:49 PM  04/17/2012</div>
+					</div>
+							</div>
+
+		<div class="box blog-widget ginni-thomas-widget"><a href="http://dailycaller.com/ginni-thomas/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/ginni-widget.jpg" border="0" alt="" /></a>					<div class="headline" style="">
+						<h3>
+							<a href="http://dailycaller.com/2012/04/15/leaders-with-ginni-thomas-kevin-freeman-author/"><p>Leaders with Ginni Thomas: Kevin Freeman, author</p>
+</a>
+						</h3>
+						<div class="date">11:17 PM  04/15/2012</div>
+					</div>
+										<div class="headline" style="border-bottom: 0;">
+						<h3>
+							<a href="http://dailycaller.com/2012/04/15/investment-adviser-economic-terrorism-can-bring-down-the-u-s-economy-video/"><p>Investment adviser: Economic terrorism can bring down the U.S. economy [VIDEO] </p>
+</a>
+						</h3>
+						<div class="date">4:50 PM  04/15/2012</div>
+					</div>
+							</div>
+
+		<div class="box">			<div class="textwidget"><script type="text/javascript">
+function rboxReady(evnt) {
+                TRC.loadRBox({mode:'home-verticalx3',container:'taboola-div'});
+}
+var taboolaLoader = document.createElement('script');
+taboolaLoader.async = true;
+document.getElementsByTagName('head')[0].appendChild(taboolaLoader);
+if (taboolaLoader.attachEvent) {// support Internet Explorer
+                taboolaLoader.attachEvent("onactivate", rboxReady);
+}else{
+                taboolaLoader.addEventListener("activate", rboxReady, false);
+}
+taboolaLoader.type="text/javascript";
+taboolaLoader.src='http://cdn.taboolasyndication.com/libtrc/dailycaller/rbox.js?dynamic&home&video_source=ooyala';
+</script>
+<div id="taboola-div"></div></div>
+				</div><div class="ad"><!-- OPENX_LOC[Homepage:Right2] --><script type="text/javascript">OX.requestAd({"auid":"92730"});</script></div>
+
+		<div class="box">			
+			
+			<a href="http://dailycaller.com/section/thedc-morning/"><img border="none" src="http://cdn2.dailycaller.com/wp-content/themes/default/images/signup-header.gif"></a>
+			<div class="subscribe_form">
+				<form action="/wp-content/themes/default/goldlasso/mainsubscribe.php" method="post">
+					<div class="subscribe_input">
+						<input name="email" type="text" class="textarea"  id="email" value="Email Address" onfocus="if (this.value == 'Email Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email Address';}" />
+					</div>
+					<div>
+						<ul class="emailSignupCol1">
+						<li><input name="lists[]" value="9" type="checkbox" id="TheDCLinks" checked="checked"> TheDC Links</li>
+						<li><input name="lists[]" value="24" type="checkbox" id="TheDCMorning" checked="checked"> TheDC Morning</li>										
+						</ul>
+						<ul class="emailSignupCol2">
+						<li><input name="lists[]" value='10' type='checkbox' id="GinnisList"  checked='checked'> Ginni's List</li>
+						<li><input name="lists[]" value="16" type="checkbox" id="CampusCaller" checked="checked"> Campus Caller</li>
+						</ul>
+					</div>
+					<div id="widgetEmailResults">
+					</div>
+					<div class="subscribe_bottom_right" id="EmailSubmitButton" >
+						<div class="subscribe_tou" style="float:left;"><a href="http://dailycaller.com/footer/terms-of-use/">Terms of Use</a></div>						
+						<input name="commit" onclick="emailAjaxSubscriptionSubmitFunction(true);return false;" class="button" type="submit" value="" />
+					</div>
+					<div class="break"></div>
+				</form>
+			</div>
+
+			
+					</div>
+
+		<div class="box">
+		<h2>Videos From Around The Web</h2>
+			<div class="textwidget"><div class="textwidget" id="ndn_launcher_1"><script type="text/javascript"src="http://embed.newsinc.com/Thumbnail/embed.js?wid=2333&cid=507&freewheel=90046&sitesection=dailycaller_top_non_sty&parent=ndn_launcher_1&type=slider"></script></div><iframe src="http://widget.newsinc.com/_fw/dailycaller/thumb_dailycaller_top.html" frameborder="0" scrolling="no" width="300" height="130" marginheight="0" marginwidth="0"></iframe></div>
+				</div>			<style type="text/css" media="screen">
+				.slideshow-box-header{
+					background-color:#000000;
+					color:#ffffff;
+					border:1px solid #000000;
+				}
+				.slideshow-box-header .headline a{
+					color:#ffffff;
+					font-family:'arial black';
+					font-size:11px;
+					font-weight:bold;
+					
+				}
+				.slideshow-box-header .headline{
+					border-bottom:1px solid #333333;
+				}
+				.slideshow-box-header .headline h3{
+					margin-left:150px;
+				}
+
+
+				.slideshow-box-header .date{
+					color:#ffffff;
+				}
+				.slideshow-widget-image img{
+					width:140px;
+					height:auto;
+				}
+				.slideshow-widget-image{
+					width:140px;
+					height:60px;
+					overflow:hidden;
+					float:left;
+				}
+				.slideshow-widget-image .pic img{
+					border:0px;
+				}
+				
+			</style>
+			
+			<div class="blog-widget box slideshow-box-header clearingfix"><a href="/section/slideshow/"><img src="/wp-content/themes/default/images/slideshow-widget.png" border="0" alt="" /></a>
+						<div class="clearingfix headline" style="">
+			<div class="slideshow-widget-image">		<div class="pic">
+		<img width="320" height="150" src="http://cdn2.dailycaller.com/2012/04/cindy-crawford1-e1334169983871-320x150.jpg" class="attachment-iphone wp-post-image" alt="cindy crawford" title="cindy crawford" />		</div>
+	</div>
+
+				<h3>
+					<a href="http://dailycaller.com/2012/04/11/foxy-moles-10-hot-women-with-moles-slideshow/">Foxy moles: 10 hot women with moles </a>
+				</h3>
+			</div>
+						<div class="clearingfix headline" style="">
+			<div class="slideshow-widget-image">		<div class="pic">
+		<img width="320" height="150" src="http://cdn2.dailycaller.com/2012/04/client-list1-e1334158573466-320x150.jpg" class="attachment-iphone wp-post-image" alt="client list" title="client list" />		</div>
+	</div>
+
+				<h3>
+					<a href="http://dailycaller.com/2012/04/11/jennifer-love-hewitts-cleavage-a-history-slideshow/">Jennifer Love Hewitt&#8217;s cleavage: A history </a>
+				</h3>
+			</div>
+						<div class="clearingfix headline" style="">
+			<div class="slideshow-widget-image">		<div class="pic">
+		<img width="320" height="150" src="http://cdn2.dailycaller.com/2012/04/Seahawks1-e1333562068391-320x150.jpg" class="attachment-iphone wp-post-image" alt="New Seahawks jersey" title="New Seahawks jersey" />		</div>
+	</div>
+
+				<h3>
+					<a href="http://dailycaller.com/2012/04/04/top-5-best-new-nfl-jerseys-slideshow/">Top 5: Best new NFL jerseys </a>
+				</h3>
+			</div>
+			<a href="/section/slideshow/"><img src="/wp-content/themes/default/images/slideshow-footer-widget.png" border="0" alt="" /></a>		</div>
+
+		<div class="box">			<div class="textwidget"><div id="pmfa-ext-01"></div></div>
+				</div>
+
+		<div class="box headline-box">
+		<h2>Most Popular</h2>
+			
+			<div id="widget-popular">
+				
+				<div id="widget-most-popular" class="popular-box">
+					<div class="widget-most-viewed-buttons">
+						<div class="widget-most-viewed-button-left widget-most-viewed-button-hilite">Most Popular</div>
+						<div class="widget-most-viewed-button-right"><a href="Javascript:doToggle('widget-most-popular', 'none');doToggle('widget-most-emailed', '');">Most Emailed</a></div>
+						<div class="break"></div>
+					</div>
+					
+																<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/obama-bites-dog/"><img src="http://cdn2.dailycaller.com/2011/12/e477a16ec01a495ab06868d628391f03-150x150.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/04/17/obama-bites-dog/">
+												Obama bites dog</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/perdue-calls-on-state-party-chairman-to-resign-after-first-telling-reporter-to-get-over-it/"><img src="http://cdn2.dailycaller.com/2012/02/d4f642856bba422db686134fab88cd94-150x150.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/04/17/perdue-calls-on-state-party-chairman-to-resign-after-first-telling-reporter-to-get-over-it/">
+												NCee You Later</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+																								<div class="blue"><a href="http://dailycaller.com/2012/04/17/what-i-want-people-to-take-away-from-my-exchange-with-bob-beckel/">
+												What I want people to take away from my exchange with Bob Beckel</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/john-cusack-rips-obama-he-continued-that-imperial-presidency-of-the-bush-administration-video/"><img src="http://cdn2.dailycaller.com/2012/04/Cusack417-e1334690325653-180x160.png" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/04/17/john-cusack-rips-obama-he-continued-that-imperial-presidency-of-the-bush-administration-video/">
+												John Cusack: Obama 'continued that imperial presidency of the Bush administration'</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/illinois-bishop-obama-intent-on-following-a-similar-path-as-hitler-stalin-audio/"><img src="http://cdn2.dailycaller.com/2012/04/Jenky417-e1334700830810-180x146.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/04/17/illinois-bishop-obama-intent-on-following-a-similar-path-as-hitler-stalin-audio/">
+												Illinios bishop: Obama 'intent on following a similar path' as Hitler, Stalin</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/video-disappears-of-dem-senate-candidate-calling-obama-amazing/"><img src="http://cdn2.dailycaller.com/2012/04/350x-e1334686507710-180x150.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/04/17/video-disappears-of-dem-senate-candidate-calling-obama-amazing/">
+												Video disappears of Dem. Senate candidate calling Obama 'amazing'</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2011/08/19/man-goes-in-for-a-circumcision-comes-out-minus-his-penis/"><img src="http://cdn2.dailycaller.com/2011/08/80afbf61b83e48c888529d0e1dcbc3f3-150x150.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2011/08/19/man-goes-in-for-a-circumcision-comes-out-minus-his-penis/">
+												Man goes in for a circumcision, comes out minus his penis</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+																								<div class="blue"><a href="http://dailycaller.com/2012/04/16/charge-against-zimmerman-reeks-of-unprofessionalism/">
+												Charge against Zimmerman reeks of unprofessionalism</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/barbara-walters-do-you-like-it-when-hes-rough-video/"><img src="http://cdn2.dailycaller.com/2012/04/barbarawalters-e1334694316804-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/04/17/barbara-walters-do-you-like-it-when-hes-rough-video/">
+												Barbara Walters: 'Do you like it when he's rough?'</a></div>
+												<div class="break"></div>
+											</div>
+																						<div class="category-headline">
+													<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/bev-perdue-on-state-democratic-party-sexual-harassment-scandal-get-over-it-video/"><img src="http://cdn2.dailycaller.com/2012/02/d4f642856bba422db686134fab88cd94-150x150.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+													<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/04/17/bev-perdue-on-state-democratic-party-sexual-harassment-scandal-get-over-it-video/">
+												'Get Over It'</a></div>
+												<div class="break"></div>
+											</div>
+															</div>
+				
+				<div id="widget-most-emailed" class="popular-box" style="display:none;">
+					<div class="widget-most-viewed-buttons">
+						<div class="widget-most-viewed-button-left"><a href="Javascript:doToggle('widget-most-popular', '');doToggle('widget-most-emailed', 'none');">Most Popular</a></div>
+						<div class="widget-most-viewed-button-right widget-most-viewed-button-hilite">Most Emailed</div>
+						<div class="break"></div>
+					</div>
+					
+												<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2011/10/11/michelle-obamas-warning-to-gun-owners/"><img src="http://cdn2.dailycaller.com/2011/09/8c2089c395f64df1abddd8da757fe1e4-150x150.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2011/10/11/michelle-obamas-warning-to-gun-owners/">
+								Michelle Obama's warning to gun owners</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2012/02/24/documents-peta-kills-more-than-95-percent-of-pets-in-its-care/"><img src="http://cdn2.dailycaller.com/2011/03/malaysia-peta-2009-9-2-2-10-19-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/02/24/documents-peta-kills-more-than-95-percent-of-pets-in-its-care/">
+								Documents: PETA kills more than 95 percent of pets in its care</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2012/01/16/13-politically-incorrect-gun-rules/"><img src="http://cdn2.dailycaller.com/2012/01/Doug-Giles-e1326317481171-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/01/16/13-politically-incorrect-gun-rules/">
+								13 Politically Incorrect Gun Rules</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2012/03/26/former-naacp-leader-accuses-sharpton-and-jackson-of-exploiting-trayvon-martin/"><img src="http://cdn2.dailycaller.com/2012/03/cl01-e1332785760875-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/03/26/former-naacp-leader-accuses-sharpton-and-jackson-of-exploiting-trayvon-martin/">
+								Former NAACP leader accuses Sharpton and Jackson of 'exploiting' Trayvon Martin</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2012/03/06/investors-flee-carbonite-after-limbaugh-announcement/"><img src="http://cdn2.dailycaller.com/2012/03/LimbaughCarbonite-e1331067154158-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/03/06/investors-flee-carbonite-after-limbaugh-announcement/">
+								Investors flee Carbonite after Limbaugh announcement</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2011/11/07/correcting-the-fairy-tale-a-seals-account-of-how-osama-bin-laden-really-died/"><img src="http://cdn2.dailycaller.com/2011/11/113399224-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2011/11/07/correcting-the-fairy-tale-a-seals-account-of-how-osama-bin-laden-really-died/">
+								Correcting the 'fairy tale': A SEAL's account of how Osama bin Laden really died</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2012/01/06/labor-unions-primary-recipients-of-obamacare-waivers/"><img src="http://cdn2.dailycaller.com/2011/09/692d886ba8034394a586fb9fb553ddfa-e1315146348822-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/01/06/labor-unions-primary-recipients-of-obamacare-waivers/">
+								Labor unions primary recipients of Obamacare waivers</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2011/10/14/114-year-old-electric-car-gets-same-40-miles-to-the-charge-as-chevy-volt/"><img src="http://cdn2.dailycaller.com/2011/10/photo-with-top-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2011/10/14/114-year-old-electric-car-gets-same-40-miles-to-the-charge-as-chevy-volt/">
+								Electric the 'future?' 115-year-old car begs to differ</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2012/03/22/va-middle-schoolers-assigned-to-do-oppo-research-on-gop-candidates/"><img src="http://cdn2.dailycaller.com/2012/03/Middle-School-e1332445743372-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/03/22/va-middle-schoolers-assigned-to-do-oppo-research-on-gop-candidates/">
+								Va. middle school class conducts research for Obama campaign</a></div>
+								<div class="break"></div>
+							</div>
+														<div class="category-headline">
+									<div class="pic">
+		<a href="http://dailycaller.com/2012/02/12/inside-media-matters-sources-memos-reveal-erratic-behavior-close-coordination-with-white-house-and-news-organizations/"><img src="http://cdn2.dailycaller.com/2012/02/David-Brock-MMFA-180x160.jpg" alt="" width="50" /></a>		<div class="break"></div>
+	</div>
+									<div class="blue" style="margin-left: 65px;"><a href="http://dailycaller.com/2012/02/12/inside-media-matters-sources-memos-reveal-erratic-behavior-close-coordination-with-white-house-and-news-organizations/">
+								Inside Media Matters</a></div>
+								<div class="break"></div>
+							</div>
+												</div>
+					
+				</div>
+				
+			</div>
+					
+			<div class="ad"><!-- OPENX_LOC[Homepage:Right3] --><script type="text/javascript">OX.requestAd({"auid":"92731"});</script></div>			<div class="blog-widget box ann-coulter-box-header"><a href="/author/acoulter/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/ann-coulter-header.jpg" border="0" alt="" /></a>
+						<div class="headline" style="">
+				<h3>
+					<a href="http://dailycaller.com/2012/04/11/fighting-the-last-war/">Fighting the last war</a>
+				</h3>
+				<div class="date">6:56 PM  04/11/2012</div>
+			</div>
+						<div class="headline" style="">
+				<h3>
+					<a href="http://dailycaller.com/2012/04/04/verrilli-not-administrations-worst-lawyer-after-all/">Verrilli not administration&#8217;s worst lawyer, after all</a>
+				</h3>
+				<div class="date">8:54 PM  04/04/2012</div>
+			</div>
+					</div>			<div style="margin-bottom:15px;">
+			<div class="labash-box-header"><a href="http://dailycaller.com/author/mlabash/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/labash-header.jpg" border="0" alt="" /></a></div>
+			<div class="labash-box-body">"Help the people closest to Andrew [Breitbart] who lost more than a political lightning rod or a performance artist or the leader of a movement. His wife and four children lost a husband and a father. After all the affectionate eulogizing and hit-obituaries have been written, and attention inevitably subsides, those five people still have to get down to the hard business of living." <strong>(Updated 3/27/12)</strong> <a href="http://dailycaller.com/2012/03/26/ask-matt-labash-how-to-help-andrew-breitbarts-children-and-stepping-away-from-the-internet/">more</a> <img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/labash-arrow.gif" border="0" alt="" /></div>
+			<div class="labash-box-links"><a href='http://dailycaller.com/contact-form/?type=sendmatt' class='popup_box_labash' style="margin-right:1px;"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/labash-send.gif" border="0" alt="Send A Question To Matt" /></a><a href="http://dailycaller.com/author/mlabash/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/labash-bio.gif" border="0" alt="" /></a></div>
+			</div>
+				<div class='homepage-posts'>
+						
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/16/bag-man-revealed-in-virgin-islands-bribery-scandal/" rel="bookmark">'Bag man' revealed in Virgin Islands bribery scandal</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/16/bag-man-revealed-in-virgin-islands-bribery-scandal/"><img width="298" height="127" src="http://cdn2.dailycaller.com/2012/02/de-Jongh-e1328564961777-300x128.jpg" class="attachment-298x500 wp-post-image" alt="de Jongh" title="de Jongh" /></a>		</div>
+							
+						<div class="subheadline">Justice Department source identifies man who delivered cash bribes to Virgin Islands governor</div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/tech-experts-believe-cash-and-credit-cards-may-disappear-by-2020/" rel="bookmark">Tech experts believe cash and credit cards may disappear by 2020</a> <span class="source"> - TheDC</span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/tech-experts-believe-cash-and-credit-cards-may-disappear-by-2020/"><img width="298" height="128" src="http://cdn2.dailycaller.com/2012/02/googlewalletpic1-e1329834681749-300x129.jpg" class="attachment-298x500 wp-post-image" alt="googlewalletpic" title="Google Wallet" /></a>		</div>
+							
+						<div class="subheadline">'I for one welcome my beast-marked future financial transactions,' jokes UNC professor </div>
+						
+						<div class="break"></div>
+		</div>
+	<div class="separator"></div>					
+		<div class="post">
+			<h2 class="headline red">
+						<a href="http://dailycaller.com/2012/04/17/dont-worry-pippa-middleton-probably-wont-go-to-jail/" rel="bookmark">Don't worry, Pippa Middleton probably won't go to jail</a> <span class="source"> - TheDC </span></h2>
+			
+					<div class="pic">
+		<a href="http://dailycaller.com/2012/04/17/dont-worry-pippa-middleton-probably-wont-go-to-jail/"><img width="298" height="127" src="http://cdn2.dailycaller.com/2011/12/113286945-e1334683268229-300x128.jpg" class="attachment-298x500 wp-post-image" alt="Pippa Middleton" title="Pippa Middleton" /></a>		</div>
+							
+						<div class="subheadline">The Duchess of Cambridge's sister is safe after gun incident </div>
+						
+						<div class="break"></div>
+		</div>
+		</div>
+	</div>
+
+	
+	  	
+  	<div style="padding: 0 0 10px 0;margin:0;text-align:center; clear:both; ">
+  		<!-- OPENX_LOC[Homepage:Bottom] --><script type="text/javascript">OX.requestAd({"auid":"92734"});</script>		<div class="break"></div>
+	</div>
+	<div class="break"></div>
+  	
+	<div id="stay-connected">
+		<h2>STAY CONNECTED TO <img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/connect/logo.gif" alt="" /></h2>
+		<a href="http://www.facebook.com/DailyCaller" TARGET="_blank"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/connect/facebook.gif" border="1" alt="" /></a>
+		<a href="http://twitter.com/dailycaller" TARGET="_blank"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/connect/twitter.gif" border="1" alt="" /></a>
+		<a href="http://dailycaller.com/my-account/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/connect/email.gif" border="1" alt="" /></a>
+        <a href="http://dailycaller.com/rss-feeds/"><img src="http://cdn2.dailycaller.com/wp-content/themes/default/images/connect/rss_button.gif" border="1" alt="" /></a>
+	</div>
+
+	<div id="footer">
+		<ul>
+							<li><a href="http://dailycaller.com/about-us">About Us</a></li>
+				 | 				<li><a href="http://dailycaller.com/contact-us">Contact Us</a></li>
+				 | 				<li><a href="http://dailycaller.com/privacy-policy">Privacy Policy</a></li>
+				 | 				<li><a href="http://dailycaller.com/terms-of-use">Terms of Use</a></li>
+				 | 				<li><a href="http://dailycaller.com/advertise-with-us">Advertise With Us</a></li>
+				 | 				<li><a href="http://dailycaller.com/make-homepage">Make The Daily Caller Your Homepage</a></li>
+				
+		</ul>
+		
+		Copyright &copy; 2011 The Daily Caller. <br />
+
+		<small>1.19</small>
+		
+	</div>
+
+</div>
+
+
+	<script type='text/javascript' src='http://widget.perfectmarket.com/dailycaller/load.js?ver=0.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {
+	plugin_url: "http://cdn2.dailycaller.com/wp-content/plugins/wp-postratings",
+	ajax_url: "http://dailycaller.com/wp-content/plugins/wp-postratings/wp-postratings.php",
+	text_wait: "Please rate only 1 post at a time.",
+	image: "stars",
+	image_ext: "gif",
+	max: "5",
+	show_loading: "1",
+	show_fading: "1",
+	custom: "0"
+};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cdn2.dailycaller.com/wp-content/plugins/wp-postratings/postratings-js.js?ver=1.50'></script>
+	<script type="text/javascript">
+	
+	jQuery("a.grouped_elements").fancybox({
+		'titlePosition' : 'over'
+	});
+	
+	jQuery("a.popup_box_sendtips").fancybox({
+		'width' : 400,
+		'height' : 330,
+		'type' : 'iframe',
+		'titleShow' : false
+	});
+	
+	jQuery("a.popup_box_report_comments").fancybox({
+		'width' : 400,
+		'height' : 330,
+		'type' : 'iframe',
+		'titleShow' : false
+	});
+	
+	jQuery("a.popup_box_labash").fancybox({
+		'width' : 400,
+		'height' : 380,
+		'type' : 'iframe',
+		'titleShow' : false
+	});
+	
+	jQuery("a.popup_box_email_this").fancybox({
+		'width' : 400,
+		'height' : 520,
+		'type' : 'iframe',
+		'titleShow' : false
+	});
+
+	</script>
+		<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=3.0.5'></script>
+		<script type="text/javascript">
+	jQuery(document).ready(function(){
+		if (readCookie('dailycaller_uname')) {
+			var txt = "Logged in as: <a href=\"http://dailycaller.com/my-account/\">" + readCookie('dailycaller_uname') + "</a> <small>(<a href=\"http://dailycaller.com/my-account/\">My Account</a> | <a href=\"http://dailycaller.com/my-account/?action=logout\">logout</a>)</small>";
+			jQuery('#logged-in').append(txt);
+		} else {
+			jQuery('#login-register').css("display","");
+		};
+	});
+	</script>
+	<script type="text/javascript">
+	var ss_esl_excluded_referrers = ["drudgereport.com"];
+	if (ss_esl_excluded_referrers.indexOf(ss_esl_getHost(document.referrer)) != -1) {
+		ss_esl_setCookie('ss_esl_nothanks', true, 604800000,'/');
+	}
+</script>
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-12159302-1']);
+  	_gaq.push(['_setCustomVar', 4, 'ContentType' ,'Homepage', 3]);
+    
+	_gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Google Analytics -->
+
+
+
+
+
+
+<script type="text/javascript">tyntVariables = {"ap":"Read more: "};</script> <script type="text/javascript" src="http://tcr.tynt.com/javascripts/Tracer.js?user=dDbxyAkh4r37nmadbiUzgI&amp;s=140&amp;lang=en"></script>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-8ckCzGybQyMFc"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-8ckCzGybQyMFc.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast" />
+</noscript>
+<!-- End Quantcast tag -->
+
+<script type="text/javascript">
+   __compete_code = 'f79605b5076c6cb89c3ab20a16faf54a';
+   (function () {
+       var s = document.createElement('script'),
+           d = document.getElementsByTagName('head')[0] ||
+               document.getElementsByTagName('body')[0],
+           t = 'https:' == document.location.protocol ? 
+               'https://c.compete.com/bootstrap/' : 
+               'http://c.compete.com/bootstrap/';
+       s.src = t + __compete_code + '/bootstrap.js';
+       s.type = 'text/javascript';
+       s.async = 'async'; 
+       if (d) { d.appendChild(s); }
+   }());
+</script>
+
+<script type='text/javascript'>
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 5927;
+    _sf_async_config.domain = 'dailycaller.com';
+    _sf_async_config.sections = 'KausFiles';
+    _sf_async_config.authors = 'Mickey Kaus';
+    /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+           'js/chartbeat.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+
+
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <a id="parsely-cfg" data-parsely-site="dailycaller.com"
+     href="http://parsely.com">Powered by the Parse.ly Publisher Platform (P3).</a>
+</div>
+<script>
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root");
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = h+"//static.parsely.com/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include -->
+
+
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "10110104" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=10110104&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+<!-- This is: 10.10.100.100 --><script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+</html>

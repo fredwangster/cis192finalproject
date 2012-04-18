@@ -1,0 +1,3253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+ 
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+
+
+
+
+
+<script type="text/javascript">
+<!-- 
+var gomez={ 
+	gs: new Date().getTime(), 
+	acctId:'D3FD89', 
+	pgId:'Home:105 section-front', 
+	grpId:'KansasCity' 
+};
+
+
+/*Gomez tag version: 7.0*/var gomez=gomez?gomez:{};gomez.h3=function(d, s){for(var p in s){d[p]=s[p];}return d;};gomez.h3(gomez,{b3:function(r){if(r<=0)return false;return Math.random()<=r&&r;},b0:function(n){var c=document.cookie;var v=c.match(new RegExp(';[ ]*'+n+'=([^;]*)'));if(!v)v=c.match(new RegExp('^'+n+'=([^;]*)'));if(v)return unescape(v[1]);return '';},c2:function(n,v,e,p,d,s){try{var t=this,a=t.domain?t.domain:location.hostname;var c=n+'='+escape(v)+(e?';expires='+e.toGMTString():'')+(p?';path='+p:';path=/')+(d?';domain='+d:';domain='+a)+(s?';secure':'');document.cookie=c;}catch(e){}},z0:function(n){var t=this;if(n){var s =t.b0("__g_c");if(!s)return '';var v=s.match(new RegExp(n+':([^\|]*)'));if(v)return unescape(v[1]);return '';}else return '';},z1:function(n,m){var t=this;if(n){var s=t.b0("__g_c");if(s){if(s.indexOf(n+':')!=-1)s=s.replace(new RegExp('('+n+':[^\|]*)'),n+':'+m);else s=s==' '?n+':'+m:s+'|'+n+':'+m;t.c2("__g_c",s);}else t.c2("__g_c",n+':'+m);};},b2:function(v,s){var t=this,f=new Date(t.gt()+946080000000),g=''+v+'_'+s;t.c2('__g_u',g,f);t.gc.c=v;t.gc.d=s;t.z1('c',v);t.z1('d',s);},gt:function(){return new Date().getTime()},b5:function(){return new Date().getTime()-gomez.gs},j1:function(h){if(h){if(h.indexOf('<')!=-1||h.indexOf('%3C')!=-1||h.indexOf('%3c')!=-1)return null;if(window.decodeURIComponent)return decodeURIComponent(h);else return unescape(h);}return null;},f1:function(u,t){try{if(u){if(!/(^http|^https)/.test(u)){if(t==1)return gomez.j1(location.hostname);else return u;}var p=new RegExp('(^http|^https|):\/{2}([^\?#;]*)');if(t==1)p=new RegExp('(^http|^https|):\/{2}([^\/\?]*)');var r=u.match(p);if(r&&t==1)return gomez.j1(r[2]);else if(r)return r[0];}return null;}catch(e){return null;}},j3:function(n){try{var t =this,key=escape((window.location+n).replace(new RegExp("([:\/\.])","gm"),""));if(key&&key.length>100){key=key.substring(0,100);}if(window.localStorage){window.localStorage.setItem(key, t.gt());}else{t.z1('r',key+'___'+t.gt());}}catch(e){return ;}}, j2:function(){try{var m,t =this,key=escape((document.referrer+window.location).replace(new RegExp("([:\/\.])","gm"),""));if(key&&key.length>100){key=key.substring(0,100);}if(window.localStorage){m=window.localStorage.getItem(key);}if(!m){var c=t.z0("r");if(c){var r=c.split('___');if(r &&r[0]==key){m=r[1];}};};t.j4();return m;}catch(e){return ;}}, j4:function(){try{var t =this;if(window.localStorage){var key=escape((document.referrer+window.location).replace(new RegExp("([:\/\.])","gm"),""));if(key&&key.length>100){key=key.substring(0,100);}window.localStorage.removeItem(key);}else{t.z1('r', '');}}catch(e){return ;}}, j5:function(){var ret='';for(var i=0;i<3;i++){ret =ret +(((1+Math.random())*0x10000)|0).toString(16).substring(1);}ret =parseInt(ret, 16);return ret;},j6:function(){var t =this;var g=t.b0("__g_u");if(g&&g!='1'&&g.indexOf('NaN')==-1&&g.indexOf('undefined')==-1){var r =g.split("_");if(r.length>5){if(parseInt(r[5])<new Date().getTime()){return undefined;}else{return parseFloat(r[2]);}}}return undefined;},nameEvent:function(){},startInterval:function(){},endInterval:function(){},customValue:function(){}});gomez.P=function(){};gomez.P.prototype={hash:function(o){if(!o)return '';var t=this,s='{n:'+t.f9(o['n'])+'|';for(var i in o){if(i=='n')continue;if(typeof(o[i])=='string'||typeof(o[i])=='number')s +=i+':'+t.f9(o[i])+'|';};s=s.substring(0,s.length-1);return s+'}';},f9:function(s){s=''+s;s=s.replace('|','#$#').replace(':','$*$').replace('{','@#@').replace('}','*@*').replace('&','!*!');return s;},g0:function(){var t=this,z=gomez;if(z.grpIds)z.h3(z.gc,z.grpIds);if(z.wrate)z.gc.r=z.wrate;z.gc.e=z.grpId;for(var i=1;i<5;i++){if(z["grpId"+i]!=undefined){z.gc["e"+i]=z["grpId"+i];}}z.gc.b=z.pgId;z.gc.l=z.f1(z.m,2);if(self.screen){z.gc.m=screen.width;z.gc.o=screen.height;}else if(self.java){var j=java.awt.Toolkit.getDefaultToolkit();var s=j.getScreenSize();z.gc.m=s.width;z.gc.o=s.height;};z.gc.p=navigator.platform;if(navigator.cpuClass)z.gc.q=navigator.cpuClass;if(!z.gc.f&&!z.gc.g){try{var a=new Array("MSIE","Firefox","Opera","Safari","Chrome"),b=document.createElement('div');if(b.addBehavior&&document.body){b.addBehavior('#default#clientCaps');z.gc.k=b.connectionType;}}catch(e){};for(var i=0;i<a.length;i++){if(navigator.userAgent.indexOf(a[i])!=-1){z.gc.g=a[i];z.gc.f=(new String(navigator.userAgent.substring(navigator.userAgent.indexOf(a[i])).match(/[\d.]+/))).substring(0);}}if(!z.gc.f&&!z.gc.g){z.gc.g=navigator.vendor||navigator.appName;z.gc.f=(new String(navigator.appVersion.match(/[\d.]+/))).substring(0);}}return t.hash(z.gc);}};try{gomez.gc={'n':'c'};var iU=gomez.b0('__g_u');if(iU==undefined||iU==''){gomez.b2(gomez.j5(), 0);}var sR=gomez.j6();if(sR==undefined){sR=1;gomez.isFirstVi=true;}else{gomez.isFirstVi=false;}var wR=gomez.wrate?parseFloat(gomez.wrate):(gomez.wrate==0?0:1);wR=wR<0?0:(wR>1?1:wR);gomez.inSample=gomez.z0('a');if(!gomez.inSample||gomez.inSample==''){if(gomez.b3(wR*sR)){gomez.inSample=1;}else{gomez.inSample=0;}gomez.z1('a', gomez.inSample);}else{gomez.inSample=parseInt(gomez.inSample);}gomez.runFlg=gomez.inSample>0;if(gomez.runFlg){gomez.clickT=gomez.j2();gomez.h1=function(v,d){return v?v:d};gomez.gs=gomez.h1(gomez.gs,new Date().getTime());gomez.acctId=gomez.h1(gomez.acctId,'');gomez.pgId=gomez.h1(gomez.pgId,'');gomez.grpId=gomez.h1(gomez.grpId, '');gomez.E=function(c){this.s=c;};gomez.E.prototype={g1:function(e){var t=gomez,i=t.g6(e);if(i)i.e=t.b5();}};gomez.L=function(m){this.a=m;};gomez.L.prototype={g2:function(m){var t=gomez,n=t.b5();var s=document.getElementsByTagName(m);var e=t.k;if(m=='script')e=t.j;if(m=='iframe')e=t.l;if(s){var l=s.length;for(var i=0;i<l;i++){var u=s[i].src||s[i].href;if(u &&!e[u]){var r =new gomez.E(e);t.grm[u]=r;e[u]=new t.c7(u, n);if(t.gIE&&m=='script')t.e2(s[i],'readystatechange',t.d2,false);else t.e2(s[i],'load',r.g1,false);}}}}};gomez.L.m=new Object;gomez.S=function(){var t=this,h=gomez.acctId+".r.axf8.net";t.x=('https:'==location.protocol?'https:':'http:')+'//'+h+'/mr/b.gif?';t.pvHttpUrl=('https:'==location.protocol?'https:':'http:')+'//'+h+'/mr/e.gif?';t.abHttpUrl=('https:'==location.protocol?'https:':'http:')+'//'+h+'/mr/f.gif?';};gomez.h2=function(){var t=this;t.gIE=false;t.f=new Object;t._h=0;t.j=new Object;t.k=new Object;t.l=new Object;t.m=location.href;t.p=-1;t.q=-1;t.u=new Array;t._w=false;t.gSfr=/KHTML|WebKit/i.test(navigator.userAgent);t.grm=new Object;t.b;t.d=false;t.x=false;t.s=new gomez.S;t._a=false;t.h6=false;t.n1=0;t.c=false;};gomez.h3(gomez,{h5:function(u){try{var s=document.createElement('script');s.async=true;if(navigator.userAgent.indexOf('Firefox/3.5')!=-1){s.defer=true;}s.src=u;s.type='text/javascript';if(document.body)document.body.appendChild(s);else if(document.documentElement.getElementsByTagName('head')[0])document.documentElement.getElementsByTagName('head')[0].appendChild(s);}catch(e){var t=gomez;if(t.gSfr)document.write("<scr"+"ipt src='"+u+"'"+"><\/scr"+"ipt>");}},a9:function(){var t=gomez,i=t.z0('a'),g=t.b0('__g_u'),h=t.z0('h'), b=t.z0('b');t.gc.h=b;if(h)t.n1=parseInt(h);if(!t.gc.h)t.gc.h=1;t.z1('b',parseInt(t.gc.h)+1);if(i){t.a=parseInt(i);if(t.a==1){t._w=true;}else if(t.a==3){t.x=true;t._w=true;};t.d=true;}if(!t.gc.a)return;if(b){t.gc.c=t.z0('c');t.gc.i=t.z0('e');t.gc.j=t.z0('f');t.iFS=false;}else {var s='v=1';t.c2('__g_u','1',new Date(t.gt()+1000));t.iFS=true;if(t.b0('__g_u')&&g&&g!='1'&&g.indexOf('NaN')==-1&&g.indexOf('undefined')==-1){s='v=0';var r=g.split('_');t.b2(parseInt(r[0]),parseInt(r[1])+1);if(r[4]&&r[4]!='0'&&t.gt()<parseInt(r[5])&&r[2]&&r[2]!='0'){t.b1(parseFloat(r[2]),parseFloat(r[3]),parseFloat(r[4]),parseInt(r[5]));if(r[6])t.n0(parseInt(r[6]));};};t.h6=true;};t.gc.d=t.z0('d');if(!t.gc.d||(t.gc.d&&t.gc.d==0)){t.z1('d',1);t.gc.d=1;}t.b=t.z0('g');t.j8();if(i &&!t.isFirstVi&&t._w&&!t._a){t.h7();t._a=true;};},h7:function(){var t=gomez,u=t.tloc?t.tloc:('https:'==location.protocol?'https:':'http:')+'//'+t.acctId+'.t.axf8.net/js/gtag7.0.js';t.h5(u);},n0:function(h){var t=gomez,f=new Date(t.gt()+946080000000),g=t.b0('__g_u');t.n1=h;t.z1('h',h);if(g&&g!='1'&&g.indexOf('NaN')==-1&&g.indexOf('undefined')==-1){var r=g.split('_');g=''+r[0]+'_'+r[1]+'_'+r[2]+'_'+r[3]+'_'+r[4]+'_'+r[5]+'_'+h;t.c2('__g_u',g,f);};},b1:function(v,s,q,f){var t=this;if(s ==undefined)s =1;t.d=true;t.z1('e',v);t.z1('f',s);t.gc.i=v;t.gc.j=s;t.h4(v,s,q,f);},b3:function(i, v, s){var t =this;t.d=true;if(s ==undefined)s =1;if(i==0||i==1){t.a=i;if(i==1){t._w=true;if(!t._a){t.h7();t._a=true;};}else{t.d=false;}t.z1('a',t.a);if(v !=undefined){t.b1(v, s);}}else if(i==2){t.h4(v, s);}},h4:function(o,p,q,d){var t=this,f=new Date(t.gt()+946080000000),g=t.b0('__g_u');if(g&&g!='1'&&g.indexOf('NaN')==-1&&g.indexOf('undefined')==-1){var r=g.split('_'),s;if(d)s=d;else if(q&&q>=0)s=new Date(t.gt()+parseInt(q*86400000)).getTime();else{q=5;s=new Date(t.gt()+432000000).getTime();};g=''+r[0]+'_'+r[1]+'_'+o+'_'+p+'_'+q+'_'+s;t.c2('__g_u',g,f);};},b6:function(){var t=gomez;t.p=t.b5();},f8:function(){var t=this;if(t.pollId1)clearInterval(t.pollId1);},b7:function(){var t =gomez;t.f8();t.q=t.b5();},c7:function(u, s){var t=this;t.m=u;t.s=s;},c8:function(){var t=gomez,n=t.b5(),l=document.images.length;if(l>t._h){for(var i=t._h;i<l;++i){var u=document.images[i].src;if(u){var r =new gomez.E(t.f);t.grm[u]=r;t.f[u]=new t.c7(u, n);t.e2(document.images[i],'load',t.c4,false);t.e2(document.images[i],'error',t.c5,false);t.e2(document.images[i],'abort',t.c6,false);}}}t._h=l;},c4:function(e){var t=gomez,i=t.g6(e);if(i)i.e=t.b5();},c5:function(e){var t=gomez,i=t.g6(e);if(i){i.e=t.b5();i.b=1;}},c6:function(e){var t=gomez,i=t.g6(e);if(i)i.a=t.b5();},g6:function(e){var t=gomez,e=window.event?window.event:e,a=t.d8(e),i;if(t.grm[a.src||a.href]&&t.grm[a.src||a.href].s)i=t.grm[a.src||a.href].s[a.src||a.href];return i;},d2:function(){var t=gomez;var e=window.event?window.event:e,s=t.d8(e);if(s.readyState=='loaded'||s.readyState=='complete'){var o=t.j[s.src];if(o)o.e=t.b5();}},nameEvent:function(n){var t=this;t.f6(n,1);},startInterval:function(n){var t=this;t.f6(n,2,1);},endInterval:function(n){var t=this;t.f6(n,2,2);},f6:function(n,p,b){if(n&&n.length>20)n=n.substring(0,20);var t=this,f=t.u;if(p==3){f[f.length]={'n':'a','a':n,'b':b,'e':p,'f':undefined};}else{f[f.length]={'n':'a','a':n,'b':t.b5(),'e':p,'f':b};}},customValue:function(n,v){var t=this;if(typeof(v)!='number'){return;}t.f6(n,3,v);},d8:function(e){if(gomez.gIE)return e.srcElement||{};else return e.currentTarget||e.target||{};},e2:function(e,p,f,c){var n='on'+p;if(e.addEventListener)e.addEventListener(p,f,c);else if(e.attachEvent)e.attachEvent(n, f);else{var x=e[n];if(typeof e[n]!='function')e[n]=f;else e[n]=function(a){x(a);f(a);};}},i1:function(){var d =window.document, done=false,i2=function (){if(!done){done=true;gomez.b6();gomez.a9();}};(function (){try{d.documentElement.doScroll('left');}catch(e){setTimeout(arguments.callee, 50);return;}i2();})();d.onreadystatechange=function(){if(d.readyState=='complete'){d.onreadystatechange=null;i2();}};},j7:function(s, toUrl){try{var t=this,z=gomez;if(!s)return;s+="{n:u|e:1}";var p ='';if(t.isFirstVi){p='&a='+z.acctId+'&r=1&s=1';}else if(t.iFS){p='&a='+z.acctId+'&r='+t.j6();}if(window.encodeURIComponent)s=encodeURIComponent(s);else s=escape(s);z.h5(z.e(toUrl)+'info='+s+p);}catch(err){}return;},e:function(u){if(!/\?|&/.test(u))if(!/\?/.test(u))u +='?';else u +='&';return u;},j8:function(){var t=gomez, p=new gomez.P();var s=p.g0();t.j7(s, t.s.pvHttpUrl);},g7:function(){try{var t=gomez;t.gc.a=t.acctId;t.gIE=!-[1,];if(t.gIE){t.i1();window.attachEvent('onload', t.b7);}else if(window.addEventListener){window.addEventListener('DOMContentLoaded', t.b6, false);window.addEventListener('load', t.b7, false);}else if(t.gSfr){var m=setInterval(function(){if(/loaded|complete/.test(document.readyState)){clearInterval(m);delete m;t.b6();t.b7();}}, 10);}else return;if(!t.jbo){t.c8();t.pollId1=setInterval(t.c8, 10);}if(!t.gIE)t.a9();}catch(e){return;}}});gomez.h2();gomez.g7();}}catch(e){};
+//--> 
+</script>
+    <!-- assignment_type: 'section-front' -->
+   
+
+<script type="text/javascript">
+<!--
+    mi_is_live = 1;
+
+    miyahoo = {};
+    miyahoo.tax = "Home_Page||";
+    miyahoo.tax_id = 20201001;
+    miyahoo.content_type = "fn_news";
+    miyahoo.cstm_sctn_list = "homepage";
+    miyahoo.cstm_content_cat = "Front Page";
+
+    miyahoo.slots = {};
+
+    miyahoo.slots.slot_1 = {};
+    miyahoo.slots.slot_1.ad_size_list = ["950x30"];
+    miyahoo.slots.slot_1.ad_delivery_mode = "ipatf";
+    miyahoo.slots.slot_1.ad_marker = "";
+    miyahoo.slots.slot_2 = {};
+    miyahoo.slots.slot_2.ad_size_list = ["1x1"];
+    miyahoo.slots.slot_2.ad_delivery_mode = "ipatf";
+    miyahoo.slots.slot_2.ad_marker = "";
+    miyahoo.slots.slot_3 = {};
+    miyahoo.slots.slot_3.ad_size_list = ["160x90"];
+    miyahoo.slots.slot_3.ad_delivery_mode = "ipatf";
+    miyahoo.slots.slot_3.ad_marker = "";
+    miyahoo.slots.slot_4 = {};
+    miyahoo.slots.slot_4.ad_size_list = ["100x25"];
+    miyahoo.slots.slot_4.ad_delivery_mode = "ipatf";
+    miyahoo.slots.slot_4.ad_marker = "";
+    miyahoo.slots.slot_5 = {};
+    miyahoo.slots.slot_5.ad_size_list = ["728x90"];
+    miyahoo.slots.slot_5.ad_delivery_mode = "ipatf";
+    miyahoo.slots.slot_5.ad_marker = "";
+    miyahoo.slots.slot_6 = {};
+    miyahoo.slots.slot_6.ad_size_list = ["300x250"];
+    miyahoo.slots.slot_6.ad_delivery_mode = "ipatf";
+    miyahoo.slots.slot_6.ad_marker = "";
+    miyahoo.slots.slot_7 = {};
+    miyahoo.slots.slot_7.ad_size_list = ["300x100"];
+    miyahoo.slots.slot_7.ad_delivery_mode = "ipbtf";
+    miyahoo.slots.slot_7.ad_marker = "";
+    miyahoo.slots.slot_8 = {};
+    miyahoo.slots.slot_8.ad_size_list = ["300x250"];
+    miyahoo.slots.slot_8.ad_delivery_mode = "ipbtf";
+    miyahoo.slots.slot_8.ad_marker = "";
+    miyahoo.slots.slot_9 = {};
+    miyahoo.slots.slot_9.ad_size_list = ["285x70"];
+    miyahoo.slots.slot_9.ad_delivery_mode = "ipatf";
+    miyahoo.slots.slot_9.ad_marker = "";
+
+
+-->
+</script>
+<script type="text/javascript" src="http://media.kansascity.com/misites/defaults.js"></script>
+<script type="text/javascript" src="http://media.kansascity.com/misites/ksc/kansascity.js"></script>
+<script type="text/javascript" src="http://media.kansascity.com/miads/yahoo.js"></script>
+<script type="text/javascript">
+<!--
+ if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){ // 'live' or 'preview' is set during page build
+        document.write('<'+'script type="text/javascript" src="http://e.yieldmanager.net/script.js"></script'+'>');
+    }
+-->
+</script>
+
+<!-- templates/ads/dart_init.ett :start -->
+<!-- templates/ads/dart_init.ett :end -->
+
+
+
+   <link rel="shortcut icon" href="http://media.kansascity.com/images/favicon.ico">
+   <link rel="apple-touch-icon" href="http://media.kansascity.com/images/permanent/branding/kcstar-iphone-clip.png"> 
+
+    
+	
+	
+		  
+
+
+ 
+<title>Kansas City&#39;s Best Source for News, Weather, Sports &amp; More | KansasCity.com</title>
+
+<meta name="description" content="Kansas City&#39;s source for the latest breaking local news, sports, weather, business, jobs, real estate, shopping, health, travel, entertainment and more. " >
+
+
+
+        
+        
+        
+    
+        <link rel='alternate' type='application/rss+xml' title='all content on this page' href='/105/v-highlights/index.rss'>    
+<link rel="alternate" type="application/rss+xml" title="Front Page stories only" href="/105/index.rss"> 
+  
+	
+
+ 
+<!-- styles here -->
+<link href="http://media.kansascity.com/styles/v2/kc.css?v=14" rel="stylesheet" type="text/css">
+<link href="/styles/thickbox.css"  rel="stylesheet" type="text/css">
+
+<!-- end styles -->
+
+<script type="text/javascript">
+   var mi = (!mi) ? {} : mi;
+   mi.media_domain = "http://media.kansascity.com";
+</script>
+    
+    <script type="text/javascript">var insitecookie = 'kansascitystar_user_auth'</script>
+   <script type="text/javascript" src="/static/scripts/insite-min.js"></script>
+    
+    
+        
+    
+   <!-- this has to go after registration stuff, in case we want to override those rules -->
+   <link href="/styles/v2/sections/home.css?v=7" rel="stylesheet" type="text/css">
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+
+   <script type="text/javascript" src="http://media.kansascity.com/scripts/kc-jquery-libs.js"></script>
+   <script type="text/javascript" src="http://media.kansascity.com/scripts/init_overhaul-min.js"></script>
+
+<script type="text/javascript">
+	/**
+	 * miAppControler contains master settings that can be used to quickly disable
+	 * javascript applications. For each supported app there is an attribute containing
+	 * an integer value. The meaning of the value is application specific, except 
+	 * for 0 and 1.
+	 * 0 = disable the entire app
+	 * 1 = enable the entire app
+	 * Any additional values should be noted in this file.
+	 *
+	 * The controller is instantiated in the MI object and should be interfaced with
+	 * there. 
+	 */
+
+	var miAppControler = function() {};
+
+	/* Commenting
+	 2 = disable comment submission & display
+	 3 = enable comment submission & display only
+	 4 = disable popular threads widget
+	*/
+	miAppControler.prototype.commenting = 1;
+
+	/*
+	 2 = display static coupon ad
+	*/
+	miAppControler.prototype.findnsave = 0;
+  miAppControler.prototype.dealsaver = 1;
+
+var pageInfo = {'version':1.0};
+pageInfo.section = {};
+pageInfo.section.id = 105;
+
+</script>
+
+<script  type="text/javascript" src="http://media.kansascity.com/scripts/sectionfront-min.js"></script>
+   <!--<script type="text/javascript" src="http://media.kansascity.com/scripts/site_new.js"></script>-->
+   <script type="text/javascript" src="/static/scripts/v2/kc.js?v=2"></script>
+    <script type='text/javascript'>
+  src_string='kansascity.homepage/homepage;template=homepage;!category=homepage';
+</script>
+</head>
+
+ 
+<body id="front" class="">
+<div id="tools">
+    <div>
+        <div id="pluck" class="right">
+            <div id="registration">
+	<script type="text/javascript">
+	   var rurl_qs = '';
+	   var loc = ''+document.location;
+	   if (loc.match('/reg-bin/') ) {
+	      rurl_qs = ";goto=/";
+	   } else { 
+	      rurl_qs = "goto="+loc 
+	   }
+	   var insitecookie=document.cookie.match('kansascitystar_user_auth');
+	   var icname = GetCookie(insitecookie);
+
+	   if (icname) {         // user has cookie     
+	        var name = icname.replace(/\|.*/,"").replace(/\.threshold/ig,'Guest');
+	   } else {
+	        name = 'Guest'
+	   }
+	   document.write('Welcome <strong>' + name + ' </strong>');
+		if (icname && icname.indexOf('.threshold') == -1) { // has cookie AND logged in.
+			output = '<a href="/reg-bin/tint.cgi?mode=logout">Sign out</a> | <a href="/reg-bin/tint.cgi?mode=edit">Member Center</a>';
+		} else {
+			output = '<a href="/reg-bin/int.cgi?mode=login&' + rurl_qs + '">Sign in</a> | <a href="/reg-bin/int.cgi?mode=register">Register</a>';
+		}	
+		document.write(output);
+	</script>
+</div>
+        </div>
+       <ul id="tool-list">
+          <li><a href="/contact_us/">Contact Us</a></li>
+           <li><a href="https://customercare.kcstar.com/sub_landing.HTM">Subscribe</a></li>
+           <li><a href="https://subscriberservices.mcclatchy.com/kan/TransactionType.asp">Your Account</a></li>
+           <li><a href="http://estar.kcstar.com">E-Star</a></li>
+           <li><a href="http://staradvantagekc.com">Star Advantage</a></li>
+           <li><a href="http://www.kcstarsie.com">Star in Education</a></li>
+           </ul>
+
+           <span class="versions">
+     <a class="mobile" href="http://m.kansascity.com/"><img src="http://media.kansascity.com/images/v15/icon-mobile.png" alt="Mobile Site"></a>
+        <a class="rss" href="http://media.kansascity.com/rss/"><img src="http://media.kansascity.com/images/v15/icon-feed.png" alt="RSS Feeds"></a>
+          </span>
+        
+        
+        
+   </div>
+</div>
+<div id="masthead">
+ <!--[if lt IE 7]> 
+ <div id="ie-warning">
+	<img src='http://media.kansascity.com/images/ie6-alert/alert-64-64.png' alt='Warning!' id="ie-warning-alert-icon">
+	 <div id="ie-warning-browsers">
+	 		<a href='http://www.google.com/chrome' title="Get Google Chrome">
+	 			<img src='http://media.kansascity.com/images/ie6-alert/chrome.jpg' alt='Get Google Chrome'>
+	 		</a>
+	 		<a href='http://www.firefox.com' title="Get Firefox">
+	 			<img src='http://media.kansascity.com/images/ie6-alert/firefox.jpg' alt='Get Firefox 3.5'></a>
+	 		<a href='http://www.apple.com/safari/download/' title="Get Safari">
+	 			<img src='http://media.kansascity.com/images/ie6-alert/safari.jpg' alt='Get Safari 4'/></a>
+	 		<a href='http://www.browserforthebetter.com/download.html' title="Get Internet Explorer 8">
+	 			<img src='http://media.kansascity.com/images/ie6-alert/ie8.jpg' alt='Get IE 8'></a>
+	 	</div>
+	 	<h3>We notice you're using Internet Explorer 6.</h3>
+	 	<h4>IE6 is no longer supported by KansasCity.com.<br>
+	 	You'll probably notice things that don't work or look quite right.</h4>
+	 	<p>For a better experience, please upgrade to a newer Web browser. We suggest 
+	 		<a href='http://www.google.com/chrome'>Google Chrome</a>, 
+	 		<a href='http://www.firefox.com'>Firefox</a>, 
+	 		<a href='http://www.apple.com/safari/download/'>Safari</a>
+	 		 or a newer version of <a href='http://www.browserforthebetter.com/download.html' title="Get Internet Explorer 8">Internet Explorer</a>. 
+	 		 These modern browsers are faster, more secure and offer a better browsing experience. &mdash;  <b>KansasCity.com</b> <img src="http://media.kansascity.com/images/favicon.ico" alt="" align="top"></p>
+  </div>
+  <link href="/static/styles/ie6fix.css" rel="stylesheet" type="text/css">
+<![endif]-->
+
+
+
+
+
+
+       	 <div id="masthead_content">
+ 
+ 
+ 
+ 
+ 
+<div class="advertisement ts_v2_shared_masthead yahoo" id="yahoo_950x30_ipatf_1">
+	
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_1");}
+--></script>
+
+</div><!-- /.advertisement ts_v2_shared_masthead -->
+
+  
+ 
+ 
+ 
+<center><div class="advertisement ts_v2_shared_masthead dart3" id="dart_960x30_ats_1">
+<!-- templates/ads/dart_call.ett :start v.15690 -->
+<!-- templates/ads/dart3_render_adj.ett :start -->
+	<script language="JavaScript" type="text/javascript">
+	<!-- 
+        if ('undefined' !== typeof miadinfo) { var miadinfo = new Array(); }
+	if(typeof(miyahoo) == "undefined" || miyahoo.ads[mi_live_or_preview].dart.enabled){
+    document.write('<scr' + 
+        'ipt language="JavaScript" src="http://ad.doubleclick.net/adj/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=960x30;tile=1;!c=news;pub=KansasCityStar;ord=817823910407490' + 
+        ';gender=' + ((miadinfo && miadinfo.length > 0) ? miadinfo[0] : '') + 
+        ';year=' + ((miadinfo && miadinfo.length > 1) ? miadinfo[1] : '') + 
+        ';income=' + ((miadinfo && miadinfo.length > 2) ? miadinfo[2] : '') + 
+        '?" type="text/javascript"></scr' + 'ipt>');
+	}
+	//-->
+	</script>
+	<noscript>
+        <a  href="http://ad.doubleclick.net/jump/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=960x30;tile=1;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            target="_blank"><img src="http://ad.doubleclick.net/ad/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=960x30;tile=1;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            border="0" alt="Advertisement"></a>
+    </noscript> 
+<!-- templates/ads/dart3_render_adj.ett :end -->
+
+<!-- templates/ads/dart_call.ett :end -->
+
+
+</div></center><!-- /.advertisement ts_v2_shared_masthead -->
+
+  
+ 
+ 
+ 
+ 
+<div class="advertisement ts_v2_shared_masthead yahoo" id="yahoo_1x1_ipatf_1">
+	
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_2");}
+--></script>
+
+</div><!-- /.advertisement ts_v2_shared_masthead -->
+
+ 
+
+
+<h1><a href="/">KansasCity.com</a></h1>
+<div class="right">
+ 
+ 
+ 
+ 
+<center><div class="advertisement ts_v2_shared_masthead dart3" id="dart_160x90_ats_1">
+<!-- templates/ads/dart_call.ett :start v.15690 -->
+<!-- templates/ads/dart3_render_adj.ett :start -->
+	<script language="JavaScript" type="text/javascript">
+	<!-- 
+        if ('undefined' !== typeof miadinfo) { var miadinfo = new Array(); }
+	if(typeof(miyahoo) == "undefined" || miyahoo.ads[mi_live_or_preview].dart.enabled){
+    document.write('<scr' + 
+        'ipt language="JavaScript" src="http://ad.doubleclick.net/adj/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=160x90;tile=2;!c=news;pub=KansasCityStar;ord=817823910407490' + 
+        ';gender=' + ((miadinfo && miadinfo.length > 0) ? miadinfo[0] : '') + 
+        ';year=' + ((miadinfo && miadinfo.length > 1) ? miadinfo[1] : '') + 
+        ';income=' + ((miadinfo && miadinfo.length > 2) ? miadinfo[2] : '') + 
+        '?" type="text/javascript"></scr' + 'ipt>');
+	}
+	//-->
+	</script>
+	<noscript>
+        <a  href="http://ad.doubleclick.net/jump/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=160x90;tile=2;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            target="_blank"><img src="http://ad.doubleclick.net/ad/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=160x90;tile=2;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            border="0" alt="Advertisement"></a>
+    </noscript> 
+<!-- templates/ads/dart3_render_adj.ett :end -->
+
+<!-- templates/ads/dart_call.ett :end -->
+
+
+</div></center><!-- /.advertisement ts_v2_shared_masthead -->
+ 
+<div class="advertisement ts_v2_shared_masthead yahoo" id="yahoo_160x90_ipatf_1">
+	
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_3");}
+--></script>
+
+</div><!-- /.advertisement ts_v2_shared_masthead -->
+
+ </div>
+<script type="text/javascript">
+// initialize weather widget with any special variables
+var icon_set = '';
+var icon_url = 'http://media.kansascity.com/images/v2/weather';
+var file_type = 'png'
+</script>
+<div id="weathernode">
+    <span id="current"></span>
+    <span id="wsevere"></span>
+</div>
+<hr class="clear">
+</div>
+
+</div><!-- /masthead -->
+<div id="wrap">
+<div id="topnav" class="front"><ul>
+<li class="newsnav">
+	<ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="/news/">News</a></li>
+	<li><a href="/sports/">Sports</a></li>
+  	<li><a href="/business/">Business</a></li>
+  	<li><a href="/living/">Lifestyle</a></li>
+  	<li><a href="/entertainment/">Entertainment</a></li>
+  	<li class="opinion"> <a href="/opinion/">Opinion</a></li>
+   <li><a href="/star-sites/">Star Sites</a></li>
+   <li><a href="http://www.legacy.com/obituaries/kansascity/">Obits</a> </li>
+   <li style="text-align:center; padding:3px 10px 0; width:30px;">
+      <a href="http://www.facebook.com/kansascitystar"><img src="/static/images/v2/icons/fb-small.png" alt="fb"></a>
+&nbsp;
+      <a href="https://twitter.com/#!/KCStar">
+     <img src="/static/images/v2/icons/twit-small.png" alt="twitter"></a>
+  
+ </li>
+  </ul>
+ </li><!-- end newsnav -->
+<li class="promo">
+  <ul class="promoitems">
+	<li class="placead right morebutt"><a href="/advertising/">Place an Ad</a></li>
+	<li><a href="/about-us/">About Us</a></li>
+	<li><a href="http://www.careerbuilder.com/Default.aspx?lr=cbcb_kc&ff=21&siteID=kcs_nav">Jobs</a>
+	   	  </li>
+	  <li><a href="http://kansascity.com/classifieds/cars/">Cars</a>
+	   
+	  </li>
+	  <li> <a href="/classifieds/real_estate/">Homes</a>
+	  <li> <a href="/classifieds/apartments/">Rentals</a>
+	  
+	  </li>
+	  <li> <a href="/classifieds/">Classifieds</a> </li>
+
+	   <li><a href="http://findnsave.kansascity.com">Local Shopping</a></li>
+           <li class="nav_ad_wrap">
+          <!-- start: nav ad -->
+                     
+ 
+ 
+ 
+<center><div class="advertisement nav_ad dart3" id="dart_100x25_ats_1">
+<!-- templates/ads/dart_call.ett :start v.15690 -->
+<!-- templates/ads/dart3_render_adj.ett :start -->
+	<script language="JavaScript" type="text/javascript">
+	<!-- 
+        if ('undefined' !== typeof miadinfo) { var miadinfo = new Array(); }
+	if(typeof(miyahoo) == "undefined" || miyahoo.ads[mi_live_or_preview].dart.enabled){
+    document.write('<scr' + 
+        'ipt language="JavaScript" src="http://ad.doubleclick.net/adj/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=100x25;tile=3;!c=news;pub=KansasCityStar;ord=817823910407490' + 
+        ';gender=' + ((miadinfo && miadinfo.length > 0) ? miadinfo[0] : '') + 
+        ';year=' + ((miadinfo && miadinfo.length > 1) ? miadinfo[1] : '') + 
+        ';income=' + ((miadinfo && miadinfo.length > 2) ? miadinfo[2] : '') + 
+        '?" type="text/javascript"></scr' + 'ipt>');
+	}
+	//-->
+	</script>
+	<noscript>
+        <a  href="http://ad.doubleclick.net/jump/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=100x25;tile=3;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            target="_blank"><img src="http://ad.doubleclick.net/ad/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=100x25;tile=3;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            border="0" alt="Advertisement"></a>
+    </noscript> 
+<!-- templates/ads/dart3_render_adj.ett :end -->
+
+<!-- templates/ads/dart_call.ett :end -->
+
+
+</div></center><!-- /.advertisement nav_ad -->
+ 
+<div class="advertisement nav_ad yahoo" id="yahoo_100x25_ipatf_1">
+	
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_4");}
+--></script>
+
+</div><!-- /.advertisement nav_ad -->
+
+           <!-- end: nav ad -->
+
+</li>
+       <!--  <li id="find-save"><a href="http://findnsave.kansascity.com"><img src="/static/images/v2/icons/find_save.png" alt="Find &amp; Save"></a></li>-->
+	</ul>
+</li></ul></div>
+
+<div id="top_ad_block">
+
+<!-- default ads -->
+  
+ 
+ 
+ 
+ 
+<center><div class="advertisement ts_v2_base dart3" id="dart_728x90_ats_1">
+<!-- templates/ads/dart_call.ett :start v.15690 -->
+<!-- templates/ads/dart3_render_adj.ett :start -->
+	<script language="JavaScript" type="text/javascript">
+	<!-- 
+        if ('undefined' !== typeof miadinfo) { var miadinfo = new Array(); }
+	if(typeof(miyahoo) == "undefined" || miyahoo.ads[mi_live_or_preview].dart.enabled){
+    document.write('<scr' + 
+        'ipt language="JavaScript" src="http://ad.doubleclick.net/adj/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=728x90;tile=4;!c=news;pub=KansasCityStar;ord=817823910407490' + 
+        ';gender=' + ((miadinfo && miadinfo.length > 0) ? miadinfo[0] : '') + 
+        ';year=' + ((miadinfo && miadinfo.length > 1) ? miadinfo[1] : '') + 
+        ';income=' + ((miadinfo && miadinfo.length > 2) ? miadinfo[2] : '') + 
+        '?" type="text/javascript"></scr' + 'ipt>');
+	}
+	//-->
+	</script>
+	<noscript>
+        <a  href="http://ad.doubleclick.net/jump/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=728x90;tile=4;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            target="_blank"><img src="http://ad.doubleclick.net/ad/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=728x90;tile=4;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            border="0" alt="Advertisement"></a>
+    </noscript> 
+<!-- templates/ads/dart3_render_adj.ett :end -->
+
+<!-- templates/ads/dart_call.ett :end -->
+
+
+</div></center><!-- /.advertisement ts_v2_base -->
+ 
+<div class="advertisement ts_v2_base yahoo" id="yahoo_728x90_ipatf_1">
+	
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_5");}
+--></script>
+
+</div><!-- /.advertisement ts_v2_base -->
+
+ 
+
+</div>
+<div id="content">
+
+
+<!-- start below_nav_widget -->
+<div id="fns-ticker"><a href="http://findnsave.kansascity.com"><img src="/static/images/touts/findnsave-small.png" alt="Find-n-Save"></a><div class="ticker"><ul><li><a href="http://www.facebook.com/kansascitystar">SAVE BIG! $95 of coupons in Sunday's KC Star!</a></li><li><a href="http://kansascity.dealsaver.com/engine/SplashDetails.aspx?contestid=29805&productid=5694040&LID=689#widget=ds_ticker">$15 for $30 of Tupperware Products from Tupperware - Teresa Moore!</a></li></ul></div></div>
+<!-- end below_nav_widget -->
+<div id="home-wrap">
+<div id="alerts">
+       
+                                                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-KansasCityStar120401204035279707" class="html_module">
+<a href="http://homicide.kansascity.com"><img src="http://www.kansascity.com/static/images/touts/sites/homicidekc_2.jpg" alt="Homicide KC"></a></div>
+
+                                                                                                                                                                                                
+
+ </div>
+<div id="top-stories">
+<div id="top-stories-main">
+            
+        
+        
+                
+<h3>  
+<a href="/2012/04/17/3560983/chiefs-2012-schedule-is-released.html"
+
+
+
+>Chiefs&#x2019; 2012 schedule released</a></h3><a href="/2012/04/17/3560983/chiefs-2012-schedule-is-released.html" class="hide-overflow" title="Chiefs&#x2019; 2012 schedule released">
+         <img src="http://media.kansascity.com/smedia/2012/04/17/18/33/14Euj0.St.81.JPG" alt=""></a>
+
+   <p><a href="/2012/04/17/3560983/chiefs-2012-schedule-is-released.html">New head coach Romeo Crennel and the Chiefs will begin their regular season Sept. 9 against Atlanta at Arrowhead Stadium. The game marks Tony Gonzalez&#x92;s return to Kansas City.</a></p>
+   <!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story3560983-assets" class="asset_list count-1">
+
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://www.kansascity.com/2012/04/17/3560983/chiefs-2012-schedule-is-released.html" class='link'><b>Poll |</b> How do you think the Chiefs will do in 2012?</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+</ul>         
+    
+
+    <div id="media-player">
+       <h3 id="typetriggers">Today in 
+            <a href="/photos/">Photos</a> &amp; <a href="/video/">Video</a>
+            <a href="#apvid" id="apbug" class="morebutt"><span id="apbugger">Show</span> Nation/World</a>
+       </h3>
+       <div id="ourvid">
+          <ul id="media-full">
+                       
+        
+        
+                      <li id="vid-1"></li><li id="photo-1"><p><a href="/2012/04/17/3560211/space-shuttle-discovery-lands.html">
+    <img src="                              http://media.kansascity.com/smedia/2012/04/17/12/17/645-imEJZ.St.55.jpg        " 
+class="thumb-                              http://media.kansascity.com/smedia/2012/04/17/12/17/753-imEJZ.Th.55.jpg        " alt="Space shuttle Discovery lands at its new museum home">
+    </a></p>
+    <h4><a href="/2012/04/17/3560211/space-shuttle-discovery-lands.html">Space shuttle Discovery lands at its new museum home</a></h4>
+</li>                   <li id="vid-2"></li><li id="photo-2"><p><a href="/2012/04/17/3559990/entertainment-april-17-scarlett.html">
+    <img src="                              http://media.kansascity.com/smedia/2012/04/17/10/31/1ahfaz.St.81.jpg        " 
+class="thumb-                              http://media.kansascity.com/smedia/2012/04/17/10/31/1ahfaz.Th.81.jpg        " alt="Entertainment April 17 | Scarlett Johansson, Robert Downey Jr., Taylor Schilling, Ashley Tisdale, Zac Efron, Nicole "Coco" Austin">
+    </a></p>
+    <h4><a href="/2012/04/17/3559990/entertainment-april-17-scarlett.html">Entertainment April 17 | Scarlett Johansson, Robert Downey Jr., Taylor Schilling, Ashley Tisdale, Zac Efron, Nicole "Coco" Austin</a></h4>
+</li>                   <li id="vid-3"></li><li id="photo-3"><p><a href="/2012/04/16/3559322/star-shots-best-photos-from-april.html">
+    <img src="                              http://media.kansascity.com/smedia/2012/04/16/23/04/ZgfUL.St.81.jpg        " 
+class="thumb-                              http://media.kansascity.com/smedia/2012/04/16/23/04/ZgfUL.Th.81.jpg        " alt="Star Shots | Best photos from April 16">
+    </a></p>
+    <h4><a href="/2012/04/16/3559322/star-shots-best-photos-from-april.html">Star Shots | Best photos from April 16</a></h4>
+</li>                   <li id="vid-4"></li><li id="photo-4"><p><a href="/2012/04/16/3559234/tigers-3-royals-2-monday-at-kauffman.html">
+    <img src="                              http://media.kansascity.com/smedia/2012/04/16/22/00/12Wu5X.St.81.jpg        " 
+class="thumb-                              http://media.kansascity.com/smedia/2012/04/16/22/00/12Wu5X.Th.81.jpg        " alt="Tigers 3, Royals 2">
+    </a></p>
+    <h4><a href="/2012/04/16/3559234/tigers-3-royals-2-monday-at-kauffman.html">Tigers 3, Royals 2</a></h4>
+</li>                   <li id="vid-5"></li><li id="photo-5"><p><a href="/2012/04/16/3559182/students-creativity-flourishes.html">
+    <img src="                              http://media.kansascity.com/smedia/2012/04/16/21/25/1irnNk.St.81.jpg        " 
+class="thumb-                              http://media.kansascity.com/smedia/2012/04/16/21/25/1irnNk.Th.81.jpg        " alt="Students' creativity flourishes in digital world">
+    </a></p>
+    <h4><a href="/2012/04/16/3559182/students-creativity-flourishes.html">Students' creativity flourishes in digital world</a></h4>
+</li>         
+
+
+
+
+    
+          </ul>
+          <div id="thumbs"></div>
+          <div id="vidhold"></div>
+       </div><!-- end ourvid -->
+       <div id="apvid">
+       <iframe src='http://widget.newsinc.com/4236.htm' frameborder='0' scrolling='no' height='550px' width='300px' style='border:0; margin:0 60px'></iframe>
+       </div>
+</div><!-- end media player -->
+<script type="text/javascript" src="/static/js/media-player.js?v=2"></script>
+</div><!-- /top-stories-main -->
+   <div class="top-rails">
+   <div>
+	<h3><a href="/news/breaking_news/"><span class="right morebutt">More</span> Breaking News </a></h3>
+                                                                                               
+        
+        
+        
+    
+        
+
+        <ul class="story_list square" >  
+  
+ 
+<li
+
+><a href="/2012/04/17/3116897/kctv-5-weather.html">KCTV-5 Weather | Partly sunny and warm Wednesday, high 77</a> <span class="date" title="1334707148">Apr 17,  6:59 PM</span></li>
+   
+  
+ 
+<li
+
+><a href="/2012/04/17/3560839/umkc-receives-15-million-nih-grant.html">UMKC receives $1.5 million NIH grant</a> <span class="date" title="1334701070">Apr 17,  5:17 PM</span></li>
+   
+  
+ 
+<li
+
+><a href="/2012/04/17/3560816/both-sides-debate-kc-streetcar.html">Both sides debate KC streetcar district in hearing</a> <span class="date" title="1334699750">Apr 17,  4:55 PM</span></li>
+   
+  
+ 
+<li
+ class="has_video"
+><a href="http://videos.kansascity.com/vmix_hosted_apps/p/media?id=140849111">Cristo Rey student surprised with $99,400 scholarship</a> <span class="date" title="1334699067">Apr 17,  4:44 PM</span></li>
+   
+  
+ 
+<li
+
+><a href="/2012/04/17/3560744/kck-girl-13-reported-missing.html">KCK girl, 13, reported missing</a> <span class="date" title="1334697600">Apr 17,  4:20 PM</span></li>
+   
+  
+ 
+<li
+
+><a href="/2012/04/17/3560663/independence-meth-dealer-sentenced.html">Independence meth dealer sentenced in case linked to courier&#x2019;s death</a> <span class="date" title="1334696930">Apr 17,  4:08 PM</span></li>
+   
+  
+ 
+<li
+
+><a href="/2012/04/17/3560644/fairway-man-admits-selling-steroids.html">Fairway man admits selling steroids to athletes, others</a> <span class="date" title="1334696329">Apr 17,  3:58 PM</span></li>
+   
+  
+ 
+<li
+
+><a href="/2012/04/17/3560063/senator-20-women-in-secret-service.html">Prostitution scandal ricochets through Washington</a> <span class="date" title="1334705969">Apr 17,  6:39 PM</span></li>
+ </ul>        
+
+                                                                                                                                                                                                            
+   </div><!-- /top-rail 1 -->
+
+   <div>
+	<h3>Featured</h3>
+       <div id="features-scroll">
+                                                                                                           
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp --><ul id='KansasCityStar070603205838207315-thumbs' class='story_list thumbs'>  <li
+
+><a href="http://www.kansascity.com/2012/04/17/3558437/small-roasters-are-brewing-quality.html"><img src="http://media.kansascity.com/smedia/2012/04/16/15/03/1mWK2p.Th.81.jpg" alt="">    Small roasters change coffee culture</a>
+</li>   <li
+
+><a href="http://inkkc.com/content/at-home-with-james-duft-and-jessica-kellner/"><img src="http://media.kansascity.com/smedia/2012/04/17/15/43/1d4bVn.Th.81.jpg" alt="">    At Home With James Duft and Jessica Kellner in Lawrence</a>
+</li>   <li
+
+ class="has_photos"><a href="http://www.kansascity.com/2012/04/17/3560211/space-shuttle-discovery-lands.html"><img src="http://media.kansascity.com/smedia/2012/04/17/12/17/753-imEJZ.Th.55.jpg" alt="">    Space shuttle Discovery lands at its new museum home</a>
+</li>   <li
+
+><a href="http://www.kansascity.com/2012/04/15/3559286/ticket-prices-soar-months-before.html"><img src="http://media.kansascity.com/smedia/2012/04/16/23/16/eYJbl.Th.81.jpg" alt="">    All-Star Game ticket prices are out of the park</a>
+</li>   <li
+
+ class="has_photos"><a href="http://inkkc.com/photos/bassnectar-the-midland/"><img src="http://media.kansascity.com/smedia/2012/04/17/10/19/AAHkQ.Th.81.jpg" alt="">    Party Pics | Bassnectar at the Midland</a>
+</li> </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+                                                                                                                                                                                                
+      </div>
+   </div><!-- /top-rail 2 -->
+</div><!-- /top-rails -->
+<hr class="clear">
+</div><!-- top-stories -->
+    
+<div id="content-main">
+     <div class="sortable"><!-- Start: /v2/section/highlights.comp --> 
+                                                                                         
+
+
+ <div id="Full_1" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="/sports/">Sports</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id='hi-1616626' class='sec-1049 top_stories'> 
+                
+<div id='story-3560957' class='top_story web_larry_brown_tout_041712'>  
+<div class="image_highlight right">
+    <a href="http://campuscorner.kansascity.com/node/2570">
+        <img src="http://media.kansascity.com/smedia/2012/03/24/19/48/S1xPp.Em.81.jpg" width="300" height="237" alt="
+Larry Brown (left), shown with Dean Smith in 2010, is returning to college basketball to coach SMU."></a>
+    <p class="imageByline">
+        Chuck Burton       | The Associated Press    </p>
+<p class="imageCaption">Larry Brown (left), shown with Dean Smith in 2010, is returning to college basketball to coach SMU.</p></div>
+
+
+
+
+<h3>  
+<a href="http://campuscorner.kansascity.com/node/2570"
+
+
+
+>Ex-KU coach Larry Brown reportedly takes SMU job</a></h3><span class="date" title="1334705285">Apr 17,  6:28 PM</span>
+<p>Larry Brown, 71, who coached Kansas to a national championship in 1988, is reportedly back in the college ranks, filling the coaching vacancy at Southern Methodist University in Dallas. SMU will become the 14th team, pro or college, coached by Brown.</p>
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div> </div>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616641" class="sec-1049">                  
+ 
+<div id='story-3560499' class='sub_story chiefs 041812_b821270176z'>
+ 
+<h3 class="
+has_video">  
+<a href="/2012/04/17/3560499/still-the-chiefs-no-1-qb-cassel.html"
+
+
+
+>Still the Chiefs&#x2019; No. 1 QB, Cassel doesn&#x2019;t mind competition</a></h3>
+<span class="date" title="1334694107">Apr 17,  3:21 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="/2012/04/17/3560499/still-the-chiefs-no-1-qb-cassel.html"><img src="http://media.kansascity.com/smedia/2012/04/17/15/10/jPDDw.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>The Chiefs began their offseason by promising some competition for quarterback Matt Cassel. They at one point tried, with no success, to enter the chase for Peyton Manning.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story3560499-assets" class="asset_list count-2">
+
+ <li class="has_video"><a href="http://videos.kansascity.com/vmix_hosted_apps/p/media?id=140839931">Eric Berry on learning new life lessons</a></li>
+ <li class="has_video"><a href="http://videos.kansascity.com/vmix_hosted_apps/p/media?id=140835791">Cassel talks about Peyton Manning and competition</a></li>
+
+</ul></div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-blogs_sports" class="html_module">
+<h3>Blogs</h3>
+<ul class="blogList"><li><a href="http://campuscorner.kansascity.com" class="meta">Campus Corner</a> <a href="http://campuscorner.kansascity.com">Larry Brown, back on campus</a></li><li><a href="http://royalsblog.kansascity.com" class="meta">Ball Star</a> <a href="http://royalsblog.kansascity.com">Tonight's lineups: Tigers at Royals</a></li><li><a href="http://chiefsblog.kansascity.com" class="meta">Red Zone -</a> <a href="http://chiefsblog.kansascity.com">5th round: TE Drake Dunsmore</a></li><li><a href="http://varsity.kansascity.com/" class="meta">Varsity Zone</a> <a href="http://varsity.kansascity.com/">Monday’s high school results</a></li><li><a href="http://royals.kansascity.com/" class="meta">Judging the Royals</a> <a href="http://royals.kansascity.com/">A beast and a half</a></li><li><a href="http://www.kansascity.com/sports/Sporting_KC" class="meta">The Full 90</a> <a href="http://www.kansascity.com/sports/Sporting_KC">Why Sporting's start is the best in league history</a></li><li><a href="http://mellinger.kansascity.com/" class="meta">Don't Kill the Mellinger</a> <a href="http://mellinger.kansascity.com/">On the Royals and Chiefs and Jonathan Broxton and Ryan...</a></li></ul></div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section1049' class='story_list headlines '>  
+ 
+<li
+
+><a href="/2012/04/17/3560837/travis-tannahill-has-been-star.html">Travis Tannahill has been star of K-State spring football</a>
+</li>
+   
+ 
+<li
+
+><a href="http://www.kansascity.com/2012/04/15/3559286/ticket-prices-soar-months-before.html">All-Star Game ticket prices are out of the park</a>
+</li>
+   
+ 
+<li
+
+><a href="http://royals.kansascity.com/">Judging the Royals | A beast and a half</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_12" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="http://joco913.com">913 <span class="meta" style="font-size:75%; font-weight:normal; text-transform: lowercase">Johnson County's News Magazine</span></a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616655" class="sec-724">                  
+ 
+<div id='story-3547229' class='sub_story b821252871z.1_desoto teacher 913 story_04'>
+ 
+<h3 class="
+">  
+<a href="http://joco913.com/news/the-science-behind-history-fuels-teachers-passion/"
+
+
+
+>The science behind history fuels teacher&#x92;s passion</a></h3>
+<span class="date" title="1334586366">Apr 16,  9:26 AM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://joco913.com/news/the-science-behind-history-fuels-teachers-passion/"><img src="http://media.kansascity.com/smedia/2012/04/16/09/25/KRfC2.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>His students &#x97; ranging from tiny seventh-graders to 6-foot seniors &#x97; crowd around the numerous high-tech digging tables in his classroom. Pouring their hands through synthetic soil, they are always delighted to uncover a hidden treasure underneath, whether it is an ancient African bead or a 200-year-old arrowhead.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616656" class="sec-724">                  
+ 
+<div id='story-3550946' class='sub_story stanley tout 041212'>
+ 
+<h3 class="
+">  
+<a href="http://joco913.com/news/johnson-county-approves-park-land-swap-with-blue-valley/"
+
+
+
+>Johnson County approves parkland swap with Blue Valley</a></h3>
+<span class="date" title="1334268768">Apr 12,  5:12 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://joco913.com/news/johnson-county-approves-park-land-swap-with-blue-valley/"><img src="http://media.kansascity.com/smedia/2012/04/12/15/04/HgK2I.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>Johnson County commissioners today unanimously approved a land swap for Stanley Nature Park, ending a clash over the park&#x92;s future. The approval came despite a last-ditch effort by a group of residents to persuade the board to reject the proposal,</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_5" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="/news/">Local</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616631" class="sec-889">                  
+ 
+<div id='story-3560803' class='sub_story scholarship splash'>
+ 
+<h3 class="
+">  
+<a href="http://videos.kansascity.com/vmix_hosted_apps/p/media?id=140849111"
+ class="has_video"
+
+
+>Cristo Rey student surprised with $99,400 scholarship</a></h3>
+<span class="date" title="1334699067">Apr 17,  4:44 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://videos.kansascity.com/vmix_hosted_apps/p/media?id=140849111"><img src="http://media.kansascity.com/smedia/2012/04/17/16/37/19QOk5.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>Mitzi Terese Infante was surprised to learn she was the receipt of a $99,400 scholarship to the  College of Saint Mary in Omaha, Neb., on Tuesday morning at her high school, Christo Rey Kansas City. She was only one of three high school seniors in the country to receive the Marie Curie Scholar award for students who study science or math. Infante is planning on being a doctor.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616630" class="sec-889">                  
+ 
+<div id='story-3559784' class='sub_story ku buyouts news 041712_b821269806z'>
+ 
+<h3 class="
+">  
+<a href="/2012/04/17/3559784/university-of-kansas-offering.html"
+
+
+
+>University of Kansas offering 540 staff buyouts in OP, Lawrence</a></h3>
+<span class="date" title="1334678249">Apr 17, 10:57 AM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="/2012/04/17/3559784/university-of-kansas-offering.html"><img src="http://media.kansascity.com/smedia/2012/04/17/10/54/NZf2L.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>The University of Kansas on Monday offered voluntary buyouts to 540 of its more than 4,800 faculty and staff members at its Lawrence and Overland Park campuses. Those who qualify for the buyout would receive a lump sum payment equal to one year&#x92;s base salary, up to a maximum of $100,000.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <hr class="clear">
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-kraske" class="html_module">
+<!-- WHEN YOU UPDATE THIS, PLEASE DON'T DELETE STUFF THAT IS COMMENTED OUT. JUST MOVE THE COMMENT TAGS TO WRAP THE OLD STUFF. -->
+
+<h3><a href="http://www.kcur.org/programs/uptodate">&lsquo;Up to Date&rsquo; with Steve Kraske</a></h3> 
+  
+ <p class="meta"><img src="http://media.kansascity.com/images/kraske_100p.jpg" alt="Steve Kraske" class="left">
+
+The Star&#x92;s political correspondent is host at 11 a.m. weekdays. <b>Wednesday:</b> Spring gardening: What to plant, and when.
+
+<a href="http://www.kcur.org/listen-live">Listen live: KCUR, 89.3 FM</a> 
+
+
+
+</p></div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-MidwestDemocracyTout" class="html_module">
+
+
+
+<!-- MDP Tout made by Django. -->
+<h3 id="pb_hed" style="margin-left: 9px; width:auto; float:none;"><a href="http://midwestdemocracy.com">Midwest Democracy</a></h3>
+<ul class="story_list">
+		
+		<li>
+			<a href="http://midwestdemocracy.com/articles/mccaskill-goes-after-gsa/">	McCaskill goes after GSA</a>
+			<span class="date">Apr 17, 7:04 p.m.</span>
+		</li>
+		
+		<li>
+			<a href="http://midwestdemocracy.com/articles/kobach-role-romney-campaign-questioned/">	Kobach role in Romney campaign questioned</a>
+			<span class="date">Apr 17, 2:04 p.m.</span>
+		</li>
+	
+</ul></div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section889' class='story_list headlines '>  
+ 
+<li
+
+><a href="/2012/04/16/3559348/education-revolution-beckons-in.html">An education revolution beckons in the digital age</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/16/3559353/heartland-spca-must-give-up.html">Heartland SPCA must give up its name, judge decides</a>
+</li>
+   
+ 
+<li
+
+><a href="http://midwestdemocracy.com/articles/study-accuses-alec-of-secretive-influence-in-missouri-capitol/">Study accuses ALEC of 'secretive influence' in Missouri Capitol</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_11" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="http://mingle.kansascity.com">Mingle <span class="meta" style="font-size:75%; font-weight:normal; text-transform: lowercase">Your KC in photos</span></a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616648" class="sec-1032">                  
+ 
+<div id='story-3553317' class='sub_story gallery'>
+ 
+<h3 class="
+has_photoshas_video">  
+<a href="http://mingle.kansascity.com/photos/2012/kc-royals-opening-day-fans-volume-2/"
+
+
+
+ class="has_photos">Community Faces | Royals Opening Day</a></h3>
+<span class="date" title="1334598531">Apr 16, 12:48 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://mingle.kansascity.com/photos/2012/kc-royals-opening-day-fans-volume-2/"><img src="http://media.kansascity.com/smedia/2012/04/13/20/16/18JhCZ.Hi.81.gif" alt=""></a>
+
+</div>
+<p>The Royals got down early and suffered an 8-3 loss to the Indians in their home opener on Friday. But before the game, fans were out in force, tailgating outside Kauffman Stadium.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story3553317-assets" class="asset_list count-4">
+
+ <li class="has_video"><a href="http://videos.kansascity.com/vmix_hosted_apps/p/media?id=140367071">Opening day at Kauffman Stadium</a></li>
+
+  <li class="has_photos"><a href="/2012/04/13/3552579/royals-opening-day-is-finally.html">Indians 8, Royals 3 | Friday, April 13</a></li>
+<!-- Start: /pubsys/production/story/assets/story_link.comp -->
+<li><a href="/2012/04/13/3553091/cleveland-scores-seven-in-first.html" class='related_story'>Cleveland scores seven in first in 8-3 win over Royals</a></li>
+<!-- End: /pubsys/production/story/assets/story_link.comp -->
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://mingle.kansascity.com/photos/2012/kc-royals-opening-day-fans-volume-2/" class='link'>Community Faces | Royals Opening Day tailgating</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+</ul></div>                   
+ 
+<div id='story-3557987' class='sub_story gallery'>
+ 
+<h3 class="
+">  
+<a href="http://mingle.kansascity.com/photos/2012/union-station-visitors/"
+
+
+
+ class="has_photos">Community Faces | Union Station & Titanic visitors</a></h3>
+<span class="date" title="1334614823">Apr 16,  5:20 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://mingle.kansascity.com/photos/2012/union-station-visitors/"><img src="http://media.kansascity.com/smedia/2012/04/16/17/19/17wC9V.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>Many of the visitors at Union Station Sunday morning were there to tour "Titanic: The Artifact Exhibition." The exhibit, which coincides with the 100th anniversary of the ship's doomed voyage, runs through Sept. 3.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story3557987-assets" class="asset_list count-3">
+
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://mingle.kansascity.com/photos/2012/kc-royals-opening-day-fans-volume-2/" class='link'>Community Faces | Royals Opening Day tailgating</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://mingle.kansascity.com/photos/2012/sporting-kansas-city-vs-real-salt-lake/" class='link'>Community Faces | Sporting KC vs. Real Salt Lake</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://mingle.kansascity.com/photos/2012/dead-girl-derby-rocky-horror-derby-show/" class='link'>Community Faces | Rocky Horror Derby Show</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+</ul></div>                   
+ 
+<div id='story-3309182' class='sub_story gallery'>
+ 
+<h3 class="
+">  
+<a href="http://mingle.kansascity.com/photos/2012/adoptable-pets/"
+
+
+
+ class="has_photos">Pets in need of loving homes</a></h3>
+<span class="date" title="1334246994">Apr 12, 11:09 AM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://mingle.kansascity.com/photos/2012/adoptable-pets/"><img src="http://media.kansascity.com/smedia/2012/04/12/11/08/AMEZL.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>Meet Danika, a playful and energetic Greyhound/Shepherd mix. Find out more about Danika and other pets in need of good homes in our gallery.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story3309182-assets" class="asset_list count-1">
+
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://mingle.kansascity.com/photos/2011/pet-friends/" class='link'>Share your shots | Pet friends</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+</ul></div>                   
+ 
+<div id='story-3558511' class='sub_story gallery'>
+ 
+<h3 class="
+">  
+<a href="http://mingle.kansascity.com/photos/2012/sporting-kansas-city-vs-real-salt-lake/"
+
+
+
+ class="has_photos">Community Faces | Sporting KC against Real Salt Lake</a></h3>
+<span class="date" title="1334606235">Apr 16,  2:57 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://mingle.kansascity.com/photos/2012/sporting-kansas-city-vs-real-salt-lake/"><img src="http://media.kansascity.com/smedia/2012/04/16/14/56/riABW.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>A sold-out crowd of 19,422 was at Livestrong Sporting Park Saturday evening to see Sporting Kansas City&#x92;s match against Real Salt Lake.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>                   
+ 
+<div id='story-3558375' class='sub_story gallery'>
+ 
+<h3 class="
+">  
+<a href="http://mingle.kansascity.com/photos/2012/dead-girl-derby-rocky-horror-derby-show/"
+
+
+
+ class="has_photos">Community Faces | The Dead Girl Derby's Rocky Horror party</a></h3>
+<span class="date" title="1334601799">Apr 16,  1:43 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://mingle.kansascity.com/photos/2012/dead-girl-derby-rocky-horror-derby-show/"><img src="http://media.kansascity.com/smedia/2012/04/16/13/42/8r9ZO.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>The Dead Girl Derby women&#x92;s roller derby teams presented their third game of 2012 Sunday evening at River Roll Skate Center. At match halftime, audience members could show off their best Rocky Horror outfits and dance to the Time Warp.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_9" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="http://blogs.kansascity.com/crime_scene/">Crime Scene</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616628" class="sec-1086">                  
+ 
+<div id='story-1751630' class='sub_story gallery'>
+ 
+<h3 class="
+">  
+<a href="http://www.kansascity.com/2010/02/16/1751615/kansas-city-crime-stoppers-most.html"
+
+
+
+ class="has_photos">Crime Stoppers' most wanted</a></h3>
+<span class="date" title="1334676933">Apr 17, 10:35 AM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://www.kansascity.com/2010/02/16/1751615/kansas-city-crime-stoppers-most.html"><img src="http://media.kansascity.com/smedia/2012/04/17/10/00/YqCkC.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>Updated April 17: This woman is wanted in Wyandotte County for criminal use of a financial card and for theft. If you have information about her or any of these fugitives, call the TIPS Hotline at 816-474-TIPS, go to <a href="http://kccrimestoppers.com/">KCCrimeStoppers.com</a>, or text TIP452 plus message and send to 274637.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <ul class="story_list square" >  
+  
+ 
+<li
+
+><a href="http://blogs.kansascity.com/crime_scene/2012/04/have-you-seen-this-vw.html">Have you seen this VW?</a> <span class="date" title="1334686653">Apr 17,  1:17 PM</span></li>
+   
+  
+ 
+<li
+
+><a href="http://blogs.kansascity.com/crime_scene/2012/04/man-wields-shovel-to-stop-rapist.html">Man wields shovel to stop rapist</a> <span class="date" title="1334661753">Apr 17,  6:22 AM</span></li>
+   
+  
+ 
+<li
+
+><a href="http://blogs.kansascity.com/crime_scene/2012/04/carnage-in-chicago.html">Carnage in Chicago</a> <span class="date" title="1334660854">Apr 17,  6:07 AM</span></li>
+   
+  
+ 
+<li
+
+><a href="http://blogs.kansascity.com/crime_scene/2012/04/t-1.html">Tuesday's open thread</a> <span class="date" title="1334660556">Apr 17,  6:02 AM</span></li>
+   
+  
+ 
+<li
+
+><a href="http://blogs.kansascity.com/crime_scene/2012/04/the-rocket-heads-to-trial-again.html">The rocket heads to trial again</a> <span class="date" title="1334659654">Apr 17,  5:47 AM</span></li>
+ </ul>        
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_2" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="http://www.kansascity.com/business/">Business</a></h2>
+<!-- this is for the redesign. Go find your own business title. This isn't the one you want anyway -->
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616615" class="sec-746">                  
+ 
+<div id='story-3559794' class='sub_story amcbiz_041812_b821269851z'>
+ 
+<h3 class="
+">  
+<a href="/2012/04/17/3559794/amc-to-break-ground-on-new-headquarters.html"
+
+
+
+>AMC to break ground on new headquarters in Leawood</a></h3>
+<span class="date" title="1334702638">Apr 17,  5:43 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="/2012/04/17/3559794/amc-to-break-ground-on-new-headquarters.html"><img src="http://media.kansascity.com/smedia/2012/04/17/11/06/aQjVM.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>AMC Entertainment Inc. will hold a ceremony Wednesday to officially break ground on its new headquarters building in the Park Place development at 117th Street and Nall Avenue. The estimated $38 million project calls for a four-story building that is expected to be completed by May 2013.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616649" class="sec-746">                  
+ 
+<div id='story-3559366' class='sub_story counter_041012_b821229877z'>
+ 
+<h3 class="
+">  
+<a href="/2012/04/09/3559366/sometimes-businesses-counterintuitive.html"
+
+
+
+>Sometimes counterintuitive decisions pay dividends</a></h3>
+<span class="date" title="1334680477">Apr 17, 11:34 AM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="/2012/04/09/3559366/sometimes-businesses-counterintuitive.html"><img src="http://media.kansascity.com/smedia/2012/04/16/23/50/pYwFw.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>In a shaky economy, why would you consider turning down an opportunity for more income, giving away your products or services, or refusing to bargain down a bit on rates to get business? For many good reasons, say some successful KC area small-business owners.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <h3 id="sprint_conn_mod_hed"><a href="http://www.kansascity.com/business/sprint-connection/">Sprint Connection</a></h3>
+
+                                            
+        
+        
+        
+    
+        
+
+        
+<ul  id='asset1616650' class='story_list '>  
+  
+ 
+<li
+
+><a href="/2012/04/17/3560026/cox-sues-sprint-unit-over-alleged.html">Cox sues Sprint unit over alleged patent infringement</a> <span class="date" title="1334678273">Apr 17, 10:57 AM</span></li>
+ </ul>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section382' class='story_list headlines '>  
+ 
+<li
+
+><a href="/2012/04/17/3560955/buffett-says-he-has-early-stage.html">Buffett says he has early-stage prostate cancer</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3560718/boulevard-no-10-again-in-craft.html">Boulevard No. 10 again in craft brewer rankings</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3560710/closing-bell-stocks-jump-amid.html">Closing Bell | Stocks jump amid strong profit reports</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_8" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2 id="ink"><a href="http://www.inkkc.com">Ink</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616622" class="sec-1050">                  
+ 
+<div id='story-3560607' class='sub_story in at home tout 041712'>
+ 
+<h3 class="
+">  
+<a href="http://inkkc.com/content/at-home-with-james-duft-and-jessica-kellner/"
+
+
+
+>At Home With James Duft and Jessica Kellner in Lawrence</a></h3>
+<span class="date" title="1334695526">Apr 17,  3:45 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://inkkc.com/content/at-home-with-james-duft-and-jessica-kellner/"><img src="http://media.kansascity.com/smedia/2012/04/17/15/43/1d4bVn.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>Jessica Kellner and her husband, James Duft, have found their Lawrence dream home. Among its environmentally friendly attributes: a wood-burning stove, in-floor radiant heat, 13 skylights that let natural light spill in and a community garden, compost pile and tool shed.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>                   
+ 
+<div id='story-3559797' class='sub_story gallery'>
+ 
+<h3 class="
+">  
+<a href="http://inkkc.com/photos/bloomstock-starlight/"
+
+
+
+ class="has_photos">Party Pics | Bloomstock at Starlight</a></h3>
+<span class="date" title="1334677272">Apr 17, 10:41 AM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://inkkc.com/photos/bloomstock-starlight/"><img src="http://media.kansascity.com/smedia/2012/04/17/09/51/17MRL1.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>Starlight Theatre turned back the clock Friday for the annual psychedelic Bloomstock event. Music was provided by Blue Riddim and the Hearts of Darkness, along with DJs Eric Coomes and Mike Scott, among others.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story3559797-assets" class="asset_list count-2">
+
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://inkkc.com/photos/bassnectar-the-midland/" class='link'>Party Pics | Bassnectar at the Midland</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://inkkc.com/photos/party-pics-friday-the-13th-at-luna/" class='link'>Party Pics | Friday the 13th at Luna</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+</ul></div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-fidget-tout" class="html_module">
+
+<h4><a href="http://fidget.kansascity.com">Fidget:</a> The restless pursuit of Kansas City's best</h4>
+<ul id="fidget_tout">
+
+		<li>
+			
+				<a href="http://fidget.kansascity.com/etc/outdoor-place-to-enjoy-lunch/"><img src="http://media.kansascity.com/static/django-media/ink//img/topic/outdoor_lunch_spot.jpg.60x60_q85_crop.jpg" class="photo"></a>
+			
+
+			<strong> <a href="http://fidget.kansascity.com/etc/outdoor-place-to-enjoy-lunch/">Outdoor Place To Enjoy Lunch</a></strong>
+			
+				<br>McCoy&#39;s Public House and Brew Kitchen is winning! <a href="http://fidget.kansascity.com/etc/outdoor-place-to-enjoy-lunch/">What's your favorite?</a>
+			
+
+		</li>
+
+		<li>
+			
+				<a href="http://fidget.kansascity.com/food-drink/place-where-everybody-knows-your-name/"><img src="http://media.kansascity.com/static/django-media/ink//img/topic/everyone_knows_yoru_name.jpg.60x60_q85_crop.jpg" class="photo"></a>
+			
+
+			<strong> <a href="http://fidget.kansascity.com/food-drink/place-where-everybody-knows-your-name/">Place Where Everybody Knows Your Name</a></strong>
+			
+				<br>Bilski&#39;s Bar &amp; Grill is winning! <a href="http://fidget.kansascity.com/food-drink/place-where-everybody-knows-your-name/">What's your favorite?</a>
+			
+
+		</li>
+
+</ul></div>
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_4" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="/entertainment/">ENTERTAINMENT</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id='hi-1616635' class='sec-781 top_stories'> 
+                
+<div id='story-3561191' class='top_story web_us_helm_cancer_tout_041712'>  
+<div class="image_highlight right">
+    <a href="http://www.kansascity.com/2012/04/17/3560682/the-bands-helm-in-final-stages.html">
+        <img src="http://media.kansascity.com/smedia/2012/04/17/21/25/lO8U.Em.81.jpg" width="300" height="211" alt="
+Levon Helm was behind the drums in 2009 as his band played on &#x93;Imus in the Morning&#x94; on the Fox Business channel. He played at Crossroads KC in July 2010."></a>
+    <p class="imageByline">
+        Associated Press file photo           </p>
+<p class="imageCaption">Levon Helm was behind the drums in 2009 as his band played on &#x93;Imus in the Morning&#x94; on the Fox Business channel. He played at Crossroads KC in July 2010.</p></div>
+
+
+
+
+<h3>  
+<a href="http://www.kansascity.com/2012/04/17/3560682/the-bands-helm-in-final-stages.html"
+
+
+
+>The Band&#x92;s Levon Helm in &#x91;final stages&#x92; of cancer battle</a></h3><span class="date" title="1334716221">Apr 17,  9:30 PM</span>
+<p>Levon Helm, a former member of The Band, is in the final stages of his long battle with cancer. A message posted Tuesday on the 71-year-old musician's website by his family says "Levon is in the final stages of his battle with cancer."</p>
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div> </div>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616632" class="sec-932">                  
+ 
+<div id='story-3560528' class='sub_story minewsroom minewsroom ap_online us_tom_petty_stolen_guitars @ 2012'>
+ 
+<h3 class="
+">  
+<a href="/2012/04/17/3560528/police-recover-tom-petty-stolen.html"
+
+
+
+>Police recover Tom Petty's stolen guitars</a></h3>
+<span class="date" title="1334698527">Apr 17,  4:35 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="/2012/04/17/3560528/police-recover-tom-petty-stolen.html"><img src="http://media.kansascity.com/smedia/2012/04/14/23/56/6ymaG.Hi.81.JPG" alt=""></a>
+
+</div>
+<p>It was a heartbreaker for Tom Petty and the band when someone stole five of their precious guitars from a soundstage, but it was music to their ears when police in Southern California announced Tuesday that the instruments had been recovered.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <h3 id="more-gazing-hed"><a href="/stargazing/">Stargazing</a></h3>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section932' class='story_list headlines '>  
+ 
+<li
+
+><a href="/2012/04/17/3560682/the-bands-helm-in-final-stages.html">The Band's Levon Helm in 'final stages' of cancer battle</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3559694/probation-violation-gets-rapper.html">Probation violation gets rapper Mystikal 90 days</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3560263/stargazing-pippa-a-pistol-in-paris.html">Stargazing | Pippa a pistol in Paris; Kunis-Kutcher NOT a couple</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3559861/gun-in-photo-with-pippa-middleton.html">Pippa Middleton's racy party photos cause a stir</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-blogs_entertainment" class="html_module">
+<h3>Blogs</h3>
+<ul class="blogList"><li><a href="http://backtorockville.typepad.com/back_to_rockville/" class="meta">Back to Rockville</a> <a href="http://backtorockville.typepad.com/back_to_rockville/">Review: Bassnectar</a></li></ul></div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section781' class='story_list headlines '>  
+ 
+<li
+
+><a href="http://www.kansascity.com/2012/04/17/3557952/stargazing-kim-novak-kelsey-grammer.html">Stargazing | Kim Novak reveals mental illness; Kelsey Grammer gets inked</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3560590/eddie-van-halen-says-dad-fueled.html">Eddie Van Halen says dad fueled drinking</a>
+</li>
+   
+ 
+<li
+
+><a href="http://www.kansascity.com/2012/04/16/3558777/pulitzer-board-stiffs-swamplandia.html">Pulitzer board stiffs &#x91;Swamplandia!&#x92; and other well-regarded novels</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_10" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="/living/">Lifestyle</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id='hi-1616627' class='sec-897 top_stories'> 
+                
+<div id='story-3560388' class='top_story coffee tout 041712'>  
+<div class="image_highlight right">
+    <a href="http://www.kansascity.com/2012/04/17/3558437/small-roasters-are-brewing-quality.html">
+        <img src="http://media.kansascity.com/smedia/2012/04/16/15/03/1mWK2p.Em.81.jpg" width="300" height="200" alt="
+A latte made by longtime barista Hannah Doran at the Broadway Roasting Co."></a>
+    <p class="imageByline">
+        TAMMY LJUNGBLAD       | The Kansas City Star    </p>
+<p class="imageCaption">A latte made by longtime barista Hannah Doran at the Broadway Roasting Co.</p></div>
+
+
+
+
+<h3>  
+<a href="http://www.kansascity.com/2012/04/17/3558437/small-roasters-are-brewing-quality.html"
+
+
+
+>Small roasters change coffee culture</a></h3><span class="date" title="1334714237">Apr 17,  8:57 PM</span>
+<p>The Roasterie gave Kansas City its first sip of locally roasted specialty coffee in 1993. Since then, the list has swelled to other cafes, supermarkets, farmers markets and online companies. &#x93;It&#x92;s an exciting time to be a part of the coffee culture,&#x94; says Jason Coffee, the KC-based founder of Coffee Cup News. &#x93;Good coffee is more accessible than it&#x92;s ever been.&#x94;</p>
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story3560388-assets" class="asset_list count-1">
+
+
+  <li class="has_photos"><a href="/2012/04/17/3560141/wednesday-fyi-coffee-town.html">FYI Food | Coffee Town</a></li>
+</ul></div> </div>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616606" class="sec-837">                  
+ 
+<div id='story-1844015' class='sub_story tout'>
+ 
+<h3 class="
+">  
+<a href="http://www.kansascity.com/phuzzle/"
+
+
+
+>Phuzzle | Back in the swim of things</a></h3>
+<span class="date" title="1334534659">Apr 15,  7:04 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://www.kansascity.com/phuzzle/"><img src="http://media.kansascity.com/smedia/2012/04/15/18/46/UtzqG.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>We&#x92;re enjoying spring weather now, but soon it will be summer. That means it&#x92;s time for cities to get their swimming pools ready for the season, as these park workers did recently in Leawood, when they gave the main pool at the city&#x92;s aquatic center a fresh coat of paint. Dip your toe in the water and see if you can solve this new photo puzzle.</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+<ul id="story1844015-assets" class="asset_list count-1">
+
+
+<!-- Start: /pubsys/production/story/assets/external_link.comp -->
+<li><a href="http://www.kansascity.com/2012/04/15/3556877/phuzzle-back-in-the-swim-of-things.html" class='link'>Check out the latest Phuzzle</a></li>
+<!-- End: /pubsys/production/story/assets/external_link.comp -->
+
+</ul></div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-blogs_fyi" class="html_module">
+<h3>Blogs</h3>
+<ul class="blogList"><li><a href="http://billtammeus.typepad.com/my_weblog/" class="meta">Bill's 'Faith Matters' Blog</a> <a href="http://billtammeus.typepad.com/my_weblog/">The Israel trip, Day 2: 4-17-12</a></li><li><a href="http://www.mom2momkc.com/" class="meta">Mom2Mom</a> <a href="http://www.mom2momkc.com/">What The Heck Is That Stinky Smell?</a></li><li><a href="http://pets.kansascity.com" class="meta">KC Pets</a> <a href="http://pets.kansascity.com">Heartland SPCA must give up its name, judge decides</a></li><li><a href="http://kcgardens.kansascity.com/" class="meta">KC Gardens</a> <a href="http://kcgardens.kansascity.com/">Buying plants in containers</a></li></ul></div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section897' class='story_list headlines '>  
+ 
+<li
+
+><a href="http://www.kansascity.com/2012/04/17/3558497/the-wine-press-how-organic-is.html">The Wine Press | How organic is <i>your</i> wine?</a>
+</li>
+   
+ 
+<li
+
+><a href="http://www.kansascity.com/2012/04/17/3558369/cooking-101-east-asian-meatloaf.html">Cooking 101 | Meatloaf gets an exotic Asian twist</a>
+</li>
+   
+ 
+<li
+
+><a href="http://www.kansascity.com/2012/04/17/3558489/come-into-my-kitchen-disability.html">Come Into My Kitchen | Disability doesn&#x92;t cloud cook&#x92;s sunny disposition</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+         <hr class="clear"></div>                                                 
+
+
+ <div id="Full_7" class="asset_group two-col">            
+        
+        
+        
+    
+        
+
+        <h2><a href="/opinion/">Opinion</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-opinion_blogs" class="html_module">
+<h3><a href="http://www.kansascity.com/blogs/">Blogs</a></h3>
+<ul class="blogList"><li><a href="http://voices.kansascity.com/" class="meta">Midwest Voices</a> <a href="http://voices.kansascity.com/">Good riddance, for now, to bad idea on swapping income taxes...</a></li><li><a href="http://adastrum.kansascity.com" class="meta">Ad Astrum -</a> <a href="http://adastrum.kansascity.com">SBA specifics in Cleaver car wash story</a></li></ul></div>
+
+                                            
+        
+        
+        
+    
+        
+
+         
+<div id="hi-1616663" class="sec-1055">                  
+ 
+<div id='story-3561047' class='sub_story web_op_aisi_childress041812_tout_b821261715z'>
+ 
+<h3 class="
+">  
+<a href="http://www.kansascity.com/2012/04/17/3560688/nascars-richard-childress-ethanol.html"
+
+
+
+>As I See It | E15 ethanol is a viable alternative to regular gas</a></h3>
+<span class="date" title="1334709569">Apr 17,  7:39 PM</span>
+<!-- Start: /pubsys/production/story/assets/image_highlight.comp --><div class="image_highlight">
+	<a href="http://www.kansascity.com/2012/04/17/3560688/nascars-richard-childress-ethanol.html"><img src="http://media.kansascity.com/smedia/2012/04/17/19/35/1c6A1M.Hi.81.jpg" alt=""></a>
+
+</div>
+<p>&#x93;Today&#x92;s ethanol industry probably doesn&#x92;t look anything like most people imagine,&#x94; Richard Childress, the owner of a NASCAR racing team, writes in support of E15 ethanol as an alternative fuel. &#x93;It&#x92;s not a guy in a seed cap with a pot-still in the machine shed. Those days are long gone.&#x94;</p>
+
+
+<!-- This component generates external link assets and story link assets as list items -->
+
+
+
+</div>         
+</div>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section1055' class='story_list headlines '>  
+ 
+<li
+
+><a href="/2012/04/17/3560910/the-stars-editorial-good-riddance.html">The Star&#x92;s editorial | Good riddance to plan to wipe out Missouri income tax</a>
+</li>
+   
+ 
+<li
+
+><a href="http://www.kansascity.com/2012/04/12/3553022/has-the-catholic-hierarchy-really.html">Mary Sanchez | Crisis of problem Catholic priests is far from over</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/16/3558962/the-stars-editorial-a-mockery.html">The Star&#x92;s editorial | Cul-de-sac &#x91;farms&#x92; are a mockery of fairness, good sense</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+         <hr class="clear"></div>                                                    
+
+<!-- End: /v2/section/highlights.comp --></div>
+    <div class="advertisement" id="yahoo-main">
+   <a href="http://royals.kansascity.com"><img src="/static/images/touts/JudgingRoyals_300x120.jpg"></a>
+    <a href="http://www.kansascity.com/2010/11/17/2443325/kansas-city-strips-extra.html">
+       <img src="/static/images/touts/temp/KCStrips_300x120.jpg">
+     </a>
+      <script type="text/javascript">
+<!--
+
+
+//Required Parameters
+    ctxt_ad_config = '1001507650';     //unique numeric partner id
+    ctxt_ad_source = 'npc_mcclatchy_kansascitystar_t2_ctxt';     //provided by Account Manager
+    ctxt_ad_interface = 'http://cm.npc-mcclatchy.overture.com/js_1_0/';     
+    ctxt_ad_width = 300;     //width of the displayed ad block
+    ctxt_ad_height = 250;     //height of the displayed ad block
+
+    
+//Context Parameters
+    ctxt_ad_url = window.location.href.split('?')[0].split('#')[0];     //context URL
+    ctxt_ad_url_cat = 'home_page';     //fallback chategory name
+    ctxt_ad_id = 'home_page';     //context ID name
+    ctxt_ad_keywords = '';     //keywords (URL safe vals only)
+    ctxt_ad_oe = 'latin1';     //output character encoding
+                  
+//Type Tag
+    ctxt_ad_type = 'home_page';     //tag for reports--can be ctxt_ad_section
+//Click Wrapper
+    ctxt_ad_cw = '';     //click wrapper URL
+//Display Parameters
+    //ctxt_ad_bc = '000000';     //cell border color
+    //ctxt_ad_cc = 'ffffff';     //cell background color
+    //ctxt_ad_lc = '000000';     //ad text-title color
+    //ctxt_ad_tc = 'a3a3a3';     //ad text-description color
+    //ctxt_ad_uc = 'a3a3a3';    //ad text-sitehost color
+    //ctxt_ad_css = 'http://media.kansascity.com/static/mi/yahoo/css/yahoo.css';     //stylesheet URL--can be ctxt_url_css
+    ctxt_ad_newwin = '1';     //new window for results
+-->
+</script>
+
+ <script type="text/javascript">
+<!--
+//Required Parameters
+	ctxt_ad_config = '1001507650';     //unique numeric partner id
+    ctxt_ad_source = 'npc_mcclatchy_kansascitystar_t2_ctxt';     //provided by Account Manager
+
+//Context Parameters
+    ctxt_ad_url_cat = 'home_page';     //fallback chategory name
+    ctxt_ad_id = 'home_page';     //context ID name
+                  
+//Type Tag
+    ctxt_ad_type = 'home_page';     //tag for reports--can be ctxt_ad_section
+-->
+</script>
+<script type="text/javascript" src="http://cm.npc-mcclatchy.overture.com/partner/js/ypn.js"></script>
+    </div>
+</div><!-- /#content-main-->
+
+</div><!-- /#home-wrap -->
+
+<!-- End: /v2/section/home_splash.comp -->
+
+
+<div id="right_rail">
+  <form method="get" action="/search_results" name="miSearchForm" id="searchForm" onsubmit="changeLoc(); return false">
+      <select name="aff" id="aff">
+       <option value="1100">KansasCity.com</option>
+       <option value="archives">Archives</option>
+       <option value="h_archives">Historical Archives</option>
+       <option value="web_search">Web</option>
+	</select>
+	<input name="q" id="q" class="text" type="text">
+	<button type="submit" class="submit morebutt">Go!</button>
+	<span id="mi_yahoo_preamble">Web Search powered by </span><span class="yahoo">YAHOO!</span> <span id="mi_yahoo_post">SEARCH</span>
+</form>
+
+
+
+
+
+       	 <div id="sponsored"></div>
+
+<div class="advertisement">
+<h6>Advertisement</h6>
+ 
+
+<!-- default ads -->
+     
+
+
+        <div id="yahoo_300x250_ipatf_1">
+            
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_6");}
+--></script>
+        </div>
+    
+       
+
+
+        <div id="yahoo_300x100_ipbtf_1">
+            
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_7");}
+--></script>
+        </div>
+    
+  
+</div>
+
+<div id="hi-find-n-save">
+<!-- "/static/blogs/widgets/groupon_fns_blog.html" -->
+<!-- "/static/blogs/widgets/dealsaver_blog_widget.html" -->
+
+<h2><a href="http://kansascity.dealsaver.com/engine/SplashDetails.aspx?contestid=29805&amp;productid=5694040&LID=674#widget=ds_rrail">dealsaver's&trade; Deal of the Day</a></h2> 
+			<ul id="fns-deal"> 
+				<li>
+					<a href="http://kansascity.dealsaver.com/engine/SplashDetails.aspx?contestid=29805&productid=5694040&LID=674#widget=ds_rrail"> 
+						<img src="http://c.eblastengine.com/EmailImages/45604.jpg" style="float:left; margin-right:10px; width:170px; margin-left:0px"> 
+						<strong>$15 for $30 of Tupperware Products from Tupperware - Teresa Moore</strong>
+						<p class="center"><img src="http://www.kansascity.com/static/dealsaver/images/buynow_button.gif" style="border:0px" /></p>
+					</a> 
+				</li> 
+			</ul><p class="clearfix clear">
+				<form id="BrandingPageForm" name="BrandingPageForm" method="post" action="http://kansascity.dealsaver.com/engine/SplashDetails.aspx?contestid=29805&amp;productid=5694040&LID=674" class="clear">
+					<input id="HiddenBrandingPageFormSubmitted" name="HiddenBrandingPageFormSubmitted" value="SUBSCRIBE" type="hidden" />
+					<input type="text" name="txtEmailAddress" value="Enter your e-mail to receive daily updates" onfocus="this.value=''" style="border:1px solid #666666;margin-left:10px;padding:2px;width:230px;font-size:12px" /> <input type="submit" value=" Register " style="padding:2px" />
+				</form>
+			</p><p style="text-align: center;padding-top: 5px;margin-bottom:0px"><a href="http://www.pennypinchinmom.com/"><img src="http://www.kansascity.com/static/findnsave/images/fns_ppm_main_blog_splash_header.jpg" style="width:300px" /></a></p><style> #hi-find-n-save ol {margin-left:25px} </style><h5 style="padding-left: 10px;">Tuesday: Top Deals</h5><ol>
+<li>On the Border - Get one free kids meal with one each paid adult entree.  This offer is valid through April 11th &#8212; print image or show it on your smartphone.</li>
+<li>Old Navy - Save $10 off of a $50 purchase.  Print or show the coupon at your store.</li>
+<li>Starbucks - Buy yourself a gift card and make sure you get it registered online, as you will earn rewards for doing so.  The best part is that the first time you use your card after registering it, you&#8217;ll earn your first reward!</li>
+</ol>
+</div>
+
+<div class="advertisement">
+<h6>Advertisement</h6>
+   
+
+
+        <div id="yahoo_300x250_ipbtf_1">
+            
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_8");}
+--></script>
+        </div>
+    
+  </div>
+
+<!-- JOB START /static/blogs/widgets/jbs-new.html -->
+<div id="top_job_widget">
+	<h3><a href="http://jobstart.kansascity.com">JobStart Top Jobs</a></h3>
+  <form action="http://www.careerbuilder.com/JobSeeker/Jobs/JobResults.aspx" method="get">
+  	<input type="hidden" name="lr" value="cbcb_kc">
+  	<input type="hidden" name="ff" value="21">
+    <input type="hidden" name="use" value="all">
+  	<input type="hidden" name="mxjobsrchcriteria_city"  value="kansas city" />
+  	<input type="hidden" name="mxjobsrchcriteria_state"  value="mo, us" />
+    <p><label for="mxjobsrchcriteria_rawwords">Enter Keyword(s):</label>
+    <input type="text" maxlength="256" name="mxjobsrchcriteria_rawwords" id="mxjobsrchcriteria_rawwords" value=""></p>
+		<p><label for="mxjobsrchcriteria_jobtypes">Select a Category:</label>
+    <select name="mxjobsrchcriteria_jobtypes" id="mxjobsrchcriteria_jobtypes" size="1">
+      <option value="All" selected="selected">All Job Categories</option>
+      <option value="JN001">Accounting</option>
+      <option value="JN002">Admin &amp; Clerical</option>
+      <option value="JN054">Automotive1</option>
+      <option value="JN038">Banking1</option>
+      <option value="JN053">Biotech1</option>
+      <option value="JN047">Broadcast - Journalism1</option>
+      <option value="JN019">Business Development</option>
+      <option value="JN043">Construction</option>
+      <option value="JN020">Consultant</option>
+      <option value="JN003">Customer Service</option>
+      <option value="JN021">Design</option>
+      <option value="JN027">Distribution  - Shipping</option>
+      <option value="JN031">Education</option>
+      <option value="JN004">Engineering</option>
+      <option value="JN022">Entry Level</option>
+      <option value="JN018">Executive</option>
+      <option value="JN017">Facilities</option>
+      <option value="JN005">Finance</option>
+      <option value="JN006">General Business</option>
+      <option value="JN051">General Labor</option>
+      <option value="JN046">Government</option>
+      <option value="JN023">Health Care</option>
+      <option value="JN040">Hotel - Hospitality</option>
+      <option value="JN007">Human Resources</option>
+      <option value="JN008">Information Technology</option>
+      <option value="JN034">Insurance</option>
+      <option value="JN015">Inventory</option>
+      <option value="JN030">Legal</option>
+      <option value="JN041">Legal Admin</option>
+      <option value="JN037">Management</option>
+      <option value="JN029">Manufacturing</option>
+      <option value="JN009">Marketing</option>
+      <option value="JN050">Nurse</option>
+      <option value="JN010">Other</option>
+      <option value="JN049">Pharmaceutical</option>
+      <option value="JN024">Professional Services</option>
+      <option value="JN016">Purchasing -  Procurement</option>
+      <option value="JN025">QA - Quality Control</option>
+      <option value="JN026">Research</option>
+      <option value="JN035">Restaurant - Food Service</option>
+      <option value="JN033">Retail - Grocery</option>
+      <option value="JN011">Sales</option>
+      <option value="JN012">Science</option>
+      <option value="JN013">Skilled Labor - Trades</option>
+      <option value="JN028">Strategy - Planning</option>
+      <option value="JN014">Supply Chain</option>
+      <option value="JN048">Telecommunications</option>
+      <option value="JN032">Training</option>
+      <option value="JN044">Transportation</option>
+      <option value="JN045">Warehouse</option>
+    </select></p>
+    <p><input type="submit" value=" Search " />
+    <a href="http://www.careerbuilder.com/Default.aspx?lr=cbcb_kc&ff=21"><img src="http://www.kansascity.com/static/classifieds/powered_by_cb_logo.jpg" /></a></p>
+	</form>
+  <ul><li><a href="http://www.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?lr=cbcb_kc&ff=21&job_did=J3G0Z876P32DRF619HH">FRONT DESK</a></li>
+<li><a href="http://www.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?lr=cbcb_kc&ff=21&job_did=J3J6GQ6D8LF08Y8G4L7">Construction Superintendents & Estimator</a>Universal Construction</li>
+<li><a href="http://www.careerbuilder.com/JobSeeker/Jobs/JobDetails.aspx?lr=cbcb_kc&ff=21&job_did=J3H50B76X8TG7FHF5ZC">Apartment Groundskeeper</a></li>
+</ul>
+
+</div>
+
+
+                                                                                                                                                                                                                                                                
+        
+        
+        
+    
+        
+
+         <div id="hi-kcstartwitter" class="html_module">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '@kcstar',
+  interval: 6000,
+  title: 'KCStar',
+  subject: 'On Twitter',
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#2b5587',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#333333',
+      links: '#660000'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: true,
+    live: true,
+    hashtags: false,
+    timestamp: false,
+    avatars: true,
+    toptweets: false,
+    behavior: 'default'
+  }
+}).render().start();
+</script></div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-cal-widget" class="html_module">
+      
+		   <h2 class="widgetheader"><a href="http://calendar.kansascity.com">Today&rsquo;s Top Events</a> 225 total</h2>
+	<ul>		<li>
+         <a href="http://calendar.kansascity.com/event/id/E0-001-046124891-8/-titanic-the-articfact-exhibition-">'Titanic: The Articfact Exhibition'</a>
+         <span class="where-when"> 
+         	 @ Union Station</span>
+      </li>
+			<li>
+         <a href="http://calendar.kansascity.com/event/id/E0-001-042226100-8/kansas-city-royals-vs-detroit-tigers">Kansas City Royals vs Detroit Tigers</a>
+         <span class="where-when"> 
+         	                <strong>7:10 pm</strong>
+             @ Kauffman Stadium</span>
+      </li>
+			<li>
+         <a href="http://calendar.kansascity.com/event/id/E0-001-046958065-2/-james-and-the-giant-peach-">"James and the Giant Peach"</a>
+         <span class="where-when"> 
+         	                <strong>3:00 pm</strong>
+             @ Coterie Theatre</span>
+      </li>
+			<li>
+         <a href="http://calendar.kansascity.com/event/id/E0-001-044379595-3/naked-and-famous">Naked and Famous</a>
+         <span class="where-when"> 
+         	                <strong>8:00 pm</strong>
+             @ Midland Theater</span>
+      </li>
+			<li>
+         <a href="http://calendar.kansascity.com/event/id/E0-001-046098923-0/gramatik-break-science-with-paul-basic">Gramatik & Break Science with Paul Basic</a>
+         <span class="where-when"> 
+         	                <strong>9:00 pm</strong>
+             @ Granada</span>
+      </li>
+	</ul>
+	<!--<h4><a href="http://calendar.kansascity.com">See all 225 events happening today &raquo;</a></h4>-->
+	
+	<h4><a href="http://calendar.kansascity.com/submit-event" id="cal-widget-add" class="right">Add your event</a>
+	<a href="http://calendar.kansascity.com">Browse the calendar</a></h4>
+ 	<ul id="cal-widget-days">
+ 	     <li class="select"><a href="http://calendar.kansascity.com/">Today</a></li><li><a href="http://calendar.kansascity.com/search/date/2012-04-18">Wed</a></li><li><a href="http://calendar.kansascity.com/search/date/2012-04-19">Thu</a></li><li><a href="http://calendar.kansascity.com/search/date/2012-04-20">Fri</a></li><li><a href="http://calendar.kansascity.com/search/date/2012-04-21">Sat</a></li><li><a href="http://calendar.kansascity.com/search/date/2012-04-22">Sun</a></li><li><a href="http://calendar.kansascity.com/search/date/2012-04-23">Mon</a></li>      </ul></div>
+
+            
+<div id="right_rail_2">                                                                                                                                                                                                                            
+        
+        
+        
+    
+        
+
+        <h2><a href="/nw/">Nation &amp; World</a></h2>
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section451' class='story_list headlines '>  
+ 
+<li
+
+><a href="/2012/04/17/3559530/repsol-blasts-argentina-over-oil.html">Argentina's oil takeover riles investors</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+                                            
+        
+        
+        
+    
+        
+
+        <!-- Start: /pubsys/production/section/assets/top_stories_headlines.comp -->
+<ul id='section440' class='story_list headlines '>  
+ 
+<li
+
+><a href="/2012/04/17/3561120/2-men-from-africa-plead-guilty.html">2 men from Africa plead guilty in US terror case</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3561066/police-suspect-in-deputy-killing.html">Police: Suspect in deputy killing later shot self</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3561064/summary-of-action-in-alabama-legislature.html">Summary of action in Alabama Legislature</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3561024/final-jury-selection-in-somali.html">Final jury selection in Somali piracy case delayed</a>
+</li>
+   
+ 
+<li
+
+><a href="/2012/04/17/3561012/ex-fla-hedge-fund-manager-nadel.html">Ex-Fla. hedge fund manager Nadel dies in prison</a>
+</li>
+ </ul>        
+<!-- End: /pubsys/production/section/assets/top_stories_headlines.comp -->
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-redesign-mi-wire-widget" class="html_module">
+<div id="MI_DC_headlines">
+	<h1><img src="http://media.mcclatchydc.com/static/images/icon_mcclatchy.gif" alt="McClatchy" /> news.mcclatchy.com headlines</h1>
+<ul>
+    
+        
+        
+        
+    
+                                      <li><a href="http://news.mcclatchy.com/2012/04/17/145626/with-last-flight-discovery-shuttle.html" target="_blank">With last flight, Discovery shuttle again captivates nation</a></li>         
+    
+        
+        
+        
+    
+                                      <li><a href="http://news.mcclatchy.com/2012/04/17/145541/for-an-american-havana-is-filled.html" target="_blank">For an American, Havana is filled with contradictions</a></li>         
+    
+
+        
+        
+        
+    
+                                       <li><a href="http://news.mcclatchy.com/2012/04/17/145594/obama-proposes-new-action-on-oil.html" target="_blank">Obama proposes new action on oil speculation</a></li>                   <li><a href="http://news.mcclatchy.com/2012/04/17/145588/did-a-business-deal-gone-wrong.html" target="_blank">Did a business deal gone wrong lead to China murder case?</a></li>                   <li><a href="http://news.mcclatchy.com/2012/04/17/145651/video-discovery-space-shuttle.html" target="_blank">Video: Discovery space shuttle flies over Washington</a></li>         
+     
+</ul>
+  <span id="MI_DC_more">&raquo; <a target="_blank" href="http://news.mcclatchy.com">More headlines</a></span>
+</div></div>
+
+                                                </div>
+                                                                                                                                                                                                                                        
+        
+        
+        
+    
+        
+
+         <div id="hi-special-projects-redesign" class="html_module">
+<h2><a href="/special-projects/">Special Reports & Projects</a></h2>		
+	<ul>
+	
+	<li><a href="http://www.kansascity.com/2012/01/14/3371495/arrowhead-anxiety-turnover-off.html">
+                        <img src="http://www.kansascity.com/static/images/arrowhead.jpg">
+                         Arrowhead anxiety: Turnover off the field causes concern</a>
+Secrecy, intimidation, fear and a watchful eye have become hallmarks of working for the Chiefs, say some current and former employees.
+</li>
+
+<li><a href="http://www.kansascity.com/2011/12/03/3299846/the-altar-boys-secret.html">
+                        <img src="http://www.kansascity.com/static/images/altar.jpg">
+                         The altar boys' secret</a>
+A three-part series based on two new lawsuits that capture the turmoil that has occurred in many lives ever since allegations first began coming to light about abuse by priests three decades ago.
+</li>
+
+	<li><a href="http://www.kansascity.com/2011/09/04/3362970/bad-medicine.html">
+                        <img src="http://www.kansascity.com/static/images/bad_medicine.jpg">
+                         Bad medicine</a>
+Kansas and Missouri doctors with long histories of malpractice payments often go undisciplined by the states' licensing boards, The Star found. Following our report, the government closed the database to the public. After protests, it was reopened, but with new limits.
+</li>
+
+<!--
+<li><a href="http://kauffman.kansascity.com/">
+                        <img src="http://www.kansascity.com/static/images/kauffman-static.jpg">
+                         A City in Tune: Kauffman Center for the Performing Arts</a>
+The Kauffman Center represents an investment in the community of hundreds of millions of dollars, a statement about the health and vitality of the city&#x92;s cultural life and a jaw-dropping architectural experience.
+</li>
+-->
+	
+	
+<!-- <li><a href="http://skywalk.kansascity.com">
+                        <img src="http://www.kansascity.com/static/images/hyatt.jpg">City in Shock: The Hyatt skywalks disaster</a>
+                         
+
+At 7:05 p.m. on July 17, 1981, two walkways at the Hyatt Regency tore loose from their suspension rods. The tragedy left 114 dead and scores more injured. Thirty years later, we remember that devastating night and the lessons learned from the disaster.
+
+</li>
+-->
+ 	
+<li><a href="http://www.kansascity.com/352">
+                        <img src="http://media.kansascity.com/smedia/2011/08/04/20/54/zRilz.St.81.jpg">
+                         The Joplin tornado</a>
+When an EF-5 tornado cut through Joplin on May 22, thousands suffered. Read their stories and more from our comprehensive coverage of the devastating tornado.
+
+</li>
+ 	
+
+
+
+
+</ul>
+<a href="/special-projects/" class="more">More special projects &#xBB;</a></div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-kc_store" class="html_module">
+<h2><a href="https://www.thekansascitystore.com">The Kansas City Store</a></h2>
+	<ul>
+              <li><a href="https://www.thekansascitystore.com/productDetail.php?PID=1423">
+                        <img src="http://media.kansascity.com/images/v2/store/joplin.jpg">
+                         Joplin 5:41</a>
+The incredible story of tragedy and courage in the face of one of nature&#x92;s mightiest storms.</li>
+<!--   		<li><a href="https://www.thekansascitystore.com/productDetail.php?PID=1425">
+                      <img src="http://media.kansascity.com/images/v2/store/katz.jpg">
+			The King of Cut-Rate</a>
+Ah, the memories &#x85; of how two brothers reshaped the drug store business and captured a city&#x92;s heart. 
+<br><img src="http://media.kansascity.com/images/panel_arrow_0.gif" width="12" height="9" border="0"><a href="http://www.youtube.com/watch?v=xM1HcpskxU4">Video preview</a>
+</li> -->
+	</ul></div>
+
+                                    
+
+ <div class="widget" id="pluck_widget">
+   <h2 class="widgetheader">The Most</h2>
+   <ul class="nav">
+      <li class="read ui-tabs-selected"><a href="#pubsys_mr">Read</a></li>
+      <li class="commented"><a href="#pluck_mc">Commented</a></li>
+   </ul>
+
+<ul id="pubsys_mr">
+<li><a href="http://www.kansascity.com/2012/04/16/3558914/chiefs-try-to-making-picking-qb.html#storylink=omni_popular">Chiefs try to make QB a priority in every draft</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/15/3559286/ticket-prices-soar-months-before.html#storylink=omni_popular">Ticket prices soar months before All-Star Game in KC</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/16/3558565/merv-lindsay-to-transfer-from.html#storylink=omni_popular">Andrew White officially signs with KU basketball team</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/17/3560983/chiefs-2012-schedule-is-released.html#storylink=omni_popular">Chiefs&#x2019; 2012 schedule released</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/17/3559784/university-of-kansas-offering.html#storylink=omni_popular">University of Kansas offering 540 staff buyouts in OP, Lawrence</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/16/3559199/rally-falls-short-as-royals-lose.html#storylink=omni_popular">Verlander invincible as Tigers beat Royals 3-2</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/17/3559891/police-id-man-killed-while-crossing.html#storylink=omni_popular">Police ID man killed while crossing busy Olathe street on scooter</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/16/3559353/heartland-spca-must-give-up.html#storylink=omni_popular">Heartland SPCA must give up its name, judge decides</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/17/3560103/kc-police-searching-for-possible.html#storylink=omni_popular">No kidnapping happened, KC police say</a></li>
+
+<li><a href="http://www.kansascity.com/2012/04/16/3558850/gun-violation-sends-convicted.html#storylink=omni_popular">Gun violation sends convicted killer Shauntay Henderson to prison</a></li>
+
+</ul>
+
+<div id="pluck_mc">
+<script type="text/javascript" src="http://disqus.com/forums/kansascity/popular_threads_widget.js?num_items=5"></script>
+</div>
+
+</div><!-- /#pluck_widget -->
+
+                                                                                                                                                                                                                                                    
+        
+        
+        
+    
+        
+
+         <div id="hi-storm-track-weather" class="html_module">
+<h3><a href="http://www.kctv5.com/">Kansas City Weather</a></h3>
+<p><a href="http://www.kctv5.com/weather">
+<img src="/static/images/v2/house_ads/kctv-weather.jpg" class="right" alt=""></a>
+<a href="http://weather.kansascity.com">
+Get current conditions, the latest forecast, video and more.</a>
+</p></div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-pr_central" class="html_module">
+<h3><a href="http://pressreleases.kcstar.com/">Press Release Central</a></h3>
+<ul>
+<!-- From pressreleases on Django at April 17, 2012, 4:51 p.m. -->
+
+<li><a href="http://pressreleases.kcstar.com/release/messages/17303/">UPDATED! - The Rock N Fashion Show - May 5, 2012 - The Beaumont Club </a></li>
+
+<li><a href="http://pressreleases.kcstar.com/release/messages/17298/">Growth Fuels New Additions to Adams Dairy Bank Staff</a></li>
+
+<li><a href="http://pressreleases.kcstar.com/release/messages/17296/">Barn banquet fundraiser to feature gourmet dinner by Chef Robert Krause</a></li>
+
+<li><a href="http://pressreleases.kcstar.com/release/messages/17295/"> MCDONALD’S AND SPORTING KC HOST FREE YOUTH SOCCER CLINICS </a></li>
+
+<li><a href="http://pressreleases.kcstar.com/release/messages/17293/">KCWIFT PRESENT A FILM EDITING SEMINAR WITH PHILIP NEEL</a></li>
+
+
+
+</ul></div>
+
+                                            
+        
+        
+        
+    
+        
+
+         <div id="hi-house-ads" class="html_module">
+<a href="http://archives.kcstar.com/?search="><img src="http://media.kansascity.com/images/permanent/ads/house/Archives_300x90_B.gif" alt="Search our archives"></a>
+
+<a href="/textalerts"><img src="http://media.kansascity.com/images/permanent/ads/house/mobile-ruler.gif"  alt="Sign up for text alerts from kansascity.com"></a>
+
+<a href="http://www.kansascity.com/surveys/"><img src="http://media.kansascity.com/images/WhatThink_300x70.jpg" alt="KansasCity.com - Surveys"></a>
+<!--
+<a href="http://www.thekansascitystore.com" target="_blank"><img src="http://media.kansascity.com/images/touts/tout-starstore-300x100.jpg" alt="The Kansas City Store"></a>
+-->
+
+<a href="https://www.thekansascitystore.com/productDetail.php?PID=1451" target="_blank"><img src="http://media.kansascity.com/images/permanent/ads/house/KCSpromo_GolfCard_0212_RUL.gif" width="300" alt="Golf card"></a>
+
+<a href="http://kansascity.mycapture.com/mycapture/index.asp" target="_blank"><img src="http://media.kansascity.com/images/permanent/ads/house/pictopia-300x100.jpg" width="300" alt="Buy Star photos"></a>
+
+<a href="http://www.projectwarmthkc.com" target="_blank"><img src="http://media.kansascity.com/images/permanent/ads/non-profit/project_warmth-120.gif" width="118"></a></div>
+
+                        
+                                                                                                                                                                                                                    
+
+ 
+
+</div> 
+
+</div><!-- /content -->
+<hr class="clear">
+</div><!-- /wrap -->
+          
+ <div id='footer'>
+   <div id="footer-connect" class="clearfix">
+    <h3><span>Stay connected with The Kansas City Star</span></h3>
+     <ul>
+       <li id="connect-subs"><a href="https://customercare.kcstar.com/sub_landing.HTM">Subscribe</a></li>
+       <li id="connect-mobile"><a href="/mobile-options/">Mobile</a></li>
+       <li id="connect-feed"><a href="/rss/">News Feeds</a></li>
+       <li id="connect-e"><a href="http://estar.kcstar.com/">e-Star</a></li>
+       <li id="connect-fb"><a href="http://www.facebook.com/kansascitystar">Facebook</a></li>
+       <li id="connect-twit"><a href="http://twitter.com/#!/KCStar">Twitter</a></li>
+       <li id="connect-text"><a href="http://www.kansascity.com/textalerts/">Text alerts</a></li>
+         <li id="connect-letter"><a href="http://www.kansascity.com/reg-bin/int.cgi?mode=register">Newsletters</a></li>
+     <li id="connect-kindle"><a href="/e-readers/">e-Readers</a></li>
+<ul>
+</div>
+<div id="footer-hold">
+<h3><span>
+<span id="legalstuff">
+	<a href="/terms_of_service/">Terms of Service</a> | 
+        <a href="/privacy_policy">Privacy Policy | 
+        <a href="/privacy_policy#behavioral_targeting">About our ads</a> | 
+        <a href="/copyright">Copyright</a>
+    </span>
+KansasCity.com</span></h3>
+    <ul id="footernav" class="clearfix">
+<li class="home"><a href="/">Home</a>
+    <ul>
+      <li><a href="/columnists/">Columnists</a></li>
+      <li><a href="/starblogs/">Blogs</a></li>
+      <li><a href="http://www.legacy.com/obituaries/kansascity/">Obituaries</a> </li>
+      <li><a href="/weather/">Weather</a> </li>
+      <li><a href="http://www.traffic.com/Kansas-City-Traffic/Kansas-City-Traffic-Reports.html?AWOPARTNER=KCSTAR">Traffic</a></li>
+      <li><a href="http://pets.kansascity.com">KC Pets</a></li>
+        
+      <li><a href="http://mingle.kansascity.com/">Community Faces</a></li>
+		<li><a href="/forums">Forums</a></li>
+		<li><a href="/about-us/">About The Star</a>
+        <ul>
+          <li><a href="/contact_us/">Contact Us</a></li>
+			 <li><a href="http://archives.kcstar.com/">Past Articles</a></li>
+          <li><a href="http://www.kcstarsie.com/">Star in Education</a></li>
+          <li><a href="http://www.thekansascitystore.com/">Kansas City Store</a></li>
+          <li><a href="/news/reader/">Readers' Representative</a> </li>
+          <li><a href="/front_page/">Front Pages</a></li>
+          <li><a href="/awards/">Star Awards</a></li>
+          <li><a href="/code_of_ethics/">Code of Ethics</a></li>
+          <li><a href="http://www.kcstartours.com/">Star Tours</a></li>
+          <li><a href="/speakers/">Star Speakers</a></li>
+          <li><a href="http://pickledish.kcstar.com/">Star Quilts</a></li>
+          <li><a href="/hemingway">Hemingway</a> </li>
+        </ul>
+      </li>
+      <li><a href="/video">Video</a></li>
+    </ul>
+  </li>
+  <li class="news"><a href="/news/">News</a>
+    <ul>
+        <li class="more"><a href="/columnists/">Columnists</a>
+        <ul>
+          <li><a href="/news/columnists/cw_gusewelle/">C.W. Gusewelle</a> </li>
+          <li><a href="/news/columnists/mike_hendricks/">Mike Hendricks</a> </li>
+          <li><a href="/news/columnists/steve_kraske/">Steve Kraske</a> </li>
+          <li><a href="/news/columnists/mary_sanchez/">Mary Sanchez</a> </li>
+        </ul>
+      </li>
+      <li class="more"><span>Blogs</span>
+        <ul>
+          <li><a href="http://blogs.kansascity.com/crime_scene/">Crime Scene KC</a></li>
+          <li><a href="http://primebuzz.kcstar.com/">Prime Buzz</a> </li>
+        </ul>
+      </li>
+      <li><a href="/news/breaking_news/">Breaking News</a></li>
+        <li><a href="/nw/">Nation &amp; World</a> </li>
+			<li><a href="/news/politics/">Politics</a> </li>
+     		<li><a href="/news/lottery/">Lotteries</a> </li>
+      	<li><a href="/news/neighborhood/">Neighborhoods</a> </li>
+      	<li><a href="/joco/">JoCo</a> </li>
+      	<li><a href="/infocentral/">Info Central</a> </li>
+      	<li><a href="/news/news_projects/">News Projects</a> </li>
+      <li class="more"><span>More</span>
+        <ul>
+          <li><a href="http://pressreleases.kcstar.com/">Press Release Central</a> </li>
+          <li><a href="/news/politics/elections/">Elections</a> </li>
+          <li><a href="/news/weird_news/">Weird News</a> </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="sports"> <a href="/sports/">Sports</a>
+    <ul>
+     	<li class="more"><a href="/sports/columnists/">Columnists</a>
+        <ul>
+          <li><a href="/sports/columnists/sam_mellinger/">Sam Mellinger</a> </li>
+          <li><a href="/sports/columnists/blair_kerkhoff/">Blair Kerkhoff</a> </li>
+          <li><a href="/sports/columnists/candace_buckner/">Candace Buckner</a> </li>
+        </ul>
+      </li>
+      <li class="more"><span>Blogs</span>
+        <ul>
+          <li><a href="http://chiefsblog.kansascity.com/">Red Zone</a> </li>
+           <li><a href="http://www.kansascity.com/sports/fantasy-blitz/">Fantasy Blitz</a> </li>
+          <li><a href="http://uponfurtherreview.kansascity.com/">Upon Further Review</a> </li>
+          <li><a href="http://campuscorner.kansascity.com/">Campus Corner</a> </li>
+          <li><a href="http://royalsblog.kansascity.com/">Ball Star</a> </li>
+          <li><a href="http://varsity.kansascity.com/">Varsity Zone</a> </li>
+        </ul>
+      </li>
+      <li><a href="/sports/chiefs/">Chiefs</a> </li>
+      <li><a href="/sports/royals/">Royals</a> </li>
+      <li><a href="/sports/thefull90/">Sporting KC</a> </li>
+   	<li><a href="/sports/ku/">KU</a> </li>
+   	<li><a href="/sports/kstate/">K-State</a> </li>
+   	<li><a href="/sports/mu/">MU</a> </li>
+   	<li><a href="http://varsity.kansascity.com">High Schools</a></li>
+   	<li><a href="/sports/stats/">Stats</a></li>
+		<li><a href="/outdoors/">Outdoors</a></li>
+      <li class="more"><span>More Pro</span>
+        <ul>
+          <li><a href="/sports/mavericks/">Mavericks</a> </li>
+          <li><a href="/sports/tbones/">T-Bones</a> </li>
+          <li><a href="/sports/motorsports/">Motorsports</a> </li>
+          <li><a href="/sports/golf/">Golf</a> </li>
+          <li><a href="/sports/tennis/">Tennis</a></li>
+          <li><a href="/sports/football/">NFL</a> </li>
+          <li><a href="/sports/baseball/">MLB</a> </li>
+          <li><a href="/sports/basketball/">NBA</a> </li>
+          <li><a href="/sports/hockey/">NHL</a> </li>
+        </ul>
+      </li>
+      <li class="more"><span>More Amateur</span>
+        <ul>
+          <li><a href="/sports/umkc">UMKC</a> </li>
+          <li><a href="/sports/big12">Big 12</a> </li>
+          <li><a href="/sports/colleges/">Colleges</a> </li>
+          <li><a href="/sports/olympics/">Olympics</a> </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="business"> <a href="/business/">Business</a>
+    <ul>
+      <li class="more"><a href="/business/columnists/">Columnists</a>
+        <ul>
+          <li><a href="/business/columnists/diane_stafford/">Diane Stafford</a> </li>
+          <li><a href="/business/columnists/steve_rosen/">Steve Rosen</a> </li>
+          <li><a href="/business/columnists/joyce_smith/">Joyce Smith</a> </li>
+          <li><a href="/business/columnists/kevin_collison/">Kevin Collison</a> </li>
+          <li><a href="/business/columnists/mark_davis/">Mark Davis</a> </li>
+          <li><a href="/business/columnists/keith_chrostowski/">Keith Chrostowski</a> </li>
+        </ul>
+      </li>
+      <li class="more"><span>Blogs</span>
+        <ul>
+          <li><a href="/business/sprint-connection">Sprint Connection</a> </li>
+          <li><a href="/business/dollars-and-sense">Dollars &amp; Sense</a> </li>
+        </ul>
+      </li>
+      <li><a href="http://newspaperads.kansascity.com/SS/Tiles.aspx?type=starbusiness">Announcements</a></li>
+		<li><a href="http://economy.kansascity.com/">Consumer News</a> </li>
+      <li><a href="/business/technology/">Technology</a> </li>
+		<li><a href="/workplace/">Workplace</a> </li>
+      <li><a href="/business/star50/">Star 50</a> </li>
+		<li><a href="http://studio-5.financialcontent.com/mi?Account=kansascity&amp;Page=QUOTE&amp;Ti%0Acker=%24LOC-KC">Stocks</a> </li>
+    </ul>
+  </li>
+  <li class="fyi"><a href="/living/">Lifestyle</a>
+    <ul>
+      <li class="more"><a href="/living/columnists/">Columnists</a>
+        <ul>
+          <li><a href="/living/columnists/cindy_hoedel/">Cindy Hoedel</a> </li>
+          <li><a href="/living/columnists/jill_silva/">Jill Wendholt Silva</a> </li>
+          <li><a href="/entertainment/columnists/jenee_osterheldt/">Jenee Osterheldt</a> </li>
+        </ul>
+      </li>
+      <li class="more"><span>Blogs</span>
+        <ul>
+          <li><a href="http://www.mom2momkc.com/">Mom2Mom</a></li>
+          <li><a href="http://pets.kansascity.com/">KC Pets</a></li>
+          <li><a href="http://kcgardens.kansascity.com/">KC Gardens</a> </li>
+          <li><a href="http://billtammeus.typepad.com/my_weblog/">Faith Matters</a> </li>
+        </ul>
+      </li>
+      <li><a href="/living/food/">Food</a> </li>
+      <li><a href="/living/home/">House &amp; Home</a> </li>
+      <li><a href="/living/faith/">Faith</a> </li>
+      <li><a href="/starmagazine/">Star Magazine</a> </li>
+      <li><a href="/living/travel/">Travel</a>
+      <li><a href="/living/health/">Health</a> </li>
+      <li><a href="/celebrations/">Celebrations</a> </li>
+      <li><a href="http://www.uclick.com/client/kcc/da/">Dear Abby</a> </li>
+    </ul>
+  </li>
+
+  <li class="entertainment"> <a href="/entertainment/">Entertainment</a>
+    <ul>
+      <li class="more"><a href="/entertainment/columnists/">Columnists</a>
+        <ul>
+          <li><a href="/entertainment/columnists/robert_trussell/">Robert Trussell</a> </li>
+          <li><a href="/entertainment/columnists/alice_thorson/">Alice Thorson</a> </li>
+          <li><a href="/entertainment/columnists/joe_klopus/">Joe Klopus</a> </li>
+          <li><a href="/entertainment/columnists/aaron_barnhart/">Aaron Barnhart</a> </li>
+          <li><a href="/entertainment/columnists/timothy_finn/">Timothy Finn</a> </li>
+        </ul>
+      </li>
+      <li class="more"><span>Blogs</span>
+        <ul>
+          <li><a href="http://backtorockville.typepad.com/">Back to Rockville</a> </li>
+          <li><a href="http://blogs.kansascity.com/tvbarn/">TV Barn</a> </li>
+        </ul>
+      </li><li><a href="http://www.inkkc.com">Ink</a> </li>
+       <li><a href="/entertainment/horoscopes/">Horoscopes</a> </li>
+      <li><a href="/comics/">Comics</a> </li>
+		<li><a href="/games/">Games</a> </li>
+   <li><a href="/entertainment/movies">Movies</a> </li>
+      <li><a href="/entertainment/music/">Music</a> </li>
+      <li><a href="/entertainment/performing_arts/">Performing Arts</a> </li>
+      <li><a href="http://calendar.kansascity.com/">Calendar</a> </li>
+        <li><a href="/startv/">Star TV</a></li>
+      <li class="more"><span>More</span>
+        <ul>
+          <li><a href="/entertainment/books/">Books</a> </li>
+          <li><a href="/entertainment/dining/">Restaurants</a> </li>
+          <li><a href="/entertainment/visual_arts/">Visual Arts</a> </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="opinion"> <a href="/opinion/">Opinion</a>
+    <ul>
+      <li class="more"><a href="/opinion/opinion_columnists/">Columnists</a>
+        <ul>
+          <li><a href="/opinion/yael_t_abouhalkah/">Yael T. Abouhalkah</a> </li>
+          <li><a href="/opinion/miriam_pepper/">Miriam Pepper</a> </li>
+          <li><a href="/opinion/lewis_w_diuguid/">Lewis W. Diuguid</a> </li>
+          <li><a href="/opinion/e_thomas_mcclanahan/">E. Thomas McClanahan</a> </li>
+          <li><a href="/opinion/barbara_shelly/">Barbara Shelly</a> </li>
+          <li><a href="/opinion/lee_judge/">Lee Judge</a></li>
+        </ul>
+      </li>
+      <li class="more"><span>Blogs</span>
+        <ul>
+          <li><a href="http://voices.kansascity.com/">Midwest Voices</a> </li>
+          <li><a href="http://blogs.kansascity.com/unfettered_letters/">Unfettered Letters</a> </li>
+          <li><a href="http://adastrum.kansascity.com/">Ad Astrum</a> </li>
+        </ul>
+      </li><li><a href="/editorials/">Editorials</a> </li>
+      <li><a href="/letters/">Letters to the Editor</a> </li>
+    </ul>
+  </li>
+<li class="promo"><span>Promo</span>
+  <ul class="promoitems">
+	<li class="placead"><a href="/advertising/">Place an Ad</a></li>
+	<li><a href="/jobs/">Jobs</a>
+	    <ul>
+	      <li><a href="http://www.kansascity.com/placead">Create an Ad</a></li>
+	      <li><a href="http://www.careerbuilder.com/JobSeeker/Resumes/RL_Start.aspx?lr=cbcb_kc&amp;cbRecursionCnt=1&amp;cbsid=1a0cd21f15d4487d970acfe86306b8e4-272645059-w5-6">Post Resume</a></li>
+	      <li><a href="http://www.careerbuilder.com/Default.aspx?lr=cbcb_kc&amp;ff=21&amp;cbRecursionCnt=1&amp;cbsid=ca3516ab46b04ab785cfe83ed5705523-272645546-x3-6">Job Search</a></li>
+	      <li><a href="http://jobstart.kansascity.com">Jobstart</a></li>
+	      <li><a href="/classifieds/employment/topjobs/">Top Jobs</a></li>
+	      <li><a href="/680/">Career Video</a></li>
+	    </ul>
+	  </li>
+	  <li><a href="http://www.cars.com/go/index.jsp?aff=kansascity">Cars</a>
+	    <ul>
+	      <li><a href="/classifieds/cars/">Tom Strongman</a></li>
+	      <li><a href="http://www.kansascity.com/placead/?catid=784&amp;-session=ComboAd:3F4CE782%0A032091B4EFpyUGD8BCA5">Sell A Car</a></li>
+	      <li><a href="http://www.cars.com/go/dealersearch/specials.jsp;jsessionid=YKUYUUH4MLJIXLAYIETE2UY?specialsURL=http%3A%2F%2Fcars.adperfect.com%2Findex%2Faffiliate%2Findex.html%3Fapn%3Dkansascity&amp;apn=kansascity&amp;aff=kansascity">Used Car Specials</a></li>
+	      <li><a href="http://www.cars.com/go/dealersearch/specials.jsp;jsessionid=YKUYUUH4MLJIXLAYIETE2UY?specialsURL=http%3A%2F%2Fcars.adperfect.com%2Findex%2Faffiliate%2Findex.new.html%3Fapn%3Dkansascity&amp;apn=kansascity&amp;aff=kansascity">New Car Specials</a></li>
+               <li><a href="http://newspaperads.kansascity.com/ROP/Subcat.aspx?cat=3330&subcat=3379">Auto Newspaper Ads</a></li>
+               <li><a href="http://www.cars.com/go/index.jsp?aff=kansascity">Cars.com</a></li>
+	    </ul>
+	  </li>
+	  <li> <a href="/homes/">Real Estate</a>
+	    <ul>
+	      <li><a href="http://www.kansascity.com/placead/?catid=779&amp;-session=ComboAd:3F4CE7%0A82032091B273HPYGD7BB43">Sell A Home</a></li>
+	      <li><a href="/homes/">HomeFinder</a></li>
+	    </ul>
+	  </li>
+	  <li> <a href="/classifieds/apartments/">Rentals</a>
+	    <ul>
+	      <li><a href="http://www.kansascity.com/placead">Create an Ad</a></li>
+	      <li><a href="/classifieds/apartments/">apartments.com</a></li>
+	    </ul>
+	  </li>
+	  <li> <a href="/classifieds/">Classifieds</a>
+	    <ul>
+	      <li><a href="http://www.kansascity.com/classified-ads/category/Garage+%26+Estate+Sales">Garage Sales</a></li>        
+              <li><a href="http://buyit.kansascity.com/findit/pets/index.htm">Pets</a></li>
+	      <li><a href="/classifieds/">Find an Ad</a></li>
+	      <li><a href="http://www.kansascity.com/placead">Create an Ad</a></li>
+	    </ul>
+	  </li>
+	  <li><a href="http://www.kansascity.com/shopping">Shopping</a>
+	    <ul>
+	      <li><a href="http://newspaperads.kansascity.com/ROP/Categories.aspx">Newspaper Ads</a></li>
+			<li><a href="http://newspaperads.kansascity.com/SS/Tiles.aspx">Special Sections</a></li>
+	    </ul>
+	  </li>
+	</ul>
+</li></ul>
+</div>
+
+
+
+
+
+    
+    <a name="floorboard_anchor"></a><!-- /shared/ads/floorboard.comp -->
+
+    <!-- start: floor board ad -->
+     
+ 
+ 
+ 
+<center><div class="advertisement floorboard shared-footer_test dart3" id="dart_285x70_ats_1">
+<!-- templates/ads/dart_call.ett :start v.15690 -->
+<!-- templates/ads/dart3_render_adj.ett :start -->
+	<script language="JavaScript" type="text/javascript">
+	<!-- 
+        if ('undefined' !== typeof miadinfo) { var miadinfo = new Array(); }
+	if(typeof(miyahoo) == "undefined" || miyahoo.ads[mi_live_or_preview].dart.enabled){
+    document.write('<scr' + 
+        'ipt language="JavaScript" src="http://ad.doubleclick.net/adj/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=285x70;tile=5;!c=news;pub=KansasCityStar;ord=817823910407490' + 
+        ';gender=' + ((miadinfo && miadinfo.length > 0) ? miadinfo[0] : '') + 
+        ';year=' + ((miadinfo && miadinfo.length > 1) ? miadinfo[1] : '') + 
+        ';income=' + ((miadinfo && miadinfo.length > 2) ? miadinfo[2] : '') + 
+        '?" type="text/javascript"></scr' + 'ipt>');
+	}
+	//-->
+	</script>
+	<noscript>
+        <a  href="http://ad.doubleclick.net/jump/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=285x70;tile=5;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            target="_blank"><img src="http://ad.doubleclick.net/ad/mi.ksc00/_HomePage;atf=Y;dcove=d;pl=homepage;sect=FrontPage;pos=1;sz=285x70;tile=5;!c=news;pub=KansasCityStar;ord=817823910407490;gender=;year=;income=?" 
+            border="0" alt="Advertisement"></a>
+    </noscript> 
+<!-- templates/ads/dart3_render_adj.ett :end -->
+
+<!-- templates/ads/dart_call.ett :end -->
+
+
+</div></center><!-- /.advertisement floorboard shared-footer_test -->
+ 
+<div class="advertisement floorboard shared-footer_test yahoo" id="yahoo_285x70_ipatf_1">
+	
+<script><!--
+if(miyahoo.ads[mi_live_or_preview].yahoo.enabled){yld_mgr.place_ad_here("slot_9");}
+--></script>
+
+</div><!-- /.advertisement floorboard shared-footer_test -->
+
+     <script language="JavaScript" type="text/javascript">
+
+        /* floor board ad script to control whitespace  */
+
+        // $('div[name^=adx_ldo0_]').ready(function() {
+            $(document).ready(function() {
+                // executes when HTML-Document is loaded and DOM is ready
+
+                // don't animate because focus of browser window changes
+                $('div[name^=adx_ldo0_]').ready(function() {
+                    $('body').css('margin-bottom', '110px');
+                });
+        });
+
+        // IMPORTANT: executes when complete page is fully loaded, including all frames, objects and images
+        // meaning, we can't bind click for the ad until after the window.load
+        $(window).load(function() {
+            $('div[name=adx_al]').bind('click', function() {
+                /* keep this scoped inside of he click */
+                var $curMarg = $('body').css('margin-bottom').replace("px", "");
+                $curMarg = ($curMarg == 30) ? 110 : 30;
+                $('body').css('margin-bottom', $curMarg + 'px');
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        var mi = (!mi) ? {'media_domain':''} : mi;
+
+        mi.floorAd = function( container ) {
+
+            //get needed objects
+            this.container = $(container).length ? $(container) : '';
+            this.wrapper = $(container + ' #floorboard-wrapper');  //wrapper div for centering
+
+            this.mainImg = $(container + ' img:eq(0)');  //main image
+            this.mainWidth = this.mainImg.width();  //main image width
+            this.mainHeight = this.mainImg.height();  //main image height
+
+            this.leaveImg = $(container + ' img:eq(1)');  //leave behind image
+            this.leaveHeight = this.leaveImg.height();  //leave behind height
+
+            this.closeLink = $(container + ' map[name="floorclosemap"]  area');  //get area link(s?) for close button
+            this.openLink = $(container + ' map[name="flooropenmap"] area');  //get area link(s?) for open button
+
+            if (this.container !== ''){
+
+              this.container.css({'position' : 'fixed',
+                                             'text-align' : 'left',
+                                             'bottom' : '0',
+                                             'right' : '0',
+                                             'left' : '0'});
+
+// stick the footer at the bottom of the page if we're on an iPad/iPhone due to viewport/page bugs in mobile webkit
+// alert( "navigator.platform = " + navigator.platform);
+// ** REMOVE **** iPhone references once iOS 5 releases with a fix for this issue (check Chrome mobile webkit)
+if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Linux armv7l') {
+    this.container.css("position", "static");
+};
+
+              this.wrapper.css({'width' : this.mainWidth + 'px',
+                                             'text-align' : 'left',
+                                            'margin' : '0 auto'})
+
+               if (this.mainImg !== ''){
+
+                this.mainImg.css({'position' : 'absolute',
+                                              'border' : '0',
+                                              'bottom' : (-1 * this.mainHeight),
+                                              'z-index' : '2147483647'});
+
+                   //set up close button if leave behind exists
+                   if(this.leaveImg !== '' && this.closeLink !== ''){
+
+                       this.leaveImg.css({'visibility' : 'hidden',
+                                                      'border' : '0',
+                                                      'position' : 'absolute',
+                                                      'bottom' : (-1 * this.leaveHeight),
+                                                      'z-index' : '2147483647'});
+
+                       this.closeLink.click(function() {
+                                                           //dostuff
+                                                          $(container + ' img:eq(1)').css({'visibility' : 'visible',
+                                                                                                             'bottom' : (-1 * $(container + ' img:eq(0)').height())});
+                                                          $(container + ' img:eq(0)').animate({'bottom' : (-1 * $(container + ' img:eq(0)').height())});
+                                                          $('body').animate({'margin-bottom' : $(container + ' img:eq(1)').height()});
+                                                          $(container + ' img:eq(1)').animate({'bottom' : '0'});
+                                                       });
+
+                       //set up open button if it exists
+                       if(this.openLink != ''){
+                           this.openLink.click(function() {
+                                                               //dostuff
+                                                              $(container + ' img:eq(1)').animate({'bottom' : (-1 * $(container + ' img:eq(1)').height())});
+                                                              $(container + ' img:eq(0)').animate({'bottom' : '0'});
+                                                              $('body').animate({'margin-bottom' : $(container + ' img:eq(0)').height()});
+                                                            });
+                       }
+                   }
+
+                   //animate main image into view
+                  $(document).ready(function() {
+                      $(container + ' img:eq(1)').css({'bottom' : (-1 * $(container + ' img:eq(1)').height())});;
+                      $(container + ' img:eq(0)').animate({'bottom' : '0'});
+                      $('body').css({'margin-bottom' : $(container + ' img:eq(0)').height()});
+                  });
+               }
+               else{
+                  console.warn("No floor ad images to display");
+               }               
+            }
+            else{
+               console.warn( "Slide ad cannot be instantiated. "+container+" does not exist." );
+            }
+        };
+</script>
+
+<script type="text/javascript"> var floorAd = new mi.floorAd('#floorboard-ad');</script>
+    <!-- end: floor board ad -->
+
+
+
+
+
+
+
+ 
+<script type="text/javascript">var tcdacmd="dt";</script>
+<script type="text/javascript" src="http://an.tacoda.net/an/15065/slf.js"></script>
+ 
+
+<div id="mistatstag" style="display:none;">        
+<!-- SiteCatalyst: McClatchy WorkBench Stats Tag v.1.0 -->
+
+<!-- site specific file already loaded -->
+<script language="JavaScript" type="text/javascript" src="http://media.kansascity.com/mistats/products/pubsys_s_code.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+measure_popularity=false;
+mistats.msr = 'KSC|KC';
+mistats.cmsid='GUID: | Section: 105';
+mistats.pagelevel='Home';
+mistats.pagename='Homepage: Front Page';
+mistats.version='1.0|';
+mistats.taxonomy='_HomePage||||';
+mistats.channel='Front Page';
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+</script>
+<script language="JavaScript" type="text/javascript" src="http://media.kansascity.com/mistats/products/pubsys.js"></script>
+<script language="JavaScript" type="text/javascript" src="http://media.kansascity.com/mistats/finalizestats.js"></script>
+
+<noscript><img src="http://mcclatchy.112.2O7.net/b/ss/nmkansascity%2F1%2FH.10--NS%2F0%3FpageName%3DHomepage%3A%20Front%20Page&server%3Dwww.kansascity.com&channel%3DFront%20Page&c1%3Dhttp%26%2358%3B%26%2347%3B%26%2347%3Bwww.kansascity.com%26%2347%3B105%26%2347%3Bindex.html&c3%3DHome&c4%3D&c6%3DKSC%7CKC&c28%3D&h1%3DKSC%7CKANSASCITY%7C_HomePage%7C%7C%7C%7C%7CFront%20Page" height="1" width="1" border="0" alt="" /></noscript>
+<!-- End SiteCatalyst: McClatchy WorkBench Stats Tag v.1.0 -->
+</div><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6573881-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+ </body>
+</html>
+
+

@@ -1,0 +1,818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<title>LiveMixtapes.com - Free Mixtapes Updated Daily: Get It LIVE!</title>
+
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="keywords" content="free mixtapes" />
+	<meta name="description" content="Free mixtapes for streaming and download updated daily. Hip-hop, Rap, R&amp;B, Reggae, Blends, Remixes, Instrumentals, East Coast, West Coast, and Dirty South Mixtapes." />
+	<meta name="robots" content="all" />
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link href="http://www.livemixtapes.com/css/shared-bg.css?1310241194" rel="stylesheet" type="text/css" />
+	<link href="http://www.livemixtapes.com/css/login.css?1326767245" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" language="JavaScript" src="/js/shared.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript">
+	cmnunt_site		= 'cmn_livemixtapes';
+	cmnunt_silo		= 's_mus';
+	cmnunt_subsilo	= '';
+	cmnunt_tier		= 'to,home';
+	cmnunt_zone		= 'home';
+	cmnunt_kw		= '';
+	cmnunt_exclude 	= '';
+	</script>
+	<script type="text/javascript" src="http://cdn.complexmedianetwork.com/js/cmnUNT.js"></script>
+	<link href="http://www.livemixtapes.com/css/complex.css?1317153286" rel="stylesheet" type="text/css" />
+	<link href="/css/c/16700.css" rel="stylesheet" type="text/css" />
+	<link href="http://www.livemixtapes.com/css/main.css" rel="stylesheet" type="text/css" />
+	<link href="http://www.livemixtapes.com/css/featured.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+$(function(){
+	$(".feat_score").fadeTo(0, 0);
+	$(".feat_cover").hover(
+		function(){ $(this).children(":first").fadeTo(0, 1); },
+		function(){ $(this).children(":first").fadeTo(0, 0); }
+	);
+});
+</script>
+<style type="text/css">
+ol {
+	display: block;
+	width: 148px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ol li {
+	margin-bottom: 5px;
+}
+ol li span {
+	display: inline-block;
+	width: 25px;
+	text-align: right;
+	margin-right: 8px;
+}
+ol li a {
+	display: inline-block;
+}
+</style>
+<script type="text/javascript" src="http://promo.livemixtapes.com/js/audio-player.js"></script>
+<script type="text/javascript">
+AudioPlayer.setup("http://promo.livemixtapes.com/player.swf", {
+	width: 728, initialvolume: 65, transparentpagebg: "no", pagebg: "FFFFFF",
+	lefticon: "666666", righticon: "FFFFFF", rightbg: "003D72", leftbg: "CCCCCC",
+	volslider: "003D72", voltrack: "FFFFFF", loader: "003D72", rightbghover: "003D72"
+});
+</script>
+<script type="text/javascript" src="/js/jquery.countdown.min.js"></script>
+</head>
+
+<body>
+
+<div class="cmn5x5">
+<!-- cmnUNT | Begin ad tag -->
+<script type="text/javascript">cmnUNT('5x5', tile_num++);</script>
+<!-- cmnUNT | End ad tag -->
+</div>
+<div id="cmn_wrap">
+<div style="position: absolute; top: 28px; left: 0; width: 100%; z-index: 0;">
+	<center><a href="/mixtapes/16700/kevin_gates_make_em_believe.html"><img src="http://images.livemixtapes.com/clear.gif" width="98%" height="1024" border="0" /></a></center>
+</div>
+<div id="overlay" style="position: absolute; z-index: -1; width: 100%; top: 0; left: 0"></div>
+<!-- <div style="position: absolute; z-index: 0; width: 100%; top: 0; left: 0; height: 28px; background: url('http://images.livemixtapes.com/topbar.png') repeat-x"></div> -->
+<div style="width: 850px; margin: 0 auto; background: url('http://images.livemixtapes.com/topbar.png') repeat-x; position: relative; z-index: 10">
+<div id="headtop">
+	<a href="/login" id="login_link">Login</a>
+	<a href="/signup.html">Sign Up</a>
+	<a href="/contact.html">Contact</a>
+	<div style="float: right; position: relative">
+		<a href="#" id="site_link">More Sites</a>
+		<div style="display: none" id="site_menu" class="login_menu">
+			<div id="site_links" class="user_links">
+				<ul>
+										<li><a href="http://www.indytapes.com/">IndyTapes.com</a></li>					<li><a href="http://www.clubtapes.com/">ClubTapes.com</a></li>				</ul>
+			</div>
+		</div>
+	</div>
+<div style="display: none" id="login_menu" class="login_menu">
+	<div id="login_form">
+		<form action="/login.php" method="post">
+		<label for="username">Username or email</label>
+		<input type="text" class="text" name="username" id="username" />
+		<label for="password">Password</label>
+		<input type="password" class="text" name="password" id="password" style="margin: 0 0 2px" />
+		<div style="height: 24px"><a href="/password.php">Forgot Password?</a></div>
+		<label style="float: left; line-height: 17px"><input type="checkbox" name="remember" value="y" style="float: left" />&nbsp;Remember me</label>
+		<input type="image" src="http://images.livemixtapes.com/login2.gif" style="float: right; border: none; outline: none" />
+		</form>
+		<div style="clear: both"></div>
+	</div>
+</div>
+<script type="text/javascript" src="/js/login.js?1326767245"></script></div>
+</div>
+<div id="headmid">
+	<div id="headmidleft"><div style="position: relative; top: -20px;"><a href="/"><img src="http://images.livemixtapes.com/clear.gif" width="400" height="100" border="0" alt="LiveMixtapes.com" /></a></div></div>
+<div style="background: url('http://images.livemixtapes.com/row2_right_bg.gif') no-repeat -60px -1px; height: 79px; padding-left: 10px; float: left">
+	<div style="height: 79px; width: 67px; background: url('http://images.livemixtapes.com/radiobg.gif') no-repeat -287px -11px">
+		<div style="height: 79px; width: 40px; background: url('http://images.livemixtapes.com/radiobg.gif') no-repeat 0 -11px; position: absolute"></div>
+		<div style="padding-top: 2px; position: relative;">
+			<div style="overflow: hidden; position: relative; text-align: center; height: 22px;">
+				<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+				<g:plusone size="tall" annotation="none" ></g:plusone>
+			</div>
+			<div style="overflow: hidden; position: relative; text-align: center; height: 22px;">
+				<a target="_blank" href="https://twitter.com/intent/follow?original_referer=&amp;screen_name=livemixtapes&amp;source=followbutton&amp;variant=1.1" id="twitlink"><img height="20" border="0" width="50" src="http://images.livemixtapes.com/clear.gif"></a>
+			</div>
+			<div style="overflow: hidden; width: 50px; white-space: nowrap; position: relative; height: 26px; text-align: center; padding-left: 9px;">
+				<iframe frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Flivemixtapes&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35" style="float: left; border: medium none; overflow: hidden; width: 350px; height: 26px;" allowtransparency="true"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+	<div id="headmidright">
+		<div id="radiobox">
+			<div id="radio"></div>
+		</div>
+		<script type="text/javascript" src="http://www.livemixtapes.com/js/radio.js?1301526763"></script>
+		<script type="text/javascript"><!--
+		//<![CDATA[
+		radio_embed('1010837');
+		//]]>
+		//--></script>
+	</div>
+	<div style="clear: both"></div>
+	<div id="tabs" style="float: none">
+		<div class="tab">
+			<div class="tableft tabfirst"></div>
+			<div class="tabmid" style="width: 136px">6,699 Total Mixtapes</div>
+		</div>
+		<div class="tab">
+			<div class="tableft"></div>
+			<div class="tabmid" style="width: 92px"><a href="/main.php?show=new">31 This Week</a></div>
+		</div>
+		<div class="tab">
+			<div class="tableft"></div>
+			<div class="tabmid" style="width: 93px"><a href="/main.php?show=today">8 New Today</a></div>
+		</div>
+		<div class="tab">
+			<div class="tableft"></div>
+			<div class="tabmid" style="width: 96px"><a href="/main.php?show=unreleased">24 Unreleased</a></div>
+		</div>
+		<div class="tab">
+			<div class="tableft"></div>
+			<div class="tabmid" style="width: 67px">&nbsp;</div>
+		</div>
+		<div id="headright">
+			<div id="searchbox" style="margin-top: 0 !important">
+				<form action="/searchredir.php" method="post">
+				<input name="find" id="find" type="text" style="width: 200px;" value="" />
+				<select name="search" style="font-family: Tahoma; font-size: 11px; font-weight: bold;">
+					<option value="artist">Artist</option>
+					<option value="dj">DJ</option>
+					<option value="album">Mixtape</option>
+					<option value="track">Track</option>
+				</select>
+				<input type="image" src="http://images.livemixtapes.com/go2.gif" style="position: relative; left: 10px; top: 6px;"/>
+				</form>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+	<div style="position: relative; z-index: 1; width: 848px; border: 1px solid #000000; border-style: none solid; background-color: #ffffff; margin: 0 auto; padding-top: 5px">
+	<div style="text-align: center; white-space: nowrap; margin-top: 10px">
+		<span style="display: inline-block; vertical-align: middle; margin-right: 20px">
+			<a href="/mixtapes/16700/kevin_gates_make_em_believe.html"><img src="http://images.livemixtapes.com/artists/yaboyearl/kevin_gates-make_em_believe/tn_cover.jpg" width="95" height="95" border="0" style="border: 1px solid #000" /></a>
+		</span>
+		<span style="display: inline-block; vertical-align: middle; max-width: 615px">
+						<span style="font-size: 20px; line-height: 26px; white-space: normal"><em><a href="/mixtapes/16700/kevin_gates_make_em_believe.html">Kevin Gates - Make Em Believe</a></em></span><br />						<span id="counter">&nbsp;</span>
+		</span>
+	</div>
+	</div>
+<div style="position: relative; z-index: 1; width: 848px; border: 1px solid #000000; border-style: none solid; background-color: #ffffff; margin: 0 auto; padding-top: 15px">
+	<div id="fw_promo" class="fw_livemixtapes" style="text-align: center">
+	<!-- cmnUNT | Begin ad tag -->
+	<script type="text/javascript">cmnUNT('728x90,1020x400', tile_num++);</script>
+	<!-- cmnUNT | End ad tag -->
+	</div>
+</div>
+<div id="content" style="width: 734px; padding: 0 33px">
+
+	<div style="font-size: 20px"></div>
+<div class="directory"><a href="/main.php?show=featured">Featured Mixtapes</a></div>
+<div class="feat_container">
+	<div class="feat_mixtape">
+		<div class="feat_djs">
+			<a href="/djs/484/trapaholics.html">Trap-A-Holics</a>, <a href="/djs/2/dj_smallz.html">DJ Smallz</a>		</div>
+		<div class="feat_cover">
+			<div class="feat_score" style="color: #207717">+803</div>
+			<a href="/mixtapes/16531/lil_trill_from_rags_to_riches.html"><img width="100" height="100" border="0" src="http://images.livemixtapes.com/artists/theempire/lil_trill-from_rags_to_riches/tn_cover.jpg" alt="Lil Trill - From Rags To Riches mixtape cover art" /></a>
+		</div>
+		<div class="feat_title">
+			<span><a href="/mixtapes/16531/lil_trill_from_rags_to_riches.html">Lil Trill - From Rags To Riches</a> </span>
+		</div>
+		<div class="feat_links">
+			[ <a href="javascript:playAll(16531)">Listen Now</a> | <a href="/download/16531/lil_trill_from_rags_to_riches.html">Download</a> ]
+		</div>
+
+	</div>
+	<div class="feat_mixtape">
+		<div class="feat_djs">
+			<a href="/djs/217/dj_teknikz.html">DJ Teknikz</a>, <a href="/djs/835/dj_rock_steddy.html">DJ Rock Steddy</a>		</div>
+		<div class="feat_cover">
+			<div class="feat_score" style="color: #207717">+1732</div>
+			<a href="/mixtapes/15779/young_dolph_a_time_2_kill.html"><img width="100" height="100" border="0" src="http://images.livemixtapes.com/artists/teknikz/young_dolph-dolph_gabbana/tn_cover.jpg" alt="Young Dolph - A Time 2 Kill mixtape cover art" /></a>
+		</div>
+		<div class="feat_title">
+			<span><a href="/mixtapes/15779/young_dolph_a_time_2_kill.html">Young Dolph - A Time 2 Kill</a> </span>
+		</div>
+		<div class="feat_links">
+			[ <a href="javascript:playAll(15779)">Listen Now</a> | <a href="/download/15779/young_dolph_a_time_2_kill.html">Download</a> ]
+		</div>
+
+	</div>
+	<div class="feat_mixtape">
+		<div class="feat_djs">
+			<a href="/djs/109/dj_skee.html">DJ Skee</a>		</div>
+		<div class="feat_cover">
+			<div class="feat_score" style="color: #207717">+2372</div>
+			<a href="/mixtapes/16715/the_game_california_republic.html"><img width="100" height="100" border="0" src="http://images.livemixtapes.com/artists/skee/the_game-california_republic/tn_cover.jpg" alt="The Game - California Republic mixtape cover art" /></a>
+		</div>
+		<div class="feat_title">
+			<span><a href="/mixtapes/16715/the_game_california_republic.html">The Game - California Republic</a> </span>
+		</div>
+		<div class="feat_links">
+			[ <a href="javascript:playAll(16715)">Listen Now</a> | <a href="/download/16715/the_game_california_republic.html">Download</a> ]
+		</div>
+
+	</div>
+	<div class="feat_mixtape">
+		<div class="feat_djs">
+			<a href="/djs/7/the_kickdrums.html">The KickDrums</a>		</div>
+		<div class="feat_cover">
+			<div class="feat_score" style="color: #207717">+234</div>
+			<a href="/mixtapes/16432/follow_the_leaders.html"><img width="100" height="100" border="0" src="http://images.livemixtapes.com/artists/thekickdrums/follow_the_leader/tn_cover.jpg" alt="Follow The Leaders mixtape cover art" /></a>
+		</div>
+		<div class="feat_title">
+			<span><a href="/mixtapes/16432/follow_the_leaders.html">Follow The Leaders</a> </span>
+		</div>
+		<div class="feat_links">
+			[ <a href="javascript:playAll(16432)">Listen Now</a> | <a href="/download/16432/follow_the_leaders.html">Download</a> ]
+		</div>
+
+	</div>
+	<div class="feat_mixtape">
+		<div class="feat_djs">
+			<a href="/djs/819/maybach_music_group.html">Maybach Music Group</a>		</div>
+		<div class="feat_cover">
+			<div class="feat_score" style="color: #207717">+2027</div>
+			<a href="/mixtapes/16438/stalley_savage_journey_to_the_american_dream.html"><img width="100" height="100" border="0" src="http://images.livemixtapes.com/artists/nodj/stalley-savage_journey_to_the_american_dream/tn_cover.jpg" alt="Stalley - Savage Journey To The American Dream mixtape cover art" /></a>
+		</div>
+		<div class="feat_title">
+			<span><a href="/mixtapes/16438/stalley_savage_journey_to_the_american_dream.html">Stalley - Savage Journey To The American Dream</a> </span>
+		</div>
+		<div class="feat_links">
+			[ <a href="javascript:playAll(16438)">Listen Now</a> | <a href="/download/16438/stalley_savage_journey_to_the_american_dream.html">Download</a> ]
+		</div>
+
+	</div>
+	<div style="clear: both"></div>
+</div>	<div class="directory" style="margin-top: 15px">
+		<div style="display: inline; float: left;">
+			<strong><a href="/main.php">Mixtapes</a></strong><span>&nbsp;&nbsp;&#8250;&nbsp;&nbsp;</span><strong>All Mixtapes</strong>		</div>
+		<div style="display: inline; float: right; font-weight: bold; margin-right: 10px;">
+		Sort By <select style="font-family:Tahoma;font-size:11px;" onchange="window.location.href='/main.php?l=32&amp;sort='+this.options[this.selectedIndex].value"><option value="newest">Newest</option><option value="mostviews">Most Views</option><option value="highscore">Highest Score</option><option value="bestrating">Best Rating</option><option value="">----------</option><option value="worstrating">Worst Rating</option><option value="lowscore">Lowest Score</option><option value="leastviews">Least Views</option><option value="oldest">Oldest</option></select>&nbsp;&nbsp;
+		<select style="font-family:Tahoma;font-size:11px;" onchange="window.location.href='/main.php?l=32&amp;range='+this.options[this.selectedIndex].value"><option value="all">All Time</option><option value="1mo">Last 30 Days</option><option value="3mo">Last 3 Months</option><option value="6mo">Last 6 Months</option><option value="year">Past Year</option></select>
+			<strong>1</strong> <a href="/main.php?l=32&amp;p=1">2</a> <a href="/main.php?l=32&amp;p=2">3</a> <a href="/main.php?l=32&amp;p=3">4</a> <a href="/main.php?l=32&amp;p=4">5</a> <a href="/main.php?l=32&amp;p=1">[Next]</a> 		</div>
+		<div style="clear: both;"></div>
+	</div>
+<div style="border-width: 0 3px; border-style: none solid; border-color: #dddddd;">
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/687/dj_ya_boy_earl.html">DJ Ya Boy Earl</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16700/kevin_gates_make_em_believe.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/yaboyearl/kevin_gates-make_em_believe/tn_cover.jpg" alt="Kevin Gates - Make Em Believe mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16700/kevin_gates_make_em_believe.html">Kevin Gates - Make Em Believe</a>  (<span class="mixtape_age">New Today</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16700)">Listen Now</a> | <a href="/download/16700/kevin_gates_make_em_believe.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/1023/dj_priest.html">DJ Priest</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16841/pluto.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/priest/pluto/tn_cover.jpg" alt="Pluto mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16841/pluto.html">Pluto</a>  (<span class="mixtape_age">New Today</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16841)">Listen Now</a> | <a href="/download/16841/pluto.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/2/dj_smallz.html">DJ Smallz</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16836/southern_smoke_radio_10.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/smallz/southern_smoke_radio_10/tn_cover.jpg" alt="Southern Smoke Radio 10 (Hosted By Lil Trill) mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16836/southern_smoke_radio_10.html">Southern Smoke Radio 10 (Hosted By Lil Trill)</a>  (<span class="mixtape_age">New Today</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16836)">Listen Now</a> | <a href="/download/16836/southern_smoke_radio_10.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/224/dj_noodles.html">DJ Noodles</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16767/akon_the_koncrete_mixtape.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/noodles/akon-the_koncrete_mixtape/tn_cover.jpg" alt="Akon - The Koncrete Mixtape mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16767/akon_the_koncrete_mixtape.html">Akon - The Koncrete Mixtape</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16767)">Listen Now</a> | <a href="/download/16767/akon_the_koncrete_mixtape.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/484/trapaholics.html">Trap-A-Holics</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16817/trap_music.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/trapaholics/trap_music/tn_cover.jpg" alt="Trap Music (Hosted By YG Hootie) mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16817/trap_music.html">Trap Music (Hosted By YG Hootie)</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16817)">Listen Now</a> | <a href="/download/16817/trap_music.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/1217/atown_mike.html">A-Town Mike</a>, <a href="/djs/1218/dj_kno_it_all.html">DJ Kno It All</a>, <a href="/djs/352/dj_ace.html">DJ Ace</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16710/knoe_brown_fast_life.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/atownmike/k-noe_brown_-_fast_life/tn_cover.jpg" alt="K-Noe Brown - Fast Life mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16710/knoe_brown_fast_life.html">K-Noe Brown - Fast Life</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16710)">Listen Now</a> | <a href="/download/16710/knoe_brown_fast_life.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/221/dj_rah2k.html">DJ Rah2k</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16766/mistah_fab_realist_shit_i_never_wrote_5.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/rah2k/mistah_fab-realist_shit_i_never_wrote_5/tn_cover.jpg" alt="Mistah FAB - Realist Shit I Never Wrote 5 mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16766/mistah_fab_realist_shit_i_never_wrote_5.html">Mistah FAB - Realist Shit I Never Wrote 5</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16766)">Listen Now</a> | <a href="/download/16766/mistah_fab_realist_shit_i_never_wrote_5.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/1210/eric_evasion.html">Eric Evasion</a>		</div>
+		<div class="mixtape_cover">
+			<a href="http://club.livemixtapes.com/mixtapes/16530/boom.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/ericevasion/boom/tn_cover.jpg" alt="Boom! mixtape cover art" /></a>
+			<img src="http://images.livemixtapes.com/club.png" width="52" height="14" border="0" style="border: 0; position: relative; left: 73px; top: -16px" />
+		</div>
+		<div class="mixtape_title">
+			<span><a href="http://club.livemixtapes.com/mixtapes/16530/boom.html">Boom!</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16530)">Listen Now</a> | <a href="/download/16530/boom.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/930/nodj.html">NoDJ</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16734/casey_veggies_customized_greatly_3.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/nodj/casey_veggies-customized_greatly_3/tn_cover.jpg" alt="Casey Veggies - Customized Greatly 3 mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16734/casey_veggies_customized_greatly_3.html">Casey Veggies - Customized Greatly 3</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16734)">Listen Now</a> | <a href="/download/16734/casey_veggies_customized_greatly_3.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/16/dj_green_lantern.html">DJ Green Lantern</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16697/nore_crack_on_steroids.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/greenlantern/nore-crack_on_steroids/tn_cover.jpg" alt="N.O.R.E. - Crack On Steroids mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16697/nore_crack_on_steroids.html">N.O.R.E. - Crack On Steroids</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16697)">Listen Now</a> | <a href="/download/16697/nore_crack_on_steroids.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/789/taylor_gang_music.html">Taylor Gang Music</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16475/wiz_khalifa_taylor_allderdice.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/taylorgang/wizkhalifa-taylorallderdice/tn_cover.jpg" alt="Wiz Khalifa - Taylor Allderdice mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16475/wiz_khalifa_taylor_allderdice.html">Wiz Khalifa - Taylor Allderdice</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16475)">Listen Now</a> | <a href="/download/16475/wiz_khalifa_taylor_allderdice.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/490/dj_holiday.html">DJ Holiday</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16088/gucci_mane_trap_back.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/holiday/gucci_mane-trap_back/tn_cover.jpg" alt="Gucci Mane - Trap Back mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16088/gucci_mane_trap_back.html">Gucci Mane - Trap Back</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16088)">Listen Now</a> | <a href="/download/16088/gucci_mane_trap_back.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/1164/cinematic_music_group.html">Cinematic Music Group</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16042/big_krit_4eva_n_a_day.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/cinematicmusicgroup/big_krit-4eva_n_a_day/tn_cover.jpg" alt="Big K.R.I.T. - 4Eva N A Day mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16042/big_krit_4eva_n_a_day.html">Big K.R.I.T. - 4Eva N A Day</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16042)">Listen Now</a> | <a href="/download/16042/big_krit_4eva_n_a_day.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/207/dj_spinz.html">DJ Spinz</a>, <a href="/djs/595/dj_pretty_boy_tank.html">DJ Pretty Boy Tank</a>, <a href="/djs/647/dj_swamp_izzo.html">DJ Swamp Izzo</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/15652/rich_kidz_everybody_eat_bread.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/spinz/rich_kidz-everybody_eat_bread/tn_cover.jpg" alt="Rich Kidz - Everybody Eat Bread mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/15652/rich_kidz_everybody_eat_bread.html">Rich Kidz - Everybody Eat Bread</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(15652)">Listen Now</a> | <a href="/download/15652/rich_kidz_everybody_eat_bread.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/820/big_gates_records.html">Big Gates Records</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16164/plies_on_trial.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/biggatesrecords/plies-on_trial/tn_cover.jpg" alt="Plies - On Trial mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16164/plies_on_trial.html">Plies - On Trial</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16164)">Listen Now</a> | <a href="/download/16164/plies_on_trial.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/500/dj_5150.html">DJ 5150</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16833/kgates_walking_on_hell_fire.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/5150/kgates-walking_on_hell_fire/tn_cover.jpg" alt="K.Gates - Walking On Hell Fire mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16833/kgates_walking_on_hell_fire.html">K.Gates - Walking On Hell Fire</a>  (<span class="mixtape_age">New Today</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16833)">Listen Now</a> | <a href="/download/16833/kgates_walking_on_hell_fire.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/728/dj_damage.html">DJ Damage</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16845/beanie_sigel_broad_street_empire.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/damage/beanie_sigel-broad_street_empire/tn_cover.jpg" alt="Beanie Sigel - Broad Street Empire (Lost Files) mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16845/beanie_sigel_broad_street_empire.html">Beanie Sigel - Broad Street Empire (Lost Files)</a>  (<span class="mixtape_age">New Today</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16845)">Listen Now</a> | <a href="/download/16845/beanie_sigel_broad_street_empire.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/53/evil_empire.html">Evil Empire</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16819/french_montana_coke_boys_3.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/evilempire/french_montana-coke_boys_3/tn_cover.jpg" alt="French Montana - Coke Boys 3 mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16819/french_montana_coke_boys_3.html">French Montana - Coke Boys 3</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16819)">Listen Now</a> | <a href="/download/16819/french_montana_coke_boys_3.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/18/dj_drama.html">DJ Drama</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16812/verse_simmonds_sex_love_hip_hop.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/drama/verse_simmonds-sex_love_hip_hop/tn_cover.jpg" alt="Verse Simmonds - Sex, Love &amp; Hip Hop mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16812/verse_simmonds_sex_love_hip_hop.html">Verse Simmonds - Sex, Love &amp; Hip Hop</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16812)">Listen Now</a> | <a href="/download/16812/verse_simmonds_sex_love_hip_hop.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/484/trapaholics.html">Trap-A-Holics</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16602/ice_burgandy_progress_involves_risks_unfortunately.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/trapaholics/ice_burgandy-progress_involves_risks_unfortunately/tn_cover.jpg" alt="Ice Burgandy - Progress Involves Risks Unfortunately mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16602/ice_burgandy_progress_involves_risks_unfortunately.html">Ice Burgandy - Progress Involves Risks Unfortunately</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16602)">Listen Now</a> | <a href="/download/16602/ice_burgandy_progress_involves_risks_unfortunately.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/930/nodj.html">NoDJ</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16807/lil_b_the_basedprint_2.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/nodj/lil_b-the_basedprint_2/tn_cover.jpg" alt="Lil B - The BasedPrint 2 mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16807/lil_b_the_basedprint_2.html">Lil B - The BasedPrint 2</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16807)">Listen Now</a> | <a href="/download/16807/lil_b_the_basedprint_2.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/930/nodj.html">NoDJ</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/15646/kirko_bangz_the_progression_2.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/nodj/kirko_bangz-the_progression_2/tn_cover.jpg" alt="Kirko Bangz - The Progression 2 (A Young Texas Playa) mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/15646/kirko_bangz_the_progression_2.html">Kirko Bangz - The Progression 2 (A Young Texas Playa)</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(15646)">Listen Now</a> | <a href="/download/15646/kirko_bangz_the_progression_2.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/930/nodj.html">NoDJ</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16641/ace_hood_starvation.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/nodj/ace_hood-starvation/tn_cover.jpg" alt="Ace Hood - Starvation mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16641/ace_hood_starvation.html">Ace Hood - Starvation</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16641)">Listen Now</a> | <a href="/download/16641/ace_hood_starvation.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/719/grind_hard.html">Grind Hard</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16655/starlito_mental_warfare.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/grindhard/starlito-mental_warfare/tn_cover.jpg" alt="Starlito - Mental WARfare mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16655/starlito_mental_warfare.html">Starlito - Mental WARfare</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16655)">Listen Now</a> | <a href="/download/16655/starlito_mental_warfare.html">Download Now</a> ]
+		</div>
+	</div>
+		<div style="text-align: center">
+			<script type="text/javascript">cmnUNT('728x90', tile_num++);</script>
+		</div>			
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/484/trapaholics.html">Trap-A-Holics</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16189/wooh_da_kid_strapaholics_20.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/trapaholics/wooh_da_kid-strap-a-holics_20/tn_cover.jpg" alt="Wooh Da Kid - Strap-A-Holics 2.0 (Reloaded) mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16189/wooh_da_kid_strapaholics_20.html">Wooh Da Kid - Strap-A-Holics 2.0 (Reloaded)</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16189)">Listen Now</a> | <a href="/download/16189/wooh_da_kid_strapaholics_20.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/743/drum_squad.html">Drum Squad</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16366/8ightball_premro.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/drummaboy/8ightball-premo/tn_cover.jpg" alt="8ightball - Premro mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16366/8ightball_premro.html">8ightball - Premro</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16366)">Listen Now</a> | <a href="/download/16366/8ightball_premro.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/930/nodj.html">NoDJ</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/16803/memphis_bleek_the_movement.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/nodj/memphis_bleek-the_movement/tn_cover.jpg" alt="Memphis Bleek - The Movement mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/16803/memphis_bleek_the_movement.html">Memphis Bleek - The Movement</a>  (<span class="mixtape_age">New</span>)</span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(16803)">Listen Now</a> | <a href="/download/16803/memphis_bleek_the_movement.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/18/dj_drama.html">DJ Drama</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/14837/2_chainz_tru_realigion.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/drama/2chainz-trurealigion/tn_cover.jpg" alt="2 Chainz - T.R.U. REALigion mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/14837/2_chainz_tru_realigion.html">2 Chainz - T.R.U. REALigion</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(14837)">Listen Now</a> | <a href="/download/14837/2_chainz_tru_realigion.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/57/dj_scream.html">DJ Scream</a>, <a href="/djs/1163/shaheem_reid.html">Shaheem Reid</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/15656/rick_ross_rich_forever.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/scream/rickross-richforever/tn_cover.jpg" alt="Rick Ross - Rich Forever mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/15656/rick_ross_rich_forever.html">Rick Ross - Rich Forever</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(15656)">Listen Now</a> | <a href="/download/15656/rick_ross_rich_forever.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/841/dj_esco.html">DJ Esco</a>, <a href="/djs/57/dj_scream.html">DJ Scream</a>, <a href="/djs/840/dj_xrated.html">DJ X-Rated</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/15655/future_astronaut_status.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/scream/future-astronautstatus/tn_cover.jpg" alt="Future - Astronaut Status mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/15655/future_astronaut_status.html">Future - Astronaut Status</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(15655)">Listen Now</a> | <a href="/download/15655/future_astronaut_status.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container">
+		<div class="mixtape_djs">
+			<a href="/djs/277/young_money_ent.html">Young Money Ent.</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/14243/lil_wayne_sorry_4_the_wait.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/youngmoney/lilwayne-sorry4thewait/tn_cover.jpg" alt="Lil Wayne - Sorry 4 The Wait mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/14243/lil_wayne_sorry_4_the_wait.html">Lil Wayne - Sorry 4 The Wait</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(14243)">Listen Now</a> | <a href="/download/14243/lil_wayne_sorry_4_the_wait.html">Download Now</a> ]
+		</div>
+	</div>
+	<div class="mixtape_container" style="background-color: #dddddd;">
+		<div class="mixtape_djs">
+			<a href="/djs/580/grand_hustle.html">Grand Hustle</a>		</div>
+		<div class="mixtape_cover">
+			<a href="/mixtapes/15657/ti_fck_da_city_up.html"><img width="125" height="125" src="http://images.livemixtapes.com/artists/grandhustle/ti-fckdacityup/tn_cover.jpg" alt="T.I. - F*ck Da City Up mixtape cover art" /></a>
+		</div>
+		<div class="mixtape_title">
+			<span><a href="/mixtapes/15657/ti_fck_da_city_up.html">T.I. - F*ck Da City Up</a> </span>
+		</div>
+		<div style="width: 100%; text-align: center;">
+			[ <a href="javascript:playAll(15657)">Listen Now</a> | <a href="/download/15657/ti_fck_da_city_up.html">Download Now</a> ]
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+	</div>
+
+	<div class="directory" style="margin-top: 0">
+		<div style="display: inline; float: left">
+		<strong>Mixtapes Per Page </strong>
+		<select style="font-family: Tahoma; font-size: 11px;" onchange="window.location.href='/main.php?l='+this.options[this.selectedIndex].value">
+			<option value="16">16</option>
+			<option value="24">24</option>
+			<option value="32" selected="selected">32</option>
+			<option value="48">48</option>
+			<option value="64">64</option>
+			<option value="96">96</option>
+			<option value="128">128</option>
+		</select>
+		</div>
+		<div style="display: inline; float: right; font-weight: bold; margin-right: 10px;">
+			<strong>1</strong> <a href="/main.php?l=32&amp;p=1">2</a> <a href="/main.php?l=32&amp;p=2">3</a> <a href="/main.php?l=32&amp;p=3">4</a> <a href="/main.php?l=32&amp;p=4">5</a> <a href="/main.php?l=32&amp;p=1">[Next]</a> 		</div>
+		<div style="clear: both;"></div>
+	</div>
+<div class="feat_container" style="border-left: 3px solid #dddddd; padding: 6px 0 6px 20px">
+<ol>
+	<li><span>1. </span><a href="/artists/Future" title="New Future Mixtapes">Future</a></li>
+	<li><span>2. </span><a href="/artists/2_Chainz" title="New 2 Chainz Mixtapes">2 Chainz</a></li>
+	<li><span>3. </span><a href="/artists/Wiz_Khalifa" title="New Wiz Khalifa Mixtapes">Wiz Khalifa</a></li>
+	<li><span>4. </span><a href="/artists/Yo_Gotti" title="New Yo Gotti Mixtapes">Yo Gotti</a><span style="font-size: 11px; float: right; color: #207717">+2</span></li>
+	<li><span>5. </span><a href="/artists/Gucci_Mane" title="New Gucci Mane Mixtapes">Gucci Mane</a><span style="font-size: 11px; float: right; color: #771717">-1</span></li>
+</ol>
+<ol>
+	<li><span>6. </span><a href="/artists/Lil_Wayne" title="New Lil Wayne Mixtapes">Lil Wayne</a><span style="font-size: 11px; float: right; color: #771717">-1</span></li>
+	<li><span>7. </span><a href="/artists/Meek_Mill" title="New Meek Mill Mixtapes">Meek Mill</a></li>
+	<li><span>8. </span><a href="/artists/Lil_Boosie" title="New Lil Boosie Mixtapes">Lil Boosie</a></li>
+	<li><span>9. </span><a href="/artists/Young_Jeezy" title="New Young Jeezy Mixtapes">Young Jeezy</a></li>
+	<li><span>10. </span><a href="/artists/Cash_Out" title="New Cash Out Mixtapes">Cash Out</a><span style="font-size: 11px; float: right; color: #207717">+6</span></li>
+</ol>
+<ol>
+	<li><span>11. </span><a href="/artists/Drake" title="New Drake Mixtapes">Drake</a><span style="font-size: 11px; float: right; color: #771717">-1</span></li>
+	<li><span>12. </span><a href="/artists/Tyga" title="New Tyga Mixtapes">Tyga</a><span style="font-size: 11px; float: right; color: #771717">-1</span></li>
+	<li><span>13. </span><a href="/artists/Rick_Ross" title="New Rick Ross Mixtapes">Rick Ross</a><span style="font-size: 11px; float: right; color: #771717">-1</span></li>
+	<li><span>14. </span><a href="/artists/Mac_Miller" title="New Mac Miller Mixtapes">Mac Miller</a><span style="font-size: 11px; float: right; color: #771717">-1</span></li>
+	<li><span>15. </span><a href="/artists/Starlito" title="New Starlito Mixtapes">Starlito</a><span style="font-size: 11px; float: right; color: #207717">+6</span></li>
+</ol>
+<ol>
+	<li><span>16. </span><a href="/artists/ASAP_Rocky" title="New ASAP Rocky Mixtapes">ASAP Rocky</a><span style="font-size: 11px; float: right; color: #771717">-2</span></li>
+	<li><span>17. </span><a href="/artists/Waka_Flocka" title="New Waka Flocka Mixtapes">Waka Flocka</a><span style="font-size: 11px; float: right; color: #771717">-2</span></li>
+	<li><span>18. </span><a href="/artists/Rocko" title="New Rocko Mixtapes">Rocko</a><span style="font-size: 11px; float: right; color: #207717">+7</span></li>
+	<li><span>19. </span><a href="/artists/Juicy_J" title="New Juicy J Mixtapes">Juicy J</a><span style="font-size: 11px; float: right; color: #207717">+5</span></li>
+	<li><span>20. </span><a href="/artists/Wale" title="New Wale Mixtapes">Wale</a></li>
+</ol>
+<ol>
+	<li><span>21. </span><a href="/artists/J_Cole" title="New J Cole Mixtapes">J Cole</a><span style="font-size: 11px; float: right; color: #771717">-3</span></li>
+	<li><span>22. </span><a href="/artists/Rich_Kidz" title="New Rich Kidz Mixtapes">Rich Kidz</a><span style="font-size: 11px; float: right; color: #771717">-3</span></li>
+	<li><span>23. </span><a href="/artists/French_Montana" title="New French Montana Mixtapes">French Montana</a><span style="font-size: 11px; float: right; color: #207717">+8</span></li>
+	<li><span>24. </span><a href="/artists/Chris_Brown" title="New Chris Brown Mixtapes">Chris Brown</a><span style="font-size: 11px; float: right; color: #771717">-1</span></li>
+	<li><span>25. </span><a href="/artists/Don_Trip" title="New Don Trip Mixtapes">Don Trip</a><span style="font-size: 11px; float: right; color: #771717">-3</span></li>
+</ol>
+<div style="clear: both"></div>
+</div>
+<div class="directory"><strong>Top Artist Searches</strong>&nbsp;&nbsp;(Updated every Monday at 12PM EST)</div>
+	<br />
+
+<br />
+</div>
+
+<div id="footer" style="color: #aaaaaa">
+www.livemixtapes.com | <a href="http://www.indytapes.com/" style="color: #aaaaaa">www.indytapes.com</a> | <a href="http://mobile.livemixtapes.com/" style="color: #aaaaaa">mobile.livemixtapes.com</a> | <a href="http://www.longlivethepimp.com/" target="_blank" style="color: #aaaaaa">www.longlivethepimp.com</a> | <a href="http://www.clubtapes.com/" style="color: #aaaaaa">www.clubtapes.com</a>
+<br /><br />
+</div>
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-5526961-1");
+	pageTracker._trackPageview();
+</script>
+
+<!-- Start Quantcast tag --> 
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js" language="javascript"></script> 
+<script type="text/javascript" language="javascript">_qacct="p-a0gOdUACucKCE";quantserve();</script> 
+<noscript><a href="http://www.quantcast.com/p-a0gOdUACucKCE" target="_blank">
+<img src="http://pixel.quantserve.com/pixel/p-a0gOdUACucKCE.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"></a></noscript> 
+<!-- End Quantcast tag -->
+<!-- Begin comScore Tag -->
+<script>document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));</script> 
+<script>COMSCORE.beacon({     
+c1:2,
+c2:6685975,
+c3:"",
+c4:"www.livemixtapes.com/main.php",
+c5:"",
+c6:"",
+c15:""});</script> 
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=6685975&c3=&c4=&c5=&c6=&c15=&cj=1" /></noscript>
+<!-- End comScore Tag -->
+<script type="text/javascript">
+cmn_k = "2_HZF5klAXzA950GmRc2H4gEgydzagsc5LUcwo7DIcIgKeSwcTNzl48I87hkPZgdZ1";
+cmnTB();
+</script>
+<!--[if !(IE 7)] --> 
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<!--[endif] -->
+</div>
+</body>
+</html>

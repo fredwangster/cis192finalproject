@@ -1,0 +1,1029 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <title>
+        Comcast Official Site: High-Speed Internet, Cable TV, and Phone Services Deals – XFINITY® from Comcast
+    </title>
+    <link rel="canonical" href="http://www.comcast.com/default.cspx" >
+<meta name="Description" content="Comcast gets you the best deals. Save on Comcast High Speed Internet, Digital Cable TV, Comcast Digital Voice®, and Wireless Internet in your area. Get XFINITY® from Comcast and enjoy entertainment your way." />
+    <meta name="Robots" content="index, follow, NOODP, NYDR" />
+    <meta name="Canonical URL" content="http://www.comcast.com/default.cspx" />
+    
+
+
+    
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    
+    
+    <script type="text/javascript" src="/Includes/js/newbuyflow/Mbox.js"></script>
+
+    <style>
+        .mboxDefault
+        {
+            visibility: hidden;
+            line-height: 0;
+        }
+    </style>
+    
+    <!--MenuLanguage is the parameter which is passed to the Menu.xslt page-->
+    <link rel="Stylesheet" media="all" type="text/css" href="/Includes/CSS/comcast_main.css" />
+     <style type="text/css">
+        div#content .legal, div#popupMain .legal 
+        {
+                    clear: both;
+                    font-size: 10px;
+                    line-height: 14px;
+        }
+    </style>
+    <link rel="Stylesheet" media="print" type="text/css" href="/Includes/CSS/comcast_printable.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/Includes/CSS/querycompletion.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/Includes/CSS/Corpquerycompletion.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/Includes/CSS/framework/Mask.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/Includes/CSS/ResetOverlay.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/Includes/CSS/comcast_menu_top.css" />
+    			<!-- HUGE Includes -->
+			
+		
+			<!-- ##new:css file include for homepage -->
+			<link rel="Stylesheet" media="all" type="text/css" href="~/Media/Stylesheets/homepage/comcast_homepage.ashx" />
+			
+			<!--[if IE 7]>
+			<link rel="Stylesheet" media="all" type="text/css" href="~/Media/Stylesheets/homepage/comcast_homepage_ie7.ashx" />
+			<![endif]-->
+			
+			
+			<!-- ##new:js file include for homepage -->
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+			<script type="text/javascript" src="~/Media/Javascripts/homepage/homepage.ashx"></script>
+			
+			<!-- End HUGE Includes -->
+
+
+
+<script language="javascript">                  
+                  var uagent = navigator.userAgent.toLowerCase();
+                  var mobileAgent =
+                  {
+                        android : (uagent.indexOf('android') > -1),
+                        iphone : (uagent.indexOf('iphone') > -1),
+                        fullsite : (window.location.href.toLowerCase().indexOf('v=fullsite') > -1)
+                  };
+
+                  
+                  if (mobileAgent.android || mobileAgent.iphone)
+                  {
+                        if (mobileAgent.fullsite)
+                        {
+                              if (window.name!="fullsite")
+                                    {
+                                          window.name="fullsite";
+                                          window.location="http://www.comcast.com/default.cspx?v=fullsite";
+                                    }
+                              
+                        }
+                        else
+                        {                       
+                              window.name="mobile";
+                              window.location="http://www.comcast.com/m/default.html";
+      
+                        }
+                  }
+            </script>
+
+<script language="javascript">
+function setCookie(c_name, value) {                
+	var sessExpire ="";
+	var domain = "comcast.com";
+	var c_value = escape(value) + "; expires=" + sessExpire + ( ( domain ) ? ";domain=" + domain : "" );
+    document.cookie = c_name + "=" + c_value;
+    }
+            
+function getQuerystring(key, default_) {
+	if (default_ == null) default_ = "";
+    key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+    var qs = regex.exec(window.location.href);
+    if (qs == null)
+    return default_;
+    else
+    return qs[1];
+    }           
+					
+	var mobileSite = getQuerystring("v");
+	if (mobileSite != null && mobileSite != "") {
+	setCookie("MobileSite", mobileSite);
+	}
+
+</script>
+
+<!--Comcast credit declarations --> 
+<meta name="author" content="Comcast"/>
+<meta name="designer" content="Comcast"/>
+<meta name="publisher" content="Comcast" />
+<meta name="copyright" content="2012 Comcast, All Rights Reserved"/>
+<!--Comcast search data declarations --> 
+<meta name="robots" content="index, follow, NOODP, NYDR, NoCache"/>
+<meta name="subject" content="Telecom, Cable, Internet, Phone"/> 
+<meta name="classification" content="corporate website"/> 
+<meta name="keywords" content="Comcast home page, Comcast products and services"/>
+<meta name="description" content="Comcast gets you the best deals. Save on Comcast High-Speed Internet, Digital Cable TV, Comcast Digital Voice®, and Wireless Internet in your area. Get XFINITY® from Comcast and enjoy entertainment your way."/>
+
+
+        
+        <style type="text/css">
+    div.leftSideContentPlaceholder 
+    {
+	    float:left;
+	    left: 0px;
+	    padding-top: 90px;
+	    width:215px;
+	    font-weight: normal;
+    }
+    </style>
+
+    <script language="javascript" type="text/javascript" src="/Includes/js/menu.js"></script>
+
+    <script language="javascript" type="text/javascript" src="/Includes/js/menuarrays/menuarray.js"></script>
+
+    <script language="javascript" type="text/javascript" src="/Includes/js/CookieHelper.js"></script>
+    <!--Foreesee scripts are include when the page is not in editing mode -->
+    
+        <script language="javascript" type="text/javascript" src="/foresee/foresee-trigger.js"></script>
+        <script language="javascript" type="text/javascript" src="/foresee/foresee-surveydef.js"></script>
+    
+    <!--End of adding foresee script-->
+    <script language="javascript" type="text/javascript" src="/Includes/js/javascript.js"></script>
+
+    <script type="text/javascript" language="javascript" src="~/Media/Javascripts/searchsuggests.ashx"></script>
+
+    <script type="text/javascript" language="javascript" src="/Includes/js/ajax.js"></script>
+
+    <script type="text/javascript" language="javascript" src="/Includes/js/framework/Mask.js"></script>
+
+    <script type="text/javascript" language="javascript" src="/Includes/js/ResetOverlay.js"></script>
+
+    <script type="text/javascript" language="javascript" src="/Includes/js/swfobject.js"></script>
+
+    <script type="text/javascript" language="javascript" src="/Includes/js/framework/Comcast.Framework.js"></script>
+
+    <script language="javascript1.1" type="text/javascript">        if (getCookieVal('UserID').length == 0) { makeHttpRequest('/includes/js/IDGenerator.ashx'); }</script>
+    
+    <script language="javascript" type="text/javascript">        window.onload = function() { startListMenu(); setHeaders(); }</script>
+    
+<!--Refine Search start-->
+
+
+<script src="/includes/js/paymentcenters/refinesearch.js" language="javascript" type="text/javascript"></script>
+<!--Refine Search End-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <link href="/layouts/System/VisitorIdentification.aspx" rel="stylesheet" type="text/css" />
+</head>
+<body>
+     <!--literal to hold the mbox top field-->
+<div id="ctl02_mboxTopDefaultDiv" class="mboxDefault" style="visibility: visible; display: block;">&nbsp;</div>
+<script language="JavaScript" type="text/javascript">
+    mboxCreate('home_top');
+</script>
+
+    <div id="main">
+        <span id="ctl03_xpbarSpan"><script src="https://secure.xfinity.com/js-api/compressed/xpbar.js?id=xbardiv&highlight=comcastcom&version=2" type="text/javascript"> </script></span>
+    
+<script type="text/javascript" language="javascript" src="~/Media/Javascripts/TopMenu.ashx"></script>    
+<div id="top"> 
+    <a href="/default.cspx" id="ctl03_logoAnchor">
+        <img width="139" height="36" title="Comcast" alt="Comcast" src="~/Media/ImageLibrary/logo.ashx"
+            id="logo" />
+    </a>
+    
+<div id="topInfoNav">
+    <div id="mySignInfo">
+        <span class="HideHeaderLinks" id="Static1">&nbsp;|&nbsp;</span><a class="HideHeaderLinks" id="SwitchAccount" title="Switch Address"
+            href="javascript:ShowSwitchAddressOverLay();">Switch Address</a><span class="HideHeaderLinks"
+                id="Static2">&nbsp;|&nbsp;</span><a class="HideHeaderLinks" id="SignOut" title="Sign Out" href="javascript:ShowSignOutOverLay();">Sign
+                    Out</a>
+    </div>
+    <script type="text/javascript">
+        var createCookies = "False";
+    </script>
+    <div id="locationInfo">
+        Your location:&nbsp;<span id="zipInfo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+            id="Staticloc2">&nbsp;|&nbsp;</span><a id="Reset" class="HideResetOnLocalizePage" href="javascript:navigateToLocalization();"
+                title="Reset">Reset</a>
+    </div>
+    <div id="myAccountInfo">
+        <a title="My Account" href="/Customers/Membership/MyAccount.ashx">My Account</a>&nbsp;|&nbsp;<a title="Sign Out" href="/services/members/logout.ashx">Sign Out</a>&nbsp;
+    </div>
+    <div id="ctl03_ctl00_languageFlipper" style="margin-top: 16px; float: right; font-size: 11px;
+         
+ position: relative; margin-right: 10px;">
+        <div id="ctl03_ctl00_flipperDiv">
+            <a id="ctl03_ctl00_spanishURLHlnk" href="/es/default.cspx">Español</a></div>
+    </div>
+</div>
+
+
+    <script language="javascript" type="text/javascript" src="/Includes/js/browser.js"> </script>
+
+    
+<ul id='topMenu'>
+                
+                <li class="ExploreItem" id='ExploreItemID'><a  href="" onclick="javascript:this.removeAttribute('href');" style="cursor:default;" hbxrootmenuorientation='down' hbxrootmenuid='//Explore'index='654513'>
+                    <img width='108' height='27' title="Products" alt="Products" src= "~/media/ImageLibrary/TopMenu/Explore.ashx" /></a>
+                    
+                    <ul style='z-index: 99;'>
+                    
+                           
+                            <li><a href="/xfinity.html">Overview</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Learn/DigitalCable/digitalcable.html">XFINITY TV</a></li>
+                        
+                           
+                            <li><a href="/internet-service.html">XFINITY Internet</a></li>
+                        
+                           
+                            <li><a href="/home-phone-service.html">XFINITY Voice</a></li>
+                        
+                           
+                            <li><a href="/cable-internet-packages.html">XFINITY Double Play</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Learn/Bundles/bundles.html">XFINITY Triple Play</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://www.comcast.com/homesecurity/','','').focus()">XFINITY Home</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('https://signaturesupport.xfinity.com/?utm_source=comcastcom&utm_medium=pulldown&utm_campaign=consistentpulldownproduct&CMP=cpd-comcast-20111116-comcastcom-001','','').focus()">XFINITY Signature Support</a></li>
+                        
+                           
+                            <li><a href="/compare/comcast-xfinity-vs-verizon-fios.html">XFINITY vs. the Competition</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://business.comcast.com/?INTCMP=ILC-DOTCOM-20100621-LRNBIZ-001','','').focus()">Comcast Business Services</a></li>
+                        
+                    </ul>
+                    <iframe width='0' scrolling='no' height='0' frameborder='0' src='~/Media/ImageLibrary/Common/Image/borders/dot.ashx'
+                        style='z-index: 0; border-width: 0pt; position: absolute; visibility: hidden;'>
+                    </iframe>
+                </li>           
+                    
+                <li class="ShopItem" id='ShopItemID'><a  href="" onclick="javascript:this.removeAttribute('href');" style="cursor:default;" hbxrootmenuorientation='down' hbxrootmenuid='//Shop'index='654515'>
+                    <img width='108' height='27' title="Shop" alt="Shop" src= "~/media/ImageLibrary/TopMenu/Shop.ashx" /></a>
+                    
+                    <ul style='z-index: 99;'>
+                    
+                           
+                            <li><a href="/shop/buyflow2/products.cspx?SourcePage=Cable">XFINITY TV</a></li>
+                        
+                           
+                            <li><a href="/shop/buyflow2/products.cspx?SourcePage=Internet">XFINITY Internet</a></li>
+                        
+                           
+                            <li><a href="/shop/buyflow2/products.cspx?SourcePage=VOIP">XFINITY Voice</a></li>
+                        
+                           
+                            <li><a href="/shop/buyflow2/products.cspx?SourcePage=cableinternet">XFINITY Double Play</a></li>
+                        
+                           
+                            <li><a href="/shop/buyflow2/products.cspx?SourcePage=Bundled">XFINITY Triple Play</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://www.comcast.com/homesecurity/index.htm','','').focus()">XFINITY Home </a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('https://signaturesupport.xfinity.com/?utm_source=comcastcom&utm_medium=pulldown&utm_campaign=consistentpulldownshop&CMP=cpd-comcast-20111116-comcastcom-002','','').focus()">XFINITY Signature Support</a></li>
+                        
+                           
+                            <li><a href="/Corporate/shop/productoverview.html">See All Products</a></li>
+                        
+                           
+                            <li><a href="/Corporate/shop/retail/RetailStorelocator.html">Retail Locations</a></li>
+                        
+                    </ul>
+                    <iframe width='0' scrolling='no' height='0' frameborder='0' src='~/Media/ImageLibrary/Common/Image/borders/dot.ashx'
+                        style='z-index: 0; border-width: 0pt; position: absolute; visibility: hidden;'>
+                    </iframe>
+                </li>           
+                    
+                <li class="ProgrammingItem" id='ProgrammingItemID'><a  href="" onclick="javascript:this.removeAttribute('href');" style="cursor:default;" hbxrootmenuorientation='down' hbxrootmenuid='//Programming'index='654517'>
+                    <img width='108' height='27' title="Programming" alt="Programming" src= "~/media/ImageLibrary/TopMenu/Programming.ashx" /></a>
+                    
+                    <ul style='z-index: 99;'>
+                    
+                           
+                            <li><a href="javascript:window.open('http://xfinitytv.comcast.net/ondemand/?cmpid=FCST_rdrct04','','').focus()">On Demand Highlights</a></li>
+                        
+                           
+                            <li><a href="javascript:void window.open('http://www.mostlivesports.com','','').focus()">Sports</a></li>
+                        
+                           
+                            <li><a href="http://www.comcast.com/corporate/programming/comingevents.ashx?SCRedirect=true">Pay-Per-View Events</a></li>
+                        
+                           
+                            <li><a href="/Customers/Clu/ChannelLineup.ashx">Channel Lineup</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://xfinitytv.comcast.net/','','').focus()">Watch Online</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Programming/IntlNetworks/default.html">International Programming</a></li>
+                        
+                    </ul>
+                    <iframe width='0' scrolling='no' height='0' frameborder='0' src='~/Media/ImageLibrary/Common/Image/borders/dot.ashx'
+                        style='z-index: 0; border-width: 0pt; position: absolute; visibility: hidden;'>
+                    </iframe>
+                </li>           
+                    
+                <li class="CustomersItem" id='CustomersItemID'><a  href="" onclick="javascript:this.removeAttribute('href');" style="cursor:default;" hbxrootmenuorientation='down' hbxrootmenuid='//Customers'index='654518'>
+                    <img width='108' height='27' title="Customers" alt="Customers" src= "~/media/ImageLibrary/TopMenu/Customers.ashx" /></a>
+                    
+                    <ul style='z-index: 99;'>
+                    
+                           
+                            <li><a href="/move-transfer.html">Move or Transfer Service</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('https://customer.comcast.com/Secure/Home.aspx','','').focus()">Manage My Account</a></li>
+                        
+                           
+                            <li><a href="http://xfinity.comcast.net/constantguard/?cid=NET_33_640">Security</a></li>
+                        
+                           
+                            <li><a href="/Corporate/shop/retail/StoreLocator.html">Service Center Locations</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Customers/Contactus/ContactUs.html">Contact Us</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Customers/ParentalControls.html">Parental Controls</a></li>
+                        
+                           
+                            <li><a href="http://xfinity.comcast.net/">xfinity.comcast.net</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Customers/Policies/Policies.html">Customer Agreements/Policies</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Customers/custcare.html">Customer Care</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Customers/CustomerGuarantee2.html">Customer Guarantee</a></li>
+                        
+                    </ul>
+                    <iframe width='0' scrolling='no' height='0' frameborder='0' src='~/Media/ImageLibrary/Common/Image/borders/dot.ashx'
+                        style='z-index: 0; border-width: 0pt; position: absolute; visibility: hidden;'>
+                    </iframe>
+                </li>           
+                    
+                <li class="AboutItem" id='AboutItemID'><a  href="http://customer.comcast.com/help-and-support/" hbxrootmenuorientation='down' hbxrootmenuid='//About'index='654521'>
+                    <img width='108' height='27' title="Help" alt="Help" src= "~/media/ImageLibrary/TopMenu/About.ashx" /></a>
+                    
+                    <ul style='z-index: 99;'>
+                    
+                           
+                            <li><a href="javascript:window.open('http://customer.comcast.com/help-and-support/','','').focus()">Help Overview</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://customer.comcast.com/Pages/HelpFolders.aspx?topic=Billing','','').focus()">Account & Billing</a></li>
+                        
+                           
+                            <li><a href="/Corporate/Customers/Membership/Bill/BillExplanation.html">Understanding Your Bill</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://customer.comcast.com/help-and-support/internet/','','').focus()">XFINITY Internet</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://customer.comcast.com/help-and-support/cable-tv/','','').focus()">XFINITY TV</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://customer.comcast.com/help-and-support/phone','','').focus()">XFINITY Voice</a></li>
+                        
+                           
+                            <li><a href="javascript:window.open('http://customer.comcast.com/help-and-support/home-security','','').focus()">XFINITY Home</a></li>
+                        
+                    </ul>
+                    <iframe width='0' scrolling='no' height='0' frameborder='0' src='~/Media/ImageLibrary/Common/Image/borders/dot.ashx'
+                        style='z-index: 0; border-width: 0pt; position: absolute; visibility: hidden;'>
+                    </iframe>
+                </li>           
+        
+    <li id="primarySearch" class="searchBox">
+				<form style="height:30px" onsubmit="LocalizeSearch(this);" action="http://sitesearch.comcast.com/" method="get" id="menuSearch">
+					<input type="text" style="height:13px;margin-top:5px" onfocus="this.value = '';" id="searchField" name="q" value="" class="textBox" autocomplete="off"/>
+					<div class="autocomplete" id="autocomplete" style="z-index: 99; display: none;"></div>
+					<b class="close" id="acclose" style="display: none;">
+						<a title="Close">Close</a>
+        </b>
+        <input type="hidden" value="com" id="cat" name="cat" />
+        <input type="hidden" value="www" id="con" name="con" />
+        <input type="hidden" value="" id="sec" name="sec" />
+        <input type="hidden" name="PageName" value="Comcast+Official Site | Deals on High-Speed Internet, Cable and Phone Service" />
+        </form>
+        <form action="http://www.comcast.net/tv/tv-listings/?zipcode=Enter%20ZIP" method="get"
+        id="tvSearch">
+        <input type="hidden" value="" name="searchTerm" />
+        <input type="hidden" value="com" name="sc" />
+        <input type="hidden" value="true" name="noLanding" />
+        <input type="hidden" value="search" name="initView" />
+        <input type="hidden" value="" name="zipcode" />
+        </form>
+        <iframe width='0' scrolling='no' height='0' frameborder='0' src="~/Media/ImageLibrary/Common/Image/borders/dot.ashx"
+            style='z-index: 0; border-width: 0pt; position: absolute; visibility: hidden;'>
+        </iframe> 
+    </li>
+    <li style="width: 70px" id="primarySearchGo" class="searchGo">
+        <img width="62" height="28" style="cursor: pointer; margin-top: 11px;"
+            onclick="return searchFormClick(document.getElementById('searchField'));" src="~/media/ImageLibrary/buttons/SearchButton.ashx"
+            onmouseover="this.src='~/media/ImageLibrary/buttons/searchbutton_rollover.ashx';" onmouseout="this.src='~/media/ImageLibrary/buttons/SearchButton.ashx';"
+            id="menuSearchGoImg" alt="Search" title="Search" />
+
+        <script type="text/javascript">
+            if (browser.ie6) { document.getElementById('menuSearchGoImg').style.width = "63px"; }</script>
+        
+
+    </li>
+</ul>
+
+    
+  
+  <script type="text/javascript">
+      try {
+           startListMenu(); setHeaders();
+             }
+             catch (e) { }
+          </script>
+          
+          <script type="text/javascript">
+              navigationHoverMenu();
+              function searchFormClick(searchField) {
+                  if (searchField.value == '' || searchField.value == searchField.defaultValue) {
+                      alert("Please enter a search term.");
+                      return false;
+                  }
+                  else {
+                      SearchSite();
+                  }
+              }
+           </script>
+             <SCRIPT type="text/javascript" language="javascript">
+                 function SearchSuggest() {
+                     AutoComplete_Create('searchField', '/');
+                 }
+                 //Need to check if DF handling the events and accordingly add it to its queue
+                 if (window.DF)
+                     DF.evt.AddLoadEvent(SearchSuggest);
+                 else
+                     SearchSuggest();
+
+        </SCRIPT>
+           
+       </div>
+
+        <div id="hozRule">
+            &nbsp;</div>
+        <form name="mainform" method="post" action="/" id="mainform">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTUyOTUwOTU1D2QWCgICD2QWAmYPZBYEZg9kFgJmD2QWAmYPFgQeBFRleHQFQjxsaW5rIHJlbD0iY2Fub25pY2FsIiBocmVmPSJodHRwOi8vd3d3LmNvbWNhc3QuY29tL2RlZmF1bHQuY3NweCIgPh4HVmlzaWJsZWdkAgEPZBYCZg9kFgJmDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWAmYPFQILRGVzY3JpcHRpb27RAUNvbWNhc3QgZ2V0cyB5b3UgdGhlIGJlc3QgZGVhbHMuIFNhdmUgb24gQ29tY2FzdCBIaWdoIFNwZWVkIEludGVybmV0LCBEaWdpdGFsIENhYmxlIFRWLCBDb21jYXN0IERpZ2l0YWwgVm9pY2XCriwgYW5kIFdpcmVsZXNzIEludGVybmV0IGluIHlvdXIgYXJlYS4gR2V0IFhGSU5JVFnCriBmcm9tIENvbWNhc3QgYW5kIGVuam95IGVudGVydGFpbm1lbnQgeW91ciB3YXkuZAIBD2QWAmYPFQIGUm9ib3RzGmluZGV4LCBmb2xsb3csIE5PT0RQLCBOWURSZAICD2QWAmYPFQINQ2Fub25pY2FsIFVSTCNodHRwOi8vd3d3LmNvbWNhc3QuY29tL2RlZmF1bHQuY3NweGQCAw8WAh8BZ2QCCQ9kFgJmD2QWBGYPFgIfAAUXbWJveENyZWF0ZSgnaG9tZV90b3AnKTtkAgEPFgIfAWdkAgoPZBYCZg9kFghmDxYEHglpbm5lcmh0bWwFkAE8c2NyaXB0IHNyYz0iaHR0cHM6Ly9zZWN1cmUueGZpbml0eS5jb20vanMtYXBpL2NvbXByZXNzZWQveHBiYXIuanM/aWQ9eGJhcmRpdiZoaWdobGlnaHQ9Y29tY2FzdGNvbSZ2ZXJzaW9uPTIiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+wqA8L3NjcmlwdD4fAWdkAgEPFgIeBGhyZWYFDS9kZWZhdWx0LmNzcHhkAgIPZBYCZg9kFgJmD2QWAgIBD2QWAgIBDw8WAh4LTmF2aWdhdGVVcmwFEC9lcy9kZWZhdWx0LmNzcHhkZAIDD2QWAmYPZBYCZg8WAh8CAgUWCmYPZBYEZg8VCQdFeHBsb3JlB0V4cGxvcmVLIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnRoaXMucmVtb3ZlQXR0cmlidXRlKCdocmVmJyk7IiBzdHlsZT0iY3Vyc29yOmRlZmF1bHQ7B0V4cGxvcmUGNjU0NTEzCFByb2R1Y3RzCFByb2R1Y3RzKX4vbWVkaWEvSW1hZ2VMaWJyYXJ5L1RvcE1lbnUvRXhwbG9yZS5hc2h4AGQCAQ8WAh8CAgoWFGYPZBYCZg8VAg0veGZpbml0eS5odG1sCE92ZXJ2aWV3ZAIBD2QWAmYPFQIvL0NvcnBvcmF0ZS9MZWFybi9EaWdpdGFsQ2FibGUvZGlnaXRhbGNhYmxlLmh0bWwKWEZJTklUWSBUVmQCAg9kFgJmDxUCFi9pbnRlcm5ldC1zZXJ2aWNlLmh0bWwQWEZJTklUWSBJbnRlcm5ldGQCAw9kFgJmDxUCGC9ob21lLXBob25lLXNlcnZpY2UuaHRtbA1YRklOSVRZIFZvaWNlZAIED2QWAmYPFQIdL2NhYmxlLWludGVybmV0LXBhY2thZ2VzLmh0bWwTWEZJTklUWSBEb3VibGUgUGxheWQCBQ9kFgJmDxUCJS9Db3Jwb3JhdGUvTGVhcm4vQnVuZGxlcy9idW5kbGVzLmh0bWwTWEZJTklUWSBUcmlwbGUgUGxheWQCBg9kFgJmDxUCTGphdmFzY3JpcHQ6d2luZG93Lm9wZW4oJ2h0dHA6Ly93d3cuY29tY2FzdC5jb20vaG9tZXNlY3VyaXR5LycsJycsJycpLmZvY3VzKCkMWEZJTklUWSBIb21lZAIHD2QWAmYPFQLGAWphdmFzY3JpcHQ6d2luZG93Lm9wZW4oJ2h0dHBzOi8vc2lnbmF0dXJlc3VwcG9ydC54ZmluaXR5LmNvbS8/dXRtX3NvdXJjZT1jb21jYXN0Y29tJnV0bV9tZWRpdW09cHVsbGRvd24mdXRtX2NhbXBhaWduPWNvbnNpc3RlbnRwdWxsZG93bnByb2R1Y3QmQ01QPWNwZC1jb21jYXN0LTIwMTExMTE2LWNvbWNhc3Rjb20tMDAxJywnJywnJykuZm9jdXMoKRlYRklOSVRZIFNpZ25hdHVyZSBTdXBwb3J0ZAIID2QWAmYPFQItL2NvbXBhcmUvY29tY2FzdC14ZmluaXR5LXZzLXZlcml6b24tZmlvcy5odG1sG1hGSU5JVFkgdnMuIHRoZSBDb21wZXRpdGlvbmQCCQ9kFgJmDxUCamphdmFzY3JpcHQ6d2luZG93Lm9wZW4oJ2h0dHA6Ly9idXNpbmVzcy5jb21jYXN0LmNvbS8/SU5UQ01QPUlMQy1ET1RDT00tMjAxMDA2MjEtTFJOQklaLTAwMScsJycsJycpLmZvY3VzKCkZQ29tY2FzdCBCdXNpbmVzcyBTZXJ2aWNlc2QCAQ9kFgRmDxUJBFNob3AEU2hvcEsiIG9uY2xpY2s9ImphdmFzY3JpcHQ6dGhpcy5yZW1vdmVBdHRyaWJ1dGUoJ2hyZWYnKTsiIHN0eWxlPSJjdXJzb3I6ZGVmYXVsdDsEU2hvcAY2NTQ1MTUEU2hvcARTaG9wJn4vbWVkaWEvSW1hZ2VMaWJyYXJ5L1RvcE1lbnUvU2hvcC5hc2h4AGQCAQ8WAh8CAgkWEmYPZBYCZg8VAi0vc2hvcC9idXlmbG93Mi9wcm9kdWN0cy5jc3B4P1NvdXJjZVBhZ2U9Q2FibGUKWEZJTklUWSBUVmQCAQ9kFgJmDxUCMC9zaG9wL2J1eWZsb3cyL3Byb2R1Y3RzLmNzcHg/U291cmNlUGFnZT1JbnRlcm5ldBBYRklOSVRZIEludGVybmV0ZAICD2QWAmYPFQIsL3Nob3AvYnV5ZmxvdzIvcHJvZHVjdHMuY3NweD9Tb3VyY2VQYWdlPVZPSVANWEZJTklUWSBWb2ljZWQCAw9kFgJmDxUCNS9zaG9wL2J1eWZsb3cyL3Byb2R1Y3RzLmNzcHg/U291cmNlUGFnZT1jYWJsZWludGVybmV0E1hGSU5JVFkgRG91YmxlIFBsYXlkAgQPZBYCZg8VAi8vc2hvcC9idXlmbG93Mi9wcm9kdWN0cy5jc3B4P1NvdXJjZVBhZ2U9QnVuZGxlZBNYRklOSVRZIFRyaXBsZSBQbGF5ZAIFD2QWAmYPFQJVamF2YXNjcmlwdDp3aW5kb3cub3BlbignaHR0cDovL3d3dy5jb21jYXN0LmNvbS9ob21lc2VjdXJpdHkvaW5kZXguaHRtJywnJywnJykuZm9jdXMoKQ1YRklOSVRZIEhvbWUgZAIGD2QWAmYPFQLDAWphdmFzY3JpcHQ6d2luZG93Lm9wZW4oJ2h0dHBzOi8vc2lnbmF0dXJlc3VwcG9ydC54ZmluaXR5LmNvbS8/dXRtX3NvdXJjZT1jb21jYXN0Y29tJnV0bV9tZWRpdW09cHVsbGRvd24mdXRtX2NhbXBhaWduPWNvbnNpc3RlbnRwdWxsZG93bnNob3AmQ01QPWNwZC1jb21jYXN0LTIwMTExMTE2LWNvbWNhc3Rjb20tMDAyJywnJywnJykuZm9jdXMoKRlYRklOSVRZIFNpZ25hdHVyZSBTdXBwb3J0ZAIHD2QWAmYPFQIkL0NvcnBvcmF0ZS9zaG9wL3Byb2R1Y3RvdmVydmlldy5odG1sEFNlZSBBbGwgUHJvZHVjdHNkAggPZBYCZg8VAi4vQ29ycG9yYXRlL3Nob3AvcmV0YWlsL1JldGFpbFN0b3JlbG9jYXRvci5odG1sEFJldGFpbCBMb2NhdGlvbnNkAgIPZBYEZg8VCQtQcm9ncmFtbWluZwtQcm9ncmFtbWluZ0siIG9uY2xpY2s9ImphdmFzY3JpcHQ6dGhpcy5yZW1vdmVBdHRyaWJ1dGUoJ2hyZWYnKTsiIHN0eWxlPSJjdXJzb3I6ZGVmYXVsdDsLUHJvZ3JhbW1pbmcGNjU0NTE3C1Byb2dyYW1taW5nC1Byb2dyYW1taW5nLX4vbWVkaWEvSW1hZ2VMaWJyYXJ5L1RvcE1lbnUvUHJvZ3JhbW1pbmcuYXNoeABkAgEPFgIfAgIGFgxmD2QWAmYPFQJhamF2YXNjcmlwdDp3aW5kb3cub3BlbignaHR0cDovL3hmaW5pdHl0di5jb21jYXN0Lm5ldC9vbmRlbWFuZC8/Y21waWQ9RkNTVF9yZHJjdDA0JywnJywnJykuZm9jdXMoKRRPbiBEZW1hbmQgSGlnaGxpZ2h0c2QCAQ9kFgJmDxUCSmphdmFzY3JpcHQ6dm9pZCB3aW5kb3cub3BlbignaHR0cDovL3d3dy5tb3N0bGl2ZXNwb3J0cy5jb20nLCcnLCcnKS5mb2N1cygpBlNwb3J0c2QCAg9kFgJmDxUCTmh0dHA6Ly93d3cuY29tY2FzdC5jb20vY29ycG9yYXRlL3Byb2dyYW1taW5nL2NvbWluZ2V2ZW50cy5hc2h4P1NDUmVkaXJlY3Q9dHJ1ZRNQYXktUGVyLVZpZXcgRXZlbnRzZAIDD2QWAmYPFQIhL0N1c3RvbWVycy9DbHUvQ2hhbm5lbExpbmV1cC5hc2h4DkNoYW5uZWwgTGluZXVwZAIED2QWAmYPFQJFamF2YXNjcmlwdDp3aW5kb3cub3BlbignaHR0cDovL3hmaW5pdHl0di5jb21jYXN0Lm5ldC8nLCcnLCcnKS5mb2N1cygpDFdhdGNoIE9ubGluZWQCBQ9kFgJmDxUCMC9Db3Jwb3JhdGUvUHJvZ3JhbW1pbmcvSW50bE5ldHdvcmtzL2RlZmF1bHQuaHRtbBlJbnRlcm5hdGlvbmFsIFByb2dyYW1taW5nZAIDD2QWBGYPFQkJQ3VzdG9tZXJzCUN1c3RvbWVyc0siIG9uY2xpY2s9ImphdmFzY3JpcHQ6dGhpcy5yZW1vdmVBdHRyaWJ1dGUoJ2hyZWYnKTsiIHN0eWxlPSJjdXJzb3I6ZGVmYXVsdDsJQ3VzdG9tZXJzBjY1NDUxOAlDdXN0b21lcnMJQ3VzdG9tZXJzK34vbWVkaWEvSW1hZ2VMaWJyYXJ5L1RvcE1lbnUvQ3VzdG9tZXJzLmFzaHgAZAIBDxYCHwICChYUZg9kFgJmDxUCEy9tb3ZlLXRyYW5zZmVyLmh0bWwYTW92ZSBvciBUcmFuc2ZlciBTZXJ2aWNlZAIBD2QWAmYPFQJVamF2YXNjcmlwdDp3aW5kb3cub3BlbignaHR0cHM6Ly9jdXN0b21lci5jb21jYXN0LmNvbS9TZWN1cmUvSG9tZS5hc3B4JywnJywnJykuZm9jdXMoKRFNYW5hZ2UgTXkgQWNjb3VudGQCAg9kFgJmDxUCOGh0dHA6Ly94ZmluaXR5LmNvbWNhc3QubmV0L2NvbnN0YW50Z3VhcmQvP2NpZD1ORVRfMzNfNjQwCFNlY3VyaXR5ZAIDD2QWAmYPFQIoL0NvcnBvcmF0ZS9zaG9wL3JldGFpbC9TdG9yZUxvY2F0b3IuaHRtbBhTZXJ2aWNlIENlbnRlciBMb2NhdGlvbnNkAgQPZBYCZg8VAi0vQ29ycG9yYXRlL0N1c3RvbWVycy9Db250YWN0dXMvQ29udGFjdFVzLmh0bWwKQ29udGFjdCBVc2QCBQ9kFgJmDxUCKi9Db3Jwb3JhdGUvQ3VzdG9tZXJzL1BhcmVudGFsQ29udHJvbHMuaHRtbBFQYXJlbnRhbCBDb250cm9sc2QCBg9kFgJmDxUCG2h0dHA6Ly94ZmluaXR5LmNvbWNhc3QubmV0LxN4ZmluaXR5LmNvbWNhc3QubmV0ZAIHD2QWAmYPFQIrL0NvcnBvcmF0ZS9DdXN0b21lcnMvUG9saWNpZXMvUG9saWNpZXMuaHRtbBxDdXN0b21lciBBZ3JlZW1lbnRzL1BvbGljaWVzZAIID2QWAmYPFQIiL0NvcnBvcmF0ZS9DdXN0b21lcnMvY3VzdGNhcmUuaHRtbA1DdXN0b21lciBDYXJlZAIJD2QWAmYPFQIsL0NvcnBvcmF0ZS9DdXN0b21lcnMvQ3VzdG9tZXJHdWFyYW50ZWUyLmh0bWwSQ3VzdG9tZXIgR3VhcmFudGVlZAIED2QWBGYPFQkFQWJvdXQFQWJvdXQtaHR0cDovL2N1c3RvbWVyLmNvbWNhc3QuY29tL2hlbHAtYW5kLXN1cHBvcnQvBUFib3V0BjY1NDUyMQRIZWxwBEhlbHAnfi9tZWRpYS9JbWFnZUxpYnJhcnkvVG9wTWVudS9BYm91dC5hc2h4AGQCAQ8WAh8CAgcWDmYPZBYCZg8VAlVqYXZhc2NyaXB0OndpbmRvdy5vcGVuKCdodHRwOi8vY3VzdG9tZXIuY29tY2FzdC5jb20vaGVscC1hbmQtc3VwcG9ydC8nLCcnLCcnKS5mb2N1cygpDUhlbHAgT3ZlcnZpZXdkAgEPZBYCZg8VAmhqYXZhc2NyaXB0OndpbmRvdy5vcGVuKCdodHRwOi8vY3VzdG9tZXIuY29tY2FzdC5jb20vUGFnZXMvSGVscEZvbGRlcnMuYXNweD90b3BpYz1CaWxsaW5nJywnJywnJykuZm9jdXMoKRFBY2NvdW50ICYgQmlsbGluZ2QCAg9kFgJmDxUCOS9Db3Jwb3JhdGUvQ3VzdG9tZXJzL01lbWJlcnNoaXAvQmlsbC9CaWxsRXhwbGFuYXRpb24uaHRtbBdVbmRlcnN0YW5kaW5nIFlvdXIgQmlsbGQCAw9kFgJmDxUCXmphdmFzY3JpcHQ6d2luZG93Lm9wZW4oJ2h0dHA6Ly9jdXN0b21lci5jb21jYXN0LmNvbS9oZWxwLWFuZC1zdXBwb3J0L2ludGVybmV0LycsJycsJycpLmZvY3VzKCkQWEZJTklUWSBJbnRlcm5ldGQCBA9kFgJmDxUCXmphdmFzY3JpcHQ6d2luZG93Lm9wZW4oJ2h0dHA6Ly9jdXN0b21lci5jb21jYXN0LmNvbS9oZWxwLWFuZC1zdXBwb3J0L2NhYmxlLXR2LycsJycsJycpLmZvY3VzKCkKWEZJTklUWSBUVmQCBQ9kFgJmDxUCWmphdmFzY3JpcHQ6d2luZG93Lm9wZW4oJ2h0dHA6Ly9jdXN0b21lci5jb21jYXN0LmNvbS9oZWxwLWFuZC1zdXBwb3J0L3Bob25lJywnJywnJykuZm9jdXMoKQ1YRklOSVRZIFZvaWNlZAIGD2QWAmYPFQJiamF2YXNjcmlwdDp3aW5kb3cub3BlbignaHR0cDovL2N1c3RvbWVyLmNvbWNhc3QuY29tL2hlbHAtYW5kLXN1cHBvcnQvaG9tZS1zZWN1cml0eScsJycsJycpLmZvY3VzKCkMWEZJTklUWSBIb21lZAILEGRkFgYCAQ9kFgJmD2QWAmYPZBYEZg9kFgJmD2QWAmYPZBYCZg8WAh8BaBYCAgIPZBYCZg9kFgICAQ8WAh8BaGQCBA8PFgIfAWhkFgJmD2QWAmYPFgIfAWhkAgMPZBYCZg9kFgRmDxYCHwAFGm1ib3hDcmVhdGUoJ2hvbWVfYm90dG9tJyk7ZAIBDxYCHwFnZAIHD2QWAmYPZBYCAgYPFgIfAAUOY29tY2FzdCAtIGhvbWVkZH208ekMBZsfKzahlyxbH7RnbU2g" />
+</div>
+
+        <!--Start of content-->
+        
+<!--Start of content-->
+<link rel="Stylesheet" media="all" type="text/css" href="http://www.comcast.com/includes/css/homepage_countdown.css" />
+<script type="text/javascript" src="http://www.comcast.com/includes/js/countdown.js"></script>
+<div class="wrapper"><!-- #new:start:homepage -->
+<div id="homepage"><!-- Start Carousel MBox -->
+<div class="mboxDefault"><!-- homepage hero image -->
+<div id="hero">
+<div id="carousel">
+
+
+<div id="carousel_1"><a href="http://www.comcast.com/Corporate/Learn/Bundles/bundles.html?INTCMP=ILCCOMCOMTP164542" class="desc"></a> <a href="http://www.comcast.com/Corporate/Learn/Bundles/bundles.html?INTCMP=ILCCOMCOMTP164542" class="subtext" style="color: white"></a> <a href="http://www.comcast.com/corporate/legal/homepagedldisclaimers/q12012/TriplePlay_offer.html" class="details" style="color: gray" style="target="_blank">Details and Restrictions</a> <a href="http://www.comcast.com/Corporate/Learn/Bundles/bundles.html?INTCMP=ILCCOMCOMTP164542" class="bg" title="XFINITY Triple Play"><img width="819" height="340" alt="XFINITY Triple Play from Comcast" src="~/Media/ImageLibrary/homepage/DL_2012/TriplePlay/Q2_TripleplayBAU.ashx" /></a> </div>
+
+<div id="carousel_2">
+<a href="http://www.comcast.com/Corporate/Learn/Bundles/doubleplay.html?INTCMP=ILCCOMCOMDP164507" class="desc"></a><a href="http://www.comcast.com/corporate/legal/homepagedldisclaimers/q12012/doubleplay.html" class="details" style="color: gray" target="_blank">Details and Restrictions</a> <a href="http://www.comcast.com/Corporate/Learn/Bundles/doubleplay.html?INTCMP=ILCCOMCOMDP164507" class="bg" title="XFINITY TV and Internet Bundles"><img width="819" height="340" alt="XFINITY TV and Internet Bundles from Comcast" src="~/Media/ImageLibrary/homepage/DL_2012/DoublePlay/Q2_DoublePlay.ashx" /></a> </div>																
+																	
+<div id="carousel_3"><a href="http://www.comcast.com/Corporate/Learn/DigitalCable/digitalcable.html?INTCMP=ILCCOMCOMDP164423" class="desc"></a> <a href="http://www.comcast.com/Corporate/Learn/Bundles/doubleplay.html" class="getItInternet"><span>Bundle TV and Internet</span></a> <a href="http://www.comcast.com/Corporate/Learn/DigitalCable/digitalcable.html?INTCMP=ILCCOMCOMDP164423" class="subtext"></a> <a href="http://www.comcast.com/Corporate/legal/Cable_offer.html" class="details" target="_blank">Details and Restrictions</a> <a href="http://www.comcast.com/Corporate/Learn/DigitalCable/digitalcable.html?INTCMP=ILCCOMCOMDP164423" class="bg" title="XFINITY TV"><img width="819" height="340" alt="XFINITY TV from Comcast" src="~/Media/ImageLibrary/homepage/DL_2012/TV/Q2_TV.ashx" /></a> </div>
+
+<div id="carousel_4"><a href="http://www.comcast.com/Corporate/Learn/HighSpeedInternet/new-highspeedinternet.html?INTCMP=ILCCOMCOMHS164313" class="desc">Lightning-fast download speeds that are much faster than DSL. Constant Guard&trade; &mdash; a comprehensive security suite ($360 value) included at no additional charge and 2 GB online storage.</a> <a href="http://www.comcast.com/Corporate/Learn/Bundles/doubleplay.html" class="getItTV"><span>Bundle Internet and TV</span></a> <a href="http://www.comcast.com/Corporate/Learn/HighSpeedInternet/new-highspeedinternet.html?INTCMP=ILCCOMCOMHS164313" class="subtext"><em>The Office</em> available at xfinityTV.com</a> <a href="http://www.comcast.com/corporate/legal/homepagedldisclaimers/q12012/HighSpeedInternet_offer.html" class="details" target="_blank">Details and Restrictions</a> <a href="http://www.comcast.com/Corporate/Learn/HighSpeedInternet/new-highspeedinternet.html?INTCMP=ILCCOMCOMHS164210" class="bg" title="XFINITY Internet"><img width="819" height="340" alt="XFINITY Internet from Comcast" src="~/Media/ImageLibrary/homepage/carousel_fasterinternet.ashx" /></a> </div>
+
+<div id="carousel_5"><a href="https://customer.comcast.com/Public/Home.aspx?INTCMP=ILCCOMAL164284" class="desc"></a> <a href="https://customer.comcast.com/Public/Home.aspx?INTCMP=ILCCOMAL164284" class="bg" title="Manage your Comcast Account"><img width="819" height="340" alt="Manage your Comcast Account" src="~/Media/ImageLibrary/homepage/carousel_manageAccount.ashx" /></a> </div>
+
+
+</div>
+<ul id="carouselItems">
+
+   
+       
+    <li id="menu_1" class="selected"><img src="~/Media/ImageLibrary/homepage/sidebar_tripleplay.ashx" alt="Triple Play $99/mo" width="161" height="69" /></li>
+    
+    <li id="menu_2"><img width="161" height="69" alt="TV &amp; Internet $69.99/mo" src="~/Media/ImageLibrary/homepage/sidebar_TVInternet.ashx" /></li>
+
+    <li id="menu_3"><img width="161" height="68" alt="XFINITY TV $29.99/mo" 
+    src="~/Media/ImageLibrary/homepage/sidebar_xfinityTV.ashx" /></li>
+    
+    <li id="menu_4"><img width="161" height="69" alt="Faster Internet $29.99/mo" src="~/Media/ImageLibrary/homepage/sidebar_fasterinternet.ashx" /></li>
+    
+    <li id="menu_5" class="last"><img width="161" height="66" alt="Manage your Comcast Account" src="~/Media/ImageLibrary/homepage/sidebar_manageAccount.ashx" /> </li>
+</ul>
+<div id="carouselMarker"></div>
+</div>
+</div>
+<script type="text/javascript">mboxCreate("home_hero_banner");</script>
+<!-- End Carousel MBox -->
+<div id="homepage-content">
+<div id="homepage-main"><a href="http://business.comcast.com/?INTCMP=ILC-DOTCOM-20100216-HMPGAD-001" id="lnkComcastBusiness" target="_blank">Comcast Business Class</a>
+<div id="homepage-tabbed-content" class="new-customer">
+<ul class="homepage-tabs">
+    <li class="active"><a href="#" rel="new-customer"><span>New Customers</span></a> </li>
+    <li><a href="#" rel="existing-customer"><span>Current Customers</span></a> </li>
+</ul>
+<div id="new-customer" class="tab-content">
+<div id="col-justwant">
+<h2><span>I'm looking for&hellip;</span></h2>
+<ul>
+    <li>
+    <h1><a href="http://www.comcast.com/Corporate/Learn/DigitalCable/digitalcable.html" class="icon icon-tv">XFINITY TV</a></h1>
+    <span class="price">Thousands of<br>
+    On Demand Choices
+</span>  </li>
+    <li>
+    <h1><a href="http://www.comcast.com/Corporate/Learn/HighSpeedInternet/highspeedinternet.html" class="icon icon-internet">XFINITY Internet</a></h1>
+    <span class="price">Lightning-Fast<br>Speeds</span></li>
+    <li>
+    <h1><a href="http://www.comcast.com/Corporate/Learn/DigitalVoice/digitalvoice.html" class="icon icon-voice">XFINITY Voice</a></h1>
+   <span class="price">Unlimited<br> 
+Nationwide Calling
+</span> </li>
+    <li class="last">
+    <h1><a href="http://www.comcast.com/Corporate/Shop/ProductOverview.html" class="icon icon-deals">Comcast Deals</a></h1>
+    <span class="price">The Best Prices Online</span> </li>
+</ul>
+</div>
+<div id="col-double">
+<h2>XFINITY Double Play</h2>
+<h3>TV + Internet or Voice</h3>
+<img alt="TV + Internet or Voice from Comcast" src="~/Media/ImageLibrary/homepage/product-doubleQ1.ashx" />
+<div class="price">
+<div><sup class="dollar">$</sup><span class="cost">69</span></div>
+<div class="permonth"><sup class="cost">99</sup><sup class="month">/mo</sup><span class="period">for 12 months</span></div>
+</div>
+<span class="byline">starting price for new customers</span> <a href="http://www.comcast.com/Corporate/Learn/Bundles/doubleplay.html" title="More on Double Play">More on Double Play</a> </div>
+<div id="col-triple" class="tab-column last">
+<h2>XFINITY Triple Play</h2>
+<h3>TV + Internet + Voice</h3>
+<img alt="XFINITY Triple Play from Comcast" src="~/Media/ImageLibrary/homepage/product-tripleQ1.ashx" />
+<h2>Bundle & Save</h2>
+<div style="clear: both"></div>
+<a href="http://www.comcast.com/Corporate/Learn/Bundles/bundles.html" title="More on Triple Play">More on Triple Play</a> </div>
+</div>
+<div id="existing-customer" class="tab-content">
+<div id="col-existing-2">
+<h2>Help &amp; Support</h2>
+<img width="121" height="118" alt="More TV from Comcast" src="~/Media/ImageLibrary/homepage/existing-bg-2.ashx" />
+<p>Get help and advice from our<br />
+experts and the community.</p>
+<div class="cta"><br><a href="http://customer.comcast.com/help-and-support/">View Help &amp; Support</a></div>
+</div>
+
+<div id="col-existing-2">
+<h2>Comcast Deals</h2>
+<div style="padding-left: 10px"><img width="120" height="118" alt="Best Price" src="~/Media/ImageLibrary/homepage/existing-bestprice118.ashx" /></div>
+<p>Special offers for<br />
+current customers.</p>
+<div class="cta"><br><a href="/Corporate/shop/existingproductoverview.html">View Deals</a></div></div>
+
+<div id="col-existing-3" class="tab-column last">
+<h2>Lightning-fast<br> Internet + TV</h2>
+<img src="~/Media/ImageLibrary/homepage/existing-bg-4.ashx" alt="Lightning-fast Internet + TV" width="137" height="143" />
+<div class="price">
+<h4>Blast Plus<br> with XFINITY Streampix™</h4>
+<div><sup class="dollar">$</sup><span class="cost">79</span></div>
+<div class="permonth"><sup class="cost">95</sup><sup class="month">/mo</sup></div>
+</div>
+<div class="cta"><br><a href="/Corporate/shop/existingproductoverview.html">Learn more</a></div>
+
+</div>
+</div>
+</div>
+<!-- start:row below content tabs -->
+<div id="homepage-footer">
+<div class="homepage-column" id="whyXfinity">
+<h4><span style="color: #c8001d;"> xfinity vs. the Competition</span></h4>
+<img alt="" width="16" height="46" style="float: left;" src="~/Media/ImageLibrary/homepage/check.ashx" />
+Thousands of HD choices
+<div style="padding-top; 5px">The most live sports</div>
+<div style="padding-top; 3px; padding-bottom: 5px">The fastest Internet provider in the nation<br> according to PC Mag</div>
+
+<div style="padding-top: 4px"><a href="http://www.comcast.com/Corporate/Learn/Compare/comcast-vs-verizon-fios.html">See how XFINITY beats the
+competition</a></div>
+</div>
+<div id="comcastGuarantee" class="homepage-column">
+<h4>Customer Guarantee</h4>
+<p>Our customer guarantee is our promise to you. <a href="http://www.comcast.com/Corporate/Customers/CustomerGuarantee.html">Learn more</a></p>
+</div>
+
+</div>
+</div>
+<div id="homepage-sidebar">
+<div class="sidebar-section">
+<h3>Current Customers</h3>
+<!-- a href="https://customer.comcast.com/Secure/Home.aspx" class="grey-btn sign-in-btn"><span>Sign In</span></a -->
+<ul>
+    <li><a href="https://customer.comcast.com/Secure/Account.aspx">Pay Your Bill</a> </li>
+    <li><a href="http://www.comcast.com/move.html">Move or transfer services</a></li>
+    <li><a href="http://xfinity.comcast.net/">Check Email</a> </li>
+    <li><a href="http://xfinitytv.comcast.net/tv-listings" target="_blank">See What's on TV</a> </li>
+    <li><a href="https://signaturesupport.xfinity.com/?utm_source=comcastcom&utm_medium=banner&utm_campaign=mktg45_homepage_currentcustomersmodule_021512&CMP=ILC-COMCASTCOM-MKTG45_HOMEPAGE_CURRENTCUSTOMERSMODULE_021512" target="_blank">XFINITY Signature Support</a> <!-- li>
+										<a href="http://www.comcast.com/shop/buyflow2/products.cspx" originalAttribute="href" originalPath="http://www.comcast.com/shop/buyflow2/products.cspx">Shop for Services</a>
+									</li --></li>
+    <li><a href="http://customer.comcast.com/help-and-support/">Help and Support</a> </li>
+    <li><a href="http://www.comcast.com/alerts">Comcast Alerts</a> </li>
+    <li><a href="https://digitalnow.comcast.com/">Digital Migration</a> </li>
+</ul>
+</div>
+<div class="sidebar-section">
+<h3>Help &amp; Support</h3>
+<!-- a href="http://customer.comcast.com/Pages/Help.aspx" class="grey-btn support-center-btn"><span>Help and Support</span></a -->
+<ul>
+    <li><a href="http://customer.comcast.com/Pages/FAQViewer.aspx?Guid=006bc606-1a56-4a00-a2ed-9b5007a1e2a1">My service isn't working</a> </li>
+    <li><a href="http://customer.comcast.com/Pages/FAQViewer.aspx?seoid=Powercycling-your-Modem">I need to reset my modem</a> </li>
+    <li><a href="http://customer.comcast.com/Pages/HelpNFC.aspx?print=false&id=remotes">I need to program my remote</a></li>
+</ul>
+<a href="http://customer.comcast.com/help-and-support/" class="seeAll">See All Help and Support</a> </div>
+</div>
+<div id="companyDirectory">
+<div class="directory-column">
+<ul>
+    <li class="column-header">About Us </li>
+    <li><a href="http://www.comcast.com/Corporate/About/Corporateinfo/Corporateinfo.html">Corporate Info</a> </li>
+    <li><a href="http://www.comcast.com/About/PressRelease/PressRoom.cspx">Press Room</a> </li>
+    <li><a href="http://www.comcast.com/Corporate/About/Careers/Careers.html">Careers</a> </li>
+ <li><a target="_blank" href="http://www.cmcsk.com/">Investors</a></li>
+
+    <li><a href="http://www.comcast.com/Corporate/About/Diversity/Diversity.html">Diversity</a> </li>
+    <li><a href="http://www.comcast.com/Corporate/About/InTheCommunity/IntheCommunity.html">Community Investment</a> </li>
+</ul>
+</div>
+<div class="directory-column">
+<ul>
+    <li class="column-header">My Comcast </li>
+    <li><a href="https://customer.comcast.com/Secure/Home.aspx">Manage My Account</a> </li>
+    <li><a href="https://customer.comcast.com/Secure/Account.aspx">Pay My Bill</a> </li>
+    <li><a href="http://www.comcast.com/Corporate/shop/retail/StoreLocator.html">Find Service Centers</a> </li>
+    <li><a href="https://xfinity.comcast.net">Check EMail</a> </li>
+    <li><a href="https://xfinity.comcast.net">Check Voicemail</a> </li>
+ <li><a href="http://customer.comcast.com/help-and-support/">Customer Service</a> </li>
+
+</ul>
+</div>
+<div class="directory-column">
+<ul>
+    <li class="column-header">Security </li>
+    <li><a href="http://security.comcast.net/get-protected/index.aspx">Constant Guard&trade;</a> </li>
+    <li><a href="http://security.comcast.net/backup/">Secure Backup &amp; Share</a> </li>
+</ul>
+<ul>
+    <li class="column-header">Services </li>
+    <li><a href="http://business.comcast.com/?INTCMP=ILC-DOTCOM-20110222-SMLBIZ-001">Comcast Business Class</a> </li>
+    <li><a target="_blank" href="http://www.comcastspotlight.com/">Comcast Spotlight</a> </li>
+    <li><a href="http://www.lfocabledealer.com/" target="_blank">Become a Dealer</a> </li>
+</ul>
+</div>
+<div class="directory-column">
+<ul>
+    <li class="column-header">What's On? </li>
+    <li><a href="http://xfinitytv.comcast.net/">What's on XFINITYTV.COM</a> </li>
+    <li><a href="https://www.comcast.com/Customers/Clu/ChannelLineup.ashx?area=0">Channel LineUp</a> </li>
+        <li><a href="http://xfinity.comcast.net/learn/programming/">Programming Contract Expirations</a> </li>
+    <li><a href="http://xfinitytv.comcast.net/ondemand/">On Demand</a> </li>
+    <li><a href="/Corporate/Learn/DigitalCable/DVR.html">DVR</a> </li>
+
+    <li><a target="_blank" href="http://www.mostlivesports.com/">Sports</a> </li>
+    <li><a href="http://www.comcast.com/Corporate/Programming/Comingevents.ashx">Pay-Per-View Events</a> </li>
+</ul>
+</div>
+<div class="directory-column last">
+<ul>
+    <li class="column-header">Stay Connected </li>
+    <li><a target="_blank" href="http://www.facebook.com/XFINITY?ref=mf">Find Us On Facebook</a><a target="_blank" href="http://www.facebook.com/XFINITY?ref=mf"> <img width="14" height="14" alt="Facebook" src="~/Media/ImageLibrary/homepage/facebook.ashx" hspace="4" /></a></li>
+    <li>FOLLOW US ON TWITTER:<img width="14" height="14" alt="Twitter" src="~/Media/ImageLibrary/homepage/twitter.ashx" hspace="3"/><BR><a target="_blank" href="http://twitter.com/Comcastcares">Support</a> | <a target="_blank" href="http://twitter.com/xfinity_tv">XFINITY TV</a></li>
+    <li><a href="http://forums.comcast.com/">Online Forums</a> <!-- <li><a href="#" originalAttribute="href" originalPath="#">Give Us Feedback</a></li> --></li>
+    <li><a href="javascript:void(0);" title="Comcast.com Feedback" onclick="oo_feedback.show();">Give Us Feedback</a> </li> <li><a target="_blank" href="http://blog.comcast.com/">Corporate Blog</a> </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- #new:end:homepage --></div>
+<!--End of content-->
+
+
+
+        <!--End of content-->
+         <!--literal to hold the mbox bottom field-->
+<div id="ctl04_mboxBottomDefaultDiv" class="mboxDefault" style="visibility: visible; display: block;">&nbsp;</div>
+<script language="JavaScript" type="text/javascript">
+    mboxCreate('home_bottom');
+</Script>
+
+
+         <!--
+          BEGIN: OnlineOpinion v5.4.8 
+          * Released: 11/9/2011 
+          * Components: Full 
+          * The following code is Copyright 1998-2011 Opinionlab, Inc.  All rights reserved. Unauthorized use is prohibited. This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. 6606581, 6421724, 6785717 B1 and other patents pending. http://www.opinionlab.com 
+        --><!--MAIN OL ENGINE; NECESSARY FOR ALL IMPLEMENTATIONS--><script src="/Includes/onlineopinion/oo_engine.min.js" type="text/javascript" language="javascript"></script><!--FEEDBACK PLUG-IN ; FLOATING-->
+        <script src="/Includes/onlineopinion/oo_conf.js" type="text/javascript" language="javascript"> </script><!--END: OnlineOpinion v5.4.8-->
+      
+
+        <div id="footer">&copy;2012 Comcast | <a href="http://www.cmcsk.com" title="Investor Relations" >Investor Relations</a> | <a href="/corporate/about/pressroom/pressroom.ashx" title="Press Room" >Press Room</a> | <a href="http://blog.comcast.com/" title="Corporate Blog" >Corporate Blog</a> | <a href="javascript:void openExtTextWindow('/corporate/legal/privacyStatement.html','Popup','500','400','yes');" title="Privacy Statement" >Privacy Statement</a> | <a href="javascript:void openExtTextWindow('/corporate/legal/visitorAgreement.html','Popup','500','400','yes');" title="Visitor Agreement" >Visitor Agreement</a> | 
+<a href="javascript:void(0);" onClick="oo_feedback.show()"><img src="/includes/onlineopinion/oo_icon.gif" border="0" title="Feedback">Comcast.com Feedback</a>
+ | <a href="/sitemap.html" title="Site Map" >Site Map</a><!--Comcast.com Feedback link is for the OnlineOpinion--></div>
+
+        
+<script xmlns:msxsl="http://www.w3.org/1999/xhtml" xmlns="" src="/Includes/omniture/s_code.js" language="JavaScript" type="text/javascript">&nbsp;</script>
+
+ <!--to hold the value of channel field in omniture section -->
+  <!--to hold the value of evar20 field in omniture section -->
+  <!--to hold the value of evar21 field in omniture section -->
+  <!--to hold the value of events field in omniture section -->
+  <!--to hold the value of hier1 field in omniture section -->
+  <!--to hold the value of hier2 field in omniture section -->
+  <!--to hold the value of pagename field in omniture section -->
+  <!--to hold the value of prop2 field in omniture section -->
+  <!--to hold the value of prop31 field in omniture section -->
+  <!--to hold the value of prop32 field in omniture section -->
+  <!--to hold the value of prop34 field in omniture section -->
+  <!--to hold the value of prop35 field in omniture section -->
+  <!--to hold the value of prop36 field in omniture section -->
+
+<script language="JavaScript" type="text/javascript"> 
+   function checkForNullOrEmpty(s) {
+        if (s != null) {
+            if (s != "") {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    s.prop31 = "";
+    s.prop50 = GetCookie('UserID');
+    s.events = ""; 
+    /* Localization variables */
+    var zip = GetCookie("Serviceability", "Zip");
+    s.prop4 = (checkForNullOrEmpty(zip)) ? zip.substring(0, 5) : ""; // Zipcode
+
+    var corpNameOmniture = GetCookie("Serviceability", "CorpName");
+    s.prop7 = ""; // Default prop7 to empty
+    if (corpNameOmniture) {
+        // Remove the XSLT escape character for a space, and any commas in the name (this is the same way HBX does this).
+        corpNameOmniture = corpNameOmniture.replace(/\&#160;/g, " ");
+        corpNameOmniture = corpNameOmniture.replace(/,/g, '');
+        s.prop7 = corpNameOmniture; //Corp name
+    }
+
+
+    var billSystem = GetCookie("Serviceability", "System"); // Billing system ID
+    if (billSystem == 1) {
+        s.prop8 = "DST";
+
+    }
+    else if (billSystem == 2) {
+        s.prop8 = "CSG";
+
+    }
+
+    var houseStatus = GetCookie("Serviceability", "HFStatus");
+    if (houseStatus == 1) {
+        s.prop10 = "Never House";
+
+    }
+    else if (houseStatus == 2) {
+        s.prop10 = "Active House";
+
+    }
+    else if (houseStatus == 3) {
+        s.prop10 = "Disconnected";
+
+    }
+
+    // Get localization type
+    var sLocGUID = GetCookie("Serviceability", "GUID");
+    var sPrevLocGUID = GetCookie("Serviceability", "PrevGUID");
+    if (sLocGUID != false || sPrevLocGUID != false) {
+        if (sLocGUID != sPrevLocGUID) {
+            // Check LocalizationType table to ensure that all localizations are covered
+            sLocType = GetCookie("Serviceability", "LocalizationTypeID");
+            switch (sLocType) {
+                case "1":
+                    s.eVar6 = "Address Type-In (DST Footprint)";
+                    break;
+                case "2":
+                    s.eVar6 = "DST Account (Address)";
+                    break;
+                case "3":
+                    s.eVar6 = "ZIP Code";
+                    break;
+                case "4":
+                    s.eVar6 = "ZIP Code - User Picked Franchise";
+                    break;
+                case "5":
+                    s.eVar6 = "DST Account (FranchiseMapID) - After G2B Failure";
+                    break;
+                case "9":
+                    s.eVar6 = "Address Type-In (CSG Footprint)";
+                    break;
+                case "10":
+                    s.eVar6 = "CSG Account (FranchiseMapID)";
+                    break;
+                case "12":
+                    s.eVar6 = "CSG Account (Address)";
+                    break;
+                default:
+                    s.eVar6 = "Unknown";
+                    break;
+            }
+            SetCookie("Serviceability", "PrevGUID", sLocGUID);
+
+            if (typeof (localizeValue) != "undefined") {
+                s.eVar19 = localizeValue;
+            }
+        }
+    }
+    else {
+        if (GetCookie('AutoLocalized')) {
+            s.eVar6 = "Unknown";
+        }
+
+    }
+//setting the literal control value 
+    s.pageName="comcast - home"
+    s.server=""
+    s.channel=""
+    s.pageType=""
+    s.prop1=""
+    s.prop2=""
+    s.prop3=""
+    s.prop5=""
+    s.prop6=""
+    //s.prop7=""
+    //s.prop8=""
+    s.prop9=""
+    //s.prop10=""
+    s.prop11=""
+    s.prop12=""
+    s.prop13=""
+    s.prop14=""
+    s.prop16=""
+    s.prop17=""
+    s.prop19=""
+    s.prop20=""
+    s.prop24=""
+    s.prop25=""
+    s.prop26=""
+    s.prop27=""
+    s.prop28=""
+    s.prop29=""
+    s.prop30=""
+    s.prop32=""
+    s.prop34=""
+    s.prop35=""
+    s.prop36=""
+    s.prop38=""
+    s.prop39=""
+    s.prop40=""
+    s.prop42=""
+    s.prop43=""
+    s.prop44=""
+    s.prop45=""
+    s.prop46=""
+    s.prop47=""
+    s.prop48=""
+    s.prop49=""
+    // Conversion Variables 
+    s.campaign=""
+    s.state=""
+    s.zip=""
+//    s.events=""
+    s.products=""
+    s.purchaseID=""
+    s.eVar1=""
+    s.eVar3=""
+    s.eVar5=""
+    s.eVar6=""
+    s.eVar8=""
+    s.eVar9=""
+    s.eVar14=""
+    s.eVar15=""
+    s.eVar16=""
+    s.eVar17=""
+    s.eVar18=""
+    s.eVar19=""
+    s.eVar20=""
+    s.eVar21=""
+    s.eVar22=""
+    s.eVar23=""
+    s.eVar24=""
+    s.eVar25=""
+    s.eVar26=""
+    s.eVar27=""
+    s.eVar28=""
+    s.eVar29=""
+    s.eVar30=""
+    s.eVar37=""
+    s.eVar38=""
+    s.eVar39=""
+    s.eVar40=""
+    s.eVar41=""
+    s.eVar42=""
+    s.eVar43=""
+    s.eVar44=""
+    s.eVar45=""
+    s.eVar46=""
+    s.eVar47=""
+    s.eVar48=""
+    s.eVar49=""
+    
+    // Hierarchy Variables 
+    s.hier1=""
+    s.hier2=""
+    var pageNameValue = s.pageName;
+    if (typeof (pageNameValue) == "undefined" || pageNameValue == "") {
+        var path = window.location.href;
+        if (path.indexOf("?") != -1) {
+            path = path.substring(0, path.indexOf("?"));
+        }
+        var pageName = GetPageName(path);
+        if (pageName == "undefined" || pageName == "") {
+            s.pageName = path;
+        }
+        else {
+            s.pageName = pageName;
+        } 
+    }
+
+    var CurrentUrl = document.location.href.split("?");
+    var CurrentLocation = CurrentUrl[0];
+
+    // Buyflow2 only
+    var CurrentUrl = document.location.href.split("?");
+    var CurrentLocation = CurrentUrl[0];
+    if (CurrentLocation.toLowerCase().indexOf("shop/buyflow2/") != -1) {
+        if (document.getElementById("ExistingCustomerType")) {
+            var ExistingCustomerType = document.getElementById("ExistingCustomerType").innerHTML;
+            if (ExistingCustomerType) {
+                if (ExistingCustomerType.toLowerCase() == "false") {
+                    s.prop12 = "New";
+                }
+                else if (ExistingCustomerType.toLowerCase() == "true") {
+                    s.prop12 = "Existing";
+
+                }
+            }
+        }
+        else if (GetCookie("omtr", "CookieExistingCustomerType")) {
+            var ExistingCustomerType = GetCookie("omtr", "CookieExistingCustomerType");
+            if (ExistingCustomerType.toLowerCase() == "false") {
+                s.prop12 = "New";
+
+            }
+            else if (ExistingCustomerType.toLowerCase() == "true") {
+                s.prop12 = "Existing";
+
+            }
+        }
+        var omnitureEntMarketName = GetCookie("Serviceability", "EnterpriseMarketName");
+        omnitureEntMarketName = omnitureEntMarketName.replace(/^\s+/, '').replace(/\s+$/, '');
+
+    }
+    // Search tracking
+    if (queryString("fss") != undefined) {
+
+        SetCookie("omtr", "fss", queryString("fss"));
+    }
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code = s.t(); if (s_code) document.write(s_code)
+    
+    </script>
+    <script language="JavaScript" type="text/javascript" xmlns="" xmlns:msxsl="http://www.w3.org/1999/xhtml">
+    if (navigator.appVersion.indexOf('MSIE') != -1) document.write(unescape('%3C') + '\!-' + '-')
+    /* DO NOT REMOVE */
+    /* End SiteCatalyst code version: H.14. */
+    if (navigator.appVersion.indexOf('MSIE') != -1) document.write('--' + unescape('%3E'))
+	</script>
+
+        </form>
+    </div>
+</body>
+</html>

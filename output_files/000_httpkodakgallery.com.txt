@@ -1,0 +1,1993 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<title>
+		Online Photo Printing, Photo Books, Photo Cards at KODAK Gallery
+	</title>
+	<script type="text/javascript">
+		var albumLoadSpeedStartTime = new Date().getTime();
+		var firedAlbumLoadSpeedEvent = false;
+	</script>		
+	<link rel="stylesheet" href="http://cdnb1.kodakgallery.com/A/consolidatedFiles/ecbo_consolidated.min.v-303352515.css" type="text/css" media="all" />
+		<script type="text/javascript" src="http://cdnb1.kodakgallery.com/A/consolidatedFiles/common_consolidated.min.v-3846860145.js"></script>
+		<meta name="bn_pageChannel" content="home" />
+
+		<script type="text/javascript">
+	var entrance = '';
+	var cond = '';
+
+	
+	</script>
+
+	<!--[if lte IE 7]>
+	<script type="text/javascript">
+	//<![CDATA[
+		// Mootools functions
+		window.addEvent('domready', function(){
+			if(Browser.Engine.trident){
+			       var zIndexNumber = 1000;
+			       // Put your target element(s) in the selector below!
+			       $$('.navDrop').each(function(el,i){
+			               el.setStyle('z-index',zIndexNumber);
+			               zIndexNumber -= 10;
+			       });
+			};
+		}); // end domready
+	//]]>
+	</script>
+	<![endif]-->
+
+
+<meta name="verify-v1" content="5MJha1y2HLZVdBnUS5+ce41qrHg5Dp7/7HlsBOyx6Fc=" />
+		<meta name="msvalidate.01" content="E02AEF36A983E4A9AC05F49EA4168276" />
+		<meta name="google-site-verification" content="IVS3I7tWvTHmCguo-hPUiqmVNxB8hdAHuFd62MNu9Ic" />
+		<meta name="y_key" content="6b1ab0c36f831a52" />
+		<meta name="ROBOTS" content="noodp,noydir" />
+		<meta name="description" content="Easily organize, edit and print your photos online. Now offering professional quality prints. Get photo books, photo cards, and photo gifts at KODAK Gallery." />
+		<meta name="keywords" content="online photo printing, photo books, photo cards, photo gifts" />
+		<script type="text/javascript" src='/A/external/gallery/js/popup.js'></script>
+		<script type="text/javascript"> 
+		//<![CDATA[
+		<!--
+			function welcomeCookieChk(){
+				if (!cookiesAllowed()){ 		
+					$('cookieMsgfade').removeClass('unseen');
+					$('cookieMsgcontent').removeClass('unseen');		
+				};
+			}
+			window.onload=welcomeCookieChk;
+		//-->
+		//]]>
+		</script>
+	
+	<style>
+		#welcome_hero .heroSlide {
+    		position:relative;
+			*top:-12px;
+			}
+	</style></head>
+<body>
+
+	<div id="principal">	
+		<script>
+		//<![CDATA[
+		<!--
+			function upBtn(boxAction) {
+				Cookie.write('showUploadOnPageLoad', true, {
+					path: '/',
+					duration: 0
+				});
+				
+				// for anon workflow, direct user to albums page directly
+				var url = "/gallery/creativeapps/photoPicker/albums.jsp";
+				if (boxAction=="join"){
+					signOrJoin = "showJoin";
+				}
+				else if (boxAction=="sign_in") {
+					signOrJoin = "showSign";
+				}
+				else {
+					alert ("An error has occurred.");
+				}
+			     //this.closePopup();
+			     //alert(signOrJoin);
+			     //Now we allow anon upload so we don't care signin or join action
+			     //direct to upload page bypass signin 
+			     esg.ident.views.anonSignInDialogObj.display(function() {location.href = url;}, url, true);
+
+			     //esg.ident.views.landingIdentityServicesDialogObj.display(function() {location.href = url;}, url, true, signOrJoin);
+			     return false;
+			}
+			
+			var ua = navigator.userAgent.toLowerCase();
+		//-->
+		//]]>
+</script>
+
+<script type="text/javascript" src="/A/external/gallery/js/2010_12/spyka_simple_banners.kg_enhanced.tlw.122010.03.js"></script>
+
+<script type="text/javascript">
+
+					var mmcFirst = 'direct';
+				</script>
+<script type="text/javascript" src="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/common/js/thirdParty/mbox.js"></script>
+			<div class="mboxDefault" style="position: absolute"></div>
+		<script type="text/javascript">mboxCreate("kgMetrics",'version=none', "channelSegment="+mmcFirst, "sourceId=90316618503", "user.categoryId=", "prodId=", "clickedOn=", "profileType=anon","featureTestName=disableUrl" );</script>
+
+	<script type="text/javascript">
+	function parseURL (str) {
+		var slash = '/'
+		if (str.match(/\\/)) {
+		slash = '\\'
+	}
+		return str.substring(str.lastIndexOf(slash) + 1, str.lastIndexOf('.'))
+	}
+	/* console.log('getRequestURI(): /gallery/welcome.jsp');
+	console.log('getQueryString(): null');
+	console.log('pageName: welcome'); */
+</script>
+
+<script type="text/javascript">
+	</script>
+
+<!-- ########################################## -->
+<!-- ########################################## -->
+<!-- ########################################## -->
+<style type="text/css">
+	#kgMainHeader {
+		line-height: normal;
+		margin-bottom: 10px;
+		position: static;
+		z-index:999;
+
+	}
+
+	#topnavshipSearch {
+		color: #D80712;
+		float:right;
+		padding-top:3px;
+		position: relative;
+		right:250px;
+		*bottom: 94px;
+		width: auto;
+	}
+	
+	#topnavsearch{
+		position: absolute;
+		top: 17px;
+		right: 0;
+		border: 1px solid #BAB9B6;
+		width: 230px;
+	}
+	
+	#topnavsearch input {
+		border:none;
+		background-color: transparent;
+		float:left;
+		padding-left:4px;
+		padding-top:1px;
+		width:203px;
+		height:20px;
+	}
+
+	.searchIcon{
+		cursor:pointer;
+		float:right;
+		margin: 2px;
+		background-image: url('/A/Kodak_Gallery_Media/ECBO/images/baynote/searchButton.gif');
+		width: 19px;
+		height:18px;
+	}
+	
+	#topnavship{
+		color: #D80712;
+		float:right;
+		padding-top:3px;
+		position: absolute;
+		right: 11px;
+		top:18px;
+		width: auto;
+	}
+
+	
+	#htRightSub {
+		position: absolute;
+		top: 52px;
+		right: 0;
+	}
+
+	
+	#htRightSub li {
+		float: left;
+		display: block;
+		font-size: 11px;
+		color: #333;
+		margin-left: 20px;
+	}
+	
+	#htRightSub li.signOut {
+		margin-left: 5px;
+	}
+	
+	#htCart {
+		background: transparent url("/A/external/gallery/images/marketing/navigation/a/icon-shopping-cart.gif") 0 0 no-repeat;
+		padding: 3px 0 0 20px;
+		color: #333;
+		
+	}
+	
+	a.htOffers {
+	    background: transparent url("/A/external/gallery/images/marketing/navigation/a/icon-special-offers.gif") 0 0 no-repeat;
+	    color: #D80712;
+		padding: 3px 0 0 18px;
+	}
+	
+	a.htRightSubLink {
+		color: #333;
+	}
+	
+	a.htRightSubLink:hover {
+		color: #ffc200;
+	}
+	
+	#htNoNav {
+		border-bottom: 2px solid #eee;
+	}
+	
+	#htMainNav {
+		background: transparent url("/A/external/gallery/images/smo/site/header/nav_bg.jpg") bottom left no-repeat;
+		width: 974px;
+		height: 53px;
+		position: relative;
+		top:0px;
+		left: 0;
+	}
+	
+	#htMainNav span {
+		display: block;
+		font-size: 16px;
+		font-weight: bold;
+		color: #333;
+	}
+	
+	#htMainNav a, #htMainNav a.noHover:hover, #htDropDowns li a {
+		display: block;
+		float: left;
+		margin-top: 5px;
+		height: 23px;
+		font-size: 13px;
+		color: #666;
+	}
+	
+	
+	
+	#htMainNav a.noHover:hover {
+		cursor: default;
+	}
+	
+	#htMainNav a.htOn {
+		font-weight: normal;
+		color: #EDAB12;
+	}	
+	
+	#htDropDowns li a {
+		float: none;
+		height: auto;
+	}
+	
+	#htMainNav a.htLast {
+		margin-right: 0;
+	}
+	
+	#htMainNav a:hover { 
+		color: #EDAB12;
+		font-weight: normal;
+	}
+	
+	#htDropDowns li a:hover {
+		color: #EDAB12;
+	}
+	
+	#htMainNav .htCarat {
+		position: relative; 
+		top: -2px;
+	}
+	
+	#htGallery {
+		position: absolute;
+		top: 7px;
+		left: 15px;
+	}
+	
+	#htCreate {
+		position: absolute;
+		top: 7px;
+		left: 375px;
+		height: 46px;
+	}
+	
+	#htShop {
+		position: absolute;
+		top: 7px;
+		left: 787px;
+	}
+	
+	#htGallery a {
+		width: 86px;
+	}
+	
+	#htCreate a {
+		width: 88px;
+	}
+	
+	#htShop a {
+		width: 85px;
+	}
+	
+	#htDropDowns {
+		position: relative;
+		top: 0px;
+		left: 0;
+	}
+	
+	#htDropDowns ul {
+		padding-bottom: 10px;
+	}
+	
+	#htDropDowns li {
+		margin-bottom: 8px;
+	}
+	
+	#htCards, #htGift, #htPhotoBooks, #htWallDecor, #htPrints, #htCalendars, #htProducts, #htOccasions, #htSharing, #htMyGallery{
+		background-color: #f0f0f0;
+		border-width: 0 1px 1px 1px;
+		border-style: solid;
+		border-color: #ddd;
+		padding: 10px 20px 0 20px;
+		z-index: 2000;
+	}
+
+	#htSharing {
+		position: absolute;
+		top: 0;
+		left: 190px;
+		display: none;
+	}
+	
+	#htMyGallery {
+		position: absolute;
+		top: 0;
+		left: 95px;
+		display: none;
+	}
+	
+	#htCards {
+		position: absolute;
+		top: 0;
+		left: 435px;
+		display: none;
+	}
+	
+	#htPhotoBooks {
+		position: absolute;
+		top: 0;
+		left: 405px;
+		display: none;
+	}
+	
+	#htPrints {
+		position: absolute;
+		top: 0;
+		left: 365px;
+		display: none;
+	}
+	
+	#htCalendars {
+		position: absolute;
+		top: 0;
+		left: 600px;
+		display: none;
+	}
+	
+	#htWallDecor {
+		position: absolute;
+		top: 0;
+		left: 600px;
+		display: none;
+	}
+	
+	#htProducts {
+		position: absolute;
+		top: 0;
+		left: 785px;
+		display: none;
+	}
+	
+	#htOccasions {
+		position: absolute;
+		top: 0;
+		right: 0;
+		/* left: 866px; */
+		white-space: nowrap;
+		display: none;
+	}
+	
+	#divider{
+    position:absolute;
+    left:785px;
+    border-collapse:collapse;
+    border:0.05em inset #F2F2F2;
+    top: 30px;
+    height: 16px;
+    border-color: #F2F2F2;
+	}
+	
+	
+	#kgMainHeader #helpLink {
+    background: url("/A/Kodak_Gallery_Media/ECBO/images/help/minicart_icon.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 37px;
+    right: 20px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -999em;
+    top: -20px;
+    width: 40px;
+}
+
+	a.cartEmpty { 
+		cursor: default;
+	}
+	
+	.sa_indicator {
+	    position: absolute;
+	    right: 105px;
+	    top: 17px;
+	}
+	
+</style>
+<style>
+			#htGift {
+				position: absolute;
+				top: 0;
+				left: 685px;
+				display: none;
+			}
+		</style>
+	<script type="text/javascript" language="javascript">
+    window.addEvent('domready',function(){
+
+	    Element.extend(     //Implement the following functions in every element existent in the webpage
+			{
+			    show:function(e){
+			  
+			    this.setStyle('display','block');
+			  
+			    },
+			    hide:function(e){  
+			    this.setStyle('display','none');
+			  
+			    }
+			}
+		);
+
+    }); 
+</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<style type="text/css">
+	#sitewidePromotionalBanner  {
+		position: fixed; /* Comment this out if you want it to be fixed */
+		top: 0;
+		left: 0;
+		width: 100%; 
+		z-index: 1000;
+		box-shadow: 2px 0 3px #999;
+		-moz-box-shadow: 2px 0 3px #999;
+	}
+	
+	.banner974Main {
+		position: relative;
+		height: 35px;
+		width: 974px;
+		margin: 0 auto;
+	}
+	
+	.banner974Content {
+		position: absolute;
+		top: 8px;
+		left: 0;
+		height: 20px;
+		width: 974px;
+		font-family: Arial, sans-serif;
+		text-align: left;
+		}
+	
+	.banner974Title {
+		font-size: 16px;
+		font-weight: bold;
+		margin-right: 10px;
+		line-height: normal;
+		}
+	
+	.banner974Headline {
+		font-size: 16px;
+		font-weight: bold;
+		border-left: 1px solid #fff;
+		padding-left: 10px;
+		line-height: normal;
+		}
+		
+	.banner974Subhead {
+		font-size: 14px;
+		color: #333;
+		margin-left: 5px;
+		line-height: normal;	
+	}
+	
+	.banner974Subhead a {
+		color: #333;
+	}
+	
+	.banner974Coupon {
+		font-size: 11px;
+		color: #333;
+		margin: 0 10px 0 5px;		
+	}
+	
+	.banner974EndDate {
+		font-size: 10px;
+		color: #333;
+		display: block;
+		position: absolute;
+		right: 81px;
+		bottom: 3px;	
+	}
+	
+	.banner974DetailLink {
+		font-size: 10px;
+		color: #055BAA;
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: 3px;	
+	}
+	
+	#kgMainHeader {
+		padding-top: 35px;
+	}
+	
+	#htRightSub {
+	    top: 90px;
+	}
+	
+	#topnavsearch {
+		top: 52px;
+	}
+	#holidayShipTruck {top:2px !important;}
+
+</style>
+
+<div id="sitewidePromotionalBanner" class="defaultColorScheme">
+<div class="banner974Main">
+	<div class="banner974Content">
+		<span class="banner974Title colorTitle">
+			Mom-tastic Sale</span>
+		<span class="banner974Headline colorHeadline">
+			<a class="colorHeadline" href="/gallery/index.jsp">40% Off</a>
+						</span>
+		<span class="banner974Subhead">
+			<a href="/gallery/index.jsp">ANY 1 item</a>
+						</span>
+		<span class="banner974Coupon">
+			</span>
+		<span class="banner974Headline colorHeadline">
+			<a class="colorHeadline" href="/prints">100 Prints</a>
+						</span>
+		<span class="banner974Subhead">
+			<a href="/prints">for only $10</a>
+						</span>
+		<span class="banner974Coupon">
+			</span>
+		<span class="banner974EndDate">
+			Ends 4/17</span>
+		<a class="smoothbox banner974DetailLink colorDetails" title="Offer Details" href="/gallery/marketing/fragments/legal.jsp?keepThis=true&amp;TB_iframe=true&amp;height=350&amp;width=500">See details</a>
+	</div>
+	
+</div>
+</div>
+<!-- mainBanner -->
+		<div id="kgMainHeader"><!-- default -->
+<a href="/gallery/welcome.jsp" title="Kodak Gallery"><img id="htLogo" src="/A/external/gallery/images/marketing/navigation/a/logo_kodak_gallery.gif" width="245" height="74" alt="Kodak Gallery - Celebrate your KODAK MOMENTS TOGETHER" /></a>
+	
+	
+
+	<div id="topnavshipSearch" style="height:40px;border:1px solid #fff">
+		<style type="text/css">
+	#kgMainHeader {position: relative;}
+	#topnavshipSearch {
+	    float: right;
+	    position: relative; right:250px; top:8px;
+	    width: auto;
+		}
+	#shipTruck {
+		display:block; width:330px; height:39px;
+		background: url(/A/external/gallery/images/smo/themes/2012/mday/shipping_truck.gif) no-repeat right top;
+		position:relative;
+		}
+	#shipTruck span {
+		display:block; 
+		position:absolute; top:10px; left:0;
+		color:#6B3973; font-weight:bold;
+		}
+</style>
+<a id="shipTruck" class="smoothbox" href="/gallery/marketing/content/tests/exclude/shipping_deadline.jsp?keepThis=true&TB_iframe=true&height=500&width=823">
+	<span>FREE Shipping on orders $40+</span>
+</a>	
+</div> <!-- /topnavshipSearch -->
+			<div id="topnavsearch"> <!-- search box -->
+				<script type="text/javascript" language="JavaScript">
+					function nameempty() {
+						if ( document.baynote_searchForm.q.value == '' ) {
+							alert('Please enter a search term')
+							return false
+						}
+						else if ( document.baynote_searchForm.q.value == ' ' ) {
+							alert('Please enter a search term')
+							return false
+						}	
+						else if ( document.baynote_searchForm.q.value == 'Search Products' ) {
+							alert('Please enter a search term')
+							return false
+						}
+						else {
+							document.baynote_searchForm.submit()
+						}
+					}
+				</script>
+				<style>
+					a#mainSearchIcon {
+						float:left;
+					}
+					
+					#topnavsearch input {
+					    background-color: #F8F8F8;
+						color: #666666;
+					    border: medium none;
+					    width: 203px;
+						height: 18px\9;
+					}
+				</style>	
+				<form action="http://search.kodakgallery.com/socialsearch/query" method="get" name="baynote_searchForm" onSubmit="return nameempty();">
+					<input id="searchBox" type="text" name="q"></input>
+					<a id="mainSearchIcon" class="searchIcon" onClick="nameempty();"></a>
+					<br style="clear:both" />
+					<input type="hidden" name="cn" value="kodakgallery" />
+					<input type="hidden" name="cc" value="kg" />
+					<input type="hidden" value="1" name="st">
+					<input type="hidden" value="0" name="adv">
+					<input type="hidden" value="live" name="mode">
+				</form>
+			</div> <!-- /topnavsearch -->
+			
+			<ul id="htRightSub"> <!-- small text links under search box -->
+				<li><a href="javascript:void(0)" class="htRightSubLink" id="hdrSigninTrigger">Sign In</a></li>
+						<li><a href="javascript:void(0)" class="htRightSubLink" id="hdrJoinTrigger">Join</a></li>
+					<li><a href="" class="htRightSubLink" onclick="window.open('http://cmscache.ofoto.com/publish/gallery/www/americas/en/us/fullpages/Help.html','_blank','height=700px,width=800px,scrollbars,resizable'); return false;">Help</a></li>
+				<li><a href="/gallery/ship-options.jsp" class="htRightSubLink" >Shipping</a></li>
+				<li><a href="/special-offers" class="htOffers">Special Offers</a></li>
+					<li>
+					<a class="tn_cart cartEmpty" id="htCart">
+						 
+					Cart (0)</a> 
+				</li>
+			</ul> <!-- /htRightSub -->
+		<!-- ######## Cart Display Switch ####### -->
+	
+	<div id="htMainNav">
+				<div id="htGallery"> <!-- UPLOAD & SHARE -->
+					<span>Upload & Share</span>
+					<!-- ## MY PHOTOS TAB ## -->
+					<script type="text/javascript" language="javascript">
+										if ((ua.match(/iphone/i)) || (ua.match(/ipad/i))) {
+									       document.write("<a id='' href='/gallery/lp/tablet.jsp' style='width: 98px;'>Upload Photos</a>");
+									   } else {
+									       	document.write('<a id="" onclick="');
+											document.write("return upBtn('sign_in');");
+											document.write('" href="javascript: void(0);" style="width: 98px;">Upload Photos</a>');
+									   }
+									</script>
+								<!-- ## MY GALLERY TAB ## -->
+					<script type="text/javascript" language="javascript">
+                                        window.addEvent('domready',function(){
+                                            //ipad and iphone fix
+                                            if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+                                                var navClicked = "";
+                                                $('htNavGallery').addEvent('click', function(event){
+                                                    if (!navClicked) {
+                                                        event.preventDefault();
+                                                        $('htMyGallery').show();
+                                                        navClicked = "yes";
+                                                    } else {
+                                                        $('htMyGallery').hide();
+                                                        window.location = "/my-photos"
+                                                        navClicked = ""; 
+                                                    }
+                                                });
+                                            }
+                                        }); 
+                                    </script>
+									<a href="/my-photos" style="width: 90px;" id="htNavGallery" onmouseover="$('htMyGallery').show();" onmouseout="$('htMyGallery').hide();">My Gallery&nbsp;<img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="v" /></a>
+								<!-- ## SHARING TAB ## -->
+					<script type="text/javascript" language="javascript">
+                                        window.addEvent('domready',function(){
+                                            //ipad and iphone fix
+                                            if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+                                                var navClicked = "";
+                                                $('htNavSharing').addEvent('click', function(event){
+                                                    if (!navClicked) {
+                                                        event.preventDefault();
+                                                        $('htSharing').show();
+                                                        navClicked = "yes";
+                                                    } else {
+                                                        $('htSharing').hide();
+                                                        window.location = "/photo-sharing"
+                                                        navClicked = ""; 
+                                                    }
+                                                });
+                                            }
+                                        }); 
+                                    </script>
+									<a href="/photo-sharing" class="htLast" id="htNavSharing" onmouseover="$('htSharing').show();" onmouseout="$('htSharing').hide();" style="width: 73px;">Sharing&nbsp;<img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="v" /></a>
+								<a href="/mobile?immc=MobileApp-_-MainNav" style="width: 95px;">Mobile Apps</a>
+				</div> <!-- /htGallery -->
+				
+				<div id="htCreate">
+					<span>Shop</span> <!-- CREATE -->
+					<!-- ## PRINTS TAB ## -->
+					<script type="text/javascript" language="javascript">
+									    window.addEvent('domready',function(){
+									        //ipad and iphone fix
+									        if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+									            var navClicked = "";
+									            $('htNavPrints').addEvent('click', function(event){
+									                if (!navClicked) {
+									                    event.preventDefault();
+									                    $('htPrints').show();
+									                    navClicked = "yes";
+									                } else {
+									                    $('htPrints').hide();
+									                    window.location = "/prints"
+									                    navClicked = ""; 
+									                }
+									            });
+									        }
+									    }); 
+									</script>
+									<a href="/prints" style="width: 67px;" id="htNavPrints" onmouseover="$('htPrints').show();" onmouseout="$('htPrints').hide();">Prints <img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="v" /></a>
+								<!-- ## PHOTO CARDS TAB ## -->
+					<script type="text/javascript" language="javascript">
+                                                            window.addEvent('domready',function(){
+                                                                //ipad and iphone fix
+                                                                if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+                                                                    var navClicked = "";
+                                                                    $('htNavCards').addEvent('click', function(event){
+                                                                        if (!navClicked) {
+                                                                            event.preventDefault();
+                                                                            $('htCards').show();
+                                                                            navClicked = "yes";
+                                                                        } else {
+                                                                            $('htCards').hide();
+                                                                            window.location = "/cards/c-Cards"
+                                                                            navClicked = ""; 
+                                                                        }
+                                                                    });
+                                                                }
+                                                            }); 
+                                                        </script>
+														<a href="/cards/c-Cards" style="width: 67px;" id="htNavCards" onmouseover="$('htCards').show();" onmouseout="$('htCards').hide();">Cards <img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="" /></a>
+													<!-- ## PHOTO BOOKS TAB ## -->
+					<a href="/products/photo-books/pc-Products-c-C830001" style="width: 96px;" id="htNavPhotoBooks">Photo Books</a>
+											<!-- ## WALL DECOR TAB ## -->
+					<script type="text/javascript" language="javascript">
+                                                        window.addEvent('domready',function(){
+                                                            //ipad and iphone fix
+                                                            if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+                                                                var navClicked = "";
+                                                                $('htNavWallDecor').addEvent('click', function(event){
+                                                                    if (!navClicked) {
+                                                                        event.preventDefault();
+                                                                        $('htWallDecor').show();
+                                                                        navClicked = "yes";
+                                                                    } else {
+                                                                        $('htWallDecor').hide();
+                                                                        window.location = "/wall-decor/c-Wall_Art_and_Photo_Canvas"
+                                                                        navClicked = ""; 
+                                                                    }
+                                                                });
+                                                            }
+                                                        }); 
+                                                    </script>
+													<a href="/wall-decor/c-Wall_Art_and_Photo_Canvas" id="htNavWallDecor" style="width: 95px;" onmouseover="$('htWallDecor').show();" onmouseout="$('htWallDecor').hide();">Wall D&#233;cor <img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="" /></a>
+												<!-- ## CALENDAR TAB ## -->
+				<!-- ## PHOTO GIFTS TAB ## -->
+					<script type="text/javascript" language="javascript">
+                                            window.addEvent('domready',function(){
+                                                //ipad and iphone fix
+                                                if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+                                                    var navClicked = "";
+                                                    $('htNavGifts').addEvent('click', function(event){
+                                                        if (!navClicked) {
+                                                            event.preventDefault();
+                                                            $('htGift').show();
+                                                            navClicked = "yes";
+                                                        } else {
+                                                            $('htGift').hide();
+                                                            window.location = "/photo-gifts/c-photo_gifts"
+                                                            navClicked = ""; 
+                                                        }
+                                                    });
+                                                }
+                                            }); 
+                                        </script>
+										<a href="/photo-gifts/c-photo_gifts" class="htLast" id="htNavGifts" onmouseover="$('htGift').show();" onmouseout="$('htGift').hide();">Photo Gifts <img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="" /></a>
+									</div> <!-- /htCreate -->
+				<div id="divider"></div>
+				<div id="htShop">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;</span> <!-- SHOP -->
+						
+						<!-- ## ALL PRODUCTS TAB ## -->
+						<script type="text/javascript" language="javascript">
+                                    window.addEvent('domready',function(){
+                                        //ipad and iphone fix
+                                        if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+                                            var navClicked = "";
+                                            $('htNavProducts').addEvent('click', function(event){
+                                                if (!navClicked) {
+                                                    event.preventDefault();
+                                                    $('htProducts').show();
+                                                    navClicked = "yes";
+                                                } else {
+                                                    $('htProducts').hide();
+                                                    window.location = "/gallery/index.jsp"
+                                                    navClicked = ""; 
+                                                }
+                                            });
+                                        }
+                                    }); 
+                                </script>
+								<a href="/gallery/index.jsp" style="width: 101px;text-align: center;" id="htNavProducts" onmouseover="$('htProducts').show();" onmouseout="$('htProducts').hide();">All Products <img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="" /></a>
+							<!-- ## OCCASIONS TAB ## -->
+						<script type="text/javascript" language="javascript">
+                                                window.addEvent('domready',function(){
+                                                    //ipad and iphone fix
+                                                    if((ua.match(/iphone/i)) || (ua.match(/ipad/i)) || (ua.match(/android/i))) {
+                                                        var navClicked = "";
+                                                        $('htNavOccasions').addEvent('click', function(event){
+                                                            if (!navClicked) {
+                                                                event.preventDefault();
+                                                                $('htOccasions').show();
+                                                                navClicked = "yes";
+                                                            } else {
+                                                                $('htOccasions').hide();
+                                                                window.location = "/occasions/c-Photo_Gift_Occassions"
+                                                                navClicked = ""; 
+                                                            }
+                                                        });
+                                                    }
+                                                }); 
+                                            </script>
+											<a href="/occasions/c-Photo_Gift_Occassions" class="htLast" id="htNavOccasions" onmouseover="$('htOccasions').show();" onmouseout="$('htOccasions').hide();">Occasions <img src="/A/external/gallery/images/marketing/navigation/a/navigation-arrow.gif" class="htCarat" alt="" /></a>
+										</div> <!-- /htShop -->
+				
+			</div> <!-- /htMainNav -->
+		<!-- ######## END Cart Display Switch ####### -->
+	
+	
+	<div id="htDropDowns" class="navDrop">		
+		<div id="htMyGallery" onmouseover="$('htMyGallery').show();" onmouseout="$('htMyGallery').hide();">
+			<ul>
+					<li>
+						<a href="/my-photos" style="width: 86px;">My Photos</a>
+									</li>
+					<li>
+						<a href="/my-photo-projects" style="width: 75px;">My Projects</a>
+								</li>
+			</ul>
+		</div>
+		<div id="htSharing" onmouseover="$('htSharing').show();" onmouseout="$('htSharing').hide();">
+			<ul>
+				<li>
+					<a href="/group-albums/c-event_albums" title="Group Albums">Group Albums</a>
+							</li>
+				<li>
+					<a href="/mobile?immc=MobileApp-_-ShareNav" title="Mobile Apps">Mobile Apps</a>
+				</li>
+				<li>
+				<a href="/video-slideshows/c-video_slideshow" title="Video Slideshow">Video Slideshow</a>
+								</li>
+				<li>
+							<a href="/gallery/sharing-site.jsp" title="Sharing Site">Sharing Site</a>
+						</li>
+					</ul>
+		</div>
+		<div id="htPrints" onmouseover="$('htPrints').show();" onmouseout="$('htPrints').hide();">
+			<ul>
+				<li>										
+											<a href="/prints/premium-prints/pc-C150008-c-premium_prints;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Premium Prints</a></li>
+									<li>										
+											<a href="/prints/professional-prints/pc-C150008-c-professional_prints;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Professional Prints</a></li>
+									<li>										
+											<a href="/prints/collage-prints/pc-C150008-c-Collage;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Collage Prints</a></li>
+									<li>										
+											<a href="/prints/photo-enlargements/pc-C150008-c-poster_prints;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Photo Enlargements</a></li>
+									<li>										
+											<a href="/photo-gifts/frames/pc-photo_gifts-c-frames;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Frames</a></li>
+									</ul>
+		</div>
+		<div id="htCards" onmouseover="$('htCards').show();" onmouseout="$('htCards').hide();">
+			<ul>
+				<li>										
+											<a href="/cards/mothers-day/pc-C2110002-c-C1610001;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Mother's Day</a></li>
+									<li>										
+											<a href="/cards/spring/pc-Cards-c-Cat140013;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Spring</a></li>
+									<li>										
+											<a href="/cards/graduation/pc-Cards-c-Cat140017;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Graduation</a></li>
+									<li>										
+											<a href="/cards/monogram/pc-Cards-c-Monogram;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Monogram</a></li>
+									<li>										
+											<a href="/cards/thank-you/pc-Cards-c-cat_10020021;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Thank You</a></li>
+									<li>										
+											<a href="/cards/baby-announcements/pc-Cards-c-cat_10010004;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Baby</a></li>
+									<li>										
+											<a href="/cards/birthday/pc-Cards-c-cat_10020001;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Birthday</a></li>
+									<li>										
+											<a href="/cards/full-photo-and-solids/pc-Cards-c-C450003;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Full Photo &amp; Solids</a></li>
+									<li>										
+											<a href="/cards/wedding/pc-C2110002-c-cat_10010010;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Wedding</a></li>
+									</ul>
+		</div>
+		<div id="htWallDecor" onmouseover="$('htWallDecor').show();" onmouseout="$('htWallDecor').hide();">
+			<ul>
+				<li>										
+											<a href="/wall-decor/new-wall-decor/pc-Wall_Art_and_Photo_Canvas-c-new_wall_decor;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">NEW Wall Decor</a></li>
+									<li>										
+											<a href="/wall-decor/photo-wall-art/pc-Wall_Art_and_Photo_Canvas-c-photo_wall_art;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Photo Wall Art</a></li>
+									<li>										
+											<a href="/wall-decor/mounted-lustre-print/pc-Wall_Art_and_Photo_Canvas-c-mounted_lustre_print;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Mounted Lustre Print</a></li>
+									<li>										
+											<a href="/wall-decor/framed-mounted-poster/pc-Wall_Art_and_Photo_Canvas-c-framed_mounted_poster;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Framed Mounted Poster</a></li>
+									<li>										
+											<a href="/wall-decor/photo-canvas/pc-Wall_Art_and_Photo_Canvas-c-Photo_Realistic_Canvas;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Photo Canvas</a></li>
+									<li>										
+											<a href="/wall-decor/framed-photo-canvas/pc-Wall_Art_and_Photo_Canvas-c-framed_canvas;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Framed Photo Canvas</a></li>
+									<li>										
+											<a href="/wall-decor/artistic-photo-canvas/pc-Wall_Art_and_Photo_Canvas-c-Brushstroke_Canvas;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Artistic Photo Canvas</a></li>
+									<li>										
+											<a href="/wall-decor/easel/pc-Wall_Art_and_Photo_Canvas-c-5X7_Easel;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Easel</a></li>
+									<li>										
+											<a href="/wall-decor/8x10-photo-canvas/pc-Wall_Art_and_Photo_Canvas-c-8X10_Canvas;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">8x10 Photo Canvas</a></li>
+									</ul>
+		</div>
+	<div id="htGift" onmouseover="$('htGift').show();" onmouseout="$('htGift').hide();">
+			<ul>
+				<li>										
+											<a href="/photo-gifts/new-photo-gifts/pc-photo_gifts-c-new_gifts;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">NEW Photo Gifts</a></li>
+									<li>										
+											<a href="/photo-gifts/blankets/pc-photo_gifts-c-Blankets;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Blankets</a></li>
+									<li>										
+											<a href="/photo-gifts/drinkware/pc-photo_gifts-c-drinkware;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Drinkware</a></li>
+									<li>										
+											<a href="/photo-gifts/fashion-accessories/pc-photo_gifts-c-fashion_accessories;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Fashion Accessories </a></li>
+									<li>										
+											<a href="/photo-gifts/frames/pc-photo_gifts-c-frames;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Frames</a></li>
+									<li>										
+											<a href="/photo-gifts/games-and-entertainment/pc-photo_gifts-c-games_entertainment;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Games &amp; Entertainment</a></li>
+									<li>										
+											<a href="/photo-gifts/gift-ideas/pc-photo_gifts-c-gift_ideas;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Gift Ideas</a></li>
+									<li>										
+											<a href="/photo-gifts/home-accents/pc-photo_gifts-c-home_accents;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Home Accents</a></li>
+									<li>										
+											<a href="/photo-gifts/magnets/pc-photo_gifts-c-magnets;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Magnets</a></li>
+									<li>										
+											<a href="/photo-gifts/office-and-travel/pc-photo_gifts-c-office_and_travel;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Office &amp; Travel </a></li>
+									<li>										
+											<a href="/fashion-accessories/premium-leather-products/pc-fashion_accessories-c-premium_leather;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main">Premium Leather Products</a></li>
+									</ul>
+		</div>
+		<div id="htProducts" onmouseover="$('htProducts').show();" onmouseout="$('htProducts').hide();">
+			<ul>
+				<li>
+					<a href="/archive-dvd/c-archive_dvd" title="Archive DVD">Archive DVD</a>
+							</li>
+				<li>
+					<a href="/calendars/c-Calendar" title="Calendars">Calendars</a>
+							</li>
+				<li>
+					<a href="/cards/c-Cards" title="Photo Cards">Cards</a>
+							</li>
+				<li>
+					<a href="/collage-prints/c-Collage" title="Collages">Collages</a>
+							</li>
+				<li>
+					<a href="/frames/c-frames" title="Frames">Frames</a>
+							</li>
+				<li>
+					<a href="/iphone-cases/c-iphone_case" title="iPhone Cases">iPhone Cases</a>
+							</li>
+				<li>
+					<a href="/photo-books/c-C830001" title="Photo Books">Photo Books</a>
+							</li>
+					<li>
+
+					<a href="/prints/photo-prints" title="Premium Prints">Premium Prints</a>
+
+				</li>
+				
+				<li>
+					<a href="/prints/professional-prints" title="Professional Prints">Professional Prints</a>
+
+				</li>
+			
+				
+				<li>
+					<a href="/video-slideshows/c-video_slideshow" title="Video Slideshows">Video Slideshows</a>
+
+							</li>
+				<li>
+					<a href="/wall-decor/c-Wall_Art_and_Photo_Canvas" title="Wall D&#233;cor">Wall D&#233;cor</a>
+
+							</li>
+				<li>
+					<a href="/new-collections/pc-Products-c-C2120001" title="The Collections">The Collections</a>
+
+							</li>
+			</ul>
+		</div>
+		<div id="htOccasions" onmouseover="$('htOccasions').show();" onmouseout="$('htOccasions').hide();">
+			<ul>
+			
+				<li>
+					<a href="/baby-guide/c-C1570001" title="Baby">Baby</a>
+
+							</li>
+				
+				<li>
+					<a href="/birthday-inspiration-guide/c-Birthday" title="Birthday">Birthday</a>
+							</li>
+				<li>
+					<a href="/grandparents/c-Grandparents" title="Grandparents">Grandparents</a>
+							</li>
+				<li>
+					<a href="/mothers-day-gifts/c-C750001" title="Mother's Day">Mother's Day</a>
+
+							</li>
+
+				<li>
+					<a href="/graduation-guide/c-Graduation" title="Graduation">Graduation</a>
+
+							</li>
+				
+				
+				<li>
+					<a href="/travel-inspiration/c-Travel" title="Travel">Travel</a>
+							</li>
+				<li>
+					<a href="/wedding-guide/c-C850002" title="Wedding">Wedding</a>
+							</li>
+			</ul>
+		</div>
+	</div> <!-- /htDropDowns -->
+
+	
+</div>
+
+<div id="kodakMainContent" class="kodak_main_content">
+			<div class="tertiarynav clearfix"></div>
+			
+		<script type="text/javascript" src="/A/external/gallery/js/smoothbox.js"></script>
+	<script type="text/javascript" src="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/creativeapps/common/js/esg/viewUtil.js"></script>
+	<script type="text/javascript" src="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/creativeapps/photoPicker/js/config.js"></script>
+	<script type="text/javascript" src="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/creativeapps/common/js/AC_OETags.js"></script>	
+	<script type="text/javascript">
+	//<![CDATA[ 
+	<!--
+		window.addEvent('domready', function() {
+			if(document.URL.match(/section=(.*)/)) {
+				var accDisplay = document.URL.match(/section=(.*)/)[1].toInt();
+			} else {
+				var accDisplay = 0;
+			}
+			 
+			// Accordion tabs
+			var tabAccordion = new Accordion($$('.mtab_toggle'), $$('.mtab_body'),{
+				show:accDisplay,
+				initialDisplayFx:0,
+				opacity:0,
+				height:0,
+				onActive: function(toggler,element){
+					toggler.addClass('current');
+					element.addClass('current');
+					// hack to fix the footer in ie; forces it to reconsider the positioning
+					if (Browser.Engine.trident) {
+						//$('pagefooter').setStyle('position','static');
+						//$('pagefooter').setStyle('position','absolute');
+					}
+				},
+				onBackground: function(toggler,element){
+					toggler.removeClass('current');
+					element.removeClass('current');
+				}
+			});	// end accordion tabs
+		});
+
+		function signIn() {
+			var url = "/gallery/creativeapps/photoPicker/albums.jsp";
+			if (esg.ident.model.isAnon) {
+				esg.ident.views.anonUploadDialogObj.display(function() {location.href = url;}, url);
+			}
+			else {
+				// Signed in user, redirect
+				location.href = url;
+			}				
+			return false;
+		}		      
+    //-->
+	//]]>
+	</script>
+	
+	<script type="text/javascript">
+	//<![CDATA[
+	<!--
+	function welcomeCookieChk(){
+		if (!cookiesAllowed()){ 		
+		$('cookieMsgfade').removeClass('unseen');
+		$('cookieMsgcontent').removeClass('unseen');		
+		};
+	}
+	window.onload=welcomeCookieChk;
+	//-->
+    //]]>
+	</script>
+	
+	<script type="text/javascript">
+	
+	//<![CDATA[
+	<!--
+
+		window.addEvent('domready',function(){
+			esg.ident.controller.execute("renderLandingIdentityContent",{dialog:'join'});
+
+		});
+
+	//-->
+	//]]>
+	</script>
+	
+	<style type="text/css">
+		#welcome_mobile_main {
+			position: relative;
+			height: 627px;
+			weight: 978px;
+			background: transparent url("/A/external/gallery/images/smo/tests/welcome_mobile/main.jpg") 0 0 no-repeat;
+		}
+		
+		#wm_left_promo {
+			float: left;
+			height: 126px;
+			width: 482px;
+			background: transparent url("/A/external/gallery/images/smo/tests/welcome_mobile/coming_soon.jpg") 0 0 no-repeat;
+		}
+		
+		#wm_right_promo {
+            float: right;
+        }
+		
+		a.ctaLargeBlue {
+			position: absolute;
+			top: 185px;
+			left: 43px;
+		}
+		
+		a.kgLink14 {
+            position: absolute;
+            top: 139px;
+            left: 349px;
+			display: block;
+		}
+		
+		a.shop01, a.shop02, a.shop03, a.shop04 {
+            position: absolute;
+            top: 444px;
+            left: 135px;
+            display: block;
+        }
+		
+		a.shop02 {
+            position: absolute;
+            top: 460px;
+            left: 432px;
+            display: block;
+        }
+		
+		a.shop03 {
+            position: absolute;
+            top: 561px;
+            left: 135px;
+            display: block;
+        }
+		
+		a.shop04 {
+            position: absolute;
+            top: 561px;
+            left: 432px;
+            display: block;
+        }
+		
+		#wm_left_promo {
+			position: relative;
+		}
+		
+		#wm_left_promo p {
+			position: absolute;
+			line-height: 1.2em;
+			top: 99px;
+			left: 143px;
+		}
+
+	</style>
+	
+    
+	<div id="welcome_mobile_main">
+		<a href="/mobile" class="ctaLargeBlue">Get FREE App</a>
+		<a href="/mobile" class="kgLink14">Learn More</a>
+		<a href="/products/photo-books/pc-Products-c-C830001" class="kgLink12 shop01" title="Shop Photo Books">Shop</a>
+		<a href="/photo-gifts/c-photo_gifts" class="kgLink12 shop02" title="Shop Photo Gifts">Shop</a>
+		<a href="/wall-decor/c-Wall_Art_and_Photo_Canvas" class="kgLink12 shop03" title="Shop Wall Decor">Shop</a>
+		<a href="/wall-calendars/pc-Calendar-c-wall_calendar" class="kgLink12 shop04" title="Shop Wall Calendars">Shop</a>
+	</div>
+	
+	<div id="wm_left_promo">
+		<p>Exclusive products you can make only through the app.</p>
+	</div>
+	
+	<div id="wm_right_promo"><a href="/mothers-day-gifts/c-C750001"><img src="/A/external/gallery/images/smo/tests/welcome_mobile/mdgg.jpg" width="482" height="126" alt="Mom's a star.  Shop out gift guide.  Shop for Mom." /></a></div>
+	
+    <div class="clear"></div>
+    
+	<div id="bottom_content_welcome"> 
+        <strong>About KODAK Gallery</strong>
+        <p>KODAK Gallery makes it easy to do so much more with your photo memories. Turn your most treasured moments into beautiful KODAK-quality <a title="prints" href="/prints/photo-prints">prints</a>, gorgeous <a title="Photo Cards" href="/photo-cards/pc-Products-c-Cards">photo cards</a>, <a title="photo books" href="/photo-books-and-photo-albums/pc-Products-c-C830001">photo books</a>, <a title="photo mugs" href="/photo-gifts/photo-mugs/c-Mugs">photo mugs</a>, and a huge selection of <a title="photo gifts" href="/photo-gifts/pc-Products-c-photo_gifts">photo gifts</a> to personalize and make your own with our easy customization features. Plus, now you can easily, quickly and securely   <a title="Share your photos and projects" href="/photo-sharing">share your photos and projects</a>, including direct Gallery-to-Facebook sharing. KODAK Gallery also offers photo storage and online photo printing for all of your KODAK Moments.  We also offer volume pricing on most of our products so the more you buy, the more you save. Of course, all of our products are backed by our 100% Satisfaction Guarantee.</p>
+    </div>
+
+    <!--[if IE 8]><link rel="stylesheet" href="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/ECBO/css/gallery/ie8.css" type="text/css" title="ie overrides" media="all" /><![endif]-->
+<!--[if lt IE 8]><link rel="stylesheet" href="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/ECBO/css/gallery/iefixes.css" type="text/css" title="ie overrides" media="all" /><![endif]-->
+<!--[if lt IE 7]><link rel="stylesheet" href="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/ECBO/css/gallery/ie6.css" type="text/css" title="ie6 overrides" media="all" /><![endif]-->
+
+<!-- Google Code for Homepage Remarketing List -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1060778572;
+		var google_conversion_language = "en";
+		var google_conversion_format = "3";
+		var google_conversion_color = "666666";
+		var google_conversion_label = "DuVjCMCSkwIQzOTo-QM";
+		var google_conversion_value = 0;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1060778572/?label=DuVjCMCSkwIQzOTo-QM&amp;guid=ON&amp;script=0"/>
+		</div>
+	</noscript></div><div id="modal_overlay" style="z-index: 5200; display: none;"></div>
+	<div id="quickView" style="z-index: 5500; display: none; position: absolute; top: 300px; left: 30px; margin: 0 auto;" class="">
+		<div id="quickviewExit" ><img alt="Close Quick View" src="/A/Kodak_Gallery_Media/ECBO/images/cards/quickViewX.gif" onclick="javascript:$('quickView').setStyle('display', 'none');$('modal_overlay').setStyle('display', 'none');">
+		</div>
+	</div>
+	<div id="quicklookdialog" class="iframeshim">
+			<div class="cardpreviewtopleft"><div class="cardpreviewtopright clearfix">
+				<div class="quicklookskuname"><span id="frameDisplayName"></span>&nbsp;|&nbsp;<span class="quicklookcommon"><span id="frameSizes" ></span></span><a class="dialogclose" onclick="displayContent('','','','');quicklookclose();" href="javascript:void(0);" title="close enlarged view"></a></div>
+				<div class="quicklooklinetop"></div>
+				<div id="quicklookimg">
+					<p align="center"><img id="quickImg" /></p>
+				</div>
+				<div class="quicklooklinebot"></div>
+				<div class="quicklookbuttons"><a id="getStarted" class="linkbutton" href="/gallery/product.jsp?catId="><span><input type="button" class="linkbutton" onclick="javascript:$('getStarted').href += '&productId='+layerProId;return getStarted();";" value="Get Started" /></span></a></div>
+			</div></div>
+			<div class="cardpreviewbotright"><div class="cardpreviewbotleft"></div></div>
+			<!--[if lte IE 6.5]><iframe style="visibility: hidden;"></iframe><![endif]-->
+	</div>
+<div id="delmsg">
+		<div class="dialogtopleft">
+		<div class="dialogtopright clearfix">
+			<div class="cookieContent">
+				<!-- do not put an h2 tag around this -->
+				<p><strong>Are you sure you want to delete this Print or group of Prints?</strong></p>																	
+				</div>
+				<form action="/gallery/welcome.jsp;jsessionid=EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main?_DARGS=/gallery/includes/pagefooter.jsp" method="post"><input value="ISO-8859-1" type="hidden" name="_dyncharset"/><input value="1319657801321615995" type="hidden" name="_dynSessConf"/><input value="" type="hidden" name="/kodak/commerce/order/purchase/CartItemFormHandler.relationshipIds" id="hiddenRelationshipId"/><input value=" " type="hidden" name="_D:/kodak/commerce/order/purchase/CartItemFormHandler.relationshipIds"/><input value="CartItemFormHandler.successURL.B" type="hidden" name="/kodak/commerce/order/purchase/CartItemFormHandler.successURL"/><input value=" " type="hidden" name="_D:/kodak/commerce/order/purchase/CartItemFormHandler.successURL"/><input value="CartItemFormHandler.errorURL.B" type="hidden" name="/kodak/commerce/order/purchase/CartItemFormHandler.errorURL"/><input value=" " type="hidden" name="_D:/kodak/commerce/order/purchase/CartItemFormHandler.errorURL"/><input value="false" type="hidden" name="/kodak/commerce/order/purchase/CartItemFormHandler.useForwards"/><input value=" " type="hidden" name="_D:/kodak/commerce/order/purchase/CartItemFormHandler.useForwards"/><a href="javascript:void(0);" class="linkbutton tertiarybutton" onclick="hideConfirmLayer();"><span>Cancel</span></a>
+					<span class="addbutgap"></span>
+					<a class="linkbutton"><span><input value="OK" type="submit" name="/kodak/commerce/order/purchase/CartItemFormHandler.removeByRelationshipId"/><input value=" " type="hidden" name="_D:/kodak/commerce/order/purchase/CartItemFormHandler.removeByRelationshipId"/></span></a>
+					<br /><br />
+				<input value="/gallery/includes/pagefooter.jsp" type="hidden" name="_DARGS"/></form></div></div>
+		<div class="dialogbotright">
+		<div class="dialogbotleft">&nbsp;</div>
+		</div>
+	</div>
+
+		
+<!--[if IE 8]><link rel="stylesheet" href="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/ECBO/css/gallery/ie8.css" type="text/css" title="ie overrides" media="all" /><![endif]-->
+<!--[if lt IE 8]><link rel="stylesheet" href="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/ECBO/css/gallery/iefixes.css" type="text/css" title="ie overrides" media="all" /><![endif]-->
+<!--[if lt IE 7]><link rel="stylesheet" href="http://assets.kodakgallery.com/A/Kodak_Gallery_Media/ECBO/css/gallery/ie6.css" type="text/css" title="ie6 overrides" media="all" /><![endif]-->
+<!-- ########################## -->
+<style type="text/css">
+	#pagefooter {
+		position: relative;
+    	width: 974px;
+		text-align: left;
+		margin: 0 auto;
+		}
+	
+	#pagefooter .footermap ul {
+		float: left;
+		margin-right: 10px;
+		border-left: 1px solid #ddd;
+		height: 260px;
+		}
+	
+	#pagefooter .footermap ul.noBorder {border-width: 0;}
+	
+	#pagefooter .footermap li {
+		width: 144px;
+		padding-left: 10px;
+		margin-bottom: 4px;
+		font-size: 11px;
+		color: #666;
+		}
+	
+	#pagefooter .footermap li.imgLink {margin-top: -6px;}
+	
+	#pagefooter .footermap ul.last {margin-right: 0;}
+	
+	#pagefooter .footermap li.last {width: 134px;}
+	
+	#pagefooter .footermap li.head {
+		font-weight: bold; color: #333;
+		}
+	
+	#pagefooter .footermap li.head a {color: #333;}
+	
+	#pagefooter .footermap li a {color: #666;}
+	
+	#pagefooter .footermap li a img {
+		position: relative; top: 6px;
+		}
+	
+	#pagefooter .footermap li.head a:hover, #pagefooter .footermap li a:hover {color: #ffc200;}
+	
+	#pagefooter .footermap li sup {font-size: .6em;}
+	
+	#footerLogos {
+		position: absolute; top: 180px; left: 669px;
+		}
+	
+	#footerLogos .midLogoLink {margin: 0 10px;}
+	
+	#footerCopyright {
+		font-size: 11px; color: #999;
+		clear: both;
+		margin-top: 10px;
+		}
+
+</style>
+
+<div style="clear: both;"></div>
+		<div id="pagefooter">
+			<div class="footermap clearfix" id="footerMap">
+				<ul class="noBorder">
+					<li class="head"><a href="/photo-sharing" title="Photo Sharing">Photo Sharing</a></li>
+						<li><a href="/group-albums/c-event_albums" title="Group Albums">Group Albums</a></li>
+							<li>
+						
+						<script type="text/javascript" language="javascript">
+                            if ((ua.match(/iphone/i)) || (ua.match(/ipad/i))) {
+                                document.write('<a href="/gallery/lp/tablet.jsp" title="Upload Photos">Upload Photos</a>');
+                            } else {
+                                document.write('<a href="/upload-photos" title="Upload Photos">Upload Photos</a>');
+                            }
+                        </script>
+					</li>
+					<li><a href="/video-slideshows/c-video_slideshow" title="Video Slideshow">Video Slideshow</a></li>
+							<li>&nbsp;</li>				
+					<li class="head"><a href="/prints/c-C150008" title="Photo Prints">Photo Prints</a></li>
+							<li><a href="/premium-prints/c-premium_prints" title="Premium Prints">Premium Prints</a></li>
+							<li><a href="/professional-prints/c-professional_prints" title="Professional Prints">Professional Prints</a></li>
+
+							<li><a href="/photo-enlargements/c-poster_prints" title="Photo Enlargements">Photo Enlargements</a></li>
+
+							<li><a href="/photo-enlargements/c-poster_prints" title="Poster Prints">Poster Prints</a></li>
+							</ul>
+				<ul>
+					<li class="head"><a href="/photo-books/c-C830001" title="Photo Books">Photo Books</a></li>
+							<li><a href="/small-photo-books/c-small_photo_books" title="Small Photo Books">Small Photo Books</a></li>
+							<li><a href="/medium-photo-books/c-medium_photo_books" title="Medium Photo Books">Medium Photo Books</a></li>
+							<li><a href="/large-photo-books/c-large_photo_books" title="Large Photo Books">Large Photo Books</a></li>
+							<li>&nbsp;</li>
+					<li class="head"><a href="/cards/c-Cards" title="Photo Cards">Photo Cards</a></li>
+							<li><a href="/anniversary-love/c-C140002" title="Anniversary Photo Cards">Anniversary Photo Cards</a></li>
+							<li><a href="/baby-announcements/c-cat_10010004" title="Photo Baby Announcements">Photo Baby Announcements</a></li>
+							<li><a href="/birthday/c-cat_10020001" title="Birthday Photo Cards">Birthday Photo Cards</a></li>
+							<li><a href="/christmas-1225/c-cards_christmas" title="Christmas Photo Cards">Christmas Photo Cards</a></li>
+							<li><a href="/holiday-cards/c-cards_holiday" title="Holiday Photo Cards">Holiday Photo Cards</a></li>
+							<li><a href="/thank-you/c-cat_10020021" title="Photo Thank You Cards">Photo Thank You Cards</a></li>
+							<li><a href="/wedding/c-cat_10010010" title="Wedding Photo Invitations">Wedding Photo Invitations</a></li>
+							<li><a href="/invitations/c-cat_10020027" title="Photo Invitations">Photo Invitations</a></li>
+							</ul>
+				<ul>
+					<li class="head"><a href="/photo-gifts/c-photo_gifts" title="Photo Gifts">Photo Gifts</a></li>
+							<li><a href="/home-accents/c-home_accents" title="Home Accents">Home Accents</a></li>
+							<li><a href="/office-and-travel/c-office_and_travel" title="Office &amp; Travel">Office &amp; Travel</a></li>
+							<li><a href="/calendars/c-Calendar" title="Photo Calendars">Photo Calendars</a></li>
+							<li><a href="/photo-canvas/c-Photo_Realistic_Canvas" title="Photo Canvas">Photo Canvas</a></li>
+							<li><a href="/collage-prints/c-Collage" title="Photo Collages">Photo Collage Prints</a></li>
+							<li><a href="/fine-jewelry/c-Photo_Fine_Jewelry" title="Photo Jewelry">Photo Jewelry</a></li>
+							<li><a href="/magnets/c-magnets" title="Photo Magnets">Photo Magnets</a></li>
+							<li><a href="/custom-mouse-pads/c-Mouse_Pad" title="Photo Mousepads">Photo Mousepads</a></li>
+							<li><a href="/drinkware/c-drinkware" title="Drinkware">Photo Mugs &amp; Drinkware</a></li>
+							<li><a href="/ornaments/c-Photo_Gift_Ornaments" title="Photo Ornaments">Photo Ornaments</a></li>
+							<li><a href="/frames/c-frames" title="Picture Frames">Picture Frames</a></li>
+							<li><a href="/wall-decor/c-Wall_Art_and_Photo_Canvas" title="Wall Decor">Wall D&#233;cor</a></li>
+							</ul>
+				<ul>
+					<li class="head">Stay Connected</li>
+					<li class="imgLink"><a href="http://www.facebook.com/kodakgallery" target="_blank" title="Facebook"><img src="/A/external/gallery/images/smo/site/footer/facebook_logo_21x21.png" height="21" width="21" alt="" /> Facebook</a></li>
+					<li class="imgLink"><a href="http://pinterest.com/kodakgallery/" target="_blank" title="Pinterest"><img src="/A/external/gallery/images/smo/site/footer/pinterest_logo_21x21.png" height="21" width="21" alt="" /> Pinterest</a></li>
+					<li class="imgLink"><a href="http://twitter.com/GalleryExposure" target="_blank" title="Twitter"><img src="/A/external/gallery/images/smo/site/footer/twitter_logo_21x21.png" height="21" width="21" alt="" /> Twitter</a></li>
+					<li><a href="http://www.kodakgalleryblog.com">Check out our blog</a></li>
+
+					<li><a href="/community/c-community" title="Community">Community</a></li>
+							<li><a href="http://www.kgexposure.com/" target="_blank" title="Exposure Newsletter">Exposure Newsletter</a></li>
+					<li><a href="/gallery/lp/kodakmoment/kodakmoment.jsp" title="Kodak Moments(tm)">Kodak Moments<sup>TM</sup></a></li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li><a href="#" onclick="window.open('http://gallerystudio.custhelp.com/app/ask','','height=600px,width=800px,scrollbars,resizable'); return false;" title="Send Us Feedback">Send Us Feedback</a></li>
+					<li>&nbsp;</li>
+                    <li>&nbsp;</li>
+					<li><a href="/gallery/smo/site/popular_searches/list.jsp">Popular Searches</a></li>
+				</ul>
+				<ul>
+					<li class="head">Kodak Gallery</li>
+					<li><a href="/overview/c-C240006" title="About Us">About Us</a></li>
+							<li><a href="/careers/c-careers" title="Careers">Careers</a></li>
+							<li><a href="/contact-us/c-contact_us" title="Contact Us">Contact Us</a></li>
+							<script type="text/javascript">
+						var showTime = "19"
+						if ((showTime > 5) && (showTime < 22)) {  // only display chat link from 6am -10pm
+							document.write("<li><a href=\"\" title=\"Live Chat\" onclick=\"window.open('http://gallerystudio.custhelp.com/cgi-bin/gallerystudio.cfg/php/enduser/chat.php','_blank','height=600px,width=800px,scrollbars,resizable'); return false;\">Live Chat</a></li>")
+						}
+					</script>					
+					<li><a href="/press-room/c-C240010" title="Press">Press</a></li>
+							<li><a href="/gallery/ship-options.jsp" title="Shipping Options">Shipping Options</a></li>
+					<li><a href="/gallery/ship-sameday.jsp" title="Same-Day Pickup Locations">Same-Day Pickup Locations</a></li>
+					<li><a href="/gallery/footerLinksContent.jsp?pageID=600006#return" title="Return Policy">Return Policy</a></li>
+				</ul>
+				<ul class="last noBorder">
+					<li class="last"><a href="#" onclick="window.open('http://cmscache.ofoto.com/publish/gallery/www/americas/en/us/fullpages/Help.html','','height=700px,width=800px,scrollbars,resizable'); return false;" title="Help">Help</a></li>
+					<li class="last"><a href="/gallery/lp/2011/volume/pricing.jsp">Volume Pricing</a></li>
+					<li class="last"><a href="http://www.kodak.com/eknec/PageQuerier.jhtml?pq-path=7797&pq-locale=en_US&CID=go&idhbx=privacy" target="kodak" title="Privacy">Privacy</a></li>
+					<li class="last"><a href="/gallery/footerLinksContent.jsp?pageID=600010" title="Terms">Terms</a></li>
+					<li class="last"><a href="/gallery/sitemap.jsp" title="Sitemap">Sitemap</a></li>
+					<li class="last"><a href="http://www.kodak.com" target="kodak" title="Kodak.com">Kodak.com</a></li>
+					<li class="last"><a href="/gallery/LanguageSelection.jsp" title="Kodak.com">International Sites</a></li>
+					<li class="last"><a href="/kg-affiliates/c-affiliates" title="Affiliate Program">Affiliate Program</a></li>
+							<li class="last"><a class="smoothbox" title="Offer Details" href="/gallery/marketing/fragments/legal.jsp?keepThis=true&TB_iframe=true&height=350&width=500">Offer Details</a></li>
+				</ul>
+			</div>
+			<div id="footerLogos">
+				<img src="/A/external/gallery/images/smo/site/footer/fsc_logo_55x75.png" width="55" height="75" alt="" style="position:relative; float: left"/>
+				<a href="https://www.entrust.net/customer/profile.cfm?domain=www.kodakgallery.com" target="new" title="Entrust Site Security">
+					<img src="/A/external/gallery/images/smo/site/footer/entrust_starburst.png" width="78" height="78" alt="" style="margin: 0px 10px; position:relative; float: left" />
+				</a>
+				<img src="/A/external/gallery/images/smo/site/footer/100guarantee_80x75.png" width="80" height="75" alt="" style="position:relative; float: left" />
+			</div>
+			<div id="footerCopyright">&copy; Kodak, 2012. All rights reserved.</div>
+			
+		</div> <!-- END #pagefooter -->
+		
+	<!-- ######################### -->
+
+<script type="text/javascript" src="http://cdnb1.kodakgallery.com/A/consolidatedFiles/identity_consolidated.min.v-3174640835.js"></script>
+			<script type="text/javascript">
+		//<![CDATA[
+		<!--
+			if (!esg) var esg = {};
+			if (!esg.ident) esg.ident = {};
+			if (!esg.ident)
+				esg.ident = {model:{}};
+			if (!esg.ident.model)
+				esg.ident.model = new Object();
+			esg.ident.model.member = '2159127484';
+			
+			esg.ident.model.ssId = '';
+				
+			esg.ident.model.login = 'anon_mem2159127484@kodakgallery.com';
+			esg.ident.model.firstName = " ";
+			esg.ident.model.isAnon = true;
+			esg.ident.model.facebookApplicationId = '130103297018848';
+			
+					esg.ident.model.isFBLogin = false;
+						    
+			if (false) {
+			esg.ident.model.isAnon = false;
+			}
+			if (!esg.viewUtil) esg.viewUtil = {};
+			esg.viewUtil.staticAssetPath = 'http://assets.kodakgallery.com/A';    
+			esg.viewUtil.rpmStaticAssetPath = 'http://assets.kodakgallery.com/A';
+			esg.viewUtil.cdnServerRootSmallFiles = 'http://cdns1.kodakgallery.com';
+			esg.viewUtil.cdnServerRootBigFiles = 'http://cdnb1.kodakgallery.com';
+			esg.ident.controller.execute('setCoBrand',{'brand':'usgallery'});
+			if (esg.photoPicker) esg.photoPicker.model.defaultUploader = '';
+			
+			function showConfirmLayer(relId) {
+				document.getElementById('hiddenRelationshipId').value = relId;
+				if(Browser.Engine.trident4 && $('numPhotos')) // GALRONESIX-739: In ie6, the select is a windowed element and as such lives on top of everything else. It is not affected by z-index at all. http://www.sitepoint.com/forums/showpost.php?p=3506163&postcount=5
+				{
+				    $('numPhotos').setStyle('visibility','hidden');
+				}
+				esg.viewUtil.modalBox.show('delmsg');
+			}
+			function hideConfirmLayer() {
+				if(Browser.Engine.trident4 && $('numPhotos'))
+				{
+				    $('numPhotos').setStyle('visibility','visible');
+				}
+				esg.viewUtil.modalBox.hide('delmsg');
+			}
+			
+		//-->
+		//]]>
+		</script>
+ 
+	<!-- CHAT CODE -->
+<div id="startChat">
+    <style type="text/css">
+
+        #chatDisplay {
+            position: fixed;
+            width: 974px;
+            bottom: 0;
+            height: 1px;
+            display: none;
+            background-color: transparent;
+			z-index: 999;
+        }
+
+        #chatWindow {
+            position: absolute;
+            left: 560px;
+            top: -350px;
+            height: 210px;
+            width: 270px;
+            background: transparent url("/A/external/gallery/images/marketing/promos/2011_04/chat-pop-up.png") 0 0 no-repeat;
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        }
+
+        #noChat {
+            display:block;
+            position: absolute;
+            top: 9px;
+            right: 9px;
+            height: 34px;
+            width: 103px;
+        }
+
+        #openChat {
+            display:block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 162px;
+            width: 270px;
+        }
+    </style>
+
+
+    <div id="chatDisplay">
+        <div id="chatWindow">
+            <a href="#" id="openChat" onclick="viewChat()"></a>
+            <a href="#" id="noChat" onclick="closeChat()"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        //<![CDATA[
+
+        function chatWindow (TB_HEIGHT,TB_WIDTH){
+            $('chatWindow').set('morph', {
+                duration: 10
+            });
+
+            $('chatWindow').morph({
+                width: TB_WIDTH + 'px',
+                left: (window.getScrollLeft() + (window.getWidth() - TB_WIDTH) / 2) + 'px',
+                top: (window.getScrollTop() + (window.getHeight() - TB_HEIGHT) / 2) + 'px'
+            });
+        }
+
+        function openChat(){
+			esg.analytics.controller.execute("chatInviteShown", {dialogName: "chatInvitePop", dialogAction: ""});
+            document.getElementById('chatDisplay').style.display = 'block';
+            $('chatWindow').set('tween', {
+                duration: 800
+            });
+            setTimeout("$('chatWindow').tween('opacity', 0, 1);",1500);
+            //wa_autoChat("auto chat prompt");
+        }
+
+        function closeChat(){
+			esg.analytics.controller.execute("chatInviteShown", {dialogName: "chatInvitePop",dialogAction: ":Nothanks_btnClick"});
+            document.getElementById('chatDisplay').style.display = 'none';
+			document.cookie = 'chatInviteShown=true; path=/; domain='+myDomain;
+        }
+
+        function viewChat(){
+			esg.analytics.controller.execute("chatInviteShown", {dialogName: "chatInvitePop",dialogAction: ":Chatnow_ btnClick"});
+            closeChat();
+            window.open('http://gallerystudio.custhelp.com/cgi-bin/gallerystudio.cfg/php/enduser/chat.php','_blank','height=600px,width=800px,scrollbars,resizable'); return false;
+        }
+
+        var showTime = "19"
+        if ((showTime > 5) && (showTime < 22)) {  // only display chat from 6am-10pm
+        
+			var myDomain = document.domain;
+			var chatInviteShown = Cookie.read('chatInviteShown');
+			if (chatInviteShown != 'true') { // if first visit, display invite and set cookie 
+				window.setTimeout('chatWindow;openChat();', 120000); //120-second delay
+			}
+        }
+
+
+        //-->
+
+        //]]>
+    </script>
+</div>
+<!-- END CHAT CODE -->
+	
+<div id="vendorPixel">
+		</div>
+	<script type="text/javascript">
+	
+		var s_account='kinkodakgallerycomprod';
+	
+		
+				var isBaynoteEnabled = true;
+			
+		
+		var s_trackingServer = 'metrics.kodakgallery.com';
+		var s_trackingServerSecure = 'smetrics.kodakgallery.com';
+
+	</script>
+	
+	<!-- Omniture beacons enabled -->
+			<script type="text/javascript" src="http://cdnb1.kodakgallery.com/A/consolidatedFiles/analytics_consolidated.min.v-834961899.js"></script>
+				<script type="text/javascript">
+		
+		
+						esg.analytics.model.sessionId="EBB15E424A5336C7FC1A98BAEADE6147.ecom604_main";
+						
+						
+						s.server = top.location.hostname;
+						
+						
+									s.eVar26 = '90316618503' 
+									s.prop5 = '90316618503|null';
+									s.eVar11 = s.prop5;								
+								
+														s.pageName = 'home_anon';
+													
+										s.channel = 'home';
+										s.prop1 = 'home';
+										s.prop2 = '';
+									
+								
+								s.prop3 = 'home';
+								esg.analytics.model.currentPageName = s.pageName;
+								s.prop8 = s.channel;
+								
+								//To track anonymous flows
+								if(esg.ident && esg.ident.model){
+									if(esg.ident.model.isAnon)
+										s.prop16 = "Anonymous: " + s.pageName;
+									else
+										s.prop16 = "Logged_in: " + s.pageName;				
+								} else {
+								 	s.prop16 = "Unknown: " + s.pageName;
+								}
+
+									
+								s.eVar8 = s.prop8;
+								if (s.prop1.split(":")[0] == "undefined") {
+									s.prop9 = s.prop1;
+								}
+								else {
+									s.prop9 = s.prop1.split(":")[1];
+								}
+								if (typeof(s.prop9)=="undefined" && typeof(s.prop1)!="undefined") {
+									s.prop9 = s.prop1;
+								}
+								s.eVar9 = s.prop9;
+								s.prop10 = s.prop2.split(":")[2];
+								s.eVar10 = s.prop10;
+								
+								if (s.prop3 == "product detail") {
+									s.hier1 = s.prop2 + ":" + s.pageName;
+								}
+								else if (s.prop3 == "home") {
+									s.hier1 == s.channel + ":" + s.pageName;
+								}
+								else {
+									s.hier1 = s.pageName
+								}
+								
+								
+								if ((s.prop3 == "product detail") || (s.prop3 == "application")) {
+									
+								}
+								
+								
+
+						s.t();
+					</script>
+		<!-- External analytics beacons enabled -->
+			<!-- Value Click Retargeting Pixel Begin Tag -->
+	        <iframe src="https://secure.img-cdn.mediaplex.com/0/20358/universal.html?page_name=kodak_retargeting&retargeting=1&mpuid=" HEIGHT=1 WIDTH=1 FRAMEBORDER=0></iframe>
+			<!-- Value Click Retargeting Pixel End Tag -->
+			<!-- Value Click New Signup Pixel Begin Tag -->
+			<!-- Value Click New Signup Pixel End Tag -->
+			<!-- Google Analytics -->
+				<script type="text/javascript">
+					var googTotal = 0 + 0;
+					var googShip = "";
+					var googShip = googShip.replace("$", "");
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-21600550-1']);
+					_gaq.push(['_trackPageview']);
+					_gaq.push(['_addTrans',
+						'', // order ID - required
+						'GalleryUS', // affiliation or store name
+						googTotal, // total - required
+						'0', // tax
+						googShip, // shipping
+						'blank', // city
+						'blank', // state or province
+						'blank' // country
+					]);
+					
+					// add item might be called for every item in the shopping cart
+					// where your ecommerce engine loops through each item in the cart and
+					// prints out _addItem for each
+					
+					
+					_gaq.push(['_trackTrans']); //submits transaction to the Analytics servers
+					
+					(function() {
+						var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+						ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					})();
+				</script>
+			<!-- END Google Analytics -->
+			
+			
+			<div id="siUploadPixel"></div>
+						
+						<div id="siSharePixel"></div>
+						
+						
+						<!-- Start of DoubleClick Floodlight Tag -->
+											<script type="text/javascript">
+														document.write('<iframe style="visibility:hidden" src="http://fls.doubleclick.net/activityi;src=2624116;type=conve753;cat=joinn528;ord=464898113?" width="1" height="1" frameborder="0"></iframe>');
+													</script>
+													<noscript>
+														<iframe style="visibility:hidden" src="http://fls.doubleclick.net/activityi;src=2624116;type=conve753;cat=joinn528;ord=1?" width="1" height="1" frameborder="0"></iframe>
+													</noscript>
+												<!-- End of DoubleClick Floodlight Tag -->
+										<!-- Begin YesMail tracking pixel -->
+											<!-- End YesMail tracking pixel -->
+										
+										<!-- Begin Triggit tag -->
+											<script language="javascript" type="text/javascript">
+												<!--
+													prop1 = 'home';
+													prop2 = '';
+													prop8and9 = new String();
+													prop10 = new String();
+													
+													if  (prop1 != null)
+													{
+														prop8and9 = prop1.replace(':', ',');
+													}
+													
+													if (prop2 != null)
+													{
+														if (prop2.split(":").length == 3)
+														{
+															prop10 = "," + prop2.split(":")[2];
+														}
+													}
+													
+													hierarchyStr = prop8and9 + prop10;
+												//-->
+											</script>
+											<!-- End Triggit tag -->
+										
+										<!-- begin Google SEM -->
+	<!-- end Google SEM -->
+
+
+												<!-- Begin Triggit pixel -->
+													<script type="text/javascript">
+														trg_user = "kodak";
+														trg_segments = ["2159127484", "Anon", hierarchyStr];
+													</script>
+													<script type="text/javascript" src="http://a.triggit.com/trgr.js"></script>
+												<!-- End Triggit pixel -->	
+											<!-- 360i start -->
+									<script src="http://kdkgllry.netmng.com/?aid=195" type="text/javascript" defer="defer"></script>
+								<!-- 3601 end -->
+							<script type="text/javascript" defer="defer" src="http://ipinvite.iperceptions.com/Invitations/Javascripts/ip_Layer_Invitation_878.aspx"></script>
+		<script>
+	if(!esg.ident) esg.ident = {};
+	if(!esg.ident.model) esg.ident.model = {};
+
+	
+			esg.ident.model.showPortBook = false;	
+		
+	//esg.ident.model.showPortBook = true; //showing port book until we decide not to
+</script>
+
+</div> <style type="text/css">
+			            #grand_takeover {
+			                position: absolute;
+			                top: 0;
+			                left: 0;
+			                height: 100%;
+			                width: 100%;
+			                z-index: 9999;
+							background: #fff; /* for non-css3 browsers */
+							display: none;
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee'); /* for IE */
+							background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)); /* for webkit browsers */
+							background: -moz-linear-gradient(top,  #fff,  #eee); /* for firefox 3.6+ */ 
+			            }
+			            #grand_inner {
+			                position: absolute;
+			                top: 0;
+							left: 50%;
+			                width: 790px;
+			                height: 600px;
+			                margin-left: -395px;
+							background: transparent url("/A/external/gallery/images/smo/promos/2012/take_over/print_to_store_takeover.jpg") 0 0 no-repeat;
+							box-shadow: 0 1px 5px 3px #ddd;
+							border: 1px solid #ddd\0/; /* hack for newer IE because it does not support box-shadow */
+							border: 1px solid #ddd\9; /* hack for older IE because it does not support box-shadow */
+						}
+						
+						a.takeOverOff {
+							display: block;
+							height: 100%;
+							width: 100%;
+						}
+						
+						a.contLink {
+							display: block;
+							position: absolute;
+							top: 0;
+							right: 0;
+							height: 30px;
+							width: 120px;
+						}
+						
+						a.contMobile {
+							display: block;
+			                position: absolute;
+			                top: 237px;
+			                left: 15px;
+			                height: 41px;
+			                width: 185px;
+						}
+			        </style>
+					
+			        <div id="grand_takeover">
+			        	<a href="#" class="takeOverOff" onClick="javascript:mainSite();" ></a>
+			            <div id="grand_inner">
+							<a href="#" class="contLink" onClick="javascript:mainSite();" ></a>
+							<a href="/mobile?immc=MobileApp-_-takeOver" class="contMobile" onClick="javascript:mobileLink();"></a>
+			            </div>
+			        </div>
+					
+					<script type="text/javascript">
+						// Kill Scrolling Ability
+						
+						// left: 37, up: 38, right: 39, down: 40,
+						// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+						var keys = [34, 35, 37, 38, 39, 40];
+						
+						function preventDefault(e) {
+						  e = e || window.event;
+						  if (e.preventDefault)
+						      e.preventDefault();
+						  e.returnValue = false;  
+						}
+						
+						function keydown(e) {
+						    for (var i = keys.length; i--;) {
+						        if (e.keyCode === keys[i]) {
+						            preventDefault(e);
+						            return;
+						        }
+						    }
+						}
+						
+						function wheel(e) {
+						  preventDefault(e);
+						}
+						
+						function disable_scroll() {
+						  if (window.addEventListener) {
+						      window.addEventListener('DOMMouseScroll', wheel, false);
+						  }
+						  window.onmousewheel = document.onmousewheel = wheel;
+						  document.onkeydown = keydown;
+						}
+						
+						function enable_scroll() {
+						    if (window.removeEventListener) {
+						        window.removeEventListener('DOMMouseScroll', wheel, false);
+						    }
+						    window.onmousewheel = document.onmousewheel = document.onkeydown = null;  
+						}
+						
+						//END Kill Scroll		
+										
+			            var myDomain = document.domain;
+			            var takeoverShown = Cookie.read('takeoverShown');
+			            var takeoverBody = document.getElementById("grand_takeover");
+			            
+			            if (takeoverShown != 'true') { // if first visit, display takeover and set cookie
+			                esg.analytics.controller.execute("mobileAppPromoShown", {
+			                  dialogName: "AppTakeoverPop",
+			                  dialogAction: ""
+			                });
+			                takeoverBody.style.display = "block";
+							disable_scroll()
+							document.cookie = 'takeoverShown=true; expires=Mon, 31 Dec 2040 23:59:59 UTC; path=/; domain=' + myDomain;
+			            }
+			            
+			            function mainSite(){
+			                esg.analytics.controller.execute("mobileAppPromoShown", {
+			                  dialogName: "AppTakeoverPop",
+			                  dialogAction: ":Nothanks_btnClick"
+			                });
+			                takeoverBody.style.display = "none";
+							enable_scroll()
+			            }
+			            
+			            function mobileLink(){
+			                esg.analytics.controller.execute("mobileAppPromoShown", {
+			                  dialogName: "AppTakeoverPop",
+			                  dialogAction: ":Getitnow_ btnClick"
+			                });
+			                window.location = "/mobile?immc=MobileApp-_-takeOver"
+							enable_scroll()
+			            }
+			            
+			        </script>
+
+				</body>
+</html>

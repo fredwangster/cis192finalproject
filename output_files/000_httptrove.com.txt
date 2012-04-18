@@ -1,0 +1,170 @@
+
+ 
+
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" lang="en">
+
+
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="description" content="Trove is a personalized news engine that lets users customize the way they view the Web's most intriguing stories."/>
+		<title>Trove: A Personalized News Service</title>
+		  
+    <link rel="stylesheet" type="text/css" href="http://bunsen.wapolabs.com/identity/news/prod/1.6.3/css/wapolabs-identity.css" />
+  
+  
+    <script type="text/javascript" src="http://bunsen.wapolabs.com/wapolabs/1.5.2/js/wapolabs.js"></script>
+  
+  
+      <script type="text/javascript" src="http://bunsen.wapolabs.com/identity/news/prod/1.6.3/js/wapolabs-identity.js"></script>
+  
+		<script type="text/javascript" src="http://bunsen.wapolabs.com/identity/1.6.3/js/popuplib.js"></script>
+		
+		
+          <script type="text/javascript" src="http://bunsen.wapolabs.com/identity/news/prod/1.6.3/js/wapolabs-identity-login.js"></script>
+        
+		
+          <script type="text/javascript" src="http://bunsen.wapolabs.com/identity/news/prod/1.6.3/js/wapo_identity.js"></script>
+        
+<!-- 		<link rel="stylesheet" type="text/css" href="//id.trove.com/identity/css/wapo_reg_sample.css" /> -->
+
+		<link rel="stylesheet" type="text/css" href="http://bunsen.wapolabs.com/identity/news/prod/1.6.3/css/identity_splash_20110526_minimal.css" /> 
+
+    </head>
+	<body class="wapolabs_identity Facebook  ">
+	    <script src="https://connect.facebook.net/en_US/all.js"></script>
+	    <script>
+		    function fbRedirect(access_token)
+		    {
+			    
+		    					    
+		    	window.location = 'http://id.trove.com/identity/public/login/facebook?wapo_site_domain&trove.com&wp_no_cancel=true&reg_group=&next_url=http%3A%2F%2Fwww.trove.com%2F&previous_url=http%3A%2F%2Fwww.trove.com%2F&access_token='+access_token;
+		    }
+	    </script>
+		
+			<div id="wapolabs_wrapperSiteCustomTop">
+			  <div id="news_top">
+</div>
+			</div>
+		
+
+      <div id="html-wapolabs_wrapperLoginOptions">
+        <hgroup>
+        <h1 class="logo"><span></span>Trove</h1>
+        <p class="msg-intro">
+			<strong>Trove lets you personalize the news</strong>
+			<ul class="msg-intro-list">
+				<li class="feature feature_1">Stay up to the minute on everything you care about</li>        
+				<li class="feature feature_2">See the latest from thousands of blogs and news sources</li>
+     		</ul>
+        </p>
+        </hgroup>
+       <div class="error message" id="wapolabsFlashMessage"></div>
+
+       <div id="fb_login_options">
+	        <p class="msg-fblogin">
+	          <script type="text/javascript">
+	             fbButtonClickThroughLogEvent = function(){
+		             $wpjQ('<img height="1" width="1" src="http://socialcodedev.com/tracking/pixel_fires.php?app_id=97651B2A80B011E084621231380DBA0D&app_action_type_id=BC6AFE3080B011E084621231380DBA0D" alt""/>').appendTo('#fb_login_options');
+	                 if(typeof(wapoEvent.logEvent) === 'function')
+	                 {
+	                	 wapoEvent.logEvent('fbButtonClickThrough', 'visitor', 'Facebook Button');
+	                 }
+	             }
+
+	              <!-- SocialCode Tracking -->
+	             $wpjQ('.fb_button').live('click', fbButtonClickThroughLogEvent);
+	             $wpjQ(document).ready(function(){
+	            	 $wpjQ('<img height="1" width="1" src="http://socialcodedev.com/tracking/pixel_fires.php?app_id=97651B2A80B011E084621231380DBA0D&app_action_type_id=BC65CBCC80B011E084621231380DBA0D" alt""/>').appendTo('#fb_login_options');
+		             });
+	             <!-- END: SocialCode Tracking -->
+              </script>
+	          <div id="fb_register"><fb:login-button size="large" onlogin="if( args[0].authResponse !== null && args[0].authResponse.accessToken){ fbRedirect(args[0].authResponse.accessToken); }" scope="user_likes,user_interests,user_activities,user_location,user_hometown,email,user_birthday,publish_actions">Login with Facebook</fb:login-button></div>
+
+	        </p>
+       </div>
+        <div id="help">
+       	  <script type="text/javascript">
+       		 privacyClickThroughLogEvent = function(){
+                 if(typeof(wapoEvent.logEvent) === 'function')
+                 {
+                	 wapoEvent.logEvent('privacyClickThrough', 'visitor', 'http://trove.com/privacy');
+                 }
+             }
+             </script>
+
+	       <div id="privacy">
+	         <a href="http://trove.com/privacy" onclick="privacyClickThroughLogEvent();">Why Facebook?</a>
+	       </div>
+        </div>
+		
+		
+		<div id="navigation_footer">
+		  <span class="copyright">&copy; 2011 WP Company, LLC</span><a href="http://trove.com/privacy" onclick="privacyClickThroughLogEvent();">Privacy Policy</a>
+		</div>
+      </div>
+
+		
+		<!-- footer scripts -->
+		
+			<div id="wapolabs_wrapperSiteCustomBottom">
+			  <div id="news_bottom">
+</div>
+			</div>
+		
+		<script type="text/javascript" src="http://bunsen.wapolabs.com/identity/1.6.3/js/wapo_identity_footer.js"></script>
+		<div id="wapo_338542"></div>
+	</body>
+	
+	    <div id="fb-root"></div>
+		<script type="text/javascript">
+		    FB.init({appId: '173895319314603', oauth: true, status: true,
+                    cookie: true, xfbml: true});
+            
+		    FB.getLoginStatus(function(response) {
+			   $wpjQ("#fb_register_init").attr("id", "fb_register")
+		    });
+		              
+		</script>
+		
+<!-- OMNITURE SCRIPT -->
+
+<script>
+  var s_account="wpnitroveprod";
+</script>
+
+<script src="http://bunsen.wapolabs.com/identity/news/prod/1.6.3/js/omniture.js" type="text/javascript"></script>
+
+<script>
+<!--
+  if (typeof s !== 'undefined'){
+    s['pageName'] = 'Trove - Identity Splash page';
+    s['channel'] = '';
+    s['prop3'] = '';  // content-type - editorial or user-generated
+    s['prop6'] = '';  // internal search phrases
+    s['prop31'] = '';  // reload - get query param, ex. &?reload=true
+    s['hier1'] = '';  // site hierarchy
+    s['hier2'] = 'Trove|Login';  // global hierarchy
+    event2 = '';  // # of unique searches
+  }
+  var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!-- if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-') //--></script>
+<noscript><img src="http://wpni.112.2o7.net/b/ss/wpnitroveprod/1/H.22.1--NS/0"
+  height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.22.1. -->
+
+<script type="text/javascript">
+  $wpjQ(document).bind('wapoInit', function() {
+	  if(typeof(wapoUtilities.checkVisitorId) === 'function' && typeof(wapoEnv) !== 'undefined' && typeof(wapoUtilities) !== 'undefined')
+	  {
+		  wapoUtilities.checkVisitorId(wapoEnv.site_base_domain);
+	  }
+  });
+</script>
+<!-- END: OMNITURE SCRIPT -->
+</html>
+
+
+
+

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google Website Optimizer Control Script -->
+<script>
+function utmx_section(){
+}function utmx(){
+}
+(function(){
+var k='0243819492',d=document,l=d.location,c=d.cookie;function f(n){
+if(c){
+var i=c.indexOf(n+'=');if(i>-1){
+var j=c.indexOf(';',i);return escape(c.substring(i+n.
+length+1,j<0?c.length:j))}
+}
+}
+var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+d.write('<sc'+'ript src="'+
+'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
++'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
++new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"></sc'+'ript>')
+})();
+</script>
+<!-- End of Google Website Optimizer Control Script -->
+<!-- Google Website Optimizer Tracking Script -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['gwo._setAccount', 'UA-2146411-10']);
+_gaq.push(['gwo._trackPageview', '/0243819492/test']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End of Google Website Optimizer Tracking Script -->
+<!-- Google Website Optimizer Tracking Script -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['gwo._setAccount', 'UA-2146411-10']);
+function doGoal(that) {
+try {
+_gaq.push(['gwo._trackPageview', '/0243819492/goal']);
+setTimeout('document.location = "' + that.href + '"', 100)
+} catch(err){}
+}
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End of Google Website Optimizer Tracking Script -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<title>Alexa the Web Information Company</title>
+<link href="http://pcache.alexa.com/css/jquery-ui.52d54ee69f4f11394bba39b6f71193e4.css" media="screen, projection" rel="stylesheet" type="text/css" >
+<link href="http://pcache.alexa.com/css/print.404faee5226e33c258dc6270b9d263c7.css" media="print" rel="stylesheet" type="text/css" >
+<link href="http://pcache.alexa.com/css/layout.94e8a62897e916695291e34ee4fb317d.css" media="screen, projection" rel="stylesheet" type="text/css" >
+<link href="http://pcache.alexa.com/css/jquery-autocomplete.f4ae9443bde5723b3367c4b291a9d11c.css" media="screen, projection" rel="stylesheet" type="text/css" >
+<!--[if IE 8]> <link href="http://pcache.alexa.com/css/ie8.50f1de2bb5e7334e564f27f78071d775.css" media="screen, projection" rel="stylesheet" type="text/css" ><![endif]-->
+<!--[if lt IE 8]> <link href="http://pcache.alexa.com/css/ie.72beb4834b7d15c9d890931591f892d2.css" media="screen, projection" rel="stylesheet" type="text/css" ><![endif]-->
+<script type="text/javascript" src="http://pcache.alexa.com/js/jquery.10092eee563dec2dca82b77d2cf5a1ae.js"></script>
+<script type="text/javascript" src="http://pcache.alexa.com/js/jquery-ui.f227e304d9ea5d0e8a9ef72453581a61.js"></script>
+<script type="text/javascript" src="http://pcache.alexa.com/js/pro/ext/jquery-validate-min.4558baefe235d0039dde576dd4b64bcb.js"></script>
+<script type="text/javascript" src="http://pcache.alexa.com/js/jquery-cookie.a3f20ad2daf87d189dcc493cdd399420.js"></script>
+<script type="text/javascript" src="http://pcache.alexa.com/js/jquery-autocomplete.7fd89ad42db6ca5241d7e9349c1d9a37.js"></script>
+<script type="text/javascript" src="http://pcache.alexa.com/js/alexa-ui.dd7b63593532deb4fdde372902219de2.js"></script>
+<script type="text/javascript" src="http://pcache.alexa.com/js/common.90100edd2547753d54395b057d2a9360.js"></script>
+<script type="text/javascript" src="http://pcache.alexa.com/js/Alexa.59c386d87c76a2d798135707c2dbe3d8.js"></script>
+<meta name="description" content="Alexa provides information about websites including Top Sites,
+Internet Traffic Stats and Metrics, Related Links, Online Reviews Contact Information
+and Search Analytics for SEM and SEO optimization. The Alexa Toolbar is a browser add-on
+that shows data about sites as you surf the web" >
+<script type="text/javascript">
+//this needs to run after Alexa.js has been loaded
+if('1') {
+A$.isProd = true;
+} else {
+A$.isProd = false;
+}
+if('1') {
+A$.useCF = true;
+} else {
+A$.useCF = false;
+}
+</script>
+<!--[if lt IE 9]>
+<script src="/js/ext/html5shiv-min.js"></script>
+<![endif]-->
+</head>
+<body id="homePage" class="">
+<div id="pageContainer">
+<div id="page">
+<header>
+<div id="header" >
+<nav id="header-inner">
+<div class="page-width page-top-shadow row">
+<div class="col-8">
+<a id="logo" href="/"><img src="/images/layout/logo.gif" alt="Alexa Internet"/></a>
+<img src="/images/logo.png" alt="Alexa Internet" class="textOff"/>
+</div>
+<div class="user-bar-wrapper col-16 last">
+<span class="user-bar">
+<ul id="mini-nav">
+<li><a href="/secure/login?resource=http%3A%2F%2Fwww.alexa.com%2F">Log In</a> or <a href="/register?resource=http%3A%2F%2Fwww.alexa.com%2F">Create an Account</a></li>
+<li class="last"><a href="/help">Help</a></li>
+</ul>
+</span>
+</div>
+</div>
+<!--  div class="search-spacer">
+&nbsp;
+</div -->
+<div class="page-width page-side-shadow row">
+<ul id="nav" class="">
+<li class="selected" >
+<a href="/">Home</a>
+</li>
+<li class="" >
+<a href="/siteowners">Site Tools</a>
+</li>
+<li class="" >
+<a href="/topsites">Top Sites</a>
+</li>
+<li class="" >
+<a href="/siteinfo">Site Info</a>
+</li>
+<li class="textOff" class="" >
+<a href="/reviews">Reviews</a>
+</li>
+<li class="" >
+<a href="/whatshot">What's Hot</a>
+</li>
+<li class="" >
+<a href="/toolbar?utm_source=top-nav&utm_medium=www&utm_campaign=toolbar">Toolbar</a>
+</li>
+<li class="" >
+<span class="nav-dashboard">
+<img src="/images/layout/icon-nav-DB.png" /> <a href="/pro/dashboard">Dashboard</a>
+</span>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+<section id="announcement" class="textOff"></section>
+<div class="page-width page-side-shadow row">
+<div id="threecolwrap">
+<section id="content" class="clearfix">
+<div id="content-inner">
+<div class="content-wrapper">
+<section id="search-home" class="search-home">
+<header>
+<hgroup>
+<h1>Discover success.</h1><br>
+<h4>Find and evaluate businesses worldwide with Alexa's free web analytics.</h4>
+</hgroup>
+</header>
+<form id="searchBox_form" class="searchForm" action='/search' onsubmit="$.cookie('ax_gr_last_tab', '#trafficstats', { expires: 1});">
+<div class="query">
+<input name="q" type="text" title="Enter a search query" value="" class="ac_input" id="searchbox" size="55"/>
+</div>
+<button title="Search" class="" type="submit" >
+<span>&nbsp;</span>
+</button>
+<input type="hidden" name="r" value="home_home" />
+<input type="hidden" name="p" value="bigtop" />
+</form>
+<p><strong>Example Searches:</strong> <a href="/search?q=laptops&r=home_home&p=top">laptops</a> or <a href="/search?q=lexus.com&r=home_home&p=top">lexus.com</a></p>
+</section>
+<script>utmx_section("homepage-learnmore")</script>
+<section id="outperform" class="row panel-row">
+<div class="panel-wrapper">
+<div class="row">
+<div class="outperform-left">
+<header>
+<hgroup>
+<h2>Outperform.</h2> <h4>Optimize your site. Get more traffic. Surpass your business goals with Site Tools from Alexa.</h4>
+</hgroup>
+</header>
+</div>
+<div class="outperform-right">
+<span class="inset-panel">
+<a class="see-more-icon" title="See all Site Tools" href="/siteowners?affiliate=home-ver-1">See all Site Tools</a>
+</span>
+</div>
+</div>
+<div class="row learn-more-wrapper">
+<span class="col-8 learn-more-sa">
+<a name="home-sa-btn" title="Alexa Site Audit" href="/siteaudit?affiliate=home-ver-1" class="learn-more trackme">
+<span class="hide-text">Alexa Site Audit: Grow your web traffic and improve your user experience. Learn more.</span>
+</a>
+</span>
+<span class="col-8 learn-more-pro">
+<a name="home-pro-btn" title="Premium Listing" href="/pro/premium-listing?affiliate=home-ver-1" onclick="doGoal(this);return false;" class="learn-more trackme">
+<span class="hide-text">Premium Listing: Attract advertisers and business partners with a "Premium Listing" on Alexa. Learn more.</span>
+</a>
+</span>
+<span class="col-8 learn-more-tc">
+<a name="home-atc-btn" title="Alexa Toolbar Creator" href="/toolbar-creator?affiliate=home-ver-1" class="learn-more trackme">
+<span class="hide-text">Alexa Toolbar Creator: Engage Your Audience. Increase Your Traffic. Create a FREE custom toolbar! Learn more.</span>
+</a>
+</span>
+</div>
+</div>
+</section>
+</noscript>
+<section id="home-data" class="row">
+<div class="col-12">
+<div class="home-data-left">
+<header><h3>The Global Leader in Analytics</h3></header>
+<p>Alexa is the leading provider of free, global web metrics.
+Search Alexa to discover the most successful sites on the web by <a href="/search">keyword</a>,
+<a href="/topsites/category">category</a>, or <a href="/topsites/countries">country</a>.
+Use our analytics for competitive analysis, benchmarking, market research, or business development.
+Use <a href="/siteowners">Alexa's Pro tools</a> to optimize your company's presence on the web.</p>
+</div>
+</div>
+<div class="col-12">
+<div class="home-data-right">
+<header>
+<hgroup>
+<h3>Join the Alexa Toolbar Community</h3>
+<a title="Join the Alexa Toolbar Community" href="/toolbar"><img src="/images/home/image-home-toolbar.gif"></a>
+<h4>Get the Alexa toolbar for your favorite browser!</h4>&nbsp;
+<a class="learn-more-btn" title="Learn more" href="/toolbar"></a>
+</hgroup>
+</header>
+</div>
+</div>
+</section>
+<section id="home-data-image" class="row">
+<ul class="hide-text">
+<li>Millions of toolbar users worldwide. Our global panel includes custom toolbars created by more than 25,000 publishers</li>
+<li>In depth coverage for over 125 countries. Alexa ranks 30 million websites worldwide</li>
+<li>Over 6,000,000 people visit Alexa each month. Alexa's data drives smart business decisions</li>
+</ul>
+<img src="/images/home/image-home-Infograph-new.jpg">
+</section>
+<section id="home-top-sites" class="row">
+<p>Click the links below to get free traffic metrics on the Top Sites from across the Web. <a title="See more Top Sites" class="see-more-icon" href="/topsites">See more Top Sites</a></p>
+<div>
+<a href="/siteinfo/google.com">google.com</a>
+<a href="/siteinfo/facebook.com">facebook.com</a>
+<a href="/siteinfo/youtube.com">youtube.com</a>
+<a href="/siteinfo/yahoo.com">yahoo.com</a>
+<a href="/siteinfo/baidu.com">baidu.com</a>
+<a href="/siteinfo/wikipedia.org">wikipedia.org</a>
+<a href="/siteinfo/live.com">live.com</a>
+<a href="/siteinfo/twitter.com">twitter.com</a>
+<a href="/siteinfo/qq.com">qq.com</a>
+<a href="/siteinfo/amazon.com">amazon.com</a>
+</div>
+</section>
+</div>
+<script type="text/javascript">
+;
+(function($){
+ALEXA.image.preload("/images/home/img-products-1-ov.png");
+})(jQuery);
+</script>
+</div>
+</section>
+<br clear="all"/>
+</div>
+</div>
+<div class="page-width page-side-shadow row">
+<footer id="footer">
+<div id="footer-inner">
+<div class="col">
+<h4><a href="/company/">Company</a></h4>
+<ul>
+<li><a href="/company/">About</a></li>
+<li><a href="/company/jobs">Jobs</a></li>
+</ul>
+</div>
+<div class="col">
+<h4><a href="/help">Help</a></h4>
+<ul>
+<li><a href="/help">Help System</a></li>
+<li><a href="/tour">Tour</a></li>
+<li><a href="/contact-us" class="trackme" name="contact-us">Contact Us</a></li>
+</ul>
+</div>
+<div class="col">
+<h4><a href="/siteowners">Alexa Tools for Site Owners </a></h4>
+<ul>
+<li><a href="/siteaudit">Get a Site Audit for your site</a></li>
+<li><a href="/toolbar-creator">Create a Custom Toolbar</a></li>
+<li><a href="/siteowners">Edit your site listing</a></li>
+</ul>
+</div>
+<div class="col">
+<h4><a href="/siteowners">Related Services</a></h4>
+<ul>
+<li><a class="rs-content" rel="nofollow" href="#" onclick="trackCustomEvent('ad/footer-free-website-content')">Free Website Content</a></li>
+<li><a href="/affiliates">Make money with Alexa</a></li>
+</ul>
+</div>
+<div id="disclaimers">
+<!-- <h4><xsl:if test="($browser='ie' and contains($lowercase-user-agent,'7.')) or ($browser='ff' and contains($lowercase-user-agent,'2.'))">
+<a class="ch" onclick="installSearchEngine()">Add Alexa to Your List of Search Providers!</a>
+</xsl:if></h4> -->
+<h4><a href='/toolbar'>Download the Alexa Toolbar!</a></h4>        <a href="/help/privacy">Privacy Policy</a> <span class="foot-divider">|</span>
+<a href="/help/terms">Terms of Use</a>  <br/>
+&#169;
+Alexa Internet, Inc.<br/>
+<img src="/images/amazon/an_amazon_company.png" width="181" height="33" border="0" alt="An Amazon.com Company"/>
+</div>
+<script type="text/javascript">
+$('.rs-sell').click(function() {
+window.location = 'http://www.amazonservices.com/content/sell-on-amazon.htm?ld=AOAlexaGFN';
+return false;
+});
+$('.amz-ads').click(function() {
+window.location = 'http://www.amazonservices.com/content/product-ads-on-amazon.htm?ld=AOPADSAlexaGFN';
+return false;
+});
+$('.amz-store').click(function() {
+window.location = 'http://webstore.amazon.com/?ld=AOWBAAlexaGFN';
+return false;
+});
+$('.amz-landing').click(function() {
+window.location = 'http://www.amazon.com/gp/seller-account/mm-landing.html';
+return false;
+});
+$('.rs-content').click(function() {
+window.location = 'http://www.thefreedictionary.com/_/lookup.htm?2063';
+return false;
+});
+$('.rs-aws').click(function() {
+window.location = 'http://aws.amazon.com/?utm_source=alexa&utm_medium=banner&utm_campaign=BAAlexaFooter';
+return false;
+});
+</script>
+</div>
+<br style="clear:both"/>
+</footer>
+</div>
+<div id="page-shadow"></div>
+</div>
+</div>
+<div style='display:none;' >
+<div id="survey-wrapper" class="for-online" style="z-index: 100; position: fixed; bottom: 2px; right: 2px; text-align: right; overflow: hidden; ">
+<a href=""
+style=""><img width="148" height="32" src="/images/buttons/btn-www-survey.gif" /></a>
+</div>
+</div>
+<!-- START GOOGLE ANALYTICS -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2146411-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript">
+function trackCustomEvent(customEvent) {
+var eventname = "/custom-event/home/"+customEvent;
+if (pageTracker != undefined) {
+pageTracker._trackPageview(eventname);
+return true;
+}
+}
+function trackExternalLink(externalLink) {
+return trackCustomEvent('external-link/'+externalLink.replace("http://", ""));
+}
+</script>
+<!-- END GOOGLE ANALYTICS -->
+<script type="text/javascript" language="JavaScript" src="https://d3hmb5h5qngs7g.cloudfront.net/atrk.js"></script>
+<script type="text/javascript" language="JavaScript">_atrk_opts = { atrk_acct: "s3LE913x9k00WW", domain:"alexa.com", label:"home" }; atrk ();</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=s3LE913x9k00WW" style="display:none" height="1" width="1"></noscript>
+<script>
+$('a.offsite').click( function() {
+trackExternalLink(this.href);
+});
+$('a.social').click( function() {
+trackCustomEvent( "social/" + this.name );
+});
+$('a.trackme').click( function() {
+trackCustomEvent( "link/" + this.name );
+});
+$('button.trackme').click( function() {
+trackCustomEvent('button/'+$(this).text());
+});
+$('a.trackme-cross').click( function() {
+trackCustomEvent( "link/" + this.name );
+});
+</script>	</body>
+</html>

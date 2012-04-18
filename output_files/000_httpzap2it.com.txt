@@ -1,0 +1,2187 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+<title>TV Listings Guide, TV Ratings, TV News, TV Shows - Zap2it</title>
+<!-- For daily TV news coverage, photos, Nielsen ratings, program info,
+reality recaps, network schedule updates, forums and more, bookmark Zap2it.  -->
+
+<link rel="SHORTCUT ICON" href="http://images.zap2it.com/favicon.ico" />
+<style type="text/css" media="all">@import "http://images.zap2it.com/mserv/main/oxygen2010.css";
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="" />
+
+<link rel="alternate" type="application/rss+xml" title="Zap2it RSS" href="http://feeds.feedburner.com/zap2it/news" />
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Visit Zap2it for TV listings, Nielsen ratings, TV show guides and news about your favorite TV shows, plus movies, movie times, theaters, trailers, photos and more."><meta name="msvalidate.01" content="25D1FFEEBCDDFC1CD4094BB606A4BA67" />
+<link rel="stylesheet" type="text/css" href="http://images.zap2it.com/css/zcc-cin.css" />
+<script type="text/javascript" src="/javascript/jquery-1.4.4.js"></script>
+<script type="text/javascript" id="checkinScript" src="http://api.zap2it.com/javascript/lib/checkin.js"></script>
+
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=t;dcopt=ist;sz=1x1;tile=1;ord=5465593?" type="text/javascript"></script>
+        <noscript><a href="http://ad.doubleclick.net/jump/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=t;sz=1x1;tile=1;ord=5465593?" target="_blank" rel="nofollow"><img src="http://ad.doubleclick.net/ad/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=t;dcopt=ist;sz=1x1;tile=1;ord=5465593?" width="1" height="1" border="0" alt=""></a></noscript>
+
+<script type="text/javascript">
+function clickclear(thisfield, defaulttext) {
+if (thisfield.value == defaulttext) {
+thisfield.value = "";
+}
+}
+
+function clickrecall(thisfield, defaulttext) {
+if (thisfield.value == "") {
+thisfield.value = defaulttext;
+}
+}
+</script>
+
+<script language="JavaScript" src="http://images.zap2it.com/html/tved_cookies.js"></script>
+<script language="JavaScript" type="text/JavaScript">window.name="zap2it"</script>
+<script language="JavaScript" type="text/JavaScript" src="/javascript/windoid.js"></script>
+
+<meta name="verify-v1" content="GCZqbk7CnRpjQOsU9KK1pwru/KkuqYslIZqcRLTBbRk=" />
+<meta name="verify-v1" content="lNLoSmbE9Ppz+SaIWaIhdCUz9dJGKqrkIkE9gWeMa8k=" />
+<script type="text/javascript" src="/javascript/jquery-1.4.4.js"></script>
+
+<script type="text/javascript" src="http://cdn.gigya.com/js/socialize.js?apiKey=2_NisyWDjVVWT1YTBECBbHekmNOxEreWJVG9bjvngY77RcKMrOiXki_3nvIbN_vNfr">
+{
+	siteName: 'zap2it.com',
+	connectWithoutLoginBehavior: "alwaysLogin",
+    newUsersPendingRegistration: false
+}
+</script>
+
+
+<script>  
+
+var gigyaCheckin = { action: "checkin" };
+var pageView = { action: "viewpage"  };
+var gigyaTweep = { action: "tweep" };
+var gigyaFriend = { action: "facebookfriend" };
+var loginState = null;
+
+
+    gigya.services.socialize.addEventHandlers({
+        onLogin: onLogin,
+        onLogout: onLogout
+    });
+ 
+
+        function onLoad() {          			
+			gigya.services.gm.notifyAction(pageView);
+	        		       }  
+	        		       
+    function refreshUI()
+    {
+        gigya.services.socialize.getUserInfo({
+            callback: renderUI
+        });
+    }
+    
+	function onLogout()
+	{
+		renderUI();
+gigya.services.gm.showAchievementsUI({containerID: 'divAchievements', excludeChallenges:'',width: 338});
+	}
+	
+    function onLogin(user)
+    {
+        renderUI(user);
+        gigya.services.gm.showUserStatusUI(userStatusParams); 
+    }
+    
+    
+    function renderUI(user)
+    {
+		if(typeof user != "undefined" && typeof user.user != "undefined")
+		{
+			user = user.user;
+		}
+		else
+		{
+			user = null;
+		}
+		
+        if(user != null && user.isLoggedIn)
+        {
+            document.getElementById("zap-status").innerHTML = "<a href=\"/about/zap-rewards-profile,0,3057266.htmlstory\">Welcome, " + user.firstName + "</a>";
+            document.getElementById("zap-logout").style.display = "";
+        }
+        else
+        {
+            document.getElementById("zap-status").innerHTML = "Sign in to connect with Zap2it:";
+            document.getElementById("zap-logout").style.display = "none";
+        }
+    }
+    
+    function logout()
+    {
+        gigya.services.socialize.logout({
+            forceProvidersLogout: false
+        });
+    }
+	
+	function onLoadHandler()
+	{
+		gigya.socialize.showAddConnectionsUI({
+			containerID: "addConnectionsUI",
+			showEditLink: false,
+			showTermsLink: false,
+			hideGigyaLink: true,
+			width: 110,
+			height: 30,
+                        disabledProviders: 'orkut, renren, kaixin, vkontakte, mixi',
+            UIConfig: '<config><body><controls><snbuttons buttonsize="20" /></controls></body></config>'
+		});
+	}
+      
+
+function profileLink() {
+$('.gig-userStatus-userPhoto, .gig-userStatus-name').click(function(){
+  window.location = "http://www.zap2it.com/about/zap-rewards-profile,0,3057266.htmlstory";
+});
+}
+
+var userStatusParams = {
+        containerID: 'divUserStatus', width: 338, onLoad: profileLink
+		}
+        var achievmentsParams = {
+            containerID: 'divAchievements', width: 338
+		}
+        var leaderboardParams = {
+            containerID: 'divLeaderboard', width: 338
+        }
+		var notificationParams = {
+		}
+
+    function init() {
+        refreshUI(); onLoadHandler(); onLoad();
+    }
+    
+$(document).ready(function() {
+	$('.zcc-checkin-button').click(function(){
+	                gigya.services.gm.notifyAction(gigyaCheckin);
+	                
+		});
+		});
+
+window.onload = init;
+
+
+// start script to check follow zap 
+function twitterFollower(response) {  
+if (typeof(response) == 'object' && response.hasOwnProperty("ids")) {
+		var totalFollows = response.ids;
+		var userFollows;
+		var i=0;
+		for ( property in totalFollows ) {
+			userFollows += '|' + totalFollows[i] + '|';
+			i++;
+			}			
+		var pos=userFollows.indexOf("34741439")
+		if (pos>=0) {
+    			gigya.services.gm.notifyAction(gigyaTweep);
+		} 
+	} 
+} 
+function twFriend(response) {
+	if ( response.errorCode == 0 ) {        
+		var user = response['user'];
+		var ifTwitter = user.identities['twitter']; 
+			if ( ifTwitter != null ) {  
+				var twitterID = user.identities['twitter'].providerUID;		
+				jQuery.ajax({
+ 					type: 'GET',
+        			url: 'https://api.twitter.com/1/friends/ids.json',
+        			data: {'user_id':twitterID,'callback':'twitterFollower'},
+        			dataType: 'script',
+        			cache: true,
+        			success: function(response){ twitterFollower(response);}
+    				});
+        	}
+  	}
+}
+// end script to check follow zap 
+     // Start Friends badge check
+function isFbFriend(isAlready) {
+    if ( isAlready.errorCode == 0 ) {             
+        if ( null!=isAlready.achievements && isAlready.achievements.length>0) {        
+            var achievements;        
+            for (var index in isAlready.achievements) {
+                var currAchievement = isAlready.achievements[index];
+                achievements += currAchievement ['challengeID'] + currAchievement ['level'] ;                 
+            }            
+            var achPos=achievements.indexOf("facebook1");
+            var twPos=achievements.indexOf("tweep1");
+            if (achPos=="-1")
+            {
+// add FB Friend Badge
+function fbFriend(response) {  
+    if ( response.errorCode == 0 ) {             
+        var user = response['user'];
+var totalLikes = user['likes'];
+        var userLikes;
+        var i=0;
+        for ( property in totalLikes )        
+{
+userLikes += '|' + totalLikes[i].name + '|';
+i++;
+}
+var pos=userLikes.indexOf("|Zap2it|")
+if (pos>=0)
+{
+	gigya.services.gm.notifyAction(gigyaFriend);
+} 
+    }
+}
+gigya.services.socialize.getUserInfo({callback:fbFriend,extraFields:'likes'});
+//end add FB Friend Badge
+                } 
+            if (twPos=="-1") 
+            {
+            gigya.services.socialize.getUserInfo({callback:twFriend,includeAllIdentities:true});
+			}   
+        }
+    }
+};     
+var fbFriendParams = { 
+	callback:isFbFriend,details: "basic"
+};
+gigya.services.gm.getChallengeStatus(fbFriendParams);
+            // End friend badges check
+
+    </script>
+</head>
+
+
+<body id="Home">
+
+<script type="text/javascript">if (window['urlToTopAdJS'])
+document.write(urlToTopAdJS);</script><div id="mainbox-outer">
+<div id="mainbox">
+
+
+
+
+
+
+<div id="header">
+
+<div id="logostrip">
+<div id="logostrip-inner">
+
+<a href="/"><img src="/images/standard/zap2it_home.gif" alt="Zap2it" border="0"></a>
+
+<style type="text/css">
+#topstrip { position: relative; }
+#rewards-login { position: absolute; top: 6px; left: 12px; font-size: 12px; width: 300px; }
+body#Home #rewards-login { top: 0; left: 545px !important; z-index: 1000; }
+#zap-status, #zap-logout { float: left; line-height: 30px; font-weight: bold; color: #eee; }
+#zap-logout a, #zap-status a { color: #eee; }
+#Home #zap-status, #Home #zap-logout, #Home #zap-status a { color: #666; }
+#Home #zap-logout a { color: #333; }
+#addConnectionsUI { float: left; margin-left: 1px; }
+#addConnectionsUI #divConnect_arrow_right, #addConnectionsUI #addConnectionsUI_arrow_right { float: none !important; }
+</style>
+
+<div id="rewards-login">
+<div id="zap-status">Loading...</div>
+	<div id="addConnectionsUI"></div>
+    <div id="zap-logout" style="display: none;"><a href="javascript: logout();">(logout)</a></div>
+</div>
+
+<div id="datesearch">
+<div id="date">April 17, 2012</div>
+
+<form action="/search/dispatcher.front" method="get" enctype="application/x-www-form-urlencoded" name="Article_Search" id="search" style="display:inline;">
+<input type="hidden" name="target" value="blendedsearch">
+<input type="hidden" name="first-page-size" value="5">
+<div id="search-box-outer">
+<input type="image" src="/images/standard/searchbutton.png" id="topsearch-submit">
+<input class="search-box" name="Query" size="25" type="text">
+</div>
+</form>
+</div>
+
+</div>
+</div>
+
+
+<div id="navbar">
+<div id="navbar-inner">
+<ul>
+<li id="nav-1" class="selected"><a href="/" rel="sc1">HOME</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-2"><a href="http://blog.zap2it.com/frominsidethebox/" rel="sc2">TV</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-3"><a href="http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?aid=zap2it" rel="sc3">LISTINGS</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-4"><a href="http://blog.zap2it.com/pop2it/movies/" rel="sc4">MOVIES</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-5"><a href="http://blog.zap2it.com/frominsidethebox/" rel="sc5">NEWS/BLOGS</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-6"><a href="http://blog.zap2it.com/pop2it/" rel="sc6">Celebrities</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-7"><a href="/news/pictures/" rel="sc7">PHOTOS</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-8"><a href="/video/" rel="sc8">VIDEO</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-9"><a href="/dvd/" rel="sc9">DVD</a>
+			
+		</li>
+	    
+	  
+	
+	  
+	    
+	    
+			
+			
+			
+			<li id="nav-10"><a href="http://tvbb.zap2it.com/" rel="sc10">FORUMS</a>
+			
+		</li>
+</ul>
+</div>
+</div>
+<div id="subnav"><div id="subnav-inner"><img src="/images/standard/subnav_arrow.gif" alt="-" width="7" height="12" border="0"> 
+<ul>
+<li><a href="http://blog.zap2it.com/frominsidethebox/">TV News</a></li>
+<li><a href="http://www.zap2it.com/tv/ratings/">TV Ratings</a></li>
+<li><a href="http://blog.zap2it.com/ithappenedlastnight/">TV Show Recaps</a></li>
+<li><a href="http://blog.zap2it.com/pop2it/">Celeb News</a></li>
+<li><a href="http://blog.zap2it.com/pop2it/oscars/">Oscars</a></li>
+<li><a href="http://www.casttv.com/shows" target="_casttv">Watch TV Online</a></li>
+<li><a href="http://channelguidemag.zap2it.com/channelguide/movies/">Movies on TV</a></li>
+<li><a href="http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?aid=zap2it">TV Listings</a></li>
+</ul></div></div><div id="pencilad"><script language="JavaScript" src="http://ad.doubleclick.net/adj/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=2;sz=1x1;tile=2;ord=5465593?" type="text/javascript"></script><noscript><a href="http://ad.doubleclick.net/jump/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=2;sz=1x1;tile=2;ord=5465593?" target="_blank" rel="nofollow"><img src="http://ad.doubleclick.net/ad/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=2;sz=1x1;tile=2;ord=5465593?" width="1" height="1" border="0" alt=""></a></noscript></div><div id="hotlist">
+</div>
+
+</div><!-- END HEADER -->
+
+<div id="contentbox">
+
+<div id="leftrail">
+<style type="text/css">
+
+#casttv-box { clear: both; width: 605px; background: #fff; overflow: hidden; font-family: arial, helvetica, sans-serif;  }
+
+#casttv-box .blockhead { width: 585px; font-size: 22px; margin: 8px 0 0 10px; }
+
+#casttv-box-inner { margin-left: 10px; width: 630px; }
+
+#casttv-box .item { width: 140px; overflow: hidden; margin: 10px 8px 10px 0; background:url(/images/standard/fadebg-122.png) repeat-x; float: left; color: #3C98C9; font-size: 12px; }
+
+#casttv-box .item-inner { width: 120px; margin: 0 0 0 10px; }
+
+#casttv-box .item .image { width: 120px; height: 65px; overflow:hidden; margin: 10px 0 3px 0; }
+
+#casttv-box .item .image img { width: 120px; }
+
+#casttv-box .text a { text-decoration: none; font-size: 13px; color: #000; font-weight: bold !important; }
+
+#casttv-box .text a:hover { color: #3C98C9; }
+</style>
+
+
+<div id="casttv-box" class="rail">
+
+<div class="blockhead">Watch Now: Top TV Episodes Online <a href="http://www.casttv.com"><img src="/images/standard/casttv-logo-60.png" width="60" height="12" border="0" style="margin-left: 10px;"></a></div>
+
+<div id="casttv-box-inner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+<div class="item">
+<div class="item-inner">
+
+<div class="image">
+<a href="http://www.casttv.com/shows/gossip-girl"><img src="http://www.casttv.com/misc/webapp/tn_shows/tn_gossip-girl.jpg"></a>
+</div>
+
+<div class="text">
+<a href="http://www.casttv.com/shows/gossip-girl/salon-of-the-dead/g558oo2">Gossip Girl</a><br>
+Salon of the Dead
+</div>
+
+</div>
+</div>
+
+
+	
+
+
+
+<div class="item">
+<div class="item-inner">
+
+<div class="image">
+<a href="http://www.casttv.com/shows/smash"><img src="http://www.casttv.com/misc/webapp/tn_shows/tn_smash.jpg"></a>
+</div>
+
+<div class="text">
+<a href="http://www.casttv.com/shows/smash/the-movie-star/obz91un">Smash</a><br>
+The Movie Star
+</div>
+
+</div>
+</div>
+
+
+	
+
+
+
+<div class="item">
+<div class="item-inner">
+
+<div class="image">
+<a href="http://www.casttv.com/shows/hart-of-dixie"><img src="http://www.casttv.com/misc/webapp/tn_shows/tn_hart-of-dixie.jpg"></a>
+</div>
+
+<div class="text">
+<a href="http://www.casttv.com/shows/hart-of-dixie/bachelorettes-bullets/k47cpn4">Hart Of Dixie</a><br>
+Bachelorettes &amp; Bullets
+</div>
+
+</div>
+</div>
+
+
+	
+
+
+
+<div class="item">
+<div class="item-inner">
+
+<div class="image">
+<a href="http://www.casttv.com/shows/the-good-wife"><img src="http://www.casttv.com/misc/webapp/tn_shows/tn_the-good-wife.jpg"></a>
+</div>
+
+<div class="text">
+<a href="http://www.casttv.com/shows/the-good-wife/pants-on-fire/onopfnf">The Good Wife</a><br>
+Pants On Fire
+</div>
+
+</div>
+</div>
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+	
+    
+
+
+
+
+
+
+
+
+
+
+<div class="spacer-1">&nbsp;</div>
+</div>
+
+</div>
+
+<div class="spacer-12"></div>
+
+
+
+
+
+
+
+
+
+
+
+												
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="featured">
+<div id="featured-inner">
+
+<div id="featured-image">
+<script type="text/javascript">
+
+//If using image buttons as controls, Set image buttons' image preload here true
+//(use false for no preloading and for when using no image buttons as controls):
+var preload_ctrl_images=false;
+
+var slides=[]; //FIRST SLIDESHOW
+//configure the below images and descriptions to your own. 
+slides[0] = ["http://www.zap2it.com/media/alternatethumbnails/storylink/2012-04/69447245-17182154.jpg", "<style type=\"text/css\"><!-- #item-1 .item-inner { background: url(http://www.zap2it.com/images/standard/rotator_bg_select.gif); } #item-1 .item-inner .number { color:#FFF; } #item-1 .item-inner h2 a  { color:#007BBB; } #item-4 .item-inner, #item-3 .item-inner, #item-2 .item-inner  { background: url(/images/standard/rotator_bg.gif); } #item-4 .item-inner .number, #item-4 .item-inner h2 a, #item-3 .item-inner .number, #item-3 .item-inner h2 a, #item-2 .item-inner .number, #item-2 .item-inner h2 a { color:#9D9D9D; }--><\/style>", "/zap-biggest-loser-revolt,0,2513403.storylink"];
+slides[1] = ["http://www.zap2it.com/media/alternatethumbnails/storylink/2012-04/69447308-17182513.jpg", "<style type=\"text/css\">#item-2 .item-inner { background: url(http://www.zap2it.com/images/standard/rotator_bg_select.gif); } #item-2 .item-inner .number { color:#FFF; }  #item-2 .item-inner h2 a  { color:#007BBB; } #item-4 .item-inner, #item-3 .item-inner, #item-1 .item-inner  { background: url(/images/standard/rotator_bg.gif); } #item-4 .item-inner .number, #item-4 .item-inner h2 a, #item-3 .item-inner .number, #item-3 .item-inner h2 a, #item-1 .item-inner .number, #item-1 .item-inner h2 a { color:#9D9D9D; }--><\/style>", "/zap-actors-musicians-zquad,0,3295336.storylink"];
+slides[2] = ["http://www.zap2it.com/media/alternatethumbnails/storylink/2012-04/69447614-17184607.jpg", "<style type=\"text/css\">#item-3 .item-inner { background: url(http://www.zap2it.com/images/standard/rotator_bg_select.gif); } #item-3 .item-inner .number { color:#FFF; }  #item-3 .item-inner h2 a  { color:#007BBB; } #item-4 .item-inner, #item-2 .item-inner, #item-1 .item-inner  { background: url(/images/standard/rotator_bg.gif); } #item-4 .item-inner .number, #item-4 .item-inner h2 a, #item-2 .item-inner .number, #item-2 .item-inner h2 a, #item-1 .item-inner .number, #item-1 .item-inner h2 a { color:#9D9D9D; }--><\/style>", "/zap-glee-disco,0,5373374.storylink"];
+slides[3] = ["http://www.zap2it.com/media/alternatethumbnails/storylink/2012-04/69447324-17182553.jpg", "<style type=\"text/css\">#item-4 .item-inner { background: url(/images/standard/rotator_bg_select.gif); } #item-4 .item-inner .number { color:#FFF; } #item-4 .item-inner h2 a  { color:#007BBB; } #item-3 .item-inner, #item-2 .item-inner, #item-1 .item-inner  { background: url(/images/standard/rotator_bg.gif); } #item-3 .item-inner .number, #item-3 .item-inner h2 a, #item-2 .item-inner .number, #item-2 .item-inner h2 a, #item-1 .item-inner .number, #item-1 .item-inner h2 a { color:#9D9D9D; }--><\/style>", "/zap-earworms-zquad,0,460791.storylink"];
+//above slide show uses only the defaults
+slides.pause=1;
+slides.delay=2000;
+</script>
+
+<script src="/javascript/swissarmy.js" type="text/javascript">
+
+/***********************************************
+* Swiss Army Image slide show script  - © John Davenport Scheuer: http://home.comcast.net/~jscheuer1/
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full original source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+//Notes on Parameters: The only required parameter is the slides_array_name.  If Width is used, so must Height.
+//Interval is optional too.  It is always last, either fourth after Width and Height or second after Slides_array_name.
+//Usage: new inter_slide(Slides_array_name, Width, Height, Interval)
+new inter_slide(slides)
+</script>
+</div>
+
+<div id="featured-headlines">
+
+<div class="item" id="item-1">
+<div class="item-inner">
+<div class="number">1</div>
+
+													<h2><a href="http://blog.zap2it.com/frominsidethebox/2012/04/the-biggest-loser-revolt-who-quit-from-the-final-five.html">'Biggest Loser' revolt: Did it live up to the hype?</a></h2>
+													
+													
+</div>
+</div>
+
+
+<div class="item" id="item-2">
+<div class="item-inner">
+<div class="number">2</div>
+
+													<h2><a href="http://www.zap2it.com/news/pictures/zap-from-actor-to-musician-andy-samberg-to-zooey-deschanel-and-30-more-actors-who-rock-pics,0,2178774.photogallery">Rock on: Johnny Depp and other actors-turned-musicians</a></h2>
+													
+													
+</div>
+</div>
+
+
+<div class="item" id="item-3">
+<div class="item-inner">
+<div class="number">3</div>
+
+													<h2><a href="http://blog.zap2it.com/frominsidethebox/2012/04/amber-riley-heats-up-glee-with-disco-inferno-and-more-from-saturday-night-glee-ver.html">'Glee': Amber Riley heats up a 'Disco Inferno'</a></h2>
+													
+													
+</div>
+</div>
+
+
+<div class="item" id="item-4">
+<div class="item-inner">
+<div class="number">4</div>
+
+													<h2><a href="http://www.zap2it.com/news/pictures/redeye-top-25-ear-worms-20120417,0,6230518.photogallery">Earworms: Songs you can't get out of your head</a></h2>
+													
+													
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div id="topnews">
+<div id="topnews-inner">
+
+<div class="kicker">Today's</div>
+<div class="blockhead"><h2>Top news &amp; buzz</h2></div>
+
+<div class="links">
+<h3><a href="http://blog.zap2it.com/frominsidethebox/2012/04/dancing-with-the-stars-gavin-degraw-vs-jaleel-white-in-the-first-dance-duel---who-went-home.html">'DWTS' first dance duel: Who went home?</a></h3>
+													
+													
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h3><a href="http://blog.zap2it.com/pop2it/2012/04/2012-nfl-schedule-peyton-manning-vs-tom-brady-and-more-great-games-on-the-slate.html">NFL schedule: Peyton vs. Tom and more</a></h3>
+													
+													
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h3><a href="http://blog.zap2it.com/frominsidethebox/2012/04/jersey-shore-shark-attack-trailer-kills-boy-bander-joey-fatone-via-white-finned-killer-albino-shark.html">Watch: 'Jersey Shore Shark Attack' trailer</a></h3>
+													
+													
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h3><a href="http://blog.zap2it.com/pop2it/2012/04/the-avengers-soundgardens-single-live-to-rise-available-for-free-download.html">Get Soundgarden's 'Avengers' song free</a></h3>
+													
+													
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/frominsidethebox/2012/04/avengers-meets-castle---robert-downey-jr-and-nathan-fillion-are-more-alike-than-youd-think.html">'Avengers' meets 'Castle' in cute TV promo</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="Okee doke, this is up:  http://blog.zap2it.com/frominsidethebox/2012/04/toddlers-tiaras-sneak-peek-destiny-knows-what-she-wants.html  Any chance we could get it promoted from the T&T Facebook page?">'Toddlers & Tiaras': What Destiny wants...</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/frominsidethebox/2012/04/glee-project-runner-up-alex-newell-finally-lands-on-glee.html">'Glee Project' runner-up Alex visits 'Glee'</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/pop2it/2012/04/khloe-kardashian-not-pregnant----report.html">Khloe Kardashian not pregnant -- report</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/pop2it/2012/04/heidi-montag-nearly-nude-on-dreams-come-true-ep-cover.html">Heidi Montag nearly nude on EP cover</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/pop2it/2012/04/jersey-shores-the-situation-to-make-a-comic-book-about-himself.html">'The Situation' makes a comic about himself</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/pop2it/2012/04/should-amy-winehouse-or-kurt-cobain-get-the-tupac-shakur-hologram-treatment-poll.html">Should Cobain, Elvis get hologrammed?</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/pop2it/2012/04/vince-vaughn-will-star-in-a-rockford-files-movie.html">Vince Vaughn remaking 'Rockford Files'</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/pop2it/2012/04/warren-buffett-diagnosed-with-stage-1-prostate-cancer.html">Warren Buffett has stage 1 prostate cancer</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/frominsidethebox/2012/04/head-writer-ipad-giveaway-rack-up-2500-rewards-challenge-points-to-win.html">'Head Writer' giveaway: Win an iPad</a></h4>
+													
+																										
+													
+
+
+	
+
+
+
+	
+	
+		
+
+												
+													
+													<h4><a href="http://blog.zap2it.com/pop2it/2012/04/miley-cyrus-hospitilized-after-cooking-accident.html">Miley Cyrus hospitilized</a></h4>
+</div>
+
+<a class="more" href="http://blog.zap2it.com/frominsidethebox">More top news &amp; buzz</a>
+
+
+</div>
+</div>
+
+<div class="spacer-15"></div>
+
+
+
+<style type="text/css">
+    #celebsontv-today { padding: 10px 0 8px 10px; background: #fff; position: relative; }
+    #celebsontv-today .blockhead { font-size: 23px; width: 584px; }
+    #celebsontv-today .blockhead span { font-size: 13px; text-transform: lowercase; font-style: italic; color: #8C2B84; }
+    #celebsontv-today .zcc-celebsontvtoday {width: 595px;}
+    #celebsontv-today .zcc-celebsontvtoday td {width: 19.9%; vertical-align:top;}
+    #celebsontv-today .zcc-celeb-name, #celebsontv-today .zcc-celeb-programs, #celebsontv-today ul, #celebsontv-today li  { width: 104px; display: inline !important;  }
+    #celebsontv-today a.zc-celeb-name-link, #celebsontv-today a.zc-celeb-programs-tvshow { width: 104px; display: block; }
+    #celebsontv-today .zcc-celeb-picture { width: 108px; height: 144px; overflow: hidden; }
+    #celebsontv-today img { width: 108px; height: auto; }
+    #celebsontv-today .zcc-celeb-name { margin: 3px 0 2px 0; font-size: 14px; font-weight: bold; }
+    #celebsontv-today .zcc-celeb-programs { font-size: 12px; font-style: italic; color: #333; }
+    div.zcc-show-weekday { display: none; }
+</style>
+<script type="text/javascript">
+    function displayCelebs(data) {
+        var total = 5;
+        var current = 0;
+        var html = '<table cellspacing="0" cellpadding="0" border="0" class="zcc-celebsontvtoday"><tbody><tr>';
+        jQuery.each(data.celebsOnTV.celebrities, function(){
+            html = html + '<td><div class="zcc-celeb-picture"><a href="' + this.celebrityDetailLink + '" class="zc-celeb-picture-link">';
+            html = html + '<img src="' + this.smallPhoto + '" class="zcc-celeb-picture-url"></a></div>';
+            html = html + '<div class="zcc-celeb-name"><a href="' + this.celebrityDetailLink + '" class="zc-celeb-name-link">' + this.name + '</a></div>';
+            html = html + '<div class="zcc-celeb-programs"><ul>';
+            for (var i = 0; i < this.schedules.length; i ++) {
+                html = html + '<li><a href="' + this.schedules[i].link + '" class="zc-celeb-programs-tvshow">' + this.schedules[i].title + '</a></li>';
+            }
+            html = html + '</ul></div></td>';
+            current++;
+            if (current == total) {
+                return false;
+            }
+        });
+        html = html + "</tr></tbody></table>";
+        $(html).appendTo("#celebsontv-items");
+        $("#celebsontv-items").show();
+    }
+
+    jQuery.ajax({
+        type: 'GET',
+        url: 'http://api.zap2it.com/tvlistings/webservices/celebsontv',
+        data: {'callback':'displayCelebs'},
+        dataType: 'script',
+        cache: true
+    });
+</script>
+
+<div id="celebsontv-today">
+    <div class="blockhead">Who's On TV <span>watch the latest appearances of some of your favorites</span>
+    </div>
+    <div id="celebsontv-items">
+    </div>
+    <div class="spacer-5">&nbsp;</div>
+    <a href="/celebrities/tv/" class="more">More celebrities on TV today</a>
+</div>
+<div class="spacer-10">&nbsp;</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/javascript/tabinterface.js" type="text/javascript"></script>
+
+<div id="bigbox">
+
+<div id="bigbox-top">
+
+<ul class="tabs clearfix">
+
+<li  id="main-tab01"><h2><a href="http://blog.zap2it.com/ithappenedlastnight/" onclick="tabPress('main', 'tab01', 'main-tab01.jsp','true'); return false; ">TV Recaps</a></h2></li>	
+
+  
+	
+	
+      <li  id="main-tab02"><h2><a href="/tv/ratings" onclick="tabPress('main', 'tab02', 'main-tab02.jsp','true'); return false; ">TV Ratings</a></h2></li>	
+
+  
+	
+	
+      <li class="current" id="main-tab03"><h2><a href="/news/pictures" onclick="tabPress('main', 'tab03', 'main-tab03.jsp','true'); return false; ">Must-See Pics</a></h2></li>
+
+</ul>
+
+</div>
+
+<div id="bigbox-inner">
+
+<div id="main-tabs">
+<div class="tab-content"><div id="mustseepics">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="item lead" id="mustsee-pics-1">
+
+
+	
+
+
+<a href="/news/pictures/zap-paranormalinvestigators-20120412,0,1929543.photogallery" target="_top">
+
+
+
+<img src="http://www.trbimg.com/img-4f873083/turbine/zap-paranormalinvestigators-20120412/400/16x9" alt="Top TV and Movie Paranormal Investigators" border="0" width="399" height="225" />
+
+
+	
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/zap-paranormalinvestigators-20120412,0,1929543.photogallery" target="_top">Paranormal Investigators: <i>sponsored by Syfy</i></a></h3>
+</div>
+
+</div>
+
+
+
+
+
+<div class="item" id="mustsee-pics-2">
+
+
+	
+
+
+<a href="/news/pictures/zap-new-girl-schmidt-quotes-pictures,0,3969543.photogallery" target="_top">
+
+	
+
+<img src="http://www.zap2it.com/media/thumbnails/photogallery/2012-03/68767074-12173207.jpg" alt="'New Girl': 'Schmidt happens!' and other ridiculous Schmidt quotes" border="0" width="187" height="105" />
+
+
+
+	
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/zap-new-girl-schmidt-quotes-pictures,0,3969543.photogallery" target="_top">'New Girl': Schmidt-isms</a></h3>
+</div>
+
+</div>
+
+
+
+
+
+<div class="item" id="mustsee-pics-3">
+
+
+	
+
+
+<a href="/news/pictures/zap-mad-men-season-5-pics,0,7113857.photogallery" target="_top">
+
+	
+
+<img src="http://www.zap2it.com/media/thumbnails/photogallery/2012-03/68701445-09114906.jpg" alt="'Mad Men' Season 5" border="0" width="187" height="105" />
+
+
+
+	
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/zap-mad-men-season-5-pics,0,7113857.photogallery" target="_top">'Mad Men' Season 5</a></h3>
+</div>
+
+</div>
+
+
+
+
+<div class="spacer-5"> </div>
+<a class="more" href="/news/pictures/">More must-see pics</a>
+</div><div class="spacer-1"> </div> </div>
+</div>
+
+<script language="JavaScript">
+		setTab('tab03', 'main', 4);
+		tabPress('main', 'tab03', 'main-tab03.jsp');
+</script>
+
+<div class="spacer-1"> </div>
+
+</div>
+</div>
+
+<div class="spacer-15"> </div>
+
+
+
+
+
+<style type="text/css">
+#elitesheet-include img { display: none; }
+#elitesheet-include { padding: 15px 10px 10px 10px; }
+#homefeat-pop2it .headlines { padding: 10px; }
+#homefeat-elite .headlines a, #homefeat-pop2it .headlines a { display: block; margin-bottom: 10px; font-size: 12px; }
+#homefeat-pop2it .rail-list-item { display: none; }
+#homefeat-pop2it #rss-item-1, #homefeat-pop2it #rss-item-2, #homefeat-pop2it #rss-item-3, #homefeat-pop2it #rss-item-4, #homefeat-pop2it #rss-item-5 { display: block; }
+</style>
+
+<div id="homefeat-elite" style="width: 294px; height: 290px; float: left; background: #fff; border: 1px solid #dfdfdf;">
+<div style="width: 294px; height: 53px; background: url(http://www.zap2it.com/media/thumbnails/blurb/2010-12/58283539-15062615.gif) repeat-x;">
+<div style="padding: 5px 5px 0 10px;">
+<div class="blockhead" style="border: none; color: #fff; font-size: 24px; line-height: 26px; margin: 0; padding: 0;">Zap2it Elite Sheet</div>
+<div class="blockhead" style="font-size: 13px; border: none; color: #fff; margin: 0; padding: 0;">Must Reads from the Web's In-Crowd</div>
+</div>
+</div>
+<div id="elitesheet-include">
+<script language="javascript" type="text/javascript"> 
+var curdate = new Date();
+var mday = curdate.getDate();
+document.write("<scr"+"ipt language='javascript' src='http://blog.zap2it.com/frominsidethebox/elitesheet.js?day=" + mday + "'>"+"</scr"+"ipt>");
+</script>
+</div>
+</div>
+
+
+<div id="homefeat-pop2it" style="width: 294px; height: 290px; float: right; background: #fff; border: 1px solid #dfdfdf;">
+<div style="width: 294px; height: 53px; overflow: hidden; background: url(http://www.zap2it.com/media/alternatethumbnails/blurb/2010-12/58283539-15062620.gif) repeat-x;"><a href="http://blog.zap2it.com/pop2it/" style="display: block; width: 294px; height: 53px; overflow: hidden; text-decoration: none;">&nbsp;</a>
+</div>
+<div class="headlines">
+
+
+
+    
+
+
+
+
+
+
+
+
+
+		
+	
+	  
+	
+		
+	
+		
+	
+
+
+
+
+<!-- HACK:  Work around to provide a body for this tag -->
+<!--  so that the doAfterBody method is executed.      -->
+
+<!-- end HACK -->
+<div class="rail-list">
+
+	<p id="rss-item-1" class="rail-list-item"><a href='http://blog.zap2it.com/pop2it/2012/04/2012-nfl-schedule-peyton-manning-vs-tom-brady-and-more-great-games-on-the-slate.html'>2012 NFL schedule: Peyton Manning vs. Tom Brady and more great games on the slate</a></p>
+	  
+
+	<p id="rss-item-2" class="rail-list-item"><a href='http://blog.zap2it.com/pop2it/2012/04/the-avengers-soundgardens-single-live-to-rise-available-for-free-download.html'>'The Avengers': Soundgarden's single 'Live to Rise' available for free download</a></p>
+	  
+
+	<p id="rss-item-3" class="rail-list-item"><a href='http://blog.zap2it.com/pop2it/2012/04/pulitzer-winners-announced-fiction-prize-not-awarded-in-2012.html'>Pulitzer winners announced: Fiction prize not awarded in 2012</a></p>
+	  
+
+	<p id="rss-item-4" class="rail-list-item"><a href='http://blog.zap2it.com/pop2it/2012/04/khloe-kardashian-not-pregnant----report.html'>Khloe Kardashian not pregnant -- report</a></p>
+	  
+
+	<p id="rss-item-5" class="rail-list-item"><a href='http://blog.zap2it.com/pop2it/2012/04/jersey-shores-the-situation-to-make-a-comic-book-about-himself.html'>'Jersey Shore's' The Situation to make a comic book about himself</a></p>
+	  
+
+
+	<p class="rail-list-item"><a href="/zap-dishrag-xmlfeed,0,4506791.xmlfeed" target="">More...</a></p>
+
+</div>
+
+
+
+
+<a class="more" href="http://blog.zap2it.com/pop2it/">More Pop2it</a>
+</div>
+</div>
+
+
+<div class="spacer-15"> </div>
+<div id="video-leftrail" class="rail">
+<div class="rail-inner">
+
+<div style="width: 585px; height: 30px; overflow: hidden;">
+
+
+
+
+
+
+
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=v;sz=300x60;tile=3;ord=5465593?" type="text/javascript"></script>
+        <noscript><a href="http://ad.doubleclick.net/jump/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=v;sz=300x60;tile=3;ord=5465593?" target="_blank" rel="nofollow"><img src="http://ad.doubleclick.net/ad/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=v;sz=300x60;tile=3;ord=5465593?" width="300" height="60" border="0" alt=""></a></noscript>
+
+
+
+</div><div class=tivideo">
+      <iframe id="tivid-player" src="/zap-video-home,0,4536750,iframe.tivideo?size=585x424" height="675" width="585" border="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+    </div>
+
+</div>
+</div>
+</div><!-- END LEFTRAIL -->
+
+
+
+
+
+
+<div id="rightrail">
+
+<div id="finditfast" >
+<div id="finditfast-inner">
+
+<form class="findItFastForm" name="Listings" method="post" action="http://images.zap2it.com/mserv/find-it-fast/FindItFastRedirect.php">
+<div id="fif-search-input">
+<input class="search-box" name="zipcode" size="10" type="text" value="Enter Zip Code" onclick="clickclear(this, 'Enter Zip Code')" onblur="clickrecall(this,'Enter Zip Code')">
+</div>
+<div class="kicker"><div class="finditfast-header">
+		<h1><a href="http://tvlistings.zap2it.com/">TV Listings</a></h1>&nbsp;&amp; <a href="http://movies.zap2it.com/">Movie Times</a>
+		</div>
+</div>
+<div class="fif">Find it fast</div>
+<div class="spacer-1"></div>
+<input type="submit" id="finditfast-tv" name="FindItFastTV" onclick="return GoTVListings()" value="TV Listings">
+<input type="submit" id="finditfast-mv" name="FindItFastMV" onclick="return GoMovieShowtimes()" value="Movie Times">
+</form>
+<div id="fif-ad">
+
+
+
+
+
+
+
+
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=1;sz=320x30;tile=4;ord=5465593?" type="text/javascript"></script>
+        <noscript><a href="http://ad.doubleclick.net/jump/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=1;sz=320x30;tile=4;ord=5465593?" target="_blank" rel="nofollow"><img src="http://ad.doubleclick.net/ad/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=1;sz=320x30;tile=4;ord=5465593?" width="320" height="30" border="0" alt=""></a></noscript>
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<style type="text/css">
+.gig-userStatus-userPhoto, .gig-userStatus-name { cursor: pointer; }
+.gig-userStatus-name:hover { color: #0B81C1; }
+.gig-userStatus-userPhoto:hover { border-color: #999; background: #eee; }
+</style>
+<div id="divAchieveConnectWrapper" style="width: 100%; border: 1px solid #ccc; background: #fff; text-align: center;margin-top: 10px;">
+<div style="margin: 8px 0 0 0; font-size: 13px;">Sign in to connect with Zap2it:</div>
+<div id="divAchieveConnect" style="margin: 5px auto 10px auto;"></div>
+</div>
+<div id="divUserStatus" style="background: #fff;"></div>
+<div id="divAchievementsWrapper"><div id="divAchievements" style="background: #fff;"></div></div>
+<script>
+gigya.services.socialize.addEventHandlers({
+        onLogin: onAchieveLogin,
+        onLogout: onAchieveLogout
+    });
+
+	var loginState = null;
+
+ var achieveParams = {
+    height:30  
+            ,width:180
+            ,UIConfig: '<config><body><controls><snbuttons buttonsize="20" /></controls></body></config>'
+            ,showTermsLink:false // remove 'Terms' link  
+            ,hideGigyaLink:true // remove 'Gigya' link  
+            ,containerID: 'divAchieveConnect' 
+,disabledProviders: 'orkut, renren, kaixin, vkontakte, mixi'
+        }
+
+function onAchieveLogout()
+	{
+		displayUserInfo();
+	}
+
+function onAchieveLogin(user)
+	{
+		displayUserInfo(user);
+	}
+
+function displayUserInfo(user) {
+
+if(typeof user != "undefined" && typeof user.user != "undefined")
+		{
+			user = user.user;
+		}
+		else
+		{
+			user = null;
+		}
+		
+
+ if(user != null && user.isLoggedIn)
+        {
+             document.getElementById("divAchievementsWrapper").style.display = "block";  
+             document.getElementById("divAchieveConnectWrapper").style.display = "none";  
+             document.getElementById("divAchieveConnect").style.display = "none"; 
+   } else {  
+  gigya.services.socialize.showAddConnectionsUI(achieveParams);  
+  document.getElementById("divAchieveConnectWrapper").style.display = "block";  
+  document.getElementById("divAchieveConnect").style.display = "block";  
+  document.getElementById("divAchievementsWrapper").style.display = "none";  
+}
+}
+gigya.services.socialize.getUserInfo({callback:displayUserInfo});
+</script>
+
+<script>
+		gigya.services.gm.showUserStatusUI(userStatusParams);
+		gigya.services.gm.showAchievementsUI(achievmentsParams);
+	</script>
+
+
+<div class="spacer-10"></div>
+<div id="whatsnew" class="rail">
+<div class="rail-header"><div class="rail-header-inside">What's New Tonight</div></div> 
+<script type="text/javascript" src="http://api.zap2it.com/tvlistings/webservices/popularShows?rty=html&max=3&fmt=images"></script>
+<div id="zcc-morelink"><a href="/tv/new-shows-tonight/">Browse All New Shows Tonight</a></div>
+</div>
+
+
+
+
+
+
+ 
+ 
+
+ <div class="spacer-15"></div>
+
+<div id="cubead">
+<div class="advertisement">Advertisement</div>
+<div class="cubead-inner">
+
+<div class="cubead-code">
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=1;sz=300x250;tile=5;ord=5465593?" type="text/javascript"></script>
+        <noscript><a href="http://ad.doubleclick.net/jump/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=1;sz=300x250;tile=5;ord=5465593?" target="_blank" rel="nofollow"><img src="http://ad.doubleclick.net/ad/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=1;sz=300x250;tile=5;ord=5465593?" width="300" height="250" border="0" alt=""></a></noscript>
+</div>
+
+</div>
+</div>
+
+<div class="spacer-15"></div>
+
+
+<div id="whatson">
+
+<div class="rail-header">
+<div class="rail-header-inside">
+What's On Tonight
+</div>
+</div> 
+
+<div class="rail-inner">
+
+<style type="text/css">
+#zcc-table { width:314px; background-color:#FFF; font:10px verdana; color:#000; clear:both; }
+#photo #zcc-table { width: 286px; }
+#zcc-table td { padding: 4px 0px; }
+#zcc-table h2 { padding:0px; margin:0px; font-size:14px; }
+#zcc-table a { color:#3C98C9; }
+#zcc-table .zcc-complete-link { font-size:12px; font-weight:bold; }
+#zcc-table .zcc-timezone { font:10px Verdana; }
+#zcc-wrap { margin:0px; clear:both; }
+#zcc-wrap img { border:0px; display:inline; }
+#zcc-wrap .zcc-primetime { caption-side:top; font-size:10px; table-layout:fixed; width:314px; background-color:#859FC1; overflow:hidden; }
+#photo #zcc-wrap .zcc-primetime { width:286px; }
+#zcc-wrap .zcc-primetime td, #zcc-wrap .zcc-primetime th { border: 1px solid #859FC1; background-color:#FFF; padding:3px 2px 5px 2px; overflow:hidden; font-family:Verdana, sans-serif; vertical-align:top; }
+#zcc-wrap .zcc-primetime th { padding:3px 4px; font-weight:normal; text-align:left; color:#000; }
+#zcc-wrap .zcc-primetime .zcc-station, #zcc-wrap .zcc-primetime .zcc-station .zcc-callsign { text-align:center; }
+#zcc-wrap .zcc-primetime a, #zcc-wrap .zcc-primetime a:visited, #zcc-wrap .zcc-primetime a:hover, #zcc-wrap .zcc-primetime a:active { font-weight:bold; color:#3C98C9; }
+#zcc-wrap .zcc-sked-attributes { display:block; clear:both; }
+#zcc-wrap .zcc-sked-video, #zcc-wrap .zcc-sked-hd { display:none; }
+#zcc-wrap .zcc-sked-new, #zcc-wrap .zcc-sked-live { font-size:10px; color:#eee; font-weight:bold; text-transform: uppercase; padding: 0px 3px; }
+#zcc-wrap .zcc-sked-new { background-color:#450040; }
+#zcc-wrap .zcc-sked-live { background-color:#3C98C9; }
+#zcc-wrap #zcc-complete { display:none; }
+</style>
+<!--[if lt IE 8]>
+<style type="text/css">
+#zcc-wrap .zcc-primetime td, #zcc-wrap .zcc-primetime th { border: 0px; }
+</style>
+<![endif]-->
+<div id="primetimegrid"><div id="grid">
+<table id="zcc-table"><tr><td><h2><a href="http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?aid=zap2it">TV Listings Guide</a></h2></td><td width="100" align="right" valign="bottom" class="zcc-timezone">All Times Eastern</td></tr></table>
+<div id="zcc-wrap"><script type="text/javascript" src="http://api.zap2it.com/tvlistings/webservices/primetimeGrid?rty=html&aid=zap2it"></script></div>
+<table id="zcc-table"><tr><td><h3><a href="http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?aid=zap2it" class="zcc-complete-link">View Complete Guide to TV Listings</a></h3></td></tr></table>
+</div>
+<div class="spacer-1"></div>
+</div>
+
+</div>
+</div>
+ 
+ 
+
+ <div class="spacer-15"></div>
+
+
+
+
+
+
+
+
+ 
+
+    <center><a href="http://www.zap2it.com/services/site/zap2it-sweepstakes-rewards-challenge-ipad-giveaway,0,4263677.htmlstory" target="_blank"><img src="http://www.arielscreations.com/zap2it/rewards_challenge_300x125.jpg" height="125" width="300" border="0"><IMG SRC="http://images.zap2it.com/html/none.gif" BORDER=0 WIDTH=1 HEIGHT=1 ALT="Click Here"></a></center>
+ 
+ 
+
+ <div class="spacer-15"></div>
+
+
+
+
+
+
+
+
+ 
+
+    <script type="text/javascript" src="http://s3.socialguide.com/javascripts/widgets/zap2it_msrn.js"></script>
+<script type="text/javascript">
+  SGZap2ItMsrnWidget.create({width: 340, number_of_shows: 5, reload_every: 120});
+</script>
+
+ 
+ 
+
+ <div class="spacer-15"></div>
+
+
+
+
+
+
+
+
+ 
+
+    <div class="spacer-15">&nbsp;</div>
+<div class="rail">
+<div class="rail-header">
+<div class="rail-header-inside">
+What's Hot Right Now
+</div>
+</div> 
+</div><div id="ActivityFeed" style="width: 340px !important;"></div>  
+    <script type="text/javascript">  
+     gigya.services.socialize.showFeedUI({containerID: 'ActivityFeed', width: 338});    
+    </script>  
+    
+ 
+ 
+
+ <div class="spacer-15"></div>
+
+</div><!-- END RIGHTRAIL -->
+
+</div><!-- END CONTENTBOX -->
+
+<div id="dontmiss">
+<div class="blockhead">Random Reads Recommended</div>
+<div id="dontmiss-items">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="item lead">
+<a href="/news/pictures/redeye-hot-cheerleaders-crowning-champions-20120109,0,1285424.photogallery" target="_top">
+
+<img src="http://redeye.trb.com/media/thumbnails/photogallery/2012-01/211440760-09180047.jpg" alt="Hot cheerleaders: Crowning champions" border="0" width="187" height="105" />
+
+
+
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/redeye-hot-cheerleaders-crowning-champions-20120109,0,1285424.photogallery" target="_top"><b>Pics:</b> Hot Cheerleaders - Crowning Champions</a></h3>
+</div>
+</div>
+
+
+
+
+
+
+
+	
+
+
+<div class="item">
+<a href="/news/pictures/kdvr-people-of-wal-mart-pg,0,6888590.photogallery" target="_top">
+
+<img src="http://media.trb.com/media/thumbnails/photogallery/2010-07/54575025-09114757-187105.jpg" alt="PHOTOS: People of Wal-Mart" border="0" width="187" height="105" />
+
+
+
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/kdvr-people-of-wal-mart-pg,0,6888590.photogallery" target="_top"><b>Pics:</b> People of Wal-Mart</a></h3>
+</div>
+</div>
+
+
+
+
+
+
+
+	
+
+
+<div class="item">
+<a href="/news/pictures/sns-viral-awkward-pets-pictures,0,4574266.photogallery" target="_top">
+
+<img src="http://snsimages.tribune.com/media/thumbnails/photogallery/2011-10/55334475-27160218-187105.jpg" alt="Photos: Awkward Family Pets" border="0" width="187" height="105" />
+
+
+
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/sns-viral-awkward-pets-pictures,0,4574266.photogallery" target="_top"><b>Pics:</b> Awkward family pets</a></h3>
+</div>
+</div>
+
+
+
+
+
+
+
+	
+
+
+<div class="item">
+<a href="/news/pictures/sfl-world-bodypainting-festival-poertschach-austria-20110702-photos,0,6490912.photogallery" target="_top">
+
+<img src="http://www.sun-sentinel.com/media/thumbnails/photogallery/2011-07/62961813-17160623.jpg" alt="&lt;b&gt;Photos:&lt;/b&gt; World Bodypainting Festival" border="0" width="187" height="105" />
+
+
+
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/sfl-world-bodypainting-festival-poertschach-austria-20110702-photos,0,6490912.photogallery" target="_top"><b>Pics:</b> World Bodypainting Festival</a></h3>
+</div>
+</div>
+
+
+
+
+
+
+
+	
+
+
+<div class="item">
+<a href="/news/pictures/wghp-photos-sarcastic-signs-20110923,0,369242.photogallery" target="_top">
+
+<img src="http://media.trb.com/media/thumbnails/photogallery/2011-09/64961555-23051313.jpg" alt="PHOTOS: Sarcastic Signs" border="0" width="187" height="105" />
+
+
+
+</a>
+
+<div class="text">
+<h3><a href="/news/pictures/wghp-photos-sarcastic-signs-20110923,0,369242.photogallery" target="_top"><b>Pics:</b> Sarcastic Signs</a></h3>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+<div class="spacer-15"> </div>
+<div id="partners" style="clear: both;">
+<script language="javascript" type="text/javascript"> 
+var curdate = new Date();
+var mday = curdate.getDate();
+var mhour = curdate.getHours();
+document.write("<iframe id='partners-iframe' src='/zap-partners-iframe,0,2002648.blurb?day=" + mday + mhour + "' scrolling='no' allowtransparency='true' marginwidth='0' marginheight='0' frameborder='0' vspace='0' hspace='0' style='overflow:hidden; width:960px; height: 600px;'>"+"</if"+"rame>");
+</script>
+<noscript>
+<iframe id="partners-iframe" src="/zap-partners-iframe,0,2002648.blurb" height="600" width="960" border="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+</noscript>
+</div>
+
+<div id="leaderboard-bottom">
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=b;sz=728x90;tile=6;ord=5465593?" type="text/javascript"></script>
+        <noscript><a href="http://ad.doubleclick.net/jump/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=b;sz=728x90;tile=6;ord=5465593?" target="_blank" rel="nofollow"><img src="http://ad.doubleclick.net/ad/trb.zap2it/ntl/hp;rs=D08734_70010;rs=D08734_70079;rs=D08734_70095;rs=D08734_70118;rs=D08734_70613;rs=D08734_72019;;ptype=sf;slug=zap-2010homelayout;rg=ur;pos=b;sz=728x90;tile=6;ord=5465593?" width="728" height="90" border="0" alt=""></a></noscript>
+</div>
+
+<div id="footer">
+<div id="footer-inner">
+<div id="footernav-1"><h4><a href="http://blog.zap2it.com/frominsidethebox/" rel="sc1">TV</a></h4>
+
+
+
+<a href="http://blog.zap2it.com/frominsidethebox/">TV Home</a>
+<a href="http://blog.zap2it.com/ithappenedlastnight/">Show Recaps</a>
+<a href="/tv/ratings">TV Ratings</a>
+<a href="http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?aid=zap2it">TV Listings</a>
+<a href="http://www.zap2it.com/tv/showcards.front?Query=A">TV Shows</a>
+<a href="/news/pictures/">TV Photos</a>
+<a href="http://blog.zap2it.com/frominsidethebox/reviews/index.html">TV Reviews</a>
+<a href="http://www.casttv.com/online-tv-guide" style="padding-left:20px;" id="ctvotvc">Online TV Calendar <span style="color:#888;font-style:italic;font-weight:normal;">by</span> <img src="http://images.zap2it.com/html/casttv-logo-75x14.gif" width="75" height="14" border="0" alt="CastTV Online TV Calendar" id="ctvotvcImg" /></a> <a style="display:none;">&nbsp;</a>
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-2"><h4><a href="http://tvlistings.zap2it.com/tvlistings/ZCGrid.do?aid=zap2it" rel="sc2">LISTINGS</a></h4>
+
+
+
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-3"><h4><a href="http://blog.zap2it.com/pop2it/movies/" rel="sc3">MOVIES</a></h4>
+
+
+
+<a href="http://blog.zap2it.com/pop2it/movies">Movies Home</a>
+<a href="http://movies.zap2it.com/movies/mvhome.do?aid=zap2it">Movie Times</a>
+<a href="http://movies.zap2it.com/movies/mvhome.do?aid=zap2it">New In Theaters</a>
+<a href="http://www.zap2it.com/movies/zap-box-office-results,0,1085519.htmlstory">Box Office</a>
+<a href="http://www.zap2it.com/movies/reviews/zap-movie-reviews-archive,0,415583.storygallery">Movie Reviews</a>
+<a href="http://movies.zap2it.com/movies/mvcoming.do?sortOn=releaseDate&sortBy=ASC&aid=zap2it">Movies Coming Soon</a>
+<a href="/dvd/">DVD</a>
+<a href="http://www.zap2it.com/movies/films.front?Query=A">All Movies</a>
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-4"><h4><a href="http://blog.zap2it.com/frominsidethebox/" rel="sc4">NEWS/BLOGS</a></h4>
+
+
+
+<a href="http://blog.zap2it.com/frominsidethebox/">From Inside the Box TV News</a>
+<a href="http://blog.zap2it.com/pop2it/">Pop2it Celebrities</a>
+<a href="http://blog.zap2it.com/ithappenedlastnight/">It Happened Last Night TV Show Recaps</a>
+<a href="http://blog.zap2it.com/frominsidethebox/american-idol/">American Idol</a>
+<a href="http://blog.zap2it.com/frominsidethebox/glee/">Glee</a>
+<a href="http://blog.zap2it.com/frominsidethebox/pretty-little-liars/">Pretty Little Liars</a>
+<a href="http://blog.zap2it.com/frominsidethebox/dancing-with-the-stars/">DWTS</a>
+<a href="http://blog.zap2it.com/frominsidethebox/the-vampire-diaries/">Vampire Diaries</a>
+<a href="/blog">All Blogs</a>
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-5"><h4><a href="http://blog.zap2it.com/pop2it/" rel="sc5">Celebrities</a></h4>
+
+
+
+<a href="http://www.zap2it.com/celebrities/zap-top-celebrities,0,1184497.story">Top 100 Celebrities</a>
+<a href="http://www.zap2it.com/celebrities/celebs.front?Query=A">Browse Celebrities</a>
+<a href="/celebrities/tv/">Celebrities on TV</a>
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-6"><h4><a href="/news/pictures/" rel="sc6">PHOTOS</a></h4>
+
+
+
+
+
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-7"><h4><a href="/video/" rel="sc7">VIDEO</a></h4>
+
+
+
+
+<a href="http://www.casttv.com/shows">Watch TV Online</a>
+<a href="http://www.casttv.com/">Video Search</a>
+<a href="http://www.casttv.com/online-tv-guide">Online TV Calendar</a>
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-8"><h4><a href="/dvd/" rel="sc8">DVD</a></h4>
+
+
+
+
+
+
+
+</div>
+	    
+	  
+	
+	  
+	    
+			<div id="footernav-9"><h4><a href="http://tvbb.zap2it.com/" rel="sc9">FORUMS</a></h4>
+
+
+
+
+
+</div>
+
+
+<div id="footernav-10"><h4>SPECIALS</h4>
+
+<a href="http://www.zap2it.com/news/zap-year-in-review,0,4494314.htmlstory">2011 Year in Review</a>
+<a href="http://blog.zap2it.com/frominsidethebox/fall-tv-preview/">Fall TV Preview</a>
+<a href="http://blog.zap2it.com/frominsidethebox/emmys/">Emmy Awards</a>
+<a href="http://blog.zap2it.com/pop2it/golden-globes/">Golden Globes</a>
+<a href="http://blog.zap2it.com/pop2it/oscars/">Oscars</a>
+<a href="http://blog.zap2it.com/frominsidethebox/comic-con/">Comic-Con</a>
+
+
+
+
+</div>
+</div>
+<div class="spacer-15"></div>
+
+<div id="footer-bottom">
+<a href="http://www.zap2it.com/services/site/zap-feedback,0,6935396.story">Feedback</a>  &nbsp;|&nbsp;  <a href="http://www.zap2it.com/services/site/zap-privacy-policy,0,7712844.story">Privacy Policy</a>  &nbsp;|&nbsp;  <a href="http://www.zap2it.com/services/site/zap-termsofservice,0,7891102.story">Terms of Service</a>  &nbsp;|&nbsp;  <a href="mailto:aheinz@tribune.com">License Our Content</a>  &nbsp;|&nbsp;  <a href="http://www.zap2it.com/mediakit" target="new">Media Kit</a>  &nbsp;|&nbsp;  <a href="http://www.zap2it.com/services/site/zap-aboutus,0,2987155.story">About Us</a> &nbsp;|&nbsp; <span style="color:#774477">A Tribune website</span>
+<a target="_new" href="http://www.TribuneMediaServices.com" id="footertms">&copy;2012 Tribune Media Services, Inc.</a>
+</div>
+</div>
+
+</div><!-- END MAINBOX -->
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+ 
+
+
+
+            
+
+
+
+<!-- START OMNITURE -->
+<!-- SiteCatalyst code version: H.1. 
+Copyright 1997-2005 Omniture, Inc. More info available at
+http://www.omniture.com -->
+
+	<script type="text/javascript" src="/central/javascript/mtrx/s_code.js"></script>
+	<script language="JavaScript">
+<!--
+
+	s.pageName="zap2it - Home.";
+	s.prop38="Home";
+	s.eVar21="Home";
+	
+	s.server="zap2it.com"; 
+	s.channel="zap2it:";
+s.prop3="";
+s.prop28="";
+s.prop32="";
+ 
+	s.prop36="";
+	 
+	s.prop37="";
+	
+
+/* E-commerce Variables */
+s.events=""; 
+s.eVar20="zap2it";
+
+	s.hier1="zap2it:Home"; 
+		s.hier2="Home";
+		s.hier4="Home";
+	
+	
+	s.prop44="zap-2010homelayout";
+
+
+//AD Block Detection
+//Description: 	Check if any IMG, IFRAME, or SCRIPT elements are ad blocked (set to not display).
+//		Also check for the occurance of any Norton installed code to block popups or ads ( ie.)SymError ).
+//		Only need to find 1 occurrance of any of the above to confirm ad blocking is used. 
+//		No need to continue searching through other portions of the page.
+
+var imgArray = document.images;
+var iframeArray = document.getElementsByTagName("iframe");
+var scriptArray = document.getElementsByTagName("script");
+var isAdBlocked = 0;
+
+
+if(window.SymError || window.SymWinOpen || window.SymRealWinOpen)
+{
+	isAdBlocked=1;
+}
+if (!isAdBlocked)
+{
+	for (var i=0; i<imgArray.length; i++)
+	{
+		if(imgArray[i].style.display == 'none')
+		{
+			isAdBlocked=1;
+			break;
+		}
+	}
+}
+
+if (!isAdBlocked)
+{
+	for (var j=0; j<iframeArray.length; j++)
+	{
+		if (iframeArray[j].style.display == 'none')
+		{
+			isAdBlocked=1;
+			break;
+		}
+	}
+}
+
+if (!isAdBlocked)
+{
+	for (var j=0; j<scriptArray.length; j++)
+	{
+		if (scriptArray[j].style.display == 'none')
+		{
+			isAdBlocked=1;
+			break;
+		}
+	}
+}
+
+if(isAdBlocked)
+{
+	s.prop50="ad blocking";
+}
+
+
+
+
+  
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code) 
+-->  
+</script>
+<script language="JavaScript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.1. -->
+
+ 
+    
+        
+<!-- START REVENUE SCIENCE PIXELLING CODE -->
+<script src="http://js.revsci.net/gateway/gw.js?csid=B08725"></script>
+<script>
+DM_addEncToLoc("Site", (s.server));
+DM_addEncToLoc("channel", (s.channel));
+DM_addEncToLoc("keyword", (s.prop3));
+DM_cat(s.hier1);
+DM_tag();
+</script>
+<!-- END REVENUE SCIENCE PIXELLING CODE -->
+    
+ 
+
+
+
+
+<!-- Start Quantcast tag -->
+
+<script type="text/javascript">
+
+_qoptions={
+
+qacct:"p-47jGCz7k8PpB6"
+
+};
+
+</script>
+
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+
+<noscript>
+
+<img src="http://pixel.quantserve.com/pixel/p-47jGCz7k8PpB6.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+
+</noscript>
+
+<!-- End Quantcast tag -->
+
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16486667-1']);
+  _gaq.push(['_setDomainName', '.zap2it.com']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+<script src="http://script.crsspxl.com/allwebhosts/zap2itcom/script.js" ></script><script type="text/javascript">ggv2id='6b47fbf3';</script>
+<script type="text/javascript" src="http://g2.gumgum.com/javascripts/ggv2.js"></script>
+<script>gigya.services.gm.showNotifications(notificationParams);</script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!--x-Instance-Name: i2s27z1n1-->

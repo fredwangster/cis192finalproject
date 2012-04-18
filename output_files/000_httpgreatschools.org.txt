@@ -1,0 +1,901 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head profile="">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+ var gomez={ 
+		 gs: new Date().getTime(), 
+		 acctId:'7E884A', 
+		 pgId:'', 
+		 grpId:'' 
+ }; 
+ //--> 
+ </SCRIPT> 
+ <SCRIPT LANGUAGE="JavaScript">
+<!-- 
+/*Gomez tag version: 5.1*/var gomez=gomez?gomez:{};gomez.h3=function(d, s){for(var p in s){d[p]=s[p];}return d;};gomez.h3(gomez,{b3:function(r){if(r<=0)return false;return Math.random()<=r&&r;},b0:function(n){var c=document.cookie;var v=c.match(new RegExp(';[ ]*'+n+'=([^;]*)'));if(!v)v=c.match(new RegExp(n+'=([^;]*)'));if(v)return unescape(v[1]);return '';},c2:function(n,v,e,p,d,s){try{var t=this,a=location.hostname;var c=n+'='+escape(v)+(e?';expires='+e.toGMTString():'')+(p?';path='+p:';path=/')+(d?';domain='+d:';domain='+a)+(s?';secure':'');document.cookie=c;}catch(e){}},z0:function(n){var t=this;if(n){var s =t.b0("__g_c");if(!s)return '';var v=s.match(new RegExp(n+':([^\|]*)'));if(v)return unescape(v[1]);return '';}else return '';},z1:function(n,m){var t=this;if(n){var s=t.b0("__g_c");if(s){if(s.indexOf(n+':')!=-1)s=s.replace(new RegExp('('+n+':[^\|]*)'),n+':'+m);else s=s==' '?n+':'+m:s+'|'+n+':'+m;t.c2("__g_c",s);}else t.c2("__g_c",n+':'+m);};}});if(gomez.wrate){gomez.i0=gomez.z0('w');if(gomez.i0){gomez.runFlg=parseInt(gomez.i0)>0?true:false;}else if(gomez.b3(parseFloat(gomez.wrate))){gomez.runFlg=true;gomez.z1('w',1);}else{gomez.runFlg=false;gomez.z1('w',0);}}else if(gomez.wrate==undefined){gomez.runFlg=true;gomez.z1('w',1);}else{gomez.runFlg=false;gomez.z1('w',0);};if(gomez.runFlg){gomez.h1=function(v,d){return v?v:d};gomez.gs=gomez.h1(gomez.gs,new Date().getTime());gomez.acctId=gomez.h1(gomez.acctId,'');gomez.pgId=gomez.h1(gomez.pgId,'');gomez.grpId=gomez.h1(gomez.grpId, '');gomez.E=function(c){this.s=c;};gomez.E.prototype={g1:function(e){var t=gomez,i=t.g6(e);if(i)i.e=t.b5();}};gomez.L=function(m){this.a=m;};gomez.L.prototype={g2:function(m){var t=gomez,n=t.b5();var s=document.getElementsByTagName(m);var e=t.k;if(m=='script')e=t.j;if(m=='iframe')e=t.l;if(s){var l=s.length;for(var i=0;i<l;i++){var u=s[i].src||s[i].href;if(u &&!e[u]){var r =new gomez.E(e);t.grm[u]=r;e[u]=new t.c7(u, n);if(t.gIE&&m=='script')t.e2(s[i],'readystatechange',t.d2,false);else t.e2(s[i],'load',r.g1,false);}}}}};gomez.L.m=new Object;gomez.L.m['link']=new gomez.L();gomez.L.m['iframe']=new gomez.L();gomez.S=function(){var t=this,h=gomez.acctId+".r.axf8.net";t.x=location.protocol+'//'+h+'/mr/b.gif?';t.y=location.protocol+'//'+h+'/mr/a.gif?';};gomez.h2=function(){var t=this;t.gIE=false;t.f=new Object;t._h=0;t.j=new Object;t.k=new Object;t.l=new Object;t.m=location.href;t.p=-1;t.q=-1;t.t=new Array;t.u=new Array;t._w=false;t.gSfr=/KHTML|WebKit/i.test(navigator.userAgent);t.gc={'n':'c'};t.grm=new Object;t.b;t.a=0;t.d=false;t.x=false;t.s=new gomez.S;t._a=false;t.h6=false;t.n1=0;};gomez.h3(gomez,{h5:function(u){try{var s=document.createElement('script');s.src=u;s.type='text/javascript';if(document.body)document.body.appendChild(s);else if(document.documentElement.getElementsByTagName('head')[0])document.documentElement.getElementsByTagName('head')[0].appendChild(s);}catch(e){}},a9:function(){var t=gomez,i=t.z0('a'),g=t.b0('__g_u'),h=t.z0('h');t.gc.h=t.z0('b');if(h)t.n1=parseInt(h);if(!t.gc.h)t.gc.h=1;t.z1('b',parseInt(t.gc.h)+1);if(i){t.a=parseInt(i);if(t.a==1){t._w=true;}else if(t.a==3){t.x=true;t._w=true;};t.d=true;t.gc.c=t.z0('c');t.gc.d=t.z0('d');t.gc.i=t.z0('e');t.gc.j=t.z0('f');if(t._w&&!t._a){t.h7();t._a=true;};}else {if(!t.gc.a)return;var s='v=1';t.c2('__g_u','1',new Date(t.gt()+1000));if(t.b0('__g_u')&&g&&g!='1'&&g.indexOf('NaN')==-1&&g.indexOf('undefined')==-1){s='v=0';var r=g.split('_');t.b2(parseInt(r[0]),parseInt(r[1])+1);if(r[4]&&r[4]!='0'&&t.gt()<parseInt(r[5])&&r[2]&&r[2]!='0'){t.b1(parseFloat(r[2]),parseFloat(r[3]),parseFloat(r[4]),parseInt(r[5]));if(r[6])t.n0(parseInt(r[6]));return;};};t.h6=true;s=t.s.y+'a='+t.gc.a+'&'+s;if(t.gSfr)document.write("<scr"+"ipt src='"+s+"'"+"><\/scr"+"ipt>");else t.h5(s);};t.b=t.z0('g');},h7:function(){var t=gomez,u=t.tloc?t.tloc:location.protocol+'//'+t.acctId+'.t.axf8.net/js/gtag5.1.js';if(t.gSfr)document.write("<scr"+"ipt src='"+u+"'"+"><\/scr"+"ipt>");else t.h5(u);},n0:function(h){var t=gomez,f=new Date(t.gt()+946080000000),g=t.b0('__g_u');t.n1=h;t.z1('h',h);if(g&&g!='1'&&g.indexOf('NaN')==-1&&g.indexOf('undefined')==-1){var r=g.split('_');g=''+r[0]+'_'+r[1]+'_'+r[2]+'_'+r[3]+'_'+r[4]+'_'+r[5]+'_'+h;t.c2('__g_u',g,f);};},b1:function(v,s,q,f){var t=this;if(t._a)return;if(t.b3(v)){t._w=true;t.a=1;var p=parseFloat(s/v);if(t.b3(p)){t.x=true;t.a=3;};};t.d=true;t.z1('a',t.a);t.z1('e',v);t.z1('f',s);t.gc.i=v;t.gc.j=s;t.h4(v,s,q,f);if(t._w){t.h7();t._a=true;};},b2:function(v,s){var t=this,f=new Date(t.gt()+946080000000),g=''+v+'_'+s;if(t._a)return;t.c2('__g_u',g,f);t.gc.c=v;t.gc.d=s;t.z1('c',v);t.z1('d',s);},h4:function(o,p,q,d){var t=this,f=new Date(t.gt()+946080000000),g=t.b0('__g_u');if(g&&g!='1'&&g.indexOf('NaN')==-1&&g.indexOf('undefined')==-1){var r=g.split('_'),s;if(d)s=d;else if(q&&q>=0)s=new Date(t.gt()+parseInt(q*86400000)).getTime();else{q=5;s=new Date(t.gt()+432000000).getTime();};g=''+r[0]+'_'+r[1]+'_'+o+'_'+p+'_'+q+'_'+s;t.c2('__g_u',g,f);};},gt:function(){return new Date().getTime()},b5:function(){return new Date().getTime()-gomez.gs},b6:function(){var t=gomez;t.p=t.b5();},f8:function(){var t=this;if(t.pollId1)clearInterval(t.pollId1);if(t.pollId2)clearInterval(t.pollId2);if(t.pollId3)clearInterval(t.pollId3);if(t.pollId4)clearInterval(t.pollId4);},b7:function(){var t =gomez;t.f8();t.q=t.b5();},c7:function(u, s){var t=this;t.m=u;t.s=s;},c8:function(){var t=gomez,n=t.b5(),l=document.images.length;if(l>t._h){for(var i=t._h; i<l;++i){var u=document.images[i].src;if(u){var r =new gomez.E(t.f);t.grm[u]=r;t.f[u]=new t.c7(u, n);t.e2(document.images[i],'load',t.c4,false);t.e2(document.images[i],'error',t.c5,false);t.e2(document.images[i],'abort',t.c6,false);}}}t._h=l;},c4:function(e){var t=gomez,i=t.g6(e);if(i)i.e=t.b5();},c5:function(e){var t=gomez,i=t.g6(e);if(i){i.e=t.b5();i.b=1;}},c6:function(e){var t=gomez,i=t.g6(e);if(i)i.a=t.b5();},g6:function(e){var t=gomez,e=window.event?window.event:e,a=t.d8(e),i;if(t.grm[a.src||a.href]&&t.grm[a.src||a.href].s) i=t.grm[a.src||a.href].s[a.src||a.href];return i;},d2:function(){var t=gomez;var e=window.event?window.event:e,s=t.d8(e);if(s.readyState=='loaded'||s.readyState=='complete'){var o=t.j[s.src];if(o)o.e=t.b5();}},setPair:function(name,value){var t=this;t.t[t.t.length]={'n':'p','a':name,'b':value};},nameEvent:function(n){var t=this;t.f6(n,1);},startInterval:function(n){var t=this;t.f6(n,2,1);},endInterval:function(n){var t=this;t.f6(n,2,2);},f6:function(n,p,b){if(n&&n.length>20) n=n.substring(0,20);var t=this,f=t.u;if(p==3){f[f.length]={'n':'a','a':n,'b':b,'e':p,'f':undefined};}else{f[f.length]={'n':'a','a':n,'b':t.b5(),'e':p,'f':b};}},customValue:function(n,v){var t=this;if(typeof(v)!='number'){return;}t.f6(n,3,v);},d8:function(e){if(gomez.gIE)return e.srcElement||{};else return e.currentTarget||e.target||{};},e2:function(e,p,f,c){var n='on'+p;if(e.addEventListener)e.addEventListener(p,f,c);else if(e.attachEvent)e.attachEvent(n, f);else{var x=e[n];if(typeof e[n]!='function')e[n]=f;else e[n]=function(a){x(a);f(a);};}},i1:function(){var d =window.document, done=false,i2=function (){if(!done){done=true;gomez.b6();gomez.a9();}};(function (){try{d.documentElement.doScroll('left');}catch(e){setTimeout(arguments.callee, 50);return;}i2();})();d.onreadystatechange=function(){if(d.readyState=='complete'){d.onreadystatechange=null;i2();}};},g7:function(){try{var t=gomez;t.gc.a=t.acctId;/*@cc_on t.gIE=true;@*/if(t.gIE){t.i1();window.attachEvent('onload', t.b7);}else if(window.addEventListener){window.addEventListener('DOMContentLoaded', t.b6, false);window.addEventListener('load', t.b7, false);}else if(t.gSfr){var m=setInterval(function(){if(/loaded|complete/.test(document.readyState)){clearInterval(m);delete m;t.b6();t.b7();}}, 10);}else return;if(!t.jbo){t.c8();t.pollId1=setInterval(t.c8, 10);gomez.L.m['link'].g2('link');t.pollId3=setInterval("gomez.L.m['link'].g2('link')", 10);gomez.L.m['iframe'].g2('iframe');t.pollId4=setInterval("gomez.L.m['iframe'].g2('iframe')", 10);}if(!t.gIE)t.a9();}catch(e){return;}}});gomez.h2();gomez.g7();}
+//--> 
+ </SCRIPT> 
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><title>GreatSchools - Public and Private School Ratings, Reviews and Parent Community</title><link rel="stylesheet" href="http://www.gscdn.org/res/css/gs2010_styles.combined.min.css?v=19.8" type="text/css" />
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://www.gscdn.org/res/css/gs2010_IEstyles.css?v=19.8" type="text/css" />
+    <![endif]-->
+    
+
+    <link rel="stylesheet" type="text/css" href="http://www.gscdn.org/res/css/home/blue_module.css"></link>
+
+    <script type="text/javascript" src="http://www.gscdn.org/res/js/combined.min.js?v=19.8"></script>
+    <!--[if lte IE 6]>
+        <script type="text/javascript" src="http://www.gscdn.org/res/js/ieShimHoverfix.js?v=19.8"></script>
+    <![endif]-->
+    
+
+    <script type="text/javascript" src="http://www.gscdn.org/res/js/AC_RunActiveContent.js"></script><script type="text/javascript" src="http://www.gscdn.org/res/js/carousel/carousel.js"></script><script type="text/javascript" src="http://www.gscdn.org/res/js/omnitureEventNotifier.js"></script><script type="text/javascript" src="http://www.gscdn.org/res/js/promo/emailSignUp.js"></script><meta property="fb:page_id" content="54475228539" />
+
+    <meta content="Compare K-12 school ratings nationwide to find the best schools. View parent ratings, reviews and test scores and choose the right preschool, elementary, middle or high school for public or private education." name="description"/><meta content="school ratings, public schools, public school ratings, private schools, private school ratings, charter schools, charter school ratings, school reviews, school rankings, test scores, preschool, elementary school, middle school, high school, parent community, education resource, find school, great schools, greatschools" name="keywords"/><meta content="8wIYiSgpVxmFXAqa0o9m/kbv8p0enMoVmBn0d7Tq3z8=" name="verify-v1"/><script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script><script type="text/javascript">                 
+              GS_googleAddAdSenseService("ca-pub-9662012843341888");
+              GS_googleEnableAllServices();
+            </script><script type="text/javascript">
+            <!--
+                    GA_googleAddAttr('editorial','pushdownad');
+                
+                    GA_googleAddAttr('editorial','userb');
+                
+                    GA_googleAddAttr('template','homepage');
+                
+            GA_googleAddAttr('compfilter','1');
+            
+            -->
+            </script>
+            <script type="text/javascript">
+            <!--
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Homepage_Footer_728x90');
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Global_NavPromo_968x30');
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Global_HeaderPromo_88x31');
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Custom_Peelback_Ad');
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Custom_Welcome_Ad');
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Homepage_FindASchool_Sponsor_88x31');
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Homepage_300x250');
+                GA_googleAddSlot("ca-pub-9662012843341888", 'Homepage_House_Ad_598x102');
+            -->
+            </script>
+            <script type="text/javascript">
+                GA_googleUseSyncSRARendering();
+                GA_googleFetchAds();
+            </script></head><body class="www unframed " onunload="" onload="relocateDeferredContent()"><script type="text/javascript" language="javascript">
+            <!--
+            if (parent.frames.length > 0 &&
+                document.referrer.indexOf("greatschools.org") != 13) {
+                parent.location.href = self.document.location
+            }
+            -->
+            </script><script type="text/javascript" src="http://www.gscdn.org/res/js/meebo.js?v=19.8"></script><div style="display:none;" class="dialog_white" id="subscriptionEmailValidated"><h2>Your subscription has been confirmed</h2><p>Thank you! You will begin to receive newsletters from us shortly.</p><button type="button" class="button-1 subscriptionEmailValidated_hideHover">OK</button></div><div style="display:none;" class="dialog_white" id="valEmail"><div class="media"><span class="sprite i-confirm img"></span><div class="bk"><h2>Please verify your email address</h2><p>
+                    Great work! Only one more step.
+                    <strong>Now we just need you to verify your email address</strong>. Please click on the link in the email we just sent you to complete your registration.
+                </p><button type="button" class="button-1 valEmail_hideHover">OK</button></div></div></div><div style="display:none;" class="dialog_white" id="valEmailSchoolReview"><div class="media"><span class="sprite i-confirm img"></span><div class="bk"><h2>Please verify your email address</h2><p>
+                    Great work! Only one more step.
+                    <strong>Now we just need you to verify your email address</strong>. Please click on the link in the email we just sent you to submit your review.
+                </p><button type="button" class="button-1 valEmailSchoolReview_hideHover">OK</button></div></div></div><div style="display:none;" class="dialog_white" id="valEditEmail"><h2>Your new email needs to be verified</h2><p>Please click on the link in the verification email we just sent you to complete your change of email
+            address.
+
+        </p><button type="button" class="button-1 valEditEmail_hideHover">OK</button></div><div style="display:none;" class="dialog_white" id="valNewEmail"><h2>Your email needs to be verified</h2><p><strong>Oops! You haven't verified your email address yet.</strong>
+            To do so, please click on the link in the email we sent you.
+            Can't find the email? Click the button below to receive a new one.
+        </p><button id="clsValNewEmail" type="button" class="button-1">Send a new email</button></div><div style="display:none;" class="dialog_white" id="regDone"><h2>Your registration is complete</h2><p><strong>Thanks for registering</strong>. Welcome to GreatSchools, the largest online community committed to
+            improving educational outcomes through parental involvement.</p><button type="button" class="button-1 regDone_hideHover">Finish</button></div><div style="display:none;" class="dialog_white" id="valNewEmailDone"><h2>Your email change is complete</h2><p>Thanks for verifying your updated email address.</p><button type="button" class="button-1 valNewEmailDone_hideHover">Finish</button></div><div style="display:none;" class="dialog_white" id="expVer"><h2>Verification link expired</h2><p><strong>Oops! That email verification link has expired</strong>.
+            Please click the button below to receive a new one.</p><button id="clsExpVer" type="button" class="button-1">Send a new email</button></div><div style="display:none" id="joinHover"><div class="hoverTitle"><h2 class="fltlft">Speak your mind</h2><span class="fltlft">Already a member? <a onclick="" id="lnchSignin" href="#">Sign in</a></span></div><div class="spacer_10 brdbtm_dotted"></div><div class="spacer_10"></div><div class="dialog_intro"><div class="introTxt col"><p><span class="title text2bold">Join GreatSchools</span><span class="subtitle text3">to participate in the parent community and other discussions on our site.</span></p></div></div><form method="post" action="/community/registration/popup/registrationHover.page" id="joinGS"><div class="line"><div class="unit size1of1 lastUnit error messBox" id="process_error">
+        Please correct the errors below to continue.
+    </div><div class="clearfloat"></div></div><div class="line"><div class="unit size1of1 lastUnit"><div class="line joinHover_firstName"><div class="unit size4of19"><label for="fName">First name *</label></div><div class="unit size5of14"><input name="firstName" class="textInput" id="fName" type="text"/></div><div class="unit size3of7 lastUnit"><div class="errors"><span class="error valid">&nbsp;</span><span class="error invalid"></span></div></div><div class="spacer_15"></div></div><div class="line joinHover_email"><div class="unit size4of19"><label for="jemail">Email address *</label></div><div class="unit size5of14"><input name="email" class="textInput" id="jemail" type="text"/></div><div class="unit size3of7 lastUnit"><div class="errors"><span class="error valid">&nbsp;</span><span class="error invalid"></span></div></div><div class="spacer_15"></div></div><div class="line joinHover_username"><div class="unit size4of19"><label for="uName">Username * <br/><span class="formHelperText">6-14 characters</span></label></div><div class="unit size5of14"><input name="screenName" class="textInput" id="uName" type="text"/></div><div class="unit size3of7 lastUnit"><div class="errors"><span class="error valid">Your username is available</span><span class="error invalid"></span></div></div><div class="spacer_7"></div></div><div class="line joinHover_password"><div class="unit size4of19"><label for="jpword">Password * <br/><span class="formHelperText">6-14 characters</span></label></div><div class="unit size5of14"><input name="password" class="passwordInput" id="jpword" type="password"/></div><div class="unit size3of7 lastUnit"><div class="errors"><span id="pw" class="error valid">&nbsp;</span><span id="pw_invalid" class="error invalid"></span></div></div><div class="spacer_7"></div></div><div class="line joinHover_confirmPassword"><div class="unit size4of19"><label for="cpword">Retype password *</label></div><div class="unit size5of14"><input name="confirmPassword" class="passwordInput" id="cpword" type="password"/></div><div class="unit size3of7 lastUnit"><div class="errors"><span id="pwmatch" class="error valid">&nbsp;</span><span id="pwnomatch" class="error invalid"></span></div></div><div class="clearfloat"></div></div><div class="line joinHover_location"><div class="spacer_15"></div><div class="unit size4of19"><label for="joinState">Where do you live?</label></div><div class="unit size5of14"><select id="joinState" name="state">
+<option value="AK">AK</option>
+<option value="AL">AL</option>
+<option value="AR">AR</option>
+<option value="AZ">AZ</option>
+<option value="CA" selected="selected">CA</option>
+<option value="CO">CO</option>
+<option value="CT">CT</option>
+<option value="DC">DC</option>
+<option value="DE">DE</option>
+<option value="FL">FL</option>
+<option value="GA">GA</option>
+<option value="HI">HI</option>
+<option value="IA">IA</option>
+<option value="ID">ID</option>
+<option value="IL">IL</option>
+<option value="IN">IN</option>
+<option value="KS">KS</option>
+<option value="KY">KY</option>
+<option value="LA">LA</option>
+<option value="MA">MA</option>
+<option value="MD">MD</option>
+<option value="ME">ME</option>
+<option value="MI">MI</option>
+<option value="MN">MN</option>
+<option value="MO">MO</option>
+<option value="MS">MS</option>
+<option value="MT">MT</option>
+<option value="NC">NC</option>
+<option value="ND">ND</option>
+<option value="NE">NE</option>
+<option value="NH">NH</option>
+<option value="NJ">NJ</option>
+<option value="NM">NM</option>
+<option value="NV">NV</option>
+<option value="NY">NY</option>
+<option value="OH">OH</option>
+<option value="OK">OK</option>
+<option value="OR">OR</option>
+<option value="PA">PA</option>
+<option value="RI">RI</option>
+<option value="SC">SC</option>
+<option value="SD">SD</option>
+<option value="TN">TN</option>
+<option value="TX">TX</option>
+<option value="UT">UT</option>
+<option value="VA">VA</option>
+<option value="VT">VT</option>
+<option value="WA">WA</option>
+<option value="WI">WI</option>
+<option value="WV">WV</option>
+<option value="WY">WY</option>
+</select>
+<select id="joinCity" name="city"><option>Loading...</option></select></div><div class="unit size3of7 lastUnit"><div class="errors"><span id="joinHover_chooseLocation" class="error invalid"></span></div></div></div></div></div><div class="line"><div class="unit size4of19">&nbsp;</div><div class="unit size15of19 lastUnit"><div class="spacer_10 brdbtm_dotted"></div><div class="spacer_10"></div></div></div><div class="line"><div class="unit size3of19"><div class="mediaExt1-1 formHelperText"><div class="img">*</div><div class="bk">Indicates a required field.</div></div><div class="spacer_10"></div><div class="mediaExt1-1 formHelperText"><div class="img">&nbsp;</div><div class="bk">Your privacy is important to us.
+                <a onclick="Popup=window.open('/privacy/?state=CA','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no, width=800,height=600,left=50,top=50'); return false;" class="" title="GreatSchools Privacy Policy" style="cursor:pointer" href="/privacy/?state=CA">GreatSchools Privacy Policy</a></div></div></div><div class="unit size1of19">
+        &nbsp;
+    </div><div class="unit size15of19 lastUnit btstips"><div class="mediaExt1 grades"><div class="img"><input id="opt1" value="true" name="newsletter" checked="checked" type="checkbox"/></div><div class="bk"><label for="opt1">Sign me up for weekly emails from GreatSchools with grade-by-grade tips, including periodic updates about
+                    <strong>Lowell High School</strong>.</label></div></div><div class="grades2"><div class="clearfloat"></div><p>In 2011-2012 my children are in:</p><ul><li id="pickGrade"><input name="grades" id="gp" value="mypk" type="checkbox"/><label for="gp">Preschool</label><button title="show more" type="button" id="grdShow">show more</button><div class="rnd3" id="moreGrades"><div class="line"><div class="unit size1of3"><div><input name="grades" id="gk" value="myk" type="checkbox"/><label for="gk">Kindergarten</label></div><div><input name="grades" id="g1" value="my1" type="checkbox"/><label for="g1">1st Grade</label></div><div><input name="grades" id="g2" value="my2" type="checkbox"/><label for="g2">2nd Grade</label></div></div><div class="unit size1of3"><div><input name="grades" id="g3" value="my3" type="checkbox"/><label for="g3">3rd Grade</label></div><div><input name="grades" id="g4" value="my4" type="checkbox"/><label for="g4">4th Grade</label></div><div><input name="grades" id="g5" value="my5" type="checkbox"/><label for="g5">5th Grade</label></div></div><div class="unit size1of3 lastUnit"><div><input name="grades" id="gM" value="myms" type="checkbox"/><label for="gM">Middle School</label></div><div><input name="grades" id="gH" value="myhs" type="checkbox"/><label for="gH">High School</label></div></div></div><div class="line"><div class="unit size1of1 lastUnit"><button type="button" id="gradeDone" class="button-1">Done</button></div></div></div></li></ul></div><div class="mediaExt1 joinHover_ld"><div class="spacer_10"></div><div class="img"><input id="opt2" value="true" name="ldNewsletter" type="checkbox"/></div><div class="bk"><label for="opt2">Send me monthly emails about Learning Difficulties.</label></div></div><div class="mediaExt1 joinHover_btstip"><div class="spacer_10"></div><div class="img"><input id="opt4" value="true" name="btsTip" type="checkbox"/></div><div class="bk"><label for="opt4">Sign me up for daily Back-to-School tips (ends Sept 7, 2010).</label><ul class="inner-row"><li class="btstip_version"><span>Select a version:</span><input checked="checked" id="btstip_elem" value="e" name="btsTipVersion" type="radio"/><label for="btstip_elem">Elementary School</label><input id="btstip_middle" value="m" name="btsTipVersion" type="radio"/><label for="btstip_middle">Middle School</label><input id="btstip_high" value="h" name="btsTipVersion" type="radio"/><label for="btstip_high">High School</label></li></ul></div></div><div class="mediaExt1 joinHover_partners"><div class="spacer_10"></div><div class="img"><input checked="checked" id="opt3" value="true" name="partnerNewsletter" type="checkbox"/></div><div class="bk"><label for="opt3">Send me offers to save on family activities and special
+                    promotions from our carefully chosen partners.</label></div></div><div class="joinHover_terms"><div class="spacer_10"></div><input checked="checked" class="hidden" value="true" name="terms" type="checkbox"/><label for="touy">
+                By joining GreatSchools, you agree to our
+                <a onclick="Popup=window.open('/terms/?state=CA','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no, width=800,height=600,left=50,top=50'); return false;" class="" title="GreatSchools Terms of Use" style="cursor:pointer" href="/terms/?state=CA">GreatSchools Terms of Use</a>
+                and
+                <a onclick="Popup=window.open('/terms/?state=CA#communityStandards','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no, width=800,height=600,left=50,top=50'); return false;" class="" title="GreatSchools Community Standards" style="cursor:pointer" href="/terms/?state=CA#communityStandards">Community Guidelines</a>. *</label></div></div><div class="spacer_15"></div></div><div class="line"><div class="unit size4of19">&nbsp;</div><div class="unit size4of19"><button id="joinBtn" name="joinBtn" type="submit" class="button-1">Join now</button></div><div class="unit size11of19 lastUnit"><a id="joinHover_cancel" href="#">No thanks <span class="alertDoubleArrow">&#187;</span></a></div></div><input value="JoinChooser" id="joinHoverType" name="joinHoverType" type="hidden"/><input value="" class="redirect_field" name="redirectUrl" type="hidden"/><input value="CA" class="school_state" name="mystatSchoolState" type="hidden"/><input value="-1" class="school_id" name="mystatSchoolId" type="hidden"/></form></div><div style="display:none;" id="signInHover"><h2>Sign in to GreatSchools <span>Not a member? <a onclick="" id="signInHover_launchJoin" href="#">Join GreatSchools</a>.</span></h2><div class="messages"><p class="error"></p></div><form method="post" action="/community/loginOrRegister.page" id="signin"><fieldset class="signin"><h3>Sign in with an existing GreatSchools account:</h3><ul><li><label for="semail">Email address</label><input name="email" id="semail" type="text"/><div class="errors"><p class="error"></p></div></li><li><label for="spword">Password</label><input name="password" id="spword" type="password"/></li></ul></fieldset><input value="" class="redirect_field" name="redirect" type="hidden"/><fieldset class="btns"><button id="signinBtn" name="signinBtn" type="submit" class="button-1">Sign in</button><p><a onclick="" id="signInHover_launchForgotPassword" href="javascript:void(0);">Forgot your password?</a></p><input value="true" name="rememberMe" type="hidden"/></fieldset></form></div><div style="display:none;" class="dialog_white" id="hover_forgotPassword"><h2>Forgot your password?</h2><form action="#" id="hover_forgotPasswordForm"><div style="display:none;" class="messages"></div><fieldset class="hoverFormFieldset"><h3>Please enter the email address associated with your account. Instructions for selecting a new password will be emailed to you.<br/></h3><ul><li><label for="fpemail">Email address</label><input name="email" id="fpemail" type="text"/></li></ul></fieldset><fieldset class="btns"><button id="hover_forgotPasswordSubmit" name="forgotPasswordSubmit" type="submit" class="button-1">Reset password</button><button name="forgotPasswordCancel" type="button" class="button-1 hover_forgotPassword_hideHover">Cancel</button></fieldset></form></div><div style="display:none;" class="dialog_white" id="schoolReviewThankYou"><h2>Thank you for submitting a review</h2><p><strong>Your review has been posted to GreatSchools.</strong></p><button type="button" class="button-1 schoolReviewThankYou_hideHover">OK</button></div><div style="display:none;" class="dialog_white" id="emailValidatedSchoolReviewHover"><h2>Thank you for submitting a review</h2><p><strong>Welcome to GreatSchools! </strong><span class="fillMeIn"></span></p><button type="button" class="button-1 emailValidatedSchoolReviewHover_hideHover">OK</button></div><script type="text/javascript">
+        jQuery(function() {
+
+            jQuery('#submitPrincipalConfirmation').click(function() {
+                jQuery('#principalConfirmationForm').submit();
+            });
+
+            jQuery('#principalConfirmationForm').submit(function () {
+                var agreed = jQuery('#principalConfirmationForm [name="agree"]').attr('checked');
+                jQuery('#agreeError').hide();
+
+                if (agreed) {
+                    return true;
+                } else {
+                    jQuery('#agreeError').show();
+                    return false;
+                }
+            });
+        });
+    </script><div style="display:none;" id="principalConfirmationHover"><h2>Complete your school's profile</h2><p>For principals and school officials, we offer a special Enhanced School Profile (ESP) which allows you to update and add information about your school, as well as respond to reviews. If you are a school official, click Continue to start. </p><form method="get" id="principalConfirmationForm" name="principalConfirmation"><input name="id" id="hdnSchoolId" type="hidden"/><input name="state" id="hdnSchoolState" type="hidden"/><div class="error" id="agreeError">You must agree to continue</div><div class="spacer_10"></div><input value="agree" type="checkbox" id="agree" name="agree"/><label for="agree">Yes, I am an official at this school. </label><div class="spacer_10"></div><div class="line"><div class="unit size1of6"><button id="submitPrincipalConfirmation" type="button" class="button-1">Continue
+                    </button></div><div class="unit size5of6 lastUnit"><button onclick="GSType.hover.principalConfirmation.hide();" type="button" class="button-1">Cancel
+                    </button></div></div></form></div><script type="text/javascript">
+        jQuery(function() {
+            jQuery('#continueToSurvey').click(function() {
+                var schoolId = '';
+                var schoolState = '';
+                window.location.href='/cgi-bin/pq/page0.cgi?id=' + schoolId + '&amp;state=' + schoolState;
+            });
+        });
+    </script><div style="display:none;" id="principalReviewSubmittedHover"><h2>Thank you for submitting a comment</h2><p><span style="font-weight:bold;">Please note that it can take up to 48 hours for your comment to be posted to our site.</span> While you're here, we'd like to invite you to fill out a
+            survey on your school's programs, activities, and extracurriculars. It only takes a few minutes and will help parents get a full picture of your school.
+        </p><br/><fieldset class="btns"><button id="continueToSurvey" name="continueToSurvey" type="submit" class="button-1">Continue to survey</button><a class="principalReviewSubmittedHover_hideHover" id="principalReviewSubmittedHover_cancel" href="javascript:void(0);">No thanks <span class="alertDoubleArrow">&#187;</span></a></fieldset></div><div style="display:none;" class="dialog_white" id="compareSchoolsLimitReachedHover"><div class="media"><div class="bk"><h2>You may only compare 8 schools at a time</h2><p><strong>Continue to compare</strong> the schools you have already selected or <strong>Edit schools</strong> to change your selection. 
+                </p><button type="button" class="button-1 jq_compareSchoolsLimitReachedHover_continue">Continue to compare</button><button type="button" class="button-1 jq_compareSchoolsLimitReachedHover_edit">Edit schools</button><div class="jq_compareSchoolsLimitReachedHover_uncheckAll_div">
+                    Or, <a onclick="return false;" class="jq_compareSchoolsLimitReachedHover_uncheckAll" href="#">uncheck all schools to start over</a>.
+                </div></div></div></div><div style="display:none;" class="dialog_white" id="espAccountVerified"><h2>Your account is now active</h2><p>Get started now! You have successfully registered and can now start updating your Official School Profile.
+            The information you provide is extremely valuable in helping parents and students learn more about your
+            school, so thanks for taking the time!</p><button type="button" class="button-1 espAccountVerified_hideHover">Update school profile</button></div><div id="marginGS"><div id="pageGS"><div id="header"><div class="line"><div class="unit size1of1 lastUnit"><ul id="utilLinks"><li><a href="/official-school-profile/register.page">School Officials</a></li><li><a href="/about/aboutUs.page">About GreatSchools</a></li><li><a onclick="GSType.hover.joinHover.showJoinGlobalHeader(); return false;" href="/community/registration.page?email=">Join Us</a></li><li><a rel="nofollow" onclick="GSType.hover.signInHover.showHover('', document.location.href, GSType.hover.joinHover.showJoinGlobalHeader); return false;" href="/community/loginOrRegister.page?redirect=%2Findex.page">Sign In</a></li><li class="last"><a rel="nofollow" onclick="return GS.showJoinHover('', this.href, GSType.hover.joinHover.showJoinMsl);" href="/mySchoolList.page">My School List (0)</a></li></ul></div></div><div class="line"><div class="unit size40of100"><div id="logoBox"><a href="/"><img src="http://www.gscdn.org/res/img/logo/logo_GS2010_330x110.png" alt="GreatSchools: Involved Parents. Successful Kids" id="logo"/></a></div></div><script type="text/javascript">
+                function clearValueInBox(x) {
+                    if (x.value == 'Search by keyword' || x.value == 'Search for school, district, or city') {
+                        x.value = '';
+                    }
+                }
+            </script><div class="unit size60of100 lastUnit"><div class="topnav_search_container"><form accept-charset="UTF-8" id="topnav_search_articlesAndCommunity" action="/search/contentSearch.page" method="get"><input value="" id="articlesAndCommunityQ" name="q" type="hidden"/></form><form accept-charset="UTF-8" id="topnav_search" action="/search/search.page" method="get" onsubmit="return topNavNewCommunitySubmitSearch(this)"><input value="0" name="search_type" type="hidden"/><fieldset><ul><li class="active" id="srch1"><label class="radLabel" for="topnavSchoolRadio">Schools</label></li><li class="inactive" id="srch2"><label class="radLabel" for="topnavArticlesAndCommunityRadio">Articles, Worksheets &amp; More</label></li></ul><input onclick="clearValueInBox(this);" value="Search for school, district, or city" id="qNew" name="q" type="text"/><select id="stateSelector" name="state" class="stateSelect" style="display:inline;">
+<option value="" selected="selected">--</option>
+<option value="AK">AK</option>
+<option value="AL">AL</option>
+<option value="AR">AR</option>
+<option value="AZ">AZ</option>
+<option value="CA">CA</option>
+<option value="CO">CO</option>
+<option value="CT">CT</option>
+<option value="DC">DC</option>
+<option value="DE">DE</option>
+<option value="FL">FL</option>
+<option value="GA">GA</option>
+<option value="HI">HI</option>
+<option value="IA">IA</option>
+<option value="ID">ID</option>
+<option value="IL">IL</option>
+<option value="IN">IN</option>
+<option value="KS">KS</option>
+<option value="KY">KY</option>
+<option value="LA">LA</option>
+<option value="MA">MA</option>
+<option value="MD">MD</option>
+<option value="ME">ME</option>
+<option value="MI">MI</option>
+<option value="MN">MN</option>
+<option value="MO">MO</option>
+<option value="MS">MS</option>
+<option value="MT">MT</option>
+<option value="NC">NC</option>
+<option value="ND">ND</option>
+<option value="NE">NE</option>
+<option value="NH">NH</option>
+<option value="NJ">NJ</option>
+<option value="NM">NM</option>
+<option value="NV">NV</option>
+<option value="NY">NY</option>
+<option value="OH">OH</option>
+<option value="OK">OK</option>
+<option value="OR">OR</option>
+<option value="PA">PA</option>
+<option value="RI">RI</option>
+<option value="SC">SC</option>
+<option value="SD">SD</option>
+<option value="TN">TN</option>
+<option value="TX">TX</option>
+<option value="UT">UT</option>
+<option value="VA">VA</option>
+<option value="VT">VT</option>
+<option value="WA">WA</option>
+<option value="WI">WI</option>
+<option value="WV">WV</option>
+<option value="WY">WY</option>
+</select>
+<button class="button-1" type="submit">Search</button><script type="text/javascript">
+                                    jQuery(function() {
+                                        GS.attachSchoolAutocomplete("qNew");
+                                    });
+                                </script><script type="text/javascript">
+                                jQuery(function() {
+                                    jQuery('#srch2 label').click(function() {
+                                        GS.detachSchoolAutocomplete("qNew");
+                                    });
+                                    jQuery('#srch1 label').click(function() {
+                                        GS.attachSchoolAutocomplete("qNew");
+                                    });
+                                });
+                            </script></fieldset><fieldset id="radBtns"><input type="radio" name="c" value="school" id="topnavSchoolRadio" checked="checked" onclick="topNavNewCommunitySelectSchoolSearch(this, '/search/search.page');" /><input type="radio" name="c" value="articlesAndCommunity" id="topnavArticlesAndCommunityRadio" onclick="topNavSelectArticlesAndCommunitySearch(this, '/search/contentSearch.page');" /></fieldset></form></div></div><script type="text/javascript">document.forms['topnav_search'].reset();</script></div></div><script type="text/javascript">
+    GS_loadSubnav();
+</script><div class="menuContainer"><table id="primary"><tbody><tr><td class="selected menuItem home"><div class="dropdownReference"><a class="menuItemAnchorText GS_CI9_" id="PN-Home" href="/"><span class="navSprite i-pn-home"></span></a></div></td><td class=" menuItem"><div class="dropdownReference"><a class="menuItemAnchorText drop GS_CI9_" id="PN-FindASchool" href="/find-schools/">Find a School</a><div class="dropdown_1 text2"><div class="col_1"><div class="col_content brdrt_dotted"><ul><li><a class="GS_CI9_" id="PN_F_1-SearchForSchools" href="/find-schools/">Search for Schools</a></li><li><a class="GS_CI9_" id="PN_F_1-DefiningYourIdealSchool" href="/defining-your-ideal-school.topic?content=4996">Defining Your Ideal School</a></li><li class="lastone"><a id="PN_F_1-HowToAssessASchool" class="GS_CI9_" href="/articles/?topics=197">How to Assess a School</a></li></ul></div></div><div class="col_1"><div class="col_content"><ul><li><a id="PN_F_2-MakingTheRightChoice" class="GS_CI9_" href="/articles/?topics=195">Making the Right Choice</a></li><li><a class="GS_CI9_" id="PN_F_2-MovingWIthKids" href="/moving.topic?content=2220">Moving with Kids</a></li><li class="lastone"><a class="GS_CI9_" id="PN_F_2-LocalSchoolChoiceGuides" href="/tips-moving-school-district.topic?content=4248">Guides to Local School Systems</a></li></ul></div></div><div class="col_2"><div class="ft_content clearfix"><img src="http://www.gscdn.org/res/img/primaryNav/mm-findaschool-19.3.jpg" alt="find a school hot topic" width="130" height="66" class="fltlft"/><p class="text3 allCaps">Hot Topic</p><p><a class="GS_CI9_" id="PN_F_HT-ChoosingASchoolFromADistance" href="/find-a-school/moving/3986-choosing-a-school-from-a-distance.gs?page=1">Choosing a school from a distance</a></p></div></div></div></div></td><td class=" menuItem"><div class="dropdownReference"><a class="menuItemAnchorText drop GS_CI9_" id="PN-Preschool" href="/preschool/">Preschool</a><div class="dropdown_2 text2"><div class="col_1"><div class="col_content brdrt_dotted"><ul><li><a class="GS_CI9_" id="PN_P_1-ReadingReadiness" href="/preschool-reading-readiness.topic?content=4980">Reading Readiness</a></li><li><a class="GS_CI9_" id="PN_P_1-MathReadiness" href="/articles/?grades=198&topics=209">Math Readiness</a></li><li><a class="GS_CI9_" id="PN_P_1-Worksheets" href="/worksheets/preschool/">Worksheets</a></li><li class="lastone"><a class="GS_CI9_" id="PN_P_1-Activities" href="/articles/?topics=156&grades=198">Activities</a></li></ul></div></div><div class="col_1"><div class="col_content"><ul><li><a class="GS_CI9_" id="PN_P_2-Books" href="/articles/?topics=159&grades=198">Books</a></li><li><a class="GS_CI9_" id="PN_P_2-Games" href="/articles/?topics=371&grades=198">Games</a></li><li class="lastone"><a class="GS_CI9_" id="PN_P_2-Community" href="/preschool/community.gs?content=1636">Community</a></li></ul></div></div><div class="col_2"><div class="ft_content clearfix"><img src="http://www.gscdn.org/res/img/primaryNav/mm-preschool-19.3.jpg" alt="preschool hot topic" width="130" height="66" class="fltlft"/><p class="text3 allCaps">Hot Topic</p><p><a class="GS_CI9_" id="PN_P_HT-HowCanIHelpMyPreschoolerMakeFriends" href="/parenting/social-skills/1579-making-friends-in-preschool.gs">How can I help my preschooler make friends?</a></p></div></div></div></div></td><td class=" menuItem"><div class="dropdownReference"><a class="menuItemAnchorText drop GS_CI9_" id="PN-ElementarySchool" href="/elementary-school/">Elementary School</a><div class="dropdown_3 text2"><div class="col_1"><div class="col_content brdrt_dotted"><ul><li><a class="GS_CI9_" id="PN_E_1-Kindergarten" href="/kindergarten.topic?content=2659">Kindergarten</a></li><li><a class="GS_CI9_" id="PN_E_1-FirstGrade" href="/first-grade.topic?content=2660">First Grade</a></li><li><a class="GS_CI9_" id="PN_E_1-SecondGrade" href="/second-grade.topic?content=2661">Second Grade</a></li><li><a class="GS_CI9_" id="PN_E_1-ThirdGrade" href="/third-grade.topic?content=2662">Third Grade</a></li><li><a class="GS_CI9_" id="PN_E_1-FourthGrade" href="/fourth-grade.topic?content=2663">Fourth Grade</a></li><li><a class="GS_CI9_" id="PN_E_1-FifthGrade" href="/fifth-grade.topic?content=2664">Fifth Grade</a></li><li><a class="GS_CI9_" id="PN_E_1-Math" href="/elementary-school-math.topic?content=5069">Math</a></li><li class="lastone"><a class="GS_CI9_" id="PN_E_1-Reading" href="/elementary-school-reading.topic?content=5256">Reading</a></li></ul></div></div><div class="col_1"><div class="col_content"><ul><li><a class="GS_CI9_" id="PN_E_2-Videos" href="/videos/elementary-school/?content=1574">Videos</a></li><li><a class="GS_CI9_" id="PN_E_2-Worksheets" href="/worksheets/elementary-school/">Worksheets</a></li><li><a class="GS_CI9_" id="PN_E_2-Activities" href="/articles/?topics=156&grades=217">Activities</a></li><li><a class="GS_CI9_" id="PN_E_2-Books" href="/articles/?topics=159&grades=217">Books</a></li><li><a class="GS_CI9_" id="PN_E_2-Games" href="/articles/?topics=371&grades=217">Games</a></li><li><a class="GS_CI9_" id="PN_E_2-Bullying" href="/bullying.topic?content=4350">Bullying</a></li><li><a class="GS_CI9_" id="PN_E_2-ImproveYourSchool" href="/articles/?topics=125&grades=217">Improve Your School</a></li><li class="lastone"><a class="GS_CI9_" id="PN_E_2-Community" href="/elementary-school/community.gs?content=1637">Community</a></li></ul></div></div><div class="col_2"><div class="ft_content clearfix"><img src="http://www.gscdn.org/res/img/primaryNav/mm-elementaryschool-19.3.jpg" alt="elementary school hot topic" width="130" height="66" class="fltlft"/><p class="text3 allCaps">Hot Topic</p><p><a class="GS_CI9_" id="PN_E_HT-TeachingPersistence" href="/students/academic-skills/2430-teaching-persistence-3rd-through-5th-grade.gs?page=1">Teaching persistence</a></p></div></div></div></div></td><td class=" menuItem"><div class="dropdownReference"><a class="menuItemAnchorText drop GS_CI9_" id="PN-MiddleSchool" href="/middle-school/">Middle School</a><div class="dropdown_4 text2"><div class="col_1"><div class="col_content brdrt_dotted"><ul><li><a class="GS_CI9_" id="PN_M_1-Math" href="/middle-school-math.topic?content=5062">Math</a></li><li><a class="GS_CI9_" id="PN_M_1-Reading" href="/articles/?grades=205&topics=211">Reading</a></li><li><a class="GS_CI9_" id="PN_M_1-Writing" href="/articles/?grades=205&topics=216">Writing</a></li><li><a class="GS_CI9_" id="PN_M_1-Science" href="/articles/?grades=205&topics=212">Science</a></li><li><a class="GS_CI9_" id="PN_M_1-SocialStudies" href="/articles/?grades=205&topics=213">Social Studies</a></li><li class="lastone"><a class="GS_CI9_" id="PN_M_1-TweenTroubles" href="/Tween-Troubles.topic?content=4885">Tween Troubles</a></li></ul></div></div><div class="col_1"><div class="col_content"><ul><li><a class="GS_CI9_" id="PN_M_2-Activities" href="/articles/?grades=205&topics=156">Activities</a></li><li><a class="GS_CI9_" id="PN_M_2-Books" href="/articles/?grades=205&topics=159">Books</a></li><li><a class="GS_CI9_" id="PN_M_2-Bullying" href="/bullying.topic?content=4350">Bullying</a></li><li><a class="GS_CI9_" id="PN_M_2-ImproveYourSchool" href="/articles/?topics=125&grades=205">Improve Your School</a></li><li class="lastone"><a class="GS_CI9_" id="PN_M_2-Community" href="/middle-school/community.gs?content=1638">Community</a></li></ul></div></div><div class="col_2"><div class="ft_content clearfix"><img src="http://www.gscdn.org/res/img/primaryNav/mm-middleschool-19.3.jpg" alt="middle school hot topic" width="130" height="66" class="fltlft"/><p class="text3 allCaps">Hot Topic</p><p><a class="GS_CI9_" id="PN_M_HT-WhenTheTeacherIsTheBully" href="/parenting/bullying/5063-when-the-teacher-is-the-bully.gs?page=1">When the teacher is the bully</a></p></div></div></div></div></td><td class=" menuItem"><div class="dropdownReference"><a class="menuItemAnchorText drop GS_CI9_" id="PN-HighSchool" href="/high-school/">High School</a><div class="dropdown_5 text2"><div class="col_1"><div class="col_content brdrt_dotted"><ul><li><a class="GS_CI9_" id="PN_H_1-Math" href="/articles/?grades=206&topics=209">Math</a></li><li><a class="GS_CI9_" id="PN_H_1-Reading" href="/articles/?grades=206&topics=211">Reading</a></li><li><a class="GS_CI9_" id="PN_H_1-Writing" href="/articles/?grades=206&topics=216">Writing</a></li><li><a class="GS_CI9_" id="PN_H_1-Science" href="/articles/?grades=206&topics=212">Science</a></li><li><a class="GS_CI9_" id="PN_H_1-SocialStudies" href="/articles/?grades=206&topics=213">Social Studies</a></li><li class="lastone"><a class="GS_CI9_" id="PN_H_1-Books" href="/articles/?grades=206&topics=159">Books</a></li></ul></div></div><div class="col_1"><div class="col_content"><ul><li><a class="GS_CI9_" id="PN_H_2-Graduation" href="/articles/?topics=372&grades=206">Graduation</a></li><li><a class="GS_CI9_" id="PN_H_2-CollegePrep" href="/articles/?topics=152">College Prep</a></li><li><a class="GS_CI9_" id="PN_H_2-Bullying" href="/bullying.topic?content=4350">Bullying</a></li><li><a class="GS_CI9_" id="PN_H_2-ImproveYourSchool" href="/articles/?topics=125&grades=206">Improve Your School</a></li><li><a class="GS_CI9_" id="PN_H_2-Community" href="/high-school/community.gs?content=1639">Community</a></li><li class="lastone"><a class="GS_CI9_" id="PN_H_2-SexDrugsAndYourTeen" href="/Sex-Drugs-and-Your-Teen.topic?content=4880">Sex, Drugs &amp; Your Teen</a></li></ul></div></div><div class="col_2"><div class="ft_content clearfix"><img src="http://www.gscdn.org/res/img/primaryNav/mm-highschool-19.3.jpg" alt="high school hot topic" width="130" height="66" class="fltlft"/><p class="text3 allCaps">Hot Topic</p><p><a class="GS_CI9_" id="PN_H_HT-HouseRulesOnDrugsAndAlcohol" href="/parenting/4486-parent-rules-teen-alcohol-drug-use.gs?page=1">House rules on drugs and alcohol</a></p></div></div></div></div></td><td class=" menuItem lastNavUnit"><div class="dropdownReference"><a class="menuItemAnchorText drop GS_CI9_" id="PN-College" href="/college/">College</a><div class="dropdown_6 text2 dropdown_align_right"><div class="col_1"><div class="col_content brdrt_dotted"><ul><li><a class="GS_CI9_" id="PN_C_1-PlanningForCollege" href="/college-prep.topic?content=1542">Planning For College</a></li><li class="lastone"><a class="GS_CI9_" id="PN_C_1-TestPrep" href="/test-prep/">Test Prep</a></li></ul></div></div><div class="col_1"><div class="col_content"><ul><li><a class="GS_CI9_" id="PN_C_2-ApplyingForCollege" href="/articles/?topics=152">Applying for College</a></li><li class="lastone"><a class="GS_CI9_" id="PN_C_2-PayingForCollege" href="/articles/?topics=167">Paying for College</a></li></ul></div></div><div class="col_2"><div class="ft_content clearfix"><img src="http://www.gscdn.org/res/img/primaryNav/mm-college-1.jpg" alt="college hot topic" width="130" height="66" class="fltlft"/><p class="text3 allCaps">Hot Topic</p><p><a class="GS_CI9_" id="PN_C_HT-EasingCollegeAdmissionsAnxiety" href="/college-prep/applying/338-easing-college-admissions-anxiety.gs?page=1">Easing college admissions anxiety</a></p></div></div></div></div></td></tr></tbody></table></div><ul id="secondary"><li class="menuItem"><a class="menuItemAnchorText GS_CI9_" id="SN-HotTopics" href="/hot-topics.topic?content=4932">Hot Topics&nbsp;<span class="sn-arrow"></span></a><ul class="dropdown dropdown_1"><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HT-5WaysToKeepYourChildHealthy" href="/parenting/health-nutrition/5134-5-surprising-tricks-for-keeping-your-child-healthy-this-season.gs?page=1">5 ways to keep your child healthy</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HT-RaisingMySonAsAGirl" href="/parenting/5085-raising-transgender-child.gs?page=1">Raising my son as a girl</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HT-AGrievingFatherFightsBullying" href="/parenting/bullying/4923-a-father-fights-bullying.gs?page=1">A grieving father fights bullying</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HT-7DangerousTeenTrends" href="/parenting/4503-dangerous-teen-trends.gs?page=1">7 dangerous teen trends</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HT-TeensAndSexByTheNumbers" href="/parenting/slideshows/4325-teens-and-sex-statistics.gs">Teens and sex by the numbers</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HT-DealingWithABadTeacher" href="/improvement/teacher-quality/4907-bad-teacher.gs?page=1">Dealing with a bad teacher</a></li></ul></li><li class="menuItem"><a class="menuItemAnchorText GS_CI9_" id="SN-AcademicsActivities" href="/worksheets-activities.topic?content=4313">Worksheets & Activities&nbsp;<span class="sn-arrow"></span></a><ul class="dropdown_2"><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-MathWorksheets" href="/worksheets/math/">Math Worksheets</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-ReadingWorksheets" href="/worksheets/reading/">Reading Worksheets</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-WritingWorksheets" href="/worksheets/writing/">Writing Worksheets</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-ScienceWorksheets" href="/worksheets/science/">Science Worksheets</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-MathActivities" href="/articles/?topics=156&subjects=209">Math Activities</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-ReadingActivities" href="/articles/?topics=156&subjects=211">Reading Activities</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-WritingActivities" href="/articles/?topics=156&subjects=216">Writing Activities</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-ArtActivities" href="/articles/?topics=156&subjects=207">Art Activities</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-ScienceActivities" href="/articles/?topics=156&subjects=212">Science Activities</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-TravelActivities" href="/articles/?topics=218">Travel Activities</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-SummerActivities" href="/articles/?topics=150">Summer Activities</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_WA-HolidayActivities" href="/articles/?topics=246">Holiday Activities</a></li></ul></li><li class="menuItem"><a class="menuItemAnchorText GS_CI9_" id="SN-HomeworkHelp" href="/homework-help.topic?content=1544">Homework Help&nbsp;<span class="sn-arrow"></span></a><ul class="dropdown_3"><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HH-Math" href="/homework-help-math.topic?content=5254">Math</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HH-Reading" href="/homework-help-reading.topic?content=5255">Reading</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HH-Writing" href="/articles/?topics=140&subjects=216">Writing</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HH-StudySkills" href="/articles/?topics=148">Study Skills</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HH-Tutoring" href="/homework-help-tutoring.topic?content=5263">Tutoring</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HH-OnlineLearning" href="/online-learning.topic?content=4351">Online Learning</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HH-TestPrep" href="/test-prep/">Test Prep</a></li></ul></li><li class="menuItem"><a class="menuItemAnchorText GS_CI9_" id="SN-ParentingDilemmas" href="/parenting-dilemmas.topic?content=4321">Parenting Dilemmas&nbsp;<span class="sn-arrow"></span></a><ul class="dropdown_4"><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_PD-Bullying" href="/bullying.topic?content=4350">Bullying</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_PD-TooMuchHomework" href="/Too-Much-Homework.topic?content=4886">Too Much Homework?</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_PD-ScreenUseAndAbuse" href="/screen-use-and-abuse.topic?content=4882">Screen Use &amp; Abuse</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_PD-SexEducation" href="/Sex-ed.topic?content=4352">Sex Education</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_PD-ManagingKidsStress" href="/Managing-Kids-Stress.topic?content=4888">Managing Kids' Stress</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_PD-TeachingCharacter" href="/Teaching-Character.topic?content=4889">Teaching Character</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_PD-TeacherIssues" href="/Teacher-Issues.topic?content=4884">Teacher Issues</a></li></ul></li><li class="menuItem"><a class="menuItemAnchorText GS_CI9_" id="SN-HealthBehavior" href="/parenting.topic?content=1539">Health & Behavior&nbsp;<span class="sn-arrow"></span></a><ul class="dropdown_5"><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HB-HealthNutrition" href="/content/healthyKids.page">Health & Nutrition</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HB-BehaviorDiscipline" href="/behavior-and-discipline.topic?content=5009">Behavior & Discipline</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HB-SocialSkills" href="/articles/?topics=157">Social Skills</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HB-EmotionalWellBeing" href="/articles/?topics=136">Emotional Well-Being</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_HB-YourChildsBrain" href="/your-childs-brain.topic?content=4881">Your Child's Brain</a></li></ul></li><li class="menuItem"><a class="menuItemAnchorText GS_CI9_" id="SN-LearningDifficulties" href="/special-education.topic?content=1541">Learning Difficulties&nbsp;<span class="sn-arrow"></span></a><ul class="dropdown_6"><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_LD-LearningDisabilitiesADHD" href="/learning-disabilities-and-adhd.topic?content=5264">Learning Disabilities & ADHD</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_LD-AutismOtherDisorders" href="/autism.topic?content=5265">Autism & Other Disorders</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_LD-FamilySupport" href="/articles/?topics=185">Family Support</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_LD-HealthDevelopment" href="/articles/?topics=231">Health & Development</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_LD-LegalRightsAdvocacy" href="/articles/?topics=190">Legal Rights & Advocacy</a></li><li class="subMenuItem"><a class="subMenuItemAnchorText GS_CI9_" id="SN_LD-AssistiveTechnology" href="/articles/?topics=188">Assistive Technology</a></li></ul></li><li class="menuItem"><a class="menuItemAnchorText GS_CI9_" id="SN-TestPrep" href="/test-prep/">Test Prep</a></li></ul><div id="Global_NavPromo_968x30"><div id="adGlobal_NavPromo_968x30" class="adGlobal_NavPromo_968x30 ad noprint"><script type="text/javascript">GA_googleFillSlot('Global_NavPromo_968x30');</script></div></div>
+<div id="Custom_Peelback_Ad"><div id="adCustom_Peelback_Ad" class="adCustom_Peelback_Ad ad noprint"><script type="text/javascript">GA_googleFillSlot('Custom_Peelback_Ad');</script></div></div>
+<div id="Custom_Welcome_Ad"><div id="adCustom_Welcome_Ad" class="adCustom_Welcome_Ad ad noprint"><script type="text/javascript">GA_googleFillSlot('Custom_Welcome_Ad');</script></div></div>
+<div id="mainWrap"><div class="clearfix" id="contentGS"><div style="display:none;padding:10px 0 0 20px;" class="dialog_white" id="miniStateLauncherHover"><h2>Please<br/>select your state:</h2><form accept-charset="UTF-8" action="/stateLauncher.page" method="get"><select id="miniStateLauncherSelect" name="state" class="stateSelect" size="12">
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="DC">Washington DC</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option>
+</select>
+<div style="margin-top:15px;"><button type="button" style="margin-right: 15px;" class="button-1 miniStateLauncherHover_hideHover">Cancel</button><button type="submit" class="button-1">Go</button></div></form></div><div class="col" id="mainGS"><div id="carousel"><div id="image"><a target="_self" href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs?cpn=homeflash"><img alt="" height="288" width="584" class="carousel-image" src="http://www.gscdn.org/library/cms/51/14951.jpg"/></a><a target="_self" href="/school/research.page?cpn=homeflash_FindSchools"><img alt="" height="288" width="584" class="carousel-image" src="http://www.gscdn.org/library/cms/53/14953.jpg"/></a><a target="_self" href="http://blogs.greatschools.org/greatschoolsblog/2012/04/take-back-the-classroom.html?cpn=homeflash"><img alt="" height="288" width="584" class="carousel-image" src="http://www.gscdn.org/library/cms/13/14913.jpg"/></a></div><div id="banner"></div><div id="info"><h2 class="headline"><a target="_self" href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs?cpn=homeflash">Math tips for every grade</a></h2><p class="teaser"><a target="_self" href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs?cpn=homeflash" class="text3">Keep your kid passionate about math,</a><a target="_self" href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs?cpn=homeflash" class="link"> from kindergarten through high school <span class="alertdblarrow">&raquo;</span></a></p><h2 class="headline"><a target="_self" href="/school/research.page?cpn=homeflash_FindSchools">Welcome to GreatSchools</a></h2><p class="teaser"><a target="_self" href="/school/research.page?cpn=homeflash_FindSchools" class="text3">Every kid deserves a great school.</a><a target="_self" href="/school/research.page?cpn=homeflash_FindSchools" class="link"> We're here to help you find it <span class="alertdblarrow">&raquo;</span></a></p><h2 class="headline"><a target="_self" href="http://blogs.greatschools.org/greatschoolsblog/2012/04/take-back-the-classroom.html?cpn=homeflash">Take back the classroom!</a></h2><p class="teaser"><a target="_self" href="http://blogs.greatschools.org/greatschoolsblog/2012/04/take-back-the-classroom.html?cpn=homeflash" class="text3">Two acts of education rebellion</a><a target="_self" href="http://blogs.greatschools.org/greatschoolsblog/2012/04/take-back-the-classroom.html?cpn=homeflash" class="link"> caught our eye this week <span class="alertdblarrow">&raquo;</span></a></p><div id="nav"><ul class="button-holder"><li class="button prev-position" id="prev"></li></ul><ul class="button-holder" id="buttons"><li class="button off" id="carouselSlide1">1</li><li class="button off" id="carouselSlide2">2</li><li class="button off" id="carouselSlide3">3</li></ul><ul class="button-holder"><li class="button next-position" id="next"></li></ul></div></div></div><a name="tip-of-the-day"></a><div class="spacer_10"></div><div id="Homepage_House_Ad_598x102"><div id="adHomepage_House_Ad_598x102" class="adHomepage_House_Ad_598x102 ad noprint"><script type="text/javascript">GA_googleFillSlot('Homepage_House_Ad_598x102');</script></div></div>
+<div class="mod" id="fstcasContainer"><div class="mod_hd" id="fstcasHeader"><h2>Find Your School</h2><div id="fstcasTabs"><ul><li id="fstcasByCitiesTab" class="tab selected"><a href="#" class="fys-tab-text">By City</a></li><li id="fstcasByStatesTab" class="tab"><a href="#" class="fys-tab-text">By State</a></li></ul></div></div><div class="mod_bd" id="fstcasBody"><div class="box" id="fstcasByCities"><p class="text3">
+                    Looking for schools in your community? You've come to the right place. Click on a link below to explore
+                    top-rated schools, find local information, talk "school" with local parents, and much more.
+                </p><ul id="fstcasTopCities"><li class="col1 col"><p class="text2bold"><a href="/new-york/new-york-city/">New York City<span class="alertDoubleArrow"> &raquo;</span></a></p><ul class="smallText1"><li><a href="/new-york/new-york-city/community.gs?content=2003"><span class="sprite community-sm"></span>Community</a></li><li><a onclick="if (s.tl) {s.tl(this,'o', 'RealtorModule_splash_inlinelink ');} return true;" target="_blank" rel="nofollow" href="http://www.realtor.com/realestateandhomes-search/New-York_NY?gate=gs&cid=PRT300014"><span class="sprite house"></span>Homes for sale</a></li></ul></li><li class="col2 col"><p class="text2bold"><a href="/california/los-angeles/">Los Angeles<span class="alertDoubleArrow"> &raquo;</span></a></p><ul class="smallText1"><li><a href="/california/los-angeles/community.gs?content=1967"><span class="sprite community-sm"></span>Community</a></li><li><a onclick="if (s.tl) {s.tl(this,'o', 'RealtorModule_splash_inlinelink ');} return true;" target="_blank" rel="nofollow" href="http://www.realtor.com/realestateandhomes-search/Los-Angeles_CA?gate=gs&cid=PRT300014"><span class="sprite house"></span>Homes for sale</a></li></ul></li><li class="col3 col"><p class="text2bold"><a href="/georgia/atlanta/">Atlanta<span class="alertDoubleArrow"> &raquo;</span></a></p><ul class="smallText1"><li><a href="/georgia/atlanta/community.gs?content=1979"><span class="sprite community-sm"></span>Community</a></li><li><a onclick="if (s.tl) {s.tl(this,'o', 'RealtorModule_splash_inlinelink ');} return true;" target="_blank" rel="nofollow" href="http://www.realtor.com/realestateandhomes-search/Atlanta_GA?gate=gs&cid=PRT300014"><span class="sprite house"></span>Homes for sale</a></li></ul></li><li class="col4 col"><p class="text2bold"><a href="/illinois/chicago/">Chicago<span class="alertDoubleArrow"> &raquo;</span></a></p><ul class="smallText1"><li><a href="/illinois/chicago/community.gs?content=1983"><span class="sprite community-sm"></span>Community</a></li><li><a onclick="if (s.tl) {s.tl(this,'o', 'RealtorModule_splash_inlinelink ');} return true;" target="_blank" rel="nofollow" href="http://www.realtor.com/realestateandhomes-search/Chicago_IL?gate=gs&cid=PRT300014"><span class="sprite house"></span>Homes for sale</a></li></ul></li><li class="col5 col"><p class="text2bold"><a href="/texas/houston/">Houston<span class="alertDoubleArrow"> &raquo;</span></a></p><ul class="smallText1"><li><a href="/texas/houston/community.gs?content=2016"><span class="sprite community-sm"></span>Community</a></li><li><a onclick="if (s.tl) {s.tl(this,'o', 'RealtorModule_splash_inlinelink ');} return true;" target="_blank" rel="nofollow" href="http://www.realtor.com/realestateandhomes-search/Houston_TX?gate=gs&cid=PRT300014"><span class="sprite house"></span>Homes for sale</a></li></ul></li></ul><div class="smallAlertText" id="fstcasOtherCities"><h4 class="text1">Other cities</h4><ul><li class="col1 col"><ul><li><a href="/new-york/albany/">Albany, NY</a></li><li><a href="/texas/austin/">Austin, TX</a></li><li><a href="/maryland/baltimore/">Baltimore, MD</a></li><li><a href="/massachusetts/boston/">Boston, MA</a></li><li><a href="/arizona/chandler/">Chandler, AZ</a></li></ul></li><li class="col2 col"><ul><li><a href="/texas/dallas/">Dallas, TX</a></li><li><a href="/colorado/denver/">Denver, CO</a></li><li><a href="/illinois/elmhurst/">Elmhurst, IL</a></li><li><a href="/california/irvine/">Irvine, CA</a></li><li><a href="/florida/miami/">Miami, FL</a></li></ul></li><li class="col3 col"><ul><li><a href="/tennessee/nashville/">Nashville, TN</a></li><li><a href="/new-jersey/newark/">Newark, NJ</a></li><li><a href="/california/oakland/">Oakland, CA</a></li><li><a href="/pennsylvania/philadelphia/">Philadelphia, PA</a></li><li><a href="/arizona/phoenix/">Phoenix, AZ</a></li></ul></li><li class="col4 col"><ul><li><a href="/california/pleasanton/">Pleasanton, CA</a></li><li><a href="/texas/richardson/">Richardson, TX</a></li><li><a href="/california/sacramento/">Sacramento, CA</a></li><li><a href="/texas/san-antonio/">San Antonio, TX</a></li><li><a href="/california/san-diego/">San Diego, CA</a></li></ul></li><li class="col5 col"><ul><li><a href="/california/san-francisco/">San Francisco, CA</a></li><li><a href="/washington/seattle/">Seattle, WA</a></li><li><a href="/missouri/st.-louis/">St. Louis, MO</a></li><li><a href="/florida/tampa/">Tampa, FL</a></li><li><a href="/washington-dc/washington/">Washington, D.C.</a></li></ul></li></ul></div></div><div class="box" id="fstcasByStates"><p class="text3">Whether you're looking for your current school or a new one, GreatSchools is here to help. Start by clicking one of the links below to find and compare schools across your state.</p><ul><li class="col1 col text1"><ul><li><a href="/alabama/">Alabama</a></li><li><a href="/alaska/">Alaska</a></li><li><a href="/arizona/">Arizona</a></li><li><a href="/arkansas/">Arkansas</a></li><li><a href="/california/">California</a></li><li><a href="/colorado/">Colorado</a></li><li><a href="/connecticut/">Connecticut</a></li><li><a href="/delaware/">Delaware</a></li><li><a href="/washington-dc/">District of Columbia</a></li><li><a href="/florida/">Florida</a></li></ul></li><li class="col2 col text1"><ul><li><a href="/georgia/">Georgia</a></li><li><a href="/hawaii/">Hawaii</a></li><li><a href="/idaho/">Idaho</a></li><li><a href="/illinois/">Illinois</a></li><li><a href="/indiana/">Indiana</a></li><li><a href="/iowa/">Iowa</a></li><li><a href="/kansas/">Kansas</a></li><li><a href="/kentucky/">Kentucky</a></li><li><a href="/louisiana/">Louisiana</a></li><li><a href="/maine/">Maine</a></li><li><a href="/maryland/">Maryland</a></li></ul></li><li class="col3 col text1"><ul><li><a href="/massachusetts/">Massachusetts</a></li><li><a href="/michigan/">Michigan</a></li><li><a href="/minnesota/">Minnesota</a></li><li><a href="/mississippi/">Mississippi</a></li><li><a href="/missouri/">Missouri</a></li><li><a href="/montana/">Montana</a></li><li><a href="/nebraska/">Nebraska</a></li><li><a href="/nevada/">Nevada</a></li><li><a href="/new-hampshire/">New Hampshire</a></li><li><a href="/new-jersey/">New Jersey</a></li></ul></li><li class="col4 col text1"><ul><li><a href="/new-mexico/">New Mexico</a></li><li><a href="/new-york/">New York</a></li><li><a href="/north-carolina/">North Carolina</a></li><li><a href="/north-dakota/">North Dakota</a></li><li><a href="/ohio/">Ohio</a></li><li><a href="/oklahoma/">Oklahoma</a></li><li><a href="/oregon/">Oregon</a></li><li><a href="/pennsylvania/">Pennsylvania</a></li><li><a href="/rhode-island/">Rhode Island</a></li><li><a href="/south-carolina/">South Carolina</a></li></ul></li><li class="col5 col text1"><ul><li><a href="/south-dakota/">South Dakota</a></li><li><a href="/tennessee/">Tennessee</a></li><li><a href="/texas/">Texas</a></li><li><a href="/utah/">Utah</a></li><li><a href="/vermont/">Vermont</a></li><li><a href="/virginia/">Virginia</a></li><li><a href="/washington/">Washington</a></li><li><a href="/west-virginia/">West Virginia</a></li><li><a href="/wisconsin/">Wisconsin</a></li><li><a href="/wyoming/">Wyoming</a></li></ul></li></ul></div></div></div><script type="text/javascript">
+        //jQuery('#fstcasByCities').hide();
+        jQuery('#fstcasByStates').hide();
+
+        jQuery('#fstcasByCitiesTab a').click(function () {
+            jQuery('#fstcasByStates').hide();
+            jQuery('#fstcasByCities').show();
+            jQuery('#fstcasByCitiesTab').addClass('selected');
+            jQuery('#fstcasByStatesTab').removeClass('selected');
+            return false;
+        });
+
+        jQuery('#fstcasByStatesTab a').click(function () {
+            jQuery('#fstcasByCities').hide();
+            jQuery('#fstcasByStates').show();
+            jQuery('#fstcasByCitiesTab').removeClass('selected');
+            jQuery('#fstcasByStatesTab').addClass('selected');
+            return false;
+        });
+
+    </script>
+    <script type="text/javascript">
+    <!--
+    var myLevels = new Array('p', 'k', '1', '2', '3', '4', '5', 'm', 'h');
+    var selectedLevel = myLevels[Math.floor(Math.random() * 9)];
+    jQuery(function() {
+        //
+        // extend the core jQuery with disableSelection 
+        jQuery.fn.extend({
+        disableSelection : function() {
+                this.each(function() {
+                        this.onselectstart = function() { return false; };
+                        this.unselectable = "on";
+                        jQuery(this).css('-moz-user-select', 'none');
+                });
+        }
+        });
+        //
+        // disable selection of grade by grade
+        jQuery('#grade-by-grade').disableSelection();
+        //
+        // Center tabs in the GBG module
+        var theHandle = jQuery('#gbgHandle');
+        var theHandleWidth = theHandle.outerWidth(true);
+        var theGradeByGradeContainer = jQuery('#grade-by-grade .mod_bd');
+        var theGradeByGradeContainerWidth = theGradeByGradeContainer.innerWidth();
+        //console.log('theGradeByGradeContainerWidth: ' + theGradeByGradeContainerWidth);
+        var theTabContainer = jQuery('#gbgTabs');
+        var theTabContainerWidth = theTabContainer.outerWidth();
+        //console.log('theTabContainerWidth: ' + theTabContainerWidth);
+        var theTabsLeftMargin = Math.round((theGradeByGradeContainerWidth - theTabContainerWidth) / 2);
+        //console.log('theTabsLeftMargin: ' + theTabsLeftMargin);
+        theTabContainer.css('left', theTabsLeftMargin + 'px');
+        // End - tabs centered
+        //
+        // Position the tick marks
+        var tabsPosition = jQuery('#gbgTabs').position().left;
+
+        var tabp = jQuery('.gbg-tab-p');
+        var tabk = jQuery('.gbg-tab-k');
+        var tab1 = jQuery('.gbg-tab-1');
+        var tab2 = jQuery('.gbg-tab-2');
+        var tab3 = jQuery('.gbg-tab-3');
+        var tab4 = jQuery('.gbg-tab-4');
+        var tab5 = jQuery('.gbg-tab-5');
+        var tabm = jQuery('.gbg-tab-m');
+        var tabh = jQuery('.gbg-tab-h');
+        
+        //jQuery('#gbgTabs li') {
+            // extract last character from the current li's class
+            var tabPosition = Math.round(tabp.position().left);
+            var tabWidth = Math.round(tabp.outerWidth(true));
+            // put posp into an array
+            var posp = tabsPosition + tabPosition;
+            // put tabpMarkerPosition into another array
+            var tabpMarkerPosition = tabsPosition + tabPosition + (tabWidth / 2);
+            //console.log('posp: '+posp);
+            //console.log('tabpMarkerPosition: '+tabpMarkerPosition);
+            // use #gbg-marker- then, add last character extracted from class in line 1
+            jQuery('#gbg-marker-p').attr('style', 'left:' + tabpMarkerPosition + 'px;');
+        //}
+
+        var tabpPosition = Math.round(tabp.position().left);
+        var tabpWidth = Math.round(tabp.outerWidth(true));
+        var posp = tabsPosition + tabpPosition;
+        var tabpMarkerPosition = tabsPosition + tabpPosition + (tabpWidth / 2);
+        //console.log('posp: '+posp);
+        //console.log('tabpMarkerPosition: '+tabpMarkerPosition);
+        jQuery('#gbg-marker-p').attr('style', 'left:' + tabpMarkerPosition + 'px;');
+
+        var tabkPosition = Math.round(tabk.position().left);
+        var tabkWidth = Math.round(tabk.outerWidth(true));
+        var pospk = tabsPosition + tabkPosition - (theHandleWidth / 2);
+        var tabkMarkerPosition = tabsPosition + tabkPosition + (tabkWidth / 2);
+        //console.log('pospk: '+pospk);
+        //console.log('tabkMarkerPosition: '+tabkMarkerPosition);
+        jQuery('#gbg-marker-k').attr('style', 'left:' + tabkMarkerPosition + 'px;');
+
+        var tab1Position = Math.round(tab1.position().left);
+        var tab1Width = Math.round(tab1.outerWidth(true));
+        var posk1 = tabsPosition + tab1Position - (theHandleWidth / 2);
+        var tab1MarkerPosition = tabsPosition + tab1Position + (tab1Width / 2);
+        //console.log('posk1: '+posk1);
+        //console.log('tab1MarkerPosition: '+tab1MarkerPosition);
+        jQuery('#gbg-marker-1').attr('style', 'left:' + tab1MarkerPosition + 'px;');
+
+        var tab2Position = Math.round(tab2.position().left);
+        var tab2Width = Math.round(tab2.outerWidth(true));
+        var pos12 = tabsPosition + tab2Position - (theHandleWidth / 2);
+        var tab2MarkerPosition = tabsPosition + tab2Position + (tab2Width / 2);
+        //console.log('pos12: '+pos12);
+        //console.log('tab2MarkerPosition: '+tab2MarkerPosition);
+        jQuery('#gbg-marker-2').attr('style', 'left:' + tab2MarkerPosition + 'px;');
+
+        var tab3Position = Math.round(tab3.position().left);
+        var tab3Width = Math.round(tab3.outerWidth(true));
+        var pos23 = tabsPosition + tab3Position - (theHandleWidth / 2);
+        var tab3MarkerPosition = tabsPosition + tab3Position + (tab3Width / 2);
+        //console.log('pos23: '+pos23);
+        //console.log('tab3MarkerPosition: '+tab3MarkerPosition);
+        jQuery('#gbg-marker-3').attr('style', 'left:' + tab3MarkerPosition + 'px;');
+
+        var tab4Position = Math.round(tab4.position().left);
+        var tab4Width = Math.round(tab4.outerWidth(true));
+        var pos34 = tabsPosition + tab4Position - (theHandleWidth / 2);
+        var tab4MarkerPosition = tabsPosition + tab4Position + (tab4Width / 2);
+        //console.log('pos34: '+pos34);
+        //console.log('tab4MarkerPosition: '+tab4MarkerPosition);
+        jQuery('#gbg-marker-4').attr('style', 'left:' + tab4MarkerPosition + 'px;');
+
+        var tab5Position = Math.round(tab5.position().left);
+        var tab5Width = Math.round(tab5.outerWidth(true));
+        var pos45 = tabsPosition + tab5Position - (theHandleWidth / 2);
+        var tab5MarkerPosition = tabsPosition + tab5Position + (tab5Width / 2);
+        //console.log('pos45: '+pos45);
+        //console.log('tab5MarkerPosition: '+tab5MarkerPosition);
+        jQuery('#gbg-marker-5').attr('style', 'left:' + tab5MarkerPosition + 'px;');
+
+        var tabmPosition = Math.round(tabm.position().left);
+        var tabmWidth = Math.round(tabm.outerWidth(true));
+        var pos5m = tabsPosition + tabmPosition - (theHandleWidth / 2);
+        var tabmMarkerPosition = tabsPosition + tabmPosition + (tabmWidth / 2);
+        //console.log('pos5m: '+pos5m);
+        //console.log('tabmMarkerPosition: '+tabmMarkerPosition);
+        jQuery('#gbg-marker-m').attr('style', 'left:' + tabmMarkerPosition + 'px;');
+
+        var tabhPosition = Math.round(tabh.position().left);
+        var tabhWidth = Math.round(tabh.outerWidth(true));
+        var posmh = tabsPosition + tabhPosition - (theHandleWidth / 2);
+        var tabhMarkerPosition = tabsPosition + tabhPosition + (tabhWidth / 2);
+        //console.log('posmh: '+posmh);
+        //console.log('tabhMarkerPosition: '+tabhMarkerPosition);
+        jQuery('#gbg-marker-h').attr('style', 'left:' + tabhMarkerPosition + 'px;');
+
+        var posh = tabsPosition + tabhPosition + tabhWidth - theHandleWidth;
+        //console.log('posh: ' + posh);
+        // End - tick marks positioned
+        //
+        // Present initial tab selected
+        jQuery('#gbgContent>div').hide();
+        jQuery('#gbg-content-' + selectedLevel).show();
+        jQuery('.gbg-tab-' + selectedLevel).addClass('selected');
+        // End - initial tab selected
+        //
+        // Position handle at initial tab selected
+        var initHandlePosition = jQuery('#gbg-marker-' + selectedLevel).position().left - (theHandleWidth / 2);
+        //console.log('initHandlePosition: '+initHandlePosition);
+        theHandle.attr('style', 'left:' + initHandlePosition + 'px;');
+        theHandle.show();
+        // End - initial handle position
+        //
+        // On click of a tab, select that tab, reposition the handle
+        jQuery('#gbgTabs ul li').click(function() {
+            // Present the tab selected
+            selectedLevel = jQuery(this).attr('class').substring(8, 9);
+            jQuery('#gbgContent>div').hide();
+            jQuery('#gbg-content-' + selectedLevel).show();
+            jQuery('#gbgTabs ul li').removeClass('selected');
+            jQuery('.gbg-tab-' + selectedLevel).addClass('selected');
+            // Reposition the handle to the tab selected
+            var handlePosition = jQuery('#gbg-marker-' + selectedLevel).position().left - (theHandleWidth / 2);
+            theHandle.stop().animate({ 'left': handlePosition }, 200);
+            return false;
+        });
+        // End tab select handling
+        //
+        // Handle dragging //
+        //
+        // Initialize handle variables and limit handle positioning
+        var minpos = theTabsLeftMargin;
+        if (jQuery.browser.mozilla) {
+            var maxpos = theTabContainerWidth;
+
+        } else {
+            var maxpos = theTabContainerWidth - (theHandleWidth / 2)-1;
+
+        }
+        //console.log('maxpos: ' + maxpos);
+        var newpos = null;
+        var sliderPositionLeft = jQuery('#gbgSlider').offset().left;
+        //console.log('sliderPositionLeft: '+sliderPositionLeft);
+        //
+        // Set handle position, content, and tab after handle drag
+        var setHandlePosition = function() {
+            //console.log('newpos: '+newpos);
+            switch (newpos >= minpos && newpos <= maxpos)
+                //switch (true)
+                    {
+                case (newpos >= posp && newpos < pospk):
+                    newpos = tabpMarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = 'p';
+                    break;
+                case (newpos >= pospk && newpos < posk1):
+                    newpos = tabkMarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = 'k';
+                    break;
+                case (newpos >= posk1 && newpos < pos12):
+                    newpos = tab1MarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = '1';
+                    break;
+                case (newpos >= pos12 && newpos < pos23):
+                    newpos = tab2MarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = '2';
+                    break;
+                case (newpos >= pos23 && newpos < pos34):
+                    newpos = tab3MarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = '3';
+                    break;
+                case (newpos >= pos34 && newpos < pos45):
+                    newpos = tab4MarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = '4';
+                    break;
+                case (newpos >= pos45 && newpos < pos5m):
+                    newpos = tab5MarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = '5';
+                    break;
+                case (newpos >= pos5m && newpos < posmh):
+                    newpos = tabmMarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = 'm';
+                    break;
+                case (newpos >= posmh && newpos <= posh):
+                    newpos = tabhMarkerPosition - (theHandleWidth / 2);
+                    selectedLevel = 'h';
+                    break;
+                //default:
+                    //alert("A valid position was not set.");
+            }
+            theHandle.stop().animate({ 'left': newpos }, 200);
+            jQuery('#gbgTabs ul li').removeClass('selected');
+            jQuery('.gbg-tab-' + selectedLevel).addClass('selected');
+            jQuery('#gbgContent>div').hide();
+            jQuery('#gbg-content-' + selectedLevel).show();
+            return false;
+        };
+        //
+        // Tie handle movement to mouse movement
+        var mousemoveFunction = function(e) {
+            //console.log('mouse move');
+            //var pageCoords = "( " + e.pageX + ", " + e.pageY + " )";
+            //var clientCoords = "( " + e.clientX + ", " + e.clientY + " )";
+            //console.log(e.pageX);
+            //console.log(e.clientX);
+            newpos = e.pageX - (theHandleWidth / 2) - sliderPositionLeft;
+            //console.log('newpos: '+newpos);
+            if (newpos < minpos) {
+                newpos = minpos;
+            }
+            if (newpos > maxpos) {
+                newpos = maxpos;
+            }
+            //console.log('newpos: '+newpos);
+            theHandle.stop().css('left', newpos + 'px');
+        };
+        //
+        // Initialize mousing of handle
+        var handleMousing = false;
+        //
+        // Tie mousing down on handle to possible handle repositioning
+        theHandle.mousedown(function() {
+            handleMousing = true;
+            if (handleMousing) {
+                //console.log('mouse down');
+                jQuery('html').bind('mousemove', mousemoveFunction);
+            }
+        });
+        //
+        // Tie mousing up anywhere to stopping of handle repositioning
+        jQuery('html').mouseup(function() {
+            if (handleMousing) {
+                //console.log('mouse up');
+                jQuery('html').unbind('mousemove', mousemoveFunction);
+                setHandlePosition();
+            }
+            handleMousing = false;
+        });
+        //
+        // On click of slider region, select a tab, reposition the handle
+        jQuery('#gbgSlider').click(function(e) {
+            //console.log('clicked on the slider region');
+            //var pageCoords = "( " + e.pageX + ", " + e.pageY + " )";
+            //var clientCoords = "( " + e.clientX + ", " + e.clientY + " )";
+            //console.log(e.pageX);
+            //console.log(e.clientX);
+            newpos = e.pageX - (theHandleWidth / 2) - sliderPositionLeft;
+            //console.log('newpos: '+newpos);
+            if (newpos < minpos) {
+                newpos = minpos;
+            }
+            if (newpos > maxpos) {
+                newpos = maxpos;
+            }
+            setHandlePosition();
+        });
+    });
+    //-->
+    </script>
+    <div class="mod" id="grade-by-grade"><div class="mod_bd"><div id="gbgTop"><h2>Your child's progress</h2><p class="text3">Grade-by-grade<br/>steps to success</p></div><div id="gbgTabs"><ul><li class="gbg-tab-p"><a class="grade-level" href="javascript:void(0);">Preschool</a></li><li class="gbg-tab-k"><a class="grade-level" href="javascript:void(0);">Kindergarten</a></li><li class="gbg-tab-1"><a class="grade-level" href="javascript:void(0);">1st</a></li><li class="gbg-tab-2"><a class="grade-level" href="javascript:void(0);">2nd</a></li><li class="gbg-tab-3"><a class="grade-level" href="javascript:void(0);">3rd</a></li><li class="gbg-tab-4"><a class="grade-level" href="javascript:void(0);">4th</a></li><li class="gbg-tab-5"><a class="grade-level" href="javascript:void(0);">5th</a></li><li class="gbg-tab-m"><a class="grade-level" href="javascript:void(0);">Middle School</a></li><li class="gbg-tab-h"><a class="grade-level" href="javascript:void(0);">High School</a></li></ul></div><div id="gbgSlider"><div id="gbgHandle"></div><span id="gbg-marker-p"></span><span id="gbg-marker-k"></span><span id="gbg-marker-1"></span><span id="gbg-marker-2"></span><span id="gbg-marker-3"></span><span id="gbg-marker-4"></span><span id="gbg-marker-5"></span><span id="gbg-marker-m"></span><span id="gbg-marker-h"></span></div><div id="gbgContent"><div class="line" id="gbg-content-p"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/worksheets-activities/slideshows/6344-preschool-math-worksheets-slideshow.gs">Preschool math worksheets slideshow</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/preschool/community/discussion.gs?content=70759">Looking for a good Pre-k in gilbert az</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/Reading/6324-PreK-3rd-grade-Dolch-sight-words-nouns.gs">Dolch sight words: preK-3rd nouns</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/Reading/6320-kindergarten-Dolch-sight-words.gs">Dolch sight words: kindergarten</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/preschool/community/discussion.gs?content=74970">what to do with my gifted...</a></li></ul></div><br class="clearfloat"/><span class="seeMore fltrt smallAlertText"><a href="/preschool/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-k"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/worksheets-activities/slideshows/6360-kindergarten-math-worksheets-slideshow.gs">Kindergarten math worksheets</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=9162">ITBS & COGAT test prep materials</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6368-different-ways-of-teaching-math.gs">How is your child’s school teaching...</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=1101">Should teachers be subject to drug...</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/elementary-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-1"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6368-different-ways-of-teaching-math.gs">How is your child’s school teaching...</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=76777">What would you do - local, mediocre...</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=1101">Should teachers be subject to drug...</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/elementary-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-2"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6368-different-ways-of-teaching-math.gs">How is your child’s school teaching...</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=994">Anyone familiar with TERC's...</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=76777">What would you do - local, mediocre...</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/elementary-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-3"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=9162">ITBS & COGAT test prep materials</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=1101">Should teachers be subject to drug...</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6368-different-ways-of-teaching-math.gs">How is your child’s school teaching...</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/elementary-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-4"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6368-different-ways-of-teaching-math.gs">How is your child’s school teaching...</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=77042">The RED crayon rule for suspension...</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=1101">Should teachers be subject to drug...</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/elementary-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-5"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=9162">ITBS & COGAT test prep materials</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/elementary-school/community/discussion.gs?content=994">Anyone familiar with TERC's...</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6368-different-ways-of-teaching-math.gs">How is your child’s school teaching...</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/elementary-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-m"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite discussion mrgrt_10"></span><a href="/middle-school/community/discussion.gs?content=75572">VACATION IS OVER?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite discussion mrgrt_10"></span><a href="/middle-school/community/discussion.gs?content=77579">Patience</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/improvement/understanding-the-system/slideshows/6336-shocking-education-headline-news.gs">Education "news" you’re sure to have...</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/middle-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div><div class="line" id="gbg-content-h"><div class="unit size1of2 brdrt_dotted"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/parenting-dilemmas/6335-parenting-coach.gs">Do you need a parent coach?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/slideshows/6350-math-tips-for-parents.gs">Math tips for every grade</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/high-school/community/discussion.gs?content=76522">Job in Winsted MN - looking for great...</a></li></ul></div><div class="unit size1of2 lastUnit"><ul class="text3"><li><span class="sprite cms mrgrt_10"></span><a href="/students/academic-skills/6343-why-americas-smartest-students-fail-math.gs">Are we teaching math all wrong?</a></li><li><span class="sprite cms mrgrt_10"></span><a href="/improvement/understanding-the-system/slideshows/6336-shocking-education-headline-news.gs">Education "news" you’re sure to have...</a></li><li><span class="sprite discussion mrgrt_10"></span><a href="/high-school/community/discussion.gs?content=77583">theater progams</a></li></ul></div><span class="seeMore fltrt smallAlertText"><a href="/high-school/">See more <span class="alertDoubleArrow">&#187;</span></a></span></div></div></div></div></div><div class="col" id="sidebarGS">
+    <script type="text/javascript" charset="utf-8">
+    <!-- //
+        function textSwitch(el, target, replace) {
+            if (el.value == replace) {
+                el.value = target;
+            }
+        }
+
+        function findAndCompareCheck(queryId, stateSelectorId, pathwaysId) {
+            var returnVal = true;
+            var queryVal = document.getElementById(queryId).value;
+            var stateVal = document.getElementById(stateSelectorId).value;
+
+            var noSearchTerms = (queryVal == 'Enter school, district, or city');
+            var noState = (stateVal == ("-" + "-") || stateVal == "");
+
+            if (noSearchTerms && noState) {
+                // show state laumcher hover
+                GSType.hover.miniStateLauncher.show();
+                returnVal = false;
+            } else if (!noSearchTerms && noState) {
+                // show javascript alert
+                alert("Please select a state.");
+                returnVal = false;
+            } else if (!noSearchTerms && !noState) {
+                // go to search page
+                document.getElementById(pathwaysId).value = 'search_single';
+                returnVal = true;
+            } else if (noSearchTerms && !noState) {
+                // go to R and C page
+                document.getElementById(pathwaysId).value = 'pathway4';
+                returnVal = true;
+            }
+            return returnVal;
+        }
+
+        GS = GS || {};
+        GS.ads = GS.ads || {};
+        GS.ads.FindASchool_Sponsor_88x31 = GS.ads.FindASchool_Sponsor_88x31 || {};
+        GS.ads.FindASchool_Sponsor_88x31.showAdSponsorLogoText = function() {
+            if (jQuery('#google_ads_div_Homepage_FindASchool_Sponsor_88x31,#google_ads_div_Homepage_FindASchool_Sponsor_88x31_ad_container').length == 1) {
+                jQuery('#jq-ghostText-Homepage_FindASchool_Sponsor_88x31').show();
+            }
+        };
+        jQuery(function() {
+            setTimeout("GS.ads.FindASchool_Sponsor_88x31.showAdSponsorLogoText();", 1000);
+        });
+        // -->
+    </script>
+    <div class="mod findCompare"><div class="inner"><div id="fc-bigArrow-f4891d"></div><div id="fc-bigArrow-fc6"></div><div class="hd"><h3 class="title2bold-333" id="find-title">Start here: <span class="title2-333">Find a school</span></h3></div><div class="bd clearfix"><form accept-charset="UTF-8" action="/stateLauncher.page" method="get" onsubmit="return findAndCompareCheck('q', 'splashStateSelector', 'p')"><input value="search_single" type="hidden" id="p" name="p"/><input value="school" type="hidden" name="type"/><div class="line form"><div class="unit size57of100 mrm"><input onblur="textSwitch(this, 'Enter school, district, or city', '');" onfocus="textSwitch(this, '', 'Enter school, district, or city');" class="text2" id="q" name="q" value="Enter school, district, or city" type="text"/></div><div class="unit size18of100 mrs"><select id="splashStateSelector" name="state">
+<option value="" selected="selected">--</option>
+<option value="AK">AK</option>
+<option value="AL">AL</option>
+<option value="AR">AR</option>
+<option value="AZ">AZ</option>
+<option value="CA">CA</option>
+<option value="CO">CO</option>
+<option value="CT">CT</option>
+<option value="DC">DC</option>
+<option value="DE">DE</option>
+<option value="FL">FL</option>
+<option value="GA">GA</option>
+<option value="HI">HI</option>
+<option value="IA">IA</option>
+<option value="ID">ID</option>
+<option value="IL">IL</option>
+<option value="IN">IN</option>
+<option value="KS">KS</option>
+<option value="KY">KY</option>
+<option value="LA">LA</option>
+<option value="MA">MA</option>
+<option value="MD">MD</option>
+<option value="ME">ME</option>
+<option value="MI">MI</option>
+<option value="MN">MN</option>
+<option value="MO">MO</option>
+<option value="MS">MS</option>
+<option value="MT">MT</option>
+<option value="NC">NC</option>
+<option value="ND">ND</option>
+<option value="NE">NE</option>
+<option value="NH">NH</option>
+<option value="NJ">NJ</option>
+<option value="NM">NM</option>
+<option value="NV">NV</option>
+<option value="NY">NY</option>
+<option value="OH">OH</option>
+<option value="OK">OK</option>
+<option value="OR">OR</option>
+<option value="PA">PA</option>
+<option value="RI">RI</option>
+<option value="SC">SC</option>
+<option value="SD">SD</option>
+<option value="TN">TN</option>
+<option value="TX">TX</option>
+<option value="UT">UT</option>
+<option value="VA">VA</option>
+<option value="VT">VT</option>
+<option value="WA">WA</option>
+<option value="WI">WI</option>
+<option value="WV">WV</option>
+<option value="WY">WY</option>
+</select>
+</div><div class="unit size25of100 lastUnit"><button onclick="s_objectID='splash_schools_go';" type="submit" class="button-1">GO
+                            </button></div></div></form></div></div></div><div class="mod findCompare"><div class="inner"><div class="hd pts"><h3 class="title2-333">Search for schools <span class="introText">near an address</span></h3></div><div class="bd"><form accept-charset="UTF-8" action="/search/nearbySearch.page" method="get"><div class="line formExt1"><label class="introText unit" for="gradeLevels">Show me:</label><select name="gradeLevels" class="unit size1of2 mhs" id="gradeLevels"><option value="">All schools</option><option value="p">Preschools</option><option selected="selected" value="e">Elementary schools</option><option value="m">Middle schools</option><option value="h">High schools</option></select><label class="introText unit" for="schoolRange">within</label><div class="unit size1of20 lastUnit"></div></div><div class="line formExt2"><select name="distance" class="unit" id="schoolRange"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option selected="selected" value="5">5</option><option value="10">10</option><option value="15">15</option><option value="20">20</option><option value="25">25</option><option value="60">60</option></select><label class="introText unit mhs" for="zipCode"> miles of </label><input onblur="textSwitch(this, 'Zip code', '');" onfocus="textSwitch(this, '', 'Zip code');" name="zipCode" class="unit size5of18 mls mrl text2" id="zipCode" value="Zip code" type="text"/><input value="/" name="redirectUrl" type="hidden"/><button type="submit" class="button-1 unit">GO</button><div class="unit size1of20 lastUnit"></div><div class="spacer_5"></div><div class="spacer_15"></div></div></form></div><div class="ft"><div class="hidden" id="jq-ghostText-Homepage_FindASchool_Sponsor_88x31"><div class="ad_88x31 vert-align-mid fltrt mrl mls"><div id="Homepage_FindASchool_Sponsor_88x31"><div id="adHomepage_FindASchool_Sponsor_88x31" class="adHomepage_FindASchool_Sponsor_88x31 ad noprint"><script type="text/javascript">GA_googleFillSlot('Homepage_FindASchool_Sponsor_88x31');</script></div></div>
+</div><p class="smallText1">
+                                Sponsored<br/>by
+                            </p></div></div></div></div><div class="mod standard emailSignUp jq-emailSignUpWrapper"><div class="inner"><div class="hd"><h3>Connect With Us</h3></div><div class="bd"><div class="section1"><p class="jq-emailSignUpIntroText text2"><strong>Sign up for daily tips and ideas</strong> that will enrich your child's education.
+                            </p><div class="hidden jq-emailSignUpError jq-emailSignUpError-emailInvalid"><div class="formErrorText">Please enter your email address to sign up.</div></div><div class="hidden jq-emailSignUpError jq-emailSignUpError-emailAlreadySignedUp"><div class="formErrorText">The email address is already signed up.</div></div><form autocomplete="off" method="POST" action="#" class="jq-emailSignUpForm"><div class="line"><input autocomplete="off" value="[Your email address]" onblur="GS_textSwitch(this, '[Your email address]', '');" onfocus="GS_textSwitch(this, '', '[Your email address]');" name="email" class="jq-emailSignUpEmail unit size3of5 formText1 mrm" type="text"/><div class="unit size2of5 lastUnit"><button type="submit" class="button-1 jq-emailSignUpSubmit">Sign up</button></div></div></form><div class="hidden jq-emailSignUpEmailSentThankYou prm"><h3>Thank you</h3><p>Please confirm your subscription by clicking the link in the email we just sent you.</p></div><div class="hidden jq-emailSignUpNoEmailSentThankYou"><h3>Thank you</h3><p>You've successfully subscribed to the GreatSchools newsletter.</p></div></div><div class="section2"><div class="line"><div class="unit size1of2"><div class="prm"><div class="mediaExt1-1"><div class="img"><a target="_blank" href="http://facebook.com/greatschools"><span class="sprite i-facebook-l"></span></a></div><div class="bk"><div class="text3"><p><a target="_blank" href="http://facebook.com/greatschools">GreatSchools</a></p><div>
+                                                <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fgreatschools&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+                                                </div></div></div></div></div></div><div class="unit size1of2 lastUnit"><div class="brdlft_dotted plm"><div class="line"><div class="unit size1of3"><div class="text-align-cen"><div class="mbs"><a target="_blank" href="http://twitter.com/greatschools"><span class="sprite i-twitter-l"></span></a></div><div class="smallText1"><a target="_blank" href="http://twitter.com/greatschools">Twitter</a></div></div></div><div class="unit size1of3"><div class="text-align-cen"><div class="mbs"><a target="_blank" href="http://blogs.greatschools.org/greatschoolsblog/"><span class="sprite i-blog-l"></span></a></div><div class="smallText1 wsnw"><a target="_blank" href="http://blogs.greatschools.org/greatschoolsblog/">Blog</a></div></div></div><div class="unit size1of3 lastUnit"><div class="text-align-cen"><div class="mbs"><a target="_blank" onclick="if(s.tl){s.tl(this,'o','iPhone_App_Download_Connect');}return true;" href="http://itunes.apple.com/us/app/greatschools-finder/id441767719?mt=8&ls=1"><span class="sprite i-iphone"></span></a></div><div class="smallText1"><a target="_blank" onclick="if(s.tl){s.tl(this,'o','iPhone_App_Download_Connect');}return true;" href="http://itunes.apple.com/us/app/greatschools-finder/id441767719?mt=8&ls=1">Mobile</a></div></div></div></div></div></div></div></div></div></div></div><div><div class="adBox"><div class="wrapper-outer"><div class="wrapper-inner"><div class="wrapper-content"><div id="Homepage_300x250"><div id="adHomepage_300x250" class="adHomepage_300x250 ad noprint"><span class="jq-ghostText" id="jq-ghostText-Homepage_300x250">ADVERTISEMENT</span><script type="text/javascript">GA_googleFillSlot('Homepage_300x250');</script>
+                    </div></div>
+</div></div></div></div></div><div class="mod standard"><div class="inner"><div class="hd"><h3>Most Popular</h3></div><div class="bd"><div class="bd-inner"><div class="mediaExt2"><span class="sprite cms img"></span><a class="bk" href="/students/media-kids/6334-hunger-games-too-violent.gs">Is the Hunger Games too violent?</a></div><div class="mediaExt2"><span class="sprite cms img"></span><a class="bk" href="/students/summer-activities/6333-youth-summer-camp-teen-tween.gs">Summer planning for tweens and teens</a></div><div class="mediaExt2"><span class="sprite cms img"></span><a class="bk" href="/students/academic-skills/slideshows/6326-help-your-child-with-reading-tips.gs">Reading tips for every grade</a></div><div class="mediaExt2"><span class="sprite cms img"></span><a class="bk" href="/improvement/quality-teaching/6318-what-multicultural-magnet-school.gs">Excellent school profile: MMS</a></div><div class="mediaExt2"><span class="sprite cms img"></span><a class="bk" href="/parenting/bullying/6317-bullying-school-movie.gs">Bully: A movie review</a></div></div></div></div></div><div class="mod"><div class="mod_hd"><h3>GreatSchools Blog</h3></div><div class="mod_bd" id="gs-blog"><div class="blogpromo"><div class="blogpromo_image_wrap"><a href="http://blogs.greatschools.org/greatschoolsblog/2012/04/power-of-failure.html" onclick="Popup=window.open('http://blogs.greatschools.org/greatschoolsblog/2012/04/power-of-failure.html','Popup','toolbar=yes,location=yes,status=no,menubar=yes,scrollbars=yes,resizable=no, width=917,height=600,left=50,top=50'); return false;"><img alt="Leslie Crawford" src="/catalog/images/blog/lesliecrawford_40x40.png" class="blogpromo_image"/></a></div><div class="blogpromo_entry text3"><a href="http://blogs.greatschools.org/greatschoolsblog/2012/04/power-of-failure.html" onclick="Popup=window.open('http://blogs.greatschools.org/greatschoolsblog/2012/04/power-of-failure.html','Popup','toolbar=yes,location=yes,status=no,menubar=yes,scrollbars=yes,resizable=no, width=917,height=600,left=50,top=50'); return false;"> Want our kids to become great innovators? Teach them to fail, fail again   </a><div class="authorDate"><span class="smallAlertTextBoldNeutral"> Leslie Crawford </span><span class="smallText1">9 hours ago</span></div><span class="blogpromo_description"> By Leslie Crawford, Senior Editor Credit... </span></div></div><div class="blogpromo"><div class="blogpromo_image_wrap"><a href="http://blogs.greatschools.org/greatschoolsblog/2012/04/want-to-give-your-childs-teacher-something-better-than-a-mug-this-school-year-.html" onclick="Popup=window.open('http://blogs.greatschools.org/greatschoolsblog/2012/04/want-to-give-your-childs-teacher-something-better-than-a-mug-this-school-year-.html','Popup','toolbar=yes,location=yes,status=no,menubar=yes,scrollbars=yes,resizable=no, width=917,height=600,left=50,top=50'); return false;"><img alt="Leslie Crawford" src="/catalog/images/blog/lesliecrawford_40x40.png" class="blogpromo_image"/></a></div><div class="blogpromo_entry text3"><a href="http://blogs.greatschools.org/greatschoolsblog/2012/04/want-to-give-your-childs-teacher-something-better-than-a-mug-this-school-year-.html" onclick="Popup=window.open('http://blogs.greatschools.org/greatschoolsblog/2012/04/want-to-give-your-childs-teacher-something-better-than-a-mug-this-school-year-.html','Popup','toolbar=yes,location=yes,status=no,menubar=yes,scrollbars=yes,resizable=no, width=917,height=600,left=50,top=50'); return false;"> Way better than another mug... </a><div class="authorDate"><span class="smallAlertTextBoldNeutral"> Leslie Crawford </span><span class="smallText1">April 15, 2012</span></div><span class="blogpromo_description"> By Leslie Crawford, Senior Editor As most... </span></div></div><a target="_blank" href="http://blogs.greatschools.org/greatschoolsblog" class="fltrt">View more <span class="alertDoubleArrow">&raquo;</span></a></div></div></div><script src="http://www.gscdn.org/res/js/s_code.js" type="text/javascript">
+            /* this comment keeps the tag from collapsing */
+        </script><script src="http://www.gscdn.org/res/js/trackIt.js" type="text/javascript">
+            /* this comment keeps the tag from collapsing */
+        </script>
+        <script type="text/javascript" > <!--
+
+            s.pageName = "splash";
+            clickCapture.pageName = "splash";
+
+            s.server = "www.greatschools.org";
+            s.channel = "";
+            s.pageType = "";
+
+            s.prop1 = clickCapture.getProp(1,"") ;
+            s.prop2 = clickCapture.getProp(2,"");
+            s.prop3 = clickCapture.getProp(3,"");
+            s.prop4 = clickCapture.getProp(4,"");
+            s.prop5 = clickCapture.getProp(5,"Not logged in");
+            s.prop6 = clickCapture.getProp(6,"");
+            s.prop7 = clickCapture.getProp(7,"splash:b");
+
+            s.prop8 = clickCapture.getProp(8,"");
+            if (s.prop8 == '' ){
+                s.prop8 = s.pageName ;
+            }
+
+            var locationAnchor = '';
+
+            if (location.href && location.href.indexOf('#from..') > -1) {
+                locationAnchor = location.href.substring(location.href.indexOf('#from..')+7);
+                s.prop9 = s.pageName + ' ' + locationAnchor;
+            } else {
+                s.prop9 = s.pageName + ' ' + clickCapture.getProp(9);
+            } 
+
+            s.prop10 = clickCapture.getProp(10,"");
+            s.prop11 = clickCapture.getProp(11,"GreatSchools");
+            
+            //s.prop13 is being set on the article.page to distinguish new and old articles
+            s.prop13 = "";
+
+            s.prop14 = "";
+
+            s.prop15 = clickCapture.getProp(15,"");
+            s.prop20 = clickCapture.getProp(20,"");
+
+            s.prop25 = clickCapture.getProp(25,"");
+
+            s.prop26 = clickCapture.getProp(26,"");
+            s.prop27 = clickCapture.getProp(27,"");
+            s.prop28 = clickCapture.getProp(28,"");
+            s.prop30 = clickCapture.getProp(30,"");
+            s.prop31 = clickCapture.getProp(31,"");
+            s.prop32 = clickCapture.getProp(32,"");
+            s.prop33 = clickCapture.getProp(33,"");
+            s.prop34 = clickCapture.getProp(34,"");
+            s.prop35 = clickCapture.getProp(35,"");
+            s.prop36 = clickCapture.getProp(36,"");
+            s.prop38 = clickCapture.getProp(38,"");
+            s.prop39 = clickCapture.getProp(39,"");
+            s.prop40 = clickCapture.getProp(40,"");
+            s.prop41 = clickCapture.getProp(41,"");
+
+            s.events = clickCapture.getEvents("");
+            s.hier1 = "Home,Splash";
+
+            s.eVar1 = clickCapture.getEVar(1);
+            s.eVar2 = clickCapture.getEVar(2);
+            s.eVar3 = clickCapture.getEVar(3);
+            s.eVar4 = "b";
+            s.eVar5 = clickCapture.getEVar(5);
+            s.eVar6 = "";
+            s.eVar7 = clickCapture.getEVar(7);
+            s.eVar8 = clickCapture.getEVar(8);
+            s.eVar9 = clickCapture.getEVar(9);
+            s.eVar10 = clickCapture.getEVar(10);
+        //--></script>
+        
+    <script type="text/javascript" language="JavaScript"><!--
+    var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+    <script type="text/javascript" language="JavaScript"><!--
+    if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+    //--></script><noscript><img
+    src="http://gsnet.122.2O7.net/b/ss/gsnet/1/H.2--NS/0"
+    height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+    <!-- End SiteCatalyst code version: H.2. -->
+    
+        <script type="text/javascript">
+
+             /* register omniture event handlers */
+             registerMyEventHandlers();
+
+        </script>
+        <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-93S1TiA81rkd-";quantserve();</script>
+    <noscript><a target="_blank" href="http://www.quantcast.com/p-93S1TiA81rkd-"><img alt="Quantcast" width="1" height="1" border="0" style="display: none;" src="http://pixel.quantserve.com/pixel/p-93S1TiA81rkd-.gif"/></a></noscript>
+        <script type="text/javascript">
+            document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          COMSCORE.beacon({
+            c1:2,
+            c2:6035246,
+            c3:"",
+            c4:"",
+            c5:"",
+            c6:"",
+            c15:""
+          });
+        </script>
+        <noscript>
+          <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035246&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="beacon"/>
+        </noscript></div></div><div class="clearfloat"></div><script type="text/javascript">
+            s_backup = s;
+        </script><div id="homepageFooterAd"><table cellspacing="0" cellpadding="0"><tr><td><img id="jq-ghostText-Footer_728x90" height="90" width="13" src="http://www.gscdn.org/res/img/ad/sponsor_vertical2.gif" class="adSponsorImage" alt="Advertisement"/></td><td class="ad" style="text-align:left;width:728px;height:90px"><div id="Homepage_Footer_728x90"><div id="adHomepage_Footer_728x90" class="adHomepage_Footer_728x90 ad noprint"><script type="text/javascript">GA_googleFillSlot('Homepage_Footer_728x90');</script></div></div>
+</td></tr></table></div><script type="text/javascript">
+            s = s_backup;
+        </script><div class="" id="footer"><ul id="footnav"><li><a href="/about/aboutUs.page">About Us</a></li><li><a href="/about/feedback.page">Contact Us</a></li><li><a href="/about/guidelines.page">School Review Guidelines</a></li><li><a onclick="return GS.showJoinHover('', this.href, GSType.hover.joinHover.showJoinFooterNewsletter);" href="/email/management.page">Newsletters</a></li><li><a href="/about/linkToUs.page">Data Widgets &#38; Tools</a></li><li><a href="/about/advertiserOpportunities.page">Advertise With Us</a></li><li><a href="/about/partnerOpportunities.page">Partner With Us</a></li><li><a href="/cgi-bin/static/jobs.inc">Jobs</a></li><li><a rel="nofollow" href="/about/pressRoom.page">Media Room</a></li><li><a href="http://blogs.greatschools.org" target="_blank">Blog</a></li></ul><p class="copyright">GreatSchools, Inc. 160 Spear Street, Suite 1020, San Francisco, CA 94105</p><p class="copyright">
+                GreatSchools is a national nonprofit whose mission is to inspire and guide parents to become<br/>
+                effective champions of their children's education at home and in their communities.
+            </p>
+            <p class="copyright" id="footerCopyright">
+                          &#169;1998-2012 GreatSchools Inc. All Rights Reserved.
+                          GreatSchools is a 501(c)(3) not-for-profit organization
+                          <a rel="nofollow" href="/terms/?state=CA">Terms of Use</a><a href="/privacy/?state=CA">Privacy Policy</a></p>
+
+            <div class="cities  " id="navFooter"><h4>Popular Cities</h4><ul><li><a href="/new-mexico/albuquerque/">Albuquerque, NM</a></li><li><a href="/alaska/anchorage/">Anchorage, AK</a></li><li><a href="/georgia/atlanta/">Atlanta, GA</a></li><li><a href="/texas/austin/">Austin, TX</a></li><li><a href="/maryland/baltimore/">Baltimore, MD</a></li><li><a href="/montana/billings/">Billings, MT</a></li><li><a href="/alabama/birmingham/">Birmingham, AL</a></li><li><a href="/idaho/boise/">Boise, ID</a></li><li><a href="/massachusetts/boston/">Boston, MA</a></li></ul><ul><li><a href="/connecticut/bridgeport/">Bridgeport, CT</a></li><li><a href="/vermont/burlington/">Burlington, VT</a></li><li><a href="/west-virginia/charleston/">Charleston, WV</a></li><li><a href="/north-carolina/charlotte/">Charlotte, NC</a></li><li><a href="/wyoming/cheyenne/">Cheyenne, WY</a></li><li><a href="/illinois/chicago/">Chicago, IL</a></li><li><a href="/south-carolina/columbia/">Columbia, SC</a></li><li><a href="/ohio/columbus/">Columbus, OH</a></li><li><a href="/texas/dallas/">Dallas, TX</a></li></ul><ul><li><a href="/colorado/denver/">Denver, CO</a></li><li><a href="/iowa/des-moines/">Des Moines, IA</a></li><li><a href="/michigan/detroit/">Detroit, MI</a></li><li><a href="/texas/el-paso/">El Paso, TX</a></li><li><a href="/north-dakota/fargo/">Fargo, ND</a></li><li><a href="/hawaii/honolulu/">Honolulu, HI</a></li><li><a href="/texas/houston/">Houston, TX</a></li><li><a href="/indiana/indianapolis/">Indianapolis, IN</a></li><li><a href="/mississippi/jackson/">Jackson, MS</a></li></ul><ul><li><a href="/florida/jacksonville/">Jacksonville, FL</a></li><li><a href="/missouri/kansas-city/">Kansas City, MO</a></li><li><a href="/nevada/las-vegas/">Las Vegas, NV</a></li><li><a href="/arkansas/little-rock/">Little Rock, AR</a></li><li><a href="/california/los-angeles/">Los Angeles, CA</a></li><li><a href="/kentucky/louisville/">Louisville, KY</a></li><li><a href="/new-hampshire/manchester/">Manchester, NH</a></li><li><a href="/tennessee/memphis/">Memphis, TN</a></li><li><a href="/florida/miami/">Miami, FL</a></li></ul><ul><li><a href="/wisconsin/milwaukee/">Milwaukee, WI</a></li><li><a href="/minnesota/minneapolis/">Minneapolis, MN</a></li><li><a href="/tennessee/nashville/">Nashville, TN</a></li><li><a href="/louisiana/new-orleans/">New Orleans, LA</a></li><li><a href="/new-york/new-york-city/">New York City, NY</a></li><li><a href="/new-jersey/newark/">Newark, NJ</a></li><li><a href="/california/oakland/">Oakland, CA</a></li><li><a href="/oklahoma/oklahoma-city/">Oklahoma City, OK</a></li><li><a href="/nebraska/omaha/">Omaha, NE</a></li></ul><ul><li><a href="/pennsylvania/philadelphia/">Philadelphia, PA</a></li><li><a href="/arizona/phoenix/">Phoenix, AZ</a></li><li><a href="/maine/portland/">Portland, ME</a></li><li><a href="/oregon/portland/">Portland, OR</a></li><li><a href="/rhode-island/providence/">Providence, RI</a></li><li><a href="/california/sacramento/">Sacramento, CA</a></li><li><a href="/utah/salt-lake-city/">Salt Lake City, UT</a></li><li><a href="/texas/san-antonio/">San Antonio, TX</a></li><li><a href="/california/san-diego/">San Diego, CA</a></li></ul><ul><li><a href="/california/san-francisco/">San Francisco, CA</a></li><li><a href="/california/san-jose/">San Jose, CA</a></li><li><a href="/washington/seattle/">Seattle, WA</a></li><li><a href="/south-dakota/sioux-falls/">Sioux Falls, SD</a></li><li><a href="/arizona/tucson/">Tucson, AZ</a></li><li><a href="/virginia/virginia-beach/">Virginia Beach, VA</a></li><li><a href="/washington-dc/washington/">Washington, DC</a></li><li><a href="/kansas/wichita/">Wichita, KS</a></li><li><a href="/delaware/wilmington/">Wilmington, DE</a></li></ul></div></div></div><div style="text-align:center"></div></div>
+
+<script type="text/javascript">
+                GS = GS || {};
+                GS.ads = GS.ads || {};
+                GS.ads.hideGhostText = function() {
+                    
+                            if (jQuery('#google_ads_div_Homepage_Footer_728x90, #google_ads_div_Homepage_Footer_728x90_ad_container').length == 0) {
+                                
+                                            jQuery('#jq-ghostText-Footer_728x90').hide();
+                                        
+                            }
+                        
+                            if (jQuery('#google_ads_div_Homepage_300x250, #google_ads_div_Homepage_300x250_ad_container').length == 0) {
+                                
+                                            jQuery('#adHomepage_300x250 .jq-ghostText').hide();
+                                        
+                            }
+                        
+                };
+                jQuery(function() {
+                    setTimeout("GS.ads.hideGhostText();", 1000);
+                });
+            </script><div style="display:none;" id="deferredContent">
+    
+</div></body></html>

@@ -1,0 +1,893 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# school_feed: http://ogp.me/ns/fb/school_feed#">
+	<meta content='Welcome to schoolFeed -  Find your school, alumni and reunion online for FREE' name="title">
+<meta content='Welcome to schoolFeed -  Find your school, alumni and reunion online for FREE' name="og:title">
+<meta property="og:description" content="View your High School Yearbook for Free! schoolFeed is a FREE classmates network which connects with Facebook. Connect with classmates and build your online yearbook! We are still in Beta so please send us your feedback :)"/>
+<meta property="description" content="View your High School Yearbook for Free! schoolFeed is a FREE classmates network which connects with Facebook. Connect with classmates and build your online yearbook! We are still in Beta so please send us your feedback :)"/>
+<meta content="schoolFeed" property="og:site_name" />
+	<meta property="og:type" content="website" />
+<meta name="og:image" content="http://your.schoolfeed.com/static/images/sfLogo_115x115.png" />
+<meta property="fb:app_id" content="188997921149621" />
+<meta content="Classmates,Reunions,Photos,Message Boards,User Ratings,High School,Interests" name="keywords">
+<meta name="robots" content="index, follow, noodp, noydir" />
+<meta name="googlebot" content="index, follow, noodp, noydir" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+			<meta name="keywords" content="Classmates,Reunions,Photos,Message Boards,User Ratings,High School,Interests" />
+
+	<title>Welcome to schoolFeed -  Find your school, alumni and reunion online for FREE</title>
+    <link rel="shortcut icon" href="/static/images/favicon.ico" />
+	<link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/2681350870/main.css" />
+
+	<!--[if IE]>
+		<style type="text/css">
+		  .clearfix {
+			zoom: 1;     /* triggers hasLayout */
+			}
+		</style>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/547769782/tooltip.css" />
+	<link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/1662671440/typeahead.css" />
+	<link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/boxy/1997899188/boxy.css" />
+	<link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/2632544245/slider.css" />
+    <link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/tiptip/2046454356/tipTip.css" />
+    <link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/1360143038/token-input-facebook.css" />
+    <link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/2034640377/photos.css" />
+    <link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/409659986/socialad.css" />
+            <link type="text/css" rel="stylesheet" href="http://d1wuzpn2rb4qzi.cloudfront.net/static/2922176830/index.css" />
+        
+	<script type="text/javascript">
+	var CONFIG = { 
+	    SF_URL: "http:\/\/your.schoolfeed.com\/",
+	    FB_APP_ID: "188997921149621",
+	    FB_CANVAS_URL: "http:\/\/apps.facebook.com\/school_feed\/",
+	    SF_NAME: "schoolFeed",
+	    INSTALL_PERMISSIONS: "publish_actions,publish_stream,user_photos,user_photos,user_likes,email,user_birthday,user_education_history,user_hometown,friends_education_history,friends_birthday,friends_hometown,friends_photos,friends_photo_video_tags,user_location,user_interests,user_activities,offline_access",
+	    SECONDARY_PERMISSIONS: "offline_access,read_stream,user_photos,user_location,user_interests,user_about_me,user_activities,user_work_history,user_relationships",
+		ISPROD: 1,
+		DISABLE_AUTO_FETCH: 0,
+		ENABLEWEBNODE: 1,
+		WEBNODEURL: "http:\/\/webnode.schoolfeed.com\/"
+	};	
+		</script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/4046275924/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/1343246868/jquery.jsonp-2.3.0.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/930154646/jquery.validate.pack.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/3359117188/jquery.replaceWithTransition.js"></script>    
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/1987779189/jquery.bbq.min.js"></script>    
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/boxy/2387638253/jquery.boxy.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/tiptip/4012098275/jquery.tipTip.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/2134253401/jquery.tokeninput.js"></script> <!-- token input plugin -->
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/874054216/jquery.touchToScroll.js"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/3526487650/typeahead.js"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/3553134499/main.js"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/1486669542/servertalker.js"></script>
+	<script src="http://connect.facebook.net/en_US/all.js"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/3649989059/facebook.js"></script>                        
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/4224305907/feedevent.js"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/1859323839/privateinbox.js"></script>
+	<script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/4023306834/notifications.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/1977867912/jquery.color.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/jquery/3908057820/jquery.expandable.min.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/1355831728/photos.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/1931593789/visitors.js"></script>
+    <script type="text/javascript" src="http://d1wuzpn2rb4qzi.cloudfront.net/static/js/317907674/payment.js"></script>    
+        
+            <script type="text/javascript" src='http://d1wuzpn2rb4qzi.cloudfront.net/static/js/3055787736/register.js'></script>
+            <script type="text/javascript" src='http://d1wuzpn2rb4qzi.cloudfront.net/static/js/2786722748/questions.js'></script>
+        <script type="text/javascript">
+    var loggedInUserId = null;
+    
+     
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23002655-1']);
+      _gaq.push(['_setDomainName', '.schoolFeed.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+        
+    </script>
+</head>
+<body    >
+
+<div id="fb-root"></div>
+                
+
+<script type="text/javascript">
+
+    FB.init({ appId:188997921149621, status:true, cookie:true, xfbml:true, oauth: true });                                                
+    //facebook.attemptUserLogin();
+   
+    $(document).ready(function() {                            
+        $('#highschool_id').tokenInput("typeahead/TypeAheadHighSchools.php", 
+            { 
+                id: "highschool_name",
+                hintText:"Enter high school",
+                theme: 'facebook',
+                animateDropdown: false,
+                oneItemPerRow: true,
+                tokenLimit:1,
+                width:199,
+                lastRow: 'Select a match above. If nothing matches, then click here to add a new school.',
+                lastRowClick:function(query) { addHighSchoolInput.showAddHighSchoolFields(query); },
+                onAdd:function(response) { findUsers(response); $("#gradYearDiv:hidden").slideDown(500).fadeIn(500).closest("td").css("paddingTop", 0); },
+                onDelete:function() { clearUsers(); }
+                            }
+        );
+        $("#highschool_name").focus(function(e) { $(this).val("").css("color", "#333333"); }).blur(function(e) { if( $("#highschool_id").val() == '' ) { $(this).val("Enter High School").css("color", "#7F7F7F"); } }).trigger("blur");
+        $("#gradYear").bind("change", function(e) { $(this).css("color", $(this).val() ? "#333333" : "#7F7F7F"); }).trigger("change");
+                    $("#highschool_name").focus();
+                $("#indexFbLogin a").click(function() {
+            EventTracker.updateEvent('sf-index-fb-login-click');
+            FB.login(function(response) {
+                if(response.authResponse) {
+                    facebook.attemptUserLogin();
+                } else {
+                    
+                }
+            }, { scope: 'publish_stream,user_photos,user_photos,user_likes,email,user_birthday,user_education_history,user_hometown,friends_education_history,friends_birthday,friends_hometown,friends_photos,friends_photo_video_tags,user_location,user_interests,user_activities,offline_access' })
+        });
+        $("#nextButton").click(function(e) { if($('#highschool_id').val() && $('#gradYear').val()) { promptConfirmation(); /* promptFbLogin(); */ } else { showReminder(); } });
+        $(".indexNewUserDiv img").click(function(e) { $("#nextButton").click(); });
+        $("#yearbookGrid").click(function(e) { $("#nextButton").click(); });    
+    });
+</script>
+
+<style type="text/css">
+    ul.token-input-list-facebook li input { padding:8px; font-size: 18px;  }
+    li.token-input-token-facebook p { font-size:18px; margin-left: 5px; margin-right: 5px; }
+    li.token-input-token-oneitem-facebook { padding:8px 0px; }
+    span.token-input-delete-token-oneitem-facebook { 
+        font-size:14px; right: 5px; border: 1px solid #3b5998;
+        border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+        background-color: #FFFFFF;
+        padding: 0 2px;
+        line-height: 15px;
+        font-size: 18px;
+        top: 11px;
+        right: 5px;
+    }      
+    span.token-input-delete-token-oneitem-facebook:hover {
+        background-color: #3b5998;
+        color: #FFFFFF;
+    }
+    li.token-input-token-facebook p { width: 163px; overflow: hidden; display: block; }
+</style>
+
+<div class="indexPageContainer clearfix">
+    <table cellpadding=0 cellspacing=0 style="margin-left:auto; margin-right:auto;">
+        <tr>
+            <td colspan="2" class="indexTopLeftBorder">&nbsp;</td>
+            <td class="indexTopBorder">&nbsp;</td>
+            <td colspan="2" class="indexTopRightBorder">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="indexLeftBorder">&nbsp;</td>
+            <td colspan="3" class="indexMainContent" valign="top">
+                <table cellpadding=0 cellspacing=0>
+                    <tr><td style="width:635px;">
+                        <div id="indexHeader">
+                            <a class="logo" href="/">
+                                <b>schoolFeed</b>
+                                <i>your online yearbook</i>
+                            </a>
+                            <img class="beta" src="/static/images/logo_beta_blue.png" />
+                        </div>
+                    </td>
+                    <td>
+                        <div id="indexFbLogin">
+                            Already a member? <a>Login</a>                            
+                        </div>
+                    </td></tr>
+                </table>
+                <div class="indexFindSchool">
+                                        <form>
+                        <table cellpadding="4">
+                            <tr>
+                                <td colspan="2" style="text-align:left; padding:4px;">
+                                                                        <div style="text-align:left; font-size:16pt; color:#00759E; font-weight:bold;">View your High School Yearbook</div>
+                                    <div style="margin-bottom:10px;text-align:left; font-size:13pt; color:#00AAE6; font-weight:bold;">schoolFeed is a FREE classmates network which connects with Facebook</div>
+                                                                    </td>
+                            </tr>
+                            <tr>
+                                <td valign=top>
+                                    <div id="inputForm">
+                                    <table>
+                                        <tr><td style="padding:40px 4px 8px 4px;">
+                                            <input id="highschool_id" name="highschool_id" style="border: 2px solid #11C1FF; width:197px; font-size:18pt; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;"/>
+                                        </td></tr>
+                                        <tr><td style="padding:10px 4px 8px 4px;">
+                                            <div id='gradYearDiv' style='display:none'><select name="gradYear" id="gradYear" class="inputselect required number" style="font-size:18px; height:42px; border: 2px solid #11C1FF; width:201px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;" onchange="findUsers();" onkeyup="findUsers();">
+                                                <option value="" style="height:38px;">Class Year</option>
+                                                                <option value="2017" >2017</option>
+                            <option value="2016" >2016</option>
+                            <option value="2015" >2015</option>
+                            <option value="2014" >2014</option>
+                            <option value="2013" >2013</option>
+                            <option value="2012" >2012</option>
+                            <option value="2011" >2011</option>
+                            <option value="2010" >2010</option>
+                            <option value="2009" >2009</option>
+                            <option value="2008" >2008</option>
+                            <option value="2007" >2007</option>
+                            <option value="2006" >2006</option>
+                            <option value="2005" >2005</option>
+                            <option value="2004" >2004</option>
+                            <option value="2003" >2003</option>
+                            <option value="2002" >2002</option>
+                            <option value="2001" >2001</option>
+                            <option value="2000" >2000</option>
+                            <option value="1999" >1999</option>
+                            <option value="1998" >1998</option>
+                            <option value="1997" >1997</option>
+                            <option value="1996" >1996</option>
+                            <option value="1995" >1995</option>
+                            <option value="1994" >1994</option>
+                            <option value="1993" >1993</option>
+                            <option value="1992" >1992</option>
+                            <option value="1991" >1991</option>
+                            <option value="1990" >1990</option>
+                            <option value="1989" >1989</option>
+                            <option value="1988" >1988</option>
+                            <option value="1987" >1987</option>
+                            <option value="1986" >1986</option>
+                            <option value="1985" >1985</option>
+                            <option value="1984" >1984</option>
+                            <option value="1983" >1983</option>
+                            <option value="1982" >1982</option>
+                            <option value="1981" >1981</option>
+                            <option value="1980" >1980</option>
+                            <option value="1979" >1979</option>
+                            <option value="1978" >1978</option>
+                            <option value="1977" >1977</option>
+                            <option value="1976" >1976</option>
+                            <option value="1975" >1975</option>
+                            <option value="1974" >1974</option>
+                            <option value="1973" >1973</option>
+                            <option value="1972" >1972</option>
+                            <option value="1971" >1971</option>
+                            <option value="1970" >1970</option>
+                            <option value="1969" >1969</option>
+                            <option value="1968" >1968</option>
+                            <option value="1967" >1967</option>
+                            <option value="1966" >1966</option>
+                            <option value="1965" >1965</option>
+                            <option value="1964" >1964</option>
+                            <option value="1963" >1963</option>
+                            <option value="1962" >1962</option>
+                            <option value="1961" >1961</option>
+                            <option value="1960" >1960</option>
+                            <option value="1959" >1959</option>
+                            <option value="1958" >1958</option>
+                            <option value="1957" >1957</option>
+                            <option value="1956" >1956</option>
+                            <option value="1955" >1955</option>
+                            <option value="1954" >1954</option>
+                            <option value="1953" >1953</option>
+                            <option value="1952" >1952</option>
+                            <option value="1951" >1951</option>
+                            <option value="1950" >1950</option>
+                            <option value="1949" >1949</option>
+                            <option value="1948" >1948</option>
+                            <option value="1947" >1947</option>
+                            <option value="1946" >1946</option>
+                            <option value="1945" >1945</option>
+                            <option value="1944" >1944</option>
+                            <option value="1943" >1943</option>
+                            <option value="1942" >1942</option>
+                            <option value="1941" >1941</option>
+                            <option value="1940" >1940</option>
+                            <option value="1939" >1939</option>
+                            <option value="1938" >1938</option>
+                            <option value="1937" >1937</option>
+                            <option value="1936" >1936</option>
+                            <option value="1935" >1935</option>
+                            <option value="1934" >1934</option>
+                            <option value="1933" >1933</option>
+                            <option value="1932" >1932</option>
+                            <option value="1931" >1931</option>
+                            <option value="1930" >1930</option>
+                            <option value="1929" >1929</option>
+                            <option value="1928" >1928</option>
+                            <option value="1927" >1927</option>
+                            <option value="1926" >1926</option>
+                            <option value="1925" >1925</option>
+                            <option value="1924" >1924</option>
+                            <option value="1923" >1923</option>
+                            <option value="1922" >1922</option>
+                            <option value="1921" >1921</option>
+                            <option value="1920" >1920</option>
+                            <option value="1919" >1919</option>
+                            <option value="1918" >1918</option>
+                            <option value="1917" >1917</option>
+                            <option value="1916" >1916</option>
+                            <option value="1915" >1915</option>
+                            <option value="1914" >1914</option>
+                            <option value="1913" >1913</option>
+                            <option value="1912" >1912</option>
+                            <option value="1911" >1911</option>
+                            <option value="1910" >1910</option>
+                            <option value="1909" >1909</option>
+                            <option value="1908" >1908</option>
+                            <option value="1907" >1907</option>
+                            <option value="1906" >1906</option>
+                            <option value="1905" >1905</option>
+            
+                                            </select>
+                                        </td></tr>
+                                        <tr><td style="text-align:right; padding:6px 4px 0 32px;">
+                                            <a id="nextButton" class="uiButton uiGreen uiLarge" style="font-size:18px; padding: 4px 5px 4px 5px; display:block;">
+                                                <div class="clearfix">
+                                                    <div class="rfloat" style="padding-right:9px; padding-top:6px;">
+                                                        Continue &rarr;
+                                                    </div>
+                                                    <div class="rfloat" style="height:32px; padding-right:9px;">
+                                                        <img src="/static/images/icons/fb_small.png" height="32px" width="32px" border="0" />
+                                                    </div>
+                                                </div>
+                                                
+                                            </a>
+                                        </td></tr>
+                                        <tr><td><a href="/perm.php?"><div style="padding-top:15px; text-align:right; color:#00759E; font-size:14px; padding-right:5px;">Learn more</div></a></td></tr>
+                                    </table>
+                                    </div>
+                                </td>
+                                <td style="text-align:right;">
+                                    <div class="indexYearbook">
+                                        <div id="schoolName" style="text-align:center; font-size:12pt; font-weight:bold; padding-top:20px;">schoolFeed Yearbook</div>
+                                        <div id="schoolClassYear" style="text-align:center; font-size:11pt;">&nbsp;</div>
+                                        <div id="yearbookGrid" style="padding:17px 37px 0 0;">
+                                            <img src="/static/images/indexYearbookFaces.png">
+                                        </div>
+                                        <div id="formReminder" style="display: none;">
+                                            <div class='background'></div>                 
+                                            <div class='msg'>Please enter your high school and graduation year</div>
+                                            <div class='carrot school'></div>
+                                            <div class='carrot year' style="display:none"></div>
+                                        </div>
+                                    </div>             
+                                </td>                
+                            </tr>
+                        </table>
+                    </form>
+                    <div id="userList" style="display:none; width:626px; margin:20px auto; padding:5px; color:#7F7F7F; font-size:12pt; border:2px solid #D9D9D9; background-color:#F8F8F8;"></div>
+                </div>
+                <!-- <div class="indexNewUserDiv">
+                    Newest Users
+                    <img src="/static/images/indexNewUserStripWithReflection.png" style="margin-top:5px;">
+                </div> -->
+                <div style="width:750px; margin-left:auto; margin-right:auto;">
+                    <table>
+                        <tr>
+                            <td class="indexTestimonial">
+                                &quot;Because of schoolfeed, I found my childhood best friend. We go back 45 years.&quot;<br/>- Robert
+                            </td>
+                            <td class="indexTestimonial">
+                                &quot;Before schoolFeed, I had trouble searching for some old friends since they got married and changed their names. Thanks for reuniting me.&quot;  - Matt
+                            </td>
+                            <td class="indexTestimonial">
+                                &quot;I like browsing the yearbooks of other classes and other schools.&quot;  - Melissa
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td class="indexRightBorder">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="indexBottomLeftBorder">&nbsp;</td>
+            <td class="indexBottomBorder">&nbsp;</td>
+            <td colspan="2" class="indexBottomRightBorder">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width:19px; height:1px;"></td>
+            <td style="width:25px; height:1px;"></td>
+            <td style="width:770px; height:1px;"></td>
+            <td style="width:26px; height:1px;"></td>
+            <td style="width:18px; height:1px;"></td>
+        </tr>
+    </table>
+
+    <div id="addHighSchoolPopup" style="display:none;">
+        <form action="" id="addHighSchoolForm">
+        <table class="addHighSchool" style="border-spacing: 5px;">
+            <tr>
+                <td class="addHighSchoolLabel">High School Name: </td>
+                <td class="addHighSchoolValue"><input type="text" name="addHighSchoolName" id="addHighSchoolName" style="width:242px; padding: 8px; font-size: 18px;" /></td>
+            </tr>
+            <tr>
+                <td class="addHighSchoolLabel">High School Class Year: </td>
+                <td class="addHighSchoolValue"><select name="addHighSchoolClassYear"  id="addHighSchoolClassYear"    style="margin: 0; padding: 8px; font-size: 18px;" >
+            <option value="0">Year:</option>
+        
+            <option value="2020" >2020</option>
+            <option value="2019" >2019</option>
+            <option value="2018" >2018</option>
+            <option value="2017" >2017</option>
+            <option value="2016" >2016</option>
+            <option value="2015" >2015</option>
+            <option value="2014" >2014</option>
+            <option value="2013" >2013</option>
+            <option value="2012" >2012</option>
+            <option value="2011" >2011</option>
+            <option value="2010" >2010</option>
+            <option value="2009" >2009</option>
+            <option value="2008" >2008</option>
+            <option value="2007" >2007</option>
+            <option value="2006" >2006</option>
+            <option value="2005" >2005</option>
+            <option value="2004" >2004</option>
+            <option value="2003" >2003</option>
+            <option value="2002" >2002</option>
+            <option value="2001" >2001</option>
+            <option value="2000" >2000</option>
+            <option value="1999" >1999</option>
+            <option value="1998" >1998</option>
+            <option value="1997" >1997</option>
+            <option value="1996" >1996</option>
+            <option value="1995" >1995</option>
+            <option value="1994" >1994</option>
+            <option value="1993" >1993</option>
+            <option value="1992" >1992</option>
+            <option value="1991" >1991</option>
+            <option value="1990" >1990</option>
+            <option value="1989" >1989</option>
+            <option value="1988" >1988</option>
+            <option value="1987" >1987</option>
+            <option value="1986" >1986</option>
+            <option value="1985" >1985</option>
+            <option value="1984" >1984</option>
+            <option value="1983" >1983</option>
+            <option value="1982" >1982</option>
+            <option value="1981" >1981</option>
+            <option value="1980" >1980</option>
+            <option value="1979" >1979</option>
+            <option value="1978" >1978</option>
+            <option value="1977" >1977</option>
+            <option value="1976" >1976</option>
+            <option value="1975" >1975</option>
+            <option value="1974" >1974</option>
+            <option value="1973" >1973</option>
+            <option value="1972" >1972</option>
+            <option value="1971" >1971</option>
+            <option value="1970" >1970</option>
+            <option value="1969" >1969</option>
+            <option value="1968" >1968</option>
+            <option value="1967" >1967</option>
+            <option value="1966" >1966</option>
+            <option value="1965" >1965</option>
+            <option value="1964" >1964</option>
+            <option value="1963" >1963</option>
+            <option value="1962" >1962</option>
+            <option value="1961" >1961</option>
+            <option value="1960" >1960</option>
+            <option value="1959" >1959</option>
+            <option value="1958" >1958</option>
+            <option value="1957" >1957</option>
+            <option value="1956" >1956</option>
+            <option value="1955" >1955</option>
+            <option value="1954" >1954</option>
+            <option value="1953" >1953</option>
+            <option value="1952" >1952</option>
+            <option value="1951" >1951</option>
+            <option value="1950" >1950</option>
+            <option value="1949" >1949</option>
+            <option value="1948" >1948</option>
+            <option value="1947" >1947</option>
+            <option value="1946" >1946</option>
+            <option value="1945" >1945</option>
+            <option value="1944" >1944</option>
+            <option value="1943" >1943</option>
+            <option value="1942" >1942</option>
+            <option value="1941" >1941</option>
+            <option value="1940" >1940</option>
+            <option value="1939" >1939</option>
+            <option value="1938" >1938</option>
+            <option value="1937" >1937</option>
+            <option value="1936" >1936</option>
+            <option value="1935" >1935</option>
+            <option value="1934" >1934</option>
+            <option value="1933" >1933</option>
+            <option value="1932" >1932</option>
+            <option value="1931" >1931</option>
+            <option value="1930" >1930</option>
+            <option value="1929" >1929</option>
+            <option value="1928" >1928</option>
+            <option value="1927" >1927</option>
+            <option value="1926" >1926</option>
+            <option value="1925" >1925</option>
+            <option value="1924" >1924</option>
+            <option value="1923" >1923</option>
+            <option value="1922" >1922</option>
+            <option value="1921" >1921</option>
+            <option value="1920" >1920</option>
+            <option value="1919" >1919</option>
+            <option value="1918" >1918</option>
+            <option value="1917" >1917</option>
+            <option value="1916" >1916</option>
+            <option value="1915" >1915</option>
+            <option value="1914" >1914</option>
+            <option value="1913" >1913</option>
+            <option value="1912" >1912</option>
+            <option value="1911" >1911</option>
+            <option value="1910" >1910</option>
+            <option value="1909" >1909</option>
+            <option value="1908" >1908</option>
+            <option value="1907" >1907</option>
+            <option value="1906" >1906</option>
+            <option value="1905" >1905</option>
+            <option value="1904" >1904</option>
+            <option value="1903" >1903</option>
+            <option value="1902" >1902</option>
+    </select></td>
+            </tr>
+            <tr>
+                <td class="addHighSchoolLabel">High School City: </td>
+                <td class="addHighSchoolValue"><input id="addHighSchoolCity_id" name="addHighSchoolCity_id" style="width:250px;" /></td>
+            </tr>
+            <tr id="addHighSchoolState_row">
+                <td class="addHighSchoolLabel">High School State: </td>
+                <td class="addHighSchoolValue"><input id="addHighSchoolState_id" name="addHighSchoolState_id" style="width:250px;" /></td>
+            </tr>
+            <tr id="addHighSchoolCountry_row">
+                <td class="addHighSchoolLabel">High School Country: </td>
+                <td class="addHighSchoolValue"><input id="addHighSchoolCountry_id" name="addHighSchoolCountry_id" style="width:250px;" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" width="100%" align="right" style="padding-top:10px;">
+                    <input type="hidden" name="tab" value="edu" />
+                    <input type="submit" name="addHighSchoolSubmit" id="addHighSchoolSubmit" value="Add High School" class="uiButton uiBlue uiLarge" />
+                    <input type="button" value="Cancel" onClick="Boxy.get(this).hide();return false" class="uiButton uiLarge" />
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>
+</div>
+    
+
+<script type="text/javascript">
+   /* window.onerror = function(errorMessage, url, line) {
+        var params = {
+            'description': escape(errorMessage),
+            'url': escape(url),
+            'line': escape(line),
+            'parent_url': escape(document.location.href),
+            'user_agent': escape(navigator.userAgent)            
+        };
+        servertalker.makeRequest('EventTrackerService', 'logJavascriptError', params, null);
+    }; */
+    
+    var schoolName;    
+//promptConfirmation();      
+    function findUsers(data) {        
+        var schoolId = $('#highschool_id').val();
+        var classYear = $('#gradYear').val();
+        var minClassmates = 12;
+        if(data) {
+            schoolName = data.displayName;            
+        }
+        
+        checkButtonStatus();
+        
+        if(schoolId) {
+            servertalker.makeRequest('ClassmatesService', 'getClassMembers', { schoolId:schoolId, classYear:classYear }, 
+                function(response) {
+                    if(response.numUsers >= minClassmates) {
+                        showUsers(schoolName, classYear, response);
+                    } else {
+                        // make another call for school
+                        servertalker.makeRequest('ClassmatesService', 'getClassMembers', { schoolId:schoolId, classYear:0 }, function(response) {
+                            if(response.numUsers >= minClassmates) {
+                                showUsers(schoolName, 0, response);
+                            } else {
+                                clearUsers();
+                            }
+                        })                        
+                    }
+                }
+            );
+            
+            if (classYear == '') {
+                // No class year has been selected, just a school search
+                EventTracker.updateEvent('sf-index-schoolSearch-classYear-no');
+            } else {
+                // Class year has been selected
+                EventTracker.updateEvent('sf-index-schoolSearch-classYear-yes');
+            }
+        }   
+    }
+    
+    function showUsers(schoolName, classYear, response) {
+        var users = response.users;
+        var numUsers = response.numUsers;
+        var numPerRow = 6;
+        var maxUsers = 24;
+        
+        //var html = '<div style="text-align:center; margin-bottom:15px;"><span style="font-weight:bold;">' + schoolName + '</span>';
+        $('#schoolName').html(schoolName);
+        if(classYear == ''){
+            $('#schoolClassYear').html("&nbsp;");
+        }
+        else{
+            $('#schoolClassYear').html("Class of " + classYear);
+        }
+        var html='<table style="margin-left:15px;"><tr>';
+        for(var i = 0; i < users.length && i < maxUsers; i++){
+            //console.log(users[i]);
+            html += '<td class="indexYearbookUser">';
+            html += '<a class="popup-user" noauth="1" uid="' + users[i]['userId'] + '">';
+            html += '<img src="http://graph.facebook.com/' + users[i]['facebookId'] + '/picture" style="height:42px; width:auto;">';
+            html += '<br/>';
+            userYear = users[i]['classYear'].substr(2);
+            if(classYear != ''){
+                userYear = '';
+            }
+            html += '<span style="color:#00759e;">';
+            html += getNameAndYear(users[i]['firstName'], users[i]['lastName'], userYear);
+            html += '</span>';
+            html += '</a>';
+            html += '</td>';
+            if((i+1) % numPerRow == 0){
+                html += '</tr>';
+            }
+        }
+        html += '</table>';
+        /*if(classYear == '') {
+            html += '<br />' + Utilities.number_format(numUsers) + ' people';             
+            html += '</div>';
+            html += '<div style="text-align:center;">';
+            for(var i in users) {
+                if(i >= 15) break;
+                if(users[i]['name'] != '') {
+                    html += '<div style="padding:2px;">' + users[i]['name'] + " '" + users[i]['classYear'].substr(2) + '</div>';
+                }
+            }
+            html += '</div>'             ;
+        } else {
+            html += '<br />Class of ' + classYear;                           
+            html += '</div>';
+            html += '<table style="margin:0 auto;"><tr>';
+            var hits = 0;
+            for(var i in users) {
+                if(users[i]['name'] != '') {
+                    html += '<td><div style="margin:0 40px">' + users[i]['name'] + '</div></td>';
+                    hits += 1;
+                    if(hits % 2 == 0) { html += '</tr><tr>'; }
+                }
+            }
+            if(hits % 2 != 0) { html += '</td>'; }
+            html += '</tr></table>';                        
+        } 
+
+        html += '<div style="text-align:center; margin-top:10px;">...and more!';
+        if(classYear != '') { html += '<a class="uiButton uiSubmit uiLarge" style="margin-left:10px;" onclick="promptConfirmation(); return false;">Next&nbsp;--&gt;</a>'; }
+        html += '</div>';
+        
+        $('#userList').html(html);
+        $('#userList').css('display', 'block');
+        */
+        $('#yearbookGrid').html(html);
+    }
+    
+    function clearUsers() {
+        /*schoolName = '';
+        checkButtonStatus();
+        $('#userList').css('display', 'none');        
+        $('#userList').html('');*/
+        $('#schoolName').html("schoolFeed Yearbook");
+        $('#schoolClassYear').html("&nbsp;");
+        $('#yearbookGrid').html("<img src='/static/images/indexYearbookFaces.png'>");
+        checkButtonStatus();
+    }
+    
+    function checkButtonStatus() {
+        if($('#highschool_id').val() && $('#gradYear').val()) {
+            $('#nextButton').tipTip({ content: 'Connect with Facebook', delay:0, defaultPosition: "top" });
+        } else if ($('#highschool_id').val()) {
+            $('#nextButton').tipTip({ content: "Enter your graduation year", defaultPosition:'bottom', delay:0 });
+        } else {
+            $('#nextButton').tipTip({ content: "Enter your high school", defaultPosition:'bottom', delay:0 });
+        }
+    }
+    
+    function getNameAndYear(firstName, lastName, year){
+        var firstNameMaxLength = 12;
+        var lastNameMaxLength = 12
+        var nameString = "";
+        var overflow = 0;
+        if(year != ''){ lastNameMaxLength = 9; }
+        if(firstName.length > firstNameMaxLength){
+            // first name too long
+            nameString += firstName.substring(0, firstNameMaxLength-1) + "-<br/>";
+            if(firstName.length > (firstNameMaxLength + lastNameMaxLength)){
+                // first name longer than both lines combined
+                nameString += firstName.substring(firstNameMaxLength-1, firstNameMaxLength + lastNameMaxLength - 3);
+            }
+            else{
+                nameString += firstName.substring(firstNameMaxLength-1) + " ";
+            }
+            overflow = firstName.length - firstNameMaxLength + 1 + 1; // add 1 for the '-' and 1 for the space that will have to be inserted on the next line
+        }
+        else{
+            nameString += firstName + "<br/>";
+        }
+        if(overflow > lastNameMaxLength){
+            // first name took full 2 lines so just add ... and class
+            nameString += '...';
+        }
+        if(lastName.length + overflow > lastNameMaxLength){
+            nameString += lastName.substring(0, lastNameMaxLength-overflow-2) + "...";
+        }
+        else{
+            nameString += lastName;
+        }
+        if(year != ''){
+            nameString += " '" + year;
+        }
+        return nameString;
+    }
+    
+    function promptConfirmation() {
+        var schoolId = $('#highschool_id').val();
+        var classYear = $('#gradYear').val();        
+        
+        var html = '';
+        html += '<div style="text-align:center;"><a class="uiButton uiGreen uiLarge confirmationButton" id="confirmationButton">';
+        html += '  <div class="lfloat" style="height:8px;padding-right:2px;"><img src="/static/images/icons/fb_small.png" height="20px" width="20px" border="0" /></div>';
+        html += '  <span style="font-size:17px;padding-right:4px;padding-left:4px;">Continue&nbsp;&rarr;</span>';
+        html += '</a></div>';   
+        html += '<div style="margin-top:14px;width:325px;color:#5F5F5F;font-size:12px;font-weight:normal;"><i>&quot;Thanks for trying schoolFeed!&nbsp;&nbsp;We just launched so please let us know if you have any problems or suggestions.&quot;</i></div>';     
+        html += '<div style="margin-top:4px;float:right;color:#5F5F5F;font-size:12px;font-weight:normal;">-- The schoolFeed Team</div>';     
+        html += '<div class="clearfix" style="margin: 27px -15px -15px; padding:0 15px 15px; width:325px; color:#7F7F7F; background-color:#F8F8F8; border-top:4px solid #D9D9D9;">';
+        //html +=   '<div style="float:right;padding-top:20px;margin-left:15px;" class="confirmationButton clearfix">';  
+        //html +=     '<img src="/static/images/index-cont-fbperms.png" />';
+        //html +=     '<div style="width:280px;font-size:10px;padding-left:0px;">After pressing &quot;Continue&quot;, you will see the Request for Permission screen.  Press <span style="color:#3f3f3f;font-weight:bold">&quot;Allow&quot;</span> to access your classmates</div>';
+        //html +=   '</div>';  
+        html +=   '<div style="">';
+        html +=     '</div>';
+        html +=     '<div style="margin-top:10px;">';
+        html +=       '<span style="font-weight:bold;">About schoolFeed</span><br />';
+        html +=       'schoolFeed is a classmates extension for Facebook.  Share an online yearbook created by you and your classmates. Connect with them and see what&#146;s happening with just one click. schoolFeed will always be fun and FREE!';        
+        html +=     '</div>';      
+        html +=     '<div style="margin-top:10px;">';        
+        html +=       '<span style="font-weight:bold;">Connecting with Facebook</span><br />';
+        html +=       'schoolFeed connects with Facebook so you only have to enter things once. schoolFeed uses the following permissions:';
+        html +=       '<ul>';
+        html +=       '<li>Basic Info (e.g. your name)</li>';
+        html +=       '<li>E-mail (e.g. when people post messages to you)</li>';
+        html +=       '<li>Profile Info (e.g. your high school class)</li>';
+        html +=       '<li>Offline (e.g. to deliver content you subscribe to)</li>';
+        //html += '<li>News Feed to get your latest updates</li>';
+        html +=       '<li>Photos for adding to the yearbook</li>';
+        html +=       '<li>Wall Post for the option to post to your Wall</li>';
+        html +=       '<li>Friend Info (e.g. to help find more classmates)</li>';
+        html +=       '</ul>';
+        //html += '<input type="hidden" id="autoFollow" name="autoFollow" value="1" checked="checked" />';
+        //html += '<label for="autoFollow" style="font-size:12px;" class="tipTip" title="You\'ll get updates from people you follow.">You are following classmates and Facebook friends <span style="color:#4E98DF" >[?]</span></label><br />';
+        //html += '<div class="tipTip" style="width:200px;" title="Sync your profile so you don\'t have to re-enter and re-upload your Facebook data for your followers"><input type="checkbox" id="syncFbProfile" name="syncFbProfile" value="1" checked="checked" />';
+        //html += '<label for="syncFbProfile" style="font-size:12px;">Sync with Facebook profile <span style="color:#4E98DF">[?]</span></label></div>';
+//      html +=   '<div style="font-size:8pt;">By clicking Continue, you agree to our <a href="/tos.php" target="_blank">Terms of Service</a> and <a href="/privacy.php" target="_blank">Privacy Policy</a></div>'  
+        //html += '<div style="font-size:10pt; text-align:right;"><a href="/" onclick="Boxy.get(this).hide(); return false;" style="color:#7F7F7F;">cancel</a></div>'
+        html +=     '<div style="float:right;padding-top:5px;" class="clearfix">';
+        html +=       '<a style="font-size:8pt;color:#7F7F7F;" id="learnMoreButton">Learn more</a>';
+        html +=       '<a style="font-size:8pt;color:#7F7F7F;margin-left:15px;" class="confirmationButton">Continue</a>'; 
+//      html +=       '<a style="font-size:8pt;color:#7F7F7F;margin-left:15px;" id="confirmCancelButton">Close</a>'; 
+        html +=     '</div>';
+        html +=   '</div>';
+        html += '</div>';          
+        var dialog = new Boxy.ask(html, [], null, { modal: true, closeable: false });
+        $('#learnMoreButton').click(   
+            function() {
+                EventTracker.updateEvent('sf-index-continue-learnmore');
+                Boxy.get(this).hide(); 
+                //alert(1);             
+                window.location = "/perm.php?" + '';
+
+                return false;                
+            }       
+        );
+        $('#confirmCancelButton').click(   
+            function() {
+                EventTracker.updateEvent('sf-index-continue-cancel');
+                Boxy.get(this).hide(); 
+                return false;                
+            }       
+        );
+        $('.confirmationButton').tipTip({ content: 'Connect with Facebook', defaultPosition: "left", delay: 100 });
+        $('.confirmationButton').click(
+            function() {               
+                // Track click on "Continue" button
+                EventTracker.updateEvent('sf-index-continue');
+                EventTracker.updateEvent('sf-index-continue-src-' + "unknown");
+                EventTracker.updateEvent('sf-index-continue-prefill-' + "no");
+                var autoFollow = $('#autoFollow').attr('checked');
+                var syncFbProfile = $('#syncFbProfile').attr('checked');
+                Boxy.get(this).hide();
+                var registerUrl = 'http://your.schoolfeed.com/register.php?uSchoolId='+schoolId+'&uClassYear='+classYear+'&uSchoolName='+encodeURIComponent(schoolName)+'&'+"installRef"+'='+"unknown";
+                var cancelUrl = 'http://your.schoolfeed.com/perm.php?uSchoolId='+schoolId+'&uClassYear='+classYear+'&uSchoolName='+encodeURIComponent(schoolName)+'&'+"installRef"+'='+"unknown";
+                if(autoFollow) { registerUrl += '&autoFollow=1'; }
+                if(syncFbProfile) { registerUrl += '&syncFbProfile=1'; }
+                facebook.login( 'publish_stream,user_photos,user_photos,user_likes,email,user_birthday,user_education_history,user_hometown,friends_education_history,friends_birthday,friends_hometown,friends_photos,friends_photo_video_tags,user_location,user_interests,user_activities,offline_access', function(loginResponse) { 
+                    if (loginResponse.authResponse && loginResponse.authResponse.accessToken && loginResponse.authResponse.userID) {
+                        registerUrl += '&fbid=' + loginResponse.authResponse.userID + '&accessToken=' + loginResponse.authResponse.accessToken;   
+                        window.location=registerUrl;
+                    } else {
+                        window.location=cancelUrl;
+                    }     
+                });
+            }
+        );
+        $(".tipTip").tipTip( { defaultPosition:'right', delay:0 } );
+        
+        // Track click on "Next" button
+        EventTracker.updateEvent('sf-index-next');
+        EventTracker.updateEvent('sf-index-next-src-' + "unknown");
+        EventTracker.updateEvent('sf-index-next-prefill-' + "no");
+    }
+    
+    function promptFbLogin() {
+        // Get schoolId and class year
+        var schoolId = $('#highschool_id').val();
+        var classYear = $('#gradYear').val();
+        
+        var registerUrl = 'http://your.schoolfeed.com/register.php?uSchoolId='+schoolId+'&uClassYear='+classYear+'&uSchoolName='+encodeURIComponent(schoolName)+'&'+"installRef"+'='+"unknown";
+        facebook.login( 'publish_stream,user_photos,user_photos,user_likes,email,user_birthday,user_education_history,user_hometown,friends_education_history,friends_birthday,friends_hometown,friends_photos,friends_photo_video_tags,user_location,user_interests,user_activities,offline_access', function(loginResponse) { 
+            if (loginResponse.authResponse && loginResponse.authResponse.accessToken && loginResponse.authResponse.userID) {
+                registerUrl += '&fbid=' + loginResponse.authResponse.userID + '&accessToken=' + loginResponse.authResponse.accessToken;
+                //alert('3');
+            }
+            else
+            {
+              //alert('4');
+            }
+            //console.log(registerUrl);
+            //debugger;
+            window.location=registerUrl;
+        });
+        EventTracker.updateEvent('sf-index-next');
+        EventTracker.updateEvent('sf-index-next-src-' + "unknown");
+        EventTracker.updateEvent('sf-index-next-prefill-' + "no");
+    }
+    
+    function showReminder() {
+        if( $("#formReminder:hidden").length == 0 ) {
+            return;
+        }                
+        if( $('#gradYear:visible').length ) {
+            $("#formReminder .carrot.year").show();
+        }
+        $("#formReminder:hidden").fadeIn(500);
+        setTimeout(function() { $("#formReminder").fadeOut(500); }, 5000);
+    }                                    
+    
+    // snap engage help widget
+    //document.write(unescape("%3Cscript src='" + ((document.location.protocol=="https:")?"https://snapabug.appspot.com":"http://www.snapengage.com") + "/snapabug.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">
+    //SnapABug.addButton("9bdf54a6-654a-477f-98cf-66e536717701","1","70%");
+    //SnapABug.allowScreenshot(false);      
+    
+</script>
+<!--    <a href="#" onclick="return SnapABug.startLink();"><img src="https://snapabug.appspot.com/statusImage?w=9bdf54a6-654a-477f-98cf-66e536717701" border="0"></a> -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+			// Check the FB Access token on every page load and once every 30 minutes that you remain on a page
+			facebook.checkFbAccessToken();
+			setInterval(facebook.checkFbAccessToken, 1800000);
+
+			if (Cookie.getCookie('s') && CONFIG.ENABLEWEBNODE){
+				
+				setTimeout(function(){ longpoll(CONFIG.WEBNODEURL).toggleConnect(); }, 6000);
+			}
+        });
+    </script>
+    </body>
+</html>
+

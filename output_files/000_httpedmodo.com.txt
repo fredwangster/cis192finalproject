@@ -1,0 +1,518 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="microblogging, education 2.0, private groups, twitter, classroom 2.0, communication, parents, messaging, tools, students">
+    <meta name="description" content="Edmodo provides a safe and easy way for your class to connect and collaborate, share content, and access homework, grades and school notices. Our goal is to help educators harness the power of social media to customize the classroom for each and every learner">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="imagetoolbar" content="false">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" >
+            <title>Edmodo | Secure Social Learning Network for Teachers and Students</title>
+        <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/general-v2.css?rev=38297">
+    <link rel="stylesheet" type="text/css" href="/css/jquery/jquery.facebox.css?rev=38297">
+    
+    <link href="/css/partials/landing-page-v2.css?rev=38297" media="screen" rel="stylesheet" type="text/css" >
+        <script type="text/javascript" src="/js/jquery/jquery.min.js?rev=38297"></script>
+    <script type="text/javascript" src="/js/general.js?rev=38297"></script>
+    <script type="text/javascript" src="/js/general-v2.js?rev=38297"></script>
+    <script type="text/javascript" src="/js/jquery/jquery.facebox.js?rev=38297"></script>
+        <link rel="stylesheet" type="text/css" href="/css/core.min.css?rev=38297"><script type="text/javascript" src="/js/core.min.js?rev=38297"></script>            <script type="text/javascript">
+        //------------------------------------------------------
+        // GLOBAL VARIABLES...
+        var logged_in = false, user_id =  null, user_type = "", user_name = '0',
+                       modo=modo||{}; modo.config=modo.config||{}; modo.config.gdocs=modo.config.gdocs||{};
+        modo.config.gdocs.FEATURE_ENABLED=1;
+
+                var GROUP='group';
+                var ASSIGNMENT='assignment';
+                var EDMODO_COLOR='#336699';
+                var SUPPORT_COLOR='#CC3333';
+                var EVERYONE_COLOR='#3265B0';
+                var PATH2_IMAGES='http://images.edmodo.com/images/';
+                var FILES_SERVER='http://s3.amazonaws.com';
+                var EDMODO_FILES_SERVER='http://s3.amazonaws.com/edmodo/';
+                var AVATAR_SERVER='http://s3.amazonaws.com/edmodo.userphotos/';
+                var NEW_AVATAR_SERVER='http://u.ph.edim.co/';
+                var DOC_THUMBS_PATH='http://s3.amazonaws.com/edmodo/docs/';
+                var UNIFIED_POST_TYPES='1';
+                var JS_DEV_STATE='2';
+                var REV='38297';
+                var MAX_SHOWN_FILENAME_LENGTH='50';
+                var IS_INST_SUBDOMAIN='';
+                var URL_KEY='index-index';
+                var MAX_CHAR_LENGTH_FOR_MESSAGES='587';
+                var MAX_LINE_BREAKS_FOR_MESSAGES='8';
+                var MAX_RECEIVERS_TO_SHOW='3';
+                var CROCODOC_FLOOR='0';
+                var CHAT_FEATURE='0';
+                var BROWSER_NAME='Python';
+                var BROWSER_NAME_VERSION='Rippers';
+                var QUIZZES_ENABLED='1';
+                var EDMODO_SYSTEM_USER_ID='9';
+        
+        translated_text = typeof(translated_text) == 'undefined' ? [] : translated_text;translated_text['no_search_results'] = "There were no search results.";translated_text['searchAllTeachers'] = "Search All Teachers";translated_text['latest_posts'] = "Latest Posts";translated_text['search_posts'] = "Search Posts";translated_text['search-for-teachers'] = "Search Teachers";translated_text['COMMUNITY'] = "Community";translated_text['TEACHER'] = "Teacher";translated_text['STUDENT'] = "Student";translated_text['PUBLISHER'] = "Publisher";translated_text['PARENT'] = "Parent";translated_text['ADMINISTRATOR'] = "Administrator";translated_text['search'] = "Search";translated_text['school-code-no-colon'] = "School Code";translated_text['archived-groups'] = "Archived Groups";translated_text['title-goes-here'] = "Secure Social Learning Network for Teachers and Students";
+        if( !readCookie('ignoredHostChk') && URL_KEY != 'index-ie6' && getInternetExplorerVersion() == 6 )            document.location = '/index/ie6';
+
+        $j(function(){
+                $j('a[rel*=facebox]').facebox(                    {
+                        faceboxHtml: '<div id="facebox" style="display:none;"><div class="popup"><table><tbody><tr><td class="tl"/><td class="b"/><td class="tr"/></tr><tr><td class="bSide"/><td class="body"><div class="header"><span class="title">Title</span><a href="#" class="close">X</a><div class="clear" style="height:0px;"></div></div><div class="content"></div></td><td class="bSide"/></tr><tr><td class="bl"/><td class="b"/><td class="br"/></tr></tbody></table></div></div>',
+                        opacity : '0.75',
+                        loadingImage : 'http://images.edmodo.com/images/' + 'loading.gif'
+                    });                $j('#grades-toggle').click(function()
+                    {
+                        $j('li.grades > div').toggleClass('clicked');
+                        $j('#grades-list').toggle();
+                    });
+                $j(document).click(function(e){
+                        var target = $j(e.target);
+                        if ( !(target.attr('id') == 'grades-list' || target.attr('id') == 'grades-toggle' ) )
+                        {
+                            $j('li.grades > div').removeClass('clicked');
+                            $j('#grades-list').hide();
+                        }
+                    });
+                $j('#display-archived-groups-for-gradebook').click(function(){
+                    $j.facebox( $j('#archived-group-list_tpl').html() );
+                    $j.facebox.setTitle( translated_text['archived-groups'] );
+                });
+            }
+        );
+    </script>
+    <script type="text/javascript" src="/js/views/index-index.js?rev=38297"></script>
+<script type="text/javascript">
+    //<!--
+    var view;
+    $j(document).ready
+    (
+        function()
+        {
+            view = new View();
+            view.main();
+        }
+    );
+    //-->
+</script>
+<script type="text/javascript" src="/js/partials/landing-page.js?rev=38297"></script>
+<script type="text/javascript" src="/js/Tab.js?rev=38297"></script>
+<script type="text/javascript">
+    //<!--
+    $j(document).ready
+    (
+        function()
+        {
+            view.landing_page = new LandingPage('REGULAR',true);
+            view.landing_page.init();
+            
+		    $j('#username').focus();
+		
+		    if ($j.browser.webkit)
+		    {
+		        $j('input[name="password"]').attr('autocomplete', 'off');
+		        $j('input[name="username"]').attr('autocomplete', 'off');
+		    }
+		
+		    if( navigator.userAgent.indexOf('Mac') != -1 )
+		    {
+		        $j('#landing .signup .teacher').css('padding-top', '10px');
+		        $j('#landing .signup .student').css('padding-top', '10px');
+		    }
+
+		    positionLearnMore();	
+		    		    
+		    $j(window).resize(function(){positionLearnMore();});		   
+		    
+			$j('#slide-up').click(function() {
+			  var window_height = '';
+			  
+			  if (!$j('#learn-more').hasClass('not-fixed')) {
+			  	var lm_offset = $j('#learn-more').offset();
+			  	$j('#learn-more').css('position', 'absolute');
+			  	$j('#learn-more').css('top', lm_offset.top);			  				  	
+			  }
+			  window_height = $j(document).height();
+			  
+			  $j('#learn-more').animate({
+			    height: (window_height + 5)+'px',
+			    top: -5
+			  }, 700, function() {
+				$j('body,html').animate({
+					scrollTop: 0
+				}, 250);
+			    $j('#learn-more').addClass('maximized');
+			    $j('#more-screen').show();
+			    $j('#slide-up').hide();			    			    
+			    $j('#make').show();			    			    
+			  });
+			});	
+			
+			
+			$j('#make').click(function() {
+			  $j('#learn-more').removeClass('maximized');
+			  $j('#more-screen').hide();
+			  $j('#make').hide();	
+			  $j('#slide-up').show();
+			  var final_top = $j(document).height() - 151;
+			  if (final_top < 550) {
+			  	final_top = 550;
+			  }			    			    
+			  $j('#learn-more').animate({
+			    top: final_top,
+			    height: '50px'
+			  }, 700, function() {
+				$j('body,html').animate({
+					scrollTop: $j(document).height()
+				}, 1000);
+		    	positionLearnMore();
+			  });
+			});	
+							    
+        }
+    );        
+    translated_text = typeof(translated_text) == 'undefined' ? [] : translated_text;translated_text['no-edmodo-credentials'] = "You cannot use your Edmodo credentials on this subdomain";translated_text['tour'] = "Tour";translated_text['edmodo-features'] = "Edmodo Features";translated_text['what-is-edmodo'] = "What is Edmodo?";translated_text['error-1'] = "Username not found";translated_text['error-3'] = "Incorrect Username or Password";translated_text['error-5'] = "Incorrect School Code";translated_text['error-6'] = "Please access your school\/district subdomain";translated_text['error-7'] = "<center style=\"font-weight:bold; font-size:20px;\">Cookies Required<\/center>Cookies are not enabled on your browser. Please adjust this in your security preferences before continuing.";translated_text['error-8'] = "Incorrect Group Code";translated_text['group-code'] = "Group Code";translated_text['email'] = "Email Address";translated_text['school-code-no-colon'] = "School Code";translated_text['verify-school-code'] = "Verify School Code";translated_text['verify-group-code'] = "Verify Group Code";translated_text['google-sign-up'] = "Google Sign In";    
+function positionLearnMore() {
+    if ($j(window).height() > 870) {
+                if (!$j('#landing').hasClass('bigscreen')) {
+            $j('#landing').addClass('bigscreen');
+        }
+          
+    } else {
+    	$j('#landing').removeClass('bigscreen');    
+    }
+	if (! $j('#learn-more').hasClass('maximized')) {
+		$j('#learn-more').css('position', '');
+		$j('#learn-more').css('top', '');	
+	    if ($j(window).height() < 640) {
+			if (! $j('#learn-more').hasClass('not-fixed')) {
+		    	$j('#learn-more').addClass('not-fixed');		
+			}
+	    } else {
+	    	$j('#learn-more').removeClass('not-fixed');
+	    }		
+	} else {
+		$j('#learn-more').css('height', $j(document).height() - 50);
+	}
+}
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+	// SOME OTHER STUFF
+
+    translated_text = typeof(translated_text) == 'undefined' ? [] : translated_text;translated_text['yes'] = "Yes";translated_text['no'] = "No";translated_text['more'] = "more";translated_text['less'] = "less";    translated_text = typeof(translated_text) == 'undefined' ? [] : translated_text;translated_text['no-search-results'] = "Search did not find anything.";translated_text['wrong-extension'] = "You cannot select a $ext file. Try again...";translated_text['file-selected'] = "File selected: $file";translated_text['file-duplicated'] = "This file has already been selected: $file";translated_text['upload'] = "Upload";translated_text['to'] = "to";translated_text['single-date'] = "Single Date";translated_text['date-range'] = "Date Range";translated_text['date-format-err'] = "Date format should be MM\/DD\/YYYY.";translated_text['no-date-err'] = "No date selected.";translated_text['date-range-err'] = "Start date must be before end date.";    //-->
+</script>
+        
+            <script type="text/javascript">//<!--
+			$j(function(){
+				$j('#search-form') // Kill form default-behavour.
+    		    	.submit(function() {
+    		    	    view.feed_handler.filterBySearch($j('#navSearch').val());
+    		    	    return false;
+    		    	});
+			});
+        //--></script>
+    <!-- GA code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-176270-4']);
+  _gaq.push(['_setDomainName', 'edmodo.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END GA code -->
+</head>
+<body class="">
+
+    
+     
+	
+    
+    <div id="content" class="clearfix">
+
+	<script type="text/javascript">
+
+                //Detect IE7 Compatibility mode in IE8
+
+                var regx = /MSIE 7.0/;
+
+                if(regx.test(navigator.userAgent) && document.documentMode){
+
+                        if(document.documentMode == 8) $j('#content').addClass('ie8-compatibility');
+
+                }
+
+        </script>
+
+
+		<a name="skipMainNav"></a>
+	        
+
+
+<!-- Errors and Success Bars -->
+<div id="allow-cookies-error" style="display:none">
+    <div style="font-size:6px;color:#c00;margin-top:-8px">&ndash; Edmodo provides a safe and easy way for your class to connect and collaborate, share content, and access homework, grades and school notices. Our goal is to help educators harness the power of social media to customize the classroom for each and every learner</div>    <span><center style="font-weight:bold; font-size:20px;">Cookies Required</center>Cookies are not enabled on your browser. Please adjust this in your security preferences before continuing.</span>
+    <a onclick="$j('#allow-cookies-error').css('display', 'none');$j('#username').focus();">[hide]</a>
+</div>
+
+<div id="error" style="display:none" >
+    <span>error-js</span>
+    <a onclick="$j('#error').css('display', 'none');$j('#username').focus();">[hide]</a>
+</div>
+
+<div id="fp-success">
+    <span id="new-pass-lbl">
+    	Your <strong>new password</strong> has been sent to     </span>
+    <a onclick="$j('#fp-success').css('display', 'none');">[hide]</a>
+</div>
+<!-- End of Errors and Success Bars -->
+
+
+<!-- Landing Page Content -->
+<div id="landing">
+
+
+	<div id="edmodo-logo">
+		<img src="/images/landing-v2/edmodo-logo.png" />
+		
+	</div>
+
+	<!-- Login Form -->      
+	<form id="form_login" action="/" method="post" >
+	    <div id="username-wrap">
+	        <span class="login-lbl">
+	            Username or Email	        </span>
+            <input id="username" name="username" autocomplete="on" tabindex="1" />
+        </div>
+        <div id="pwd-wrap">
+            <span class="login-lbl">
+	            <a title="Forgot?">
+	            	Forgot?	            </a>            	
+            	Password            </span>
+			<input id="password" name="password" type="password" tabindex="2" />
+        </div>
+        <input type="submit" id="login" name="login" value="Login" tabindex="3" />
+        <input id="go2url" type="hidden" name="go2url" value="/" />
+        <input id="language" type="hidden" name="selected_language" value="" />
+            </form>
+    
+    <div id="avatar-stripe">
+	    <div id="flying-images">
+	
+			<!-- Sign Up Box -->
+		    <div id="signup-wrap">
+			    <div id="signup">
+			        <p>Sign up now.  It’s Free!</p>
+			        <div>
+			            <a title="Teacher Sign Up" class="btn teacher">I'm a Teacher</a>
+			            <a title="Student Sign Up" class="btn student">I’m a Student</a>
+			            <span class="clear"></span>
+			            			                <div id="parent-signup">
+			                	<a title="Parent Sign Up" class="parent">
+			                		Parent Sign Up			                	</a>
+			                	(Requires Parent Code)
+			                </div>
+			            			        </div>
+			    </div>
+			</div>
+		    
+	    </div>    
+    </div>
+    
+    <div id="main-pages">
+	    <a href="http://blog.edmodo.com">Blog</a>
+	    <a href="/institutions?language=en">Schools & Districts</a>
+	    	    	    <a href="/platform/">Platform</a>	    
+	    	    <a href="/mobile/">Mobile</a>
+	    <a href="http://help.edmodo.com">Help</a>
+    </div>    
+
+</div>
+<!-- End of Landing Page Content -->
+
+<!-- Slide Up Screen -->
+<div id="learn-more">
+	<a id="slide-up">Learn more about Edmodo</a>
+	<a id="make" style="display:none;">Make your Classroom a Community</a>
+	<div id="more-screen" style="display:none;">
+		<div id="edmodo-video">
+			<iframe width="606" height="341" src="http://www.schooltube.com/embed/c57360ea3f95ad0e09b6" frameborder="0"></iframe>	
+		</div>
+		<div id="learnboxes">
+			<div><h3>Edmodo In Action</h3>
+<p>Edmodo is transforming the way that teachers and students connect, engage and learn both inside and outside the classroom. Check out our <a href="http://help.edmodo.com/edmodo-in-action/">Edmodo In Action</a> videos for examples of how its being used.</p></div>
+			<div><h3>Attend a Webinar</h3>
+<p style="display:none;">Learn more about Edmodo by attending one of our weekly webinars:</p>
+<ul>
+<li style="padding:0 0 4px 0;"><a href="http://edmodointro-eorg.eventbrite.com/">Introduction to Edmodo</a></li>
+<li style="padding:0 0 4px 0;"><a href="http://edmodo20ways-eorg.eventbrite.com/">20 Ways to Use Edmodo</a></li>
+<li style="padding:0 0 4px 0;"><a href="http://edmodorollout-eorg.eventbrite.com/">Edmodo for Schools and Districts</a></li>
+<li style="padding:0 0 4px 0;"><a href="http://edmodopd.eventbrite.com/">Edmodo for Summer Professional Development</a></li>
+<li style="padding:0 0 4px 0;"><a href="http://edmodoleadership.eventbrite.com/">Edmodo Spotlight Webinar: Building Leadership PLNs 04/24/12 - 4-5PM (ET)</a></li>
+</ul></div>
+			<div><h3>Latest News</h3>
+<p><a href="http://blog.edmodo.com/2012/04/12/edmodo-for-summer-professional-development/">Edmodo for Summer Professional Development</a></p>
+<p><a href="http://blog.edmodo.com/2012/04/11/edmodo-named-2012-webby-awards-official-honoree/">Edmodo Named 2012 Webby Awards Official Honoree</a></p>
+<p><a href="http://blog.edmodo.com/2012/04/10/edmodocon-2012-advisory-meeting-call-for-educators/">EdmodoCon 2012 Advisory Meeting: Call for Educators</a></p></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!-- End of Slide Up Screen -->
+
+
+
+<!-- Sign Up Form -->
+
+<div id="sign-up-form" style="display:none;">
+    <div class="an-error error" style="display:none;">An unknown error has occured. Please try again later.</div>
+    <form class="da-signup-form">
+        <input name="user-type" class="user-type" id="user-type" type="hidden" value="STUDENT" />
+        <input type="hidden" value="en" name="language" />
+        <input type="hidden" value="" name="referral" />
+        <input type="hidden" value="" name="join" />
+                <label for="group-code" class="student">Group Code: </label>
+        <input name="group-code" class="code group-code student" type="text" />
+        <div class="group-code-status msgs-container">
+            <div class="required error" style="display:none;">required</div>
+            <div class="invalid error" style="display:none;">invalid code</div>
+            <div class="checking" style="display:none;">checking...</div>
+            <div class="valid success" style="display:none;">there you go</div>
+        </div>
+        <div class="clear"></div>
+        <label for="parent-code" class="parent">Parent Code: </label>
+        <input name="parent-code" class="code parent-code parent" type="text" />
+        <div class="parent-code-status msgs-container">
+            <div class="required error" style="display:none;">required</div>
+            <div class="invalid error" style="display:none;">invalid code</div>
+            <div class="checking" style="display:none;">checking...</div>
+            <div class="valid success" style="display:none;">there you go</div>
+        </div>
+        <div class="clear"></div>
+        <label for="relation" class="parent">Relation: </label>
+        <select name="relation" class="parent relation">
+            <option value="MOM">Mom</option>
+            <option value="DAD">Dad</option>
+            <option value="OTHER">Other</option>
+        </select>
+        <div class="clear"></div>
+        <label for="parent-other" class="parent-other parent">Specify relation: </label>
+        <input name="parent-other" class="parent-other parent parent-other-relation" type="text" />
+            <div class="parent-other-status msgs-container">
+            <div class="required error" style="display:none;">required</div>
+        </div>
+        <div class="clear"></div>
+        <label for="username">Username: </label>
+        <input class="username" name="username" maxlength="30" type="text" />
+        <div class="username-status msgs-container">
+            <div class="required error" style="display:none;">must be 3+ chars</div>
+            <div class="taken error" style="display:none;">taken</div>
+            <div class="invalid error" style="display:none;">no spaces or funny letters</div>
+            <div class="checking" style="display:none;">checking...</div>
+            <div class="available success" style="display:none;">available</div>
+        </div>
+        <label for="password">Password: </label>
+        <input class="password" name="password" type="password" maxlength="32" />
+        <div class="password-required error" style="display:none;">must be 4+ chars</div>
+        <label for="email">Email<span id="optional" class="student"> (opt)</span>: </label>
+        <input class="email" name="email" maxlength="50" type="text" />
+        <div class="email-status msgs-container">
+            <div class="required error" style="display:none;">required</div>
+            <div class="taken error" style="display:none;">already exists</div>
+            <div class="invalid error" style="display:none;">not an email address</div>
+            <div class="checking" style="display:none;">checking...</div>
+            <div class="available success" style="display:none;">available</div>
+        </div>
+        <label for="title" class="teacher">Title: </label>
+        <select name="title" class="teacher title">
+                        <option value="NONE">[ select ]</option>
+                        <option value="MR">Mr.</option>
+                        <option value="MRS">Mrs.</option>
+                        <option value="MS">Ms.</option>
+                        <option value="DR">Dr.</option>
+                    </select>
+        <div class="clear"></div>
+        <label for="first-name">First Name: </label>
+        <input class="first-name" maxlength="35" name="first-name" type="text" />
+        <div class="first-name-required error" style="display:none;">required</div>
+        <div class="first-name-invalid error" style="display:none;">this name is not available</div>
+        <label for="last-name">Last Name: </label>
+        <input class="last-name" name="last-name" type="text" />
+        <div class="last-name-required error" maxlength="35" style="display:none;">required</div>
+		<div class="last-name-invalid error" style="display:none;">this name is not available</div>        
+        <div class="clear"></div>
+    </form>
+    <div class="terms-of-service">
+        <span>You agree to our</span> <a target="_blank" href="/corporate/terms-of-service" title="Terms of Service">terms of service</a>.
+    </div>
+    <input type="submit" onclick="view.landing_page.validateFields();" value="Sign up" class="button sign-up nice-button" />
+    <img class="go-loading" src="http://images.edmodo.com/images/loading.gif" style="display:none;">
+</div>
+
+
+<!-- Forgotten Password -->
+
+<div id="forgot-password-form" style="display:none;">
+    <div class="an-error error" style="display:none;">An unknown error has occured. Please try again later.</div>
+    <p>Enter your email address to have a new password sent out.</p>
+    <div class="fp-email-container">
+        <input class="email" name="email" maxlength="50" value="Email Address" type="text" />
+        <input type="submit" class="button send-fp" value="Send" />
+        <div class="email-status msgs-container">
+            <div class="required error">required</div>
+            <div class="doesnt-exist error">the email does not exist</div>
+            <div class="invalid error">not an email address</div>
+            <div class="checking">checking...</div>
+        </div>
+    </div>
+    <p class="student-notice"><strong>If you are a student</strong> and have not supplied Edmodo with an email address, ask one of your instructors to reset your password. </p>
+</div>
+
+
+<!-- School/District Code Verification -->
+
+
+<div style="text-align: center;"><span style="background:#ffc; padding: 0pt 6px; border-radius: 4px 4px 4px 4px;font-size:11px;font-weight:bold;">We have updated our Terms of Service and Privacy Policy effective March 27, 2012</span></div>
+    </div>
+
+         <div id="footer">
+            <span>Edmodo &#x00a9;2012 </span> |
+            <a href="http://about.edmodo.com">About</a> <span>|</span>
+                        <a href="http://blog.edmodo.com" class="ft-blog">Blog</a> <span class="ft-blog">|</span>
+            <a href="http://help.edmodo.com" class="ft-help">Help</a> <span class="ft-help">|</span>
+
+            <a href="http://jobs.edmodo.com">Jobs</a> <span>|</span>
+            <a href="http://contact.edmodo.com">Contact</a> <span>|</span>
+            <a href="http://press.edmodo.com">Press</a> <span>|</span>
+            <a href="/corporate/terms-of-service">Terms</a> <span>|</span>
+            <a href="/corporate/privacy-policy">Privacy</a> <span>|</span>
+            <span>
+            <a class="translate en" onclick="setNewLanguage('en')" title="View Edmodo in English"></a>
+            <a class="translate es" onclick="setNewLanguage('es')" title="Ver Edmodo en Espa&#x00f1;ol"></a>
+            <a class="translate pt" onclick="setNewLanguage('pt-br')" title="Ver Edmodo em Portugu&#x00EA;s"></a>
+            <a class="translate de" onclick="setNewLanguage('de')" title="Edmodo in Deutsch"></a>
+            <a class="translate el" onclick="setNewLanguage('el')" title="Edmodo in Greek"></a>
+            <a class="translate fr" onclick="setNewLanguage('fr')" title="Edmodo in French"></a>
+            </span>
+    </div>
+    
+        <script type="text/javascript">
+        _qoptions = { qacct: "p-3bPuajdKZphUs" };
+    </script>
+
+    <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+
+    <noscript>
+        <a href="http://www.quantcast.com/p-3bPuajdKZphUs" target="_blank">
+            <img src="http://pixel.quantserve.com/pixel/p-3bPuajdKZphUs.gif" style="display: none;" alt="Quantcast">
+        </a>
+    </noscript>
+    
+
+
+        </body>
+</html>

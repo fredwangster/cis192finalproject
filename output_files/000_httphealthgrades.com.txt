@@ -1,0 +1,690 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Q18:www.healthgrades.com -->
+
+
+
+
+
+
+	
+
+
+	
+			
+			
+			
+			
+			
+			
+	
+				
+		
+		
+		   
+		
+
+	
+			
+			
+			
+			
+			
+		
+				
+		
+		
+		
+		
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+	
+	
+		
+		
+		
+
+<!doctype html>  
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]--> 
+<head>
+    <!-- Do NOT move -->
+    <meta charset="utf-8">
+    <title>HealthGrades > Find a Doctor | Doctor Reviews | Hospital Ratings</title>
+    <!-- //end Do NOT move -->
+
+    <!-- Meta -->
+    <meta name="description" content="HealthGrades, the leading independent health care ratings company. Research hospitals, doctors, nursing homes, and more.">
+    <meta name="keywords" content="HealthGrades, Ratings, Hospitals, Doctors, Nursing Homes" />
+    <meta name="author" content="HealthGrades">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- /end Meta -->
+    <link rel="canonical" href="http://www.healthgrades.com" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/homepage/css/global.css">
+	<link rel="stylesheet" href="/homepage/css/defaultProject.css">
+    <link rel="stylesheet" href="/homepage/css/defaultA.css">
+    <!-- //end CSS -->
+
+    <!-- jQuery Framework -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script>        window.jQuery || document.write("<script src='/homepage/scripts/jquery-1.5.1.min.js'>\x3C/script>")</script>
+    <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <!-- //end jQuery Framework -->
+    <script type="text/javascript">
+        var globalLat = 39.7494;
+        var globalLong = -104.994;
+        var globalCity = "Denver";
+        var globalState = "CO";
+        var globalZip = "80202";
+        var globalLocation = "Denver, CO 80202";
+    </script>
+
+    <!-- Site Redirect -->
+    <script type="text/javascript">
+        function setCookie(name, value) { document.cookie = name + "=" + escape(value); }
+        function getCookie(name) {
+            var i, x, y, ARRcookies = document.cookie.split(";");
+            for (i = 0; i < ARRcookies.length; i++) {
+                x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+                y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+                x = x.replace(/^\s+|\s+$/g, "");
+                if (x == name) return unescape(y);
+            }
+        }
+        var redirectUrl = '';
+        if (redirectUrl.length) {
+            setCookie('acceptsCookies', 'true');
+            var isNotBot = getCookie('acceptsCookies');
+            if (isNotBot != null && isNotBot.length) {
+                window.location.href = redirectUrl;
+            }
+        }
+	</script>
+
+    <script type="text/javascript">var javaScriptPath = '/homepage/';</script>
+     <script type="text/javascript">
+         jQuery(document).ready(function ($) {
+
+             var location = '?lat=' + escape(globalLat) + '&long=' + escape(globalLong) + '&city=' + escape(globalCity) + '&state=' + escape(globalState) + '&zip=' + escape(globalZip);
+
+             var loadUrl = javaScriptPath + 'Specialties.aspx' + location;
+
+             $.get(loadUrl, function (data) {
+                 var result1Body = jQuery('<div/>');
+
+                 result1Body.html(data);
+
+                 var changeLoc = $(result1Body).find('#ChangeLocationHolder');
+                 $('#ChangeLocationHolder').html(changeLoc.html());
+
+                 var homeSpec = $(result1Body).find('#HomePageSpecialtiesList');
+                 $('#HomePageSpecialtiesList').html(homeSpec);
+
+                 var alphaList = $(result1Body).find('#ViewAllSpecialties .alphaHolder');
+                 $('#ViewAllSpecialties #alphaContainerViewAll').html(alphaList);
+
+                 var viewAllSpec = $(result1Body).find('#ViewAllSpecialties .overflowX');
+                 $('#ViewAllSpecialties .overflowX').html(viewAllSpec.html());
+
+                 result1Body.empty();
+
+                 CaptureSpecialtiesLocationInputKeyPress();
+                 SetSpecialtiesClickTracking();
+             });
+
+
+             $('#SpecialtyChangeLocation_ChangeLocationLink').click(function () {
+                 PageClickTracker.trackClick(this, 'HomePage', null, 'specialty-change-location-button', 'o');
+                 DisplayLocation();
+             });
+
+             $('#SpecialtyChangeLocation_UpdateLocationButton').click(function (e) {
+                 ChangeLocation();
+                 e.stopPropagation();
+                 return false;
+             });
+
+             $('#CancelUpdateLocationButton').click(function (e) {
+                 PageClickTracker.trackClick(this, 'HomePage', null, 'specialty-change-location-cancel', 'o');
+                 HideLocation();
+                 return false;
+             });
+
+         });
+     </script>
+
+    <!-- JavaScript - Link to your .js files at the bottom of the page -->
+    <script src="/homepage/scripts/modernizr-1.6.min.js"></script>
+    <!-- //end JavaScript - Link to your .js files at the bottom of the page --> 
+    <script type="text/javascript" src="/consumer/scripts/initOmnitureClickTracking.js"></script>
+</head>
+
+<body id="defaultA" class="oneColumn">
+    <!-- Container -->
+    <div id="pageContainer">
+        <!-- Page Header -->
+        <div id="pageHeader">
+            <span class="pageHeaderInner"></span>
+        </div>
+
+        <!-- Column Section -->
+        <div id="columnSection" class="fancyWhiteBox">
+            <div class="fancyWhiteBoxOuter">
+                <div class="fancyWhiteBoxInner">
+                    <div id="homePageLogo">
+                        <h1><a href="/"><img src="/homepage/img/defaultA-hgLogo.png" alt="HealthGrades Logo / Guiding Americans to their Best Health" /></a></h1>
+                    </div>
+					 <div id="topNavigation">
+                        <a href="http://www.healthgrades.com/profile-manager/portal/PortalLoginLanding.aspx?pCID=hg-home-apr2011" class="phyUpdateProfile"
+                            title="Log into Physician Portal to manage your Physician Profile!" name="physician-portal" target="_blank">Physicians: Update Your FREE Profile</a>                
+                    </div>
+					
+                    <!-- Search -->
+                    
+<script type="text/javascript">
+    var closeAutoOnLocationFocus = false;
+</script>
+<section id="search" class="elasticRow" style="position:relative;">
+    <!-- search nav -->
+    <nav class="searchNav">
+        <ul>
+            <li class="active"><a href="" helperText="Doctor Name and/or Specialty" name="find-doctors">Find Doctors</a></li>
+            <li><a href="" helperText="Dentist Name and/or Specialty" name="find-dentists">Find Dentists</a></li>
+            <li><a href="" helperText="Hospital Name (Optional)" name="find-hospitals">Find Hospitals</a></li>
+        </ul>
+    </nav>
+    <!-- Search Form -->
+    <section class="searchWrapper"> 
+        <table>
+            <caption>
+                Do you need help finding a provider or hospital? Search HealthGrades.com now!
+            </caption>
+            <tbody>
+                <tr>
+                    <td colspan="3">
+                        <label for="SiteSearch" id="LabelSiteSearch">Find a Doctor by Name or Specialty</label>
+                    </td>
+                </tr>
+                <tr>
+				    <td class="whatColumn">
+                         <div class="spacer">
+                            <input id="SiteSearch" name="SiteSearch" type="text" class="" value="Doctor Name and/or Specialty" size="40" autocomplete="off" maxlength="2048" tabindex="10">
+				        </div>
+					 </td>
+                    <td class="whereColumn">		
+                        <div class="spacer">
+    			            <input id="SiteSearchLocation" type="text" value="Address, City, State or ZIP Code" class="" size="40" autocomplete="off" maxlength="2048" tabindex="15">
+				        </div>
+                    </td>
+                    <td class="buttonColumn">
+                        <a href="#" id="searchButton">Search</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</section>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td>
+                            <div id="findSpecialtiesWrapper">
+					            <!-- BEGIN Find Specialties by Location Section -->
+					            <div id="findSpecialtiesVisibilityContainer">
+						            <div id="findSpecialties" class="elasticRow">
+							            
+
+<div id="ChangeLocationHolder" class="changeLocation">			
+	<table width="100%">
+        <tr>
+            <td style="white-space: nowrap;">
+                <h4>
+                    <span id="SpecialtyChangeLocation_DoctorsBySpecialtyLabel" class="DoctorsBySpecialtyLabel">Find Doctors by Specialty</span>
+			        <span id="CurrentLocationPanel"><span id="SpecialtyChangeLocation_SpecialtiesLabelLocation" class="SpecialtiesLabelLocation"></span></span>
+			        <span id="CurrentLocationActionPanel"><a id="SpecialtyChangeLocation_ChangeLocationLink" onclick="PageClickTracker.trackClick(this, 'HomePage', null, 'specialty-change-location-button', 'o');DisplayLocation(); return false;" class="changeLocationButton">Provide City</a></span>
+			    </h4>
+            </td>
+            <td>
+                <span id="UpdateLocationPanel" style="display: none;">
+				    <span class="spacer"><input name="SpecialtyChangeLocation$SpecialtiesLocationInput" type="text" id="SpecialtyChangeLocation_SpecialtiesLocationInput" class="inputLocation SpecialtiesLocationInput" maxlength="300" /></span>
+				    <input name="SpecialtyChangeLocation$SpecialtiesOriginalGeoLocation" type="hidden" id="SpecialtyChangeLocation_SpecialtiesOriginalGeoLocation" class="SpecialtiesOriginalGeoLocation" />
+				    <input name="SpecialtyChangeLocation$SpecialtiesOriginalLocation" type="hidden" id="SpecialtyChangeLocation_SpecialtiesOriginalLocation" class="SpecialtiesOriginalLocation" />
+				    <input name="SpecialtyChangeLocation$SpecialtiesLocationCity" type="hidden" id="SpecialtyChangeLocation_SpecialtiesLocationCity" class="SpecialtiesLocationCity" />
+				    <input name="SpecialtyChangeLocation$SpecialtiesLocationRegion" type="hidden" id="SpecialtyChangeLocation_SpecialtiesLocationRegion" class="SpecialtiesLocationRegion" />
+				    <input name="SpecialtyChangeLocation$SpecialtiesLocationLatitude" type="hidden" id="SpecialtyChangeLocation_SpecialtiesLocationLatitude" class="SpecialtiesLocationLatitude" />
+				    <input name="SpecialtyChangeLocation$SpecialtiesLocationLongitude" type="hidden" id="SpecialtyChangeLocation_SpecialtiesLocationLongitude" class="SpecialtiesLocationLongitude" />
+			    </span>
+            </td>
+            <td style="width: 100%; white-space: nowrap; text-align: left;">
+                <span id="UpdateLocationActionPanel" style="display: none;">
+				    <a id="SpecialtyChangeLocation_UpdateLocationButton" onclick="ChangeLocation(); return false;" class="updateLocationButton" href="javascript:__doPostBack('SpecialtyChangeLocation$UpdateLocationButton','')">Update</a>
+				    <a id="CancelUpdateLocationButton" href="" onclick="PageClickTracker.trackClick(this, 'HomePage', null, 'specialty-change-location-cancel', 'o');HideLocation(); return false;" class="cancelLocationButton">Cancel</a>
+			    </span>
+            </td>
+        </tr>
+    </table>	
+</div>
+<div style="float: left;">
+
+
+<div id="HomePageSpecialtiesList">
+    <div class="findSpecialtiesLists">
+	    
+		    <div class="listColumn">
+                <ul>
+			        
+					        <li><a name="select-top-specialty-cardiology" href="/cardiology-directory" title="Cardiology">Cardiology</a></li>
+				        
+					        <li><a name="select-top-specialty-chiropractic" href="/chiropractic-directory" title="Chiropractic">Chiropractic</a></li>
+				        
+					        <li><a name="select-top-specialty-clinical-psychology" href="/clinical-psychology-directory" title="Clinical Psychology">Clinical Psychology</a></li>
+				        
+					        <li><a name="select-top-specialty-counseling" href="/counseling-directory" title="Counseling">Counseling</a></li>
+				        
+					        <li><a name="select-top-specialty-dermatology" href="/dermatology-directory" title="Dermatology">Dermatology</a></li>
+				        
+					        <li><a name="select-top-specialty-otolaryngology" href="/otolaryngology-directory" title="Ear, Nose and Throat">Ear, Nose and Throat</a></li>
+				        
+					        <li><a name="select-top-specialty-diabetes-metabolism-endocrinology" href="/diabetes-metabolism-endocrinology-directory" title="Endocrinology">Endocrinology</a></li>
+				        
+					        <li><a name="select-top-specialty-family-practice" href="/family-practice-directory" title="Family Practice">Family Practice</a></li>
+				        
+					        <li><a name="select-top-specialty-gastroenterology" href="/gastroenterology-directory" title="Gastroenterology">Gastroenterology</a></li>
+				        
+					        <li><a name="select-top-specialty-dentistry-general" href="/dentistry-general-directory" title="General Dentistry">General Dentistry</a></li>
+				        
+		        </ul>
+            </div>
+	    
+	    
+		    <div class="listColumn">
+                <ul>
+			        
+					        <li><a name="select-top-specialty-surgery-general" href="/surgery-general-directory" title="General Surgery">General Surgery</a></li>
+				        
+					        <li><a name="select-top-specialty-geriatric-medicine" href="/geriatric-medicine-directory" title="Geriatric Medicine">Geriatric Medicine</a></li>
+				        
+					        <li><a name="select-top-specialty-hematology" href="/hematology-directory" title="Hematology">Hematology</a></li>
+				        
+					        <li><a name="select-top-specialty-internal-medicine" href="/internal-medicine-directory" title="Internal Medicine">Internal Medicine</a></li>
+				        
+					        <li><a name="select-top-specialty-nephrology" href="/nephrology-directory" title="Nephrology">Nephrology</a></li>
+				        
+					        <li><a name="select-top-specialty-neurology" href="/neurology-directory" title="Neurology">Neurology</a></li>
+				        
+					        <li><a name="select-top-specialty-neurosurgery" href="/neurosurgery-directory" title="Neurosurgery">Neurosurgery</a></li>
+				        
+					        <li><a name="select-top-specialty-nurse-practitioner" href="/nurse-practitioner-directory" title="Nursing (NP)">Nursing (NP)</a></li>
+				        
+					        <li><a name="select-top-specialty-obstetrics-gynecology" href="/obstetrics-gynecology-directory" title="Obstetrics & Gynecology">Obstetrics & Gynecology</a></li>
+				        
+					        <li><a name="select-top-specialty-ophthalmology" href="/ophthalmology-directory" title="Ophthalmology">Ophthalmology</a></li>
+				        
+		        </ul>
+            </div>
+	    
+	    
+		    <div class="listColumn">
+                <ul>
+			        
+					        <li><a name="select-top-specialty-orthopedic-surgery" href="/orthopedic-surgery-directory" title="Orthopedic Surgery">Orthopedic Surgery</a></li>
+				        
+					        <li><a name="select-top-specialty-pain-medicine" href="/pain-medicine-directory" title="Pain Medicine">Pain Medicine</a></li>
+				        
+					        <li><a name="select-top-specialty-adolescent-psychiatry-pediatric-psychiatry" href="/adolescent-psychiatry-pediatric-psychiatry-directory" title="Pediatric Psychiatry">Pediatric Psychiatry</a></li>
+				        
+					        <li><a name="select-top-specialty-pediatrics" href="/pediatrics-directory" title="Pediatrics">Pediatrics</a></li>
+				        
+					        <li><a name="select-top-specialty-plastic-surgery" href="/plastic-surgery-directory" title="Plastic Surgery">Plastic Surgery</a></li>
+				        
+					        <li><a name="select-top-specialty-psychiatry" href="/psychiatry-directory" title="Psychiatry">Psychiatry</a></li>
+				        
+					        <li><a name="select-top-specialty-psychology" href="/psychology-directory" title="Psychology">Psychology</a></li>
+				        
+					        <li><a name="select-top-specialty-rheumatology" href="/rheumatology-directory" title="Rheumatology">Rheumatology</a></li>
+				        
+					        <li><a name="select-top-specialty-sports-medicine" href="/sports-medicine-directory" title="Sports Medicine">Sports Medicine</a></li>
+				        
+					        <li><a name="select-top-specialty-urology" href="/urology-directory" title="Urology">Urology</a></li>
+				        
+		        </ul>
+            </div>
+	    
+    </div>
+</div>
+
+
+</div>
+							            
+<div id="ViewAllSpecialties" class="facetBubble" style="left:150px;">
+	<span class="facetBubbleTop">
+		<span class="facetBubbleTopLeft"><!-- --></span>
+		<span class="facetBubbleTopCenter"><!-- --></span>
+		<span class="facetBubbleTopRight"><!-- --></span>
+	</span>
+	<div class="facetBubbleContent">
+		<div class="facetBubbleContentInner">
+			<div class="facetBubbleHeader">
+				<h3 class="Head2">Healthcare Providers by Specialty</h3>
+				<div id="alphaContainerViewAll">
+					<div class="alphaHolder">
+					
+					</div>
+				</div>
+			</div>
+			<div class="overflowX">
+				
+			</div>
+			<div class="close lightBlue" name="view-all-specialties-close" onclick="closeViewAll('ViewAllSpecialties')">
+			</div>
+		</div>
+	</div>
+	<span class="facetBubbleBottom">
+		<span class="facetBubbleBottomLeft"><!-- --></span>
+		<span class="facetBubbleBottomCenter"><!-- --></span>
+		<span class="facetBubbleBottomRight"><!-- --></span>
+	</span>
+</div>
+
+                                        <!-- END Find Specialties by Location Section -->
+							            <div class="differentSpecialist">
+								            <p class=""><span>Need a different specialist?</span> <a href="#" name="view-all-specialties-button" class="viewAllSpecialtiesButton">View all Specialties</a></p>
+							            </div>
+						            </div>
+					            </div>
+					        </div>
+                        </td>
+                        <td>
+                            <div id="promotionContent"><!-- New Homepage Promo Image as Link List -->
+<div>
+    <div><a href="/content/ratings_and_awards_2012_Americas_Best_Hospitals.aspx" title="2012 Americas Best Hospitals" onclick="PageClickTracker.trackClick(this, 'HomePage', null, '2012 americas best hospitals', 'e');" ><img src="/Images/ProductionHomepageImage.png"  border="0"/></a></div>
+    <br />
+    <div><a href="/business/news/press-releases/healthgrades-cpm-merger-2011.aspx" title="HealthGrades and CPM Merger" onclick="PageClickTracker.trackClick(this, 'HomePage', null, 'healthgrades and cpm merger', 'e');" ><img src="/Images/HealthGrades%20and%20CPM%20Merger.png"  border="0"/></a></div>
+    <br />
+
+</div><!-- /New Homepage Promo Image as Link List --></div>
+                        </td>
+                      </tr>
+                    </table>
+                </div>
+            </div>                        
+        </div>
+        <!-- //end Column Section -->
+        <script type="text/javascript">
+            PageClickTracker = new OmnitureClickTracker(null, null, 'o');
+            PageClickTracker.addClickCase('HomePage', new OmnitureClickCase(null, null));
+            PageClickTracker.addProperty('prop31');
+            PageClickTracker.addVariable('eVar31');
+        </script>
+        <script type="text/javascript">
+            trackClicksByLinkName('pageContainer', PageClickTracker, 'HomePage', null, null);
+        </script>
+        <!-- Page Footer -->
+        <div id="pageFooter">            
+            <script type="text/javascript">
+var s_account="hgprod,hgglobal";
+var sYear = 2012;
+var sMonth = 4;
+var sDay = 17;
+</script><script type="text/javascript" src="/Consumer/Scripts/Omniture.js"></script><script type="text/javascript">
+s.server="hg vintage";
+s.pageName="homepage";
+s.channel="homepage";
+s.prop49 = "pclpwmajhhqxsdz2xbdoeq55";
+s.prop23 = "20110906A2boxhorz";
+s.prop41 = "80202";
+s.prop48 = "bdb1d546-4f4c-4f5d-a5b8-7f07f5590ef2";
+s.prop50 = "0566c14a-0ce7-4cca-8bd8-5d34ebe3dc96";
+s.eVar41 = "80202";
+var s_code=s.t();if(s_code)document.write(s_code);
+</script>
+
+            
+<div id="footer-banner">
+
+<!-- HG Homepage Footer TBB -->
+<div id="footer-banner">
+<ol id="footer-links">
+ <li><a href="/business/information" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">About Us</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="/business/news" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">Press Room</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="/contactus" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">Contact Us</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="/content/advertise-with-us.aspx" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">Advertise</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="/business" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">HealthGrades for Hospitals</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="http://www.bettermedicine.com" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">Better Medicine</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="http://www.localhealth.com/" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">Local Health</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="http://sj.tbe.taleo.net/SJ6/ats/careers/searchResults.jsp?org=CPM&amp;cws=1" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">Careers</a></li> <li>&nbsp;|&nbsp;</li> <li><a href="/sitemap" class="omnipagename" onclick="if( this.protocol = 'https:') {this.protocol='http:'}; return true;">Sitemap</a></li>
+</ol>
+</div>
+
+<script type="text/javascript">
+APL = document.getElementsByTagName( "a" );
+for ( var i in APL )
+{
+	tL = APL[i];
+	if ( tL.className && tL.className.indexOf( "omnipagename" ) != -1 )
+	{ if ( tL.search && tL.search.indexOf( "intcid" ) != -1 )
+		{ tIs = tL.search.split( "&" );
+		for( j in tIs )
+		{ if ( tIs[j].indexOf( "intcid" ) != -1 && tIs[j].indexOf( ":" ) == -1 ) { tIs[j]+= ": " + s.pageName; } }
+			tL.search = tIs.join( "&" );
+		}
+	}
+}</script>
+<script type="text/javascript" src="/consumer/scripts/comscore.js"></script>
+<!-- /HG Homepage Footer TBB -->
+</div>
+<ul id="footerTabs">
+	<li class="tab0"><a title="State Directories" name="state-directories" class="group-link closed" id="link_control_25_6026">State Directories</a></li><li class="tab1"><a title="Physicians by Specialty" name="footer-phys-by-specialty" class="group-link closed" id="link_control_25_5355">Physicians by Specialty</a></li><li class="tab2"><a title="Alternative Medical Providers by Specialty" name="footer-alt-spec-by-specialty" class="group-link closed" id="link_control_25_5352">Alternative Medical Providers by Specialty</a></li><li class="tab3"><a title="Hospital and Group Practices" name="footer-hospital-group-pract" class="group-link closed" id="link_control_25_5354">Hospital and Group Practices</a></li>
+</ul>
+<ul id="footerTabsContentContainer">
+	<li class="footerTabsContent">
+  <a class="header-link" href="#top-physicians-by-state" title="Top Physicians by State">Top Physicians by State</a>: <ul><li><a class="item-link" href="/state-directory/al-alabama" title="Alabama">Alabama</a> | </li><li><a class="item-link" href="/state-directory/ak-alaska" title="Alaska">Alaska</a> | </li><li><a class="item-link" href="/state-directory/az-arizona" title="Arizona">Arizona</a> | </li><li><a class="item-link" href="/state-directory/ar-arkansas" title="Arkansas">Arkansas</a> | </li><li><a class="item-link" href="/state-directory/ca-california" title="California">California</a> | </li><li><a class="item-link" href="/state-directory/co-colorado" title="Colorado">Colorado</a> | </li><li><a class="item-link" href="/state-directory/ct-connecticut" title="Connecticut">Connecticut</a> | </li><li><a class="item-link" href="/state-directory/de-delaware" title="Delaware">Delaware</a> | </li><li><a class="item-link" href="/state-directory/dc-district-columbia" title="District of Columbia">District of Columbia</a> | </li><li><a class="item-link" href="/state-directory/fl-florida" title="Florida">Florida</a> | </li><li><a class="item-link" href="/state-directory/ga-georgia" title="Georgia">Georgia</a> | </li><li><a class="item-link" href="/state-directory/hi-hawaii" title="Hawaii">Hawaii</a> | </li><li><a class="item-link" href="/state-directory/id-idaho" title="Idaho">Idaho</a> | </li><li><a class="item-link" href="/state-directory/il-illinois" title="Illinois">Illinois</a> | </li><li><a class="item-link" href="/state-directory/in-indiana" title="Indiana">Indiana</a> | </li><li><a class="item-link" href="/state-directory/ia-iowa" title="Iowa">Iowa</a> | </li><li><a class="item-link" href="/state-directory/ks-kansas" title="Kansas">Kansas</a> | </li><li><a class="item-link" href="/state-directory/ky-kentucky" title="Kentucky">Kentucky</a> | </li><li><a class="item-link" href="/state-directory/la-louisiana" title="Louisiana">Louisiana</a> | </li><li><a class="item-link" href="/state-directory/me-maine" title="Maine">Maine</a> | </li><li><a class="item-link" href="/state-directory/md-maryland" title="Maryland">Maryland</a> | </li><li><a class="item-link" href="/state-directory/ma-massachusetts" title="Massachusetts">Massachusetts</a> | </li><li><a class="item-link" href="/state-directory/mi-michigan" title="Michigan">Michigan</a> | </li><li><a class="item-link" href="/state-directory/mn-minnesota" title="Minnesota">Minnesota</a> | </li><li><a class="item-link" href="/state-directory/ms-mississippi" title="Mississippi">Mississippi</a> | </li><li><a class="item-link" href="/state-directory/mo-missouri" title="Missouri">Missouri</a> | </li><li><a class="item-link" href="/state-directory/mt-montana" title="Montana">Montana</a> | </li><li><a class="item-link" href="/state-directory/ne-nebraska" title="Nebraska">Nebraska</a> | </li><li><a class="item-link" href="/state-directory/nv-nevada" title="Nevada">Nevada</a> | </li><li><a class="item-link" href="/state-directory/nh-new-hampshire" title="New Hampshire">New Hampshire</a> | </li><li><a class="item-link" href="/state-directory/nj-new-jersey" title="New Jersey">New Jersey</a> | </li><li><a class="item-link" href="/state-directory/nm-new-mexico" title="New Mexico">New Mexico</a> | </li><li><a class="item-link" href="/state-directory/ny-new-york" title="New York">New York</a> | </li><li><a class="item-link" href="/state-directory/nc-north-carolina" title="North Carolina">North Carolina</a> | </li><li><a class="item-link" href="/state-directory/nd-north-dakota" title="North Dakota">North Dakota</a> | </li><li><a class="item-link" href="/state-directory/oh-ohio" title="Ohio">Ohio</a> | </li><li><a class="item-link" href="/state-directory/ok-oklahoma" title="Oklahoma">Oklahoma</a> | </li><li><a class="item-link" href="/state-directory/or-oregon" title="Oregon">Oregon</a> | </li><li><a class="item-link" href="/state-directory/pa-pennsylvania" title="Pennsylvania">Pennsylvania</a> | </li><li><a class="item-link" href="/state-directory/ri-rhode-island" title="Rhode Island">Rhode Island</a> | </li><li><a class="item-link" href="/state-directory/sc-south-carolina" title="South Carolina">South Carolina</a> | </li><li><a class="item-link" href="/state-directory/sd-south-dakota" title="South Dakota">South Dakota</a> | </li><li><a class="item-link" href="/state-directory/tn-tennessee" title="Tennessee">Tennessee</a> | </li><li><a class="item-link" href="/state-directory/tx-texas" title="Texas">Texas</a> | </li><li><a class="item-link" href="/state-directory/ut-utah" title="Utah">Utah</a> | </li><li><a class="item-link" href="/state-directory/vt-vermont" title="Vermont">Vermont</a> | </li><li><a class="item-link" href="/state-directory/va-virginia" title="Virginia">Virginia</a> | </li><li><a class="item-link" href="/state-directory/wa-washington" title="Washington">Washington</a> | </li><li><a class="item-link" href="/state-directory/wv-west-virginia" title="West Virginia">West Virginia</a> | </li><li><a class="item-link" href="/state-directory/wi-wisconsin" title="Wisconsin">Wisconsin</a> | </li><li><a class="item-link" href="/state-directory/wy-wyoming" title="Wyoming">Wyoming</a></li></ul></li><li class="footerTabsContent">
+  <a class="header-link" href="/specialty-directory" title="Local Doctors by Specialty">Local Doctors by Specialty</a>: <ul><li><a class="item-link" href="/cardiology-directory" title="Cardiologists">Cardiologists</a> | </li><li><a class="item-link" href="/dermatology-directory" title="Dermatologists">Dermatologists</a> | </li><li><a class="item-link" href="/diagnostic-radiology-directory" title="Diagnostic Radiology">Diagnostic Radiology</a> | </li><li><a class="item-link" href="/emergency-medicine-directory" title="Emergency Medicine">Emergency Medicine</a> | </li><li><a class="item-link" href="/diabetes-metabolism-endocrinology-directory" title="Endocrinology">Endocrinology</a> | </li><li><a class="item-link" href="/family-practice-directory" title="Family Practitioners">Family Practitioners</a> | </li><li><a class="item-link" href="/gastroenterology-directory" title="Gastroenterologists">Gastroenterologists</a> | </li><li><a class="item-link" href="/obstetrics-gynecology-directory" title="Gynecologists &amp; Obstetricians">Gynecologists &amp; Obstetricians</a> | </li><li><a class="item-link" href="/internal-medicine-directory" title="Internists">Internists</a> | </li><li><a class="item-link" href="/nephrology-directory" title="Nephrologists">Nephrologists</a> | </li><li><a class="item-link" href="/neurology-directory" title="Neurologists">Neurologists</a> | </li><li><a class="item-link" href="/oncology-directory" title="Oncologists">Oncologists</a> | </li><li><a class="item-link" href="/ophthalmology-directory" title="Opthalmologists">Opthalmologists</a> | </li><li><a class="item-link" href="/optometry-directory">Optometrists</a> | </li><li><a class="item-link" href="/otolaryngology-directory" title="Otolaryngologists">Otolaryngologists</a> | </li><li><a class="item-link" href="/pain-medicine-directory" title="Pain Medicine">Pain Medicine</a> | </li><li><a class="item-link" href="/pediatrics-directory" title="Pediatrician">Pediatrician</a> | </li><li><a class="item-link" href="/psychiatry-directory" title="Psychiatrists">Psychiatrists</a> | </li><li><a class="item-link" href="/rheumatology-directory" title="Rheumatologists">Rheumatologists</a> | </li><li><a class="item-link" href="/speech-pathology-therapy-directory" title="Speech Pathologist">Speech Pathologist</a> | </li><li><a class="item-link" href="/sports-medicine-directory" title="Sports Medicine">Sports Medicine</a> | </li><li><a class="item-link" href="/urology-directory" title="Urologists">Urologists</a></li></ul><a class="header-link" href="/specialty-directory" title="Local Pediatricians by Specialty">Local Pediatricians by Specialty</a>: <ul><li><a class="item-link" href="/pediatrics-directory" title="General Pediatricians">General Pediatricians</a></li></ul><a class="header-link" href="/specialty-directory" title="Local Surgeons by Specialty">Local Surgeons by Specialty</a>: <ul><li><a class="item-link" href="/surgery-general-directory" title="General Surgeons">General Surgeons</a> | </li><li><a class="item-link" href="/hand-surgery-directory" title="Hand Surgeons">Hand Surgeons</a> | </li><li><a class="item-link" href="/neurosurgery-directory" title="Neurosurgeons">Neurosurgeons</a> | </li><li><a class="item-link" href="/oral-surgery-maxillofacial-surgery-directory" title="Oral and Maxillofacial Surgeons">Oral and Maxillofacial Surgeons</a> | </li><li><a class="item-link" href="/orthopedic-surgery-directory" title="Orthopedic Surgeons">Orthopedic Surgeons</a> | </li><li><a class="item-link" href="/plastic-surgery-directory" title="Plastic Surgeons">Plastic Surgeons</a></li></ul><a class="header-link" href="/dentist-directory" title="Local Dentists By Specialty">Local Dentists By Specialty:</a>: <ul><li><a class="item-link" href="/dentistry-general-directory" title="Dentists">Dentists</a></li></ul></li><li class="footerTabsContent">
+  <a class="header-link" href="/alternative-medicine-directory" title="Alternative Healthcare Professionals">Alternative Healthcare Professionals</a>: <ul><li><a class="item-link" href="/adolescent-psychiatry-pediatric-psychiatry-directory" title="Adolescent Psychiatrists">Adolescent Psychiatrists</a> | </li><li><a class="item-link" href="/chiropractic-directory" title="Chiropractors">Chiropractors</a> | </li><li><a class="item-link" href="/clinical-psychology-directory" title="Clinical Psychologists">Clinical Psychologists</a> | </li><li><a class="item-link" href="/psychology-directory" title="Psychologists">Psychologists</a></li></ul></li><li class="footerTabsContent">
+  <ul>
+    <li>
+      <a class="item-link" href="/affiliated-physicians/a-adamo.cfm" title="Affiliated Doctors">Affiliated Doctors</a> | </li>
+    <li>
+      <a class="item-link" href="/directory_search/hospital/profiles/prem_hosp.cfm" title="Affiliated Hospitals">Affiliated Hospitals</a> | </li>
+    <li>
+      <a class="item-link" href="/emergency-care-directory" title="Emergency Care Facilities">Emergency Care Facilities</a> | </li>
+    <li>
+      <a class="item-link" href="/group-directory" title="Group Practices">Group Practices</a> | </li>
+    <li>
+      <a class="item-link" href="/hospital-directory" title="Hospitals">Hospitals</a> | </li>
+    <li>
+      <a class="item-link" href="/clinic-directory/dialysis-centers" title="Nephrology Clinics">Nephrology Clinics</a> | </li>
+    <li>
+      <a class="item-link" href="/emergency-care-directory/urgent-care" title="Urgent Care">Urgent Care</a>
+    </li>
+  </ul>
+</li></ul>
+<div class="clb">&nbsp;</div>
+<!-- Global Copyright Footer -->
+<p id="copyright-text"><span id="copyright-text-bold">&copy; Copyright 2012 Health Grades, Inc. Patent US 7,752,060. All Rights Reserved.</span>Third Party materials included herein protected under copyright law.<br />
+Use of this website and any information contained herein is governed by the HealthGrades User Agreement.<br />
+<a href="/user-agreement.aspx?intcid=FN-UserAgree:%20homepage" class="omnipagename">User Agreement</a> | 
+<a href="/legal-disclaimer.aspx?intcid=FN-Disclaimer:%20homepage" class="omnipagename">Legal Disclaimer</a> | 
+<a href="/privacy-policy.aspx?intcid=FN-Privacy:%20homepage" class="omnipagename">Privacy Policy</a> | 
+<a href="/content/advertising-policy/" class="omnipagename">Advertising Policy</a> | 
+<a href="/find-a-doctor?intcid=WLCM-Phys" class="omnipagename">Find a Doctor</a> | 
+<a href="/find-a-hospital?intcid=WLCM-Hosp" class="omnipagename">Find a Hospital</a> | 
+<a href="/find-a-dentist" class="omnipagename">Find a Dentist</a></p><!-- /Global Copyright Footer -->	
+        </div>
+        <!-- //end Page Footer -->               
+        
+    </div>
+	<!-- //end Page Container -->  
+
+	<!-- This bubble container will be put into a separate control with integration. -->         
+	<div id="searchAlertBox" class="">
+		<div class="infoBubbleContainerNew arrowTop searchInfoBubbleContainer">
+	        <div class="arrowContainer">
+	            <div class="topArrowBorder"></div>
+	            <div class="topArrow"><!-- --></div>
+	        </div>	
+	        <div class="infoBubbleContainerNewInner">                              
+	            <div id="searchAlertContent"><!-- content --></div>
+                <div class="searchInfoClose">
+                    <div class="redDark close">X</div>
+                </div>
+	        </div>
+		</div>
+    </div> 
+
+	<div id="specialtiesLocationPopup" class="arrowTop specialtiesLocationPopup" style="display: none;">
+		<div class="infoBubbleContainerNew headerInfoBubbleContainer">
+			<div class="arrowContainer">
+				<div class="topArrowBorder"></div>
+				<div class="topArrow"></div>
+			</div>
+			<div class="infoBubbleContainerNewInner">
+				<div id="specialtiesLocationPopup_headerAlertContent" class="specialtiesLocationPopup_headerAlertContent"></div>
+				<div class="searchInfoClose">
+					<div class="redDark close specialtiesLocationPopup_PopupBubbleClose" id="specialtiesLocationPopup_PopupBubbleClose">X</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <script type="text/javascript">
+        var javascriptPath = "/homepage/";
+        var omnitureSearchFormName = "2 box horizontal";
+    </script>
+    
+    <script type="text/javascript" src="/foresee/foresee-alive.js"></script>
+    <script type="text/javascript" src="/foresee/foresee-analytics-3ca87.js"></script>
+	<script type="text/javascript" src="/homepage/scripts/jquery.ui.position.min.js"></script>
+	<script type="text/javascript" src="/homepage/scripts/search.js"></script>
+	<script type="text/javascript" src="/homepage/scripts/HgAutoSuggest.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/homepage/scripts/plugins.js"></script>
+    <script type="text/javascript" src="/homepage/scripts/script.js"></script>
+
+    <script id="ResultTemplateAdvanced" type="text/x-jquery-tmpl">
+	{{wrap "#ResultTemplateWrapper"}}
+		{{each Responses}} 
+		<div id="${DataTypeName}_section" class="autoSuggestResultContainer">
+			<div id="${DataTypeName}_header" class="ResultTitle">${DataTypeName}</div>
+			{{each Results}} 
+				<div class="AutoSuggestResult">
+				<a class='resultsLink providerResultLink' id='${Id}' href='${LinkUrl}'>
+					<span class='resultName'>${Text[0]}</span><span class='deemphasized'>, ${Text[1]}</span>
+				</a>
+				</div>
+			{{/each}}
+		</div>
+		{{/each}}
+	{{/wrap}}
+	</script>
+
+	<script id="ResultTemplateWrapper" type="text/x-jquery-tmpl">
+	<div id="BubbleContainer">
+		<div id="AutoCompletePosition" style="position: absolute">
+			<div id="AutoCompleteDisplayContainer">
+				 {{each $item.html("div")}}
+					 {{html $value}}
+				 {{/each}}
+			</div>
+		</div>
+	</div>
+	</script>
+
+	<script id="InsuranceTemplate" type="text/x-jquery-tmpl">
+	{{each Responses}} 
+		<div id="Insurance_section" class="autoSuggestResultContainer">
+			{{each Results}} 
+				<div class="AutoSuggestResult">
+				<a class='resultsLink providerResultLink' href='#'>
+					<span class='resultName'>${Text[0]}</span>
+				</a>
+				</div>
+			{{/each}}
+		</div>
+	{{/each}}
+	</script>
+
+    <script type="text/javascript">
+        /* TODO: Set this variable to the same value as the Omniture version */
+        var psrVersion = '20110906A2boxhorz';
+        var CityStateGlobalLoc = 'Denver, CO';
+
+
+        //In lieu of ScriptManager
+        //       CaptureSpecialtiesLocationInputKeyPress();
+        //    	SetSpecialtiesLocationInputOnBlur();
+        //    	//SetSpecialtiesLocationInputFocus();
+        //    	SetSpecialtiesClickTracking();
+        //    	SetSearchFormLocation();
+
+
+    </script>
+    <script type="text/javascript" src="/foresee/foresee-trigger.js"></script>
+    <script type="text/javascript">        var uaValue = "UA-16924427-1";</script>
+    <script type="text/javascript" src="/Consumer/scripts/googleAnalytics.js"></script>
+    <!--[if lt IE 7 ]>
+    <script src="/js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+    <![endif]-->
+    <!-- //end JavaScript - TODO: scripts concatenated and minified via ant build script -->
+
+    <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+    <!-- Commented out until you deploy -->
+
+</body>
+</html>
+
+
+	
+	
+
+

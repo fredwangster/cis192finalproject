@@ -1,0 +1,1422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Stock Market News & Financial Analysis - Seeking Alpha</title>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="P3P" content='CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"' />
+<link rel="search" type="application/opensearchdescription+xml" href="/javascripts/seeking.xml" title="SeekingAlpha Search" />
+<meta name="description" content="Stock market news & financial analysis, including free earnings call transcripts, investment ideas and ETF & stock research written by finance experts." /><meta property="og:image" content="http://static.seekingalpha.com/images/universal/logo_for_linkedin.jpg" />
+<link href="http://static.seekingalpha.com/stylesheets/print.css?1332756924" media="print" rel="stylesheet" type="text/css" />
+<link rel='alternate' type='application/rss+xml' title='RSS' href='/feed.xml' /><link rel="shortcut icon" type="image/ico" href="http://static.seekingalpha.com/favicon.ico" />
+<link rel="canonical" href="http://seekingalpha.com/" />
+
+<link href="http://static.seekingalpha.com/stylesheets/performance_layout_packaged.css?1334491806" media="screen" rel="stylesheet" type="text/css" /><link href="http://static.seekingalpha.com/stylesheets/front_packaged.css?1334491808" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+  var users_on_site='1,041,976';
+  var has_etf_changed_hash = {}; 
+  var user_cookie={};
+
+  function readCookie(name) {
+    var cookie = document.cookie.match(new RegExp('(^|;)\\s*' + escape(name) + '=([^;\\s]*)'));
+    return (cookie ? unescape(cookie[2]) : null);
+  }
+
+  function addToCookie(key,value) {
+    var arr=user_cookie[key].split(',');
+    arr.push(value);
+
+    user_cookie[key]=arr.join(',');
+  }
+
+  if (readCookie('user_cookie_key')) {
+    document.write('<scr'+'ipt src="http://static.seekingalpha.com/account/cookie/'+readCookie('user_cookie_key')+'"></scri'+'pt>');
+  } else if (readCookie('user_id')) {
+    document.write('<scr'+'ipt src="http://seekingalpha.com/account/no_cookie_key"></scri'+'pt>');
+  }
+
+  var quantSegs="";
+  function qc_results(result) {
+    for (var i = 0; i < result.segments.length; i++) {
+      quantSegs += "qc=" + result.segments[i].id + ";";
+    }
+  }
+
+  var _sf_startpt=(new Date()).getTime();
+
+  if (top.document.location == document.location) {
+    document.write('<scr'+'ipt src="http://cdn.yb0t.com/js/yieldbot.intent.js"></scri'+'pt>');
+  }
+</script>
+<script>
+  var ybotq = ybotq || [];
+  ybotq.push(['psn', 'aae8']);
+  ybotq.push(['init']);
+</script>
+<script type="text/javascript" src="http://pixel.quantserve.com/api/segments.json?a=p-36Zq38JCUmc3w&callback=qc_results"></script>
+
+<script src="http://static.seekingalpha.com/javascripts/common_packaged.js?1334491781" type="text/javascript"></script><script src="http://static.seekingalpha.com/javascripts/front_page_packaged.js?1334491797" type="text/javascript"></script><script type='text/javascript'>oRefresher= new SA.Utils.PageRefresher('http://seekingalpha.com/?source=refreshed', 300 * 1000);</script>
+<script src="http://partner.googleadservices.com/gampad/google_service.js" type="text/javascript"></script>
+<script type="text/javascript">
+  if (typeof(is_users_cookie_exists) == "function" && is_users_cookie_exists() && readCookie('user_email').indexOf('@gmail.com')!=-1) {
+    createCookie('user_email',(readCookie('user_email').replace('@gmail.com','').replace(/\./gi,'').replace(/\+(.*?)$/,''))+'@gmail.com',365)
+  }
+
+  if (typeof(readCookie) == "function" && readCookie('user_vocation')) {
+    createCookie('u_voc',readCookie('user_vocation'),3000);
+  }
+
+  var user_cookie = user_cookie || {};
+
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "8500672" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+  var _sf_startpt=(new Date()).getTime(); // chartbeat code
+
+  function see_health_or_biotech(path_filter, user_interests, user_non_watchlist_slugs) {
+    if ((/filters=.*?portfolio-strategy-asset-allocation/).test(path_filter)) {
+      create_cp_cookie('c_p13', '1', 30);
+      return true;
+    }
+    if (read_cp_cookie('c_p13')) return true;
+  }
+</script>
+
+<style>
+#footer {
+  width:100%;
+  float:left;
+  border-left:0 !important;
+  border-right:0 !important;
+  border:0 !important;
+}
+</style>
+
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=8500672&cv=2.0&cj=1" />
+</noscript>
+
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+
+    
+      
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-1420150919334552");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+    GA_googleAddSlot_sa('HomePage_300x250_top');
+    GA_googleAddSlot_sa('HP_unit2_234x60_top');
+    GA_googleAddSlot_sa('HP_170x40_1');
+    GA_googleAddSlot_sa('HP_170x40_2');
+    GA_googleAddSlot_sa('HP_170x40_3');
+  GA_googleFetchAds();
+</script>
+    
+  </head>
+  
+    <body class="front_body">
+
+    <script>var ord = Math.floor(Math.random()*1000000000);</script>
+<span class="seeking_alpha_site_title">Seeking Alpha</span>
+<script type="text/javascript">
+  if (readCookie('sa_mobile') == '0') {
+    var aHTML =[];
+    aHTML.push('<div class="mobile_or_full_site">');
+      aHTML.push('<span class="mobile_site" onclick="createCookie(\'sa_mobile\',1,1000);top.location.reload()">Click here to view mobile site</span>');
+      aHTML.push('<div class="cleaner"></div>');
+    aHTML.push('</div>');
+    document.write(aHTML.join(""));
+  }
+</script>
+<div id="header" class="not_logged_in header_nav">
+  <div id="logo_and_navigation" class="logo_and_primary_navigation">
+    
+<div id="comment_popup" style="position:relative; left:0; display:none">
+  <div id="popup_secondary">
+    <div id="inner_popup"></div>
+  </div>
+</div>    <h1><a href="/" title="Seeking Alpha - Home Page" sasource="salogo"></a></h1>
+    <div class="item banner728x90">
+      <script>
+        iframeAd("728x90",'http://a.collective-media.net/adj/sek.home;sz=728x90;x=x;tile=1;d=home;'+dart_my_vocation_and_profiles()+'ord='+ord+'?');
+      </script>
+    </div>
+  </div>
+  <div class='nav_container_wrap'  id='nav_container_wrap'>
+  <div id="nav_container" headtab="home">
+    <div id="navi_cont">
+      <ul id="navi" class="navi">
+        <li thistab='home' class="home">
+          <a href="/" sasource="headtabs">Home</a>
+          <span class="navi_right_corner">|</span>
+        </li>
+        <li thistab='portfolio' class="portfolios">
+          <a href="/account/portfolio" sasource="headtabs">Portfolio</a>
+          <span class="navi_right_corner">|</span>
+        </li>
+        <li thistab='market_news'>
+          <a href="/currents/all" sasource="headtabs">Market Currents</a>
+          <span class="navi_right_corner">|</span>
+        </li>
+        <li thistab='investing_ideas'>
+          <a href="/dashboard/investing_ideas" sasource="headtabs">Investing Ideas</a>
+          <span class="navi_right_corner">|</span>
+        </li>
+        <li thistab='investing_income'>
+          <a href="/dashboard/investing_income" sasource="headtabs">Dividends &amp; Income</a>
+          <span class="navi_right_corner">|</span>
+        </li>
+        <li thistab='etfs'>
+          <a href="/dashboard/etfs" sasource="headtabs">ETFs</a>
+          <span class="navi_right_corner">|</span>
+        </li>
+        <li thistab='macro_view'>
+          <a href="/dashboard/macro_view" sasource="headtabs">Macro View</a>
+          <span class="navi_right_corner">|</span>
+        </li>
+        <li thistab='alerts'>
+          <a href="/real-time-alerts" sasource="headtabs">Alerts</a>
+        </li>
+        <li class="right_section">
+  	     <div id="user_settings_wrapper"></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript">
+    SeekingAlpha.Initializer.LogAndRun(SA.Navigation.Top.init);
+    SeekingAlpha.Initializer.LogAndRun(InitSASource);
+  </script>
+</div>
+
+<div id="content_wrapper_top" style="display:none;">
+  <div class="hp_top_promotion_wide promo">
+  <div class="content_wrapper_top" >    
+    <h2 class="promotion_title">
+      <span class="sa_tn_title">Real-time email alerts<span class="icon" title="Get real-time alerts on Market Currents & Articles on the stocks that interest you most!">&nbsp;</span></span>
+      <span class="people_get_alerts_title"><span>574,159</span> people already get alerts in real-time</span>
+    </h2>
+    <div class="hp_promotion_top" id="hp_promo_container">
+      <div class="top_title ver_a">
+        <span class="real_time">Real-time email alerts. Critical information on your stocks.</span>
+        <span class="tell_us">Tell us which stocks you're watching and we'll send you the latest news and articles on them.</span>
+      </div>
+
+          <div class="bottom_title_content">
+        <div class="one">
+          <fieldset>
+            <label class="customize ver_a _logged_out">Which stocks are you watching?</label>
+            <label class="people_get_news _logged_in ver_a"><span>574,159</span> people get breaking news and articles on their stocks</br/> with Seeking Alpha's real time email alerts.</label>
+            <input type="text" id="hp_promo_stocks" class="rta_top_input add_stock_text" autocomplete="off" empty="Enter stocks (e.g. GOOG, AAPL, MSFT)" title="Enter stocks (e.g. GOOG, AAPL, MSFT)" spellcheck="false" />
+            <span class="stocks_err" id='hp_promo_err'></span>
+          </fieldset>
+        </div>
+        <div class="two">
+          <fieldset>
+            <label class="save_for_next _logged_out ver_a">Where to send your updates</label>
+            <div class="go_loader" style="float:right;margin:10px 0 0 10px;display:none" id="hp_promo_loader"><img src="http://static.seekingalpha.com/images/loader.gif" alt="Loading..." /></div>
+            <input type="text" emty="Fill in your email address" title="Fill in your email address" class="rta_top_input ver_a" id="hp_promo_email" spellcheck="false" />
+            <span class="go" id="hp_promo_go_btn">
+              <span class="_logged_in ver_a">GO</span>
+              <span class="_logged_out ver_a">Try it!</span>
+            </span>
+            <div class="m_pop point_left" id="hp_promo_box" style="display:none;"></div>
+          </fieldset>
+          <div class="get_email_alerts">
+            <input type="checkbox" id="hp_promo_alerts_chk" checked />
+            <label class="text" for="hp_promo_alerts_chk">Get email alerts with breaking news and articles on your stocks</label>
+          </div>
+        </div>
+      </div>
+      <div class="cleaner"></div>
+    </div>
+    <div class="cleaner"></div>
+  </div>
+  <div class="cleaner"></div>
+</div>  
+
+<div id="hp_promo_thankyou_container" style="display:none">
+  <div id="hp_promo_thankyou">
+    <div class="rta_pop_hp">
+     <div class="rta_pop_hp_close" onclick="AlphaBox.Close()">X</div>
+     <div class="rta_pop_hp_top">
+       <div class="green_title">Thanks for registering for Seeking Alpha real-time email alerts</div>
+       <p>A confirmation email has been sent to <strong id="hp_promo_email_placeholder">&nbsp</strong>.</p>
+       <p class="last_p">Please confirm your registration by clicking the link in the email</p>
+       <p class="if_not_correct_email" id="hp_promo_email_fix_lnk_container">If this isn't your correct email address please <span id="hp_promo_email_fix_lnk" class="link">click here</span></p>
+       <div class="cleaner"></div>
+     </div>
+     <div class="rta_pop_hp_bottom" id="hp_promo_container_fix" style="display:none">
+      <div class="input_wrapper">
+        <input type="text" id="hp_promo_email_fix" empty="Fill in your email address" />
+        <div class="save" id="hp_promo_go_btn_fix">Save</div>
+      <div style="float:left;margin:10px 0 0 10px;display:none" id="hp_promo_loader_fix"><img src="http://static.seekingalpha.com/images/loader.gif" alt="Loading..." /></div>
+        <div class="error" id="hp_promo_err_fix"></div>
+      </div>
+      
+      <div class="cleaner"></div>
+     </div>
+     <div class="cleaner"></div>
+    </div>
+  </div>
+</div>
+<div id="hp_promo_login_container" style="display:none">
+  <div id="hp_promo_login">
+    <div class="rta_pop_hp">
+     <div class="rta_pop_hp_close" onclick="AlphaBox.Close()">X</div>
+     <div class="rta_pop_hp_top">
+       <div class="green_title">You're already registered with <span id="hp_promo_login_email_placeholder">&nbsp;</span> <div class="please_fill_password">Please fill in your password to continue.</div></div>
+     </div>
+     <div class="rta_pop_hp_bottom">
+      <div class="input_wrapper">
+        <input class="input_password" type="password" title="Password" empty="Password" id="hp_promo_password" />
+        <div class="cleaner"></div>
+        <div class="error" id="hp_promo_login_err"></div>
+        <div class="forgot_password" id="hp_promo_login_fp">Forgot Password?</div>
+      </div>
+      
+      <div class="cleaner"></div>
+      <div class="save next" id="hp_promo_login_next">Next</div>
+      <div style="float:left;margin:10px 0 0 10px;display:none" id="hp_promo_login_loader"><img src="http://static.seekingalpha.com/images/loader.gif" alt="Loading..." /></div>
+      <div class="cleaner"></div>
+     </div>
+     <div class="cleaner"></div>
+    </div>
+  </div>
+  <div class="cleaner"></div>
+</div>
+
+<div id='promo_reg'></div>
+
+  <div class="cleaner"></div>
+</div>
+
+<div id="main_container" class="hp_main_container" style="overflow-x:none;">
+  <div id="content_wrapper" class="hp_wrapper">
+    <div class="left_content">
+      <div id="hp_news_unit" class="top_news_front"><h2 id='top_news_heading'><span class='sa_tn_title'>TOP NEWS</span></h2><div class='unit-content'><ul class='top_news_front_ul'><li>
+  <a sasource="hp_news_1" class="article" href="/currents/post/255761">Stocks up sharply, Apple rebound leads tech</a>
+</li><li>
+  <a sasource="hp_news_2" class="article" href="/currents/post/256061">Buffett has prostate cancer, not life threatening</a>
+</li><li>
+  <a sasource="hp_news_3" class="article" href="/currents/post/255771">IBM down AH on light revenues</a>
+</li><li>
+  <a sasource="hp_news_4" class="article" href="/currents/post/255751">Yahoo beats on both lines, higher AH</a>
+</li><li>
+  <a sasource="hp_news_5" class="article" href="/currents/post/255721">Intel falls AH despite earnings beat</a>
+</li><li>
+  <a sasource="hp_news_6" class="article" href="/currents/post/255351">Citi shareholders reject pay proposal</a>
+</li><li>
+  <a sasource="hp_news_7" class="article" href="/currents/post/255541">Obama aims at oil speculators; CME retorts</a>
+</li></ul></div></div>
+      <div class="market_currents_hp_wrapper">
+  <div id="market_currents">
+    <h2 id="market_currents_heading"><span class="sa_mc_title">MARKET CURRENTS</span></h2>
+    <div id="latest_market_currents" class="unit-content">
+      <ul class="market_currents_mafne_wrapper">
+  <li id="anew_256281">
+  <strong> 8:27 PM</strong>  The Bank of Canada is denying a <em>FT</em> report that Governor Mark Carney <a target="_blank" href="http://www.theglobeandmail.com/report-on-business/top-business-stories/bank-of-england-said-to-eye-mark-carney-as-its-governor/article2405549/?utm_medium=twitter&amp;utm_source=dlvr.it&amp;utm_content=2405549" target="_blank">has been approached</a> as a potential candidate to replace Mervyn King as Bank of England chief next year. Carney is head of the Financial Stability Board of the BIS and is a believer in trying to snuff out disasters before they occur (earning him the <a target="_blank" href="http://seekingalpha.com/currents/post/99600" target="_blank">enmity of Jamie Dimon</a>). The floating of his name suggests the U.K. Treasury wants the BoE to take its financial stability role more seriously.   <a class="market_current_comment" href="/currents/post/256281">1&nbsp;Comment</a>        <span class='currents_tag'>[<a href='/currents/global'>Global &amp; FX</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256271">
+  <strong> 8:16 PM</strong>  &ldquo;The <a target="_blank" href="http://www.cnbc.com/id/47074311">financial crisis</a> is over,&rdquo; quips Rosecliff Capital&rsquo;s Michael Murphy in response to Meridith Whitney's <a target="_blank" href="http://seekingalpha.com/market_currents/post/255691">upgrade of Citigroup</a> to hold late Monday. Whitney has had a Sell or Underperform rating on the stock since starting coverage at her new firm in April 2009, and the call sets a milestone of sorts for the credit crisis, given that Whitney was one its most outspoken prognosticators.   <a class="market_current_comment" href="/currents/post/256271">4&nbsp;Comments</a>        <span class='currents_tag'>[<a href='/currents/financials'>Financials</a>, <a href='/currents/us-economy'>U.S. Economy</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256261">
+  <strong> 8:05 PM</strong>  More on Stryker (<a href='http://seekingalpha.com/symbol/syk' title='Stryker Corporation'>SYK</a>): <a target="_blank" href="http://seekingalpha.com/market_currents/post/255701">Q1 earnings</a> came in largely in line with Street estimates on a slight Y/Y increase in revenue. Net earnings rose 14% as the medical-device maker saw sales of its hip and knee replacements increase, an encouraging sign that the orthopedic market may be picking up. Shares <font color="green">+1.4%</font> AH.   <a class="market_current_comment" href="/currents/post/256261">Comment!</a>        <span class='currents_tag'>[<a href='/currents/healthcare'>Healthcare</a>, <a href='/currents/earnings'>Earnings</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256251">
+  <strong> 7:57 PM</strong>  BHP Billiton (<a href='http://seekingalpha.com/symbol/bhp' title='BHP Billiton Limited'>BHP</a>) says <a target="_blank" href="http://www.marketwatch.com/story/dj-bhp-quarterly-output-mixed-as-weather-slows-iron-ore-production-2012-04-17">FQ3 iron-ore production</a> rose 14% Y/Y, but down 8% compared with the December quarter due to cyclone activity in the region. Total petroleum-products production rose 58% Y/Y, while its onshore U.S. petroleum business delivered a 35% gain in liquids production compared to Q2. Copper production rose 3%, while metallurgical coal production increased 10% Y/Y.   <a class="market_current_comment" href="/currents/post/256251">Comment!</a>        <span class='currents_tag'>[<a href='/currents/energy'>Energy</a>, <a href='/currents/commodities'>Commodities</a>, <a href='/currents/global'>Global &amp; FX</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256241">
+  <strong> 7:37 PM</strong>  In its <a target="_blank" href="http://www.theflyonthewall.com/permalinks/entry.php/STXid1615116/STX-Seagate-sees-Q-adjusted-gross-margin-at-least--" target="_blank">conference call</a>, Seagate Technology (<a href='http://seekingalpha.com/symbol/stx' title='Seagate Technology'>STX</a>) guides Q4 revenue&nbsp; higher, now expecting to earn upwards of $5B, above Street estimates of $4.94B. Adjusted gross margin will exceed 34.5%. The company says the desktop drive market will remain constrained through the fall, while the enterprise and mission-critical market segments seem to have almost fully recovered. Shares <font color="green">+3.6%</font> AH.   <a class="market_current_comment" href="/currents/post/256241">Comment!</a>        <span class='currents_tag'>[<a href='/currents/tech'>Tech</a>, <a href='/currents/earnings'>Earnings</a>, <a href='/currents/on-the-move'>On the Move</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256231">
+  <strong> 7:18 PM</strong>  Shareholders unanimously <a target="_blank" href="http://seekingalpha.com/news-article/2484081-perfumania-holdings-inc-and-parlux-fragrances-inc-shareholders-approve-merger">approve the merger</a> of a subsidiary of Perfumania Holdings (<a href='http://seekingalpha.com/symbol/perf' title='Perfumania Holdings, Inc'>PERF</a>) and Parlux Fragrances (<a href='http://seekingalpha.com/symbol/parl' title='Parlux Fragrances, Inc.'>PARL</a>). The companies expect to consummate the merger as soon as the conditions to closing are satisfied. <a href='http://seekingalpha.com/symbol/perf' title='Perfumania Holdings, Inc'>PERF</a> <font color="red">-1%</font>, <a href='http://seekingalpha.com/symbol/parl' title='Parlux Fragrances, Inc.'>PARL</a> <font color="red">-1.6%</font> AH.   <a class="market_current_comment" href="/currents/post/256231">Comment!</a>        <span class='currents_tag'>[<a href='/currents/m-a'>M&A</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256221">
+  <strong> 7:09 PM</strong>  Oil shipper Tsakos Energy Navigation (<a href='http://seekingalpha.com/symbol/tnp' title='Tsakos Energy Navigation Limited'>TNP</a>) announces a 10M share <a target="_blank" href="http://www.marketwatch.com/story/tsakos-energy-navigation-limited-announces-public-offering-of-common-shares-2012-04-17">secondary offering</a>. Entities affiliated with the Tsakos Foundation, the company's largest shareholder, plan to purchase approximately 10% of the shares sold in the offering. Shares <font color="red">-7.4%</font> AH.   <a class="market_current_comment" href="/currents/post/256221">Comment!</a>        <span class='currents_tag'>[<a href='/currents/energy'>Energy</a>, <a href='/currents/on-the-move'>On the Move</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256211">
+  <strong> 7:06 PM</strong>  The <a target="_blank" href="http://seekingalpha.com/currents/post/248901">recent decline</a> in Google's (<a href='http://seekingalpha.com/symbol/goog' title='Google Inc.'>GOOG</a>) ad click rates, one that has many investors <a target="_blank" href="http://seekingalpha.com/currents/post/250921">on edge</a>, could have <a target="_blank" href="http://www.businessinsider.com/heres-one-reason-why-googles-ad-prices-may-be-dropping-2012-4">something to do</a> with the company's <a target="_blank" href="http://seekingalpha.com/currents/post/103743">acquisition</a> of display ad bidding platform AdMeld, which <a target="_blank" href="http://seekingalpha.com/currents/post/103743">closed in December</a>. Display ads generally carry lower rates than search ads, and the addition of AdMeld's inventory may be driving Google's total rate lower. However, other explanations (<a target="_blank" href="http://seekingalpha.com/currents/post/248291">I</a>, <a target="_blank" href="http://seekingalpha.com/currents/post/249091">II</a>) also exist.   <a class="market_current_comment" href="/currents/post/256211">Comment!</a>        <span class='currents_tag'>[<a href='/currents/tech'>Tech</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256201">
+  <strong> 6:56 PM</strong>  During Yahoo's <a target="_blank" href="http://seekingalpha.com/currents/post/255751">Q1</a> earnings call (<a target="_blank" href="http://allthingsd.com/20120417/liveblogging-yahoos-q1-earnings-im-so-excited-and-i-just-cant-hide-it/">live blog</a>), Scott Thompson said Yahoo is shutting down 50 properties as part of its <a target="_blank" href="http://seekingalpha.com/currents/post/244041">restructuring</a>, though he doesn't specify which ones. He adds Yahoo is in "active" talks with Asian partners partner about asset sales, following February's <a target="_blank" href="http://seekingalpha.com/currents/post/146701">breakdown</a>, though valuation differences exist regarding Yahoo Japan, and that he wants Yahoo to grow ad sales "at or above the market rate" - that's <a target="_blank" href="http://seekingalpha.com/currents/post/256021">far from the case</a> right now. <a href='http://seekingalpha.com/symbol/yhoo' title='Yahoo! Inc.'>YHOO</a> <font color="green">+2.7%</font> AH.   <a class="market_current_comment" href="/currents/post/256201">Comment!</a>        <span class='currents_tag'>[<a href='/currents/tech'>Tech</a>, <a href='/currents/earnings'>Earnings</a>]</span>  <br class="cleaner"/>
+</li>
+<li id="anew_256191">
+  <strong> 6:43 PM</strong>  More on Seagate Technology (<a href='http://seekingalpha.com/symbol/stx' title='Seagate Technology'>STX</a>): <a target="_blank" href="http://seekingalpha.com/market_currents/post/255731">FQ3 blows away</a> consensus estimates on a surge in revenue. Earnings soared over 65% Y/Y, after emerging from last year's flooding disaster in Thailand relatively unscathed. Going forward, the company says it expects demand to continue outstripping supply for all of 2012 and likely some of 2013, which should keep prices up. Shares <font color="green">+3.4%</font> AH.   <a class="market_current_comment" href="/currents/post/256191">Comment!</a>        <span class='currents_tag'>[<a href='/currents/tech'>Tech</a>, <a href='/currents/earnings'>Earnings</a>, <a href='/currents/on-the-move'>On the Move</a>]</span>  <br class="cleaner"/>
+</li>
+
+</ul>
+      <a href="/currents/all" class="more_marketCurrents" sasource="hp_mc_bottom">See more Market Currents &raquo;</a>
+    </div>
+  </div>
+</div>
+<script>
+  SA.Pages.HP.MarketCurrent.init();
+</script>
+      <h2 id="market_currents_heading"><span class="sa_mc_title">STOCKTALKS</span></h2>
+<div class="stock_talk_content">
+  <form method="post" id="stock_talk_form" class="stock_talk_form" style="float:left">
+  <script>
+  var user_nick = readCookie('user_nick');
+  if (user_nick == null || user_nick == "") {
+    document.write('<div st_btn style="clear:both; display:none"><fieldset class="choose_user_name_stocktalk" id="choose_username_row"><input type="text" class="username_user_list text nick" style="color:#959595" name="nick" id="input_nick" maxlength="80" value="Please choose username" title="Please choose username" onfocus="SA.Utils.Expansion.Input(this); this.clearAll();"/></fieldset></div>');
+  }
+  </script>
+  <div id="stocktalk_form_alert_add_stocktalk" class="error_nick_name"></div>
+  <div id='st_textarea' class="feed_text_image_cnt">
+    <a id="user_image_st" href="" class="user_image"><img src="http://static.seekingalpha.com/images/user/commenter_gray.png"></a>
+    <div class="feed_text_content">
+      <img src="http://static.seekingalpha.com/images/universal/textarea_left_arr.gif" style="width:9px;height:10px;">
+      <textarea id="stock_talk_textarea" name="stock_talk[content]" title="What has your financial attention?">What has your financial attention?</textarea>
+      <div st_btn class="char_cnt">
+        <span class="charAndUnit">
+          <div class="char_counter_with_settings">
+            <div id="char_counter" class="char_counter">140 characters</div>
+          </div>
+          <div gigya_id="stocktalk" class="gigya_unit"></div>
+        </span>
+          <input st_btn style="display:none" type="button" id="stocktalk_submit_button" tabindex="100" class="submit" value="Submit" onclick="ajax_submit_stock_talk(this);">
+        <div id="new_stock_talks_div" class="new_stock_talks">
+          <span id="new_stock_talks_span"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<script>
+  (function(){
+    var textarea = $("stock_talk_textarea");
+    textarea.onfocus=function(){ SA.Models.StockTalkModel.enterText(this);};
+    textarea.onkeydown=function(){charCounter(this)};
+    textarea.onkeyup=function(){charCounter(this)};
+    textarea.onpast=function(){setTimeout(function(){charCounter(this)}.bind(this),10)};
+    if (is_users_cookie_exists()){
+      var img_el = $("user_image_st");
+      var img_src = user_picture(readCookie("user_id"),"small");
+      img_el.select("img")[0].src = img_src;
+      if (isAuthor()){
+        img_el.addClassName("author");
+        textarea.addClassName("author");
+        $('st_textarea').addClassName("author");
+      }
+      img_el.href = getUserUri();
+    }
+  }());
+</script>
+  <div class="latest_stocktalks_snippet new_hp login">
+    <div class="form_area" id="stock_talks">
+      <ul id="stocktalk_list">
+        <div class="loader_wrapper"><img src="http://static.seekingalpha.com/images/homepage/loader_hp.gif" /></div>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="stocktalk_bottom login">
+  <span>These StockTalks are by <a id='people_you_follow' href="#">people you follow</a></span>
+  <a href="/account/my-feed?filter=stocktalks" sasource="hp_stocktalks_more">More StockTalks by followed »</a>
+  <a href="/stocktalks" sasource="hp_stocktalks_latest">all latest StockTalks »</a>
+</div>
+<div class="stocktalk_bottom logout">
+  <span><span class='link' id='sign_in_st'>Sign in</span> to view StockTalks by people you follow</span>
+</div>
+    </div>
+    <div class="right_content">
+      <div class="right_unit">
+        <div class="top_right unit">
+          <div class="analysis_content">
+  <h3>ANALYSIS FOR <span>TUESDAY, APR 17, 10:10PM ET</span></h3>
+  <div class='unit-content'><ul class='articles'><li class="first"><a sasource="hp_wildcard_1" class="article" href="/article/505171-earnings-season-heats-up-accumulate-these-stocks-patiently">Earnings Season Heats Up: Patience Pays</a> <span class="add_info">by <span class="by">Marc Courtenay</span></span></li><li class="first"><a sasource="hp_wildcard_2" class="article" href="/article/504961-yahoo-ceo-company-needs-better-focus">Yahoo CEO: Company Needs Better Focus</a> <span class="add_info">by <span class="by">TechCrunch</span></span></li><li class="first"><a sasource="hp_wildcard_3" class="article" href="/article/504621-tech-energy-lead-market-gains">Tech Leads Market Gains</a> <span class="add_info">by <span class="by">Midnight Trader</span></span></li><li class="small_start">
+  <a sasource="hp_wildcard_4" class="article" href="/article/504491-tuesday-options-recap">Tuesday Options Recap</a>
+</li><li>
+  <a sasource="hp_wildcard_5" class="article" href="/article/503201-euro-drama-is-back-trade-the-range-in-fxe">Euro Drama Lingers: Trade The Range In FXE</a>
+</li><li>
+  <a sasource="hp_wildcard_6" class="article" href="/article/503571-playing-the-polysilicon-glut">Playing The Polysilicon Glut</a>
+</li><li>
+  <a sasource="hp_wildcard_7" class="article" href="/article/503461-coca-cola-earnings-bubble-over">Coca-Cola Earnings Bubble Over</a>
+</li><li>
+  <a sasource="hp_wildcard_8" class="article" href="/article/502871-value-added-automakers-maximizing-profits-per-vehicle-sold">All Eyes On Value Added Automakers</a>
+</li><li>
+  <a sasource="hp_wildcard_9" class="article" href="/article/501751-signs-of-a-stock-market-top">Signs Of A Stock Market Top</a>
+</li><li>
+  <a sasource="hp_wildcard_10" class="article" href="/article/500221-better-gold-etf-now-gdx-or-gdxj">Time To Shift Away From The Junior Gold Miners?</a>
+</li></ul></div>
+  <div class="cleaner"></div>
+</div>
+          <div class="chart_search_content">
+            <div class="search_box_container_isolated">
+  <div class="search_box">
+    <form id="search_box_sa_search" method="get" class="linktosym comp search" action="/search/" onsubmit="return false;">
+      <fieldset>
+        <input id="autocomplete_sa_search" class="input_text text" type="text" empty="Enter symbol, author, keyword" size="25" autocomplete="off" afteruploadvalue='eFind quotes, people, expressions, transcripts' title='Enter symbol, author, keyword' class="find_transcripts" />
+        <input type="button" class="search_button" value="" onclick=" AutoCompleteSAConfig.Packages.search.Find()" />
+      </fieldset>
+      <input type="hidden" name="source" value="search_general" />
+      <input type="hidden" id="autocomplete_sa_hidden_search" name="q" value="" />
+      <input type="hidden" name="cx" value="001514237567335583750:cdhc2yeo2ko" />
+      <input type="hidden" name="cof" value="FORID:11;NB:1" />
+      <input type="hidden" name="goto_search_tab" value="" />
+    </form>
+    <script type="text/javascript">SeekingAlpha.Initializer.LogAndRun(function () { AutoCompleteSAConfig.Load('search', { Symbols:true, IframeCover:true, AfterInsert:function () { this.Find(); }, AfterSubmit:function () { this.Find(); }}) });</script>
+    <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_001514237567335583750%3Acdhc2yeo2ko&lang=en"></script>
+  </div>
+</div>
+            <div class="chart_content">
+  <div class="chart_img_cnt">
+    <img id="chart_img" src="http://static.seekingalpha.com/images/charts/hp_chart.png?timestamp=201204172210" />
+  </div>
+  <div id="insert_data"></div>
+  <div id="stock_info">
+    <table>
+      <tr><td class="first_td"><div class="hr blue"></div></td><td class="sec_td"><label>DJIA ETF</label></td><td><a href="/symbol/dia" sasource="hp_chart" onmouseover="symbolLinkAddAltAndTitle(this)">DIA</a></td> <td class="last_td"><span id="dia_values"><span class='change green'>1.53%</span></span></td></tr>
+      <tr><td class="first_td"><div class="hr red"></div></td><td class="sec_td"><label>S&amp;P 500 ETF</label></td><td><a href="/symbol/spy" sasource="hp_chart" onmouseover="symbolLinkAddAltAndTitle(this)">SPY</a></td> <td class="last_td"><span id="spy_values"><span class='change green'>1.58%</span></span></td></tr>
+      <tr><td class="first_td"><div class="hr fuchsia"></div></td><td class="sec_td"><label>Nasdaq ETF</label></td><td><a href="/symbol/qqq" sasource="hp_chart" onmouseover="symbolLinkAddAltAndTitle(this)">QQQ</a></td> <td class="last_td"><span id="qqq_values"><span class='change green'>2.14%</span></span></td></tr>
+      <tr><td class="first_td"><div class="hr orange"></div></td><td class="sec_td"><label>Gold ETF</label></td><td><a href="/symbol/gld" sasource="hp_chart" onmouseover="symbolLinkAddAltAndTitle(this)">GLD</a></td> <td class="last_td"><span id="gld_values"><span class='change red'>-0.12%</span></span></td></tr>
+    </table>
+  </div>
+</div>
+          </div>
+        </div>
+        <div class="unit last">
+        </div>
+      </div>
+      
+        <div class="right_unit hp_promotion_bottom promo">
+  <div class="promo_center_left hp_promotion_middle" id="hp_promo_container_mid" style="display:none">
+    <div class="top_title">MAKE THE NEW SEEKING ALPHA home page work for you!</div>
+		<div class="top_title_ver2">Show prices, news and articles <br/>for your stocks here</div>
+		<div class="top_title_ver4">Show your profile here</div>
+		<div class="top_title_ver4d">PORTFOLIO</div>
+		<div class="top_unit_ver4">
+			<div class="chart_titles">
+				<span class="symbol">Symbol</span>
+				<span class="price">Price</span>
+				<span class="chg">Chg</span>
+				<span class="chg_percent">%Chg</span>
+				<span class="latest">Latest Portfolio Headlines</span>
+			</div>
+			<div class="cleaner"></div>
+			<div class="text">Add stocks you care about and get quick access to relevant articles and breaking news each time you visit this page.</div>
+		</div>
+    <div class="bottom_title_content">
+      <div class="one">
+        <fieldset>
+          <label class="customize">Customize this page</label>
+					<label class="verd_customize">Enter stock symbols</label>
+          <input type="text" id="hp_promo_stocks_mid" class="add_stock_text" autocomplete="off" empty="Enter stocks (e.g. GOOG, AAPL, MSFT)" title="Enter stocks (e.g. GOOG, AAPL, MSFT)" spellcheck="false" />
+          <span class="stocks_err" id='hp_promo_err_mid'></span>
+        </fieldset>
+      </div>
+      <div class="two">
+        <fieldset>
+          <label class="save_for_next">Save for next time</label>
+          
+          <input type="text" emty="Fill in your email address" title="Fill in your email address" id="hp_promo_email_mid" spellcheck="false" />
+        </fieldset>
+        
+      </div>
+			<div class="get_email_alerts">
+				<input type="checkbox" id="hp_promo_alerts_chk_mid" checked />
+				<label class="text" for="hp_promo_alerts_chk_mid">Get email alerts with breaking news and articles on your stocks</label>
+			</div>
+			<div class="go_wrapper">
+				<span class="go" id="hp_promo_go_btn_mid">Customize This Page</span>
+				<div class="go_loader" id="hp_promo_loader_mid" style="display:none"><img src="http://static.seekingalpha.com/images/loader.gif" alt="Loading..." /></div>
+			</div>
+    </div>
+		<div class="cleaner"></div>
+  </div>
+  <div class="promo_center_left" id="promotion_middle_static" style="display:none">
+  	<div class="portfolio_title">
+	    <h3>PORTFOLIO</h3>
+	    <select class="portfolio_combo" disabled="disabled"><option value="">Portfolio 1</option></select>
+    </div>
+    <div class="top_title">MAKE THE NEW SEEKING ALPHA HOME PAGE <strong>WORK FOR YOU!</strong></div>
+		
+    <div class="bottom_title"><span style="color:red;">New!</span> This is your new customized portfolio area.<br> You can find market data, focused articles and news on your stocks. Save your changes for next time using the unit on top of this page</div>
+  </div>
+  <div class="promo_center_right">
+    <script type="text/javascript">
+      //<![CDATA[
+        if (!SA.Data.User.hasPortfolio()) {
+          iframeAd("300x250",'http://a.collective-media.net/adj/sek.home;sz=300x250;x=x;tile=2;d=home;pos=t;'+dart_my_vocation_and_profiles()+'ord='+ord+'?');
+        }
+      //]]>
+    </script>
+  </div>
+	<div class="cleaner"></div>
+</div>
+
+        <div class="right_unit default" id="right_unit_default"></div>
+<div class="right_unit portfolio" id="portfolio_tables">
+  <div id="portfolio_loader" class="loader_wrapper"></div>
+  <div class="for_add_alerts_promo for_ver_d">
+    <div class="area_of_text"><div class="bubble_icon_wrapper"><span class="bubble_icon"></span></div><span class="new">New:</span> Get real-time email alerts with breaking news and articles on <strong>your stocks</strong></div>
+    <div class="bottons_wrapper">
+      <div id="hp_promo_add_alerts_d" class="button">Get email alerts</div>
+      <div id="hp_promo_add_alerts_loader_d" class="loader_button_wrapper" style="display:none"><img src="http://static.seekingalpha.com/images/loader.gif" /></div>
+    </div>
+  </div>
+  <div class="portfolio_title">
+    <h3>PORTFOLIO</h3>
+    <select id="portfolio_combo" class="portfolio_combo" onchange="SA.Pages.HP.Portfolio.select(this)" style="display:none"></select>
+  </div>
+  <div class="hp_portfolio">
+    <div id="portfolio_content" class="portfolio_content">
+     	<div class="portfolio_content_inner">
+      	<table id="portfolio_table" class="portfolio_table">
+          <thead><tr><th class="symbol">Symbol</th><th>Price</th><th>Chg</th><th>% Chg</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="latest_portfolio_headlines">
+          <h4>Latest Portfolio Headlines</h4>
+          <ul id="portfolio_articles" class="portfolio_articles"></ul>
+        </div>
+      </div>
+      <div class="cleaner"></div>
+      <div class="see_more" id="portfolio_see_more">
+        <div id="portfolio_stocks_container">
+          <div style="float:left;position:relative">
+            <input type="text" id="portfolio_stocks_input" class="add_stock_text" title="Stocks to add" empty="example: GLD, GOOG" />
+          </div>
+          <span id="portfolio_stocks_btn" class="portfolio_stocks_btn">Add Stocks</span>
+        </div>
+        <div id="portfolio_stocks_container_dis" style="display:none">
+          <div style="float:left;position:relative">
+            <input type="text" class="add_stock_text" title="Stocks to add" value="example: GLD, GOOG" disabled="disabled" />
+          </div>
+          <span class="portfolio_stocks_btn" style="border:none; color: #aaaaaa; background-color: #eeeeee; box-shadow: none;">Add Stocks</span>
+        </div>
+        <span id="portfolio_stocks_loader" class="portfolio_stocks_loader" style="display:none"><img src="http://static.seekingalpha.com/images/homepage/loader_hp_16x16.gif"/></span>
+        <a class="see_edit_portfolio_link" href="/account/portfolio" sasource="hp_portfolio_detailed">SEE / EDIT DETAILED PORTFOLIO</a>
+        <div class="for_add_alerts_promo for_ver_c">| <span class="link" id="hp_promo_add_alerts_c">GET NEWS AND ARTICLES VIA EMAIL ALERTS</span></div>
+      </div>
+    </div>
+    <div class="for_add_alerts_promo for_ver_b">
+      <div class="text_and_button"><strong class="new">New from Seeking Alpha:</strong> Get real-time email alerts with breaking news and articles on <strong>your stocks</strong> <span id="hp_promo_add_alerts_b" class="button">Try it</span>
+      <div class="cleaner"></div>
+      </div>
+      <div id="hp_promo_add_alerts_loader_b" class="loader_button_wrapper" style="display:none"><img src="http://static.seekingalpha.com/images/loader.gif" /></div>
+    <div class="cleaner"></div>
+    </div>
+  </div>
+</div>
+
+<div class="right_unit market_currents_my_portfolio" id="portfolio_mc_unit" style="display:none">
+  <div>
+    <h3 id="portfolio_mc_title">MARKET CURRENTS ON MY PORTFOLIO</h3>
+    <ul id="portfolio_mc" class="portfolio_mc"><div style="position:relative"><span class="loader_wrapper"><img src="http://static.seekingalpha.com/images/homepage/loader_hp.gif" /></span></div></ul>
+  </div>
+  <div id="portfolio_empty" style="display:none"></div>
+  <div class="cleaner"></div>
+  <div class="see_more"><a href="/account/portfolio#market_currents_portfolio" sasource="hp_portfolio_mc_show_more">SEE MORE &raquo;</a></div>
+</div>
+<script>
+  SA.Pages.HP.Portfolio.init();
+  SA.Pages.HP.Promotion.init();
+</script>
+      
+      <div class="right_unit latest_articles">
+        <div class="unit">
+          <div class="articles">
+  <h3>LATEST ARTICLES</h3>
+  <ul class="articles">
+        <li>
+          <a href="/article/505271-can-intel-become-a-player-in-the-smartphone-and-tablet-markets" class="article" sasource="hp_latest_articles_1">Can Intel Become A Player In The Smartphone And Tablet Markets?</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/steve-breyer" sasource="hp_latest_articles_author_1">Steve Breyer</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505271-can-intel-become-a-player-in-the-smartphone-and-tablet-markets#comments_header" sasource="hp_latest_articles_comment_1">Comment!</a>
+            <span class="time_ago" timestamp='1334714665'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505251-why-3m-is-one-of-the-bluest-of-the-blue-chips" class="article" sasource="hp_latest_articles_2">Why 3M Is One Of The Bluest Of The Blue Chips</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/moby-waller" sasource="hp_latest_articles_author_2">Moby Waller</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505251-why-3m-is-one-of-the-bluest-of-the-blue-chips#comments_header" sasource="hp_latest_articles_comment_2">Comment!</a>
+            <span class="time_ago" timestamp='1334713359'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505211-big-data-is-a-big-boost-for-oracle" class="article" sasource="hp_latest_articles_3">Big Data Is A Big Boost For Oracle</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/christopher-grosvenor" sasource="hp_latest_articles_author_3">Christopher Grosvenor</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505211-big-data-is-a-big-boost-for-oracle#comments_header" sasource="hp_latest_articles_comment_3">Comment!</a>
+            <span class="time_ago" timestamp='1334712038'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505171-earnings-season-heats-up-accumulate-these-stocks-patiently" class="article" sasource="hp_latest_articles_4">Earnings Season Heats Up: Accumulate These Stocks Patiently</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/marc-courtenay" sasource="hp_latest_articles_author_4">Marc Courtenay</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505171-earnings-season-heats-up-accumulate-these-stocks-patiently#comments_header" sasource="hp_latest_articles_comment_4">Comment!</a>
+            <span class="time_ago" timestamp='1334710654'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505161-residential-house-prices-will-continue-to-fall-invest-in-multifamily-properties-via-reits" class="article" sasource="hp_latest_articles_5">Residential House Prices Will Continue To Fall; Invest In Multifamily Properties Via REITs</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/zach-tripp" sasource="hp_latest_articles_author_5">Zach Tripp</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505161-residential-house-prices-will-continue-to-fall-invest-in-multifamily-properties-via-reits#comments_header" sasource="hp_latest_articles_comment_5">1 Comment</a>
+            <span class="time_ago" timestamp='1334708705'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505141-national-muni-etfs-offer-better-reward-for-the-risk-than-california-muni-etfs" class="article" sasource="hp_latest_articles_6">National Muni ETFs Offer Better Reward For The Risk Than California Muni ETFs</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/gary-gordon" sasource="hp_latest_articles_author_6">Gary Gordon</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505141-national-muni-etfs-offer-better-reward-for-the-risk-than-california-muni-etfs#comments_header" sasource="hp_latest_articles_comment_6">2 Comments</a>
+            <span class="time_ago" timestamp='1334705917'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505131-apple-will-break-new-highs-with-ipanel" class="article" sasource="hp_latest_articles_7">Apple Will Break New Highs With iPanel</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/incomehunter" sasource="hp_latest_articles_author_7">IncomeHunter</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505131-apple-will-break-new-highs-with-ipanel#comments_header" sasource="hp_latest_articles_comment_7">10 Comments</a>
+            <span class="time_ago" timestamp='1334705224'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505121-morgan-stanley-shares-holding-key-support-ahead-of-q1-earnings" class="article" sasource="hp_latest_articles_8">Morgan Stanley Shares Holding Key Support Ahead Of Q1 Earnings</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/selerity-research" sasource="hp_latest_articles_author_8">Selerity Research</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505121-morgan-stanley-shares-holding-key-support-ahead-of-q1-earnings#comments_header" sasource="hp_latest_articles_comment_8">Comment!</a>
+            <span class="time_ago" timestamp='1334704108'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505111-american-tower-the-best-backdoor-smartphone-stock" class="article" sasource="hp_latest_articles_9">American Tower: The Best Backdoor Smartphone Stock</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/todd-campbell" sasource="hp_latest_articles_author_9">Todd Campbell</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505111-american-tower-the-best-backdoor-smartphone-stock#comments_header" sasource="hp_latest_articles_comment_9">3 Comments</a>
+            <span class="time_ago" timestamp='1334703737'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505101-how-kindle-fire-killed-every-ipad-competitor-in-the-room-and-now-it-will-kill-itself" class="article" sasource="hp_latest_articles_10">How Kindle Fire Killed Every iPad Competitor In The Room - And Now It Will 'Kill' Itself</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/tiago-reis" sasource="hp_latest_articles_author_10">Tiago Reis</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505101-how-kindle-fire-killed-every-ipad-competitor-in-the-room-and-now-it-will-kill-itself#comments_header" sasource="hp_latest_articles_comment_10">5 Comments</a>
+            <span class="time_ago" timestamp='1334703636'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505091-analyst-upgrades-could-propel-kbr-forward" class="article" sasource="hp_latest_articles_11">Analyst Upgrades Could Propel KBR Forward</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/bret-jensen" sasource="hp_latest_articles_author_11">Bret Jensen</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505091-analyst-upgrades-could-propel-kbr-forward#comments_header" sasource="hp_latest_articles_comment_11">Comment!</a>
+            <span class="time_ago" timestamp='1334703125'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505081-is-eli-lilly-a-good-stock-to-buy-now" class="article" sasource="hp_latest_articles_12">Is Eli Lilly A Good Stock To Buy Now?</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/insider-monkey" sasource="hp_latest_articles_author_12">Insider Monkey</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505081-is-eli-lilly-a-good-stock-to-buy-now#comments_header" sasource="hp_latest_articles_comment_12">Comment!</a>
+            <span class="time_ago" timestamp='1334702650'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505071-annaly-expect-a-big-jump-in-2013-on-low-valuation" class="article" sasource="hp_latest_articles_13">Annaly: Expect A Big Jump In 2013 On Low Valuation</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/investment-underground" sasource="hp_latest_articles_author_13">Investment Underground</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505071-annaly-expect-a-big-jump-in-2013-on-low-valuation#comments_header" sasource="hp_latest_articles_comment_13">3 Comments</a>
+            <span class="time_ago" timestamp='1334702301'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505061-what-a-high-beta-means-for-apple" class="article" sasource="hp_latest_articles_14">What A High Beta Means For Apple</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/kim-klaiman" sasource="hp_latest_articles_author_14">Kim Klaiman</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505061-what-a-high-beta-means-for-apple#comments_header" sasource="hp_latest_articles_comment_14">18 Comments</a>
+            <span class="time_ago" timestamp='1334701751'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505051-want-to-buy-facebook-let-s-see-how-groupon-zynga-linkedin-pandora-and-other-ipos-have-performed" class="article" sasource="hp_latest_articles_15">Want To Buy Facebook? Let's See How Groupon, Zynga, LinkedIn, Pandora And Other IPOs Have Performed</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/tradingfloor" sasource="hp_latest_articles_author_15">TradingFloor</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505051-want-to-buy-facebook-let-s-see-how-groupon-zynga-linkedin-pandora-and-other-ipos-have-performed#comments_header" sasource="hp_latest_articles_comment_15">1 Comment</a>
+            <span class="time_ago" timestamp='1334701276'></span>
+          </span>
+        </li>
+  </ul>
+  <div class="cleaner"></div>
+</div>
+        </div>
+        <div class="unit last">
+          <div class="articles">
+  <h3>NEW ON NEGLECTED STOCKS</h3>
+  <ul class="articles">
+        <li>
+          <a href="/article/505091-analyst-upgrades-could-propel-kbr-forward" class="article" sasource="hp_neglected_stocks_1">Analyst Upgrades Could Propel KBR Forward</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/bret-jensen" sasource="hp_neglected_stocks_author_1">Bret Jensen</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505091-analyst-upgrades-could-propel-kbr-forward#comments_header" sasource="hp_neglected_stocks_comment_1">Comment!</a>
+            <span class="time_ago" timestamp='1334703125'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504891-devry-looks-like-a-bargain" class="article" sasource="hp_neglected_stocks_2">DeVry Looks Like A Bargain</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/bargain-bin" sasource="hp_neglected_stocks_author_2">Bargain Bin</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504891-devry-looks-like-a-bargain#comments_header" sasource="hp_neglected_stocks_comment_2">Comment!</a>
+            <span class="time_ago" timestamp='1334698096'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504811-beacon-roofing-an-under-followed-stock-ready-to-ride-the-housing-rebound" class="article" sasource="hp_neglected_stocks_3">Beacon Roofing: An Under-Followed Stock Ready To Ride The Housing Rebound</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/todd-campbell" sasource="hp_neglected_stocks_author_3">Todd Campbell</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504811-beacon-roofing-an-under-followed-stock-ready-to-ride-the-housing-rebound#comments_header" sasource="hp_neglected_stocks_comment_3">Comment!</a>
+            <span class="time_ago" timestamp='1334696315'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504771-united-guardian-small-and-precious" class="article" sasource="hp_neglected_stocks_4">United Guardian: Small And Precious</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/alberto-quintana" sasource="hp_neglected_stocks_author_4">Alberto Quintana</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504771-united-guardian-small-and-precious#comments_header" sasource="hp_neglected_stocks_comment_4">Comment!</a>
+            <span class="time_ago" timestamp='1334696058'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504751-lincare-s-short-term-pain-can-become-long-term-gain" class="article" sasource="hp_neglected_stocks_5">Lincare's Short-Term Pain Can Become Long-Term Gain</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/stephen-simpson" sasource="hp_neglected_stocks_author_5">Stephen Simpson</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504751-lincare-s-short-term-pain-can-become-long-term-gain#comments_header" sasource="hp_neglected_stocks_comment_5">Comment!</a>
+            <span class="time_ago" timestamp='1334695736'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504601-fusion-io-highest-returning-protected-covered-call" class="article" sasource="hp_neglected_stocks_6">Fusion-io: Highest Returning Protected Covered Call</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/poweroptions" sasource="hp_neglected_stocks_author_6">PowerOptions</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504601-fusion-io-highest-returning-protected-covered-call#comments_header" sasource="hp_neglected_stocks_comment_6">Comment!</a>
+            <span class="time_ago" timestamp='1334693305'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504501-a-recent-ipo-with-a-10-5-dividend-yield" class="article" sasource="hp_neglected_stocks_7">A Recent IPO With A 10.5% Dividend Yield</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/greg-group" sasource="hp_neglected_stocks_author_7">Greg Group</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504501-a-recent-ipo-with-a-10-5-dividend-yield#comments_header" sasource="hp_neglected_stocks_comment_7">2 Comments</a>
+            <span class="time_ago" timestamp='1334691921'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504431-synergy-pharmaceuticals-could-realize-billion-dollar-potential" class="article" sasource="hp_neglected_stocks_8">Synergy Pharmaceuticals Could Realize Billion Dollar Potential</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/vfc-s-stock-house" sasource="hp_neglected_stocks_author_8">VFC's Stock House</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504431-synergy-pharmaceuticals-could-realize-billion-dollar-potential#comments_header" sasource="hp_neglected_stocks_comment_8">Comment!</a>
+            <span class="time_ago" timestamp='1334690949'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504371-marriott-international-earnings-preview" class="article" sasource="hp_neglected_stocks_9">Marriott International: Earnings Preview</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/zacks-investment-research" sasource="hp_neglected_stocks_author_9">Zacks Investment Research</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504371-marriott-international-earnings-preview#comments_header" sasource="hp_neglected_stocks_comment_9">Comment!</a>
+            <span class="time_ago" timestamp='1334690261'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504221-why-i-m-likely-buying-seabridge-gold" class="article" sasource="hp_neglected_stocks_10">Why I'm Likely Buying Seabridge Gold</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/simit-patel" sasource="hp_neglected_stocks_author_10">Simit Patel</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504221-why-i-m-likely-buying-seabridge-gold#comments_header" sasource="hp_neglected_stocks_comment_10">9 Comments</a>
+            <span class="time_ago" timestamp='1334688105'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504151-ipo-preview-sandridge-mississippian-trust-ii" class="article" sasource="hp_neglected_stocks_11">IPO Preview: SandRidge Mississippian Trust II</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/ipodesktop" sasource="hp_neglected_stocks_author_11">IPOdesktop</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504151-ipo-preview-sandridge-mississippian-trust-ii#comments_header" sasource="hp_neglected_stocks_comment_11">1 Comment</a>
+            <span class="time_ago" timestamp='1334687011'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504041-zogenix-why-this-hated-biotech-deserves-love" class="article" sasource="hp_neglected_stocks_12">Zogenix: Why This Hated Biotech Deserves Love</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/deep-value-investor" sasource="hp_neglected_stocks_author_12">Deep Value Investor</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504041-zogenix-why-this-hated-biotech-deserves-love#comments_header" sasource="hp_neglected_stocks_comment_12">4 Comments</a>
+            <span class="time_ago" timestamp='1334686049'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/503941-first-majestic-corporation-the-long-and-short-term-possibilities" class="article" sasource="hp_neglected_stocks_13">First Majestic Corporation: The Long- And Short-Term Possibilities</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/bob-kirtley" sasource="hp_neglected_stocks_author_13">Bob Kirtley</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/503941-first-majestic-corporation-the-long-and-short-term-possibilities#comments_header" sasource="hp_neglected_stocks_comment_13">2 Comments</a>
+            <span class="time_ago" timestamp='1334684992'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/503931-keep-your-portfolio-running-smoothly-with-wd-40" class="article" sasource="hp_neglected_stocks_14">Keep Your Portfolio Running Smoothly With WD-40</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/david-zanoni" sasource="hp_neglected_stocks_author_14">David Zanoni</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/503931-keep-your-portfolio-running-smoothly-with-wd-40#comments_header" sasource="hp_neglected_stocks_comment_14">Comment!</a>
+            <span class="time_ago" timestamp='1334684577'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/503641-the-new-york-times-earnings-preview" class="article" sasource="hp_neglected_stocks_15">The New York Times: Earnings Preview</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/zacks-investment-research" sasource="hp_neglected_stocks_author_15">Zacks Investment Research</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/503641-the-new-york-times-earnings-preview#comments_header" sasource="hp_neglected_stocks_comment_15">Comment!</a>
+            <span class="time_ago" timestamp='1334680364'></span>
+          </span>
+        </li>
+  </ul>
+  <div class="cleaner"></div>
+</div>
+        </div>
+        <div class="cleaner"></div>
+        <div class="see_more">
+          <a href='/articles' sasource="hp_latest_articles_more">MORE LATEST ARTICLES</a>
+        </div>
+      </div>
+      <div class="right_unit">
+        <ul class="trading_center_ads">
+  <li><script type="text/javascript">GA_googleFillSlot_sa("HP_170x40_1");</script></li>
+  <li><script type="text/javascript">GA_googleFillSlot_sa("HP_170x40_2");</script></li>
+  <li><script type="text/javascript">GA_googleFillSlot_sa("HP_170x40_3");</script></li>
+</ul>
+
+      </div>
+      <div class="right_unit authors_you_follow login" authors_you_follow style="display:none">
+       <div class="authors_you_follow">
+  <h3>AUTHORS YOU FOLLOW</h3>
+  <div class="author_you_follow_ul_wrapper">
+    <ul id="author_you_follow">
+      <div class="loader_wrapper"><img src="http://static.seekingalpha.com/images/homepage/loader_hp.gif" /></div>
+    </ul>
+  </div>
+  <div class="more_links">
+    <a href="/account/my-feed?filter=articles">MORE ARTICLES &raquo;</a>
+    <span class="dash">|</span>
+    <a id="set_a_pers_area_ar" href="#">SEE / EDIT WHO YOU FOLLOW &raquo;</a>
+  </div>
+</div>
+      </div>
+      <div class="right_unit dashboards">
+        <div class="unit">
+          <div class="articles">
+  <h3>MACRO VIEW</h3>
+  <ul class="articles">
+        <li>
+          <a href="/article/505161-residential-house-prices-will-continue-to-fall-invest-in-multifamily-properties-via-reits" class="article" sasource="hp_macro_view_1">Residential House Prices Will Continue To Fall; Invest In Multifamily Properties Via REITs</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/zach-tripp" sasource="hp_macro_view_author_1">Zach Tripp</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505161-residential-house-prices-will-continue-to-fall-invest-in-multifamily-properties-via-reits#comments_header" sasource="hp_macro_view_comment_1">1 Comment</a>
+            <span class="time_ago" timestamp='1334708705'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505041-corn-and-spring-wheat-planting-ahead-of-schedule-winter-wheat-in-great-condition" class="article" sasource="hp_macro_view_2">Corn And Spring Wheat Planting Ahead Of Schedule, Winter Wheat In Great Condition</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/the-mays-report" sasource="hp_macro_view_author_2">The Mays Report</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505041-corn-and-spring-wheat-planting-ahead-of-schedule-winter-wheat-in-great-condition#comments_header" sasource="hp_macro_view_comment_2">6 Comments</a>
+            <span class="time_ago" timestamp='1334701092'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505021-how-recent-events-in-india-may-affect-precious-metals-prices" class="article" sasource="hp_macro_view_3">How Recent Events In India May Affect Precious Metals Prices</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/avery-goodman" sasource="hp_macro_view_author_3">Avery Goodman</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505021-how-recent-events-in-india-may-affect-precious-metals-prices#comments_header" sasource="hp_macro_view_comment_3">2 Comments</a>
+            <span class="time_ago" timestamp='1334700720'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504821-just-a-soft-patch-or-what" class="article" sasource="hp_macro_view_4">Just A Soft Patch, Or What?</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/george-simone" sasource="hp_macro_view_author_4">George Simone</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504821-just-a-soft-patch-or-what#comments_header" sasource="hp_macro_view_comment_4">1 Comment</a>
+            <span class="time_ago" timestamp='1334696469'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504791-are-canadian-rate-hikes-coming" class="article" sasource="hp_macro_view_5">Are Canadian Rate Hikes Coming?</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/market-blog" sasource="hp_macro_view_author_5">Market Blog</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504791-are-canadian-rate-hikes-coming#comments_header" sasource="hp_macro_view_comment_5">Comment!</a>
+            <span class="time_ago" timestamp='1334696173'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504761-argentina-takes-step-to-take-over-oil-company-ypf-s-a" class="article" sasource="hp_macro_view_6">Argentina Takes Step To Take Over Oil Company YPF S.A.</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/tim-plaehn" sasource="hp_macro_view_author_6">Tim Plaehn</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504761-argentina-takes-step-to-take-over-oil-company-ypf-s-a#comments_header" sasource="hp_macro_view_comment_6">3 Comments</a>
+            <span class="time_ago" timestamp='1334695810'></span>
+          </span>
+        </li>
+  </ul>
+  <div class="cleaner"></div>
+</div>
+          <a href='/dashboard/macro_view' class="more" sasource="hp_macro_view_more">More Macro View Articles</a>
+        </div>
+        <div class="unit last">
+          <div class="articles">
+  <h3>INVESTING FOR INCOME</h3>
+  <ul class="articles">
+        <li>
+          <a href="/article/505251-why-3m-is-one-of-the-bluest-of-the-blue-chips" class="article" sasource="hp_investing_1">Why 3M Is One Of The Bluest Of The Blue Chips</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/moby-waller" sasource="hp_investing_author_1">Moby Waller</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505251-why-3m-is-one-of-the-bluest-of-the-blue-chips#comments_header" sasource="hp_investing_comment_1">Comment!</a>
+            <span class="time_ago" timestamp='1334713359'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505071-annaly-expect-a-big-jump-in-2013-on-low-valuation" class="article" sasource="hp_investing_2">Annaly: Expect A Big Jump In 2013 On Low Valuation</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/investment-underground" sasource="hp_investing_author_2">Investment Underground</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505071-annaly-expect-a-big-jump-in-2013-on-low-valuation#comments_header" sasource="hp_investing_comment_2">3 Comments</a>
+            <span class="time_ago" timestamp='1334702301'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505031-chimera-the-huge-dividend-must-die" class="article" sasource="hp_investing_3">Chimera: The Huge Dividend Must Die</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/investment-underground" sasource="hp_investing_author_3">Investment Underground</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505031-chimera-the-huge-dividend-must-die#comments_header" sasource="hp_investing_comment_3">5 Comments</a>
+            <span class="time_ago" timestamp='1334700834'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504951-annaly-expect-fat-dividend-checks-into-2013" class="article" sasource="hp_investing_4">Annaly: Expect Fat Dividend Checks Into 2013</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/valuemax" sasource="hp_investing_author_4">ValueMax</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504951-annaly-expect-fat-dividend-checks-into-2013#comments_header" sasource="hp_investing_comment_4">14 Comments</a>
+            <span class="time_ago" timestamp='1334699314'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504871-chevron-vs-statoil-is-there-a-clear-winner" class="article" sasource="hp_investing_5">Chevron Vs. Statoil: Is There A Clear Winner?</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/sol-palha" sasource="hp_investing_author_5">Sol Palha</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504871-chevron-vs-statoil-is-there-a-clear-winner#comments_header" sasource="hp_investing_comment_5">1 Comment</a>
+            <span class="time_ago" timestamp='1334697374'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504771-united-guardian-small-and-precious" class="article" sasource="hp_investing_6">United Guardian: Small And Precious</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/alberto-quintana" sasource="hp_investing_author_6">Alberto Quintana</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504771-united-guardian-small-and-precious#comments_header" sasource="hp_investing_comment_6">Comment!</a>
+            <span class="time_ago" timestamp='1334696058'></span>
+          </span>
+        </li>
+  </ul>
+  <div class="cleaner"></div>
+</div>
+          <a href='/dashboard/investing_income' class="more" sasource="hp_investing_more">More Investing for Income Articles</a>
+        </div>
+      </div>
+      <div class="right_unit dashboards">
+        <div class="unit">
+          <div class="articles">
+  <h3>ETFs &amp; PORTFOLIO STRATEGY</h3>
+  <ul class="articles">
+        <li>
+          <a href="/article/505141-national-muni-etfs-offer-better-reward-for-the-risk-than-california-muni-etfs" class="article" sasource="hp_etfs_1">National Muni ETFs Offer Better Reward For The Risk Than California Muni ETFs</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/gary-gordon" sasource="hp_etfs_author_1">Gary Gordon</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505141-national-muni-etfs-offer-better-reward-for-the-risk-than-california-muni-etfs#comments_header" sasource="hp_etfs_comment_1">2 Comments</a>
+            <span class="time_ago" timestamp='1334705917'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/504331-a-yen-for-a-stock-market-hedge" class="article" sasource="hp_etfs_2">A 'Yen' For A Stock Market Hedge</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/eric-parnell" sasource="hp_etfs_author_2">Eric Parnell</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/504331-a-yen-for-a-stock-market-hedge#comments_header" sasource="hp_etfs_comment_2">2 Comments</a>
+            <span class="time_ago" timestamp='1334689607'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/503911-a-true-investor-s-most-important-performance-measurement" class="article" sasource="hp_etfs_3">A True Investor's Most Important Performance Measurement</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/chuck-carnevale" sasource="hp_etfs_author_3">Chuck Carnevale</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/503911-a-true-investor-s-most-important-performance-measurement#comments_header" sasource="hp_etfs_comment_3">17 Comments</a>
+            <span class="time_ago" timestamp='1334684458'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/503871-gold-etfs-the-irs-and-tax-day-not-so-alluring" class="article" sasource="hp_etfs_4">Gold ETFs, The IRS And Tax Day: Not So Alluring</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/tom-lydon" sasource="hp_etfs_author_4">Tom Lydon</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/503871-gold-etfs-the-irs-and-tax-day-not-so-alluring#comments_header" sasource="hp_etfs_comment_4">Comment!</a>
+            <span class="time_ago" timestamp='1334684001'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/503831-etf-providers-call-for-more-product-transparency" class="article" sasource="hp_etfs_5">ETF Providers Call For More Product Transparency</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/tom-lydon" sasource="hp_etfs_author_5">Tom Lydon</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/503831-etf-providers-call-for-more-product-transparency#comments_header" sasource="hp_etfs_comment_5">Comment!</a>
+            <span class="time_ago" timestamp='1334683651'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/503821-high-yield-etf-portfolio" class="article" sasource="hp_etfs_6">High-Yield ETF Portfolio</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/brad-kenagy" sasource="hp_etfs_author_6">Brad Kenagy</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/503821-high-yield-etf-portfolio#comments_header" sasource="hp_etfs_comment_6">Comment!</a>
+            <span class="time_ago" timestamp='1334683316'></span>
+          </span>
+        </li>
+  </ul>
+  <div class="cleaner"></div>
+</div>
+          <a href='/dashboard/etfs' class="more" sasource="hp_etfs_more">More ETFs &amp; Portfolio Strategy Articles</a>
+        </div>
+        <div class="unit last">
+          <div class="articles">
+  <h3>LONG &amp; SHORT IDEAS</h3>
+  <ul class="articles">
+        <li>
+          <a href="/article/505271-can-intel-become-a-player-in-the-smartphone-and-tablet-markets" class="article" sasource="hp_long_short_1">Can Intel Become A Player In The Smartphone And Tablet Markets?</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/steve-breyer" sasource="hp_long_short_author_1">Steve Breyer</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505271-can-intel-become-a-player-in-the-smartphone-and-tablet-markets#comments_header" sasource="hp_long_short_comment_1">Comment!</a>
+            <span class="time_ago" timestamp='1334714665'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505131-apple-will-break-new-highs-with-ipanel" class="article" sasource="hp_long_short_2">Apple Will Break New Highs With iPanel</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/incomehunter" sasource="hp_long_short_author_2">IncomeHunter</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505131-apple-will-break-new-highs-with-ipanel#comments_header" sasource="hp_long_short_comment_2">10 Comments</a>
+            <span class="time_ago" timestamp='1334705224'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505111-american-tower-the-best-backdoor-smartphone-stock" class="article" sasource="hp_long_short_3">American Tower: The Best Backdoor Smartphone Stock</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/todd-campbell" sasource="hp_long_short_author_3">Todd Campbell</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505111-american-tower-the-best-backdoor-smartphone-stock#comments_header" sasource="hp_long_short_comment_3">3 Comments</a>
+            <span class="time_ago" timestamp='1334703737'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505101-how-kindle-fire-killed-every-ipad-competitor-in-the-room-and-now-it-will-kill-itself" class="article" sasource="hp_long_short_4">How Kindle Fire Killed Every iPad Competitor In The Room - And Now It Will 'Kill' Itself</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/tiago-reis" sasource="hp_long_short_author_4">Tiago Reis</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505101-how-kindle-fire-killed-every-ipad-competitor-in-the-room-and-now-it-will-kill-itself#comments_header" sasource="hp_long_short_comment_4">5 Comments</a>
+            <span class="time_ago" timestamp='1334703636'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505091-analyst-upgrades-could-propel-kbr-forward" class="article" sasource="hp_long_short_5">Analyst Upgrades Could Propel KBR Forward</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/bret-jensen" sasource="hp_long_short_author_5">Bret Jensen</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505091-analyst-upgrades-could-propel-kbr-forward#comments_header" sasource="hp_long_short_comment_5">Comment!</a>
+            <span class="time_ago" timestamp='1334703125'></span>
+          </span>
+        </li>
+        <li>
+          <a href="/article/505061-what-a-high-beta-means-for-apple" class="article" sasource="hp_long_short_6">What A High Beta Means For Apple</a>
+          <span class="add_info">
+              <span class="by">by <a href="/author/kim-klaiman" sasource="hp_long_short_author_6">Kim Klaiman</a></span>
+              <span class="bullet">&bull;</span>
+            <a href="/article/505061-what-a-high-beta-means-for-apple#comments_header" sasource="hp_long_short_comment_6">18 Comments</a>
+            <span class="time_ago" timestamp='1334701751'></span>
+          </span>
+        </li>
+  </ul>
+  <div class="cleaner"></div>
+</div>
+          <a href='/dashboard/investing_ideas' class="more" sasource="hp_long_short_more">More Long &amp; Short Ideas Articles</a>
+        </div>
+      </div>
+      <div class="right_unit">
+        <h3>MARKET PERFORMANCE VIA ETFs</h3>
+<div class="data_currencies_table">
+  <div id='data_currencies_table_marketcap_broad'></div>
+  <div class="etf_pre_data">
+    <ul class="perf_ul">
+        <li><a href="/data/bonds" sasource="hp_performance_bonds">Bonds</a></li>
+        <li><a href="/data/commodities" sasource="hp_performance_commodities">Commodities</a></li>
+        <li><a href="/data/countries" sasource="hp_performance_countries">Countries</a></li>
+        <li><a href="/data/currencies" sasource="hp_performance_currencies">Currencies</a></li>
+    </ul>
+    <ul class="perf_ul second_perf_ul">
+        <li><a href="/data/dividends" sasource="hp_performance_dividends">Dividends</a></li>
+        <li><a href="/data/emerging_markets" sasource="hp_performance_emerging_markets">Emerging Markets</a></li>
+        <li><a href="/data/global_and_regions" sasource="hp_performance_global_and_regions">Global &amp; Regional</a></li>
+        <li><a href="/data/growth_vs_value" sasource="hp_performance_growth_vs_value">Growth vs. Value</a></li>
+    </ul>
+    <ul class="perf_ul">
+        <li><a href="/data/key_markets" sasource="hp_performance_key_markets">Key Markets</a></li>
+        <li><a href="/data/market_cap" sasource="hp_performance_market_cap">Market Cap</a></li>
+        <li><a href="/data/real_estate" sasource="hp_performance_real_estate">Real Estate</a></li>
+        <li><a href="/data/sectors" sasource="hp_performance_sectors">Sectors</a></li>
+    </ul>
+    <ul class="perf_ul last_perf_ul">
+        <li><a href="/data/strategies" sasource="hp_performance_strategies">Strategies</a></li>
+        <li><a href="/data/themes_and_subsectors" sasource="hp_performance_themes_and_subsectors">Themes &amp; Subsectors</a></li>
+    </ul>
+    <div class="cleaner"></div>
+  </div>
+</div>
+<script>
+ var MARKET_PERFORMANCE = [{"TMA_P":7.53053966290398,"TMA_C":9.74000000000001,"NOW_L":139.08,"YTD_L":125.5,"Delay":0.0160375,"YTD_P":10.8207171314741,"YTD_C":13.58,"OYA_L":132.04,"OYA_P":5.33171766131477,"OYA_C":7.04000000000002,"TMA_L":129.34,"NOW_P":1.48,"NOW_C":2.03,"S":"SPY"},{"TMA_P":8.01631932958429,"TMA_C":7.27,"NOW_L":97.96,"YTD_L":87.61,"Delay":0.0191905,"YTD_P":11.8137198949892,"YTD_C":10.35,"OYA_L":98.2,"OYA_P":-0.244399185336058,"OYA_C":-0.240000000000009,"TMA_L":90.69,"NOW_P":1.61,"NOW_C":1.55,"S":"IJH"},{"TMA_P":6.16933768259821,"TMA_C":4.34999999999999,"NOW_L":74.86,"YTD_L":68.3,"Delay":0.0189227,"YTD_P":9.60468521229869,"YTD_C":6.56,"OYA_L":72.93,"OYA_P":2.64637323460852,"OYA_C":1.92999999999999,"TMA_L":70.51,"NOW_P":1.48,"NOW_C":1.09,"S":"IJR"},{"TMA_P":5.07141710800834,"TMA_C":6.31999999999999,"NOW_L":130.94,"YTD_L":121.85,"Delay":0.0154973,"YTD_P":7.45999179318835,"YTD_C":9.09,"OYA_L":123.19,"OYA_P":6.29109505641692,"OYA_C":7.75,"TMA_L":124.62,"NOW_P":1.45,"NOW_C":1.87,"S":"DIA"},{"TMA_P":13.7455288707205,"TMA_C":8.07,"NOW_L":66.78,"YTD_L":55.83,"Delay":0.0170946,"YTD_P":19.6131112305212,"YTD_C":10.95,"OYA_L":56.65,"OYA_P":17.8817299205649,"OYA_C":10.13,"TMA_L":58.71,"NOW_P":2.03,"NOW_C":1.33,"S":"QQQ"},{"TMA_P":5.96903096903097,"TMA_C":2.39,"NOW_L":42.43,"YTD_L":37.94,"Delay":0.0184534,"YTD_P":11.834475487612,"YTD_C":4.49,"OYA_L":49.14,"OYA_P":-13.6548636548637,"OYA_C":-6.71,"TMA_L":40.04,"NOW_P":1.14,"NOW_C":0.48,"S":"EEM"},{"TMA_P":7.27400140154171,"TMA_C":5.19000000000001,"NOW_L":76.54,"YTD_L":70.22,"Delay":0.0169227,"YTD_P":9.00028481913986,"YTD_C":6.32000000000001,"OYA_L":70.83,"OYA_P":8.0615558379218,"OYA_C":5.71000000000001,"TMA_L":71.35,"NOW_P":0.86,"NOW_C":0.65,"S":"ICF"},{"TMA_P":-0.143302180685352,"TMA_C":-0.22999999999999,"NOW_L":160.27,"YTD_L":151.99,"Delay":0.0220925,"YTD_P":5.44772682413317,"YTD_C":8.28,"OYA_L":145.05,"OYA_P":10.4929334712168,"OYA_C":15.22,"TMA_L":160.5,"NOW_P":-0.12,"NOW_C":-0.19,"S":"GLD"},{"TMA_P":5.51558752997602,"TMA_C":1.61,"NOW_L":30.8,"YTD_L":26.94,"Delay":0.0300984,"YTD_P":14.3281365998515,"YTD_C":3.86,"OYA_L":41.84,"OYA_P":-26.3862332695985,"OYA_C":-11.04,"TMA_L":29.19,"NOW_P":0.79,"NOW_C":0.24,"S":"SLV"}]
+</script>
+      </div>
+      <div class="where_to_go_next">
+  <h3>WHERE TO GO NEXT...</h3>
+  <ul>
+    <li><a class="article" href="/dashboard/sectors" sasource="hp_gonext_articles">Articles By Sector</a></li>
+    <li><a class="article" href="/articles?filters=editors-picks,articles" sasource="hp_gonext_editors_picks">Editors' Picks</a></li>
+    <li><a class="article" href="/tag/transcripts" sasource="earnings">Earnings &amp; Transcripts</a></li>
+    <li><a class="article" href="/stocktalks" sasource="hp_gonext_latest_stocktalks">Latest StockTalks</a></li>
+  </ul>
+  <span class="hp_submit_article" onclick="trackLink(this,'Publishing Sources','Homepage Button','');if (!is_users_cookie_exists()) { open_header_log_in_popup_lightbox('write_post','submit an article') } else {top.location.href='/account/write_post'+isWritePostNew()+'?source=hp_submit'};"></span>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<div id="footer">
+  <div id="footernav">
+    <div class="footernav_left">
+      <a href="http://seekingalpha.com" class="footernav_logo"></a>
+      <div class="footernav_boards">
+        <div><span class="footer_title">TOP AUTHORS:</span>&nbsp;<a class="top_authors" href="/leader-board/opinion-leaders">The Opinion Leaders</a></div>
+        <div class='top_boards'>
+          <span class="footer_title">TOP USERS:</span>
+          <a href="/leader-board/top-stocktalkers">StockTalkers</a> <span class="fl_dash">|</span>
+          <a href="/leader-board/top-instabloggers">Instabloggers</a>
+        </div>    
+      </div>
+      <div class="cleaner"></div>
+    </div>
+    <div class="footernav_right">
+      <div class="footernav_links">
+        <a class="small_rss" href="/page/feeds" sasource="footer">&nbsp;&nbsp;&nbsp;&nbsp;RSS Feeds</a>&nbsp;&nbsp;|&nbsp;
+        <a href="/page/contact" sasource="footer">Contact Us</a>&nbsp;&nbsp;|&nbsp;
+        <a href="/page/about_us" sasource="footer">About Us</a>&nbsp;&nbsp;|&nbsp;
+        <a href="/premium-program/intro" sasource="footer">Premium Program</a>
+      </div>
+      <div class="footernav_more_links">
+        <a href="/page/terms-of-use" sasource="footer">Terms of Use</a> |
+        <a href="/page/privacy" sasource="footer">Privacy</a> |
+        <a href="http://www.xignite.com" target="_blank">Xignite quote data</a> |
+        <span>Copyright &#169; 2011</span>
+      </div>
+      <div class="cleaner"></div>
+    </div>
+    <div class="footernav_share_buttons">
+      <div class="fb-like facebook_share" data-href="http://www.facebook.com/pages/Seeking-Alpha/224867310939090" data-send="false" data-layout="button_count" data-width="105" data-show-faces="false" data-font="tahoma" ref="footer"></div>
+      <div class="twitter_wrap"><a href="https://twitter.com/SeekingAlpha" class="twitter-follow-button twitter_share" data-show-count="false">Follow @SeekingAlpha</a></div>
+    </div>
+  </div>
+  <div class="cleaner"></div>
+</div>
+    <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+  try{
+    var pageTracker = _gat._getTracker("UA-1466493-1");
+    //pageTracker._setDomainName(".seekingalpha.com");
+
+    (function() {
+      //1 - foreign domain, 2 - whole path before '?', 3 - article's id, 4 - news-article id, 5 - instablog author id-slug, 6 - instablog id, 7 - title or anything else, 8 - ?..., 9 - #... (3,4,5+6 mutual exclusive)
+      var urlRegExp = '^(?:https?://(?:(?:.+\\.)?seekingalpha.com|([^/]+)))?/((?:article/(\\d+)-|news-article/(\\d+)-|instablog/([^/]+)/(\\d+)-)?([^#?]*))(\\?[^#]*)?(#.*)?$';
+      var m = document.referrer.match(urlRegExp), ref;
+      if (m) {
+        if (m[1]) ref = m[1]+'/'+m[2];
+        else if (m[3] && /transcript$/.test(m[7])) ref = 'article-trc';
+        else if (m[3]) ref = 'article';
+        else if (m[4]) ref = 'news-article';
+        else if (m[5]) ref = 'instablog';
+        else if (m[7]=='') ref = 'hp';
+        else ref = m[7];
+        //GA doesn't unescape custom vars on their side, so replacing to something that's not escaped
+        pageTracker._setCustomVar(1, 'referrer', ref.replace(/\//g,'~').substr(0,54), 3);
+      }
+    })();
+    pageTracker._setCustomVar(2, 'logged_in', (cookieExists('user_id') ? 'yes' : 'no'), 3);
+    pageTracker._trackPageview(window._pageviewURL);
+  } catch(err) {}
+
+  urchinTracker = function(url) {
+    try {
+      pageTracker._trackPageview(url)
+    } catch (err) {}
+  };
+
+  function trackLink(link, category, action, label) {
+    try {
+      pageTracker._trackEvent(category, action, label);
+    }catch(err){}
+  }
+</script>
+<script type="text/javascript">
+  var chartbeat_domain = "seekingalpha.com";
+  
+  var _sf_async_config={uid:23852,domain:chartbeat_domain,authors:false};
+  (function() {
+    function loadChartbeat() {
+      if (/staging\.seekingalpha\.com/.test(location.host)) return;
+
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") + "js/chartbeat.js?v=3");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+
+  if(typeof (authors) == "undefined" || typeof (symbols) == "undefined")
+    load_remote_script("http://static.seekingalpha.com/javascripts/sa.js");
+  if(is_users_cookie_exists() && !cookieExists('tops') && typeof(tops) == "undefined")
+    load_remote_script("http://static.seekingalpha.com/javascripts/tops.js");
+</script>
+
+
+<script type="text/javascript">
+  SeekingAlpha.Initializer.LogAndRun(socialSA.init);
+  SeekingAlpha.Initializer.LogAndRun(LightBox.Init);
+  SeekingAlpha.Initializer.LogAndRun(second_page_login_popup);
+
+  SeekingAlpha.Initializer.Add(application_init);
+  SeekingAlpha.Initializer.AddAfterLoad(social_buttons_init);
+  SeekingAlpha.Initializer.AddAfterLoad(fp_logged_out_user);
+  SeekingAlpha.Initializer.AddAfterLoad(user_profiles);
+  SeekingAlpha.Initializer.AddAfterLoad(handle_tops_cookie);
+  SeekingAlpha.Initializer.AddAfterLoad(Mone.touch());
+
+  SeekingAlpha.Initializer.AddAfterLoad(function() {
+    var source = window._saSource;
+
+    if (source){
+      var m = document.referrer.match(/^https?:\/\/(?:(?:.*\.)?seekingalpha.com|([^\/]+))(\/article\/\d+-|\/[^?#]*)/);
+      var ref = m ? ((m[1] ? m[1] : '') + m[2]) : '';
+      var event_data = null;
+      if (source == 'salogo') event_data = ['headtabs', 'logo', ref];
+      else if ((m=source.match(/^headtabs_alerts(_.*)$/))) event_data = ['headtabs', "alerts"+m[1], ref];
+      else if (source == 'headtabs') event_data = ['headtabs', location.pathname, ref];
+      else if (source == 'footer') event_data = ['footer', location.pathname, ref];
+      if (event_data) pageTracker._trackEvent(event_data[0], event_data[1], event_data[2]);
+    }
+  });
+  SeekingAlpha.Initializer.Run();
+</script>
+<div id="symbol_data_script_container"></div>
+<script type="text/javascript">
+  <!-- Quantcast Tag -->
+  var _qevents = _qevents || [];
+  (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+  _qevents.push({
+    qacct:"p-36Zq38JCUmc3w"
+  });
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-36Zq38JCUmc3w.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- homepage event/user-guest/refresh-new checker starts -->
+<script>if (/.com\/(\?.+)?$/.test(location.href)) { urchinTracker("event/home_page/" + (is_users_cookie_exists() ? "user" : "guest") + "/" + (isRefresh ? "refresh" : "new")) }</script>
+<!-- homepage event/user-guest/refresh-new checker ends -->
+
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/30/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrf2","beacon-1.newrelic.com","c0370b1d43",334927,"cldeEUAJWgldEBsRWVZdQ0pUFFkLTD1EAF9U",0,7463,new Date().getTime()])</script>
+
+    <div class="cleaner"></div>
+  </body>
+</html>

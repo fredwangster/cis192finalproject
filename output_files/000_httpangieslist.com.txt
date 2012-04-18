@@ -1,0 +1,564 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="pageHeader"><title>
+	Doctor Reviews &amp; Contractors Ratings - Find a Doctor or General Contractor | Angie's List
+</title><link id="faviconlink" rel="shortcut icon" type="image/ico" href="/images/favicon.ico" /><link rel="canonical" href="http://www.angieslist.com/" />
+				<link href='/css/visitor2011.css' rel='stylesheet' type='text/css' />
+				<link href='/css/visitor-nav.css' rel='stylesheet' type='text/css' />
+				<link href='/css/columns.css' rel='stylesheet' type='text/css' />
+				<link href='/css/responsive.css' rel='stylesheet' type='text/css' />
+			
+    <!--[if lt IE 7]>
+    <script defer type="text/javascript" src="/scripts/pngfix.js"></script>
+    <![endif]-->    
+
+    <script src="http://content.angieslist.com/static/scripts/mbox.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+	<script type="text/javascript">
+	//<![CDATA[
+		!window.jQuery && document.write('<script src="http://content.angieslist.com/static/scripts/jquery.js" type="text/javascript"><\/script>');
+		var $j = jQuery.noConflict();
+		var _gaq = _gaq || [];
+	//]]>
+	</script>
+	<script type="text/javascript" src="http://content.angieslist.com/cms/scripts/tracking.js"></script>
+		
+
+    <script type="text/javascript">
+    //<![CDATA[
+        var testGroup = "CONTROL";
+
+        $j(document).ready(function () {
+            $j("#nav ul li").removeClass("activetab"); //Remove any "active" class
+            var currentLocation = document.location.href;
+            var end = (currentLocation.indexOf("?") == -1) ? currentLocation.length : currentLocation.indexOf("?");
+            var fileName = currentLocation.substring(currentLocation.lastIndexOf("/") + 1, end);
+            if (fileName != "") {
+                $j('#nav ul li').find('a[href*="' + fileName + '"]').addClass('activetab');
+            }
+
+            $j('#nav-popup-button').click(function (event) {
+                event.preventDefault();
+                $j("#nav ul").toggleClass("visible");
+            });
+        });
+
+    //]]>
+    </script>
+    
+	<meta property="og:title" content="Angie's List"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="http://www.angieslist.com/"/>
+	<meta property="og:image" content="images/hp-slideshow-angie.jpg"/>
+	<meta property="og:site_name" content="Angie's List"/>
+	<meta property="og:description" content="Angie’s List is where more than 2 million members find reliable ratings and reviews on everything for home, yard, auto, pet and health care."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /><meta property="fb:app_id" content="276484803320" /> 
+			<script type="text/javascript">   
+			//<![CDATA[   
+				var s_account="AngiesList";    
+			//]]> 
+			</script>
+	
+			<script type="text/javascript" src="http://content.angieslist.com/cms/scripts/omniture.js"></script>
+		 
+		<script type="text/javascript">   
+		//<![CDATA[    
+	
+		$j(document).ready( function() { 
+			s.prop2 = "PAID MARKET";
+s.eVar2 = s.prop2;
+s.prop3 = "Visitor - New";
+s.eVar3 = s.prop3;
+s.prop6 = s.prop2 + ' - ' + s.prop3;
+s.eVar6 = s.prop6;
+s.prop15 = "VISITOR";
+s.eVar15 = s.prop15;
+s.prop16 = "";
+s.eVar16 = s.prop16;
+s.pageName = "H";
+var s_code=s.t();
+if(s_code) { document.write(s_code); }
+
+
+			 
+			_gaq.push(
+				['_setAccount', 'UA-6917560-1'],
+				['_setCustomVar', 1, 'MarketType', 'PAID', 1],
+['_setCustomVar', 2, 'VisitorType', 'Visitor-New', 2],
+['_setCustomVar', 3, 'Channel', '', 3],
+
+				['_trackPageview']
+			); 
+ 
+			_gaq.push(['_trackPageLoadTime']);
+		
+		} );
+		
+		//]]> 
+		</script>
+</head>
+<body>
+    <div id="page">
+
+<div class="mboxDefault">
+        <div id="header">
+            <div id="header-top">
+                <div id="logo"><a id="homePage" href="/"><img id="logoImage" src="http://content.angieslist.com/cms/images/angieslist-logo.jpg" alt="Angie's List" width="285" height="60" /></a></div>
+                <div id="tagline"><img src="http://content.angieslist.com/cms/images/tagline-reviewsyoucantrust.jpg" alt="Reviews you can trust" width="177" height="23" /></div>
+                
+					<div id="header-social">
+						<div class="fb-like" data-href="http://www.facebook.com/angieslist" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+						<div class="plusone_wrapper">
+							<div class="g-plusone" data-href="http://www.angieslist.com" data-size="medium" data-annotation="none" data-callback="gplusclick"></div>
+						</div>
+					</div>
+				
+				<div id="header-top-right"> 
+					<a id="BC-btn" href="http://business.angieslist.com/?cid=AL">Business Owners</a> 
+				    <a id="signin-btn" href="https://my.angieslist.com/angieslist/login.aspx">Sign In</a> 
+					<a id="joinnow-btn" href="https://my.angieslist.com/angieslist/joinnow.aspx">Join Now</a>
+                </div>
+            </div>
+			<div id="nav-wrapper">
+				<div id="nav-corner-left"></div>
+				<div id="nav">
+                    <a id='nav-popup-button' href='#'>Menu</a>
+					<ul>
+					<li id="quicktour"><a href="http://www.angieslist.com/quicktour.aspx" >Quick Tour</a></li>
+					<li id="howitworks"><a href="http://www.angieslist.com/howitworks.aspx">How It Works</a></li>
+					<li id="faq"><a href="http://www.angieslist.com/faq.aspx">FAQ</a></li>
+					<li id="press"><a href="http://www.angieslist.com/inthepress.aspx">In the Press</a></li>
+					<li id="bigdeal"><a href="https://my.angieslist.com/thebigdeal/" onclick="window.open(this.href);return false" class="external">The Big Deal</a></li>
+					<li><a href="http://www.angieslist.com/contactus.aspx">Contact Us</a></li>
+					</ul>
+					<div id="nav-phone"><img src="http://content.angieslist.com/cms/images/nav-phone.gif" alt="1-888-888-LIST (5478)" width="177" height="40" /><a id='nav-phone-button' href='tel:+1-888-888-5478'>Call Now</a></div>
+				</div>
+				<div id="nav-corner-right"></div>
+			</div>
+        </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+	mboxCreate('MainTop');
+//]]>
+</script>
+
+            <form method="post" action="" id="ctl00">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTcwMTMzNDczMA9kFgJmD2QWBGYPZBYGAgIPFgIeBFRleHQFOjxsaW5rIHJlbD0iY2Fub25pY2FsIiBocmVmPSJodHRwOi8vd3d3LmFuZ2llc2xpc3QuY29tLyIgLz5kAgUPFgIfAAWsAg0KCQkJCTxsaW5rIGhyZWY9Jy9jc3MvdmlzaXRvcjIwMTEuY3NzJyByZWw9J3N0eWxlc2hlZXQnIHR5cGU9J3RleHQvY3NzJyAvPg0KCQkJCTxsaW5rIGhyZWY9Jy9jc3MvdmlzaXRvci1uYXYuY3NzJyByZWw9J3N0eWxlc2hlZXQnIHR5cGU9J3RleHQvY3NzJyAvPg0KCQkJCTxsaW5rIGhyZWY9Jy9jc3MvY29sdW1ucy5jc3MnIHJlbD0nc3R5bGVzaGVldCcgdHlwZT0ndGV4dC9jc3MnIC8+DQoJCQkJPGxpbmsgaHJlZj0nL2Nzcy9yZXNwb25zaXZlLmNzcycgcmVsPSdzdHlsZXNoZWV0JyB0eXBlPSd0ZXh0L2NzcycgLz4NCgkJCWQCBw8WAh8ABc4EPHNjcmlwdCBzcmM9Imh0dHA6Ly9jb250ZW50LmFuZ2llc2xpc3QuY29tL3N0YXRpYy9zY3JpcHRzL21ib3guanMiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+PC9zY3JpcHQ+DQoJPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cDovL2FqYXguZ29vZ2xlYXBpcy5jb20vYWpheC9saWJzL2pxdWVyeS8xLjcuMS9qcXVlcnkubWluLmpzIj48L3NjcmlwdD4gDQoJPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KCS8vPCFbQ0RBVEFbDQoJCSF3aW5kb3cualF1ZXJ5ICYmIGRvY3VtZW50LndyaXRlKCc8c2NyaXB0IHNyYz0iaHR0cDovL2NvbnRlbnQuYW5naWVzbGlzdC5jb20vc3RhdGljL3NjcmlwdHMvanF1ZXJ5LmpzIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjxcL3NjcmlwdD4nKTsNCgkJdmFyICRqID0galF1ZXJ5Lm5vQ29uZmxpY3QoKTsNCgkJdmFyIF9nYXEgPSBfZ2FxIHx8IFtdOw0KCS8vXV0+DQoJPC9zY3JpcHQ+DQoJPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cDovL2NvbnRlbnQuYW5naWVzbGlzdC5jb20vY21zL3NjcmlwdHMvdHJhY2tpbmcuanMiPjwvc2NyaXB0Pg0KCQlkAgUPFgIfAAWQAzxpZnJhbWUgc3JjPSdodHRwOi8vcGl4ZWwuZmV0Y2hiYWNrLmNvbS9zZXJ2ZS9mYi9wZGo/Y2F0PSZhbXA7bmFtZT1sYW5kaW5nJmFtcDtzaWQ9NDkwJyBzY3JvbGxpbmc9J25vJyB3aWR0aD0nMScgaGVpZ2h0PScxJyBtYXJnaW5oZWlnaHQ9JzAnIG1hcmdpbndpZHRoPScwJyBmcmFtZWJvcmRlcj0nMCc+PC9pZnJhbWU+PGltZyBzcmM9J2h0dHA6Ly9hZC55aWVsZG1hbmFnZXIuY29tL3BpeGVsP2lkPTEyNjg2MjYmdD0yJyB3aWR0aD0nMScgaGVpZ2h0PScxJyAvPjxpbWcgd2lkdGg9JzEnIGhlaWdodD0nMScgYm9yZGVyPScwJyBhbHQ9Jycgc3JjPSdodHRwOi8vcG0uZHAueWllbGRtYW5hZ2VyLm5ldC9QaXhlbE1vbmtleT9hZElkPWFuZ2llc2xpc3QmZm9ybWF0PWltYWdlJnVzZVJlZmVycmVyPTEnLz5kZDsxAs/wpIyFiFKNG4bhg8D1pEraeszZobLXL9VtP4ZC" />
+
+            
+	<div class="mboxDefault">
+	</div>
+	<script type="text/javascript">
+//<![CDATA[
+		mboxCreate('Visitor-Tracking', 'page=H - Default');
+//]]>
+	</script>
+	<div id="main-bg">
+		<div id="main-wrapper">
+			<div id="PageContentHolder_DefaultContent">
+	
+				<div id="home-top">
+					<div id="home-top-left">
+						<h1 id="home-top-left-c">
+							<img src="images/home-hdl-getthebestservice.gif" alt="Get the best service?" /></h1>
+						<h2>
+							Find detailed reviews on roofers, plumbers, house cleaners,
+							<br />
+							dentists and more! Over 1 Million members check Angie's List<br />
+							before they hire.</h2>
+						<ul>
+							<li><strong>Companies can't pay</strong> to be on Angie's List</li>
+							<li><strong>Reviews come from real people</strong> like you, not anonymous users</li>
+							<li><strong>Exclusive discounts</strong> from top-rated businesses &ndash; save up to
+								70%</li>
+							<li>Ratings and reviews in<strong> over 550</strong> home repair and health care categories</li>
+							<li><strong>Live call center</strong> and help if a project goes bad</li>
+						</ul>
+						<div id="home-join-panel">
+							<a href="https://my.angieslist.com/angieslist/joinnow.aspx" id="home-join-btn-link">
+								<img src="images/join-btn-large-green.png" id="home-join-btn-c" alt="Join Angie's List" />
+							</a>
+							<div id="home_join_social">
+								<div class="legend">Or join with:</div>
+								<div id="home-join-social-btns"></div>
+								<script type="text/javascript">
+//<![CDATA[
+gigyaconf = {
+	APIKey: "2_WVAi5vpFLQOTIu3-nQEZu6m39Ppx9z9S5L5BPC3ReHqAPdi6MDBys_frKk3c9cQO",
+	enabledProviders: "facebook,google,yahoo",
+	facebookExtraPermissions: "user_location",
+	sessionExpiration: 0
+};
+onGigyaServiceReady = function (serviceName) {
+	
+	gigya.services.socialize.showLoginUI(gigyaconf, {
+		containerID: "home-join-social-btns",
+		cid: 'visitor',
+		showTermsLink: false,
+		hideGigyaLink: true,
+		buttonsStyle: 'fullLogo',
+		width: 214,
+		height: 30,
+		UIConfig: "<config\><body\><controls\><snbuttons buttonsize=\"25\"\></snbuttons\></controls\></body\></config\>",
+		showTooltips: true
+	});
+	function addToForm(f, n, v){
+		var i = document.createElement("input");
+		i.setAttribute("type", "hidden");
+		i.setAttribute("name", n);
+		i.setAttribute("value", v);
+		f.appendChild(i);
+	}
+	// listen for the event
+	gigya.services.socialize.addEventHandlers(gigyaconf, {
+		onLogin: function (e) {
+			if (e.user.isSiteUID) {
+				var form = document.createElement("form");
+				form.setAttribute("method", "post");
+				form.setAttribute("action", "https://my.angieslist.com/angieslist/SocialConnect.ashx");
+				addToForm(form, "UID", e.UID);
+				addToForm(form, "UIDSignature", e.UIDSignature);
+				addToForm(form, "signatureTimestamp", e.signatureTimestamp);
+				document.body.appendChild(form);
+				form.submit();
+			} else {
+				window.location = "https://my.angieslist.com/angieslist/join/pages/newaccountsocial.aspx";
+			}
+		}
+	});
+}
+//]]>
+								  </script>
+								<script type="text/javascript" src="//cdn.gigya.com/JS/socialize.js?apikey=2_WVAi5vpFLQOTIu3-nQEZu6m39Ppx9z9S5L5BPC3ReHqAPdi6MDBys_frKk3c9cQO" id="gigya-script" async="async"></script>
+							  </div>
+						 </div>
+					</div>
+					<div id="home-top-right">
+						<div id="slideshow">
+							<img src="images/hp-slideshow-angie.jpg" class="active" alt="Picture of Angie" />
+							<img src="images/hp-slideshow-roof.jpg" alt="Picture of roof" />
+							<img src="images/hp-slideshow-floor.jpg" alt="Picture of floor" />
+							<img src="images/hp-slideshow-yard.jpg" alt="Picture of yard" />
+							<img src="images/hp-slideshow-doctor.jpg" alt="Picture of doctor" />
+						</div>
+					</div>
+					<div class="clear">
+					</div>
+				</div>
+			
+</div>
+			
+			<div id="home-mid">
+				<div id="home-quicktour-c">
+					<h3>
+						How Angie's List works</h3>
+					<a href="quicktour.aspx" id="quicktour-icon"></a>
+					<p>
+						Angie and a member explain the <a href="quicktour.aspx">benefits of membership</a>.</p>
+				</div>
+				<div id="home-press-c">
+					<h3>
+						As featured in</h3>
+					<img src="images/hp-press-c-1761000.jpg" alt="Today Show, MSNBC, The Wall Street Journal, US News and World Report, Fox and Friends, New York Times" />
+					<p>
+						<a href="inthepress.aspx">See more press</a></p>
+				</div>
+				<div id="home-testimonials">
+					<h3>
+						Testimonials</h3>
+					<p>
+						"Before Angie's List, selecting a service provider was like throwing darts blind
+						folded. Those who report on Angie's List have helped me make informed, logical,
+						educated decisions. I am truly grateful."<br />
+						<em>- Nancy B., St. Paul, Minn</em>.</p>
+					<p>
+						"When I had a problem with a service provider, Angie stuck up for me, and I got
+						action immediately. I wish I would have called earlier!"
+						<br />
+						<em>- Robert H., Columbus, Ohio</em></p>
+					<p>
+						<a href="inthepress.aspx">See more praise</a></p>
+				</div>
+				<div class="clear">
+				</div>
+			</div>
+			<div id="home-btm">
+				<table cellspacing="15" cellpadding="15" id="home-services-table">
+					<tbody>
+						<tr>
+							<td colspan="5" class="service-table-hdl">
+								<h3>
+									Members submit 40,000 new reviews each month in the following service categories:</h3>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>
+									HOME</h4>
+								<p>
+									Carpet Cleaning<br />
+									Electrical<br />
+									Handymen<br />
+									Heating &amp; A/C<br />
+									Housecleaning<br />
+									Painting<br />
+									Plumbing<br />
+									Remodeling<br />
+									Roofing<br />
+									Windows<br />
+								</p>
+							</td>
+							<td>
+								<h4>
+									OUTDOOR</h4>
+								<p>
+									Bicycles<br />
+									Fencing<br />
+									Landscaping<br />
+									Lawn Irrigation<br />
+									Lawn Mower Repair<br />
+									Lawn Treatment<br />
+									Lawn &amp; Yard Work<br />
+									Mulch &amp; Topsoil<br />
+									Pool &amp; Spa Service<br />
+									Tree Service<br />
+								</p>
+							</td>
+							<td>
+								<h4>
+									HEALTH</h4>
+								<p>
+									Dentists<br />
+									Dermatologists<br />
+									Elder Care<br />
+									Hospitals<br />
+									OBGYN<br />
+									Ophthalmologists<br />
+									Pediatricians<br />
+									Plastic Surgeons<br />
+									Primary Care<br />
+									Psychiatrists<br />
+								</p>
+							</td>
+							<td>
+								<h4>
+									AUTO</h4>
+								<p>
+									Auto Service<br />
+									Auto Detailing<br />
+									Auto Sales<br />
+									Auto Tires<br />
+									Auto Glass<br />
+									Auto Transmission<br />
+									Auto Service<br />
+									Auto Detailing<br />
+									Auto Sales<br />
+									Auto Tires</p>
+							</td>
+							<td>
+								<h4>
+									AND MUCH MORE...</h4>
+								<p>
+									Catering<br />
+									Child Care<br />
+									Dance Instruction<br />
+									Fitness Centers<br />
+									Hair Salon/Barbers<br />
+									Jewelery Sales &amp; Repair<br />
+									Limousine Service<br />
+									Manicures/Pedicures<br />
+									Massage Therapy</p>
+								<a href="services.aspx">More</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div style="height: 1px; width: 1px; display: none;">
+		<!-- HP slideshow -->
+		<script type="text/javascript"> 
+<!--
+			function slideSwitch() {
+				var $jactive = $j('#slideshow img.active');
+				if ($jactive.length == 0) $jactive = $j('#slideshow img:last');
+				// use this to pull the images in the order they appear in the markup
+				var $jnext = $jactive.next().length ? $jactive.next()
+        : $j('#slideshow img:first');
+				// uncomment the 3 lines below to pull the images in random order
+				// var $jsibs  = $jactive.siblings();
+				// var rndNum = Math.floor(Math.random() * $jsibs.length );
+				// var $jnext  = $j( $jsibs[ rndNum ] );
+				$jactive.addClass('last-active');
+				$jnext.css({ opacity: 0.0 })
+        .addClass('active')
+        .animate({ opacity: 1.0 }, 1000, function () {
+        	$jactive.removeClass('active last-active');
+        });
+			}
+			$j(function () {
+				setInterval("slideSwitch()", 7000);
+			});
+//-->
+		</script>
+		<!-- Google Code for Landing Page Remarketing List -->
+		<script type="text/javascript">
+<!--
+			var google_conversion_id = 1044277379;
+			var google_conversion_language = "en";
+			var google_conversion_format = "3";
+			var google_conversion_color = "666666";
+			var google_conversion_label = "EYiRCMny1gEQg9H58QM";
+			var google_conversion_value = 0;
+//-->
+		</script>
+		<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+		</script>
+		<noscript>
+			<div style="display: inline;">
+				<img height="1" width="1" style="border-style: none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1044277379/?label=EYiRCMny1gEQg9H58QM&amp;guid=ON&amp;script=0" />
+			</div>
+		</noscript>
+		<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Homepage
+URL of the webpage where the tag is expected to be placed: http://www.angieslist.com/angieslist/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 03/29/2010
+-->
+		<script type="text/javascript">
+	//<![CDATA[
+			var axel = Math.random() + "";
+			var a = axel * 10000000000000;
+			document.write('<iframe src="https://fls.doubleclick.net/activityi;src=2622451;type=angie748;cat=homep191;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+	//]]>
+		</script>
+		<noscript>
+			<iframe src="https://fls.doubleclick.net/activityi;src=2622451;type=angie748;cat=homep191;ord=1?"
+				width="1" height="1" frameborder="0" style="display: none"></iframe>
+		</noscript>
+		<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+		<!-- data xu -->
+		<img src="https://securetags.w55c.net/rs?id=18def01a39fd4bf4b7c1b721d4bfb92e&amp;t=marketing"
+			alt="" />
+		<img src="https://ad.yieldmanager.com/pixel?id=1186512&amp;t=2" width="1" height="1"
+			alt="" />
+		<img height="1" width="1" style="border-style: none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1033198129/?label=YDrMCOW67wEQsbTV7AM&amp;guid=ON&amp;script=0" />
+	</div>
+
+            </form>
+        <div class="clearfooter"></div>    
+    </div><!-- End of Page Content -->
+<div class="mboxDefault">
+    <div id="footer-wrapper">        
+        <div id="footer">
+            <ul>
+            <li><a href="http://www.angieslist.com/">Home</a></li>
+            <li><a href="http://www.angieslist.com/quicktour.aspx">Quick Tour</a></li>
+            <li><a href="http://www.angieslist.com/howitworks.aspx">How It Works</a></li>
+            <li><a href="http://www.angieslist.com/faq.aspx">FAQ</a></li>
+            <li><a href="http://www.angieslist.com/contactus.aspx">Contact Us</a></li>
+            <li><a href="http://investor.angieslist.com/">Investor Relations</a></li>
+            </ul>
+
+            <ul>
+            <li><a href="http://www.angieslist.com/aboutus.aspx">About Us</a></li>
+            <li><a href="http://careers.angieslist.com" class="external">Careers</a></li>
+            <li><a href="https://my.angieslist.com/thebigdeal/" onclick="window.open(this.href);return false" class="external">The Big Deal</a></li>
+            <li><a href="http://reviews.angieslist.com/classiccars.aspx" class="external">Classic Cars</a></li>
+            <li><a href="http://www.angieslist.com/alprivacypolicy.aspx">Privacy Policy</a></li>
+            <li><a href="http://affiliate.angieslist.com/" class="external">Affiliate Program</a></li>
+            </ul>
+
+            <ul>
+	    <li><a href="https://my.angieslist.com/AngiesList/join/pages/gift/default.aspx?u=1" class="external">Gift Memberships</a></li>
+            <li><a href="http://press.angieslist.com/news.aspx" class="external">News</a></li>
+            <li><a href="http://www.angiehicksblog.com/" class="external">Angie's Blog</a></li>
+            <li><a href="http://magazine.angieslist.com/videos/" class="external">Videos</a></li>
+            <li><a href="http://magazine.angieslist.com/tips/" class="external">Home Improvement Tips</a></li>
+            <li><a href="http://magazine.angieslist.com/" class="external">Articles</a></li>
+            </ul>
+
+            <ul>
+            <li><a href="http://business.angieslist.com/?cid=AL" class="external">Business Center</a></li>
+            <li><a href="http://www.angieslist.com/companylist/">Local Guides</a></li>
+            <li><a href="http://www.angieslist.com/services.aspx">Consumer Reviews by Category</a></li>
+            <li><a href="http://www.angieslist.com/companylist/us/">Find Contractors &amp; Doctors</a></li>
+            <li><a href="http://answers.angieslist.com/" class="external">Answers</a></li>
+            </ul>
+
+            <ul class="social">
+            <li><strong>Follow us</strong></li>
+            <li class="social-icons"><a href="http://www.facebook.com/angieslist" onclick="window.open(this.href);return false"><img src="http://content.angieslist.com/cms/images/facebook-icon.png" alt="Facebook" width="39" height="39" /></a> &nbsp; </li>
+            <li class="social-icons"><a href="http://twitter.com/angieslist" onclick="window.open(this.href);return false"><img src="http://content.angieslist.com/cms/images/twitter-icon.png" alt="Twitter" width="39" height="39" /></a> &nbsp; </li>
+            <li class="social-icons"><a href="http://www.youtube.com/angieslisthq" onclick="window.open(this.href);return false"><img src="http://content.angieslist.com/cms/images/youtube-icon.png" alt="YouTube" width="39" height="39" /></a> &nbsp; </li>
+            </ul>
+    
+            <p class="copyright">© Copyright 1995-2012, Angie's List. All Rights Reserved.</p>
+            <div class="clear"></div>
+        </div>
+        
+    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+	mboxCreate('MainFooter');
+//]]>
+</script>
+
+
+    <!-- host: www.angieslist.com (10.62.0.27) -->
+<script type="text/javascript">
+//<![CDATA[
+(function () {
+	function slog(action, events) {
+		s.linkTrackVars = 'events';
+		s.linkTrackEvents = events;
+		s.events = events;
+		s.tl(this, 'o', action);
+	}
+
+	window.fbAsyncInit = function () {
+		var fbp = "http://www.facebook.com/angieslist";
+		FB.Event.subscribe('edge.create', function (r) {
+			if (r == fbp) {
+				slog('Facebook Page like', 'event84');
+			}
+		});
+		FB.Event.subscribe('edge.remove', function (r) {
+			if (r == fbp) {
+				slog('Facebook Page unlike', 'event85');
+			}
+		});
+	};
+
+	gplusclick = function (p) {
+		if (p.state == "on") {
+			slog('Google website +1', 'event80');
+		} else {
+			slog('Google website -1', 'event83');
+		}
+	};
+})();
+//]]>
+</script>
+<div id="fb-root"></div>
+<script type="text/javascript" id="facebook-jssdk" src="https://connect.facebook.net/en_US/all.js#xfbml=1&appId=276484803320" async="async" defer="defer"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" async="async" defer="defer"></script>
+
+    <script language="javascript" type="text/javascript">
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <iframe src='http://pixel.fetchback.com/serve/fb/pdj?cat=&amp;name=landing&amp;sid=490' scrolling='no' width='1' height='1' marginheight='0' marginwidth='0' frameborder='0'></iframe><img src='http://ad.yieldmanager.com/pixel?id=1268626&t=2' width='1' height='1' /><img width='1' height='1' border='0' alt='' src='http://pm.dp.yieldmanager.net/PixelMonkey?adId=angieslist&format=image&useReferrer=1'/>
+
+
+</body>
+</html>

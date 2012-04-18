@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Build: R16B041 -->
+<!-- Strand Id: 0019001462 -->
+
+<!-- layout( DUMMIES2 Homepage New ) -->
+ <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <link href="http://media.wiley.com/spa_assets/site/dummies2/include/style.css" type="text/css" rel="stylesheet" />
+   <title>
+How-To Help and Videos - For Dummies
+   </title>
+   <!-- primaryContent ( isCommon:true property:head ) : /site/dummies2/pvo/COMMON_head.jsp -->
+<meta name="description" content="Make everything easier in your life with step-by-step instruction, how-to information, and video demonstrations awaiting your discovery at dummies.com  the online resource for fun fact-finding." />
+
+
+   <!-- / primaryContent ( isCommon:true property:head ) : /site/dummies2/pvo/COMMON_head.jsp -->
+   <!-- staticFeature ( ref:DUMMIES2_DOUBLECLICK_JS ) -->
+   <script type="text/javascript">
+// Generate random number for DART cache busting
+ var ordDart=Math.random()*10000000000000000;
+</script>
+<!-- / staticFeature ( ref:DUMMIES2_DOUBLECLICK_JS ) -->
+   <!-- staticFeature ( ref:DUMMIES2_GWT ) -->
+   <meta name="google-site-verification" content="yHECw6Grzgil1e7KyJmDTGX02Z8NUKikuogbbQp4Fx8" /><!-- / staticFeature ( ref:DUMMIES2_GWT ) -->
+   <!--[if lt IE 8]>
+    <link href="http://media.wiley.com/assets/1542/34/154234.css" media="all" rel="stylesheet" type="text/css" />
+   <![endif]-->
+   <link href="http://media.wiley.com/assets/1555/46/155546.css" media="all" rel="stylesheet" type="text/css" />
+   <link href="http://media.wiley.com/assets/1547/98/154798.css" media="print" rel="stylesheet" type="text/css" />
+   <!-- SmartSource 8 -->
+   <meta name="WT.sv" content="" />
+   <meta name="DCS.dcsuri" content="%2FWileyCDA%2FSection%2Findex.html" />
+   <meta name="DCS.dcsqry" content="" />
+   <meta name="DCS.dcsdat" content="1334716374081" />
+   <meta name="DCSext.Section" content="320001+Home" />
+   <meta name="DCSext.SiteCd" content="DUMMIES_US" />
+   <meta name="DCSext.PrimaryContentGroup" content="HOME" />
+   <meta name="DCSext.Level2" content="Home" />
+   <meta name="DCSext.NavArea" content="DUMMIES2_HOME" />
+   <meta name="DCSext.PageType" content="HTML" />
+   <meta name="DCSext.Level1" content="" />
+   <!-- / SmartSource 8 -->
+   <script src="http://media.wiley.com/spa_assets/site/shared/jquery-1.4.2.js" type="text/javascript">
+   </script>
+   <!-- staticFeature ( ref:DUMMIES2_GOOGLE_WEBMASTER_META ) -->
+   <meta name="google-site-verification" content="yHECw6Grzgil1e7KyJmDTGX02Z8NUKikuogbbQp4Fx8" />
+<!-- / staticFeature ( ref:DUMMIES2_GOOGLE_WEBMASTER_META ) -->
+  <!-- Page Vars -->
+  <script type="text/javascript">var pageVars={
+  "adInfo": ";navArea\u003dDUMMIES2_HOME;pageType\u003dHTML",
+  "bookmarkKey": "320001",
+  "breadCrumbTrail": [],
+  "country.a2": "US",
+  "country.a3": "USA",
+  "country.geographicRegion": "Americas",
+  "country.iSOCountryName": "UNITED STATES",
+  "country.n3": "840",
+  "country.region": "us",
+  "country.regionName": "United States",
+  "country.sortName": "UNITED STATES",
+  "country.wileyCountryName": "United States",
+  "country.wileyPlusCurrencyCd": "USD",
+  "country.wileyPlusLocationCd": "NY",
+  "defaultPrimaryContentGroup": "Sections",
+  "effectiveDate.date": 17,
+  "effectiveDate.day": 2,
+  "effectiveDate.hours": 18,
+  "effectiveDate.minutes": 48,
+  "effectiveDate.month": 3,
+  "effectiveDate.seconds": 59,
+  "effectiveDate.time": 1334702939764,
+  "effectiveDate.timezoneOffset": 240,
+  "effectiveDate.year": 112,
+  "hTMLTitle": "How-To Help and Videos",
+  "html": "\u003c!-- --\u003e",
+  "jspFolder": "/site/dummies2",
+  "layoutIdentifier.int": 501431,
+  "metaText": "Make everything easier in your life with step-by-step instruction, how-to information, and video demonstrations awaiting your discovery at dummies.com  the online resource for fun fact-finding.",
+  "navArea": "DUMMIES2_HOME",
+  "navId": 320001,
+  "navIdObject": 320001,
+  "pVOTypeNm": "HTML",
+  "pageInfoMap": "{Section\u003d320001 Home, SiteCd\u003dDUMMIES_US, PrimaryContentGroup\u003dHOME, Level2\u003dHome, NavArea\u003dDUMMIES2_HOME, PageType\u003dHTML, Level1\u003d}",
+  "placementIdentifier.int": 320001,
+  "primaryContentGroup": "HOME",
+  "qualifyingClassName": "HtmlPVO",
+  "specialUseCd": "DUMMIES2_HOME_PAGE",
+  "title": "Home"
+};
+  </script>
+  <!-- / Page Vars -->
+  </head>
+  <body class="layout-threecol">
+  <!-- Omniture Code Start Block -->
+  <script type="text/javascript">
+     var _gaq = _gaq || [];
+     var Wiley = Wiley || {};  Wiley.Events = Wiley.Events || []; Wiley.Vars = Wiley.Vars || {}; Wiley.Props = Wiley.Props || {};
+     var WRInitTime=(new Date()).getTime();
+</script>
+
+  <!-- / Omniture Code Start Block -->
+   <div id="wrapper">
+     <!-- dynamicFeature ( ref:DUMMIES2_AD_DYNAMIC_FEATURE ) -->
+<div class="leaderboard">
+<h6 class="caption">Advertisement</h6>
+<!-- begin ad tag (tile=1) -->
+<script language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/DummiesSite/;navArea=DUMMIES2_HOME;pageType=HTML;tile=1;dcopt=ist;sz=728x90;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script><noscript><a href="http://ad.doubleclick.net/jump/DummiesSite/;navArea=DUMMIES2_HOME;pageType=HTML;tile=1;sz=728x90;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/ad/DummiesSite/;navArea=DUMMIES2_HOME;pageType=HTML;tile=1;sz=728x90;ord=123456789?" width="728" height="90" border="0" alt=""></a></noscript>
+<!-- End ad tag -->
+</div>
+<!-- dynamicFeature ( ref:DUMMIES2_AD_DYNAMIC_FEATURE ) -->
+    <div id="header">
+     <!-- staticFeature ( ref:DUMMIES2_SITE_HEADER ) -->
+     	<a href="/Section/Home.id-320001.html"><img src="http://media.wiley.com/assets/5014/43/logo.png" alt="Dummies.com - Making Everything Easier" id="header-logo" class="logo" /></a>
+	<form id="searchForm" action="/Section/Content-Search.id-324209.html">
+		<input type="text" id="query" name="query" class="required text" title="Search term" />
+		<a class="button large" onclick="WILEY.dummies.util.validateForm('searchForm');"><span>Search</span></a>
+	</form>
+	<div id="header-links">
+            <div id="social-links">
+            <a href="http://www.facebook.com/ForDummies"><img src="http://media.wiley.com/assets/5014/39/icon-facebook.png" alt="Facebook" /></a>
+           <a href="https://plus.google.com/105265587979403653723"><img src="http://media.wiley.com/assets/5037/00/icon-gplus.png" alt="Google+" /></a>
+            <a href="http://twitter.com/fordummies"><img src="http://media.wiley.com/assets/5014/41/icon-twitter.png" alt="Twitter" /></a>
+            <a href="http://www.youtube.com/fordummies"><img src="http://media.wiley.com/assets/5014/42/icon-youtube.png" alt="YouTube" /></a>
+            <a href="/go/newsletter"><img src="http://media.wiley.com/assets/5014/40/icon-news.png" alt="News" /></a>
+            </div>
+	    <a href="/Section/Store.id-321213.html" id="store-link"><img src="http://media.wiley.com/assets/5037/41/shop-books.png" alt="Shop for Books &amp; More" /></a>
+	</div>
+<!-- / staticFeature ( ref:DUMMIES2_SITE_HEADER ) -->
+    </div>
+    <div id="columns">
+     <div id="sidebar">
+      <!-- staticFeature ( ref:DUMMIES2_HOMEPAGE_TOPICS ) -->
+      <div id="home-topics">
+		<ul class="topics">
+			<li><a href="/Section/Business-Careers.id-323001.html">Business & Careers</a></li>
+			<li><a href="/Section/Computers-Software.id-323006.html">Computers & Software</a></li>
+			<li><a href="/Section/Consumer-Electronics.id-323198.html">Consumer Electronics</a></li>
+			<li><a href="/Section/Crafts-Hobbies.id-323220.html">Crafts & Hobbies</a></li>
+			<li><a href="/Section/Education-Languages.id-323221.html">Education & Languages</a></li>
+			<li><a href="/Section/Food-Drink.id-323323.html">Food & Drink</a></li>
+			<li><a href="/Section/Health-Fitness.id-323462.html">Health & Fitness</a></li>
+			<li><a href="/Section/Home-Garden.id-323557.html">Home & Garden</a></li>
+			<li><a href="/Section/Internet-Social-Media.id-323647.html">Internet & Social Media</a></li>
+			<li><a href="/Section/Music-Creative-Arts.id-323651.html">Music & Creative Arts</a></li>
+			<li><a href="/Section/Personal-Finance.id-323654.html">Personal Finance</a></li>
+			<li><a href="/Section/Pets.id-323756.html">Pets</a></li>
+			<li><a href="/Section/Photography-Video.id-323763.html">Photography & Video</a></li>
+			<li><a href="/Section/Relationships-Family.id-323837.html">Relationships & Family</a></li>
+			<li><a href="/Section/Religion-Spirituality.id-323838.html">Religion & Spirituality</a></li>
+			<li><a href="/Section/Sports-Outdoors.id-323839.html">Sports & Outdoors</a></li>
+			<li><a href="/Section/Games.id-323854.html">Games</a></li>
+			<li><a href="/Section/Travel.id-323859.html">Travel</a></li>
+		</ul>
+</div>
+<!-- / staticFeature ( ref:DUMMIES2_HOMEPAGE_TOPICS ) -->
+      <!-- placementZone ( num:1 ) -->
+      <!-- / placementZone ( num:1 ) -->
+     </div>
+     <div id="homepage-content">
+      <!-- placementZone ( num:2 ) -->
+      <!-- placement ( pos:0 zone:2 ) : DYNAMIC -->
+      <div class="placement" style="margin-bottom:0px;">
+
+
+
+
+
+
+<div class="multi-feature-carousel">
+
+	<div class="feature" style="display:none;">
+	    <div class="top-banner">More in <a href="/Section/Titanic.id-810861.html">Titanic</a> &gt;</div>
+<a href="/how-to/content/suites-and-cabins-for-passengers-on-the-titanic.html"><img class="feature-image" src="http://media.wiley.com/assets/7026/92/suites_titanic622x264.jpg" alt="" /></a>
+<div class="bottom-banner">
+<div class="product-coverImageLine"><a href="/store/product/The-Titanic-For-Dummies.productCd-1118177665.html"><img src="http://media.wiley.com/product_data/coverImage80/65/11181776/1118177665.jpg" alt="Cover image for product 1118177665" height="100" width="80" class="product-coverImage" /></a></div>
+<h4><a href="/how-to/content/suites-and-cabins-for-passengers-on-the-titanic.html">Suites and Cabins for Passengers on the Titanic</a></h4>
+<p>From the book <em><span class="product-title"><a href="/store/product/The-Titanic-For-Dummies.productCd-1118177665.html" title="Information about this product: The Titanic For Dummies">The Titanic For Dummies</a></span></em></p> 
+</div>
+
+	</div>
+
+	<div class="feature" style="display:none;">
+	    <div class="top-banner">More in <a href="/Section/Container-Gardening.id-403800.html">Container Gardening</a> &gt;</div>
+<a href="/how-to/content/container-gardening-how-to-plant-vegetables-in-pot.html"><img class="feature-image" src="http://media.wiley.com/assets/7026/95/container_gardening622x264.jpg" alt="" /></a>
+<div class="bottom-banner">
+<div class="product-coverImageLine"><a href="/store/product/Vegetable-Gardening-For-Dummies-2nd-Edition.productCd-0470498706.html"><img src="http://media.wiley.com/product_data/coverImage80/06/04704987/0470498706.jpg" alt="Cover image for product 0470498706" height="100" width="80" class="product-coverImage" /></a></div>
+<h4><a href="/how-to/content/container-gardening-how-to-plant-vegetables-in-pot.html">Container Gardening: How to Plant Vegetables in Pots</a></h4>
+<p>From the book <em><span class="product-title"><a href="/store/product/Vegetable-Gardening-For-Dummies-2nd-Edition.productCd-0470498706.html" title="Information about this product: Vegetable Gardening For Dummies, 2nd Edition">Vegetable Gardening For Dummies, 2nd Edition</a></span></em></p> 
+</div>
+
+	</div>
+
+	<div class="feature" style="display:none;">
+	    <div class="top-banner">Visit the NEW <a href="http://www.dummieselearning.com/" target="_blank"><i>For Dummies</i> eLearning Center</a> &gt;</div>
+<a href="http://www.dummieselearning.com/" target="_blank""><img class="feature-image" src="http://media.wiley.com/assets/7012/71/eLearning_manAtDesk_622x264.jpg" alt="" /></a>
+<div class="bottom-banner">
+<div class="product-coverImageLine"></div>
+<p><h4>From Windows 7 and Office 2010 to Digital Photography...</h4></p>
+<p>Start eLearning today! <a href="http://www.dummieselearning.com/" target="_blank"">Register now</a></p>
+</div>
+
+	</div>
+
+	<div class="feature" style="display:none;">
+	    <div class="top-banner">More in <a href="/Section/Office-2011-for-Mac.id-410942.html">Office 2011 for Mac</a> &gt;</div>
+<a href="/how-to/content/customizing-words-keyboard-shortcuts-in-office-201.html"><img class="feature-image" src="http://media.wiley.com/assets/7026/96/word_keyboard_shortcuts622x264.jpg" alt="" /></a>
+<div class="bottom-banner">
+<div class="product-coverImageLine"><a href="/store/product/Office-2011-for-Mac-All-in-One-For-Dummies.productCd-0470903716.html"><img src="http://media.wiley.com/product_data/coverImage80/16/04709037/0470903716.jpg" alt="Cover image for product 0470903716" height="100" width="80" class="product-coverImage" /></a></div>
+<h4><a href="/how-to/content/customizing-words-keyboard-shortcuts-in-office-201.html">Customizing Word's Keyboard Shortcuts in Office 2011 for Mac</a></h4>
+<p>From the book <em><span class="product-title"><a href="/store/product/Office-2011-for-Mac-All-in-One-For-Dummies.productCd-0470903716.html" title="Information about this product: Office 2011 for Mac All-in-One For Dummies">Office 2011 for Mac All-in-One For Dummies</a></span></em></p> 
+</div>
+
+	</div>
+
+</div>
+<ul class="multi-feature-carousel-navigation">
+
+    <li><a href="javascript:;"></a></li>
+
+    <li><a href="javascript:;"></a></li>
+
+    <li><a href="javascript:;"></a></li>
+
+    <li><a href="javascript:;"></a></li>
+
+</ul>
+<div class="clear"></div>
+
+
+</div>
+      <!-- / placement ( pos:0 zone:2 ) : DYNAMIC -->
+      <!-- / placementZone ( num:2 ) -->
+     </div>
+     <div id="main-content">
+      <!-- placementZone ( num:3 ) -->
+      <!-- placement ( pos:0 zone:3 ) : DYNAMIC -->
+      <div class="placement" style="margin-bottom:10px;">
+
+
+
+
+<div class="feature-container">
+    <div class="feature-container-header">
+        <h4>Learn Something New:</h4>
+        <h2>Robert's Rules</h2>
+    </div>
+    <div class="feature-box">
+        <h5 class="feature-box-header">Featured How-To Articles and Videos</h5>
+        <ul>
+        
+            
+            <li>
+                <a href="/how-to/content/id-233404.html">What Are Robert's Rules of Order?</a>
+            </li>
+        
+            
+            <li>
+                <a href="/how-to/content/id-233403.html">Robert's Rules for Making a Motion: Mistakes to Avoid</a>
+            </li>
+        
+            
+            <li>
+                <a href="/how-to/content/id-233408.html">When Rules Conflict: Robert's Rules for Precedence</a>
+            </li>
+        
+            
+            <li>
+                <a href="/how-to/content/id-233412.html">Robert's Rules Bylaws Checklist</a>
+            </li>
+        
+        </ul>
+        <p><a href="/how-to/business-careers/Robert-s-Rules.html" class="more">
+        Read more articles and videos on Robert's Rules<span> &nbsp;&gt;</span></a></p>
+    </div>
+    <div class="feature-box">
+        <h5 class="feature-box-header">Featured Product</h5>
+        <div class="product-listing size80">
+<div class="product-coverImageLine"><a href="/store/product/Robert-s-Rules-For-Dummies.productCd-0764575740.html"><img src="http://media.wiley.com/product_data/coverImage80/40/07645757/0764575740.jpg" alt="Robert's Rules For Dummies (0764575740) cover image" title="Robert's Rules For Dummies (0764575740) cover image" height="121" width="80" class="product-coverImage"></a></div>
+<div class="product-title"><a href="/store/product/Robert-s-Rules-For-Dummies.productCd-0764575740.html" title="Information about this product: Robert's Rules For Dummies">Robert's Rules For Dummies</a></div>
+<div class="product-orderLine"><span class="product-price">US $16.99</span> <a href="/countryConfirm?originalUrl=%2Fmarketbasket.cgi%3Fisbn%3D0764575740" class="product-cartIcon"><img src="http://media.wiley.com/spa_assets/site/dummies2/include/images/icons/shopping_cart_trans.gif" /></a> <a href="/countryConfirm?originalUrl=%2Fmarketbasket.cgi%3Fisbn%3D0764575740" class="product-cartLink">Add to Cart</a></div>
+<div class="product-coverImage-clear"></div>
+</div>
+
+        <p class="clear"><a href="/store/Business-Investing-Careers/General-Business.html" class="more">Find more books on General Business<span> &nbsp;&gt;</span></a></p>
+        
+    </div>
+</div>
+</div>
+      <!-- / placement ( pos:0 zone:3 ) : DYNAMIC -->
+      <!-- placement ( pos:1 zone:3 ) : STATIC -->
+      <div class="placement" style="margin-bottom:10px;"><div class="feature-box">
+	<h5 class="feature-box-header">ONLINE LEARNING</h5>
+       <div class="product-listing size80">
+	<div class="product-coverImageLine"><a href="http://www.dummieselearning.com/"><img class="product-coverImage" src="http://media.wiley.com/assets/7011/52/excel2010_elearning_x80.jpg" /></a></div>
+        <div class="product-title"><a href="http://www.dummieselearning.com/">Course: Excel 2010 For Dummies</a></div>
+	<div class="product-description">
+	Learn the basics of creating Excel spreadsheets, creating and using formulas and functions, formatting worksheets, and more through interactive lessons from our partner, Element K.
+	</div>
+        <div class="product-coverImage-clear"></div>
+        </div>
+	<p class="clear"><a href="http://www.dummieselearning.com/" class="more">See all Dummies online learning courses<span> &nbsp;&gt;</span></a></p>
+</div>
+</div>
+      <!-- / placement ( pos:1 zone:3 ) : STATIC -->
+      <!-- / placementZone ( num:3 ) -->
+     </div>
+     <div id="rightbar">
+      <!-- dynamicFeature ( ref:DUMMIES2_AD_DYNAMIC_FEATURE ) -->
+<div class="placement" style="margin-bottom:px;">
+<h6 class="caption">Advertisement</h6>
+<!-- begin ad tag (tile=3) -->
+<script language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://ad.doubleclick.net/adj/DummiesSite/;navArea=DUMMIES2_HOME;pageType=HTML;tile=3;dcopt=ist;sz=300x250;ord=' + ord + '?" type="text/javascript"><\/script>');
+</script><noscript><a href="http://ad.doubleclick.net/jump/DummiesSite/;navArea=DUMMIES2_HOME;pageType=HTML;tile=3;sz=300x250;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/ad/DummiesSite/;navArea=DUMMIES2_HOME;pageType=HTML;tile=3;sz=300x250;ord=123456789?" width="300" height="250" border="0" alt=""></a></noscript>
+<!-- End ad tag -->
+</div>
+<!-- dynamicFeature ( ref:DUMMIES2_AD_DYNAMIC_FEATURE ) -->
+      <div class="feature-divider">
+      </div>
+      <!-- dynamicFeature ( ref:DUMMIES2_SITE_CONDITIONAL_FEATURE ) -->
+
+
+<a href="http://etips.dummies.com/contest.asp?template=WIN2"><img src="http://media.wiley.com/assets/7026/57/sweeps0412_300x125.jpg"></a>
+
+<!-- dynamicFeature ( ref:DUMMIES2_SITE_CONDITIONAL_FEATURE ) -->
+      <div class="feature-divider">
+      </div>
+      <!-- placementZone ( num:4 ) -->
+      <!-- placement ( pos:0 zone:4 ) : STATIC -->
+      <div class="placement" style="margin-bottom:10px;"><div class="social-box left">
+<h3>Be Our Friend</h3>
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=126264304088100&amp;xfbml=1"></script><fb:like href="" send="false" layout="button_count" width="123" show_faces="false" font=""></fb:like>
+</div>
+<div class="social-box right">
+<h3>Newsletters</h3>
+<a href="/go/newsletter" class="subscribe-button"><span>Subscribe</span></a>
+</div>
+</div>
+      <!-- / placement ( pos:0 zone:4 ) : STATIC -->
+      <!-- / placementZone ( num:4 ) -->
+     </div>
+    </div>
+    <!-- dynamicFeature ( ref:SITE_SPECIFIC_NAV ) -->
+
+
+
+
+
+<!-- DUMMIES_US Footer -->
+<div id="footer">
+    <ul class="footer-links sitelinks">
+		<li><a href="/about-for-dummies.html">About For Dummies</a></li>
+		<li><a href="/go/newsletter">Subscribe or Unsubscribe to E-Mail Newsletters</a></li>
+		<li><a href="/marketbasket.cgi?function=viewaccount">My Account</a></li>
+		<li><a href="/store.html">Store</a></li>
+		<li><a href="/marketbasket.cgi?function=viewcart">Shopping Cart</a></li>
+		<li><a href="/how-to.html">Topics A-Z</a></li>
+        <li class="last"><a href="http://dummies.custhelp.com" target="_blank">Help</a></li>
+	</ul>
+
+	
+	<ul class="footer-links">
+	    <li class="last"><a href="/biz.html" target="_blank">Dummies.biz</a></li>
+	</ul>
+	
+	<ul class="footer-links">
+		<li><a href="/about-for-dummies/privacy-policy.html">Privacy Policy</a></li>
+		<li><a href="/about-for-dummies/terms-of-use.html">Terms and Conditions</a></li>
+		<li><a href="/go/advertise">Advertise with Us</a></li>
+		<li class="last"><a href="http://dummies.custhelp.com" target="_blank">Contact Us</a></li>
+	</ul>
+	
+	<span>Copyright &copy; 2012 &amp; Trademark by <a href="http://www.wiley.com">John Wiley & Sons, Inc.</a> All rights reserved.</span>
+
+</div>   
+
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/lib/prototype.js"></script>
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/lib/effects.js"></script>
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/lib/resizable.js"></script>
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/lib/dragdrop.js"></script>
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/lib/livepipe.js"></script>
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/window.js"></script>
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/slideshow.js"></script>
+<script language="javascript" type="text/javascript" src="http://media.wiley.com/spa_assets/site/dummies2/include/js/tools.js"></script>
+
+<!-- / DUMMIES_US Footer --><!-- dynamicFeature ( ref:SITE_SPECIFIC_NAV ) -->
+   </div>
+   <!-- staticFeature ( ref:DUMMIES2_GA_TRACK ) -->
+   <!-- --><!-- / staticFeature ( ref:DUMMIES2_GA_TRACK ) -->
+   <!-- staticFeature ( ref:DUMMIES2_SCODE ) -->
+   <!-- --><!-- / staticFeature ( ref:DUMMIES2_SCODE ) -->
+   <!-- SmartSource 8 -->
+   <script src="/include/smart_source_8/dcs_8.6.2.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+var _tag=new WebTrends(); _tag.dcsGetId(); _tag.dcsCollect();
+//--></script>
+<noscript><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://sdc8prod1.wiley.com/dcs60s2es00000kbemuolm2uf_1n3j/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.6.2"/></noscript>
+   <!-- / SmartSource 8 -->
+   <!-- staticFeature ( ref:DUMMIES2_QUANTCAST ) -->
+   <!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-19VPKoYmFhyts"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-19VPKoYmFhyts.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+<!-- / staticFeature ( ref:DUMMIES2_QUANTCAST ) -->
+   <!-- staticFeature ( ref:DUMMIES2_RETARGETING_PIXEL ) -->
+   <!-- List Id = 11326 and List Name = CM_JohnWiley&Son --> 
+
+<!-- Begin ad tag --> 
+<img src="http://ad.doubleclick.net/activity;src=1270268;dcnet=4155;boom=11326;sz=1x1;ord=1?"width=1 height=1 border=0>
+<!-- End ad tag --> 
+<!-- / staticFeature ( ref:DUMMIES2_RETARGETING_PIXEL ) -->
+  <!-- Omniture Code End Block -->
+  <script type="text/javascript" src="http://media.wiley.com/assets/5024/27/s_code.js"></script>
+
+<script type="text/javascript">
+if (document.body.className.indexOf('analytics-exc', 0) <=-1){
+       var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-6729289-5'],['oldga._setAccount','UA-789257-4']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['oldga._trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+}
+</script>
+
+<script type="text/javascript">
+if (document.body.className.indexOf('analytics-exc', 0) <=-1){
+        var s_code=s.t();
+    }
+if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><img src="http://wileypublishing.112.2o7.net/b/ss/wileydumcom/1/H.23.4--NS/0"
+height="1" width="1" border="0" alt="" /></noscript>
+
+  <!-- / Omniture Code End Block -->
+  </body>
+ </html>
+<!-- / layout( DUMMIES2 Homepage New ) -->

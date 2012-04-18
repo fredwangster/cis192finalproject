@@ -1,0 +1,654 @@
+<html>
+<HEAD><script language="JavaScript"><!-- Hiding
+var bName = navigator.appName;
+var bVer = parseInt(navigator.appVersion);
+if    (  (bName == "Netscape" && bVer >= 3) ||    (bName == "Microsoft Internet Explorer"  &&  bVer >= 4  ) ){
+    if (parent.frames[1]){
+            parent.location.href = self.location.href;
+    }
+}
+// -->
+</script> 
+ <meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://gardenweb.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://gardenweb.com" r (n 0 s 0 v 0 l 0))'>
+  <title>GardenWeb - The Internet's Garden Community</title>
+  <meta name="description" content="GardenWeb is the largest gardening site on the Web, with garden forums, articles on gardening, directories of nurseries, gardens and gardening organizations, a botanical glossary, an events calendar, a plant database, contests, and much more!  ">
+  <meta name="keywords" content="GardenWeb, garden, gardening, forums, contests, calendar,  happenings, gardenweb, events,  plants, flowers, gardening tips, garden contests, botanical glossary">
+  <meta name="target" content="GardenWeb Home Page, Home Page, Index">
+
+  <!-- BEGIN STYLESHEET / SCRIPT REFERENCES -->
+  <style>
+
+    /* ELEMENTS */
+    b   { font-weight: bold; }
+    u   { text-decoration: underline; }
+    i   { font-style: italic; }
+
+    body { margin: 0; padding: 0; }
+    h2 { font-size: 16px; font-weight: bold; margin-bottom: 10px; }
+    h3 { font-size: 14px; font-weight: bold; margin-bottom: 10px; }
+    td { font-size: 11px; font-family: arial, verdana, sans-serif; color: #2F482B; }
+    p { margin: 10px 0 5px 0; }
+    br { line-height: 10px; }
+
+    /* LINKS */
+    a:link, a:visited { color: #2F482B; text-decoration: underline; }
+    a:hover { color: #B2C60B; text-decoration: underline; }
+
+    .topnav { color: #fff; font-size: 11px; font-weight: bold; }
+    a.topnav:link { color: #fff; text-decoration: none; }
+    a.topnav:visited  { color: #fff; text-decoration: none; }
+    a.topnav:hover { color: #B2C60B; text-decoration: none; }
+
+    .bottomnav { color: #fff; font-size: 11px; font-weight: }
+    a.bottomnav:link { color: #fff; text-decoration: none; }
+    a.bottomnav:visited  { color: #fff; text-decoration: none; }
+    a.bottomnav:hover { color: #B2C60B; text-decoration: none; }
+
+    .sponsor { color: #0A1207; font-size: 11px; font-weight: bold; }
+    a.sponsor:link { color: #0A1207; text-decoration: underline; }
+    a.sponsor:visited  { color: #0A1207; text-decoration: underline; }
+    a.sponsor:hover { color: #B2C60B; text-decoration: underline; }
+
+
+    .footer { color: #c00; font-size: 11px; font-weight: normal; }
+    a.footer:link { color: #c00; text-decoration: none; }
+    a.footer:visited  { color: #c00; text-decoration: none; }
+    a.footer:hover { color: #c00; text-decoration: underline; }
+
+    /* CLASSES */
+    .textSmall { font-size: 11px; }
+    .textMedium { font-size: 13px; font-weight: bold; }
+    .textLarge { font-size: 16px; font-weight: bold; }
+    .center { text-align: center; }
+    .justify { text-align: justify; }
+    .bold { font-weight: bold; }
+    .textField { background-color: #fff; color: #333; font-weight: normal; font-size: 12px; border: 1px solid #999; padding: 1px; }
+    .white { color: #fff; }
+    .bullet { background: url(http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/bullet.gif) repeat-x; width: 416px; height: 8px; }
+    .advertsponsorlinks a { text-decoration:underline; color:#375e32; cursor:pointer; font-family: Verdana; font-size: 11px; font-weight: bold; }
+  </style>
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+        <link rel="stylesheet" type="text/css" href="http://graphics.gardenweb.com/graphics/css/gw.css">
+    <link rel="stylesheet" type="text/css" href="http://graphics.gardenweb.com/graphics/css/nav.css">
+
+       
+	
+<!-- CleanPrint js removal - trac 1586 -->
+ <!-- begin header js -->
+    <script language="javascript" type="text/javascript" src="http://graphics.gardenweb.com/stc/ivjs/iv_header.js"></script> 
+    <script language="javascript" type="text/javascript" src="http://graphics.gardenweb.com/graphics/js/nav.js"></script>
+
+<!-- Tacoda Code Removed, trac-1164 -->
+
+    <script language="javascript" type="text/javascript">
+      //<![CDATA[
+        document.checkedPBA = (location.search == '')? true : false;
+        if (!document.iv_arrival_pba) document.iv_arrival_pba = '';
+        if (!document.dartFTT) document.dartFTT = '';
+        if (!document.dartTData) document.dartTData = '';
+        if (!document.dartTid) document.dartTid = '';
+        if (!document.catid) document.catid = '';
+        if (!document.ivrtt) document.ivrtt = '';
+
+        document.iv_commonDARTJS = '';
+
+        if (typeof iv_showCobrand == 'string') {
+          if (iv_showCobrand == 'msnwomen' || iv_showCobrand == 'msndiet') {
+            document.iv_commonDARTJS = '!category=msn;'
+          }
+        }
+
+        if (!document.ivNPA) {
+          qs = location.search.substring(1).split('&');
+          document.ivNPA = '';
+          for (i = 0; i < qs.length; i++) {
+            valSplit = qs[i].split('=');
+            if (valSplit[0] == 'ivNPA') {
+              if (valSplit[1] == 1) {
+                document.iv_arrival_pba = '!category=nopopup;!category=nopopunder;';
+                break;
+              }
+            }
+          }
+        }
+
+        if (!document.checkedPBA) {
+          for (i = 0; i < qs.length; i++) {
+            pos = qs[i].indexOf('=');
+            if (qs[i].substring(0, pos) == 'pba') {
+              document.iv_arrival_pba = unescape(qs[i].substring(pos+1)+';!category=nopopup;!category=nopopunder;');
+              document.checkedPBA = 1;
+              break;
+            }
+          }
+        }
+      
+      function replaceChars() {
+      var bodyHTML = document.body.innerHTML;
+      bodyHTML = bodyHTML.replace(/“/g, "'");
+      bodyHTML = bodyHTML.replace(/’/g, "'");
+      bodyHTML = bodyHTML.replace(/�/g, "'");
+      document.body.innerHTML = bodyHTML;
+      }  
+      //]]>
+    </script>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <script src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" charset="utf-8">
+    google.load('ads.search', '2');
+    </script> 	
+    <!-- end header js -->
+
+
+</HEAD>
+
+<body bgcolor="#E6DBA7" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+      <!-- OPA/FSA and Rail Ads -->
+	<script src="http://www.nbcudigitaladops.com/hosted/global_header.js"></script>
+	<script type="text/javascript" src="http://graphics.gardenweb.com/stc/newhomepageJS/jquery-1.31.js"></script>
+	<script type="text/javascript" src="http://graphics.gardenweb.com/stc/newhomepageJS/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="http://graphics.gardenweb.com/stc/newhomepageJS/jquery.cookie.js"></script>
+	<!-- End OPA/FSA and Rail Ads -->
+
+       <map name="header_gardenweb_right">
+            <area shape="rect" alt="JOIN NOW" coords="64,10,119,28" href="javascript:document.location.href='http://www.gardenweb.com/auth/nph-logincheck.cgi?register_form'">
+            <area shape="rect" alt="LOG IN" coords="11,10,51,28" href="javascript:document.location.href='http://www.gardenweb.com/auth/login.htm?'+(document.location.href)">
+       </map>
+
+<TABLE align="left" bgcolor="#A39614" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD align="left">
+
+      <!-- BEGIN HEADER -->
+      <table width="970" border="0" cellpadding="0" cellspacing="0" align="center" style="background: url(http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/bg_header.gif)) no-repeat;">
+        <tr valign="top">
+          <td width="20"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="20" height="52" border="0" alt=""></td>
+          <td width="932">
+            <!-- BEGIN LOGO / LOGIN & JOIN NOW -->
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr valign="top">
+                <td width="62"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="62" height="1" border="0" alt=""></td>
+		<td width="40"><img height="52" border="0" alt="iVillage GardenWeb" src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/t.gif" width="40"/></td>
+                <td width="236"><img src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/logo_gardenweb_left.gif" width="236" height="52" border="0" alt="iVillage GardenWeb"></td>
+		<td width="55"><img height="52" border="0" alt="iVillage GardenWeb" src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/t.gif" width="5"/></td>
+                <td width="358"><img src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/logo_gardenweb_right.gif" width="358" height="52" border="0" alt="THE INTERNET'S GARDEN & HOME COMMUNITY" usemap="#header_gardenweb_right"></td>
+                <td width="76" valign="bottom"><img src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/ad_header.gif" width="76" height="10" border="0" alt="ADVERTISEMENT"></td>
+              </tr>
+            </table>
+            <!-- END LOGO / LOGIN & JOIN NOW -->
+          </td>
+          <td width="18"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="18" height="1" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td width="20"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="20" height="1" border="0" alt=""></td>
+          <td width="932" height="96" align="center" bgcolor="#a39614">
+            <!-- BEGIN TOP ADVERTISMENT -->
+            <table width="726" height="96" border="0" cellpadding="0" cellspacing="0">
+              <tr valign="top">
+                <td bgcolor="#a39614">      <!--#config timefmt="%M%S%H"-->
+    <!-- GW generated DART tag (ord=13347151148627) -->
+    <script language="javascript" type="text/javascript">
+      //<![CDATA[
+		var URL = location.href;
+		paths = URL.split("/");
+              domn = paths[2];
+              var eHoriz = "";
+		if((domn.indexOf("ths.gardenweb.com") != -1) &&(paths[3].indexOf("forums") != -1))
+		{
+			if((paths[4].indexOf("beverages") != -1) || (paths[4].indexOf("cooking") != -1) 
+				|| (paths[4].indexOf("bbq") != -1) || (paths[4].indexOf("cookware") != -1) 
+				|| (paths[4].indexOf("dessertex") != -1) || (paths[4].indexOf("entertain") != -1) 
+				|| (paths[4].indexOf("onceaweek") != -1) || (paths[4].indexOf("recipex") != -1) 
+				|| (paths[4].indexOf("specex") != -1) || (paths[4].indexOf("vegex") != -1) 
+				|| (paths[4].indexOf("wine") != -1))
+			{
+				eHoriz = "food";
+			}
+			if((paths[4].indexOf("grandp") != -1) || (paths[4].indexOf("marriage") != -1) 
+				|| (paths[4].indexOf("parents") != -1) || (paths[4].indexOf("parinf") != -1) 
+				|| (paths[4].indexOf("partod") != -1) || (paths[4].indexOf("singles") != -1) 
+				|| (paths[4].indexOf("step") != -1) || (paths[4].indexOf("vacation") != -1) 
+				|| (paths[4].indexOf("wedding") != -1) || (paths[4].indexOf("school") != -1))
+			{
+				eHoriz = "family";
+			}
+			if((paths[4].indexOf("care") != -1) || (paths[4].indexOf("dietclub") != -1) 
+				|| (paths[4].indexOf("exercise") != -1) || (paths[4].indexOf("grieving") != -1) 
+				|| (paths[4].indexOf("health") != -1) || (paths[4].indexOf("menopause") != -1))
+			{
+				eHoriz = "health";
+			}
+		}
+		if (typeof eTandomAd == "undefined") 
+			eTandomAd = "none";
+		if (typeof eHoriz == "undefined") 
+			eHoriz = "none";
+        
+       document.write('<scr'+'ipt language="javascript" type="text/javascript" src="http://iv.doubleclick.net/adj/nbcu.garden/home_gardenweb_hp;!category=househom;!category=gardenweb;!c=mb;chan=home;sect=gardenweb;tandomad='+eTandomAd+';horiz='+eHoriz+';!category=home;pageid=hp;dcopt=ist;sz=728x90,970x66;pos=1;tile=1;'+(top.__nbcudigitaladops_dtparams||'')+'ord=13347151148627?"></scr'+'ipt>');
+          
+      //]]>
+    </script>
+    <noscript>
+     <!-- <a href="http://iv.doubleclick.net/jump/nbcu.garden/home_gardenweb_hp;!category=househom;!category=gardenweb;!category=gardenweb;!c=mb;chan=home;sect=gardenweb;!category=home;pageid=hp;dcopt=ist;sz=728x90,970x66;pos=1;tile=1;ord=13347151148627?"><img src="http://iv.doubleclick.net/ad/nbcu.garden/home_gardenweb_hp;!category=househom;!category=gardenweb;!category=gardenweb;!c=mb;chan=home;sect=gardenweb;!category=home;pageid=hp;dcopt=ist;sz=728x90,970x66;pos=1;tile=1;ord=13347151148627?" border="0" alt="Click Here!" /></a> -->
+    </noscript>
+    <!-- End DART Tag --> 
+
+
+</td>
+              </tr>
+            </table>
+            <!-- END TOP ADVERTISEMENT -->
+          </td>
+          <td width="18"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="18" height="1" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td width="771" colspan="3"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="771" height="3" border="0" alt=""></td>
+        </tr>
+        <tr>
+          <td width="20" bgcolor="#375E1F"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="20" height="1" border="0" alt=""></td>
+          <td width="732" bgcolor="#375E1F" align="left">
+
+          <!-- new nav bar -->
+          <table id="gw_navbar" class="ddm1" width="760" height="23" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="garweb_bg">
+                <img src="http://graphics.gardenweb.com/graphics/ivil/gwLogo.jpg" alt="" width="88" height="23" hspace="0" vspace="0" border="0" align="absmiddle" />
+              </td>
+              <td valign="middle">
+                <a class="item1" href="http://voices.gardenweb.com/garden_voices">Blogs</a>
+                  <div class="section">
+                    <a class="item2" href="http://voices.gardenweb.com/garden_voices/">Garden Voices</a>
+                  <!--  <a class="item2" href="http://voices.gardenweb.com/directory/">Blog Directory</a> -->
+                  </div> 
+              </td>
+              <td valign="middle">
+                <a class="item1" href="http://forums.gardenweb.com/forums/">Forums</a>
+                <div class="section">
+                  <a class="item2" href="http://forums.gardenweb.com/forums/">Garden Forums</a>
+                  <a class="item2" href="http://ths.gardenweb.com/forums/">Home Forums</a>
+                  <a class="item2" href="http://www.nature.net/forums/">Nature Forums</a>
+                </div>
+              </td>
+              <td valign="middle">
+                <a class="item1" href="http://photos.gardenweb.com/garden/galleries/">Photo Galleries</a>
+                <div class="section">
+                  <a class="item2" href="http://photos.gardenweb.com/garden/galleries/">Garden Galleries</a>
+                  <a class="item2" href="http://photos.gardenweb.com/home/galleries/">Home Galleries</a>
+                </div>
+              </td>
+              <td valign="middle">
+                <a class="item1" href="http://faq.gardenweb.com/faq/">Ask The Experts FAQs</a>
+              </td>
+              <td valign="middle">
+                <a class="item1" href="http://www.gardenweb.com/resources/">Tools &amp; Directories</a>
+              <div class="section">
+                    <a class="item2" href="http://dir.gardenweb.com/directory/">Organization Directory</a>
+                    <a class="item2" href="http://calendar.gardenweb.com/">Events Calendar</a>
+                    <a class="item2" href="http://hortiplex.gardenweb.com/plants/">Hortiplex</a>
+                    <a class="item2" href="http://glossary.gardenweb.com/glossary/">Glossary</a>
+                    <a class="item2" href="http://www.gardenweb.com/zones/" target="_blank">Zone Finder</a>
+                    <a class="item2" href="http://bazaar.gardenweb.com/directory/">Garden Bazaar</a>
+                    <!--<a class="item2" href="http://www.cafepress.com/gardenwebstore/" target="_blank">GardenWeb Store</a> -->
+                  </div>
+              </td>
+              <td class="garweb_bg">
+              <!--  &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;-->
+              </td>
+              <!-- search bar -->
+              <td id="searchbar" valign="middle">
+		  <table border="0" cellpadding="0" cellspacing="0">
+                <form method="get" action="http://search.gardenweb.com/search/">
+                  <tr>
+                    <td><img src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/search_header.gif" width="50" height="20" border="0" alt="SEARCH"></td>
+                    <td><input type="text" name="term" maxlength="100" size="16" class="textField"></td>
+                    <td><img src="http://graphics.gardenweb.com/graphics/t.gif" width="5" height="1" border="0" alt=""></td>
+                    <td><input type="image" src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/btn_go.gif" width="31" height="16" border="0" alt="go" class="search_bar_button"></td>
+                    <td><img src="http://graphics.gardenweb.com/graphics/t.gif" width="5" height="1" border="0" alt=""></td>
+                  </tr>
+                </form>
+               </table>
+              </td>
+            </tr>
+          </table>
+
+          </td>
+          <td width="18" bgcolor="#375E1F"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="18" height="1" border="0" alt=""></td>
+        </tr>
+      </table>
+      <!-- END HEADER -->
+
+      <!-- BEGIN MAIN CONTENT -->
+      <table width="771" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr valign="top">
+          <td width="611">
+            <!-- BEGIN GRAPHIC CONTENT -->
+            <table width="611" border="0" cellpadding="0" cellspacing="0">
+              <tr valign="top">           
+                <td width="270" height="265" style="background: url(http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/gardeners.jpg) no-repeat;"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="1" height="70" border="0" alt=""><br>
+                  <!-- BEGIN TEXT -->
+                  <table width="250" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr valign="top">
+                      <td><a href="http://forums.gardenweb.com/forums/" ><b>GardenWeb Forums</b></a> Hundreds of forums...thousands of answers.<br><br>
+<a href="http://forums.gardenweb.com/forums/exchind/" ><b>The Garden Exchange</b></a> Gotta have it?  Chances are someone's got it!<br><br></td>
+                    </tr>
+                  </table>
+                  <!-- END TEXT -->
+                </td>
+                <td width="48" bgcolor="#FFFFFF"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="48" height="1" border="0" alt=""></td>
+                <td width="293" height="265" style="background: url(http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/botany.jpg) no-repeat;"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="1" height="80" border="0" alt=""><br>
+                  <!-- BEGIN TEXT -->
+                  <table width="250" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tr valign="top">
+                      <td>
+                        <p><a href="http://hortiplex.gardenweb.com/plants/"><b>HortiPlex<br>Database</b></a><br>Need information on a specific plant? Let HortiPlex find it for you!</p><br>
+                        <!-- BEGIN PLANT SEARCH -->
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <form method="post" action="http://hortiplex.gardenweb.com/plants/nph-ind.cgi">
+                          <input name="f" value="d" type="hidden">
+                          <tr>
+                            <td><img src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/search_plantname.gif" width="78" height="13" border="0" alt="PLANT NAME"></td>
+                            <td><input type="text" name="name" maxlength="100" size="15" class="textField"></td>
+                            <td><img src="http://graphics.gardenweb.com/graphics/t.gif" width="5" height="1" border="0" alt=""></td>
+                            <td><input type="image" src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/btn_go.gif" width="31" height="16" border="0" alt="go"></td>
+                          </tr>
+                        </table><br>
+                        <!-- END PLANT SEARCH -->
+                        <p><a href="http://glossary.gardenweb.com/glossary/"><b>Botanical Terms.</b></a> Over 4400 terms on botany, gardening, horticulture and landscape and architecture.</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- END TEXT -->
+                </td>
+              </tr>
+            </table>
+            <!-- END GRAPHIC CONTENT -->
+
+            <img src="http://graphics.gardenweb.com/graphics/ivil/home_11-04-05/subhead_helpful.jpg" width="611" height="53" border="0" alt="HELPFUL RESOURCES for gardeners"><br>
+
+            <!-- BEGIN TEXTUAL CONTENT -->
+            <table width="611" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+              <tr valign="top">
+                <td width="85"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="85" height="1" border="0" alt=""></td>
+                <td width="430"><p><a href="http://clippings.gardenweb.com/clippings/" ><b>My Clippings</b></a><br>Save and share your favorite GardenWeb posts.</p><div class="bullet"></div>
+<p><a href="http://dir.gardenweb.com/directory/" ><b>The Garden Directory</b></a><br>Locate plant societies, clubs, botanical gardens and more!</p><div class="bullet"></div>
+<p><a href="http://www.gardencalendar.com/" ><b>Events Calendar</b></a><br>See what's going on in your neck of the woods or add your own event.</p><div class="bullet"></div>
+<p><a href="http://faq.gardenweb.com/faq/" ><b>Gardening Q & A</b></a><br>Experts...we got 'em!</p><div class="bullet"></div>
+<p><a href="http://voices.gardenweb.com" ><b>Garden Voices</b></a><br>Blogs from around the world.</p><div class="bullet"></div>
+<p><a href="http://members.gardenweb.com/members/zone.cgi" ><b>Zone Buddies</b></a><br>Find other members in your zone or zip code with GardenWeb's zone buddies network. <a href="http://members.gardenweb.com/members/zone.cgi">Click here</a> to use it.</p><div class="bullet"></div>
+<p><a href="http://members.gardenweb.com/members/bday.cgi" ><b>Today's Birthdays</b></a><br>They say it's your birthday...</p><div class="bullet"></div>
+
+                  <p><!--<div id="radlinks" class="advertsponsorlinks"><span class="spLinks">Sponsor Links<br /></span></div> -->
+
+                  <br><br>
+                </td>
+                <td width="96"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="96" height="1" border="0" alt=""></td>
+              </tr>
+            </table>
+            <!-- END TEXTUAL CONTENT -->
+          </td>
+	  <td width="15" bgcolor="#A39614"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="15" border="0" alt=""></td>
+          <td width="159" bgcolor="#A39614" align="center">
+            <table width="159" border="0" cellpadding="0" cellspacing="0" bgcolor="#A39614">
+              <tr valign="top" height = "15">
+                <td height = "15" bgcolor="#A39614"><img src="http://graphics.gardenweb.com/graphics/t.gif" height="15" border="0" alt=""></td>
+              </tr>
+	      <tr>
+		<td>
+			<!-- BEGIN RIGHT ADVERTISMENTS -->
+			      <!--#config timefmt="%M%S%H"-->
+    <!-- GW generated DART tag (ord=13347151148627) -->
+    <script language="javascript" type="text/javascript">
+      //<![CDATA[
+		var URL = location.href;
+		paths = URL.split("/");
+              domn = paths[2];
+              var eHoriz = "";
+		if((domn.indexOf("ths.gardenweb.com") != -1) &&(paths[3].indexOf("forums") != -1))
+		{
+			if((paths[4].indexOf("beverages") != -1) || (paths[4].indexOf("cooking") != -1) 
+				|| (paths[4].indexOf("bbq") != -1) || (paths[4].indexOf("cookware") != -1) 
+				|| (paths[4].indexOf("dessertex") != -1) || (paths[4].indexOf("entertain") != -1) 
+				|| (paths[4].indexOf("onceaweek") != -1) || (paths[4].indexOf("recipex") != -1) 
+				|| (paths[4].indexOf("specex") != -1) || (paths[4].indexOf("vegex") != -1) 
+				|| (paths[4].indexOf("wine") != -1))
+			{
+				eHoriz = "food";
+			}
+			if((paths[4].indexOf("grandp") != -1) || (paths[4].indexOf("marriage") != -1) 
+				|| (paths[4].indexOf("parents") != -1) || (paths[4].indexOf("parinf") != -1) 
+				|| (paths[4].indexOf("partod") != -1) || (paths[4].indexOf("singles") != -1) 
+				|| (paths[4].indexOf("step") != -1) || (paths[4].indexOf("vacation") != -1) 
+				|| (paths[4].indexOf("wedding") != -1) || (paths[4].indexOf("school") != -1))
+			{
+				eHoriz = "family";
+			}
+			if((paths[4].indexOf("care") != -1) || (paths[4].indexOf("dietclub") != -1) 
+				|| (paths[4].indexOf("exercise") != -1) || (paths[4].indexOf("grieving") != -1) 
+				|| (paths[4].indexOf("health") != -1) || (paths[4].indexOf("menopause") != -1))
+			{
+				eHoriz = "health";
+			}
+		}
+		if (typeof eTandomAd == "undefined") 
+			eTandomAd = "none";
+		if (typeof eHoriz == "undefined") 
+			eHoriz = "none";
+        
+       document.write('<scr'+'ipt language="javascript" type="text/javascript" src="http://iv.doubleclick.net/adj/nbcu.garden/home_gardenweb_hp;!category=househom;!category=gardenweb;!c=mb;chan=home;sect=gardenweb;tandomad='+eTandomAd+';horiz='+eHoriz+';!category=home;pageid=hp;sz=120x600,160x600,3x3;pos=12;tile=12;'+(top.__nbcudigitaladops_dtparams||'')+'ord=13347151148627?"></scr'+'ipt>');
+          
+      //]]>
+    </script>
+    <noscript>
+     <!-- <a href="http://iv.doubleclick.net/jump/nbcu.garden/home_gardenweb_hp;!category=househom;!category=gardenweb;!category=gardenweb;!c=mb;chan=home;sect=gardenweb;!category=home;pageid=hp;sz=120x600,160x600,3x3;pos=12;tile=12;ord=13347151148627?"><img src="http://iv.doubleclick.net/ad/nbcu.garden/home_gardenweb_hp;!category=househom;!category=gardenweb;!category=gardenweb;!c=mb;chan=home;sect=gardenweb;!category=home;pageid=hp;sz=120x600,160x600,3x3;pos=12;tile=12;ord=13347151148627?" border="0" alt="Click Here!" /></a> -->
+    </noscript>
+    <!-- End DART Tag --> 
+
+
+	  
+			<!-- END RIGHT ADVERTISEMENTS -->	   
+			<BR>	 
+			<FONT COLOR="#CFB53B">ADVERTISEMENT</FONT> 	             
+		</td>
+	      </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END MAIN CONTENT -->
+
+      <!-- BEGIN FOOTER -->
+      <table width="970" height="120" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr height="3" valign="top"><td width="771" colspan="3" bgcolor="#ABD006">
+        <script language="JavaScript" src="http://www.gardenweb.com/GoogleAds/GoogleBannerAds_HP"></script>
+        <script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+        </td></tr>
+        <tr height="3" valign="top">
+          <td width="771" colspan="3" bgcolor="#ABD006"><img src="http://graphics.gardenweb.com/graphics/t.gif" width="711" height="3" border="0" alt=""></td>
+        </tr>
+        <tr height="77" valign="top">
+          <td align="center" width="686" colspan="2" bgcolor="#A39614" class="white"><br>
+            <strong>Community:</strong>&nbsp;
+            <a href="http://www.gardenweb.com/auth/nph-logincheck.cgi?register_form" class="bottomnav">Join GardenWeb</a> &nbsp;
+            <a href="http://forums.gardenweb.com/forums/" class="bottomnav">Garden Forums</a> &nbsp;
+            <a href="http://ths.gardenweb.com/forums/" class="bottomnav">Home Forums</a> &nbsp;
+            <a href="http://forums.gardenweb.com/forums/exchind/" class="bottomnav">Exchanges &amp; Trading</a> &nbsp;
+            <a href="http://members.gardenweb.com/members/" class="bottomnav">Member Pages</a> &nbsp;
+            <br>
+            <strong>About GardenWeb:</strong>&nbsp;
+            <a href="http://www.ivillage.com/advertising-on-ivillage/8-a-258022" class="bottomnav">Advertising</a> &nbsp;
+            <a href="http://letters.gardenweb.com/letters/nph-ind.cgi" class="bottomnav">Contact Us</a> &nbsp;
+            <a href="http://www.gardenweb.com/legal/tos.cgi" class="bottomnav">Terms of Service</a> &nbsp;
+            <a href="http://www.ivillage.com/about/0,,qqzh,00.html" class="bottomnav">Privacy Policy</a> &nbsp;
+            <a href="http://www.gardenweb.com/legal/faq.cgi" class="bottomnav">Policies FAQ</a> &nbsp;
+            <br>
+            <strong>Sister Sites:</strong>&nbsp;
+            <a href="http://www.au.gardenweb.com/" class="bottomnav">GW Australia</a> &nbsp;
+            <a href="http://www.uk.gardenweb.com/" class="bottomnav">GW Europe</a> &nbsp;
+            <a href="http://www.nygardener.com/" class="bottomnav">NY Metro</a> &nbsp;
+            <a href="http://www.nature.net/" class="bottomnav">Nature.net</a> &nbsp;
+            <a href="http://www.thathomesite.com/" class="bottomnav">That Home Site!</a> &nbsp;
+            <br><img src="http://graphics.gardenweb.com/graphics/ivil/spacer.gif" width="70" height="1" border="0" alt="">
+            <a href="http://www.rosarian.com/" class="bottomnav">The Rosarian</a> &nbsp;
+            <a href="http://www.wild-flowers.com/" class="bottomnav">Wild-Flowers</a> &nbsp;
+            <a href="http://www.kitchengardener.com/" class="bottomnav">Kitchen Gardener</a> &nbsp;
+          </td>
+        </tr>
+	    <tr height="40">
+	      <td bgcolor="#E6DBA7" width="85">&nbsp;</td>
+	      <td bgcolor="#E6DBA7" width="527" align="center" valign="center" nowrap><a class="footerHomeAndGarden" href="http://home.ivillage.com">iVillage Home &amp; Garden Network</a></td>
+	      <td bgcolor="#E6DBA7" width="159">&nbsp;</td>
+        </tr>
+      </table>
+      <!-- END FOOTER-->
+
+    </TD>
+  </TR>
+</TABLE>
+
+    <!-- begin overture js -->
+
+    <!-- overture hotspots tracking -->
+    
+    
+    <!-- overture hotspots (keywords) [mapkey] -->
+    <script language="javascript" type="text/javascript" src="http://cmls.overture.com/ls_js_1_0/?config=3697471804&linkspotId=gw_misc&NGrp=1&NKw=4&source=ivillage_gardenweb_us_hs-search"></script>
+
+    <!-- overture content match (sponsored links) [zSr] -->
+    <script language="javascript" src="http://cm.ivillage.overture.com/js_flat_1_0/?config=3697471804&ctxtCat=ivillage_garden&type=gardenweb_dyn&ctxtUrl=http%3A%2F%2Fgardenweb.com%2F&source=ivillage_gardenweb_cpm_dyn-ctxt&ctxtId=gardenweb_dcm&maxCount=4&cb=13347151148627"></script>
+
+    <script language="javascript" type="text/javascript">
+    <!--
+      // utility functions
+      function iv_clickSponsLink(url) {
+        window.open(url);
+      }
+      function iv_changeStatusBar(text) {
+        window.status = text;
+      }
+      function iv_resetStatusBar() {
+        window.status = "";
+      }
+      function trunc(str, len) {
+        if (str.length <= len) return str;
+        while (len > 0 && str.charAt(len) != ' ') len--;
+        return str.substr(0, len) + ' ...';
+      }
+
+      // overture hotspots (keywords)
+      // replace content of radlinks div with values from mapkey data structure
+      var hs = '';
+      var hs_div = 'radlinks';
+      var hs_format = 'plain';
+      if (mapkey.length >= 1) {
+        var keywords = mapkey[0].keywords.split(', '); // only get first set of keywords
+        for (var i = 0; i < keywords.length; i++) {
+          var kw = '';
+          var up = true;
+          for (var j = 0; j < keywords[i].length; j++) {
+            var chr = keywords[i].charAt(j);
+            if (up && chr != ' ') {
+              chr = chr.toUpperCase();
+              up = false;
+            } else if (chr == ' ') {
+              up = true;
+            }
+            kw += chr;
+          }
+          //var kw = keywords[i].replace(/\b./g, function(str) { return str.toUpperCase(); });
+          if (hs_format == 'plain') {
+            hs += '<a href="http://www.gardenweb.com/overture/index.html?kw=' + escape(kw) + '">' + kw + '</a> ';
+          } else {
+            hs += '<div class="pad"><a href="http://www.gardenweb.com/overture/index.html?kw=' + escape(kw) + '" class="radLnks">' + kw + '</a></div>';
+          }
+        }
+      }
+
+      if (hs != '' && document.getElementById(hs_div)) {
+        if (hs_format == 'plain') {
+          document.getElementById(hs_div).innerHTML += hs;
+        } else {
+
+          document.getElementById(hs_div).innerHTML += '<span class="radLnksTitle">&nbsp;GARDENING ADS</span><br /><div class="rightlinks">' + hs + '</div>';
+        }
+
+
+        //document.getElementById(hs_div).innerHTML += (hs_format == 'plain' ? hs : '<span class="radLnksTitle">&nbsp;GARDENING ADS</span><br /><div class="rightlinks">' + hs + '</div>');
+      }
+
+      // overture content match (sponsored links)
+      // replace content of sponsoredlinks div with values from zSr array
+      var cm = '';
+      var cm_div = 'sponsoredlinks';
+      var cm_format = '';
+      var cm_table_attr = 'width=728';
+      var cm_td_attr = 'width=' + ((728 - 24) / 4); // typical case: (728-24)/4 = 176px
+      if (cm_format == 'right') {
+        cm_table_attr = 'width=160';
+        cm_td_attr = 'width=160';
+      }
+      var i = 6;
+      var cols = 0;
+      var desc_len = 80;
+      while (i < zSr.length) {
+        var desc   = zSr[i++];
+        var unused = zSr[i++];
+        var url    = zSr[i++];
+        var title  = zSr[i++];
+        var site   = zSr[i++];
+        var bidded = zSr[i++];
+
+        if (cols == 0 || cm_format == 'right') {
+          cm += '</tr><tr>';
+        }
+        cm += '<td ' + cm_td_attr + ' valign="top" onclick="iv_clickSponsLink(\'' + url + '\'); return false;" onmouseover="iv_changeStatusBar(\'go to ' + site + '\')" onmouseout="iv_resetStatusBar();"><div class="pad"><span class="radLnks">' + title + '</span></div><span class="radLnksDesc">' + trunc(desc, desc_len) + '</span><br><span class="radLnksURL">' + site + '</span></td>';
+        cols++;
+      }
+
+      if (cm != '' && document.getElementById(cm_div)) {
+        if (cm_format == 'right') {
+          document.getElementById(cm_div).innerHTML += '<table class="bottomadvertsponsorlinks bottomadvert" cellspacing="0" cellpadding="0" ' + cm_table_attr + '><tr><td class="bottomadverttitle2">Sponsored Links from Yahoo!</td>' + cm + '</tr><tr><td class="bottomadvertgreen_search2"><a href="javascript:void(window.open(\'http://www.ivillage.com/yahoo\',\'whatsthis\',\'height=630,width=650\'))" class="bottomadvertgreen_search2">What\'s&nbsp;this?</a></td></tr></table>';
+          cm_td_header_attr = '';
+        } else {
+          document.getElementById(cm_div).innerHTML += '<table class="bottomadvertsponsorlinks bottomadvert" cellspacing="0" cellpadding="0" ' + cm_table_attr + '><tr><td colspan="' + (cols - 1) + '" class="bottomadverttitle">Sponsored Links from Yahoo!</td><td class="bottomadvertgreen"><a href="javascript:void(window.open(\'http://www.ivillage.com/yahoo\',\'whatsthis\',\'height=630,width=650\'))" class="bottomadvertgreen">What\'s&nbsp;this?</a></td>' + cm + '</tr></table>';
+        }
+      }
+    //-->
+    </script>
+
+    <!-- end overture js -->
+
+<!-- -->
+    <!-- init menu -->
+    <script type="text/javascript">var ddm1 = new DropDownMenu1('gw_navbar'); ddm1.position.top = -1; ddm1.init();</script>
+
+    <!-- begin ivil footer -->
+<!-- Tacoda Code Removed, trac-1164 -->
+
+    <script language="JavaScript" src="http://graphics.gardenweb.com/stc/ivjs/iv_footer.js"></script>
+    <!-- end ivil footer -->
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://gardenweb.us.intellitxt.com/ast/js/gardenweb/gardenweb_cs.js"></script>
+<!-- end Vibrant Media IntelliTXT script section -->
+<script type="text/javascript">
+    var _sf_async_config={uid:23830,domain:"gardenweb.com"};
+    (function(){
+    function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+    document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+   </script>
+</BODY>
+</html>

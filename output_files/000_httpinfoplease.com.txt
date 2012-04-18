@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<link rel="icon" href="http://i.infopls.com/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="http://i.infopls.com/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="http://i.infopls.com/css/ipbase.css"/>
+<link rel="stylesheet" type="text/css" href="http://i.infopls.com/css/print.css" media="print"/>
+
+<script type="text/javascript">tyntVariables = {"ap":"Read more: "};</script>
+
+<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="http://i.infopls.com/js/ip.js"></script>
+
+<script type="text/javascript">
+if(document.location.protocol=='http:'){
+ var Tynt=Tynt||[];Tynt.push('bkoFXQO-ar35BIadbi-bnq');Tynt.i={"st":true};
+ (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}
+</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" href="http://i.infopls.com/css/IPhome_dynamic.css" type="text/css" />
+<meta name="waif" content="home" />
+<meta name="waif" content="information please" />
+<meta name="keywords" content="on-line dictionary internet encyclopedia atlas almanac statistics world records US U.S. United States sports entertainment biography biographies population countries maps reference definitions business facts news history black history month" />
+<meta name="description" content="Infoplease.com, a free, authoritative, and respected reference for Internet users, provides a comprehensive encyclopedia, almanac, atlas, dictionary, and thesaurus. Infoplease.com contains facts on all subjects including sports, entertainment, technology, education, world news, and united states government and history." />
+
+<title>Infoplease: Encyclopedia, Almanac, Atlas, Biographies, Dictionary, Thesaurus. Free online reference, research &amp; homework help. &mdash; Infoplease.com</title>
+
+<link rel="alternate" href="http://infoplease.com/rss/daily.rss" type="application/rss+xml" title="Infoplease: Encyclopedia, Almanac, Atlas, Biographies, Dictionary, Thesaurus. Free online reference, research &amp; homework help."/><script type="text/javascript"><!--
+function validateYear(arg){
+ var yr;
+ if(arg){
+  yr=arg.replace(/[^0-9]+/g,'');
+  if(!yr.match(/[0-9]/)){
+   if(document.forms[arg]){
+    yr=document.forms[arg].fourdigit.value;
+    yr=yr.replace(/[^0-9]+/g,'');
+    if(!yr.match(/[0-9]/)){return badyear(yr)}
+   }else{
+    return badyear(yr);
+   }
+  }
+ }else{
+  yr=this.fourdigit.value;
+  yr=yr.replace(/[^0-9]+/g,'');
+  if(!yr.match(/[0-9]/)){return badyear(yr)}
+ }
+ var current_year_url=true;
+ if(yr>=1900&&yr<=2010){
+  if(yr==2010&&current_year_url==true){document.location="http://www.infoplease.com/year/2010.html";return false;}
+  else{document.location="http://www.infoplease.com/year/" + yr + ".html";return false;}
+ }else{return badyear(yr)}
+}
+
+function validateCalendarYear(arg){
+ var yr;
+ if(arg){
+  yr=arg.replace(/[^0-9]+/g,'');
+  if(!yr.match(/[0-9]/)){
+   if(document.forms[arg]){
+    yr=document.forms[arg].year.value;
+    yr=yr.replace(/[^0-9]+/g,'');
+    if(!yr.match(/[0-9]/)){return badyear(yr)}
+   }else{
+    return badyear(yr);
+   }
+  }
+ }else{
+  yr=this.year.value;
+  yr=yr.replace(/[^0-9]+/g,'');
+  if(!yr.match(/[0-9]/)){return badyear(yr)}
+ }
+ return true;
+}
+
+function badyear(yr){
+ var str="You must enter a year between 1900 and 2010.";
+ if(yr) str=yr+" is invalid\n";
+ alert(str);
+ return false;
+}
+//-->
+</script>
+<script type="text/javascript"
+src="http://partner.googleadservices.com/gampad/google_service.js"><!-- --></script>
+<script type="text/javascript">
+GS_googleAddAdSenseService('ca-pub-1894504138907931');
+GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+GA_googleAddAttr('site', 'www');
+GA_googleAddAttr('pagetype', 'Article');
+GA_googleAddAttr('testing', 'no');
+GA_googleAddSlot('ca-pub-1894504138907931', 'IP_home_728x90');
+GA_googleAddSlot('ca-pub-1894504138907931', 'IP_home_300x250');
+GA_googleAddSlot('ca-pub-1894504138907931', 'IP_home_160x600');
+</script>
+<script type="text/javascript">
+GA_googleFetchAds();
+</script>
+
+<script type='text/javascript'>
+    window._GA_googleFillSlot = window.GA_googleFillSlot;
+    window.GA_googleFillSlot = function(name)
+    {
+        var result = window._GA_googleFillSlot(name);
+        
+        // The actual fix
+        var timout = 25;
+        var id = 'google_ads_div_' + name + '_ad_container';
+        function fix_dimensions()
+        {
+            var div_container = document.getElementById(id);
+            if (div_container)
+            {
+                div_container.style.width = "auto"; 
+                div_container.style.height = "auto";
+            }
+            else if (timout < 1000)
+            {
+                timout = timout * 2;
+                window.setTimeout(fix_dimensions, timout);
+            }
+        }
+        window.setTimeout(fix_dimensions, timout);
+        
+        return result;
+    }
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// make sure ads display correctly
+	$('#lb div #widgetbox_widget_parent_0').parent().parent().addClass('oversize').parent().addClass('oversizead');
+	$('#lb #widgetbox_widget_parent_0').parent().addClass('oversize').parent().addClass('oversizead');
+});
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-350786-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//]]>
+</script>
+
+<!-- Begin comScore Tag -->
+<script type="text/javascript" src='http://b.scorecardresearch.com/beacon.js'></script>
+<script type="text/javascript">
+  COMSCORE.beacon({
+    c1:2,
+    c2:6035556,
+    c3:"",
+    c4:"",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<noscript>
+  <img alt="" src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035556&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<style type="text/css">
+#Wn.oversizead {padding-top: 258px}
+#lb.oversize {height:254px;}
+#lb {text-align: center}
+</style>
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+<div id="Wn">
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td align="left" valign="top">
+<table id="ipHead" cellpadding="0" cellspacing="0">
+<tr>
+<td id="ipH-Logo"><a href="http://www.infoplease.com/" title="Return to the homepage of Infoplease.com">
+<img width="204" height="45" src="http://i.infopls.com/images/05ip_Logo.png" alt="Infoplease - All the knowledge you need." />
+</a></td>
+
+<td id="ipH-FormDA">
+<div style="text-align:right"><a href="http://www.infoplease.com/sitemap.html">Site Map</a> | <a href="/helpfaqs.html">FAQ</a></div>
+
+<form name="search" action="/search" id="search">
+<fieldset>
+<input type="text" name="q" id="q" onclick="if(this.value=='Enter search term'){this.value='';}" />
+<label> in </label><select name="in" id="drop" >
+<option value="all">All Infoplease</option>
+<option value="drp,almanacs">Almanacs</option>
+<option value="drp,general">&bull; General</option>
+<option value="drp,entertainment">&bull; Entertainment</option>
+<option value="drp,sports">&bull; Sports</option>
+<option value="drp,biography">Biographies</option>
+<option value="drp,dictionary">Dictionary</option>
+<option value="drp,encyclopedia">Encyclopedia</option>
+<option value="drp,spellcheck">Spelling Checker</option></select>
+<input type="image" src="http://i.infopls.com/images/05ip_BTNsearch.gif" id="submit" alt="Search" title="Submit Query" />
+<input type="hidden" name="fr" value="iptn" />
+<script type="text/javascript">//<![CDATA[
+document.getElementById('q').value="Enter search term";
+//]]>
+</script></fieldset></form>
+
+<dl>
+<dt>Daily Almanac for</dt>
+<dd><a href="/daily" title="Daily facts, fun, news, and more.">Apr 17, 2012</a></dd>
+</dl>
+
+</td></tr>
+
+<tr>
+<td id="ipH-Tabs" colspan="2"><!--Tabs-->
+<ul>
+<li class="hide"><a href="#Pg" title="Skip our navigation links and go directly to the content">Skip Navigation</a></li>
+<li class="selected"><a href="/" title="Home: Infoplease.com">Home</a></li>
+<li class="nav"><a href="/national-poetry-month/" title="National Poetry Month">National Poetry Month</a></li>
+<li class="nav"><a href="/atlas/" title="Featuring maps and detailed profiles of countries and states.">Atlas</a></li>
+<li class="nav"><a href="/encyclopedia/" title="Current and comprehensive. Covering all the major branches of knowledge.">Encyclopedia</a></li>
+<li class="nav"><a href="http://dictionary.infoplease.com/" title="Unabridged dictionary including pronunciation guides.">Dictionary</a></li>
+<li class="nav"><a href="http://thesaurus.infoplease.com/" title="Search for synonyms.">Thesaurus</a></li>
+<li class="nav"><a href="/spot/" title="A complete list and searchable collection of recently featured articles from Infoplease.">Features</a></li>
+<li class="nav"><a href="http://www.infoplease.com/quizzes/" title="Test your knowledge of useful facts and trivia, on a variety of subjects.">Quizzes</a></li>
+<li class="nav"><a href="/spot/timelinearchive.html" title="Timelines and chronologies covering World and U.S. history, Countries, Social and Political Issues, Entertainment, Sports, Science, Medicine, Technology, and Health.">Timelines</a></li>
+<li class="nav"><a href="/countries.html" title="Country profiles including geography, maps, history, current ruler, area, population, capital, largest city, and more.">Countries</a></li>
+<!--<li class="nav"><a href="/us/slideshow/" title="Slideshows featurings travel, animals, history &amp; government, prize winners, holidays, and science.">Slideshows</a></li>-->
+
+</ul>
+</td>
+</tr>
+
+
+<tr>
+<td id="ipH-SubNav" colspan="2"></td></tr></table>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" id="ipContentTable">
+<tr>
+
+<td id="ipNav">
+<ul id="ipN-Channels">
+<li><a href="/world.html" title="Countries, World Statistics, Disasters, Current Events, Flags, Geography, Buildings/Structures, International Relations, Travel, Transportation" class="nav">World &amp; News</a></li>
+<li><a href="/us.html" title="U.S. Statistics, Cities &amp; States, Military Affairs, Postal Information, Societies &amp; Associations" class="nav">United States</a></li>
+<li><a href="/history.html" title="World History, U.S. History, U.S. Documents, U.S. Historic Monuments, Timelines, U.S. Presidents, U.S. Elections, U.S. Government, Supreme Court" class="nav">History &amp; Gov't</a></li>
+<li><a href="/people.html" title="Newsmakers, Recent Deaths, TIME Person of the Year, Browse and Search Biographies" class="nav">Biography</a></li>
+<li><a href="/sports.html" title="Olympics, Basketball, College Basketball, Pro Football, College Football, Other Sports, Baseball, Hockey, Golf, Tennis, Ballparks &amp; Arenas, Sports Biographies" class="nav">Sports</a></li>
+<li><a href="/ent.html" title="Arts &amp; Entertainment: Awards, Writing, Language, Mythology, Art, Books, Newspapers, Magazines, Movies, Videos, Music, TV, Radio, Performing Arts, Crossword Puzzle Guide" class="nav">Arts &amp; Ent.</a></li>
+<li><a href="/bus.html" title="Business, Personal Finance, Taxes, Economy, Consumer Resources, Career Resources" class="nav">Business</a></li>
+<li><a href="/calendar-holidays.html" title="Calendars, Major Holidays, Clocks, Seasons" class="nav">Calendar &amp; Holidays</a></li>
+<li><a href="/sci.html" title="Health, Weather, Astronomy, Space, Aviation, Science, Inventions, Weights &amp; Measures, Math, Money, Computers, Internet, Environment, Nature" class="nav">Health &amp; Science</a></li>
+<li><a href="/homework/" title="Geography, History, Language Arts, Mathematics, Science, Social Studies, Writing, Research, Speaking, Listening, Studying" class="nav">Homework Center</a></li>
+</ul>
+
+<ul id="ipN-FM">
+<li><a href="http://www.factmonster.com/">Fact Monster <span>Kid's reference,<br />games, quizzes</span></a></li></ul>
+
+<div id="ipN-Xtras">
+
+<ul><li>Editor's Favorites<ul><li><img src="http://i.infopls.com/images/ap-favicon.jpg" width="16" height="16" border="0" alt="ap-favicon"/><a href="http://answerplease.infoplease.com" target="_blank">Answerplease: A new Q &amp; A site</a></li><li><a href="/national-poetry-month/">National Poetry Month</a></li><li><a href="/pages/unitconversion.html">Conversion Calculator</a></li><li><a href="/science/environment/earth-day.html">Earth Day</a></li><li><a href="/us/government/presidential-election-campaign-2012.html">Campaign 2012</a></li><li><a href="/countries.html">Country Profiles</a></li><li><a href="/ipa/A0762524.html">Most Populous Cities of the World</a></li><li><a href="/spot/holidays.html">Holidays in America</a></li><li><a href="/states.html">50 States</a></li><li><a href="/spot/colors1.html">Color Psychology</a></li><li><a href="/ipa/A0763098.html">Top 50 U.S. Cities</a></li><li><a href="http://www.facebook.com/pages/Infopleasecom/103369689702253" target="_blank">Infoplease's Facebook page</a></li><li><a href="http://twitter.com/Info_Please" target="_blank">Follow Infoplease on Twitter</a></li></ul></li></ul>
+</div><!--/ipN-Xtras-->
+
+<form action="/search"><fieldset>
+<legend>Search: <span>Infoplease</span></legend>
+<input class="text-allBTM" name="q" />
+<input type="hidden" name="fr" value="ipln" />
+<input type="image" src="http://i.infopls.com/images/02ip_goBLUE.gif" alt="go! to submit query" name="go" />
+<a href="/help.html">Info search tips</a></fieldset></form>
+
+<form action="/biography.php3"><fieldset>
+<legend>Search: <span>Biographies</span></legend>
+<input class="text-bioBTM" id="waif" name="waif" />
+<input type="hidden" name="fr" value="ipln" />
+<input type="image" src="http://i.infopls.com/images/02ip_goBLUE.gif" alt="go! to submit query" name="go" />
+<a href="/biosearch.html">Bio search tips</a></fieldset></form>
+
+<script type="text/javascript">
+$('a').click(function(){if(this.href.indexOf(location.hostname)==-1){pageTracker._trackPageview('/outgoing/'+this.href.replace(/^https?:\/\//i,''));};});
+</script>
+
+<img id="push-width" src="http://i.infopls.com/images/clearpix.gif" alt="" /></td>
+
+<td align="left" valign="top" id="Pg">
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style" style="float:right;width:160px;height:21px;margin:6px;padding:5px 0 0 0;border:1px solid #EFEFEF;background-color:#EFEFEF;">
+<script type="text/javascript">
+var addthis_config = {
+data_track_linkback: true
+}
+</script>
+<a class="addthis_button_print"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_facebook"></a>
+<span class="addthis_separator">|</span>
+<a href="http://addthis.com/bookmark.php?v=250&amp;username=bethrowen" class="addthis_button_compact">Share</a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=bethrowen"></script>
+<div style="clear:both;">&nbsp;</div>
+<!-- AddThis Button END -->
+
+
+
+<!-- google_ad_section_start -->
+
+
+<!--BodyText Infoplease home page: almanacs, encyclopedia, dictionary, weather, horoscopes, and much more /BodyText-->
+
+<table id="contentarea" border="0" cellpadding="0" cellspacing="0" summary="Content Area"><tbody><tr><td align="left" valign="top">
+
+<div style="margin: 6px;">
+
+<div class="featureaarea">
+<div id="featureaimage"><a href="/science/environment/earth-day.html"><img src="http://i.infopls.com/images/earthdayspot.gif" alt="Feature of the Day" width="140" height="70" border="0" vspace="1" /></a></div>
+
+<div class="featuretext"><a href="/science/environment/earth-day.html" >Earth Day</a><br />April 22 is Earth Day. Read about global warming, ways to go green, and find stats and facts on the environment.</div>
+
+<div class="featuretext"><a href="/states.html" >The 50 States</a><br />Read profiles of every U.S. state, find maps, statistics, facts, and more</div>
+
+<div class="featuretext"><a href="/spot/remembrance1.html" >Holocaust Remembrance Day</a><br />
+April 19 is a day of remembrance for the six million Jews who perished during the Holocaust</div>
+
+<div class="featuretext"><a href="/spot/sanfran1906earthquake.html" >The 1906 San Francisco Earthquake</a><br />Take a look back on the worst natural disaster in U.S. history</div>
+
+
+</div>
+
+
+<br clear="all" />
+<div id="linksandpackage">
+
+<div style="float:right;width:140px;">
+      <div class="packagearea" id="A-PACKAGE" style="width:140px;margin:0;float:right;">
+        <img src="http://i.infopls.com/images/02ip_packagetop.gif" width="100%" height="3" alt="" />
+
+        <div class="packageimage">
+          <a href="/national-poetry-month/"><img src="http://i.infopls.com/images/npm_poetonpoetryspot.gif" alt="National Poetry Month" width="140" height="70" /></a>        </div>
+
+        <div class="packagelinks">
+          <ul class="packagelinks"><li><a href="/spot/pmbioaz.html">Biographies of Notable Poets</a></li><li><a href="/spot/williamshakespeare.html">The Life, Poetry, and Plays of William Shakespeare</a></li><li><a href="/national-poetry-month/collections.html">Poetry Collections</a></li></ul>        </div>
+      </div>
+    </div>
+</div>
+
+<div class="interactivelinks" style="border-top:none;">
+		<ul>
+<!--		   <li>Slideshow: <a href="http://fun.familyeducation.com/vacations/spring/48559.html?imode=0:1188&amp;wtlAC=SlideSpgBreak_IP,link-ip" target="_blank">Top Kid-Friendly Spring Break Vacations</a></li>-->
+
+
+    <li>Quiz: <a href="http://www.factmonster.com/quizzes/pmterms1/1.html" >Poetry Terms</a> </li>
+        <!--    <li>Poll: <a href="/spot/pollarchive.html" >What is your greatest hope for 2011?</a></li>
+	<li>Question of the Week: <a href="/launchpoll.php3?poll=football-players&format=standard">What is the average salary of NFL players?</a> <sup style="color:#cc0000;">New!</sup></li> -->
+
+<li>Year-by-Year Chronology: <a href="/yearbyyear.html">1900&ndash;2012</a><!--<sup style="color:#c00;">Updated!!</sup>--> </li>
+  </ul>
+
+  <form name="chronology" action="/year1.php3" onsubmit="return validateYear(this.fourdigit.value);">
+    <div>
+      <label>Enter a year: <input name="fourdigit" size="4" /> <input type="image" src="http://i.infopls.com/images/02ip_goBLUE.gif" alt="go!" name="go" /></label>
+    </div>
+  </form>
+
+     <ul> <li>Top Ten: <a href="/topten">Tall Falls</a></li>
+
+  <li>Weekly Crossword: <a href="/xword">Flowers</a></li>
+     <!--<li><a href="/crossword.html">New York Times</a> Weekly Crossword</li>-->
+	 <li>Infoplease's <a href="/games/">Games for Grownups</a><br /><span style="color:#000;">Sudoku, Solitaire, Hangman, and more</span> </li>
+
+   </ul>
+</div>
+</div>
+
+<br clear="all" />
+
+</td>
+
+<td width="212" valign="top">
+
+<div id="QUICKPOLL">
+<h2 style="color:#930;padding:0;margin:0">Have Your Say</h2>
+<h3>What is your favorite eco-friendly strategy?</h3>
+<form name="poll" method="post" action="/pollresults?poll=Best%2BGreen%2BTip" >
+<input type="hidden" name="name" value="Best Green Tip" />
+<input type="hidden" name="url" value="%2F" />
+<input type="hidden" name="question" value="What%20is%20your%20favorite%20eco-friendly%20strategy%3F" />
+<input type="hidden" name="format" value="homepage" />
+<input type="hidden" name="posted" value="2009-04-22" />
+<input type="hidden" name="category" value="" />
+<input type="hidden" name="caturl" value="" />
+<input type="hidden" name="property" value="IP" />
+<input type="hidden" name="related" value="" />
+<input type="hidden" name="not_another_one" value="" />
+<input type="hidden" name="stub" value="" />
+
+<input type="hidden" name="ans" value="empty" /><ul>
+<li>
+<a href="/pollresults?poll=Best%2BGreen%2BTip&amp;ans=a0" class="submit" id="a0" title="Click to vote for this choice">
+<img src="http://i.infopls.com/images/clearpix.gif" width="20" height="20" alt="Pick choice 1" /></a>
+<input type="hidden" name="a0" value="Using%20compact%20fluorescent%20light%20bulbs" />
+Using compact fluorescent light bulbs
+</li>
+<li>
+<a href="/pollresults?poll=Best%2BGreen%2BTip&amp;ans=a1" class="submit" id="a1" title="Click to vote for this choice">
+<img src="http://i.infopls.com/images/clearpix.gif" width="20" height="20" alt="Pick choice 2" /></a>
+<input type="hidden" name="a1" value="Hanging%20clothes%20to%20dry" />
+Hanging clothes to dry
+</li>
+<li>
+<a href="/pollresults?poll=Best%2BGreen%2BTip&amp;ans=a2" class="submit" id="a2" title="Click to vote for this choice">
+<img src="http://i.infopls.com/images/clearpix.gif" width="20" height="20" alt="Pick choice 3" /></a>
+<input type="hidden" name="a2" value="Using%20low-flow%20showerheads" />
+Using low-flow showerheads
+</li>
+<li>
+<a href="/pollresults?poll=Best%2BGreen%2BTip&amp;ans=a3" class="submit" id="a3" title="Click to vote for this choice">
+<img src="http://i.infopls.com/images/clearpix.gif" width="20" height="20" alt="Pick choice 4" /></a>
+<input type="hidden" name="a3" value="Unplugging%20electronic%20devices%20not%20in%20use" />
+Unplugging electronic devices not in use
+</li>
+<li>
+<a href="/pollresults?poll=Best%2BGreen%2BTip&amp;ans=a4" class="submit" id="a4" title="Click to vote for this choice">
+<img src="http://i.infopls.com/images/clearpix.gif" width="20" height="20" alt="Pick choice 5" /></a>
+<input type="hidden" name="a4" value="Eating%20organic%20produce" />
+Eating organic produce
+</li>
+<li>
+<a href="/pollresults?poll=Best%2BGreen%2BTip&amp;ans=a5" class="submit" id="a5" title="Click to vote for this choice">
+<img src="http://i.infopls.com/images/clearpix.gif" width="20" height="20" alt="Pick choice 6" /></a>
+<input type="hidden" name="a5" value="Walking%2Fbiking%2Fcarpooling%20to%20work" />
+Walking/biking/carpooling to work
+</li>
+</ul>
+<script type="text/javascript">
+$('#a0').click(function(){document.poll.ans.value='a0';document.poll.submit();return false;});
+$('#a1').click(function(){document.poll.ans.value='a1';document.poll.submit();return false;});
+$('#a2').click(function(){document.poll.ans.value='a2';document.poll.submit();return false;});
+$('#a3').click(function(){document.poll.ans.value='a3';document.poll.submit();return false;});
+$('#a4').click(function(){document.poll.ans.value='a4';document.poll.submit();return false;});
+$('#a5').click(function(){document.poll.ans.value='a5';document.poll.submit();return false;});
+</script>
+<div class="center"><a href="/poll/best-green-tip/results">View Results</a></div>
+
+</form></div>
+
+
+<div id="dailyalmanac">
+<div class="dadynamictext">
+<h4 class="close">This Day in History</h4><a href="/dayinhistory" title="This day in history">"The . . . the. . . . the . . . that's all folks!"</a>
+
+
+<h4 class="close">Today&#39;s Birthdays</h4><a href="/birthday" title="Today&#39;s birthdays">Nikita Khrushchev</a>
+
+<h4 class="close">What Does It Mean?</h4><a href="/wordoftheday" title="Take today&#39;s word quiz">mantra</a>
+
+<h4 class="close"><a href="/askeds/">Ask the Editors</a></h4>
+<h4><a href="/ipa/A0875894.html">Did You Know?</a></h4><a href="/ipa/A0875894.html">William O. Douglas has served the longest term (36 years and 209 days) on the Supreme Court.</a>
+</div>
+</div>
+
+</td></tr>
+
+
+<tr><td align="left" valign="top" colspan="2">
+</td>
+
+</tr>
+
+</tbody></table>
+
+<div style="margin:6px">
+<div class="featureheader featureheaderleft">
+  In the Spotlight: Biographies</div>
+
+<div style="width:100px;float:right;text-align:center;background-color:#eaf3f9;padding:6px;border:1px solid #7992ad">
+<h4 style="margin:0;padding:0;color:#930;">Biography<br />of the day</h4>
+<a href="/biography/var/sylviaplath.html"><img src="http://i.infopls.com/images/splath1.gif" alt="Click to read today&#39;s biography" height="91" width="69" border="0" hspace="0" vspace="1" class="bodimage" /></a><div
+class="bodtext" style="text-align:center;margin:4px;clear:none;color:#930;">
+<a href="/biography/var/sylviaplath.html" >Sylvia Plath</a><br /><span class="years" style="color:#000;">1932&#8211;1963</span></div>
+</div>
+
+</div>
+
+
+<div class="featureaarea">
+  <a href="/people.html?link=hpimg"><img src="http://i.infopls.com/images/02ip_bios.png"
+width="293" height="90" border="0" alt="Click for Biographies" /></a>
+<div class="newtext"><a href="/people.html?link=hptext"><b>Search
+Biographies . . .</b></a></div>
+<div class="newtext">More than <b><a href="/people.html?link=hptext">30,000
+biographies</a></b>, from Mother Teresa to Mussolini, Tiger Woods to
+Wordsworth.</div>
+    </div>
+
+
+<div style="margin:20px 6px 6px">
+<div class="featureheader">
+<div class="featureheaderleft">Infoplease Sources</div>
+</div>
+<div class="sourcestext">
+<a href="/almanacs.html">Almanacs</a> / <a href="/almanacs.html">Complete Subject List</a> / <a href="/alphabeticalindex.html">Alphabetical Index</a><br />A vast compendium of statistics and up-to-date facts and figures, on everything you need to know.<br /><br />
+<a href="/atlas/">Atlas</a><br />An atlas featuring maps and detailed profiles of all 193 countries and the 50 U.S. states.<br /><br />
+<a href="http://dictionary.infoplease.com/">Dictionary</a><br />An unabridged dictionary from <i>aalii</i> to <i>zymurgy</i>, including a pronunciation guide.<br /><br />
+<a href="/encyclopedia/">Encyclopedia</a><br />A current and comprehensive encyclopedia covering all the major branches of knowledge from astrophysics to Zimbabwe.<br /><br />
+</div>
+</div>
+
+<div class="feeds">
+<a href="http://infoplease.com/rss/daily.rss"><img src="http://i.infopls.com/images/rssfeed.png" width="14" height="14" alt="Infoplease: Encyclopedia, Almanac, Atlas, Biographies, Dictionary, Thesaurus. Free online reference, research &amp; homework help." /></a>
+<a href="http://add.my.yahoo.com/rss?url=http:%2F%2Finfoplease.com%2Frss%2Fdaily.rss"><img src="http://i.infopls.com/images/add-to-yahoo.png" width="91" height="17" alt="Add to My Yahoo!" /></a>
+<a href="http://fusion.google.com/add?feedurl=http:%2F%2Finfoplease.com%2Frss%2Fdaily.rss"><img src="http://i.infopls.com/images/add-to-google.gif" width="104" height="17" alt="Add to Google" /></a>
+<a href="http://www.bloglines.com/sub/http%3Ainfoplease.com/rss/daily.rss"><img src="http://i.infopls.com/images/add-to-bloglines.png" width="76" height="17" alt="Subscribe with Bloglines" /></a>
+<a href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http:%2F%2Finfoplease.com%2Frss%2Fdaily.rss"><img src="http://i.infopls.com/images/add-to-newsgator.png" width="91" height="17" alt="Subscribe in NewsGator Online" /></a>
+</div><img src="http://i.infopls.com/images/clearpix.gif" alt="" width="450" height="0"/>
+<ul class="pagetools btm"><li><ul id="TOOLS-BTM"><li class="cite"><a href="/citing.html">Cite</a></li><li class="print"><a href="http://www.infoplease.com/" onclick="window.print();return false;">Print</a></li><li class="email"><a href="/emailpage.php"
+onclick="EmailForm('main');return false;"
+target="_blank">Email</a></li><li class="hotwords"><script type="text/javascript">//<![CDATA[
+document.write('<a href="'+document.location+'" onmouseover="HotWords.mouseOver(this)" onclick="return HotWords.search()" title="Highlight a word or phrase, then click HotWords to search our database for all relevant articles">HotWords<'+'/a>')
+//]]>
+</script></li><li class="bookmark"><a href="#">Bookmark</a><script type="text/javascript"><!--//--><![CDATA[//><!--
+  function addBookmark() {
+    var url = location.href;
+    var title = document.title;
+    if (window.sidebar) {
+      window.sidebar.addPanel(title, url,"");
+    } else if( document.all ) {
+      window.external.AddFavorite( url, title);
+    } else if( window.opera && window.print ) {
+      return false;
+    }
+  }
+
+$(function() {
+  var elementID = document.getElementById("TOOLS-BTM").getElementsByTagName("li");
+    for (var i=0; i<elementID.length; i++) {
+      elementID[i].onmouseover=function() {
+	this.className+=" over";
+      }
+      elementID[i].onmouseout=function() {
+	this.className=this.className.replace(new RegExp(" over"), "");
+      }
+    }
+  })
+
+//--><!]]></script>  <ul id="BOOKMARKS">
+    <li class="icon infoplease"><a onclick="event.cancelBubble=true;addBookmark();return false;" href="http://www.infoplease.com/">Add bookmark</a></li>
+    <li class="icon delicious"><a onclick="event.cancelBubble=true;window.open('http://del.icio.us/save?v=4&amp;noui&amp;jump=close&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title),'delicious','toolbar=no,width=700,height=400');return false" href="http://del.icio.us/save?jump=yes&amp;u=http:%2F%2Fwww.infoplease.com%2F">Add to del.icio.us</a></li>
+    <li class="icon digg"><a onclick="event.cancelBubble=true;window.open('http://digg.com/submit?phase=2&amp;url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title),'Digg','toolbar=no,width=700,height=400');return false" href="http://digg.com/submit?phase=2&amp;url=http:%2F%2Fwww.infoplease.com%2F">Digg It!</a></li>
+    <li class="icon reddit"><a onclick="event.cancelBubble=true;window.open('http://reddit.com/submit?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title), 'Reddit','toolbar=no,width=700,height=400'); return false" href="http://reddit.com/submit?url=http:%2F%2Fwww.infoplease.com%2F">Add to Reddit</a></li>
+  </ul></li></ul></li></ul><br clear="all" /><!-- google_ad_section_end -->
+
+<script type="text/javascript">
+$('#Pg a').click(function(){if(this.href.indexOf(location.hostname)==-1){pageTracker._trackPageview('/outgoing/'+this.href.replace(/^https?:\/\//i,''));};});
+</script>
+
+</td>
+
+<td id="mktplace">
+<div id="mr"><script
+type="text/javascript">GA_googleFillSlot("IP_home_300x250");</script></div><!-- -->
+
+<div id="ssky"><script
+type="text/javascript">GA_googleFillSlot("IP_home_160x600");</script></div><!-- -->
+
+
+<!-- Answerplease promo -->
+<a href="http://answerplease.infoplease.com/"><img src="http://i.infopls.com/images/ads/ip-ad-vertical.jpg" width="127" height="201" alt="A free, reliable Q&A site for homework help. Answerplease.com" border="0" style="margin-top:10px;"></a>
+<!-- # Answerplease promo -->
+
+
+<ul class="list">
+<li><img src="http://i.infopls.com/images/infotoolslogo.gif" width="105" height="22" alt="Infoplease Tools" />
+
+
+<ul>
+<li><a href="/math/calculator.html" title="Engineering/Scientific Calculator">Calculator</a></li>
+<li><a href="/spellcheck" title="Use this page for spelling help, or type ' spell &ldquo;your-best-guess&rdquo; ' into site search">Spelling Checker</a></li>
+<li><a href="/atlas/latitude-longitude.html" title="Find longitude and latitude of places around the world.">Place Finder</a></li>
+<li><a href="/atlas/calculate-distance.html" title="How far is it? Find distances between cities/towns, land features, and more.">Distance Calculator</a></li>
+<li><a href="/periodictable.php" title="Interactive periodic table of the elements: atomic weight, melting/boiling points, more">Periodic Table</a></li>
+<li><a href="/pages/unitconversion.html" title="Conversion calculator: area, volume, length, time, and more; plus significant figures">Conversion Tool</a></li>
+<li><a href="/calendar.php" title="View any month, any year, in the Gregorian calendar">Perpetual Calendar</a></li>
+<li><a href="/yearbyyear.html" title="Significant events by year from 1900 to the present">Year by Year</a></li></ul>
+</li></ul>
+
+<!-- TutorVista -->
+<div class="tutIP-infoarea">
+			<div style="padding:5px;">
+				<h1>24 X 7</h1>
+				<h2>Private Tutor</h2>
+				<div style="padding-top:5px;">
+					<a href="http://vista.tutorvista.com/cm/campaign.php?cpid=40001"><img src="http://i.infopls.com/images/tutIP-try_button_sm.gif" width="115" height="33" border="0" alt="Click Here for Details" /></a>
+				</div>
+				<div style="padding-top:5px;padding-bottom:5px;">
+					<table cellpadding="3" cellspacing="0" border="0" width="100%">
+						<tr>
+							<td width="5" valign="top">
+								<img src="http://i.infopls.com/images/tutIP-bullet_orange.gif" width="5" height="5" border="0" alt="" style="padding-top:5px;" />
+							</td>
+							<td>24 x 7 Tutor Availability</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<img src="http://i.infopls.com/images/tutIP-bullet_orange.gif" width="5" height="5" border="0" alt="" style="padding-top:5px;" />
+							</td>
+							<td>Unlimited Online Tutoring</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<img src="http://i.infopls.com/images/tutIP-bullet_orange.gif" width="5" height="5" border="0" alt="" style="padding-top:5px;" />
+							</td>
+							<td>1-on-1 Tutoring</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tutfoot">
+					Expert Tutors for <a target='_blank' href='http://www.tutorvista.com/math-help' > Math Help </a> &amp; <a target='_blank' href='http://www.tutorvista.com/algebra-help' > Algebra Help </a>				</div>
+			</div>
+		</div>
+<!-- End TVista -->
+
+
+
+
+
+
+<div id="adMktPlace">
+
+</div>
+
+<script type="text/javascript">
+$('#mktplace a').click(function(){if(this.href.indexOf(location.hostname)==-1){pageTracker._trackPageview('/outgoing/'+this.href.replace(/^https?:\/\//i,''));};});
+</script>
+
+</td>
+</tr></table>
+
+</td>
+</tr></table>
+
+
+
+
+<div id="ipFoot" style="text-align: center">
+
+<div id="FOOTER">
+<span class="rssxml"><a href="/rss/">RSS</a></span> |
+<b><a href="/aboutip.html">About Infoplease</a></b>, <b>Part of Family Education Network</b> |
+<a href="/contact.html?origin=%2F">Contact</a> |
+<a href="/linkagreement.html">Link to Us</a> |
+<a href="/infoplease-advertising.html">Advertise with Infoplease</a> |
+<a href="http://fen.com/resources/agreeDisclaim.html">Terms of Use</a> |
+<a href="http://fen.com/resources/privacyStatement.html">Privacy</a>
+<br />
+Part of Family Education Network |
+<a href="http://www.factmonster.com/">Homework Help</a> |
+<a href="http://www.infoplease.com/">Reference Site</a> |
+<a href="http://www.funbrain.com/">K-8 Kids</a> |
+<a href="http://www.poptropica.com/">Poptropica</a> |
+<a href="http://www.familyeducation.com/">Parenting Advice</a> |
+<a href="http://www.teachervision.com/">Teacher Resources</a> |
+<a href="http://www.mygradebook.com">Online Gradebook</a>
+<br />
+&copy; 2000&ndash;2012 Pearson Education, publishing as Infoplease
+</div>
+</div>
+
+<script type="text/javascript">
+$('#ipFoot a').click(function(){if(this.href.indexOf(location.hostname)==-1){pageTracker._trackPageview('/outgoing/'+this.href.replace(/^https?:\/\//i,''));};});
+</script>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">
+_qacct="p-c2iQpv7gXxF_A";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-c2iQpv7gXxF_A" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-c2iQpv7gXxF_A.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a></noscript>
+<!-- End Quantcast tag -->
+
+<script src="http://i.infopls.com/js/ip-close.js" type="text/javascript"></script>
+<script type="text/javascript">var HotWords = new hotWords();</script>
+
+
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1548.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b);}, 1);
+</script>
+
+<div id="lb"><script
+type="text/javascript">GA_googleFillSlot("IP_home_728x90");</script></div>
+<script type="text/javascript"><!--
+var casaleD=new Date();var casaleR=(casaleD.getTime()%8673806982)+Math.random();
+var casaleU=escape(window.location.href);
+var casaleHost=' type="text/javascript" src="http://as.casalemedia.com/s?s=';
+document.write('<scr'+'ipt'+casaleHost+'65686&amp;u=');
+document.write(casaleU+'&amp;f=1&amp;id='+casaleR+'"><\/scr'+'ipt>');
+//--></script>
+
+</div>
+</body></html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>Sprint</title>
+	<meta name="MetricData.referer" content="UrlEncodedReferrer">
+	<!-- Favourite Icon-->
+	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	<!-- GLOBAL CSS FILES -->
+	<link rel="stylesheet" type="text/css" href="/global/css/default.css" />
+	<!--[if IE]><link rel="stylesheet" type="text/css" href="/global/css/ie.css" /><![endif]-->
+
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/global/css/ie7.css" /><![endif]-->
+	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/global/css/ie6.css" /><![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/global/css/ie8.css" /><![endif]-->
+
+	<!-- GLOBAL NAVIGATION -->
+	<link rel="stylesheet" type="text/css" href="/global/css/nav/nav.css" />
+	<!--[if IE]><link rel="stylesheet" type="text/css" href="/global/css/nav/nav_ie.css" /><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/global/css/nav/nav_ie7.css" /><![endif]-->
+	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/global/css/nav/nav_ie6.css" /><![endif]-->
+
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/global/css/nav/nav_ie8.css" /><![endif]-->
+
+	<!-- HOME PAGE SPECIFIC CSS FILES -->
+	<link rel="stylesheet" type="text/css" href="/global/css/homepage/home.css" />
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="/global/css/homepage/home_ie6.css" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="/global/css/homepage/home_ie7.css" />
+	<![endif]-->
+
+	<!-- GLOBAL JS FILES -->
+	<script type="text/javascript" src="/global/js/sprint.common_all.js"></script>
+
+	<script type="text/javascript" src="/global/js/swfobject.js"></script>
+	<script type="text/javascript" src="/global/js/plugins/jquery.sifr.min.js"></script>
+	<script type="text/javascript" src="/global/js/tech/sprintLogin.js"></script>
+
+	<!-- This part has been commented as part of JS Minification
+
+	<script type="text/javascript" src="/global/js/jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="/global/js/sprint.content.js"></script>
+	<script type="text/javascript" src="/global/js/jquery.sprint_base.js"></script>
+	<script type="text/javascript" src="/global/js/swfobject.js"></script>
+	<script type="text/javascript" src="/global/js/plugins/jquery.flash.js"></script>
+	<script type="text/javascript" src="/global/js/plugins/jquery.sifr.js"></script>
+	<script type="text/javascript" src="/global/js/global.js"></script>
+	<script type="text/javascript" src="/global/js/tech/sprintLogin.js"></script>
+
+	-->
+
+	<!--[if lt IE 7]>
+	<script type="text/javascript" src="/global/js/ie6.js"></script>
+	<![endif]-->
+
+	<!-- HOME PAGE SPECIFIC SCRIPT FILES -->
+
+	<script type="text/javascript" src="/global/js/home.js"></script>
+
+	<!-- Site dev specific file added during the A/B/T phases to control utility links -->
+	<script type="text/javascript" src="/global/js/sprint.header_addition.js"></script>
+	<script type="text/javascript" src="/global/js/cookieTracking.js"></script>
+</head>
+
+<body>
+<script type="text/javascript">segmentUser();</script>
+
+<!-- GLOBAL HOME PAGE -->
+
+<div class="content sprint">
+	<div class="body segmentation interstitial" id="sprintHome">
+		<div id="interstitial" class="">
+			<h1><a href="/"><img src="/global/images/logos/sprint_logo.gif" alt="Sprint Logo" /></a></h1>
+			<h2 class="corporate" id="welcome">Welcome</h2>
+			<h3 class="corporate" id="connectivity">Let us know a little bit about you so we can give you the best information possible.</h3>
+			<div class="currentCustomer">
+				<h2>Current customer?</h2>
+				<ul>
+					<li><a id="consumerCustomer" href="/index_c.html?context=CC">Personal</a></li>
+					<li><a id="businessCustomer" href="/index_b.html?context=BC">Business</a></li>
+				</ul>
+			</div>
+			<div class="browsingCustomer">
+				<h2>Just browsing...</h2>
+				<ul>
+					<li><a id="consumerProspect" href="/index_p.html?context=CP">Personal</a></li>
+					<li><a id="businessProspect" href="/index_b.html?context=BP">Business</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="segmentationFooter">
+		
+
+
+
+
+	<div class="footerBase">
+    
+		
+		
+			 <ul id="footerActions">
+		<li>
+			<a href="https://mysprint.sprint.com/mysprint/pages/sl/global/siteMap.jsp?INTNAV=ATG:FT:Sitemap" id="siteMapLink">  Site Map  </a>
+		</li>
+			 </ul> 
+		     
+		
+	 <ul id="navFooter">
+		 
+
+	  
+		 
+				  
+		 
+			  			
+				  
+						<li>   Order by Phone 1-866-866-7509  </li>
+					
+				  		
+			  
+	   
+		 
+			  			
+				  
+					   
+		<li>
+			<a href="http://delivery.sprint.com/m/p/nxt/reg/cmb/generic.asp?ICTarget=thickfooter.emailsignup&INTNAV=ATG:FT:Email" id="siteMapLink">   Email sign up  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+				  
+		 
+			  			
+				  
+					   
+		<li>
+			<a href="http://www.sprint.com/about?INTNAV=ATG:FT:About" id="siteMapLink">   About us  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+			  			
+				  
+					   
+		<li>
+			<a href="http://www.sprint.com/contactus/?INTNAV=ATG:FT:ContactUs" id="siteMapLink">   Contact us  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+			  			
+				  
+					   
+		<li>
+			<a href="http://www.sprint.com/index_es.html?dcc=true&language=ES&INTNAV=ATG:FT:ES" id="siteMapLink">   En Espanol  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+			  			
+				  
+					   
+		<li>
+			<a href="http://www.sprint.com/legal/agreement.html?INTNAV=ATG:FT:Terms" id="siteMapLink">   Website, Use &amp; Network Terms  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+			  			
+				  
+					   
+		<li>
+			<a href="http://www.sprint.com/legal/privacy.html?INTNAV=ATG:FT:Privacy" id="siteMapLink">   Privacy policy  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+			  			
+				  
+					   
+		<li>
+			<a href="http://www.sprint.com/legal/copyright.html?INTNAV=ATG:FT:Copyright" id="siteMapLink">   Copyright notices  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+			  			
+				  
+					   
+		<li class="last">
+			<a href="http://www.sprint.com/legal/ad_choices.html?INTNAV=ATG:FT:Privacy#adchoices" id="siteMapLink">   Ad Choices  </a>
+		</li>
+						   
+					
+				  		
+			  
+	   
+		 
+				  
+	  </ul>
+
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	   
+			
+	 
+		
+	   
+			   <p>  &copy; <script type="text/javascript"> var currentYear = new Date().getFullYear(); document.write(currentYear); </script> Sprint.com All rights reserved.   </p>
+			 
+	</div>
+
+  	
+
+	</div>
+</div>
+
+
+<script>document.write('<s'+'cript language="JavaScript" src="//view.atdmt.com/jaction/m0nssc_20HomePageInterstitial_1"></s'+'cript>')</script><noscript><iframe src="//view.atdmt.com/iaction/m0nssc_20HomePageInterstitial_1" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe></noscript>
+<!--Start of Omniture tracking code--> 
+<script type="text/javascript"> 
+	Analytics = new Object; 
+	Analytics.MetricData = {}; 
+	Analytics.MetricData.appId = "eCareATG"; 
+	Analytics.MetricData.currentHost = 'www.sprint.com'; 
+	Analytics.MetricData.environment = 'prod'; 
+	Analytics.MetricData.action = 'Home Page';
+	Analytics.MetricData.hpSegment = "Interstitial";
+</script> 
+<script src="/assets/scripts/analytics/analyticsFramework.js"></script>
+<!--End of Omniture tracking code--> 
+
+</body></html>

@@ -1,0 +1,936 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+    <link rel="shortcut icon" href="http://webassets.wildtangent.com/Skins/akira/branded/wildgames/img/favicon.ico">
+
+    <link type="text/css" rel="Stylesheet" href="http://webassets.wildtangent.com/Skins/akira/css/common.css?v=5.4.19.26" />
+    <link type="text/css" rel="Stylesheet" href="http://webassets.wildtangent.com/Skins/akira/css/colorbox.css?v=5.4.19.26" />
+    
+    <link type="text/css" rel="Stylesheet" href="http://webassets.wildtangent.com/Skins/akira/css/home.css?v=5.4.19.26" />
+    <link type="text/css" rel="Stylesheet" href="http://webassets.wildtangent.com/Skins/akira/css/social.css?v=5.4.19.26" />
+    <link type="text/css" rel="Stylesheet" href="http://webassets.wildtangent.com/Skins/akira/css/controllers.css?v=5.4.19.26" />
+
+
+    
+    <title>Games | Play Games Online | WildTangent Games</title>
+    <meta id="description" name="description" content="Play Games Online at WildTangent Games!  Play 1,000's of Casual Games, Enthusiast Games and Family Games!  Try, Buy, or Rent!" />
+    <meta id="keywords" name="keywords" content="game, games, pc game, pc games, download game, download games, wildgames, wildtangent" />
+
+    <meta content="text-html; charset=utf-8" http-equiv="content-type"/>
+     <meta property="fb:app_id" content="263676128496"/>
+
+    
+
+<script type="text/javascript">
+    /*! LAB.js (LABjs :: Loading And Blocking JavaScript)
+    v1.2.0 (c) Kyle Simpson
+    MIT License
+    */
+    (function (p) { var q = "string", w = "head", L = "body", M = "script", u = "readyState", j = "preloaddone", x = "loadtrigger", N = "srcuri", E = "preload", Z = "complete", y = "done", z = "which", O = "preserve", F = "onreadystatechange", ba = "onload", P = "hasOwnProperty", bb = "script/cache", Q = "[object ", bw = Q + "Function]", bx = Q + "Array]", e = null, h = true, i = false, k = p.document, bc = p.location, bd = p.ActiveXObject, A = p.setTimeout, be = p.clearTimeout, R = function (a) { return k.getElementsByTagName(a) }, S = Object.prototype.toString, G = function () { }, r = {}, T = {}, bf = /^[^?#]*\//.exec(bc.href)[0], bg = /^\w+\:\/\/\/?[^\/]+/.exec(bf)[0], by = R(M), bh = p.opera && S.call(p.opera) == Q + "Opera]", bi = ("MozAppearance" in k.documentElement.style), bj = (k.createElement(M).async === true), v = { cache: !(bi || bh), order: bi || bh || bj, xhr: h, dupe: h, base: "", which: w }; v[O] = i; v[E] = h; r[w] = k.head || R(w); r[L] = R(L); function B(a) { return S.call(a) === bw } function U(a, b) { var c = /^\w+\:\/\//, d; if (typeof a != q) a = ""; if (typeof b != q) b = ""; d = ((/^\/\//.test(a)) ? bc.protocol : "") + a; d = (c.test(d) ? "" : b) + d; return ((c.test(d) ? "" : (d.charAt(0) === "/" ? bg : bf)) + d) } function bz(a) { return (U(a).indexOf(bg) === 0) } function bA(a) { var b, c = -1; while (b = by[++c]) { if (typeof b.src == q && a === U(b.src) && b.type !== bb) return h } return i } function H(t, l) { t = !(!t); if (l == e) l = v; var bk = i, C = t && l[E], bl = C && l.cache, I = C && l.order, bm = C && l.xhr, bB = l[O], bC = l.which, bD = l.base, bn = G, J = i, D, s = h, m = {}, K = [], V = e; C = bl || bm || I; function bo(a, b) { if ((a[u] && a[u] !== Z && a[u] !== "loaded") || b[y]) { return i } a[ba] = a[F] = e; return h } function W(a, b, c) { c = !(!c); if (!c && !(bo(a, b))) return; b[y] = h; for (var d in m) { if (m[P](d) && !(m[d][y])) return } bk = h; bn() } function bp(a) { if (B(a[x])) { a[x](); a[x] = e } } function bE(a, b) { if (!bo(a, b)) return; b[j] = h; A(function () { r[b[z]].removeChild(a); bp(b) }, 0) } function bF(a, b) { if (a[u] === 4) { a[F] = G; b[j] = h; A(function () { bp(b) }, 0) } } function X(b, c, d, g, f, n) { var o = b[z]; A(function () { if ("item" in r[o]) { if (!r[o][0]) { A(arguments.callee, 25); return } r[o] = r[o][0] } var a = k.createElement(M); if (typeof d == q) a.type = d; if (typeof g == q) a.charset = g; if (B(f)) { a[ba] = a[F] = function () { f(a, b) }; a.src = c; if (bj) { a.async = i } } r[o].insertBefore(a, (o === w ? r[o].firstChild : e)); if (typeof n == q) { a.text = n; W(a, b, h) } }, 0) } function bq(a, b, c, d) { T[a[N]] = h; X(a, b, c, d, W) } function br(a, b, c, d) { var g = arguments; if (s && a[j] == e) { a[j] = i; X(a, b, bb, d, bE) } else if (!s && a[j] != e && !a[j]) { a[x] = function () { br.apply(e, g) } } else if (!s) { bq.apply(e, g) } } function bs(a, b, c, d) { var g = arguments, f; if (s && a[j] == e) { a[j] = i; f = a.xhr = (bd ? new bd("Microsoft.XMLHTTP") : new p.XMLHttpRequest()); f[F] = function () { bF(f, a) }; f.open("GET", b); f.send("") } else if (!s && a[j] != e && !a[j]) { a[x] = function () { bs.apply(e, g) } } else if (!s) { T[a[N]] = h; X(a, b, c, d, e, a.xhr.responseText); a.xhr = e } } function bt(a) { if (typeof a == "undefined" || !a) return; if (a.allowDup == e) a.allowDup = l.dupe; var b = a.src, c = a.type, d = a.charset, g = a.allowDup, f = U(b, bD), n, o = bz(f); if (typeof d != q) d = e; g = !(!g); if (!g && ((T[f] != e) || (s && m[f]) || bA(f))) { if (m[f] != e && m[f][j] && !m[f][y] && o) { W(e, m[f], h) } return } if (m[f] == e) m[f] = {}; n = m[f]; if (n[z] == e) n[z] = bC; n[y] = i; n[N] = f; J = h; if (!I && bm && o) bs(n, f, c, d); else if (!I && bl) br(n, f, c, d); else bq(n, f, c, d) } function Y(a) { if (t && !I) K.push(a); if (!t || C) a() } function bu(a) { var b = [], c; for (c = -1; ++c < a.length; ) { if (S.call(a[c]) === bx) b = b.concat(bu(a[c])); else b[b.length] = a[c] } return b } D = { script: function () { be(V); var a = bu(arguments), b = D, c; if (bB) { for (c = -1; ++c < a.length; ) { if (B(a[c])) a[c] = a[c](); if (c === 0) { Y(function () { bt((typeof a[0] == q) ? { src: a[0]} : a[0]) }) } else b = b.script(a[c]); b = b.wait() } } else { for (c = -1; ++c < a.length; ) { if (B(a[c])) a[c] = a[c]() } Y(function () { for (c = -1; ++c < a.length; ) { bt((typeof a[c] == q) ? { src: a[c]} : a[c]) } }) } V = A(function () { s = i }, 5); return b }, wait: function (a) { be(V); s = i; if (!B(a)) a = G; var b = H(t || J, l), c = b.trigger, d = function () { try { a() } catch (err) { } c() }; delete b.trigger; var g = function () { if (J && !bk) bn = d; else d() }; if (t && !J) K.push(g); else Y(g); return b } }; if (t) { D.trigger = function () { var a, b = -1; while (a = K[++b]) a(); K = [] } } else D.trigger = G; return D } function bv(a) { var b, c = {}, d = { "UseCachePreload": "cache", "UseLocalXHR": "xhr", "UsePreloading": E, "AlwaysPreserveOrder": O, "AllowDuplicates": "dupe" }, g = { "AppendTo": z, "BasePath": "base" }; for (b in d) g[b] = d[b]; c.order = !(!v.order); for (b in g) { if (g[P](b) && v[g[b]] != e) c[g[b]] = (a[b] != e) ? a[b] : v[g[b]] } for (b in d) { if (d[P](b)) c[d[b]] = !(!c[d[b]]) } if (!c[E]) c.cache = c.order = c.xhr = i; c.which = (c.which === w || c.which === L) ? c.which : w; return c } p.$LAB = { setGlobalDefaults: function (a) { v = bv(a) }, setOptions: function (a) { return H(i, bv(a)) }, script: function () { return H().script.apply(e, arguments) }, wait: function () { return H().wait.apply(e, arguments) } }; (function (a, b, c) { if (k[u] == e && k[a]) { k[u] = "loading"; k[a](b, c = function () { k.removeEventListener(b, c, i); k[u] = Z }, i) } })("addEventListener", "DOMContentLoaded") })(window);
+</script>
+
+    <noscript>
+        <link type="text/css" rel="Stylesheet" href="http://webassets.wildtangent.com/Skins/akira/css/noscript.css?v=5.4.19.26" />
+    </noscript>
+    <link type="text/css" rel="Stylesheet" href="http://webassets.wildtangent.com/Skins/akira/css/localized/en-us/locale.css?v=5.4.19.26" />
+
+    
+    <link id="rssNew" rel="alternate" type="application/rss+xml" title="WildTangent Games - New Games" href="/rss/games/new?dp=wildgames&locale=en-US&region=US" />
+    <link id="rssNewCasual" rel="alternate" type="application/rss+xml" title="WildTangent Games - New Casual Games" href="/rss/games/new/casual?dp=wildgames&locale=en-US&region=US" />
+    <link id="rssNewEnthusiast" rel="alternate" type="application/rss+xml" title="WildTangent Games - New Enthusiast Games" href="/rss/games/new/enthusiast?dp=wildgames&locale=en-US&region=US" />
+    <link id="rssNewFamily" rel="alternate" type="application/rss+xml" title="WildTangent Games - New Family Games" href="/rss/games/new/family?dp=wildgames&locale=en-US&region=US" />
+</head>
+<body class="bodyStyle">
+
+    
+    <div id="IE6Warning">
+        <div id="IE6WarningContent">
+            <div id="IE6WarningLogo"><a href="http://www.microsoft.com/windows/Internet-explorer/" target="_blank"><img src="/Skins/akira/img/ie-logo.png" alt="" /></a></div>
+            <div id="IE6WarningText">You have an old version of Internet Explorer installed.  Online content may not display appropriately.  <a href="http://www.microsoft.com/windows/Internet-explorer/" target="_blank">Go here</a> to download the latest version of Internet Explorer.</div>
+        </div>
+    </div>
+    <input id="SignInTitle" name="SignInTitle" type="hidden" value="Sign In" />
+    <input id="CommerceTitle" name="CommerceTitle" type="hidden" value="[itemName]" />
+    <input id="GetWildCoinsTitle" name="GetWildCoinsTitle" type="hidden" value="Get WildCoins" />
+    <input id="js_common_searchForGames" name="js_common_searchForGames" type="hidden" value="Search for games..." />
+    <input id="pageKey" name="pageKey" type="hidden" value="home_index" />
+    <input id="analyticsSource" name="analyticsSource" type="hidden" value="Web" />
+
+    
+
+    <div>
+    
+
+    <div class="header">
+        <div class="inner">
+            <a href="/"><img src="http://webassets.wildtangent.com/Skins/akira/branded/wildgames/img/logo.png" class="wtlogo" /></a>        	
+            
+
+
+<span class="accountitems">
+            
+            <div id="signedInContainer" class="signincontainer hidden">
+                <span id="userEmail">
+                Welcome Back!
+                </span>
+                [ 
+                    <a class="signOutLink" href="/Account/Access/SignOut">Sign Out</a>
+                ]
+            </div>
+
+            
+            <div id="signedOutContainer" class="signincontainer ">
+                [ 
+                    <a class="signInLink" href="/Account/Access/SignIn">Sign In</a>
+                ]
+                [ 
+                    <a class="signInLink" href="/Account/Access/SignIn">Register</a>
+                ]
+            </div>
+            <div class="headerIcons">
+                
+                <a class="myAccountIconLink signOutLink" href="/Account/Access/SignIn?c=%2FMyAccount" title="My Account"></a>
+                <a class="myAccountIconLinkSignedIn" href="/MyAccount" title="My Account"></a>
+                <a class="support" href="/support" title="Support"></a>
+            </div>
+        </span>
+        </div>
+    </div>
+
+
+
+    <div class="navbar">
+        <div class="inner">
+            <div class="navitems">            
+                <div class="navitem">                             
+                    <a id="homeOption" href="/"></a> 
+                </div>
+                        
+                <div class="navitem">
+				    <a id="gameMenuOption" href="/Games"></a>
+			    </div> 
+			
+                <div class="navitem">
+				    <a id="wildCoinsOption" href="/WildCoins"></a>
+			    </div>
+            
+                <div class="navitem">
+				    <a id="consoleOption" href="/GamesApp"></a>
+			    </div>
+            
+            
+                <div class="search">
+                    <form action="/Products/Search" method="get" onsubmit="return common.CheckForBlankSearch();">
+                        <input id="searchbox"  name="query" maxlength="1000" type="text" class="searchbox" value="Search for games..." autocomplete="off" />
+                        <input type="image" src="http://webassets.wildtangent.com/Skins/akira/img/localization/en-us/search_icon.png" class="searchicon" />
+                        <div id="searchResults">
+                            <div id="searchKeywordsResults"></div>
+                            <div id="searchGamesResults"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            
+            <div id="gamesDropDown">
+                <div id="popularGenresContainer">
+                <div id="dropdownBG"></div>
+                  <div class="cols">
+                
+                        <strong><a href="/Channels/action">Action</a></strong>
+                    
+                        <strong><a href="/Channels/adventure">Adventure</a></strong>
+                    
+                        <strong><a href="/Channels/arcade">Arcade</a></strong>
+                    
+                        <strong><a href="/Channels/brainpower">Brain Power</a></strong>
+                    
+                        <strong><a href="/Channels/cards">Cards</a></strong>
+                    
+                        <strong><a href="/Channels/freeonlinegames">Free Online Games</a></strong>
+                    
+                    </div>
+                    <div class="cols">
+                        <strong><a href="/Channels/hiddenobject">Hidden Object</a></strong>
+                    
+                        <strong><a href="/Channels/kids">Kids</a></strong>
+                    
+                        <strong><a href="/Channels/massivelymultiplayer">Massively Multiplayer</a></strong>
+                    
+                        <strong><a href="/Channels/match3">Match 3</a></strong>
+                    
+                        <strong><a href="/Channels/puzzle">Puzzle</a></strong>
+                    
+                        <strong><a href="/Channels/racing">Racing</a></strong>
+                    
+                    </div>
+                    <div class="cols">
+                        <strong><a href="/Channels/roleplaying">Roleplaying</a></strong>
+                    
+                        <strong><a href="/Channels/social">Social</a></strong>
+                    
+                        <strong><a href="/Channels/sports">Sports</a></strong>
+                    
+                        <strong><a href="/Channels/timemanagement">Time Management</a></strong>
+                    
+                        <strong><a href="/Channels/tycoon">Tycoon</a></strong>
+                    
+                        <strong><a href="/Channels/word">Word</a></strong>
+                    
+                    </div>
+                    <div class="cols">
+                    </div>
+            
+                    <br style="clear:both;"/>
+                    <div class="gamesDropDownLinks">
+                        <span class="linkbutton">[ <a href="/Channels">all channels</a> ]
+                        <span class="newgameslink">[ <a href="/Games">new games</a> ]</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="login"></div>
+        </div>
+        <div class="navshadow"></div>
+    </div>
+
+
+		<div class="betawrapper">
+			
+
+<div id="ie8WebSlice" class="hslice">
+    <a rel="entry-content" href="/webslice?dp=wildgames"></a>
+    <div class="entry-title">WildTangent Games - Top Games</div>
+</div>
+
+
+<div class="alpha">
+    
+<div class="features">            
+
+    <div class="feature">
+        <input id="fp_toptengamesbj3_key" name="fp_toptengamesbj3_key" type="hidden" value="toptengamesbj3" />
+        <input id="fp_toptengamesbj3_title" name="fp_toptengamesbj3_title" type="hidden" value="toptengamesbj3" />
+        <input id="fp_toptengamesbj3_description" name="fp_toptengamesbj3_description" type="hidden" value="Play the best games!" />
+        <input id="fp_toptengamesbj3_link" name="fp_toptengamesbj3_link" type="hidden" value="http://www.wildtangent.com/Products/Search?query=Top10" />
+        <input id="fp_toptengamesbj3_snippet" name="fp_toptengamesbj3_snippet" type="hidden" value="Play the best games!" />
+        <input id="fp_toptengamesbj3_media" name="fp_toptengamesbj3_media" type="hidden" value="http://images.wildtangent.com/website/promotions/toptengamesbj3/en-US/home_feature.jpg" />
+        <input id="fp_toptengamesbj3_logo" name="fp_toptengamesbj3_logo" type="hidden" value="http://images.wildtangent.com/website/promotions/toptengamesbj3/en-US/home_feature_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_bigcityadventurelondonstory_key" name="fp_bigcityadventurelondonstory_key" type="hidden" value="bigcityadventurelondonstory" />
+        <input id="fp_bigcityadventurelondonstory_title" name="fp_bigcityadventurelondonstory_title" type="hidden" value="Big City Adventure: London Story" />
+        <input id="fp_bigcityadventurelondonstory_description" name="fp_bigcityadventurelondonstory_description" type="hidden" value="Follow the clues to find Fitzpatrick McGovern&#39;s lost legacy on a mysterious adventure in Big City Adventure: London Story!" />
+        <input id="fp_bigcityadventurelondonstory_link" name="fp_bigcityadventurelondonstory_link" type="hidden" value="/Games/big-city-adventure-london-story" />
+        <input id="fp_bigcityadventurelondonstory_snippet" name="fp_bigcityadventurelondonstory_snippet" type="hidden" value="Search London for a lost legacy!" />
+        <input id="fp_bigcityadventurelondonstory_media" name="fp_bigcityadventurelondonstory_media" type="hidden" value="http://images.wildtangent.com/bigcityadventurelondonstory/featured_game.jpg" />
+        <input id="fp_bigcityadventurelondonstory_logo" name="fp_bigcityadventurelondonstory_logo" type="hidden" value="http://images.wildtangent.com/bigcityadventurelondonstory/featured_game_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_aprilonewildcoin_key" name="fp_aprilonewildcoin_key" type="hidden" value="aprilonewildcoin" />
+        <input id="fp_aprilonewildcoin_title" name="fp_aprilonewildcoin_title" type="hidden" value="aprilonewildcoin" />
+        <input id="fp_aprilonewildcoin_description" name="fp_aprilonewildcoin_description" type="hidden" value="New games released every week." />
+        <input id="fp_aprilonewildcoin_link" name="fp_aprilonewildcoin_link" type="hidden" value="http://www.wildtangent.com/offers?k=only1wildcoin" />
+        <input id="fp_aprilonewildcoin_snippet" name="fp_aprilonewildcoin_snippet" type="hidden" value="New games released every week." />
+        <input id="fp_aprilonewildcoin_media" name="fp_aprilonewildcoin_media" type="hidden" value="http://images.wildtangent.com/website/promotions/aprilonewildcoin/en-US/home_feature.jpg" />
+        <input id="fp_aprilonewildcoin_logo" name="fp_aprilonewildcoin_logo" type="hidden" value="http://images.wildtangent.com/website/promotions/aprilonewildcoin/en-US/home_feature_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_referafriend_key" name="fp_referafriend_key" type="hidden" value="referafriend" />
+        <input id="fp_referafriend_title" name="fp_referafriend_title" type="hidden" value="referafriend" />
+        <input id="fp_referafriend_description" name="fp_referafriend_description" type="hidden" value="Get paid when your friends register!" />
+        <input id="fp_referafriend_link" name="fp_referafriend_link" type="hidden" value="http://wt.extole.com/m/284620011" />
+        <input id="fp_referafriend_snippet" name="fp_referafriend_snippet" type="hidden" value="Get paid when your friends register!" />
+        <input id="fp_referafriend_media" name="fp_referafriend_media" type="hidden" value="http://images.wildtangent.com/website/promotions/referafriend/en-US/home_feature.jpg" />
+        <input id="fp_referafriend_logo" name="fp_referafriend_logo" type="hidden" value="http://images.wildtangent.com/website/promotions/referafriend/en-US/home_feature_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_insane2_key" name="fp_insane2_key" type="hidden" value="insane2" />
+        <input id="fp_insane2_title" name="fp_insane2_title" type="hidden" value="Insane 2" />
+        <input id="fp_insane2_description" name="fp_insane2_description" type="hidden" value="Insane 2 offers 10 multiplayer game modes and new innovations in the off-road racing genre. More than 150 races take place around the world!" />
+        <input id="fp_insane2_link" name="fp_insane2_link" type="hidden" value="/Games/insane-2" />
+        <input id="fp_insane2_snippet" name="fp_insane2_snippet" type="hidden" value="Relapse into Insanity!" />
+        <input id="fp_insane2_media" name="fp_insane2_media" type="hidden" value="http://images.wildtangent.com/insane2/featured_game.jpg" />
+        <input id="fp_insane2_logo" name="fp_insane2_logo" type="hidden" value="http://images.wildtangent.com/insane2/featured_game_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_pogogamepage_key" name="fp_pogogamepage_key" type="hidden" value="pogogamepage" />
+        <input id="fp_pogogamepage_title" name="fp_pogogamepage_title" type="hidden" value="pogogamepage" />
+        <input id="fp_pogogamepage_description" name="fp_pogogamepage_description" type="hidden" value="Play fun &amp; free games!" />
+        <input id="fp_pogogamepage_link" name="fp_pogogamepage_link" type="hidden" value="http://www.wildtangent.com/Games/pogo-games" />
+        <input id="fp_pogogamepage_snippet" name="fp_pogogamepage_snippet" type="hidden" value="Play fun &amp; free games!" />
+        <input id="fp_pogogamepage_media" name="fp_pogogamepage_media" type="hidden" value="http://images.wildtangent.com/website/promotions/pogogamepage/en-US/home_feature.jpg" />
+        <input id="fp_pogogamepage_logo" name="fp_pogogamepage_logo" type="hidden" value="http://images.wildtangent.com/website/promotions/pogogamepage/en-US/home_feature_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_wordwhompunderground_key" name="fp_wordwhompunderground_key" type="hidden" value="wordwhompunderground" />
+        <input id="fp_wordwhompunderground_title" name="fp_wordwhompunderground_title" type="hidden" value="Word Whomp Underground" />
+        <input id="fp_wordwhompunderground_description" name="fp_wordwhompunderground_description" type="hidden" value="Help wacky gophers win, one word at a time, in Word Whomp Underground!" />
+        <input id="fp_wordwhompunderground_link" name="fp_wordwhompunderground_link" type="hidden" value="/Games/word-whomp-underground" />
+        <input id="fp_wordwhompunderground_snippet" name="fp_wordwhompunderground_snippet" type="hidden" value="Take back your land, one word at a time!" />
+        <input id="fp_wordwhompunderground_media" name="fp_wordwhompunderground_media" type="hidden" value="http://images.wildtangent.com/wordwhompunderground/featured_game.jpg" />
+        <input id="fp_wordwhompunderground_logo" name="fp_wordwhompunderground_logo" type="hidden" value="http://images.wildtangent.com/wordwhompunderground/featured_game_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_thescruffsreturnoftheduke_key" name="fp_thescruffsreturnoftheduke_key" type="hidden" value="thescruffsreturnoftheduke" />
+        <input id="fp_thescruffsreturnoftheduke_title" name="fp_thescruffsreturnoftheduke_title" type="hidden" value="The Scruffs: Return of the Duke" />
+        <input id="fp_thescruffsreturnoftheduke_description" name="fp_thescruffsreturnoftheduke_description" type="hidden" value="The Scruffs: Return of the Duke is a funny, exciting hidden object adventure. Help Scrufford before it&#39;s too late!" />
+        <input id="fp_thescruffsreturnoftheduke_link" name="fp_thescruffsreturnoftheduke_link" type="hidden" value="/Games/the-scruffs-return-of-the-duke" />
+        <input id="fp_thescruffsreturnoftheduke_snippet" name="fp_thescruffsreturnoftheduke_snippet" type="hidden" value="Save Scrufford from trickery!" />
+        <input id="fp_thescruffsreturnoftheduke_media" name="fp_thescruffsreturnoftheduke_media" type="hidden" value="http://images.wildtangent.com/thescruffsreturnoftheduke/featured_game.jpg" />
+        <input id="fp_thescruffsreturnoftheduke_logo" name="fp_thescruffsreturnoftheduke_logo" type="hidden" value="http://images.wildtangent.com/thescruffsreturnoftheduke/featured_game_logo.png" />
+        
+    </div>            
+
+    <div class="feature">
+        <input id="fp_janineturnervideo_key" name="fp_janineturnervideo_key" type="hidden" value="janineturnervideo" />
+        <input id="fp_janineturnervideo_title" name="fp_janineturnervideo_title" type="hidden" value="janineturnervideo" />
+        <input id="fp_janineturnervideo_description" name="fp_janineturnervideo_description" type="hidden" value="Get the Games App for Android!" />
+        <input id="fp_janineturnervideo_link" name="fp_janineturnervideo_link" type="hidden" value="http://www.wildtangent.com/offers?k=android" />
+        <input id="fp_janineturnervideo_snippet" name="fp_janineturnervideo_snippet" type="hidden" value="Get the Games App for Android!" />
+        <input id="fp_janineturnervideo_media" name="fp_janineturnervideo_media" type="hidden" value="http://images.wildtangent.com/website/promotions/janineturnervideo/en-US/home_feature.jpg" />
+        <input id="fp_janineturnervideo_logo" name="fp_janineturnervideo_logo" type="hidden" value="http://images.wildtangent.com/website/promotions/janineturnervideo/en-US/home_feature_logo.png" />
+        
+    </div>            
+
+
+<div class="shadowdiv"></div>
+    <div id="featureSpacing">
+        <div id="javascriptFeature">
+            <div id="ctrlFade" class="featureDisplay">
+                <div class="center">
+                    <div id="featureBackgrounds">
+
+                    </div>
+                    <div id="featureControlContainer">
+                        <span id="featureControls"></span>
+                    </div>
+                </div>
+        
+    	
+                <div class="center">
+                    <div id="gameDescriptionMask" class="gameDescriptionMask"></div>
+                    <div id="gameDescription" class="gameDescription">
+                        <div id="featurecontent">
+	                        <div id="featureLogos" class="featureLogos">
+    	                
+	                        </div>
+    	            
+                            <div id="featuretexts" class="featuretexts">
+                        
+                            </div>
+                        </div> 
+                        <div id="featureLearnMoreContainer">
+                            <div class="featureButton">
+                                <div class="ctrl ctrlFade"><a href="#" class="ctrl_learnMore" id="featureLearnMoreButton" onclick="feature.FeatureClick();return false;"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <noscript>
+        
+            <div class="featureDisplay"> 
+	            <div class="center"> 
+		            <div id="featureBackgroundsNoJS">
+			            <a href="http://www.wildtangent.com/Products/Search?query=Top10" alt=""><div class="featureGameWide" id="featureGame_1" style="background:url(http://images.wildtangent.com/website/promotions/toptengamesbj3/en-US/home_feature.jpg);display:block;"></div></a>
+		            </div> 
+	            </div> 
+	            
+                <div class="center">
+                    <div id="gameDescriptionMaskNoJS" class="gameDescriptionMask"></div>
+                    <div id="gameDescriptionNoJS" class="gameDescription" style="display:block;">
+                        <div id="featurecontentNoJS">
+    	            
+                            <div id="featureLogosNoJS" class="featureLogos">
+    	                        <a href="http://www.wildtangent.com/Products/Search?query=Top10"><div id="featureLogo_1" class="featureLogo" style="background:url(http://images.wildtangent.com/website/promotions/toptengamesbj3/en-US/home_feature_logo.png);display:block;"></div></a>
+	                        </div>
+
+                            <div id="featuretextsNoJS">
+                                <div id="firstfeaturetextNoJS" class="featureText" style="display:block;"> Play the best games!</div>
+                            </div>
+                        </div> 
+                        <div id="featureLearnMoreContainerNoJS">
+                            <div class="featureButton">
+                                <div class="ctrl ctrlFade"><a href="http://www.wildtangent.com/Products/Search?query=Top10" class="ctrl_learnMore"></a></div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </noscript>
+    </div>
+</div>
+</div>
+
+<div class="beta">
+	<div class="games">
+
+        
+
+        <div class="row">
+    
+    		<h2 class="rowColumn"><a class="columnHeader" href="/Channels/enthusiast">Enthusiast</a></h2>				
+	    
+    		<h2 class="rowColumn"><a class="columnHeader" href="/Channels/casual">Casual</a></h2>				
+	    
+    		<h2 class="rowColumn"><a class="columnHeader" href="/Channels/family">Family</a></h2>				
+	    
+        </div>
+
+    
+        <div class="row">
+        
+
+			<span class="game" >
+                
+                <a href="/Games/insane-2" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('insane2', this); return false;}" title="Insane 2 offers 10 multiplayer game modes and new innovations in the off-road racing genre. More than 150 races take place around the world!"><img src="http://images.wildtangent.com/insane2/game_list.jpg" alt="Insane 2 offers 10 multiplayer game modes and new innovations in the off-road racing genre. More than 150 races take place around the world!" title="Insane 2 offers 10 multiplayer game modes and new innovations in the off-road racing genre. More than 150 races take place around the world!" alt="Insane 2" /></a>
+				<span class="title"><a href="/Games/insane-2" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('insane2', this); return false;}">Insane 2</a></span>
+				<span class="developer"><a href="/Developers/gamefactoryinteractive">Game Factory Interactive</a></span><a href="/Channels/action">Action</a>, <a href="/Channels/racing">Racing</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/big-city-adventure-london-story" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('bigcityadventurelondonstory', this); return false;}" title="Follow the clues to find Fitzpatrick McGovern's lost legacy on a mysterious adventure in Big City Adventure: London Story!"><img src="http://images.wildtangent.com/bigcityadventurelondonstory/game_list.jpg" alt="Follow the clues to find Fitzpatrick McGovern's lost legacy on a mysterious adventure in Big City Adventure: London Story!" title="Follow the clues to find Fitzpatrick McGovern's lost legacy on a mysterious adventure in Big City Adventure: London Story!" alt="Big City Adventure: London Story" /></a>
+				<span class="title"><a href="/Games/big-city-adventure-london-story" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('bigcityadventurelondonstory', this); return false;}">Big City Adventure: London Story</a></span>
+				<span class="developer"><a href="/Developers/jolly-bear">Jolly Bear</a></span><a href="/Channels/adventure">Adventure</a>, <a href="/Channels/hiddenobject">Hidden Object</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/zooloretto" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('zooloretto', this); return false;}" title="Zooloretto is a great family game with fun tycoon gameplay, based on the addictive and award-winning board game!"><img src="http://images.wildtangent.com/zooloretto/game_list.jpg" alt="Zooloretto is a great family game with fun tycoon gameplay, based on the addictive and award-winning board game!" title="Zooloretto is a great family game with fun tycoon gameplay, based on the addictive and award-winning board game!" alt="Zooloretto" /></a>
+				<span class="title"><a href="/Games/zooloretto" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('zooloretto', this); return false;}">Zooloretto</a></span>
+				<span class="developer"><a href="/Developers/layernet">Layernet</a></span><a href="/Channels/strategy">Strategy</a>
+			</span>
+        </div>
+    
+        <div class="row">
+        
+
+			<span class="game" >
+                
+                <a href="/Games/fate" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('fate', this); return false;}" title="Determine your FATE - battle monsters in dark dungeons in this superb RPG!"><img src="http://images.wildtangent.com/fate/game_list.jpg" alt="Determine your FATE - battle monsters in dark dungeons in this superb RPG!" title="Determine your FATE - battle monsters in dark dungeons in this superb RPG!" alt="FATE" /></a>
+				<span class="title"><a href="/Games/fate" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('fate', this); return false;}">FATE</a></span>
+				<span class="developer"><a href="/Developers/wildtangent">WildTangent</a></span><a href="/Channels/adventure">Adventure</a>, <a href="/Channels/explore">Explore</a>, <a href="/Channels/roleplaying">Roleplaying</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/solitaire-mystery-stolen-power" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('solitairemysterystolenpower', this); return false;}" title="Solitaire Mystery: Stolen Power combines solitaire with hidden object gameplay! Save the world by collecting powerful cards."><img src="http://images.wildtangent.com/solitairemysterystolenpower/game_list.jpg" alt="Solitaire Mystery: Stolen Power combines solitaire with hidden object gameplay! Save the world by collecting powerful cards." title="Solitaire Mystery: Stolen Power combines solitaire with hidden object gameplay! Save the world by collecting powerful cards." alt="Solitaire Mystery: Stolen Power" /></a>
+				<span class="title"><a href="/Games/solitaire-mystery-stolen-power" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('solitairemysterystolenpower', this); return false;}">Solitaire Mystery: Stolen Power</a></span>
+				<span class="developer"><a href="/Developers/playrix-entertainment">Playrix Entertainment</a></span><a href="/Channels/cards">Cards</a>, <a href="/Channels/hiddenobject">Hidden Object</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/spongebob-typing" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('spongebobtyping', this); return false;}" title="Learn typing and keyboarding skills from SpongeBob SquarePants! Improve your typing speed and accuracy today."><img src="http://images.wildtangent.com/spongebobtyping/game_list.jpg" alt="Learn typing and keyboarding skills from SpongeBob SquarePants! Improve your typing speed and accuracy today." title="Learn typing and keyboarding skills from SpongeBob SquarePants! Improve your typing speed and accuracy today." alt="SpongeBob Typing" /></a>
+				<span class="title"><a href="/Games/spongebob-typing" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('spongebobtyping', this); return false;}">SpongeBob Typing</a></span>
+				<span class="developer"><a href="/Developers/nickelodeon">Nickelodeon</a></span><a href="/Channels/word">Word</a>, <a href="/Channels/kids">Kids</a>, <a href="/Channels/brainpower">Brain Power</a>
+			</span>
+        </div>
+    
+        <div class="row">
+        
+
+			<span class="game" >
+                
+                <a href="/Games/blackhawk-striker-2" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('blackhawkstriker2', this); return false;}" title="Blackhawk Striker 2 missions require expert flying and bronze star courage."><img src="http://images.wildtangent.com/blackhawkstriker2/game_list.jpg" alt="Blackhawk Striker 2 missions require expert flying and bronze star courage." title="Blackhawk Striker 2 missions require expert flying and bronze star courage." alt="Blackhawk Striker 2" /></a>
+				<span class="title"><a href="/Games/blackhawk-striker-2" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('blackhawkstriker2', this); return false;}">Blackhawk Striker 2</a></span>
+				<span class="developer"><a href="/Developers/wildtangent">WildTangent</a></span><a href="/Channels/action">Action</a>, <a href="/Channels/arcade">Arcade</a>, <a href="/Channels/blowstuffup">Blow Stuff Up</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/the-surprising-adventures-of-munchausen" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('surprisingadventuresofmunchausen', this); return false;}" title="The Surprising Adventures of Munchausen is a fun hidden object adventure. Stop the wedding and save the kingdom!"><img src="http://images.wildtangent.com/surprisingadventuresofmunchausen/game_list.jpg" alt="The Surprising Adventures of Munchausen is a fun hidden object adventure. Stop the wedding and save the kingdom!" title="The Surprising Adventures of Munchausen is a fun hidden object adventure. Stop the wedding and save the kingdom!" alt="The Surprising Adventures of Munchausen" /></a>
+				<span class="title"><a href="/Games/the-surprising-adventures-of-munchausen" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('surprisingadventuresofmunchausen', this); return false;}">The Surprising Adventures of Munchausen</a></span>
+				<span class="developer"><a href="/Developers/playrix-entertainment">Playrix Entertainment</a></span><a href="/Channels/adventure">Adventure</a>, <a href="/Channels/hiddenobject">Hidden Object</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/marvel-super-hero-squad-online" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('superherosquadonline', this); return false;}" title="Welcome to Marvel Super Hero Squad Online, a FREE online kids game! Build a Squad of your favorite heroes and save Super Hero City."><img src="http://images.wildtangent.com/superherosquadonline/game_list.jpg" alt="Welcome to Marvel Super Hero Squad Online, a FREE online kids game! Build a Squad of your favorite heroes and save Super Hero City." title="Welcome to Marvel Super Hero Squad Online, a FREE online kids game! Build a Squad of your favorite heroes and save Super Hero City." alt="Marvel Super Hero Squad Online" /></a>
+				<span class="title"><a href="/Games/marvel-super-hero-squad-online" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('superherosquadonline', this); return false;}">Marvel Super Hero Squad Online</a></span>
+				<span class="developer"><a href="/Developers/gazillioninc">Gazillion, Inc.</a></span><a href="/Channels/action">Action</a>, <a href="/Channels/adventure">Adventure</a>, <a href="/Channels/kids">Kids</a>, <a href="/Channels/roleplaying">Roleplaying</a>, <a href="/Channels/massivelymultiplayer">Massively Multiplayer</a>
+			</span>
+        </div>
+    
+        <div class="row">
+        
+
+			<span class="game" >
+                
+                <a href="/Games/bridge-constructor" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('bridgeconstructor', this); return false;}" title="Bridge Constructor puts you in the role of an engineer!  Design and create bridges that span deep valleys, raging rivers, and more."><img src="http://images.wildtangent.com/bridgeconstructor/game_list.jpg" alt="Bridge Constructor puts you in the role of an engineer!  Design and create bridges that span deep valleys, raging rivers, and more." title="Bridge Constructor puts you in the role of an engineer!  Design and create bridges that span deep valleys, raging rivers, and more." alt="Bridge Constructor" /></a>
+				<span class="title"><a href="/Games/bridge-constructor" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('bridgeconstructor', this); return false;}">Bridge Constructor</a></span>
+				<span class="developer"><a href="/Developers/meridian4">Meridian4</a></span><a href="/Channels/simulation">Simulation</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/scrabble-online" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('pogoscrabble', this); return false;}" title="Play SCRABBLE, America's favorite word game, for free online! Choose your own play mode and skill level. Every word's a winner in the SCRABBLE game!"><img src="http://images.wildtangent.com/pogoscrabble/game_list.jpg" alt="Play SCRABBLE, America's favorite word game, for free online! Choose your own play mode and skill level. Every word's a winner in the SCRABBLE game!" title="Play SCRABBLE, America's favorite word game, for free online! Choose your own play mode and skill level. Every word's a winner in the SCRABBLE game!" alt="SCRABBLE Online" /></a>
+				<span class="title"><a href="/Games/scrabble-online" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('pogoscrabble', this); return false;}">SCRABBLE Online</a></span>
+				<span class="developer"><a href="/Developers/pogogames">Pogo</a></span><a href="/Sponsored/pogo">Pogo Games</a>, <a href="/Channels/word">Word</a>, <a href="/Channels/brainpower">Brain Power</a>, <a href="/Channels/freeonlinegames">Free Online Games</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/pirates-on-stranger-tides-pirates-vs-mermaids" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('piratesonstrangertidesmermaids', this); return false;}" title="In Pirates of the Caribbean: On Stranger Tides, choose your team--will you side with the pirates or the mermaids?"><img src="http://images.wildtangent.com/piratesonstrangertidesmermaids/game_list.jpg" alt="In Pirates of the Caribbean: On Stranger Tides, choose your team--will you side with the pirates or the mermaids?" title="In Pirates of the Caribbean: On Stranger Tides, choose your team--will you side with the pirates or the mermaids?" alt="Pirates On Stranger Tides: Pirates vs. Mermaids" /></a>
+				<span class="title"><a href="/Games/pirates-on-stranger-tides-pirates-vs-mermaids" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('piratesonstrangertidesmermaids', this); return false;}">Pirates On Stranger Tides: Pirates vs. Mermaids</a></span>
+				<span class="developer"><a href="/Developers/disneyinteractivemediagroup">Disney Interactive</a></span><a href="/Channels/adventure">Adventure</a>, <a href="/Channels/freeonlinegames">Free Online Games</a>
+			</span>
+        </div>
+    
+        <div class="row">
+        
+
+			<span class="game" >
+                
+                <a href="/Games/world-of-warcraft" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('worldofwarcraft', this); return false;}" title="Enter the World of Warcraft FREE for 10 days - a special extended trial!"><img src="http://images.wildtangent.com/worldofwarcraft/game_list.jpg" alt="Enter the World of Warcraft FREE for 10 days - a special extended trial!" title="Enter the World of Warcraft FREE for 10 days - a special extended trial!" alt="World of Warcraft" /></a>
+				<span class="title"><a href="/Games/world-of-warcraft" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('worldofwarcraft', this); return false;}">World of Warcraft</a></span>
+				<span class="developer"><a href="/Developers/blizzard-entertainment">Blizzard Entertainment</a></span><a href="/Channels/explore">Explore</a>, <a href="/Channels/roleplaying">Roleplaying</a>, <a href="/Channels/massivelymultiplayer">Massively Multiplayer</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/word-whomp-underground" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('wordwhompunderground', this); return false;}" title="Help wacky gophers win, one word at a time, in Word Whomp Underground!"><img src="http://images.wildtangent.com/wordwhompunderground/game_list.jpg" alt="Help wacky gophers win, one word at a time, in Word Whomp Underground!" title="Help wacky gophers win, one word at a time, in Word Whomp Underground!" alt="Word Whomp Underground" /></a>
+				<span class="title"><a href="/Games/word-whomp-underground" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('wordwhompunderground', this); return false;}">Word Whomp Underground</a></span>
+				<span class="developer"><a href="/Developers/pogogames">Pogo</a></span><a href="/Channels/word">Word</a>, <a href="/Channels/brainpower">Brain Power</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/pixie-hollow" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('pixiehollow', this); return false;}" title="Create your own Fairy and fly into the online world of Pixie Hollow!  Dress in the latest fashions, attend parties, and make new friends!"><img src="http://images.wildtangent.com/pixiehollow/game_list.jpg" alt="Create your own Fairy and fly into the online world of Pixie Hollow!  Dress in the latest fashions, attend parties, and make new friends!" title="Create your own Fairy and fly into the online world of Pixie Hollow!  Dress in the latest fashions, attend parties, and make new friends!" alt="Pixie Hollow" /></a>
+				<span class="title"><a href="/Games/pixie-hollow" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('pixiehollow', this); return false;}">Pixie Hollow</a></span>
+				<span class="developer"><a href="/Developers/disney-online-studios">Disney Online Studios</a></span><a href="/Channels/kids">Kids</a>, <a href="/Channels/girlpower">Girl Power</a>, <a href="/Channels/massivelymultiplayer">Massively Multiplayer</a>
+			</span>
+        </div>
+    
+        <div class="row">
+        
+
+			<span class="game" >
+                
+                <a href="/Games/drakensang-online" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('drakensangonline', this); return false;}" title="Delve into the latest chapter in the famous Drakensang saga, now online. Go toe-to-toe with other players in the PvP arena."><img src="http://images.wildtangent.com/drakensangonline/game_list.jpg" alt="Delve into the latest chapter in the famous Drakensang saga, now online. Go toe-to-toe with other players in the PvP arena." title="Delve into the latest chapter in the famous Drakensang saga, now online. Go toe-to-toe with other players in the PvP arena." alt="Drakensang Online" /></a>
+				<span class="title"><a href="/Games/drakensang-online" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('drakensangonline', this); return false;}">Drakensang Online</a></span>
+				<span class="developer"><a href="/Developers/bigpoint">BigPoint</a></span><a href="/Channels/action">Action</a>, <a href="/Channels/adventure">Adventure</a>, <a href="/Channels/roleplaying">Roleplaying</a>, <a href="/Channels/massivelymultiplayer">Massively Multiplayer</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/mahjong-garden-deluxe" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('mahjonggardendeluxe', this); return false;}" title="Mahjong Garden Deluxe is a simple and relaxing tile matching game. Try all three game modes: Traditional, Garden and Tower!"><img src="http://images.wildtangent.com/mahjonggardendeluxe/game_list.jpg" alt="Mahjong Garden Deluxe is a simple and relaxing tile matching game. Try all three game modes: Traditional, Garden and Tower!" title="Mahjong Garden Deluxe is a simple and relaxing tile matching game. Try all three game modes: Traditional, Garden and Tower!" alt="Mahjong Garden Deluxe" /></a>
+				<span class="title"><a href="/Games/mahjong-garden-deluxe" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('mahjonggardendeluxe', this); return false;}">Mahjong Garden Deluxe</a></span>
+				<span class="developer"><a href="/Developers/pogogames">Pogo</a></span><a href="/Channels/mahjong">Mahjong</a>
+			</span>
+
+			<span class="game" >
+                
+                <a href="/Games/wolverine-mrd-escape" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('wolverinemrdescape', this); return false;}" title="In Wolverine MRD Escape, Wolverine must use all his fighting and combat skills to free captured mutants. Play now for free!"><img src="http://images.wildtangent.com/wolverinemrdescape/game_list.jpg" alt="In Wolverine MRD Escape, Wolverine must use all his fighting and combat skills to free captured mutants. Play now for free!" title="In Wolverine MRD Escape, Wolverine must use all his fighting and combat skills to free captured mutants. Play now for free!" alt="Wolverine MRD Escape" /></a>
+				<span class="title"><a href="/Games/wolverine-mrd-escape" onclick="javascript:if (window.AnalyticsAdapter) { adapter.__trackGameClick('wolverinemrdescape', this); return false;}">Wolverine MRD Escape</a></span>
+				<span class="developer"><a href="/Developers/marvel">Marvel</a></span><a href="/Channels/action">Action</a>, <a href="/Channels/arcade">Arcade</a>, <a href="/Channels/freeonlinegames">Free Online Games</a>
+			</span>
+        </div>
+    
+
+        <div class="row">
+    
+                <span class="linkbutton rowColumn">
+    			[ <a href="/Channels/enthusiast">all enthusiast games</a> ]
+                </span>
+	    
+                <span class="linkbutton rowColumn">
+    			[ <a href="/Channels/casual">all casual games</a> ]
+                </span>
+	    
+                <span class="linkbutton rowColumn">
+    			[ <a href="/Channels/family">all family games</a> ]
+                </span>
+	    
+        </div>
+		
+		
+		<br class="clear"/>
+		<div class="break"></div>
+		
+        
+<div class="findgames">
+    <h2>Find Games</h2>
+	
+	
+	<ul>
+	    
+		<li><a href="/Channels/action">Action Games</a></li>
+	    
+		<li><a href="/Channels/adventure">Adventure Games</a></li>
+	    
+		<li><a href="/Channels/arcade">Arcade Games</a></li>
+	    
+		<li><a href="/Channels/blowstuffup">Blow Stuff Up Games</a></li>
+	    
+		<li><a href="/Channels/brainpower">Brain Power Games</a></li>
+	    
+		<li><a href="/Channels/cards">Card Games</a></li>
+	    
+		<li><a href="/Channels/casino">Casino Games</a></li>
+	    
+		<li><a href="/Channels/explore">Explore Games</a></li>
+	    
+		<li><a href="/Channels/farming">Farming Games</a></li>
+	    
+		<li><a href="/Channels/food">Food Games</a></li>
+	    
+	</ul>
+	
+	<ul>
+	    
+		<li><a href="/Channels/freeonlinegames">Free Online Games</a></li>
+	    
+		<li><a href="/Channels/girlpower">Girl Power Games</a></li>
+	    
+		<li><a href="/Channels/hiddenobject">Hidden Object Games</a></li>
+	    
+		<li><a href="/Channels/kids">Kids Games</a></li>
+	    
+		<li><a href="/Channels/mahjong">Mahjong Games</a></li>
+	    
+		<li><a href="/Channels/massivelymultiplayer">Massively Multiplayer Games</a></li>
+	    
+		<li><a href="/Channels/match3">Match 3 Games</a></li>
+	    
+		<li><a href="/Channels/puzzle">Puzzle Games</a></li>
+	    
+		<li><a href="/Channels/racing">Racing Games</a></li>
+	    
+		<li><a href="/Channels/roleplaying">Roleplaying Games</a></li>
+	    
+	</ul>
+	
+	<ul>
+	    
+		<li><a href="/Channels/simulation">Simulation Games</a></li>
+	    
+		<li><a href="/Channels/social">Social Games</a></li>
+	    
+		<li><a href="/Channels/sports">Sports Games</a></li>
+	    
+		<li><a href="/Channels/strategy">Strategy Games</a></li>
+	    
+		<li><a href="/Channels/timemanagement">Time Management Games</a></li>
+	    
+		<li><a href="/Channels/touchfriendly">Touch Friendly Games</a></li>
+	    
+		<li><a href="/Channels/tycoon">Tycoon Games</a></li>
+	    
+		<li><a href="/Channels/word">Word Games</a></li>
+	    
+	</ul>
+	
+    <div class="allnewgames">
+        <span class="linkbutton">[ <a href="/Channels">all channels</a> ]</span>
+        <span class="linkbutton">[ <a href="/Games">new games</a> ]</span>
+    </div>
+</div>
+	</div>
+
+	<div class="sidebar">
+        <div class="ads">
+            <div class="adsTitle">ADVERTISEMENT</div>
+	    
+<iframe  src='http://ad.doubleclick.net/adi/wt.web/home;pg=home;dp=wildgames;pos=1;tile=1;sz=300x250;l=en;c=us;v=5;u=dp-wildgames_c-us_app-web_pos-1_tile-1_sz-300x250_l-en_v-5_pg-home;ord=98001340449788304?' width='300' height='250' marginwidth='0' marginheight='0' hspace='0' vspace='0' frameborder='0' scrolling=no borderCOLOR='#000000'></iframe>
+<!-- Begin comScore Tag WildGames Web 1271511541440102000 -->
+<script type="text/javascript" language="javascript">
+    $LAB.script((document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js").wait(function () {
+        COMSCORE.beacon({
+            c1: 8,
+            c2: "6035824",
+            c3: "1271511541440102000",
+            c4: "",
+            c5: "",
+            c6: "",
+            c15: ""
+        });
+    });
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/b?c1=8&c2=6035824&c3=1271511541440102000&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->    
+
+
+    <div class="sponsored">
+	    <h2>Featured Promotion</h2>
+	    
+<iframe  src='http://ad.doubleclick.net/adi/wt.web/home;pg=home;dp=wildgames;pos=3;tile=3;sz=300x150;l=en;c=us;v=5;u=dp-wildgames_c-us_app-web_pos-3_tile-3_sz-300x150_l-en_v-5_pg-home;ord=98001340449788304?' width='300' height='150' marginwidth='0' marginheight='0' hspace='0' vspace='0' frameborder='0' scrolling=no borderCOLOR='#000000'></iframe>
+<!-- Begin comScore Tag WildGames Web 1271511541440102000 -->
+<script type="text/javascript" language="javascript">
+    $LAB.script((document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js").wait(function () {
+        COMSCORE.beacon({
+            c1: 8,
+            c2: "6035824",
+            c3: "1271511541440102000",
+            c4: "",
+            c5: "",
+            c6: "",
+            c15: ""
+        });
+    });
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/b?c1=8&c2=6035824&c3=1271511541440102000&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->    
+
+        <br style="clear:both;"/>
+    </div>
+
+
+        </div>        
+        
+            <iframe id="socialNetworkIFrame" src='http://www.wildtangent.com/Social/News/Newsfeed?locale=en-US' width='260' height='650px' marginwidth='0' marginheight='0' frameborder='0' scrolling='no'></iframe>
+        
+        <div class="followus">
+            
+        <div class="connect">
+		<h2>Follow Us</h2>
+	        <div class="follow">
+	            <div class="followus">    
+	                <a href="http://www.facebook.com/WildTangentGames" target="_blank"><img src="http://webassets.wildtangent.com/Skins/akira/img/icon_facebook.jpg" alt="" /></a>
+	                <a class="followlink" href="http://www.facebook.com/WildTangentGames" target="_blank">Facebook</a>
+		        </div>
+		        <div class="followus"> 
+		            <a href="http://www.twitter.com/playwildtangent" target="_blank"><img src="/Skins/akira/img/icon_twitter.jpg" /></a>
+		            <a class="followlink" href="http://www.twitter.com/playwildtangent" target="_blank">Twitter</a>
+		        </div>
+		        <div class="followus"> 
+		            <a href="javascript:common.OpenRSSFeed('http://www.wildtangent.com/rss/games/new');"><img src="http://webassets.wildtangent.com/Skins/akira/img/icon_rss.jpg" alt="" /></a>
+		            <a class="followlink" href="javascript:common.OpenRSSFeed('http://www.wildtangent.com/rss/games/new');">RSS</a>
+		        </div>
+                
+                <div class="followus"> 
+		            <a href="http://blog.wildtangent.com" target="_blank"><img src="http://webassets.wildtangent.com/Skins/akira/img/icon_blog.gif" alt="" /></a>
+		            <a class="followlink" href="http://blog.wildtangent.com" target="_blank">Blog</a>
+		        </div>
+		        
+		        <br style="clear:both;"/>
+		     </div>
+        </div>
+
+<div id="shareBlock">
+    <div id="facebookLike" class="shareButton">
+        <script>
+            (function (d) {
+                var js, id = 'facebook-jssdk'; if (d.getElementById(id)) { return; }
+                js = d.createElement('script'); js.id = id; js.async = true;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                d.getElementsByTagName('head')[0].appendChild(js);
+            } (document));
+        </script>
+        <div class="fb-like" data-href="http://www.wildtangent.com" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="segoe ui"></div>
+    </div>
+    <div id="twitterShare" class="shareButton">
+        <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://www.wildtangent.com" data-via="PlayWildTangent" data-lang="en">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </div>
+    
+    <div id="googlePlusOne" class="shareButton">
+        <div class="g-plusone" data-size="medium" data-href="http://www.wildtangent.com"></div>
+        <script type="text/javascript">
+            window.___gcfg = { lang: 'en-US' };
+            (function () {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+    </div>
+    
+</div>
+        </div>
+
+	</div>
+    
+
+	<br class="clear"/>
+</div>
+
+        </div>      
+    
+        <div class="betabottom"></div>	
+    
+
+<div class="footer">
+	<div class="footercontent">
+        <div class="foota">
+		    <div class="footcola">
+			    <h3>WildClub</h3>
+			    <div class="subtextColA"><span class="subtext"><a href="/wildclub">Buy WildCoins via WildClub and Save!</a></span></div>
+			    <h3>Games App</h3>
+			    <div class="subtextColA"><span class="subtext"><a href="/gamesapp">Play hundreds of games on your PC</a></span></div>
+		    </div>
+            <div class="footcolb">
+			    <h3>Community</h3>
+			    <ul>
+				    <li><a href="http://forum.wildgames.com">Forums</a></li>
+				    <li><a href="/newsletter">Newsletter</a></li>
+				    <li><a href="/support">Support</a></li>
+			    </ul>
+            </div>
+            <div class="footcolc">
+                <h3>About WildTangent, Inc.</h3>
+			    <ul>
+				    <li><a href="http://about.wildtangent.com">Company Information</a></li>
+				    <li><a href="http://about.wildtangent.com/advertise">Advertise With Us</a></li>
+				    <li><a href="http://about.wildtangent.com/partner">Partner With Us</a></li>
+                    
+			    </ul>
+            </div>
+        </div>
+		<div class="footc">
+        
+			<h3>International</h3>
+            <ul>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=en-US" class="post-link" id="form_languageLink_en-US"><input type="submit" id="input_languageLink_en-US" value="English (United States)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=en-US" id="languageLink_en-US" style="display:none;">English (United States)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=es-ES" class="post-link" id="form_languageLink_es-ES"><input type="submit" id="input_languageLink_es-ES" value="Español (España)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=es-ES" id="languageLink_es-ES" style="display:none;">Espa&#241;ol (Espa&#241;a)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=es-MX" class="post-link" id="form_languageLink_es-MX"><input type="submit" id="input_languageLink_es-MX" value="Español (México)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=es-MX" id="languageLink_es-MX" style="display:none;">Espa&#241;ol (M&#233;xico)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=it-IT" class="post-link" id="form_languageLink_it-IT"><input type="submit" id="input_languageLink_it-IT" value="Italiano (Italy)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=it-IT" id="languageLink_it-IT" style="display:none;">Italiano (Italy)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=fr-FR" class="post-link" id="form_languageLink_fr-FR"><input type="submit" id="input_languageLink_fr-FR" value="Français (France)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=fr-FR" id="languageLink_fr-FR" style="display:none;">Fran&#231;ais (France)</a></form></li>
+            
+            </ul>
+			<ul class="ulright">
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=de-DE" class="post-link" id="form_languageLink_de-DE"><input type="submit" id="input_languageLink_de-DE" value="Deutsch (Deutschland)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=de-DE" id="languageLink_de-DE" style="display:none;">Deutsch (Deutschland)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=pt-BR" class="post-link" id="form_languageLink_pt-BR"><input type="submit" id="input_languageLink_pt-BR" value="Português (Brasil)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=pt-BR" id="languageLink_pt-BR" style="display:none;">Portugu&#234;s (Brasil)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=ko-KR" class="post-link" id="form_languageLink_ko-KR"><input type="submit" id="input_languageLink_ko-KR" value="한국어 (대한민국)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=ko-KR" id="languageLink_ko-KR" style="display:none;">한국어 (대한민국)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=zh-CN" class="post-link" id="form_languageLink_zh-CN"><input type="submit" id="input_languageLink_zh-CN" value="中文(中华人民共和国)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=zh-CN" id="languageLink_zh-CN" style="display:none;">中文(中华人民共和国)</a></form></li>
+            
+				<li><form method="post" action="/session/Settings/ChangeLanguage?languageCode=zh-HK" class="post-link" id="form_languageLink_zh-HK"><input type="submit" id="input_languageLink_zh-HK" value="中文(香港特别行政區)" class="post-link" /><a class="post-link disableOnSubmit" href="/session/Settings/ChangeLanguage?languageCode=zh-HK" id="languageLink_zh-HK" style="display:none;">中文(香港特别行政區)</a></form></li>
+            
+            </ul>
+        
+		</div>
+		<div class="footd">
+			<span><a href="http://about.wildtangent.com/legal/abstract" target="_blank">Safe Shopping Guarantee</a>.  We guarantee that every transaction you make through WildTangent will be safe.<br />			This means you pay nothing if unauthorized charges are made to your credit card as a result of shopping at WildTangent.</span>
+			<span><a href="/support">Customer Support</a>  |  
+			      <a href="http://about.wildtangent.com" target="_blank">About WildTangent, Inc.</a>  |
+			      <a href="http://about.wildtangent.com/legal/privacy" target="_blank">Privacy Policy</a>  |  
+			      <a href="http://about.wildtangent.com/legal/terms-of-use" target="_blank">Terms of Service</a>  |  
+			      <a href="/rss/games/new">RSS</a> <a href="/rss/games/new"><img src="http://webassets.wildtangent.com/Skins/akira/img/icon_rss_small.jpg" class="iconsmall" /></a>  | 
+                  <a href="http://www.facebook.com/WildTangentGames" target="_blank">Facebook</a> <a href="http://www.facebook.com/WildTangentGames" target="_blank"><img src="http://webassets.wildtangent.com/Skins/akira/img/icon_facebook_small.jpg" class="iconsmall" /></a> <br />
+			      &copy;2012 WildTangent, Inc.  All Rights Reserved.</span>	
+                  <a href="http://www.ptpamedia.com/Product-page?PID=1617" target="_blank"><img src="http://webassets.wildtangent.com/Skins/akira/img/ptpa.png" height="100" width="100" class="ptpa" /></a>		
+                  <a href="http://www.bbb.org/western-washington/business-reviews/games-and-supplies/wildtangent-in-redmond-wa-22012123" target="_blank"><img src="http://webassets.wildtangent.com/Skins/akira/img/ab_seal_100_wide.png" height="100" width="62" class="bbblogo"/></a>		
+		</div>
+	</div>
+</div>		
+    
+    </div>
+    
+    <script type="text/javascript" src="http://webassets.wildtangent.com/Scripts/jquery.js?v=5.4.19.26"></script>
+
+
+    <script type="text/javascript" src="http://webassets.wildtangent.com/Scripts/website.js?v=5.4.19.26"></script>
+
+
+    <script type="text/javascript">
+        // Scripts may not be loaded until after the window is loaded, so we need to track this ourselves.
+        var isWindowLoaded = false;
+        var minimumWindowsVersionRequired = '4.0.9.154';
+        $(window).load(function() { isWindowLoaded = true; });
+
+        $LAB.script("http://webassets.wildtangent.com/Scripts/jquery.wait.js?v=5.4.19.26").wait()
+            .script("http://webassets.wildtangent.com/Scripts/jquery.blend.js?v=5.4.19.26").wait()
+            .script("http://webassets.wildtangent.com/Scripts/jquery.custom-inputs.js?v=5.4.19.26")
+            .script("http://webassets.wildtangent.com/Scripts/jquery.colorbox.js?v=5.4.19.26").wait()
+            .script("http://webassets.wildtangent.com/Scripts/jquery.colorbox-wt.js?v=5.4.19.26")
+            .script("http://webassets.wildtangent.com/Scripts/jquery.validate.js?v=5.4.19.26").wait()
+            .script("http://webassets.wildtangent.com/Scripts/jquery.validate.custom-1.1.js?v=5.4.19.26").wait()
+            .script("http://webassets.wildtangent.com/Scripts/jquery.ba-bbq.js?v=5.4.19.26")
+            .script("http://webassets.wildtangent.com/Scripts/wt.js?v=5.4.19.26").wait()
+            .script("http://webassets.wildtangent.com/Scripts/console.js?v=5.4.19.26").wait()
+            .script("http://webassets.wildtangent.com/Scripts/block_space.js?v=5.4.19.26")
+            .script("http://webassets.wildtangent.com/Scripts/common.js?v=5.4.19.26").wait(function() {
+                // Might actually want to have a function that the child page can
+                // override, but for now, this will do.
+        	    
+        	    $LAB.script("http://webassets.wildtangent.com/Scripts/home.js?v=5.4.19.26");
+
+            });
+    </script>    
+	
+
+    
+    <script type="text/javascript">
+    /*<![CDATA[*//*---->*/
+    
+        function GetCookie(key){key+="=";var ca=document.cookie.split(';');for(var i=0; i<ca.length; i++){var c=ca[i];while(c.charAt(0)==' '){c=c.substring(1,c.length);}if(c.indexOf(key)==0){return c.substring(key.length,c.length);}}};
+    
+        var brandName = 'wildgames';
+        var dpName = 'wildgames';
+        var analyticCode = 'UA-526302-3';
+        var isConsole = 'false';
+        var appVersion = '5.4.19.26';
+        var uid = GetCookie("ecs_guid");
+        var isMobile = document.location.hostname.toUpperCase() == "M.WILDTANGENT.COM";
+        if (!uid) uid = "";
+        var marketingCode = '';
+    /*--*//*]]>*/
+    </script>
+
+    <script type="text/javascript">
+        // google analytics include
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+        // wt analytics include
+        var waJsHost = (("https:" == document.location.protocol) ? "https://ssl" : "http://");
+        var analyticsServerUrl = waJsHost + "analytics.wildtangent.com";
+        document.write(unescape("%3Cscript src='" + analyticsServerUrl + "/js/wa.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    
+    <script type="text/javascript">
+        _qoptions = { qacct: "p-9admVzrPiptk2", labels: "Web" };
+    </script>
+
+    <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+    <noscript>
+        <div><img src="http://pixel.quantserve.com/pixel/p-9admVzrPiptk2.gif" style="display: none;" height="1" width="1" alt="Quantcast"/></div>
+    </noscript>
+<script type="text/javascript" src="http://webassets.wildtangent.com/Scripts/analyticsAdapter.js?v=5.4.19.26"></script>
+    
+    <script type="text/javascript">
+        if (window.AnalyticsAdapter) {
+            var adapter = AnalyticsAdapter.__getTracker();
+            adapter.__trackPageView();
+        }
+    </script>
+
+</body>
+</html>

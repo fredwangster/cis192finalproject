@@ -1,0 +1,2017 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head1"><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta id="keywords" name="keywords" content="" /><meta id="description" name="description" content="" /><meta name="robots" content="NOODP" /><meta property="fb:admins" content="763287517" /><link id="canonical" rel="canonical" href="http://www.heritage.org/" /><link rel="shortcut icon" href="/static/images/favicon.ico?v=1.3.5" type="image/x-icon" /><link rel="apple-touch-icon-precomposed" href="/static/images/apple-ios-icon114.png" /><link rel="apple-touch-startup-image" href="/static/images/apple-ios-loading.png" /><link rel="stylesheet" media="screen" type="text/css" href="/static/css/styles.css?v=1.3.5" />
+    <!-- Print style sheet-->
+    <link rel="stylesheet" media="print" type="text/css" href="/static/css/print.css" />
+    <!--[if IE 8]>
+	        <link rel="stylesheet" media="screen" type="text/css" href="/static/css/styles-ie8.css?v=1.3.5" />
+        <![endif]-->
+    <!--[if IE 7]>
+	        <link rel="stylesheet" media="screen" type="text/css" href="/static/css/styles-ie7.css?v=1.3.5" />
+        <![endif]-->
+    <!--[if IE 6]>
+	        <link rel="stylesheet" media="screen" type="text/css" href="/static/css/styles-ie6.css?v=1.3.5" />
+        <![endif]-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  
+ 
+    <script type="text/javascript" src="/static/js/jquery.combobox.min.js"></script>
+  
+     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.autocomplete.min.js"></script>
+    <script type="text/javascript" src="/static/js/core.js?v=1.3.5"></script>
+    <script type="text/javascript">        var _sf_startpt = (new Date()).getTime()</script>
+
+
+    
+    <!--
+        <script type="text/javascript">  
+          var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+          document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+        </script>
+        <script type="text/javascript">
+            UserVoice.Tab.show ({
+                /* required */key: 'heritage', host: 'heritage.uservoice.com',forum: '30141',
+                /* optional */alignment: 'left',background_color:'#f00',text_color: 'white',hover_color: '#002A50', lang: 'en'})
+        </script>        
+-->
+    <title>
+	
+        Conservative Policy Research and Analysis
+</title><meta name="google-site-verification" content="CkSAwXRu2DbQvKYiSOoYjIQxw6vaRSpQxk3MT_JlXeU" /><meta name="msvalidate.01" content="D4FD44946C5D5AA7D866BA3CA3EEBC47" /> <script type='text/javascript'>try {
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1393129-40']);
+_gaq.push(['_setDomainName', 'heritage.org']); 
+_gaq.push(['_setAllowAnchor', true]); 
+_gaq.push(['_trackPageview', '/?scid=a2412a40-1b66-4e0a-a1d5-f5b260de6ee8']);
+_gaq.push(['b._setAccount', 'UA-1393129-56']);
+_gaq.push(['b._setDomainName', 'heritage.org']);
+_gaq.push(['b._trackPageview']);
+ }  catch (err) {}
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+
+  <script type="text/javascript" src="/static/js/slides.js">
+    </script>
+    
+<script type="text/javascript">
+ 
+
+    $(function () {
+        $(".made_simple_carousel li").click(function () {
+            var ind = $(".made_simple_carousel li").index(this);
+            $(".made_simple_carousel li.act_carousel").removeClass("act_carousel");
+            $(".video .contentshow").removeClass("contentshow");
+            $(".video .contentshow").removeClass("contenthide");
+            $(".video #video-" + ind).addClass("contentshow");
+            $(this).addClass("act_carousel");
+            if ($('#video-0').hasClass('contentshow')) {
+                $("#slides-0").slides("play");
+            }
+            else {
+                $("#slides-0").slides("slide", 4);
+                $("#slides-0").slides("stop");
+            }
+            if ($('#video-1').hasClass('contentshow')) {
+                $("#slides-1").slides("play");
+            }
+            else {
+                $("#slides-1").slides("slide", 4);
+                $("#slides-1").slides("stop");
+            }
+            if ($('#video-2').hasClass('contentshow')) {
+                $("#slides-2").slides("play");
+            }
+            else {
+                $("#slides-2").slides("slide", 4);
+                $("#slides-2").slides("stop");
+            }
+            if ($('#video-3').hasClass('contentshow')) {
+                $("#slides-3").slides("play");
+            }
+            else {
+                $("#slides-3").slides("slide", 4);
+
+                $("#slides-3").slides("stop");
+            }
+        })
+    $(function () { $("#slides-0").slides({ width: 270, height: 180 }); });
+    $(function(){ $("#slides-1").slides({    width: 270,    height: 180  }); });
+    $(function(){ $("#slides-2").slides({    width: 270,    height: 180  }); });
+    $(function(){ $("#slides-3").slides({    width: 270,    height: 180  }); });
+    $(function () { $("#slides-0").slides("play") });
+
+});
+
+	
+	</script>
+</head>
+<body>
+
+    <div id="home-page">
+        <form method="post" action="/" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5ODc0NjUwNDIPZBYEZg9kFgYCAw8WAh4HY29udGVudGVkAgQPFgIfAGVkAgcPFgIeBGhyZWYFGGh0dHA6Ly93d3cuaGVyaXRhZ2Uub3JnL2QCARBkZBYKAgMPZBYCZg9kFgICBA8WAh4LXyFJdGVtQ291bnQCBhYMAgEPZBYCZg8VAggvbWVtYmVycxBIZXJpdGFnZSBNZW1iZXJzZAICD2QWAmYPFQIWL2NvbnNlcnZhdGl2ZS1tb3ZlbWVudBZDb25zZXJ2YXRpdmUgQ29tbXVuaXR5ZAIDD2QWAmYPFQIML3ByZXNzLW1lZGlhDVByZXNzICYgTWVkaWFkAgQPZBYCZg8VAhUvZm9yLWdvdmVybm1lbnQtc3RhZmYQR292ZXJubWVudCBTdGFmZmQCBQ9kFgJmDxUCFC9hYm91dC95b3VuZy1sZWFkZXJzDVlvdW5nIExlYWRlcnNkAgYPZBYCZg8VAgsvYWJvdXQvam9icxZFbXBsb3ltZW50IGF0IEhlcml0YWdlZAIEDxUBF2NvbnRlbnQtY29udGFpbmVyICBob21lZAIFDw8WAh4HVmlzaWJsZWhkFgJmD2QWAmYPFgQfAgIFHwNnFgoCAQ9kFgJmDxUECUFib3V0X25hdglBYm91dF9uYXYGL2Fib3V0BUFib3V0ZAICD2QWAmYPFQQKSXNzdWVzX25hdgpJc3N1ZXNfbmF2By9pc3N1ZXMGSXNzdWVzZAIDD2QWAmYPFQQMUmVzZWFyY2hfbmF2DFJlc2VhcmNoX25hdgkvcmVzZWFyY2gIUmVzZWFyY2hkAgQPZBYCZg8VBApFdmVudHNfbmF2CkV2ZW50c19uYXYHL2V2ZW50cwpBbGwgRXZlbnRzZAIFD2QWAmYPFQQIQmxvZ19uYXYIQmxvZ19uYXYFL2Jsb2cEQmxvZ2QCBw9kFgRmD2QWAmYPZBYEAgEPZBYCZg9kFgJmD2QWBgIBDxYCHwICBhYMZg9kFgJmDxUJATADYWN0CU11c3QgUmVhZFZodHRwOi8vYmxvZy5oZXJpdGFnZS5vcmcvMjAxMi8wNC8xNy9tb3JuaW5nLWJlbGwtd2hhdC10YXgtZGF5LWNvdWxkLWZlZWwtbGlrZS1pbi0yMDEzLyRXaGF0IFRheCBEYXkgQ291bGQgRmVlbCBMaWtlIGluIDIwMTPOAVVubGVzcyBXYXNoaW5ndG9uIHRha2VzIGFjdGlvbiwgaXQgd2lsbCB0YWtlIHRheHBheWVycyAxMSBtb3JlIGRheXMgdG8gbWVldCBuZXh0IHllYXLigJlzIHRheCBidXJkZW4uIFRoYXTigJlzIGFsbCBkdWUgYSBzbGV3IG9mIGV4cGlyaW5nIHRheCBjdXRzIGFuZCBuZXcgdGF4IGluY3JlYXNlcyBhbW91bnRpbmcgdG8gYSAkNDk0IGJpbGxpb24gdGF4IGhpa2UubjxhIGhyZWY9Imh0dHA6Ly9ibG9nLmhlcml0YWdlLm9yZy8yMDEyLzA0LzE3L21vcm5pbmctYmVsbC13aGF0LXRheC1kYXktY291bGQtZmVlbC1saWtlLWluLTIwMTMvIj5SZWFkIE1vcmU8L2E+EDxoND5SRUxBVEVEPC9oND5+PGxpPjxhIGhyZWY9Imh0dHA6Ly9ibG9nLmhlcml0YWdlLm9yZy8yMDEyLzA0LzE2L3RheC1kYXktMjAxMi10YXhtYWdlZGRvbi1vbi10aGUtaG9yaXpvbi8iPlRheG1hZ2VkZG9uIG9uIHRoZSBIb3Jpem9uPC9hPjwvbGk+ZAIBD2QWAmYPFQkBMQAKRG9uJ3QgTWlzc2dodHRwOi8vd3d3Lmhlcml0YWdlLm9yZy9yZXNlYXJjaC9yZXBvcnRzLzIwMTIvMDQvbm9ydGgta29yZWFuLW1pc3NpbGUtbGF1bmNoLWRlbWFuZHMtc3Ryb25nLXVzLXJlc3BvbnNlK01pc3NpbGUgTGF1bmNoIERlbWFuZHMgU3Ryb25nIFUuUy4gUmVzcG9uc2W1AU5vcnRoIEtvcmVhIGRlZmllZCBpbnRlcm5hdGlvbmFsIHByZXNzdXJlIGFuZCBsYXVuY2hlZCBpdHMgVW5oYS0zIG1pc3NpbGUgb24gQXByaWwgMTIuIFUuUy4gYW5kIFNvdXRoIEtvcmVhbiBvZmZpY2lhbHMgaW5kaWNhdGUgdGhhdCB0aGUgbWlzc2lsZSBmYWlsZWQgc2V2ZXJhbCBtaW51dGVzIGFmdGVyIGxhdW5jaC5/PGEgaHJlZj0iaHR0cDovL3d3dy5oZXJpdGFnZS5vcmcvcmVzZWFyY2gvcmVwb3J0cy8yMDEyLzA0L25vcnRoLWtvcmVhbi1taXNzaWxlLWxhdW5jaC1kZW1hbmRzLXN0cm9uZy11cy1yZXNwb25zZSI+UmVhZCBNb3JlPC9hPhA8aDQ+UkVMQVRFRDwvaDQ+jwE8bGk+PGEgaHJlZj0iaHR0cDovL2Jsb2cuaGVyaXRhZ2Uub3JnLzIwMTIvMDQvMTMvbW9ybmluZy1iZWxsLW5vcnRoLWtvcmVhcy1yb2d1ZS1taXNzaWxlLWxhdW5jaC8iPk5vcnRoIEtvcmVh4oCZcyBSb2d1ZSBNaXNzaWxlIExhdW5jaDwvYT48L2xpPmQCAg9kFgJmDxUJATIACU11c3QgUmVhZIEBaHR0cDovL3d3dy5oZXJpdGFnZS5vcmcvcmVzZWFyY2gvcmVwb3J0cy8yMDEyLzA0L29iYW1hcy0yMDEzLWVkdWNhdGlvbi1idWRnZXQtYW5kLWJsdWVwcmludC1hLWNvc3RseS1leHBhbnNpb24tb2YtZmVkZXJhbC1jb250cm9sJUEgQ29zdGx5IEV4cGFuc2lvbiBvZiBGZWRlcmFsIENvbnRyb2yuAVByZXNpZGVudCBPYmFtYeKAmXMgRlkgMjAxMyBidWRnZXQgcmVxdWVzdCBpbmNsdWRlcyBhbm90aGVyIG1ham9yIHNwZW5kaW5nIGluY3JlYXNlIGZvciB0aGUgRGVwYXJ0bWVudCBvZiBFZHVjYXRpb27igJQyLjUgcGVyY2VudCBtb3JlIHRoYW4gbGFzdCB5ZWFy4oCUdG8gbmVhcmx5ICQ3MCBiaWxsaW9uLpkBPGEgaHJlZj0iaHR0cDovL3d3dy5oZXJpdGFnZS5vcmcvcmVzZWFyY2gvcmVwb3J0cy8yMDEyLzA0L29iYW1hcy0yMDEzLWVkdWNhdGlvbi1idWRnZXQtYW5kLWJsdWVwcmludC1hLWNvc3RseS1leHBhbnNpb24tb2YtZmVkZXJhbC1jb250cm9sIj5SZWFkIE1vcmU8L2E+EDxoND5SRUxBVEVEPC9oND6TATxsaT48YSBocmVmPSJodHRwOi8vYmxvZy5oZXJpdGFnZS5vcmcvMjAxMi8wNC8xMi9wcmVzaWRlbnQtb2JhbWFzLWJ1ZGdldC1wcmlvcml0eS1lbGltaW5hdGUtdGhlLWQtYy12b3VjaGVyLXByb2dyYW0vIj5FbGltaW5hdGluZyBELkMuIE9TUDwvYT48L2xpPmQCAw9kFgJmDxUJATMACU11c3QgUmVhZHVodHRwOi8vd3d3Lmhlcml0YWdlLm9yZy9yZXNlYXJjaC9yZXBvcnRzLzIwMTIvMDQvdGhpbmtpbmctdGhlLXVudGhpbmthYmxlLW1vZGVsaW5nLWEtY29sbGFwc2Utb2Ytc2F1ZGktb2lsLXByb2R1Y3Rpb24rTW9kZWxpbmcgYSBDb2xsYXBzZSBvZiBTYXVkaSBPaWwgUHJvZHVjdGlvbp8BSWYgYW4g4oCcQXJhYiBTcHJpbmfigJ0gdXByaXNpbmcgY29tcGxldGVseSBkaXNydXB0ZWQgU2F1ZGkgb2lsIHByb2R1Y3Rpb24sIHRoZSBVLlMuIGFuZCB0aGUgZ2xvYmFsIGVjb25vbXkgd291bGQgZmFjZSBhIG1hc3NpdmUgZWNvbm9taWMgYW5kIHN0cmF0ZWdpYyBjcmlzaXMujQE8YSBocmVmPSJodHRwOi8vd3d3Lmhlcml0YWdlLm9yZy9yZXNlYXJjaC9yZXBvcnRzLzIwMTIvMDQvdGhpbmtpbmctdGhlLXVudGhpbmthYmxlLW1vZGVsaW5nLWEtY29sbGFwc2Utb2Ytc2F1ZGktb2lsLXByb2R1Y3Rpb24iPlJlYWQgTW9yZTwvYT4QPGg0PlJFTEFURUQ8L2g0PpABPGxpPjxhIGhyZWY9Imh0dHA6Ly9ibG9nLmhlcml0YWdlLm9yZy8yMDEyLzA0LzA5L2NlYXNlZmlyZS1pbi1zeXJpYS1maXp6bGVzLWFzLXZpb2xlbmNlLXNwaWxscy1pbnRvLXR1cmtleS8iPkNlYXNlZmlyZSBpbiBTeXJpYSBGaXp6bGVzPC9hPjwvbGk+ZAIED2QWAmYPFCsCCQUBNGUFD05ldyBEb2N1bWVudGFyeQUsaHR0cDovL3d3dy5oZXJpdGFnZS5vcmcvcG93ZXJpbmdhbWVyaWNhZmlsbS8FEFBvd2VyaW5nIEFtZXJpY2EFnAFQb3dlcmluZyBBbWVyaWNhIGlzIGEgbmV3IGRvY3VtZW50YXJ5IHRoYXQgcHVsbHMgYmFjayB0aGUgdmVpbCBvbiBudWNsZWFyIGVuZXJneSBhbmQgZm9sbG93cyB0aGUgbWVuIGFuZCB3b21lbiB3aG8gd29yayBpbiBBbWVyaWNhJ3MgbnVjbGVhciBwb3dlciBpbmR1c3RyeS4FTDxhIGhyZWY9Imh0dHA6Ly93d3cuaGVyaXRhZ2Uub3JnL3Bvd2VyaW5nYW1lcmljYWZpbG0vIj5XYXRjaCB0aGUgVHJhaWxlcjwvYT5kZWQCBQ9kFgJmDxUJATUAB0pvaW4gVXNRaHR0cDovL2Jsb2cuaGVyaXRhZ2Uub3JnLzIwMTIvMDEvMTkvbW9ybmluZy1iZWxsLW9uLXRoZS1yb2FkLWZvci1hbWVyaWNhcy1mdXR1cmUvJ1lvdXIgTW9uZXksIFlvdXIgVmFsdWVzLCBZb3VyIFZvdGUgVG91cqQBVGhpcyB5ZWFyLCB0d28gbGVhZGluZyBwdWJsaWMgcG9saWN5IG9yZ2FuaXphdGlvbnMgLSBGYW1pbHkgUmVzZWFyY2ggQ291bmNpbCBhbmQgVGhlIEhlcml0YWdlIEZvdW5kYXRpb24gLSBhcmUgaGl0dGluZyB0aGUgcm9hZCB0b2dldGhlciB0byBzYXZlIHRoZSBBbWVyaWNhbiBkcmVhbS5pPGEgaHJlZj0iaHR0cDovL2Jsb2cuaGVyaXRhZ2Uub3JnLzIwMTIvMDEvMTkvbW9ybmluZy1iZWxsLW9uLXRoZS1yb2FkLWZvci1hbWVyaWNhcy1mdXR1cmUvIj5SZWFkIE1vcmU8L2E+EDxoND5SRUxBVEVEPC9oND5LPGxpPjxhIGhyZWY9Imh0dHA6Ly9zYXZpbmd0aGVkcmVhbS5vcmcvIj5TYXZpbmcgdGhlIEFtZXJpY2FuIERyZWFtPC9hPjwvbGk+ZAIDDxYCHwICBhYMZg9kFgJmDxUCA2FjdAVUYXhlc2QCAQ9kFgJmDxUCAAhOLiBLb3JlYWQCAg9kFgJmDxUCAAlFZHVjYXRpb25kAgMPZBYCZg8VAgADT2lsZAIED2QWAmYPFQIABkVuZXJneWQCBQ9kFgJmDxUCAAhCdXMgVG91cmQCBQ8WAh8CAgYWDGYPZBYCZg8VBVZodHRwOi8vYmxvZy5oZXJpdGFnZS5vcmcvMjAxMi8wNC8xNy9tb3JuaW5nLWJlbGwtd2hhdC10YXgtZGF5LWNvdWxkLWZlZWwtbGlrZS1pbi0yMDEzLyRXaGF0IFRheCBEYXkgQ291bGQgRmVlbCBMaWtlIGluIDIwMTMBMANhY3QuL34vbWVkaWEvSG9tZXBhZ2UgRmVhdHVyZXMvMTA0MF8xX2ZlYXR1cmUuYXNoeGQCAQ9kFgJmDxUFZ2h0dHA6Ly93d3cuaGVyaXRhZ2Uub3JnL3Jlc2VhcmNoL3JlcG9ydHMvMjAxMi8wNC9ub3J0aC1rb3JlYW4tbWlzc2lsZS1sYXVuY2gtZGVtYW5kcy1zdHJvbmctdXMtcmVzcG9uc2UrTWlzc2lsZSBMYXVuY2ggRGVtYW5kcyBTdHJvbmcgVS5TLiBSZXNwb25zZQExADMvfi9tZWRpYS9Ib21lcGFnZSBGZWF0dXJlcy9Ob3J0aEtvcmVhMV9mZWF0dXJlLmFzaHhkAgIPZBYCZg8VBYEBaHR0cDovL3d3dy5oZXJpdGFnZS5vcmcvcmVzZWFyY2gvcmVwb3J0cy8yMDEyLzA0L29iYW1hcy0yMDEzLWVkdWNhdGlvbi1idWRnZXQtYW5kLWJsdWVwcmludC1hLWNvc3RseS1leHBhbnNpb24tb2YtZmVkZXJhbC1jb250cm9sJUEgQ29zdGx5IEV4cGFuc2lvbiBvZiBGZWRlcmFsIENvbnRyb2wBMgA1L34vbWVkaWEvSG9tZXBhZ2UgRmVhdHVyZXMvc2Nob29sYnVzc25vd19mZWF0dXJlLmFzaHhkAgMPZBYCZg8VBXVodHRwOi8vd3d3Lmhlcml0YWdlLm9yZy9yZXNlYXJjaC9yZXBvcnRzLzIwMTIvMDQvdGhpbmtpbmctdGhlLXVudGhpbmthYmxlLW1vZGVsaW5nLWEtY29sbGFwc2Utb2Ytc2F1ZGktb2lsLXByb2R1Y3Rpb24rTW9kZWxpbmcgYSBDb2xsYXBzZSBvZiBTYXVkaSBPaWwgUHJvZHVjdGlvbgEzADAvfi9tZWRpYS9Ib21lcGFnZSBGZWF0dXJlcy9zYXVkaW9pbF9mZWF0dXJlLmFzaHhkAgQPZBYCZg8VBSxodHRwOi8vd3d3Lmhlcml0YWdlLm9yZy9wb3dlcmluZ2FtZXJpY2FmaWxtLxBQb3dlcmluZyBBbWVyaWNhATQAMi9+L21lZGlhL0hvbWVwYWdlIEZlYXR1cmVzL1Bvd2VyaW5nQW1fZmVhdHVyZS5hc2h4ZAIFD2QWAmYPFQVRaHR0cDovL2Jsb2cuaGVyaXRhZ2Uub3JnLzIwMTIvMDEvMTkvbW9ybmluZy1iZWxsLW9uLXRoZS1yb2FkLWZvci1hbWVyaWNhcy1mdXR1cmUvJ1lvdXIgTW9uZXksIFlvdXIgVmFsdWVzLCBZb3VyIFZvdGUgVG91cgE1ADIvfi9tZWRpYS9Ib21lcGFnZSBGZWF0dXJlcy9WYWx1ZXNidXMxX2ZlYXR1cmUuYXNoeGQCAw9kFgJmD2QWAmYPZBYCZg8WAh8CAgoWFGYPZBYCZg8VBBI8bGkgY2xhc3M9ImZpcnN0Ij4QZmlyc3QtcHJpbmNpcGxlcx0vaW5pdGlhdGl2ZXMvZmlyc3QtcHJpbmNpcGxlcxBGaXJzdCBQcmluY2lwbGVzZAIBD2QWAmYPFQQEPGxpPhNhbWVyaWNhbi1sZWFkZXJzaGlwIC9pbml0aWF0aXZlcy9hbWVyaWNhbi1sZWFkZXJzaGlwE0FtZXJpY2FuIExlYWRlcnNoaXBkAgIPZBYCZg8VBAQ8bGk+CWVkdWNhdGlvbhYvaW5pdGlhdGl2ZXMvZWR1Y2F0aW9uCUVkdWNhdGlvbmQCAw9kFgJmDxUEBDxsaT4SZW5lcmd5LWVudmlyb25tZW50Iy9pbml0aWF0aXZlcy9lbmVyZ3ktYW5kLWVudmlyb25tZW50FEVuZXJneSAmIEVudmlyb25tZW50ZAIED2QWAmYPFQQEPGxpPhdlbnRlcnByaXNlLWZyZWUtbWFya2V0cygvaW5pdGlhdGl2ZXMvZW50ZXJwcmlzZS1hbmQtZnJlZS1tYXJrZXRzGUVudGVycHJpc2UgJiBGcmVlIE1hcmtldHNkAgUPZBYCZg8VBAQ8bGk+DGVudGl0bGVtZW50cxkvaW5pdGlhdGl2ZXMvZW50aXRsZW1lbnRzDEVudGl0bGVtZW50c2QCBg9kFgJmDxUEBDxsaT4PZmFtaWx5LXJlbGlnaW9uIC9pbml0aWF0aXZlcy9mYW1pbHktYW5kLXJlbGlnaW9uEUZhbWlseSAmIFJlbGlnaW9uZAIHD2QWAmYPFQQEPGxpPgtoZWFsdGgtY2FyZRgvaW5pdGlhdGl2ZXMvaGVhbHRoLWNhcmULSGVhbHRoIENhcmVkAggPZBYCZg8VBAQ8bGk+D3Byb3RlY3QtYW1lcmljYRwvaW5pdGlhdGl2ZXMvcHJvdGVjdC1hbWVyaWNhD1Byb3RlY3QgQW1lcmljYWQCCQ9kFgJmDxUEBDxsaT4LcnVsZS1vZi1sYXcYL2luaXRpYXRpdmVzL3J1bGUtb2YtbGF3C1J1bGUgb2YgTGF3ZAIBD2QWAmYPZBYMZg9kFgJmD2QWAmYPZBYCZg8PZBYCHgVjbGFzcwUSbW9kdWxlcyBvbmUtY29sdW1uZAIBD2QWAmYPZBYCZg9kFgICAQ8WAh8CAgUWCgIBD2QWAmYPFQQNTmV3cyBSZWxlYXNlcw5BcHJpbCAxNywgMjAxMkwvcmVzZWFyY2gvcmVwb3J0cy8yMDEyLzA0L2FuZGVyc29uLWlzLWhlcml0YWdlcy1uZXctc2ltb24tZmVsbG93LWluLXJlbGlnaW9uNkFuZGVyc29uIElzIEhlcml0YWdl4oCZcyBOZXcgU2ltb24gRmVsbG93IGluIFJlbGlnaW9uIGQCAg9kFgJmDxUECVRlc3RpbW9ueQ5BcHJpbCAxNywgMjAxMnQvcmVzZWFyY2gvdGVzdGltb255LzIwMTIvMDQvcHVyc3VpbmctdW5pdmVyc2FsLXJldGlyZW1lbnQtc2VjdXJpdHktdGhyb3VnaC1hdXRvbWF0aWMtaXJhcy1hbmQtYWNjb3VudC1zaW1wbGlmaWNhdGlvblhQdXJzdWluZyBVbml2ZXJzYWwgUmV0aXJlbWVudCBTZWN1cml0eSBUaHJvdWdoIEF1dG9tYXRpYyBJUkFzIGFuZCBBY2NvdW50IFNpbXBsaWZpY2F0aW9uZAIDD2QWAmYPFQQMQmFja2dyb3VuZGVyDkFwcmlsIDE2LCAyMDEyYy9yZXNlYXJjaC9yZXBvcnRzLzIwMTIvMDQvc3RhdGVzLW11c3QtcmVqZWN0LW5hdGlvbmFsLWVkdWNhdGlvbi1zdGFuZGFyZHMtd2hpbGUtdGhlcmUtaXMtc3RpbGwtdGltZUlTdGF0ZXMgTXVzdCBSZWplY3QgTmF0aW9uYWwgRWR1Y2F0aW9uIFN0YW5kYXJkcyBXaGlsZSBUaGVyZSBJcyBTdGlsbCBUaW1lZAIED2QWAmYPFQQOU3BlY2lhbCBSZXBvcnQOQXByaWwgMTYsIDIwMTJaL3Jlc2VhcmNoL3JlcG9ydHMvMjAxMi8wNC90cmFkZS1hbmQtcHJvc3Blcml0eS1pbi10aGUtNTAtc3RhdGVzLXRoZS1jYXNlLW9mLW5vcnRoLWNhcm9saW5hQVRyYWRlIGFuZCBQcm9zcGVyaXR5IGluIHRoZSA1MCBTdGF0ZXM6IFRoZSBDYXNlIG9mIE5vcnRoIENhcm9saW5hZAIFD2QWAmYPFQQLSXNzdWUgQnJpZWYOQXByaWwgMTYsIDIwMTJLL3Jlc2VhcmNoL3JlcG9ydHMvMjAxMi8wNC9qb2x0LWFjdC12aXNhLXdhaXZlci1wcm9ncmFtLWFuZC10cmF2ZWwtcHJvbW90aW9uRVRoZSBKT0xUIEFjdDogUmlnaHQgb24gVmlzYSBXYWl2ZXIgUHJvZ3JhbSwgV3Jvbmcgb24gVHJhdmVsIFByb21vdGlvbmQCAg9kFgJmD2QWAmYPZBYCZg8WAh8CAgMWBmYPZBYCZg8VBQZBcHIgMTcBMGNodHRwOi8vYmxvZy5oZXJpdGFnZS5vcmcvMjAxMi8wNC8xNy9uZXctcmVzZWFyY2gtY29uZmlybXMtdGhhdC1zcGVuZGluZy1jdXRzLXN0aW11bGF0ZS10aGUtZWNvbm9teS8+TmV3IFJlc2VhcmNoIENvbmZpcm1zIHRoYXQgU3BlbmRpbmcgQ3V0cyBTdGltdWxhdGUgdGhlIEVjb25vbXl0DQoNCk5ldyByZXNlYXJjaCBzdWdnZXN0cyB0aGF0IGxlZ2lzbGF0b3JzIHNob3VsZCBjdXQgc3BlbmRpbmcgYW5kIGVuYWN0IGdyb3d0aC1pbmR1Y2luZyBwb2xpY2llcy4gVGhlIHJlYXNvbmluZz8uLi5kAgEPZBYCZg8VBQZBcHIgMTcBME9odHRwOi8vYmxvZy5oZXJpdGFnZS5vcmcvMjAxMi8wNC8xNy9leHBhbmRpbmctdG8tYS1tYXJrZXQtZHJpdmVuLWVuZXJneS1wb2xpY3kvKkVYUEFORGluZyB0byBhIE1hcmtldCBEcml2ZW4gRW5lcmd5IFBvbGljeXtUeXBpY2FsbHksIGNvbXByZWhlbnNpdmUgcGllY2VzIG9mIGVuZXJneSBsZWdpc2xhdGlvbiBleHBhbmQgdGhlIGdvdmVybm1lbnTigJlzIGF1dGhvcml0eSBvdmVyIHRoZSBlbmVyZ3kgZWNvbm9teSByYXRoZXIuLi5kAgIPZBYCZg8VBQZBcHIgMTcBME5odHRwOi8vYmxvZy5oZXJpdGFnZS5vcmcvMjAxMi8wNC8xNy9pbi1waWN0dXJlcy13aGF0LWNvc3RzLW1vcmUtbGlmZS1vci10YXhlcy8sSW4gUGljdHVyZXM6IFdoYXQgQ29zdHMgTW9yZT8gTGlmZSBvciBUYXhlcz95QXMgdGhlIHNheWluZyBnb2VzLCB0aGVyZSBhcmUgb25seSB0d28gY2VydGFpbnRpZXMgaW4gbGlmZTogZGVhdGggYW5kIHRheGVzLiBHaXZlbiB0aGF0IGZhY3QsIGl0J3Mgd29ydGggdGFraW5nIGEgbG9vay4uLmQCAw9kFgJmD2QWAmYPZBYEAgEPZBYCAgIPZBYIAgYPEA8WAh4LXyFEYXRhQm91bmRnZGRkZAILDxAPFgIfBWdkZGRkAg0PEA8WAh8FZ2RkFgFmZAIODw8WBB4EVGV4dAUSUlNWUCBUbyBUaGlzIEV2ZW50Hg1PbkNsaWVudENsaWNrBVByc3ZwVG9UaGlzRXZlbnQoJ2NvbnRlbnRfMV9ocF9idG1fbWlkXzBfaW5fcGVyc29uX2J0bl9yc3ZwX2Zvcm0nKTsgcmV0dXJuIGZhbHNlO2RkAgIPZBYEZg8PFgIeC05hdmlnYXRlVXJsBSkvZXZlbnRzLzIwMTIvMDQvY2hvaWNlLWFtZXJpY2FuLXNwZWN0YXRvcmRkAgIPZBYIAgYPEA8WAh8FZ2RkZGQCCw8QDxYCHwVnZGRkZAINDxAPFgIfBWdkZBYBZmQCDg8PFgQfBgUSU2VuZCBNZSBhIFJlbWluZGVyHwcFTXJzdnBUb1RoaXNFdmVudCgnY29udGVudF8xX2hwX2J0bV9taWRfMF9vbmxpbmVfYnRuX3JzdnBfZm9ybScpOyByZXR1cm4gZmFsc2U7ZGQCBA9kFgJmD2QWAmYPZBYCZg8WAh8CAgQWCGYPZBYCZg8VBwQ8bGk+T2h0dHA6Ly93d3cuaGVyaXRhZ2Uub3JnL3Jlc2VhcmNoL3JlcG9ydHMvMjAxMS8xMS9hcHByb3ByaWF0aW9ucy10cmFja2VyLWZ5LTIwMTI1L34vbWVkaWEvSW1hZ2VzL0hvbWUgUHJvbW9zL0ZvbGxvd1RoZU1vbmV5MTMyeDgzLmFzaHgQRm9sbG93IHRoZSBNb25leU9odHRwOi8vd3d3Lmhlcml0YWdlLm9yZy9yZXNlYXJjaC9yZXBvcnRzLzIwMTEvMTEvYXBwcm9wcmlhdGlvbnMtdHJhY2tlci1meS0yMDEyEEZvbGxvdyB0aGUgTW9uZXnZAVdpbGwgQ29uZ3Jlc3Mga2VlcCB0aGVpciBwcm9taXNlcyB0byByZWR1Y2UgZ292ZXJubWVudCBzcGVuZGluZz8gRm9sbG93IGV2ZXJ5IG1vdmUgb2YgZXZlcnkgc3BlbmRpbmcgYmlsbCBpbiBDb25ncmVzcyB3aXRoIG91ciBuZXcgdG9vbCBBcHByb3ByaWF0aW9ucyBUcmFja2VyOiBGWSAyMDEyLiBDbGljayB0aGUgaW1hZ2UgYWJvdmUgdG8gc2VlIHRoZSBsYXRlc3QgdmVyc2lvbi5kAgEPZBYCZg8VBwQ8bGk+VS9SZXNlYXJjaC9SZXBvcnRzLzIwMTIvMDMvUmVkLVRhcGUtUmlzaW5nLU9iYW1hLUVyYS1SZWd1bGF0aW9uLWF0LXRoZS1UaHJlZS1ZZWFyLU1hcms4L34vbWVkaWEvSW1hZ2VzL0lzc3Vlcy9SZWd1bGF0aW9uL1JlZFRhcGVfaGlnaGxpZ2h0LmFzaHg8UmVkIFRhcGUgUmlzaW5nOiBPYmFtYS1FcmEgUmVndWxhdGlvbiBhdCB0aGUgVGhyZWUtWWVhciBNYXJrVS9SZXNlYXJjaC9SZXBvcnRzLzIwMTIvMDMvUmVkLVRhcGUtUmlzaW5nLU9iYW1hLUVyYS1SZWd1bGF0aW9uLWF0LXRoZS1UaHJlZS1ZZWFyLU1hcms8UmVkIFRhcGUgUmlzaW5nOiBPYmFtYS1FcmEgUmVndWxhdGlvbiBhdCB0aGUgVGhyZWUtWWVhciBNYXJrnAFEdXJpbmcgdGhlIGZpcnN0IHRocmVlIHllYXJzIG9mIHRoZSBPYmFtYSBBZG1pbmlzdHJhdGlvbiwgMTA2IG5ldyBtYWpvciBmZWRlcmFsIHJlZ3VsYXRpb25zIGFkZGVkIG1vcmUgdGhhbiAkNDYgYmlsbGlvbiBwZXIgeWVhciBpbiBuZXcgY29zdHMgZm9yIEFtZXJpY2Fucy5kAgIPZBYCZg8VBwQ8bGk+HWh0dHA6Ly93d3cuaGVyaXRhZ2Uub3JnL2luZGV4MS9+L21lZGlhL0hvbWUgU3BvdGxpZ2h0cy8yMDEySW5kZXhfaGlnaGxpZ2h0LmFzaHgeMjAxMiBJbmRleCBvZiBFY29ub21pYyBGcmVlZG9tHWh0dHA6Ly93d3cuaGVyaXRhZ2Uub3JnL2luZGV4HjIwMTIgSW5kZXggb2YgRWNvbm9taWMgRnJlZWRvbbIBRm9yIG92ZXIgYSBkZWNhZGUsIFRoZSBXYWxsIFN0cmVldCBKb3VybmFsIGFuZCBUaGUgSGVyaXRhZ2UgRm91bmRhdGlvbiBoYXZlIHRyYWNrZWQgdGhlIG1hcmNoIG9mIGVjb25vbWljIGZyZWVkb20gYXJvdW5kIHRoZSB3b3JsZCB3aXRoIHRoZSBpbmZsdWVudGlhbCBJbmRleCBvZiBFY29ub21pYyBGcmVlZG9tLmQCAw9kFgJmDxUHETxsaSBjbGFzcz0ibGFzdCI+PWh0dHA6Ly93d3cuaGVyaXRhZ2Uub3JnL1Jlc2VhcmNoL1Byb2plY3RzL0ltcGFjdC1vZi1PYmFtYWNhcmU8L34vbWVkaWEvSW1hZ2VzL0xGQSBIaWdobGlnaHRzL0hlYWx0aCBDYXJlL0ltcGFjdDEzMng4My5hc2h4E0ltcGFjdCBvZiBPYmFtYWNhcmU9aHR0cDovL3d3dy5oZXJpdGFnZS5vcmcvUmVzZWFyY2gvUHJvamVjdHMvSW1wYWN0LW9mLU9iYW1hY2FyZRNJbXBhY3Qgb2YgT2JhbWFjYXJl4gHigJxXaGF0IGRvZXMgdGhlIG5ldyBoZWFsdGggY2FyZSBsYXcgbWVhbiBmb3IgbWU/4oCdIFdoZXRoZXIgeW91J3JlIGEgbW9tLCBhbiBlbXBsb3llciwgb3IgYSBkb2N0b3IsIHRoaXMgc2VyaWVzIHByb3ZpZGVzIHRoZSBhbnN3ZXIgLSB3aXRoIHZpZGVvcywgYmxvZyBwb3N0cyBhbmQgbW9yZSBmZWF0dXJpbmcgdGhlIHN0b3JpZXMgb2YgQW1lcmljYW5zIGFmZmVjdGVkIGJ5IE9iYW1hY2FyZS4gZAIFD2QWAmYPZBYCZg9kFgJmDw8WBB4IQ3NzQ2xhc3MFCG1vZHVsZXMgHgRfIVNCAgIWAh8EBRJtb2R1bGVzIG9uZS1jb2x1bW5kAgkPZBYCZg9kFgYCAQ8WAh8CAgUWCgIBD2QWAmYPFQIdL2luaXRpYXRpdmVzL2ZpcnN0LXByaW5jaXBsZXMQRmlyc3QgUHJpbmNpcGxlc2QCAg9kFgJmDxUCIC9pbml0aWF0aXZlcy9hbWVyaWNhbi1sZWFkZXJzaGlwE0FtZXJpY2FuIExlYWRlcnNoaXBkAgMPZBYCZg8VAhYvaW5pdGlhdGl2ZXMvZWR1Y2F0aW9uCUVkdWNhdGlvbmQCBA9kFgJmDxUCIy9pbml0aWF0aXZlcy9lbmVyZ3ktYW5kLWVudmlyb25tZW50FEVuZXJneSAmIEVudmlyb25tZW50ZAIFD2QWAmYPFQIoL2luaXRpYXRpdmVzL2VudGVycHJpc2UtYW5kLWZyZWUtbWFya2V0cxlFbnRlcnByaXNlICYgRnJlZSBNYXJrZXRzZAICDxYCHwICBRYKAgEPZBYCZg8VAhkvaW5pdGlhdGl2ZXMvZW50aXRsZW1lbnRzDEVudGl0bGVtZW50c2QCAg9kFgJmDxUCIC9pbml0aWF0aXZlcy9mYW1pbHktYW5kLXJlbGlnaW9uEUZhbWlseSAmIFJlbGlnaW9uZAIDD2QWAmYPFQIYL2luaXRpYXRpdmVzL2hlYWx0aC1jYXJlC0hlYWx0aCBDYXJlZAIED2QWAmYPFQIcL2luaXRpYXRpdmVzL3Byb3RlY3QtYW1lcmljYQ9Qcm90ZWN0IEFtZXJpY2FkAgUPZBYCZg8VAhgvaW5pdGlhdGl2ZXMvcnVsZS1vZi1sYXcLUnVsZSBvZiBMYXdkAgMPFgIfAgIGFgxmD2QWAmYPFQIIL21lbWJlcnMQSGVyaXRhZ2UgTWVtYmVyc2QCAQ9kFgJmDxUCCy9hYm91dC9qb2JzFkVtcGxveW1lbnQgYXQgSGVyaXRhZ2VkAgIPZBYCZg8VAhYvY29uc2VydmF0aXZlLW1vdmVtZW50FkNvbnNlcnZhdGl2ZSBDb21tdW5pdHlkAgMPZBYCZg8VAgwvcHJlc3MtbWVkaWENUHJlc3MgJiBNZWRpYWQCBA9kFgJmDxUCFS9mb3ItZ292ZXJubWVudC1zdGFmZhBHb3Zlcm5tZW50IFN0YWZmZAIFD2QWAmYPFQIUL2Fib3V0L3lvdW5nLWxlYWRlcnMNWW91bmcgTGVhZGVyc2RkL+eoeCk/l8POOLue/fEfC4q9bdo=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script src="/ScriptResource.axd?d=AfsTBE0NnZnLIaMJ0Jjgg-SGiAouPUvUrrA3_rVssWNr9d83GAM7mwSfJc71366DJ1uDt5hOXTAJX-ybXe10LkE0tFQF7atcuImb-3-ZaDDVyU76EtABzHXRB1eAYphsbWk9rZuhxmWeQXHNyVfmLIPOu_o1&amp;t=fffffffff9d85fa6" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWjAEC1IWprAwC44OzkQsCwKyeiggC1sqTsw0C7cXE4QMCh5HVrgQCrOf3nwsChKfVoQYCxLvkkAcC2M7ZrAkCy9KDoAICpPqO8AYCuvjmhAQCko2mzAICsfruhgcC8sKC0gcC7Pie5AwC7Pia5AwC7Pim5QwC7PjG5AwC7viC5AwC7viK5AwC7vj+5AwC7/i65AwC7/iy5AwC6fie5AwC6viC5AwC2/ji5AwC1Pi+5AwC1Pie5AwC1PiW5AwC1PiC5AwC1vj65AwC1vii5QwC1/iC5AwC0Piy5AwC0Pi+5AwC0PiC5AwC0Pji5AwC0PiW5AwC0Pj65AwC0PiK5AwC0Pj+5AwC0fiy5AwC0fj25AwC0fju5AwC0fjm5AwC0fiS5AwC0fii5QwC0fi65AwC0fi+5AwC0vju5AwC0via5AwC0vjG5AwCw/iC5AwC3fji5AwC3vi65AwC3vi+5AwC3/iW5AwC3/iu5QwC2Pj+5AwC2fj+5AwC2fiC5AwC2viC5AwC2vj25AwC2vji5AwC2vii5QwCl7LFtQsCuNWe2wkCvfaa5QgCnI3g4wwCyILxvwwC3aidsgsClZHGswUC8a6shAUCtPD7nAECnLDZogwC3Kzokw0CwNnVrwMC08WPowgC7qSCjQICzqOStgMC7JK6oQ8Cq8jhwAoCpYWgywUCu7+8/Q4Cu7+4/Q4Cu7+E/A4Cu7/k/Q4Cub+g/Q4Cub+o/Q4Cub/c/Q4CuL+Y/Q4CuL+Q/Q4Cvr+8/Q4Cvb+g/Q4CjL/A/Q4Cg7+c/Q4Cg7+8/Q4Cg7+0/Q4Cg7+g/Q4Cgb/Y/Q4Cgb+A/A4CgL+g/Q4Ch7+Q/Q4Ch7+c/Q4Ch7+g/Q4Ch7/A/Q4Ch7+0/Q4Ch7/Y/Q4Ch7+o/Q4Ch7/c/Q4Chr+Q/Q4Chr/U/Q4Chr/M/Q4Chr/E/Q4Chr+w/Q4Chr+A/A4Chr+Y/Q4Chr+c/Q4Chb/M/Q4Chb+4/Q4Chb/k/Q4ClL+g/Q4Cir/A/Q4Cib+Y/Q4Cib+c/Q4CiL+0/Q4CiL+M/A4Cj7/c/Q4Cjr/c/Q4Cjr+g/Q4Cjb+g/Q4Cjb/U/Q4Cjb/A/Q4Cjb+A/A4CovvJ/gUC5oix7QcCtbH35gUC2c+ogARNYlRfSP8NBzTMNQsffobK/mOPgQ==" />
+</div>
+        
+        <!-- not cachable, since lower pieces cache -->
+        
+
+<div class="header-container">
+    <div class="header-wrap">
+	    <div class="header">
+            <a href="/" title="Heritage Foundation" class="logo">
+                <img src="/static/images/logo.jpg" width="232" height="98" alt="The Heritage Foundation"/>
+            </a>
+            
+
+<div class="navSearch">
+    <span class="search-input-side">&nbsp;</span>
+    <input type="text" ID="query" name="query" class="txt" value="Search Heritage for" />                
+    <input type="button" name="searchbtn" id="searchbtn" class="search_btn" alt="Search Heritage" />
+     
+</div>
+
+            <ul class="top-nav" id="follow_parent">
+                <li class="left-cap"></li>                
+                <li><a href="http://heritageforamerica.org/?utm_source=heritagefoundation&utm_medium=heritage.org&utm_campaign=header">Heritage Action</a></li>
+                <li class="separator"></li>
+                <li><a href="http://www.libertad.org/">Heritage Libertad</a></li>
+                <li class="separator"></li>
+	            <li class="more" id="more">
+		            <a href="#" id="toggle" class="dropdown">More</a>
+		            <div class="heritage-dd">
+                        
+
+<ul>
+            
+        <li class="first">
+            <h5>For Members</h5>
+            <ul class="sub-ul"><li><a href="http://www.myheritage.org/">My Heritage</a></li><li><a href="http://www.askheritage.org/">AskHeritage</a></li></ul>
+        </li>              
+                
+        <li class="">
+            <h5>Issues</h5>
+            <ul class="sub-ul"><li><a href="http://33-minutes.com/">33 Minutes</a></li><li><a href="http://www.culture4freedom.com/">Culture for Freedom</a></li><li><a href="http://www.familyfacts.org/ ">Family Facts</a></li><li><a href="http://fixhealthcarepolicy.com/">Fix Health Care Policy</a></li><li><a href="http://orderinthecourt.org/ ">Order in the Court</a></li><li><a href="http://www.overcriminalized.com/">Overcriminalized</a></li><li><a href="http://seeksocialjustice.com/">Seek Social Justice</a></li><li><a href="http://www.voicesofschoolchoice.org/">Voices of School Choice</a></li></ul>
+        </li>              
+                
+        <li class="">
+            <h5>Resources</h5>
+            <ul class="sub-ul"><li><a href="http://www.heritage.org/budgetchartbook/ ">Budget Chart Book</a></li><li><a href="http://www.heritage.org/Index/">Index of Economic Freedom</a></li><li><a href="http://www.candidatebriefing.com">Issues 2012</a></li><li><a href="http://www.policyexperts.org/">Policy Experts</a></li><li><a href="http://site.heritage.org/research/features/socialsecurity/welcome.asp">Social Security Calculator</a></li><li><a href="http://www.thatchercenter.org/">Thatcher Center</a></li></ul>
+        </li>              
+    
+</ul>
+                    </div>
+	            </li>
+	            <li class="right-cap"></li>	            
+            </ul>
+            
+            <div class="media">
+                
+
+<ul class="media_bar">
+    
+	        <li>
+	            <a class='twitter_link' href='http://www.twitter.com/heritage'></a>
+            </li>
+        
+	        <li>
+	            <a class='facebook_link' href='http://www.facebook.com/heritagefoundation'></a>
+            </li>
+        
+	        <li>
+	            <a class='youtube_link' href='http://www.youtube.com/user/HeritageFoundation'></a>
+            </li>
+                    
+</ul>
+
+
+                
+            </div>
+	    </div>
+
+	    <div class="nav">
+		    <div class="navWrap">
+	            <ul data-role="listview" data-inset="true">
+        <li class="">
+            <a href='/about'>
+                <span class="nav_a_span">
+                    About
+                </span>
+            </a>
+        </li>
+    
+        <li class="">
+            <a href='/issues'>
+                <span class="nav_a_span">
+                    Issues
+                </span>
+            </a>
+        </li>
+    
+        <li class="">
+            <a href='/research'>
+                <span class="nav_a_span">
+                    Research
+                </span>
+            </a>
+        </li>
+    
+        <li class="">
+            <a href='/events'>
+                <span class="nav_a_span">
+                    Events
+                </span>
+            </a>
+        </li>
+    
+        <li class="">
+            <a href='/blog'>
+                <span class="nav_a_span">
+                    Blog
+                </span>
+            </a>
+        </li>
+    </ul>
+                <ul class="connectLinks">
+                    <li class="left-cap"></li>
+                    <li id="navContact">
+                        <a href="/Home/Contact Heritage.aspx" class="dropdown">Contact Us</a>
+                        <ul>
+	                            <li>
+	                                <a href='/members'>Heritage Members</a>
+                                </li>
+                            
+	                            <li>
+	                                <a href='/conservative-movement'>Conservative Community</a>
+                                </li>
+                            
+	                            <li>
+	                                <a href='/press-media'>Press & Media</a>
+                                </li>
+                            
+	                            <li>
+	                                <a href='/for-government-staff'>Government Staff</a>
+                                </li>
+                            
+	                            <li>
+	                                <a href='/about/young-leaders'>Young Leaders</a>
+                                </li>
+                            
+	                            <li>
+	                                <a href='/about/jobs'>Employment at Heritage</a>
+                                </li>
+                            </ul>   
+                    </li>
+                    <li class="separator"></li>
+                    <li id="navFollow">
+	                    <a href="#" class="dropdown">Get Connected</a>
+                        <ul>
+	    <li>
+	        <a class='newsletters dropdown_bold' href='http://www.paramountcommunication.com/heritage/index.aspx'>Newsletters</a>
+        </li>
+    
+	    <li>
+	        <a class='take-action dropdown_bold' href='http://heritageforamerica.org/'>Take Action</a>
+        </li>
+    
+	    <li>
+	        <a class='blog dropdown_bold' href='http://www.foundry.org/'>The Foundry Blog</a>
+        </li>
+    
+	    <li>
+	        <a class='rss' href='/Home/RSS'>RSS</a>
+        </li>
+    
+	    <li>
+	        <a class='events' href='/Events.aspx'>Events</a>
+        </li>
+    </ul>
+                    </li>						
+                    <li class="donateButton"><a href="/donate">Donate</a></li>
+                    <li class="right-cap"></li>
+                </ul>                
+		    </div>
+        </div>
+    </div>
+</div>
+        <div id="content_container" class="content-container  home">
+            <div class="content-wrap">
+                <div class="page">
+                    <div class="main">
+                        
+                        
+
+<div class="homesplash">
+    
+
+<div class="feature-block">
+    <div class="feat-spotlight">       
+        
+                <div class="feat-0 act">
+                    <h2 class="dotted-bot-border">Must Read</h2>
+                    <h3><a href="http://blog.heritage.org/2012/04/17/morning-bell-what-tax-day-could-feel-like-in-2013/">What Tax Day Could Feel Like in 2013</a></h3>
+                    <p class="dotted-bot-border">Unless Washington takes action, it will take taxpayers 11 more days to meet next year’s tax burden. That’s all due a slew of expiring tax cuts and new tax increases amounting to a $494 billion tax hike. <a href="http://blog.heritage.org/2012/04/17/morning-bell-what-tax-day-could-feel-like-in-2013/">Read More</a></p>
+                    <h4>RELATED</h4>
+                    <ul class="related">
+                        <li><a href="http://blog.heritage.org/2012/04/16/tax-day-2012-taxmageddon-on-the-horizon/">Taxmageddon on the Horizon</a></li>
+                    </ul>
+                </div>
+            
+                <div class="feat-1 ">
+                    <h2 class="dotted-bot-border">Don't Miss</h2>
+                    <h3><a href="http://www.heritage.org/research/reports/2012/04/north-korean-missile-launch-demands-strong-us-response">Missile Launch Demands Strong U.S. Response</a></h3>
+                    <p class="dotted-bot-border">North Korea defied international pressure and launched its Unha-3 missile on April 12. U.S. and South Korean officials indicate that the missile failed several minutes after launch. <a href="http://www.heritage.org/research/reports/2012/04/north-korean-missile-launch-demands-strong-us-response">Read More</a></p>
+                    <h4>RELATED</h4>
+                    <ul class="related">
+                        <li><a href="http://blog.heritage.org/2012/04/13/morning-bell-north-koreas-rogue-missile-launch/">North Korea’s Rogue Missile Launch</a></li>
+                    </ul>
+                </div>
+            
+                <div class="feat-2 ">
+                    <h2 class="dotted-bot-border">Must Read</h2>
+                    <h3><a href="http://www.heritage.org/research/reports/2012/04/obamas-2013-education-budget-and-blueprint-a-costly-expansion-of-federal-control">A Costly Expansion of Federal Control</a></h3>
+                    <p class="dotted-bot-border">President Obama’s FY 2013 budget request includes another major spending increase for the Department of Education—2.5 percent more than last year—to nearly $70 billion. <a href="http://www.heritage.org/research/reports/2012/04/obamas-2013-education-budget-and-blueprint-a-costly-expansion-of-federal-control">Read More</a></p>
+                    <h4>RELATED</h4>
+                    <ul class="related">
+                        <li><a href="http://blog.heritage.org/2012/04/12/president-obamas-budget-priority-eliminate-the-d-c-voucher-program/">Eliminating D.C. OSP</a></li>
+                    </ul>
+                </div>
+            
+                <div class="feat-3 ">
+                    <h2 class="dotted-bot-border">Must Read</h2>
+                    <h3><a href="http://www.heritage.org/research/reports/2012/04/thinking-the-unthinkable-modeling-a-collapse-of-saudi-oil-production">Modeling a Collapse of Saudi Oil Production</a></h3>
+                    <p class="dotted-bot-border">If an “Arab Spring” uprising completely disrupted Saudi oil production, the U.S. and the global economy would face a massive economic and strategic crisis. <a href="http://www.heritage.org/research/reports/2012/04/thinking-the-unthinkable-modeling-a-collapse-of-saudi-oil-production">Read More</a></p>
+                    <h4>RELATED</h4>
+                    <ul class="related">
+                        <li><a href="http://blog.heritage.org/2012/04/09/ceasefire-in-syria-fizzles-as-violence-spills-into-turkey/">Ceasefire in Syria Fizzles</a></li>
+                    </ul>
+                </div>
+            
+                <div class="feat-4 ">
+                    <h2 class="dotted-bot-border">New Documentary</h2>
+                    <h3><a href="http://www.heritage.org/poweringamericafilm/">Powering America</a></h3>
+                    <p class="dotted-bot-border">Powering America is a new documentary that pulls back the veil on nuclear energy and follows the men and women who work in America's nuclear power industry. <a href="http://www.heritage.org/poweringamericafilm/">Watch the Trailer</a></p>
+                    
+                    <ul class="related">
+                        
+                    </ul>
+                </div>
+            
+                <div class="feat-5 ">
+                    <h2 class="dotted-bot-border">Join Us</h2>
+                    <h3><a href="http://blog.heritage.org/2012/01/19/morning-bell-on-the-road-for-americas-future/">Your Money, Your Values, Your Vote Tour</a></h3>
+                    <p class="dotted-bot-border">This year, two leading public policy organizations - Family Research Council and The Heritage Foundation - are hitting the road together to save the American dream. <a href="http://blog.heritage.org/2012/01/19/morning-bell-on-the-road-for-americas-future/">Read More</a></p>
+                    <h4>RELATED</h4>
+                    <ul class="related">
+                        <li><a href="http://savingthedream.org/">Saving the American Dream</a></li>
+                    </ul>
+                </div>
+                    
+    </div>   
+    <div class="feature">
+        <ul class="feature-nav">
+            
+                    <li class="act"><a href="#">Taxes</a></li>
+                
+                    <li class=""><a href="#">N. Korea</a></li>
+                
+                    <li class=""><a href="#">Education</a></li>
+                
+                    <li class=""><a href="#">Oil</a></li>
+                
+                    <li class=""><a href="#">Energy</a></li>
+                
+                    <li class=""><a href="#">Bus Tour</a></li>
+                										
+        </ul>
+        <div class="opac"> </div>
+        
+                <a href="http://blog.heritage.org/2012/04/17/morning-bell-what-tax-day-could-feel-like-in-2013/" title="What Tax Day Could Feel Like in 2013">
+                    <img class="feat-media-0 act" src="/~/media/Homepage Features/1040_1_feature.ashx?w=465&h=382&as=true"  width="465" height="382" />
+                </a>
+            
+                <a href="http://www.heritage.org/research/reports/2012/04/north-korean-missile-launch-demands-strong-us-response" title="Missile Launch Demands Strong U.S. Response">
+                    <img class="feat-media-1 " src="/~/media/Homepage Features/NorthKorea1_feature.ashx?w=465&h=382&as=true"  width="465" height="382" />
+                </a>
+            
+                <a href="http://www.heritage.org/research/reports/2012/04/obamas-2013-education-budget-and-blueprint-a-costly-expansion-of-federal-control" title="A Costly Expansion of Federal Control">
+                    <img class="feat-media-2 " src="/~/media/Homepage Features/schoolbussnow_feature.ashx?w=465&h=382&as=true"  width="465" height="382" />
+                </a>
+            
+                <a href="http://www.heritage.org/research/reports/2012/04/thinking-the-unthinkable-modeling-a-collapse-of-saudi-oil-production" title="Modeling a Collapse of Saudi Oil Production">
+                    <img class="feat-media-3 " src="/~/media/Homepage Features/saudioil_feature.ashx?w=465&h=382&as=true"  width="465" height="382" />
+                </a>
+            
+                <a href="http://www.heritage.org/poweringamericafilm/" title="Powering America">
+                    <img class="feat-media-4 " src="/~/media/Homepage Features/PoweringAm_feature.ashx?w=465&h=382&as=true"  width="465" height="382" />
+                </a>
+            
+                <a href="http://blog.heritage.org/2012/01/19/morning-bell-on-the-road-for-americas-future/" title="Your Money, Your Values, Your Vote Tour">
+                    <img class="feat-media-5 " src="/~/media/Homepage Features/Valuesbus1_feature.ashx?w=465&h=382&as=true"  width="465" height="382" />
+                </a>
+            
+    </div>   
+</div>
+    
+<div class="secondary-nav">
+	<h2>Leadership <em class="georgia">for</em> America</h2>
+	<h3>TEN TRANSFORMATIONAL INITIATIVES</h3>
+	<ul data-role="listview" data-inset="true">
+		
+               <li class="first">
+               <a class="first-principles" href="/initiatives/first-principles">First Principles</a></li>              
+            
+               <li>
+               <a class="american-leadership" href="/initiatives/american-leadership">American Leadership</a></li>              
+            
+               <li>
+               <a class="education" href="/initiatives/education">Education</a></li>              
+            
+               <li>
+               <a class="energy-environment" href="/initiatives/energy-and-environment">Energy & Environment</a></li>              
+            
+               <li>
+               <a class="enterprise-free-markets" href="/initiatives/enterprise-and-free-markets">Enterprise & Free Markets</a></li>              
+            
+               <li>
+               <a class="entitlements" href="/initiatives/entitlements">Entitlements</a></li>              
+            
+               <li>
+               <a class="family-religion" href="/initiatives/family-and-religion">Family & Religion</a></li>              
+            
+               <li>
+               <a class="health-care" href="/initiatives/health-care">Health Care</a></li>              
+            
+               <li>
+               <a class="protect-america" href="/initiatives/protect-america">Protect America</a></li>              
+            
+               <li>
+               <a class="rule-of-law" href="/initiatives/rule-of-law">Rule of Law</a></li>              
+            
+	</ul>
+	<a class="more" href="/About/Mission.aspx">Learn more about our ten initiatives</a>
+</div>
+	
+<div class="">
+    
+		<style type="text/css">
+.main #spotlight-promo p { font-size:13px; line-height:17px;}
+#spotlight-promo {
+	background: url(https://thf_media.s3.amazonaws.com/2012/spotlight/savingthedream-top.jpg) no-repeat;
+	height: 355px;
+	width: 975px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #FFF;
+	float:none;
+	text-shadow: 1px 1px 0px #000;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.5);
+}
+#spotlight-promo div { float:none; margin:0;}
+h2, p { margin:0; padding:0;}
+#spotlight-promo .promo {
+	float: left;
+	margin-top: 60px;
+	margin-left:110px;
+	width: 469px;
+	text-shadow: 1px 1px 0px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.5);
+	color: #333;
+}
+.main #spotlight-promo p { font-size:14px;}
+#spotlight-promo .promo h2 {
+	font-size: 23px;
+	font-weight: bold;
+	color: #124b76;
+	margin-bottom: 8px;
+	font-weight:normal;
+}
+#spotlight-promo .calltoaction {
+	margin-left: 202px;
+	margin-top: 30px;
+	color: #003366;
+}
+.main #spotlight-promo .calltoaction p { font-size: 18px;margin-bottom:.5em;}
+#spotlight-promo .calltoaction a {
+	background: #b71319;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fdfcf7;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.25);
+	margin-top: 10px;
+	margin-right: 30px;
+	display:block;
+}
+#spotlight-promo .calltoaction a:hover { background:#9a0a0e;}
+#spotlight-promo .development {
+	width: 335px;
+	margin-right: 30px;
+	margin-top: 55px;
+	float:right;
+	font-size: 13px;
+}
+#spotlight-promo .development h2 {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 8px;
+	padding: 0px;
+}
+#spotlight-promo .development h2 a, 
+#spotlight-promo .development h2 a:visited {
+	display:block; 
+	color:#fff;
+}
+#spotlight-promo .development p { margin-bottom:.75em; font-size:12px; line-height:20px;}
+#spotlight-promo .development .button {
+	background: #d99417;
+	background: -moz-linear-gradient(top,  rgba(244,188,42,1) 0%, rgba(234,133,27,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,188,42,1)), color-stop(100%,rgba(234,133,27,1)));
+	background: -webkit-linear-gradient(top,  rgba(244,188,42,1) 0%,rgba(234,133,27,1) 100%);
+	background: -o-linear-gradient(top,  rgba(244,188,42,1) 0%,rgba(234,133,27,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(244,188,42,1) 0%,rgba(234,133,27,1) 100%);
+	background: linear-gradient(top,  rgba(244,188,42,1) 0%,rgba(234,133,27,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4bc2a', endColorstr='#ea851b',GradientType=0 );
+	text-align: center;
+	padding: 10px 20px;
+	border: 1px solid #f5b74e;
+	font-size: 12px;
+	font-weight: bold;
+	color: #011c37;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	line-height:11px;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.25);
+}
+#spotlight-promo .development .button:hover {
+	background: #e2ad31;
+}
+.homesplash-btm {
+	background: url(https://thf_media.s3.amazonaws.com/2012/spotlight/homesplash-btm_savingthedream.jpg) no-repeat !important;
+	height: 73px;
+	width: 975px;
+}
+@media screen and (max-device-width: 480px) {
+  #spotlight-promo, .homesplash-btm {display: none;}
+}
+</style>
+<div id="spotlight-promo">
+<div class="promo">
+  	<h2>Will You Help Save the American Dream?</h2>
+  <p><em>Saving the American Dream</em> presents a vision to restore prosperity in America. Founded on the essential principles of liberty, it reveals how we can solve the national debt crisis, simplify taxes, reduce government spending and make health care affordable.</p>
+    <div class="calltoaction">
+      <p>Know the Plan.</p>
+      <p> Share the Plan.</p>
+      <p>Save the American Dream. </p>
+      <p><a href="http://www.savingthedream.org/?utm_source=heritage&amp;utm_medium=spotlight&amp;utm_campaign=HeritageHomepage" target="_blank" onclick="_gaq.push('_trackEvent', 'Spotlight', 'SavingtheDream');">Visit SavingTheDream.org</a></p>
+    </div>
+  </div>
+  <div class="development">
+    <h2>Join Heritage Today!</h2>
+    <p><img src="http://joinheritage.org/wp-content/uploads/2012/02/rushLarge.jpg?w=93&amp;h=113&amp;as=1" width="93" height="113" style="float:right; margin-left:14px; margin-bottom:18px;" />Join Rush Limbaugh and nearly 700,000 other conservatives as a Member of The Heritage Foundation today. Join our fight&mdash;and help us return our nation to its founding principles and help us build an America where freedom, opportunity, prosperity, and civil society flourish.</p>
+    <p>Stand with us as we turn the tide.<br /><strong>The future of our nation is at stake.</strong></p>
+    <p style="float:right;"><a class="button" href="http://www.joinheritage.org/?utm_source=heritage&amp;utm_medium=spotlight&amp;utm_campaign=HeritageHomepage" target="_blank" onclick="_gaq.push('_trackEvent', 'Spotlight', 'JoinHeritage');">Join Today</a></p>
+  </div>
+</div>
+</div>
+	
+</div>
+<div class="homesplash-btm"> </div>
+
+<div class="more-home">
+	<div class="section-1">
+	    <div class="connect">
+	        <h4 class="emphasis">Connect With Heritage</h4><div id="content_1_hp_btm_tright_0_container" class="modules" class="modules one-column">
+	<div><a href="http://www.savingthedream.org/" item="$sc_item"><img src="/~/media/Connect w Heritage/SAD_webad_cwh_210x116.ashx" alt="SavingTheDream.org" width="210" height="116" item="$sc_item" /></a></div><div><a href="http://familyfacts.org/?utm_source=strategicmktg&amp;utm_medium=homeconnect&amp;utm_campaign=heritagewebsite" item="$sc_item"><img src="/~/media/Images/LFA Highlights/FamilyandReligion/FamilyFacts_210x52.ashx" alt="family facts" width="210" height="52" item="$sc_item" /></a></div><div><a href="http://www.CandidateBriefing.com" item="$sc_item" title="Issues 2012"><img src="/~/media/Connect w Heritage/IssuesAd.ashx" alt="Issues 2012" width="210" height="116" item="$sc_item" /></a></div>
+</div>
+		</div>
+		
+
+<div class="featured-research">    
+    <div class="head">
+	    <h4 class="emphasis">Latest Research</h4>
+	    <button id="Button1" class="view-all-btn" onclick="location.href='/Research'; return false;">View All</button>
+    </div>
+	
+            <ul class="content-list">
+        
+            <li class="article"><span class="title">News Releases ON April 17, 2012</span> 
+	            <a href="/research/reports/2012/04/anderson-is-heritages-new-simon-fellow-in-religion">Anderson Is Heritage’s New Simon Fellow in Religion </a>
+            </li>	                  
+        
+            <li class="article"><span class="title">Testimony ON April 17, 2012</span> 
+	            <a href="/research/testimony/2012/04/pursuing-universal-retirement-security-through-automatic-iras-and-account-simplification">Pursuing Universal Retirement Security Through Automatic IRAs and Account Simplification</a>
+            </li>	                  
+        
+            <li class="article"><span class="title">Backgrounder ON April 16, 2012</span> 
+	            <a href="/research/reports/2012/04/states-must-reject-national-education-standards-while-there-is-still-time">States Must Reject National Education Standards While There Is Still Time</a>
+            </li>	                  
+        
+            <li class="article"><span class="title">Special Report ON April 16, 2012</span> 
+	            <a href="/research/reports/2012/04/trade-and-prosperity-in-the-50-states-the-case-of-north-carolina">Trade and Prosperity in the 50 States: The Case of North Carolina</a>
+            </li>	                  
+        
+            <li class="article"><span class="title">Issue Brief ON April 16, 2012</span> 
+	            <a href="/research/reports/2012/04/jolt-act-visa-waiver-program-and-travel-promotion">The JOLT Act: Right on Visa Waiver Program, Wrong on Travel Promotion</a>
+            </li>	                  
+        
+            </ul>
+          
+</div>
+		
+
+<div class="from-foundry">
+	<h3 class="no-jqm">From <em class="georgia">the</em> Foundry Blog</h3>
+	<a href="http://blog.heritage.org/feed/" class="blog-rss">RSS</a>
+	<ul class="posts" >
+    <!--<li data-role="list-divider" class="jqm">From <em>the</em> Foundry Blog</li>-->
+        
+                <li>
+                    <div class="info">
+                        <span class="date">Apr 17</span>
+                        <span class="num-posts">0</span>
+                    </div>
+                    <div class="post-content">
+                        <a href='http://blog.heritage.org/2012/04/17/new-research-confirms-that-spending-cuts-stimulate-the-economy/'>New Research Confirms that Spending Cuts Stimulate the Economy</a>
+                        <p>
+
+New research suggests that legislators should cut spending and enact growth-inducing policies. The reasoning?...</p>
+                        
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="info">
+                        <span class="date">Apr 17</span>
+                        <span class="num-posts">0</span>
+                    </div>
+                    <div class="post-content">
+                        <a href='http://blog.heritage.org/2012/04/17/expanding-to-a-market-driven-energy-policy/'>EXPANDing to a Market Driven Energy Policy</a>
+                        <p>Typically, comprehensive pieces of energy legislation expand the government’s authority over the energy economy rather...</p>
+                        
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="info">
+                        <span class="date">Apr 17</span>
+                        <span class="num-posts">0</span>
+                    </div>
+                    <div class="post-content">
+                        <a href='http://blog.heritage.org/2012/04/17/in-pictures-what-costs-more-life-or-taxes/'>In Pictures: What Costs More? Life or Taxes?</a>
+                        <p>As the saying goes, there are only two certainties in life: death and taxes. Given that fact, it's worth taking a look...</p>
+                        
+                    </div>
+                </li>
+            
+	</ul>
+</div>
+	</div>
+	<div class="section-2">
+		
+
+<div class="events-main">
+	<h5>EVENTS <em class="georgia">at</em> HERITAGE</h5>
+	<div class="event-block">
+		
+		<div class="event-header">
+			<div class="event-left">
+			    <div class="date-box">
+				    <span class="month">Apr</span>
+				    <span class="day">18</span>
+			    </div>
+			    <span class="day-time">WEDNESDAY 8:30AM</span>
+			</div>
+			<h2 class="event-heading"><a href="/events/2012/04/choice-american-spectator">Choice: The Conservative Alternative to the Liberal Nanny State</a></h2>
+			<span id="content_1_hp_btm_mid_0_eventlocation" class="event-location">The Heritage Foundation's Lehrman Auditorium</span>
+			<div class="event-desc">
+      
+        TIME CHANGE: This event will now be held at 8:30 A.M.
+      
+    
+    
+      Co-hosted with
+       
+    Choice is a theme that runs through many conservative, free-market policy proposals. The old-school, statist approach of promoting personal security through entitlements is&hellip; </div>
+		</div>
+		<div class="btns">
+		    <input type="submit" name="content_1$hp_btm_mid_0$in_person_btn$rsvp_btn" value="Attend in Person" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_btn" class="attend-btn rsvp" />
+
+<div id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form" class="popupWindow rsvp-popup attend">
+    <div class="closePopup"> </div>
+    <div class="wrapper">
+        <div class="two-column-even">
+            <h1 class="rsvp_form_header">RSVP For This Event Here</h1>           
+
+                    
+                    <div class="form-error-msg" style="display:none;">
+                        <h5>Test4</h5>
+                    </div>                     
+                    <p id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_rsvpIntro" class="rsvp-form"><span class="rsvp_form_text">Please complete the following form to RSVP for this event.</span><br />Required fields are indicated by <strong>bold text and an asterisk (*)</strong></p>
+         <div id="ie6-div-content_1_hp_btm_mid_0_in_person_btn_rsvp_form-1">   
+            <div class="col-1 rsvp-form">                
+                        
+                    <label for="name">Your Information</label>
+                    <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbFirstName" type="text" value="First Name (*)" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbFirstName" class="required-field half-size" name="first_name" />
+                    <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbLastName" type="text" value="Last Name (*)" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbLastName" class="required-field half-size" name="last_name" />
+                    <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbEMail" type="text" value="Email Address (*)" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbEMail" class="required-field" name="email" />
+                    <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbPhone" type="text" value="Phone Number" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbPhone" name="phone" />
+                    
+                    <label for="name">Affiliation with The Heritage Foundation *</label>
+                    <select name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$dlAffilHeritage" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_dlAffilHeritage" class="form-select">
+	<option value="Please Select">Please Select</option>
+	<option value="Legislative/Executive Business">Legislative/Executive Business</option>
+	<option value="Heritage Staff">Heritage Staff</option>
+	<option value="Heritage Donor">Heritage Donor</option>
+	<option value="Heritage Visitor">Heritage Visitor</option>
+
+</select>                        
+                    
+               
+            </div>
+         </div>
+            <div class="col-2 rsvp-form">
+                <div id="ie6-div-content_1_hp_btm_mid_0_in_person_btn_rsvp_form-2">
+                        <label for="title">For Visitors Only</label>
+                        <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbTitle" type="text" value="Title" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbTitle" />
+                        <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbOrg" type="text" value="Organization" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbOrg" />
+                        <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbMailAddr" type="text" value="Mailing Address" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbMailAddr" />
+                        <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbCity" type="text" value="City/Town" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbCity" />
+                        <div style="display:block; width:100%; height:30px;">
+                            <select name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$dlState" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_dlState" class="form-select small dlState">
+	<option value="State/Province">State/Province</option>
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DC">District of Columbia</option>
+	<option value="DE">Delaware</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+
+</select>
+                            <input name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$tbZip" type="text" value="Zip/Postal" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_tbZip" class="small-text-in tbZip" />
+                        </div>
+                                                                        
+                        <input type="button" name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$btnSubmit" value="RSVP To This Event" onclick="rsvpToThisEvent('content_1_hp_btm_mid_0_in_person_btn_rsvp_form'); return false;__doPostBack('content_1$hp_btm_mid_0$in_person_btn$rsvp_form$btnSubmit','')" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_btnSubmit" class="popup-submit rsvp-submit-button" /> 
+                        <input type="button" value="Cancel" class="popup-cancel"/>        
+                     </div>                
+                        <input type="hidden" name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$isOnline" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_isOnline" value="False" />
+                        <input type="hidden" name="content_1$hp_btm_mid_0$in_person_btn$rsvp_form$eventID" id="content_1_hp_btm_mid_0_in_person_btn_rsvp_form_eventID" value="8df109ee-950c-45b4-89e4-20a66310a4d0" />
+                
+            </div>
+            
+        </div>
+        
+     </div>
+</div>
+
+		    <a id="content_1_hp_btm_mid_0_online_btn_hlWatchOnline" class="btn watch rsvp-online" href="/events/2012/04/choice-american-spectator">Watch Online</a>
+
+<div id="content_1_hp_btm_mid_0_online_btn_rsvp_form" class="popupWindow rsvp-popup watch-online">
+    <div class="closePopup"> </div>
+    <div class="wrapper">
+        <div class="two-column-even">
+            <h1 class="rsvp_form_header">Get an E-mail Reminder When the Event Goes Online</h1>           
+
+                    
+                    <div class="form-error-msg" style="display:none;">
+                        <h5>Test4</h5>
+                    </div>                     
+                    <p id="content_1_hp_btm_mid_0_online_btn_rsvp_form_rsvpIntro" class="rsvp-form"><span class="rsvp_form_text">Please complete the following form to receive an email reminder of this event.</span><br />Required fields are indicated by <strong>bold text and an asterisk (*)</strong></p>
+         <div id="ie6-div-content_1_hp_btm_mid_0_online_btn_rsvp_form-1">   
+            <div class="col-1 rsvp-form">                
+                        
+                    <label for="name">Your Information</label>
+                    <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbFirstName" type="text" value="First Name (*)" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbFirstName" class="required-field half-size" name="first_name" />
+                    <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbLastName" type="text" value="Last Name (*)" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbLastName" class="required-field half-size" name="last_name" />
+                    <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbEMail" type="text" value="Email Address (*)" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbEMail" class="required-field" name="email" />
+                    <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbPhone" type="text" value="Phone Number" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbPhone" name="phone" />
+                    
+                    <label for="name">Affiliation with The Heritage Foundation *</label>
+                    <select name="content_1$hp_btm_mid_0$online_btn$rsvp_form$dlAffilHeritage" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_dlAffilHeritage" class="form-select">
+	<option value="Please Select">Please Select</option>
+	<option value="Legislative/Executive Business">Legislative/Executive Business</option>
+	<option value="Heritage Staff">Heritage Staff</option>
+	<option value="Heritage Donor">Heritage Donor</option>
+	<option value="Heritage Visitor">Heritage Visitor</option>
+
+</select>                        
+                    
+               
+            </div>
+         </div>
+            <div class="col-2 rsvp-form">
+                <div id="ie6-div-content_1_hp_btm_mid_0_online_btn_rsvp_form-2">
+                        <label for="title">For Visitors Only</label>
+                        <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbTitle" type="text" value="Title" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbTitle" />
+                        <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbOrg" type="text" value="Organization" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbOrg" />
+                        <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbMailAddr" type="text" value="Mailing Address" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbMailAddr" />
+                        <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbCity" type="text" value="City/Town" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbCity" />
+                        <div style="display:block; width:100%; height:30px;">
+                            <select name="content_1$hp_btm_mid_0$online_btn$rsvp_form$dlState" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_dlState" class="form-select small dlState">
+	<option value="State/Province">State/Province</option>
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DC">District of Columbia</option>
+	<option value="DE">Delaware</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+
+</select>
+                            <input name="content_1$hp_btm_mid_0$online_btn$rsvp_form$tbZip" type="text" value="Zip/Postal" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_tbZip" class="small-text-in tbZip" />
+                        </div>
+                                                                        
+                        <input type="button" name="content_1$hp_btm_mid_0$online_btn$rsvp_form$btnSubmit" value="Send Me a Reminder" onclick="rsvpToThisEvent('content_1_hp_btm_mid_0_online_btn_rsvp_form'); return false;__doPostBack('content_1$hp_btm_mid_0$online_btn$rsvp_form$btnSubmit','')" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_btnSubmit" class="popup-submit rsvp-submit-button" /> 
+                        <input type="button" value="Cancel" class="popup-cancel"/>        
+                     </div>                
+                        <input type="hidden" name="content_1$hp_btm_mid_0$online_btn$rsvp_form$isOnline" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_isOnline" value="True" />
+                        <input type="hidden" name="content_1$hp_btm_mid_0$online_btn$rsvp_form$eventID" id="content_1_hp_btm_mid_0_online_btn_rsvp_form_eventID" value="8df109ee-950c-45b4-89e4-20a66310a4d0" />
+                
+            </div>
+            
+        </div>
+        
+     </div>
+</div>
+
+        </div>
+		
+	</div>									
+</div>
+<div class="upcoming-events">
+	<div class="head">
+		<h5>Upcoming Events</h5>
+		<button type="button" class="view-all-btn" onclick="window.location='/Events/UpcomingEvents.aspx'">View All</button>								
+	</div>
+
+	<ul class="event-list">
+		
+           <li>
+                <div class="date-box-small">
+				    <span class="month">Apr</span>
+				    <span class="day">18</span>
+			    </div>
+			    <div class="event-link"><a href="/events/2012/04/choice-american-spectator">Choice: The Conservative Alternative to the Liberal Nanny State</a></div>
+           </li>
+  
+		
+           <li>
+                <div class="date-box-small">
+				    <span class="month">Apr</span>
+				    <span class="day">18</span>
+			    </div>
+			    <div class="event-link"><a href="/events/2012/04/the-impossible-state">The Impossible State: North Korea, Past and Future </a></div>
+           </li>
+  
+		
+           <li>
+                <div class="date-box-small">
+				    <span class="month">Apr</span>
+				    <span class="day">19</span>
+			    </div>
+			    <div class="event-link"><a href="/events/2012/04/occupy">The Occupy Movement: A Post-Mortem?</a></div>
+           </li>
+  
+		
+           <li>
+                <div class="date-box-small">
+				    <span class="month">Apr</span>
+				    <span class="day">23</span>
+			    </div>
+			    <div class="event-link"><a href="/events/2012/04/arizona-immigration">Arizona Immigration: Showdown in the Supreme Court</a></div>
+           </li>
+  
+																																																																			
+    </ul>								
+</div>
+<div class="recent-events">
+	<div class="head">
+		<h5>Recent Events</h5>
+		<button type="button" class="view-all-btn" onclick="window.location='/Events/PastEvents.aspx'">View All</button>								
+	</div>
+	<ul class="previous-list">
+		
+		    <li>
+		        
+		        <div class="actions">
+		            <a href="/events/2012/04/national-standards" title="Watch" class="watch">WATCH</a>
+		            <a href="http://thf_media.s3.amazonaws.com/2012/mp3/2012-04-17-National Standards.mp3" title="Listen" class="listen">LISTEN</a>
+		        </div>
+		        
+				<div class="event-link">
+				    <a href="/events/2012/04/national-standards">Exiting the National Standards Bandwagon</a>
+                </div>
+            </li>
+		
+		    <li>
+		        
+		        <div class="actions">
+		            <a href="/events/2012/04/shintaro-ishihara" title="Watch" class="watch">WATCH</a>
+		            <a href="http://thf_media.s3.amazonaws.com/2012/mp3/2012-04-16-Shintaro Ishihara.mp3" title="Listen" class="listen">LISTEN</a>
+		        </div>
+		        
+				<div class="event-link">
+				    <a href="/events/2012/04/shintaro-ishihara">The U.S.-Japan Alliance and the Debate Over Japan's Role in Asia</a>
+                </div>
+            </li>
+		
+		    <li>
+		        
+		        <div class="actions">
+		            <a href="/events/2012/04/secretary-rice" title="Watch" class="watch">WATCH</a>
+		            <a href="http://thf_media.s3.amazonaws.com/2012/mp3/2012-04-13-Condoleezza Rice.mp3" title="Listen" class="listen">LISTEN</a>
+		        </div>
+		        
+				<div class="event-link">
+				    <a href="/events/2012/04/secretary-rice">Leadership: America's Critical Foreign Policy Role </a>
+                </div>
+            </li>
+		
+		    <li>
+		        
+		        <div class="actions">
+		            <a href="/events/2012/04/secret-weapon" title="Watch" class="watch">WATCH</a>
+		            <a href="http://thf_media.s3.amazonaws.com/2012/mp3/2012-04-12-Secret Weapon - Kevin Freeman.mp3" title="Listen" class="listen">LISTEN</a>
+		        </div>
+		        
+				<div class="event-link">
+				    <a href="/events/2012/04/secret-weapon">Secret Weapon: How Economic Terrorism Brought Down the U.S. Stock Market and Why It Can Happen Again</a>
+                </div>
+            </li>
+		
+		    <li>
+		        
+		        <div class="actions">
+		            <a href="/events/2012/04/no-they-cant" title="Watch" class="watch">WATCH</a>
+		            <a href="http://thf_media.s3.amazonaws.com/2012/mp3/2012-04-11-Stossel-No They Can't.mp3" title="Listen" class="listen">LISTEN</a>
+		        </div>
+		        
+				<div class="event-link">
+				    <a href="/events/2012/04/no-they-cant">No They Can't: Why Government Fails - But Individuals Succeed</a>
+                </div>
+            </li>
+											
+	</ul>
+</div>														
+	</div>
+	<div class="section-3">
+		
+
+<div class="heritage-highlights">
+	<h4>Heritage Highlights</h4>
+	<ul>
+		
+                <li>
+                    <a class="hlLnk" href="http://www.heritage.org/research/reports/2011/11/appropriations-tracker-fy-2012" ><img class="frame"  src="/~/media/Images/Home Promos/FollowTheMoney132x83.ashx" width="128" height="79" alt="Follow the Money"/></a>
+		            <a href="http://www.heritage.org/research/reports/2011/11/appropriations-tracker-fy-2012" >Follow the Money</a>	
+		            <p>Will Congress keep their promises to reduce government spending? Follow every move of every spending bill in Congress with our new tool Appropriations Tracker: FY 2012. Click the image above to see the latest version.</p>
+	            </li>
+            
+                <li>
+                    <a class="hlLnk" href="/Research/Reports/2012/03/Red-Tape-Rising-Obama-Era-Regulation-at-the-Three-Year-Mark" ><img class="frame"  src="/~/media/Images/Issues/Regulation/RedTape_highlight.ashx" width="128" height="79" alt="Red Tape Rising: Obama-Era Regulation at the Three-Year Mark"/></a>
+		            <a href="/Research/Reports/2012/03/Red-Tape-Rising-Obama-Era-Regulation-at-the-Three-Year-Mark" >Red Tape Rising: Obama-Era Regulation at the Three-Year Mark</a>	
+		            <p>During the first three years of the Obama Administration, 106 new major federal regulations added more than $46 billion per year in new costs for Americans.</p>
+	            </li>
+            
+                <li>
+                    <a class="hlLnk" href="http://www.heritage.org/index" ><img class="frame"  src="/~/media/Home Spotlights/2012Index_highlight.ashx" width="128" height="79" alt="2012 Index of Economic Freedom"/></a>
+		            <a href="http://www.heritage.org/index" >2012 Index of Economic Freedom</a>	
+		            <p>For over a decade, The Wall Street Journal and The Heritage Foundation have tracked the march of economic freedom around the world with the influential Index of Economic Freedom.</p>
+	            </li>
+            
+                <li class="last">
+                    <a class="hlLnk" href="http://www.heritage.org/Research/Projects/Impact-of-Obamacare" ><img class="frame"  src="/~/media/Images/LFA Highlights/Health Care/Impact132x83.ashx" width="128" height="79" alt="Impact of Obamacare"/></a>
+		            <a href="http://www.heritage.org/Research/Projects/Impact-of-Obamacare" >Impact of Obamacare</a>	
+		            <p>“What does the new health care law mean for me?” Whether you're a mom, an employer, or a doctor, this series provides the answer - with videos, blog posts and more featuring the stories of Americans affected by Obamacare. </p>
+	            </li>
+            									
+	</ul>
+		
+</div>
+        <div id="content_1_hp_btm_bleft_0_container" class="modules " class="modules one-column">
+	
+
+
+<div class="morning-bell-sign-up">
+<a name="form_anchor" style="width: 0px; height: 0px; display: block;">&nbsp;</a>
+<h4>SIGN UP FOR <em class="geogia">the</em> MORNING BELL</h4>
+<p class="signup-text">Our most popular newsletter, the Morning Bell is your source for the conservative perspective on the day's top news. Start your day with a spot on perspective.</p>
+<p><a class="see-more" href="/newsletters.aspx">See more newsletters</a></p>
+
+<div id="mb-error-msg" class="form-error-msg"><h5>Sorry! Your form had errors:</h5><ol></ol></div>
+
+    
+    <form></form>
+    <form id="morning_bell" class="signup-form validated" method="post" action="http://paracom.paramountcommunication.com/phase2/bullseye/contactupdate1.php3">
+        <fieldset class="morning-bell-fs">
+            <legend class="no-show">Please signup to receive our morning bell newsletter.</legend>
+            <fieldset class="labels">
+	            <label for="firstname">First Name</label>										
+	            <label for="lastname">Last Name</label>										
+	            <label for="email">Email</label>
+	            <label for="zipcode">Zip Code</label>
+	        </fieldset>
+
+            <fieldset class="inputs">
+	            <input type="text" value="Your First Name" class="name text required" name="firstname" id="firstname" size="22" />
+	            <input type="text" value="Your Last Name" class="name text required" name="lastname" id="lastname" size="22" />
+	            <input type="text" value="Your Email Address" class="text email required" name="email" id="email" size="120" />
+	            <input type="text" value="Your Zip Code" class="text zipcode required" name="zipcode" id="zipcode" size="22" />
+            </fieldset>
+            
+            <input type=hidden name="cid" value="b878bb3c4eae913925f7e2b8fca014f5">
+            <input type=hidden name='grp[]' value='662710'>
+            <input type="hidden" id="foot_return_url" name="redirect_url" value="" />
+            
+            <input type="submit" class="signup" name="SubmitBullsEye" value="Signup" id="signup" />
+        </fieldset>
+    </form>
+
+<span id="span_return_url" class="no-show">http://www.heritage.org/?mb=true#form_anchor</span>
+</div>
+
+</div> <!-- Morning Bell Sign Up Module -->
+	</div><!-- End Section 3 -->
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- not cacheable, since lower pieces cache -->
+        
+
+<div class="footer-container">
+    <div class="footer-wrap">
+	    <div class="sect1">
+					<div class="two-column-left">
+						<div class="col-1">
+						
+                            <div class='tab-cont    '>
+<h5 class='tabset-heading'>Our Work</h5>
+    <ul class='tabbed-nav'>
+        <li class='act tab1'><a href='#'>Most Popular</a></li>
+        <li class='tab2'><a href='#'>Most Recent</a></li>
+        <li class='tab3'><a href='#'>Upcoming Events</a></li>
+        <li class='tab4'><a href='#'>Blog Posts</a></li>
+</ul>
+    <div class='act tab1-cont border-cont'>
+
+
+
+
+<!-- this code has to be restructured, Need to clean up as the same method is called multiple times !-->
+
+
+    
+    <ul class="search-results content-list">
+    
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl01_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted April 9, 2012<span class="by-author"> by <a href="/about/staff/c/ariel-cohen" title="Ariel Cohen, Ph.D." class="author-link">Ariel Cohen, Ph.D.</a>, <a href="/about/staff/k/david-kreutzer" title="David W. Kreutzer, Ph.D." class="author-link">David W. Kreutzer, Ph.D.</a>, <a href="/about/staff/p/james-phillips" title="James Phillips" class="author-link">James Phillips</a>, <a href="/about/staff/b/michaela-bendikova" title="Michaela Bendikova" class="author-link">Michaela Bendikova</a></span></span>
+    <a href="/research/reports/2012/04/thinking-the-unthinkable-modeling-a-collapse-of-saudi-oil-production">Impact of Saudi Oil Production Collapse: Modeling the Unthinkable</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl02_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted April 12, 2012<span class="by-author"> by <a href="/about/staff/b/lindsey-burke" title="Lindsey Burke" class="author-link">Lindsey Burke</a>, <a href="/about/staff/s/rachel-sheffield" title="Rachel Sheffield" class="author-link">Rachel Sheffield</a></span></span>
+    <a href="/research/reports/2012/04/obamas-2013-education-budget-and-blueprint-a-costly-expansion-of-federal-control">Obama's 2013 Education Budget: Costly Federal Control Expansion </a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl03_li" class=" ">
+            
+
+<div class='media audio audio'>
+    <span class="title">Audio on Friday, April 13, 2012</span>
+    <a href="/multimedia/audio/2012/04/scribecast-4-14-12">The Team Behind “Kony 2012” on Scribecast, the Podcast of the Center for Media and Public Policy  </a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl04_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted March 1, 2006<span class="by-author"> by <a href="/about/staff/k/tim-kane" title="Tim Kane, Ph.D." class="author-link">Tim Kane, Ph.D.</a>, <a href="/about/staff/j/kirk-johnson" title="Kirk Johnson, Ph.D." class="author-link">Kirk Johnson, Ph.D.</a></span></span>
+    <a href="/research/reports/2006/03/the-real-problem-with-immigration-and-the-real-solution">The Real Problem with Immigration... and the Real Solution</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl05_li" class=" ">
+            
+
+<div class='publication webmemo report'>
+    <span class="title">WebMemo posted October 6, 2009<span class="by-author"> by <a href="/about/staff/r/brian-riedl" title="Brian Riedl" class="author-link">Brian Riedl</a></span></span>
+    <a href="/research/reports/2009/10/50-examples-of-government-waste">50 Examples of Government Waste</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl06_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted January 5, 2004<span class="by-author"> by <a href="/about/staff/r/robert-rector" title="Robert Rector" class="author-link">Robert Rector</a>, <a href="/about/staff/j/kirk-johnson" title="Kirk Johnson, Ph.D." class="author-link">Kirk Johnson, Ph.D.</a></span></span>
+    <a href="/research/reports/2004/01/understanding-poverty-in-america">American Poverty Statistics | Welfare and Welfare Spending.</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl07_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted September 13, 2011<span class="by-author"> by <a href="/about/staff/r/robert-rector" title="Robert Rector" class="author-link">Robert Rector</a>, <a href="/about/staff/s/rachel-sheffield" title="Rachel Sheffield" class="author-link">Rachel Sheffield</a></span></span>
+    <a href="/research/reports/2011/09/understanding-poverty-in-the-united-states-surprising-facts-about-americas-poor">Understanding Poverty in the United States: Poverty USA</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl08_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted June 1, 2004<span class="by-author"> by <a href="/about/staff/l/arthur-laffer" title="Arthur Laffer" class="author-link">Arthur Laffer</a></span></span>
+    <a href="/research/reports/2004/06/the-laffer-curve-past-present-and-future">The Laffer Curve: Past, Present, and Future</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl09_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted July 19, 2011<span class="by-author"> by <a href="/about/staff/r/robert-rector" title="Robert Rector" class="author-link">Robert Rector</a>, <a href="/about/staff/s/rachel-sheffield" title="Rachel Sheffield" class="author-link">Rachel Sheffield</a></span></span>
+    <a href="/research/reports/2011/07/what-is-poverty">What is Poverty in the United States: Air Conditioning, Cable TV and an Xbox</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl00_resultsList_itemlist_ctl10_li" class=" ">
+            
+
+<div class='publication backgrounder report'>
+    <span class="title">Backgrounder posted March 15, 2005<span class="by-author"> by <a href="/about/staff/m/daniel-mitchell" title="Daniel Mitchell, Ph.D." class="author-link">Daniel Mitchell, Ph.D.</a></span></span>
+    <a href="/research/reports/2005/03/the-impact-of-government-spending-on-economic-growth">The Impact of Government Spending on Economic Growth</a>
+</div>
+        </li>
+          
+        
+        </ul>
+                
+         
+    </div>
+    <div class='tab2-cont border-cont'>
+
+
+
+
+<!-- this code has to be restructured, Need to clean up as the same method is called multiple times !-->
+
+
+    
+    <ul class="search-results content-list">
+    
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl01_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/new-research-confirms-that-spending-cuts-stimulate-the-economy/">New Research Confirms that Spending Cuts Stimulate the Economy</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl02_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/expanding-to-a-market-driven-energy-policy/">EXPANDing to a Market Driven Energy Policy</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl03_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/in-pictures-what-costs-more-life-or-taxes/">In Pictures: What Costs More? Life or Taxes?</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl04_li" class=" ">
+            
+
+<div class='publication news_releases report'>
+    <span class="title">News Releases on Tuesday, April 17, 2012</span>
+    <a href="/research/reports/2012/04/anderson-is-heritages-new-simon-fellow-in-religion">Anderson Is Heritage’s New Simon Fellow in Religion </a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl05_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/tales-of-the-red-tape-30-ftc-sticks-it-to-appliance-makers/">Tales of the Red Tape #30: FTC Sticks It to Appliance Makers </a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl06_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/why-bush-isnt-responsible-for-todays-debt-crisis/">Why Bush Isn’t Responsible for Today’s Debt Crisis</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl07_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/attorney-general-meese-makes-case-against-overcriminalization-at-seton-hall-law/">Meese Makes Case Against Overcriminalization at Seton Hall Law</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl08_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/henry-ford-no-model-progressive/">Henry Ford: No Model P(rogressive)</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl09_li" class=" ">
+            
+
+<div class='publication testimony'>
+    <span class="title">Testimony posted April 17, 2012<span class="by-author"> by <a href="/about/staff/j/david-john" title="David John" class="author-link">David John</a></span></span>
+    <a href="/research/testimony/2012/04/pursuing-universal-retirement-security-through-automatic-iras-and-account-simplification">Universal Retirement Security: Automatic IRAs and Account Simplification</a>
+</div>
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl01_resultsList_itemlist_ctl10_li" class=" ">
+            
+
+<div class='blogpost blogpost'>
+    <span class="title">Blog Post on Tuesday, April 17, 2012</span>
+    <a href="http://blog.heritage.org/2012/04/17/judicial-mischief-in-wisconsin-surrounds-effort-to-recall-gov-walker/">Judicial Mischief in Wisconsin Surrounds Effort to Recall Gov. Walker</a>
+</div>
+        </li>
+          
+        
+        </ul>
+                
+         
+<div class="view-cont"><a class="viewAllUrl" href="/research/all-research">View All</a></div>
+    </div>
+    <div class='tab3-cont border-cont'>
+
+
+
+
+<!-- this code has to be restructured, Need to clean up as the same method is called multiple times !-->
+
+
+    
+    <ul class="search-results event-list">
+    
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl01_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">Apr</span>
+        <span class="day">18</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Wednesday, April 18, 2012</span>
+	<a href="/events/2012/04/choice-american-spectator" class="event-link" title="Choice: The Conservative Alternative to the Liberal Nanny State">Choice: The Conservative Alternative to the Liberal Nanny State</a>
+	<p>              TIME CHANGE: This event will now be held at 8:30 A.M. &mdash; <span class="more"><a href="/events/2012/04/choice-american-spectator" title="Choice: The Conservative Alternative to the Liberal Nanny State">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/04/choice-american-spectator#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/04/choice-american-spectator#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl02_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">Apr</span>
+        <span class="day">18</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Wednesday, April 18, 2012</span>
+	<a href="/events/2012/04/the-impossible-state" class="event-link" title="The Impossible State: North Korea, Past and Future ">The Impossible State: North Korea, Past and Future </a>
+	<p>      Precious little is known or understood about North Korea, the world's most controversial and isolated country. In The Impossible &mdash; <span class="more"><a href="/events/2012/04/the-impossible-state" title="The Impossible State: North Korea, Past and Future ">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/04/the-impossible-state#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/04/the-impossible-state#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl03_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">Apr</span>
+        <span class="day">19</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Thursday, April 19, 2012</span>
+	<a href="/events/2012/04/occupy" class="event-link" title="The Occupy Movement: A Post-Mortem?">The Occupy Movement: A Post-Mortem?</a>
+	<p>The protest movement that began as “Occupy Wall Street” has galvanized the left, infusing class resentment and anti-market ideology into the rhetoric of American liberalism. &mdash; <span class="more"><a href="/events/2012/04/occupy" title="The Occupy Movement: A Post-Mortem?">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/04/occupy#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/04/occupy#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl04_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">Apr</span>
+        <span class="day">23</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Monday, April 23, 2012</span>
+	<a href="/events/2012/04/arizona-immigration" class="event-link" title="Arizona Immigration: Showdown in the Supreme Court">Arizona Immigration: Showdown in the Supreme Court</a>
+	<p>On Wednesday, April 25, the Supreme Court will hear oral argument in Arizona v. United States, a case involving Arizona’s attempt to help the federal &mdash; <span class="more"><a href="/events/2012/04/arizona-immigration" title="Arizona Immigration: Showdown in the Supreme Court">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/04/arizona-immigration#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/04/arizona-immigration#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl05_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">Apr</span>
+        <span class="day">25</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Wednesday, April 25, 2012</span>
+	<a href="/events/2012/04/permanent-emergency" class="event-link" title="Permanent Emergency: Inside the TSA and the Fight for the Future of American Security">Permanent Emergency: Inside the TSA and the Fight for the Future of American Security</a>
+	<p>      Since 2001 the TSA has accepted responsibility for protecting over two million people a day at U.S. airports and &mdash; <span class="more"><a href="/events/2012/04/permanent-emergency" title="Permanent Emergency: Inside the TSA and the Fight for the Future of American Security">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/04/permanent-emergency#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/04/permanent-emergency#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl06_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">Apr</span>
+        <span class="day">26</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Thursday, April 26, 2012</span>
+	<a href="/events/2012/04/cfats" class="event-link" title="Lessons from Homeland Security Regulatory Regimes: CFATS and Cybersecurity">Lessons from Homeland Security Regulatory Regimes: CFATS and Cybersecurity</a>
+	<p>The specter of cyber espionage and cyber warfare continues to grow everyday as sensitive information is stolen and critical systems are attacked, both in government &mdash; <span class="more"><a href="/events/2012/04/cfats" title="Lessons from Homeland Security Regulatory Regimes: CFATS and Cybersecurity">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/04/cfats#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/04/cfats#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl07_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">Apr</span>
+        <span class="day">26</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Thursday, April 26, 2012</span>
+	<a href="/events/2012/04/dennis-prager" class="event-link" title="Still the Best Hope: Why the World Needs American Values to Triumph">Still the Best Hope: Why the World Needs American Values to Triumph</a>
+	<p>      Conservative radio host and syndicated columnist Dennis Prager contends that humanity is at a crossroads. We must decide between &mdash; <span class="more"><a href="/events/2012/04/dennis-prager" title="Still the Best Hope: Why the World Needs American Values to Triumph">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/04/dennis-prager#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/04/dennis-prager#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl08_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">May</span>
+        <span class="day">03</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Thursday, May 03, 2012</span>
+	<a href="/events/2012/05/veterans" class="event-link" title="A Nation and Its Veterans - What's Next?</br>A Plan for Action">A Nation and Its Veterans - What's Next?</br>A Plan for Action</a>
+	<p>As Memorial Day approaches, it is time to remember that this is not just another holiday. The average member in the military today has experienced &mdash; <span class="more"><a href="/events/2012/05/veterans" title="A Nation and Its Veterans - What's Next?</br>A Plan for Action">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/05/veterans#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/05/veterans#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl09_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">May</span>
+        <span class="day">09</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Wednesday, May 09, 2012</span>
+	<a href="/events/2012/05/why-capitalism" class="event-link" title="Why Capitalism?">Why Capitalism?</a>
+	<p>      A review of the headlines of the past decade seems to show that disasters are often part of capitalist &mdash; <span class="more"><a href="/events/2012/05/why-capitalism" title="Why Capitalism?">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/05/why-capitalism#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/05/why-capitalism#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl02_resultsList_itemlist_ctl10_li" class=" event">
+            
+<div class="searchResult event ">
+	<div class="date-box-small">        
+        <span class="month">May</span>
+        <span class="day">16</span>       
+    </div>
+    <div class="event-details"><span class="title">Event on Wednesday, May 16, 2012</span>
+	<a href="/events/2012/05/tyranny-of-cliches" class="event-link" title="The Tyranny of Clichés: How Liberals Cheat in the War of Ideas">The Tyranny of Clichés: How Liberals Cheat in the War of Ideas</a>
+	<p>      According to Jonah Goldberg, if the greatest trick the Devil ever pulled was convincing the world he didn’t exist, &mdash; <span class="more"><a href="/events/2012/05/tyranny-of-cliches" title="The Tyranny of Clichés: How Liberals Cheat in the War of Ideas">Read more</a></p>
+   
+    <div class="event-links">
+     
+        <a class="attend" href="/events/2012/05/tyranny-of-cliches#attend">Attend in Person</a> 
+        <a class="watch" href="/events/2012/05/tyranny-of-cliches#watch-online">Watch Online</a>
+    
+    </div></div>
+    
+</div><br clear="all" />
+
+        </li>
+          
+        
+        </ul>
+                
+         
+<div class="view-cont"><a class="viewAllUrl" href="/events/upcomingevents">View All</a></div>
+    </div>
+    <div class='tab4-cont border-cont'>
+
+
+
+
+<!-- this code has to be restructured, Need to clean up as the same method is called multiple times !-->
+
+
+    
+    <ul class="search-results content-list">
+    
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl01_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 2:30:00 PM</span>
+    <a href="http://blog.heritage.org/2012/04/17/new-research-confirms-that-spending-cuts-stimulate-the-economy/" title="New Research Confirms that Spending Cuts Stimulate the Economy">New Research Confirms that Spending Cuts Stimulate the Economy</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl02_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 1:30:54 PM</span>
+    <a href="http://blog.heritage.org/2012/04/17/expanding-to-a-market-driven-energy-policy/" title="EXPANDing to a Market Driven Energy Policy">EXPANDing to a Market Driven Energy Policy</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl03_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 12:43:19 PM</span>
+    <a href="http://blog.heritage.org/2012/04/17/in-pictures-what-costs-more-life-or-taxes/" title="In Pictures: What Costs More? Life or Taxes?">In Pictures: What Costs More? Life or Taxes?</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl04_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 12:00:45 PM</span>
+    <a href="http://blog.heritage.org/2012/04/17/tales-of-the-red-tape-30-ftc-sticks-it-to-appliance-makers/" title="Tales of the Red Tape #30: FTC Sticks It to Appliance Makers ">Tales of the Red Tape #30: FTC Sticks It to Appliance Makers </a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl05_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 10:56:37 AM</span>
+    <a href="http://blog.heritage.org/2012/04/17/why-bush-isnt-responsible-for-todays-debt-crisis/" title="Why Bush Isn’t Responsible for Today’s Debt Crisis">Why Bush Isn’t Responsible for Today’s Debt Crisis</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl06_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 10:15:51 AM</span>
+    <a href="http://blog.heritage.org/2012/04/17/attorney-general-meese-makes-case-against-overcriminalization-at-seton-hall-law/" title="Meese Makes Case Against Overcriminalization at Seton Hall Law">Meese Makes Case Against Overcriminalization at Seton Hall Law</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl07_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 9:15:12 AM</span>
+    <a href="http://blog.heritage.org/2012/04/17/henry-ford-no-model-progressive/" title="Henry Ford: No Model P(rogressive)">Henry Ford: No Model P(rogressive)</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl08_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 8:14:55 AM</span>
+    <a href="http://blog.heritage.org/2012/04/17/judicial-mischief-in-wisconsin-surrounds-effort-to-recall-gov-walker/" title="Judicial Mischief in Wisconsin Surrounds Effort to Recall Gov. Walker">Judicial Mischief in Wisconsin Surrounds Effort to Recall Gov. Walker</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl09_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 6:40:22 AM</span>
+    <a href="http://blog.heritage.org/2012/04/17/heritagefrc-bus-tour-impacts-ohio-and-pennsylvania-heads-next-to-california/" title="Heritage/FRC Bus Tour Impacts Ohio and Pennsylvania, Heads Next to California">Heritage/FRC Bus Tour Impacts Ohio and Pennsylvania, Heads Next to California</a>
+</div>
+
+        </li>
+          
+     
+        <li id="ctl20_ctl03_tabs_ctl03_resultsList_itemlist_ctl10_li" class=" blogpost">
+            
+<div class="blogpost">
+    <span>Blog Post on 4/17/2012 5:02:50 AM</span>
+    <a href="http://blog.heritage.org/2012/04/17/morning-bell-what-tax-day-could-feel-like-in-2013/" title="Morning Bell: What Tax Day Could Feel Like in 2013">Morning Bell: What Tax Day Could Feel Like in 2013</a>
+</div>
+
+        </li>
+          
+        
+        </ul>
+                
+         
+<div class="view-cont"><a class="viewAllUrl" href="/blog">View All</a></div>
+    </div>
+</div>
+
+						    
+						
+							<div class="two-column-even about">
+								<h5>ABOUT <em class="georgia">The</em> HERITAGE FOUNDATION </h5>
+								<div class="col-1">
+                                    
+		<p>The Heritage Foundation is the nation’s most broadly supported public policy research institute, with nearly 700,000 individual, foundation and corporate donors. Heritage, founded in February 1973, has a staff of 255 and an annual expense budget of $75.3 million.</p>
+    <p>Our mission is to formulate and promote conservative public policies based on the principles of free enterprise, limited government, individual freedom, traditional American values, and a strong national defense. <a title="About The Heritage Foundation" href="/about/">Read More</a></p>
+								</div>						
+								<div class="col-2">
+									<div class="two-column-even iniatives">
+										<h6>Our Initiatives </h6>									
+										<div class="col-1">
+                                            <ul class="generic-list no-bullet">
+                                                    <li><a href='/initiatives/first-principles'>First Principles</a></li>
+                                                
+                                                    <li><a href='/initiatives/american-leadership'>American Leadership</a></li>
+                                                
+                                                    <li><a href='/initiatives/education'>Education</a></li>
+                                                
+                                                    <li><a href='/initiatives/energy-and-environment'>Energy & Environment</a></li>
+                                                
+                                                    <li><a href='/initiatives/enterprise-and-free-markets'>Enterprise & Free Markets</a></li>
+                                                </ul>
+										</div>
+										<div class="col-2">
+                                            <ul class="generic-list no-bullet">
+                                                    <li><a href='/initiatives/entitlements'>Entitlements</a></li>
+                                                
+                                                    <li><a href='/initiatives/family-and-religion'>Family & Religion</a></li>
+                                                
+                                                    <li><a href='/initiatives/health-care'>Health Care</a></li>
+                                                
+                                                    <li><a href='/initiatives/protect-america'>Protect America</a></li>
+                                                
+                                                    <li><a href='/initiatives/rule-of-law'>Rule of Law</a></li>
+                                                </ul>
+										</div>
+									</div>
+								</div>
+							</div>							
+						</div>
+						<div class="col-2">
+							<div class="two-column-even border-cont">
+								<div class="more-links">
+								<h5>especially for</h5>								
+								<div class="double-col">
+									<ul class="generic-list">
+										
+                                                <li><a href="/members" >Heritage Members</a></li>
+                                            
+                                                <li><a href="/about/jobs" >Employment at Heritage</a></li>
+                                            
+                                                <li><a href="/conservative-movement" >Conservative Community</a></li>
+                                            
+                                                <li><a href="/press-media" >Press & Media</a></li>
+                                            
+                                                <li><a href="/for-government-staff" >Government Staff</a></li>
+                                            
+                                                <li><a href="/about/young-leaders" >Young Leaders</a></li>
+                                            
+									</ul>
+								</div>
+								</div>
+							</div>
+							<div class="one-column border-cont">
+								<div class="follow-links">
+									<h5>follow <em class="georgia">The</em> heritage foundation</h5>								
+									<div class="col-1">
+                                        <ul>
+	    <li>
+	        <a class='newsletters dropdown_bold' href='http://www.paramountcommunication.com/heritage/index.aspx'>Newsletters</a>
+        </li>
+    
+	    <li>
+	        <a class='take-action dropdown_bold' href='http://heritageforamerica.org/'>Take Action</a>
+        </li>
+    
+	    <li>
+	        <a class='blog dropdown_bold' href='http://www.foundry.org/'>The Foundry Blog</a>
+        </li>
+    
+	    <li>
+	        <a class='rss' href='/Home/RSS'>RSS</a>
+        </li>
+    
+	    <li>
+	        <a class='events' href='/Events.aspx'>Events</a>
+        </li>
+    </ul>
+									</div>
+								</div>
+							</div>
+							<div class="one-column">
+								<div class="receive-updates">
+									<a name="foot_anchor" style="width: 0px; height: 0px; display: block; text-decoration:none;">&nbsp;</a>
+									<h6>receive updates &amp; newsletters</h6>								
+									<div class="col-1">
+									<p>Receive updates from Heritage about current events and initiatives in your email inbox</p>
+							        
+										
+                                            
+                                            <form>
+                                            </form>
+                                            <form id="footer_signup" class="signup-form validated" method="post" action="http://paracom.paramountcommunication.com/phase2/bullseye/contactupdate1.php3">
+                                                <div>
+											        <fieldset>
+											            <label for="firstname" class="no-show">First Name</label>
+											            <input type="text" class="text name required" name="firstname" value="Your First Name" size="22" />
+											        </fieldset>
+											        
+											        <fieldset class="lastnamae-fs">
+											            <label for="lastname" class="no-show">Last Name</label>
+											            <input type="text" class="text name required" name="lastname" value="Your Last Name" size="22" />	
+											        </fieldset>
+											        
+											        <fieldset class="email-fs">
+											            <label for="email" class="no-show">Email Address</label>
+											            <input type="text" class="text email required" name="email" value="Your Email Address" size="120" />
+                                                    </fieldset>
+                                                    
+                                                    <input type=hidden name="cid" value="b878bb3c4eae913925f7e2b8fca014f5">
+                                                    <input type=hidden name='grp[]' value='662710'>
+                                                    <input type="hidden" id="foot_return_url" name="redirect_url" value="" />
+											        
+											        <a href="#" class="button-thin" onclick="$('#footer_signup').submit(); return false;"><span>Sign Up</span></a>
+											        <div class="manageSubs">
+												        <p>Already Signed up?</p>
+												        <a href="/newsletters">Manage Your Subscriptions</a>
+											        </div>																					
+										        </div>
+			    					        </form>
+                                        
+                                        <span id="span_return_url" class="no-show">http://www.heritage.org/?fb=true#foot_anchor</span>
+									</div>
+								</div>
+							</div>																							
+						</div>						
+					</div>
+        </div>
+	    <div class="sect2">
+		    <div class="foot_bg">
+		        <p class="footer_text">&copy; 2012, The Heritage Foundation <br /><span>Conservative policy research since 1973</span></p>
+                
+
+<ul class="footer_nav_top">
+    
+            <li id="ctl20_ctl05_site_tools_ctl00_tool_link"><a href='/donate'>Donate</a></li>
+        
+            <li id="ctl20_ctl05_site_tools_ctl01_tool_link"><a href='/press-media'>Press & Media</a></li>
+        
+            <li id="ctl20_ctl05_site_tools_ctl02_tool_link"><a href='/help'>Help</a></li>
+        
+            <li id="ctl20_ctl05_site_tools_ctl03_tool_link"><a href='/contact-heritage'>Contact Us</a></li>
+        
+            <li id="ctl20_ctl05_site_tools_ctl04_tool_link"><a href='/directions'>Directions to Heritage</a></li>
+        
+            <li id="ctl20_ctl05_site_tools_ctl05_tool_link"><a href='/search'>Search</a></li>
+        
+            <li id="ctl20_ctl05_site_tools_ctl06_tool_link"><a href='/bookstore'>Bookstore</a></li>
+        
+            <li id="ctl20_ctl05_site_tools_ctl07_tool_link" class="last"><a href='/about/careers'>Careers</a></li>
+        
+</ul>
+
+                
+
+<ul class="footer_nav_bot">
+	<li><a href="/Privacy.aspx">Privacy Policy</a></li>
+	<li><a href="/Copyright.aspx">Copyright</a></li>
+	
+</ul>
+		    </div>
+	    </div>
+    </div>
+   
+    <!--This was old tracking code and hence it is commented. --!>
+   
+  
+</div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+    </div>
+    <div id="backgroundPopup">
+    </div>
+    <!-- Google Code for The Heritage Foundation (Heritage.org) Remarketing List -->
+    <script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1029884142;
+		var google_conversion_language = "en";
+		var google_conversion_format = "3";
+		var google_conversion_color = "666666";
+		var google_conversion_label = "r9ulCITkywIQ7pGL6wM";
+		var google_conversion_value = 0;
+		/* ]]> */
+		</script>
+    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+		</script>
+    <noscript>
+        <div style="display: inline;">
+            <img height="1" width="1" style="border-style: none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1029884142/?label=r9ulCITkywIQ7pGL6wM&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+    <script type="text/javascript">
+        var _sf_async_config = { uid: 2019, domain: "heritage.org" };
+        (function () {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src',
+                      (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+                      "js/chartbeat.js");
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+            loadChartbeat : function () { oldonload(); loadChartbeat(); };
+        })();
+        </script>
+    
+    <!-- Code required for automatic outbound, mailto and file tracking with GA -->
+<script type='text/javascript' src='https://secure.heritage.org/ga_trackLinks.js' ></script> 
+</body>
+</html>

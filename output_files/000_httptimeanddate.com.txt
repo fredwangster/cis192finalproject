@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>timeanddate.com</title>
+
+<meta name="description" content="Current Time Worldwide (World Clock) and Calendars for countries worldwide both online and for printing. Find the best time for web meetings (meeting planner) or use the Time and Date Converters. Online services and Apps available for iPhone, iPad, and Android. ">
+<meta name="keywords" content="world clock, current time, perpetual calendar, time, date, daylight saving time, clock, time zone, calendar, calculator, counters, year, month">
+<meta property="og:image" content="http://c.tadst.com/gfx/n/og-img.png">
+
+<link rel="stylesheet" href="http://c.tadst.com/common/wstyle.css?17" type="text/css">
+<style>
+/* Front - page only*/
+ /* 3rd row */
+.row.nkd{ background: url('//c.tadst.com/gfx/n/hr-bg.png') center top no-repeat; padding-top:20px;}
+h2.icon-lft{ margin-left:80px; margin-bottom:5px;}
+.nkd .icon-lft li{margin:0px 0px 2px 10px;}
+
+#wrld-clk-lk{font-size:15px;}
+
+#front-tz-map{margin-right:-15px; margin-top:-9px;}
+
+/* calendar */
+#cal_display {background:url('//c.tadst.com/gfx/n/bg-cal.png') left top no-repeat; width:99px; height:97px; position:absolute; top:47px;right:5px;color:#fff; text-decoration: none; float:right; text-transform: uppercase; cursor:pointer;}
+#cal_m{font-size:14px; position: absolute; left:9px; top:18px; text-shadow:1px 1px 1px #333;}
+#cal_y{font-size:14px; position: absolute; right:21px; top:18px; text-shadow:1px 1px 1px #333;}
+#cal_d{font-size:36px; width: 77px; position: absolute; right:18px; top:32px; color:#1e2022; font-weight:bold;line-height:36px; text-align:center; text-shadow:1px 1px 1px #fff;}
+#cal_w{font-size:18px; position: absolute; right:18px; top:65px; color:#1e2022; width:77px; text-align:center; text-shadow:1px 1px 1px #fff;}
+#month, #boxyear {margin-left:5px;}
+#cf .submit{margin-left:3px;}
+.c-cl .submit-btn{margin-left:50px;}
+.c-cl #country{width:155px;}
+.c-cl #month{width:101px;}
+.four .c-cl .box-bottom{	margin:0px -24px; padding:13px 15px; width:265px;}
+
+#cf label{ margin:0px; font-size:11px; padding-right:5px;}
+#cf select{ margin:0px; font-size:11px;}
+
+.calc-lists{margin-left:50px;}
+
+/* weather */
+#cur-weather {width:85px;position:absolute; top:0px; left:0px; text-align:center;}
+.w-icon-lft{margin-left:90px;}
+#cur-weather a img {opacity:0.7;filter:alpha(opacity=70); }
+#cur-weather a:hover img{opacity:1;filter:alpha(opacity=100); }
+.cur-temp{font-size:20px; color:#777; font-weight:bold; display:block;}
+a:hover .cur-temp{color:#444; }
+.row3-icon{margin-top:-20px;}
+#quick-search-weather {margin-top:20px;}
+</style><style>
+#clk_box{background:url('http://c.tadst.com/gfx/n/bg-clock.png') left top no-repeat;width:107px;height:66px;display:block;position:relative;color:#fff;text-decoration:none;float:right;}#clk_hm{width:67px;font-size:26px;position:absolute;left:9px;top:17px;font-weight:normal;line-height:26px;text-shadow:1px 1px 1px #000;text-align:center;}#clk_s{font-size:15px;position:absolute;right:11px;top:24px;text-shadow:1px 1px 1px #000;}#clk_am{color:#a2e1f9;position:absolute;top:12px;right:9px;}#clk_line{width:70px;border-bottom:1px solid #000;z-index:99;position:absolute;top:30px;left:8px;}#wc-icon{margin-right:15px;width:50px;margin-top:10px;}#chi{background:url('http://c.tadst.com/gfx/n/icon/icon-more.png') right center no-repeat;padding-right:8px;}
+
+
+</style>
+
+</head>
+<body>
+
+<div id=header><div class=row><div class="twelve columns">
+<div id=logo><a href="/" rel=home><img src="http://c.tadst.com/gfx/n/tad-logo-com.png" alt="timeanddate.com" title="Home page timeanddate.com"></a></div>
+<div id=hr>
+<a id=popreg href="/custom/create.html">Register</a> | <a id=poplogin href="/custom/login.html">Log in</a> | <a id=popcus href="/custom/"> Customize</a> <form method=get action="/search/results.html" id=site-search><input name=query placeholder="Search website..." class="text inline" type=search><input type=submit value=Go class="submit button vsmall black inline nice"></form>
+</div></div></div></div>
+<div id=nav><div class=row><div class="twelve columns"><ul id=ht><li class="c-hm active"><a href="/">Home</a><span></span></li><li class="c-wc"><a href="/worldclock/">World Clock</a><span></span></li><li class="c-tz"><a href="/time/">Time Zones</a><span></span></li><li class="c-cl"><a href="/calendar/">Calendar</a><span></span></li><li class="c-wt"><a href="/weather/">Weather</a><span></span></li><li class="c-sm"><a href="/astronomy/">Sun &amp; Moon</a><span></span></li><li class="c-tm"><a href="/counters/">Timers</a><span></span></li><li class="c-cc"><a href="/date/">Calculators</a><span></span></li><li class="c-ap"><a href="/extra/">Apps &amp; API</a><span></span></li><li class="c-ff"><a href="/fun/">Free Fun</a><span></span></li></ul></div></div></div>
+<ul id=ho class=ho style="display:none"><li></li></ul><div id=HOG></div><div id=HOT></div><div id=HOF></div>
+
+<div id=po1 class=po></div><div id=mpo></div><div id=main-content><div id=HS><div class=row><div class="twelve columns"><div class=hi><a href="/newsletter/">Newsletter</a><a href="/information/">About Us</a><a href="/sitemap.html">Site Map</a></div></div></div></div><div class=main-content-div>
+<div class=row>
+<div id=bc class="twelve columns">
+<div id=bct>Home</div><div id=TMI><a id=TMG title="+1 this on Google" href="javascript:return false"> </a><a id=TMT title="Tweet or follow us on Twitter" href="/bm/9"> </a><a id=TMF title="Like us on Facebook" href="/bm/8"> </a></div></div></div>
+
+
+
+
+
+
+<div id="main-content">
+<!-- 1st row -->					
+
+	<div class="row row-1">
+		<div class="four columns">
+			<div class="c-wc rd-box"><div class="rd-inner">
+			<h2><a href="/worldclock" title="The World Clock / Time Zones"><span class="title-square"> </span>Current Time</a></h2>
+			
+
+<a href="/worldclock/city.html?n=198" id=clk_box title="Current time in Philadelphia"><span id="clk_hm">10:12</span><span id=clk_s>:<span id="ij0">37</span></span><span id="clk_am">PM</span><span id=clk_line> </span></a>
+			<p><span id="ij1">Tuesday</span><br><span id="ij2">Apr 17, 2012</span><br>Philadelphia, U.S.A. - Pennsylvania</p><p><a id=chi href="/custom/site.html">Set home location</a></p> 
+
+				<div class="box-bottom">
+<a href="/worldclock/" title="World Clock"><img src="http://c.tadst.com/gfx/n/icon/icon-search-clock.png" alt="Search Time Icon" class="icon left" id="wc-icon" /></a>
+					<form action="/worldclock/results.html" method="get" class="fn search" name="f1" >
+						<label title="Search World Clock by cities"><a title="Search World Clock by cities" href="/worldclock/" class="read-more" id="wrld-clk-lk">World Clock</a></label>
+						<input placeholder="World Time search..." onfocus="ifc(this,'ci',1,0)" size="16" autocomplete="off" name="query" id="wcquery" type="search"><input type="submit" value="Go" class="submit">
+					</form>
+				</div>
+			</div></div>
+		</div>
+		<div class="four columns">
+			<div class="c-tz rd-box"><div class="rd-inner">
+			<h2><a href="/time" title="Time Zone and other travel tools"><span class="title-square"> </span>Time Zones</a></h2>
+			<a href="/time/map/"><img src="http://c.tadst.com/gfx/n/icon/icon-timezone_map.png" alt="Time Zone World Map" class="right" id="front-tz-map" title="Time Zone Map"></a>
+							<ul>
+				<li><a href="/time/map/" title="World Time Zone Map">Time Zone Map</a></li>
+				<li><a href="/worldclock/fixedform.html" title="The Event Time Announcer converts the time of your planned event to local times all over the world for easy sharing and broadcasting.">Time Announcer</a></li>
+				<li><a href="/worldclock/converter.html" title="Find the time difference between two cities with the Time Difference Calculator.">Time Zone Converter</a></li>
+				<li><a href="/worldclock/meeting.html" title="For making a call, arranging a web or video conference across time zones.">Meeting Planner:<br /> Find the Best Time across time zones</a></li>
+				<li><a href="/library/abbreviations/timezones/" title="Index of time zones, including their acronyms and abbreviations">Time Zone Abbreviations</a></li>
+			</ul>
+				<div class="box-bottom">
+					<p style="text-align:center"><a href="/worldclock/dialing.html" title="Get complete International Calling Codes for your international call, including country and area codes.">Calling Codes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/worldclock/distance.html" title="Calculate the air distance between two locations.">Distance Calculator</a></p>
+				</div>
+			</div></div>
+		</div>
+		<div class="four columns">
+			<div class="c-cl rd-box"><div class="rd-inner">
+				<h2><a href="/calendar/" title="Calendar with holidays"><span class="title-square"> </span>Calendar</a></h2>
+				<a href="/calendar/" id=cal_display title="Customizable and printable calendar for any year, month or period of months"><span id="cal_m">Apr</span><span id="cal_y">2012</span><span id="cal_d">17</span><span id="cal_w">Tue</span></a><form name=cf id=cf class=cal-input method=get action="/scripts/createcal2.php"><div class=crow><label class=inline><input type=radio name=typ value=0 checked>Full year</label><input type=text onfocus="ifc(this,'y')" pattern="[0-9]*" maxlength=4 size=9 id=boxyear name=year title="Enter year as a 4-digit number." value=2012></div><div class=crow><label class=inline><input type=radio name=typ value=1>Month</label><select id=month name=month class=inline onchange='document.cf.typ[1].checked=true'><option value=1>January</option><option value=2>February</option><option value=3>March</option><option value=4 selected>April</option><option value=5>May</option><option value=6>June</option><option value=7>July</option><option value=8>August</option><option value=9>September</option><option value=10>October</option><option value=11>November</option><option value=12>December</option></select></div><div class=crow>&nbsp;<select id=country name=country title="Select country" class=inline><option value=37>Argentina</option><option value=29>Australia</option><option value=36>Austria</option><option value=31>Belgium</option><option value=53>Bolivia</option><option value=33>Brazil</option><option value=73>Bulgaria</option><option value=27>Canada</option><option value=43>Chile</option><option value=41>China</option><option value=46>Colombia</option><option value=58>Costa Rica</option><option value=28>Croatia</option><option value=51>Cuba</option><option value=3>Czech Republic</option><option value=2>Denmark</option><option value=52>Dominican Republic</option><option value=49>Ecuador</option><option value=55>El Salvador</option><option value=61>Equatorial Guinea</option><option value=72>Estonia</option><option value=24>Finland</option><option value=5>France</option><option value=8>Germany</option><option value=11>Greece</option><option value=22>Gregorian calendar</option><option value=50>Guatemala</option><option value=54>Honduras</option><option value=42>Hong Kong</option><option value=12>Hungary</option><option value=35>India</option><option value=65>Indonesia</option><option value=75>Iran</option><option value=32>Ireland</option><option value=34>Israel</option><option value=13>Italy</option><option value=26>Japan</option><option value=44>Jordan</option><option value=23>Julian calendar</option><option value=17>Luxembourg</option><option value=69>Malaysia</option><option value=40>Mexico</option><option value=30>New Zealand</option><option value=57>Nicaragua</option><option value=18>Norway</option><option value=64>Pakistan</option><option value=60>Panama</option><option value=56>Paraguay</option><option value=47>Peru</option><option value=67>Philippines</option><option value=14>Poland</option><option value=15>Portugal</option><option value=19>Romania</option><option value=20>Russia</option><option value=74>Saudi Arabia</option><option value=38>Serbia</option><option value=63>Singapore</option><option value=39>Slovakia</option><option value=45>Slovenia</option><option value=62>South Africa</option><option value=70>South Korea</option><option value=16>Spain</option><option value=21>Sweden</option><option value=10>Switzerland</option><option value=71>Taiwan</option><option value=68>Thailand</option><option value=25>The Netherlands</option><option value=4>Turkey</option><option value=66>United Arab Emirates</option><option value=9>United Kingdom</option><option value=1 selected>United States</option><option value=59>Uruguay</option><option value=48>Venezuela</option></select></div><div class=crow><input type=submit class=black value="View calendar"></div></form> 
+
+				<div class="box-bottom">
+				<p style="text-align:center"><a href="/holidays/" title="Holidays, observances and events for a location">Holidays &amp; Events</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/calendar/custommenu.html" title="Create your own calendar with holidays and events.">Create your own Calendar</a></p>
+			</div>
+ 	</div></div>
+ 	</div>
+	</div>
+	
+	
+<!-- 2nd row -->	 	
+
+	<div class="row row-2"> 
+		<div class="four columns">
+			<div class="c-cc rd-box"><div class="rd-inner">
+			<h2><a href="/date/" title="Calcultate dates, distances, sun and moon times, and much more"><span class="title-square"> </span>Calculators &amp; Timers</a></h2>
+
+
+<a href="/date/" title="Time and distance converters and calculators "><img src="http://c.tadst.com/gfx/n/icon/icon-calc.png" alt="Time calculator" class="icon left pad" /></a>
+
+
+<ul class="calc-lists" >
+
+<li><a href="/date/duration.html" title="Calculate duration between two dates">Date-to-Date Calculator</a></li>
+<li><a href="/date/dateadd.html" title="Add to or subtract from a date">What Date is it in X Days?</a></li>
+
+</ul>
+
+<a href="/stopwatch/" title="Stopwatch"><img src="http://c.tadst.com/gfx/n/icon/icon-alarm.png" alt="Time Stopwatch, Alarm" class="icon left pad" style="margin-left:2px;"/></a>
+
+
+<ul class="calc-lists">
+<li><a href="/stopwatch/" title="Stopwatch with lap times and alarms">Stopwatch</a></li>
+<li><a href="/timer/" title="Online timer with alarm">Timer / Alarm</a></li>
+</ul>
+
+<a href="/date/duration.html" title="Date-to-Date Calculator">
+<img src="http://c.tadst.com/gfx/n/icon/icon-countdown-2.png" alt="Timer Countdown" class="icon left pad" style="margin-left:5px;" />
+</a>
+
+
+<ul class="calc-lists">
+
+
+<li><a href="/counters/customcount.html" title="Countdown to any date you choose">Countdown to Any Date</a></li>				
+<li><a href="/counters/newyeara.html" title="Countdown to the New Year for any location">Countdown to New Year 2013</a></li>
+
+</ul>
+</div></div>
+</div>
+
+<!-- Tabs --> 
+
+		<div class=" eight columns">
+		
+
+
+
+			<!-- Tab nav --> 
+
+			<div class="tabs"> 
+				<dl class="tabs-nav">
+					<dd><a id=ftbx0 href="#" 
+>What's New</a></dd>
+					<dd><a id=ftbx1 href="#"  class=active
+>Holidays &amp; Events</a></dd>
+					<dd><a id=ftbx2 href="#" 
+>Time Zone News</a></dd>
+					<dd><a id=ftbx3 href="#" 
+>Newsletter</a></dd>
+				</dl>
+				<!-- Tab content --> 
+
+				<ul class="tabs-content">
+					<li id=feat0 class="tab rd-btm"  style="display:none"
+>
+
+
+<div class="rd-inner article-teaser"><div class="article-img right"><a href="/time/map/"><img alt="Illustration image" src="http://c.tadst.com/gfx/190x126/timezone-map5.png?1" width=190 height=126></a></div><h4><a href="/time/map/">Put a Pin in it!</a></h4><p class=date></p><p>Place a pin <img src="/gfx/n/icon/icon-map-pin.png" width=18 height=34 alt=""> on our <a href="/time/map/">Interactive Time Zone Map</a> to highlight the cities of your choice. Use the search field to add as many pins as you like – to remove the pins, simply refresh the page.  <a href="/time/map/" class="read-more nw">Full Story</a></p></div> 
+
+					</li>
+					<li id=feat1 class="tab rd-btm" 
+>
+<div class="rd-inner article-teaser"><div class="article-img right"><div class=img-tag><a href="/holidays/us/tax-day"><span class=img-day>17</span><span class=img-month>APR</span></a></div><a href="/holidays/us/tax-day"><img alt="Illustration image" src="http://c.tadst.com/gfx/190x126/tax-day.jpg?2" width=190 height=126></a></div><h4><a href="/holidays/us/tax-day">Tax Day in United States</a></h4><p class=date>Tuesday, April 17, 2012</p><p>Many United States residents mark Tax Day as the deadline to file their income tax details to the Internal Revenue Service (IRS). The date is usually on or around April 15. However, this deadline may be extended to accommodate holidays or extreme weather conditions.
+ <a href="/holidays/us/tax-day" class="read-more nw">Full Story</a></p><p><a href="/holidays/" class=subpage-link>Go to <strong>Holidays Worldwide</strong></a></p></div> 
+
+					</li>
+					<li id=feat2 class="tab rd-btm"  style="display:none"
+>
+<div class="rd-inner article-teaser"><div class="article-img right"><div class=img-tag><a href="/news/time/gaza-west-bank-dst-2012.html"><span class=img-day>30</span><span class=img-month>MAR</span></a></div><a href="/news/time/gaza-west-bank-dst-2012.html"><img alt="Illustration image" src="http://c.tadst.com/gfx/190x126/palestine-dst-2012.jpg?1" width=190 height=126></a></div><h4><a href="/news/time/gaza-west-bank-dst-2012.html">Gaza and West Bank start DST on March 30, 2012</a></h4><p class=date>Friday, March 30, 2012</p><p>The Gaza Strip and the West Bank will both start daylight saving time at midnight between March 29 and 30 in 2012. <a href="/news/time/gaza-west-bank-dst-2012.html" class="read-more nw">Full Story</a></p><p><a href="/news/time/" class=subpage-link>Go to <strong>Time Zone News</strong></a></p></div> 
+
+					</li>
+					<li id=feat3 class="tab rd-btm"  style="display:none"
+>
+						<div class="rd-inner newsletter-teaser">
+							<a href="/newsletter/april2012.html"><img src="http://c.tadst.com/gfx/n/icon/icon-newsletter8.png" width=192 height=128 alt="Newsletter" class="left"/></a>
+							<h4><a href="/newsletter/april2012.html">Travel Tools in the April 2012 Newsletter </a></h4>
+						<p>Prepare for long flights across time zones with our Travel Time Calculator, which also accounts for DST changes worldwide. <br><br>
+ Who's afraid of Friday the 13th? Friggatriskaidekaphobia – or the fear of Friday 13th – is no April fool's joke!</p>
+							<p style="text-align:center; font-size:12px;"><a href="/newsletter/april2012.html">Current Newsletter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/newsletter/archive.html">Previous Editions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/newsletter/subscribe.html">Subscribe</a></p>
+						</div>
+				
+			</div>
+
+
+
+		</div>
+		
+	</div>
+<!-- 3rd row -->
+
+	<div class="row row-3 nkd">
+<div class="four columns c-ap">
+				<h2 class="icon-lft"><a href="/extra/" title="Time and Date Apps, plug-ins and add-ons"><span class="title-square"> </span>Apps</a></h2>
+	 <a href="/extra/" title="Time and Date Apps"><img src="http://c.tadst.com/gfx/n/icon/icon-app.png" alt="Time and Date Apps, plug-ins and add-ons" class="icon left row3-icon" /></a>
+	 <ul class="icon-lft " style="margin-left:85px;">
+	 <li><a href="/iphone/" title="Time and Date iPhone Apps">iPhone Apps</a></li>
+	 <li><a href="/ipad/" title="Time and Date iPad Apps">iPad Apps</a></li>
+	<li><a href="/android/" title="Time and Date Android Apps">Android Apps</a></li>
+		 </ul>
+	</div>
+			<div class="four columns c-wt">
+				<h2 class="icon-lft" style="margin-left:90px;"><a href="/weather/" title="Current global weather"><span class="title-square"> </span>Weather</a></h2>
+				<div id="cur-weather">
+					<a href="/weather/usa/philadelphia" title="Weather in Philadelphia: Passing clouds. Mild."><img src="http://c.tadst.com/gfx/n/w/f/14.png" width=85 height=70 alt="Passing clouds. Mild."><span class="cur-temp nw" title="Passing clouds. Mild.. (Temperature in Philadelphia)">70&nbsp;&deg;F</span></a>
+				</div>
+				<ul class="icon-lft" style="margin-left:95px;">
+					<li><a href="/scripts/goweather.php" title="Current local weather">Current Weather</a></li>
+					<li><a href="/scripts/goweather.php?type=hourly" title="Hour by hour local weather forecast">Hour by Hour</a></li>
+					<li><a href="/scripts/goweather.php?type=ext" title="Two week extended local weather forecast">2-week Forecast</a></li>
+				</ul>
+
+				<form action="/worldclock/results.html" method="get" class="fn search" name="f1" id="quick-search-weather"><input placeholder="Search cities..." onfocus="ifc(this,'ci',1,5)" size="17" autocomplete="off" name="query" id="wcquery" type="search"><input type="submit" value="Go" class="submit"></form>
+			</div>
+			<div class="four columns c-sm">
+				<h2 class="icon-lft"><a href="/astronomy/" title="Sunrise, sunset, moonrise, moonset, eclipse, equinoxes, solstices and moon phases"><span class="title-square"> </span>Sun &amp; Moon</a></h2>
+				<a href="/astronomy/" title="Sun and moon"><img src="http://c.tadst.com/gfx/n/icon/icon-sun_moon.png" alt="Sunrise, Sunset, Moonrise, Moonset, Eclipse, Equinoxes, Solstices and Moon Phases" class="icon left row3-icon"/></a>
+				<ul class="icon-lft">
+				 <li><a href="/worldclock/sunrise.html" title="Find sunrise and sunset for a location.">Sunrise &amp; Sunset</a></li>
+					<li><a href="/worldclock/moonrise.html" title="Find moonrise and moonset for a location.">Moonrise &amp; Moonset</a></li>
+					<li><a href="/eclipse/" title="See when there's a lunar or solar eclipse">Solar &amp; Lunar Eclipses</a></li>
+					<li><a href="/calendar/moonphases.html" title="Find moon phases for a location.">Moon Phases</a></li>
+			 </ul>
+			</div>
+		</div>
+</div>
+
+
+<script src="http://c.tadst.com/common/wcommon.js?17" type="text/javascript"></script>
+<script>
+aelc("chi",function(e){modpop('/scripts/tzq.php?type=homecity',1,'Set Home Location');});
+
+et=1334886957;function f0(d){return ld[d.getUTCDay()]+','+' '+lm[d.getUTCMonth()]+' '+d.getUTCDate()+','+' '+d.getUTCFullYear()+' at '+((d.getUTCHours()+11)%12+1)+':'+p2(d.getUTCMinutes())+':'+p2(d.getUTCSeconds())+' '+_ap(d);}
+function f1(d){return ld[d.getUTCDay()]+','+' '+lm[d.getUTCMonth()]+' '+d.getUTCDate()+','+' '+d.getUTCFullYear()+' at '+p2(d.getUTCHours())+':'+p2(d.getUTCMinutes())+':'+p2(d.getUTCSeconds());}
+function f2(d){return ((d.getUTCHours()+11)%12+1)+':'+p2(d.getUTCMinutes());}
+function f3(d){return ''+p2(d.getUTCSeconds());}
+function f4(d){return ''+_ap(d);}
+function f5(d){return ld[d.getUTCDay()];}
+function f6(d){return sm[d.getUTCMonth()]+' '+d.getUTCDate()+','+' '+d.getUTCFullYear();}
+function f7(d){return ''+sm[d.getUTCMonth()];}
+function f8(d){return ''+d.getUTCFullYear();}
+function f9(d){return ''+d.getUTCDate();}
+function f10(d){return sd1[d.getUTCDay()];}
+cks={clk_hm:{t:[{o:-14400,a:'EDT',d:1}],f:f2},ij0:{t:[{o:-14400,a:'EDT',d:1}],f:f3},clk_am:{t:[{o:-14400,a:'EDT',d:1}],f:f4},ij1:{t:[{o:-14400,a:'EDT',d:1}],f:f5},ij2:{t:[{o:-14400,a:'EDT',d:1}],f:f6},cal_m:{t:[{o:-14400,a:'EDT',d:1}],f:f7},cal_y:{t:[{o:-14400,a:'EDT',d:1}],f:f8},cal_d:{t:[{o:-14400,a:'EDT',d:1}],f:f9},cal_w:{t:[{o:-14400,a:'EDT',d:1}],f:f10}};
+lm=new Array();lm[3]='April';sm=new Array();sm[3]='Apr';ld=new Array();ld[2]='Tuesday';ld[3]='Wednesday';ld[4]='Thursday';ld[5]='Friday';sd1=new Array();sd1[2]='Tue';sd1[3]='Wed';sd1[4]='Thu';sd1[5]='Fri';
+function _ap(d){var t=Math.floor(d.getTime()/1E3)%86400;if(t===0){return 'Midnight';}if(t==43200){return 'Noon';}if(t<43200){return 'AM';}return 'PM';}
+ 
+
+
+</script>
+
+</div>
+
+</div>
+<div id=footer> 
+<div class=row>
+<div class="twelve columns">
+<div id=footer-logo><a href="/information/"><img src="http://c.tadst.com/gfx/n/tad-logo-com.png" class="advert" alt="TAD Logo"></a><br>
+<a href="/information/copyright.html">Copyright &copy; Time and Date AS 1995–2012. All rights reserved.</a></div>
+<div id="footer-links">
+<script>
+bli();
+</script>
+<noscript>
+<a id=LRFL href="/information/feedback.html">Feedback</a> |
+<a href="/information/linkpolicy.html">Linking Policy</a> |
+</noscript>
+
+<a href="/information/">About Us</a> |
+<a href="/information/new-design.html">New Design</a> |
+<a href="/information/advertising.html">Advertising</a> |
+<a href="/information/disclaimer.html">Disclaimer</a> |
+<a href="/information/privacy.html">Privacy</a> |
+<a href="/sitemap.html">Sitemap</a>
+</div>
+</div>
+</div>
+</div>
+<div id=FBD style="display:none" class=wfc></div>
+<div id=ad-wrap><div id=ad-wrap2><div id=ad7><script type="text/javascript">
+e9={size:"728x90,468x60",noAd:1};
+</script><script type="text/javascript" src="http://tags.expo9.exponential.com/tags/TimeAndDatecom/Home/tags.js"></script></div></div></div>
+
+
+</body>
+</html>

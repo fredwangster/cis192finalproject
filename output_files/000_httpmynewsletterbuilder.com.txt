@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="google-site-verification" content="1UY6saI5UGdiOUhOVWBsOzl77SKqngYXbc013GQ-NOY" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta name="description" content="Email Marketing with MNB delivers free newsletter templates, unlimited images and video, and the easiest email creation tools on the web. Fully-featured free trial." />
+<meta name="keywords" content="email marketing, mynewsletterbuilder, bulk email, email newsletter, newsletter email, newsletter templates, opt-in email, newsletter template, email marketing software, email campaign, email advertising, email blast, newsletter software, email newsletters, html newsletter, bulk email marketing, enewsletter, newsletter marketing, email campaigns, opt-in email marketing, business email marketing, free email marketing, email marketing campaign, web-based email marketing, email marketing service, email marketing solution, online email marketing, enewsletters, email campaign software, best email marketing" />
+<title>Email Marketing | Create, Send & Track Multimedia Emails | MNB</title>
+<link href="/styles/reset" rel="stylesheet" type="text/css" />
+<link href="/styles/shared" rel="stylesheet" type="text/css" />
+<link href="/styles/external" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/js/external" type="text/javascript"></script>
+<script src="/js/banner" type="text/javascript"></script>
+<script src="/js/colorbox-min" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="container">
+	<div id="header">
+		<a href="http://www.mynewsletterbuilder.com"><img src="/images/ee/logos/mnb_logo.png" alt="MyNewsletterBuilder" /></a>
+		<div id="head_buttons">
+			<a href="/signup"><img src="/images/ee/content_corner/signup_button.png" alt="Sign Up" /></a>
+			<a href="/login"><img src="/images/ee/content_corner/login_button.png" alt="Log In" /></a>
+			<div id="head_social">
+				<div id="hs_addthis">
+                    <div class="g-plusone" data-size="medium"></div>
+                    <script type="text/javascript">
+                      (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                      })();
+                    </script>
+				</div>
+                <div id="hs_facebook">
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) {return;}
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                    
+                    <div class="fb-like" data-href="http://www.facebook.com/#!/pages/MyNewsletterBuilder/194591011214" data-send="false" data-layout="button_count" data-width="75" data-show-faces="false" data-font="trebuchet ms"></div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div id="menu_full">
+		<div id="menu">
+			<ul>
+				<!--
+				<li class="selected">
+					<img src="/images/ee/modules/ext_menu/menu_selected_l.jpg" style="float: left;" />
+					<img src="/images/ee/modules/ext_menu/menu_selected_r.jpg" style="float: right;" />
+					<a href="/index">Email Marketing</a>
+				</li>
+				-->
+				<li>
+										<a href="/email_marketing">Email Marketing</a>
+				</li>
+				<li>
+										<a href="/content_corner">Content Corner</a>
+				</li>
+				<li>
+										<a href="/pricing">Pricing</a>
+				</li>
+				<li>
+										<a href="/about">About Us</a>
+				</li>
+				<li class='menu_end'>
+										<a href="/help">Help</a>
+				</li>
+				<!--
+				<li class="selected">
+					<img src="/images/ee/modules/ext_menu/menu_selected_l.jpg" style="float: left;" />
+					<img src="/images/ee/modules/ext_menu/menu_selected_r_end.jpg" style="float: right;" />
+					<a href="">Help</a>
+				</li>
+				-->
+			</ul>
+		</div>
+	</div>
+	<div id="submenu_full">
+									</div>
+	<div id="top_banner">
+		<div id="rbanner">
+			<div id="rbanner_slider">
+				<div class="banner" id="banner_1">
+					<img src="/images/ee/banner/mnb-banner.jpg" alt="MyNewsletterBuilder Email Program" />
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="email marketing solution" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="email marketing software"
+ class="rbanner_tab_r" />
+							<a href="http://www.youtube.com/embed/OX4WQxv4cbY?rel=0&amp;hd=1" class="cb_bannervideo">
+								Watch Video
+							</a>
+						</div>
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="web newsletter software" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="newsletter marketing" class="rbanner_tab_r" />
+							<a href="/email_marketing">
+								More Info
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="banner" id="banner_2">
+					<img src="/images/ee/banner/MNB-Regionize-Banner1.jpg" alt="Find-Promote-Local-Events" />
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="Event Marketing" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="Mail Chimp" class="rbanner_tab_r" />
+							<a href="http://www.youtube.com/embed/ysxJJFJpxNA?rel=0&amp;hd=1" class="cb_bannervideo">
+								Watch Video
+							</a>
+						</div>
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="Event Promotion" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="Constant Contact" class="rbanner_tab_r" />
+							<a href="http://www.regionize.com" target=”_blank”>
+								Visit Site
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="banner" id="banner_3">
+					<img src="/images/ee/banner/geniebanner.jpg" alt="online newsletter service" />
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="best email marketing" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="online newsletter templates" class="rbanner_tab_r" />
+							<a href="http://www.youtube.com/embed/Y-lp_6Ggjdw?rel=0&amp;hd=1" class="cb_bannervideo">
+								See Banner Maker
+							</a>
+						</div>
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="bulk email sender" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="email marketing" class="rbanner_tab_r" />
+							<a href="http://www.youtube.com/embed/woxtfaC71TY?rel=0&amp;hd=1" class="cb_bannervideo">
+								See Genie
+							</a>
+						</div>
+					</div>
+				</div>				
+				<div class="banner" id="banner_4">
+					<img src="/images/ee/banner/001-webinarbanner.jpg" alt="newsletter programs" />
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="online newsletter templates
+" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="best email marketing" class="rbanner_tab_r" />
+							<a href="/webinars">
+								Webinar Schedules
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="banner" id="banner_5">
+					<img src="/images/ee/banner/contentcorner-banner.png" alt="free newsletters templates"/>
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="direct email marketing" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="email newsletter programs" 
+class="rbanner_tab_r" />
+							<a href="http://www.youtube.com/embed/JcveFmzT1eI?rel=0&amp;hd=1" class="cb_bannervideo">
+								Watch Video
+							</a>
+						</div>
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="solution email marketing"
+ class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="bulk email sender"
+ class="rbanner_tab_r" />
+							<a href="/content_corner">
+								More Info
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="banner" id="banner_6">
+					<img src="/images/ee/banner/Multiple-Account-Management.jpg" alt="multiple account management" />
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="html newsletters" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="news letter software
+" class="rbanner_tab_r" />
+							<a href="http://www.youtube.com/embed/eRVL4MRdP0s?rel=0&amp;hd=1" class="cb_bannervideo">
+								Watch Video
+							</a>
+						</div>
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="html newsletters" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="news letter software
+" class="rbanner_tab_r" />
+							<a href="/contact">
+								Get Info
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="banner" id="banner_7">
+					<img src="/images/ee/banner/diy_w_api.jpg" alt="newsletter programs" />
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="html newsletters" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="news letter software
+" class="rbanner_tab_r" />
+							<a href="/api">
+								More Info
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="banner" id="banner_8">
+					<img src="/images/ee/banner/002-customersupport.jpg" alt="customer support" />
+					<div class="rbanner_tabs">
+						<div class="rbanner_tab">
+							<img src="/images/ee/banner/tab_l.png" alt="html newsletters" class="rbanner_tab_l" />
+							<img src="/images/ee/banner/tab_r.png" alt="news letter software
+" class="rbanner_tab_r" />
+							<a href="/contact">
+								Contact Us
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="rbanner_nav">
+				<div class="rbanner_nav_item"><a href="javascript:void(0);" id="rbanner_nav_prev"><img src="/images/ee/banner/prev.png" alt="customize email marketing
+" /></a></div>
+				<div class="rbanner_nav_item"><a href="javascript:void(0);" id="rbanner_nav_next"><img src="/images/ee/banner/next.png" alt="newsletter marketing
+" /></a></div>
+			</div>
+		</div>
+	</div>
+	<div class="content_bg1" id="sec_options_full">
+		<div id="sec_options">
+			<div class="sec_opt">
+				<!--<div id="sec_opt_note_5">
+					<img src="/images/ee/icons/stickynote_5.png" alt="opt-in email marketing
+" />
+				</div>-->
+				<div class="sec_opt_title">
+					Enterprise
+				</div>
+				<div class="sec_opt_info">
+					<ul>
+						<li>Volume sending program</li>
+						<li>Multiple account management</li>
+						<li>Custom content & template solutions</li>
+						<li>Dedicated email platform</li>
+					</ul>
+				</div>
+				<div class="sec_opt_learn">
+					<a href="/email_marketing/enterprise">Learn More <img src="/images/ee/buttons/go_arrow.png" alt="web newsletter software
+" /></a>
+				</div>
+			</div>
+			<div class="sec_opt">
+				<!--<div id="sec_opt_note_3">
+					<img src="/images/ee/icons/stickynote_3.png" alt="software for newsletters
+"/>
+				</div>-->
+				<div class="sec_opt_title">
+					Business & Personal
+				</div>
+				<div class="sec_opt_info">
+					<ul>
+						<li>Flexible pricing</li>
+						<li>Drag-and-drop newsletter editing</li>
+						<li>Social network sharing integration</li>
+						<li>Pre-written content available</li>
+					</ul>
+				</div>
+				<div class="sec_opt_learn">
+					<a href="/email_marketing/business_and_personal">Learn More <img src="/images/ee/buttons/go_arrow.png" alt="internet marketing company
+" /></a>
+				</div>
+			</div>
+			<div class="sec_opt_end">
+				<!--<div id="sec_opt_note_1">
+					<img src="/images/ee/icons/stickynote_1.png" alt="html newsletter software
+" />
+				</div>-->
+				<div class="sec_opt_title">
+					Nonprofit
+				</div>
+				<div class="sec_opt_info">
+					<ul>
+						<li>Discounts available for 501(c)3</li>
+						<li>Fully featured accounts</li>
+						<li>Free NPO graphics available</li>
+					</ul>
+				</div>
+				<div class="sec_opt_learn">
+					<a href="/email_marketing/nonprofit">Learn More <img src="/images/ee/buttons/go_arrow.png" alt="mass email marketing
+" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content_bg1">
+		<div id="index_content">
+			<div id="ic_1">
+				<div id="builder">
+					<div id="builder_info">
+						<div id="builder_accordion">
+							<h3>Why MyNewsletterBuilder (MNB)?</h3>
+							<div class="ba_info">
+									MNB provides a powerful newsletter editor,<br />
+									unlimited storage, multimedia streaming,<br />
+									tracking reports, near 100% deliverability,<br />
+									automated subscriber management,<br />
+									social marketing integration & more!<br />
+									<a href="/email_marketing">See what email marketing can do for you!</a>
+							</div>
+							<h3>Need pre-written content?</h3>
+							<div class="ba_info">
+									MNB provides affordable, personalized email<br />
+									marketing. Let our experts write, design<br />
+									& personalize your newsletters according to<br />
+									your industry &mdash; all you have to do is send!<br />
+									<a href="/content_corner">Learn more about prewritten content</a>
+							</div>
+							<h3>Webinars to get you started</h3>
+							<div class="ba_info">
+									MNB offer free live & previously recorded<br />
+									training sessions. Topics include: MNB basics, newsletter creation, social networking, managing subscribers, <br />and more!<br />
+									<a href="/webinars">See webinar schedule</a>
+							</div>
+							<h3>What our clients say</h3>
+							<div class="ba_info">
+									Businesses of all sizes love MNB<br />
+									<a href="http://www.mynewsletterbuilder.com/testimonials">See what people are saying about us</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="find_industry">
+					<div id="find_industry_head">Industries We Service</div>
+					<div id="find_industry_info">
+						<div id="fi_1">
+							<div id="fi_1_accordion">
+								<h3>Health / Alternative Health</h3>
+								<div class="fi_acc_info">
+									Chiropractic, Feng Shui, Healing Arts,<br />
+									Healthy Living, Herbalism, Holistic Pet Care,<br />
+									Massage, Nutrition, Reiki, Weight Loss, Yoga<br />
+								</div>
+								<h3>Arts &amp; Entertainment</h3>
+								<div class="fi_acc_info">
+									Agents & Admins, Clubs & Venues, Galleries,<br />
+									Museums, Performing Artists & Troupes,<br />
+									Visual Artists & Photographers<br />
+								</div>
+								<h3>Direct Sales</h3>
+								<div class="fi_acc_info">
+									Party Planning Reps, Direct Sales Coaches,<br />
+									Arbonne Distributors, Shaklee Distributors,<br />
+									NightOut Licensees, Trump Distributors<br />
+								</div>
+								<h3>Business Solutions</h3>
+								<div class="fi_acc_info">
+									Green Business, Corporations, Franchises,<br />
+									Independent Business Owners,<br />
+									Financial Aid & Loans<br />
+									
+								</div>
+								<h3>Education</h3>
+								<div class="fi_acc_info">
+									Corporate Learning, Experiential,<br />
+									College Admissions, Life Coaching, Seminars,<br />
+									Teachers & Instructors<br />
+								</div>
+								<h3>Pet Services</h3>
+								<div class="fi_acc_info">
+									Daycares & Pet Sitting, Holistic Pet Care,<br />
+									Pet Supply Stores, Veterinarians<br />
+								</div>
+							</div>
+						</div>
+						<div id="fi_2">
+							<div id="fi_2_accordion">
+								<h3>Music Industry</h3>
+								<div class="fi_acc_info">
+									Bands, Independent Artists, Promoters,<br />
+									Record Labels, Recording Studios,<br />
+									Venue Locations<br />
+								</div>
+								<h3>Media</h3>
+								<div class="fi_acc_info">
+									Broadcast (TV/Radio/Online),<br />
+									Marketing & Advertising, News & Press,<br />
+									Online, Print, Sales Agencies<br />
+								</div>
+								<h3>Real Estate</h3>
+								<div class="fi_acc_info">
+									Agencies, Independent Brokers,<br />
+									Lawyers, Rentals<br />
+								</div>
+								<h3>Public Service</h3>
+								<div class="fi_acc_info">
+									Government & Public Sector,<br />
+									Non-profit Agencies, Political Action,<br />
+									Religious Groups<br />
+								</div>
+								<h3>Travel &amp; Hospitality</h3>
+								<div class="fi_acc_info">
+									Event Planning, Hotel & Hospitality,<br />
+									Restaurant & Food,<br />
+									Travel, Tourism<br />
+								</div>
+								<h3>Professional Services</h3>
+								<div class="fi_acc_info">
+									Associations, Conferences & Speakers,<br />
+									Consultants, Investors,<br />
+									Financial Managers<br />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="find_industry_foot">&nbsp;</div>
+				</div>
+			</div>
+			<div id="ic_2">
+				<div id="signup_mod">
+					<form action="https://www.mynewsletterbuilder.com/signup.php?continued&amp;from=home" method="post">
+					<input type="hidden" name="action" value="signup_continued" />
+					<input type="hidden" name="from" value="home" />
+					<div id="signup_mod_top">&nbsp;</div>
+					<div id="signup_mod_title">Try MNB Free</div>
+					<div class="signup_mod_row">
+						<div class="signup_mod_label">First Name</div>
+						<div class="signup_mod_input">
+							<input type="text" name="fname" />
+						</div>
+					</div>
+					<div class="signup_mod_row">
+						<div class="signup_mod_label">Last Name</div>
+						<div class="signup_mod_input">
+							<input type="text" name="lname" />
+						</div>
+					</div>
+					<div class="signup_mod_row">
+						<div class="signup_mod_label">Email Address</div>
+						<div class="signup_mod_input">
+							<input type="text" name="email" />
+						</div>
+					</div>
+					<div class="signup_mod_row">
+						<div class="signup_mod_label">Phone Number</div>
+						<div class="signup_mod_input">
+							<input type="text" name="phone" />
+						</div>
+					</div>
+					<div id="signup_mod_submit">
+						<input type="image" src="/images/ee/modules/signup/signup_free.png" alt="Sign Up Free" />
+					</div>
+					<div id="signup_mod_bottom">&nbsp;</div>
+					</form>
+				</div>
+				<div id="builder_blog">
+					<div id="builder_blog_title">Email Marketing Blog</div>
+					<div id="builder_blog_txt">
+						
+						
+						<p>Your opt-in email marketing campaign and your presence on social networking sites are both the result of the demands of technology on marketing.&nbsp; As generations who are more accustomed to strictly print advertising age out, it will become all the more important to have a strong online presence.&nbsp; Fortunately, if...</p>
+						
+					</div>
+					<div id="builder_blog_readmore"><a href="/blog">Read More</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer_full">
+		<div id="footer">
+			<div id="footer_sec_1">
+				<div id="footer_api_button">
+					<a href="http://www.mynewsletterbuilder.com/api"><img src="/images/ee/icons/api_button.png" alt="API" /></a>
+				</div>
+				<div id="footer_nl_signup">
+					<form action="https://www.mynewsletterbuilder.com/tools/subscription.php" method="post">
+						<input type="hidden" name="username" value="info" />
+					<div id="footer_nl_signup_txt">
+						<div id="footer_nl_signup_txt_1">FREE E-MARKETING TIPS</div>
+						<div id="footer_nl_signup_txt_2">Sign up for MNB's e-marketing tips newsletter</div>
+					</div>
+					<div id="footer_nl_signup_input">
+						<input type="text" name="email" id="nl_signup_email" value="EMAIL" />
+					</div>
+					<div id="footer_nl_signup_submit">
+						<input type="image" src="/images/ee/modules/newsletter_signup/submit.png" alt="Submit" />
+					</div>
+					</form>
+				</div>
+			</div>
+			<div id="footer_sec_2">
+				<div class="footer_contact">
+					<strong>CONTACT SALES</strong><br />
+					Mon-Fri: 8am-6pm EST<br />
+					Toll Free: 1-877-359-5229<br />
+					<a href="http://www.mynewsletterbuilder.com/contact">Email Sales</a>
+				</div>
+				<div class="footer_contact">
+					<strong>CONTACT SUPPORT</strong><br />
+					Toll Free: 1-877-359-5228<br />
+					<a href="http://www.mynewsletterbuilder.com/contact">Email Support</a>
+				</div>
+				<div class="footer_contact">
+					<strong>LIVE SUPPORT HOURS</strong><br />
+					Mon-Fri: 8am-8pm EST<br />
+					Sat: 11am-4pm EST<br />
+					<span class="lcn_cont_txt"></span>
+				</div>
+			</div>
+			<div id="footer_sec_3">
+				<div id="footer_menu">
+					<a href="/glossary">Glossary</a> |
+					<a href="/docs/spam_policy" onclick="newPopup('http://www.mynewsletterbuilder.com/docs/spam_policy', '', '', {'align':'middle', 'width':570, 'height':515}); return false;">Anti-Spam Policy</a> |
+					<a href="/docs/terms" onclick="newPopup('http://www.mynewsletterbuilder.com/docs/terms', '', '', {'align':'middle', 'width':570, 'height':515}); return false;">Terms of Use</a> |
+					<a href="/docs/privacy" onclick="newPopup('http://www.mynewsletterbuilder.com/docs/privacy', '', '', {'align':'middle', 'width':570, 'height':515}); return false;">Privacy Policy</a>
+				</div>
+				<div id="footer_copyright">
+					Copyright &copy; 2003-2011 <a href="http://www.bluehouseworks.com">Blue House Works, Inc</a>. All rights reserved.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="/javascript/jQuery/jquery.validate.min.js?v=" type="text/javascript"></script>
+<script src="/javascript/general.js"></script>
+
+<script src="https://ssl.google-analytics.com/ga.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#login_btn').hover(function(){
+		$(this).attr('src', '/images/forms/acct/header_login_over.png');
+	}, function(){
+		$(this).attr('src', '/images/forms/acct/header_login.png');
+	});
+	$('#signup_btn').hover(function(){
+		$(this).attr('src', '/images/forms/acct/signup_button_over.png');
+	}, function(){
+		$(this).attr('src', '/images/forms/acct/signup_button.png');
+	});
+});
+
+var pageTracker = _gat._getTracker("UA-3177177-1");
+pageTracker._initData();
+pageTracker._setAllowAnchor(true);
+pageTracker._setAllowHash(false);
+
+if (document.domain == "www.mynewsletterbuilder.com")
+	pageTracker._trackPageview();
+else
+	pageTracker._setVar('jba_network_staff');
+</script>
+
+<script type="text/javascript">
+/* banner settings */
+var num_banners = $(".banner").size();
+var timeout_id = null;
+var interval_id = null;
+var rotate_time = 7000;
+var rotate_click_delay = 120000;
+var offset = 248; //height of banner
+var showing = 1; //which slide are we showing
+var last_offset = offset * num_banners * -1;
+var transitioning = false;
+
+$(function() {
+	$("#builder_accordion").accordion();
+	$("#fi_1_accordion").accordion();
+	$("#fi_2_accordion").accordion();
+});
+
+$(document).ready(function() {
+	$("#nl_signup_email").focus(function() {
+		if ($(this).val() == "EMAIL")
+			$(this).val('');
+	});
+	$("#nl_signup_email").blur(function() {
+		if (jQuery.trim($(this).val()) == "")
+			$(this).val('EMAIL');
+	});
+	
+	/* Colorbox stuff */
+	$(".cb_bannervideo").colorbox({iframe:true, innerWidth:800, innerHeight:600, opacity: .5});
+});
+</script>
+
+</body>
+</html>

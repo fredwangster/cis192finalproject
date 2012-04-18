@@ -1,0 +1,771 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Slingshot | Bringing You the Best of the Web</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta property="fb:admins" content="100001286526598" />
+        <meta property="fb:page_id" content="122946411102836" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="alternate" type="application/rss+xml" title="TheSlingshot RSS" href="http://feeds.feedburner.com/theslingshot" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="theSlingshot is a special interest media company dedicated to aggregating the most compelling content on the Web and navigating readers to the Internet's best publishers." />
+        <meta name="author" content="" />
+        <meta name="robots" content="index,follow" />
+
+        <link href="/css/default.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" ></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js" ></script>
+        <script type="text/javascript" src="http://cdn.theslingshot.com/system/fe/js/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="http://cdn.theslingshot.com/system/fe/js/ssv2.20120208.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $(".lbox_1").equalHeights();
+            $(".lbox_2").equalHeights();
+            $(".tr_li").equalHeights();
+            $(".link_eq").equalHeights();
+            $(".horizontal_eq").equalHeights();
+            $(".botContent > li").equalHeights();
+            });
+
+        </script>
+        <!-- UPDATE GOOGLE ADS 2011-11-28 START -->
+<script type='text/javascript'>
+  var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+  (function() { var gads = document.createElement('script'); gads.async = true; gads.type = 'text/javascript'; var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node = document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads, node); })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+  googletag.defineSlot('/5522182/300x250_bottom_rightside_hp', [300, 250], 'div-gpt-ad-1319724653701-0').addService(googletag.pubads());
+  googletag.defineSlot('/5522182/300x250_top_rightside_hp', [300, 250], 'div-gpt-ad-1319724653701-1').addService(googletag.pubads());
+  googletag.defineSlot('/5522182/728x90_bottom_hp', [728, 90], 'div-gpt-ad-1319724653701-2').addService(googletag.pubads());
+  googletag.defineSlot('/5522182/728x90_top_hp', [728, 90], 'div-gpt-ad-1319724653701-3').addService(googletag.pubads());
+  googletag.enableServices();
+  });
+</script>
+<!-- UPDATE GOOGLE ADS 2011-11-28 END -->
+
+<script type="text/javascript">
+  <!-- GOOGLE ANALYTICS START -->
+  var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-20060370-2']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+  <!-- GOOGLE ANALYTICS END -->
+
+  <!-- GOOGLE TRACK OUTBOUND CLICKS START -->
+  function ga_outbound(url) { _gaq.push(['_trackEvent','outbound','click', url]); setTimeout("",200); }
+  <!-- GOOGLE TRACK OUTBOUND CLICKS END -->
+</script>
+
+      
+    </head>
+    <body>
+<!-- ClickTale Top part --><script type="text/javascript">var WRInitTime=(new Date()).getTime();</script><!-- ClickTale end of Top part -->
+
+      <div class="wrapper">
+        <div class="header">                <ul class="topNav">
+                    <li><a class="newsletterIco" href="/newsletter">Sign up for our newsletter!</a></li>
+                    <li><a class="loginIco" onclick="$('#loginPop').toggle('slow');return false;" href="#">Login</a> | <a style='margin-left:5px' href="/register">Register</a></li>
+                </ul>
+                <a href="/" class="logo">
+                    <img src="/images/logo.png" />
+                </a>
+                  <div class="search">
+                    <form id="search_form" action="/search" class="" method="get">
+                    <fieldset>
+                      <input type="text" name="q" placeholder="Search Articles "title="Search Articles"/>
+                    <a onclick="$('#search_form').submit(); return false;" href="#" class="searchB"></a>
+                    </fieldset>
+                    </form>
+                  </div>
+                <!-- login popup -->
+                <div class="loginPop" id="loginPop"> <div class="sTop"></div> <div class="sMed"> <div class="topW"> <h2>login</h2> </div> <div class="formsBot"> <form id="signin_form" action="http://manage.theslingshot.com/users/sign_in" method="post"> <table class="tForms" cellpadding="0" cellspacing="0"> <tr> <td width="100">User</td> <td><input type="text" name="user[email]" value="" /></td> </tr> <tr> <td>Pass</td> <td><input type="password" name="user[password]" value="" /></td> </tr> <tr> <td>&nbsp;</td> <td><a href="http://manage.theslingshot.com/users/password/new">forgot password?</a></td> </tr> </table> </form> </div> <div class="formsBot"> <span class="fr"> <input type="checkbox" name="user[remember_me]" value="ON" />remember me </span> <a class="button" onclick="$('#signin_form').submit(); return false;" href="3"><span>SUBMIT</span></a> </div> </div> <div class="sBot"></div> </div>
+                <!-- end login popup -->
+                <script>var fid='';function ss_go(id, url, pa) { path="/a/" + id + (window.location.search || "?") + "&fid=" + fid + "&pa=" + pa;$.get(path);ga_outbound(url);window.open(path, "_blank");}
+  function ss_o(s,p) { if (s!='') { s='http://'+s+'.theslingshot.com' };window.location.href=(s+p+window.location.search); }
+                </script>
+<script type="text/javascript" src="http://i.po.st/share/script/post-widget.js#publisherKey=theslingshotcom1017"></script>
+<script type="text/javascript" src="/digg_ads.js"></script> <script type="text/javascript"> site="slng"; ary=Array(); ary["slng"]='901'; ary["ltss"]='951'; digg_set_options({site: site, zone: ary[site], template_id: 'digg_ad_template'}); </script> <script type="text/html" id="digg_ad_template"> <a class="content-photo url" target="_blank" href="<@=click_url@>"> <img src="<@=img_url_original@>" /></a> <div class="link link_eq"><h4><a target="_blank" href="<@=click_url@>"><@=title@></a></h4> <p class="tr_diz"><@=description @></p> <div class="details">Sponsored by: <@=sponsor@></div> </div> </script>
+
+</div>
+        <div class="menuBar">
+    <div class="mainNavigation">
+        <ul class="menuItems">
+          <li class="selector">
+          
+              <a onclick="ss_o('fellas','')" href="http://theslingshot.com/">Fellas edition</a>
+              <ul class="tailDrop">
+                <li><a onclick="ss_o('ladies','');return false;" href="http://ladies.theslingshot.com/">Ladies edition</a></li>
+              </ul>
+            
+            </li>
+            
+              <li class="first">
+              <a id="cb_57" onclick="ss_o('','/c/57-girls');return false;" href="/c/57-girls">girls<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_74" onclick="ss_o('','/c/74-humor');return false;" href="/c/74-humor">humor<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_26" onclick="ss_o('','/c/26-sports');return false;" href="/c/26-sports">sports<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_510" onclick="ss_o('','/c/510-entertainment');return false;" href="/c/510-entertainment">entertainment<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_515" onclick="ss_o('','/c/515-celebrity');return false;" href="/c/515-celebrity">celebrity<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_84" onclick="ss_o('','/c/84-lifestyle');return false;" href="/c/84-lifestyle">lifestyle<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_480" onclick="ss_o('','/c/480-news&politics');return false;" href="/c/480-news&politics">news&politics<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_483" onclick="ss_o('','/c/483-tech&science');return false;" href="/c/483-tech&science">tech&science<span class="tail"></span></a>
+              </li>
+            
+              <li class="">
+              <a id="cb_98" onclick="ss_o('','/c/98-gaming');return false;" href="/c/98-gaming">gaming<span class="tail"></span></a>
+              </li>
+            
+        </ul>
+    </div>
+    <div class="subNavigation">
+        <div class="subContainer">
+          <div class="subCenter">
+            
+                <div id="sc_57" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/455-bikinis');return false;" href="/c/455-bikinis">bikinis</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/456-models');return false;" href="/c/456-models">models</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/457-t&a');return false;" href="/c/457-t&a">t&a</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/458-college girls');return false;" href="/c/458-college girls">college girls</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/8-celeb');return false;" href="/c/8-celeb">celeb</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/459-redheads');return false;" href="/c/459-redheads">redheads</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/460-lingerie');return false;" href="/c/460-lingerie">lingerie</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/461-wags');return false;" href="/c/461-wags">wags</a></li>
+              </ul></div>
+            
+                <div id="sc_74" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/504-wtf');return false;" href="/c/504-wtf">wtf</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/505-memes');return false;" href="/c/505-memes">memes</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/506-fail');return false;" href="/c/506-fail">fail</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/545-lists');return false;" href="/c/545-lists">lists</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/508-gifs');return false;" href="/c/508-gifs">gifs</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/509-lol');return false;" href="/c/509-lol">lol</a></li>
+              </ul></div>
+            
+                <div id="sc_26" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/462-nfl');return false;" href="/c/462-nfl">nfl</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/463-nba');return false;" href="/c/463-nba">nba</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/464-mlb');return false;" href="/c/464-mlb">mlb</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/465-cfb');return false;" href="/c/465-cfb">cfb</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/466-cbb');return false;" href="/c/466-cbb">cbb</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/467-mma');return false;" href="/c/467-mma">mma</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/468-extreme');return false;" href="/c/468-extreme">extreme</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/469-outdoor');return false;" href="/c/469-outdoor">outdoor</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/470-motor');return false;" href="/c/470-motor">motor</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/471-hotties');return false;" href="/c/471-hotties">hotties</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/472-bloopers');return false;" href="/c/472-bloopers">bloopers</a></li>
+              </ul></div>
+            
+                <div id="sc_510" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/531-tv');return false;" href="/c/531-tv">tv</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/512-reality');return false;" href="/c/512-reality">reality</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/513-movies');return false;" href="/c/513-movies">movies</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/514-music');return false;" href="/c/514-music">music</a></li>
+              </ul></div>
+            
+                <div id="sc_515" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/516-gossip');return false;" href="/c/516-gossip">gossip</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/80-photoshop');return false;" href="/c/80-photoshop">photoshop</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/517-couples');return false;" href="/c/517-couples">couples</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/518-scandal');return false;" href="/c/518-scandal">scandal</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/519-awards');return false;" href="/c/519-awards">awards</a></li>
+              </ul></div>
+            
+                <div id="sc_84" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/547-health');return false;" href="/c/547-health">health</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/546-sex');return false;" href="/c/546-sex">sex</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/475-food&drink');return false;" href="/c/475-food&drink">food&drink</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/476-travel');return false;" href="/c/476-travel">travel</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/477-stuff');return false;" href="/c/477-stuff">stuff</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/478-money');return false;" href="/c/478-money">money</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/479-art');return false;" href="/c/479-art">art</a></li>
+              </ul></div>
+            
+                <div id="sc_480" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/481-business');return false;" href="/c/481-business">business</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/71-politics');return false;" href="/c/71-politics">politics</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/482-election');return false;" href="/c/482-election">election</a></li>
+              </ul></div>
+            
+                <div id="sc_483" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/484-comics');return false;" href="/c/484-comics">comics</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/485-auto');return false;" href="/c/485-auto">auto</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/486-gadgets');return false;" href="/c/486-gadgets">gadgets</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/487-phones');return false;" href="/c/487-phones">phones</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/488-animals');return false;" href="/c/488-animals">animals</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/489-computers');return false;" href="/c/489-computers">computers</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/490-start-ups');return false;" href="/c/490-start-ups">start-ups</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/491-green');return false;" href="/c/491-green">green</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/492-architecture');return false;" href="/c/492-architecture">architecture</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/493-drugs');return false;" href="/c/493-drugs">drugs</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/494-scifi');return false;" href="/c/494-scifi">scifi</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/495-nature');return false;" href="/c/495-nature">nature</a></li>
+              </ul></div>
+            
+                <div id="sc_98" class="menuCenter"><ul class="menuItems">
+                  <li><a onclick="ss_o('','/c/496-xbox360');return false;" href="/c/496-xbox360">xbox360</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/497-ps3');return false;" href="/c/497-ps3">ps3</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/498-wii');return false;" href="/c/498-wii">wii</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/500-3ds');return false;" href="/c/500-3ds">3ds</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/501-vita');return false;" href="/c/501-vita">vita</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/499-pc');return false;" href="/c/499-pc">pc</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/502-mobile');return false;" href="/c/502-mobile">mobile</a></li><li class="divider">&#8226;</li><li><a onclick="ss_o('','/c/503-reviews');return false;" href="/c/503-reviews">reviews</a></li>
+              </ul></div>
+            
+          </div>
+        </div>
+    </div>
+</div>
+
+            <div class="content">
+              <div class="marketing">
+                <div id='div-gpt-ad-1319724653701-3' style='margin:auto;width:728px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1319724653701-3'); });</script></div>
+                </div>
+                <div class="homePage">
+                    <div class="homeContent fl">
+                        <div class="mTop"></div>
+                        <div class="mMed">
+                                <script type="text/javascript">
+            $(document).ready(function(){
+
+                $tabs = $("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
+
+                $( "#featured" ).bind( "tabsselect", function(event, ui) {
+                    active_number = parseInt(ui.index) + 1;
+                    $(".ui-tabs-nav-item").removeClass('ui-tabs-selected');
+                    $("#nav-fragment-d-" + active_number).addClass('ui-tabs-selected');
+                    $("#nav-fragment-" + active_number).addClass('ui-tabs-selected');
+                });
+
+                $('li[id^="nav-fragment-d-"]').click(function(){
+                    var selected_id_parts = this.id.split("-");//example: this.id == nav-fragment-d-3
+                    var selected_number = selected_id_parts[3];
+                    $tabs.tabs('select', selected_number); // switch to tab
+                    return false;
+                });
+            });
+        </script>
+                            <div id="featured" >
+                                <ul class="ui-tabs-nav">
+                                  
+                                    
+                                    <li class="ui-tabs-nav-item ui-tabs-select" id="nav-fragment-1"><a href="#fragment-1"><img src="http://cdn.theslingshot.com/system/article/image/6494/highlight_rect_small/highlight_rect_small_jj_anderson_page1.jpg" alt="" /></a></li>
+                                  
+                                    
+                                    <li class="ui-tabs-nav-item " id="nav-fragment-2"><a href="#fragment-2"><img src="http://cdn.theslingshot.com/system/article/image/6492/highlight_rect_small/highlight_rect_small_worlds-first-lickable-wallpaper-elevator.jpg" alt="" /></a></li>
+                                  
+                                    
+                                    <li class="ui-tabs-nav-item " id="nav-fragment-3"><a href="#fragment-3"><img src="http://cdn.theslingshot.com/system/article/image/6491/highlight_rect_small/highlight_rect_small_supergirlcosplay02.jpg" alt="" /></a></li>
+                                  
+                                    
+                                    <li class="ui-tabs-nav-item " id="nav-fragment-4"><a href="#fragment-4"><img src="http://cdn.theslingshot.com/system/article/image/6490/highlight_rect_small/highlight_rect_small_sexy-stewardess-8-580x379.jpg" alt="" /></a></li>
+                                  
+                                    
+                                    <li class="ui-tabs-nav-item " id="nav-fragment-5"><a href="#fragment-5"><img src="http://cdn.theslingshot.com/system/article/image/6489/highlight_rect_small/highlight_rect_small_drollnation-random-14292-500x375.jpg" alt="" /></a></li>
+                                  
+                                </ul>
+
+
+<ul class="ui-tabs-dot"> <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-d-1"><a href="#fragment-1"></a></li> <li class="ui-tabs-nav-item" id="nav-fragment-d-2"><a href="#fragment-2"></a></li> <li class="ui-tabs-nav-item" id="nav-fragment-d-3"><a href="#fragment-3"></a></li> <li class="ui-tabs-nav-item" id="nav-fragment-d-4"><a href="#fragment-4"></a></li> <li class="ui-tabs-nav-item" id="nav-fragment-d-5"><a href="#fragment-5"></a></li> </ul>
+                                
+                                  
+
+
+                                  <div id="fragment-1" class="ui-tabs-panel"><a href="/a/6494-j-j-anderson-is-a-knockout" onClick="ss_go('6494-j-j-anderson-is-a-knockout', 'www.inkedmag.com/features/fashion/shes-knockout/',5);return false"><img src="http://cdn.theslingshot.com/system/article/image/6494/homepage_featured/homepage_featured_jj_anderson_page1.jpg" /><div class="info"><h2><a href="/a/6494-j-j-anderson-is-a-knockout" onClick="ss_go('6494-j-j-anderson-is-a-knockout', 'www.inkedmag.com/features/fashion/shes-knockout/',5);return false">J.J. Anderson Is A Knockout</a></h2><p>And she's got the tats to prove it.<a target="_blank" href="/a/6494-j-j-anderson-is-a-knockout" onClick="ss_go('6494-j-j-anderson-is-a-knockout', 'www.inkedmag.com/features/fashion/shes-knockout/',5);return false">read more</a></p></div></a></div>
+                                
+                                  
+
+
+                                  <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide"><a href="/a/6492-world-s-first-lick-able-wall-paper" onClick="ss_go('6492-world-s-first-lick-able-wall-paper', 'www.incrediblethings.com/food/worlds-first-lick-able-wall-paper/',5);return false"><img src="http://cdn.theslingshot.com/system/article/image/6492/homepage_featured/homepage_featured_worlds-first-lickable-wallpaper-elevator.jpg" /><div class="info"><h2><a href="/a/6492-world-s-first-lick-able-wall-paper" onClick="ss_go('6492-world-s-first-lick-able-wall-paper', 'www.incrediblethings.com/food/worlds-first-lick-able-wall-paper/',5);return false">World's First Lick-able Wall Paper</a></h2><p>The Jaffa Cakes taste like Jaffa Cakes!<a target="_blank" href="/a/6492-world-s-first-lick-able-wall-paper" onClick="ss_go('6492-world-s-first-lick-able-wall-paper', 'www.incrediblethings.com/food/worlds-first-lick-able-wall-paper/',5);return false">read more</a></p></div></a></div>
+                                
+                                  
+
+
+                                  <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide"><a href="/a/6491-20-supergirl-cosplayers" onClick="ss_go('6491-20-supergirl-cosplayers', 'furiousfanboys.com/2012/04/20-supergirl-cosplayers-who-will-make-you-a-man-of-steel/',5);return false"><img src="http://cdn.theslingshot.com/system/article/image/6491/homepage_featured/homepage_featured_supergirlcosplay02.jpg" /><div class="info"><h2><a href="/a/6491-20-supergirl-cosplayers" onClick="ss_go('6491-20-supergirl-cosplayers', 'furiousfanboys.com/2012/04/20-supergirl-cosplayers-who-will-make-you-a-man-of-steel/',5);return false">20 Supergirl Cosplayers</a></h2><p>Are you a Man of Steel yet?<a target="_blank" href="/a/6491-20-supergirl-cosplayers" onClick="ss_go('6491-20-supergirl-cosplayers', 'furiousfanboys.com/2012/04/20-supergirl-cosplayers-who-will-make-you-a-man-of-steel/',5);return false">read more</a></p></div></a></div>
+                                
+                                  
+
+
+                                  <div id="fragment-4" class="ui-tabs-panel ui-tabs-hide"><a href="/a/6490-30-sexy-air-hostesses" onClick="ss_go('6490-30-sexy-air-hostesses', 'www.forkparty.com/25874/sexy-air-hostesses-30-pics',5);return false"><img src="http://cdn.theslingshot.com/system/article/image/6490/homepage_featured/homepage_featured_sexy-stewardess-8-580x379.jpg" /><div class="info"><h2><a href="/a/6490-30-sexy-air-hostesses" onClick="ss_go('6490-30-sexy-air-hostesses', 'www.forkparty.com/25874/sexy-air-hostesses-30-pics',5);return false">30 Sexy Air Hostesses</a></h2><p>Wanna join the mile high club?<a target="_blank" href="/a/6490-30-sexy-air-hostesses" onClick="ss_go('6490-30-sexy-air-hostesses', 'www.forkparty.com/25874/sexy-air-hostesses-30-pics',5);return false">read more</a></p></div></a></div>
+                                
+                                  
+
+
+                                  <div id="fragment-5" class="ui-tabs-panel ui-tabs-hide"><a href="/a/6489-a-slight-dose-of-the-random" onClick="ss_go('6489-a-slight-dose-of-the-random', 'drollnation.com/2012/04/daily-random-drolls-93/',5);return false"><img src="http://cdn.theslingshot.com/system/article/image/6489/homepage_featured/homepage_featured_drollnation-random-14292-500x375.jpg" /><div class="info"><h2><a href="/a/6489-a-slight-dose-of-the-random" onClick="ss_go('6489-a-slight-dose-of-the-random', 'drollnation.com/2012/04/daily-random-drolls-93/',5);return false">A Slight Dose Of The Random</a></h2><p>You'll like what you see.<a target="_blank" href="/a/6489-a-slight-dose-of-the-random" onClick="ss_go('6489-a-slight-dose-of-the-random', 'drollnation.com/2012/04/daily-random-drolls-93/',5);return false">read more</a></p></div></a></div>
+                                
+                                <div class="stripe">
+                                    <b style="font-size:17px">editors’ picks for today</b>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mBot"></div>
+                    <!--
+                    Trending Listings Start
+                    NOTE: Using Ajaxified Jcarousel as of October 16th, 2011
+                    -->
+
+                        <div class="mTop"></div>
+                        <div class="mMed">
+                          <div id="tr_c" class="bmed jcarousel-skin">
+                            <div class="topW">
+                              <div class="buttons">
+                                    <span><span id="tr_c_showing">1</span>&nbsp;of 7</span>
+                                    <span><a class="back" href="#" id="tr_c-prev"></a></span>
+                                    <span><a class="forward" href="#" id="tr_c-next"></a></span>
+                                </div>
+                                <h2>trending stories</h2>
+                              </div>
+                              <ul>
+                              <li><ul class="trend">
+<li><a class="content-photo url" target="_blank" href="/a/1000-a-few-cool-cars-and-a-bunch-of-hot-women" onClick="ss_go('1000-a-few-cool-cars-and-a-bunch-of-hot-women','thethrottle.thechive.com/2011/05/02/cars-and-girls-to-brighten-your-day-21-pictures/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/1000/listings_rect/listings_rect_cars-girls-500-car_babewtmk.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/1000-a-few-cool-cars-and-a-bunch-of-hot-women" onClick="ss_go('1000-a-few-cool-cars-and-a-bunch-of-hot-women','thethrottle.thechive.com/2011/05/02/cars-and-girls-to-brighten-your-day-21-pictures/',1);return false">A Few Cool Cars and A Bunch of Hot Women</a></h4><p class="tr_diz">This is why rich guys drive fast cars.</p><div class="details">In: <a class="type" href="/c/57">girls</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">A Few Cool Cars and A Bunch of Hot Women</a><a class="pw_url" style="display:none">http://theslingshot.com/a/1000-a-few-cool-cars-and-a-bunch-of-hot-women?utm_source=theslingshot&utm_medium=referral&utm_campaign=a-few-cool-cars-and-a-bunch-of-hot-women</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/1000/medium/medium_cars-girls-500-car_babewtmk.jpg</a><a class="pw_description" style="display:none">This is why rich guys drive fast cars.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+<li><span class="digg_ad pos_1"></span></li>
+<li><a class="content-photo url" target="_blank" href="/a/6432-100-songs-you-can-t-get-out-of-your-head" onClick="ss_go('6432-100-songs-you-can-t-get-out-of-your-head','www.maxim.com/music/100-songs-you-can-t-get-out-of-your-head',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/6432/listings_rect/listings_rect_100songs_article.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/6432-100-songs-you-can-t-get-out-of-your-head" onClick="ss_go('6432-100-songs-you-can-t-get-out-of-your-head','www.maxim.com/music/100-songs-you-can-t-get-out-of-your-head',1);return false">100 Songs You Can't Get Out Of Your Head</a></h4><p class="tr_diz">You're welcome?</p><div class="details">In: <a class="type" href="/c/510">entertainment</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">100 Songs You Cant Get Out Of Your Head</a><a class="pw_url" style="display:none">http://theslingshot.com/a/6432-100-songs-you-can-t-get-out-of-your-head?utm_source=theslingshot&utm_medium=referral&utm_campaign=100-songs-you-can-t-get-out-of-your-head</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/6432/medium/medium_100songs_article.jpg</a><a class="pw_description" style="display:none">Youre welcome?</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/6272-things-that-actually-remove-your-nail-polish" onClick="ss_go('6272-things-that-actually-remove-your-nail-polish','www.thefrisky.com/2012-03-28/chart-things-that-actually-remove-your-nail-polish/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/6272/listings_rect/listings_rect_nail_032712-m-600x450.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/6272-things-that-actually-remove-your-nail-polish" onClick="ss_go('6272-things-that-actually-remove-your-nail-polish','www.thefrisky.com/2012-03-28/chart-things-that-actually-remove-your-nail-polish/',1);return false">Things That Actually Remove Your Nail Polish</a></h4><p class="tr_diz">Ah! In others words, stay away from these "things" after a manicure.</p><div class="details">In: <a class="type" href="/c/74">humor</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">Things That Actually Remove Your Nail Polish</a><a class="pw_url" style="display:none">http://theslingshot.com/a/6272-things-that-actually-remove-your-nail-polish?utm_source=theslingshot&utm_medium=referral&utm_campaign=things-that-actually-remove-your-nail-polish</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/6272/medium/medium_nail_032712-m-600x450.jpg</a><a class="pw_description" style="display:none">Ah! In others words, stay away from these things after a manicure.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/1459-the-20-hottest-girls-in-the-kitchen" onClick="ss_go('1459-the-20-hottest-girls-in-the-kitchen','www.heavy.com/action/girls/2010/11/the-20-hottest-girls-in-the-kitchen/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/1459/listings_rect/listings_rect_155.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/1459-the-20-hottest-girls-in-the-kitchen" onClick="ss_go('1459-the-20-hottest-girls-in-the-kitchen','www.heavy.com/action/girls/2010/11/the-20-hottest-girls-in-the-kitchen/',1);return false">The 20 Hottest Girls In The Kitchen</a></h4><p class="tr_diz">I'll have the chicken breast.  Hold the chicken.</p><div class="details">In: <a class="type" href="/c/57">girls</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">The 20 Hottest Girls In The Kitchen</a><a class="pw_url" style="display:none">http://theslingshot.com/a/1459-the-20-hottest-girls-in-the-kitchen?utm_source=theslingshot&utm_medium=referral&utm_campaign=the-20-hottest-girls-in-the-kitchen</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/1459/medium/medium_155.jpg</a><a class="pw_description" style="display:none">Ill have the chicken breast.  Hold the chicken.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/6350-7-actors-who-make-terrible-villains" onClick="ss_go('6350-7-actors-who-make-terrible-villains','www.maxim.com/movies/7-actors-who-make-terrible-villains',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/6350/listings_rect/listings_rect_Villains_NormanBates_article.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/6350-7-actors-who-make-terrible-villains" onClick="ss_go('6350-7-actors-who-make-terrible-villains','www.maxim.com/movies/7-actors-who-make-terrible-villains',1);return false">7 Actors Who Make Terrible Villains</a></h4><p class="tr_diz">Fool me once...</p><div class="details">In: <a class="type" href="/c/510">entertainment</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">7 Actors Who Make Terrible Villains</a><a class="pw_url" style="display:none">http://theslingshot.com/a/6350-7-actors-who-make-terrible-villains?utm_source=theslingshot&utm_medium=referral&utm_campaign=7-actors-who-make-terrible-villains</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/6350/medium/medium_Villains_NormanBates_article.jpg</a><a class="pw_description" style="display:none">Fool me once...</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/5776-15-celebrity-beauty-blunders" onClick="ss_go('5776-15-celebrity-beauty-blunders','www.thefrisky.com/2012-02-22/15-celebrity-beauty-blunders/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/5776/listings_rect/listings_rect_celeb_makeup_fails-600x450.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/5776-15-celebrity-beauty-blunders" onClick="ss_go('5776-15-celebrity-beauty-blunders','www.thefrisky.com/2012-02-22/15-celebrity-beauty-blunders/',1);return false">15 Celebrity Beauty Blunders</a></h4><p class="tr_diz"> Even celebs get a little heavy-handed with the makeup brush from time to time. </p><div class="details">In: <a class="type" href="/c/515">celebrity</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">15 Celebrity Beauty Blunders</a><a class="pw_url" style="display:none">http://theslingshot.com/a/5776-15-celebrity-beauty-blunders?utm_source=theslingshot&utm_medium=referral&utm_campaign=15-celebrity-beauty-blunders</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/5776/medium/medium_celeb_makeup_fails-600x450.jpg</a><a class="pw_description" style="display:none"> Even celebs get a little heavy-handed with the makeup brush from time to time. </a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/1714-the-20-awesomest-photos-of-guys-caught-staring" onClick="ss_go('1714-the-20-awesomest-photos-of-guys-caught-staring','www.heavy.com/comedy/2011/06/the-20-awesomest-photos-of-guys-caught-staring/1/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/1714/listings_rect/listings_rect_staring_at_boobs_640_24-588x401.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/1714-the-20-awesomest-photos-of-guys-caught-staring" onClick="ss_go('1714-the-20-awesomest-photos-of-guys-caught-staring','www.heavy.com/comedy/2011/06/the-20-awesomest-photos-of-guys-caught-staring/1/',1);return false">The 20 Awesomest Photos of Guys Caught Staring</a></h4><p class="tr_diz">Staring at boobs: pulling it off without getting busted is all about tact and some guys just do it better than others.</p><div class="details">In: <a class="type" href="/c/57">girls</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">The 20 Awesomest Photos of Guys Caught Staring</a><a class="pw_url" style="display:none">http://theslingshot.com/a/1714-the-20-awesomest-photos-of-guys-caught-staring?utm_source=theslingshot&utm_medium=referral&utm_campaign=the-20-awesomest-photos-of-guys-caught-staring</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/1714/medium/medium_staring_at_boobs_640_24-588x401.jpg</a><a class="pw_description" style="display:none">Staring at boobs: pulling it off without getting busted is all about tact and some guys just do it better than others.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/4707-insane-bicycle-kick-by-carlos-vela" onClick="ss_go('4707-insane-bicycle-kick-by-carlos-vela','www.brobible.com/videos/watch/insane-bicycle-kick-carlos-vela',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/4707/listings_rect/listings_rect_FOR08_SOCCER-NATIONS-_0121_.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/4707-insane-bicycle-kick-by-carlos-vela" onClick="ss_go('4707-insane-bicycle-kick-by-carlos-vela','www.brobible.com/videos/watch/insane-bicycle-kick-carlos-vela',1);return false">Insane Bicycle Kick By Carlos Vela</a></h4><p class="tr_diz">Ride that air-bike!</p><div class="details">In: <a class="type" href="/c/26">sports</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">Insane Bicycle Kick By Carlos Vela</a><a class="pw_url" style="display:none">http://theslingshot.com/a/4707-insane-bicycle-kick-by-carlos-vela?utm_source=theslingshot&utm_medium=referral&utm_campaign=insane-bicycle-kick-by-carlos-vela</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/4707/medium/medium_FOR08_SOCCER-NATIONS-_0121_.jpg</a><a class="pw_description" style="display:none">Ride that air-bike!</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+<li><span class="digg_ad pos_2"></span></li>
+<li><a class="content-photo url" target="_blank" href="/a/6351-celebrity-tattoos-that-should-be-removed" onClick="ss_go('6351-celebrity-tattoos-that-should-be-removed','www.maxim.com/upkeep/celebrity-tattoos-should-be-removed',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/6351/listings_rect/listings_rect_DumbTattoos_MikeTyson_article.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/6351-celebrity-tattoos-that-should-be-removed" onClick="ss_go('6351-celebrity-tattoos-that-should-be-removed','www.maxim.com/upkeep/celebrity-tattoos-should-be-removed',1);return false">Celebrity Tattoos That Should Be Removed</a></h4><p class="tr_diz">Fame makes you do inexplicable things.</p><div class="details">In: <a class="type" href="/c/74">humor</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">Celebrity Tattoos That Should Be Removed</a><a class="pw_url" style="display:none">http://theslingshot.com/a/6351-celebrity-tattoos-that-should-be-removed?utm_source=theslingshot&utm_medium=referral&utm_campaign=celebrity-tattoos-that-should-be-removed</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/6351/medium/medium_DumbTattoos_MikeTyson_article.jpg</a><a class="pw_description" style="display:none">Fame makes you do inexplicable things.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/5780-14-celebrity-girl-crushes" onClick="ss_go('5780-14-celebrity-girl-crushes','www.thefrisky.com/2012-02-21/14-celebrity-girl-crushes/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/5780/listings_rect/listings_rect_girl_crush_selena-400x470.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/5780-14-celebrity-girl-crushes" onClick="ss_go('5780-14-celebrity-girl-crushes','www.thefrisky.com/2012-02-21/14-celebrity-girl-crushes/',1);return false">14 Celebrity Girl Crushes</a></h4><p class="tr_diz">These ladies are completely lovable or shall I say “adorkable.”</p><div class="details">In: <a class="type" href="/c/515">celebrity</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">14 Celebrity Girl Crushes</a><a class="pw_url" style="display:none">http://theslingshot.com/a/5780-14-celebrity-girl-crushes?utm_source=theslingshot&utm_medium=referral&utm_campaign=14-celebrity-girl-crushes</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/5780/medium/medium_girl_crush_selena-400x470.jpg</a><a class="pw_description" style="display:none">These ladies are completely lovable or shall I say “adorkable.”</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/1359-the-10-most-awkward-boob-grabs" onClick="ss_go('1359-the-10-most-awkward-boob-grabs','www.heavy.com/comedy/2011/02/the-10-most-awkward-boob-grabs/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/1359/listings_rect/listings_rect_boob1.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/1359-the-10-most-awkward-boob-grabs" onClick="ss_go('1359-the-10-most-awkward-boob-grabs','www.heavy.com/comedy/2011/02/the-10-most-awkward-boob-grabs/',1);return false">The 10 Most Awkward Boob Grabs</a></h4><p class="tr_diz">A spur of the moment boob grab and camera normally result in one or both of the following: a lawsuit or hilarious photo.</p><div class="details">In: <a class="type" href="/c/74">humor</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">The 10 Most Awkward Boob Grabs</a><a class="pw_url" style="display:none">http://theslingshot.com/a/1359-the-10-most-awkward-boob-grabs?utm_source=theslingshot&utm_medium=referral&utm_campaign=the-10-most-awkward-boob-grabs</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/1359/medium/medium_boob1.jpg</a><a class="pw_description" style="display:none">A spur of the moment boob grab and camera normally result in one or both of the following: a lawsuit or hilarious photo.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/4959-jessica-jane-clement-sends-her-greetings" onClick="ss_go('4959-jessica-jane-clement-sends-her-greetings','www.brobible.com/slideshows/view/seasons-greetings-jessica-jane-clement-pics',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/4959/listings_rect/listings_rect_jessica_jane_clement_xmas_hot_3_640_853.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/4959-jessica-jane-clement-sends-her-greetings" onClick="ss_go('4959-jessica-jane-clement-sends-her-greetings','www.brobible.com/slideshows/view/seasons-greetings-jessica-jane-clement-pics',1);return false">Jessica Jane Clement Sends Her Greetings</a></h4><p class="tr_diz">The best part is, she expects nothing in return.</p><div class="details">In: <a class="type" href="/c/57">girls</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">Jessica Jane Clement Sends Her Greetings</a><a class="pw_url" style="display:none">http://theslingshot.com/a/4959-jessica-jane-clement-sends-her-greetings?utm_source=theslingshot&utm_medium=referral&utm_campaign=jessica-jane-clement-sends-her-greetings</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/4959/medium/medium_jessica_jane_clement_xmas_hot_3_640_853.jpg</a><a class="pw_description" style="display:none">The best part is, she expects nothing in return.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/6177-9-clueless-video-game-commercials" onClick="ss_go('6177-9-clueless-video-game-commercials','www.thesmokingjacket.com/humor/9-video-game-commercials-that-clearly-had-no-idea-what-they-were-selling',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/6177/listings_rect/listings_rect_PS2-Head-Header.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/6177-9-clueless-video-game-commercials" onClick="ss_go('6177-9-clueless-video-game-commercials','www.thesmokingjacket.com/humor/9-video-game-commercials-that-clearly-had-no-idea-what-they-were-selling',1);return false">9 Clueless Video Game Commercials</a></h4><p class="tr_diz">How hard can it be to sell video games?</p><div class="details">In: <a class="type" href="/c/98">gaming</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">9 Clueless Video Game Commercials</a><a class="pw_url" style="display:none">http://theslingshot.com/a/6177-9-clueless-video-game-commercials?utm_source=theslingshot&utm_medium=referral&utm_campaign=9-clueless-video-game-commercials</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/6177/medium/medium_PS2-Head-Header.jpg</a><a class="pw_description" style="display:none">How hard can it be to sell video games?</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/5843-hottest-miss-sprint-cup-models" onClick="ss_go('5843-hottest-miss-sprint-cup-models','bustedcoverage.com/2012/02/24/the-hottest-miss-sprint-cup-models-in-nascar-history-photos/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/5843/listings_rect/listings_rect_jaclyn-roney-1.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/5843-hottest-miss-sprint-cup-models" onClick="ss_go('5843-hottest-miss-sprint-cup-models','bustedcoverage.com/2012/02/24/the-hottest-miss-sprint-cup-models-in-nascar-history-photos/',1);return false">Hottest Miss Sprint Cup Models</a></h4><p class="tr_diz">Girls and cars, does it get any better?</p><div class="details">In: <a class="type" href="/c/57">girls</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">Hottest Miss Sprint Cup Models</a><a class="pw_url" style="display:none">http://theslingshot.com/a/5843-hottest-miss-sprint-cup-models?utm_source=theslingshot&utm_medium=referral&utm_campaign=hottest-miss-sprint-cup-models</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/5843/medium/medium_jaclyn-roney-1.jpg</a><a class="pw_description" style="display:none">Girls and cars, does it get any better?</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/6372-8-flying-cars-of-the-future" onClick="ss_go('6372-8-flying-cars-of-the-future','regretfulmorning.com/2012/04/flying-cars-gallery/',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/6372/listings_rect/listings_rect_flying-car-1.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/6372-8-flying-cars-of-the-future" onClick="ss_go('6372-8-flying-cars-of-the-future','regretfulmorning.com/2012/04/flying-cars-gallery/',1);return false">8 Flying Cars Of The Future</a></h4><p class="tr_diz">Just like the Jetsons.</p><div class="details">In: <a class="type" href="/c/483">tech&science</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">8 Flying Cars Of The Future</a><a class="pw_url" style="display:none">http://theslingshot.com/a/6372-8-flying-cars-of-the-future?utm_source=theslingshot&utm_medium=referral&utm_campaign=8-flying-cars-of-the-future</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/6372/medium/medium_flying-car-1.jpg</a><a class="pw_description" style="display:none">Just like the Jetsons.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+
+<li><a class="content-photo url" target="_blank" href="/a/6260-top-9-ways-to-save-money" onClick="ss_go('6260-top-9-ways-to-save-money','www.askmen.com/top_10/entertainment/save-money.html',1);return false"><img src="http://cdn.theslingshot.com/system/article/image/6260/listings_rect/listings_rect_handmoney1.jpg"/></a><div class="link link_eq"><h4><a target="_blank" href="/a/6260-top-9-ways-to-save-money" onClick="ss_go('6260-top-9-ways-to-save-money','www.askmen.com/top_10/entertainment/save-money.html',1);return false">Top 9 Ways To Save Money</a></h4><p class="tr_diz">Dolla dolla bills, y'all.</p><div class="details">In: <a class="type" href="/c/84">lifestyle - guys</a></div><div style="float:right;margin-top:-15px;" class="pw_widget pw_size_16"><a class="pw_share"></a><a class="pw_title" style="display:none">Top 9 Ways To Save Money</a><a class="pw_url" style="display:none">http://theslingshot.com/a/6260-top-9-ways-to-save-money?utm_source=theslingshot&utm_medium=referral&utm_campaign=top-9-ways-to-save-money</a><a class="pw_image" style="display:none">http://cdn.theslingshot.com/system/article/image/6260/medium/medium_handmoney1.jpg</a><a class="pw_description" style="display:none">Dolla dolla bills, yall.</a><a class="pw_facebook"></a><a class="pw_twitter"></a><a class="pw_email"></a></div></div></li>
+</ul></li>
+                            </ul>
+                          </div>
+                          <ul class="pagination"><li><a class="active" href="#">1-16</a></li><li><a onclick="ss_o('', '/2'); return false;" href="/2">17-32</a></li><li><a onclick="ss_o('', '/3'); return false;" href="/3">33-48</a></li><li><a onclick="ss_o('', '/4'); return false;" href="/4">49-64</a></li><li><a onclick="ss_o('', '/26'); return false;" href="/26">...</a></li><li><a onclick="ss_o('', '/48'); return false;" href="/48">753-768</a></li></ul>
+                        </div>
+                        <div class="mBot"></div>
+                        <!-- Trending Listings End -->
+                    </div>
+
+                    <div class="homeSidebar fr">
+                    <!--
+                    Most Popular Start
+                    NOTE: Using Ajaxified Jcarousel as of October 16th, 2011
+                    -->
+                      <div class="sTopB"></div>
+                      <div class="sMed">
+                        <div id="mp_c" class="bmed jcarousel-skin">
+                          <div class="topB">
+                            <div class="buttons">
+                                <span><span id="mp_c_showing">1</span>&nbsp;of 4</span>
+                                <span><a class="back" href="#" id="mp_c-prev"></a></span>
+                                <span><a class="forward" href="#" id="mp_c-next"></a></span>
+                            </div>
+                            <h3>most popular</h3>
+                          </div>
+                          <ul>
+                            <li><ul class="popular"><li ><img src="http://cdn.theslingshot.com/system/article/image/6292/most_popular_rect/most_popular_rect_c8ae7e0616073d738e5e022667cd80ba.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6292-hunger-games-psas?wid=&fid=" onclick="ss_go('6292-hunger-games-psas', 'www.collegehumor.com/article/6747670/hunger-games-psas',2);return false">Hunger Games PSAs</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6478/most_popular_rect/most_popular_rect_dates-with-dogs.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6478-dates-with-dogs?wid=&fid=" onclick="ss_go('6478-dates-with-dogs', 'www.hotdateideas.com/date-ideas/dates-with-dogs',2);return false">Dates With Dogs</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6480/most_popular_rect/most_popular_rect_Jennifer-Lawrence-made-the-casting-director-cry-in-her-audition_gallery_primary.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6480-10-things-we-learned-from-the-hunger-games-crew?wid=&fid=" onclick="ss_go('6480-10-things-we-learned-from-the-hunger-games-crew', 'www.hitfix.com/galleries/10-things-we-learned-from-the-cast-and-crew-of-the-hunger-games',2);return false">10 things we learned from The Hunger Games Crew</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6482/most_popular_rect/most_popular_rect_phobia-570x459.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6482-top-10-palindromes?wid=&fid=" onclick="ss_go('6482-top-10-palindromes', 'www.toptenz.net/top-10-palindromes.php',2);return false">Top 10 Palindromes</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6339/most_popular_rect/most_popular_rect_bfast-burrito-1.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6339-making-a-burrito-in-space?wid=&fid=" onclick="ss_go('6339-making-a-burrito-in-space', 'www.pbh2.com/science-nature/making-a-burrito-in-space/',2);return false">Making A Burrito In Space</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6453/most_popular_rect/most_popular_rect_cats-imitating-hot-women-photos1.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6453-13-cats-imitating-hot-women?wid=&fid=" onclick="ss_go('6453-13-cats-imitating-hot-women', 'www.dailydawdle.com/2012/04/13-cats-imitating-hot-women-13-pic.html',2);return false">13 Cats Imitating Hot Women</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6428/most_popular_rect/most_popular_rect_worst-tattoos-ever-twilight.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6428-8-worst-tattoos-ever?wid=&fid=" onclick="ss_go('6428-8-worst-tattoos-ever', 'runt-of-the-web.com/the-eight-worst-tattoos-ever',2);return false">8 Worst Tattoos Ever</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6495/most_popular_rect/most_popular_rect_Crescent-Hotel.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6495-10-of-america-s-most-haunted-hotels?wid=&fid=" onclick="ss_go('6495-10-of-america-s-most-haunted-hotels', 'jetsetta.com/travel/10-of-americas-most-haunted-hotels/',2);return false">10 Of America's Most Haunted Hotels</a></span></li>
+<li ><img src="http://cdn.theslingshot.com/system/article/image/6466/most_popular_rect/most_popular_rect_brigitteeyes-400x300.png"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6466-you-now-have-permission-to-sleep-in-your-makeup?wid=&fid=" onclick="ss_go('6466-you-now-have-permission-to-sleep-in-your-makeup', 'www.thefrisky.com/2012-04-11/you-now-have-permission-to-sleep-in-some-of-your-makeup/',2);return false">You Now Have Permission To Sleep In Your Makeup</a></span></li>
+<li class="last"><img src="http://cdn.theslingshot.com/system/article/image/6275/most_popular_rect/most_popular_rect_FFN_SteffaniRossdale_ParkDay_FF9_033112_8934031.jpg"/><span class="link"><a target="_blank" href="http://theslingshot.com/a/6275-picnic-in-the-park?wid=&fid=" onclick="ss_go('6275-picnic-in-the-park', 'www.babyrazzi.com/2012/04/01/gwen-stefani-brings-her-boys-a-picnic-lunch-in-the-park/',2);return false">Picnic In The Park</a></span></li>
+</ul></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sBot"></div>
+                      <!-- Most Popular End -->
+
+                        <div class="sTop"></div>
+                        <div class="sMed">
+                          <div id='div-gpt-ad-1319724653701-1' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1319724653701-1'); });</script></div>
+                        </div>
+                        <div class="sBot"></div>
+                        <div class="connect">
+                            <ul class="connectIcons">
+                                <li><a class="emS" href="/newsletter"></a></li>
+                                <li><a class="twS" href="http://twitter.com/theslingshot"></a></li>
+                                <li><a class="fbS" href="http://facebook.com/slingshot"></a></li>
+                                <li><a class="rsS" href="http://feeds.feedburner.com/theslingshot"></a></li>
+                            </ul>
+                            Connect to theSlingshot
+                        </div>
+
+                        <div class="fbplugin_1">
+                          <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/slingshot" width="304" show_faces="false" border_color="" stream="true" header="false"></fb:like-box>
+                        </div>
+
+                        
+                          <div class="sTop"></div>
+                          <div class="sMed">
+                            <script src='http://www.yardbarker.com/widget/backyard/theslingshot'></script>
+                          </div>
+                          <div class="sBot"></div>
+                        
+                        <div class="sTop"></div>
+                        <div class="sMed">
+                          <div id='div-gpt-ad-1319724653701-0' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1319724653701-0'); });</script></div>
+                        </div>
+                        <div class="sBot"></div>
+                    </div>
+                    <!--
+                    Latest by Category Start
+                    NOTE: Using Jcarousel as of October 16th, 2011
+                    -->
+                    <div class="bTop"></div>
+                    <div class="bMed">
+                      <div class="jcarousel-default carousels-ss" id="lbc_c">
+                        <div class="topW" >
+                          <div class="buttons">
+                            <span><a class="back jcarousel-prev" href="#" id="lbc_c-prev"></a></span>
+                            <span><a class="forward jcarousel-next" href="#" id="lbc_c-next"></a></span>
+                          </div>
+                            <h2>latest by category</h2>
+                        </div>
+                        <ul class="latest">
+                            
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>girls</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/1000-a-few-cool-cars-and-a-bunch-of-hot-women"  onClick="ss_go('1000-a-few-cool-cars-and-a-bunch-of-hot-women','thethrottle.thechive.com/2011/05/02/cars-and-girls-to-brighten-your-day-21-pictures/',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/1000/horizontal_scroller_rect/horizontal_scroller_rect_cars-girls-500-car_babewtmk.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/1000-a-few-cool-cars-and-a-bunch-of-hot-women" onClick="ss_go('1000-a-few-cool-cars-and-a-bunch-of-hot-women','thethrottle.thechive.com/2011/05/02/cars-and-girls-to-brighten-your-day-21-pictures/',7);return false">A Few Cool Cars and A Bunch of Hot Women</a>
+  </h4>
+  <p>This is why rich guys drive fast cars.</p>
+  <div class="details"> In: <a class="type" href="/c/57">girls</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/4050-maxim-s-hot-100-girls" onClick="ss_go('4050-maxim-s-hot-100-girls','www.maxim.com/amg/2011Hot100',7);return false">Maxim's Hot 100 Girls</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5865-the-best-boobs-at-the-2012-academy-awards" onClick="ss_go('5865-the-best-boobs-at-the-2012-academy-awards','www.thefrisky.com/2012-02-27/the-best-boobs-at-the-2012-academy-awards/',7);return false">The Best Boobs At The 2012 Academy Awards</a></li>
+      
+  
+        <li><a target="_blank" href="/a/1459-the-20-hottest-girls-in-the-kitchen" onClick="ss_go('1459-the-20-hottest-girls-in-the-kitchen','www.heavy.com/action/girls/2010/11/the-20-hottest-girls-in-the-kitchen/',7);return false">The 20 Hottest Girls In The Kitchen</a></li>
+      
+  
+        <li><a target="_blank" href="/a/4052-rosie-huntington-whiteley-is-the-hottest" onClick="ss_go('4052-rosie-huntington-whiteley-is-the-hottest','www.maxim.com/amg/GIRLS/Articles/Rosie+Huntington-Whiteley+is+the+Hottest+Woman+on+Earth',7);return false">Rosie Huntington-Whiteley Is The Hottest</a></li>
+      
+  
+        <li><a target="_blank" href="/a/1714-the-20-awesomest-photos-of-guys-caught-staring" onClick="ss_go('1714-the-20-awesomest-photos-of-guys-caught-staring','www.heavy.com/comedy/2011/06/the-20-awesomest-photos-of-guys-caught-staring/1/',7);return false">The 20 Awesomest Photos of Guys Caught Staring</a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>humor</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/6432-100-songs-you-can-t-get-out-of-your-head"  onClick="ss_go('6432-100-songs-you-can-t-get-out-of-your-head','www.maxim.com/music/100-songs-you-can-t-get-out-of-your-head',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/6432/horizontal_scroller_rect/horizontal_scroller_rect_100songs_article.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/6432-100-songs-you-can-t-get-out-of-your-head" onClick="ss_go('6432-100-songs-you-can-t-get-out-of-your-head','www.maxim.com/music/100-songs-you-can-t-get-out-of-your-head',7);return false">100 Songs You Can't Get Out Of Your Head</a>
+  </h4>
+  <p>You're welcome?</p>
+  <div class="details"> In: <a class="type" href="/c/510">humor</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/6272-things-that-actually-remove-your-nail-polish" onClick="ss_go('6272-things-that-actually-remove-your-nail-polish','www.thefrisky.com/2012-03-28/chart-things-that-actually-remove-your-nail-polish/',7);return false">Things That Actually Remove Your Nail Polish</a></li>
+      
+  
+        <li><a target="_blank" href="/a/1714-the-20-awesomest-photos-of-guys-caught-staring" onClick="ss_go('1714-the-20-awesomest-photos-of-guys-caught-staring','www.heavy.com/comedy/2011/06/the-20-awesomest-photos-of-guys-caught-staring/1/',7);return false">The 20 Awesomest Photos of Guys Caught Staring</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5552-pig-hidden-in-police-decal" onClick="ss_go('5552-pig-hidden-in-police-decal','www.brobible.com/bronews/story/vermont-inmates-hide-pig-police-decal',7);return false">Pig Hidden In Police Decal</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6351-celebrity-tattoos-that-should-be-removed" onClick="ss_go('6351-celebrity-tattoos-that-should-be-removed','www.maxim.com/upkeep/celebrity-tattoos-should-be-removed',7);return false">Celebrity Tattoos That Should Be Removed</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5776-15-celebrity-beauty-blunders" onClick="ss_go('5776-15-celebrity-beauty-blunders','www.thefrisky.com/2012-02-22/15-celebrity-beauty-blunders/',7);return false">15 Celebrity Beauty Blunders</a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>sports</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/6352-9-best-celebrations-in-sports-video-games"  onClick="ss_go('6352-9-best-celebrations-in-sports-video-games','www.maxim.com/gaming/the-9-best-celebrations-sports-video-games',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/6352/horizontal_scroller_rect/horizontal_scroller_rect_MaddenPredictsGiants_article.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/6352-9-best-celebrations-in-sports-video-games" onClick="ss_go('6352-9-best-celebrations-in-sports-video-games','www.maxim.com/gaming/the-9-best-celebrations-sports-video-games',7);return false">9 Best Celebrations In Sports Video Games</a>
+  </h4>
+  <p>Don't throw your controller!</p>
+  <div class="details"> In: <a class="type" href="/c/98">sports</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/1355-gina-carano-photo-gallery" onClick="ss_go('1355-gina-carano-photo-gallery','www.heavy.com/action/girls/2011/05/gina-carano-photo-gallery-presented-by-fight-day/',7);return false">Gina Carano Photo Gallery</a></li>
+      
+  
+        <li><a target="_blank" href="/a/4707-insane-bicycle-kick-by-carlos-vela" onClick="ss_go('4707-insane-bicycle-kick-by-carlos-vela','www.brobible.com/videos/watch/insane-bicycle-kick-carlos-vela',7);return false">Insane Bicycle Kick By Carlos Vela</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6299-91-greatest-kuboobs" onClick="ss_go('6299-91-greatest-kuboobs','bustedcoverage.com/2012/04/02/91-greatest-kuboobs-in-march-madness-history-photos/',7);return false">91 Greatest #KUBoobs</a></li>
+      
+  
+        <li><a target="_blank" href="/a/1354-the-20-hottest-photos-of-maria-sharapova" onClick="ss_go('1354-the-20-hottest-photos-of-maria-sharapova','www.heavy.com/action/girls/2011/05/the-20-hottest-photos-of-maria-sharapova/',7);return false">The 20 Hottest Photos of Maria Sharapova</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5066-is-eli-manning-one-of-the-top-5-nfl-qbs" onClick="ss_go('5066-is-eli-manning-one-of-the-top-5-nfl-qbs','www.brobible.com/bronews/story/eli-manning-top-5-quarterbacks-nfl1',7);return false">Is Eli Manning One Of The Top 5 NFL QBs?</a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>entertainment</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/6432-100-songs-you-can-t-get-out-of-your-head"  onClick="ss_go('6432-100-songs-you-can-t-get-out-of-your-head','www.maxim.com/music/100-songs-you-can-t-get-out-of-your-head',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/6432/horizontal_scroller_rect/horizontal_scroller_rect_100songs_article.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/6432-100-songs-you-can-t-get-out-of-your-head" onClick="ss_go('6432-100-songs-you-can-t-get-out-of-your-head','www.maxim.com/music/100-songs-you-can-t-get-out-of-your-head',7);return false">100 Songs You Can't Get Out Of Your Head</a>
+  </h4>
+  <p>You're welcome?</p>
+  <div class="details"> In: <a class="type" href="/c/510">entertainment</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/5865-the-best-boobs-at-the-2012-academy-awards" onClick="ss_go('5865-the-best-boobs-at-the-2012-academy-awards','www.thefrisky.com/2012-02-27/the-best-boobs-at-the-2012-academy-awards/',7);return false">The Best Boobs At The 2012 Academy Awards</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5924-50-funniest-movie-guy-duos-of-all-time" onClick="ss_go('5924-50-funniest-movie-guy-duos-of-all-time','www.brobible.com/slideshows/view/21-jump-street-funniest-movie-duos',7);return false">50 Funniest Movie Guy Duos Of All Time</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6177-9-clueless-video-game-commercials" onClick="ss_go('6177-9-clueless-video-game-commercials','www.thesmokingjacket.com/humor/9-video-game-commercials-that-clearly-had-no-idea-what-they-were-selling',7);return false">9 Clueless Video Game Commercials</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6350-7-actors-who-make-terrible-villains" onClick="ss_go('6350-7-actors-who-make-terrible-villains','www.maxim.com/movies/7-actors-who-make-terrible-villains',7);return false">7 Actors Who Make Terrible Villains</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5560-snl-spoof-defends-lana-del-rey" onClick="ss_go('5560-snl-spoof-defends-lana-del-rey','www.thefrisky.com/2012-02-06/saturday-night-live-defends-lana-del-rey-with-spoof/',7);return false">SNL Spoof Defends Lana Del Rey </a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>celebrity</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/6351-celebrity-tattoos-that-should-be-removed"  onClick="ss_go('6351-celebrity-tattoos-that-should-be-removed','www.maxim.com/upkeep/celebrity-tattoos-should-be-removed',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/6351/horizontal_scroller_rect/horizontal_scroller_rect_DumbTattoos_MikeTyson_article.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/6351-celebrity-tattoos-that-should-be-removed" onClick="ss_go('6351-celebrity-tattoos-that-should-be-removed','www.maxim.com/upkeep/celebrity-tattoos-should-be-removed',7);return false">Celebrity Tattoos That Should Be Removed</a>
+  </h4>
+  <p>Fame makes you do inexplicable things.</p>
+  <div class="details"> In: <a class="type" href="/c/74">celebrity</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/5776-15-celebrity-beauty-blunders" onClick="ss_go('5776-15-celebrity-beauty-blunders','www.thefrisky.com/2012-02-22/15-celebrity-beauty-blunders/',7);return false">15 Celebrity Beauty Blunders</a></li>
+      
+  
+        <li><a target="_blank" href="/a/1356-little-dr-dre-back-in-the-day" onClick="ss_go('1356-little-dr-dre-back-in-the-day','www.heavy.com/music/music-video/music-scenes/2011/05/little-dr-dre-back-in-the-day/',7);return false">Little Dr. Dre Back In The Day</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5065-snoop-dogg-on-the-price-is-right" onClick="ss_go('5065-snoop-dogg-on-the-price-is-right','www.brobible.com/videos/watch/snoop-dogg-on-price-is-right',7);return false">Snoop Dogg On The Price Is Right</a></li>
+      
+  
+        <li><a target="_blank" href="/a/4052-rosie-huntington-whiteley-is-the-hottest" onClick="ss_go('4052-rosie-huntington-whiteley-is-the-hottest','www.maxim.com/amg/GIRLS/Articles/Rosie+Huntington-Whiteley+is+the+Hottest+Woman+on+Earth',7);return false">Rosie Huntington-Whiteley Is The Hottest</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5780-14-celebrity-girl-crushes" onClick="ss_go('5780-14-celebrity-girl-crushes','www.thefrisky.com/2012-02-21/14-celebrity-girl-crushes/',7);return false">14 Celebrity Girl Crushes</a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>lifestyle</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/4054-the-facial-hair-hall-of-fame"  onClick="ss_go('4054-the-facial-hair-hall-of-fame','www.maxim.com/amg/HUMOR/Articles/Movember+Mustache+Ride:+A+Facial+Hair+Hall+of+Fame',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/4054/horizontal_scroller_rect/horizontal_scroller_rect_mustache_beard_header.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/4054-the-facial-hair-hall-of-fame" onClick="ss_go('4054-the-facial-hair-hall-of-fame','www.maxim.com/amg/HUMOR/Articles/Movember+Mustache+Ride:+A+Facial+Hair+Hall+of+Fame',7);return false">The Facial Hair Hall of Fame</a>
+  </h4>
+  <p>We've rounded up some of our finest mustache content, waxed it into shape and combed it neatly into the following post.</p>
+  <div class="details"> In: <a class="type" href="/c/84">lifestyle</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/6034-dorm-room-hot-tub" onClick="ss_go('6034-dorm-room-hot-tub','www.brobible.com/bronews/story/ohio-university-bro-hot-tub-dorm',7);return false">Dorm Room Hot Tub</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5339-swelling-servings" onClick="ss_go('5339-swelling-servings','www.thesmokingjacket.com/humor/swelling-servings-the-growth-of-american-food-portions',7);return false">Swelling Servings</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6044-check-out-these-adidas-cowboy-boots" onClick="ss_go('6044-check-out-these-adidas-cowboy-boots','bustedcoverage.com/2012/03/08/check-out-adidas-new-cowboy-boots-photos/',7);return false">Check Out These Adidas Cowboy Boots</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5694-5-unwritten-rules-of-the-gym" onClick="ss_go('5694-5-unwritten-rules-of-the-gym','www.brobible.com/bronews/story/5-must-follow-rules-gym-etiquette',7);return false">5 Unwritten Rules Of The Gym</a></li>
+      
+  
+        <li><a target="_blank" href="/a/4947-8-things-to-know-about-online-dating" onClick="ss_go('4947-8-things-to-know-about-online-dating','www.thesmokingjacket.com/lifestyle/online-dating-phd-8-things-you-should-know',7);return false">8 Things To Know About Online Dating</a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>news&politics</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/6203-5-things-kids-know-that-liberals-have-forgotten"  onClick="ss_go('6203-5-things-kids-know-that-liberals-have-forgotten','rightwingnews.com/john-hawkins/five-things-children-know-that-liberals-have-forgotten/',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/6203/horizontal_scroller_rect/horizontal_scroller_rect_6-Tips-to-Help-your-Kid-Adjust-to-a-New-School.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/6203-5-things-kids-know-that-liberals-have-forgotten" onClick="ss_go('6203-5-things-kids-know-that-liberals-have-forgotten','rightwingnews.com/john-hawkins/five-things-children-know-that-liberals-have-forgotten/',7);return false">5 Things Kids Know That Liberals Have Forgotten</a>
+  </h4>
+  <p>Get that kid to balance the national budget!</p>
+  <div class="details"> In: <a class="type" href="/c/480">news&politics</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/5342-obama-s-personalized-air-jordans" onClick="ss_go('5342-obama-s-personalized-air-jordans','bleacherreport.com/articles/1031521-air-jordan-spizikes-nike-gets-presidential-in-spizikes-ode-to-obama',7);return false">Obama's Personalized Air Jordans</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5914-tv-host-freaks-out-because-of-a-lizard" onClick="ss_go('5914-tv-host-freaks-out-because-of-a-lizard','www.pbh2.com/humor/tv-host-freaks-out-because-of-a-lizard/',7);return false">TV Host Freaks Out Because Of A Lizard</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6020-annual-american-death-statistics" onClick="ss_go('6020-annual-american-death-statistics','alligator-sunglasses.com/post/18752643660/annual-american-death-statistics',7);return false">Annual American Death Statistics</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6399-7-responsibilities-you-have-as-an-american" onClick="ss_go('6399-7-responsibilities-you-have-as-an-american','rightwingnews.com/john-hawkins/7-responsibilities-you-have-as-an-american/',7);return false">7 Responsibilities You Have As An American</a></li>
+      
+  
+        <li><a target="_blank" href="/a/5871-is-your-boss-on-the-list-of-worst-bosses" onClick="ss_go('5871-is-your-boss-on-the-list-of-worst-bosses','digg.com/newsbar/topnews/7_types_of_the_most_terrible_bosses?utm_campaign=slingshotexchange',7);return false">Is Your Boss On The List Of Worst Bosses?</a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>tech&science</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/5553-lego-captain-america-is-a-bloody-mess"  onClick="ss_go('5553-lego-captain-america-is-a-bloody-mess','www.brobible.com/videos/watch/lego-version-of-captain-america-just-a-bloody-mess',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/5553/horizontal_scroller_rect/horizontal_scroller_rect_Lego-Captain-America.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/5553-lego-captain-america-is-a-bloody-mess" onClick="ss_go('5553-lego-captain-america-is-a-bloody-mess','www.brobible.com/videos/watch/lego-version-of-captain-america-just-a-bloody-mess',7);return false">Lego Captain America Is A Bloody Mess</a>
+  </h4>
+  <p>Watch the bricks fly!</p>
+  <div class="details"> In: <a class="type" href="/c/81">tech&science</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/6176-6-monstrous-collisions-in-space" onClick="ss_go('6176-6-monstrous-collisions-in-space','regretfulmorning.com/2012/03/space-explosions/',7);return false">6 Monstrous Collisions In Space</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6033-top-10-dog-buying-mistakes" onClick="ss_go('6033-top-10-dog-buying-mistakes','www.askmen.com/top_10/entertainment/dog-buying-mistakes.html',7);return false">Top 10 Dog-Buying Mistakes</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6307-10-movies-you-didn-t-know-were-comic-books-firs" onClick="ss_go('6307-10-movies-you-didn-t-know-were-comic-books-firs','www.toptenz.net/top-10-movies-you-didnt-know-were-comic-books-first.php',7);return false">10 Movies You Didn't Know Were Comic Books First</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6372-8-flying-cars-of-the-future" onClick="ss_go('6372-8-flying-cars-of-the-future','regretfulmorning.com/2012/04/flying-cars-gallery/',7);return false">8 Flying Cars Of The Future</a></li>
+      
+  
+        <li><a target="_blank" href="/a/4844-10-best-new-airlines" onClick="ss_go('4844-10-best-new-airlines','www.askmen.com/top_10/travel/best-airlines.html',7);return false">10 Best New Airlines</a></li>
+      </ul></div>
+  </li>
+  
+<li class="latest_eq">
+<div class="topBB"><h3 style='text-transform:uppercase'>gaming</h3></div>
+<div class="lbox lbox_1">
+  
+  <a target="_blank" href="/a/6352-9-best-celebrations-in-sports-video-games"  onClick="ss_go('6352-9-best-celebrations-in-sports-video-games','www.maxim.com/gaming/the-9-best-celebrations-sports-video-games',7);return false">
+    <img style="width:271px;height:152px" src="http://cdn.theslingshot.com/system/article/image/6352/horizontal_scroller_rect/horizontal_scroller_rect_MaddenPredictsGiants_article.jpg"/>
+  </a>
+  <h4>
+    <a target="_blank" href="/a/6352-9-best-celebrations-in-sports-video-games" onClick="ss_go('6352-9-best-celebrations-in-sports-video-games','www.maxim.com/gaming/the-9-best-celebrations-sports-video-games',7);return false">9 Best Celebrations In Sports Video Games</a>
+  </h4>
+  <p>Don't throw your controller!</p>
+  <div class="details"> In: <a class="type" href="/c/98">gaming</a></div>
+  </div>
+
+  <div class="lbox lbox_2"><p>SEE ALSO</p><ul class="seeAlso">
+  
+        <li><a target="_blank" href="/a/6177-9-clueless-video-game-commercials" onClick="ss_go('6177-9-clueless-video-game-commercials','www.thesmokingjacket.com/humor/9-video-game-commercials-that-clearly-had-no-idea-what-they-were-selling',7);return false">9 Clueless Video Game Commercials</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6187-top-10-best-pro-wresting-games" onClick="ss_go('6187-top-10-best-pro-wresting-games','www.toptenz.net/top-10-best-pro-wrestling-video-games.php',7);return false">Top 10 Best Pro Wresting Games</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6037-if-real-life-were-more-like-iphone-games" onClick="ss_go('6037-if-real-life-were-more-like-iphone-games','www.collegehumor.com/article/6737378/if-real-life-were-more-like-iphone-games',7);return false">If Real Life Were More Like iPhone Games</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6197-10-reasons-pandas-may-ko-the-old-republic" onClick="ss_go('6197-10-reasons-pandas-may-ko-the-old-republic','furiousfanboys.com/2012/03/10-reasons-pandas-may-ko-the-old-republic/',7);return false">10 Reasons Pandas May KO The Old Republic</a></li>
+      
+  
+        <li><a target="_blank" href="/a/6393-the-10-best-batman-games-ever" onClick="ss_go('6393-the-10-best-batman-games-ever','furiousfanboys.com/2012/04/the-10-best-batman-games-ever/',7);return false">The 10 Best Batman Games Ever</a></li>
+      </ul></div>
+  </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="bBot"></div>
+                    <!-- Latest By Category End -->
+                    <!--
+                    Top Videos Start
+                    NOTE: Using Jcarousel as of October 16th, 2011
+                    -->
+                    <div class="bTop"></div>
+                    <div class="bMed" class="carousels-ss">
+                      <div class="jcarousel-default carousels-ss" id="tv_c">
+                        <div class="topW">
+                          <div class="buttons">
+                            <span><a class="back jcarousel-prev" href="#" id="tv_c-prev"></a></span>
+                            <span><a class="forward jcarousel-next" href="#" id="tv_c-next"></a></span>
+                          </div>
+                          <h2>TOP VIDEOS</h2>
+                        </div>
+                        <ul class="latest">
+                            
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/4052-rosie-huntington-whiteley-is-the-hottest" onClick="ss_go('4052-rosie-huntington-whiteley-is-the-hottest', 'www.maxim.com/amg/GIRLS/Articles/Rosie+Huntington-Whiteley+is+the+Hottest+Woman+on+Earth','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/4052/horizontal_scroller_rect/horizontal_scroller_rect_hot100_1_huntington_L.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/4052-rosie-huntington-whiteley-is-the-hottest" onClick="ss_go('4052-rosie-huntington-whiteley-is-the-hottest', 'www.maxim.com/amg/GIRLS/Articles/Rosie+Huntington-Whiteley+is+the+Hottest+Woman+on+Earth','6');return false">Rosie Huntington-Whiteley Is The Hottest</a></h4><p>All hail Maxim's new queen!</p><div class="details"> In: <a target="_blank" href="/c/57">girls</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/1362-family-feud-fail" onClick="ss_go('1362-family-feud-fail', 'www.heavy.com/comedy/2010/10/family-feud-fail/','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/1362/horizontal_scroller_rect/horizontal_scroller_rect_fullsize_11.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/1362-family-feud-fail" onClick="ss_go('1362-family-feud-fail', 'www.heavy.com/comedy/2010/10/family-feud-fail/','6');return false">Family Feud Fail</a></h4><p>Survey says? FAIL. </p><div class="details"> In: <a target="_blank" href="/c/74">humor</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/5692-kate-upton-bouncing-supercut" onClick="ss_go('5692-kate-upton-bouncing-supercut', 'www.brobible.com/bronews/story/kate-upton-bouncing-supercut-exists','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/5692/horizontal_scroller_rect/horizontal_scroller_rect_kate-upton-beach-bunny-1.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/5692-kate-upton-bouncing-supercut" onClick="ss_go('5692-kate-upton-bouncing-supercut', 'www.brobible.com/bronews/story/kate-upton-bouncing-supercut-exists','6');return false">Kate Upton Bouncing Supercut</a></h4><p>Yes, it exists.</p><div class="details"> In: <a target="_blank" href="/c/57">girls</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/4051-victoria-s-secret-gets-even-sexier" onClick="ss_go('4051-victoria-s-secret-gets-even-sexier', 'www.maxim.com/amg/GIRLS/Articles/Victoria's+Secret+Gets+Even+Sexier','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/4051/horizontal_scroller_rect/horizontal_scroller_rect_l7.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/4051-victoria-s-secret-gets-even-sexier" onClick="ss_go('4051-victoria-s-secret-gets-even-sexier', 'www.maxim.com/amg/GIRLS/Articles/Victoria's+Secret+Gets+Even+Sexier','6');return false">Victoria's Secret Gets Even Sexier</a></h4><p>The lingerie legends unleash their new secret weapon: Lais Ribeiro</p><div class="details"> In: <a target="_blank" href="/c/57">girls</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/6114-a-super-cool-baby-annoucement" onClick="ss_go('6114-a-super-cool-baby-annoucement', 'www.thefrisky.com/2012-03-13/the-daily-ovulation-a-super-cool-baby-announcement-ever/','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/6114/horizontal_scroller_rect/horizontal_scroller_rect_images.jpeg" class="top_video" /></a><h4><a target="_blank" href="/a/6114-a-super-cool-baby-annoucement" onClick="ss_go('6114-a-super-cool-baby-annoucement', 'www.thefrisky.com/2012-03-13/the-daily-ovulation-a-super-cool-baby-announcement-ever/','6');return false">A Super Cool Baby Annoucement</a></h4><p>What a sweet way to introduce your new baby, very clever these two.</p><div class="details"> In: <a target="_blank" href="/c/81">random</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/1363-face-vs-watermelon" onClick="ss_go('1363-face-vs-watermelon', 'www.heavy.com/comedy/comedy-videos/funny-videos/2010/09/face-vs-watermelon/','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/1363/horizontal_scroller_rect/horizontal_scroller_rect_watermelon-face.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/1363-face-vs-watermelon" onClick="ss_go('1363-face-vs-watermelon', 'www.heavy.com/comedy/comedy-videos/funny-videos/2010/09/face-vs-watermelon/','6');return false">Face Vs. Watermelon</a></h4><p>You've gotta watch out for those watermelons, lady. They're just waiting for their chance to strike.</p><div class="details"> In: <a target="_blank" href="/c/74">humor</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/4707-insane-bicycle-kick-by-carlos-vela" onClick="ss_go('4707-insane-bicycle-kick-by-carlos-vela', 'www.brobible.com/videos/watch/insane-bicycle-kick-carlos-vela','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/4707/horizontal_scroller_rect/horizontal_scroller_rect_FOR08_SOCCER-NATIONS-_0121_.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/4707-insane-bicycle-kick-by-carlos-vela" onClick="ss_go('4707-insane-bicycle-kick-by-carlos-vela', 'www.brobible.com/videos/watch/insane-bicycle-kick-carlos-vela','6');return false">Insane Bicycle Kick By Carlos Vela</a></h4><p>Ride that air-bike!</p><div class="details"> In: <a target="_blank" href="/c/26">sports</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/4869-miami-of-ohio-equipment-manager-cuts-a-rug" onClick="ss_go('4869-miami-of-ohio-equipment-manager-cuts-a-rug', 'bustedcoverage.com/2011/12/13/miami-oh-football-equipment-manager-is-a-dancing-nut-video/','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/4869/horizontal_scroller_rect/horizontal_scroller_rect_equipment-guy.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/4869-miami-of-ohio-equipment-manager-cuts-a-rug" onClick="ss_go('4869-miami-of-ohio-equipment-manager-cuts-a-rug', 'bustedcoverage.com/2011/12/13/miami-oh-football-equipment-manager-is-a-dancing-nut-video/','6');return false">Miami of Ohio Equipment Manager Cuts A Rug</a></h4><p>This guy belongs in a club, not on the field.</p><div class="details"> In: <a target="_blank" href="/c/26">sports</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/5560-snl-spoof-defends-lana-del-rey" onClick="ss_go('5560-snl-spoof-defends-lana-del-rey', 'www.thefrisky.com/2012-02-06/saturday-night-live-defends-lana-del-rey-with-spoof/','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/5560/horizontal_scroller_rect/horizontal_scroller_rect_lana-del-rey-snl-560x306.jpeg" class="top_video" /></a><h4><a target="_blank" href="/a/5560-snl-spoof-defends-lana-del-rey" onClick="ss_go('5560-snl-spoof-defends-lana-del-rey', 'www.thefrisky.com/2012-02-06/saturday-night-live-defends-lana-del-rey-with-spoof/','6');return false">SNL Spoof Defends Lana Del Rey </a></h4><p>"No serious musician would ever change their name except for maybe Sting, Cher,Elton John, Lady Gaga, JayZ, everyone in hip hop and Bob Dylan."</p><div class="details"> In: <a target="_blank" href="/c/74">humor</a><br/></div></div></li>
+  
+  <li class=""><div class="horizontal_eq vbox"><a target="_blank" href="/a/1356-little-dr-dre-back-in-the-day" onClick="ss_go('1356-little-dr-dre-back-in-the-day', 'www.heavy.com/music/music-video/music-scenes/2011/05/little-dr-dre-back-in-the-day/','6');return false"><img src="http://cdn.theslingshot.com/system/article/image/1356/horizontal_scroller_rect/horizontal_scroller_rect_drdre1.jpg" class="top_video" /></a><h4><a target="_blank" href="/a/1356-little-dr-dre-back-in-the-day" onClick="ss_go('1356-little-dr-dre-back-in-the-day', 'www.heavy.com/music/music-video/music-scenes/2011/05/little-dr-dre-back-in-the-day/','6');return false">Little Dr. Dre Back In The Day</a></h4><p>I don't know where this appeared from or who the creepy white guy is, but check out little Andre Romelle Young, before he became the Dr.</p><div class="details"> In: <a target="_blank" href="/c/515">celebrity</a><br/></div></div></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="bBot"></div>
+                    <!-- Top Videos End -->
+
+                </div>
+            </div>
+            <div class="marketing">
+                <div id='div-gpt-ad-1319724653701-2' style='margin:auto;width:728px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1319724653701-2'); });</script></div>
+            </div>
+            <div class="bottom"><div class="bottomSocial"><ul class="bSoc"><li><a class="fbB" target="_blank" href="http://facebook.com/slingshot"></a></li> <li><a class="twB" target="_blank" href="http://twitter.com/theslingshot"></a></li> <li><a class="suB" target="_blank" href="http://feeds.feedburner.com/theslingshot"></a></li> <li><a class="emB" target="_blank" href="/newsletter"></a></li> </ul> <a href="/" class="logo"> <img src="/images/logo.png" /> </a> <h2>Follow theSlingshot</h2> </div> <ul class="botContent"> <li><a href="#">Fellas edition</a> <ul> <li><a href="http://fellas.theslingshot.com/c/57-girls">girls</a></li>  <li><a href="http://fellas.theslingshot.com/c/74-humor">humor</a></li>  <li><a href="http://fellas.theslingshot.com/c/26-sports">sports</a></li>  <li><a href="http://fellas.theslingshot.com/c/510-entertainment">entertainment</a></li>  <li><a href="http://fellas.theslingshot.com/c/515-celebrity">celebrity</a></li>  <li><a href="http://fellas.theslingshot.com/c/84-lifestyle">lifestyle</a></li>  <li><a href="http://fellas.theslingshot.com/c/480-news&politics">news&politics</a></li>  <li><a href="http://fellas.theslingshot.com/c/483-tech&science">tech&science</a></li>  <li><a href="http://fellas.theslingshot.com/c/98-gaming">gaming</a></li>  </ul> </li> <li><a href="#">Ladies edition</a> <ul>  <li><a href="http://ladies.theslingshot.com/c/510-entertainment"> entertainment</a></li>  <li><a href="http://ladies.theslingshot.com/c/515-celebrity"> celebrity</a></li>  <li><a href="http://ladies.theslingshot.com/c/74-humor"> humor</a></li>  <li><a href="http://ladies.theslingshot.com/c/520-style"> style</a></li>  <li><a href="http://ladies.theslingshot.com/c/526-sex&culture"> sex&culture</a></li>  <li><a href="http://ladies.theslingshot.com/c/83-lifestyle"> lifestyle</a></li>  <li><a href="http://ladies.theslingshot.com/c/82-food"> food</a></li>  <li><a href="http://ladies.theslingshot.com/c/534-mom"> mom</a></li>  <li><a href="http://ladies.theslingshot.com/c/538-teen"> teen</a></li>  </ul> </li> <li><a href="#">theSlingshot</a> <ul> <li><a href="/about_us">about us</a></li> <li><a href="/contact">contact us</a></li> <li><a href="/publishers">publishers</a></li> <li><a href="/advertisers">advertisers</a></li> <li><a href="/terms_of_use">terms of use</a></li> <li><a href="/privacy_policy">privacy policy</a></li> </ul> </li> <li><a href="#">Editors</a> <ul> <li><a href="mailto:scott@theslingshot.com">Scott Fey</a></li> <li><a href="mailto:jonelle@theslingshot.com">Jonelle Gallardo</a></li> </ul> </li> <li class="last"><a href="#">Friends</a> <ul> <li><a target="_blank" href="http://collegehumor.com?utm_source=theslingshot&utm_medium=referral">College Humor</a></li> <li><a target="_blank" href="http://askmen.com?utm_source=theslingshot&utm_medium=referral">AskMen</a></li> <li><a target="_blank" href="http://thechive.com?utm_source=theslingshot&utm_medium=referral">theCHIVE</a></li> <li><a target="_blank" href="http://thesmokingjacket.com?utm_source=theslingshot&utm_medium=referral">theSmokingJacket</a></li> <li><a target="_blank" href="http://ranker.com?utm_source=theslingshot&utm_medium=referral">Ranker</a></li> <li><a target="_blank" href="http://yardbarker.com?utm_source=theslingshot&utm_medium=referral">Yardbarker</a></li> <li><a target="_blank" href="http://thefrisky.com?utm_source=theslingshot&utm_medium=referral">theFrisky</a></li> <li><a target="_blank" href="http://thesuperficial.com?utm_source=theslingshot&utm_medium=referral">theSuperficial</a></li> <li><a target="_blank" href="http://guyism.com?utm_source=theslingshot&utm_medium=referral">Guyism</a></li> <li><a target="_blank" href="http://egotv.com?utm_source=theslingshot&utm_medium=referral">EgoTV</a></li> <li><a target="_blank" href="http://maxim.com?utm_source=theslingshot&utm_medium=referral">Maxim</a></li> <li><a target="_blank" href="http://totalprosports.com?utm_source=theslingshot&utm_medium=referral">TotalProSports</a></li> <li><a target="_blank" href="http://brobible.com?utm_source=theslingshot&utm_medium=referral">BroBible</a></li> <li><a target="_blank" href="http://pleated-jeans.com?utm_source=theslingshot&utm_medium=referral">Pleated-Jeans</a></li> <li><a target="_blank" href="http://cavemancircus.com?utm_source=theslingshot&utm_medium=referral">CavemanCircus</a></li> <li><a target="_blank" href="http://toptenz.net?utm_source=theslingshot&utm_medium=referral">TopTenz</a></li><li><a target="_blank" href="http://dailydawdle.com?utm_source=theslingshot&utm_medium=referral">DailyDawdle</a></li><li><a target="_blank" href="http://moondogsports.com?utm_source=theslingshot&utm_medium=referral">MoondogSports</a></li> </ul> </li> </ul> </div>
+
+            <div class="footer"> <span class="fr"> Slingshot is a trademark of Slingshot Holdings, LLC.<br/> Copyright &copy; 2011 Slingshot Holdings, LLC. All rights reserved.  </span> <a href="/advertisers">Advertisers</a>  |  <a href="/terms_of_use">Terms of Use</a>  |  <a href="/privacy_policy">Privacy Policy</a>  |  <a href="/contact">Contact</a>  |  <a href="http://www.yardbarker.com/"><img border="0" width="100" src="http://www.yardbarker.com/images/ybn/badge_100.gif" height="50"/></a></div>
+        </div>
+        <div class="slingMeW" id="slingMe">
+            <div class="slingMe">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td align="left" width="250px">
+                        <a href="http://www.facebook.com/slingshot" target="_blank"><h3>Like theSlingshot on Facebook.</h3></a>
+                      </td>
+                      <td width="80px"><img src="http://cdn.theslingshot.com/images/logo_transparent.png" /></td>
+                      <td width="120px">
+                        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fslingshot&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></nobr>
+                      </td>
+                      <td align="right" width="*"><h3>How about something random?</h3></td>
+                      <td align="right"><a target="_blank" href="/sling_me?pa=3" class="button"><span>SLING ME!</span></a><a onclick="$('#slingMe').hide();return false" href="#">close x</a></td>
+                    </tr>
+                </table>
+            </div>
+          </div>
+<!-- ClickTale Bottom part --><div id="ClickTaleDiv" style="display: none;"></div><script type="text/javascript">if(document.location.protocol!='https:')document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRc5.js'%20type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">if(typeof ClickTale=='function') ClickTale(1436,0.0171,"www09");</script><!-- ClickTale end of Bottom part -->
+      </body>
+</html>

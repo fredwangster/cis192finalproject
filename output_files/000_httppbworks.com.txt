@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>PBworks | Online Team Collaboration</title>
+  <style type="text/css" media="all">@import url("http://pbworks.com/modules/system/system.base.css?lxeldj");
+@import url("http://pbworks.com/modules/system/system.menus.css?lxeldj");
+@import url("http://pbworks.com/modules/system/system.messages.css?lxeldj");
+@import url("http://pbworks.com/modules/system/system.theme.css?lxeldj");</style>
+<style type="text/css" media="all">@import url("http://pbworks.com/misc/ui/jquery.ui.core.css?lxeldj");
+@import url("http://pbworks.com/misc/ui/jquery.ui.theme.css?lxeldj");
+@import url("http://pbworks.com/misc/ui/jquery.ui.button.css?lxeldj");
+@import url("http://pbworks.com/misc/ui/jquery.ui.resizable.css?lxeldj");
+@import url("http://pbworks.com/misc/ui/jquery.ui.dialog.css?lxeldj");</style>
+<style type="text/css" media="all">@import url("http://pbworks.com/modules/field/theme/field.css?lxeldj");
+@import url("http://pbworks.com/modules/node/node.css?lxeldj");
+@import url("http://pbworks.com/modules/search/search.css?lxeldj");
+@import url("http://pbworks.com/modules/user/user.css?lxeldj");</style>
+<style type="text/css" media="all">@import url("http://pbworks.com/sites/all/modules/ctools/css/ctools.css?lxeldj");
+@import url("http://pbworks.com/sites/all/modules/dhtml_menu/dhtml_menu.css?lxeldj");
+@import url("http://pbworks.com/sites/all/modules/lightbox2/css/lightbox.css?lxeldj");
+@import url("http://pbworks.com/sites/all/modules/nice_menus/nice_menus.css?lxeldj");
+@import url("http://pbworks.com/sites/all/modules/nice_menus/nice_menus_default.css?lxeldj");
+@import url("http://pbworks.com/sites/all/modules/simple_dialog/css/simple_dialog.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/layouts/twocol_front/twocol_front.css?lxeldj");</style>
+<style type="text/css" media="all">@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/default.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/reset.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/secondary.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/login.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/panels.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/webforms.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/jqueryui.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/views.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/casestudy.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/resources.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/job.css?lxeldj");
+@import url("http://pbworks.com/sites/all/themes/pbworkstheme/css/mods.css?lxeldj");</style>
+  <script type="text/javascript" src="http://pbworks.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/drupal.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.button.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.mouse.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.draggable.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.position.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.resizable.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/misc/ui/jquery.ui.dialog.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/views/js/jquery.ui.dialog.patch.js?v=1.8.7"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/themes/pbworkstheme/js/weblead-validate.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/dhtml_menu/dhtml_menu.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/lightbox2/js/lightbox_modal.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/lightbox2/js/lightbox.js?1334716672"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/nice_menus/superfish/js/superfish.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/nice_menus/nice_menus.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/panels/js/panels.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/simple_dialog/js/simple_dialog.js?lxeldj"></script>
+<script type="text/javascript" src="http://pbworks.com/sites/all/modules/google_analytics/googleanalytics.js?lxeldj"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-2694787-12"]);_gaq.push(["_setDomainName", ".pbworks.com"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"pbworkstheme","theme_token":"7ZPpokXSQN6oPVRDjaTXPaNl7EMWskVtNPacZG2saCs","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.button.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.draggable.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.resizable.min.js":1,"misc\/ui\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/views\/js\/jquery.ui.dialog.patch.js":1,"sites\/all\/themes\/pbworkstheme\/js\/weblead-validate.js":1,"sites\/all\/modules\/dhtml_menu\/dhtml_menu.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox_modal.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/superfish.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/jquery.bgiframe.min.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/jquery.hoverIntent.minified.js":1,"sites\/all\/modules\/nice_menus\/nice_menus.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/simple_dialog\/js\/simple_dialog.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dhtml_menu\/dhtml_menu.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/nice_menus\/nice_menus.css":1,"sites\/all\/modules\/nice_menus\/nice_menus_default.css":1,"sites\/all\/modules\/simple_dialog\/css\/simple_dialog.css":1,"sites\/all\/themes\/pbworkstheme\/layouts\/twocol_front\/twocol_front.css":1,"sites\/all\/themes\/pbworkstheme\/css\/default.css":1,"sites\/all\/themes\/pbworkstheme\/css\/reset.css":1,"sites\/all\/themes\/pbworkstheme\/css\/secondary.css":1,"sites\/all\/themes\/pbworkstheme\/css\/login.css":1,"sites\/all\/themes\/pbworkstheme\/css\/panels.css":1,"sites\/all\/themes\/pbworkstheme\/css\/webforms.css":1,"sites\/all\/themes\/pbworkstheme\/css\/jqueryui.css":1,"sites\/all\/themes\/pbworkstheme\/css\/views.css":1,"sites\/all\/themes\/pbworkstheme\/css\/casestudy.css":1,"sites\/all\/themes\/pbworkstheme\/css\/resources.css":1,"sites\/all\/themes\/pbworkstheme\/css\/job.css":1,"sites\/all\/themes\/pbworkstheme\/css\/mods.css":1}},"dhtmlMenu":{"nav":"open","animation":{"effects":{"height":"height","opacity":"opacity","width":0},"speed":"500"},"effects":{"siblings":"close-same-tree","children":"none","remember":"0"},"filter":{"type":"whitelist","list":{"main-menu":"main-menu","book-toc-21":0,"devel":0,"management":0,"menu-alt-blue":0,"menu-footer":0,"menu-sub-nav-agency":0,"navigation":0,"shortcut-set-1":0,"user-menu":0}}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":0,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"View Image Details","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":true,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":"lightbox_ungrouped","custom_trigger_classes":"","disable_for_gallery_lists":1,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":900,"iframe_height":400,"iframe_border":1,"enable_video":0},"nice_menus_options":{"delay":"800","speed":"fast"},"simpleDialog":{"classes":"","defaults":"width:300;height:auto;position:[center,60]"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackDomainMode":"1","trackCrossDomains":"pbworks.com"}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-mainpage" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+  <div id="page-wrapper"><div id="page">
+
+    <div id="header"><div class="section clearfix">
+
+              <a href="/" title="Home" rel="home" id="logo">
+          <img src="http://pbworks.com/sites/all/themes/pbworkstheme/images/logo_pbworks.png" alt="Home" />
+        </a>
+      
+      
+        <div class="region region-header">
+    <div id="block-block-1" class="block block-block">
+
+    
+  <div class="content">
+    <ul id="top-nav">
+<li>
+<a class="btn-login" href="https://my.pbworks.com/" id="inline-login" onfocus="this.blur();">Login</a>
+</li>
+<li>
+<a class="btn-jobs" href="jobs" onfocus="this.blur();">Jobs</a>
+</li>
+<li>
+<a class="btn-started simple-dialog" href="learn-more" id="inline-started" name="learn-more-links" onfocus="this.blur();" rel="height:585;width:855;position:[center,150];resizable:false;draggable:false;" title="Sign up to use PBworks.">
+<strong>Get Started!</strong>
+</a>
+<li>
+<p>
+<span>Sales line: <strong>415.963.4369</strong>
+</span>
+</p>
+</li>
+<li>
+<a class="btn-social facebook" href="http://facebook.com/pbworks" target="new" onfocus="this.blur();">
+</a>
+</li>
+<li>
+<a class="btn-social twitter" href="http://twitter.com/pbworks" target="new" onfocus="this.blur();">
+</a>
+</li>
+<li>
+<a class="btn-social blog" href="http://blog.pbworks.com" target="new" onfocus="this.blur();">
+</a>
+</li>
+</ul>  </div>
+</div>
+  </div>
+
+    </div></div> <!-- /.section, /#header -->
+
+    
+    
+    
+    <div id="main-wrapper"><div id="main" class="clearfix">
+
+      <div id="content" class="column"><div class="section">
+                <a id="main-content"></a>
+                                <div class="tabs"></div>                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="panel-display panel-2col-bricks clearfix" id="mainpage">
+<div class="top-container">
+  <div class="panel-panel panel-col-top">
+    <div class="inside"><div class="panel-pane pane-page-primary-links" >
+  
+  
+  
+  <div class="pane-content">
+    <ul class="links primary-links"><li class="menu-399 first"><a href="/products" class="top">Products</a></li>
+<li class="menu-390"><a href="/solutions">Solutions</a></li>
+<li class="menu-391"><a href="/industries">Industries</a></li>
+<li class="menu-615"><a href="/case-studies">Case Studies</a></li>
+<li class="menu-393"><a href="/webinars">Webinars</a></li>
+<li class="menu-394"><a href="/about-us">About Us</a></li>
+<li class="menu-395"><a href="/news">News</a></li>
+<li class="menu-396 last"><a href="/contact-us" title="Contact Us" name="webform-client-form-22" rel="height:570;width:864;position:[center,100];">Contact Us</a></li>
+</ul>  </div>
+
+  
+  </div>
+</div>
+  </div>
+<div class="title">
+  <div class="panel-panel panel-title">
+    <div class="inside"></div>
+  </div>
+</div>
+</div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"><div class="panel-pane pane-custom pane-1" >
+  
+  
+  
+  <div class="pane-content">
+    
+		<div id="video">
+    		<iframe width="640" height="390" style="overflow: hidden;" src="http://www.youtube.com/embed/y5_MM7MfEU4?rel=0&wmode=opaque" frameborder="0" allowfullscreen></iframe>
+   		</div>
+  </div>
+
+  
+  </div>
+</div>
+    </div>
+
+    <div class="panel-panel panel-col-last" id="right">
+      <div class="inside"><div class="panel-pane pane-custom pane-4" >
+  
+  
+  
+  <div class="pane-content">
+    <div id="right">
+			<h1 class="billboard">Online team<br />
+				collaboration to<br />
+				get work done.</h1>
+			<p class="front">Capture knowledge, share files, and manage projects within a secure, reliable environment. </p>
+                        <a id="inline-started" class="btn-learnmore" title="Learn more about PBworks." href="products" onfocus="this.blur();"><strong>Learn More</strong></a>
+		</div>  </div>
+
+  
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-middle">
+    <div class="inside"><div class="panel-pane pane-custom pane-2" >
+  
+  
+  
+  <div class="pane-content">
+    	<div id="middle"> 
+		<div id="middle-tiles">
+			
+
+			<!-- Begin 4 tiles area -->
+
+			<div class="tile-box">
+				<div class="tile-left">
+				<a class="tile1" href="agency-hub" onfocus="this.blur();"></a>
+				</div>
+				<div class="tile-right">
+				<h2><a class="title-link" href="agency-hub">Agencies</a></h2>
+				<p>Optimize your agency to reduce costs, increase innovation, and improve client satisfaction.</p>
+				</div>
+			</div>
+
+			<div class="tile-box">
+				<div class="tile-left">
+				<a class="tile2" href="legal-hub" onfocus="this.blur();"></a>
+				</div>
+				<div class="tile-right">
+				<h2><a class="title-link" href="legal-hub">Law Firms</a></h2>
+				<p>Improve attorney and staff productivity while increasing <br />client satisfaction</p>
+				</div>
+			</div>
+
+			<div class="tile-box">
+				<div class="tile-left">
+				<a class="tile3" href="general-business" onfocus="this.blur();"></a>
+				</div>
+				<h2><a class="title-link" href="general-business">General Business</a></h2>
+				<p>Link colleagues, clients, and partners for better teamwork and more effective business results</p>
+			</div>
+
+			<div class="tile-box">
+				<div class="tile-left">
+				<a class="tile4" href="education" onfocus="this.blur();"></a>
+			    </div>
+			    <div class="tile-right">
+				<h2><a class="title-link" href="education">Education</a></h2>
+				<p>Provide a safe and secure online environment for your students, faculty, and staff</p>
+				</div>
+			</div>
+
+			<!-- END 4 tiles area -->
+			
+		</div>
+	</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-3" >
+  
+  
+  
+  <div class="pane-content">
+    	<div id="bottom">
+		<div id="footer">
+			<div id="footer-container">
+			<div id="foot-right">
+				<div class="quote-text"><p><span>PBworks is almost ubiquitous in the day-to-day process around knowledge sharing &mdash;<br /> it is just there and simply works.<span class="quotes-right"></span></span></p></div>
+				<ul class="quote-credit-text"><li><img class="quote-logo" src="sites/all/themes/pbworkstheme/images/logo_landor.gif" width="125" height="32" border="0" alt="Landor logo" /><strong>&mdash; Aïcha Doucouré</strong>, Knowledge Sharing Manager</li></ul>
+			</div>
+			<div id="foot-left">
+				<p>Whether you're a global advertising agency or a small business, PBworks lets your team capture knowledge, share files, and manage projects.  It tracks every change, and automatically notifies you and your team to keep everyone in the loop. PBworks is secure, reliable, and accessible from any computer or mobile device, so your team can use it anywhere they go.  You can even use it with clients or partners.  And because it's hosted, you don't need to download any software or manage any servers. Whatever you're working on, you can customize PBworks to make your team more productive.  Over 4 million people each month use our service as an intranet, extranet, project management tool, knowledgebase, or public website.</p>
+				<ul id="foot-links"><li class="copy">&copy; <script type="text/javascript">d=new Date();document.write(d.getFullYear());</script> PBWiki, Inc.</li><li><a href="/jobs" onfocus="this.blur();">Jobs</a></li><li><a href="/security" onfocus="this.blur();">Security</a></li><li><a href="http://usermanual.pbworks.com">Support: Personal/Education</a></li><li><a href="http://docs.pbworks.com">Support: Business</a></li><li><a href="http://secure.pbworks.com/api_v2" onfocus="this.blur();">API</a></li><li><a href="/privacy-policy" onfocus="this.blur();">Privacy Policy</a></li><li><a href="/terms-of-service" onfocus="this.blur();">Terms of Service</a></li></ul>
+			</div>
+			</div>
+		</div>
+	</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+  <div class="center-wrapper">
+    <div class="panel-panel panel-col-first">
+      <div class="inside"></div>
+    </div>
+
+    <div class="panel-panel panel-col-last" id="right">
+      <div class="inside"></div>
+    </div>
+  </div>
+  <div class="panel-panel panel-col-bottom">
+    <div class="inside"></div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+              </div></div> <!-- /.section, /#content -->
+
+      
+      
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+    <div id="footer"><div class="section">
+          </div></div> <!-- /.section, /#footer -->
+
+  </div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>

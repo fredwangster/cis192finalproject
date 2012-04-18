@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html class="site_index no-js fontface " lang="en" xml:lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml">
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><title>Kickstarter</title><!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="telephone=no" name="format-detection">
+<link href="/fonts/fonts.css" media="screen" rel="stylesheet" type="text/css">
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/assets/compass.css" media="screen" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+  <link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/stylesheets/compass/library/ie.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/assets/views_one.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/assets/views_two.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/assets/views_three.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/assets/views_four.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/favicon.png" rel="icon" type="image/png">
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" type="image/png">
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/apple-touch-icon-ipad-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png">
+<link href="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/apple-touch-icon-iphone4-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" type="image/png">
+
+<meta name="title" content="Kickstarter"/>
+<meta name="description" content="Kickstarter is the world's largest funding platform for creative projects."/>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="x72dnFy3MORyBvfxzlySS9AP02X3Ny0s1kG4L4TrKys="/>
+
+<script>
+  //<![CDATA[
+    var _sf_startpt=(new Date()).getTime();
+    docElement = this.document.documentElement;
+    docElement.className=docElement.className.replace(/\bno-js\b/,'') + 'js';
+  //]]>
+</script>
+<script>
+  //<![CDATA[
+    function timeRemaining(epochTime){
+    
+      var diff = epochTime - ((new Date()).getTime() / 1000);
+      var num_unit = (diff < 60 && [Math.max(diff, 0), 'seconds']) ||
+        ((diff/=60) < 60 && [diff, 'minutes']) ||
+        ((diff/=60) < 72 && [diff, 'hours']) ||
+        [diff/=24, 'days'];
+    
+      // Round down
+      num_unit[0] = Math.floor(num_unit[0]);
+      // Singularize unit
+      if (num_unit[0] == 1) { num_unit[1] = num_unit[1].replace(/s$/,""); }
+    
+      return num_unit;
+    };
+  //]]>
+</script>
+</head>
+
+<body class="frame site" id="site_index">
+<div class="jGrowl center" id="growl_section"></div>
+<div id="learn-more-wrap">
+<div class="container" id="learn-more">
+<p>
+<span class="icon-whaaat"></span>
+<strong>What is Kickstarter?</strong>
+We’re the world's largest funding platform for creative projects.
+<a href="#" class="link_to_learn-more-dialog">Learn more!</a>
+</p>
+</div>
+</div>
+<div id="header-wrap">
+<div class="container" id="header">
+<h1 id="logo"><a href="/"><span>Kickstarter</span></a></h1>
+<ul id="menu-main">
+<li id="menu-main-discover"><a href="/discover"><strong>Discover</strong> <span>great projects</span></a></li>
+<li id="menu-main-fund"><a href="/start"><strong>Start</strong> <span>your project</span></a></li>
+</ul>
+<form accept-charset="UTF-8" action="/projects/search" class="search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<div class="field search">
+<span class="icon-search"></span>
+<span class="icon-search-clear"></span>
+<input class="input-search header text" data-tracker-name="Header Live Search" id="term" name="term" type="text" />
+<span class="icon-search-nipple"></span>
+</div>
+</form>
+
+<ul id="menu-sub">
+<li id="menu-sub-blog"><a href="/blog">Blog</a></li>
+<li id="menu-sub-help"><a href="/help">Help</a></li>
+<li><a href="https://www.kickstarter.com/signup">Sign up</a></li>
+<li><a href="https://www.kickstarter.com/login">Log in</a></li>
+</ul>
+</div>
+</div>
+<div id="search_results-wrap">
+<div id="search_results-shadow">
+<div id="search_results-inner_wrap">
+<div class="container" id="search_results">
+<a class="close"><span class="icon-x"></span>
+Close</a>
+<h2 class="header"></h2>
+<div id="search_results_panel"></div>
+<p class="footer"></p>
+<a class="prev arrow">
+<span class="icon-search-left"></span>
+<strong>Previous</strong>
+</a>
+<a class="next arrow">
+<span class="icon-search-right"></span>
+<strong>Next</strong>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div id="running-board-wrap">
+<div class="container" id="running-board">
+<div id="home-intro">
+<h1>
+<span class="intro">A new way to</span>
+<strong><span>Fund</span>&nbsp;<span class="icon-ampersand">&amp;</span>&nbsp;<span>Follow Creativity</span></strong>
+</h1>
+<dl class="list-featured-in">
+<dt>Featured in</dt>
+<dd>
+<span class="logo-cnn">CNN</span>
+</dd>
+<dd>
+<span class="logo-wired">Wired</span>
+</dd>
+<dd>
+<span class="logo-good">GOOD</span>
+</dd>
+<dd>
+<span class="logo-pitchfork">Pitchfork</span>
+</dd>
+<dd>
+<span class="logo-npr">NPR</span>
+</dd>
+<dd>
+<span class="logo-nyt">The New York Times</span>
+</dd>
+</dl>
+</div>
+<!-- #home-intro -->
+<div id="home-social">
+<div id="home-social-content">
+<h2>
+<a href="/blog" class="icon-blog">Blog:</a>
+<span>Interviews, updates, and tips from the Kickstarter team.</span>
+</h2>
+<dl>
+<dt>
+<a href="/blog/new-projects-are-all-for-you">New Projects Are All For You</a>
+</dt>
+<dd>
+posted
+1 day ago
+</dd>
+</dl>
+</div>
+</div>
+<!-- #home-social -->
+</div>
+<!-- #running-board -->
+</div>
+<!-- #running-board-wrap -->
+<div id="content-wrap">
+<div class="container" id="content">
+<div id="main">
+<div id="bcards-little">
+<div class="col0">
+<div class="home-editorial">
+<div class="home-editorial-title">Project of the Day</div>
+<p>Originally conceived as a live action musical, <i>Magic The Gathering The Musical</i> has grown from a seedling meant for the stage into a sweet short film set to capture the hearts of gamers, puppet enthusiasts, and lovers of all types of Magic.</p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/2042613788/magic-the-gathering-the-musical?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/70736/photo-little.jpg?1332725585" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/2042613788/magic-the-gathering-the-musical?ref=spotlight" target="">Magic The Gathering The Musical</a>
+</strong>
+<span>
+by
+Molly Coffee
+</span>
+</h2>
+<p>The ultimate Geek's musical. Starring puppets, our childhoods, and annoyingly catchy songs. NSF children.</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/atlanta-ga?ref=card" target=""><span class='icon-location'></span><span class='location-name'>Atlanta, GA</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 100%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>103%</strong>
+funded
+</li>
+<li>
+<strong>$4,145</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">28</div>
+</strong>
+days left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col1">
+<div class="home-editorial">
+<div class="home-editorial-title">Narrative Film</div>
+<p>In this Korean feature, a man loses his memory and reports his disappearance to the police. He can only remember finding himself alone
+ in an
+apartment. When he finally meets a girl he thinks might know him, she disappears, launching a quest to find his memory-holding love.  </p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/21269065/remember-o-goddess-film-noir-adventure-and-love?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/110666/photo-little.jpg?1333303585" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/21269065/remember-o-goddess-film-noir-adventure-and-love?ref=spotlight" target="">Remember O Goddess: FILM NOIR, ADVENTURE and LOVE</a>
+</strong>
+<span>
+by
+Yoon Jung Lee
+</span>
+</h2>
+<p>A joint Korean/American production about a man who has lost his memory. Join the Korean independent film movement.</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/philadelphia-pa?ref=card" target=""><span class='icon-location'></span><span class='location-name'>Philadelphia, PA</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 40.88%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>40%</strong>
+funded
+</li>
+<li>
+<strong>$12,263</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">22</div>
+</strong>
+days left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col2">
+<div class="home-editorial">
+<div class="home-editorial-title">Animation</div>
+<p>Using bleeding edge technology, the tiny team behind the animated feature <i>Dome </i>will create a story that is as visually epic as  it is entertaining. There's adventure, hunters, a precarious journey, and best of all? Robots!</p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/mightytreehouse/dome?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/81196/photo-little.jpg?1334279976" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/mightytreehouse/dome?ref=spotlight" target="">DOME</a>
+</strong>
+<span>
+by
+Mighty Treehouse
+</span>
+</h2>
+<p>DOME is a CG animated feature created by VFX wizard Brandon Fayette - about a Simple Robot on an Epic Journey to get back home.</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/venice-ca?ref=card" target=""><span class='icon-location'></span><span class='location-name'>Venice, CA</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 20.42%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>20%</strong>
+funded
+</li>
+<li>
+<strong>$16,134</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">24</div>
+</strong>
+days left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col3">
+<div class="home-editorial">
+<div class="home-editorial-title">Food</div>
+<p>Lovers of adventure and good food,<i> The Pedal Inn Cookbook</i> is for you. In addition to delicious, simple meals that can be prepared roadside, this unique cookbook will chronicle the cycling adventures of authors Nick and Lindy as they ride 1,600 miles.</p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/456692739/the-pedal-inn-cookbook-for-cyclists-and-outdoor-ad?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/128812/photo-little.jpg?1334554348" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/456692739/the-pedal-inn-cookbook-for-cyclists-and-outdoor-ad?ref=spotlight" target="">The Pedal Inn Cookbook for all bike, food + adventure lovers</a>
+</strong>
+<span>
+by
+Nick + Lindy
+</span>
+</h2>
+<p>A one-of-a-kind cookbook for camping + eating well by bike.  Quality original recipes, food writing, art, photos + touring tips.</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/san-francisco-ca?ref=card" target=""><span class='icon-location'></span><span class='location-name'>San Francisco, CA</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 47.64%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>47%</strong>
+funded
+</li>
+<li>
+<strong>$2,382</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">26</div>
+</strong>
+days left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col0">
+<div class="home-editorial">
+<div class="home-editorial-title">Documentary</div>
+<p><i>High Tech, Low Life</i> traces the evolution of two of China’s first citizen reporters as they navigate the country's ever-evolving political risks and the technical barriers. By seeking to understand their daily lives, they strive to change the status quo for all. Inspiring!</p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/1890785039/high-tech-low-life?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/67741/photo-little.jpg?1331085288" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/1890785039/high-tech-low-life?ref=spotlight" target="">High Tech, Low Life</a>
+</strong>
+<span>
+by
+High Tech, Low Life
+</span>
+</h2>
+<p>&quot;We can't let the news be one-sided.&quot;
+-Tiger Temple
+&quot;You never know what you can do until you try.&quot;
+-Zola</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/new-york-ny?ref=card" target=""><span class='icon-location'></span><span class='location-name'>New York, NY</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 63%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>62%</strong>
+funded
+</li>
+<li>
+<strong>$14,804</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">5</div>
+</strong>
+days left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col1">
+<div class="home-editorial">
+<div class="home-editorial-title">Product Design</div>
+<p>Facet is an interactive, customizable tiling system that allows folks to create their very own (very bold) geometric designs. It works on nearly any surface, so you can put pretty patterns anywhere from floor to ceiling to office desk. The only limit is your imagination!</p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/119962669/facet-removable-vinyl-floor-tiles?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/107691/photo-little.jpg?1333060520" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/119962669/facet-removable-vinyl-floor-tiles?ref=spotlight" target="">FACET: Removable Vinyl Floor Tiles</a>
+</strong>
+<span>
+by
+Sara Czosnyka
+</span>
+</h2>
+<p>a 3 Diamond floor tiling system, that fits together in numerous ways, to create various patterns &amp; visual illusions, delineating space.</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/los-angeles-ca?ref=card" target=""><span class='icon-location'></span><span class='location-name'>Los Angeles, CA</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 100%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>123%</strong>
+funded
+</li>
+<li>
+<strong>$2,842</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">19</div>
+</strong>
+days left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col2">
+<div class="home-editorial">
+<div class="home-editorial-title">Product Design</div>
+<p>Blink/Steady is an elegant, low-profile bike light that turns on automatically when you start to ride, shuts off when you stop, and senses when it's dark enough to be needed. Basically, it makes it so you don't have to think about anything but the ride. Perfect. </p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/74358303/blink-steady-the-bike-light-youve-been-waiting-for?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/79177/photo-little.jpg?1333645575" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/74358303/blink-steady-the-bike-light-youve-been-waiting-for?ref=spotlight" target="">Blink / Steady - The bike light you've been waiting for.</a>
+</strong>
+<span>
+by
+Benjamin Cohen
+</span>
+</h2>
+<p>We're building the smartest, strongest bike light you can buy. Start riding, and it turns on by itself. And of course, it's beautiful.</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/brooklyn-ny?ref=card" target=""><span class='icon-location'></span><span class='location-name'>Brooklyn, NY</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 49.71%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>49%</strong>
+funded
+</li>
+<li>
+<strong>$17,398</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">39</div>
+</strong>
+days left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="col3">
+<div class="home-editorial">
+<div class="home-editorial-title">Video Games</div>
+<p><i>The Banner Saga</i><i> </i>combines elements of classic RPGs with turn-based strategy, all wrapped up in a gorgeously animated mini-series about vikings and the end of the world. Sounds like a dream come true — we just need to survive it!</p>
+</div>
+<div class="home-widget">
+<div class="project-card-wrap">
+<div class="project-card project-live">
+<div class="project-thumbnail">
+<a href="/projects/stoic/the-banner-saga?ref=spotlight" target=""><img alt="Photo-little" class="projectphoto-little" height="150" src="http://s3.amazonaws.com/ksr/projects/94365/photo-little.jpg?1331840141" width="200" /></a>
+</div>
+<h2>
+<strong>
+<a href="/projects/stoic/the-banner-saga?ref=spotlight" target="">The Banner Saga</a>
+</strong>
+<span>
+by
+Stoic
+</span>
+</h2>
+<p>A mature, story-driven, turn-based strategy game steeped in viking culture, by three game industry veterans.</p>
+<ul class="project-meta">
+<li>
+<a href="/discover/cities/austin-tx?ref=card" target=""><span class='icon-location'></span><span class='location-name'>Austin, TX</span></a>
+</li>
+</ul>
+<div class="project-pledged-wrap">
+<div class="project-pledged" style="width: 100%"></div>
+</div>
+<ul class="project-stats">
+<li class="first">
+<strong>576%</strong>
+funded
+</li>
+<li>
+<strong>$576,222</strong>
+pledged
+</li>
+<li class="last">
+<strong>
+<div class="num">68</div>
+</strong>
+hours left
+</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div id="curated-pages-tout-wrap">
+<div id="curated-pages-tout">
+<div class="name">
+<h2>Curated Pages</h2>
+<p>Discover projects curated by some of the world’s foremost creative communities</p>
+</div>
+<span class="icons-1"></span>
+<span class="icons-2"></span>
+<ul class="pages">
+<li class="page">
+<ul>
+<li class="alpha">
+<a href="http://www.kickstarter.com/sundanceinstitute" class="image" title="Sundance Institute Artists"><img alt="Si_logo.large_thumb" src="http://s3.amazonaws.com/ksr/photos/34/SI_LOGO.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/newmuseum" class="image" title="New Museum"><img alt="Newmuseum_square.large_thumb" src="http://s3.amazonaws.com/ksr/photos/57/newmuseum_square.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/youtube" class="image" title="YouTube"><img alt="Youtube_profile-200x200final.large_thumb" src="http://s3.amazonaws.com/ksr/photos/49/YouTube_profile-200x200FINAL.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/portland" class="image" title="City of Portland, Oregon - Office of Mayor Sam Adams"><img alt="Exhibit_a__city_seal-sm.large_thumb" src="http://s3.amazonaws.com/ksr/photos/28/Exhibit_A__CITY_SEAL-SM.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/RISD" class="image" title="Rhode Island School of Design"><img alt="Risd_kickstart_white_noborder.large_thumb" src="http://s3.amazonaws.com/ksr/photos/23/risd_kickstart_white_noborder.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/CreativeCapital" class="image" title="Creative Capital"><img alt="Cc_logo_220w_2_.large_thumb" src="http://s3.amazonaws.com/ksr/photos/33/CC_logo_220w_2_.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/MagnumFoundation" class="image" title="Magnum Foundation Emergency Fund"><img alt="Magfound_logo.large_thumb" src="http://s3.amazonaws.com/ksr/photos/20/magfound_logo.large_thumb.jpg" /></a>
+</li>
+<li class="omega">
+<a href="http://www.kickstarter.com/pitchfork" class="image" title="Pitchfork"><img alt="Cropped-logo-220.large_thumb" src="http://s3.amazonaws.com/ksr/photos/30/cropped-logo-220.large_thumb.jpg" /></a>
+</li>
+</ul>
+</li>
+<li class="page">
+<ul>
+<li class="alpha">
+<a href="http://www.kickstarter.com/sva" class="image" title="School of Visual Arts"><img alt="Sva-logo.large_thumb" src="http://s3.amazonaws.com/ksr/photos/32/SVA-Logo.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/bkflea" class="image" title="Brooklyn Flea"><img alt="Square_logo.large_thumb" src="http://s3.amazonaws.com/ksr/photos/21/Square_Logo.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/good" class="image" title="GOOD"><img alt="Goodlogo_smallsq.large_thumb" src="http://s3.amazonaws.com/ksr/photos/29/GoodLogo_smallSQ.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/core77" class="image" title="Core77"><img alt="Core77-logo-outlined.large_thumb" src="http://s3.amazonaws.com/ksr/photos/54/Core77-logo-outlined.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/eyebeam" class="image" title="Eyebeam"><img alt="Eyebeam_logo_200x200.large_thumb" src="http://s3.amazonaws.com/ksr/photos/48/eyebeam_logo_200x200.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/itp" class="image" title="Interactive Telecommunications Program"><img alt="Logo.large_thumb" src="http://s3.amazonaws.com/ksr/photos/18/logo.large_thumb.jpg" /></a>
+</li>
+<li>
+<a href="http://www.kickstarter.com/homegrowndotorg" class="image" title="HOMEGROWN.org"><img alt="Homegrown.org-220x220.large_thumb" src="http://s3.amazonaws.com/ksr/photos/63/homegrown.org-220x220.large_thumb.jpg" /></a>
+</li>
+<li class="omega">
+<a href="http://www.kickstarter.com/igda" class="image" title="International Game Developers Association"><img alt="Logo-square.large_thumb" src="http://s3.amazonaws.com/ksr/photos/55/Logo-Square.large_thumb.jpg" /></a>
+</li>
+</ul>
+</li>
+</ul>
+<a href="/discover/curated-pages?ref=home" class="link-view-all"><span class='icon-arrow'></span>See more curated pages</a>
+<hr>
+</div>
+</div>
+</div>
+<!-- #main -->
+</div>
+<!-- #content -->
+</div>
+<!-- #content-wrap -->
+
+
+<div id="mega-footer-wrap">
+<div id="mega-footer-shadow">
+<div class="container" id="mega-footer">
+<div id="mega-discover">
+<h5>Browse Categories</h5>
+<ul class="list-footer-categories list-0">
+<li><a href="/discover/categories/art?ref=footer">Art</a></li>
+<li><a href="/discover/categories/comics?ref=footer">Comics</a></li>
+<li><a href="/discover/categories/dance?ref=footer">Dance</a></li>
+<li><a href="/discover/categories/design?ref=footer">Design</a></li>
+<li><a href="/discover/categories/fashion?ref=footer">Fashion</a></li>
+<li><a href="/discover/categories/film%20&amp;%20video?ref=footer">Film &amp; Video</a></li>
+<li><a href="/discover/categories/food?ref=footer">Food</a></li>
+</ul>
+<ul class="list-footer-categories list-1">
+<li><a href="/discover/categories/games?ref=footer">Games</a></li>
+<li><a href="/discover/categories/music?ref=footer">Music</a></li>
+<li><a href="/discover/categories/photography?ref=footer">Photography</a></li>
+<li><a href="/discover/categories/publishing?ref=footer">Publishing</a></li>
+<li><a href="/discover/categories/technology?ref=footer">Technology</a></li>
+<li><a href="/discover/categories/theater?ref=footer">Theater</a></li>
+</ul>
+</div>
+<div id="mega-join-like">
+<form accept-charset="UTF-8" action="/newsletters/signup" class="overlabels" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="x72dnFy3MORyBvfxzlySS9AP02X3Ny0s1kG4L4TrKys=" /></div>
+<h5>Kickstarter's weekly newsletter</h5>
+<p>Get awesome projects delivered to your inbox each week.</p>
+<textarea class="hide textarea" id="comment" name="comment"></textarea>
+<div class="field newsletter">
+<label class="overlabel overlabel-newsletter">Your email address...</label>
+<input class="text" id="email" name="email" type="text" />
+</div>
+<input class="button-positive submit" id="user_submit" name="commit" type="submit" value="Join newsletter" />
+</form>
+
+<h5>Kickstarter on Facebook</h5>
+<fb:like href="http://facebook.com/kickstarter" show_faces="true" width="330"></fb:like>
+</div>
+<div id="mega-connect">
+<h5>Connect with Kickstarter</h5>
+<ul id="list-footer-connect">
+<li><a href="http://twitter.com/kickstarter" id="footer-twitter"><span class='icon-footer-twitter'></span>Follow on Twitter</a></li>
+<li><a href="/blog" id="footer-blog"><span class='icon-footer-blog'></span>Read our blog</a></li>
+<li><a href="/team?ref=footer" id="footer-team"><span class='icon-footer-team'></span>Meet the team</a></li>
+<li><a href="/jobs?ref=footer" id="footer-jobs"><span class='icon-footer-jobs'></span>Work with us</a></li>
+</ul>
+<span class="scissors icon-scissors-1"></span>
+</div>
+</div>
+</div>
+</div>
+<div id="footer-wrap">
+<div class="container" id="footer">
+<div id="etc">
+<ul>
+<li><a href="/help?ref=footer">Help</a></li>
+<li><a href="/help/guidelines?ref=footer">Guidelines</a></li>
+<li><a href="/terms-of-use?ref=footer">Terms of Use</a></li>
+<li><a href="/privacy?ref=footer">Privacy Policy</a></li>
+<li class="last"><a href="http://kickstarter.zendesk.com/home" id="" onclick="Zenbox.render(); return false;">Contact</a></li>
+</ul>
+</div>
+<div id="legal">
+&copy;
+2012
+Kickstarter, Inc.
+</div>
+</div>
+</div>
+
+<script>
+  //<![CDATA[
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    var analytics_vars = { google_analytics_id : "UA-7621056-1", logged_in : "false", verifying_backing : "false" }
+  //]]>
+</script>
+
+
+<script>
+  //<![CDATA[
+    _qoptions={qacct:"p-34IbSpw2K94Sg"};
+  //]]>
+</script>
+<script src="http://edge.quantserve.com/quant.js" type="text/javascript"></script>
+<noscript><img alt="Quantcast" border="0" height="1" src="http://pixel.quantserve.com/pixel/p-34IbSpw2K94Sg.gif" style="display:none" width="1" /></noscript>
+
+<script>
+  //<![CDATA[
+    var _sf_async_config={uid:5536,domain:"kickstarter.com"};
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+           (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+           "js/chartbeat.js");
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+  //]]>
+</script>
+
+<div class="modal_dialog" id="learn-more-dialog" style="display: none;">
+<div class="modal_dialog_ie6_background"></div>
+<div class="modal_dialog_outer">
+<div class="modal_dialog_sizer">
+<div class="modal_dialog_inner">
+<div class="modal_dialog_content">
+<div class="modal_dialog_head"><h4><span>What is Kickstarter?</span></h4><a class="modal_dialog_close" href="#"><span class="icon-x">Close</span></a></div>
+<div class="modal_dialog_body">
+<div id="learn-more">
+<p><strong>Kickstarter is the world's largest funding platform for creative projects.</strong> Every week, tens of thousands of amazing people pledge millions of dollars to projects from the worlds of <span class='category-1'>music</span>, <span class='category-2'>film</span>, <span class='category-3'>art</span>, <span class='category-4'>technology</span>, <span class='category-5'>design</span>, <span class='category-6'>food</span>, <span class='category-7'>publishing</span> and other creative fields.</p>
+<p>
+<strong>A new form of commerce and patronage.</strong>
+This is not about investment or lending. Project creators keep 100% ownership and control over their work. Instead, they offer products and experiences that are unique to each project.
+</p>
+<p>
+<strong>All or nothing funding.</strong>
+On Kickstarter, a project must reach its funding goal before time runs out or no money changes hands. Why? It protects everyone involved. Creators aren’t expected to develop their project without necessary funds, and it allows anyone to test concepts without risk.
+</p>
+<p>
+<strong>Each and every project is the independent creation of someone like you.</strong>
+Projects are big and small, serious and whimsical, traditional and experimental. They’re inspiring, entertaining and unbelievably diverse. We hope you agree... Welcome to Kickstarter!
+</p>
+<p><a href="#" class="modal_dialog_close">Thanks! All done.</a></p>
+</div>
+
+</div>
+</div>
+</div>
+<span class="modal_dialog_ie_hack"></span>
+</div>
+</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+<script>
+  //<![CDATA[
+    (function () {
+      function PageClock(settings){
+        this.local_start_time = new Date();
+        this.settings = {
+          cookie_name : 'request_time'
+        };
+        for (var k in settings) {
+          this.settings[k] = settings[k];
+        }
+        this.get_remote_offset();
+      }
+    
+      PageClock.prototype.get_remote_offset = function () {
+        // try to get remote time from cookie
+        this.cookie_value = this.read_cookie();
+        var remote_start_time = new Date( this.cookie_value );
+    
+        if (!this.cookie_value || remote_start_time.toString() === 'Invalid Date') {
+          // try to get the offset from the local_offset cookie, if present
+          // this situation arises when the back button is clicked
+          this.remote_offset = this.read_cookie('local_offset');
+          if (this.remote_offset) {
+            this.remote_offset = parseInt(this.remote_offset, 10);
+          }
+        } else {
+          this.remote_offset = remote_start_time - this.local_start_time;
+        }
+    
+        if (typeof this.remote_offset !== 'undefined') {
+          document.cookie = 'local_offset=' + this.remote_offset + '; path=/';
+          this.is_set = true;
+        } else {
+          this.is_set = false;
+        }
+      };
+    
+      PageClock.prototype.time_units = [
+        ['milliseconds', 1],
+        ['seconds', 1000],
+        ['minutes', 1000 * 60],
+        ['hours',   1000 * 60 * 60],
+        ['days',    1000 * 60 * 60 * 24]
+      ];
+    
+      PageClock.prototype.get_units_in_interval = function(unit_name, time) {
+        var method_name = unit_name.replace(/^\w/, function(l) {
+          return 'get' + l.toUpperCase();
+        });
+        return time[method_name]();
+      };
+    
+      PageClock.prototype.milliseconds_in_day = function(time) {
+        if (typeof time === 'undefined') {
+          time = new Date();
+        }
+        var milliseconds = 0;
+        for (var i=this.time_units.length - 2; i >= 0; i--) {
+          milliseconds += this.get_units_in_interval(this.time_units[i][0], time) * this.time_units[i][1];
+        }
+        return milliseconds;
+      };
+    
+      PageClock.prototype.milliseconds_in_interval = function(unit_length, time) {
+        return this.milliseconds_in_day(time) % unit_length;
+      };
+    
+      PageClock.prototype.milliseconds_to_next_interval = function(unit_length, time) {
+        return unit_length - this.milliseconds_in_interval(unit_length, time);
+      };
+    
+      PageClock.prototype.pluralize = function(unit, num) {
+        if (num === 1) {
+          unit = unit.replace(/s$/, '');
+        }
+        return unit;
+      };
+    
+    
+      PageClock.prototype.read_cookie = function(cookie_name){
+        var
+          ca = window.document.cookie.split(';'),
+          cookie_string = (cookie_name || this.settings.cookie_name) + '=';
+        for (var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') {
+            c = c.substring(1,c.length);
+          }
+          if (c.indexOf(cookie_string) == 0) {
+            var encoded_string = c.substring(cookie_string.length,c.length);
+            return decodeURIComponent(encoded_string).replace(/\+/g, ' ');
+          }
+        }
+        return null;
+      };
+    
+      PageClock.prototype.destroy_cookie = function(name) {
+        var expires = new Date();
+        if (!name) {
+          name = this.settings.cookie_name;
+        }
+        expires.setTime(expires.getTime() - 1 * 24 * 60 * 60 * 1000);
+        window.document.cookie = name + "=; expires=" + expires.toGMTString() + "; path=/";
+      };
+    
+      PageClock.prototype.get_remote_time = function() {
+        var
+          time = new Date(),
+          remote_milliseconds = time.getTime() + this.remote_offset;
+        time = time.setTime(remote_milliseconds);
+        return time;
+      };
+    
+      window.ksr_page_clock = new PageClock();
+    })();
+    
+    (function(){
+      // simple_find( selector [, context_element] )
+      // selector: a string in the form [tag_name].class_name : must include a dot-prefixed css class
+      var simple_find = function(selector, context) {
+        var
+          root = context || window.document.body,
+          parts = selector.split('.'),
+          class_name = parts[parts.length - 1],
+          tag_name = (parts.length > 1 && parts[0]) ? parts[0] : '*';
+    
+        if (window.document.getElementsByClassName) {
+          return root.getElementsByClassName(class_name);
+        }
+    
+        if (root.querySelectorAll) {
+          tag_name = tag_name || '';
+          return root.querySelectorAll(selector);
+        }
+    
+        // lame, fall back
+        var
+          much_elements = root.getElementsByTagName(tag_name),
+          elements = [];
+        for (var i = 0, much_element; much_element = much_elements[i]; i++) {
+          if (this.hasClass(much_element, class_name)) {
+            elements.push(much_element);
+          }
+        }
+        return elements;
+      }
+    
+      // TODO: decouple this class from the DOM
+      function ProjectTimer(element, clock, options) {
+        this.options = {
+          unit_base : {
+            'seconds' : 119,
+            'minutes' : 119,
+            'hours'   : 72,
+            'days'    : 0
+          },
+          end_phrase : (element.getAttribute('data-word') || 'to go'),
+          count_down : false
+        };
+        for (k in options) {
+          this.options[k] = options[k];
+        }
+        this.clock = clock;
+        this.time_units = this.clock.time_units.slice(1);
+        this.element = element;
+        if (this.clock.is_set) {
+          this.attach();
+        }
+      };
+    
+      ProjectTimer.prototype.get_remaining_time = function() {
+        var time = this.remote_end_time - this.clock.get_remote_time();
+        if (time < 0) {
+          time = 0;
+        }
+        return time;
+      };
+    
+      ProjectTimer.prototype.get_current_unit = function() {
+        var unit;
+        for (var i=0; i < this.time_units.length; i++) {
+          unit = this.time_units[i];
+          if (this.get_remaining_time() <= this.options.unit_base[unit[0]] * unit[1]) {
+            break;
+          }
+        }
+        return unit;
+      };
+    
+      ProjectTimer.prototype.update_element = function() {
+        var
+          unit = this.get_current_unit(),
+          number_of_units = Math.floor(this.get_remaining_time() / unit[1]);
+        if (isNaN(number_of_units)) { return; }
+        this.number_element.innerHTML = number_of_units;
+        this.text_element.innerHTML = this.clock.pluralize(unit[0], number_of_units) + ' ' + this.options.end_phrase;
+      };
+    
+      ProjectTimer.prototype.valid = function() {
+        return !!(this.number_element && this.text_element);
+      };
+    
+      ProjectTimer.prototype.attach = function() {
+        function count() {
+          timer.update_element();
+          if (timer.options.count_down && timer.get_remaining_time() > 0) {
+            var unit = timer.get_current_unit();
+            this.timeout = window.setTimeout(count, timer.clock.milliseconds_to_next_interval(unit[1]));
+          }
+        }
+        var timer = this;
+        this.remote_end_time_string = this.element.getAttribute('data-end_time');
+        this.remote_end_time = new Date(this.remote_end_time_string);
+        this.number_element = simple_find('.num', this.element)[0],
+        this.text_element = simple_find('.text', this.element)[0],
+        this.element.ksr_page_timer = true;
+        if (this.valid()) {
+          count();
+        }
+      };
+    
+      ProjectTimer.prototype.cancel = function () {
+        if (this.timeout) {
+          clearTimeout(this.timeout);
+        }
+      };
+    
+      function TimerFinder() {
+        this.elements = [];
+        this.attach();
+      }
+    
+      TimerFinder.prototype.loading = true;
+    
+      TimerFinder.prototype.stop_finding = function() {
+        this.attach_timers();
+        this.loading = false;
+    
+        if ( document.addEventListener ) {
+          document.removeEventListener( "DOMContentLoaded", this.stop_finding, false );
+        } else if ( document.attachEvent ) {
+          if ( document.readyState === "complete" ) {
+            document.detachEvent( "onreadystatechange", this.stop_finding );
+          }
+        }
+      };
+    
+      TimerFinder.prototype.bind_ready = function() {
+        var
+          that = this,
+          stop_finding = function () {
+            that.stop_finding.call(that);
+          };
+    
+        // lifted from jQuery's .ready() method:
+        // Mozilla, Opera and webkit nightlies currently support this event
+        if ( document.addEventListener ) {
+          // Use the handy event callback
+          document.addEventListener( "DOMContentLoaded", stop_finding, false );
+    
+          // A fallback to window.onload, that will always work
+          window.addEventListener( "load", stop_finding, false );
+    
+        // If IE event model is used
+        } else if ( document.attachEvent ) {
+          // ensure firing before onload,
+          // maybe late but safe also for iframes
+          document.attachEvent( "onreadystatechange", stop_finding );
+    
+          // A fallback to window.onload, that will always work
+          window.attachEvent( "onload", stop_finding );
+        }
+      };
+    
+      TimerFinder.prototype.attach_timers = function () {
+        var elements = simple_find('div.ksr_page_timer');
+        for (var i=0; i < elements.length; i++) {
+          if (!elements[i].ksr_page_timer) {
+            new ProjectTimer(elements[i], window.ksr_page_clock);
+            this.elements.push(elements[i]);
+          }
+        }
+      };
+    
+      TimerFinder.prototype.attach = function() {
+        var that = this;
+        function poll_for_timers() {
+          that.attach_timers();
+          if (that.loading) {
+            window.setTimeout(that.attach_timers, 200);
+          }
+        }
+        this.bind_ready();
+        poll_for_timers();
+      };
+    
+      window.ProjectTimer = ProjectTimer;
+    
+      new TimerFinder();
+    })();
+  //]]>
+</script>
+
+<script src="http://d297h9he240fqh.cloudfront.net/cache-f2668f127/assets/base.js" type="text/javascript"></script>
+<style type="text/css" media="screen, projection">@import url(http://asset0.zendesk.com/external/zenbox/v2.1/zenbox.css);</style><script type="text/javascript" src="http://asset0.zendesk.com/external/zenbox/v2.1/zenbox.js"></script><script type="text/javascript">
+//<![CDATA[
+      if (typeof(Zenbox) !== "undefined") {
+        Zenbox.init({
+          dropboxID: "20012797",
+          tabID: "support",
+          hide_tab: true,
+          url: "kickstarter.zendesk.com"
+        });
+      }
+
+//]]>
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>
+  //<![CDATA[
+    var channelUrl = window.location.protocol + "//" + window.location.host + "/channel.html";
+    
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: '69103156693',
+        channelUrl: channelUrl,
+        status: true,    // check login status
+        cookie: true,    // enable cookies to allow the server to access the session
+        xfbml: true,     // parse XFBML
+        logging: false   // turn off logging
+      });
+    
+      $(document).trigger('fb:loaded');
+    
+      var logout_from_fb = false;
+    
+      FB.Event.subscribe('auth.statusChange', function(response) {
+        $.console.log(response);
+        if (logout_from_fb) {
+          FB.logout(function() {
+            logout_from_fb = false;
+          });
+        } else if (response.authResponse && true && true && true && !FB.usingButton) {
+          $.get("http://www.kickstarter.com/fb/connect/verify?then=http%3A%2F%2Fwww.kickstarter.com%2F", {'fbsr': response.authResponse.signedRequest}, function() {});
+        }
+      });
+      
+    };
+    
+    
+    // Load the SDK Asynchronously
+    (function(d){
+      var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+      js = d.createElement('script'); js.id = id; js.async = true;
+      js.src = "//connect.facebook.net/en_US/all.js";
+      d.getElementsByTagName('head')[0].appendChild(js);
+    }(document));
+  //]]>
+</script>
+
+
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";e.async=true;e.src="https://d1ros97qkrwjf5.cloudfront.net/30/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","b04b883ad2",11086,"cFteRUULX1wHFhtLC0dRH1hZAFZI",0.0,9,new Date().getTime(),"","","","",""])</script></body>
+</html>

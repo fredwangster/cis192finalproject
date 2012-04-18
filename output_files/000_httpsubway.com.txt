@@ -1,0 +1,657 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <script src="/core/Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/core/Scripts/jquery-ui-1.5.3.min.js" ></script>
+    
+	<script src="/core/Scripts/core.js" type="text/javascript"></script>
+	<link href="/core/Styles/core.css" rel="stylesheet" type="text/css" />
+	
+	<link href="/core/Styles/MainPromotion.css" rel="stylesheet" type="text/css" />
+
+	<link href="/core/styles/MiniPromos_Styles.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="/core/scripts/swfobject.js"></script>
+	<script type="text/javascript" src="/core/scripts/MiniPromo.js"></script>
+	<script type="text/javascript" src="/core/scripts/MainPromo.js"></script>
+
+	<script type="text/javascript">
+	    //RB 2.28.2012 Hack to disable SidePromo for March 2012 Window.
+	    var objSidePromo = {"Morning":[{"PromotionButtonImageExpandedPath":"/Core/Images/SidePromo/MarketingAd/sidebuttons/side-pop-button-bfast-collapse.gif","PromotionButtonImagePath":"/Core/Images/SidePromo/MarketingAd/sidebuttons/side-pop-button-bfast-expand.gif","PromotionImagePath":"/Core/Images/SidePromo/MarketingAd/W3/BOGO_buddy_teaser_side_tab.jpg","PromotionMoviePath":"","PromotionText":"Buy One Get One Free","PromotionUrl":"http://www.facebook.com/subway/app_393321244019875","SlotID":"1","OnClick":"onclick=\"s.tl(this,'o','Home: Side Tab: BOGO Buddy: W3: 2012');return true;\"","OpenInNewWindow":"1","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""}],"MidDay":[{"PromotionButtonImageExpandedPath":"/Core/Images/SidePromo/MarketingAd/sidebuttons/side-pop-button-bfast-collapse.gif","PromotionButtonImagePath":"/Core/Images/SidePromo/MarketingAd/sidebuttons/side-pop-button-bfast-expand.gif","PromotionImagePath":"/Core/Images/SidePromo/MarketingAd/W3/BOGO_buddy_teaser_side_tab.jpg","PromotionMoviePath":"","PromotionText":"Buy One Get One Free","PromotionUrl":"http://www.facebook.com/subway/app_393321244019875","SlotID":"1","OnClick":"onclick=\"s.tl(this,'o','Home: Side Tab: BOGO Buddy: W3: 2012');return true;\"","OpenInNewWindow":"1","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""}],"Evening":[{"PromotionButtonImageExpandedPath":"/Core/Images/SidePromo/MarketingAd/sidebuttons/side-pop-button-bfast-collapse.gif","PromotionButtonImagePath":"/Core/Images/SidePromo/MarketingAd/sidebuttons/side-pop-button-bfast-expand.gif","PromotionImagePath":"/Core/Images/SidePromo/MarketingAd/W3/BOGO_buddy_teaser_side_tab.jpg","PromotionMoviePath":"","PromotionText":"Buy One Get One Free","PromotionUrl":"http://www.facebook.com/subway/app_393321244019875","SlotID":"1","OnClick":"onclick=\"s.tl(this,'o','Home: Side Tab: BOGO Buddy: W3: 2012');return true;\"","OpenInNewWindow":"1","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""}],"Defaults":[]} //Uncomment this line and comment line below to bring side tab back	    
+                
+	</script>
+	
+        <title>Home | SUBWAY.com</title>
+        <meta name="description" content="SUBWAY&reg; is the undisputed leader in providing consumers with choices, including many healthier meal options. View our menu, see nutritional info, locate restaurants, buy a franchise, apply for jobs, order catering and give us your feedback. " />
+        <meta name="keywords" content="subway, restaurant, restaurants, franchise, franchises, franchising, businesses, international, global, worldwide, world, small business, seminars, trade shows, deli, lunch, sandwich, sandwiches, eat fresh, salads, submarine, fast food, qsr, quick, service, boss, self employed, entrepeneur" />
+    
+    <!--<link href="/core/styles/Home_MiniPromo.css" rel="stylesheet" type="text/css" />-->
+
+    <script type="text/javascript">
+		var objMainPromo = {"Morning":[],"MidDay":[],"Evening":[],"Defaults":[{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"/subwayroot/Promotions/Home/Marquee/W4/chickensubsthumb.jpg","PromotionImagePath":"/subwayroot/Promotions/Home/Marquee/W4/RPLC_Homepage_ChickenSubs.jpg","PromotionMoviePath":"/subwayroot/Promotions/Home/Marquee/W4/Homepage_ChickenSubs.swf","PromotionText":"<div style=\"font-size:1px;height:20px;background-color:transparent;\"></div>Fit Meets Flavor","PromotionUrl":"/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=56","SlotID":"1","OnClick":"onclick=\"s_objectID='Home: Marquee: Unit 1: Chicken Subs: W4: 2012';return true;\"","OpenInNewWindow":"0","TimerSecs":"11","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"/subwayroot/Promotions/Home/Marquee/W4/marquee_thumb.jpg","PromotionImagePath":"/subwayroot/Promotions/Home/Marquee/W4/SubwayBattleship_marquee_noncode.jpg","PromotionMoviePath":"/subwayroot/Promotions/Home/Marquee/W4/SubwayBattleship_marquee.swf","PromotionText":"<div style=\"font-size:1px;height:13px;background-color:transparent;\"></div>SUBWAY® Battleship","PromotionUrl":"http://battleship.subway.com","SlotID":"2","OnClick":"onclick=\"s_objectID='Home: Marquee: Unit 2: Battleship: No Code: W4: 2012';return true;\"","OpenInNewWindow":"1","TimerSecs":"10","ContestPromotionUrl":"http://battleship.subway.com","ContestPromotionImage":"/subwayroot/Promotions/Home/Marquee/W4/SubwayBattleship_marquee_code.jpg","ContestPromotiononClick":"onclick=\"s_objectID='Home: Marquee: Unit 2: Battleship: Code: W4: 2012';return true;\"","ContestPromotionMoviePath":"/subwayroot/Promotions/Home/Marquee/W4/SubwayBattleship_marquee.swf"},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"/subwayroot/Promotions/Home/Marquee/W9/marquee-button-4.jpg","PromotionImagePath":"/subwayroot/Promotions/Home/Marquee/W1/Own_A_Franchise-1.2012.jpg","PromotionMoviePath":"/subwayroot/Promotions/Home/Marquee/W1/Own_A_Franchise-1.2012.swf","PromotionText":"<div style=\"font-size:1px;height:13px;background-color:transparent;\"></div>Own a<br>Franchise","PromotionUrl":"http://www.subway.com/subwayroot/Own_a_Franchise/default.aspx","SlotID":"3","OnClick":"onclick=\"s_objectID='Home: Marquee: Unit 3: All About Franchising: W1: 2012';return true;\"","OpenInNewWindow":"0","TimerSecs":"12","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"/subwayroot/Promotions/Home/Marquee/W3/homebogothumb.jpg","PromotionImagePath":"/subwayroot/Promotions/Home/Marquee/W3/RPLC_Homepage_BOGO.jpg","PromotionMoviePath":"/subwayroot/Promotions/Home/Marquee/W3/Homepage_BOGO.swf","PromotionText":"<div style=\"font-size:1px;height:20px;background-color:transparent;\"></div>This April Only","PromotionUrl":"/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=40","SlotID":"4","OnClick":"onclick=\"s_objectID='Home: Marquee: Unit 4: BOGO Offer: W3: 2012';return true;\"","OpenInNewWindow":"0","TimerSecs":"10","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""}]};        
+        var objMiniPromo = {"Morning":[],"MidDay":[],"Evening":[],"Defaults":[{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/W4/W3_aprFFOTM_2ndunit.jpg","PromotionMoviePath":"","PromotionText":"  Featured $5 FOOTLONG™","PromotionUrl":"/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=53","SlotID":"1","OnClick":"onclick=\"s.tl(this,'o','Home: Secondary Promo: Unit 1: April FFOTM: W4: 2012');return true;\"","OpenInNewWindow":"0","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/dotted_line.gif","PromotionMoviePath":"","PromotionText":"","PromotionUrl":"","SlotID":"2","OnClick":"","OpenInNewWindow":"0","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/W4/subway.com_picnicforplanet_041012.jpg","PromotionMoviePath":"","PromotionText":"  Be Part of a Record Event","PromotionUrl":"http://www.nature.org/picnic","SlotID":"3","OnClick":"onclick=\"s.tl(this,'o','Home: Secondary Promo: Unit 2: TNC Picnic: W4: 2012');return true;\"","OpenInNewWindow":"1","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/W4/W4_Catering_Secondary_unit.jpg","PromotionMoviePath":"","PromotionText":"  Crowd Pleasing Choices","PromotionUrl":"/subwayroot/Catering/default.aspx","SlotID":"6","OnClick":"onclick=\"s.tl(this,'o','Home: Secondary Promo: Unit 3: Catering Graduation: W4: 2012');return true;\"","OpenInNewWindow":"0","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/dotted_line.gif","PromotionMoviePath":"","PromotionText":"","PromotionUrl":"","SlotID":"5","OnClick":"","OpenInNewWindow":"0","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/W3/W3_reusable_bags.jpg","PromotionMoviePath":"","PromotionText":"  SUBWAY® Kids Meal","PromotionUrl":"http://www.subwaykids.com/kids/?e=1&tag=window&rdr=subway.com:hp:W3:2012","SlotID":"4","OnClick":"onclick=\"s.tl(this,'o','Home: Secondary Promo: Unit 2: Kids: W3: 2012');return true;\"","OpenInNewWindow":"1","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/W4/CokeZero_Secondary.jpg","PromotionMoviePath":"","PromotionText":"  See More","PromotionUrl":"/Menu/SidesDrinksExtras.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=38","SlotID":"6","OnClick":"onclick=\"s.tl(this,'o','Home: Secondary Promo: Unit 5: Coke Zero: W4: 2012');return true;\"","OpenInNewWindow":"0","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/dotted_line.gif","PromotionMoviePath":"","PromotionText":"","PromotionUrl":"","SlotID":"5","OnClick":"","OpenInNewWindow":"0","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""},{"PromotionButtonImageExpandedPath":"","PromotionButtonImagePath":"","PromotionImagePath":"/subwayroot/Promotions/Home/Secondary/W4/W4_subwaycard_2ndunit.jpg","PromotionMoviePath":"","PromotionText":"  Give a SUBWAY® Card","PromotionUrl":"https://www.mysubwaycard.com","SlotID":"4","OnClick":"onclick=\"s.tl(this,'o','Home: Secondary Promo: Unit 6: Subway Card: W4: 2012');return true;\"","OpenInNewWindow":"1","TimerSecs":"0","ContestPromotionUrl":"","ContestPromotionImage":"","ContestPromotiononClick":"","ContestPromotionMoviePath":""}]};
+        var objpromotionsTotal = 9;
+        var objpromotionsPerPage = 3; 
+        var objpromotionTitle = '';
+        var objCarouselId = 'mycarousel';
+        var objCarouselClass = 'jcarousel-skin-tango';
+        var objPageNumbersDivClass = 'pageNumbersDiv-class'
+        var flgopenGetNewsAndOffers = 0;  
+        var objContestQueryParams = '?entrycode=&rdr=';
+        var objContestSlotID = '0';     
+         var strMainPromoisVisible  = '1';
+	</script>
+
+
+ 
+    <link rel="apple-touch-icon" href="/core/images/icons/iphoneicon-57.png"/>
+    
+</head>
+<body id="masterBody" class="rays-midday">
+
+ <script type="text/javascript">var trackingTitle = "Home";var trackingChannel = "Home"</script>
+     <script src="/core/Scripts/Tracking/OmniTure-Code.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        LogPageForTracking();
+    </script>
+
+<script type="text/javascript">
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code = s.t(); if (s_code) document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+    if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-')
+//--></script><noscript><img src="http://subwayfranchiseeadvertising.122.2o7.net/b/ss/subwaysubwaycom-test/1/H.24.3--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.24.3. -->
+
+
+<div id="overlay">
+</div>
+	<form method="post" action="default.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjAyMDcwMjU3ZGTz++FPR2AtpTPGfbTsRBLiZcVTmXKvON65h5CxVimjGQ==" />
+
+	
+
+
+<div id="mainMenu"><a href="/subwayroot/default.aspx" onclick="s_objectID='Super Nav:Subway Logo';"><img id="SubwayLogo" src="/core/images/topNavBar/subway-logo.png"  alt="SubwayLogo" style="border: 0px solid black;margin-top:4px" /></a>
+        
+
+<div id="upperNav"><a href="/OnlineOrdering/default.aspx" onclick="s_objectID='Utility Nav:Order Online-SUBWAY Express';">Order Online - SUBWAY Express&#153;</a>|<a id="Div2" href="http://subwaykids.com" target="_blank" onclick="s.tl(this,'o','Utility Nav:Subway Kids');">Subway Kids</a>|<a id="Div3" href="http://mysubwaycard.com" target="_blank" onclick="s.tl(this,'o','Utility Nav:Subway Card');">Subway Card</a>|<a id="Div4" target="_blank" href="https://partners.subway.com" onclick="s.tl(this,'o','Utility Nav:Log In');">Log In</a><a href="/subwayroot/exploreourworld.aspx" style="margin:0px;padding:0px;" onclick="s_objectID='Utility Nav:International Web Sites';"><img alt="country selector" src="/core/Images/buttons/change-country-selector.gif" style="margin:-1px 0px 0px 17px"/></a></div>        
+<div id="mainNav"><a id="FindAStore" href="/storelocator/default.aspx" onclick="s_objectID='Super Nav:Find a Store';">Find a store <img src="/core/Images/icons/nav-triangle.gif" id="imgFindAStore" alt="nav triangle" /></a><a href="/menu/default.aspx" id="nMenu" onclick="s_objectID='Super Nav:Menu &amp; Nutrition';">Menu &amp; Nutrition <img src="/core/Images/icons/nav-triangle.gif" id="imgMenuNutrition" alt="nav triangle" /></a><a href="/subwayroot/Catering/default.aspx" id="Catering" onclick="s_objectID='Super Nav:Catering';" >Catering <img src="/core/Images/icons/nav-triangle.gif" id="imgCatering" alt="nav triangle" /></a><a href="/subwayroot/Freshbuzz/default.aspx" id="freshbuzz" onclick="s_objectID='Super Nav:Freshbuzz';">Freshbuzz <img src="/core/Images/icons/nav-triangle.gif" id="imgFreshBuzz" alt="nav triangle" /></a><a href="/ContactUs/frmCustomerService.aspx" id="contact" onclick="s_objectID='Super Nav:Contact us';">Contact us <img src="/core/Images/icons/nav-triangle.gif" id="imgContactUs" alt="nav triangle" /></a><a href="/subwayroot/About_Us/default.aspx" id="about" onclick="s_objectID='Super Nav:About Us';">About Us <img src="/core/Images/icons/nav-triangle.gif" id="imgAboutUs" alt="nav triangle" /></a><a href="/subwayroot/Careers/default.aspx" id="careers" onclick="s_objectID='Super Nav:Careers';">Careers <img src="/core/Images/icons/nav-triangle.gif" id="imgCareers" alt="nav triangle" /></a><a href="/subwayroot/Own_a_Franchise/default.aspx" id="own" onclick="s_objectID='Super Nav:Own a Franchise';">Own a Franchise <img src="/core/Images/icons/nav-triangle.gif" id="imgOwnaFranchise" alt="nav triangle" /></a></div>
+
+<!--country count bar-->
+<div style="height:25px;background-color:#00543D;"><a id="StoreCountryCounts" href="/subwayroot/exploreourworld.aspx">36,634 Restaurants in 100 Countries &nbsp;<img src="/Core/Images/icons/white-arrow-right-on-green.gif" style="vertical-align:middle;margin:0px 0px 2px 0px;" alt="Link Arrow" /></a></div>
+
+
+<div id="shadowCount"></div>
+    
+    
+<!--find a store dropdown-->    
+<div class="subMainMenu" id="subFindStore" style="margin-left:138px;">
+<div class="dropdown" style="width:400px">
+<div class="dropdown_innertop" style="height:270px;width:400px">
+<div class="dropdown_innertopheader"><p class="sectiontitle"><a href="/storelocator/default.aspx" onclick="s_objectID='Super Nav:Find a Store:Find a Subway&reg; Restaurant';">find a subway&reg; restaurant</a></p></div>
+<div class="dropdown_innertopnavleft" style="height:20px;width:371px;border:0px solid #ff0000;margin-top:12px"><p class="pagetitle">enter address, city &amp; state or postal code</p></div>
+<div class="dropdown_innertopnavleft" style="height:auto;width:371px;margin-top:4px"><div style="float:left;width:305px;border:0px solid #ff0000"><input type="text" id="searchAddress" onkeypress="doClick(event,'btnGONav');" style="font-style:italic;font-size:14px;font-family:Droid Serif, Times New Roman, serif;padding:0px;height:21px;width:100%"/></div><div style="float:right"><img id="btnGONav" class="btnSubway" onclick="showStores();s_objectID='Super Nav:Find a Store:Go';" alt="Locator Nav Go Button" src="images/go-button.gif"></div></div>
+<div class="dropdown_innertopnavleft" style="height:auto;width:399px;border:0px solid #ff0000;margin:11px 0px 0px 0px;padding:0"><img src="/core/images/supernav15/supernav_findastore_bottom.gif" style="margin-top:0px"/></div>
+</div>
+<div class="dropdown_innerbottom" style="width:400px"><p class="bottomtextsmall">36,634 Restaurants in 100 Countries </p></div>
+</div>
+</div>
+
+
+<!--menu + nutrition dropdown--> 
+<div class="subMainMenu" id="subMenuNut" style="margin-left:245px;width:430px">
+<div class="dropdown" style="height:345px;width:430px;">
+<div class="dropdown_innertop" style="height:315px;width:430px">
+<div class="dropdown_innertopnavleft" style="height:235px;width:170px;padding-left:1px">
+<p class="sectiontitle" style="padding:4px 0px 2px 0px"><a href="/menu/default.aspx" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu';">Menu</a></p>
+<a href="/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=35" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:All Sandwiches';" class="subMainMenuLink" style="border-top:1px dotted #a4a4a4;margin-top:13px;width:159px">all sandwiches</a><a href="/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=53" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:$5-FOOTLONGS';" class="subMainMenuLink">$5-FOOTLONGS</a><a href="/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=54" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:fresh fit choices';" class="subMainMenuLink">fresh fit choices</a><a href="/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=56" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:featured products';" class="subMainMenuLink">featured products</a><a href="/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=40" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:breakfast';" class="subMainMenuLink">breakfast</a><a href="/Menu/Product.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=36" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:Salads';" class="subMainMenuLink">salads</a><a href="/Menu/Product.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=41" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:Fresh Fit For kids';" class="subMainMenuLink">fresh fit for kids</a><a href="/Menu/SidesDrinksExtras.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=38" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:sides, drinks, extras';" class="subMainMenuLink">sides, drinks, extras</a><a href="/Menu/HowToOrder/HowToOrder.aspx" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:how to order';" class="subMainMenuLink">how to order</a><a href="/OnlineOrdering/default.aspx" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu:Order Online';" class="subMainMenuLink">order online</a>
+</div>
+<div style="float:left;width:23px;border-right:1px dotted #a4a4a4;height:132px;margin-top:20px;">&nbsp;</div>
+<div class="dropdown_innertopnavright" style="margin:14px 16px 0px 0px;width:178px;">
+<p class="sectiontitle" style="padding:5px 0px 2px 0px;"><a href="/nutrition/nutritionlist.aspx" onclick="s_objectID='Super Nav:Menu and Nutrition:Nutrition';">Nutrition</a></p>
+<a href="/nutrition/nutritionlist.aspx" onclick="s_objectID='Super Nav:Menu and Nutrition:Nutrition Information';" class="subMainMenuLink" style="width:99%;border-top:1px dotted #a4a4a4;margin-top:14px">nutrition information</a><a href="/subwayroot/menu_and_nutrition/ExpertAdvice.aspx" onclick="s_objectID='Super Nav:Menu and Nutrition:Expert Advice';" class="subMainMenuLink" style="width:99%;">expert advice</a><a href="/Menu/MealBuilder/MealBuilder.aspx" class="subMainMenuLink" style="width:99%;" onclick="s_objectID='Super Nav:Menu and Nutrition:Meal Builder';">meal builder</a><a href="/subwayroot/Menu_And_Nutrition/MenuFAQs.aspx" class="subMainMenuLink" style="width:99%;" onclick="s_objectID='Super Nav:Menu and Nutrition:Menu &amp; Nutrition FAQs';">menu &amp; nutrition FAQs</a><a href="/OnlineOrdering/default.aspx"><img src="/core/images/supernav15/supernav-dropdown-subexpress.gif" alt="Order Online - SUBWAY&reg; Express" style="margin-right:0px;display:inline;margin-top:46px;margin-left:-37px"></a>
+</div>
+</div>
+<div class="dropdown_innerbottom" style="width:430px"><a href="/Menu/MenuCategoryItems.aspx?CC=USA&LC=ENG&MenuTypeId=1&MenuId=56"><p class="bottomtextsmall" style="cursor:pointer;text-decoration:none">Try the New Smokehouse Chicken</p></a></div>
+</div>
+</div>
+   
+
+<!--catering dropdown-->     
+<div class="subMainMenu" id="subCatering" style="margin-left:387px;">
+<div class="dropdown" style="width:400px">
+<div class="dropdown_innertop" style="width:400px">
+<div class="dropdown_innertopheader"><p class="sectiontitle"><a href="/subwayroot/Catering/default.aspx" onclick="s_objectID='Super Nav:Catering:Subway Fresh Catering';">subway&reg; fresh catering&#153;</a></p></div>
+<div class="dropdown_innertopnavleft" style="height:155px;width:145px;border-bottom:0px solid #ff0000">
+<a href="/subwayroot/Catering/cateringproducts.aspx" class="subMainMenuLink" style="border-top:1px dotted #a4a4a4;">catering menu</a><a href="/subwayroot/catering/CateringPlanning.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Catering:Catering Planning';">catering planning</a><a href="/subwayroot/Catering/CateringFAQs.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Catering:Catering Faqs';">catering faqs</a><a href="http://subwaycatering.com/Cart/Menu.aspx" class="subMainMenuLink" target="_blank" onclick="s_objectID='Super Nav:Catering:Ready To Order';">ready to order?</a><img src="/core/images/supernav15/supernav_catering_top2a.jpg" alt="subway fresh catering" style="margin-top:0px;margin-left:-12px"></div>
+<div class="dropdown_innertopnavright" style="width:243px;border-bottom:0px solid #ff0000"><img src="/core/images/supernav15/supernav_catering_top2b.jpg" alt="subway fresh catering" style="margin-top:41px"></div>
+</div>
+<div class="dropdown_innerbottom" style="width:400px"><p class="bottomtextsmall">make YOUR next EVENT a hit WITH SUBWAY&reg;!</p></div>
+</div>
+</div>
+   
+    
+<!--fresh buzz dropdown--> 
+<div class="subMainMenu" id="subFreshBuzz" style="margin-left:471px;width:415px">
+<div class="dropdown" style="height:320px;">
+<div class="dropdown_innertop" style="height:290px">
+<div class="dropdown_innertopheader"><p class="sectiontitle"><a href="/subwayroot/Freshbuzz/default.aspx" onclick="s_objectID='Super Nav:Freshbuzz:Subway Freshbuzz';">subway freshbuzz&#153;</a></p></div>
+<div class="dropdown_innertopnavleft" style="width:152px;height:auto">
+<a id="Div1" href="/subwayroot/Freshbuzz/default.aspx" class="subMainMenuLink" style="border-top:1px dotted #a4a4a4;" onclick="s_objectID='Super Nav:Freshbuzz:News and Offers';">news and offers<a href="/subwayroot/freshbuzz/website/jareds_journey/default.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Freshbuzz:jareds journey';">jared's journey</a><a href="/subwayroot/freshbuzz/famousfans.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Freshbuzz:famous fans';">famous fans</a><a href="https://www.facebook.com/subway" onclick="s.tl(this,'e','Super Nav:Freshbuzz:Facebook');" class="subMainMenuLink" target="_blank" style="border-top: 1px dotted #A4A4A4;padding:5px 0px 3px 5px;margin-top:20px;"><img src="/core/images/supernav15/supernav_FB-logo.png" alt="facebook" style="margin-right:10px;float:left"/>like us on facebook</a><a href="https://twitter.com/#!/subway" onclick="s.tl(this,'e','Super Nav:Freshbuzz:Twitter');" class="subMainMenuLink" target="_blank" style="padding:5px 0px 3px 5px;"><img src="/core/images/supernav15/supernav_Twitter-logo.png" alt="facebook" style="margin-right:10px;float:left"/>follow us<br />on twitter</a><a href="http://www.youtube.com/subway" onclick="s.tl(this,'e','Super Nav:Freshbuzz:Youtube');" class="subMainMenuLink" target="_blank" style="padding:5px 0px 3px 5px;"><img src="/core/images/supernav15/supernav_YouTube-logo.png" alt="youtube" style="margin-top:2px;margin-right:10px;float:left;"/>watch us<br />on youtube</a></div>
+<div class="dropdown_innertopnavright" style="width:234px;height:auto;"><img src="/core/images/supernav15/supernav_freshbuzz_top.jpg" style="margin:19px 0px 0px 0px"></div>
+</div>
+<div class="dropdown_innerbottom"><p class="bottomtextsmall">Stay fresh with the latest news</p></div>
+</div>
+</div>
+
+
+
+<!--contact us dropdown--> 
+<div class="subMainMenu" id="subContactUs" style="margin-left:280px;width:415px;">
+<div class="dropdown" style="background-image:url(/core/images/supernav15/supernav_contactus_large_BG.jpg);background-repeat:no-repeat">
+<div class="dropdown_innertop">
+<div class="dropdown_innertopheader"><p class="sectiontitle"><a href="/subwayroot/About_Us/default.aspx" onclick="s_objectID='Super Nav:Contact Us:Contact Us';">contact us</a></p></div>
+<div class="dropdown_innertopnavleft" style="width:210px;">
+<a href="/ContactUs/frmCustomerService.aspx" class="subMainMenuLink" style="border-top:1px dotted #a4a4a4;" onclick="s_objectID='Super Nav:Contact Us:Contact customer service';">contact customer service</a><a href="http://www.tellsubway.com" class="subMainMenuLink" target="_blank" onclick="s.tl(this,'e','Super Nav:Contact Us:take our survey');">take our survey</a><a href="/ContactUs/CustServFAQs.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Contact Us:subway&reg; faqs';">subway&reg; faqs</a><a href="http://www.tellsubway.com" target="_blank"><img src="/core/images/supernav15/spacer.gif" alt="contact us" style="width:200px;height:59px;margin-top:52px;float:left;border:0px solid #000000"></a>
+</div>
+<div class="dropdown_innertopnavright" style="width:187px;"><!--<img src="/core/images/supernav15/supernav_contactus_top2.jpg" alt="contact us" style="margin-top:3px">--></div>
+</div>
+<div class="dropdown_innerbottom"><p class="bottomtextsmall">contact customer service</p></div>
+</div>
+</div>
+
+
+
+
+<!--about us dropdown--> 
+<div class="subMainMenu" id="subAboutUs" style="margin-left:380px;width:415px">
+<div class="dropdown">
+<div class="dropdown_innertop">
+<div class="dropdown_innertopheader"><p class="sectiontitle"><a href="/subwayroot/About_Us/default.aspx" onclick="s_objectID='Super Nav:About Us:about subway';">about subway&reg;</a></p></div>
+<div class="dropdown_innertopnavleft" style="width:222px;">
+<a href="/subwayroot/about_us/history.aspx" class="subMainMenuLink" style="border-top:1px dotted #a4a4a4;" onclick="s_objectID='Super Nav:About Us:history';">history</a><a href="/subwayroot/about_us/pressreleases.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:About Us:latest news / press releases';">latest news / press releases</a><a href="/subwayroot/ExploreOurWorld.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:About Us:explore our world';">explore our world</a><a href="/subwayroot/about_us/Social_Responsibility/default.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:About Us:social responsibility';">social responsibility</a><a href="/ContactUs/CustServFAQs.aspx" class="subMainMenuLink" onclick="s.tl(this,'e','Super Nav:About Us:subway&reg; faqs');">subway&reg; faqs</a><a href="http://shop.subway.com/" class="subMainMenuLink" target="_blank" onclick="s_objectID='Super Nav:About Us:subgear';">subgear</a><a href="/subwayroot/about_us/Social_Responsibility/OurPeopleOurCommunities.aspx#joy" class="subMainMenuLink" onclick="s_objectID='Super Nav:About Us:heart walk';">heart walk</a><a href="/ContactUs/frmCustomerService.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:About Us:contact us';">contact us</a>
+</div>
+<div class="dropdown_innertopnavright" style="width:173px;">
+<img src="/core/images/supernav15/supernav_aboutus_top.jpg" alt="about us" style="margin:23px 0px 0px 0px"></div>
+</div>
+<div class="dropdown_innerbottom"><p class="bottomtextsmall">subway&reg; &mdash; eat fresh, live green</p></div>
+</div>
+</div>
+
+
+<!--careers dropdown--> 
+<div class="subMainMenu" id="subCareers" style="margin-left:450px;width:415px">
+<div class="dropdown">
+<div class="dropdown_innertop">
+<div class="dropdown_innertopheader"><p class="sectiontitle"><a href="/subwayroot/Careers/default.aspx" onclick="s_objectID='Super Nav:Careers:subway&reg; careers';">subway&reg; careers</a></p></div>
+<div class="dropdown_innertopnavleft" style="width:182px;">
+<a href="https://www3.ultirecruit.com/FRA1004/JobBoard/Default.aspx?__VT=ExtCan" class="subMainMenuLink" target="_blank" style="border-top:1px dotted #a4a4a4;" onclick="s.tl(this,'e','Super Nav:Careers:headquarter jobs');">headquarter jobs</a><a href="/subwayroot/Careers/Default.aspx?showDialog=true" class="subMainMenuLink" onclick="s.tl(this,'e','Super Nav:Careers:local restaurant jobs');">local restaurant jobs</a><a href="/subwayroot/Careers/regionalJobs.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Careers:regional jobs';">regional jobs</a>
+<p class="pagetitle" style="margin-top:23px;color:#353535;font-size:14px">want to own your <u>own</u> subway&reg; restaurant?</a>
+<a href="/subwayroot/Own_a_Franchise/default.aspx" class="subMainMenuLink" style="border-top:1px dotted #a4a4a4;margin-top:8px;" onclick="s_objectID='Super Nav:Careers:VIEW OUR FRANCHISE OPPORTUNITIES';">VIEW OUR FRANCHISE<br/>OPPORTUNITIES</a>
+</div>
+<div class="dropdown_innertopnavright" style="width:203px;">
+<img src="/Core/Images/SuperNav15/supernav_careers_top.jpg" alt="careers" style="margin:22px 0px 0px 0px"></div>
+</div>
+<div class="dropdown_innerbottom"><p class="bottomtextsmall">great people, great sandwiches, great career</p></div>
+</div>
+</div>
+
+
+<!--own a franchise dropdown--> 
+<div class="subMainMenu" id="subOwnAFranchise" style="margin-left:581px;width:415px;">
+<div class="dropdown" style="height:320px;">
+<div class="dropdown_innertop" style="height:290px">
+<div class="dropdown_innertopheader"><p class="sectiontitle"><a href="/subwayroot/Own_a_Franchise/default.aspx" onclick="s_objectID='Super Nav:Own a Franchise:own a subway&reg; franchise';">own a subway&reg; franchise</a></p></div>
+<div class="dropdown_innertopnavleft" style="width:197px;">
+<a href="/subwayroot/own_a_franchise/whychoosesubway.aspx" class="subMainMenuLink" style="border-top:1px dotted #a4a4a4;" onclick="s_objectID='Super Nav:Own a Franchise:why choose subway';">why choose subway?</a><a href="/subwayroot/Own_a_Franchise/nextsteps.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Own a Franchise:your next steps';">your next steps</a><a href="https://www.subway.com/AdditionalInfoApp/index.aspx" class="subMainMenuLink" target="_blank" onclick="s_objectID='Super Nav:Own a Franchise:apply to own';">apply to own</a><a href="/subwayroot/Own_a_Franchise/events.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Own a Franchise:attend a seminar';">attend a seminar</a><a href="/InetLeads/frmRequestBrochure.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Own a Franchise:register your interest';">register your interest</a><a href="/subwayroot/Own_a_Franchise/FranchiseFAQs.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Own a Franchise:franchising faqs';">franchising faqs</a><a href="/subwayroot/Own_a_Franchise/ContactFranchiseSales.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Own a Franchise:contact franchise sales';">contact franchise sales</a><a href="/forsale/default.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Own a Franchise:restaurants for sale';">restaurants for sale</a><a href="/subwayroot/Own_a_Franchise/SubmitALocation.aspx" class="subMainMenuLink" onclick="s_objectID='Super Nav:Own a Franchise:submit a location';">submit a location</a>
+</div>
+<div class="dropdown_innertopnavright" style="width:185px;">
+<img src="/core/images/supernav15/supernav_franchising_top.jpg" alt="own a franchise" style="margin:25px 0px 0px 0px"></div>
+</div>
+<div class="dropdown_innerbottom"><p class="bottomtextsmall">all about franchising</p></div>
+</div>
+</div>
+     
+
+
+
+</div>
+
+
+    
+
+
+    
+
+   
+<div id="dlgSidePromo" class='rays-promo-hide'>
+<a id="urlSidePromo" onclick="s.tl(this,'o','Home: Side Tab: BOGO Buddy: W3: 2012');return true;" ><img id="imgSidePromo" alt="" height="360" style="border:0px;"   width="600" /></a>
+<img src="/core/Images/buttons/side-promo-close-button.png" id="btnClose" alt="Close Button" style=" position:relative;top:-345px;left:560px;z-index:20;" />
+
+</div> 
+ <div id="btnSidePromo" class="rays-promo-button"><img alt="" id="btnSidePopup" src="" /></div>
+
+
+       
+
+	<div id="contentMasterHome">
+		
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: subway.com_Homepage
+URL of the webpage where the tag is expected to be placed: http://www.subway.com/subwayroot/default.aspx
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 08/12/2011
+-->
+<script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="http://fls.doubleclick.net/activityi;src=1599532;type=subwa507;cat=subwa670;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://fls.doubleclick.net/activityi;src=1599532;type=subwa507;cat=subwa670;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+    
+
+<div id="featured">    
+       
+</div>
+
+  
+
+<!--end container div for franchise box and mini promo--><div style="height:460px;background-color:#f9f8f6;border:0px solid #ff0000">
+
+<div id="FranchiseOps" style="float:left;display:inline">
+    <!--<span class="frHeader1">Own A Franchise</span>
+    <span class="frHeader2">Apply&nbsp;Today</span>-->
+    <a href="/subwayroot/Own_a_Franchise/default.aspx" onclick="s.tl(this,'o','HomePage: Secondary Unit: Own a Franchise');"><img alt="Own A Franchise, Apply Today!" title="Own A Franchise, Apply Today!" name="Own A Franchise, Apply Today" class="FRtitle" src="/subwayroot/Images/FranchiseOps/own_franchise_box-title.gif"/></a><a href="/subwayroot/Own_a_Franchise/default.aspx" onclick="s.tl(this,'o','HomePage: Secondary Unit: Own a Franchise');"><img alt="Own A Franchise, Apply Today!"  class="FR" src="/subwayroot/Images/FranchiseOps/image-own-a-franchise.jpg" /></a>
+<!--<p class="FrBody">SUCCESS STARTS AT SUBWAY&REG;</p>-->
+<p class="FrBody">Join the winning team and own your future with SUBWAY&REG; Restaurants 
+    today!</p>
+<ul class="FrBody" style="margin-top:15px">
+    <li class="FrBody"><a href="/subwayroot/Own_a_Franchise/default.aspx">All about Franchising</a></li>
+    <li class="FrBody"><a href="/subwayroot/Own_a_Franchise/SubmitALocation.aspx">Submit great locations</a></li>
+    <li class="FrBody"><a href="/subwayroot/exploreourworld.aspx">Worldwide opportunities</a></li>
+</ul>
+    <a href="https://www.subway.com/AdditionalInfoApp/index.aspx" target="_blank"><img src="/subwayroot/Images/buttons/apply-now.gif" alt="apply-now-button" id="btnApply" style="margin-top:15px" /></a>
+</div>
+
+<div id="HomePageGroup">
+
+
+
+<div id="ulDiv">
+
+</div>
+<div id="PlaceHolderForPageNumsDiv">
+
+</div>
+
+<div id="promotionTitleDiv" class="PromotionTitleDiv-class">
+
+</div>
+
+
+<div id="TwitterLogoBlock"><div style="float:left; height:100%;display:block; border-right:1px dotted black;">
+    <img alt="twitter logo" id="imgTwitter-Normal"  src="/Core/Images/icons/Twitter_logo.gif" /></div>
+   
+    
+<div  id="twiiter_1st">
+<span id="ContentPlaceHolder1_sharecontent1_lbltwitter_mes"><table border='0' cellspacing='0' cellpadding='0' ><tr><td  class="copy-small" style="padding:3px 12px 0px 12px">No refund with #TaxDay? Then try for a chance to win $100,000 or other prizes with BATTLESHIP! See rules & enter: http://t.co/LsrDhkC4</td></tr></table></span>
+
+</div>
+    </div>
+<div class="ButtonBoxWidth" style="position:relative;top:25px;">
+
+<!--<script type="text/javascript" src="/core/scripts/NewsAndOffers.js"></script>
+<script type="text/javascript" src="/core/scripts/jquery.jqtransform.js"></script>
+<script type="text/javascript" src="/core/scripts/jquery.validate.additional-methods.js"></script>
+<script type="text/javascript" src="/core/scripts/jquery.validate.min.js"></script>-->
+
+
+<script src="/core/Scripts/jquery.ui.core.js" type="text/javascript"></script>
+<script src="/core/Scripts/jquery.ui.datepicker.js" type="text/javascript"></script>
+<link href="/core/Styles/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="/core/scripts/GetNewsandOffers.js"></script>
+
+<style>
+input.error,textarea.error{
+  border:1px solid #f00;
+}
+label.error{ color:#f00; } 
+</style>
+<script type="text/javascript">
+
+    $(function () {
+        var currentYear = (new Date).getFullYear();
+        $("#dob").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '1910:' + currentYear,
+            maxDate: "+0M +0D",
+            defaultDate: null,
+            dateFormat: 'mm/dd/yy'
+//            onSelect: function (date) {
+//                var dateBits = date.split('/');
+//                document.getElementById('dob_month').value = dateBits[0];
+//                document.getElementById('dob_day').value = dateBits[1];
+//                document.getElementById('dob_year').value = dateBits[2];
+//            }
+        });
+    });
+    //   
+
+    //    var headID = document.getElementsByTagName("head")[0];   
+    //    var newScript = document.createElement('script');
+    //    newScript.type = 'text/javascript';   
+    //    newScript.src = 'http://w.sharethis.com/button/buttons.js';
+    //    headID.appendChild(newScript);
+  
+</script>
+
+<div id="ftButtons" name="ftButtons"  >
+<script type="text/javascript">
+    var switchTo5x = true;</script>
+    
+
+     <div id="dlgFTShare" class="popUpDialog popUpDialog-Large popUpDialogHide" style="display:none;">
+     <div class="popUpDlgHeader SharePageColor " >
+     <img alt="indicator arrow" src="/Core/Images/icons/arrow-share-this-page.png"
+   style="left:-15px;top:-15px;position:absolute;" />
+      <div class="popUpDlgHeaderTitle" style=""><p class='st_sharethis_custom' style="font-family:ProximaNova-Bold, Arial, Helvetica, sans-serif;width:300px;background-image:url(/Core/Images/icons/share-icon-16x16.png);background-repeat:no-repeat;background-position:165px 8px;margin-top:0px;cursor:pointer" >Share This Page</p>
+     </div><div style="" class="popUpdlgClose" onclick="HideFooterDialog('#dlgFTShare', '#btnFTShare', '/Core/Images/icons/popup-share-connect-button');return false;"><span>Close</Span><img alt="Share Close Button" style="" src="/core/Images/icons/blue-X-button.gif" /></div></div>
+      <span class="popUpDlgTextHeader SharePageColor" style="border-bottom: 1px dotted #CCCCCC; display:block; margin-top:-10px;background-color:White;">Social Connections</span>
+
+         
+         <div id="fbtwbox" style="overflow-x: hidden;overflow-y:auto;position:absolute;z-index:0;height:280px;width:94%">
+        
+
+
+<!--main table-->
+<table width="592px" border="0" cellspacing="0" cellpadding="0" style="padding:0;margin:0;border:0px">
+  <tr>
+    <td width="275px" valign="top" align="left" style="padding:0;margin:0;">
+ 
+<!--facebook table--> 
+ 
+    
+    <table width="275px" border="0" cellspacing="0" cellpadding="0" style="background-color:none;padding:0;margin:0;border:0px">
+      <tr>
+        <td width="154px" valign="top" align="left" style="padding:5px 0px 4px 0px;border-bottom:1px dotted #ccc"><img style="float:left" src="/Core/images/buttons/spacer.gif" alt="Likes" width="131px" height="1px"/><h4 style="clear:left;margin:0;font-size:13px;padding:2px 0px 0px 0px;color:#3489bd">FACEBOOK</h4></td>
+        <td valign="top" width="52px" style="padding:4px 0px 4px 0px;border-bottom:1px dotted #ccc"><img src="/Core/images/icons/facebook-like-button.gif" alt="Likes" width="49px" height="20px"/></td>
+        <td valign="top" align="center" width="69px" style="padding:4px 0px 4px 0px;border-bottom:1px dotted #ccc;"><div style="width:69px;height:20px;margin:0;padding:0px 0px 0px 0px;background-repeat:no-repeat;background-image:url(/Core/images/icons/likes-balloon-facebook.gif);background-position:center"><div style="float:left;margin:3px 0px 0px 13px;display:inline"><span id="ContentPlaceHolder1_fb1_sharecontent1_lbllikes"><font face="Droid Serif,Times New Roman,serif">12273499</font></span></div></div></td>
+     </tr>
+
+      <tr>
+        <td colspan="3" style="padding:0" valign="top" align="left"><div id="fbtbl" style="margin:3px 0px 0px 0px;padding:0;vertical-align:top"><span id="ContentPlaceHolder1_fb1_sharecontent1_lblfb"><table border='0' cellspacing='0' cellpadding='0' style='border:0px;margin-top:-7px'><tr><td  class="copy-medium" style="padding:17px 0px 0px 0px">How’s a chance to win $100,000 or other cool prizes sound to you? Thanks to our partnership with Universal Studios and Coca Cola Zero on Battleship, you can have one! ‘Like’ this if you’re going to give it a try! See official rules <a href="http://battleship.subway.com/Content/html/rules.html" target="_blank" rel="nofollow nofollow" test="UntrustedLink.bootstrap($(this), &quot;HAQGQqDHg&quot;, event, bagof(&#123;&#125;));">http://battleship.subway.com/Content/html/rules.html</a><br/><a href="http://www.facebook.com/photo.php?fbid=10150818569544974&amp;set=a.10150141099489974.330985.224383614973&amp;type=1" id="" title="" target="" onclick="" style=""></a><br/><span style='font-size:12px;font-style:italic;'>7&nbsp;hours ago</span></td></tr><tr><td style="padding:0px 0px 0px 0px;border-bottom:1px dotted #ccc">&nbsp;</td></tr><tr><td  class="copy-medium" style="padding:17px 0px 0px 0px">Big news for those of you who are also our friends on Twitter! We’ve switched our official handle to &#064;SUBWAY, so if you’re not already following us there…what are you waiting for?!<br/><span style='font-size:12px;font-style:italic;'>27&nbsp;hours ago</span></td></tr><tr><td style="padding:0px 0px 0px 0px;border-bottom:1px dotted #ccc">&nbsp;</td></tr><tr><td  class="copy-medium" style="padding:17px 0px 0px 0px">HOLY Smokehouse BBQ Chicken!<br/><a href="http://www.facebook.com/photo.php?fbid=10150815782909974&amp;set=a.10150141099489974.330985.224383614973&amp;type=1" id="" title="" target="" onclick="" style=""></a><br/><span style='font-size:12px;font-style:italic;'>33&nbsp;hours ago</span></td></tr><tr><td style="padding:0px 0px 0px 0px;border-bottom:1px dotted #ccc">&nbsp;</td></tr><tr><td  class="copy-medium" style="padding:17px 0px 0px 0px">Any superstitious folks waking up to notice the calendar? Your luck just got better…Remember, BOGO before 9 AM is available all month! (Prices may vary)<br/><span style='font-size:12px;font-style:italic;'>111&nbsp;hours ago</span></td></tr><tr><td style="padding:0px 0px 0px 0px;border-bottom:1px dotted #ccc">&nbsp;</td></tr><tr><td  class="copy-medium" style="padding:17px 0px 0px 0px">So today is National SUBmarine Day…How’s THIS for SUB love?<br/><a href="http://www.facebook.com/photo.php?fbid=10150803733369974&amp;set=a.10150141099489974.330985.224383614973&amp;type=1" id="" title="" target="" onclick="" style=""></a><br/><span style='font-size:12px;font-style:italic;'>155&nbsp;hours ago</span></td></tr><tr><td style="padding:0px 0px 0px 0px;border-bottom:1px dotted #ccc">&nbsp;</td></tr></table></span></div></td>
+        </tr>
+    </table>
+    
+    
+    </td>
+    
+    <!--spacer column--><td width="20px" style="padding:0;margin:0"><img src="/Core/images/buttons/spacer.gif" alt="Likes" width="20px" height="20px"/></td><!--spacer column-->
+     
+     
+<td width="275px" valign="top" align="left" style="padding:0;margin:0;">
+    
+<!--twitter table-->
+
+<table width="265px" border="0" cellspacing="0" cellpadding="0" style="padding:0;margin:0;border:0px">
+      <tr>
+        <td width="65px" valign="top" align="left" style="padding:5px 0px 4px 0px;border-bottom:1px dotted #ccc"><img style="float:left" src="/Core/images/buttons/spacer.gif" alt="" width="65px" height="1px"/><h4 style="clear:left;margin:0;font-size:13px;padding:2px 0px 0px 0px;color:#3489bd">TWITTER</h4></td>
+        <td width="200px" valign="top" align="right" style="padding:5px 0px 4px 0px;border-bottom:1px dotted #ccc"><a href="http://twitter.com/subway" class="twitter-follow-button" data-show-count="false" ><p style="margin:0;padding:0;color:#4f7375;font-family:ProximaNova-Bold, Helvetica, Arial, Sans-Serif;font-size:14px;text-align:right;text-decoration:underline;">@subway</p></a></td>
+        </tr>
+      <tr>
+        <td colspan="2" style="padding:0" valign="top" align="left"><div id="twtbl" style="margin:3px 0px 0px 0px;padding:0px 0px 12px 0px;vertical-align:top"><span id="ContentPlaceHolder1_fb1_sharecontent1_lbltw"><table border='0' cellspacing='0' cellpadding='0' style='border:0px;margin-top:-7px;' ><tr><td  class="copy-medium" style="padding:17px 0px 0px 0px">No refund with #TaxDay? Then try for a chance to win $100,000 or other prizes with BATTLESHIP! See rules & enter: http://t.co/LsrDhkC4<br/><span style='font-size:12px;font-style:italic;'>12&nbsp;hours ago via&nbsp;&nbsp;<a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a></span></td></tr><tr><td style="padding:0px 0px 0px 0px;border-bottom:1px dotted #ccc">&nbsp;</td></tr><tr><td  class="copy-medium" style="padding:17px 0px 0px 0px">RT @raccugliap The new BBQ smokehouse chicken sub way absolutely flawless. I finished the foot long before my girlfriend finished her 6".<br/><span style='font-size:12px;font-style:italic;'>13&nbsp;hours ago via&nbsp;&nbsp;<a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a></span></td></tr><tr><td style="padding:0px 0px 0px 0px;border-bottom:1px dotted #ccc">&nbsp;</td></tr></table></span></div></td>
+        </tr>
+    </table>    
+    
+    
+    </td>
+  </tr>
+  </table>
+
+
+
+        </div>
+
+   
+
+      
+
+      </div>
+         
+    
+
+     <div id="dlgFTNews" class="popUpDialog popUpDialog-Large popUpDialogHide" style="display:none;">
+        <div id="dlgFTSignUpFormInValid" class="dlgFTSignUpFormInValid-hide">
+            <span class="popupLabelColor copy-small" style="position:relative; top:5px;color:#b30000;">Please correct the following errors to proceed.</span>
+            <div id="errorTxt"></div>
+        </div>
+        <!-- SignUp Subscription Updated -->
+        <div id="dlgFTSignUpSuccessSubscriptionUpdated" class="dlgFTSignUpSuccess-hide" style="margin:140px 50px 0px 50px">
+            <p class="popupLabelColor copy-smalloffers">Subscription Preferences were updated. Thank you.</p>
+            <p style="text-align:center">
+            <img src="/core/Images/buttons/ok-button.gif" id="img1" class="clsOK"  alt="Ok" onclick="CloseFooterDialog('#dlgFTNews', '#btnFTNews');return false;" style="margin-top:20px;margin-left:100px"/></p>
+        </div>
+        <!-- Sign up Success Message -->
+        <div id="dlgFTSignUpSuccess" class="dlgFTSignUpSuccess-hide" style="margin:140px 50px 0px 50px">
+            <p class="popupLabelColor copy-smalloffers">Thank You for signing up for news from SUBWAY.COM            
+            Keep an eye on your inbox, because we'll be kicking fresh news to you soon. remember to add 'email@email.subwayfreshbuzz.com' to your address book to make sure you receive our messages.</p>
+            <p style="text-align:center">
+            <img src="/core/Images/buttons/ok-button.gif" id="imgSuccessOK" class="clsOK"  alt="Ok" onclick="CloseFooterDialog('#dlgFTNews', '#btnFTNews');return false;" style="margin-top:20px;margin-left:100px"/></p>
+        </div>
+        <!-- Sign up Failure Message -->
+        <div id="dlgFTSignUpFailure" class="dlgFTSignUpFailure-hide" style="margin:140px 50px 0px 50px">
+            <p class="popupLabelColor copy-smalloffers">An UnKnown Error Occured while signing you up. Please try again later. Sorry for the inconvenience caused.</p>
+            <p style="text-align:center"><img src="/core/Images/buttons/ok-button.gif" id="imgFailureOK" class="clsOK"  alt="Ok" onclick="CloseFooterDialog('#dlgFTNews', '#btnFTNews');return false;" style="margin-top:20px;margin-left:100px"/></p>
+        </div>
+       
+       
+        <!--DOB Why message-->  
+        <div id="dlgFTNewsDOBWhy" class="dlgFTNewsDOBWhy-hide" style="margin:140px 50px 0px 50px">
+            <p class="popupLabelColor copy-smalloffers">Providing your date of birth will allow us to give you the fresh news and offers that are best suited for you. As an added bonus, if we know your birthday, we might just send you a little something that time of the year.</p>
+            <p style="text-align:center"><img src="/core/Images/buttons/ok-button.gif" id="imgdlgFTNewsDOBWhyOK" class="clsOK" alt="Ok" onclick="bringbackFTNewsDlg();" style="margin-top:20px;"/></p>
+        </div>
+
+
+
+        <!--Mobile Why message-->  
+        <div id="dlgFTNewsMobDetails" class ="dlgFTNewsDOBWhy-hide" style="margin:90px 50px 0px 50px">
+            <p class="popupLabelColor copy-smalloffers">Message & Data rates may apply. If you decide to opt out of receiving text messages from SUBWAY® restaurants, just reply 'STOP' to one of our messages. For help with SUBWAY® Mobile, reply ‘HELP’ to one of our messages or to 782929. Other charges may apply depending on wireless carrier. Carrier list includes Alltel, AT&T, Boost, Sprint, US Cellular, T-Mobile, and Verizon Wireless. Promotions, news and offers may be sent on a monthly basis. All mobile content sent through SUBWAY® Mobile is owned by SFAFT or its licensors. This service is provided as is without warranty of any kind.</p>
+            <p style="text-align:center"><img src="/core/Images/buttons/ok-button.gif" id="imgmobFTNewsDetailsOK" class="clsOK" alt="Ok" onclick="bringbackFTNewsDlg();" style="margin-top:20px;margin-left:100px"/></p>
+        </div>
+
+        <div class="popUpDlgHeader NewsPageColor" id="NewsAndOffersWholeDiv">                
+            <div id="NewsAndOffersDiv" class="popUpDlgHeaderTitle " style="">Get News &amp; Offers</div>
+            <div style="" class="popUpdlgClose" onclick="HideFooterDialog('#dlgFTNews', '#btnFTNews', '/Core/Images/icons/popup-news-offers-button');return false;"><span>Close</span><img alt="News Close Button" style="" src="/core/Images/icons/red-X-button.gif" /></div>
+            <p style="position:absolute;top:65px;left:5px;margin: 0px 15px 0px 15px;" class="copy-medium">Sign up and we'll keep you on top of everything fresh with the latest news about SUBWAY&reg; Restaurants, new site features and promotions. Do it. You know you want to.</p>        
+            
+
+<!--first column--> 
+ 
+<div style="width:284px;position:absolute;float:left;padding:0px;left:20px;top:112px;">
+
+<!--first name-->
+<div class="popupLabelColor copy-smalloffers" style="width:80px;float:left;">First Name<sup style="color:#b30000;">*</sup></div>
+<div id="firstNameInvalid" class="divRequiredField-hide copy-small" style="float:left;"></div>
+<input type="text" id="firstname" class="offersform"/>
+
+<!--last name-->
+<div class="popupLabelColor copy-smalloffers" style="width:80px;float:left;">Last Name<sup style="color:#b30000;">*</sup></div>
+<div id="lastNameInvalid" class="divRequiredField-hide copy-small" style="float:left;"></div>
+<input type="text" id="lastname" class="offersform" />
+
+<!--email address-->
+<div class="popupLabelColor copy-smalloffers" style="width:110px;float:left;">Email Address<sup style="color:#b30000;">*</sup></div>
+<div id="email1Invalid" class="divRequiredField-hide copy-small" style="float:left;"></div>
+<input type="text" id="email1" class="offersform" />
+
+<!--re-enter email address-->
+<div class="popupLabelColor copy-smalloffers" style="width:165px;float:left;">Re-enter Email Address<sup style="color:#b30000;">*</sup></div>
+<div id="email2Invalid" class="divRequiredField-hide copy-small" style="float:left;"></div>
+<input type="text" id="email2" class="offersform" />
+
+<!--zip code-->
+<div class="popupLabelColor copy-smalloffers" style="margin-top:0px;width:70px;float:left;">Zip Code<sup style="color:#b30000;">*</sup></div>
+<div id="zipInvalid" class="divRequiredField-hide copy-small" style="float:left;border:0px solid #ff0000"></div>
+<input type="text" id="zip" onkeypress="if (event.keyCode < 44 || event.keyCode > 57 || event.keyCode==47) event.returnValue = false;" maxlength="10" class="offersform"  style="float:left;clear:left;width:92px;"/>
+
+<div class="popupLabelColor copy-small" style="width:200px;margin-top:10px;float:left;clear:left;position:relative; top:0px;color:#b30000;"><sup>*</sup>  Indicates Required Field</div>
+
+
+</div>
+            
+            
+<!--second column-->           
+<div style="position:absolute;width:284px;float:right;left:330px;top:112px;padding:0px;">
+                
+       <!--  <span class="popupLabelColor copy-smalloffers">Date of Birth<sup style="color:#b30000;">*</sup></span><div id="dobInvalid1" class="divRequiredField-hide copy-smalloffers" ></div><div style="float:right" class="popUpdlgWhy" onclick="ShowDObWhy();return false;"><span class="popupLabelColor copy-small">Why</span></div>
+                <div style="float:left;clear:left"><input type="text" id="dob_month1" onkeypress="if (event.keyCode < 44 || event.keyCode > 57 || event.keyCode==45 || event.keyCode==47) event.returnValue = false;" maxlength="2" style="width:72px;margin:0px 4px 0px 0px;" />&nbsp;<input type="text" id="dob_day1" onkeypress="if (event.keyCode < 44 || event.keyCode > 57 || event.keyCode==45 || event.keyCode==47) event.returnValue = false;" maxlength="2" style="width:72px;margin:0px 4px 0px 4px;" />&nbsp;<input type="text" id="dob_year1" onkeypress="if (event.keyCode < 44 || event.keyCode > 57 || event.keyCode==45 || event.keyCode==47) event.returnValue = false;" maxlength="4" style="width:87px;margin:0px 0px 0px  4px;"  /></div><br />
+               -->     
+<input type="hidden" id="dob_month" /><input type = "hidden" id="dob_day" /> <input type="hidden" id="dob_year"/>
+
+<!--date of birth-->
+
+<div class="popupLabelColor copy-smalloffers" style="margin-top:0px;width:100px;float:left;">Date of Birth<sup style="color:#b30000;">*</sup><br/><span style=" font-size:0.8em"> (mm/dd/yyyy)</span></div>
+<div id="dobInvalid" class="divRequiredField-hide copy-small" style="float:left;"></div>
+
+<div class="popUpdlgWhy" onclick="ShowDObWhy();return false;" style="margin-top:0px;display:inline;float:right;"><span class="popupLabelColor copy-small"><u>Why?</u></span></div>
+
+<input type="text" id="dob" class="offersform" maxlength="10" />
+                      
+
+
+<!--mobile number-->                        
+
+<div class="popupLabelColor copy-smalloffers" style="margin-top:9px;width:120px;float:left;">Mobile Number</div>
+<div id="mobileNumInvalid" class="divRequiredField-hide copy-small"></div>
+                
+<div class="popUpdlgWhy" onclick="ShowMobDetails();return false;" style="margin-top:9px;display:inline;float:right;"><span class="popupLabelColor copy-small"><u>Why?</u></span></div>               
+                
+<div style="float:left;clear:left;width:276px">
+<input type="text" id="areacode" onkeypress="if (event.keyCode < 44 || event.keyCode > 57 || event.keyCode==45 || event.keyCode==47) event.returnValue = false;" maxlength="3" class="offersform" style="display:inline;width:66px;"/>
+-
+<input type="text" id="num1" onkeypress="if (event.keyCode < 44 || event.keyCode > 57 || event.keyCode==45 || event.keyCode==47) event.returnValue = false;" maxlength="3" class="offersform" style="display:inline;width:66px;"/>
+-
+<input type="text" id="num2" onkeypress="if (event.keyCode < 44 || event.keyCode > 57 || event.keyCode==45 || event.keyCode==47) event.returnValue = false;" maxlength="4" class="offersform" style="margin-right:0px;display:inline;width:91px;"/>
+</div>
+
+
+                      
+<div id="UpdatePanel1">                 
+<img src="/core/Images/buttons/sign-me-up.gif" class="clsSignMeUp" id="Button1" alt="Sign Me Up Button" style="margin-top:20px;margin-left:80px"/>
+
+<span id="Label1"></span> 
+</div>
+
+
+<div id="UpdateProgress1" style="display:none;">Processing.....</div>
+
+
+
+
+</div>
+
+
+
+</div>    
+
+
+
+</div>    
+
+
+
+
+
+     <div id="dlgFTSubwayCard" class="popUpDialog popUpDialog-Small popUpDialogHide" style="display:none;">
+          <div class="popUpDlgHeader SubwayCardPageColor " >
+          <div class="popUpDlgHeaderTitle" style="">SUBWAY Card</div>
+            <div  class="popUpdlgClose" onclick="HideFooterDialog('#dlgFTSubwayCard', '#btnFTSubwayCard','/Core/Images/icons/popup-subcard-button');return false;" ><span>Close</span><img alt="Share Close Button" style="" src="/core/Images/icons/yellow-X-button.gif" /></div>
+            <div style="width:100%; position:absolute;top:50px; ">
+                
+                <div style="display:inline-block; float:left; height:100%;  vertical-align:middle;width:200px;padding-top:20px;">
+                <img src="/core/Images/SubwayCard/subcard-sandwich.jpg" alt="sandwich picture" />
+                </div>
+               
+                <div style="display:inline-block; width:330px;float:left;padding:15px;">
+                <span class="popUpDlgTextHeader">One Tasty Looking Card.</span>
+                <p class="copy-medium" style="font-family: 'Droid Serif', 'Times New Roman', Times, serif; 	color: #353535; margin-bottom:20px;">The SUBWAY&REG; Card now in a delicious new shape and it's packed with benefits - like auto reloading and online account management. It's fun to give and fun to get.</p>
+                <img id="btnGetCard" alt="get a card button" src="/core/Images/buttons/get-a-card-now.gif" onclick="openPopUp('https://www.mysubwaycard.com/ContentManager/Controller.aspx?page=English/purchase/purchaseUSD');s.tl(this,'e','Home:Subway Card:Get a Card Now');" />
+                <img id="btnManageCard" src="/core/Images/buttons/manage-your-card.gif" alt="manage your card button" onclick="openPopUp('https://www.mysubwaycard.com/ContentManager/Controller.aspx?page=English/login/login');s.tl(this,'e','Home:Subway Card:Manage your Card');" style="margin-left:10px;" />
+                </div>
+            </div> 
+    </div>
+   
+     </div>
+     
+
+<div id="shareSpacer" >&nbsp;</div>
+   
+<div id="ButtonBox">
+        
+        <div id="outerShare" class="popupBlock-Outer" style="margin-left:0px;">
+            
+            <div id="btnFTShare" class="popupBlockButton-Common SharePageColor" style=""><img alt="Mini FaceBook Logo" src="/Core/Images/icons/facebook-logo.gif" style="margin-right:5px;" />Share &amp; Connect<img id="btnFTShare-arrow" alt="popup arrow" src="/Core/Images/icons/popup-share-connect-button.gif" class="popupBlock-Arrow" /></div>
+        
+        </div>
+        <div class="popupBlock-Outer"><div class="popupBlockButton-Common NewsPageColor" id="btnFTNews" style="">Get News &amp; Offers<img id="btnFTNews-arrow"  alt="popup arrow" src="/Core/Images/icons/popup-news-offers-button.gif" class="popupBlock-Arrow" /></div></div>
+        <div class="popupBlock-Outer" style="margin-right:0px"><div id="btnFTSubwayCard" class="popupBlockButton-Common SubwayCardPageColor" style="">SUBWAY Card<img id="btnFTSubwayCard-arrow" src="/Core/Images/icons/popup-subcard-button.gif" alt="popup arrow" class="popupBlock-Arrow" /></div></div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+
+<!--end container div for franchise box and mini promo--></div>
+
+
+	</div>
+   
+   
+<div id="footer-master">
+    <div id="footer-content">
+        <div class="Footer-LinkGroup" style="padding-left:0px;">
+        <span>Management</span>
+        <a href="https://partners.subway.com/" target="blank">SUBWAY Partners&#8482;</a><a href="/subwayroot/careers/default.aspx">Careers</a>
+        </div>
+        <div class="Footer-LinkGroup">
+        <span>Social</span>
+        <a href="http://facebook.com/subway" target="_blank"><img alt="Face Book Logo" src="/core/Images/icons/facebook-logo.gif" class="FooterIcon" />Like Us On Facebook</a><a  href="http://twitter.com/subway" target="_blank"><img alt="Twitter Logo" src="/Core/Images/icons/Twitter_logo.gif" class="FooterIcon" />Follow Us On Twitter</a>
+        </div>
+        <div class="Footer-LinkGroup">
+        <span>Related Sites</span>
+        <a  href="http://subway.mobi">Our Mobile Site</a><a  href="http://shop.subway.com/substore/substore/tabid/38/entityname/category/categoryid/1/sename/feature-products/default.aspx" target="blank">SubGear</a><a  href="http://subwaykids.com" target="blank">SubwayKids.com</a><a  href="http://subwayespanol.com" target="blank">SubwayEspanol.com</a>
+        </div>
+        <div class="Footer-LinkGroup">
+        <span style="line-height:15px">Profile Management</span>
+        <a  href="http://contacts.subwayfreshbuzz.com/sc/landing/?qpsc=SFB&qpfc=SFBSClinks" target="_blank">Update Your Profile</a><a  href="http://contacts.subwayfreshbuzz.com/sc/unsub/" target="_blank">UnSubscribe</a><a  href="/ContactUs/frmCustomerService.aspx">Contact Us</a><a  href="/subwayroot/sitemap.aspx">Site Map</a>
+        </div>
+        <div class="Footer-LinkGroup ">
+         <span>Legal</span>
+        <a  href="/subwayroot/privacyNotice.aspx">Privacy Notice</a>
+        <a  href="/subwayroot/TermsOfUse.aspx">Terms of Use</a>
+        </div>
+        <div class="Footer-Legal copy-small">SUBWAY&reg; is a  registered trademark of Doctor's Associates Inc.<br />
+          &copy; Doctor's Associates Inc.<br />All Rights Reserved.
+          </div>
+    </div>
+</div>
+
+   
+	</form>
+	
+</body>
+</html>

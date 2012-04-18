@@ -1,0 +1,1260 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--[if IE]><![endif]--><!--Empty IE conditional comment to improve site performance-->
+<html>
+  <head>
+    <!-- 13 -->
+    <title>SparkNotes: Today&#039;s Most Popular Study Guides</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="SparkNotes: Today&#039;s Most Popular Study Guides" />
+            <meta property="fb:admins" content="1705144145" />
+<meta property="fb:app_id" content="103292309718285"/>
+<meta property="fb:page_id" content="93416890090" />
+        <link rel="shortcut icon" href="http://img.sparknotes.com/images/new_global/new_favicon.ico"></link> 
+    <link rel='stylesheet' href='http://img.sparknotes.com/css/new_reset.css'/>
+    <link rel='stylesheet' href='http://img.sparknotes.com/css/new_styles.css?rev=rev'/>
+    <!--[if IE 6]><link rel='stylesheet' href='http://img.sparknotes.com/css/new_ie7.css?rev=rev'/>
+<![endif]-->
+    <!--[if IE 7]><link rel='stylesheet' href='http://img.sparknotes.com/css/new_ie7.css?rev=rev'/>
+<![endif]-->   
+    <!--[if IE 8]><link rel='stylesheet' href='http://img.sparknotes.com/css/new_ie8.css?rev=rev'/>
+<![endif]--> 
+    <script type="text/javascript" src="//img.sparknotes.com/js/new_user.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>   
+    <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="//img.sparknotes.com/js/new_jquery.panel.js"></script>
+                <style type="text/css">
+        body {
+            background-image: url("http://img.sparknotes.com/layout/hats/grayWallpaper.png");
+        }
+    </style>
+     <!--[if gt IE 6]><! -->
+    <div class="wall_ad" id="right"></div> 
+    <div class="wall_ad" id="left"></div> 
+        <!-- <![endif]-->
+    
+<script type='text/javascript' src='http://img.sparknotes.com/js/coremetrics/v40/eluminate.js'></script>
+<script type='text/javascript' src='http://img.sparknotes.com/js/coremetrics/cmdatagutils.js'></script>
+  </head>
+  <body>    
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-125069-1']);
+    _gaq.push(['_setDomainName', '.sparknotes.com']);
+    _gaq.push(['_addIgnoredRef', 'sparknotes.com']); 
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+    	<script type="text/javascript">//<![CDATA]
+    var ord = window.ord || Math.floor(Math.random()*1E16);
+    var RNS = String(ord).substring(2, 11);
+    var count = 0;
+    var zone = 'home;';
+    var keyvalues = ''; 
+
+    function DisplayAds (position) {
+        var size = '';
+	position = position.replace(/.*!/, "");
+        switch (position) { 
+            case 'Top':
+            case 'Bottom':
+                size = 'sz=728x90;pos=top;';
+                width = 728;
+                height = 90;
+                break;
+            case 'Top2':
+                size = 'sz=728x90;pos=bottom;';
+                width = 728;
+                height = 90;
+                break;
+            case 'Right':
+                size = 'sz=160x600;';
+                width = 160;
+                height = 600;
+                break;
+            case 'DualSizeBox':
+                size = 'sz=300x250,300x600;pos=top;';
+                width = 300;
+                height = 600;
+                break;
+            case 'Middle':
+            case 'Middle1':
+                size = 'sz=300x250;pos=top;';
+                width = 300;
+                height = 250;
+                break;
+            case 'Middle2':
+                size = 'sz=300x250;pos=bottom;';
+                width = 300;
+                height = 250;
+                break;
+            case 'ExpandableBox':
+                size = 'sz=300x250,300x600;pos=top;pos=right;';
+                width = 300;
+                height = 250;
+                break;
+            case 'MiniMasthead':
+                size = 'sz=248x90;';
+                width = 248;
+                height = 90;
+                break;
+            default:
+                size = '';
+       }
+       count = count + 1;
+              document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/Sparknotes/' + zone + keyvalues + size + 'tile=' + count + ';ord=' + ord + '?"><\/script>');
+           }
+//]]>
+</script>
+ 
+    <div class="container">
+    <div class="utility navigation">
+    <div id="placeholder">
+    <script>
+    jQuery(document).ready(function(){
+    my_domain = document.domain;
+    identifier = my_domain.substring(0,3);
+    protocol = window.location.protocol;
+    if(identifier == 'spa')
+    {
+        my_domain = "www." + my_domain;
+    }
+
+    my_domain = protocol + "//" + my_domain;
+        if(is_loggedin())
+        {
+            jQuery.ajax({
+                'beforeSend': function(){
+                    jQuery.getScript(protocol + "//img.sparknotes.com/js/messaging.js");
+                },
+                'url': my_domain + '/messaging',
+                'success': function(data){
+                    jQuery("#placeholder").replaceWith(data);
+                    jQuery.getScript(protocol + "//img.sparknotes.com/js/messaging_bootstrap.js");
+                }
+            });
+        }
+    });
+    </script>
+</div>
+        <script type="text/javascript">
+                print_user_links();
+        </script>
+    </div>
+<div class="categoriesSearch">
+    <div class="categories">
+        <ul class="navigation">
+            <li id="sparknotesCategory"><a href="http://www.sparknotes.com/">SparkNotes</a></li>
+            <li id="life"><a href="http://community.sparknotes.com/life">Life</a></li>
+            <li id="theInternets"><a href="http://community.sparknotes.com/the-internets">The Internets</a></li>
+            <li id="beauty"><a href="http://community.sparknotes.com/beauty">Beauty</a></li>
+            <li id="celebs"><a href="http://community.sparknotes.com/celebs-and-stuff">Celebs</a></li>
+            <li id="fashion"><a href="http://community.sparknotes.com/fashion">Fashion</a></li>           
+            <li id="mindhut"><a href="http://www.sparknotes.com/mindhut">Geek Out!</a></li>
+        </ul>
+    </div>
+    <div class="searchNew">
+    <div class="searchbgNew">
+        <form action="http://gsearch.sparknotes.com/search" id="searchform" method="get">
+            <fieldset class="search">
+                <legend>Search</legend>
+                <input name="q" type="text" class="box search_field" />
+                <button class="btn" title="Submit Search">Search</button>
+                <input type="hidden" name="template" value="default"/>
+                <input type="hidden" name="output" value="xml_no_dtd"/>
+                <input type="hidden" name="oe" value="UTF-8"/>
+                <input type="hidden" name="ie" value="UTF-8"/>
+                <input type="hidden" name="client" value="default_frontend"/>
+                <input type="hidden" name="proxystylesheet" value="default_frontend"/>
+                <input type="hidden" name="site" value="default_collection"/>
+            </fieldset>
+        </form>
+    </div>
+</div>
+</div>					
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6035001" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035001&amp;cv=2.0&amp;cj=1" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+<script type="text/javascript">
+window.Meebo||function(c){function p(){return["<",i,' onload="var d=',g,";d.getElementsByTagName('head')[0].",
+j,"(d.",h,"('script')).",k,"='//cim.meebo.com/cim?iv=",a.v,"&",q,"=",c[q],c[l]?
+"&"+l+"="+c[l]:"",c[e]?"&"+e+"="+c[e]:"","'\"></",i,">"].join("")}var f=window,
+a=f.Meebo=f.Meebo||function(){(a._=a._||[]).push(arguments)},d=document,i="body",
+m=d[i],r;if(!m){r=arguments.callee;return setTimeout(function(){r(c)},100)}a.$=
+{0:+new Date};a.T=function(u){a.$[u]=new Date-a.$[0]};a.v=4;var j="appendChild",
+h="createElement",k="src",l="lang",q="network",e="domain",n=d[h]("div"),v=n[j](d[h]("m")),
+b=d[h]("iframe"),g="document",o,s=function(){a.T("load");a("load")};f.addEventListener?
+f.addEventListener("load",s,false):f.attachEvent("onload",s);n.style.display="none";
+m.insertBefore(n,m.firstChild).id="meebo";b.frameBorder="0";b.id="meebo-iframe";
+b.allowTransparency="true";v[j](b);try{b.contentWindow[g].open()}catch(w){c[e]=
+d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{var t=
+b.contentWindow[g];t.write(p());t.close()}catch(x){b[k]=o+'d.write("'+p().replace(/"/g,
+'\\"')+'");d.close();'}a.T(1)}({network:"sparknotes"});
+</script>
+<div id="global-header-container"> <!--Start div#global-header-container which contains _newNav and the ticker --> 
+<div id="skiplink"><a href="#startcontent">Skip over navigation</a></div><!-- For accesibility -->
+	<div id="global-header-tabs">
+	      <ul id="nav-global" class="navigation">
+	          <li id="home" class="imgReplace"><a href="http://www.sparknotes.com/">Home</a></li>
+	
+	          <li data-bn-fn="wgt-panel" class="imgReplace" id="sparknotes">
+	              <a href="http://www.sparknotes.com/sparknotes/">SparkNotes</a>
+	
+	              <div class="nav-panel"><div class="nav-panel-top"></div>
+	                  <div class="pane4">
+	                      <div class="nav-pane small first">
+	                          <ul>
+	                              <li class="title"><a href="http://www.sparknotes.com/sparknotes/">SparkNotes Main</a></li>
+	                              <li class="categoryMain"><a class="videoSparkNotes" href="http://www.sparknotes.com/sparknotes/video/">Video SparkNotes</a></li>
+	                              <li class="categoryMain"><a href="http://www.sparknotes.com/shakespeare/">Shakespeare SparkNotes</a></li>
+	
+	                              <li class="categoryMainAZ"><a href="http://www.sparknotes.com/lit/index_title.html">Titles A-Z</a></li>
+	
+	                              <li class="alpha">
+	                                  <ul>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_a.html">A</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_b.html">B</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_c.html">C</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_d.html">D</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_e.html">E</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_f.html">F</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_g.html">G</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_h.html">H</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_i.html">I</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_j.html">J</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_k.html">K</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_l.html">L</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_m.html">M</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_n.html">N</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_o.html">O</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_p.html">P</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_r.html">R</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_s.html">S</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_t.html">T</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_u.html">U</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_v.html">V</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_w.html">W</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_y.html">Y</a></li>
+	                                  </ul>
+	                              </li>
+	                          </ul>
+	
+	                          <ul>
+	                              <li id="firefoxSpacer">&nbsp;</li>
+	
+	                              <li class="categoryMainAuthorAZ"><a href="http://www.sparknotes.com/lit/index_author.html">Authors A-Z</a></li>
+	                              <li class="alpha">
+	                                  <ul>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_a.html">A</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_b.html">B</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_c.html">C</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_d.html">D</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_e.html">E</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_f.html">F</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_g.html">G</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_h.html">H</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_i.html">I</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_j.html">J</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_k.html">K</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_l.html">L</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_m.html">M</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_n.html">N</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_o.html">O</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_p.html">P</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_r.html">R</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_s.html">S</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_t.html">T</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_u.html">U</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_v.html">V</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_w.html">W</a></li>
+	                                    <li><a href="http://www.sparknotes.com/lit/index_author_y.html">Y</a></li>
+	                                  </ul>
+	                              </li>
+	                          </ul>
+	                      </div>
+	
+	                      <div class="nav-pane">
+	                          <ul>
+	                              <li class="title"><a href="http://www.sparknotes.com/sparknotes/">Top SparkNotes</a></li>
+	
+	                              		          <li><a href="http://www.sparknotes.com/lit/gatsby/" class="main">The Great Gatsby</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/mocking/" >To Kill a Mockingbird</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/flies/" >Lord of the Flies</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/frankenstein" >Frankenstein</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/catcher/" >The Catcher in the Rye</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/huckfinn" >Adventures of Huck Finn</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/micemen" >Of Mice and Men</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/twocities" >A Tale of Two Cities</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/eyes" >Their Eyes Were Watching God</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/odyssey" >The Odyssey</a></li>
+			
+	                              <li class="seeAll"><a href="http://www.sparknotes.com/sparknotes/">See all &rarr;</a></li>
+	                          </ul>
+	                      </div>
+	
+	                      <div class="nav-pane">
+	                          <ul>
+	                              <li class="title"><a class="topVideoSparknotes" href="http://www.sparknotes.com/sparknotes/video/">Top Video SparkNotes</a></li>
+	
+	                              		          <li><a href="http://www.sparknotes.com/sparknotes/video/romeojuliet" class="main">Romeo and Juliet</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/gatsby" >The Great Gatsby</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/1984" >1984</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/hamlet" >Hamlet</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/flies" >Lord of the Flies</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/macbeth" >Macbeth</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/mocking" >To Kil A Mockingbird</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/othello" >Othello</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/heart-of-darkness" >Heart of Darkness</a></li>
+		          <li><a href="http://www.sparknotes.com/sparknotes/video/catcher" >The Catcher in the Rye</a></li>
+			                              <li class="seeAll"><a href="http://www.sparknotes.com/sparknotes/video/">See all &rarr;</a></li>
+	                          </ul>
+	                      </div>
+	
+	                      <div class="nav-pane small">
+	                          <ul>
+	                              <li class="title"><a href="http://www.sparknotes.com/sparknotes/">Other Subjects</a></li>
+	
+	                              		          <li><a href="http://www.sparknotes.com/biology/" class="main">Biology</a></li>
+		          <li><a href="http://www.sparknotes.com/biography/" >Biography</a></li>
+		          <li><a href="http://www.sparknotes.com/chemistry/" >Chemistry</a></li>
+		          <li><a href="http://www.sparknotes.com/cs/" >Computer Science</a></li>
+		          <li><a href="http://www.sparknotes.com/drama/" >Drama</a></li>
+		          <li><a href="http://www.sparknotes.com/economics/" >Economics</a></li>
+		          <li><a href="http://www.sparknotes.com/film/" >Film</a></li>
+		          <li><a href="http://www.sparknotes.com/history/" >History</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/" >Literature</a></li>
+		          <li><a href="http://www.sparknotes.com/math/" >Math</a></li>
+		          <li><a href="http://www.sparknotes.com/philosophy/" >Philosophy</a></li>
+		          <li><a href="http://www.sparknotes.com/physics/" >Physics</a></li>
+		          <li><a href="http://www.sparknotes.com/poetry/" >Poetry</a></li>
+		          <li><a href="http://www.sparknotes.com/psychology/" >Psychology</a></li>
+		          <li><a href="http://www.sparknotes.com/sociology/" >Sociology</a></li>
+		          <li><a href="http://www.sparknotes.com/us-government-and-politics/" >U.S. Government</a></li>
+			                          </ul>
+	                      </div>
+	                  </div>
+	              </div>
+	          </li>
+	
+	          <li data-bn-fn="wgt-panel" class="imgReplace" id="noFear">
+	              <a href="http://nfs.sparknotes.com/">No Fear</a>
+	
+	              <div class="nav-panel"><div class="nav-panel-top"></div>
+	                  <div class="pane2">
+	                      <div class="nav-pane first offWhite">
+	                          <ul>
+	                              <li class="title"><a href="http://nfs.sparknotes.com">Top No Fear Shakespeare</a></li>
+	
+	                              		          <li><a href="http://nfs.sparknotes.com/romeojuliet/" class="main">Romeo and Juliet</a></li>
+		          <li><a href="http://nfs.sparknotes.com/macbeth/" >Macbeth</a></li>
+		          <li><a href="http://nfs.sparknotes.com/hamlet/" >Hamlet</a></li>
+		          <li><a href="http://nfs.sparknotes.com/juliuscaesar/" >Julius Caesar</a></li>
+		          <li><a href="http://nfs.sparknotes.com/othello/" >Othello</a></li>
+		          <li><a href="http://nfs.sparknotes.com/msnd/" >A Midsummer Night’s Dream</a></li>
+		          <li><a href="http://nfs.sparknotes.com/lear" >King Lear</a></li>
+		          <li><a href="http://nfs.sparknotes.com/tempest" >The Tempest</a></li>
+		          <li><a href="http://nfs.sparknotes.com/twelfthnight" >The Twelfth Night</a></li>
+		          <li><a href="http://nfs.sparknotes.com/merchant" >The Merchant of Venice</a></li>
+			
+	                              <li class="seeAll"><a href="http://nfs.sparknotes.com/">See all &rarr;</a></li>
+	                          </ul>
+	                      </div>
+	
+	                      <div class="nav-pane">
+	                          <ul>
+	                              <li class="title"><a href="http://www.sparknotes.com/nofear/lit/">Top No Fear Literature</a></li>
+	
+	                              		          <li><a href="http://www.sparknotes.com/nofear/lit/a-tale-of-two-cities/" class="main">A Tale of Two Cities</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/heart-of-darkness/" >Heart of Darkness</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/the-scarlet-letter/" >The Scarlet Letter</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/the-canterbury-tales/" >The Canterbury Tales</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/huckleberry-finn/" >Adventures of Huck Finn</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/beowulf/" >Beowulf</a></li>
+			
+	                              <li class="seeAll"><a href="http://www.sparknotes.com/nofear/lit/">See all &rarr;</a></li>
+	                          </ul>
+	                      </div>
+	                  </div>
+	              </div>
+	          </li>
+	          
+        <li id="testPrep" data-bn-fn="wgt-panel" class="imgReplace leftAlign"> 
+            <a href="http://www.sparknotes.com/testprep/">Test Prep</a> 
+            <div class="nav-panel">
+                <div class="nav-panel-top"></div> 
+                <div class="pane3"> 
+                    <div class="nav-pane small first"> 
+                        <ul> 
+                            <li class="title"><a href="http://www.sparknotes.com/testprep/">Test Prep Main</a></li> 
+                            <li class="categoryMain"><a href="http://www.sparknotes.com/testprep/newsat/">SAT</a></li> 
+                            <li class="categoryMain"><a href="http://www.sparknotes.com/testprep/act/">ACT</a></li> 
+                            <li class="categoryMain"><a href="http://www.sparknotes.com/testprep/gre/">GRE</a></li> 
+                            <li class="categoryMain"><a href="http://www.sparknotes.com/testprep/ap/">AP</a></li> 
+                        </ul> 
+                    </div> 
+                    <div class="nav-pane small"> 
+                        <ul> 
+                            <li class="title"><a href="http://www.sparknotes.com/testprep/sat2/">SAT Subject Tests</a></li> 
+                            <li><a href="http://www.sparknotes.com/testprep/books/sat2/biology/">SAT Biology</a></li> 
+                            <li><a href="http://www.sparknotes.com/testprep/books/sat2/chemistry/">SAT Chemistry</a></li> 
+                            <li><a href="http://www.sparknotes.com/testprep/books/sat2/history/">SAT History</a></li> 
+                            <li><a href="http://www.sparknotes.com/testprep/books/sat2/math1c/">SAT Math Level 1</a></li> 
+                            <li><a href="http://www.sparknotes.com/testprep/books/sat2/math2c/">SAT Math Level 2</a></li> 
+                            <li><a href="http://www.sparknotes.com/testprep/books/sat2/physics/">SAT Physics</a></li> 
+                        </ul> 
+                    </div> 
+                    <div class="nav-pane small"> 
+                        <ul> 
+                            <li class="title"><a href="http://www.sparknotes.com/testprep/ap/">AP Main</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/biology/">AP Biology</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/calculus/">AP Calculus AB &lt; BC</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/chemistry/">AP Chemistry</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/english/">AP English Language</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/englishlit/">AP English Literature</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/eurohistory/">AP European History</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/psychology/">AP Psychology</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/usgovt/">AP U.S. Government</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/history/">AP U.S. History</a></li> 
+                            <li><a href="http://testprep.sparknotes.com/testcenter/ap/worldhistory/">AP World History</a></li> 
+                        </ul> 
+                    </div> 
+                </div>
+            </div>
+        </li>
+
+	          <li id="video" data-bn-fn="wgt-panel" class="imgReplace rightAlign">
+	              <a href="http://www.sparknotes.com/video">Video</a>
+	
+	              <div class="nav-panel"><div class="nav-panel-top"></div>
+	                  <div class="videoDropdown">
+	                     
+	                  </div>
+	              </div>
+	          </li>
+
+
+           <li id="sparkLife" data-bn-fn="wgt-panel" class="imgReplace sparkLife">
+	              <a href="http://community.sparknotes.com/">SparkLife</a>
+	
+	              <div class="nav-panel"><div class="nav-panel-top"></div>
+	                  <div class="pane3 SL">
+	                      <div class="nav-pane small first slMain">
+	                          <ul>
+	                              <div id="slTitle">
+	                                      <li class="title"><a href="http://community.sparknotes.com/" class="noBorder">SparkLife Main</a></li>
+	                              </div>
+	                              <li><a href="http://community.sparknotes.com/">SL Home</a></li>
+	                              <li><a href="http://community.sparknotes.com/life">Life</a></li>
+	                              <li><a href="http://community.sparknotes.com/the-internets">The Internets</a></li>
+	                              <li><a href="http://community.sparknotes.com/books">Books</a></li>
+	                              <li><a href="http://community.sparknotes.com/beauty">Beauty</a></li>
+	                              <li><a href="http://community.sparknotes.com/celebs-and-stuff">Celebs &amp; Stuff</a></li>
+	                              <li><a href="http://community.sparknotes.com/fashion">Fashion</a></li>
+	                              <li><a href="http://community.sparknotes.com/slideshows">Slideshows</a></li>
+	                          </ul>
+	                      </div>
+	
+	                      <div class="nav-pane small slRecent">
+	                          <ul>
+	                              <div id="slTitle">
+	                                      <li class="title"><a class="noBorder" href="http://community.sparknotes.com/">Most Recent</a></li>
+	                              </div>
+	                              <li style="list-style: none">
+	    <div class="borderDottedTopExcerpt">
+        <ul>
+            <li><a href="http://community.sparknotes.com/2012/04/17/blogging-my-cavity-filling">Blogging My Cavity Filling</a></li>
+        </ul>
+    </div>
+	    <div class="borderDottedTopExcerpt">
+        <ul>
+            <li><a href="http://community.sparknotes.com/2012/04/17/makeup-through-the-ages">Makeup Through the Ages</a></li>
+        </ul>
+    </div>
+	    <div class="borderDottedTopExcerpt">
+        <ul>
+            <li><a href="http://community.sparknotes.com/2012/04/17/10-things-you-just-gotta-do-with-someone-before-you-seriously-date-them">10 Things You Just Gotta Do With Someone Before You Seriously Date Them</a></li>
+        </ul>
+    </div>
+	    <div class="borderDottedTopExcerpt">
+        <ul>
+            <li><a href="http://community.sparknotes.com/2012/04/17/auntie-sparknotes-should-i-put-up-with-my-angry-moody-boyfriend">Auntie SparkNotes: Should I Put Up With My Angry, Moody Boyfriend?</a></li>
+        </ul>
+    </div>
+	</li>
+	                          </ul>
+	                      </div>
+	
+	                      <div class="nav-pane small slPopular">
+	                          <ul>
+	                              <div id="slTitle">
+	                                      <li class="title">Popular Topics</li>
+	                              </div>
+	                              		          <li><a href="http://community.sparknotes.com/tag/blogging-harry-potter" class="main">Blogging Harry Potter</a></li>
+		          <li><a href="http://community.sparknotes.com/tag/never-been-kissed" >Never Been Kissed</a></li>
+		          <li><a href="http://community.sparknotes.com/tag/auntie-sparknotes" >Auntie SparkNotes</a></li>
+		          <li><a href="http://community.sparknotes.com/tag/school" >School</a></li>
+		          <li><a href="http://community.sparknotes.com/tag/celebs" >Celebs</a></li>
+		          <li><a href="http://community.sparknotes.com/tag/slideshows" >Slideshows</a></li>
+		          <li><a href="http://community.sparknotes.com/tag/blogging-twilight" >Blogging Twilight</a></li>
+			                          </ul>
+	                      </div>
+	                  </div>
+	              </div>
+	          </li>
+	      </ul>
+	  </div>
+<script type="text/javascript" src="//img.sparknotes.com/js/newNav.js"></script>
+<script type="text/javascript">
+
+jQuery(window).ready(function(){
+	var dropdown_loaded = false;
+    jQuery("#video").mouseover(function(){
+        if(!dropdown_loaded)
+        {
+            jQuery.get("/testprep/act/featured/video", function(data){
+                jQuery('.videoDropdown').html(data);
+                dropdown_loaded = true;
+                jQuery('li').css('visibility', 'visible')
+            });
+        }
+    });
+});
+</script>
+
+<a id="startcontent"></a><!-- For accesibility -->
+	
+	
+	
+    	<div id="news_ticker">
+	</div>
+        <div class="topAds">
+    <div class="miniAd">
+        <a href="http://www.sparknotes.com/mindhut" class="noBorder"><img src="http://img.sparknotes.com/ads/185x90_mindhut_geek.jpg" alt="MindHut: A new site for geeks."></a>
+    </div>
+    <div id="topAd">
+        <script type="text/javascript">
+            DisplayAds('Top');
+        </script>
+    </div>
+</div>
+    
+	<script type="text/javascript">
+			cmSetProduction();
+	
+				cmCreatePageviewTag("Homepage", "home");
+		</script>
+<div id="homeSpacer"></div>
+
+<div id="homeWrapper">
+
+	      <div class="doubleColumn">  
+	      	        
+	      <!-- Move these --><script type="text/javascript" src="http://img.sparknotes.com/js/jquery.easing.1.3.js"></script>  
+		  <script type="text/javascript" src="http://img.sparknotes.com/js/jquery.coda-slider-2.0.js"></script> 
+		          <style type="text/css">
+					
+		.coda-nav ul li.tab1 {text-indent: -9999px; background: url('http://img.sparknotes.com/images/carousel/prom-cheap-thumb.jpg') 0px 0px no-repeat; width: 88px; height: 61px; display: block;}
+					
+		.coda-nav ul li.tab2 {text-indent: -9999px; background: url('http://img.sparknotes.com/images/carousel/tricks-thumb.jpg') 0px 0px no-repeat; width: 88px; height: 61px; display: block;}
+					
+		.coda-nav ul li.tab3 {text-indent: -9999px; background: url('http://img.sparknotes.com/images/carousel/robot-thumb.jpg') 0px 0px no-repeat; width: 88px; height: 61px; display: block;}
+					
+		.coda-nav ul li.tab4 {text-indent: -9999px; background: url('http://img.sparknotes.com/images/carousel/pupsthumb.jpg') 0px 0px no-repeat; width: 88px; height: 61px; display: block;}
+					
+		.coda-nav ul li.tab5 {text-indent: -9999px; background: url('http://img.sparknotes.com/images/carousel/tinycobie.jpg') 0px 0px no-repeat; width: 88px; height: 61px; display: block;}
+					
+		.coda-nav ul li.tab6 {text-indent: -9999px; background: url('http://img.sparknotes.com/images/carousel/tinyvicj.jpg') 0px 0px no-repeat; width: 88px; height: 61px; display: block;}
+				</style>
+
+        
+            <div id="homeCarousel">
+               	<a class="xtrig noBorder pause" href="#stop" rel="coda-slider-1" name="carousel_stop">Stop</a>
+				<a class="xtrig noBorder play" href="#play" rel="coda-slider-1" name="carousel_play" style="display:none">Play</a>    
+             <script type="text/javascript">
+			 jQuery("a.play").click(function(){
+				jQuery("a.play").hide();
+				jQuery("a.pause").show();
+				});
+			 jQuery("a.pause").click(function(){
+				jQuery("a.pause").hide();
+				jQuery("a.play").show();
+			 });
+			 
+			 
+			jQuery().ready(function() {
+                jQuery('#coda-slider-1').codaSlider({
+                    autoSlide: true,
+                    autoWidth: false,
+                    autoHeight: false,
+                    autoSlideInterval: 6000,
+                    autoSlideStopWhenClicked: true,
+                    dynamicArrows:false,
+                    dynamicTabs:true,
+                    slideDirection: "vertical"
+                });
+            });
+		 </script>
+			 
+       <noscript>
+	<div class="coda-slider-no-js">
+        <p>Unfortunately your browser does not hava JavaScript capabilities which are required to exploit full functionality of our site. This could be the result of two possible scenarios:</p>
+        <ol>
+            <li>You are using an old web browser, in which case you should upgrade it to a newer version. We recommend the latest version of <a href="http://www.getfirefox.com">Firefox</a>.</li>
+            <li>You have disabled JavaScript in you browser, in which case you will have to enable it to properly use our site. <a href="http://www.google.com/support/bin/answer.py?answer=23852">Learn how to enable JavaScript</a>.</li>
+        </ol>
+    </div>
+</noscript>
+
+<div class="coda-slider-wrapper">
+	<div class="coda-slider preload" id="coda-slider-1">
+				<div class="panel">
+			<div class="panel-wrapper">
+				<div class="hiddenTitle">
+				<h2>prom on the cheap</h2>
+				<h3>here's what you need to know</h3>
+				</div>
+				<a href="http://community.sparknotes.com/2012/04/17/how-to-do-prom-for-half-the-average-cost"><img src="http://img.sparknotes.com/images/carousel/prom-cheap.jpg" alt="prom on the cheap"/></a>
+			</div>
+		</div>
+				<div class="panel">
+			<div class="panel-wrapper">
+				<div class="hiddenTitle">
+				<h2>eyeliner tricks</h2>
+				<h3>that are fun and easy</h3>
+				</div>
+				<a href="http://community.sparknotes.com/2012/04/13/a-beginners-guide-to-eyeliner"><img src="http://img.sparknotes.com/images/carousel/eyeliner-tricks.jpg" alt="eyeliner tricks"/></a>
+			</div>
+		</div>
+				<div class="panel">
+			<div class="panel-wrapper">
+				<div class="hiddenTitle">
+				<h2>The robots are coming</h2>
+				<h3>survive the robot uprising</h3>
+				</div>
+				<a href="http://www.sparknotes.com/mindhut/2012/04/11/how-to-survive-the-robot-uprising"><img src="http://img.sparknotes.com/images/carousel/robots-are-coming.jpg" alt="The robots are coming"/></a>
+			</div>
+		</div>
+				<div class="panel">
+			<div class="panel-wrapper">
+				<div class="hiddenTitle">
+				<h2>prom?</h2>
+				<h3>reject a prom date—with puppies!</h3>
+				</div>
+				<a href="http://community.sparknotes.com/2012/04/12/so-he-asked-you-to-prom-here-are-20-ways-to-say-no-with-animals"><img src="http://img.sparknotes.com/images/carousel/prom-pups.jpg" alt="prom?"/></a>
+			</div>
+		</div>
+				<div class="panel">
+			<div class="panel-wrapper">
+				<div class="hiddenTitle">
+				<h2></h2>
+				<h3></h3>
+				</div>
+				<a href="http://community.sparknotes.com/2012/04/12/who-looked-hottest-at-the-avengers-premiere"><img src="http://img.sparknotes.com/images/carousel/sexiestsuper.jpg" alt=""/></a>
+			</div>
+		</div>
+				<div class="panel">
+			<div class="panel-wrapper">
+				<div class="hiddenTitle">
+				<h2></h2>
+				<h3></h3>
+				</div>
+				<a href="http://community.sparknotes.com/2012/04/11/victoria-justice-answers-our-questions-about-bullying-books-and-more"><img src="http://img.sparknotes.com/images/carousel/vijtakesastand.jpg" alt=""/></a>
+			</div>
+		</div>
+				
+		</div><!-- .coda-slider -->
+</div><!-- .coda-slider-wrapper -->     
+            
+            
+            </div>
+		  	
+		  
+		  <div class="homeTopSideContent">
+	<h2 class="schoolTitle"><a href="http://www.sparknotes.com/sparknotes/">SparkNotes</a></h2>
+	
+	<div class="homeH3">
+	    <h3><a href="http://www.sparknotes.com/sparknotes/video/">Top Video SparkNotes</a></h3>
+	</div>
+	
+                                <div class="imageList">
+                    <div class="videoImage" style="background: url('http://img.sparknotes.com/images/video_thumbs/1984_thumb.jpg') 0 -11px no-repeat"> <h2 class="playSm"><a href="http://www.sparknotes.com/sparknotes/video/1984">Play</a></h2></div>
+					<div class="videoImageInfo">
+                    <h4><a href="http://www.sparknotes.com/sparknotes/video/1984">1984 </a></h4>
+                    <h5>George Orwell</h5>
+                    </div> 
+                </div>
+                    <div class="imageList">
+                    <div class="videoImage" style="background: url('http://img.sparknotes.com/images/video_thumbs/thumb_hamlet.jpg') 0 -11px no-repeat"> <h2 class="playSm"><a href="http://www.sparknotes.com/sparknotes/video/hamlet">Play</a></h2></div>
+					<div class="videoImageInfo">
+                    <h4><a href="http://www.sparknotes.com/sparknotes/video/hamlet">Hamlet </a></h4>
+                    <h5>William Shakespeare</h5>
+                    </div> 
+                </div>
+                    <div class="imageList">
+                    <div class="videoImage" style="background: url('http://img.sparknotes.com/images/video_thumbs/thumb_othello.jpg') 0 -11px no-repeat"> <h2 class="playSm"><a href="http://www.sparknotes.com/sparknotes/video/othello">Play</a></h2></div>
+					<div class="videoImageInfo">
+                    <h4><a href="http://www.sparknotes.com/sparknotes/video/othello">Othello </a></h4>
+                    <h5>William Shakespeare</h5>
+                    </div> 
+                </div>
+                    <div class="imageList">
+                    <div class="videoImage" style="background: url('http://img.sparknotes.com/images/video_thumbs/thumb_romeo.jpg') 0 -11px no-repeat"> <h2 class="playSm"><a href="http://www.sparknotes.com/sparknotes/video/romeojuliet">Play</a></h2></div>
+					<div class="videoImageInfo">
+                    <h4><a href="http://www.sparknotes.com/sparknotes/video/romeojuliet">Romeo and Juliet </a></h4>
+                    <h5>William Shakespeare</h5>
+                    </div> 
+                </div>
+                    <div class="imageList">
+                    <div class="videoImage" style="background: url('http://img.sparknotes.com/content/sparklife/sparktalk/gallery_image_mockingbird.jpg') 0 -11px no-repeat"> <h2 class="playSm"><a href="http://www.sparknotes.com/sparknotes/video/mocking">Play</a></h2></div>
+					<div class="videoImageInfo">
+                    <h4><a href="http://www.sparknotes.com/sparknotes/video/mocking">To Kill a Mockingbird </a></h4>
+                    <h5>Harper Lee</h5>
+                    </div> 
+                </div>
+    	<!--<div class="viewAll">
+	    <a href="#">View all &rarr;</a>
+	</div>-->
+	
+	<div class="homeH3">
+	    <h3><a href="http://www.sparknotes.com/sparknotes/">Top SparkNotes</a></h3>
+	</div>
+	
+	<ol class="top">
+	    		          <li><a href="http://www.sparknotes.com/lit/gatsby/" class="main">The Great Gatsby</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/mocking/" >To Kill a Mockingbird</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/flies/" >Lord of the Flies</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/frankenstein" >Frankenstein</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/catcher/" >The Catcher in the Rye</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/huckfinn" >Adventures of Huck Finn</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/micemen" >Of Mice and Men</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/twocities" >A Tale of Two Cities</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/eyes" >Their Eyes Were Watching God</a></li>
+		          <li><a href="http://www.sparknotes.com/lit/odyssey" >The Odyssey</a></li>
+			</ol>
+	
+	<div class="viewAll">
+	    <a href="http://www.sparknotes.com/sparknotes">View all &rarr;</a>
+	</div>
+	
+	<div class="homeH3">
+	    <h3><a href="http://nfs.sparknotes.com/">Top No Fear Shakespeare</a></h3>
+	</div>
+	
+	<ol class="top">
+            		          <li><a href="http://nfs.sparknotes.com/romeojuliet/" class="main">Romeo and Juliet</a></li>
+		          <li><a href="http://nfs.sparknotes.com/macbeth/" >Macbeth</a></li>
+		          <li><a href="http://nfs.sparknotes.com/hamlet/" >Hamlet</a></li>
+		          <li><a href="http://nfs.sparknotes.com/juliuscaesar/" >Julius Caesar</a></li>
+		          <li><a href="http://nfs.sparknotes.com/othello/" >Othello</a></li>
+		          <li><a href="http://nfs.sparknotes.com/msnd/" >A Midsummer Night's Dream</a></li>
+		          <li><a href="http://nfs.sparknotes.com/lear" >King Lear</a></li>
+		          <li><a href="http://nfs.sparknotes.com/tempest" >The Tempest</a></li>
+		          <li><a href="http://nfs.sparknotes.com/twelfthnight" >The Twelfth Night</a></li>
+		          <li><a href="http://nfs.sparknotes.com/merchant" >The Merchant of Venice</a></li>
+			</ol>
+	
+	<div class="viewAll">
+	    <a href="http://nfs.sparknotes.com/">View all &rarr;</a>
+	</div>
+	
+	<div class="homeH3">
+	    <h3><a href="http://www.sparknotes.com/nofear/lit/">Top No Fear Literature</a></h3>
+	</div>
+	
+	<ol class="top">
+			          <li><a href="http://www.sparknotes.com/nofear/lit/a-tale-of-two-cities/" class="main">A Tale of Two Cities</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/heart-of-darkness/" >Heart of Darkness</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/the-scarlet-letter/" >The Scarlet Letter</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/the-canterbury-tales/" >The Canterbury Tales</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/huckleberry-finn/" >Adventures of Huck Finn</a></li>
+		          <li><a href="http://www.sparknotes.com/nofear/lit/beowulf/" >Beowulf</a></li>
+			</ol>
+	
+	<div class="viewAll">
+	    <a href="http://www.sparknotes.com/nofear/lit/">View all &rarr;</a>
+	</div>
+	
+	<div class="homeH3">
+	    <h3><a href="http://www.sparknotes.com/testprep/">Test Prep</a></h3>
+	</div>
+	
+	<ol class="top">
+	    <li><a href="http://www.sparknotes.com/testprep/newsat/">SAT</a></li>
+	
+	    <li><a href="http://www.sparknotes.com/testprep/sat2/">SAT Subject Tests</a></li>
+	
+	    <li><a href="http://www.sparknotes.com/testprep/act/">ACT</a></li>
+	
+	    <li><a href="http://www.sparknotes.com/testprep/ap/">AP Subject Tests</a></li>
+	
+	    <li><a href="http://www.sparknotes.com/testprep/gre/">GRE</a></li>
+	</ol>
+	
+	<div class="viewAll">
+	    <a href="http://www.sparknotes.com/testprep/">View all &rarr;</a>
+	</div>
+</div>
+		  
+		  <div class="homeMainContent">
+    <h2 class="lifeTitle"><a href="http://community.sparknotes.com/">SparkLife</a></h2>
+    
+<div class="categoryTitle">
+                    <h3 class="category"><a href="http://community.sparknotes.com/life">Life</a> &gt; <span class="white"><a href="http://community.sparknotes.com/tag/teeth">teeth</a></span></h3>
+                </div>
+
+                <div class="imageList">
+                    <a class="noBorder" href="http://community.sparknotes.com/2012/04/17/blogging-my-cavity-filling"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/teethdentistcavities041612_MediumWide.jpg" alt="" /></a>
+
+                    <div class="precis">
+                        <h5><a href="http://community.sparknotes.com/2012/04/17/blogging-my-cavity-filling">Blogging My Cavity Filling</a></h5>
+
+                        <p>It's the end of an era, Sparklers. I used to think of myself as a ...</p><a href="http://community.sparknotes.com/2012/04/17/blogging-my-cavity-filling" class="more">More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="also">
+					                </div>
+<div class="categoryTitle">
+                    <h3 class="category"><a href="http://community.sparknotes.com/beauty">Beauty</a> &gt; <span class="white"><a href="http://community.sparknotes.com/tag/slideshows">slideshows</a></span></h3>
+                </div>
+
+                <div class="imageList">
+                    <a class="noBorder" href="http://community.sparknotes.com/2012/04/17/makeup-through-the-ages"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/makeup0416121_MediumWide.jpg" alt="" /></a>
+
+                    <div class="precis">
+                        <h5><a href="http://community.sparknotes.com/2012/04/17/makeup-through-the-ages">Makeup Through the Ages</a></h5>
+
+                        <p>  ...</p><a href="http://community.sparknotes.com/2012/04/17/makeup-through-the-ages" class="more">More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="also">
+					                    <p>Also in slideshows: <a href="http://community.sparknotes.com/2012/04/10/who-did-you-parents-look-up-to-when-they-were-teens">Who Did You Parents Look Up to When THEY Were Teens </a></p>
+					                </div>
+<div class="categoryTitle">
+                    <h3 class="category"><a href="http://community.sparknotes.com/life">Life</a> &gt; <span class="white"><a href="http://community.sparknotes.com/tag/dating">dating</a></span></h3>
+                </div>
+
+                <div class="imageList">
+                    <a class="noBorder" href="http://community.sparknotes.com/2012/04/17/10-things-you-just-gotta-do-with-someone-before-you-seriously-date-them"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/twocuties_MediumWide.jpg" alt="" /></a>
+
+                    <div class="precis">
+                        <h5><a href="http://community.sparknotes.com/2012/04/17/10-things-you-just-gotta-do-with-someone-before-you-seriously-date-them">10 Things You Just Gotta Do With Someone Before You Seriously Date Them</a></h5>
+
+                        <p><strong>1. Fix Something.</strong> Together. Then you'll know if you can work together, or if you ...</p><a href="http://community.sparknotes.com/2012/04/17/10-things-you-just-gotta-do-with-someone-before-you-seriously-date-them" class="more">More &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="also">
+					                    <p>Also in dating: <a href="http://community.sparknotes.com/2012/04/11/the-girls-pre-date-checklist">The Girl's Pre-Date Checklist</a></p>
+					                </div>
+   
+    <div class="categoryTitle">
+                    <h3 class="category"><a href="http://community.sparknotes.com/tag/high-fives">You Told Us</a> &gt; <span class="white"><a href="http://community.sparknotes.com/tag/high-fives">high fives</a></span></h3>
+                </div>
+
+                <div class="quote">
+                    <a class="noBorder" href="http://community.sparknotes.com/2012/04/16/awesome-alternatives-to-the-plain-ol-high-five"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/STOPDOINGTHISH5_SmallWide.jpg" alt="" /></a>
+
+                    <div class="precisQuote">
+                        <p class="comment">My best guy friend and I have the Pi five...it looks like approximately 3.14 fingers are held up.... <a href="http://community.sparknotes.com/2012/04/16/awesome-alternatives-to-the-plain-ol-high-five" class="more">More<span class="paddingLeft">&rarr;</span></a></p>
+                    </div>
+                </div>
+
+                <p class="quoteFrom"><a href="http://www.sparknotes.com/account/Macksamillion">- Macksamillion</a> from <a href="http://community.sparknotes.com/2012/04/16/awesome-alternatives-to-the-plain-ol-high-five">Awesome Alternatives to the Plain Ol' High Five</a></p>
+  
+                   
+                <div class="categoryTitle favoritesTitle">
+                    <h3 class="category"><span class="white">Your Favorites</span></h3>
+                </div>
+<div class="favorites">
+                    <ol>
+
+                        <li>
+                        	<div class="number" id=""></div>                       
+                            <a class="noBorder" href="http://community.sparknotes.com/2012/04/12/an-open-letter-to-one-direction"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/onedirectionletter_SmallWide.jpg" alt="" /></a>
+                            <div class="favoriteDesc">
+                                <h4 class="favoriteTitle"><a href="http://community.sparknotes.com/2012/04/12/an-open-letter-to-one-direction">An Open Letter to One Direction</a></h4>
+                            </div>
+                        </li>
+
+                        <li>
+                        	<div class="number" id="two"></div>                       
+                            <a class="noBorder" href="http://community.sparknotes.com/2012/02/23/the-worst-fictional-significant-others"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/worstficsos_Small.jpg" alt="" /></a>
+                            <div class="favoriteDesc">
+                                <h4 class="favoriteTitle"><a href="http://community.sparknotes.com/2012/02/23/the-worst-fictional-significant-others">The Worst Fictional Significant Others</a></h4>
+                            </div>
+                        </li>
+
+                        <li>
+                        	<div class="number" id="three"></div>                       
+                            <a class="noBorder" href="http://community.sparknotes.com/2012/02/23/what-will-jk-rowlings-next-book-be-about"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/rowling_SmallWide.jpg" alt="" /></a>
+                            <div class="favoriteDesc">
+                                <h4 class="favoriteTitle"><a href="http://community.sparknotes.com/2012/02/23/what-will-jk-rowlings-next-book-be-about">What Will JK Rowling's Next Book Be About?</a></h4>
+                            </div>
+                        </li>
+
+                        <li>
+                        	<div class="number" id="four"></div>                       
+                            <a class="noBorder" href="http://community.sparknotes.com/2012/04/06/how-to-ask-your-girl-to-prom"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/promss1_SmallWide.JPG" alt="" /></a>
+                            <div class="favoriteDesc">
+                                <h4 class="favoriteTitle"><a href="http://community.sparknotes.com/2012/04/06/how-to-ask-your-girl-to-prom">How To Ask Your Girl to Prom</a></h4>
+                            </div>
+                        </li>
+
+                        <li>
+                        	<div class="number" id="five"></div>                       
+                            <a class="noBorder" href="http://community.sparknotes.com/2012/04/13/the-worst-things-to-say-right-before-you-kiss-someone"><img src="http://img.sparknotes.com/content/sparklife/sparktalk/worstkissinglines_SmallWide.jpg" alt="" /></a>
+                            <div class="favoriteDesc">
+                                <h4 class="favoriteTitle"><a href="http://community.sparknotes.com/2012/04/13/the-worst-things-to-say-right-before-you-kiss-someone">The Worst Things to Say Right Before You Kiss Someone</a></h4>
+                            </div>
+                        </li>
+                    </ol> 
+                </div>
+</div>
+		 
+		  
+		  </div>
+		  
+		  <div class="homeSideContent">	
+		  	
+<div class="overflow">
+	<div class="adFollowUs">
+	    <div class="adNoBorder">
+            <div id="leftAdContainer">
+                <script type="text/javascript">
+                    DisplayAds('DualSizeBox');
+                </script>
+            </div>
+	    </div>	
+	    <div class="followUsBN">	        		
+	        <div class="followUsContainer">           	    
+	            <div class="topH3">
+	                <h3>Follow us</h3>
+	            </div>
+	            <ul>
+	                <li class="facebook"><a class="noBorder" href="http://www.facebook.com/SPARKNOTES" target="_new"><img src="http://img.sparknotes.com/images/new_global/fb1.png" alt="Facebook" /><br /></a><a id="iconFB" href="http://www.facebook.com/SPARKNOTES" name="iconFB" target="_new">Facebook</a></li>
+	                <li class="twitter"><a class="noBorder" href="http://twitter.com/SparkNotes" target="_new"><img src="http://img.sparknotes.com/images/new_global/twitter1.png" alt="Twitter" /><br /></a><a id="iconTwitter" href="http://twitter.com/SparkNotes" name="iconTwitter" target="_new">Twitter</a></li>
+	            </ul>
+	        </div>				
+	        <div class="bn">
+	            <p>SparkNotes is brought to you by <span><a class="noBorder" href="http://www.barnesandnoble.com/" target="_new">Barnes and Noble bn.com</a></span></p>
+	        </div>	        	    
+	    </div>
+	</div>
+</div>
+        <div class="videoTitle">
+        <h2><a href="http://www.sparknotes.com/video">Featured Video</a></h2>
+    </div>
+    <iframe width="300" height="233" src="http://www.youtube.com/embed/QFkIigx_Ax0" frameborder="0" allowfullscreen></iframe>    <h3 class="videoSubTitle"><a href="http://community.sparknotes.com/index.php/2012/04/03/everything-you-need-to-know-about-hair-extensions/">Hair extensions 101</a></h3>
+    <h4 class="videoSubTitle2"><a href="http://www.sparknotes.com/video">View more videos &rarr;</a></h3>
+
+      
+<div class="mindHutContainer">    
+        <div class=" studyBreakContainer">
+			<h3 id="mindHutLogo"><a class="noBorder" href="http://www.sparknotes.com/mindhut" target="_blank">Mindhut</a></h3>
+												<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/17/rage-against-the-machines-tom-morello-worlds-coolest-nerd">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/filltheframe_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/17/rage-against-the-machines-tom-morello-worlds-coolest-nerd">Rage Against the Machine's Tom Morello: World's Coolest Nerd</a></h3>
+					    </div>
+					</div>
+																<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/17/geek-quiz-jennifer-garners-birthday-question">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/jgaern_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/17/geek-quiz-jennifer-garners-birthday-question">Geek Quiz: Jennifer Garner's Birthday Question!</a></h3>
+					    </div>
+					</div>
+																<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/17/meet-prometheuss-creepiest-character-david">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/david_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/17/meet-prometheuss-creepiest-character-david">Meet Prometheus's Creepiest Character: David</a></h3>
+					    </div>
+					</div>
+																<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/17/before-watchmen-debuts-at-c2e2-to-minor-controversy">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/bigwatchman_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/17/before-watchmen-debuts-at-c2e2-to-minor-controversy">Before Watchmen Debuts at C2E2 (to Minor Controversy)</a></h3>
+					    </div>
+					</div>
+																<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/17/comic-news-from-c2e2-free-justice-league-comic-new-gambit-series-and-more">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/gambit_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/17/comic-news-from-c2e2-free-justice-league-comic-new-gambit-series-and-more">Comic News from C2E2: Free Justice League Comic, New Gambit Series, and More!</a></h3>
+					    </div>
+					</div>
+																<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/16/8-thoughts-on-the-raven-trailer">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/theraven_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/16/8-thoughts-on-the-raven-trailer">8 Thoughts on The Raven Trailer</a></h3>
+					    </div>
+					</div>
+																<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/16/10-things-the-legend-of-zelda-teaches-you-about-dating">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/zeldatwilight_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/16/10-things-the-legend-of-zelda-teaches-you-about-dating">10 Things the Legend of Zelda Teaches You About Dating  </a></h3>
+					    </div>
+					</div>
+																<div class="imageList">	
+						<a href="http://www.sparknotes.com/mindhut/2012/04/16/geek-quiz-octopus-on-a-finger">
+							<img src="http://img.sparknotes.com/content/sparklife/sparktalk/onafinger_Thumbnail.jpg"></a>				
+						<div class="precisBlog">
+					    	<h3><a href="http://www.sparknotes.com/mindhut/2012/04/16/geek-quiz-octopus-on-a-finger">Geek Quiz: Octopus on a Finger</a></h3>
+					    </div>
+					</div>
+							</div>
+    
+</div>
+
+  
+            		  </div>
+
+		  <div style="clear:both"></div>
+		  
+	   </div>
+	   
+	</div>
+
+</div>
+    </div>
+<!--	
+<div class="footerSites">
+			
+	    <div class="footerModule sparkLife">
+	    	<h4><a href="http://community.sparknotes.com/">SparkLife</a></h4>
+	    	<div class="footerList">
+	    		<ul>
+	       			<li><a href="http://community.sparknotes.com/tag/awkward-situations">Awkward situations</a></li>
+	       			<li><a href="http://community.sparknotes.com/tag/celebrity-couples">Celebrity couples</a></li>
+	       			<li><a href="http://community.sparknotes.com/tag/advice">Advice</a></li>
+	       			<li><a href="http://community.sparknotes.com/tag/videos">Videos</a></li>
+	       			<li><a href="http://community.sparknotes.com/tag/breakups">Breakups</a></li>
+	       			<li><a href="http://community.sparknotes.com/tag/nerds">Nerds</a></li>
+	       			<li><a href="http://community.sparknotes.com/tag/kissing">Kissing</a></li>
+	       			<li><a href="http://community.sparknotes.com/blog/contributor/dan_bergstein">Dan Bergstein</a></li>
+	    		</ul>  	
+	    		<a class="action" href="http://community.sparknotes.com/">Hang out on SparkLife! &rarr;</a>
+	    	</div>
+	    </div>			
+	    <div class="footerModule sparkMatchFooter">
+	       <h4><a href="http://www.sparknotes.com/sparkmatch">SparkMatch</a></h4>
+	       <div class="footerList">
+				<div class="overflow">
+	       		    <div class="imageNoCrop">
+	       		    	<a href="http://www.sparknotes.com/sparkmatch"><img src="http://img.sparknotes.com/images/new_global/harryPotter.jpg" /></a>
+	       		    </div>
+	       		    <div class="title">
+	       		    	<span class="blue"><a href="http://www.sparknotes.com/sparkmatch">151,741</span> People like Harry Potter</a>
+	       		    </div>
+	       		</div>
+	       		<div class="overflow">
+	       		    <div class="imageNoCrop">
+	       		    	<a href="http://www.sparknotes.com/sparkmatch"><img src="http://img.sparknotes.com/images/new_global/hungerGames.jpg" /></a>
+	       		    </div>
+	       		    <div class="title">
+	       		    	<span class="blue"><a href="http://www.sparknotes.com/sparkmatch">1,497</span> People like The Hunger Games</a>
+	       		    </div>
+	       		</div>
+	       		<div class="overflow">
+	       		    <div class="imageNoCrop">
+	       		    	<a href="http://www.sparknotes.com/sparkmatch"><img src="http://img.sparknotes.com/images/new_global/darrenCriss.jpg" /></a>
+	       		    </div>
+	       		    <div class="title">
+	       		    	<span class="blue"><a href="http://www.sparknotes.com/sparkmatch">34</span> People like Darrin Cris</a>
+	       		    </div>
+	       		</div>
+	       		<a class="action thumbnails" href="http://www.sparknotes.com/sparkmatch">See who they are on SparkMatch!</a>
+	    	</div>
+	    </div>
+	    	    <div class="footerModule sparkTestsFooter">
+	    	<h4><a href="http://www.sparknotes.com/sparktests">SparkTests</a></h4>
+	    	<div class="footerList">
+	    		<div class="overflow">
+	       		    <div class="imageCrop">
+	       		    	<a href="#"><img src="http://img.sparknotes.com/images/new_global/dateable-test-thumb.jpg" /></a>
+	       		    </div>
+	       		    <div class="title">
+	       		    	<span class="blue"><a href="#">The Death Test</span></a>
+	       		    </div>
+	       		</div>
+	       		<div class="overflow">
+	       		    <div class="imageCrop">
+	       		    	<a href="#"><img src="http://img.sparknotes.com/images/new_global/dateable-test-thumb.jpg" /></a>
+	       		    </div>
+	       		    <div class="title">
+	       		    	<span class="blue"><a href="#">The Gender Test</span></a>
+	       		    </div>
+	       		</div>
+	       		<div class="overflow">
+	       		    <div class="imageCrop">
+	       		    	<a href="#"><img src="http://img.sparknotes.com/images/new_global/dateable-test-thumb.jpg" /></a>
+	       		    </div>
+	       		    <div class="title">
+	       		    	<span class="blue"><a href="#">The Personality Test</span></a>
+	       		    </div>
+	       		</div>
+
+	    		<a class="action thumbnails" href="http://community.sparknotes.com/">Take a test! &rarr;</a>	
+	    	</div>
+	    </div>
+	    <div class="footerModule mindHutFooter">
+	       <h4><a href="http://www.sparknotes.com/mindhut">MindHut</a></h4>
+	       <div class="footerList">
+	       		<ul>
+	       		    	<li><a href="http://www.sparknotes.com/mindhut/Movies">Movies</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/mindhut/Games">Games</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/mindhut/Books-and-Comics">Books + Comics</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/mindhut/Life">Life</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/mindhut/Music">Music</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/mindhut/Funniest">Funniest</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/mindhut/Videos">Videos</a></li>
+	       		</ul> 
+	       		<a class="action" href="http://www.sparknotes.com/mindhut">Geek Out! &rarr;</a>	
+	    	</div>
+	    </div>			
+	    <div class="footerModule collegeLife">
+	       <h4><a href="http://www.sparknotes.com/college/">College Life</a></h4>
+	       <div class="footerList">
+	       		<ul>
+	       		    	<li><a href="http://www.sparknotes.com/college/blog/category/stress">Stress</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/college/blog/category/dating">Dating</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/college/blog/category/college-freshmen">Freshman Year</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/college/blog/category/college-admissions">College Admissions</a></li>
+	       		    	<li><a href="http://community.sparknotes.com/tag/i-go-to">I go to...</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/college/blog/category/application-essays">application essays</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/college/blog/category/dorms">Dorms</a></li>
+	       		    	<li><a href="http://www.sparknotes.com/college/blog/category/roommates">Roommates</a></li>
+	       		</ul> 
+	       		<a class="action" href="http://www.sparknotes.com/college/">Get into college! &rarr;</a>	
+	       </div>
+	    </div>
+	</div>-->
+	<div style="clear:both;"></div>
+
+
+    <div class="footer">
+        <p><span class="blue"><strong>When your books and teachers don't make sense, we do.</strong></span></p>
+
+        <ul class="navigation">
+            <li class="first"><a href="http://www.sparknotes.com/contact/">Contact Us</a></li>
+            <li><a href="http://www.sparknotes.com/legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="http://www.sparknotes.com/legal/">Terms and Conditions</a></li>
+            <li><a href="http://www.sparknotes.com/about/">About</a></li>
+            <li><a href="http://www.sparknotes.com/sitemap/">Sitemap</a></li>
+            <li><a href="http://www.sparknotes.com/advertisers/">Advertise</a></li>
+        </ul>
+
+        <ul class="navigation">
+            <li class="first"><a href="http://www.barnesandnoble.com/u/Fiction-Books-Novels-Literature/379001088/">Fiction Books</a></li>
+            <li><a href="http://www.barnesandnoble.com/textbooks/index.asp">Textbooks</a></li>
+            <li><a href="http://www.barnesandnoble.com/nookstudy/index.asp">eTextbooks</a></li>
+            <li><a href="http://www.barnesandnoble.com/u/Classic-books-Barnes-and-Noble-classics/379000132/">Classic Books</a></li>
+            <li><a href="http://www.barnesandnoble.com/used-books/search.asp">Used Books</a></li>
+            <li><a href="http://www.barnesandnoble.com/u/teens-teen-books/379001099/">Teen Books</a></li>
+            <li><a href="http://www.barnesandnoble.com/nook/index.asp">nook</a></li>
+            <li><a href="http://www.barnesandnoble.com/nook/index.asp">eReader</a></li>
+        </ul>
+        <p class="smallText">&copy;2012 SparkNotes LLC, All Rights Reserved</p>
+  </div>  
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+  (function () {
+    var d = new Image(1, 1);
+    d.onerror = d.onload = function () {
+      d.onerror = d.onload = null;
+    };
+    d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-704167h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+  })();
+</script>
+<noscript>
+  <div>
+    <img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-704167h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+    width="1" height="1" alt="" />
+  </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+<script type='text/javascript'>   
+var pubId=25434;
+var pixId=28; 
+</script>
+<script src='http://ads.pubmatic.com/AdServer/js/universalpixel.js' type='text/javascript'></script>
+<script type="text/javascript">
+    Meebo('domReady');
+</script>
+<div id="imbored_container">
+</div>
+<script>
+    //featured posts
+    Meebo('addButton', {
+        id : 'featured_posts_popup',
+        type : 'widget',
+        label : "I'm Bored",
+        icon : "http://img.sparknotes.com/images/newsparklife/imbored_icon.jpg",
+        width: 290,
+        height: 450,
+        onCreate: function(widget, element) {
+            widget.square = document.getElementById('imbored_container');
+            element.appendChild(widget.square);
+        },
+        onShow: function(widget, element) { 
+            jQuery.get("/featured/meebo", function(data){
+                jQuery('#imbored_container').html(data);
+            });
+            element.style.overflow = "hidden";
+            document.getElementById('imbored_container').style.display = 'block';
+        }
+    });
+    // Prom
+    Meebo('addButton', {  
+ 	    id : 'prom_nav_button',
+ 	    type : 'action',  
+ 	    label : "Guide to Prom",  
+ 	    icon : "http://img.sparknotes.com/images/meeboProm.jpg",  
+ 	    onClick: function() { 
+ 	        window.open("http://community.sparknotes.com/guide-to-prom");
+        }  
+    }); 
+</script>
+    	<script type='text/javascript' src='http://img.sparknotes.com/js/newsticker.js'></script>
+	<script type="text/javascript">//<![CDATA[
+	jQuery.noConflict();
+	jQuery(
+		function()
+		{
+			var newsitems = jQuery("<ul>").attr("class","news_ticker_items");
+							newsitems.append("<li><a href=\"http://community.sparknotes.com/2012/04/16/10-ya-books-that-will-teach-you-something-useful \"><span class=\"white\">Can </span><span class=\"red\">THESE</span><span class=\"white\"> YA books teach you something?</span></a></li>");
+						newsitems.append("<li><a href=\"http://community.sparknotes.com/2012/04/16/16-terrible-pinterest-board-themes\"<span class=\"green\">Are you terrible at Pinterest?</span> So are we!</a></li>");
+						newsitems.append("<li><a href=\"http://www.sparknotes.com/mindhut/2012/04/16/10-things-the-legend-of-zelda-teaches-you-about-dating\"><span class=\"purple\">What can Zelda teach YOU about dating?</span><span class=\"yellow\"> Find out here!</span></a></li>");
+						newsitems.append("<li><a href=\"http://community.sparknotes.com/2012/04/16/awesome-alternatives-to-the-plain-ol-high-five\"><span class=\"yellow\">Bored with the high five?</span><span class=\"green\"> Check out these alternatives!</span></a></li>");
+					newsitems.appendTo("#news_ticker").newsticker(10000);
+		}
+	);//]]>
+    </script>
+	<script type='text/javascript' src='//img.sparknotes.com/js/jquery.autocomplete.min.js'></script>
+	<script type='text/javascript' src='//img.sparknotes.com/js/sn_autocomplete.js'></script>
+  </body>
+</html>

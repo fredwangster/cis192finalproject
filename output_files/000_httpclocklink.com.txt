@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+                <title>ClockLink.com - Free Flash World Clock</title>
+        <meta http-equiv="content-type" content="text/html" />
+        <meta name="description" content="Free clock for your web page." /> 
+		<meta name="keywords" content="free,clock,rental,clocklink,PSP,clocklink.com,world,flash,website,advertise,world clock,free flash,custom clock,clock,free world clock,html,time zone" />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="Stylesheet" href="css/reset.css" type="text/css" />
+        <link rel="Stylesheet" href="css/style.css" type="text/css" />
+		
+        <link rel="Stylesheet" href="css/navigation.css" type="text/css" />
+        <link rel="StyleSheet" type="text/css" href="css/form.css" />
+
+        <script  type="text/javascript" src="/js/embed.js"></script>
+        <script  type="text/javascript" src="/js/global.js"></script>
+        <script type="text/javascript">
+			
+            function toggle_visibility(id) {
+                var e = document.getElementById(id);
+                if(e.style.display == 'block')
+                    e.style.display = 'none';
+                else
+                    e.style.display = 'block';
+            }
+			
+        </script>
+
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-30535094-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>	
+		<!-- Google Analytics -->
+		
+    </head>
+
+    <body id="top">
+        <!-- Main Container -->
+        <div id="container">
+
+            <div class="containerTile">
+
+                <!-- Header -->
+                <div class="header">
+
+                    <div class="logo"><a href="index.php"><img src="images/clocklink.gif" alt="Clocklink" /></a></div>
+
+                    <!-- Top Navigation -->
+
+                    
+			<div class="topNavigation"><a href="help.php">Help</a>			<a href="contact.php">Contact PSP</a>			<a href="javascript:void(0);" onclick="toggle_visibility('languageSelect');">Choose Language</a><div id="languageSelect"><div class='languageOption'><a href='/'>English</a></div><div class='languageOption'><a href='/jp/'>Japanese</a></div><div class='languageOption'><a href='/cn/'>Chinese</a></div>
+                </div>
+
+            </div>
+            <!-- Top Navigation -->
+
+        </div>
+        <!-- Header -->
+
+        <!-- Side Navigation -->
+        <div class="sideNavigation">
+
+            
+			<a href="http://clocklink.com/index.php" class="sideNavigationActive"><span class="activeText">Home</span></a>
+			<a href="http://clocklink.com/about.php">About PSP</a>
+			<a href="http://clocklink.com/new.php">What's New</a>
+			<a href="http://clocklink.com/gallery.php">Gallery</a>
+			<a href="http://clocklink.com/gallery.php?category=NEWEST"><span class="sideNavigationIndent">Newest</span></a>
+			<a href="http://clocklink.com/gallery.php?category=FREE"><span class="sideNavigationIndent">Ad Free</span></a>
+			<a href="http://clocklink.com/gallery.php?category=ANALOG"><span class="sideNavigationIndent">Analog</span></a>
+			<a href="http://clocklink.com/gallery.php?category=ANIMAL"><span class="sideNavigationIndent">Animal</span></a>
+			<a href="http://clocklink.com/gallery.php?category=ANIMATION"><span class="sideNavigationIndent">Animation</span></a>
+			<a href="http://clocklink.com/gallery.php?category=COUNT"><span class="sideNavigationIndent">Count Down &amp; Up</span></a>
+			<a href="http://clocklink.com/gallery.php?category=DARK"><span class="sideNavigationIndent">Dark Backgrounds</span></a>
+			<a href="http://clocklink.com/gallery.php?category=DIGITAL"><span class="sideNavigationIndent">Digital</span></a>
+			<a href="http://clocklink.com/gallery.php?category=HOLIDAYS"><span class="sideNavigationIndent">Holidays</span></a>
+			<a href="http://clocklink.com/gallery.php?category=LOGO"><span class="sideNavigationIndent">Logo &amp; Custom</span></a>
+			<a href="http://clocklink.com/gallery.php?category=SEASONS"><span class="sideNavigationIndent">Seasons</span></a>
+			<a href="http://clocklink.com/gallery.php?category=SPORTS"><span class="sideNavigationIndent">Sports</span></a>
+			<a href="http://clocklink.com/gallery.php?category=TRANSPARENT"><span class="sideNavigationIndent">Transparent</span></a>
+			
+			<a href="http://clocklink.com/gallery_wlppr.php"><span class="sideNavigationIndent">Wallpaper</span></a>
+			
+			<a href="http://clocklink.com/faq.php">FAQ</a>
+			<a href="http://clocklink.com/rankings.php">Rankings</a>
+			<a href="http://clocklink.com/ad.php">Your Ads</a>
+			<a href="http://clocklink.com/world_clock.php">World Clock</a>
+			<a href="http://clocklink.com/daily_views.php">Daily Clock Views</a>
+		
+        </div>
+        <!-- Side Navigation -->
+		<!-- Top Bar -->
+		<div class="topBar">
+
+			<div class="breadcrumb">You Are Here:  <span class="bold">ClockLink.com</span> | <a href="/index.php">Home</a></div>
+			<div class="topBarInfo">Want To Get A Custom Clock? Contact info@pspinc.com or 1-800-232-3989</div>
+
+		</div>
+		<!-- Top Bar -->
+
+		<!-- Main Content -->
+		<div class="content">
+
+			<div class="homePageContent">
+
+				<div class="homeFlashClock">
+
+					<div class="homeFlashClockItem">
+					<script type="text/javascript">
+						var date = new Date();
+						var nRandom = date.getSeconds() % 3;
+						var obj = new Object;
+
+							if(nRandom == 0){
+								obj.clockfile="free002-black.swf";
+								obj.TimeZone="PST";
+								obj.width=200;
+								obj.height=200;
+								obj.wmode="transparent";
+                                obj.TimeFormat="HH:mm:ss";
+							}
+							else if(nRandom == 1){
+								obj.clockfile="0056-black.swf";
+								obj.TimeZone="PST";
+								obj.width=200;
+								obj.height=200;
+								obj.wmode="transparent";
+							}
+							else{
+								obj.clockfile="5032-red.swf";
+								obj.TimeZone="PST";
+								obj.width=200;
+								obj.height=200;
+								obj.wmode="transparent";
+							}
+
+						showClock(obj);
+					</script>
+					</div>
+
+				</div>
+
+				<div class="homeBigButton">
+					<a href="http://www.pspinc.com/japanrelief/?lang=en" target="_blank"><img src="images/japan-relief-clocklink.jpg" border="0" alt="Pacific Software Publishing, Inc. will match up to $10,000 in donations for Japan Relief" /></a>
+				</div>
+
+				<div class="homeContent">
+                    <span>Welcome to ClockLink - Get your free world clock</span><br />ClockLink.com provides the most widely used Web clock in the world with over 30 million views around the world. In addition, clocks can be set to display any time zone in the world online, so they are not only decorative but very practical as well. You can use our world clock to see all timezones of the world, and it's free to use. Use it to show what time it is in your area. There is no charge to use any of the clocks or for the world clock on your website or blog.					<style type="text/css">
+						#japan_relief_content {font-family: Verdana, Arial, san-serif;font-size: 12px;}
+						#japan_relief_content img{margin:0 10px 0 0;}
+						#japan_relief_content a:link, #japan_relief_content a:visited{text-decoration:none; color:#416CE5;}
+					</style>
+					<link media="screen" rel="stylesheet" href="css/colorbox.css" />
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+				</div>
+
+				<div class="homeNews">
+					<span>Latest ClockLink News</span>
+					<div class="homeAggregator">
+						<script language='javascript' type='text/javascript' src='http://en.bloguru.com/GroupRSSFeed/a6246fef4d8b401d9ce0f5061eaaa826/feed.js?MaxPosts=5|NewWindow=1|Width=342|ShowDesc=0|ShowAvatar=0|MaxLength=200|SkinStyle="Standard"|DateFormat="%25m-%25d-%25Y"'></script>					</div>
+				</div>
+
+				<div class="bottomSmallButtons">
+					<div class="elementLeft"><a href="http://www.pspinc.com" target="_blank"><img src="images/btm-psp.gif" border="0" alt="Find more of our products at pspinc.com." /></a></div>
+					<div class="elementRight"><a href="http://en.bloguru.com/home" target="_blank"><img src="images/btm-bloguru.gif" border="0" alt="Put a ClockLink clock on your free blog with Bloguru." /></a></div>
+					<div class="elementLeft"><a href="http://www.dreamersi.com" target="_blank"><img src="images/btm-dreamersi.gif" border="0" alt="Private domain email and web hosting services." /></a></div>
+					<div class="elementLeft"><a href="http://www.newsmail2u.com" target="_blank"><img src="images/btm-newsmail2u.gif" border="0" alt="Broadcast products, services, and much more." /></a></div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- Main Content -->
+
+		</div>
+
+		<!-- Footer -->
+		<div class="footer">
+
+			<div class="address">
+				<a href="http://www.pspinc.com" target="_blank">Pacific Software Publishing, Inc.</a><br />
+				1404 140th Place N.E., Bellevue, WA 98007 USA<br />
+				Tel: 425.957.0808   Fax: 425.957.1188  Email: info@pspinc.com
+			</div>
+
+			<div class="links">
+				<a href="http://clocklink.com/index.php">Home</a> | <a href="http://clocklink.com/about.php">About PSP</a> | <a href="http://clocklink.com/new.php">What's New</a> | <a href="http://clocklink.com/gallery.php">Gallery</a> | <a href="http://clocklink.com/faq.php">FAQ</a> | <a href="http://clocklink.com/rankings.php">Rankings</a> | <a href="http://clocklink.com/ad.php">Your Ads</a> | <a href="http://clocklink.com/world_clock.php">World Clock</a>
+
+				<div class="elementRight">Copyright &copy;2012 PSP Inc. All Rights Reserved.</div>
+			</div>
+
+		</div>
+		<!-- Footer -->
+
+		<div class="elementLeft"><a href="http://www.adobe.com/go/getflashplayer" target="_blank"><img src="images/btn-player.gif" width="169" height="47" border="0" alt="Get Adobe Flash Player" /></a></div>
+        <div class="elementCenter">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-6781949687373026";
+/* clocklink - banner */
+google_ad_slot = "8064765848";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+        </div>
+		<div class="elementRight"><a href="http://twitter.com/clocklink/" target="_blank"><img src="images/btn-twitter.gif" width="193" height="24" border="0" alt="Follow clocklink on Twitter" /></a></div>
+
+
+	</div>
+	<!-- Main Container -->
+
+    <!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-f5Ds-1f4WelGA"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-f5Ds-1f4WelGA.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>

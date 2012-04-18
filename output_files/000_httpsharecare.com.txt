@@ -1,0 +1,1375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Expert Health Information - Questions and Answers - Sharecare</title>                <meta name="description" content="An interactive platform that provides expert health information and allows you to ask questions and get answers from trusted healthcare experts" />
+<meta name="keywords" content="expert health, expert health information, health information, health questions, health answers, expert health answers" />
+<meta name="title" content="Expert Health Information - Questions and Answers - Sharecare" />
+        <meta property="og:title" content="Expert Health Information - Questions and Answers - Sharecare" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://static.sharecare.com/images/sc_heart.png?v=0" />
+<meta property="og:url" content="http://www.sharecare.com/" />
+<meta property="og:site_name" content="Sharecare" />
+                                                                                <link rel="stylesheet" href="http://static.sharecare.com/css/rollup/rollup.css?v=0" media="screen" type="text/css" />
+<link rel="stylesheet" href="http://static.sharecare.com/css/spotlight.css?v=0" media="screen" type="text/css" />
+<link rel="stylesheet" href="http://static.sharecare.com/css/rollup/default.css?v=0" media="screen" type="text/css" />
+<!--[if IE 7]> <link rel="stylesheet" href="http://static.sharecare.com/css/ie/ie7.css?v=0" media="screen" type="text/css" /><![endif]-->
+<!--[if IE 8]> <link rel="stylesheet" href="http://static.sharecare.com/css/ie/ie8.css?v=0" media="screen" type="text/css" /><![endif]-->
+<link rel="shortcut icon" href="http://static.sharecare.com/images/favicon.png" type="image/x-icon" />        <script type="text/javascript" src="http://sc.ssoservice.com/tools/page.js?response_type=token&client_id=sharecare"></script>
+        <script type="text/javascript" src="http://fonts.sharecare.com/wfc1tio.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" charset="utf-8">
+                            // TinyMCE needs document.domain set
+                document.domain     = 'sharecare.com';
+                        var amazonS3BaseUrl = 'http://media.sharecare.com/';
+            var s_account       = 'sharecareprod';
+        </script>
+        <script type="text/javascript" src="http://static.sharecare.com/js/rollup/libs.js?v=0"></script>
+<script type="text/javascript" src="http://static.sharecare.com/js/default/index/index.js?v=0"></script>
+<script type="text/javascript" src="http://static.sharecare.com/js/spotlight/spotlight.js?v=0"></script>
+<script type="text/javascript">
+    //<![CDATA[
+
+    var spotlightConfig = {
+                    currentPosition  : 4,
+                    slideWidth       : 660,
+                    slidesSelector   : '.slide'
+                   };    
+   var expertRotatorConfig = {
+                    duration:  5000,
+                    container: '#scrollerWrapper',
+                    upNextSelector: '.onDeck',
+                    numberItemsToShow: 4
+   };
+    
+   $(function(){
+       // Hide it then fade it in
+       $('#spotlight').css('opacity', '0');
+       $('#loadingSpotlight').show();
+       
+       // Doesn't support rounded corners
+       if ( $.browser.msie ) {
+           $('.corner').remove();
+       }
+       var spotlight = new Spotlight('#spotlight', spotlightConfig);
+      
+       var rotator   = new expertRotator('#scrollerWrapper', expertRotatorConfig);
+   });
+    //]]>
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+var EXTERNAL_SEARCH_AJAX_URL = 'http://www.healthline.com/v2/sharecare/autocomplete';    //]]>
+</script>
+<script type="text/javascript" src="http://static.sharecare.com/js/global.js?v=0"></script>        <script type="text/javascript">
+            $(function(){
+                applySuperfish('ul.userLinks');
+
+            /* Logged in user dropdown */
+            (function($) {
+               $.dropdown = function(container) {
+                   var menu   = $('ul', $(container));
+                   var button = $('.dropdownButton', $(container));
+
+                   button.click(function(e) {
+                       e.stopPropagation();
+                       menu.slideToggle('fast');
+                       $(container).toggleClass('expanded');
+                   });
+
+                   $('html').click(function(e) {
+                       menu.slideUp('fast');
+                       $(container).removeClass('expanded');
+                   });
+               };
+            })(jQuery);
+
+
+            $.dropdown('.dropdown');
+            });
+                        $(function(){
+                $('.exploreCollapse').ajaxify('#exploreTopicsWindow', {
+                    bind: 'click',
+                    cache: false,
+                    live: true,
+                    preloadType: 'inline',
+                    postResponse: function() {
+                        if ($('#exploreTopics').hasClass('exploreCollapse')) {
+                            $('#exploreTopics').removeClass('exploreCollapse');
+                            $('#exploreTopics').addClass('exploreExpand');
+                        } else if ($('#exploreTopics').hasClass('exploreExpand')) {
+                            $('#exploreTopics').removeClass('exploreExpand');
+                            $('#exploreTopics').addClass('exploreCollapse');
+                        }
+
+                        if ($('#exploreTopicsWrapper').hasClass('exploreTopicsWrapperHide')) {
+                            $('exploreTopicsWrapper').removeClass('exploreTopicsWrapperHide');
+                            $('exploreTopicsWrapper').addClass('exploreTopicsWrapperShow');
+                        }
+
+                        closeOthers('exploreTopics');
+                    }
+                });
+
+                $('.exploreExpand').live('click', function() {
+                    if ($('#exploreTopics').hasClass('exploreCollapse')) {
+                        $('#exploreTopics').removeClass('exploreCollapse');
+                        $('#exploreTopics').addClass('exploreExpand');
+                    } else if ($('#exploreTopics').hasClass('exploreExpand')) {
+                        $('#exploreTopics').removeClass('exploreExpand');
+                        $('#exploreTopics').addClass('exploreCollapse');
+                    }
+
+                    if ($('#exploreTopicsWrapper').hasClass('exploreTopicsWrapperShow')) {
+                        $('#exploreTopicsWrapper').removeClass('exploreTopicsWrapperShow');
+                        $('#exploreTopicsWrapper').addClass('exploreTopicsWrapperHide');
+                    }
+
+                    return false;
+                });
+
+                $('.topicExplorePaginator a').ajaxify('#exploreTopicsWindow', {
+                    bind: 'click',
+                    cache: false,
+                    live: true
+                });
+
+                $('.topicExploreItem').live('mouseover', function(){
+                    $(this).addClass('topicExploreItemHover');
+                }).live('mouseout', function(){
+                    $(this).removeClass('topicExploreItemHover');
+                });
+
+                $('.drozAnswerCollapse').ajaxify('#drozAnswerWindow', {
+                    bind: 'click',
+                    cache: false,
+                    live: true,
+                    preloadType: 'inline',
+                    postResponse: function() {
+                        if ($('#drozAnswer').hasClass('drozAnswerCollapse')) {
+                            $('#drozAnswer').removeClass('drozAnswerCollapse');
+                            $('#drozAnswer').addClass('drozAnswerExpand');
+                        } else if ($('#drozAnswer').hasClass('drozAnswerExpand')) {
+                            $('#drozAnswer').removeClass('drozAnswerExpand');
+                            $('#drozAnswer').addClass('drozAnswerCollapse');
+                        }
+
+                        if ($('#drozAnswerWrapper').hasClass('drozAnswerWrapperHide')) {
+                            $('drozAnswerWrapper').removeClass('drozAnswerWrapperHide');
+                            $('drozAnswerWrapper').addClass('drozAnswerWrapperShow');
+                        }
+
+                        closeOthers('drozAnswer');
+                    }
+                });
+
+                $('.drozAnswerExpand').live('click', function() {
+                    if ($('#drozAnswer').hasClass('drozAnswerCollapse')) {
+                        $('#drozAnswer').removeClass('drozAnswerCollapse');
+                        $('#drozAnswer').addClass('drozAnswerExpand');
+                    } else if ($('#drozAnswer').hasClass('drozAnswerExpand')) {
+                        $('#drozAnswer').removeClass('drozAnswerExpand');
+                        $('#drozAnswer').addClass('drozAnswerCollapse');
+                    }
+
+                    if ($('#drozAnswerWrapper').hasClass('drozAnswerWrapperShow')) {
+                        $('#drozAnswerWrapper').removeClass('drozAnswerWrapperShow');
+                        $('#drozAnswerWrapper').addClass('drozAnswerWrapperHide');
+                    }
+
+                    return false;
+                });
+
+                var closeOthers = function(name) {
+                    if (name !== 'exploreTopics') {
+                        $('.exploreExpand').trigger('click');
+                    }
+                    if (name !== 'drozAnswer') {
+                        $('.drozAnswerExpand').trigger('click');
+                    }
+                }
+            });
+        </script>
+        <script type="text/javascript">
+            // ChartBeat
+            var _sf_startpt=(new Date()).getTime()
+        </script>
+
+    </head>
+    <body id="defaultModuleIndexControllerIndexAction" >
+                	    	
+
+        <div id="headerWrapper">
+            <div id="header" class="wrapper">
+                <div id="primaryNavigation" class="wrapper">
+                        <ul id="navMenu">
+                                                    <li class="account"><a href="#" class="registerButton">Sign Up</a></li>
+                            <li class="account"><a href="#" class="loginButton">Log In</a></li>
+                                                    <li class="nav"><a href="http://reference.sharecare.com/">Health Reference</a></li>
+                            <li class="nav"><a href="/people">People</a></li>
+                            <li class="nav"><a href="/topics">Topics</a></li>
+                        </ul>
+                        <div class="logo">
+                            <a href="/" id="logo">Sharecare</a>
+                        </div>
+                </div>
+            </div> <!-- /header -->
+
+            <div id="topContent">
+                <form id="globalSearchBar" action="/search">
+                    <h2>Get expert answers to your health questions</h2>
+                    <div id="globalSearchField">
+                        <input id="globalSearchFieldInput" name="query" class="defaultText" />
+                        <!-- <ul id="autocompleteResults"></ul> -->
+                    </div>
+                    <button type="submit">Ask</button>
+                    <div id="headerdma">
+                        <!-- scdn.sharecare/qa/pos=a (tile=1) -->
+                        <script type="text/javascript">//<![CDATA[
+var ord = Math.floor(Math.random() * 10000000000000000);
+document.write('<script type="text/javascript" src="http://ad.doubleclick.net/N6437/adj/scdn.sharecare/homepage;env=PRD;cn=;ct=;us=;pos=a;tile=1;dcopt=ist;sz=862x15;kw=;ord=' + ord + '?"><\/script>');
+//]]></script><noscript><a href="http://ad.doubleclick.net/N6437/jump/scdn.sharecare/homepage;env=PRD;cn=;ct=;us=;pos=a;tile=1;dcopt=ist;sz=862x15;kw=;ord=123456789?" target="_blank" ><img src="http://ad.doubleclick.net/N6437/ad/scdn.sharecare/homepage;env=PRD;cn=;ct=;us=;pos=a;tile=1;dcopt=ist;sz=862x15;kw=;ord=123456789?" border="0" alt="" /></a></noscript>                        <!-- end ad tag -->
+                    </div>
+                </form>
+
+                    
+<div id="spotlightWrapper">
+    <div id="spotlightContainer">
+        <span class="cornerLeft corner"></span>
+        <span class="cornerRight corner"></span>
+        <div id="loadingSpotlight"><span>Loading Questions<span></div>
+        <ol id="spotlight" style="margin-left:-2206px; width:6600px">
+                        <li id="PRD__4d30f51b4919c3_80458860" class="slide loadingSlide question">
+                <div class="question">
+                    <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/P/R/D/PRD__4d30f51b4919c3_80458860/hp_waterenergy.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                            <span class="type">Q</span>
+                            <h2 class="questionTopic">ORAL HEALTH</h2>
+                            <h2 class="questionTopicTruncate">ORAL HEALTH</h2>
+                            <a class="questionUrl" href="/question/how-drinking-water-prevent-gingivitis">
+                                <p class="questionText">Can drinking water prevent gingivitis?</p>
+                            </a>
+                            <p class="questionTextTruncate">Can drinking water prevent gingivit...</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                        <span class="type">A</span>
+                        <p class="excerpt answerText">
+                            You can help prevent gingivitis by drinking plenty of water to keep
+your mouth moist, wash away food and neutralize plaque. In addition
+to avoiding dry mouth,...                        </p>
+                                                       <a href="/question/how-drinking-water-prevent-gingivitis" class="fullAnswer">Full answer</a>
+                                                
+                                                <div class="attribution">
+                            <div class="attributionThumbnail">
+                                <a href="/group/colgate" class="answerAvatarLink"><div class="imgWrapper"><img src="http://media.sharecare.com/profileImages/P/R/D/PRD__4ca4831e1b0022_16391416/DeVizio_v5.jpg_58_58.jpg" class="answerAvatar" width="50" height="50" alt="Dr. De Vizio DMD on behalf of Colgate"/></div></a>
+                                
+                                
+                                <div class="thumbnailBottom  knowledgePartner">&nbsp;</div>
+                            </div>
+                            <div class="groupInfo">
+                                <h3><a href="/group/colgate" class="group"><span class="answerAvatarText">Dr. De Vizio DMD on behalf of Colgate</span></a></h3>
+                                                                
+                                                                    <h4 class="answerAvatarAffiliate">
+                                    Colgate                                    </h4>
+                                                                <h4><a href="/group/colgate/answers" class="answerAvatarNumQuestionsLink"><span class="numQuestions">500+</span> questions answered</a></h4>
+                            </div>
+                        </div><!-- attribution -->
+                        
+                        <div class="experts">    
+</div>
+                    </div>
+                </div>
+            </li>
+                                  <li id="DEV__4c6e785028e821_45666824" class="slide loadingSlide question">
+                <div class="question">
+                    <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/D/E/V/DEV__4c6e785028e821_45666824/HP_HeartAttack.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                            <span class="type">Q</span>
+                            <h2 class="questionTopic">Heart Health</h2>
+                            <h2 class="questionTopicTruncate">Heart Health</h2>
+                            <a class="questionUrl" href="/question/how-heart-attack-predicted-advance">
+                                <p class="questionText">Can heart attacks be predicted?</p>
+                            </a>
+                            <p class="questionTextTruncate">Can heart attacks be predicted?</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                        <span class="type">A</span>
+                        <p class="excerpt answerText">
+                            A heart attack can be predicted months in advance, if not years in
+advance. If a patient is having symptoms of angina, which is
+usually pressure in the chest but...                        </p>
+                                                       <a href="/question/how-heart-attack-predicted-advance" class="fullAnswer">Full answer</a>
+                                                
+                                                <div class="attribution">
+                            <div class="attributionThumbnail">
+                                <a href="/group/piedmont-heart-institute" class="answerAvatarLink"><div class="imgWrapper"><img src="http://media.sharecare.com/profileImages/d/r/o/drozimport_attrib__dr-charles-i-wilmer-facc/Wilmer_PP_300x300.jpg_58_58.jpg" class="answerAvatar" width="50" height="50" alt="Dr. Charles I. Wilmer on behalf of Piedmont Heart Institute"/></div></a>
+                                
+                                
+                                <div class="thumbnailBottom ">&nbsp;</div>
+                            </div>
+                            <div class="groupInfo">
+                                <h3><a href="/group/piedmont-heart-institute" class="group"><span class="answerAvatarText">Dr. Charles I. Wilmer on behalf of Piedmont Heart Institute</span></a></h3>
+                                                                
+                                                                    <h4 class="answerAvatarAffiliate">
+                                    Chairman of Innovation & New Product Development
+Interventional Cardiology
+Piedmont Heart Institute                                    </h4>
+                                                                <h4><a href="/group/piedmont-heart-institute/answers" class="answerAvatarNumQuestionsLink"><span class="numQuestions">500+</span> questions answered</a></h4>
+                            </div>
+                        </div><!-- attribution -->
+                        
+                        <div class="experts">    
+    <ul class="wrapper answerExpertList">
+                    <li><a href="/group/cleveland-clinic/answers"><img src="http://media.sharecare.com/profileImages/d/r/o/drozimport_group__cleveland-clinic/cc.jpg_58_58.jpg" class="expertAvatar" width="25" height="25" alt="Cleveland Clinic" /></a></li>
+                    <li><a href="/group/scai/answers"><img src="http://media.sharecare.com/profileImages/d/r/o/drozimport_group__scai/SCAIShareCare_profile.jpg_58_58.jpg" class="expertAvatar" width="25" height="25" alt="SCAI" /></a></li>
+            </ul>
+            <a href="/question/how-heart-attack-predicted-advance" class="answerNum"><span class="answerExpertsNum">2</span> more expert answers</a>
+    </div>
+                    </div>
+                </div>
+            </li>
+                                  <li id="DEV__4c6e699d975f66_37863611" class="slide loadingSlide question">
+                <div class="question">
+                    <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/D/E/V/DEV__4c6e699d975f66_37863611/hp_potatoes.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                            <span class="type">Q</span>
+                            <h2 class="questionTopic">Skin Care</h2>
+                            <h2 class="questionTopicTruncate">Skin Care</h2>
+                            <a class="questionUrl" href="/question/what-food-products-treat-sunburn">
+                                <p class="questionText">What foods can be used to treat sunburns?</p>
+                            </a>
+                            <p class="questionTextTruncate">What foods can be used to treat sun...</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                        <span class="type">A</span>
+                        <p class="excerpt answerText">
+                            Frozen foods wrapped in a towel can provide fast relief. Chilled
+tubers, like potatoes, or even plain yogurt can also feel soothing.
+A bath made with about 0.5...                        </p>
+                                                       <a href="/question/what-food-products-treat-sunburn" class="fullAnswer">Full answer</a>
+                                                
+                                                <div class="attribution">
+                            <div class="attributionThumbnail">
+                                <a href="/group/dove" class="answerAvatarLink"><div class="imgWrapper"><img src="http://media.sharecare.com/profileImages/d/r/o/drozimport_group__dove-sponsored/Dove-300x250.jpg_63_58.jpg" class="answerAvatar" width="50" height="50" alt="Dove"/></div></a>
+                                
+                                
+                                <div class="thumbnailBottom  knowledgePartner">&nbsp;</div>
+                            </div>
+                            <div class="groupInfo">
+                                <h3><a href="/group/dove" class="group"><span class="answerAvatarText">Dove</span></a></h3>
+                                                                
+                                                                <h4><a href="/group/dove/answers" class="answerAvatarNumQuestionsLink"><span class="numQuestions">500+</span> questions answered</a></h4>
+                            </div>
+                        </div><!-- attribution -->
+                        
+                        <div class="experts">    
+    <ul class="wrapper answerExpertList">
+                    <li><a href="/user/dr-jeffrey-benabio/answers"><img src="http://media.sharecare.com/profileImages/P/R/D/PRD__4cc0489fc8f6c6_02420105/jeff-new-headshot.JPG_58_73.jpg" class="expertAvatar" width="25" height="25" alt="Dr. Jeffrey Benabio" /></a></li>
+            </ul>
+            <a href="/question/what-food-products-treat-sunburn" class="answerNum"><span class="answerExpertsNum">1</span> more expert answer</a>
+    </div>
+                    </div>
+                </div>
+            </li>
+                                  	 <li id="PRD__4f834a242468e2_21903699" class="slide prev loadingSlide staticlink" >
+                <div class="question">
+                   <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/P/R/D/PRD__4f834a242468e2_21903699/hp_allergies.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                         
+                            <h2 class="questionTopic">ALLERGIES </h2>
+                            <h2 class="questionTopicTruncate">ALLERGIES </h2>
+                            <a class="questionUrl" href="http://www.sharecare.com/static/allergy-relief">
+                                <p class="questionText">You don't have to suffer this allergy season</p>
+                            </a>
+                            <p class="questionTextTruncate">You don't have to suffer this aller...</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                    	 <span class="type">
+                    	 <a href="http://www.sharecare.com/static/allergy-relief"><img src="http://media.sharecare.com/questionThumbs/4/f/8/4f8349bc40e13/thumb_allergies.jpg.jpg" class="answerAvatar"/></a>
+                    	 </span>                     
+                        <p class="excerpt answerText">
+                            Watery eyes, headaches, sneezing—allergies can make spring miserable. Get some relief with the Sharecare Allergy Center.                        </p>
+                                                       <a href="http://www.sharecare.com/static/allergy-relief" class="fullAnswer">Learn more</a>
+                                               
+ 					                        <div class="experts">
+                        	<p>Test your allergy knowledge. </p>
+				            <a href="http://quizzes.sharecare.com/quizzes/quiz-surviving-spring-allergies.jsp " class="answerNum">Take the quiz</a>
+						</div>
+						                        
+                    </div>
+                </div>
+            </li>
+                                  	 <li id="PRD__4f8d78883d6ae2_09206603" class="slide curr loadingSlide staticlink" >
+                <div class="question">
+                   <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/4/f/8/4f8d78346fd5f/hp-infertility2.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                         
+                            <h2 class="questionTopic">INFERTILITY</h2>
+                            <h2 class="questionTopicTruncate">INFERTILITY</h2>
+                            <a class="questionUrl" href="http://www.sharecare.com/static/infertility-myths">
+                                <p class="questionText">Baby blues?</p>
+                            </a>
+                            <p class="questionTextTruncate">Baby blues?</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                    	 <span class="type">
+                    	 <a href="http://www.sharecare.com/static/infertility-myths"><img src="http://media.sharecare.com/questionThumbs/4/f/8/4f8d78346fd5f/infertility-thumb.jpg.jpg" class="answerAvatar"/></a>
+                    	 </span>                     
+                        <p class="excerpt answerText">
+                            Having trouble conceiving? Good news: Treatment options have improved. The Sharecare Infertility Center is here to help.                        </p>
+                                                       <a href="http://www.sharecare.com/static/infertility-myths" class="fullAnswer">Learn more</a>
+                                               
+ 					                        <div class="experts">
+                        	<p>Is infertility linked to stress?</p>
+				            <a href="http://www.sharecare.com/question/how-stress-relates-to-infertility" class="answerNum">Find out here</a>
+						</div>
+						                        
+                    </div>
+                </div>
+            </li>
+                                  	 <li id="PRD__4f8d620351acf8_15350648" class="slide next loadingSlide staticlink" >
+                <div class="question">
+                   <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/P/R/D/PRD__4f8d620351acf8_15350648/hp-smile-3.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                         
+                            <h2 class="questionTopic">MOOD</h2>
+                            <h2 class="questionTopicTruncate">MOOD</h2>
+                            <a class="questionUrl" href="http://blog.sharecare.com/2012/04/16/how-laughing-makes-you-healthier—really/">
+                                <p class="questionText">Can laughter make you healthier?</p>
+                            </a>
+                            <p class="questionTextTruncate">Can laughter make you healthier?</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                    	 <span class="type">
+                    	 <a href="http://blog.sharecare.com/2012/04/16/how-laughing-makes-you-healthier—really/"><img src="http://media.sharecare.com/questionThumbs/4/f/8/4f8d6191c0c82/thumb_blog.png.jpg" class="answerAvatar"/></a>
+                    	 </span>                     
+                        <p class="excerpt answerText">
+                            This study should make you smile. Dr. Robin Miller reports that laughing has a similar effect on the body as aerobic exercise.                        </p>
+                                                       <a href="http://blog.sharecare.com/2012/04/16/how-laughing-makes-you-healthier—really/" class="fullAnswer">Find out why</a>
+                                               
+ 					                        <div class="experts">
+                        	<p>Is laughter good medicine?</p>
+				            <a href="http://www.sharecare.com/question/laughter-the-best-medicine" class="answerNum">Learn more here</a>
+						</div>
+						                        
+                    </div>
+                </div>
+            </li>
+                                  <li id="PRD__4d668c759348f4_18340715" class="slide loadingSlide question">
+                <div class="question">
+                    <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/P/R/D/PRD__4d668c759348f4_18340715/hp-cellulite2.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                            <span class="type">Q</span>
+                            <h2 class="questionTopic">Beauty</h2>
+                            <h2 class="questionTopicTruncate">Beauty</h2>
+                            <a class="questionUrl" href="/question/most-effective-treatment-for-cellulite">
+                                <p class="questionText">How can I get rid of my cellulite?</p>
+                            </a>
+                            <p class="questionTextTruncate">How can I get rid of my cellulite?</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                        <span class="type">A</span>
+                        <p class="excerpt answerText">
+                            Watch this video to learn more from Dr. Mehmet Oz about cellulite treatments.                          </p>
+                                                       <a href="/question/most-effective-treatment-for-cellulite" class="fullAnswer">Full answer</a>
+                                                
+                                                <div class="attribution">
+                            <div class="attributionThumbnail">
+                                <a href="/user/dr-mehmet-oz" class="answerAvatarLink"><div class="imgWrapper"><img src="http://media.sharecare.com/profileImages/d/r/o/drozimport_attrib__dr-mehmet-oz/OzProfile.jpg_70_58.jpg" class="answerAvatar" width="50" height="50" alt="Dr. Mehmet Oz"/></div></a>
+                                
+                                
+                                <div class="thumbnailBottom ">&nbsp;</div>
+                            </div>
+                            <div class="groupInfo">
+                                <h3><a href="/user/dr-mehmet-oz" class="group"><span class="answerAvatarText">Dr. Mehmet Oz</span></a></h3>
+                                                                
+                                                                    <h4 class="answerAvatarAffiliate">
+                                    Columbia University/New York Presbyterian Hospital                                    </h4>
+                                                                <h4><a href="/user/dr-mehmet-oz/answers" class="answerAvatarNumQuestionsLink"><span class="numQuestions">500+</span> questions answered</a></h4>
+                            </div>
+                        </div><!-- attribution -->
+                        
+                        <div class="experts">    
+</div>
+                    </div>
+                </div>
+            </li>
+                                  	 <li id="PRD__4f8d78145a6923_29637341" class="slide loadingSlide staticlink" >
+                <div class="question">
+                   <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/4/f/8/4f8d779c83ae1/hp-sushi.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                         
+                            <h2 class="questionTopic">FOOD</h2>
+                            <h2 class="questionTopicTruncate">FOOD</h2>
+                            <a class="questionUrl" href="http://blog.sharecare.com/2012/04/16/sushi-recall/">
+                                <p class="questionText">The raw truth on tuna recall</p>
+                            </a>
+                            <p class="questionTextTruncate">The raw truth on tuna recall</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                    	 <span class="type">
+                    	 <a href="http://blog.sharecare.com/2012/04/16/sushi-recall/"><img src="http://media.sharecare.com/questionThumbs/4/f/8/4f8d779c83ae1/thumb_blog.png.jpg" class="answerAvatar"/></a>
+                    	 </span>                     
+                        <p class="excerpt answerText">
+                            Sushi lovers, beware. Yellowfin tuna is the likely cause of a 20-state salmonella outbreak that’s sickened over 100 people.                        </p>
+                                                       <a href="http://blog.sharecare.com/2012/04/16/sushi-recall/" class="fullAnswer">Get the details</a>
+                                               
+ 					                        <div class="experts">
+                        	<p>What is salmonella?</p>
+				            <a href="http://www.sharecare.com/question/what-is-salmonella" class="answerNum">Learn more</a>
+						</div>
+						                        
+                    </div>
+                </div>
+            </li>
+                                  <li id="DEV__4c6e7367dfffc6_96843481" class="slide loadingSlide question">
+                <div class="question">
+                    <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/D/E/V/DEV__4c6e7367dfffc6_96843481/hp_QuitSmoking.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                            <span class="type">Q</span>
+                            <h2 class="questionTopic">TOBACCO</h2>
+                            <h2 class="questionTopicTruncate">TOBACCO</h2>
+                            <a class="questionUrl" href="/question/doctor-pharmacist-help-quit-smoking">
+                                <p class="questionText">Who can help me quit smoking?</p>
+                            </a>
+                            <p class="questionTextTruncate">Who can help me quit smoking?</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                        <span class="type">A</span>
+                        <p class="excerpt answerText">
+                            Doctors, dentists and pharmacists are all qualified to help a
+person quit smoking. Some pharmacies offer smoking cessation
+clinics or programs, and pharmacists...                        </p>
+                                                       <a href="/question/doctor-pharmacist-help-quit-smoking" class="fullAnswer">Full answer</a>
+                                                
+                                                <div class="attribution">
+                            <div class="attributionThumbnail">
+                                <a href="/group/walgreens" class="answerAvatarLink"><div class="imgWrapper"><img src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c79196ae5aba1_64139012/4dd9e0b2285f8_58_58.jpg" class="answerAvatar" width="50" height="50" alt="Walgreens"/></div></a>
+                                
+                                
+                                <div class="thumbnailBottom  knowledgePartner">&nbsp;</div>
+                            </div>
+                            <div class="groupInfo">
+                                <h3><a href="/group/walgreens" class="group"><span class="answerAvatarText">Walgreens</span></a></h3>
+                                                                
+                                                                <h4><a href="/group/walgreens/answers" class="answerAvatarNumQuestionsLink"><span class="numQuestions">500+</span> questions answered</a></h4>
+                            </div>
+                        </div><!-- attribution -->
+                        
+                        <div class="experts">    
+    <ul class="wrapper answerExpertList">
+                    <li><a href="/group/piedmont-heart-institute/answers"><img src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c73b6747b3ab2_22379582/4ebc2f86dd7bf_58_58.jpg" class="expertAvatar" width="25" height="25" alt="Piedmont Heart Institute" /></a></li>
+            </ul>
+            <a href="/question/doctor-pharmacist-help-quit-smoking" class="answerNum"><span class="answerExpertsNum">1</span> more expert answer</a>
+    </div>
+                    </div>
+                </div>
+            </li>
+                                  <li id="DEV__4c6e7a6593d147_13771650" class="slide loadingSlide question">
+                <div class="question">
+                    <span class="slideBg" style="background: transparent url(http://media.sharecare.com/questionThumbs/D/E/V/DEV__4c6e7a6593d147_13771650/hp_headache2.jpg.jpg) top left no-repeat"></span>
+                    <div class="questionContent">
+                            <span class="type">Q</span>
+                            <h2 class="questionTopic">Pain</h2>
+                            <h2 class="questionTopicTruncate">Pain</h2>
+                            <a class="questionUrl" href="/question/why-do-headaches-hurt">
+                                <p class="questionText">Why do headaches hurt?</p>
+                            </a>
+                            <p class="questionTextTruncate">Why do headaches hurt?</p>
+                    </div>
+                    <div class="sponsor">
+                                            </div>
+                </div>
+                <div class="answer">
+                    <div class="answerContent">
+                        <span class="type">A</span>
+                        <p class="excerpt answerText">
+                            Information about touch, pain, temperature, and vibration in the
+head and neck is sent to the brain by the trigeminal nerve, one of
+12 pairs of cranial nerves...                        </p>
+                                                       <a href="/question/why-do-headaches-hurt" class="fullAnswer">Full answer</a>
+                                                
+                                                <div class="attribution">
+                            <div class="attributionThumbnail">
+                                <a href="/group/riverside-health-system" class="answerAvatarLink"><div class="imgWrapper"><img src="http://media.sharecare.com/profileImages/P/R/D/PRD__4ca357f167cf32_34910843/Riverside_Health_System.jpg_58_58.jpg" class="answerAvatar" width="50" height="50" alt="Riverside Health System"/></div></a>
+                                
+                                
+                                <div class="thumbnailBottom ">&nbsp;</div>
+                            </div>
+                            <div class="groupInfo">
+                                <h3><a href="/group/riverside-health-system" class="group"><span class="answerAvatarText">Riverside Health System</span></a></h3>
+                                                                
+                                                                <h4><a href="/group/riverside-health-system/answers" class="answerAvatarNumQuestionsLink"><span class="numQuestions">337</span> questions answered</a></h4>
+                            </div>
+                        </div><!-- attribution -->
+                        
+                        <div class="experts">    
+    <ul class="wrapper answerExpertList">
+                    <li><a href="/group/mount-sinai-medical/answers"><img src="http://media.sharecare.com/profileImages/P/R/D/PRD__4d1a2ad2d896a7_99167643/4e14ab4486de3_58_60.jpg" class="expertAvatar" width="25" height="25" alt="Dr. Mark Green on behalf of The Mount Sinai Medical Center" /></a></li>
+            </ul>
+            <a href="/question/why-do-headaches-hurt" class="answerNum"><span class="answerExpertsNum">1</span> more expert answer</a>
+    </div>
+                    </div>
+                </div>
+            </li>
+                              </ol>        
+        <div id="spike"></div>
+</div> <!-- /spotlightContainer -->
+</div> <!--/ spotlightWrapper -->
+
+            </div><!-- /topContent -->
+
+            
+                    <div class="socialWrapper">
+            <div class="social wrapper">
+                <div class="socialWrapper">
+            <div class="social wrapper">
+                <style>
+#defaultModuleIndexControllerIndexAction .socialWrapper {
+    background-color: #fff;
+    width: 100%;
+}
+#defaultModuleIndexControllerIndexAction .social {
+    width: 100%;
+}
+ .top-bar-wrapper {
+    background: url("http://static.sharecare.com/promo/homepage/grey-bg-1.gif") repeat-x scroll left top transparent;
+    height:93px;
+        margin: 0 0 4px;
+}
+ .top-bar, .bottom-bar {
+   width:1000px;
+   margin:0 auto;
+}
+.top-bar .box {
+    float: left;
+    height: 65px;
+    margin: 0 23px 0 0;
+    padding: 14px 0 0 0;
+    width: 310px;
+}
+.top-bar .box span a {
+    background: url("http://static.sharecare.com/promo/homepage/spotlight-midmodules-arrow-rt.png") no-repeat scroll right 2px transparent;
+    color: #019098;
+    display: block;
+    float: left;
+    font-size: 17px;
+    margin: 9px 0 0;
+    padding: 1px 19px 0 17px;
+    font-weight:bold;
+}
+.top-bar .headline {
+    float:left;
+    font-size:30px;
+    color:#000;
+    font-weight: bold;
+}
+.top-bar p {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 5px 0 0;
+    color:#000;
+    margin: 0;
+    float:left;
+    clear:both;
+    width:305px;
+}
+.top-bar .tk-proxima-nova {
+    float:left;
+    margin:0;
+    padding:0;
+
+}
+.bottom-bar-wrapper {
+    background: url("http://static.sharecare.com/promo/homepage/grey-bg-2.gif") repeat-x scroll left top transparent;
+    height:161px;
+}
+.bottom-bar .headline {
+    float:left;
+    font-size:30px;
+    color:#000;
+    font-weight: bold;
+    margin: 35px 0 0;
+}
+.bottom-bar .box.right .headline  {
+    float:right;
+}
+.bottom-bar .box {
+    float: left;
+    height: 161px;
+    padding: 0px 14px 0 0;
+     width: 485px;
+}
+.bottom-bar .box span a {
+    background: url("http://static.sharecare.com/promo/homepage/small-arrow.gif") no-repeat scroll right 6px transparent;
+    color: #019098;
+    display: block;
+    float: left;
+    font-size: 17px;
+    margin: 0;
+    padding: 0px 19px 0 0px;
+    font-weight:bold;
+}
+.bottom-bar .box.right span a {
+    float:right;
+}
+.bottom-bar p {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 5px 0 0;
+    color:#000;
+    float:left;
+    clear: none;
+    width: 330px;
+  
+}
+.bottom-bar .box.right p {
+    float: right;
+    
+    padding: 4px 0 0;
+    text-align: right;
+    width: 302px;
+}
+.ask-icon {
+    float:left;
+}
+.question-icon {
+    float:right;
+}
+.top-bar .divider {
+    background: url("http://static.sharecare.com/promo/homepage/top-divider.gif") no-repeat scroll right top transparent;
+}
+.bottom-bar .divider {
+ background: url("http://static.sharecare.com/promo/homepage/bottom-divider.gif") no-repeat scroll right top transparent;
+}
+</style>
+<div class="top-bar-wrapper">
+    <div class="top-bar">
+    <div class="box divider">
+    <div class="headline tk-proxima-nova">Connect</div> <span class="tk-proxima-nova"><a href="http://www.sharecare.com/static/social">Make Friends</a></span> 
+
+    <p>Live healthier with inspiration from our community of wellness experts, coaches, and friends.</p>
+
+    </div>
+
+    <div class="box divider">
+    <div class="headline tk-proxima-nova">Transform</div> <span class="tk-proxima-nova"><a href="http://doctoroz.sharecare.com/">Feel Fantastic</a></span> 
+
+    <p>Dr. Oz's Transformation Nation can help you feel (and look) better today. What are you waiting for?</p>
+    </div>
+
+    <div class="box">
+ <div class="headline tk-proxima-nova">Play!</div>  <span class="tk-proxima-nova"><a href="http://www.sharecare.com/static/iq-challenge">Beat the Experts</a>
+    </span> 
+    <p>Are you smarter than Dr. Oz? Try our game to see how your health smarts match up with some of our pros.</p>
+    </div>
+    </div>
+
+
+</div>
+
+
+
+<!-- PROMO MODULES !-->
+
+<div class="bottom-bar-wrapper">
+    <div class="bottom-bar">
+
+      <div class="box divider">
+      	<div class="ask-icon"><a href="http://www.sharecare.com/static/sharecare-now-nutrition-top-ten" target="_blank"><img src="http://static.sharecare.com/promo/homepage/HP-nutrition-influencers-3.png" border="0" /></a></div>
+        <div class="headline" style="font-size: 22px !important">Creating Healthier Eaters</div>
+        
+        <p>These Top Online Nutrition Influencers are helping America eat better.</p>
+        
+        <span class="tk-proxima-nova"><a href="http://www.sharecare.com/static/sharecare-now-nutrition-top-ten" target="_blank">Meet the Top 10!</a></span>
+        </div> 
+
+      <div class="box right">
+        <div class="question-icon"><a href="http://www.dailystrength.org/c/Autism-Autism-Spectrum/support-group" target="_blank"><img src="http://static.sharecare.com/promo/homepage/hp-autism-daily-strength.png" border="0" /></a></div>
+        <div class="headline" style="font-size: 22px !important">Autism Support</div>
+
+       <p>Everyone needs a little help, especially parents of kids with autism. Find your group.</p>
+        
+        <span class="tk-proxima-nova"><a href="http://www.dailystrength.org/c/Autism-Autism-Spectrum/support-group" target="_blank">Join DailyStrength</a></span>
+ 
+        </div>
+        
+        
+
+    </div>
+</div>
+
+ 
+
+</div>         
+   </div>
+        </div>            </div>
+        </div>
+
+        </div><!-- /headerWrapper -->
+        
+        
+        <div id="content" class="defaultModule indexController indexAction wrapper">
+        
+<div class="contentHomepage wrapper">
+	<div class="primary">
+		<h2 class="topics">Topics</h2>
+		<div class="topicList wrapper">
+			<div class="popularTopics">
+        <h3>Most popular</h3>
+                                                <div class="popularTopicRow">
+                <div class="popularTopic " id="tax_import__137">
+            <a href="/topic/healthy-sleeping">
+                                    <img src="http://media.sharecare.com/topicThumbs/t/a/x/tax_import__137/topic_sleep.jpg.jpg" alt="Sleep Secrets" title="Sleep Secrets" />
+                                <h3>Sleep Secrets</h3>
+            </a>
+        </div>
+                            <div class="popularTopic " id="tax_import__9966">
+            <a href="/topic/nutrition-diet">
+                                    <img src="http://media.sharecare.com/topicThumbs/t/a/x/tax_import__9966/topic_healthyeating.jpg.jpg" alt="Diet Smarts" title="Diet Smarts" />
+                                <h3>Diet Smarts</h3>
+            </a>
+        </div>
+                            <div class="popularTopic popularTopicLast" id="tax_import__17528">
+            <a href="/topic/heart-health">
+                                    <img src="http://media.sharecare.com/topicThumbs/t/a/x/tax_import__17528/topic_hearthealth.jpg.jpg" alt="Healthy Heart" title="Healthy Heart" />
+                                <h3>Healthy Heart</h3>
+            </a>
+        </div>
+                                                </div>
+                        <div class="popularTopicRow">
+                <div class="popularTopic " id="tax_import__23244">
+            <a href="/topic/relationships-family">
+                                    <img src="http://media.sharecare.com/topicThumbs/t/a/x/tax_import__23244/topic_relationships.jpg.jpg" alt="Happy Families" title="Happy Families" />
+                                <h3>Happy Families</h3>
+            </a>
+        </div>
+                            <div class="popularTopic " id="PRD__4cb83a712e1141_56265042">
+            <a href="/topic/childrens-oral-health">
+                                    <img src="http://media.sharecare.com/topicThumbs/P/R/D/PRD__4cb83a712e1141_56265042/topic_kiddental.jpg.jpg" alt="Bright Smiles" title="Bright Smiles" />
+                                <h3>Bright Smiles</h3>
+            </a>
+        </div>
+                            <div class="popularTopic popularTopicLast" id="tax_import__27293">
+            <a href="/topic/cancer-prevention">
+                                    <img src="http://media.sharecare.com/topicThumbs/t/a/x/tax_import__27293/topic_cancerprevention.jpg.jpg" alt="Cancer Prevention" title="Cancer Prevention" />
+                                <h3>Cancer Prevention</h3>
+            </a>
+        </div>
+        </div>
+</div>
+		</div>
+		<div class="healthTopics">
+			<style type="text/css">
+
+.column-prop {
+	float: left; 
+	width: 195px;
+        margin-right: 15px;
+}
+
+#third-column {
+    margin-right: 0;
+    width: 193px;
+}
+
+.column-prop ul {
+   list-style: none;
+   margin:0 0 0 15px;
+   padding:0
+}
+
+.column-prop ul  li {
+    list-style: disc;
+    margin: 0 0 4px 0;
+    padding: 0;
+    color: #019098;
+    font-size: 14px;
+    font-face: arial;
+    font-weight: bold;
+}
+
+.column-prop ul  li a {
+    color: #019098;
+}
+
+body #qaHealthTopic #qaInner h2 {
+  color: #000000;
+  font-size: 20px;
+}
+
+</style>
+
+<div id="qaHealthTopic" margin-top="10px">
+        <div id="qaInner">
+           <h2>All</h2>
+                        <div id="qaTopic">
+                        
+                            <div id="first-column" class="column-prop">
+                            
+                                <ul>
+                        <li><a href="topic/allergy">Allergy</a></li>
+                        <li><a href="topic/alternative-medicines">Alternative Medicines</a></li>
+                        <li><a href="topic/back-pain">Back Pain</a></li>
+                        <li><a href="topic/beauty-personal-care">Beauty and Personal Care</a></li>
+                        <li><a href="topic/bone-joint-muscle-health">Bone, Joint and Muscle</a></li>
+                        <li><a href="topic/brain-nervous-system">Brain and Nervous System</a></li>
+                        <li><a href="topic/cancer">Cancer</a></li>
+                        <li><a href="topic/caregiving">Caregiving</a></li>
+                        <li><a href="topic/critical-care">Critical Care</a></li>
+                        <li><a href="topic/dental-oral-health-teeth">Dental and Oral Health</a></li>
+                        <li><a href="topic/developmental-disorders">Developmental Disorders</a></li>
+                        <li><a href="topic/diabetes">Diabetes</a></li>
+                        <li><a href="topic/diet-nutrition">Diet and Nutrition</a></li>
+                        <li><a href="topic/digestive-health">Digestive Health</a></li>
+                        <li><a href="topic/ear-nose-throat-health">Ear, Nose, and Throat</a></li>                     
+                        <li><a href="topic/endocrine-system">Endocrine System</a></li>
+                        <li><a href="topic/eye-vision-health">Eye and Vision</a></li>
+<li><a href="topic/fibromyalgia">Fibromyalgia</a></li>
+						<li><a href="topic/first-aid-safety-preparedness">First Aid, Safety and Preparedness</a></li>
+                        
+                        
+                        </ul>
+                            
+                            
+                            
+                            </div>
+                            
+                            <div id="second-column" class="column-prop">
+                            
+                                <ul>
+			<li><a href="topic/fitness-exercise">Fitness and Exercise</a></li>			
+                        <li><a href="topic/genetics-genetic-disorders">Genetic Disorders and Birth Defects</a></li>
+                        <li><a href="topic/gynecology">Gynecology</a></li>
+                        <li><a href="topic/health-society">Health and Society</a></li>
+                        <li><a href="topic/health-care-basics">Health Care Basics</a></li>
+                        <li><a href="topic/health-insurance">Health Insurance</a></li>
+                        <li><a href="topic/circulatory-system-health">Heart and Circulatory System</a></li>
+                        <li><a href="topic/immune-lymphatic-system-health">Immune System</a></li>
+                        <li><a href="topic/infections">Infectious Disease</a></li>
+                        <li><a href="topic/injuries-wound-trauma">Injury, Wound and Trauma</a></li>
+                        <li><a href="topic/kidney-disease-urology">Kidney Disease and Urology</a></li>
+                        <li><a href="topic/kids-teens-health">Kids and Teen's Health</a></li>
+<li><a href="topic/life-stages">Life Stages</a></li>
+                        <li><a href="topic/lung-disease-respiratory-system">Lung Disease and Respiratory System</a></li>
+                         <li><a href="topic/male-reproductive-system-health">Male Reproductive System</a></li>
+                        
+                        </ul>
+                            
+                            </div>
+                            
+                            <div id="third-column" class="column-prop">
+                            
+                                <ul>
+                        
+                        <li><a href="topic/mens-health">Men's Health</a></li>
+                        <li><a href="topic/mental-health">Mental Health</a></li>
+                        <li><a href="topic/metabolic-disorders">Metabolic Disorders</a></li>
+                        <li><a href="topic/pain-management">Pain</a></li>
+                        <li><a href="topic/parenting">Parenting</a></li>
+                        <li><a href="topic/physical-disabilities">Physical Disabilities</a></li>
+                        <li><a href="topic/fertility-pregnancy-childbirth">Pregnancy, Fertility and Childbirth</a></li>
+                         <li><a href="topic/relationships-family">Relationships and Family</a></li>
+                        <li><a href="topic/senior-health">Senior Health</a></li>
+                        <li><a href="topic/sexual-health-wellness">Sexual Health</a></li>
+                        <li><a href="topic/skin-hair-nail-health">Skin, Hair and Nail</a></li>
+                        <li><a href="topic/substance-abuse-addiction-recovery">Substance Abuse, Addiction and Recovery</a></li>
+                        <li><a href="topic/wellness-healthy-living">Wellness</a></li>
+                        <li><a href="topic/womens-health">Women's Health</a></li>
+                        </ul>
+                            
+                            
+                            </div>
+                           
+                            
+                            
+                        </div>
+        
+        </div>
+        
+</div>		</div>
+	</div><!-- /primary -->
+	<div class="secondary">
+		
+    <div class="expertsRotator">
+           <h2>Experts</h2>
+           <div id="scrollerWrapper">
+               <ul id="scroller">
+                                    <li>
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c728a4d749458_37676412/Jack Merendino_PP_300x300.jpg_25_25.jpg" alt="Dr. Jack Merendino" title="Dr. Jack Merendino" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	 									 <a href="/user/dr-jack-merendino">Dr. Jack Merendino</a> of <a href="/group/the-best-life">The Best Life</a> answered:
+							                         </p>
+                         <p>Does high sugar intake lead to diabetes?</p>
+                         <p><a href="/question/does-high-sugar-intake-lead-to-diabetes">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li>
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c88078540a919_20257747/Donna-Hill-Howes-2006b.jpg_25_25.jpg" alt="Donna Hill Howes" title="Donna Hill Howes" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	                            <a href="/user/dhillhowes">Donna Hill Howes</a> answered:
+							                         </p>
+                         <p>What is obsessive-compulsive disorder (OCD)?</p>
+                         <p><a href="/question/what-is-obsessive-compulsive-disorder">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li>
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c73b731470410_17809073/4e9dfe038da91_25_25.jpg" alt="RealAge" title="RealAge" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	 								  <a href="/group/realage">RealAge</a> 
+							                         </p>
+                         <p>Are vaccines necessary?</p>
+                         <p><a href="/question/are-vaccines-necessary">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li>
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/d/r/o/drozimport_attrib__dr-mehmet-oz/OzProfile.jpg_30_25.jpg" alt="Dr. Mehmet Oz" title="Dr. Mehmet Oz" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	                            <a href="/user/dr-mehmet-oz">Dr. Mehmet Oz</a> answered:
+							                         </p>
+                         <p>When does memory loss really begin?</p>
+                         <p><a href="/question/when-memory-loss-begin">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li class="onDeck">
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c728ccb501da9_77450061/4e4be89130ebe_25_25.jpg" alt="Dr. Robin Miller" title="Dr. Robin Miller" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	                            <a href="/user/dr-robin-miller">Dr. Robin Miller</a> answered:
+							                         </p>
+                         <p>What is music therapy?</p>
+                         <p><a href="/question/what-is-music-therapy">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li class="onDeck">
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/d/r/o/drozimport_attrib__dr-jacob-teitelbaum/Jacob Teitelbaum_PP_300x300.jpg_25_25.jpg" alt="Dr. Jacob Teitelbaum" title="Dr. Jacob Teitelbaum" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	                            <a href="/user/dr-jacob-teitelbaum">Dr. Jacob Teitelbaum</a> answered:
+							                         </p>
+                         <p>How is fibromyalgia related to chronic pain?</p>
+                         <p><a href="/question/how-fibromyalgia-related-chronic-pain">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li class="onDeck">
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c72859b01ac88_01486488/4cfd716ecaf78_26_25.jpg" alt="Dr. Mike Clark" title="Dr. Mike Clark" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	 									 <a href="/user/dr-micheal-clark">Dr. Mike Clark</a> of <a href="/group/sharecare-fitness">Sharecare Fitness</a> answered:
+							                         </p>
+                         <p>Do fat loss products really work?</p>
+                         <p><a href="/question/fat-loss-products-really-work">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li class="onDeck">
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/P/R/D/PRD__4cb4aad9e7f476_25464734/4d5e9cd62e6e6_25_25.jpg" alt="Dr. Vonda Wright" title="Dr. Vonda Wright" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	                            <a href="/user/dr-vonda-wright">Dr. Vonda Wright</a> answered:
+							                         </p>
+                         <p>How can consuming simple sugars affect my eating habits?</p>
+                         <p><a href="/question/how-simple-sugars-eating-habits">Read answer</a></p>
+                         <p class="time">1 hour ago</p>
+                       </div>
+                     </li>
+                                    <li class="onDeck">
+                       <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/P/R/D/PRD__4ca4831e1b0022_16391416/DeVizio_v5.jpg_25_25.jpg" alt="Dr. De Vizio DMD" title="Dr. De Vizio DMD" />
+</div>
+                       <div class="entryText">
+                         <p>
+					   	 									 <a href="/user/dr-william-devizio">Dr. De Vizio DMD</a> of <a href="/group/colgate">Colgate</a> answered:
+							                         </p>
+                         <p>Which supplements are good for oral health?</p>
+                         <p><a href="/question/supplements-good-oral-health">Read answer</a></p>
+                         <p class="time">2 hours ago</p>
+                       </div>
+                     </li>
+                              </ul>
+           </div><!-- /expertWrapper -->
+           <ul class="expertsRotatorOptions wrapper">
+             <li class="become"><a href="/static/become-an-expert">Become an Expert</a></li>
+             <li class="all"><a href="/static/partners">More Experts</a></li>
+           </ul>
+    </div><!-- /expertsRotator-->
+		<div class="programsModule">
+			<style>
+#defaultModuleIndexControllerIndexAction .secondary .programsModule {
+    margin-bottom: 0px;
+}
+</style>
+<div class="externalBlog" style="padding: 0 10px 20px 0;">
+                <h2>Quizzes</h2>
+                <div class="quiz-box">
+                    
+                    <div style="background: url(http://static.sharecare.com/promo/homepage/homepage-quiz.png) no-repeat scroll 0 0 transparent;display: block;
+       height: 138px; padding: 10px 10px 0 100px;width: 190px;">
+                    <h3><a href="http://www.sharecare.com/static/quizzes">Test Your Health IQ</a></h3>
+                    
+                    <p><span style="font-size: 15px;font-weight: bold;line-height: 20px;">
+                        Get smarter about must-know health topics from acne to zinc.<br><a href="http://www.sharecare.com/static/quizzes" style="background:url(http://static.sharecare.com/promo/homepage/spotlight-midmodules-arrow-rt.png) no-repeat scroll right 2px transparent; padding: 0 20px 0 0;">Quiz Yourself</a> 
+                        </span>
+                    </p>
+
+                    </div>
+                </div>           
+ </div>		</div>
+		
+		<div class="externalBlog">
+    <h2>Blog</h2>
+  <h3><a href="http://blog.sharecare.com/2012/04/17/treadmill-talks-how-to-reduce-your-risk-of-dementia/">Treadmill Talks: How to Reduce Your Risk of Dementia</a></h3>
+  <p>
+    Dementia is on the rise worldwide, according to a new
+report.&nbsp;In this treadmill talk,&nbsp;Sharecare expert Dr.
+Michael Roizen, chief wellness officer for Cleveland Clinic, and
+chair of its Wellness Institute, shares his tips on how you...    <a href="http://blog.sharecare.com/2012/04/17/treadmill-talks-how-to-reduce-your-risk-of-dementia/">Read more</a>
+  </p>
+</div>	</div><!-- /secondary -->
+</div>
+<div class="featuredPartners">
+    <h2>Featured partners</h2>
+                                            <div class="featuredPartnerRow wrapper">
+                <div class="featuredPartner" id="PRD__4d879daf425f73_78676410">
+            <a href="/group/american-academy-of-ophthalmology" class="partnerAvatar">
+                <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/P/R/D/PRD__4d879daf425f73_78676410/4d879f00b6514_50_50.jpg" alt="American Academy of Ophthalmology" title="American Academy of Ophthalmology" />
+</div>
+            </a>
+            <div class="info">
+                <h3><a href="/group/american-academy-of-ophthalmology">American Academy of Ophthalmology</a></h3>
+                                    <h4><a href="/group/american-academy-of-ophthalmology/answers">500+ questions answered </a></h4>
+                            </div>
+        </div>
+                            <div class="featuredPartner" id="drozimport_group__dove-sponsored">
+            <a href="/group/dove" class="partnerAvatar">
+                <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/d/r/o/drozimport_group__dove-sponsored/Dove-300x250.jpg_55_50.jpg" alt="Dove" title="Dove" />
+</div>
+            </a>
+            <div class="info">
+                <h3><a href="/group/dove">Dove</a></h3>
+                                    <h4><a href="/group/dove/answers">500+ questions answered </a></h4>
+                            </div>
+        </div>
+                            <div class="featuredPartner" id="PRD__4ca24ba51a0e04_50279960">
+            <a href="/group/mount-sinai-medical" class="partnerAvatar">
+                <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/P/R/D/PRD__4ca24ba51a0e04_50279960/MS logo 541.jpg_53_50.jpg" alt="The Mount Sinai Medical Center" title="The Mount Sinai Medical Center" />
+</div>
+            </a>
+            <div class="info">
+                <h3><a href="/group/mount-sinai-medical">The Mount Sinai Medical Center</a></h3>
+                                    <h4><a href="/group/mount-sinai-medical/answers">500+ questions answered </a></h4>
+                            </div>
+        </div>
+                                                </div>
+                        <div class="featuredPartnerRow wrapper">
+                <div class="featuredPartner" id="drozimport_group__national-association-of-sports-medicine">
+            <a href="/group/national-academy-of-sports-medicine" class="partnerAvatar">
+                <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/d/r/o/drozimport_group__national-association-of-sports-medicine/4f889171d6862_50_50.jpg" alt="National Academy of Sports Medicine" title="National Academy of Sports Medicine" />
+</div>
+            </a>
+            <div class="info">
+                <h3><a href="/group/national-academy-of-sports-medicine">National Academy of Sports Medicine</a></h3>
+                                    <h4><a href="/group/national-academy-of-sports-medicine/answers">500+ questions answered </a></h4>
+                            </div>
+        </div>
+                            <div class="featuredPartner" id="DEV__4c756282639931_70991181">
+            <a href="/group/colgate" class="partnerAvatar">
+                <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/D/E/V/DEV__4c756282639931_70991181/ShareCare_V2.jpg_50_50.jpg" alt="Colgate" title="Colgate" />
+</div>
+            </a>
+            <div class="info">
+                <h3><a href="/group/colgate">Colgate</a></h3>
+                                    <h4><a href="/group/colgate/answers">500+ questions answered </a></h4>
+                            </div>
+        </div>
+                            <div class="featuredPartner" id="PRD__4d1bce7a8cfd12_40558681">
+            <a href="/group/intermountain-healthcare" class="partnerAvatar">
+                <div class="attrImg">
+    <img class="landscape" src="http://media.sharecare.com/profileImages/P/R/D/PRD__4d1bce7a8cfd12_40558681/4d1bceb0d5a8d_50_50.jpg" alt="Intermountain Healthcare" title="Intermountain Healthcare" />
+</div>
+            </a>
+            <div class="info">
+                <h3><a href="/group/intermountain-healthcare">Intermountain Healthcare</a></h3>
+                                    <h4><a href="/group/intermountain-healthcare/answers">500+ questions answered </a></h4>
+                            </div>
+        </div>
+        </div>
+</div>
+        </div>
+
+        <div id="footer">
+            <style type="text/css">
+            #footer table {
+                border-collapse: collapse;
+            }
+			#footer table tr th {
+				background-color: transparent;
+				color: #66BAC0;
+				padding: 2px;
+			}
+			#footer table tr td {
+				background-color: transparent;
+				line-height: 150%;
+				padding: 2px;
+			}
+			#footer table tr td a {
+				font-weight: bold;
+                                color: #FFFFFF;
+			}
+			#footer table tr td.footerBottom {
+				border-top: 1pt dotted #AAAAAA;
+				padding-top: 15px !important;
+			}
+			#footer table tr td.footerLogo {
+				border-left: 1pt dotted #AAAAAA;
+				text-align: right;
+                               padding-left: 10px !important;
+			}
+
+                        #footer table tr td.footerBottom a {
+                                color: #66BAC0;
+                        }
+        </style>
+            <div id="footerInner">
+                <table width="100%">
+                    <tr>
+                        <td valign="top" style="padding-top: 0">
+            	<table width="771">
+            		<tr>
+            			<th width="25%">About</th>
+            			<th width="25%">Legal</th>
+            			<th width="25%">Contact Us</th>
+            			<th width="25%">Follow Us</th>
+            		</tr>
+            		<tr>
+            			<td>
+            				<a href="/static/about">About Sharecare</a><br />
+                			<a href="/static/partners">Featured Experts</a><br /> 
+            				<a href="/static/editorialadvisoryboard">Editorial Advisory Board</a><br /> 
+                			<a href="/static/pressreleases">Press Releases</a><br />
+            			</td>
+            			<td>
+            				<a href="/static/privacypolicy" rel="nofollow">Privacy Policy</a><br />
+               				<a href="/static/terms" rel="nofollow">Terms of Use</a><br />
+                			<a href="/static/contentpolicy" rel="nofollow">Content Policy</a><br />
+                			<a href="/static/legal" rel="nofollow">Legal</a><br />
+            			</td>
+            			<td>
+				            <a href="/static/become-an-expert">Become an Expert</a><br /> 
+				            <a href="/static/contact">Contact Us</a><br />
+            				<a href="/static/help" rel="nofollow">Support</a><br />
+                            <a href="/static/sitemap">Site Map</a><br />
+            			</td>
+            			<td>
+            				<a href="http://www.facebook.com/SharecareNow" target="_blank">Facebook</a><br />
+            				<a href="http://www.twitter.com/SharecareNow" target="_blank">Twitter</a><br />
+            				<a href="http://widget.sharecare.com/widget">Widget</a><br />
+                                        <a href="http://blog.sharecare.com">Blog</a><br/>
+            			</td>
+            		</tr>
+            	</table>
+                        </td>
+                        <td class="footerLogo" width="212">
+                            <br />
+                           <a href="http://www.sharecare.com"><img src="http://static.sharecare.com/images/logofooter.png?v=62" /></a>
+                        </td>
+                    </tr>
+                    <tr><td colspan="2">&nbsp;</td></tr>
+                    <tr>
+                        <td colspan="2" class="footerBottom"> 
+                            All content posted on this site is the responsibility of the party posting such content. Participation 
+                            on this site by a party does not imply endorsement of any other party's content, products, or services. 
+                            CONTENT SHOULD NOT BE USED FOR MEDICAL ADVICE, DIAGNOSIS, OR TREATMENT. <a href="/static/legal" rel="nofollow">See 
+                            additional information</a>.
+                        </td>
+                    </tr>
+                </table>
+            </div><!-- /footerinner -->        </div>
+                <!-- SiteCatalyst code version: H.21.1. Copyright 1996-2010 Adobe, Inc. All Rights Reserved -->
+        <script language="JavaScript" type="text/javascript"><!--
+            s.pageName="sharecare.com\/";s.eVar33="sharecare.com\/";s.channel="\/";s.eVar34="\/";s.server="ip-10-204-126-153";s.prop1="index";s.eVar1="index";s.prop8="unregistered";s.eVar8="unregistered";s.eVar36="non";
+            s.eVar21 = s.prop21;
+            s.eVar22 = s.prop22;
+            s.eVar23 = s.prop23;
+            /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+            var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+        <!-- End SiteCatalyst code version: H.21.1. -->
+        
+        <script type="text/javascript">
+            var _sf_async_config={uid:23142,domain:"sharecare.com"};
+            (function(){
+            function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") + "js/chartbeat.js"); document.body.appendChild(e); }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+            loadChartbeat : function() { oldonload(); loadChartbeat(); };
+            })();
+        </script>
+
+    </body>
+</html>

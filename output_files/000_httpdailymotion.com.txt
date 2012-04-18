@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head id="head">
+<title>Dailymotion - Watch, publish, share videos</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="language" content="en" />
+<meta http-equiv="content-language" content="en" />
+<meta property="fb:app_id" content="96937694899" />
+<meta name="title" content="Dailymotion - Watch, publish, share videos" />
+<meta name="description" lang="us" content="The latest music videos, short movies, tv shows, funny and extreme videos. Upload, share, and embed your videos. Watch premium and official videos free online. Discover our featured content." />
+<meta name="keywords" content="video,videos,funny videos,free video,sharing,funny,music,best,free,movies,trailers,tv,shows,films,clips,upload,video phone,camera phone,watch video,publish videos,Dailymotion" />
+<meta name="copyright" content="http://www.dailymotion.com" />
+<meta name="author" content="dailymotion.com" />
+<meta name="y_key" content="a87a0d996fe5f70f" />
+<meta name="msvalidate.01" content="42E38E6C5CF3C253563039FCD6F3F775" />
+<link rel="stylesheet" href="http://static1.dmcdn.net/css/gen/widget/pack/baseskin-prod.css.v7e88a3aed4ebba714" />
+<link rel="canonical" href="http://www.dailymotion.com/us" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search videos on Dailymotion" />
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png.vcbf86c6fe83fbbe14" />
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico.v849208c29ba8997d4" />
+<script type="text/javascript" src="http://static1.dmcdn.net/js/gen/widget/pack/mandatory.js.v8273090c343b303f4"></script>
+<script type="text/javascript">DM_CloseLabel = 'close';DM_PayedLabel = 'paid';DM_LoginCookie = 'log_inf';DM_PageStartTime = new Date();facebook_enabled = true;DM_Widget_PageItem_Facebook_Connect_AUTOLOGIN = true;HitMapEnabled = true;HitMapLoginAnchor = '#hp-h-8';DM_LoginCookieWithRecos = 'log_inf_r2';DM_Widget_PageItem_Masscast.defaultReloadTime["x28"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["x28"] = null;DM_Widget_PageItem_Masscast.defaultReloadTime["x69"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["x69"] = null;DM_Widget_PageItem_Masscast.defaultReloadTime["Middle"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["Middle"] = null;DM_Widget_PageItem_Masscast.defaultReloadTime["Top"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["Top"] = null;DM_Widget_PageItem_Masscast.defaultReloadTime["Top3"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["Top3"] = null;DM_Widget_PageItem_Masscast.defaultReloadTime["Top2"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["Top2"] = null;DM_Widget_PageItem_Masscast.noFrame = true;if (!window.DM_Widget_PageItem_Masscast_READERISOWNER){DM_Widget_PageItem_Masscast.forceDomain();document.write("<scr" + "ipt type=\"text/javascript\" src=\"http://www.dailymotion.com/masscast/4/dailymotion.us/home/2055605731@x28,x69,Middle,Top,Top3,Top2?WIN7=1&DMAPIPLAYER=0&DMROUTE=home&DMNOADFIT=0&DMEXPLICIT=0&DMLANG=en&DMTYPE=prod&DMV3=1\"></scr" + "ipt>");document.write("<scr" + "ipt type=\"text/javascript\" src=\"/js/lib/masscast/richOAS.js\"></scr" + "ipt>");}</script></head>
+<body id="bodyall" class="dm_page_html_home">
+<div class="dmco_html" id="fb-root"><script type="text/javascript">FBScriptLoaded = false;window.fbAsyncInit = function(){FBScriptLoaded = true;if (typeof DM_Widget_PageItem_Facebook_Connect != 'undefined' && typeof FBConnectInit != 'undefined' && !FBConnectInit){DM_Widget_PageItem_Facebook_Connect.initialize(true);}};(function(){if (facebook_enabled){var e = document.createElement('script');e.type = 'text/javascript';e.src = "http://connect.facebook.net/en_US/all.js";e.async = true;document.getElementById('fb-root').appendChild(e);}}());</script></div>
+<div class="dm_scriptpack dmpi_topscripts"><script type="text/javascript">
+                var crtg_nid="1276";
+                var crtg_cookiename="cto_dailyus";
+                function crtg_getCookie(c_name)
+                {
+                    var i,x,y,ARRcookies=document.cookie.split(";");
+                    for(i=0;i<ARRcookies.length;i++)
+                    {
+                        x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+                        y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+                        x=x.replace(/^\s+|\s+$/g,"");
+                        if(x==c_name)
+                        {
+                            return unescape(y);
+                        }
+                    }
+                    return "";
+                }
+                function criteoWrapper()
+                {
+                    var crtg_content=crtg_getCookie(crtg_cookiename);
+                    var crtg_rnd=Math.floor(Math.random()*99999999999);
+                    var crtg_url="http://rtax.criteo.com/delivery/rta/rta.js?netid="+escape(crtg_nid);
+                    crtg_url+="&cookieName="+escape(crtg_cookiename);
+                    crtg_url+="&rnd="+crtg_rnd;
+                    crtg_url+="&varName=crtg_content";
+                    var crtg_script=document.createElement("script");
+                    crtg_script.type="text/javascript";
+                    crtg_script.src=crtg_url;
+                    crtg_script.id = "criteo_script";
+                    crtg_script.async=true;
+
+                    //added that
+                    if (document.getElementById("criteo_script"))
+                    {
+                        document.getElementsByTagName("head")[0].appendChild(crtg_script);
+                    }
+                    //end added that
+
+                    else if(document.getElementsByTagName("head").length>0)
+                    {
+                        document.getElementsByTagName("head")[0].appendChild(crtg_script);
+                    }
+                    else if(document.getElementsByTagName("body").length>0)
+                    {
+                        document.getElementsByTagName("body")[0].appendChild(crtg_script);
+                    }
+                }
+
+                // call it once here and let OAS do setInterval(criteoWrapper, xxx);
+                criteoWrapper();
+            </script></div>
+<div class="dmco_box" id="dm_intersticiel">
+<div class="dmpi_masscast">
+<div id="mc_x28" class="x28 noFrame">
+<script>DM_Widget_PageItem_Masscast.buildPosition("x28")</script>
+</div>
+</div>
+</div>
+<div id="topwrapper">
+
+    <div id="top_header_announcement">
+        <p>
+                            <a href="http://www.dailymotion.com/video/xox6ls_the-moon-live_shortfilms?from=meta_header&amp;utm_source=meta_header&amp;utm_medium=meta_header&amp;utm_campaign=moon">The 69th Moon Show: Live Comedy From Brooklyn on Dailymotion</a>
+                    </p>
+        <a class="close_img" id="close_super_header"></a>
+    </div>
+    <style>
+    #topwrapper
+    {
+        background-position: 50% 26px !important;
+    }
+    #video_ad_player
+    {
+        top: 26px !important;
+    }
+    </style>
+
+<div id="header_full" class="sd_header">
+    <div id="header">
+        <div class="contain new_header_top">
+            <a class="logo" href="/us" title="home">Dailymotion<span id="logo_legend">home</span></a>
+                            <span id="family_filter" class="family_filter" class="foreground">
+                    Family Filter <span class="family_filter_link" onclick="window.location.href = '/family_filter?urlback='">on</span>
+                </span>
+            
+            <ul class="dmco_menu header_main_menu bottom">
+                                    <li>
+                        <div class="menu_link">
+                            <a href="/us/visited-today/creative-official/1#hp-h-4" title="Videos">Videos</a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="menu_link">
+                            <a href="/us/channels/1#hp-h-5" title="Browse">Browse</a>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="menu_link">
+                            <a href="/en/forum#hp-h-17" title="Forums">Forums</a>
+                        </div>
+                    </li>
+                            </ul>
+
+                                <div id="mc_Top2" class="dmpi_masscast">
+        <script type="text/javascript" charset="utf-8">DM_Widget_PageItem_Masscast.buildPosition('Top2');</script>
+    </div>
+
+            
+            <div id="login_info" class="login_info">
+                                                        <span   class="linkable ajaxlink action:popup  dm_login_info sign_in no_icon_loading" hf="2f706167656974656d2f6c6f67696e66756c6c3f6d6f64653d626173696326726571756573743d2f6c6f67696e3f726571756573743d253246" onclick="DM_Ajax.link(this); return false;">Sign in</span>
+
+                <div id="login_infos" class="dmpi_facebook_connect dm_fb_button fb_no_infos" style="visibility:hidden;">
+                    <a class="fake_fb_login_button icon_facebook_short no_icon_loading" href="javascript:void(0);" onclick="DM_Widget_PageItem_Facebook_Connect.onLoginFacebook(); return false;"></a>
+                </div><a href="/register#hp-h-8" class="register" title="Register">Register</a>
+            </div>
+            <script type="text/javascript">
+                loadLogin();
+            </script>
+
+            <div id="utility_links">
+                <a id="quicklist_link" href="/quicklist#hp-h-15" title="Quicklist"></a>
+                <a id="history_link" href="/history#hp-h-14" title="History">
+                    <span class="icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="header_nav">
+        <div class="contain new_header_bottom">
+            <form action="/" class="dmco_form_container dmco_form dmpi_search light_border" id="header_search" method="get" name="header_search">
+                <input id="header_search_form_name" name="form_name" type="hidden" value="dm_pageitem_search">
+                <div class="input_search_cont">
+                    <input class="dmco_form_input dmco_form_text text" id="header_search_search" maxlength="256" autocomplete="off" name="search" type="text" value="">
+                </div>
+                <input class="dmco_form_input dmco_form_hidden" id="header_search_hitmap" name="hitmap" type="hidden" value="#hp-h-9">
+                <input class="dmco_form_input dmco_form_submit button short_input" id="header_search_submit_button" type="submit" name="submit_button" value="search">
+            </form>
+            <span class="upload_button button button_green linkable" href="/upload" title="Upload a Video">Upload a Video</span>
+                    </div>
+    </div>
+</div>
+
+<div id="wrapper" class="container">
+<div class="dmco_box" id="subheader_container">
+<div class="dmpi_subheader" style="position: relative; z-index: 100">
+<div class="subheader"></div>
+</div>
+<div class="dmpi_masscast">
+<div id="mc_Top" class="Top noFrame">
+<center>
+<script>DM_Widget_PageItem_Masscast.buildPosition("Top")</script>
+</center>
+</div>
+</div>
+</div>
+<div id="content">
+
+<div class="dmpi_box dmpi_bigbox home_content_box">
+<div class="box_content">
+<div class="content_right">
+<div class="dmpi_box dmpi_subbox videofeatured_box column span-8">
+<div class="box_content">
+<div class="dmpi_slotitem dmpi_slotitem_videofeatured column span-8 edition">
+<div class="dmpi_video_carousel" id="video_Carousel">
+<a class="dmco_simplelink dmco_link not_ajax" style="display:none" href="http://www.dailymotion.com/video/xox6ls_the-moon-live_shortfilms" title="Live Comedy From Brooklyn">Live Comedy From Brooklyn</a>
+<a class="dmco_simplelink dmco_link not_ajax" style="display:none" href="http://www.dailymotion.com/video/xpvmcs_lana-del-rey-feat-asap-rocky_music" title="A$AP Rocky and Lana Del Rey Collaborate">A$AP Rocky and Lana Del Rey Collaborate</a>
+<a class="dmco_simplelink dmco_link not_ajax" style="display:none" href="http://www.dailymotion.com/video/xq67y5_guns-em_music" title="Song Produced 100% by Gunshots">Song Produced 100% by Gunshots</a>
+<a class="dmco_simplelink dmco_link not_ajax" style="display:none" href="http://www.dailymotion.com/video/xq5ar5_nouvelle-bande-annonce-pour-the-amazing-spider-man_shortfilms" title="New 'Amazing Spider-Man' Trailer">New 'Amazing Spider-Man' Trailer</a>
+<a class="dmco_simplelink dmco_link not_ajax" style="display:none" href="http://www.dailymotion.com/video/xpyrkc_nicki-minaj-beez-in-the-trap-explicit_music" title="Nicki Minaj – Beez In The Trap">Nicki Minaj – Beez In The Trap</a>
+<a class="dmco_simplelink dmco_link not_ajax" style="display:none" href="http://www.dailymotion.com/video/xq4vmn_rammstein-sonne-cover-children-medieval-band_music" title="Rammstein's 'Sonne' Covered by Kids">Rammstein's 'Sonne' Covered by Kids</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dmpi_box dmpi_subbox masscast_box column span-4 last">
+<div class="box_content"></div>
+</div>
+<div class="dmco_clear"><!--comment for IE6 height --></div>
+<div class="dmpi_box dmpi_subbox staff_picks column span-8 content_box">
+<div class="box_header">
+<div class="dmco_box left_title">
+<h2 class="dmco_title"><span class="label">Staff Picks</span></h2>
+</div>
+</div>
+<div class="box_content">
+<div class="dmpi_list dmpi_list_slot loca_us">
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/shortfilms#hp-v-t1" title="Movies">Movies</a></h3><div class="dmpi_video_preview image_border " data-id="xq66oz"><a class="dmco_simplelink preview_link white_border id_43958627 dmco_link with_context not_ajax " id="xq66oz" href="/video/xq66oz_iron-man-3-to-shoot-in-china_shortfilms#hp-v-v1" dm:context="/video/xq66oz_iron-man-3-to-shoot-in-china_shortfilms" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/726/859/43958627:jpeg_preview_medium.jpg?20120416215026""" data-spr="http://static2.dmcdn.net/static/video/726/859/43958627:jpeg_preview_sprite.jpg" alt="&#039;Iron Man 3&#039; To Shoot In China" class="dmco_image" title="&#039;Iron Man 3&#039; To Shoot In China"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">01:19</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/video/xq66oz_iron-man-3-to-shoot-in-china_shortfilms" title="&#039;Iron Man 3&#039; To Shoot In China" href="/video/xq66oz_iron-man-3-to-shoot-in-china_shortfilms#hp-v-v1" class="dmco_simplelink video_title id_43958627 dmco_link with_context not_ajax">'Iron Man 3' To Shoot In China</a><span class="video_logos"><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/ClevverMovies#hp-v-v1" title="ClevverMovies">ClevverMovies</a></div><div class="dmco_html foreground">Walt Disney announced that Iron Man 3 will be co-produced in China.</div><div class="dmco_html timer foreground2" data-timestamp="1334660427"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/music#hp-v-t2" title="Music">Music</a></h3><div class="dmpi_video_preview image_border " data-id="xq66t3"><a class="dmco_simplelink preview_link white_border id_43958775 dmco_link with_context not_ajax " id="xq66t3" href="/video/xq66t3_coachella-recap-tupac-ressurected-katy-perry-new-hair_music#hp-v-v2" dm:context="/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/577/859/43958775:jpeg_preview_medium.jpg?20120416220129""" data-spr="http://static2.dmcdn.net/static/video/577/859/43958775:jpeg_preview_sprite.jpg" alt="Coachella Recap: Tupac Ressurected, Katy Perry New Hair" class="dmco_image" title="Coachella Recap: Tupac Ressurected, Katy Perry New Hair"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">01:32</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/1" title="Coachella Recap: Tupac Resurrected" href="/video/xq66t3_coachella-recap-tupac-ressurected-katy-perry-new-hair_music#hp-v-v2" class="dmco_simplelink video_title id_43958775 dmco_link with_context not_ajax">Coachella Recap: Tupac Resurrected</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/ClevverMusic#hp-v-v2" title="ClevverMusic">ClevverMusic</a></div><div class="dmco_html foreground">Watch Tupac, Snoop, Dr. Dre, Wiz Khalifa, Eminem, 50 Cent & more.</div><div class="dmco_html timer foreground2" data-timestamp="1334660429"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/videogames#hp-v-t3" title="Gaming">Gaming</a></h3><div class="dmpi_video_preview image_border " data-id="xq65zl"><a class="dmco_simplelink preview_link white_border id_43957713 dmco_link with_context not_ajax " id="xq65zl" href="/video/xq65zl_star-trek-teaser-trailer_videogames#hp-v-v3" dm:context="/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/317/759/43957713:jpeg_preview_medium.jpg?20120417175122""" data-spr="http://static2.dmcdn.net/static/video/317/759/43957713:jpeg_preview_sprite.jpg" alt="Star Trek Teaser Trailer" class="dmco_image" title="Star Trek Teaser Trailer"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">00:57</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/1" title="Star Trek Teaser Trailer" href="/video/xq65zl_star-trek-teaser-trailer_videogames#hp-v-v3" class="dmco_simplelink video_title id_43957713 dmco_link with_context not_ajax">Star Trek Teaser Trailer</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/ign#hp-v-v3" title="ign">ign</a></div><div class="dmco_html foreground">Boldly go where no man has gone before in 2013.</div><div class="dmco_html timer foreground2" data-timestamp="1334660431"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition last column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/sport#hp-v-t4" title="Sports">Sports</a></h3><div class="dmpi_video_preview image_border " data-id="xq5m34"><a class="dmco_simplelink preview_link white_border id_43931920 dmco_link with_context not_ajax " id="xq5m34" href="/video/xq5m34_trending-t-o-vs-romo_sport#hp-v-v4" dm:context="/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/029/139/43931920:jpeg_preview_medium.jpg?20120418020716""" data-spr="http://static2.dmcdn.net/static/video/029/139/43931920:jpeg_preview_sprite.jpg" alt="Trending: T.O. vs. Romo" class="dmco_image" title="Trending: T.O. vs. Romo"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">02:39</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/1" title="Trending: T.O. vs. Romo" href="/video/xq5m34_trending-t-o-vs-romo_sport#hp-v-v4" class="dmco_simplelink video_title id_43931920 dmco_link with_context not_ajax">Trending: T.O. vs. Romo</a><span class="video_logos"><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/FOX_Sports_Interactive#hp-v-v4" title="FOX_Sports_Interactive">FOX_Sports_Interactive</a></div><div class="dmco_html foreground">Check out what's trending in sports.</div><div class="dmco_html timer foreground2" data-timestamp="1334660430"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="http://www.dailymotion.com/video/xq66t9_searching-the-caribbean-part-2_sport#hp-v-t5" title="Extreme">Extreme</a></h3><div class="dmpi_video_preview image_border " data-id="xq66t9"><a class="dmco_simplelink preview_link white_border id_43958781 dmco_link with_context not_ajax " id="xq66t9" href="http://www.dailymotion.com/video/xq66t9_searching-the-caribbean-part-2_sport#hp-v-v5" dm:context="http://www.dailymotion.com/video/xq66t9_searching-the-caribbean-part-2_sport" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/187/859/43958781:jpeg_preview_medium.jpg?20120418010738""" data-spr="http://static2.dmcdn.net/static/video/187/859/43958781:jpeg_preview_sprite.jpg" alt="Searching The Caribbean: Part 2" class="dmco_image" title="Searching The Caribbean: Part 2"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">04:01</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="http://www.dailymotion.com/video/xq66t9_searching-the-caribbean-part-2_sport" title="Searching The Caribbean" href="http://www.dailymotion.com/video/xq66t9_searching-the-caribbean-part-2_sport#hp-v-v5" class="dmco_simplelink video_title id_43958781 dmco_link with_context not_ajax">Searching The Caribbean</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/Transworld#hp-v-v5" title="Transworld">Transworld</a></div><div class="dmco_html foreground">Watch the second part of the documentary.</div><div class="dmco_html timer foreground2" data-timestamp="1334660407"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/news#hp-v-t6" title="News">News</a></h3><div class="dmpi_video_preview image_border " data-id="xq67m9"><a class="dmco_simplelink preview_link white_border id_43959825 dmco_link with_context not_ajax " id="xq67m9" href="/video/xq67m9_questions-rife-in-secret-service-scandal_news#hp-v-v6" dm:context="/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/528/959/43959825:jpeg_preview_medium.jpg?20120416233024""" data-spr="http://static2.dmcdn.net/static/video/528/959/43959825:jpeg_preview_sprite.jpg" alt="Questions Rife in Secret Service Scandal" class="dmco_image" title="Questions Rife in Secret Service Scandal"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">02:09</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/1" title="Sexy, Secret Service Scandal" href="/video/xq67m9_questions-rife-in-secret-service-scandal_news#hp-v-v6" class="dmco_simplelink video_title id_43959825 dmco_link with_context not_ajax">Sexy, Secret Service Scandal</a><span class="video_logos"><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/associatedpress#hp-v-v6" title="associatedpress">associatedpress</a></div><div class="dmco_html foreground">Secret Service is under allegations of wild partying with prostitutes.</div><div class="dmco_html timer foreground2" data-timestamp="1334660426"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/people#hp-v-t7" title="Celeb">Celeb</a></h3><div class="dmpi_video_preview image_border " data-id="xq6je0"><a class="dmco_simplelink preview_link white_border id_43975080 dmco_link with_context not_ajax " id="xq6je0" href="/video/xq6je0_brad-pitt-angelina-jolie-french-wedding-details_news#hp-v-v7" dm:context="/video/xq6je0_brad-pitt-angelina-jolie-french-wedding-details_news?search_algo=1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/080/579/43975080:jpeg_preview_medium.jpg?20120417221134""" data-spr="http://static2.dmcdn.net/static/video/080/579/43975080:jpeg_preview_sprite.jpg" alt="Brad Pitt &amp; Angelina Jolie French Wedding Details" class="dmco_image" title="Brad Pitt &amp; Angelina Jolie French Wedding Details"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">01:06</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/video/xq6je0_brad-pitt-angelina-jolie-french-wedding-details_news?search_algo=1" title="Brad Pitt &amp; Angelina Jolie French Wedding Details" href="/video/xq6je0_brad-pitt-angelina-jolie-french-wedding-details_news#hp-v-v7" class="dmco_simplelink video_title id_43975080 dmco_link with_context not_ajax">Brad Pitt & Angelina Jolie French Wedding Details</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/tvnportal#hp-v-v7" title="tvnportal">tvnportal</a></div><div class="dmco_html foreground">Brad and Angelina will reportedly marry in the south of France this summer.</div><div class="dmco_html timer foreground2" data-timestamp="1334680207"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video last edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="http://www.dailymotion.com/video/xpzp6k_the-narrow-show-the-cranials_fun#hp-v-t8" title="MotionMakers">MotionMakers</a></h3><div class="dmpi_video_preview image_border " data-id="xpzp6k"><a class="dmco_simplelink preview_link white_border id_43655996 dmco_link with_context not_ajax " id="xpzp6k" href="http://www.dailymotion.com/video/xpzp6k_the-narrow-show-the-cranials_fun#hp-v-v8" dm:context="http://www.dailymotion.com/video/xpzp6k_the-narrow-show-the-cranials_fun" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/699/556/43655996:jpeg_preview_medium.jpg?20120417191038""" data-spr="http://static2.dmcdn.net/static/video/699/556/43655996:jpeg_preview_sprite.jpg" alt="The Narrow Show: The Cranials" class="dmco_image" title="The Narrow Show: The Cranials"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">05:07</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="http://www.dailymotion.com/video/xpzp6k_the-narrow-show-the-cranials_fun" title="The Narrow Show: The Cranials" href="http://www.dailymotion.com/video/xpzp6k_the-narrow-show-the-cranials_fun#hp-v-v8" class="dmco_simplelink video_title id_43655996 dmco_link with_context not_ajax">The Narrow Show: The Cranials</a><span class="video_logos"><span class="motionmaker_logo" title="MotionMaker content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/schmooru#hp-v-v8" title="schmooru">schmooru</a></div><div class="dmco_html foreground">A conversation between 2 friends about men who shave their heads.</div><div class="dmco_html timer foreground2" data-timestamp="1334670236"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="http://www.dailymotion.com/video/xq6d1d_tyson-gay-recap-a-look-at-one-of-the-fastest-men-in-the-world_lifestyle#hp-v-t9" title="AskMen">AskMen</a></h3><div class="dmpi_video_preview image_border " data-id="xq6d1d"><a class="dmco_simplelink preview_link white_border id_43966849 dmco_link with_context not_ajax " id="xq6d1d" href="http://www.dailymotion.com/video/xq6d1d_tyson-gay-recap-a-look-at-one-of-the-fastest-men-in-the-world_lifestyle#hp-v-v9" dm:context="http://www.dailymotion.com/video/xq6d1d_tyson-gay-recap-a-look-at-one-of-the-fastest-men-in-the-world_lifestyle" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/948/669/43966849:jpeg_preview_medium.jpg?20120417220646""" data-spr="http://static2.dmcdn.net/static/video/948/669/43966849:jpeg_preview_sprite.jpg" alt="Tyson Gay Recap: A Look At One Of The Fastest Men In The World" class="dmco_image" title="Tyson Gay Recap: A Look At One Of The Fastest Men In The World"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">01:07</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="http://www.dailymotion.com/video/xq6d1d_tyson-gay-recap-a-look-at-one-of-the-fastest-men-in-the-world_lifestyle" title="Tyson Gay Recap: Fastest Man Alive" href="http://www.dailymotion.com/video/xq6d1d_tyson-gay-recap-a-look-at-one-of-the-fastest-men-in-the-world_lifestyle#hp-v-v9" class="dmco_simplelink video_title id_43966849 dmco_link with_context not_ajax">Tyson Gay Recap: Fastest Man Alive</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/askmen#hp-v-v9" title="askmen">askmen</a></div><div class="dmco_html foreground">Take a brief look Tyson Gay, one of the world's fastest men.</div><div class="dmco_html timer foreground2" data-timestamp="1334671205"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/tech#hp-v-t10" title="Tech">Tech</a></h3><div class="dmpi_video_preview image_border " data-id="xpxl7b"><a class="dmco_simplelink preview_link white_border id_43557527 dmco_link with_context not_ajax  external" id="xpxl7b" href="/video/xpxl7b_nokia-lumia-900-vs-apple-iphone-4s_tech#hp-v-v10" dm:context="/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/725/755/43557527:jpeg_preview_medium.jpg?20120405210006""" data-spr="http://static2.dmcdn.net/static/video/725/755/43557527:jpeg_preview_sprite.jpg" alt="Nokia Lumia 900 Vs Apple iPhone 4S" class="dmco_image" title="Nokia Lumia 900 Vs Apple iPhone 4S"/>
+                
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">09:24</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/1" title="Lumia 900 Vs iPhone 4S" href="/video/xpxl7b_nokia-lumia-900-vs-apple-iphone-4s_tech#hp-v-v10" class="dmco_simplelink video_title id_43557527 dmco_link with_context not_ajax">Lumia 900 Vs iPhone 4S</a><span class="video_logos"><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/5minTech#hp-v-v10" title="5minTech">5minTech</a></div><div class="dmco_html foreground">Here is a brief comparison of the Nokia Lumia 900 and Apple iPhone 4S.</div><div class="dmco_html timer foreground2" data-timestamp="1334678433"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video edition column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="http://www.dailymotion.com/video/xq68ri_episode-1-ghost-maiden_shortfilms#hp-v-t11" title="Anime">Anime</a></h3><div class="dmpi_video_preview image_border " data-id="xq68ri"><a class="dmco_simplelink preview_link white_border id_43961310 dmco_link with_context not_ajax  external" id="xq68ri" href="/video/xq68ri_episode-1-ghost-maiden_shortfilms#hp-v-v11" dm:context="/video/xq68ri_episode-1-ghost-maiden_shortfilms" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/013/169/43961310:jpeg_preview_medium.jpg?20120418035313""" data-spr="http://static2.dmcdn.net/static/video/013/169/43961310:jpeg_preview_sprite.jpg" alt="Episode 1 - Ghost Maiden" class="dmco_image" title="Episode 1 - Ghost Maiden"/>
+                
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">23:40</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/video/xq68ri_episode-1-ghost-maiden_shortfilms" title="Episode 1 - Ghost Maiden" href="/video/xq68ri_episode-1-ghost-maiden_shortfilms#hp-v-v11" class="dmco_simplelink video_title id_43961310 dmco_link with_context not_ajax">Episode 1 - Ghost Maiden</a><span class="video_logos"><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/crunchyroll#hp-v-v11" title="crunchyroll">crunchyroll</a></div><div class="dmco_html foreground">Strange paranormal occurrences are happening on school grounds.</div><div class="dmco_html timer foreground2" data-timestamp="1334660407"></div></div>
+<div class="dmpi_slotitem dmpi_slotitem_video last edition last_item column span-2 smaller"><h3 class="dmco_title"><a class="dmco_simplelink video_title channel_title dmco_link" href="/us/channel/auto#hp-v-t12" title="Auto-Moto">Auto-Moto</a></h3><div class="dmpi_video_preview image_border " data-id="xq64v3"><a class="dmco_simplelink preview_link white_border id_43956255 dmco_link with_context not_ajax " id="xq64v3" href="/video/xq64v3_bmw-dtm-test-driving_auto#hp-v-v12" dm:context="/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotvideo" data-src="http://static2.dmcdn.net/static/video/552/659/43956255:jpeg_preview_medium.jpg?20120417232706""" data-spr="http://static2.dmcdn.net/static/video/552/659/43956255:jpeg_preview_sprite.jpg" alt="BMW DTM Test driving" class="dmco_image" title="BMW DTM Test driving"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">05:01</div>
+            
+            
+            
+        </div><h3 class="dmco_title dmpi_video_title short_title"><a dm:context="/1" title="BMW DTM Test Driving" href="/video/xq64v3_bmw-dtm-test-driving_auto#hp-v-v12" class="dmco_simplelink video_title id_43956255 dmco_link with_context not_ajax">BMW DTM Test Driving</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3><div class="dmpi_video_sentby foreground2">By <a class="login name" href="/AutoMotoTV#hp-v-v12" title="AutoMotoTV">AutoMotoTV</a></div><div class="dmco_html foreground">Check out footage of the BMW DTM testing driving around a racetrack.</div><div class="dmco_html timer foreground2" data-timestamp="1334660431"></div></div>
+</div>
+<div class="dmpi_box dmpi_subbox channels column span-8 last dmpi_subbox">
+<div class="box_header">
+<div class="dmco_box left_title">
+<h2 class="dmco_title">
+<a class="dmco_simplelink dmco_link not_ajax" href="/us/channels" title="Categories&lt;!-- homepage 736 --&gt;">Categories<!-- homepage 736 --></a>
+</h2>
+</div>
+</div>
+<div class="box_content">
+<div class="dmco_html dmpi_channellist"><div class="column"><a class="foreground2" href="/us/channel/animals#hp-c">Animals</a><a class="foreground2" href="/us/channel/creation#hp-c">Arts</a><a class="foreground2" href="/us/channel/auto#hp-c">Auto-Moto</a><a class="foreground2" href="/us/channel/people#hp-c">Celeb</a></div><div class="column"><a class="foreground2" href="/us/channel/shortfilms#hp-c">Film & TV</a><a class="foreground2" href="/us/channel/fun#hp-c">Funny</a><a class="foreground2" href="/us/channel/videogames#hp-c">Gaming</a><a class="foreground2" href="/us/channel/latino#hp-c">Latino</a></div><div class="column"><a class="foreground2" href="/us/channel/lifestyle#hp-c">Lifestyle</a><a class="foreground2" href="/us/channel/music#hp-c">Music</a><a class="foreground2" href="/us/channel/news#hp-c">News</a><a class="foreground2" href="/us/channel/sexy#hp-c">Sexy</a></div><div class="column last"><a class="foreground2" href="/us/channel/sport#hp-c">Sports</a><a class="foreground2" href="/us/channel/tv/1#hp-c">TV</a><a class="foreground2" href="/us/channel/tech#hp-c">Tech</a><a class="foreground2" href="/us/channel/travel#hp-c">Travel</a></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="dmco_box column span-4 last with_carousel adjusted" id="home_right_col">
+<div class="dmpi_list_buzz">
+<div class="dmpi_box dmpi_subbox no_border_top column span-4 last">
+<div class="box_header">
+<div class="dmco_box left_title">
+<h2 class="dmco_title">
+<a class="dmco_simplelink dmco_link not_ajax" href="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1#hp-b-t" title="What's hot?">What's hot?</a>
+</h2>
+</div>
+<div class="dmco_box right_title">
+<a class="dmco_simplelink bottom_right dmco_link not_ajax" href="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1#hp-b-t" title="more popular videos">more popular videos</a>
+</div>
+</div>
+<div class="box_content">
+<div class="dmpi_video_itembuzz column span-4 last hide_picto">
+<div class="dmco_html"><div class="dmpi_video_preview image_border " data-id="xq37cj"><a class="dmco_simplelink preview_link white_border id_43819507 dmco_link with_context not_ajax " id="xq37cj" href="/video/xq37cj_referee-fail-or-win_sport#hp-b-l" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="buzz" data-src="http://static2.dmcdn.net/static/video/705/918/43819507:jpeg_preview_small.jpg?20120412214658""" data-spr="http://static2.dmcdn.net/static/video/705/918/43819507:jpeg_preview_sprite.jpg" alt="Referee Fail Or Win?" class="dmco_image" title="Referee Fail Or Win?"/>
+                <div class="psprite pmode4"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">00:20</div>
+            
+            
+            
+        </div></div>
+<h3 class="dmco_title dmpi_video_title short_title"><a class="dmco_simplelink video_title id_43819507 dmco_link not_ajax with_context" href="/video/xq37cj_referee-fail-or-win_sport#hp-b-l" title="Referee Fail Or Win?" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1">Referee Fail Or Win?</a><span class="video_logos"><span class="official_logo" title="Official content"></span></span></h3>
+<span class="dmco_text dmco_text_formatted dmco_text_simpleformatted foreground video_owner">By <a class="dmco_simplelink name dmco_link not_ajax" href="/videobash#hp-b-l" title="videobash">videobash</a></span>
+</div>
+<div class="dmpi_video_itembuzz column span-4 last hide_picto">
+<div class="dmco_html"><div class="dmpi_video_preview image_border " data-id="xq24ey"><a class="dmco_simplelink preview_link white_border id_43769050 dmco_link with_context not_ajax " id="xq24ey" href="/video/xq24ey_marc-jacobs-and-boyfriend-harry-louis-enjoy-a-romantic-day-at-the-beach_people#hp-b-l" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="buzz" data-src="http://static2.dmcdn.net/static/video/050/967/43769050:jpeg_preview_small.jpg?20120412153015""" data-spr="http://static2.dmcdn.net/static/video/050/967/43769050:jpeg_preview_sprite.jpg" alt="- Marc Jacobs and Boyfriend Harry Louis Enjoy a Romantic Day at the Beach" class="dmco_image" title="- Marc Jacobs and Boyfriend Harry Louis Enjoy a Romantic Day at the Beach"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">00:45</div>
+            
+            
+            
+        </div></div>
+<h3 class="dmco_title dmpi_video_title short_title"><a class="dmco_simplelink video_title id_43769050 dmco_link not_ajax with_context" href="/video/xq24ey_marc-jacobs-and-boyfriend-harry-louis-enjoy-a-romantic-day-at-the-beach_people#hp-b-l" title="- Marc Jacobs and Boyfriend Harry Louis Enjoy a Romantic Day at the Beach" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1">  Marc Jacobs and Boyfriend Harry Louis Enjoy a Romantic...</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3>
+<span class="dmco_text dmco_text_formatted dmco_text_simpleformatted foreground video_owner">By <a class="dmco_simplelink name dmco_link not_ajax" href="/splashnews#hp-b-l" title="splashnews">splashnews</a></span>
+</div>
+<div class="dmpi_video_itembuzz column span-4 last hide_picto">
+<div class="dmco_html"><div class="dmpi_video_preview image_border " data-id="xq3xx3"><a class="dmco_simplelink preview_link white_border id_43853943 dmco_link with_context not_ajax " id="xq3xx3" href="/video/xq3xx3_girls-season-1-episode-1-hbo_shortfilms#hp-b-l" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="buzz" data-src="http://static2.dmcdn.net/static/video/349/358/43853943:jpeg_preview_small.jpg?20120416140226""" data-spr="http://static2.dmcdn.net/static/video/349/358/43853943:jpeg_preview_sprite.jpg" alt="Girls Season 1: Episode 1 (HBO)" class="dmco_image" title="Girls Season 1: Episode 1 (HBO)"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">31:43</div>
+            
+            
+            
+        </div></div>
+<h3 class="dmco_title dmpi_video_title short_title"><a class="dmco_simplelink video_title id_43853943 dmco_link not_ajax with_context" href="/video/xq3xx3_girls-season-1-episode-1-hbo_shortfilms#hp-b-l" title="Girls Season 1: Episode 1 (HBO)" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1">Girls Season 1: Episode 1 (HBO)</a><span class="video_logos"><span class="hd_logo"></span><span class="official_logo" title="Official content"></span></span></h3>
+<span class="dmco_text dmco_text_formatted dmco_text_simpleformatted foreground video_owner">By <a class="dmco_simplelink name dmco_link not_ajax" href="/HBO#hp-b-l" title="HBO">HBO</a></span>
+</div>
+<div class="dmpi_video_itembuzz column span-4 last hide_picto">
+<div class="dmco_html"><div class="dmpi_video_preview image_border " data-id="xq67y5"><a class="dmco_simplelink preview_link white_border id_43960253 dmco_link with_context not_ajax " id="xq67y5" href="/video/xq67y5_guns-em_music#hp-b-l" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="buzz" data-src="http://static2.dmcdn.net/static/video/352/069/43960253:jpeg_preview_small.jpg?20120417214700""" data-spr="http://static2.dmcdn.net/static/video/352/069/43960253:jpeg_preview_sprite.jpg" alt="GUNS (EM)" class="dmco_image" title="GUNS (EM)"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">01:58</div>
+            
+            
+            
+        </div></div>
+<h3 class="dmco_title dmpi_video_title short_title"><a class="dmco_simplelink video_title id_43960253 dmco_link not_ajax with_context" href="/video/xq67y5_guns-em_music#hp-b-l" title="GUNS (EM)" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1">GUNS (EM)</a><span class="video_logos"><span class="hd_logo"></span><span class="motionmaker_logo" title="MotionMaker content"></span></span></h3>
+<span class="dmco_text dmco_text_formatted dmco_text_simpleformatted foreground video_owner">By <a class="dmco_simplelink name dmco_link not_ajax" href="/eclecticmethod#hp-b-l" title="eclecticmethod">eclecticmethod</a></span>
+</div>
+<div class="dmpi_video_itembuzz column span-4 last hide_picto">
+<div class="dmco_html"><div class="dmpi_video_preview image_border " data-id="xq5esz"><a class="dmco_simplelink preview_link white_border id_43922483 dmco_link with_context not_ajax " id="xq5esz" href="/video/xq5esz_10-great-pranks-to-play-on-your-friends_fun#hp-b-l" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1" >
+                <img src="http://static1.dmcdn.net/images/a.gif" data-lg="buzz" data-src="http://static2.dmcdn.net/static/video/384/229/43922483:jpeg_preview_small.jpg?20120418014651""" data-spr="http://static2.dmcdn.net/static/video/384/229/43922483:jpeg_preview_sprite.jpg" alt="10 Great Pranks To Play On Your Friends" class="dmco_image" title="10 Great Pranks To Play On Your Friends"/>
+                <div class="psprite pmode8"></div>
+                <span class="ql_chkbx" onClick="DM_Widget_PageItem_Video_Preview.addToQuicklist(this, null, arguments[0] || window.event); return false;" onMouseover="DM_Widget_PageItem_Video_Preview.overQuicklist(this); return false;"onMouseout="DM_Widget_PageItem_Video_Preview.outQuicklist(this); return false;"></span>
+                
+            </a>
+            <div class="now_playing">now playing</div>
+            <div class="duration">02:27</div>
+            
+            
+            
+        </div></div>
+<h3 class="dmco_title dmpi_video_title short_title"><a class="dmco_simplelink video_title id_43922483 dmco_link not_ajax with_context" href="/video/xq5esz_10-great-pranks-to-play-on-your-friends_fun#hp-b-l" title="10 Great Pranks To Play On Your Friends" dm:context="/visited-today/creative-official+internal/country/us/lang/en/created-after/2012-04-11_00:00:00/1">10 Great Pranks To Play On Your Friends</a><span class="video_logos"><span class="official_logo" title="Official content"></span></span></h3>
+<span class="dmco_text dmco_text_formatted dmco_text_simpleformatted foreground video_owner">By <a class="dmco_simplelink name dmco_link not_ajax" href="/videobash#hp-b-l" title="videobash">videobash</a></span>
+</div>
+</div>
+</div>
+</div>
+<div class="dmpi_box dmpi_subbox column span-4 last partners_box">
+<div class="box_header">
+<div class="dmco_box left_title">
+<h2 class="dmco_title">Events</h2>
+</div>
+</div>
+<div class="box_content">
+<div class="dmpi_list dmpi_list_slot">
+<div class="dmpi_slotitem dmpi_slotitem_event edition">
+    <a class="dmco_avatar image_border" title="Coachella" href="http://www.dailymotion.com/playlist/x20m6j_DailymotionUSA_coachella/1#video=xmok39"><img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotevent" data-src="http://static2.dmcdn.net/static/user/041/037/35730140:avatar_medium.jpg?20100820230556" alt="" class="dmco_image white_border" height="80" width="80" title="event 1"></a>
+    <div class="dmco_box event_slot_infos">
+        <a class="dmco_simplelink name dmco_link" href="http://www.dailymotion.com/playlist/x20m6j_DailymotionUSA_coachella/1#video=xmok39" title="Coachella">Coachella</a>
+        <div class="dmco_html foreground">Some of the best artists in the lineup for Coachella second weekend.</div>
+    </div>
+</div>
+<div class="dmpi_slotitem dmpi_slotitem_event edition">
+    <a class="dmco_avatar image_border" title="Virgin Live Music" href="http://www.dailymotion.com/sas/virgin-mobile-sxsw-2012"><img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotevent" data-src="http://static2.dmcdn.net/static/user/978/887/51788879:avatar_medium.jpg?20120326184419" alt="" class="dmco_image white_border" height="80" width="80" title="event 1"></a>
+    <div class="dmco_box event_slot_infos">
+        <a class="dmco_simplelink name dmco_link" href="http://www.dailymotion.com/sas/virgin-mobile-sxsw-2012" title="Virgin Live Music">Virgin Live Music</a>
+        <div class="dmco_html foreground">Check out these Exclusive performances from the Virgin Mobile LIVE house at SXSW</div>
+    </div>
+</div>
+<div class="dmpi_slotitem dmpi_slotitem_event last edition last_item">
+    <a class="dmco_avatar image_border" title="Elections 2012" href="http://www.dailymotion.com/en/hub/elections-2012"><img src="http://static1.dmcdn.net/images/a.gif" data-lg="slotevent" data-src="http://static2.dmcdn.net/static/group/632/712/217236:icon_medium.jpg?20120308174232" alt="" class="dmco_image white_border" height="80" width="80" title="event 1"></a>
+    <div class="dmco_box event_slot_infos">
+        <a class="dmco_simplelink name dmco_link" href="http://www.dailymotion.com/en/hub/elections-2012" title="Elections 2012">Elections 2012</a>
+        <div class="dmco_html foreground">Check out the latest video coverage by presidential candidate.</div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dmco_clear"><!--comment for IE6 height --></div>
+<div class="dmpi_masscast middle_fix">
+<div id="mc_Middle" class="Middle noFrame">
+<script>DM_Widget_PageItem_Masscast.buildPosition("Middle")</script>
+</div>
+</div>
+<div class="dmco_clear"><!--comment for IE6 height --></div>
+</div>
+</div>
+<div class="dmco_clear"><!--comment for IE6 height --></div>
+</div>
+</div>
+<div class="dmco_box">
+<div class="dmco_html dmpi_bottombanner"></div>
+</div>
+</div>
+<div class="dmco_box" id="push_footer"></div>
+<div class="dmco_box" id="skin_tags">
+<div class="dmco_box hide" id="cptpixel"></div>
+<div class="dmco_html" id="tracking_tag"></div>
+</div>
+<div class="dmpi_pagestats"><div style="display:none">
+<script type="text/javascript" id="vstag">
+vskeys= {vs_urange:"36",vs_asnum:"AS55",vs_lat:"39.9597000000000",vs_lng:"-75.1968000000000",vs_country:"US",vs_rid:"jqV3CouAmTmqvTRDk",vs_log:"1",vs_ff:"on",vs_locale:"us",vs_pagename:"home",vs_routename:"home"};vsUrl= "http://www.dailymotion.com/sense/images/vs/tag.gif?";vsRedUrl= "http://www.dailymotion.com/images/vs/tag.gif?";
+</script>
+</div>
+        <div id="quant_cont"><!-- IE6 Comment --></div>
+<script type="text/javascript">
+_qoptions={qacct:"p-59ARNeKbT-0fM"};(function(){var e = document.createElement('script');e.type = 'text/javascript';e.src = 'http://edge.quantserve.com/quant.js';e.async = true;document.getElementById('quant_cont').appendChild(e);}());
+</script>
+<noscript>
+<a href="http://www.quantcast.com/p-59ARNeKbT-0fM" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-59ARNeKbT-0fM.gif" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+</div>
+</div>
+
+<div class="dmpi_footer sd_footer" id="footer">
+    <div class="dmco_box" id="footer_centered">
+                    <ul class="dmco_menu column span-2 footer_menu ">
+                <li><span class="footer_title">Dailymotion</span></li>
+                                                                                        <li><a href="/us/about">About</a></li>
+                                                                                                                                    <li><a href="http://press.dailymotion.com/us">Press</a></li>
+                                                                                                                                    <li><a href="/us/jobs">Jobs</a></li>
+                                                                                                                                    <li><a href="http://blog.dailymotion.com/en">Blog</a></li>
+                                                                                                                                    <li><a href="/archived/index.html">All videos</a></li>
+                                                                        </ul>
+                    <ul class="dmco_menu column span-2 footer_menu ">
+                <li><span class="footer_title">Participate</span></li>
+                                                                                        <li><a href="http://advertising.dailymotion.com">Advertise</a></li>
+                                                                                                                                    <li><a href="/us/motionmaker">Become a MotionMaker</a></li>
+                                                                                                                                    <li><a href="/us/content/official">Become an Official User</a></li>
+                                                                                                                                    <li><a href="/feedblitz">Subscribe to daily updates</a></li>
+                                                                                                                                    <li><a href="http://www.dmcloud.net/en">B2B Solution</a></li>
+                                                                                                                                    <li><a href="http://publisher.dailymotion.com/?l=en">Dailymotion Publisher</a></li>
+                                                                        </ul>
+                    <ul class="dmco_menu column span-2 footer_menu ">
+                <li><span class="footer_title">Help</span></li>
+                                                                                        <li><a href="/us/faq">FAQ</a></li>
+                                                                                                                                    <li><a href="/us/feedback">Contact</a></li>
+                                                                        </ul>
+                    <ul class="dmco_menu column span-2 footer_menu ">
+                <li><span class="footer_title">Legal terms</span></li>
+                                                                                        <li><a href="/legal/terms">Terms of use</a></li>
+                                                                                                                                    <li><a href="/legal/privacy">Privacy policy</a></li>
+                                                                                                                                    <li><a href="/legal/prohibited">Prohibited content</a></li>
+                                                                                                                                    <li><a href="/legal/copyright">Copyright notification</a></li>
+                                                                                                                                    <li><a href="/legal/childprotection">Child protection</a></li>
+                                                                        </ul>
+                    <ul class="dmco_menu column span-2 footer_menu ">
+                <li><span class="footer_title">Extras</span></li>
+                                                                                        <li><a href="/sas/apps">Mobile</a></li>
+                                                                                                                                    <li><a href="/stream" id="footer_stream" >Dailymotion Stream</a></li>
+                                                                                                                                    <li><a href="/us/factory/massuploader">Mass Uploader</a></li>
+                                                                                                                                    <li><a href="/us/extras/slideshow">Slideshow</a></li>
+                                                                                                                                    <li><a href="/us/html5" id="footer_html5" >HTML5 Player Beta</a></li>
+                                                                                                                                    <li><a href="/us/extras">more …</a></li>
+                                                                        </ul>
+                    <ul class="dmco_menu column span-2 footer_menu  last">
+                <li><span class="footer_title">Developers</span></li>
+                                                                                        <li><a href="/doc/api">Data API</a></li>
+                                                                                                                                    <li><a href="/us/doc/api/player">Player API</a></li>
+                                                                        </ul>
+                <div id="footer_copyright">© 2005 - 2012 Dailymotion
+                                                    <span   title="Change your language"   id="selected_locale" class="linkable ajaxlink action:toggleOrUpdate action:arg0:#flag_select dmco_flag dmco_flag_us language_en" hf="2f706167656974656d2f6c6f63616c6553656c6563746f723f726571756573743d253246" onclick="DM_Ajax.link(this); return false;"><span class="flag"></span>United States<span class="arrow">▾</span></span>
+
+        </div>
+        <div class="dmco_html" style="display:none;" id="flag_select"></div>
+        <div class="dmco_html" id="footer_follow_us">
+            Follow us<a href="/rss/us" class="dmco_simplelink rss" target="_blank" title="RSS"></a>
+            <a href="http://www.twitter.com/DailymotionUSA" class="dmco_simplelink twitter" target="_blank" title="Twitter"></a>
+            <a href="http://www.facebook.com/pages/Dailymotion-USA/114385755252085 " class="dmco_simplelink facebook" target="_blank" title="Facebook"></a>
+        </div>
+    </div>
+</div>
+
+<div class="dm_scriptpack dmpi_bottomscripts">
+<script type="text/javascript" src="http://static1.dmcdn.net/js/gen/widget/pack/home.js.v9eb49e17632ff6ff4"></script>
+<!-- Begin comScore Tag -->
+<script>
+document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ?"https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+COMSCORE.beacon({ c1:2, c2:"4000005", c3:"", c4:"", c5:"", c6:"", c15:"" });
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=4000005&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" />
+</noscript>
+<!-- End comScore Tag --><script type="text/javascript">//<![CDATA[
+var e=document.createElement('img');
+e.id='erroraccounting';
+if (document.getElementById('footer'))
+{
+document.getElementById('footer').appendChild(e);
+if(e.offsetWidth!=1 && document.location.href.match(/\bfb_xd_fragment\b/)===null)
+e.src='http://erroracct.dailymotion.com/xpmon/cssabsent';
+}
+//]]></script><script type="text/javascript" src="/js/gen/lib/pubmatic.js?4"></script><!--PubMatic Universal Pixel tag (Javascript) http://www.dailymotion.com-->
+<script type='text/javascript'>
+var pubId=16237;
+var pixId=30;
+</script>
+<script src='http://ads.pubmatic.com/AdServer/js/universalpixel.js' type='text/javascript'></script><!-- START TRAFFICTESTER US -->
+<script type="text/javascript" src="http://static1.dmcdn.net/js/eventsjs/events.min.js"></script>
+<script id="dr_ajax_logger" type="text/JavaScript"></script>
+<script type="text/javascript">
+    /*
+    This script relies on 1 library - events
+    Event gets bound to div/divs (or any other element type).
+    In this case, we use onMouseDown() to trigger an ajax call to our logger.
+
+    To add more elements, Events.bind() can be used multiple times througout a script.
+
+    In this case, we monitor clicks outside 'content' element, so thats 'topwrapper' and 'top_banner'
+
+    The logger takes input in following format:
+
+    http://traffictester.net/log_ajax_jsonp.php?callback=jsonp&type=click&bid=DigitalRoadmapAnalytics_DM&area=topwrapper&ref=12345
+
+    callback - jsonp() defined below
+    type - 'hit' or 'click' - when user first lands on page, we record a 'hit' and when they click, we record the 'click'
+    bid - static and is assigned per client
+    area - the div id click came on
+    ref - utm_content or other relevant GET var content, see getUrlVars() below
+    */
+    // GET parameters getter
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    // grab the GET vars, we look for specific ones
+    // @todo for now we do this twice, here and in jsonp()
+    var ref = getUrlVars()['from_campaign'];
+    if (!ref) {
+        var ref = getUrlVars()['utm_campaign'];
+    }
+    if (!ref) {
+        var ref = getUrlVars()['utm_medium'];
+    }
+    if (!ref) {
+        var ref = getUrlVars()['utm_source'];
+    }
+    if (!ref) {
+        var ref = getUrlVars()['utm_content'];
+    }
+
+    // record the hit
+    document.getElementById('dr_ajax_logger').src = 'http://traffictester.net/log_ajax_jsonp.php?type=hit&bid=DigitalRoadmapAnalytics_DM&area=topwrapper&callback=dr_jsonp_callback&ref=' + ref;
+
+    // jsonp callback
+    function dr_jsonp_callback() {
+        // this is the element with out redirect url
+        var redirect_div = document.getElementById('top_banner');
+
+        // we dont really need it, but may be later
+        var ret = dr_jsonp_callback.arguments;
+
+        // grab the GET vars, we look for specific ones
+        var ref = getUrlVars()['from_campaign'];
+        if (!ref) {
+            var ref = getUrlVars()['utm_campaign'];
+        }
+        if (!ref) {
+            var ref = getUrlVars()['utm_medium'];
+        }
+        if (!ref) {
+            var ref = getUrlVars()['utm_source'];
+        }
+        if (!ref) {
+            var ref = getUrlVars()['utm_content'];
+        }
+
+        // this is the element we want to bind our events on
+        // in this case, it is the main 'content' element - we DO NOT want to track clicks here
+        var redDiv = document.getElementById('content');
+        if (!redDiv) return;
+
+        // these are the elements we want to log clicks on
+        // @todo we currently support 2 out of the box, would have to write additional mouseenter and mouseleave code for each new one
+        mon1 = document.getElementById('topwrapper');
+        mon2 = document.getElementById('subheader_container');
+
+        // so we bind an empty function to the element WE DO want to track when the mouse is over 'content'
+        Events.bind(redDiv, 'mouseenter', function (e) {
+
+            // 'topwrapper' is the actual element WE DO want to monitor
+            if (mon1) {
+                mon1.onmousedown = function () {}
+            }
+
+            // 'top_banner' is the other one
+            if (mon2) {
+                mon2.onmousedown = function () {}
+            }
+        });
+
+        // however, when we leave this element, we assume that now we want to track our clicks
+        Events.bind(redDiv, 'mouseleave', function (e) {
+
+            // so we bind onMouseDown() to 'topwrapper'
+            if (mon1) {
+                mon1.onmousedown = function () {
+                    // remove event from the other divs
+                    if (mon2) {
+                        mon2.onmousedown = function () {}
+                    }
+
+                    if (ref) {
+                        var head = document.getElementsByTagName('head')[0];
+                        var script = document.createElement('script');
+                        script.type = 'text/javascript';
+                        script.src = 'http://traffictester.net/log_ajax_jsonp.php?callback=dr_jsonp_callback&type=click&bid=DigitalRoadmapAnalytics_DM&area=topwrapper&ref=' + ref + '&r=' + Math.random();
+                        head.appendChild(script);
+
+                        // and since we redirect on that click, we redirect to url that comes from 'top_banner'
+                        if (redirect_div) {
+                            window.open(redirect_div.href, '_blank');
+                        }
+                    }
+                }
+            }
+
+            // and 'subheader_container'
+            if (mon2) {
+                mon2.onmousedown = function () {
+                    // remove event from the other divs
+                    if (mon1) {
+                        mon1 = function () {}
+                    }
+
+                    if (ref) {
+                        var head = document.getElementsByTagName('head')[0];
+                        var script = document.createElement('script');
+                        script.type = 'text/javascript';
+                        script.src = 'http://traffictester.net/log_ajax_jsonp.php?callback=dr_jsonp_callback&type=click&bid=DigitalRoadmapAnalytics_DM&area=subheader_container&ref=' + ref + '&r=' + Math.random();
+                        head.appendChild(script);
+
+                        // and since we redirect on that click, we redirect to url that comes from 'top_banner'
+                        if (redirect_div) {
+                            window.open(redirect_div.href, '_blank');
+                        }
+                    }
+                }
+            }
+        });
+    }
+</script>
+<!-- END TRAFFICTESTER US --><script type="text/javascript" src="http://cdn.taboolasyndication.com/libtrc/dailymotion/loader.js"></script>
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+_taboola.push({video:'auto', visible:'false'});
+</script><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var ot = document.title; document.title = "home";
+try {
+var ga = _gat._getTracker("UA-64443-1");
+ga._addIgnoredOrganic("dailymotion");
+ga._addIgnoredOrganic("daily motion");
+ga._addIgnoredOrganic("daylimotion");
+ga._addIgnoredOrganic("dailymotion.com");
+ga._addIgnoredOrganic("dailymotion.fr");
+ga._addIgnoredOrganic("daily");
+ga._addIgnoredOrganic("daylymotion");
+ga._addIgnoredOrganic("dailimotion");
+ga._addIgnoredOrganic("dalimotion");
+ga._addIgnoredOrganic("dailymation");
+ga._setCustomVar(3, "page_type", "home", 3);
+ga._setCustomVar(4, "segment", "36", 1);
+ga._trackPageview("/us?site_version=us");
+var timeTracker = new TimeTracker();
+timeTracker._recordStartTime();
+setTimeout('timeTracker._recordEndTime(); timeTracker._track(ga, "Time spent", "5 mn");', 300000);
+ga._trackPageLoadTime();
+} catch(err) {}
+document.title = ot;
+</script>
+<script type="text/javascript">//<![CDATA[
+var familyFilterUri = '/family_filter?urlback=%2Fus';var familyFilterLabel = 'ON';var userType = false;var motionmakerUrl = '/us/motionmaker';var PM_DEBUG_LEVEL = 0;DM_MobileVersionAvailableLabel = 'A mobile version of Dailymotion is available for your device. Do You want to use it? Your choice will be remembered during 1 day.';DM_Widget_PageItem_Search_autocomplete_enabled = '1';DM_Widget_PageItem_Search_language = 'us';DM_Features = {"qrcode":{"feature_selector":"#qrcode_link","width":415,"fixed_left_offset":-106,"position":"bottom","insert_in":"#topwrapper","cookie":"qrc","msg":"<h5>New!<\/h5><p>You can now generate <a href=\"http:\/\/wikipedia.org\/wiki\/QR_Code\" target=\"_blank\">QRCodes<\/a> for all Dailymotion pages. QRCodes are the perfect tool to promote and share content on mobile devices.<\/p><p>Just click above and start using QRCodes <span class=\"highlight\">today<\/span>!<\/p>"}};DM_Pagev3 = true;DM_CloseLabel = 'close';DM_CancelLabel = 'cancel';DM_MoreLabel = 'more';DM_LessLabel = 'less';secondSingularLabel = 'just now';secondPluralLabel = 'just now';minuteSingularLabel = '%d minute ago';minutePluralLabel = '%d minutes ago';hourSingularLabel = '%d hour ago';hourPluralLabel = '%d hours ago';daySingularLabel = '%d day ago';dayPluralLabel = '%d days ago';weekSingularLabel = '%d week ago';weekPluralLabel = '%d weeks ago';monthSingularLabel = '%d month ago';monthPluralLabel = '%d months ago';yearSingularLabel = '%d year ago';yearPluralLabel = '%d years ago';DM_Widget_PageItem_Masscast.call = 'http://www.dailymotion.com/masscast/4/dailymotion.us/home/2055605731@x28,x69,Middle,Top,Top3,Top2?WIN7=1&DMAPIPLAYER=0&DMROUTE=home&DMNOADFIT=0&DMEXPLICIT=0&DMLANG=en&DMTYPE=prod&DMV3=1';DM_Widget_PageItem_Masscast.enableRotateAd = true;DM_Widget_PageItem_Masscast.mandatoryJS = 'http://static1.dmcdn.net/js/gen/widget/pack/mandatory.js.v8273090c343b303f4';DM_Widget_PageItem_Masscast.baseJS = 'http://static1.dmcdn.net/js/gen/widget/pack/base.js.v84c806167c7607064';DM_Widget_PageItem_Masscast.baseSkin = 'http://static1.dmcdn.net/css/gen/widget/pack/baseskin-prod.css.v7e88a3aed4ebba714';DM_Widget_PageItem_Masscast.positionCalled[0] = 'x28';DM_Widget_PageItem_Masscast.positionCalled[1] = 'x69';DM_Widget_PageItem_Masscast.positionCalled[2] = 'Middle';DM_Widget_PageItem_Masscast.positionCalled[3] = 'Top';DM_Widget_PageItem_Masscast.positionCalled[4] = 'Top3';DM_Widget_PageItem_Masscast.positionCalled[5] = 'Top2';DM_Widget_PageItem_Masscast.defaultReloadTime["Middle"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["Middle"] = null;DM_Widget_PageItem_Masscast.defaultReloadTime["x28"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["x28"] = null;DM_Widget_PageItem_Masscast.defaultReloadTime["Top"] = null;DM_Widget_PageItem_Masscast.reloadMaxDuration["Top"] = null;DM_Widget_PageItem_Video_Carousel.linksTarget = '_self';DM_Widget_PageItem_Video_Carousel.slideList = [{"index":0,"videoPreviewUri480":"http:\/\/static2.dmcdn.net\/static\/video\/299\/858\/41858992:jpeg_preview_source.jpg?20120418023907","videoPreviewUri120":"http:\/\/static2.dmcdn.net\/static\/video\/299\/858\/41858992:jpeg_preview_medium.jpg?20120418023907","videoId":"xox6ls","videoTitle":"Live Comedy From Brooklyn","videoUrl":"http:\/\/www.dailymotion.com\/video\/xox6ls_the-moon-live_shortfilms","videoDescription":"The Moon streams to you live from Union Pool in Williamsburg, Brooklyn. Hosted by Bob Walles and Nat Towsen.","videoDuration":"00:20","price":null,"contextUri":"\/us\/featured","previewAnchor":"#hp-sc-p-1","titleAnchor":"#hp-sc-t-1","isLive":true,"link":"http:\/\/www.dailymotion.com\/video\/xox6ls_the-moon-live_shortfilms"},{"index":1,"videoPreviewUri480":"http:\/\/static2.dmcdn.net\/static\/video\/807\/564\/43465708:jpeg_preview_source.jpg?20120417221342","videoPreviewUri120":"http:\/\/static2.dmcdn.net\/static\/video\/807\/564\/43465708:jpeg_preview_medium.jpg?20120417221342","videoId":"xpvmcs","videoTitle":"A$AP Rocky and Lana Del Rey Collaborate","videoUrl":"http:\/\/www.dailymotion.com\/video\/xpvmcs_lana-del-rey-feat-asap-rocky_music","videoDescription":"A$AP admits he fell in love with Lana's voice. Listen to a sneak of their track.","videoDuration":"01:08","price":null,"contextUri":"\/us\/featured","previewAnchor":"#hp-sc-p-2","titleAnchor":"#hp-sc-t-2","isLive":false,"link":"http:\/\/www.dailymotion.com\/video\/xpvmcs_lana-del-rey-feat-asap-rocky_music"},{"index":2,"videoPreviewUri480":"http:\/\/static2.dmcdn.net\/static\/video\/352\/069\/43960253:jpeg_preview_source.jpg?20120417214700","videoPreviewUri120":"http:\/\/static2.dmcdn.net\/static\/video\/352\/069\/43960253:jpeg_preview_medium.jpg?20120417214700","videoId":"xq67y5","videoTitle":"Song Produced 100% by Gunshots","videoUrl":"http:\/\/www.dailymotion.com\/video\/xq67y5_guns-em_music","videoDescription":"Eclectic Method latest incredible work of art is a remix produced entirely by ammunition.","videoDuration":"01:58","price":null,"contextUri":"\/us\/featured","previewAnchor":"#hp-sc-p-3","titleAnchor":"#hp-sc-t-3","isLive":false,"link":"http:\/\/www.dailymotion.com\/video\/xq67y5_guns-em_music"},{"index":3,"videoPreviewUri480":"http:\/\/static2.dmcdn.net\/static\/video\/332\/719\/43917233:jpeg_preview_source.jpg?20120417152830","videoPreviewUri120":"http:\/\/static2.dmcdn.net\/static\/video\/332\/719\/43917233:jpeg_preview_medium.jpg?20120417152830","videoId":"xq5ar5","videoTitle":"New 'Amazing Spider-Man' Trailer","videoUrl":"http:\/\/www.dailymotion.com\/video\/xq5ar5_nouvelle-bande-annonce-pour-the-amazing-spider-man_shortfilms","videoDescription":"A new Japanese clip gives fans a few new images...","videoDuration":"02:09","price":null,"contextUri":"\/us\/featured","previewAnchor":"#hp-sc-p-4","titleAnchor":"#hp-sc-t-4","isLive":false,"link":"http:\/\/www.dailymotion.com\/video\/xq5ar5_nouvelle-bande-annonce-pour-the-amazing-spider-man_shortfilms"},{"index":4,"videoPreviewUri480":"http:\/\/static2.dmcdn.net\/static\/video\/824\/216\/43612428:jpeg_preview_source.jpg?20120417154209","videoPreviewUri120":"http:\/\/static2.dmcdn.net\/static\/video\/824\/216\/43612428:jpeg_preview_medium.jpg?20120417154209","videoId":"xpyrkc","videoTitle":"Nicki Minaj \u2013 Beez In The Trap","videoUrl":"http:\/\/www.dailymotion.com\/video\/xpyrkc_nicki-minaj-beez-in-the-trap-explicit_music","videoDescription":"With plenty of eye-popping visuals, Nicki's latest music video is pretty explicit. Watch now","videoDuration":"04:40","price":null,"contextUri":"\/us\/featured","previewAnchor":"#hp-sc-p-5","titleAnchor":"#hp-sc-t-5","isLive":false,"link":"http:\/\/www.dailymotion.com\/video\/xpyrkc_nicki-minaj-beez-in-the-trap-explicit_music"},{"index":5,"videoPreviewUri480":"http:\/\/static2.dmcdn.net\/static\/video\/136\/798\/43897631:jpeg_preview_source.jpg?20120415141505","videoPreviewUri120":"http:\/\/static2.dmcdn.net\/static\/video\/136\/798\/43897631:jpeg_preview_medium.jpg?20120415141505","videoId":"xq4vmn","videoTitle":"Rammstein's 'Sonne' Covered by Kids","videoUrl":"http:\/\/www.dailymotion.com\/video\/xq4vmn_rammstein-sonne-cover-children-medieval-band_music","videoDescription":"Stefan, Olga and Cornelia, all under ten years old, seriously rock out.","videoDuration":"04:21","price":null,"contextUri":"\/us\/featured","previewAnchor":"#hp-sc-p-6","titleAnchor":"#hp-sc-t-6","isLive":false,"link":"http:\/\/www.dailymotion.com\/video\/xq4vmn_rammstein-sonne-cover-children-medieval-band_music"}];DM_Widget_PageItem_Video_Carousel.initialize();DM_Widget_PageItem_Facebook_Connect_APP_ID = '96937694899';DM_Widget_PageItem_Facebook_Connect_API_KEY = 'c428ec775e20b333d99e64040df42c5c';DM_Widget_PageItem_Facebook_Connect_RECEIVER_URI = '/xd_receiver.htm';DM_Widget_PageItem_Facebook_Connect_LOGOUT_CONFIRM_MSG = 'A different Dailymotion user is currently logged into Facebook. Do you want to log them out?';
+//]]></script></div>
+</body>
+</html>

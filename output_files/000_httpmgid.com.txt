@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>MGID: We Help Websites Grow Traffic for FREE</title><meta name="description" content="The goal of our project is to provide the potential customers with the latest information on the goods and services available on the internet" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><link href="/images/favicon_us.ico" rel="shortcut icon" />
+<link href="/styles/main_us.css" media="screen" rel="stylesheet" type="text/css" /><link href="/images/favicon_us.ico" rel="shortcut icon" />
+<link href="/styles/main_us.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://news.mgid.com/public/feed.xml" rel="alternate" type="application/rss+xml" title="MGID feed" /><script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-8195506700360341");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleUseIframeRendering();
+</script>    </head>
+    <body>
+        <div id="page">
+    <div id="header">
+        <a href="http://mgid.com" id="logo"><img src="http://mgid.com/images/logo.png" alt="" /></a>
+        <ul id="h-menu">
+            <li><a href="http://stat.mgid.com">Login</a></li>
+        </ul>
+        <ul class="cooperation">
+            <li><a href="http://usr.mgid.com/demo/how-it-works/"><p>Free traffic exchange</p><span>increase your traffic</span></a></li>
+            <li><a href="http://usr.mgid.com/demo/popunder/"><p>Publishers</p><span>earn money with us</span></a></li>
+            <li class="selected"><a href="http://usr.mgid.com/demo/goods/"><p>ADVERTISE WITH US</p><span id="mgpricefrom">start from 1&cent; per click</span></a></li>
+            <li><a href="http://stat.mgid.com"><p>Login</p></a></li>
+        </ul>
+        <script type="text/javascript" src="http://usr.mgid.com/menu/mgpricefrom"></script>
+        <div class="clear"></div>
+        <div id="nav">
+            <table id="menu"><tr>
+                <td><a href="http://news.mgid.com/economics">News</a></td>
+                <td><a href="http://news.mgid.com/fashion-and-beauty">Entertainment</a></td>
+                <td><a href="http://news.mgid.com/technology">Tech</a></td>
+                <td><a href="http://news.mgid.com/fails">Fun</a></td>
+                <td><a href="http://news.mgid.com/sports">Sports</a></td>
+                <td class="last-li-menu"><a href="http://news.mgid.com/health">Health & Fitness</a></td>
+            </tr></table>
+        </div>
+        <div id="header_adv">
+           <div id="top" ><iframe src="http://mgid.com/ban/home_728_top.html" width="730" height="90" frameborder="0" scrolling="no">
+ </iframe></div><div id="doping"><iframe src="http://mgid.com/ban/home_250.html" width="250" height="90" frameborder="0" scrolling="no">
+ </iframe></div>            <div class="clear"></div>
+        </div>
+</div> <!-- end header -->
+    <div class="inf-tape">  <!-- inf-tape -->
+        <div class="inf-title">FEATURED ARTICLES</div>
+        <div class="inf-left"><a href="#"><img src="/images/inf-left.png" /></a></div>
+        <!-- MGID News Widget Start -->
+        <div id="MarketGid4218">
+            <center><a href="http://mgid.com/" target="_blank">Loading...</a></center>
+        </div>
+        <!-- MGID News Widget End -->
+        <div class="inf-right"><a href="#"><img src="/images/inf-right.png" /></a></div>
+    </div> <!-- end inf-tape -->
+    <hr />
+    <div id="content">
+    <div class="top-news-img"><img src="/images/topnews.png" /></div>
+        <div id="left-col">
+
+        </div> <!-- end left-col -->
+
+<script type="text/javascript">
+        var TOPCategories = {1:"Products", 2:"Politics", 3:"Society",4:"Fails",5:"Economics",6:"Sports",8:"Auto",9:"Celebrities",10:"Fashion and Beauty",11:"Humor",12:"Health and Medicine",13:"Technology",14:"Cell Phones",15:"Amazing",16:"Computers",17:"Movies",18:"Games",19:"Music",20:"Social Networking",21:"Science",22:"Culture and Arts",23:"Internet",24:"Travel",25:"Animals",26:"Software",27:"Fitness",57:"Real Estate",59:"Relationships", 61:"History", 63:"Life and Family", 65:"Design",67:"Home",69:"Blogging",71:"Career and education",29:"Products",30:"Politics",31:"Society",32:"Fails",33:"Economics",34:"Sports",36:"Auto",37:"Celebrities",38:"Fashion and Beauty",39:"Humor",40:"Health",41:"Technology",42:"Cell Phones",43:"Amazing",44:"Computers",45:"Movies",46:"Games",47:"Music",48:"Social Networking",49:"Science",50:"Culture and Arts",51:"Internet",52:"Travel",53:"Animals",54:"Software",55:"Fitness",58:"Real Estate",60:"Relationships", 62:"History", 64:"Life and Family", 66:"Design",68:"Home", 70:"Blogging", 72:"Career and education"} ; var TOPdictionary = {1:"Link Author", 2:"Read more"};
+    var id_top = 1; var href = window.location.toString().split("?");
+    if (href[1] != undefined){if (href[1] > 20) href[1] = 1;}else href[1] = 1;
+    id_top = href[1]; var next_top = parseInt(id_top) + 1;
+    var paginate = '<div class="paginator"><div><a href="?' + next_top + '" >Next</a></div></div>';
+
+    function MarketTopLoad15(data)
+    {
+            MarketTopLoad(data);
+    }
+    function MarketTopLoad(data, id_top)
+    {
+        var myHTML = ' ';
+        var div_class = '';
+        for (i=0; i<=data.length-1; i++){
+            div_class = i%2 == 0 ? 'news' : 'news1';
+            if (i == 0){
+                div_class += ' n-first';
+            } else if (i == data.length-1){
+                div_class += ' n-last';
+            }
+            if (data[i][2] == 1) var razsh = '.jpg';else var razsh = '.gif';
+            if (!TOPCategories[data[i][5]]) var namecat = ''; else namecat = TOPCategories[data[i][5]];
+            myHTML = myHTML + '<div class="' + div_class + '"><a target="_blank" href="http://www.mgid.com/tnews/'+data[i][1]+'/"><img src="http://imgn.dt07.net/'+Math.floor(data[i][1]/1000)+'/'+data[i][1]+"_vb"+razsh+'" width="140" border="0" alt="'+data[i][3]+';"></a><a target="_blank" href="http://www.mgid.com/tnews/'+data[i][1]+'/" class="link">'+data[i][3]+'</a><a target="_blank" href="http://news.mgid.com/'+data[i][5]+'" class="cat">'+namecat+'</a><a target="_blank" href="http://www.mgid.com/tnews/'+data[i][1]+'/" class="desc">'+data[i][4]+'</a><span class="related-mat"><a class="read-more" href="http://www.mgid.com/tnews/'+data[i][1]+'/" target="_blank">'+TOPdictionary[2]+'</a></span></div>';
+        }
+        myHTML = myHTML + paginate;
+        document.getElementById('left-col').innerHTML = myHTML;
+    }
+
+</script>
+<!-- START LOAD TOP -->
+<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="http://topblock.dt07.net/j/15/' + id_top + '"></scr'+'ipt>');</script>
+<!-- END LOAD TOP -->    
+
+        <div id="right-col">
+            <div class="banner">
+                <iframe src="http://mgid.com/ban/home_300_top.html" width="300" height="250" frameborder="0" scrolling="no">
+ </iframe>            </div>
+            <form action="http://goods.us.marketgid.com/search/" id="search">
+                <table>
+                <tbody><tr>
+<!--                    <td><input type="text" onfocus="this.value='';" class="hs-query" id="hs-query" name="query" value="For Example: Xbox 360 Games"></td>
+                    <td><input type="submit" id="hs-submit" value=""></td> -->
+                    <td class="networks"><a href="http://news.mgid.com/public/feed.xml" class="rss"></a></td>
+                    <td class="networks"><a href="http://twitter.com/mgid" class="twitter"></a></td>
+                    <td class="networks"><a href="http://www.facebook.com/pages/MGID/152193621459152" class="facebook"></a></td>
+                </tr>
+                </tbody></table>
+            </form>
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmgidglobal&width=300&height=258&colorscheme=light&show_faces=true&border_color&stream=false&header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:258px;" allowTransparency="true"></iframe>
+            <div class="most-clicable"><p>BESTSELLERS</p></div>
+            <!-- MGIDGoods Start -->
+            <div class="r-col-inf" id="MarketGid7">
+                <center><a href="http://mgid.com/" target="_blank">Loading...</a></center>
+            </div>
+            <!-- MGIDGoods End -->
+            <div class="banner">
+                <iframe src="http://mgid.com/ban/home_300_footer.html" width="300" height="250" frameborder="0" scrolling="no">
+ </iframe>            </div>
+            <div class="product-list"><p>BESTSELLERS</p></div>
+            <!-- MGIDGoods Start -->
+            <div class="r-col-inf" id="MarketGid2">
+                <center><a href="http://mgid.com/" target="_blank">Loading...</a></center>
+            </div>
+            <!-- MGIDGoods End -->
+        </div> <!-- end right-col -->
+        <div class="cc"></div>
+        <hr />
+        <div id="bottom-banner">
+            <iframe src="http://mgid.com/ban/home_728_footer.html" width="730" height="90" frameborder="0" scrolling="no">
+ </iframe>        </div>
+    </div> <!-- end content -->
+    <hr />
+  <div id="footer">
+        <ul class="categiries">
+        <li class="categiries-li">Categories:</li>
+                     <li><a href="http://news.mgid.com/amazing">Amazing</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/animals">Animals</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/auto">Auto</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/blogging">Blogging</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/career-and-education">Career and education</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/celebrities">Celebrities</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/cell-phones">Cell Phones</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/computers">Computers</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/culture-and-arts">Culture and Arts</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/design">Design</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/economics">Economics</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/fails">Fails</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/fashion-and-beauty">Fashion and Beauty</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/fitness">Fitness</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/games">Games</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/health">Health</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/home">Home</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/humor">Humor</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/internet">Internet</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/life-and-family">Life and Family</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/movies">Movies</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/music">Music</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/politics">Politics</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/real-estate">Real Estate</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/relationships">Relationships</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/science">Science</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/social-networking">Social Networking</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/society">Society</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/software">Software</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/sports">Sports</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/technology">Technology</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/travel">Travel</a></li>
+                    <li>|&nbsp;<a href="http://news.mgid.com/tv">TV</a></li>
+        
+        </ul>
+        <ul class="us">
+            <li><a href="http://usr.mgid.com/about/" class="blue">About&nbsp;Us</a>&nbsp;|&nbsp;</li>
+            <li><a href="http://usr.mgid.com/about/vacancy/" class="blue">Vacancies</a>&nbsp;|&nbsp;</li>
+            <li><a href="http://usr.mgid.com/feedback/contact/" class="blue">Contact&nbsp;Us</a></li>
+            <li><a href="http://usr.mgid.com/demo/license/" class="blue">Terms&nbsp;Of&nbsp;Service</a>&nbsp;|&nbsp;</li>
+            <li><a href="http://usr.mgid.com/demo/how-it-works/" class="blue">Traffic&nbsp;Exchange</a></li>
+            <li><a href="http://usr.mgid.com/demo/clicks/" class="blue">Advertise&nbsp;With&nbsp;Us</a>&nbsp;|&nbsp;</li>
+            <li><a href="http://usr.mgid.com/demo/press/" class="blue">Press</a>&nbsp;&nbsp;</li>
+        </ul>
+        <div class="cc"></div>
+        <table id="copyright_block">
+        <tr>
+            <td id="copyright">&copy; Copyright MGID Inc. 2011.<br /><br /> All rights reserved.</td>
+            <td id="verisign">
+                <table width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose VeriSign Trust Seal to promote trust online with consumers.">
+<tr>
+<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=mgid.com&size=L&use_flash=YES&use_transparent=YES&lang=en"></script><br />
+<a href="http://www.verisign.com/verisign-trust-seal" target="_blank" style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">ABOUT TRUST ONLINE</a></td>
+</tr>
+</table>
+            </td>
+            <td id="networks">
+                <table>
+                <tr>
+                    <td><a class="rss" href="http://news.mgid.com/public/feed.xml"></a></td>
+                    <td><a class="twitter" href="http://twitter.com/mgid"></a></td>
+                    <td><a class="facebook" href="http://www.facebook.com/pages/MGID/152193621459152"></a></td>
+                    <td><a class="blog" href="http://blog.mgid.com/"></a></td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+        </table>
+    </div> <!-- end footer -->
+</div>
+<!-- before </body> tag -->
+<script type="text/javascript">
+var MarketGidDate = new Date();
+document.write('<scr'+'ipt type="text/javascript" '
++'src="http://jsn.dt07.net/m/g/mgid.com.4218.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()
++ '" charset="utf-8" ></scr'+'ipt>');
+</script>
+<!-- before </body> tag -->
+<script type="text/javascript">
+var MGIDDate = new Date();
+document.write('<scr'+'ipt type="text/javascript" '
++'src="http://jsg.dt07.net/m/g/mgid.com.7.js?t='+MGIDDate.getYear()+MGIDDate.getMonth()+'"'
++ '" charset="utf-8" ></scr'+'ipt>');
+</script>
+
+<!-- before </body> tag -->
+<script type="text/javascript">
+var MGIDDate = new Date();
+document.write('<scr'+'ipt type="text/javascript" '
++'src="http://jsg.dt07.net/m/g/mgid.com.2.js?t='+MGIDDate.getYear()+MGIDDate.getMonth()+'"'
++ '" charset="utf-8" ></scr'+'ipt>');
+</script>
+
+<!-- START Google Analitics //-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7107067-1']);
+_gaq.push(['_setDomainName', '.mgid.com']);
+_gaq.push(['_setAllowHash', false]);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- END Google Analitics //-->
+
+<div style="position:absolute; left:-1000px">
+<!--LiveInternet counter-->
+<script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click;MG' "+
+"target=_blank><img src='//counter.yadro.ru/hit;MG?t16.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+
+"border='0' width='88' height='31'><\/a>")
+//--></script>
+<!--/LiveInternet-->
+</div>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-70winhbxIuBeo"
+};
+</script>
+<script type="text/javascript"
+src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-70winhbxIuBeo.gif"
+style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+<!-- Begin comScore Tag -->
+<script>
+   document.write(unescape("%3Cscript src='" +
+(document.location.protocol == "https:" ? "https://sb" : "http://b") +
+".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+
+<script>
+ COMSCORE.beacon({
+   c1:2,
+   c2:7808155,
+   c3:"",
+   c4:"",
+   c5:"",
+   c6:"",
+   c15:""
+ });
+</script>
+<noscript>
+ <img
+src="http://b.scorecardresearch.com/p?c1=2&c2=7808155&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!--indicator-->
+<script language="JavaScript" type="text/javascript">
+<!--
+var section = '2';
+var type = '1';
+var browser = 'other';
+
+if (window.navigator.userAgent.lastIndexOf('Firefox') >= 0)
+    browser = 'ff' + window.navigator.userAgent.substr(window.navigator.userAgent.lastIndexOf('Firefox') + 8, 1);
+else if (window.navigator.userAgent.lastIndexOf('Opera') >= 0)
+    browser = 'o';
+else if (window.navigator.userAgent.lastIndexOf('MSIE') >= 0)
+    browser = 'ie' + window.navigator.userAgent.substr(window.navigator.userAgent.lastIndexOf('MSIE') + 5, 1);
+else if (window.navigator.userAgent.lastIndexOf('Chrome') >= 0)
+    browser = 'ch';
+
+var src = 'http://foreign.dt00.net/indicator.php?type=' + type + '&section=' + section + '&browser=' + browser;
+document.write('<img src="' + src + '" height="1" width="1" style="border:0;position:absolute; left:-1000px" />');
+//-->
+</script>
+
+<script src="http://img.dt07.net/scripts/goodhits_viewer.js" type="text/javascript"></script>
+<!--/indicator-->
+<!-- В фаерфоксе есть глюк с ифреймами. //-->
+<!--script type="text/javascript">
+    if (navigator.userAgent.indexOf("Gecko")>0){
+        var firefoxIframesBug = document.getElementsByTagName('iframe');
+        for (var i=0;i<firefoxIframesBug.length;i++) firefoxIframesBug[i].src=firefoxIframesBug[i].src;
+    }
+</script-->
+    </body>
+</html>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internet Archive: Digital Library of Free Books, Movies, Music & Wayback Machine</title>
+  <script type="text/javascript" src="http://archive.org/includes/jquery-1.6.1.js"></script>
+<script type="text/javascript" src="http://archive.org/includes/analytics.js?v=42550"></script>
+
+   <meta name="DESCRIPTION" content="Internet Archive is a non-profit digital library offering free universal access to books, movies & music, as well as 150 billion archived web pages."/>
+   <link rel="alternate" type="application/xml" title="RSS" href="http://archive.org/services/collection-rss.php"/>  <link rel="stylesheet" href="/stylesheets/archive.css?v=42903" type="text/css"/>
+  <link rel="SHORTCUT ICON" href="/images/glogo.jpg"/>
+</head>
+<body class="Home top">
+   
+     <!--BEGIN HEADER 1-->
+<table style="background-color:white " cellspacing="0" width="100%" border="0" cellpadding="0">
+  <tbody>
+    <tr> 
+      <td id="logo">
+        <a href="/"><img title="Internet Archive" alt="Internet Archive"
+                         src="/images/glogo.png"/></a>
+      </td>
+      <td valign="bottom" id="navbg">
+        <table width="100%" border="0" cellpadding="5">
+          <tr> 
+            <td class="level1Header">
+                            <div class="tab">
+                <a href="/web/web.php">Web</a>
+              </div>
+                            <div class="tab">
+                <a href="/details/movies">Moving Images</a>
+              </div>
+                            <div class="tab">
+                <a href="/details/texts">Texts</a>
+              </div>
+                            <div class="tab">
+                <a href="/details/audio">Audio</a>
+              </div>
+                            <div class="tab">
+                <a href="/details/software">Software</a>
+              </div>
+                            <div class="tab">
+                <a href="/account/login.php">Patron Info</a>
+              </div>
+                            <div class="tab">
+                <a href="/about/about.php">About IA</a>
+              </div>
+                            <div class="tab">
+                <a href="/projects/">Projects</a>
+              </div>
+                          </td>
+          </tr>
+        </table>
+      </td>
+      <td style="width:80px; height:72px; vertical-align:middle; text-align:right">
+        <a href="/"><img title="Universal Access To All Knowledge" alt="Universal Access To All Knowledge" id="TRimg" src="/images/main-header.jpg"/></a>      </td>
+    </tr>
+  </tbody>
+</table>
+
+     
+<!--BEGIN HEADER 2-->
+<table width="100%" class="level2Header">
+  <tbody>
+    <tr>
+      <td align="left" valign="top" class="level2HeaderLeft">
+        <a class="level2Header" href="/">Home</a>
+      </td>
+      <td style="width:100%;" class="level2Header">
+        <a href="/iathreads/forums.php">Forums</a> | 
+<a href="/about/faqs.php">FAQs</a> | 
+<a href="/contribute.php">Contributions</a> | 
+<a href="/about/jobs.php">Jobs</a> | 
+<a href="/donate/index.php">Donate</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+     
+
+<!--BEGIN HEADER 3-->
+<div class="level3HeaderColorBar"> </div>
+<table cellspacing="0" width="100%" border="0" cellpadding="0">
+  <tbody>
+    <tr> 
+      <td class="level3Header level3HeaderLeft">
+        <form style="margin:0;padding:0;" action="http://archive.org/searchresults.php" id="searchform" method="post">
+          <b>Search:</b>
+          <input tabindex="1" size="25" name="search" value="" style="font-size: 8pt"/>
+          <select tabindex="2" style="PADDING-TOP: 2px; font-size: 8pt;" name="mediatype">
+            <option value="all">All Media Types</option>
+            <option  value="web">&nbsp;&nbsp;Wayback Machine</option>
+            
+            <option  value="movies">&nbsp;&nbsp;Moving Images</option>
+<option value="movies.animationandcartoons">&nbsp;&nbsp;&nbsp;&nbsp;Animation & Cartoons</option>
+<option value="movies.artsandmusicvideos">&nbsp;&nbsp;&nbsp;&nbsp;Arts & Music</option>
+<option value="movies.opensource_movies">&nbsp;&nbsp;&nbsp;&nbsp;Community Video</option>
+<option value="movies.computersandtechvideos">&nbsp;&nbsp;&nbsp;&nbsp;Computers & Technology</option>
+<option value="movies.culturalandacademicfilms">&nbsp;&nbsp;&nbsp;&nbsp;Cultural & Academic Films</option>
+<option value="movies.ephemera">&nbsp;&nbsp;&nbsp;&nbsp;Ephemeral Films</option>
+<option value="movies.moviesandfilms">&nbsp;&nbsp;&nbsp;&nbsp;Movies</option>
+<option value="movies.newsandpublicaffairs">&nbsp;&nbsp;&nbsp;&nbsp;News & Public Affairs</option>
+<option value="movies.prelinger">&nbsp;&nbsp;&nbsp;&nbsp;Prelinger Archives</option>
+<option value="movies.spiritualityandreligion">&nbsp;&nbsp;&nbsp;&nbsp;Spirituality & Religion</option>
+<option value="movies.sports">&nbsp;&nbsp;&nbsp;&nbsp;Sports Videos</option>
+<option value="movies.television">&nbsp;&nbsp;&nbsp;&nbsp;Television</option>
+<option value="movies.gamevideos">&nbsp;&nbsp;&nbsp;&nbsp;Videogame Videos</option>
+<option value="movies.vlogs">&nbsp;&nbsp;&nbsp;&nbsp;Vlogs</option>
+<option value="movies.youth_media">&nbsp;&nbsp;&nbsp;&nbsp;Youth Media</option>
+<option value="movies.openaccess">&nbsp;&nbsp;&nbsp;&nbsp;Open Access</option>
+<option  value="texts">&nbsp;&nbsp;Texts</option>
+<option value="texts.americana">&nbsp;&nbsp;&nbsp;&nbsp;American Libraries</option>
+<option value="texts.toronto">&nbsp;&nbsp;&nbsp;&nbsp;Canadian Libraries</option>
+<option value="texts.universallibrary">&nbsp;&nbsp;&nbsp;&nbsp;Universal Library</option>
+<option value="texts.opensource">&nbsp;&nbsp;&nbsp;&nbsp;Community Texts</option>
+<option value="texts.gutenberg">&nbsp;&nbsp;&nbsp;&nbsp;Project Gutenberg</option>
+<option value="texts.iacl">&nbsp;&nbsp;&nbsp;&nbsp;Children's Library</option>
+<option value="texts.biodiversity">&nbsp;&nbsp;&nbsp;&nbsp;Biodiversity Heritage Library</option>
+<option value="texts.additional_collections">&nbsp;&nbsp;&nbsp;&nbsp;Additional Collections</option>
+<option  value="audio">&nbsp;&nbsp;Audio</option>
+<option value="audio.audio_bookspoetry">&nbsp;&nbsp;&nbsp;&nbsp;Audio Books & Poetry</option>
+<option value="audio.opensource_audio">&nbsp;&nbsp;&nbsp;&nbsp;Community Audio</option>
+<option value="audio.audio_tech">&nbsp;&nbsp;&nbsp;&nbsp;Computers & Technology</option>
+<option value="audio.GratefulDead">&nbsp;&nbsp;&nbsp;&nbsp;Grateful Dead</option>
+<option value="audio.etree">&nbsp;&nbsp;&nbsp;&nbsp;Live Music Archive</option>
+<option value="audio.audio_music">&nbsp;&nbsp;&nbsp;&nbsp;Music & Arts</option>
+<option value="audio.netlabels">&nbsp;&nbsp;&nbsp;&nbsp;Netlabels</option>
+<option value="audio.audio_news">&nbsp;&nbsp;&nbsp;&nbsp;News & Public Affairs</option>
+<option value="audio.audio_foreign">&nbsp;&nbsp;&nbsp;&nbsp;Non-English Audio</option>
+<option value="audio.audio_podcast">&nbsp;&nbsp;&nbsp;&nbsp;Podcasts</option>
+<option value="audio.radioprograms">&nbsp;&nbsp;&nbsp;&nbsp;Radio Programs</option>
+<option value="audio.audio_religion">&nbsp;&nbsp;&nbsp;&nbsp;Spirituality & Religion</option>
+<option  value="software">&nbsp;&nbsp;Software</option>
+<option value="software.DigiBarn">&nbsp;&nbsp;&nbsp;&nbsp;DigiBarn</option>
+<option value="software.tucows">&nbsp;&nbsp;&nbsp;&nbsp;Tucows Software Library</option>
+<option value="software.vectrex">&nbsp;&nbsp;&nbsp;&nbsp;The Vectrex Collection</option>
+<option value="software.cdbbsarchive">&nbsp;&nbsp;&nbsp;&nbsp;The Shareware CD Archive</option>
+<option  value="education">&nbsp;&nbsp;Education</option>
+<option value="education.msri">&nbsp;&nbsp;&nbsp;&nbsp;Math Lectures from MSRI</option>
+<option value="education.uchannel">&nbsp;&nbsp;&nbsp;&nbsp;UChannel</option>
+<option value="education.chinese_u_lectures">&nbsp;&nbsp;&nbsp;&nbsp;Chinese University Lectures</option>
+<option value="education.ap_courses">&nbsp;&nbsp;&nbsp;&nbsp;AP Courses from MITE</option>
+<option value="education.mit_ocw">&nbsp;&nbsp;&nbsp;&nbsp;MIT OpenCourseWare</option>
+            
+            <option value="forums" >Forums</option>
+            <option value="faqs"   >FAQs</option>
+          </select>
+          <input tabindex="3" style="vertical-align:bottom; text-align:center; width:21px; height:21px; border:0px" name="gobutton" type="image" id="gobutton" value="Find" src="/images/go-button-gateway.gif"/>
+          <input type="hidden" name="limit" value="100"/>
+          <input type="hidden" name="start" value="0"/>
+          <input type="hidden" name="searchAll" value="yes"/>
+          <input type="hidden" name="submit" value="this was submitted"/>
+          <a href="http://archive.org/advancedsearch.php" class="level3Header level3HeaderSearch">Advanced Search</a>
+        </form>
+      </td>
+
+      
+      
+
+      <td class="level3Header level3HeaderUser2">
+                <b>
+          Anonymous User        </b>
+        <span style="font-size:7pt; white-space:nowrap">
+          (<a class="level3Header" href="/account/login.php">login</a>
+          or
+          <a class="level3Header" href="/account/login.createaccount.php">
+            join us</a>)
+        </span>
+              </td>
+      
+  
+
+      <!--HTTP uploader button-->
+      <td class="level3Header level3HeaderUser2">
+        
+        
+        <a class="linkbutton backColor1"
+           style="text-shadow:#bbb 0px 1px 0; color:#fff !important"
+           href="http://archive.org/create/">Upload</a>
+
+        
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div id="begPgSpcr" style="padding-bottom:17px;"></div>
+
+<!--BEGIN PAGE-->
+
+<table style="margin-left:20px; margin-right:20px;" cellspacing="0" cellpadding="0"><tbody><tr>
+<td class="spacer">&nbsp;&nbsp;</td><td style="width:25%;" class="announcements boxBottom boxTop box vertical_group">
+<div class="header"><span style="font-weight:bold;">Announcements</span> <span style="font-size:8pt;font-weight:normal;">(<a href="http://blog.archive.org/category/announcements/">more</a>)</span></div><div style="padding:7px;">
+<a name="announcements"></a><div class="wplinks"><a href="http://blog.archive.org/2012/04/05/librivox-free-audiobook-project-receives-generous-mellon-support-for-upgrade/">LibriVox Free Audiobook Project Receives Generous Mellon Support for Upgrade</a></div><div class="wplinks"><a href="http://blog.archive.org/2012/03/27/sharing-works-100000-concert-recordings-for-free/">Sharing Works: 100,000 concert recordings for free</a></div><div class="wplinks"><a href="http://blog.archive.org/2012/03/04/page-1-of-the-nytimes-in-a-flood-tide-of-digital-data-an-ark-full-of-books/">Page 1 of the NYTimes!  “In a Flood Tide of Digital Data, an Ark Full of Books”</a></div></div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:50%;" class="web boxBottom boxTop box vertical_group">
+<div class="header"><table style="width:90%;"><tr><td style="text-align:left"><a style="font: bold 12pt Verdana, Arial;" href="/web/web.php">Web</a></td><td style="text-align:right"><span style="font-weight: bold; font-size: 10pt; font-family: Arial;">150 billion pages</span></td></tr></table>
+</div>
+<div style="padding:7px;">
+  <form action="/searchresults.php" method="post"
+   onsubmit="document.location.href='http://web.archive.org/web/*/'+document.getElementById('wwmurl').value;return false;">
+    <table style="text-align:center; width:100%; vertical-align:center;"><tbody>
+     <tr>
+      <td style="text-align: right; padding-right: 0px;" rowspan="3">
+       <a href="/web/web.php"><img src="images/wayback_logo-sm.gif" width="141" height="50" style="border:0;" alt="(wayback logo)"/></a>
+      </td>
+      <td style="text-align: center; vertical-align:bottom;">
+        <input id='wwmurl' tabindex="4" type="text" name="search" size="35" value="http://"/>
+      </td>
+     </tr>
+     <tr>
+      <td style="text-align: center;">
+        <input type="hidden" name="mediatype" value="web"/>
+        <input type="submit" name="Submit" value="Take Me Back"/>
+        <a href="http://faq.web.archive.org/">more info</a>
+      </td>
+     </tr>
+     </tbody></table>
+  </form>
+  </div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="welcome boxBottom boxTop box vertical_group">
+<div class="header"><table style="width:90%;"><tr><td style="text-align:left"><span style="font-weight: bold; font-size: 10pt; font-family: Arial;">Welcome to the Archive</span></td><td style="text-align:right"><a href="/services/collection-rss.php"><img style="border:0; vertical-align:bottom;" src="/images/rss.png" alt="See recent additions in RSS"/></a></td></tr></table>
+</div>
+<div style="padding:7px;">
+<span style="font-size:8pt;font-weight:normal;">The Internet Archive, a 501(c)(3) non-profit, is building a digital library of Internet sites and other cultural artifacts in digital form. Like a paper library, we provide free access to researchers, historians, scholars, and the general public.</span></div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+
+  
+    </tr>
+  </tbody></table>
+
+  <p></p>
+
+
+  <table style="margin-left:20px; margin-right:20px;" cellspacing="0" cellpadding="0">
+    <tbody>
+    <tr>
+    <td class="spacer">&nbsp;&nbsp;</td>
+
+
+<td style="width:25%;" class="mt-movies boxTop box vertical_group">
+<div class="header"><table style="width:90%;"><tr><td style="text-align:left"><a style="white-space: nowrap; font: bold 12pt Verdana, Arial;" href="/details/movies">Moving Images</a><br/><nobr><span style="font-family:times new roman, times; font-size:10pt; font-weight:normal;">637,314 movies</span></nobr></td><td style="text-align:right"><a href="/mediatypes-browse.php?mediatype=movies">Browse</a><br/>
+          <span style="font-size:8pt;font-weight:normal;"><nobr>(by keyword)</nobr></span></td></tr></table>
+</div>
+<div style="padding:7px;">
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-etree boxTop box vertical_group">
+<div class="header"><table style="width:90%;"><tr><td style="text-align:left"><a style="white-space: nowrap; font: bold 12pt Verdana, Arial;" href="/details/etree">Live Music Archive</a><br/><nobr><span style="font-family:times new roman, times; font-size:10pt; font-weight:normal;">100,878 concerts</span></nobr></td><td style="text-align:right"><a href="/browse.php?collection=etree&field=%2Fmetadata%2Fcreator">Browse</a><br/>
+          <span style="font-size:8pt;font-weight:normal;"><nobr>(by band)</nobr></span></td></tr></table>
+</div>
+<div style="padding:7px;">
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-audio boxTop box vertical_group">
+<div class="header"><table style="width:90%;"><tr><td style="text-align:left"><a style="white-space: nowrap; font: bold 12pt Verdana, Arial;" href="/details/audio">Audio</a><br/><nobr><span style="font-family:times new roman, times; font-size:10pt; font-weight:normal;">1,213,534 recordings</span></nobr></td><td style="text-align:right"><a href="/mediatypes-browse.php?mediatype=audio">Browse</a><br/>
+          <span style="font-size:8pt;font-weight:normal;"><nobr>(by keyword)</nobr></span></td></tr></table>
+</div>
+<div style="padding:7px;">
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-texts boxTop box vertical_group">
+<div class="header"><table style="width:90%;"><tr><td style="text-align:left"><a style="white-space: nowrap; font: bold 12pt Verdana, Arial;" href="/details/texts">Texts</a><br/><nobr><span style="font-family:times new roman, times; font-size:10pt; font-weight:normal;">3,337,141 texts</span></nobr></td><td style="text-align:right"><a href="/mediatypes-browse.php?mediatype=texts">Browse</a><br/>
+          <span style="font-size:8pt;font-weight:normal;"><nobr>(by keyword)</nobr></span></td></tr></table>
+</div>
+<div style="padding:7px;">
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+</tr>
+
+<tr>
+<td class="spacer">&nbsp;&nbsp;</td><td style="width:25%;" class="mt-movies box vertical_group">
+<div class="subheader"><nobr>Curator's Choice<span style="font-size:8pt;font-weight:normal;"> (<a href="/details/movies#picks">more</a>)</span></nobr></div><div style="padding:7px;">
+<div style="text-align:center"><a href="/details/Newwebsi01_2"><img alt="(movies pick)" style="border:0;max-width:150px;height:76px;" src="/services/get-item-image.php?identifier=Newwebsi01_2&amp;collection=netcafe&amp;mediatype=movies"/></a></div>    <a href="/details/Newwebsi01_2">Net Cafe: Web StartUps - Oct 20, 2000</a><br/><span class="serif">Featured guest is writer Armistead Maupin, author of "Tales of the City" and "The Night Listeners",...</span></div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-etree box vertical_group">
+<div class="subheader"><nobr>Curator's Choice<span style="font-size:8pt;font-weight:normal;"> (<a href="/details/etree#picks">more</a>)</span></nobr></div><div style="padding:7px;">
+<div style="text-align:center"><a href="/details/EO2006-05-06.matrix.flac16"><img alt="(etree pick)" style="border:0;max-width:150px;height:76px;" src="/services/get-item-image.php?identifier=EO2006-05-06.matrix.flac16&amp;collection=EveryoneOrchestra&amp;mediatype=etree"/></a></div>    <a href="/details/EO2006-05-06.matrix.flac16">Everyone Orchestra Live at The Evergreen Lodge on...</a><br/><span class="serif">Track 1 Track 2 Track 3 Just Wanna Have a Good Time Track 5 The Weight</span></div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-audio box vertical_group">
+<div class="subheader"><nobr>Curator's Choice<span style="font-size:8pt;font-weight:normal;"> (<a href="/details/audio#picks">more</a>)</span></nobr></div><div style="padding:7px;">
+<div style="text-align:center"><a href="/details/Speak_-_Your_Choice"><img alt="(audio pick)" style="border:0;max-width:150px;height:76px;" src="/services/get-item-image.php?identifier=Speak_-_Your_Choice&amp;collection=bitkins-label&amp;mediatype=audio"/></a></div>    <a href="/details/Speak_-_Your_Choice">Speak - Your Choice</a><br/><span class="serif">This album was inspired mostly by jungle from middle to late 90's. It's filled with tons of break...</span></div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-texts box vertical_group">
+<div class="subheader"><nobr>Curator's Choice<span style="font-size:8pt;font-weight:normal;"> (<a href="/details/texts#picks">more</a>)</span></nobr></div><div style="padding:7px;">
+<div style="text-align:center"><a href="/details/OEXV740_P19"><img alt="(texts pick)" style="border:0;max-width:150px;height:76px;" src="/services/get-item-image.php?identifier=OEXV740_P19&amp;collection=bibliothequesaintegenevieve&amp;mediatype=texts"/></a></div>    <a href="/details/OEXV740_P19">Propositio facta per Oratores Innocentii pape...</a><br/><span class="serif">CHIEREGATUS (Leonellus). Propositio facta per Oratores Innocentii pape VIII coram Carolo VIII...</span></div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+</tr>
+
+<tr>
+<td class="spacer">&nbsp;&nbsp;</td><td style="width:25%;" class="mt-movies boxBottom box vertical_group">
+<div class="subheader">Recent Reviews</div><div style="padding:7px;">
+<a href="/details/BigBuckBunny_328">Big Buck Bunny</a><br/><span class="serif" style="font-size:9pt;">Average rating:</span> <nobr class="stars"><img src="/images/star.png" alt="4.00 out of 5 stars" title="4.00 out of 5 stars"/><img src="/images/star.png" alt="4.00 out of 5 stars" title="4.00 out of 5 stars"/><img src="/images/star.png" alt="4.00 out of 5 stars" title="4.00 out of 5 stars"/><img src="/images/star.png" alt="4.00 out of 5 stars" title="4.00 out of 5 stars"/></nobr><br/><br/>
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-etree boxBottom box vertical_group">
+<div class="subheader">Recent Reviews</div><div style="padding:7px;">
+<a href="/details/jk2012-04-16.wklitz.schoeps.sbd.flac16">John Kadlecik Live at Gramercy Theater on 2012-04-16</a><br/><span class="serif" style="font-size:9pt;">Average rating:</span> <nobr class="stars"><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/></nobr><br/><br/>
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-audio boxBottom box vertical_group">
+<div class="subheader">Recent Reviews</div><div style="padding:7px;">
+<a href="/details/OTRR_Suspense_Singles">Suspense - Single Episodes</a><br/><span class="serif" style="font-size:9pt;">Average rating:</span> <nobr class="stars"><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/><img src="/images/star.png" alt="5.00 out of 5 stars" title="5.00 out of 5 stars"/></nobr><br/><br/>
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+<td style="width:25%;" class="mt-texts boxBottom box vertical_group">
+<div class="subheader">Recent Reviews</div><div style="padding:7px;">
+<a href="/details/sanctiaureliiau09augugoog">Sancti Aurelii Augustini episcopi De civitate Dei libri XXII</a><br/><span class="serif" style="font-size:9pt;">Average rating:</span> <nobr class="stars"><img src="/images/star.png" alt="3.00 out of 5 stars" title="3.00 out of 5 stars"/><img src="/images/star.png" alt="3.00 out of 5 stars" title="3.00 out of 5 stars"/><img src="/images/star.png" alt="3.00 out of 5 stars" title="3.00 out of 5 stars"/></nobr><br/><br/>
+</div>
+</td>
+<td class="spacer">&nbsp;&nbsp;</td>
+
+</tr>
+
+</tbody></table>
+
+
+<div style="padding:10px 40px 0px 40px">        <div class="box">
+      <h1>Most recent posts (write a post by going to a forum) <a href="/iathreads/posts-display-new.php?limit=50">more</a>...</h1>
+          
+    <!-- NOTE: extra div required by IE bec. table width=100% is set -->
+    <div style="text-align:center; width:100%">
+      <table class="forumTable" width="100%" border="0"
+             cellpadding="5" cellspacing="0">
+
+                <tr class="backColor2 forumRowHead">
+                    <td>Subject</td>
+                    <td>Poster</td>
+                    <td>Forum</td>
+                    <td>Replies</td>
+                    <td>Date</td>
+                  </tr>
+                  <tr valign="top" class="eve forumRow">
+        <td>
+                    <a href="/post/418048">Re: Open letter to everyone from Dennis</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=rastamon">rastamon</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          0        </td>
+        
+        
+                <td>
+          <nobr>3 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="odd forumRow">
+        <td>
+                    <a href="/post/418047">Re: Got Mannix?</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=Quigs">Quigs</a>
+        </td>
+                
+                 <td>
+          <a href="/details/classic_tv#forum">classic_tv</a>
+        </td>
+        
+                <td>
+          0        </td>
+        
+        
+                <td>
+          <nobr>17 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="eve forumRow">
+        <td>
+                    <a href="/post/418046">Re:  Skobud and snow &amp; rain</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=micah6vs8">micah6vs8</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          0        </td>
+        
+        
+                <td>
+          <nobr>18 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="odd forumRow">
+        <td>
+                    <a href="/post/418045">Re: Open letter to everyone from Dennis</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=fenario80">fenario80</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          1        </td>
+        
+        
+                <td>
+          <nobr>25 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="eve forumRow">
+        <td>
+                    <a href="/post/418044">Re: Levon Helm </a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=DeadRed1971">DeadRed1971</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          0        </td>
+        
+        
+                <td>
+          <nobr>27 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="odd forumRow">
+        <td>
+                    <a href="/post/418034">Re: Open letter to everyone from Dennis</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=drspark61">drspark61</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          1        </td>
+        
+        
+                <td>
+          <nobr>27 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="eve forumRow">
+        <td>
+                    <a href="/post/418043">The Open Letter Is a Fraud</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=micah6vs8">micah6vs8</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          1        </td>
+        
+        
+                <td>
+          <nobr>30 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="odd forumRow">
+        <td>
+                    <a href="/post/418042">Re: Levon Helm </a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=ringolevio">ringolevio</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          1        </td>
+        
+        
+                <td>
+          <nobr>34 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="eve forumRow">
+        <td>
+                    <a href="/post/418040">Re: Open letter to everyone from Dennis</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=billydlions">billydlions</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          0        </td>
+        
+        
+                <td>
+          <nobr>40 minutes ago</nobr>
+        </td>
+              </tr>
+          <tr valign="top" class="odd forumRow">
+        <td>
+                    <a href="/post/418041">Re: Open letter to everyone from Dennis</a>
+                  </td>
+
+                <td>
+          <a href="/iathreads/forum-display.php?poster=ringolevio">ringolevio</a>
+        </td>
+                
+                 <td>
+          <a href="/details/GratefulDead#forum">GratefulDead</a>
+        </td>
+        
+                <td>
+          1        </td>
+        
+        
+                <td>
+          <nobr>41 minutes ago</nobr>
+        </td>
+              </tr>
+          </table>
+          </div>
+        </div>
+        </div>
+
+
+<table style="width:100%;"><tbody><tr><td style="width:20%">&nbsp;</td><td style="width:60%"><div id="support" class="box"><h1 style="text-align:center">Institutional Support</h1><style>div.hilite { padding:4px; border:1px solid gray; margin:2px; }</style><table id="browse" style="font: 9pt Arial, Helvetica, sans-serif"  border="0" cellspacing="2" cellpadding="0">
+    <tr valign="top"><td style="width:33%">
+<center><a href="/about/credits.php#alexa">Alexa Internet</a></center>
+<center><a href="/about/credits.php#hp">HP Computer</a></center>
+<center><a href="/about/credits.php#khale">The Kahle/Austin Foundation</a></center>
+</td><td style="width:33%">
+<center><a href="/about/credits.php#prelinger">Prelinger Archives</a></center>
+<center><a href="/about/credits.php#nsf">National Science Foundation</a></center>
+<center><a href="/about/credits.php#loc">Library of Congress</a></center>
+</td><td style="width:33%">
+<center><a href="/about/credits.php#lt">LizardTech</a></center>
+<center><a href="http://www.sloan.org">Sloan Foundation</a></center>
+<center><a href="/about/contributors.php">Individual contributors</a></center>
+</td></tr>
+</table>
+</div>
+</td><td style="width:20%">&nbsp;</td></tr></tbody></table>
+
+
+<div id="iafootdiv"><hr style="clear:both;"/></div>
+<p id="iafoot">
+  <a href="/about/terms.php">Terms of Use (10 Mar 2001)</a>
+</p>
+<!-- Timing ... 
+ seconds diff sec         message   file name:line number
+---------------------------------------------------------
+  0.0000   0.0000   petabox start   /usr/local/petabox/www/common/setup.php:312
+  0.0818   0.0818        bug dump   /usr/local/petabox/www/common/Bug.inc:74
+
+-->
+<script type="text/javascript"> if(window.archive_analytics) { window.archive_analytics.values['server_ms'] = 81; window.archive_analytics.values['server_name'] = "www18.us.archive.org"}; </script>
+
+</body></html>

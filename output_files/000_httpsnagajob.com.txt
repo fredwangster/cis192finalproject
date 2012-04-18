@@ -1,0 +1,1052 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head id="ctl00_ctl00_head">
+	
+	
+<title>Job Search | View All Job Openings | Snagajob</title>
+<meta name="description" content="Start your hourly job search on Snagajob. View job openings from companies now hiring in your local area. Fill out online job applications, manage your career, and network with other job seekers." />
+<meta name="keywords" content="jobs,employment,careers,job search,part-time jobs,hourly jobs,full-time jobs,summer jobs" />
+<meta name="verify-v1" content="XbfKV5Qdci9NlyvYpEISDYZXbWTwk7Q78ZgkoSUE+F0=" /><meta name="verify-v1" content="edv8MLEiqpUqyQnmNJ3ViMiouhLEYokK7b7zm8wsAG4=" /><meta name="y_key" content="61cba9cdaef7c7bd" /><meta name="robots" content="noodp,noydir" />
+	
+	<!-- run ie8 as ie8 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=8" /><link rel="shortcut icon" href="/favicon.ico" /><link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<!-- global css -->
+	<link href="/assets/css/jquery-ui/jquery-ui-1.8.10.css?v=8.0.7" rel="Stylesheet" type="text/css" /><link type="text/css" rel="stylesheet" href="/assets/css/global.css?v=8.0.7" />
+    
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="/assets/css/global-ie.css" /> 
+	<![endif]-->	
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            document.write(unescape('%3Cscript type="text/javascript" src="/assets/js/jquery.js"%3E%3C/script%3E'));
+        }
+    </script>
+
+    <!-- criteo -->
+    <script type='text/javascript'>
+        var crtg_nid = "1590";
+        var crtg_cookiename = "ctosnag";
+        function crtg_getCookie(c_name) { var i, x, y, ARRcookies = document.cookie.split(";"); for (i = 0; i < ARRcookies.length; i++) { x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("=")); y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1); x = x.replace(/^\s+|\s+$/g, ""); if (x == c_name) { return unescape(y); } } return ''; }
+        var crtg_content = crtg_getCookie(crtg_cookiename); var crtg_rnd = Math.floor(Math.random() * 99999999999); var crtg_url = 'http://rta.criteo.com/dis/rtt.js?networkId=' + escape(crtg_nid); crtg_url += '&cookieName=' + escape(crtg_cookiename); crtg_url += '&rnd=' + crtg_rnd; crtg_url += '&varName=crtg_content'; var crtg_script = document.createElement('script'); crtg_script.type = 'text/javascript'; crtg_script.src = crtg_url; crtg_script.async = true; if (document.getElementsByTagName("head").length > 0) document.getElementsByTagName("head")[0].appendChild(crtg_script); else if (document.getElementsByTagName("body").length > 0) document.getElementsByTagName("body")[0].appendChild(crtg_script);
+    </script>
+
+	<script type="text/javascript" src="/assets/js/jquery-ui-1.8.10.js?v=8.0.7"></script><script type="text/javascript" src="/assets/js/jquery.plugins.js?v=8.0.7"></script><script type="text/javascript">
+	var promoSettings = {
+		zip: "",
+		city: "",
+		state: "",
+		employ: "",
+		employid: "",
+		cat: "",
+		age: "",
+		source: "bmktyp",
+		edu: "",
+		ret: "",
+		indust: "",
+		grad: "",
+		eth1: "",
+		eth2: "",
+		gender: "",
+		agegroup: "",
+		showpop: "1",
+		devMode: false,
+		bid: "",
+    ct1: "",
+    baid: "",
+    btid: "",
+		showTipTop: true
+	};
+</script><script type="text/javascript" src="/assets/js/sponsors.js?v=8.0.7"></script><script type="text/javascript" src="/assets/js/global.js?v=8.0.7"></script><script type="text/javascript" src="/assets/webtracking/mbox.js?v=8.0.7"></script>
+	
+	<script type="text/javascript" src="/assets/js/jquery.tools.js?v=8.0.7"></script>
+
+	<script type="text/javascript">
+	// ad settings
+		promoSettings.showTipTop = false;
+		pageZone = "homepage";
+		function DoJBE(email, postalCode) {
+			window.location = '/job-seeker/jobs-by-email-thanks.aspx?email=' + jQuery('#txtJbeEmail').val() + '&postalCode=' + jQuery('#txtJbeZip').val();
+		}
+		
+		// on ready
+		$(document).ready(function () {
+		    // employer logos
+		    // append arrow image
+		    $('#featuredEmployers .scroller').append('<img id="activeLogo" src="/assets/images/homepage/logo-arrow.gif" alt="" />');
+		    // vcenter logos
+		    jQuery(".spotLnk").each(function () {
+		        var logoURL = encodeURI(jQuery(this).find("img").attr("src"));
+		        jQuery(this).css({
+		            background: "#fff url(" + logoURL + ") center center no-repeat",
+		            height: "90px",
+		            width: "90px"
+		        }).find("img").hide();
+		    });
+
+		    // create scroller
+		    var logos = $('#featuredEmployers .scroller').scrollable({
+		        size: 5,
+		        keyboard: false,
+		        clickable: false
+		    }).circular({ api: true });
+		    updateLogoText();
+		    // fade out caption before scroll
+		    // replace and fade in after scroll
+		    logos.onBeforeSeek(function () {
+		        $('#logoText, #activeLogo').animate({ opacity: 0 }, { duration: 'normal' });
+		    }).onSeek(function () {
+		        updateLogoText();
+		        $('#logoText').animate({ opacity: 1 }, { duration: 'normal' });
+		        $('#activeLogo').css('bottom', '10px').animate({ bottom: 0, opacity: 1 }, { duration: 'fast' });
+		    });
+		    // get caption for highlighted logo
+		    function updateLogoText() {
+		        var logoText = logos.getVisibleItems().filter(':eq(2)').find('.spotAltInfo').html();
+		        $('#logoText').html(logoText);
+		    }
+
+		    // scroller for job advice
+		    $('#jobAdvice .scroller').scrollable({
+		        size: 3,
+		        clickable: false,
+		        keyboard: false
+		    }).navigator({ navi: '.pagination' });
+
+		    // needed for jbe display
+		    jQuery(".authenticationModal").authenticationModal({ defaultview: "micro", contextType: "jobalert", showonlydefault: true, options: { jbe: true} });
+		});
+	</script>
+
+<script type="text/javascript"> var additional = '&zip=&city=&state=&employer=&industry=&jobtitle='; </script><script type="text/javascript"> var currentPageName = '|default.aspx'; </script>
+	
+  <link href="/assets/css/homepage2.css?v=8.0.7" type="text/css" rel="stylesheet" />
+	<!--[if lt IE 8]>
+	<link href="/assets/css/homepage-ie.css?v=8.0.7" type="text/css" rel="stylesheet" />
+	<![endif]-->
+<style type="text/css">
+    
+body 
+{
+    color: #333;
+    padding: 0;
+}
+
+#header .headerBar { margin-top: 0px; }
+
+#TipTopAdSpace {display: none;}
+		
+#footer .footer {
+    margin-top: 60px;
+}
+		
+#header .searchBar 
+{
+    background: transparent;
+    height: 80px;
+}
+
+#jbe 
+{
+    margin-bottom:25px;    
+}
+
+#jobAdvice 
+{
+    margin-top: 20px;
+}
+
+#jobAdvice h4 
+{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 15px;
+    top: -18px;
+}
+
+#jobAdvice p
+{
+    margin-top: 10px;    
+}
+
+#jobAdvice .headingLink
+{
+    font-size: 80%;
+    display: block;
+    position: absolute;
+    top: 15px;
+    width: 115px;
+}
+
+#jobAdvice .headingLink a
+{
+    float: right;
+    font-size: 11px;
+    color: #0890B7;
+    font-weight: normal;
+}
+
+#jobAdvice .scrollerControls 
+{
+    visibility: hidden;
+}
+
+#jobAdvice .scroller span
+{
+    left: 10px;
+    margin-top: 5px;
+    position: absolute;
+    width: 140px;
+}
+
+#jobAdvice .scroller span a
+{
+    font-size: 12px;
+}
+
+#rightCol 
+{
+    margin-top: 18px;
+}
+
+</style>
+
+
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="/assets/css/ie-fix.css" /> 
+	<![endif]-->
+	
+	<!-- global javascript -->
+	<script type="text/javascript">
+	    var axel = Math.random() + "";
+	    var ord = axel * 1000000000000000000;
+	</script>
+
+<link id="EktronModalCss" href="/WorkArea/java/plugins/modal/ektron.modal.css" type="text/css" rel="stylesheet" />
+<title>
+
+</title></head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+  
+            
+            window["ASL"] = {
+                cfg:
+                    {
+                        type:"0",
+                        k:"/default.aspx:973b1e71-37ac-4eb2-a431-0ccb345cbc8c:",
+                        
+                        placements:[]
+                    }
+            };
+
+            $(".quigo, .quigo4").each(function () {
+                var id = $.id();
+                $(this).attr("id", id);
+                var added = false;
+                for (var p in ASL.cfg.placements) {
+                    if (ASL.cfg.placements[p].placementId == $(this).attr("placementid")) {
+                        ASL.cfg.placements[p].pageElements.push(id);
+                        added = true;
+                    }
+                }
+            
+                var numAds = 3;
+
+                if($(this).hasClass('quigo4'))
+                {
+                    numAds = 4;
+                }
+
+                if (!added) {
+                    ASL.cfg.placements[ASL.cfg.placements.length] = {
+                        placementId: $(this).attr("placementid"),
+                        numAds: numAds,
+                        pageElements: [id]
+                    };
+                }
+            }).filter("[pid]:first").each(function () {
+                ASL.cfg.pid = $(this).attr("pid");
+            });
+            $("<script src='http://js.adsonar.com/js/aslJSON.js'><\/script>").appendTo("body");
+        });
+    </script>
+
+    <div id="ctl00_ctl00_pnlGlobalMBox">
+	
+		<script type="text/javascript"><!--
+		    mboxCreate('home');
+		--></script>
+	
+</div>
+	<div class="mboxDefault"></div>
+		<script type="text/javascript"><!--
+		    mboxCreate('gblTop');
+		--></script>
+	<form name="aspnetForm" method="post" action="/default.aspx" id="aspnetForm"><div>
+
+	<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA3OTQxMjIzOQ9kFgJmD2QWAmYPZBYIZg9kFgICEA8WAh4EVGV4dAWZAzxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCgl2YXIgcHJvbW9TZXR0aW5ncyA9IHsNCgkJemlwOiAiIiwNCgkJY2l0eTogIiIsDQoJCXN0YXRlOiAiIiwNCgkJZW1wbG95OiAiIiwNCgkJZW1wbG95aWQ6ICIiLA0KCQljYXQ6ICIiLA0KCQlhZ2U6ICIiLA0KCQlzb3VyY2U6ICJibWt0eXAiLA0KCQllZHU6ICIiLA0KCQlyZXQ6ICIiLA0KCQlpbmR1c3Q6ICIiLA0KCQlncmFkOiAiIiwNCgkJZXRoMTogIiIsDQoJCWV0aDI6ICIiLA0KCQlnZW5kZXI6ICIiLA0KCQlhZ2Vncm91cDogIiIsDQoJCXNob3dwb3A6ICIxIiwNCgkJZGV2TW9kZTogZmFsc2UsDQoJCWJpZDogIiIsDQogICAgY3QxOiAiIiwNCiAgICBiYWlkOiAiIiwNCiAgICBidGlkOiAiIiwNCgkJc2hvd1RpcFRvcDogdHJ1ZQ0KCX07DQo8L3NjcmlwdD5kAgEPDxYCHgdWaXNpYmxlZ2RkAgIPZBYCAgcPZBYEAgMPZBYCAgEPZBYCZg8WAh4LXyFJdGVtQ291bnQCDBYYAgEPZBYEZg8PFgIeC05hdmlnYXRlVXJsBRQvY2xpY2suYXNweD9jaWQ9Mjk4OGQWAgIBDw8WCh4ISW1hZ2VVcmwFPmh0dHA6Ly93d3cuc25hZ2Fqb2IuY29tL1Nwb3RsaWdodC9SZWdTcG90cy9WZXJpem9uU3BvdExvZ28uZ2lmHg1BbHRlcm5hdGVUZXh0BRVWZXJpem9uIFdpcmVsZXNzIEpvYnMeBVdpZHRoGwAAAAAAgFZAAQAAAB4GSGVpZ2h0GwAAAAAAgFZAAQAAAB4EXyFTQgKAAxYCHgV0aXRsZQUVVmVyaXpvbiBXaXJlbGVzcyBKb2JzZAIBDw8WBB8DBRQvY2xpY2suYXNweD9jaWQ9Mjk4OB8ABRVWZXJpem9uIFdpcmVsZXNzIEpvYnNkZAICD2QWBGYPDxYCHwMFFC9jbGljay5hc3B4P2NpZD0zMjgzZBYCAgEPDxYKHwQFSGh0dHBzOi8vbWVkaWEuc25hZ2Fqb2IuY29tL1Nwb3RsaWdodC9SZWdTcG90cy9OZXdfVGFyZ2V0X1JlZ05hdGxTcG90LmdpZh8FBQtUYXJnZXQgSm9icx8GGwAAAAAAgFZAAQAAAB8HGwAAAAAAgFZAAQAAAB8IAoADFgIfCQULVGFyZ2V0IEpvYnNkAgEPDxYEHwMFFC9jbGljay5hc3B4P2NpZD0zMjgzHwAFC1RhcmdldCBKb2JzZGQCAw9kFgRmDw8WAh8DBRQvY2xpY2suYXNweD9jaWQ9MzI1NmQWAgIBDw8WCh8EBT5odHRwOi8vd3d3LnNuYWdham9iLmNvbS9TcG90bGlnaHQvUmVnU3BvdHMvVG1vYmlsZVNwb3QyMDExLmdpZh8FBQ1ULU1vYmlsZSBKb2JzHwYbAAAAAACAVkABAAAAHwcbAAAAAACAVkABAAAAHwgCgAMWAh8JBQ1ULU1vYmlsZSBKb2JzZAIBDw8WBB8DBRQvY2xpY2suYXNweD9jaWQ9MzI1Nh8ABQ1ULU1vYmlsZSBKb2JzZGQCBA9kFgRmDw8WAh8DBRQvY2xpY2suYXNweD9jaWQ9MzA0MGQWAgIBDw8WCh8EBTdodHRwOi8vd3d3LnNuYWdham9iLmNvbS9TcG90bGlnaHQvUmVnU3BvdHMvcnNsX2xvZ28uZ2lmHwUFFldJUyBJbnRlcm5hdGlvbmFsIEpvYnMfBhsAAAAAAIBWQAEAAAAfBxsAAAAAAIBDQAEAAAAfCAKAAxYCHwkFFldJUyBJbnRlcm5hdGlvbmFsIEpvYnNkAgEPDxYEHwMFFC9jbGljay5hc3B4P2NpZD0zMDQwHwAFFldJUyBJbnRlcm5hdGlvbmFsIEpvYnNkZAIFD2QWBGYPDxYCHwMFFC9jbGljay5hc3B4P2NpZD0yOTk1ZBYCAgEPDxYKHwQFRWh0dHA6Ly93d3cuc25hZ2Fqb2IuY29tL1Nwb3RsaWdodC9SZWdTcG90cy9kaXNobmV0d29ya19sb2dvXzkweDkwLmpwZx8FBShESVNIIE5ldHdvcmsgU2F0ZWxsaXRlIFRWIEluc3RhbGxlciBKb2JzHwYbAAAAAACAVkABAAAAHwcbAAAAAAAATkABAAAAHwgCgAMWAh8JBShESVNIIE5ldHdvcmsgU2F0ZWxsaXRlIFRWIEluc3RhbGxlciBKb2JzZAIBDw8WBB8DBRQvY2xpY2suYXNweD9jaWQ9Mjk5NR8ABShESVNIIE5ldHdvcmsgU2F0ZWxsaXRlIFRWIEluc3RhbGxlciBKb2JzZGQCBg9kFgRmDw8WAh8DBRQvY2xpY2suYXNweD9jaWQ9MzA4NWQWAgIBDw8WCh8EBUFodHRwOi8vd3d3LnNuYWdham9iLmNvbS9TcG90bGlnaHQvUmVnU3BvdHMvdXNldGhpc0FUVHNwb3QyMDEwLmdpZh8FBQpBVCZUICBKb2JzHwYbAAAAAACAVkABAAAAHwcbAAAAAACAVkABAAAAHwgCgAMWAh8JBQpBVCZUICBKb2JzZAIBDw8WBB8DBRQvY2xpY2suYXNweD9jaWQ9MzA4NR8ABQpBVCZUICBKb2JzZGQCBw9kFgRmDw8WAh8DBRQvY2xpY2suYXNweD9jaWQ9MzIzOGQWAgIBDw8WCh8EBUFodHRwOi8vd3d3LnNuYWdham9iLmNvbS9TcG90bGlnaHQvUmVnU3BvdHMvYm9zdG9uX21hcmtldF9zcG90LmdpZh8FBSVDbGljayBoZXJlIHRvIGZpbmQgam9icyBpbiB5b3VyIGFyZWEhHwYbAAAAAACAVkABAAAAHwcbAAAAAACAVkABAAAAHwgCgAMWAh8JBSVDbGljayBoZXJlIHRvIGZpbmQgam9icyBpbiB5b3VyIGFyZWEhZAIBDw8WBB8DBRQvY2xpY2suYXNweD9jaWQ9MzIzOB8ABSVDbGljayBoZXJlIHRvIGZpbmQgam9icyBpbiB5b3VyIGFyZWEhZGQCCA9kFgRmDw8WAh8DBRQvY2xpY2suYXNweD9jaWQ9MzAzOWQWAgIBDw8WCh8EBUNodHRwOi8vd3d3LnNuYWdham9iLmNvbS9TcG90bGlnaHQvUmVnU3BvdHMvRkVPZmZpY2VUaWVyMk5TTDIwMTEuZ2lmHwUFEUZlZEV4IE9mZmljZSBKb2JzHwYbAAAAAACAVkABAAAAHwcbAAAAAACAVkABAAAAHwgCgAMWAh8JBRFGZWRFeCBPZmZpY2UgSm9ic2QCAQ8PFgQfAwUUL2NsaWNrLmFzcHg/Y2lkPTMwMzkfAAURRmVkRXggT2ZmaWNlIEpvYnNkZAIJD2QWBGYPDxYCHwMFFC9jbGljay5hc3B4P2NpZD0zMDg5ZBYCAgEPDxYKHwQFQWh0dHA6Ly93d3cuc25hZ2Fqb2IuY29tL1Nwb3RsaWdodC9SZWdTcG90cy91aGdfbG9nb190YWdfOTB4OTAuZ2lmHwUFF1VuaXRlZEhlYWx0aCBHcm91cCBKb2JzHwYbAAAAAACAVkABAAAAHwcbAAAAAACAVkABAAAAHwgCgAMWAh8JBRdVbml0ZWRIZWFsdGggR3JvdXAgSm9ic2QCAQ8PFgQfAwUUL2NsaWNrLmFzcHg/Y2lkPTMwODkfAAUXVW5pdGVkSGVhbHRoIEdyb3VwIEpvYnNkZAIKD2QWBGYPDxYCHwMFFC9jbGljay5hc3B4P2NpZD0xNzEyZBYCAgEPDxYKHwQFN2h0dHA6Ly93d3cuc25hZ2Fqb2IuY29tL1Nwb3RsaWdodC9SZWdTcG90cy9hbWZfc3BvdC5naWYfBQUlQ2xpY2sgaGVyZSB0byBmaW5kIGpvYnMgaW4geW91ciBhcmVhIR8GGwAAAAAAgFZAAQAAAB8HGwAAAAAAgFZAAQAAAB8IAoADFgIfCQUlQ2xpY2sgaGVyZSB0byBmaW5kIGpvYnMgaW4geW91ciBhcmVhIWQCAQ8PFgQfAwUUL2NsaWNrLmFzcHg/Y2lkPTE3MTIfAAUlQ2xpY2sgaGVyZSB0byBmaW5kIGpvYnMgaW4geW91ciBhcmVhIWRkAgsPZBYEZg8PFgIfAwUUL2NsaWNrLmFzcHg/Y2lkPTI0ODlkFgICAQ8PFgofBAVCaHR0cDovL3d3dy5zbmFnYWpvYi5jb20vU3BvdGxpZ2h0L1JlZ1Nwb3RzL2NoaXBvdGxlX3JlZ19zcG90MDkuZ2lmHwUFG0NoaXBvdGxlIE1leGljYW4gR3JpbGwgSm9icx8GGwAAAAAAQF1AAQAAAB8HGwAAAAAAYGBAAQAAAB8IAoADFgIfCQUbQ2hpcG90bGUgTWV4aWNhbiBHcmlsbCBKb2JzZAIBDw8WBB8DBRQvY2xpY2suYXNweD9jaWQ9MjQ4OR8ABRtDaGlwb3RsZSBNZXhpY2FuIEdyaWxsIEpvYnNkZAIMD2QWBGYPDxYCHwMFFC9jbGljay5hc3B4P2NpZD0xNzA5ZBYCAgEPDxYKHwQFO2h0dHA6Ly93d3cuc25hZ2Fqb2IuY29tL1Nwb3RsaWdodC9SZWdTcG90cy83ZWxldmVuX3Nwb3QuZ2lmHwUFJUNsaWNrIGhlcmUgdG8gZmluZCBqb2JzIGluIHlvdXIgYXJlYSEfBhsAAAAAAIBWQAEAAAAfBxsAAAAAAIBWQAEAAAAfCAKAAxYCHwkFJUNsaWNrIGhlcmUgdG8gZmluZCBqb2JzIGluIHlvdXIgYXJlYSFkAgEPDxYEHwMFFC9jbGljay5hc3B4P2NpZD0xNzA5HwAFJUNsaWNrIGhlcmUgdG8gZmluZCBqb2JzIGluIHlvdXIgYXJlYSFkZAIFD2QWBAIBD2QWBAIDD2QWCgIBDxYCHwAFKiBXaWxsIHlvdSBsb29rIGZvciBhIHN1bW1lciBqb2IgdGhpcyB5ZWFyP2QCAw8WAh8BaGQCBQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQ5Qb2xsQW5zd2VyTmFtZR4ORGF0YVZhbHVlRmllbGQFDFBvbGxBbnN3ZXJJZB4LXyFEYXRhQm91bmRnZBAVBBdZZXMsIEkgcmVhbGx5IG5lZWQgb25lLhtObywgSeKAmWxsIGJlIGF0IHRoZSBiZWFjaC4WIEkgYWxyZWFkeSBsYW5kZWQgb25lIRRJIGp1c3Qgd2FudCBhbnkgam9iLhUEAzQyOQM0MzADNDMxAzQzMhQrAwRnZ2dnZGQCBw8QZBAVCBAtLSBTZWxlY3QgQWdlIC0tCFVuZGVyIDE2BTE2LTE3BTE4LTI0BTI1LTM0BTM1LTQ0BTQ1LTU0AzU1KxUIAAIxMwIxNAIxNQIxNgIxNwIxOAIxORQrAwhnZ2dnZ2dnZ2RkAgkPEGQQFQMTLS0gU2VsZWN0IEdlbmRlciAtLQRNYWxlBkZlbWFsZRUDAARNYWxlBkZlbWFsZRQrAwNnZ2cWAWZkAgUPDxYCHwFoZGQCBA9kFgICAQ8WAh8ABU88aW1nIHNyYz0iaHR0cDovL3IuY2FzYWxlbWVkaWEuY29tL3I/dT0xNDM0NDkmcz0xIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBhbHQ9IiI+ZAIEDw8WAh8BaGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBShjdGwwMCRjdGwwMCRjcGhNYWluJGNwaExlZnQkdWNTcG90bGlnaHRzBShjdGwwMCRjdGwwMCRjcGhNYWluJGNwaFJpZ2h0JHBvbGxDb250cm9s7x857w441zDZT0BsAAEvUwEbQks=" />
+
+	
+<script src="/ScriptResource.axd?d=o9Ah8JHRLICGWPsmgqjgmzofumpZzsD5ngtuhh_cPmpl7ICpqWIroWwFm7HKTTwJIOzvdZSV-gz5GrloewQr8rwPi-hix-gvvioRTTcksQdM2i5NqmPKLvYnxK9kN1Exql8XBpLdF_hN1fVj27nsFwDxd2M1&amp;t=ffffffffb868b5f4" type="text/javascript"></script>
+	<input type="submit" name="ctl00$ctl00$defaultButton" value="" onclick="javascript: return false;" id="ctl00_ctl00_defaultButton" style="display:none" />
+	
+	<!-- sponsor -->
+	<div id="TipTopAdSpace">
+		<span id="TipTopContent">
+		<script type="text/javascript">
+		    if(typeof(window['promoSettings']) != "undefined" && promoSettings.showTipTop) {
+		        show728x90(pageZone, 1);
+		        jQuery("#TipTopAdSpace").css({ margin: "3px auto 0", padding: "0 0 2px" }).prepend('<span id="AdCaption"></span>');
+		    }
+		</script>
+		<noscript>
+			<a href="/ad/click?q=http://ad.doubleclick.net/jump/snag.snagajobcom/employerlink;Dcopt=ist;tile=1;sz=728x90;ord=123456789?" target="_blank">
+				<img src="/ad/image?q=http://ad.doubleclick.net/ad/snag.snagajobcom/employerlink;Dcopt=ist;tile=1;sz=728x90;ord=123456789?" width="728" height="90" border="0" alt="" />
+			</a>
+		</noscript>
+		</span>
+	</div>
+
+	<div id="wrapper">		
+        
+
+<script type="text/javascript" src="/assets/js/jquery.cookies.2.2.0.min.js?v=8.0.7"></script>
+
+<div id="header">
+    <div class="contentSection" id="employerLink">
+        <div class="contentSection employerCalloutWrapper">
+        <img src="http://media.snagajob.com/jobseeker/images/homepage/pointer_arrow.png" alt="icon" />
+            <div class="employerCallout1">
+        <span>Are you an employer?</span> To post jobs or get hiring solutions, please visit our <a href="http://www.snagajob.com/employer-solutions/">employer website</a>.
+            </div>
+        <div class="employerCalloutHide">Hide this message  <b>x</b></div>
+        </div>
+            <script type="text/javascript">
+                jQuery("div.employerCalloutHide").click(function () {
+                    jQuery.cookies.set('callout', 'hideme');
+                    jQuery('.employerCalloutWrapper').slideUp(500);
+                });
+                if (jQuery.cookies.get('callout')) {
+                    jQuery('.employerCalloutWrapper').remove();
+                };
+            </script>
+    </div>
+    <div class="headerBar">
+        <div class="contentSection">
+            <ul>
+                <li id="browseJobsHeaderLink"><a href="/find-jobs">Browse Jobs</a></li>
+                <li><a href="/job-resources/">Job Tips</a></li>
+
+                <li class="joinwelcome">
+                    
+                       <a href="/job-seeker/registration/">Join Today</a>
+                      
+                </li>
+                <li class="signinout">
+                    
+                        <a href="/job-seeker/login.aspx">Sign In</a>
+                    
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="contentSection">
+        <!-- Form moved to fix an IE compatibility issue -->
+        <div method="get" action="/job-seeker/jobs/search-results.aspx" id="findLocalJobsHeaderControl">
+            <div class="searchBar">
+                <div class="grid-9">
+                    <a href="/" title="Snagajob">
+                        <img class="logo" src="/assets/images/trans.gif" alt="Snagajob" />
+                    </a>
+                </div>
+                <div class="grid-15">
+                    <div class="findLocalJobs">
+                        
+                        <h3 class="findjobs"><a href="/job-seeker/jobs/search-results.aspx?postalCode=19019" style="text-decoration: none; color:#363636">FIND LOCAL JOBS</a></h3>
+                        
+                        <input class="zipCode" type="text" name="postalCode" id="pc" maxlength="5" placeholder="Enter ZIP Code" value="" />
+                        <input class="btn" type="submit" value="Find Jobs" />
+                        
+                        <div class="clear"></div>
+                        <div class="keywordsearch"><a href="/job-search/" title="search with keywords">Search with keywords</a><span>BETA</span></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    
+    <script type="text/javascript">
+        
+        mboxCreate('header', "mboxPageValue=10");
+        
+        if ($("#findLocalJobsHeaderControl").length) {
+            var redirectSearch = function () {
+                var pcvInHeader = $("#header .zipCode").val();
+                if (pcvInHeader == '') {
+                    window.location = "/find-jobs";
+                }
+                else {
+                    window.location = "/job-seeker/jobs/search-results.aspx?postalCode=" + pcvInHeader;
+                }
+                
+                return false;
+            };
+
+            $("#header .zipCode").onReturn(redirectSearch);
+            $("#header :submit").click(redirectSearch);
+        }
+    </script>
+</div>
+        
+        
+
+		<div id="content">
+	
+    
+
+		<!-- script in Ektron to load control and move around page for testing -->
+		<!-- cms: 4388 -->
+<style type="text/css">
+
+
+#header .searchBar { background: transparent; height: 80px; }
+#header .searchBar .logo { position: relative; z-index: 1; zoom: 1; }    
+#header .findLocalJobs { display: none; }
+    
+#HomepageTop { background: none repeat scroll 0 0 transparent; margin-top: -80px; position: relative; }
+
+#HomepageTop #QuoteCallout { position: absolute; top: -8px; right: 0px; display: block; background: url("//media.snagajob.com/jobseeker/images/homepage/quote_box.png") no-repeat scroll left top #FFFFFF; height: 170px; width: 240px; }
+#HomepageTop #QuoteCallout span { font-family: Arial; font-size: 15px; color: #333; line-height: 18px; padding: 27px; display: block; }
+
+#HomepageQuotes { background: url("//media.snagajob.com/jobseeker/images/homepage/testimonials/CourtneyM.png") no-repeat scroll right bottom #FFFFFF; height: 233px; }
+#HomepageQuotes .FindYourJob { background: none repeat scroll 0 0 transparent; left: 30px; position: absolute; top: 90px; width: 490px; }
+#HomepageQuotes .FindYourJob .heading { font-family: Helvetica, Arial; font-size: 30px; color: #333; font-weight: bold; }
+#HomepageQuotes .FindYourJob .findLocalJobsForm { margin-top: 15px; }
+#HomepageQuotes .FindYourJob .findLocalJobsForm .zipCode { font-family: Helvetica, Arial; font-size: 20px; color: #666; height: 28px; margin-right: 10px; }
+#HomepageQuotes .FindYourJob .findLocalJobsForm .btn { height: 38px; font-size: 20px;  }
+
+#QuoteDetails { margin-bottom: auto; }
+
+body #QuestionAnswers .qaListItems ul li { width : 250px; padding-right : 10px; }</style><div id="HomepageTop"><div id="HomepageQuotes"><div class="FindYourJob"><div class="heading">Helping you find your next job.</div><div id="FindLocalJobsForm" class="findLocalJobsForm"><span class="formfield"><input id="pc" class="zipCode" maxlength="5" type="text" name="postalCode" placeholder="Enter ZIP Code" /> </span><span class="formbutton"><input class="btn" value="Find Local Jobs" type="submit" /> </span></div></div></div><div id="QuoteCallout"><span><strong>We're here to help you</strong> on your job search journey and answer any questions along the way.</span></div><div id="QuoteDetails"><span class="employeenumber">SnagAJob Employee #423</span><br /><span class="employeename">Courtney Moyer</span><br /><span class="employeetitle">Content Producer</span><br /></div></div><script type="text/javascript"><!--
+if ($("form #FindLocalJobsForm").length) {
+        var redirectSearch = function () {
+            var postalCodeVal = $("#FindLocalJobsForm .zipCode").val();
+
+            if (postalCodeVal == '') {
+                postalCodeVal = '19019';
+            }
+
+            if (postalCodeVal.length > 0 && postalCodeVal[0] == '%') {
+                postalCodeVal = '';
+            }            
+            
+			if (postalCodeVal == '') {
+				window.location = "/find-jobs";
+			}
+			else {
+				window.location = "/job-seeker/jobs/search-results.aspx?postalCode=" + postalCodeVal;
+			}
+            return false;
+        };
+
+        $("#FindLocalJobsForm .zipCode").onReturn(redirectSearch);
+        $("#FindLocalJobsForm :submit").click(redirectSearch);
+    }
+--></script>
+
+<style type="text/css">
+#SuccessStory 
+{
+    position: relative;
+    height: 65px;
+    background: url(//media.snagajob.com/jobseeker/images/homepage/graylines.gif) repeat scroll 0 0 transparent;
+    margin-bottom: 15px;
+}
+
+#SuccessStory legend
+{
+    position: absolute;
+    font-family: Helvetica, Lucida Grande, Arial;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 15px;
+    top: -10px;
+}
+
+#SuccessStory .ssIcon
+{
+    position: absolute;
+    background: url(//media.snagajob.com/jobseeker/images/homepage/orangeicon.png) no-repeat;
+    height: 100%;
+    width: 100%;
+    top: 11px;
+    left: 25px;
+}
+
+#SuccessStory .ssQuote
+{
+    font-weight:bold;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 14px;
+}
+
+#SuccessStory .ssAuthor
+{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#SuccessStory .newStoryLink
+{
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+    float: right;
+}
+</style>
+
+<fieldset id="SuccessStory">
+    <legend>Success Stories</legend>
+    <div class="ssIcon">
+    </div>
+    <!-- Index: 9 -->
+    <div class="ssQuote">"I started using Snagajob last week and I already had three interviews since Thursday."&nbsp;&nbsp;<span class="ssAuthor">Julian R., Jonesboro, GA</span>
+    <div>
+    <a class="newStoryLink" href="http://www.snagajob.com/resources/share-your-story/">Share your story</a>
+    </div>
+    </div>
+</fieldset>
+
+
+<div id="wide">
+	<div id="leftCol">
+		
+
+<div id="subLeft" class="block">
+    <input type="hidden" value="www.snagajob.com" />
+
+    <div id="ctl00_ctl00_cphMain_cphLeft_ektronMarketingCalloutWAIN">
+		<div class="EktronAjaxLoading" align="left"><img src="/WorkArea/images/application/loading_big.gif" alt="Loading..." /></div><a href="http://www.snagajob.com/summer-jobs/"><img src="http://media.snagajob.com/jobseeker/images/homepage/homepage.portal.jpg" alt="Summer Jobs" title="Summer Jobs"/></a>
+	</div>
+    
+    <!-- jbe -->
+    <style type="text/css">
+    .jbeCallout img {
+        height: auto;
+        margin: -1em 1em 0 -3em;
+    }        
+        
+    .jbeCallout span {
+        font-size: 14px;
+    }
+    
+    .callout 
+    {
+        background-color: #FFFFFF;
+        border: 1px solid #CCCCCC;
+    }
+    </style>
+    
+<div class="jbeCallout callout">
+    <img src="/assets/images/icons/email_2.png" alt="Dropbox" />
+    <a href="/member/registration/micro?Jbe=True" class="bold authenticationModal">Sign up for email Job Alerts</a>
+    <span>Local jobs delivered straight to your inbox.</span>
+</div> 
+
+
+<style type="text/css">
+#searchResultsWidget 
+{
+    background: #edf4f5;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}    
+    
+#searchResultsWidget legend 
+{
+    color: #333333;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#searchResultsWidget table
+{
+    table-layout: fixed;
+    width: 100%;
+}
+
+#searchResultsWidget .colLeft
+{
+    line-height: 1.3em;
+}
+
+#searchResultsWidget .colRight
+{
+    line-height: 1.3em;
+}
+
+#searchResultsWidget table td a
+{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px 20px 10px 8px;
+}
+
+#searchResultsWidget table td a .jobTitle
+{
+    color: #0890b7;
+    font-weight: bold;
+}
+
+#searchResultsWidget table td a .locationName
+{
+    color: #000;
+    font-weight: bold;
+}
+
+#searchResultsWidget table td a .locationAddress
+{
+    color: #000;
+}
+</style>
+
+<fieldset id="searchResultsWidget" class="sectionBlock">
+    <legend id="searchResultsWidgetTitle">New Jobs In Your Area</legend>
+    <table >
+<tr>
+        <td class="colLeft" ><a href="/TrackSource/hpw/8088729"><span class="jobTitle">STORE MANAGER</span> at <span class="locationName">Dollar Tree Stores, Inc.</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        
+        <td class="colRight" ><a href="/TrackSource/hpw/8271944"><span class="jobTitle">Company Truck Driver</span> at <span class="locationName">Prime Inc.</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        </tr><tr>
+        <td class="colLeft" ><a href="/TrackSource/hpw/8847838"><span class="jobTitle">Customer Service Representative</span> at <span class="locationName">Evolving Media Enterprises</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        
+        <td class="colRight" ><a href="/TrackSource/hpw/8879389"><span class="jobTitle">Cook IV-Pastry</span> at <span class="locationName">Ritz-Carlton</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        </tr><tr>
+        <td class="colLeft" ><a href="/TrackSource/hpw/8892775"><span class="jobTitle">Oreck Retail Sales & Store Management</span> at <span class="locationName">Oreck</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        
+        <td class="colRight" ><a href="/TrackSource/hpw/8923286"><span class="jobTitle">Team Leader</span> at <span class="locationName">Footprint Retail Services</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        </tr><tr>
+        <td class="colLeft" ><a href="/TrackSource/hpw/8934248"><span class="jobTitle">Class A Drivers needed Immediately</span> at <span class="locationName">Centerline</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        
+        <td class="colRight" ><a href="/TrackSource/hpw/8898818"><span class="jobTitle">Payroll Analyst - Part Time With Benefit Eligibility</span> at <span class="locationName">ERT</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        </tr><tr>
+        <td class="colLeft" ><a href="/TrackSource/hpw/8784205"><span class="jobTitle">Store Manager</span> at <span class="locationName">Blockbuster</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        
+        <td class="colRight" ><a href="/TrackSource/hpw/8784994"><span class="jobTitle">Banker I</span> at <span class="locationName">Citizens Financial Group, Inc.</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        </tr><tr>
+        <td class="colLeft" ><a href="/TrackSource/hpw/8803133"><span class="jobTitle">Retail Sales Associate ~ 52nd & Jefferson St</span> at <span class="locationName">T-Mobile</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        
+        <td class="colRight" ><a href="/TrackSource/hpw/8843838"><span class="jobTitle">Scan/Copy/Mail Associate, Floater (driving required)</span> at <span class="locationName">Pitney Bowes, Inc.</span> <span class="locationAddress"> Philadelphia PA</span></a></td>
+        </tr>
+    </table>
+</fieldset>
+
+<!-- Industry:  -->
+
+<script type="text/javascript">
+    mboxCreate('searchwidgetcontrol');
+</script>
+	
+	<fieldset id="featuredEmployers" class="sectionBlock">
+		<legend>Featured employers</legend>
+		<!-- begin scroller -->
+		<div class="scroller">
+		<ul id="spotlightlist" class="items">
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl01_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=2988"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl01_imgSpotlight" title="Verizon Wireless Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/VerizonSpotLogo.gif" alt="Verizon Wireless Jobs" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl01_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=2988" style="font-weight: bold">Verizon Wireless Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl02_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=3283"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl02_imgSpotlight" title="Target Jobs" src="https://media.snagajob.com/Spotlight/RegSpots/New_Target_RegNatlSpot.gif" alt="Target Jobs" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl02_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=3283" style="font-weight: bold">Target Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl03_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=3256"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl03_imgSpotlight" title="T-Mobile Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/TmobileSpot2011.gif" alt="T-Mobile Jobs" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl03_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=3256" style="font-weight: bold">T-Mobile Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl04_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=3040"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl04_imgSpotlight" title="WIS International Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/rsl_logo.gif" alt="WIS International Jobs" height="39" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl04_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=3040" style="font-weight: bold">WIS International Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl05_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=2995"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl05_imgSpotlight" title="DISH Network Satellite TV Installer Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/dishnetwork_logo_90x90.jpg" alt="DISH Network Satellite TV Installer Jobs" height="60" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl05_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=2995" style="font-weight: bold">DISH Network Satellite TV Installer Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl06_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=3085"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl06_imgSpotlight" title="AT&amp;T  Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/usethisATTspot2010.gif" alt="AT&amp;T  Jobs" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl06_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=3085" style="font-weight: bold">AT&T  Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl07_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=3238"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl07_imgSpotlight" title="Click here to find jobs in your area!" src="http://www.snagajob.com/Spotlight/RegSpots/boston_market_spot.gif" alt="Click here to find jobs in your area!" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl07_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=3238" style="font-weight: bold">Click here to find jobs in your area!</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl08_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=3039"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl08_imgSpotlight" title="FedEx Office Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/FEOfficeTier2NSL2011.gif" alt="FedEx Office Jobs" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl08_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=3039" style="font-weight: bold">FedEx Office Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl09_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=3089"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl09_imgSpotlight" title="UnitedHealth Group Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/uhg_logo_tag_90x90.gif" alt="UnitedHealth Group Jobs" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl09_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=3089" style="font-weight: bold">UnitedHealth Group Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl10_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=1712"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl10_imgSpotlight" title="Click here to find jobs in your area!" src="http://www.snagajob.com/Spotlight/RegSpots/amf_spot.gif" alt="Click here to find jobs in your area!" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl10_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=1712" style="font-weight: bold">Click here to find jobs in your area!</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl11_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=2489"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl11_imgSpotlight" title="Chipotle Mexican Grill Jobs" src="http://www.snagajob.com/Spotlight/RegSpots/chipotle_reg_spot09.gif" alt="Chipotle Mexican Grill Jobs" height="131" width="117" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl11_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=2489" style="font-weight: bold">Chipotle Mexican Grill Jobs</a>
+            </span>
+        </li>			
+	
+		<li>
+		    <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl12_hypSpotlight" class="spotLnk" rel="nofollow" href="/click.aspx?cid=1709"><span class="spotBox"><img id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl12_imgSpotlight" title="Click here to find jobs in your area!" src="http://www.snagajob.com/Spotlight/RegSpots/7eleven_spot.gif" alt="Click here to find jobs in your area!" height="90" width="90" border="0" /></span></a>
+            <span class="spotAltInfo">
+            <a id="ctl00_ctl00_cphMain_cphLeft_ucSpotlights_lstSpotlights_ctl12_hypSpotlightInnerLink" rel="nofollow" href="/click.aspx?cid=1709" style="font-weight: bold">Click here to find jobs in your area!</a>
+            </span>
+        </li>			
+	</ul> 	
+	
+			
+		</div>
+		<!-- scroller controls -->
+		<div class="scrollerControls">
+			<a title="Previous" class="prev"></a>
+			<div id="logoText">&nbsp;</div>
+			<a title="Next" class="next"></a>
+		</div>
+	</fieldset>
+
+	<!-- job advice -->
+	<div id="ctl00_ctl00_cphMain_cphLeft_cmsJobAdvice">
+		<div class="EktronAjaxLoading" align="left"><img src="/WorkArea/images/application/loading_big.gif" alt="Loading..." /></div><fieldset id="jobAdvice" class="sectionBlock"><legend>Top Job Advice</legend><div class="grid-12"><div class="col"><div class="row1"><img class="topJobImage" alt="really hiring" src="http://media.snagajob.com/uploadedimages/ektron/callbacks.jpg" /> <div><span class="topJobItemTitle"><a href="/resources/whos-really-hiring-ive-applied-to-tons-of-jobs/">Who's really hiring? I've applied to tons of jobs!</a></span> <span class="topJobItemDesc">Nabeel asks: "Who is really hiring? I’m beginning to think that this is just a waste of time. I have applied so for through this site for more than 20 jobs and so far no single employer even replied to any of my applications."</span> <span class="topJobItemContinue"><a title="continued ..." href="/resources/whos-really-hiring-ive-applied-to-tons-of-jobs/">more ...</a></span> </div></div><div class="row2"><img class="topJobImage" alt="tell me about yourself" src="http://media.snagajob.com/uploadedimages/ektron/restaurantinterview1.jpg" /> <div><span class="topJobItemTitle"><a href="/resources/can-you-tell-me-about-yourself/">Can you tell me about yourself?</a></span> <span class="topJobItemDesc">"Can you tell me about yourself?" For a while I thought this job interview question was an open invitation to give employers as much information about me as possible.</span> <span class="topJobItemContinue"><a title="continued ..." href="/resources/can-you-tell-me-about-yourself/">more ...</a></span> </div></div></div></div><div class="grid-12"><div class="col"><div class="row1"><img class="topJobImage" alt="really hiring" src="http://media.snagajob.com/uploadedimages/ektron/rock-your-interview.jpg" /> <div><span class="topJobItemTitle"><a href="/resources/the-4-rules-to-rock-your-interview/">The 4 rules to rock your interview</a></span> <span class="topJobItemDesc">Congrats - you've got an interview! That means the employer feels you are one of the best candidates for the position</span> <span class="topJobItemContinue"><a title="continued ..." href="/resources/the-4-rules-to-rock-your-interview/">more ...</a></span> </div></div><div class="row2"><img class="topJobImage" alt="tell me about yourself" src="http://media.snagajob.com/uploadedimages/ektron/assessmenttestanswers.jpg" /> <div><span class="topJobItemTitle"><a href="/resources/the-right-answer-to-assessment-questions/">The right answer to assessment questions</a></span> <span class="topJobItemDesc">James asks "I think another form of discrimination that needs to be addressed is the "assessment questionnaire." Every time I fill out an application online I run into that, and they say there is no right or wrong answer (WRONG!)</span> <span class="topJobItemContinue"><a title="continued ..." href="/resources/the-right-answer-to-assessment-questions/">more ...</a></span> </div></div></div></div><div class="clear"></div></fieldset>
+	</div>
+
+	<!-- miscellaneous content -->
+	<div id="ctl00_ctl00_cphMain_cphLeft_cmsSeoCallout">
+		<div class="EktronAjaxLoading" align="left"><img src="/WorkArea/images/application/loading_big.gif" alt="Loading..." /></div>
+	</div>
+</div>
+   
+
+	</div>
+	<div id="rightCol">
+		
+	<div id="subRt" class="block">
+        <!-- cms: 4405 -->
+<style type="text/css">
+#HouseSpotlights .bottomSpot {
+	HEIGHT: 295px
+}</style><div id="HouseSpotlights"><div class="topSpot borders"><div class="subHead">Featured Jobs</div><div class="hsLogo"><img alt="Fazoli's" src="//media.snagajob.com/jobseeker/images/homepage/fazolis_logo.png" /></div><div class="hsDescription"><span class="hsTitle">Now Hiring!</span><br /><span class="hsCompanyName">Fazoli's</span><br /><span class="hsLink"><a title="View their open jobs" href="/TrackSource/hps/fazolis-employment?b=485&amp;spc=PA">View their open jobs</a></span> </div></div><div class="bottomSpot borders"><div class="subHead">Snagajob Tools</div><div class="hsSection"><img alt="Job Tips" src="//media.snagajob.com/jobseeker/images/homepage/jobtip.png" /> <div class="hsDescription"><span class="hsTitle">Get advice <span class="hsUntitle">on your job search</span></span> <span class="hsLink"><a href="/resources/">View job tips</a></span> </div></div><hr />
+<div class="hsSection"><img alt="Keep Your Health in Check" src="//media.snagajob.com/jobseeker/images/homepage/apple.png" /> <div class="hsDescription"><span class="hsTitle"><span class="hsUntitle">Keep Your</span> health in check</span> <span class="hsLink"><a title="View tips and articles" href="http://www.snagajob.com/work-and-life/category/my-health/" target="_blank">View tips and articles</a></span> </div></div><hr />
+<div class="hsSection"><img alt="Right Fit Degrees" src="//media.snagajob.com/jobseeker/images/homepage/RFD.png" /> <div class="hsDescription"><span class="hsTitle"><span class="hsUntitle">Find the right</span> degree program</span> <span class="hsLink"><a href="http://www.rightfitdegrees.com/" target="_blank">Find your degree</a></span> </div></div></div></div><div id="ctl00_ctl00_cphMain_cphRight_cmsHPAbovePollDivider">
+		<div class="EktronAjaxLoading" align="left"><img src="/WorkArea/images/application/loading_big.gif" alt="Loading..." /></div>
+	</div>
+	    
+<div id="poll">
+    <div id="ctl00_ctl00_cphMain_cphRight_pollControl_cmsHPPollSponsor">
+		<div class="EktronAjaxLoading" align="left"><img src="/WorkArea/images/application/loading_big.gif" alt="Loading..." /></div><div class="divider"></div>
+<div id="pollsponsor"><p><a href="http://www.snagajob.com/click.aspx?cid=2635" title="SurveySays"><em style="font: italic normal bold 11px/17px arial, verdana, sans-serif; ">Poll sponsored by:</em><br /><img src="http://media.snagajob.com/jobseeker/images/homepage/surveysays-logo.gif" alt="SurveySays" /></a></p>
+</div>
+	</div>
+    <div id="ctl00_ctl00_cphMain_cphRight_pollControl_panPoll" class="ektronPoll">
+		
+        <h4>
+             Will you look for a summer job this year?</h4>
+        
+        <span id="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers"><input id="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_0" type="radio" name="ctl00$ctl00$cphMain$cphRight$pollControl$radAnswers" value="429" /><label for="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_0">Yes, I really need one.</label><br /><input id="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_1" type="radio" name="ctl00$ctl00$cphMain$cphRight$pollControl$radAnswers" value="430" /><label for="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_1">No, I’ll be at the beach.</label><br /><input id="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_2" type="radio" name="ctl00$ctl00$cphMain$cphRight$pollControl$radAnswers" value="431" /><label for="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_2"> I already landed one!</label><br /><input id="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_3" type="radio" name="ctl00$ctl00$cphMain$cphRight$pollControl$radAnswers" value="432" /><label for="ctl00_ctl00_cphMain_cphRight_pollControl_radAnswers_3">I just want any job.</label></span>
+        <ul>
+            <li>
+                <select name="ctl00$ctl00$cphMain$cphRight$pollControl$drpAge" id="ctl00_ctl00_cphMain_cphRight_pollControl_drpAge">
+			<option value="">-- Select Age --</option>
+			<option value="13">Under 16</option>
+			<option value="14">16-17</option>
+			<option value="15">18-24</option>
+			<option value="16">25-34</option>
+			<option value="17">35-44</option>
+			<option value="18">45-54</option>
+			<option value="19">55+</option>
+
+		</select>
+            </li>
+            <li>
+                
+            </li>
+        </ul>
+        <p id="pollBtn">
+            <input type="submit" name="ctl00$ctl00$cphMain$cphRight$pollControl$btnAnswer" value="Vote Now" id="ctl00_ctl00_cphMain_cphRight_pollControl_btnAnswer" />
+        </p>
+        
+        
+        
+    
+	</div>
+    
+</div>
+ 
+	    <div id="ctl00_ctl00_cphMain_cphRight_cmsHPBelowPollDivider">
+		<div class="EktronAjaxLoading" align="left"><img src="/WorkArea/images/application/loading_big.gif" alt="Loading..." /></div>
+	</div>
+		
+        <!-- right colum ad -->
+        <div class="adBlock">
+	        <script type="text/javascript">show300x250(pageZone, 3);</script>
+	        <noscript>
+		        <a href="/ad/click?q=http://ad.doubleclick.net/jump/snag.snagajobcom/homepage;Dcopt=ist;tile=3;sz=300x250;ord=123456789?" target="_blank">
+			        <img src="/ad/image?q=http://ad.doubleclick.net/ad/snag.snagajobcom/homepage;Dcopt=ist;tile=3;sz=300x250;ord=123456789?" width="300" height="250" border="0" alt="" />
+		        </a>
+	        </noscript>
+	        <div class="adText"></div>
+        </div>
+        <!-- end right colum ad -->
+	</div>
+	<!-- additional column content -->
+	
+	
+
+<!-- Start of DoubleClick Spotlight Tag: Please do not remove-->
+<!-- Activity Name for this tag is:JS Home -->
+<!-- Web site URL where tag should be placed: http://www.snagajob.com -->
+
+<!--
+<script language="JavaScript" type="text/javascript">
+
+var axel = Math.random();
+var a = axel * 10000000000000;
+document.write('<img src="/ad/image?q=http://ad.doubleclick.net/activity;src=1539068;type=jobse012;cat=jshom846;ord=1;num='+ a + '?" width="1" height="1" border="0" alt="">');
+
+</script>
+<noscript>
+<img src="/ad/image?q=http://ad.doubleclick.net/activity;src=1539068;type=jobse012;cat=jshom846;ord=1;num=0123456789?" width="1" height="1" border="0" alt="">
+</noscript>
+-->
+
+<!-- End of DoubleClick Spotlight Tag: Please do not remove-->
+	
+
+<!-- Casale Media Pixel Tracking Code-->
+
+		    <img src="http://r.casalemedia.com/r?u=143449&s=1" width="1" height="1" alt="">
+
+<!-- Casale Media Pixel Tracking Code -->
+
+
+	</div>
+	<div class="clear-both"></div>	
+</div>	
+	<div style="clear: both;">
+	
+	</div>
+</div>
+		<div id="bottomAdContainer">
+	
+</div>
+	</div>
+
+    
+    
+
+<div id="footer">
+    <div class="footer">
+        <div class="footerBorder">
+            <div class="footerContent">
+                Snagajob
+                <img class="footerarrow" src="/assets/images/trans.gif" />
+            </div>
+        </div>
+        <div class="footerContent">
+            <dl>
+                <dt>
+                    <a title="Snagajob" href="/">Job Seeker</a>
+                </dt>
+                <dd>
+                    <a title="security center" href="http://www.snagajob.com/security/">Security Center</a>
+                </dd>
+                    <dd>
+                    <a title="local jobs" href="/job-seeker/jobs/statelist.aspx">Local Jobs</a>
+                </dd>
+                    <dd>
+                    <a title="job tips" href="/job-resources/">Job Tips</a>
+                </dd>
+                <dd>
+                    <a title="blog - job seeker" href="/resources/">Job Seeker Blog</a>
+                </dd>
+                <dd>
+                    <a title="my job, my health" href="http://www.snagajob.com/work-and-life/category/my-health/">My Job, My Health</a>
+                </dd>
+                <dd>
+                    <a title="coupons" href="/member/benefits/coupons/">Coupons</a>
+                </dd>
+                <dd>
+                    <a title="right fit degrees" href="/online-degrees/">Right-Fit Degrees</a>
+                </dd>
+                <dd>
+                    <a title="help and faq" href="/job-seeker/faq/">Help and FAQ</a>
+                </dd>
+                <dd>
+                    <a title="contact us" href="/contact.aspx">Contact Us</a>
+                </dd>
+                <dd>
+                    <a class="socialIcons twitter" rel="nofollow" target="_blank" href=" http://twitter.com/snagajob" title="Give us your feedback and ask questions"></a>
+                    <a class="socialIcons facebook" rel="nofollow" target="_blank" href="http://www.facebook.com/SnagAJob" title="Snagajob Facebook"></a>
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>
+                    <a title="employer solutions" href="/employer-solutions/">Employer Solutions</a>
+                </dt>
+                <dd>
+                    <a title="post jobs" href="http://hiring.snagajob.com/?refid=hiring">Post Jobs</a>
+                </dd>
+                <dd>
+                    <a title="talent sourcing" href="/employer-solutions/products/talent-sourcing/">Talent Sourcing</a>
+                </dd>
+                <dd>
+                    <a title="hiring manager" href="/employer-solutions/products/hiring-manager/">Hiring Manager</a>
+                </dd>
+                <dd>
+                    <a title="training manager" href="/employer-solutions/products/training-manager/">Training Manager</a>
+                </dd>
+                <dd>
+                    <a title="scheduling manager" href="/employer-solutions/products/scheduling/">Scheduling Manager</a>
+                </dd>
+                <dd>
+                    <a title="recruitment ad agency" href="/raad/">Recruitment Ad Agency</a>
+                </dd>
+                <dd>
+                    <a title="advertise with us" href="http://advertise.snagajob.com/">Advertise with Us</a>
+                </dd>
+                <dd>
+                    <a title="affiliate program" href="/affiliates/">Affiliate Program</a>
+                </dd>
+                <dd>
+                    <a title="contact sales" href="/employer-solutions/contact-us/">Contact Sales</a>
+                </dd>
+                <dd>
+                    <a class="socialIcons twitter" rel="nofollow" target="_blank" href="http://twitter.com/SnagajobWorks" title="Stay on top of industry news, special offers and information on our products"></a>
+                </dd>
+            </dl>
+
+            <dl class="last">
+                <dt>
+                    <a title="about us" href="/about-us/">About Snagajob</a>
+                </dt>
+                <dd>
+                    <a title="careers" href="/careers/">Careers</a>
+                </dd>
+                <dd>
+                    <a title="our story" href="/about-us/our-story/">Our Story</a>
+                </dd>
+                <dd>
+                    <a title="giving back" href="/about-us/giving-back/">Giving Back</a>
+                </dd>
+                <dd>
+                    <a title="life at Snagajob" href="/about-us/life-at-saj/">Life at Snagajob</a>
+                </dd>
+                <dd>
+                    <a title="news" href="/news/">News</a>
+                </dd>
+                <dd>
+                    <a class="socialIcons twitter" rel="nofollow" target="_blank" href="http://twitter.com/lifeatsnagajob" title="Chat about Snagger life"></a>
+                    <a class="socialIcons facebook" rel="nofollow" target="_blank" href="http://www.facebook.com/LifeAtSnagajob" title="Snagajob culture"></a>
+                </dd>
+            </dl>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="additionalLinks" class="footerContent">
+        <div class="copyright">
+            &copy;2000-2012 SnagAJob.com, Inc. All rights reserved
+        </div>
+        <div class="links">
+            <a href="/privacy/">Privacy</a>
+            <a href="/terms/">Terms of Use</a>
+            <a href="/copyright/">Copyright Policy</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+	
+	<!-- SiteCatalyst code version: H.21. Copyright 1996-2010 Adobe, Inc. All Rights Reserved. More info available at http://www.omniture.com --><script type="text/javascript"> var s_account = 'snagajobcom';</script><script type="text/javascript" src="/assets/webtracking/s_code.js"></script><script type="text/javascript"><!--/* You may give each page an identifying name, server, and channel on the next lines. */s.pageName = "|default.aspx"s.server = "10.0.63.86"s.channel = "home"s.pageType = ""s.prop1 = "bmktyp"s.prop2 = "973b1e71-37ac-4eb2-a431-0ccb345cbc8c"s.prop3 = ""s.prop4 = ""s.prop5 = "ta202x55ocgjpweqaskgpg55"s.prop6 = ""s.prop7 = ""s.prop8 = ""s.prop9 = s.getNewRepeat();s.prop10 = "bmktyp"/* Conversion Variables */s.campaign = ""s.state = ""s.zip = ""s.events = ""s.products = ""s.purchaseID	= ""s.eVar1 = "bmktyp"s.eVar2 = ""s.eVar3 = ""s.eVar4 = ""s.eVar5 = ""s.eVar6 = ""s.eVar7 = ""s.eVar8 = ""s.eVar9 = ""s.eVar10 = "bmktyp"/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+src="http://102.122.2O7.net/b/ss/snagajobcom/1/H.21--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+
+</div></form>
+
+	
+
+    <!--Server:  PRODJSWEBB19-->
+    <script type="text/javascript">
+        // tracking pixel version 2.5
+        var aid = '9193';
+        var tdr = ''; if (top.document.referrer != '') { tdr = encodeURIComponent(top.document.referrer); }
+        (function () { steelhouse = { add: function (a, b, c, d) { d = d || false; if (a.addEventListener) { a.addEventListener(b, c, d) } else if (a.attachEvent) { a.attachEvent("on" + b, c) } }, load: function () { var a; if (typeof a == 'undefined') { a = Math.random() * 100000000000000000 } var b = document.createElement('script'); var c = 'px.steelhousemedia.com/st?aid=' + aid + '&cb=' + a + additional + '&tdr=' + tdr; b.type = 'text/javascript'; b.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + c; var d = document.getElementsByTagName('script'); var e = Number(d.length) - 1; var f = document.getElementsByTagName('script')[e]; f.parentNode.insertBefore(b, f) } }; steelhouse.load(); })(); 
+    </script>
+</body>
+</html>

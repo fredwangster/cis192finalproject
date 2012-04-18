@@ -1,0 +1,835 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+
+    <head>
+        <title>Credit Cards, Rewards, Banking and Loans | Discover</title>
+		<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <meta name="description" content="Discover offers reward credit cards, online banking, student loans and personal loans." />
+        <meta name="viewport" content="width=1100" />
+        <link rel="canonical" href="https://www.discover.com/" />
+        
+        <link href="/css/src/homepage.css" rel="stylesheet" type="text/css" />
+		<link href="/css/src/gateway.css" rel="stylesheet" type="text/css" />
+       <link href="/css/src/marquee/unknown-marquees.css" rel="stylesheet" type="text/css" />
+	    <link href="/css/src/marquee/known-marquees.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/ipad-overlay/styles/ipad-overlay.css">
+		<!-- MBox Start-->        
+        <script type="text/javascript" src="/discover/jscripts/acquisitions/mbox.js"></script>
+		<script type="text/javascript">
+ var suppressMboxes = false;
+ if (suppressMboxes) {
+        window.mboxUpdate = function() { return true; }
+        window.mboxCreate = function(mboxName) { mboxFactoryDefault.create(mboxName, mboxShiftArray(arguments)); }
+    }
+</script>
+        <!--MBox End-->  
+	   
+    </head>
+    <body>
+    	
+		<!--BEGIN: Non javascript message-->
+	        <noscript>
+	            <div id="no-js-message">
+	                <div>
+	                    <p><strong>Please Note:</strong> JavaScript is not enabled in your web browser. In order to enjoy the full experience of the Discover website, please turn JavaScript on. If JavaScript is disabled, some of the functionality on our website will not work, such as the display of rates and APRs.</p>
+	                </div>
+	            </div>
+	        </noscript>
+		<!--END: Non javascript message-->
+
+		<!--BEGIN: global header-->
+        <div id="global-header-wrap" class="searchable">
+            <div id="global-header" class="no-js">
+                <a href="https://www.discover.com/index.html" title="DISCOVER" class="discover-logo">DISCOVER</a>
+                <form class="global-header-search-module search-form" name="search" method="get" action="https://search.discover.com/search">
+                    <fieldset>
+                        <input class="search-box" id="searchbox" type="text" placeholder="search" autocomplete="off"  name="q" maxlength="256"/>
+                        <a href="#searchbox" id="clear-livesearch" class="hide">x</a>
+                        <input type="hidden" name="site" value="internet_cm_corp"  />
+			               <input type="hidden" name="getfields" value="*"/>
+			               <input type="hidden" name="client" value="internet_cm_fe" />
+			               <input type="hidden" name="output" value="xml_no_dtd" />
+			               <input type="hidden" name="proxystylesheet" value="internet_cm_fe" />
+                        <input class="search-btn" type="submit" value="" />
+                    </fieldset>
+                </form>
+                <ul class="global-header-tabs">
+                    <li class="global-header-tab-wrap">
+                        <div class="global-header-tab">
+                            <span class="left-shadow"></span>
+                            <a class="lock" title="Log In"><span class="link-text"><span class="lock"></span><strong>Log In</strong></span></a>
+                            <span class="right-shadow"></span>
+                        </div>
+                        <div class="global-header-tab-content-wrap">
+                            <div class="shadow-wrap">
+                                <div class="global-header-tab-content login">
+                                    <div class="details">
+                                        <p><strong>Hello.</strong> Log in and take control.</p>
+                                    </div>
+                                    <div class="options">
+                                        <ul>
+                                            <li>Credit Cards
+                                                <ul>
+                                                    <li><a href="https://www.discovercard.com/cardmembersvcs/loginlogout/app/ac_main?ICMPGN=HDR_LOGN_CC_LOGN" title="Credit Cards Log In">Log In</a></li>
+                                                    <li><a href="https://www.discovercard.com/cardmembersvcs/registration/reg/goto?forwardName=reghome&ICMPGN=HDR_LOGN_CC_REG" title="Credit Cards Register Now">Register Now</a></li>
+													<li><a href="https://www.discovercard.com/cardmembersvcs/acctxfer/app/Home?icmpgn=HDR_LOGN_CC_ACT" title="Activate Your Card" style="color: #FF8100;">Activate Your Card</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="banking">Banking
+                                                <ul>
+                                                    <li><a href="https://www.discoverbank.com/bankac/loginreg/login?ICMPGN=HDR_LOGN_BANK_LOGN" title="Banking Log In">Log In</a></li>
+                                                    <li><a href="https://www.discoverbank.com/bankac/loginreg/regone?ICMPGN=HDR_LOGN_BANK_REG" title="Banking Register Now">Register Now</a></li>
+                                                </ul>
+                                            </li>
+                                            <!-- <li>Home Loans
+                                                <ul>
+                                                    <li><a href="https://mystatus.homeloancenter.com/Account/HLCLogOn?ICMPGN=HDR_LOGN_HMLOAN_LOGN" title="Home Loans Log In">Log In</a></li>
+                                                    <li><a href="https://mystatus.homeloancenter.com/Account/HLCLogOn?ICMPGN=HDR_LOGN_HMLOAN_REG" title="Home Loans Register Now">Register Now</a></li>
+                                                </ul>
+                                            </li> -->
+                                            <li>Student Loans
+                                                <ul>
+                                                    <li><a href="https://www.discoverstudentloans.com/MFA/EnterUsername.aspx?ReturnUrl=/THEOOnline/login.asp&DEST=THEO&Username=&acmpgn=O_DC_PR_X_HDL01&ICMPGN=HDR_LOGN_STUDLOAN_LOGN" title="Student Loans Log In">Log In</a></li>
+                                                    <li><a href="https://www.discoverstudentloans.com/MFA/CreateAccount.aspx?ReturnUrl=/THEOOnline/login.asp&DEST=THEO&Username=&acmpgn=O_DC_PR_X_HDL02&ICMPGN=HDR_LOGN_STUDLOAN_REG" title="Student Loans Register Now">Register Now</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="last">Personal Loans
+                                                <ul>
+                                                    <li><a href="https://www.discoverbank.com/bankac/loginreg/login?ICMPGN=HDR_LOGN_PERSLOAN_LOGN" title="Personal Loans Log In">Log In</a></li>
+                                                    <li><a href="https://www.discoverbank.com/bankac/loginreg/regone?ICMPGN=HDR_LOGN_PERSLOAN_REG" title="Personal Loans Register Now">Register Now</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-shadow">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="global-header-tab-wrap">
+                        <div class="global-header-tab">
+                            <span class="left-shadow"></span>
+                            <a><span class="link-text" title="All Products and Services">All Products &amp; Services</span></a>
+                            <span class="right-shadow"></span>
+                        </div>
+                        <div class="global-header-tab-content-wrap">
+                            <div class="shadow-wrap">
+                                <div class="global-header-tab-content products-and-services">
+                                    <div class="details">
+                                        <p><strong>Do more with your finances.</strong>.</p>
+                                        <p>Spend smarter, manage debt better and save even more with Discover.</p>
+                                    </div>
+                                    <div class="options">
+                                        <ul>
+                                            
+                                            <li><a href="/credit-cards/index.html" title="Credit Cards">Credit Cards</a>
+                                                <ul>
+                                                    <li><a href="/credit-cards/get-discover/index.html?ICMPGN=HDR_ALLPS_CC_CMPCARD" title="Compare All Credit Cards">Compare All Cards</a></li>
+                                                    <li><a href="/credit-cards/get-discover/build-card/index.html" title="Build My Credit Card?ICMPGN=HDR_ALLPS_CC_CB">Build My Card</a></li>
+                                                    <li><a href="https://www.discovercard.com/cardmembersvcs/acqs/app/chooseMyOffer/findMyOffer?ICMPGN=HDR_ALLPS_CC_FMO" title="Pre-Approved Credit Card Offers">Find Pre-Approved Offers</a></li>
+                                                    <li><a href="/apply/mydiscovercard/mydiscovercard.shtml?ICMPGN=HDR_ALLPS_CC_RESPMAIL" title="Respond to Mail Offers">Respond to Mail Offers</a></li>
+                                                    <li><em><a href="/credit-cards/cashback-bonus/?ICMPGN=HDR_ALLPS_CC_CBB" title="Cashback Bonus">Cashback Bonus</a></em></li>
+                                                    <li class="last"><a href="/credit-cards/member-benefits/?ICMPGN=HDR_ALLPS_CC_MEMBEN" title="Member Benefits">Member Benefits</a></li>
+                                                </ul>
+                                            </li>
+                                            
+
+                                            <li><a href="https://www.discover.com/online-banking/"title="Discover Bank">Banking</a>
+                                                <ul>
+                                                    <li><a href="https://www.discover.com/online-banking/savings-account/?ICMPGN=HDR_ALLPS_BANK_SAVING" title="Online Savings">Online Savings</a></li>
+                                                    <li><a href="https://www.discover.com/online-banking/money-market/?ICMPGN=HDR_ALLPS_BANK_MONMRK" title="Money Market">Money Market</a></li>
+                                                    <li><a href="https://www.discover.com/online-banking/cd/?ICMPGN=HDR_ALLPS_BANK_CD" title="Bank CDs">CDs</a></li>
+                                                    <li><a href="https://www.discover.com/online-banking/ira-cd/?ICMPGN=HDR_ALLPS_BANK_IRACD" title="IRA CDs">IRA CDs</a></li>
+                                                    <li class="last"><a href="https://www.discoverbank.com/banksvcs/apply?ICMPGN=HDR_ALLPS_BANK_OPENACCT" title="Open an Account">Open an Account</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>Loans
+                                                <ul>
+                                                    <!-- <li><a href="/home-loans/index.html?ICMPGN=HDR_ALLPS_LOAN_HM">Home Loans</a></li> -->
+                                                    <li><a href="http://www.discoverstudentloans.com/home.aspx?acmpgn=O_DC_PR_X_HDA01" title="Student Loans">Student Loans</a></li>
+                                                    <li class="last"><a href="https://www.discover.com/personal-loans/?ICMPGN=HDR_ALLPS_LOAN_PERS" title="Personal Loans">Personal Loans</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="last" title="Additional Products">Additional Products
+                                                <ul>
+                                                    <li><a href="/gift-cards/index.shtml?ICMPGN=HDR_ALLPS_ADDI_GIFTCRD" title="Gift Cards">Gift Cards</a></li>
+                                                    <li><a href="/credit-cards/member-benefits/security/protection-solutions/wallet-protection.html?ICMPGN=HDR_ALLPS_ADDI_WPP" title="Wallet Protection">Wallet Protection</a></li>
+                                                    <li><a href="/credit-cards/member-benefits/security/protection-solutions/identity-theft-protection.html?ICMPGN=HDR_ALLPS_ADDI_ITP" title="Identity Theft Protection">Identity Theft Protection</a></li>
+                                                    <li><a href="/credit-cards/member-benefits/security/protection-solutions/credit-scoretracker.html?ICMPGN=HDR_ALLPS_ADDI_CST" title="Credit ScoreTracker">Credit ScoreTracker</a></li>
+                                                    <li class="last"><a href="/credit-cards/send-money/?ICMPGN=HDR_ALLPS_ADDI_MONMES" title="Money Messenger">Money Messenger</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-shadow">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="global-header-tab-wrap">
+                        <div class="global-header-tab">
+                            <span class="left-shadow"></span>
+                            <a><span class="link-text" title="Customer Service">Customer Service</span></a>
+                            <span class="right-shadow"></span>
+                        </div>
+                        <div class="global-header-tab-content-wrap">
+                            <div class="shadow-wrap">
+                                <div class="global-header-tab-content customer-service">
+                                    <div class="details">
+                                        <p><strong>Real help. From real people.</strong></p>
+                                        <p>By the phone or online, we're here to help 24/7.</p>
+                                    </div>
+                                    <div class="options">
+                                        <p><strong>Find help with:</strong></p>
+                                        <ul>
+                                            <li>
+                                                <ul>
+                                                    <li><a href="/credit-cards/help-center/index.html?ICMPGN=HDR_CS_HELP_CC" title="Credit Cards">Credit Cards</a></li>
+                                                    <li><a href="https://www.discover.com/online-banking/help-center/?ICMPGN=HDR_CS_HELP_BANK" title="Discover Bank">Banking</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <ul>
+                                                    <!-- <li><a href="/home-loans/help-center/index.html?ICMPGN=HDR_CS_HELP_HMLOAN" title="Home Loans">Home Loans</a></li> -->
+                                                    <li><a href="https://www.discoverstudentloans.com/CompareApply/ContactUs.aspx?acmpgn=O_DC_PR_X_HDC01" title="Student Loans">Student Loans</a></li>
+                                                    <li><a href="https://www.discover.com/personal-loans/help-center/?ICMPGN=HDR_CS_HELP_PERSLOAN" title="Personal Loans">Personal Loans</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="last">
+                                                <ul>
+                                                    <li><a href="/credit-cards/help-center/index.html?ICMPGN=HDR_CS_HELP_SMBIZ" title="small Business">Small Business</a></li>
+                                                    <li><a href="/gift-cards/customer-service.shtml?ICMPGN=HDR_CS_HELP_GIFTCRD" title="Gift Cards">Gift Cards</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-shadow">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="global-header-tab-wrap">
+                        <div class="global-header-tab">
+                            <span class="left-shadow"></span>
+                            <a><span class="link-text" title="Community">Community</span></a>
+                            <span class="right-shadow"></span>
+                        </div>
+                        <div class="global-header-tab-content-wrap">
+                            <div class="shadow-wrap">
+                                <div class="global-header-tab-content community">
+                                    <div class="details">
+                                        <p><strong>Just ask around.</strong></p>
+                                        <p>It really pays to Discover.</p>
+                                    </div>
+                                    <div class="options">
+                                        <p>Join us on:</p>
+                                        <ul>
+                                            <li><a class="facebook" href="https://www.discovercard.com/scripts/PageExit.htm?log=1&ICMPGN=HDR_COMMUNITY_JOIN_FB&v_eurl=http://www.facebook.com/discover" title="Find Discover on Facebook">Facebook</a></li>
+                                            <li><a class="twitter" href="https://www.discovercard.com/scripts/PageExit.htm?log=1&ICMPGN=HDR_COMMUNITY_JOIN_TW&v_eurl=http://twitter.com/Discover" title="Find Discover on Twitter">Twitter</a></li>
+                                            <li><a class="youtube" href="https://www.discovercard.com/scripts/PageExit.htm?log=1&ICMPGN=HDR_COMMUNITY_JOIN_YTUBE&v_eurl=http://www.youtube.com/user/Discover" title="Find Discover on YouTube">YouTube</a></li>
+                                            <li><a class="cbb" href="https://www.discovercard.com/scripts/PageExit.htm?log=1&ICMPGN=HDR_COMMUNITY_JOIN_CMSTORY&v_eurl=http://cashbackconnection.wordpress.com/" title="Discover Cardmember Stories">Cardmember Stories</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-shadow">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		<!--END: global header--> 
+		<!--BEGIN: main content-->
+        <div id="main-content">
+           <div class="fixed-height">	
+		   <div id="marquee-wrapper" class="spinner">
+		    <div class="bg-marquee">
+               <div class="marquee-area">
+				
+                	<!--BEGIN: marquee known-->
+				
+						<div class="main-marquee known" id="rewards-known">
+	<a class="arrow" href="/credit-cards/cashback-bonus/cashback-calendar.html?SCMPGN=MRQ_REWARDS_DETAILS_HPK">See Details</a>
+	<span class="details">
+	<div>
+	<a href="/credit-cards/cashback-bonus/cashback-calendar.html?SCMPGN=MRQ_REWARDS_SIGNUP_HPK" class="button-lrg" title="Sign Up Today"><span>Sign Up Today</span></a>
+	</div>
+	</span>
+</div>
+ 
+						<div class="main-marquee known" id="mobile-known">
+	<a class="learn-more" href="/credit-cards/member-benefits/mobile/mobile-apps.html?SCMPGN=MRQ_MBL_LEARN_HPK">Learn More.</a>
+	<span class="details">
+	<div>
+	<a href="http://www.discovercard.com/scripts/PageExit.htm?log=1&scmpgn=MRQ_MBL_DOWNLOAD_HPK&v_eurl=http://itunes.apple.com/us/app/discover-for-ipad/id511125261" class="button-lrg" title="Download Now"><span>Download Now</span></a>
+	</div>
+	</span>
+</div> 
+						<div class="main-marquee known" id="student-known">
+	<span class="details">
+	<div>
+	<a href="http://www.discoverstudentloans.com/campaigntracker.aspx?acmpgn=O_DC_PR_X_HPM03&SCMPGN=MRQ_SLOAN_LEARN_HPK" class="button-lrg" title="Learn More"><span>Learn More</span></a>
+	</div>
+	</span>
+</div>
+ 
+						
+					<!--END: marquee known-->
+					
+					<!--BEGIN: marquee unknown-->
+					
+						<!-- BEGIN: Acquistions Gateway Marquee -->
+
+<div class="mboxDefault">
+        <div class="main-marquee unknown" id="acq-gateway">
+                
+
+                <div class="overflow">
+
+                        <a class="button-lrg" href="https://www.discover.com/credit-cards/get-discover/more-card/index.html?SCMPGN=MRQ_GW_GREEN_LEARNMORE"><span>Learn More</span></a>
+                </div>
+
+                <div class=" share-options">
+                        <p><a class="share-link" href="https://www.discover.com/credit-cards/get-discover/more-card/index.html?SCMPGN=MRQ_GW_GREEN_RATES" target="_blank">View rates, fees, rewards, limitations and other Important Information</a></p>
+                </div>
+
+        </div>
+</div>
+   <script type="text/javascript">
+		 if (document.cookie.indexOf('LLID') == -1) {
+				mboxCreate('gateway_card_marquee');
+		 }
+   </script>
+
+   <div style="display:none">
+         See more green this spring
+         Save with low intro rates
+         Cash rewards on every purchase
+         All with no annual fee
+   </div>
+
+
+
+ <!-- END: Acquistions Gateway Marquee --> 
+
+						<div class="main-marquee unknown" id="bank-unknown">
+	<span class="details">
+	<div>
+	<a href="https://www.discover.com/online-banking/savings.html?ICMPGN=MARQ0412&SCMPGN=MRQ_BANK_SIGNUP_HPU&src=MARQ0412" class="button-lrg" title="Sign Up Today"><span>Sign Up Today</span></a>
+	</div>
+	</span>
+</div>
+
+						<div class="main-marquee unknown" id="student-unknown">
+	<span class="details">
+	<div>
+	<a href="http://www.discoverstudentloans.com/campaigntracker.aspx?acmpgn=O_DC_PR_X_HPM03&SCMPGN=MRQ_SLOAN_LEARN_HPU" class="button-lrg" title="Learn More"><span>Learn More</span></a>
+	</div>
+	</span>
+</div>
+
+				 
+					<!--END: marquee unknown-->
+					</div><!-- /.marquee-area -->
+			   </div><!-- /.bg-marquee -->
+			 </div><!-- /.marquee-wrapper -->
+		  </div><!-- /.fixed-height -->
+					
+					<!--BEGIN: login-->
+				 <div class="login-links">
+					<!--BEGIN: marquee-nav -->
+    			          <div id="marquee-nav">
+    				          <ul>
+    				          </ul>
+    			          </div>
+    			     <!--END: marquee-nav -->
+    					  
+    			     <!--BEGIN: login-container -->
+
+                    <div class="login-contain">
+                        <div class="login-bdr">
+                            <div class="login">
+                                <h5>Secure Account Log In <a href="#secure-account-tooltip" class="overlay-trigger tooltip" title="Secure Account Log In"></a></h5>
+                                <form id="form-login" name="loginForm" autocomplete="off"  action="https://www.discovercard.com/cardmembersvcs/loginlogout/app/signin" method="post" >
+                                    <div class="textfield">
+                                        <input type="text" id="login-account" placeholder="User ID" name="userID" maxlength="20"/>
+                                    </div>
+                                    <div class="textfield">
+                                        <input readonly="Password" value="Password" class="password" id="password-shim"   maxlength="32"/>
+										<input type="password" class="password hide" id="login-password" name="password" maxlength="32"/>
+                                    </div>
+                                    <noscript>
+                                        <div class="dropdown">
+                                            <select>
+                                                <option value="">Select an Account</option>
+                                                <option value="card">Discover Card</option>
+                                                <option value="bank">Banking</option>
+                                                <option value="studentLoans">Student Loans</option>
+                                                <option value="personalLoans">Personal Loans</option>
+												
+                                            </select>
+                                        </div>
+                                    </noscript>
+                                    <div class="custom-dropdown hide" id="customDropdown">
+                                        <p>Select an Account</p>
+                                        <a href="#" class="selector"></a>
+                                        <ul class="options hide">
+                                            <li><a href="#" rel="select">Select an Account</a></li>
+                                            <li><a href="#" rel="card">Discover Card</a></li>
+                                            <li><a href="#" rel="bank">Banking</a></li>
+                                            <li><a href="#" rel="studentLoans">Student Loans</a></li>
+                                            <li><a href="#" rel="personalLoans">Personal Loans</a></li>
+											
+                                        </ul>
+                                        <input type="hidden" name="accountType" />
+										<input type="hidden" name="pm_fp" id="pm_fp">
+										<input type="hidden" name="currentFormId" value="login" />
+										<script type="text/javascript" src="/discover/jscripts/pm_fp.js"></script>
+										<script language="javascript">post_fingerprintsnoencode()</script>
+                                    </div>
+                                    <div class="post">
+                                        <a href="/register-account/index.html" class="register" title="Register Now">Register Now</a>
+                                        <input type="image" src="/images/global/buttons/btn-log-in-secure.png" id="login-button" alt="Login" title="Login"/>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="login-remember" tabIndex="7" />
+                                        <label for="login-remember">
+                                            Remember User ID <a href="#remember-me-tooltip" class="overlay-trigger tooltip" title="Remember User ID"></a>
+                                        </label>
+                                    </div>
+                                    <div class="forgot">
+                                        <a href="/forgot-info/index.html" class="Forgot UserID/Password" title="Forgot UserID/Password?">Forgot UserID/Password?</a>
+                                    </div>
+									<div style="border-top: 1px solid #949A9D;"><a href="https://www.discovercard.com/cardmembersvcs/acctxfer/app/Home?icmpgn=LFT_LOGN_CC_ACT" style="color: #FF8100; font-size:11px;" title="Activate Your Card">Activate Your Card</a>
+							</div>
+                                </form>
+                            </div>
+                        </div>
+					  </div><!--END: login-->
+					<!--BEGIN: marquee links-->
+                    <div class="recommended-links-container">
+                        <div class="recommended-links">
+                            <div class="link-section col1">
+                                <h1 class="credit-cards">Credit Cards</h1>
+                                
+                                <ul id="cc-links">
+                                    <li><a href="/credit-cards/get-discover/index.html?ICMPGN=STL_CC_CMPCARD" title="Compare All Credit Cards">Compare All Cards</a></li>
+                                    <li><a href="/credit-cards/get-discover/build-card/index.html?ICMPGN=STL_CC_CB" title="Build My Credit Card">Build My Card</a></li>
+                                    <li><a href="https://www.discovercard.com/cardmembersvcs/acqs/app/chooseMyOffer/findMyOffer?ICMPGN=STL_CC_FMO" title="Pre-Approved Credit Card Offers">Find Pre-Approved Offers</a></li>
+									<li><a href="https://www.discover.com/credit-cards/get-discover/student-card/index.html?ICMPGN=STL_STUDMORE_TXT" title="Student Credit Cards">Student Credit Cards</a></li>
+                                </ul>
+                                
+						<div class="mboxDefault"></div>
+						<script type="text/javascript">
+						 if (document.cookie.indexOf('LLID') == -1) {
+								mboxCreate('gateway_cc_links_bottom');
+							}
+						</script>
+                                <p class="overview-link"><a href="/credit-cards/index.html?ICMPGN=STL_CC_DC" class="arrow" title="Go to Discover Card">Go to Discover Card</a></p>
+                            </div>
+                            <div class="link-section col2">
+                                <h4 class="cashback-bonus">Cashback Bonus</h4>
+                                <ul>
+                                    <li><a href="/credit-cards/cashback-bonus/cashback-calendar.html?ICMPGN=STL_CBB_5CBB" title="Cashback Bonus">5% <em>Cashback Bonus</em></a></li>
+                                    <li><a href="/credit-cards/cashback-bonus/shopdiscover.html?ICMPGN=STL_CBB_SHOPD" title="ShopDiscover">ShopDiscover</a></li>
+                                    <li><a href="/credit-cards/cashback-bonus/redeem-cashback.html?ICMPGN=STL_CBB_REDEMP" title="Redeem Your Cashback Bonus">Redeem Your <em>Cashback Bonus</em></a></li>
+                                </ul>
+                                <p class="overview-link"><a href="/credit-cards/cashback-bonus/index.html?ICMPGN=STL_CBB_GETCBB" class="arrow" title="Go to Cashback Bonus">Go to Cashback Bonus</a></p>
+                            </div>
+                            <!--<div class="link-section col3">
+                                <h2 class="online-banking">Banking</h2>
+                                <ul>
+                                    <li><a href="http://www.discoverbank.com/money-market.html" title="Money Market Accounts">Money Market Accounts</a></li>
+                                    <li><a href="http://www.discoverbank.com/online-savings-account.html" title="Savings Accounts">Savings Accounts</a></li>
+                                    <li><a href="http://www.discoverbank.com/cd.html?ICMPGN=STL_BANK_CD" title="CDs">CDs</a> and <a href="http://www.discoverbank.com/ira-cd.html?ICMPGN=STL_BANK_CDIRA" title="IRA CDs">IRA CDs</a></li>
+                                </ul>
+                                <p class="overview-link"><a href="http://www.discoverbank.com" class="arrow" title="Go to Discover Bank">Go to Discover Bank</a></p>
+                            </div>
+                            <div class="link-section col4">
+                                <h4>Loans</h4>
+                                <ul>
+                                    
+                                    <li><a href="http://www.discoverstudentloans.com/home.aspx?acmpgn=O_DC_PR_X_HPT01" title="Student Loans">Student Loans</a></li>
+                                    <li><a href="http://www.discoverpersonalloans.com/ploans/html/ac_main_login.shtml" title="Personal Loans">Personal Loans</a></li>
+                                </ul>
+                            </div>-->
+							<div class="link-section col3">
+								<h2 class="online-banking">Banking</h2>											
+								<ul>
+								<li><a href="https://www.discover.com/online-banking/savings-account/?ICMPGN=STL_BANK_SAVING" title="Online Savings">Online Savings</a></li>
+								<li><a href="https://www.discover.com/online-banking/money-market/?ICMPGN=STL_BANK_MONMRK" title="Money Market">Money Market</a></li>				
+								<li><a href="https://www.discover.com/online-banking/cd/?ICMPGN=STL_BANK_CD" title="Bank CDs">CDs</a></li>						<li><a href="https://www.discover.com/online-banking/ira-cd/?ICMPGN=STL_BANK_CDIRA" title="IRA CDs">IRA CDs</a></li>							
+								</ul>
+								<p class="overview-link"><a href="https://www.discover.com/online-banking/?ICMPGN=STL_BANK_DBANK" title="Go to Discover Bank"class="arrow">Go to Discover Bank</a></p>			
+						   </div>
+						   <div class="link-section col4">															
+								<h4>Loans</h4>
+								<ul>
+								<!--<li><a href="https://www.discover.com/home-loans/mortgage/">Mortgage</a></li>							
+								<li><a href="https://www.discover.com/home-loans/refinance/">Refinance</a></li>-->							
+								<li><a href="http://www.discoverstudentloans.com/home.aspx?acmpgn=O_DC_PR_X_HPT01" title="Student Loans">Student Loans</a></li>
+								<li><a href="https://www.discover.com/personal-loans/?ICMPGN=STL_LOAN_PERSLOAN" title="Personal Loans">Personal Loans</a></li>			
+								</ul>															
+                          </div>
+                        <div class="btm-img">
+                        </div>
+					 </div>
+                    </div><!--END: marquee links-->
+				  </div><!--END: login-links-->
+				
+                
+        </div><!--END: main content-->
+		<!--END: main content-->
+        <!-- BEGIN: optional homepage placements -->
+     <div class="" id="homepage-placement-section">
+		<!-- <div id="travelocity-banner" class="placement known" style="display:none;background: url('/images/homepage/travelocity_Banner.jpg') no-repeat scroll 0pt 0pt transparent; width: 100%; height: 85px;"> 
+		<a title="Redeem Now" class="button-lrg" href="https://merchandise.discovercard.com/ip-dc/discoverSignOn.do?externalSource=Twitter&offerCode=DSKU470083&scmpgn=MRQ_REWARDS_MORE_BC_BNR_TRVL_HPK" style="position: relative; left: 777px; top: 12px;"><span>Redeem Now</span></a>
+		</div> -->
+
+		<!--
+		<div class="homepage-placement" id="placement-left">
+		<a title="Pay with Cashback Bonus" href="http://www.discovercard.com/landing-pages/amazon/cashback.html"><img width="120" height="85" border="0" alt="Pay with Cashback" class="placement-img" src="/images/homepage/icon-paywithcashback-tag.png"></a>
+		<p><a title="Pay with Cashback Bonus at Amazon.com" href="https://www.discover.com/credit-cards/exclusives/amazon/cashback.html?icmpgn=BP_AMAZON_RDM_TXT_HPK_HOLIDAY2011">Turn your rewards into holiday gifts at Amazon.com. Just link your Discover card and instantly <strong>Pay with Cashback Bonus at Amazon.com.</strong></a></p>
+		</div>
+	
+		<div id="placement-right" class="homepage-placement">
+		<a href="#FIXME" title="Placement">
+		<img src="/images/homepage/homepage-placement-default.png" class="placement-img" alt="Placement" width="120" height="85" border="0" /></a>
+		<p><a href="#FIXME">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra dignissim mauris non. Maecenas mollis nisl in.</a></p>
+		</div>
+		-->
+	</div>
+         <!-- END: optional homepage placements -->
+		 <!--BEGIN: rss feed placeholder-->
+        <!--<div id="rss-feed">
+            <p><strong>IN THE NEWS</strong><a href="#" title="Discover Announces Agreement with Banco Popular de Puerto Rico">Discover Announces Agreement with Banco Popular de Puerto Rico</a>|<a href="http://investorrelations.discoverfinancial.com/phoenix.zhtml?c=204177&p=irol-news&nyo=0" title="View All Discover News">View All News </a></p>
+        </div>-->
+		<!--END: rss feed placeholder-->
+		
+		<!--BEGIN: optional disclosure area-->
+			<div id="marquee-disclosures">
+				<div class="disclosure card-types-marquee-unknown" >
+					<p>* More U.S. households have a Discover card than any other cash rewards card (TNS 2010 Consumer Card Strategies Research)</p>
+				</div>
+				<div class="disclosure savings-known savings-unknown">
+					<p>From MONEY Magazine, September 2011 &copy; Time Inc.</p>
+					<p>Money is a registered trademark of Time Inc. and is used under license. MONEY and Time Inc. are not affiliated with, and do not endorse products or services of Discover. </p>
+				</div>
+			</div>        
+		<!--END: optional disclosure area-->
+		<!--BEGIN: global footer-->
+        <div id="global-social-footer">
+            <ul>
+                <li class="social-footer-why-discover"><a href="/why-discover/?ICMPGN=LAFTR_WHYDC" title="Why Discover">Why Discover</a></li>
+				<li class="social-footer-watch-peggy"><a href="https://www.discover.com/scripts/PageExit.htm?log=1&ICMPGN=LAFTR_WATCHPEGGY&v_eurl=http://www.youtube.com/user/Discover" title="Watch Peggy on YouTube">Watch Peggy</a></li>
+                <li class="social-footer-facebook"><a href="https://www.discover.com/scripts/PageExit.htm?log=1&ICMPGN=LAFTR_FB&v_eurl=http://www.facebook.com/discover" title="Find Discover on Facebook">Facebook</a></li>
+                <li class="social-footer-twitter"><a href="https://www.discover.com/scripts/PageExit.htm?log=1&ICMPGN=LAFTR_TW&v_eurl=http://twitter.com/Discover" title="Find Discover on Twitter">Twitter</a></li>
+                <li class="social-footer-cardmember-stories"><a href="https://www.discover.com/scripts/PageExit.htm?log=1&ICMPGN=LAFTR_CMSTORY&v_eurl=http://cashbackconnection.wordpress.com/" title="Discover Cardmember Stories">Cardmember Stories</a></li>
+                <li class="social-footer-mobile-access"><a href="/credit-cards/member-benefits/mobile/mobile-apps.html?ICMPGN=LAFTR_MOBILE" title="Discover Mobile Access">Mobile Access</a></li>
+                <li class="social-footer-cardmember-agreement"><a href="https://www.discovercard.com/cardmembersvcs/smc/requestCMAgreement?ICMPGN=LAFTR_CMAGREEMENT" title="Discover Cardmember Agreement">Cardmember Agreement</a></li>
+            </ul>
+        </div>
+                <div id="global-footer-wrap">
+            <div id="global-footer-content">
+                <div class="primary-links-wrap">
+                    <div class="link-group">
+                        <span class="ul-header" title="CREDIT CARDS">CREDIT CARDS</span>
+                        <ul>
+                            <li><a href="/credit-cards/get-discover/index.html?ICMPGN=FTR_CC_CBBCRD" title="Cash Rewards Credit Card">Cash Rewards Card</a></li>
+                            <li><a href="/credit-cards/get-discover/miles-card/index.html?ICMPGN=FTR_CC_MILES" title="Miles Credit Card">Miles Card</a></li>
+                            <li><a href="/credit-cards/business/index.html?ICMPGN=FTR_CC_SMBIZ" title="Small Business Credit Card">Small Business Card</a></li>
+                            <li><a href="/credit-cards/get-discover/student-card/index.html?ICMPGN=FTR_CC_STUD" title="Student Card">Student Card</a></li>
+                            <li><a href="/credit-cards/get-discover/?ICMPGN=FTR_CC_ALL" title="All Credit Cards">All Credit Cards</a></li>
+							<li><a href="http://www.discovernetwork.com/card-network/acceptance.html" title="Discover Acceptance">Discover Acceptance</a></li>
+							<li><a href="http://www.discovernetwork.com/merchants/accept-discover.html" title="Accept Discover Card">Accept Discover Card</a></li>
+							<li><a href="https://servicecenter.discovernetwork.com/iac/exec/merchantLeadForm.do" title="Refer a Merchant">Refer a Merchant</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <span class="ul-header" title="CASHBACK BONUS">CASHBACK BONUS</span>
+                        <ul>
+                            <li><a href="/credit-cards/cashback-bonus/cashback-calendar.html?ICMPGN=FTR_CBB_5CBB" title="Cashback Bonus">5% <em>Cashback Bonus</em></a></li>
+                            <li><a href="/credit-cards/cashback-bonus/shopdiscover.html?ICMPGN=FTR_CBB_SHOPDPARTNER" title="ShopDiscover Partners">ShopDiscover Partners</a></li>
+                            <li><a href="/credit-cards/cashback-bonus/redeem-cashback.html?ICMPGN=FTR_CBB_REDEMP" title="Redemption Options">Redemption Options</a></li>
+							<li><a href="/credit-cards/cashback-bonus/action.html?ICMPGN=STL_CBBACTION_TXT" title="Cashback in Action">Cashback in Action</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <span class="ul-header" title="OTHER PRODUCTS">OTHER PRODUCTS</span>
+                        <ul>
+                            <li><a href="https://www.discover.com/online-banking/?ICMPGN=FTR_OTHER_SAVING" title="Banking">Banking</a></li>
+                            <li><a href="http://www.discoverstudentloans.com/home.aspx?acmpgn=O_DC_PR_X_FT01" title="Student Loans">Student Loans</a></li>
+                            <li><a href="https://www.discover.com/personal-loans/?ICMPGN=FTR_OTHER_PERSLOAN" title="Personal Loans">Personal Loans</a></li>
+                            <li><a href="/gift-cards/index.shtml?ICMPGN=FTR_OTHER_GIFTCRD" title="Gift Cards">Gift Cards</a></li>
+							<li><a href="/credit-cards/send-money/?gcmpgn=0311_ZZ_srch_gsap_txt" title="Money Messenger">Money Messenger</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <span class="ul-header" title="HELP &amp; SUPPORT">HELP &amp; SUPPORT</span>
+                        <ul>
+                            <li><a href="/credit-cards/help-center/index.html?ICMPGN=FTR_HELP_CS" title="Help Center">Help Center</a></li>
+                            <li><a href="/credit-cards/help-center/faqs/index.html?ICMPGN=FTR_HELP_FAQ" title="Frequently Asked Questions">Frequently Asked Questions</a></li>
+                            <li><a href="https://www.discovercard.com/cardmembersvcs/smc/requestCMAgreement?ICMPGN=FTR_HELP_CMAGR" title="Cardmember Agreements">Cardmember Agreements</a></li>
+                            <li><a href="/credit-cards/help-center/account/international-use.html?ICMPGN=FTR_HELP_INTACCP" title="International Acceptance">International Acceptance</a></li>
+                            <li><a href="https://www.discovercard.com/cardmembersvcs/loginlogout/app/ac_main?link=misc/redirect/redirect-loststolen.htm?ICMPGN=FTR_HELP_LOSTL" title="Report Lost or Stolen Card">Report Lost or Stolen Card</a></li>
+                            <li><a href="http://debit.discovernetwork.com/cal/search.do?ICMPGN=FTR_HELP_ATM" title="ATM Locator">ATM Locator</a></li>
+                            <li><a href="/website-maintenance-schedule.html?ICMPGN=FTR_HELP_WEBMAIN" title="Website Maintenance Schedule">Website Maintenance Schedule</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group last">
+                        <span class="ul-header" title="ABOUT US">ABOUT US</span>
+                        <ul>
+                            <li><a href="http://www.discoverfinancial.com/our-company/?ICMPGN=FTR_ABTUS_ABTDISC" title="About Discover">About Discover</a></li>
+                            <li><a href="http://www.discoverfinancial.com/corporate-responsibility/financial-education/?ICMPGN=FTR_ABTUS_FINEDU" title="Financial Education">Financial Education</a></li>
+                            <li><a href="http://investorrelations.discoverfinancial.com/phoenix.zhtml?c=204177&p=irol-IRHome&ICMPGN=FTR_ABTUS_INVRELA" title="Investor Relations">Investor Relations</a></li>
+                            <li><a href="http://www.discoverfinancial.com/newsroom/?ICMPGN=FTR_ABTUS_NEWS" title="Newsroom">Newsroom</a></li>
+                            <li><a href="http://www.mydiscovercareer.com/?ICMPGN=FTR_ABTUS_CAR" title="Careers">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="secondary-links-wrap">
+                    <form class="global-footer-search-module search-form" method="get" action="https://search.discover.com/search">
+                        <fieldset>
+                            <input class="search-box" id="" type="text" placeholder="search" autocomplete="off" name="q" maxlength="256" />
+                            <input type="hidden" name="site" value="internet_cm_corp" />
+			               <input type="hidden" name="getfields" value="*"/>
+			               <input type="hidden" name="client" value="internet_cm_fe" />
+			               <input type="hidden" name="output" value="xml_no_dtd" />
+			               <input type="hidden" name="proxystylesheet" value="internet_cm_fe" /><input class="search-btn" type="submit" value="" title="search"/>
+                        </fieldset>
+                    </form>
+                    <ul>
+                        <li><a href="/site-map/index.html" title="Site Map">Site Map</a></li>
+                        <li><a href="/credit-cards/help-center/terms-of-use.html" title="Terms of Use">Terms of Use</a></li>
+                        <li><a href="/credit-cards/member-benefits/security/index.html" title="Security">Security</a></li>
+                        <li><a href="/credit-cards/help-center/account/privacy-policies/index.html" title="Privacy Statement">Privacy Statement</a></li>                        
+                        <li class="last"><a href="/credit-cards/help-center/contact-us/index.html" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                    <ul class="tagline">
+                        <li class="last">&copy;<script language="JavaScript">
+<!--
+    today=new Date();
+    year0=today.getFullYear();
+    document.write(year0);
+//-->
+</script> Discover Bank, Member FDIC. <!-- Equal Housing Lender --></li>
+                        <!-- <li class="last icon"></li> -->
+                    </ul>
+                    <a class="it-pays-to-discover" href="/credit-cards/cashback-bonus/" title="It pays to DISCOVER">It pays to DISCOVER</a>
+                </div>
+            </div>
+        </div>
+		<!--END: global footer-->
+
+<script type="text/javascript" src="/scripts/header.js"></script>
+<!-- Begin Google Analytics code - Installed 10/18/11 WSCR#111014-12-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26312399-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Google Analytics code - Installed 10/18/11 WSCR#111014-12-->
+
+<!--omniture SiteCatalyst tag START -->
+<script language='JavaScript' type='text/javascript'> 
+s_account="discoverglobalprod,discovercardservicingprod";
+</script>
+<script language="JavaScript" type="text/javascript" src="/discover/reporting/s_code.js"></script> 
+<script language="JavaScript" type="text/javascript"> 
+var s_code=s.t();
+if(s_code)document.write(s_code); 
+</script>
+<!--omniture SiteCatalyst tag END-->
+		<!--BEGIN: overlays-->
+        <div id="overlays">
+            <div class="small-tooltip hide" id="secure-account-tooltip">
+                <div class="small-top">
+                </div>
+                <div class="body">
+                    <a href="#" class="close-button" title="Close">Close</a>
+                    <h5>Secure Account Center Log In</h5>
+                    <p>Discover is serious about safeguarding your personal information online.</p>
+                    <p>When you access your account and perform transactions on the Discover site we use 128-bit-Secure Sockets Layer (SSL) encryption technology&mdash;the most widely used method of securing internet transactions available today.</p>
+                </div>
+                <div class="small-btm">
+                </div>
+            </div>
+            <div class="small-tooltip hide" id="remember-me-tooltip">
+                <div class="small-top">
+                </div>
+                <div class="body">
+                    <a href="#" class="close-button" title="Close">Close</a>
+                    <h5>Remember Me</h5>
+                    <p>Checking "Remember Me " will save your user ID on the computer you are using so you don't have to retype it every time you log in. To protect the security of your account, we can only save your user ID; we cannot save your account number.</p>
+                    <ul>
+                        <li>To turn off this feature, just uncheck the box and your user ID will not appear the next time you log in</li>
+                        <li>Security Tip: when you save your user ID, it's stored on the computer you are using; therefore, you should never save your user ID on a public computer (e.g., in a library or airport).</li>
+                    </ul>
+                </div>
+                <div class="small-btm">
+                </div>
+            </div>
+            <div class="arrow-tooltip hide" id="dropdown-error">
+                <div class="body">
+                    <p>Please select an account to log in.</p>
+                </div>
+                <div class="bottom">
+                </div>
+            </div>
+            <div class="arrow-tooltip hide" id="userId-error">
+                <div class="body">
+                    <p>Please enter a User ID.</p>
+                </div>
+                <div class="bottom">
+                </div>
+            </div>
+            <div class="arrow-tooltip hide" id="password-error">
+                <div class="body">
+                    <p>Please enter a password.</p>
+                </div>
+                <div class="bottom">
+                </div>
+            </div>
+        </div>
+		<!--END: overlays-->
+
+	       
+        <script type="text/javascript" src="/scripts/libs/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" src="/scripts/build/mcd/mcd-core.js"></script>
+
+	   
+        <script type="text/javascript" src="/scripts/homepage.js"></script>
+        <div id="javascripts" class="hide">
+	
+            <script type="text/javascript">
+               //use the listed marquees as possibilities
+			var known = $('.main-marquee.known').map(function(){
+			   return this.id;
+			});
+          
+			var unknown = $('.main-marquee.unknown').map(function(){
+			   return this.id;
+			});
+				  
+				//pass the qs if there is one
+        $('body').gatewayMarquee(known, unknown, "");
+        
+            </script>
+			
+		<script type="text/javascript" src="/scripts/src/discover/liveSearch.js"></script>
+			
+        </div>
+		<div class="mboxDefault">
+		</div>
+		<script type="text/javascript">
+			if (document.cookie.indexOf('LLID') == -1) 
+			{
+            mboxCreate('gateway_dom_bottom')
+			}
+		</script>
+	</div>
+<!--
+
+<script language="javascript" type="text/javascript">
+var _dropTag=function() {
+var _qS='';
+var _rand=Math.random()+'';
+var _rs=document.location.protocol+'//';
+var xp1_qs=new Array();
+ 
+xp1_qs['_t']            = 'discoverhomepagecont';
+ 
+xp1_qs['_random'] = _rand*100000000000;
+for(var qsKey in xp1_qs){_qS += '&'+qsKey+'='+xp1_qs[qsKey];}
+document.write('<iframe src="'+_rs+'d.xp1.ru4.com/meta?_o=15755'+_qS+'" width="0" height="0" frameborder="0" scrolling="no"></iframe>');}
+_dropTag();
+</script>
+-->
+	<!-- Start overlay markup for tablet -->
+		<div id="tablet-overlay"></div>
+		<div id="tablet-overlay-container">		
+			<header>
+				
+				<div id="close-section"><a href="#" id="overlay-close">X</a></div>
+				
+				<h1><img src="/ipad-overlay/images/logo.png" width="196" height="31" alt="Discover logo"></h1>
+			
+			</header>
+	
+			<section>
+				
+				<h2>Introducing the New Discover iPad<span class="reg">&reg;</span> App!</h2>
+
+				<h3>Account management at your fingertips &ndash; now in the iPad experience.</h3>
+
+				<div class="treatment">
+					
+					<ul class="prompt">
+						<li><a class="btn" href="javascript:TabletOverlay.redirectApp(false);">Download the Free App</a></li>
+						<li><a class="txt" href="javascript:TabletOverlay.redirectApp(true);">No Thanks</a></li>
+					</ul>
+					
+					<ul class="features-list">
+						<li>View account summaries</li>
+						<li>Search recent and pending transactions</li>
+						<li>Enroll in Discover rewards programs</li>
+						<li>Send cash using Money Messenger powered by PayPal&trade;</li>
+					</ul>
+					
+				</div>
+
+			</section>
+	
+			<footer>
+			
+				<small>iPad<span class="reg">&reg;</span> is a registered trademark of Apple Inc.</small>
+			
+			</footer>
+		</div>	
+		<!-- End overlay markup for tablet -->
+		<script type="text/javascript" src="/ipad-overlay/scripts/ipad-overlay.js"></script>
+		<script type="text/javascript">
+			if(document.cookie.indexOf('canIntercept') == -1)
+			{
+				var userAgent=navigator.userAgent;
+				if(userAgent.indexOf("iPad")!=-1){
+					TabletOverlay.init();
+				}
+			}
+		</script>	
+
+		<!-- ACQ111220-01 -->
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Discover Home Page
+URL of the webpage where the tag is expected to be placed: https://www.discover.com/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 01/20/2012
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://fls.doubleclick.net/activityi;src=3470633;type=consu695;cat=disco284;u5=;u3=;u4=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://fls.doubleclick.net/activityi;src=3470633;type=consu695;cat=disco284;u5=;u3=;u4=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+	    </body>
+</html>

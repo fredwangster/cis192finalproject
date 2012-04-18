@@ -1,0 +1,486 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="styles/style-main.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style-layout-default.css" />
+    <!-- BEGIN AD CODE (TOGGLE STYLESHEET) -->
+    <link rel="stylesheet" type="text/css" href="styles/style-ads-showads.css" />
+    <!-- END AD CODE -->
+    
+    <meta name="viewport" content="width=1024" />
+    
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <title> Democratic Underground</title>
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x57-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />  
+    <script language="JavaScript" type="text/javascript" src="scripts/dynamic-ajax-content.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/ajax_prototype.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/sendrequest.js"></script> 
+    <script language="JavaScript" type="text/javascript" src="scripts/toggle-visibility.js"></script>
+    
+    
+    
+    <script type="text/javascript">
+    
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-345284-1']);
+    _gaq.push(['_setDomainName', '.democraticunderground.com']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+    
+    </script>
+    </head>
+    <body id="discuss">
+    
+    <a name="top" id="top"></a>
+    <div class="head-container">
+    <div class="logo"><a href="/index.php"><img src="imgs/logo-du3-150x48.gif" alt="Democratic Underground" width="150" height="48" border="0" title="Democratic Underground" /></a></div>
+    <p class="user-links"><a href="/?com=login&amp;create=1" class="username">Create new account</a> | <a href="/?com=login&amp;create=1">My Profile</a> | <a href="/?com=login&amp;create=1">My Journal</a> | <a href="/?com=login&amp;create=1">My Account</a> |  <a href="/?com=login&amp;create=1">My Inbox</a> | <a href="/?com=forum&amp;id=1240">Help</a> | <a href="/?com=login" class="username">Log in</a></p>
+    <form method="get" action="http://www.democraticunderground.com/searchresults.html" target="_top">
+    <p class="head-search"><img src="imgs/googlesearch.gif" alt="Google search" title="Google search" width="75" height="23" border="0" />
+    <input type="text" name="q" size="31" maxlength="255" value="" id="sbi" class="simplesearch" />
+    <select name="sitesearch" id="sitesearch">
+    <option value="democraticunderground.com" selected="selected">Site search</option>
+    <option value="">Web search</option>
+    </select>
+    <input type="submit" name="sa" value="Search!" id="sbb" class="button" />
+    <input type="hidden" name="domains" value="democraticunderground.com" />
+    <input type="hidden" name="client" value="pub-7805397860504090" />
+    <input type="hidden" name="forid" value="1" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="hidden" name="oe" value="ISO-8859-1" />
+    <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:11" />
+    <input type="hidden" name="hl" value="en" />
+    <i>Advanced search</i></p>
+    </form>
+    </div>
+    <div class="tabs-container">
+    <div class="head-tabs"><a href="/index.php" id="tab-home"><img src="imgs/tab-home-on.gif" alt="Home" title="Home" width="140" height="26" border="0" /></a><a href="/?com=latest_threads" id="tab-latest"><img src="imgs/tab-latestthreads.gif" alt="Latest Threads" title="Latest Threads" width="140" height="26" border="0" /></a><a href="/?com=greatest_threads" id="tab-latest"><img src="imgs/tab-greatestthreads.gif" alt="Greatest Threads" title="Greatest Threads" width="140" height="26" border="0" /></a><a href="/?com=forums" id="tab-forums"><img src="imgs/tab-forumsandgroups.gif" alt="Forums &amp; Groups"title="Forums &amp; Groups" width="140" height="26" border="0" /></a><a href="/?com=mysubs" id="tab-subscriptions"><img src="imgs/tab-mysubscriptions.gif" alt="My Subscriptions" title="My Subscriptions" width="140" height="26" border="0" /></a><a href="/?com=myposts" id="tab-myposts"><img src="imgs/tab-myposts.gif" alt="My Posts" title="My Posts" width="140" height="26" border="0" /></a></div>
+    </div>    <div class="location-trail-container">
+    <div class="location-trail">DU Home</div>
+    </div>    <div class="main-content-container">
+    <!-- BEGIN AD CODE (ENABLE ADSENSE) -->
+  <script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+        </script>
+  <script type='text/javascript'>
+        GS_googleAddAdSenseService("ca-pub-7805397860504090");
+        GS_googleEnableAllServices();
+        </script>
+  <script type='text/javascript'>
+        GA_googleAddSlot("ca-pub-7805397860504090", "DU3_Home_Leaderboard");
+        GA_googleAddSlot("ca-pub-7805397860504090", "DU3_Home_MediumRectangle");
+        GA_googleAddSlot("ca-pub-7805397860504090", "DU3_Home_WideSkyscraper");
+        </script>
+  <script type='text/javascript'>
+        GA_googleFetchAds();
+        </script>
+  <!-- END AD CODE -->
+  <!-- BEGIN AD CODE (LEADERBOARD) -->
+  <div class="leaderboard-container">
+    <div class="leaderboard-placeholder">
+      <script type='text/javascript'>
+        GA_googleFillSlot("DU3_Home_Leaderboard");
+        </script>
+    </div>
+  </div>
+  <!-- END AD CODE -->
+    <!-- CONTENT STARTS HERE -->
+    
+    <div class="twocol-main">
+    <!-- google_ad_section_start -->
+    <div class="nhome-bigcenter">
+      <div class="h-welcome-outer">
+        <div class="h-welcome-inner">
+          <h1 class="nhome-enterlink"><a href="/?com=latest_threads">Enter Discussion Forums</a></h1>
+          <div class="nhome-enteroptions">More than 150,000 user registrations and 50,000,000 posts since 2001</div>
+        </div>
+      </div>
+      <div class="nhome-colone">
+      <div id="nhome-pad-pic">
+          <div class="nhome-pic"><a href="/101722491"><img src="http://upload.democraticunderground.com/imgs/home/120217-senate-gop-filibusters-buffett-rule.jpg" alt="Pic of the Moment" /></a></div>
+        </div>
+        <div id="nhome-pad-trending">
+          <h2 class="nhome-subhead">Trending Now</h2>
+          <div class="nhome-greatest"><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002576368" class="title">WINNING! GOP Economics Explained In One Hilarious Graphic</a></span> <span class="nhome-great-info">41 recs : By Playinghardball</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002576413" class="title">Why isn't the murder of Kenneth Chamberlain a bigger story?</a></span> <span class="nhome-great-info">34 recs : By SpartanDem</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002576639" class="title">I went to go to work this morning, and guess what I ran into...</a></span> <span class="nhome-great-info">29 recs : By HipChick</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002576360" class="title">Just got back from the grand opening of our local Obama office....</a></span> <span class="nhome-great-info">21 recs : By madmom</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/101722557" class="title">The Student Loan Forgiveness Act of 2012 (H.R. 4170)</a></span> <span class="nhome-great-info">18 recs : By lovuian</span></p></div>
+  </div>
+        <div id="nhome-pad-greatest">
+          <h2 class="nhome-subhead">Greatest Threads</h2>
+          <div class="nhome-greatest"><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002575583" class="title">Don't know if this has been posted....WOW!!</a></span> <span class="nhome-great-info">161 recs : By one_voice</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002573367" class="title">Does anyone realize what the GOP just did?</a></span> <span class="nhome-great-info">127 recs : By xchrom</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002575315" class="title">Mitt faces up to 5 years in jail &amp; $10,000 fine if he did not live in his son’s unfinished basement</a></span> <span class="nhome-great-info">113 recs : By kpete</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/101499820" class="title">So ... Ted Nugent Threatened to Assassinate President Obama? (Updated: Secret Service Is On It)</a></span> <span class="nhome-great-info">89 recs : By kpete</span></p><p class="nhome-great" id="gr01"><span class="nhome-great-title"><a href="/1002573221" class="title">Bruins goalie Tim Thomas (refused invitation to the White House) greeted by Obama masks - Hilarious!</a></span> <span class="nhome-great-info">88 recs : By underpants</span></p></div>
+        </div>
+        <div id="nhome-pad-journals">
+          <h2 class="nhome-subhead">The Left Column</h2><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=106047">underpants</a></p>
+            <h2 class="nhome-j-headline"><a href="/1002573221">Bruins goalie Tim Thomas (refused invitation to the White House) greeted by Obama masks - Hilarious!</a></h2>
+            <p class="nhome-j-deck">USA Today: Bruins goalie Tim Thomas passed on meeting with Barack Obama last year. He couldn't miss the president's face last night.<br /><br /><img src="http://i1173.photobucket.com/albums/r589/duadmin/tthomasx-wide-community.jpg" border="0"></p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=237205">Tx4obama</a></p>
+            <h2 class="nhome-j-headline"><a href="/125130102">Statement by President Obama on the Buffett Rule</a></h2>
+            <p class="nhome-j-deck">&quot;The Buffett Rule is common sense. At a time when we have significant deficits to close and serious investments to make to strengthen our economy, we simply cannot afford to keep spending money on tax cuts that the wealthiest Americans don't need and didn't ask for. But it's also about basic fairness – it's just plain wrong that millions of middle-class Americans pay a higher share of their income in taxes than some millionaires and billionaires. America prospers when we're all in it together and everyone has the opportunity to succeed.&quot;</p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=244891">Grassy Knoll</a></p>
+            <h2 class="nhome-j-headline"><a href="/101499233">Newt Gingrich Bitten By Penguin At St. Louis Zoo</a></h2>
+            <p class="nhome-j-deck">HuffPo: At least one penguin at the St. Louis Zoo appears to be a feisty opponent of Newt Gingrich.</p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=151115">kpete</a></p>
+            <h2 class="nhome-j-headline"><a href="/1002575315">Mitt faces up to 5 years in jail &amp; $10,000 fine if he did not live in his son's unfinished basement</a></h2>
+            <p class="nhome-j-deck">Daily Caller: In January 2010 the former Massachusetts governor proudly cast a ballot for Republican Scott Brown in the special election to replace the late Sen. Ted Kennedy. He didn't own property in the state at the time, and had registered to vote listing his son's unfinished basement as his residence.</p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=155356">tk2kewl</a></p>
+            <h2 class="nhome-j-headline"><a href="/1002574101">If I hear one more rich fuck talk about the dignity of work...</a></h2>
+            <p class="nhome-j-deck">I don't need to be lectured about the dignity of work by some jackass for whom the word callous describes their economic policies rather than the effect &quot;dignity&quot; has on one's hands!<br /></p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=180011">ProSense</a></p>
+            <h2 class="nhome-j-headline"><a href="/1002574599">PPP: Obama doing well in Florida</a></h2>
+            <p class="nhome-j-deck">PPP: Barack Obama starts the general election with a 5 point advantage over Mitt Romney in Florida, 50-45. This is the biggest lead Obama's had in Florida over the course of five polls PPP's done in the state since the beginning of 2011.</p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=152034">cali</a></p>
+            <h2 class="nhome-j-headline"><a href="/1002573171">For Romney &quot;lying isn't a sin, it's a business plan&quot;</a></h2>
+            <p class="nhome-j-deck">WaPo: A marathon of debates and an eon of campaigning have toughened and honed Romney. He commands the heights of great assurance, and he knows, as some of us learn too late in life, that the truth is not always a moral obligation but sometimes merely what works. </p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=101111">onehandle</a></p>
+            <h2 class="nhome-j-headline"><a href="/101499172">Tea Party Speaker Reportedly Tells LGBT Protesters: 'We Will Not Be Silenced By Faggots'</a></h2>
+            <p class="nhome-j-deck">HuffPo: A Tea Party tax day protest and counter-demonstration in Boston got testy over the weekend, with the confrontation reportedly leading to a speaker telling a group of LGBT activists that they wouldn't be &quot;silenced by faggots.&quot;</p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=112524">brooklynite</a></p>
+            <h2 class="nhome-j-headline"><a href="/1002570363">Herman Cain Rally at the Capitol Fails Spectacularly</a></h2>
+            <p class="nhome-j-deck">And to think this guy was leading the Republican field six months ago...<br /><br /><img src="http://i1173.photobucket.com/albums/r589/duadmin/7084511765_7cfd3185ac.jpg" border="0"></p>
+          </div><div class="nhome-j-item">
+            <p class="nhome-j-username"><a href="/?com=journals&amp;uid=151115">kpete</a></p>
+            <h2 class="nhome-j-headline"><a href="/1002569758">Romney Book: 'Nonworking Parents' Produce 'Indolent And Unproductive' Children</a></h2>
+            <p class="nhome-j-deck">From Mitt Romney's autobiography: &quot;Welfare without work erodes the spirit and the sense of self-worth of the recipient. And it conditions the children of nonworking parents to an indolent and unproductive life.&quot;</p>
+          </div></div><div id="nhome-pad-cool">
+          <h2 class="nhome-subhead">Cool</h2>
+          <div class="nhome-coolthreads"><p class="nhome-cool"><span class="nhome-cool-title"><a href="/101898470" class="title">Our Space Shuttle Discovery Pics From DC today</a></span> <span class="nhome-cool-info">The DU Lounge : By EarlG</span></p><p class="nhome-cool"><span class="nhome-cool-title"><a href="/101898432" class="title">All 5 'Star Trek' TV Captains Appearing at London Trekkie Convention, $1,426 gets you autographs</a></span> <span class="nhome-cool-info">The DU Lounge : By Liberal_in_LA</span></p><p class="nhome-cool"><span class="nhome-cool-title"><a href="/12285427" class="title">Life on Mars Found by NASA's Viking Mission?</a></span> <span class="nhome-cool-info">Science : By liberal N proud</span></p><p class="nhome-cool"><span class="nhome-cool-title"><a href="/12285387" class="title">Can whales predict tsunamis?</a></span> <span class="nhome-cool-info">Science : By Judi Lynn</span></p><p class="nhome-cool"><span class="nhome-cool-title"><a href="/10363871" class="title">A once in a lifetime shot, or?</a></span> <span class="nhome-cool-info">Photography : By HarveyDarkey</span></p></div></div>
+        <div id="nhome-pad-tens">
+          <h2 class="nhome-subhead">Around DU</h2>
+          <h3 class="nhome-tens-head">Good Reads</h3>
+          <ul class="nhome-tens-list"><li><a href="/101624832">Rochelle Riley: Detroit's budget too tight to run November election?</a></li><li><a href="/101624831">Toon: Suspicious Character in Sanford</a></li><li><a href="/101624828">Toons: Right Turn Only, The Warren Buffet Dream, Enjoy Being A One-Percenter and More. - 4/17/12</a></li><li><a href="/101624824">Cell Phones Suck II: They're Listening...</a></li><li><a href="/101624823">Cell Phones Suck II: They're Listening...</a></li><li><a href="/101624818">2nd House committee blasts GSA for parties, trips, bonuses paid for by taxpayers</a></li><li><a href="/101624810">Once Every 36 Years, Primary Fight for Indiana Senator (Lugar)</a></li><li><a href="/101624804">The U.S.'s Tragic Role in Guatemala and a Chance to Make Amends</a></li><li><a href="/101624801">US banks are back and bigger than ever</a></li><li><a href="/101624792">A dark day for the future of books (Mark Coker/CNN)</a></li></ul>
+          <h3 class="nhome-tens-head">Politics 2012</h3>
+          <ul class="nhome-tens-list"><li><a href="/125130350">I went to a Ted Nugent show in the 90s...</a></li><li><a href="/125130341">ROMNEY LIES: Claims John Kerry Released 2 Years Of Tax Returns But Kerry Actually Released 20</a></li><li><a href="/125130320">Secret donors pour millions of dollars into Crossroads GPS</a></li><li><a href="/125130317">Taking Bets: When will Newt Gingrich drop out...</a></li><li><a href="/125130304">Romney To Travel Back In Time To Kill Liberal Versions Of Himself</a></li><li><a href="/125130302">Article:  Mitt Romney Sought Ted Nugent’s Endorsement, Should Answer For It</a></li><li><a href="/125130294">So now we have Walt the Warehouse worker?</a></li><li><a href="/125130283">Ha!</a></li><li><a href="/125130270">Obama leads Romney by five in Florida...</a></li><li><a href="/125130265">NYS Senator Ruben Diaz, Sr. endorses &quot;birther&quot; presidential candidate</a></li></ul>
+          <h3 class="nhome-tens-head">General Discussion</h3>
+          <ul class="nhome-tens-list"><li><a href="/1002577115">NYT: Details Emerge on Decisions Made by U.S. in China Scandal</a></li><li><a href="/1002577095">I just wish that I could go asleep and awake on election day</a></li><li><a href="/1002577090">Does Romney's Short List For VP Include George Zimmerman?</a></li><li><a href="/1002577089">Bishop Daniel Jenke Delivers Sermon -Obama Following Similar Path To Hitler And Stalin</a></li><li><a href="/1002577086">Looks like Teddy Nugent bugger picker is being investigated for assassination threats.</a></li><li><a href="/1002577053">My iPad learned the word 'Rmoney' on the train to Drinking Liberally Philly tonight.</a></li><li><a href="/1002577028">Attention Mitt the Shit Hoser!</a></li><li><a href="/1002576924">As ice cap melts, militaries vie for Arctic edge</a></li><li><a href="/1002576894">Here are the young men.</a></li><li><a href="/1002576891">The Romneys display a remarkable sense of entitlement</a></li></ul>
+          <h3 class="nhome-tens-head">Topics</h3>
+          <ul class="nhome-tens-list"><li><a href="/?com=forum&amp;id=1139" class="group10">Feminists</a>: <a href="/11396017">NYC feminist art center marks 5th anniversary</a></li><li><a href="/?com=forum&amp;id=1220" class="group10">Astrology, Spirituality &amp; Alternative Healing</a>: <a href="/12206672">Panache Desai</a></li><li><a href="/?com=forum&amp;id=1172" class="group10">Gun Control &amp; RKBA</a>: <a href="/117232045">Can we agree that the NRA didn't advocate responsible gun use when they invited Ted Nugent to speak?</a></li><li><a href="/?com=forum&amp;id=1204" class="group10">Sports</a>: <a href="/120410804">I can even love Costas tonight!</a></li><li><a href="/?com=forum&amp;id=1166" class="group10">World History</a>: <a href="/1166361">Emelienne.</a></li><li><a href="/?com=forum&amp;id=1151" class="group10">Mental Health Support</a>: <a href="/11511100">i'm having a wicked burst of motivation the last few days</a></li><li><a href="/?com=forum&amp;id=1255" class="group10">History of Feminism</a>: <a href="/1255956">words used to describe women throughout the ages</a></li><li><a href="/?com=forum&amp;id=1218" class="group10">Religion</a>: <a href="/121821307">Schizotypal personality and Religious nuttiness.</a></li><li><a href="/?com=forum&amp;id=1230" class="group10">Atheists &amp; Agnostics</a>: <a href="/12306004">Schizotypal personality and Religious nuttiness.</a></li><li><a href="/?com=forum&amp;id=1128" class="group10">Frugal and Energy Efficient Living</a>: <a href="/1128919">Frugal and Energy Efficient Laundry</a></li></ul>
+          <h3 class="nhome-tens-head">Places</h3>
+          <ul class="nhome-tens-list"><li><a href="/?com=forum&amp;id=1045" class="group10">Florida</a>: <a href="/1045221">Please like Florida Public Employees on Facebook.  And follow the website of the same name.</a></li><li><a href="/?com=forum&amp;id=1108" class="group10">Latin America</a>: <a href="/11082353">Mexican poll points to big win for PRI's Pena Nieto</a></li><li><a href="/?com=forum&amp;id=1078" class="group10">Texas</a>: <a href="/10782369">Some Baptists want Texas Lottery Commission shut down</a></li><li><a href="/?com=forum&amp;id=1047" class="group10">Hawaii</a>: <a href="/1047428">Hannemann, Gabbard Pull Away from Pack in CD2 Money Race</a></li><li><a href="/?com=forum&amp;id=1059" class="group10">Minnesota</a>: <a href="/1059414">It looks like Bachmann II is running against Keith Ellison</a></li><li><a href="/?com=forum&amp;id=1069" class="group10">North Carolina</a>: <a href="/1069288">Five top N.C. Democratic elected officials ask party chairman to resign</a></li><li><a href="/?com=forum&amp;id=1084" class="group10">Wisconsin</a>: <a href="/10842084">Over the counter Recall Walker lawn signs in the Fox Valley?</a></li><li><a href="/?com=forum&amp;id=1087" class="group10">Canada</a>: <a href="/1087593">Wild Rose Candidate says he has advantage because he's Caucasian</a></li><li><a href="/?com=forum&amp;id=1074" class="group10">Pennsylvania</a>: <a href="/10741307">After $23 million in cuts, Harrisburg School District still has $16 million deficit</a></li><li><a href="/?com=forum&amp;id=1038" class="group10">Arizona</a>: <a href="/1038433">Republican enthusiasim in Marana Az.</a></li></ul>
+        </div>
+      </div>
+      <div class="nhome-coltwo">
+        <div id="nhome-pad-lbn">
+          <h2 class="nhome-subhead">Latest Breaking News</h2><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100377">Tim Thomas Taunted With Obama Signs By Capitals Fans</a></h2>
+            <p class="nhome-lbn-deck">10 min ago - President Barack Obama wasn't in attendance at the Verizon Center to see the Capitals take on the defending Stanley Cup champions Boston Bruins for Game 3 on Monday night. But his face did manage to make an appearance.. several times.Capitals fan ... <span class="nhome-lbn-source">(<a href="http://www.huffingtonpost.com/2012/04/17/tim-thomas-obama-signs-capitals-fans_n_1431367.html" target="_blank" class="nhome-lbn-link">Huffington Post</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100370">Snatched 3-Day-Old of Slain Mom Found Alive; Person Detained</a></h2>
+            <p class="nhome-lbn-deck">19 min ago - A 3-day-old baby who was snatched from his mother by a woman who shot her at least six times in the parking lot of a Spring, Texas, pediatrician's office, has been found alive, and someone has been detained in the case, officials said. Montgomery C ... <span class="nhome-lbn-source">(<a href="http://abcnews.go.com/US/snatched-day-slain-mom-found-alive-person-detained/story?id=16159451" target="_blank" class="nhome-lbn-link">abc</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100348">Protesters greet Wisconsin Gov. Walker in Troy (Michigan)</a></h2>
+            <p class="nhome-lbn-deck">57 min ago - April 17, 2012 at 8:22 pmProtesters greet Wisconsin Gov. Walker in TroyBy Marisa SchultzThe Detroit News Troy— Throngs of protesters chanting &quot;we are the 99 percent&quot; rallied Tuesday outside a banquet hall where Wisconsin Gov. Scott Wal ... <span class="nhome-lbn-source">(<a href="http://www.detroitnews.com/article/20120417/POLITICS03/204170441#ixzz1sLr6ulni" target="_blank" class="nhome-lbn-link">Detroit News</a>)</span></p>
+          </div><div class="nhome-mediumrectangle-container">
+            <div class="nhome-mediumrectangle-placeholder">
+              <script type='text/javascript'>
+GA_googleFillSlot("DU3_Home_MediumRectangle");
+</script>
+            </div>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100319">Brewer vetoes guns in public buildings bill</a></h2>
+            <p class="nhome-lbn-deck">1 hr ago - PHOENIX — Gov. Jan Brewer has vetoed a bill that would have allowed guns in public buildings.The governor’s office announced the veto Tuesday. The bill proposed permitting gun owners to carry firearms into government facilities that lacked securit ... <span class="nhome-lbn-source">(<a href="http://azstarnet.com/news/state-and-regional/brewer-vetoes-guns-in-public-buildings-bill/article_c3f830d0-88ea-11e1-95b4-0019bb2963f4.html" target="_blank" class="nhome-lbn-link">Arizona Daily Star (Tucson)</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100295">White House threatens to veto bill on Keystone</a></h2>
+            <p class="nhome-lbn-deck">2 hrs ago - By Roberta RamptonWASHINGTON | Tue Apr 17, 2012 4:42pm EDT(Reuters) - The White House on Tuesday said Obama would veto legislation before the U.S. House of Representatives that sought to force approval of the stalled Keystone XL oil pipeline as p ... <span class="nhome-lbn-source">(<a href="http://www.reuters.com/article/2012/04/17/us-usa-keystone-idUSBRE83G1F820120417" target="_blank" class="nhome-lbn-link">Reuters</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100268">Romney campaign tries to distance itself from key immigration adviser</a></h2>
+            <p class="nhome-lbn-deck">2 hrs ago - Republican presidential candidate Mitt Romney is distancing himself from the author of some of the toughest anti-immigration laws in the country, Kris Kobach, the first in what is expected to be a series of moves aimed at winning over crucial Latino  ... <span class="nhome-lbn-source">(<a href="http://www.guardian.co.uk/world/2012/apr/17/mitt-romney-campaign-immigration-adviser?newsfeed=true" target="_blank" class="nhome-lbn-link">The Guardian</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100240">Court says Arizona can demand voter identification</a></h2>
+            <p class="nhome-lbn-deck">3 hrs ago - By Tim GaynorPHOENIX | Tue Apr 17, 2012 7:10pm EDT(Reuters) - A U.S. appeals court on Tuesday ruled Arizona may require voters to show identification at the polls, a ruling likely to add fuel to the fiery debate about voting rights in a president ... <span class="nhome-lbn-source">(<a href="http://www.reuters.com/article/2012/04/17/us-usa-arizona-voters-idUSBRE83G1KZ20120417" target="_blank" class="nhome-lbn-link">Reuters</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100214">New Evidence Cited in Secret Service Prostitution Inquiry</a></h2>
+            <p class="nhome-lbn-deck">3 hrs ago - The Secret Service has uncovered evidence that all 11 members under investigation for alleged misconduct with prostitutes in Colombia before President Obama’s arrival there for a summit meeting last weekend had taken women to their rooms, Representat ... <span class="nhome-lbn-source">(<a href="http://www.nytimes.com/2012/04/18/us/politics/new-details-in-inquiry-into-secret-service-agents.html" target="_blank" class="nhome-lbn-link">NY Times</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100210">Generic-Drug Makers Win at High Court on Brand-Name Patents</a></h2>
+            <p class="nhome-lbn-deck">3 hrs ago - The U.S. Supreme Court boosted generic-drug makers in seeking federal approval for treatments, saying they can argue in court that their brand-name rivals overstated the reach of their patents in regulatory filings.The justices today unanimously si ... <span class="nhome-lbn-source">(<a href="http://www.businessweek.com/news/2012-04-17/generic-drug-makers-win-on-brand-name-patents" target="_blank" class="nhome-lbn-link">Bloomberg</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100199">NLRB Chairman Mark Gaston Pearce on recent decisions regarding employee rights posting</a></h2>
+            <p class="nhome-lbn-deck">4 hrs ago - In light of conflicting decisions at the district court level, the DC Circuit Court of Appeals has temporarily enjoined the NLRB’s rule requiring the posting of employee rights, which had been scheduled to take effect on April 30, 2012.In view of t ... <span class="nhome-lbn-source">(<a href="http://www.nlrb.gov/news/nlrb-chairman-mark-gaston-pearce-recent-decisions-regarding-employee-rights-posting" target="_blank" class="nhome-lbn-link">NLRB</a>)</span></p>
+          </div><!-- END LEFTCOL-LBN -->
+          <div id="nhome-show-morenews"><a href="#">More news...</a></div>
+          <!-- FOR MOBILE -->
+          <div id="show-more-news"><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100187">Milledgeville (GA) Police Handcuff 6-Year-Old Girl for Misbehaving at School</a></h2>
+            <p class="nhome-lbn-deck">4 hrs ago - http://www.13wmaz.com/news/article/178448/175/Milledgeville-Police-Handcuff-6-Year-Old-Girl-for-Misbehaving-at-SchoolMILLEDGEVILLE, Ga. - Milledgeville's acting police chief, Dray Swicord, said Tuesday that he stands by an officer's decision to ha ... <span class="nhome-lbn-source">(<a href="http://www.13wmaz.com/news/article/178448/175/Milledgeville-Police-Handcuff-6-Year-Old-Girl-for-Misbehaving-at-School" target="_blank" class="nhome-lbn-link">TV 13 WMAZ NEWS - Macon, Georgia</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100180">Senate GOP will join legal challenge against Obama's recess appointments</a></h2>
+            <p class="nhome-lbn-deck">4 hrs ago - Senate GOP will join legal challenge against Obama's recess appointmentsBy Alexander Bolton	 - 04/17/12 03:14 PM ETSenate Republicans will join a lawsuit challenging the constitutionality of President Obama's recess appointments to the Consumer Fi ... <span class="nhome-lbn-source">(<a href="http://thehill.com/blogs/on-the-money/1007-other/222043-senate-republicans-will-join-legal-challenge-against-obamas-recess-appointments" target="_blank" class="nhome-lbn-link">The Hill</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100179">US home construction slows</a></h2>
+            <p class="nhome-lbn-deck">4 hrs ago - Construction of new homes in the US fell unexpectedly in March to the lowest in five months, but approvals for building permits –a proxy for future construction –increased to their highest level in more than three years.Housing starts fell 5.8 per  ... <span class="nhome-lbn-source">(<a href="http://liveweb.archive.org/http://www.ft.com/cms/s/0/edd74718-8888-11e1-a727-00144feab49a.html" target="_blank" class="nhome-lbn-link">Financial Times</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100171">Judge throws out Andrew Shirvell lawsuit against former U-M student body president</a></h2>
+            <p class="nhome-lbn-deck">4 hrs ago - Judge throws out Andrew Shirvell lawsuit against former U-M student body president4:43 PM, April 17, 2012  By David JesseFree Press Education Writer A federal judge threw out a lawsuit this week filed against the former student body president a ... <span class="nhome-lbn-source">(<a href="http://www.freep.com/article/20120417/NEWS06/120417055/Judge-throws-out-lawsuit-against-former-student-body-president-at-U-M?odyssey=tab|topnews|text|FRONTPAGE" target="_blank" class="nhome-lbn-link">Detroit Free Press</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100159">Fracking causes earthquakes, studies confirm</a></h2>
+            <p class="nhome-lbn-deck">4 hrs ago - Two separate studies are providing insights into the earth-shaking consequences of the controversial gas extraction process known as fracking.Both studies confirm that hydraulic fracturing, or fracking, can trigger manmade earthquakes. The process  ... <span class="nhome-lbn-source">(<a href="http://www.cbc.ca/news/canada/story/2012/04/17/environment-fracking-earthquake-studies.html" target="_blank" class="nhome-lbn-link">Canadian Press</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100142">Groups oppose bills to change voter registration procedure (in Michigan)</a></h2>
+            <p class="nhome-lbn-deck">5 hrs ago - April 17, 2012 at 4:17 pmGroups oppose bills to change voter registration procedureBy Chad LivengoodDetroit News Lansing BureauLansing — Civil and voting rights groups on Tuesday opposed legislation that would require voters to affirm their U.S ... <span class="nhome-lbn-source">(<a href="http://www.detroitnews.com/article/20120417/POLITICS02/204170424#ixzz1sKoV5dsK" target="_blank" class="nhome-lbn-link">Detroit News</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100132">Warren Buffett Cancer: Berkshire Hathaway CEO Diagnosed With Prostate Cancer</a></h2>
+            <p class="nhome-lbn-deck">5 hrs ago - Famed billionaire investor Warren Buffett has been diagnosed with stage-1 prostate cancer, according to Bloomberg TV. Berkshire Hathaway, the firm where the 81-year-old Buffett is CEO, said the diagnosis &quot;isn't remotely life threatening.&quot;  ... <span class="nhome-lbn-source">(<a href="http://www.huffingtonpost.com/2012/04/17/warren-buffett-cancer-prostate_n_1432689.html?ncid=edlinkusaolp00000003" target="_blank" class="nhome-lbn-link">Huffington Post</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100130">Colombia is fifth worst in the world for unsolved journalist murders .</a></h2>
+            <p class="nhome-lbn-deck">5 hrs ago - Colombia is fifth worst in the world for unsolved journalist murders .Tuesday, 17 April 2012 08:50 Rosemary Westwood Colombia is the fifth worst country in the world for unsolved murders of journalists for the second year in a row, according to a ... <span class="nhome-lbn-source">(<a href="http://colombiareports.com/colombia-news/news/23474-colombia-fifth-worst-journalists-unsolved-murders.html" target="_blank" class="nhome-lbn-link">Colombia Reports</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100112">Exclusive - UK has vast shale gas reserves, geologists say</a></h2>
+            <p class="nhome-lbn-deck">5 hrs ago - (Reuters) - Britain may have enough offshore shale gas to catapult it into the top ranks of global producers, energy experts now believe, and while production costs are still very high, new U.S. technology should eventually make reserves commercially ... <span class="nhome-lbn-source">(<a href="http://uk.reuters.com/article/2012/04/17/uk-britain-shale-reserves-idUKBRE83G0KS20120417" target="_blank" class="nhome-lbn-link">Reuters</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/1014100096">HOUSE WAYS AND MEANS COMMITTEE TO CUT OBAMACARE SUBSIDIES TO PAY FOR RYAN BUDGET</a></h2>
+            <p class="nhome-lbn-deck">6 hrs ago - HOUSE WAYS AND MEANS COMMITTEE TO CUT OBAMACARE SUBSIDIES TO PAY FOR RYAN BUDGET | The House Ways and Means Committee has announced plans to mark up legislation that would reduce the deficit by $53 billion between 2013 and 2022, following instruction ... <span class="nhome-lbn-source">(<a href="http://thinkprogress.org/health/2012/04/17/466031/house-ways-and-means-committee-to-cut-obamacare-subsidies-to-pay-for-ryan-budget/" target="_blank" class="nhome-lbn-link">Think Progress</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499970">ALEC Disbands Task Force Responsible for Voter ID,</a></h2>
+            <p class="nhome-lbn-deck">8 hrs ago - ALEC Disbands Task Force Responsible for Voter ID, 'Stand Your Ground' LawsJohn Nichols on April 17, 2012 - 12:00 PM ETPressured by watchdog groups, civil rights organizations and a growing national movement for accountable lawmaking, the American  ... <span class="nhome-lbn-source">(<a href="http://www.thenation.com/blog/167425/alec-disbands-task-force-responsible-voter-id-stand-your-ground-laws?rel=emailNation" target="_blank" class="nhome-lbn-link">The Nation</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499963">Amanda Clayton, Michigan lottery winner, arraigned on welfare fraud charges</a></h2>
+            <p class="nhome-lbn-deck">8 hrs ago - LINCOLN PARK, Mich. (AP) - A Michigan lottery winner was charged with fraud Tuesday for collecting food stamps and public health insurance despite pocketing a $735,000 jackpot.Amanda Clayton, 25, was silent during a brief court hearing after spendi ... <span class="nhome-lbn-source">(<a href="http://www.wjla.com/articles/2012/04/amanda-clayton-michigan-lottery-winner-arraigned-on-welfare-fraud-charges-75002.html" target="_blank" class="nhome-lbn-link">Associated Press</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499954">Senate Seeks Ways To Save Ailing US Postal Service</a></h2>
+            <p class="nhome-lbn-deck">8 hrs ago - WASHINGTON — With big postal cuts looming, the Senate is deciding whether to stabilize the ailing U.S. Postal Service with a short-term cash infusion while delaying most decisions on closing post offices and ending Saturday mail delivery by requiring ... <span class="nhome-lbn-source">(<a href="http://www.huffingtonpost.com/2012/04/17/postal-service-cuts-senate_n_1431714.html?ref=politics" target="_blank" class="nhome-lbn-link">Huffington Post</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499944">Secret Service Scandal Investigation Involves Brother Of GOP Senate Candidate</a></h2>
+            <p class="nhome-lbn-deck">8 hrs ago - Former agent and current Maryland Republican candidate for U.S. Senate Dan Bongino spoke out Monday about his former colleagues at the currently scandal-plagued U.S. Secret Service. The agency is facing scrutiny over allegations that agents brought p ... <span class="nhome-lbn-source">(<a href="http://www.huffingtonpost.com/2012/04/17/secret-service-scandal-gop-senate-candidate_n_1431488.html" target="_blank" class="nhome-lbn-link">Huffington Post</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499882">Water tank poisoned at Afghan girls' school; 140 hospitalized</a></h2>
+            <p class="nhome-lbn-deck">9 hrs ago - Kabul, Afghanistan (CNN) -- At least 140 Afghan schoolgirls and female teachers were admitted to a local hospital after their drinking water was poisoned, health officials say, laying the blame on extremists opposed to women's education.The victims ... <span class="nhome-lbn-source">(<a href="http://www.cnn.com/2012/04/17/world/afghanistan-girls-poisoned/index.html" target="_blank" class="nhome-lbn-link">CNN World</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499867">U.S. top court: lawyers hired by cities can seek immunity</a></h2>
+            <p class="nhome-lbn-deck">9 hrs ago - By James ViciniWASHINGTON | Tue Apr 17, 2012 11:49am EDT(Reuters) - The Supreme Court ruled on Tuesday that private attorneys or others temporarily hired by local governments to conduct investigations can assert immunity from civil rights lawsuits ... <span class="nhome-lbn-source">(<a href="http://www.reuters.com/article/2012/04/17/us-usa-lawyers-immunity-idUSBRE83G0Z320120417" target="_blank" class="nhome-lbn-link">Reuters</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499855">Georgia lawmaker quits ALEC, calls it ‘radical’ group with ‘dangerous agenda’</a></h2>
+            <p class="nhome-lbn-deck">9 hrs ago - A state senator from Georgia, Nan Orrock (D-Atlanta) has left the American Legislative Exchange Council, the controversial legislative organization better known as ALEC.  In a statement to the citizens’ action group Better Georgia, Orrock denounced t ... <span class="nhome-lbn-source">(<a href="http://www.rawstory.com/rs/2012/04/17/georgia-lawmaker-quits-alec-calls-it-radical-group-with-dangerous-agenda/" target="_blank" class="nhome-lbn-link">Raw Story</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499823">PROGRESSIVE VICTORY: ALEC Ends Its Guns And Voter Suppression Task Force</a></h2>
+            <p class="nhome-lbn-deck">9 hrs ago - PROGRESSIVE VICTORY: ALEC Ends Its Guns And Voter Suppression Task ForceBy Scott Keyes on Apr 17, 2012 at 11:54 amIn the face of mounting pressure from progressive activists and its own corporate sponsors, the American Legislative Exchange Council ... <span class="nhome-lbn-source">(<a href="http://thinkprogress.org/justice/2012/04/17/465775/alec-retreat-non-economic-issues/" target="_blank" class="nhome-lbn-link">Think Progress</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499820">So ... Ted Nugent Threatened to Assassinate President Obama? (Updated: Secret Service Is On It)</a></h2>
+            <p class="nhome-lbn-deck">9 hrs ago - So ... Ted Nugent Threatened to Assassinate President Obama? - Updated: Secret Service Is On ItWe're not sure how else to take this remark from the nutjob guitarist and Romney-endorser: &quot;If Barack Obama becomes the president in November, again, ... <span class="nhome-lbn-source">(<a href="http://nymag.com/daily/intel/2012/04/ted-nugent-threatened-to-kill-president-obama.html" target="_blank" class="nhome-lbn-link">New York Magazine</a>)</span></p>
+          </div><div class="nhome-lbn-item">
+            <h2 class="nhome-lbn-headline"><a href="/101499807">Karzai wants 'at least $2 billion' a year from US</a></h2>
+            <p class="nhome-lbn-deck">10 hrs ago - Afghan President Hamid Karzai on Tuesday said he wanted &quot;at least $2 billion&quot; a year from the United States after it withdraws its troops in 2014.Karzai said the US should specify in a partnership agreement to be signed between his countr ... <span class="nhome-lbn-source">(<a href="http://news.yahoo.com/karzai-wants-least-2-billion-us-141710318.html" target="_blank" class="nhome-lbn-link">AFP News</a>)</span></p>
+          </div></div>
+        </div>
+      </div>
+    </div>
+    <div class="nhome-bigright">
+      <div id="nhome-pad-videos">
+        <h2 class="nhome-subhead">Video</h2>
+        <div class="nhome-videos"><p><a href="/101722580"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/2_1TaJ6gXGg/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Military helicopters over Chicago April 16 2012</span></a></p><p><a href="/101722563"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/TrMgw4xN-7o/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">More from the diseased from Mitt Romney supporter Ted Nugent</span></a></p><p><a href="/101722557"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/1QEj-vIOIXk/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">The Student Loan Forgiveness Act of 2012 (H.R. 4170)</span></a></p><p><a href="/101722554"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/G_awIQbeMjY/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Death To My Hometown</span></a></p><p><a href="/101722548"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/btp01Az0ZcU/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">&quot;Things Happen&quot; - Connect the Dots on Climate Change and Extreme Weather</span></a></p><p><a href="/101722526"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/HTAZue6ylZ8/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Must-See Video: Has Global Warming Caused A Quantum Jump In Extreme Weather?</span></a></p><p><a href="/101722514"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/n9esh-HYkW4/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">PAT ROBERTSON: 14-YEAR-OLD ‘DOESN’T KNOW WHAT HER SEXUALITY IS’</span></a></p><p><a href="/101722511"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/BaaZq7_XJ9Q/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">The ED Show: The Republican War on Postal Workers</span></a></p><p><a href="/101722509"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/4uov_sPFJuY/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Norway's Johan Galtung, Peace &amp; Conflict Pioneer, Reflects on Norwegian Massacre, Afghan War</span></a></p><p><a href="/101722506"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/AgNdnuUvLag/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Mitt Romney: &quot;It's been fun getting to know Ted Nugent&quot;</span></a></p><p><a href="/101722501"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/CW4kEgFRtBs/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">TYT: Secret Service Scandal</span></a></p><p><a href="/101722497"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/dNXhq5T6o8E/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Thom Hartmann: Is Ahmadinejad supporting Karl Rove &amp; Mitt Romney?</span></a></p><p><a href="/101722495"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/-Qlk98I1fC0/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Thom Hartmann explains to Prof Berkowitz why colleges are liberal</span></a></p><p><a href="/101722492"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/dNNqPMAhMow/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">The Rachel Maddow Show - If Romney really respected mothers...</span></a></p><p><a href="/101722489"><span class="nhome-video-container"><img src="http://img.youtube.com/vi/GrY2h0ZZx04/0.jpg" alt="Video" title="Video" /></span><span class="nhome-video-title">Thom Hartmann: 6 People You Need to Start a Revolution</span></a></p></div>
+      </div><div class="skyscraper-container">
+        <div class="skyscraper-placeholder">
+          <script type='text/javascript'>
+        GA_googleFillSlot("DU3_Home_WideSkyscraper");
+        </script>
+        </div>
+        </div><div class="nhome-pad-archives">
+        <h2 class="nhome-subhead">Archives</h2>
+        <p class="nhome-h-archive"><b>2011</b> <a href="/discuss/archives.php?date=2011x1">J</a> <a href="/discuss/archives.php?date=2011x2">F</a> <a href="/discuss/archives.php?date=2011x3">M</a> <a href="/discuss/archives.php?date=2011x4">A</a> <a href="/discuss/archives.php?date=2011x5">M</a> <a href="/discuss/archives.php?date=2011x6">J</a> <a href="/discuss/archives.php?date=2011x7">J</a> <a href="/discuss/archives.php?date=2011x8">A</a> <a href="/discuss/archives.php?date=2011x9">S</a> <a href="/discuss/archives.php?date=2011x10">O</a> <a href="/discuss/archives.php?date=2011x11">N</a> <a href="/discuss/archives.php?date=2011x12">D</a></p>
+        <p class="nhome-h-archive"><b>2010</b> <a href="/discuss/archives.php?date=2010x1">J</a> <a href="/discuss/archives.php?date=2010x2">F</a> <a href="/discuss/archives.php?date=2010x3">M</a> <a href="/discuss/archives.php?date=2010x4">A</a> <a href="/discuss/archives.php?date=2010x5">M</a> <a href="/discuss/archives.php?date=2010x6">J</a> <a href="/discuss/archives.php?date=2010x7">J</a> <a href="/discuss/archives.php?date=2010x8">A</a> <a href="/discuss/archives.php?date=2010x9">S</a> <a href="/discuss/archives.php?date=2010x10">O</a> <a href="/discuss/archives.php?date=2010x11">N</a> <a href="/discuss/archives.php?date=2010x12">D</a></p>
+        <p class="nhome-h-archive"><b>2009</b> <a href="/discuss/archives.php?date=2009x1">J</a> <a href="/discuss/archives.php?date=2009x2">F</a> <a href="/discuss/archives.php?date=2009x3">M</a> <a href="/discuss/archives.php?date=2009x4">A</a> <a href="/discuss/archives.php?date=2009x5">M</a> <a href="/discuss/archives.php?date=2009x6">J</a> <a href="/discuss/archives.php?date=2009x7">J</a> <a href="/discuss/archives.php?date=2009x8">A</a> <a href="/discuss/archives.php?date=2009x9">S</a> <a href="/discuss/archives.php?date=2009x10">O</a> <a href="/discuss/archives.php?date=2009x11">N</a> <a href="/discuss/archives.php?date=2009x12">D</a></p>
+        <p class="nhome-h-archive"><b>2008</b> <a href="/discuss/archives.php?date=2008x1">J</a> <a href="/discuss/archives.php?date=2008x2">F</a> <a href="/discuss/archives.php?date=2008x3">M</a> <a href="/discuss/archives.php?date=2008x4">A</a> <a href="/discuss/archives.php?date=2008x5">M</a> <a href="/discuss/archives.php?date=2008x6">J</a> <a href="/discuss/archives.php?date=2008x7">J</a> <a href="/discuss/archives.php?date=2008x8">A</a> <a href="/discuss/archives.php?date=2008x9">S</a> <a href="/discuss/archives.php?date=2008x10">O</a> <a href="/discuss/archives.php?date=2008x11">N</a> <a href="/discuss/archives.php?date=2008x12">D</a></p>
+        <p class="nhome-h-archive"><b>2007</b> <a href="/discuss/archives.php?date=2007x1">J</a> <a href="/discuss/archives.php?date=2007x2">F</a> <a href="/discuss/archives.php?date=2007x3">M</a> <a href="/discuss/archives.php?date=2007x4">A</a> <a href="/discuss/archives.php?date=2007x5">M</a> <a href="/discuss/archives.php?date=2007x6">J</a> <a href="/discuss/archives.php?date=2007x7">J</a> <a href="/discuss/archives.php?date=2007x8">A</a> <a href="/discuss/archives.php?date=2007x9">S</a> <a href="/discuss/archives.php?date=2007x10">O</a> <a href="/discuss/archives.php?date=2007x11">N</a> <a href="/discuss/archives.php?date=2007x12">D</a></p>
+        <p class="nhome-h-archive"><b>2006</b> <a href="/discuss/archives.php?date=2006x1">J</a> <a href="/discuss/archives.php?date=2006x2">F</a> <a href="/discuss/archives.php?date=2006x3">M</a> <a href="/discuss/archives.php?date=2006x4">A</a> <a href="/discuss/archives.php?date=2006x5">M</a> <a href="/discuss/archives.php?date=2006x6">J</a> <a href="/discuss/archives.php?date=2006x7">J</a> <a href="/discuss/archives.php?date=2006x8">A</a> <a href="/discuss/archives.php?date=2006x9">S</a> <a href="/discuss/archives.php?date=2006x10">O</a> <a href="/discuss/archives.php?date=2006x11">N</a> <a href="/discuss/archives.php?date=2006x12">D</a></p>
+        <p class="nhome-h-archive"><b>2005</b> <a href="/discuss/archives.php?date=2005x1">J</a> <a href="/discuss/archives.php?date=2005x2">F</a> <a href="/discuss/archives.php?date=2005x3">M</a> <a href="/discuss/archives.php?date=2005x4">A</a> <a href="/discuss/archives.php?date=2005x5">M</a> <a href="/discuss/archives.php?date=2005x6">J</a> <a href="/discuss/archives.php?date=2005x7">J</a> <a href="/discuss/archives.php?date=2005x8">A</a> <a href="/discuss/archives.php?date=2005x9">S</a> <a href="/discuss/archives.php?date=2005x10">O</a> <a href="/discuss/archives.php?date=2005x11">N</a> <a href="/discuss/archives.php?date=2005x12">D</a></p>
+        <p class="nhome-h-archive"><b>2004</b> <a href="/discuss/archives.php?date=2004x1">J</a> <a href="/discuss/archives.php?date=2004x2">F</a> <a href="/discuss/archives.php?date=2004x3">M</a> <a href="/discuss/archives.php?date=2004x4">A</a> <a href="/discuss/archives.php?date=2004x5">M</a> <a href="/discuss/archives.php?date=2004x6">J</a> <a href="/discuss/archives.php?date=2004x7">J</a> <a href="/discuss/archives.php?date=2004x8">A</a> <a href="/discuss/archives.php?date=2004x9">S</a> <a href="/discuss/archives.php?date=2004x10">O</a> <a href="/discuss/archives.php?date=2004x11">N</a> <a href="/discuss/archives.php?date=2004x12">D</a></p>
+        <p class="nhome-h-archive"><b>2003</b> J F M A M <a href="/discuss/archives.php?date=active">J</a> <a href="/discuss/archives.php?date=2003x7">J</a> <a href="/discuss/archives.php?date=2003x8">A</a> <a href="/discuss/archives.php?date=2003x9">S</a> <a href="/discuss/archives.php?date=2003x10">O</a> <a href="/discuss/archives.php?date=2003x11">N</a> <a href="/discuss/archives.php?date=2003x12">D</a></p>
+      </div>
+    </div>
+    <!-- google_ad_section_end -->
+  </div>
+    
+    <!-- CONTENT ENDS HERE -->
+        <div class="twocol-left"><ul id="browseforums">        <li id="f1001"><a href="#" class="ca-o" onclick="ajaxpage('/?com=qb&amp;id=1001&amp;action=close', 'f1001');return false">Main</a><ul>              <li><a href="/?com=forum&amp;id=1013" class="g-new">Announcements</a></li>              <li><a href="/?com=forum&amp;id=1014" class="f-new">Latest Breaking News</a></li>              <li><a href="/?com=forum&amp;id=1016" class="f-new">Good Reads</a></li>              <li><a href="/?com=forum&amp;id=1017" class="f-new">Video &amp; Multimedia</a></li>              <li><a href="/?com=forum&amp;id=1251" class="f-new">Politics 2012</a></li>              <li><a href="/?com=forum&amp;id=1002" class="f-new">General Discussion</a></li>              <li><a href="/?com=forum&amp;id=1018" class="f-new">The DU Lounge</a></li>              <li><a href="/?com=forum&amp;id=1240" class="f-new">Help &amp; Meta-discussion</a></li></ul></li>        <li id="f1003"><a href="#" class="ca-x" onclick="ajaxpage('/?com=qb&amp;id=1003&amp;action=open', 'f1003');return false">My Subscriptions</a></li>        <li id="f1004"><a href="#" class="ca-x" onclick="ajaxpage('/?com=qb&amp;id=1004&amp;action=open', 'f1004');return false">Topics</a></li>        <li id="f1239"><a href="#" class="ca-x" onclick="ajaxpage('/?com=qb&amp;id=1239&amp;action=open', 'f1239');return false">Places</a></li></ul><div class="blogads-container">
+      <script language="JavaScript" src="http://cache.blogads.com/597383404/feed.js" type="text/javascript"></script>
+    </div><div class="blogroll">
+      <p>Blogroll</p>
+      <ul class="nobullets">
+        <li><a href="http://www.agonist.org/" target="_blank">Agonist</a></li>
+        <li><a href="http://allspinzone.com/" target="_blank">All Spin Zone</a></li>
+        <li><a href="http://www.alternet.org" target="_blank">AlterNet</a></li>
+        <li><a href="http://americablog.org" target="_blank">AMERICAblog</a></li>
+        <li><a href="http://www.reachm.com/amstreet/" target="_blank">American Street</a></li>
+        <li><a href="http://archpundit.com/" target="_blank">ArchPundit</a></li>
+        <li><a href="http://atlanticfreepress.com/" target="_blank">Atlantic Free Press</a></li>
+        <li><a href="http://bagnewsnotes.com/" target="_blank">BAGNewsnotes</a></li>
+        <li><a href="http://www.bartcop.com" target="_blank">BartCop</a></li>
+        <li><a href="http://bigheaddc.com/" target="_blank">Big Head DC</a></li>
+        <li><a href="http://www.bopnews.com/" target="_blank">Blogging of the Pres</a></li>
+        <li><a href="http://www.blogactive.com/" target="_blank">BlogACTIVE</a></li>
+        <li><a href="http://bluegrassreport.org/" target="_blank">Bluegrass Report</a></li>
+        <li><a href="http://bluegrassroots.com" target="_blank">Bluegrass Roots</a></li>
+        <li><a href="http://blueindiana.net" target="_blank">Blue Indiana</a></li>
+        <li><a href="http://bluejersey.com/" target="_blank">BlueJersey</a></li>
+        <li><a href="http://www.bluemassgroup.com/" target="_blank">Blue Mass. Group</a></li>
+        <li><a href="http://www.blueoregon.com/" target="_blank">BlueOregon</a></li>
+        <li><a href="http://www.bluenc.com/" target="_blank">BlueNC</a></li>
+        <li><a href="http://bobgeiger.com" target="_blank">Bob Geiger</a></li>
+        <li><a href="http://boomantribune.com/" target="_blank">Booman</a></li>
+        <li><a href="http://www.bradblog.com/" target="_blank">BRAD Blog</a></li>
+        <li><a href="http://brendancalling.com" target="_blank">Brendan Calling</a></li>
+        <li><a href="http://www.buckeyestateblog.com/" target="_blank">Buckeye State Blog</a></li>
+        <li><a href="http://www.burntorangereport.com/" target="_blank">Burnt Orange Report</a></li>
+        <li><a href="http://calitics.com/" target="_blank">Calitics</a></li>
+        <li><a href="http://www.capitolannex.com/" target="_blank">Capitol Annex</a></li>
+        <li><a href="http://www.thecarpetbaggerreport.com" target="_blank">Carpetbagger Report</a></li>
+        <li><a href="http://www.chris-floyd.com/" target="_blank">Chris Floyd</a></li>
+        <li><a href="http://claycane.net/" target="_blank">Clay Cane</a></li>
+        <li><a href="http://www.cliffschecter.blogspot.com" target="_blank">Cliff Schecter</a></li>
+        <li><a href="http://commentsfromleftfield.com/" target="_blank">Comments from Left Field</a></li>
+        <li><a href="http://confinedspace.blogspot.com" target="_blank">Confined Space</a></li>
+        <li><a href="http://correntewire.com/" target="_blank">Corrente</a></li>
+        <li><a href="http://cottonmouthblog.blogspot.com/" target="_blank">Cotton Mouth</a></li>
+        <li><a href="http://crooksandliars.com" target="_blank">Crooks and Liars</a></li>
+        <li><a href="http://www.culturekitchen.com/" target="_blank">culture kitchen</a></li>
+        <li><a href="http://www.cursor.org/" target="_blank">Cursor</a></li>
+        <li><a href="http://www.dailygotham.com/" target="_blank">Daily Gotham</a></li>
+        <li><a href="http://www.dailykos.com/" target="_blank">Daily Kos</a></li>
+        <li><a href="http://www.davidcorn.com/" target="_blank">David Corn</a></li>
+        <li><a href="http://democrats.com" target="_blank">Democrats.com</a></li>
+        <li><a href="http://www.dembloggers.com/" target="_blank">Dem Bloggers</a></li>
+        <li><a href="http://mathewgross.com" target="_blank">Deride and Conquer</a></li>
+        <li><a href="http://www.democraticunderground.com" target="_blank">Democratic Underground</a></li>
+        <li><a href="http://digbysblog.blogspot.com/" target="_blank">Digby</a></li>
+        <li><a href="http://dovbear.blogspot.com" target="_blank">DovBear</a></li>
+        <li><a href="http://www.drudge.com/" target="_blank">Drudge Retort</a></li>
+        <li><a href="http://edcone.com/" target="_blank">Ed Cone</a></li>
+        <li><a href="http://scoop.epluribusmedia.org/" target="_blank">ePluribus Media</a></li>
+        <li><a href="http://atrios.blogspot.com" target="_blank">Eschaton</a></li>
+        <li><a href="http://ezraklein.typepad.com/" target="_blank">Ezra Klein</a></li>
+        <li><a href="http://feministe.us/blog" target="_blank">Feministe</a></li>
+        <li><a href="http://feministing.com/" target="_blank">Feministing</a></li>
+        <li><a href="http://www.firedoglake.com" target="_blank">Firedoglake</a></li>
+        <li><a href="http://www.firedupmissouri.com/" target="_blank">Fired Up</a></li>
+        <li><a href="http://first-draft.com/" target="_blank">First Draft</a></li>
+        <li><a href="http://jeffery-feldman.typepad.com/" target="_blank">Frameshop</a></li>
+        <li><a href="http://miaculpa.blogspot.com/" target="_blank">Greatscat!</a></li>
+        <li><a href="http://greenmountaindaily.com" target="_blank">Green Mountain Daily</a></li>
+        <li><a href="http://gregpalast.com" target="_blank">Greg Palast</a></li>
+        <li><a href="http://www.hoffmania.com" target="_blank">Hoffmania</a></li>
+        <li><a href="http://www.horsesass.org/" target="_blank">Horse's Ass</a></li>
+        <li><a href="http://hughesforamerica.typepad.com" target="_blank">Hughes for America</a></li>
+        <li><a href="http://www.grupo-utopia.com/blog/isou" target="_blank">In Search of Utopia</a></li>
+        <li><a href="http://isthatlegal.org" target="_blank">Is That Legal?</a></li>
+        <li><a href="http://patriotboy.blogspot.com" target="_blank">Jesus' General</a></li>
+        <li><a href="http://jonswift.blogspot.com" target="_blank">Jon Swift</a></li>
+        <li><a href="http://www.juancole.com" target="_blank">Juan Cole</a></li>
+        <li><a href="http://keystonepolitics.com" target="_blank">Keystone Politics</a></li>
+        <li><a href="http://rackjite.com" target="_blank">Kick!</a></li>
+        <li><a href="http://www.knoxviews.com/" target="_blank">KnoxViews</a></li>
+        <li><a href="http://www.lasvegasgleaner.com/" target="_blank">Las Vegas Gleaner</a></li>
+        <li><a href="http://www.latinopundit.com/" target="_blank">Latino Pundit</a></li>
+        <li><a href="http://www.lefarkins.blogspot.com/" target="_blank">Lawyers, Guns and Money</a></li>
+        <li><a href="http://theleftcoaster.com/" target="_blank">Left Coaster</a></li>
+        <li><a href="http://leftinthewest.com" target="_blank">Left in the West</a></li>
+        <li><a href="http://www.liberalavenger.com/" target="_blank">Liberal Avenger</a></li>
+        <li><a href="http://www.liberaloasis.com" target="_blank">Liberal Oasis</a></li>
+        <li><a href="http://loadedorygun.com" target="_blank">Loaded Orygun</a></li>
+        <li><a href="http://www.mahablog.com/" target="_blank">Mahablog</a></li>
+        <li><a href="http://majikthise.typepad.com/majikthise_/" target="_blank">Majikthise</a></li>
+        <li><a href="http://makethemaccountable.com" target="_blank">Make Them Accountable</a></li>
+        <li><a href="http://yglesias.typepad.com/" target="_blank">Matthew Yglesias</a></li>
+        <li><a href="http://maxspeak.org/mt" target="_blank">MaxSpeak</a></li>
+        <li><a href="http://mediagirl.org/" target="_blank">Media Girl</a></li>
+        <li><a href="http://www.michiganliberal.com/" target="_blank">Michigan Liberal</a></li>
+        <li><a href="http://mncampaignreport.com/" target="_blank">Minnesota Campaign Report</a></li>
+        <li><a href="http://www.minnesotamonitor.com/" target="_blank">Minnesota Monitor</a></li>
+        <li><a href="http://mydd.com/" target="_blank">MyDD</a></li>
+        <li><a href="http://www.myleftnutmeg.com/" target="_blank">My Left Nutmeg</a></li>
+        <li><a href="http://www.myleftwing.com/" target="_blank">My Left Wing</a></li>
+        <li><a href="http://achorn.blogspot.com" target="_blank">My Two Sense</a></li>
+        <li><a href="http://www.nathannewman.org/log/" target="_blank">Nathan Newman</a></li>
+        <li><a href="http://www.needlenose.com/" target="_blank">Needlenose</a></li>
+        <li><a href="http://nvtoday.com" target="_blank">Nevada Today</a></li>
+        <li><a href="http://newscorpse.com/" target="_blank">News Corpse</a></li>
+        <li><a href="http://www.newsdissector.org/" target="_blank">News Dissector</a></li>
+        <li><a href="http://cernigsnewshog.blogspot.com/" target="_blank">Newshoggers</a></li>
+        <li><a href="http://www.newshounds.us" target="_blank">News Hounds</a></li>
+        <li><a href="http://nitpicker.blogspot.com" target="_blank">Nitpicker</a></li>
+        <li><a href="http://www.oliverwillis.com/" target="_blank">Oliver Willis</a></li>
+        <li><a href="http://www.onegoodmove.org/1gm/" target="_blank">onegoodmove</a></li>
+        <li><a href="http://www.openleft.com/" target="_blank">OpenLeft</a></li>
+        <li><a href="http://www.pageoneq.com/" target="_blank">PageOneQ</a></li>
+        <li><a href="http://www.pamshouseblend.com" target="_blank">Pam's House Blend</a></li>
+        <li><a href="http://www.pandagon.net/" target="_blank">Pandagon</a></li>
+        <li><a href="http://intellectualize.org" target="_blank">People's Rep. of Seabrook</a></li>
+        <li><a href="http://www.pinkdome.com" target="_blank">PinkDome</a></li>
+        <li><a href="http://www.politics1.com/" target="_blank">Politics1</a></li>
+        <li><a href="http://www.washingtonmonthly.com" target="_blank">Political Animal</a></li>
+        <li><a href="http://politicalwire.com/" target="_blank">Political Wire</a></li>
+        <li><a href="http://www.thepoorman.net/" target="_blank">Poor Man Institute</a></li>
+        <li><a href="http://prairiestateblue.com" target="_blank">Prairie State Blue</a></li>
+        <li><a href="http://progressivehistorians.com/" target="_blank">Progressive Historians</a></li>
+        <li><a href="http://www.raisingkaine.com/blog" target="_blank">Raising Kaine</a></li>
+        <li><a href="http://www.rawstory.com" target="_blank">Raw Story</a></li>
+        <li><a href="http://renodiscontent.com" target="_blank">Reno Discontent</a></li>
+        <li><a href="http://republicoft.com/" target="_blank">Republic of T</a></li>
+        <li><a href="http://www.rifuture.org/blog/" target="_blank">Rhode Island's Future</a></li>
+        <li><a href="http://rochesterturning.com" target="_blank">Rochester Turning</a></li>
+        <li><a href="http://rockymountainreport.com" target="_blank">Rocky Mountain Report</a></li>
+        <li><a href="http://www.rodonline.typepad.com/" target="_blank">Rod 2.0</a></li>
+        <li><a href="http://roxanne.typepad.com/" target="_blank">Rox Populi</a></li>
+        <li><a href="http://www.rudepundit.blogspot.com/" target="_blank">Rude Pundit</a></li>
+        <li><a href="http://www.sadlyno.com/" target="_blank">Sadly, No!</a></li>
+        <li><a href="http://www.satiricalpolitical.com" target="_blank">Satirical Political Report</a></li>
+        <li><a href="http://seeingtheforest.com/" target="_blank">Seeing The Forest</a></li>
+        <li><a href="http://shakespearessister.blogspot.com/" target="_blank">Shakesville</a></li>
+        <li><a href="http://davidsirota.com" target="_blank">SirotaBlog</a></li>
+        <li><a href="http://sisterstalk.tblog.com/"  target="_blank">SistersTalk</a></li>
+        <li><a href="http://xnerg.blogspot.com" target="_blank">Skippy the Bush Kangaroo</a></li>
+        <li><a href="http://slacktivist.typepad.com/" target="_blank">Slacktivist</a></li>
+        <li><a href="http://www.smirkingchimp.com/" target="_blank">Smirking Chimp</a></li>
+        <li><a href="http://squarestate.net" target="_blank">SquareState</a></li>
+        <li><a href="http://susiemadrak.com/" target="_blank">Suburban Guerrilla</a></li>
+        <li><a href="http://www.swingstateproject.com/" target="_blank">Swing State Project</a></li>
+        <li><a href="http://www.talkingpointsmemo.com" target="_blank">Talking Points Memo</a></li>
+        <li><a href="http://www.talkleft.com/" target="_blank">Talk Left</a></li>
+        <li><a href="http://www.prospect.org/weblog/" target="_blank">Tapped</a></li>
+        <li><a href="http://www.taylormarsh.com/" target="_blank">Taylor Marsh</a></li>
+        <li><a href="http://www.tatteredcoat.com/" target="_blank">Tattered Coat</a></li>
+        <li><a href="http://texaskaos.com" target="_blank">Texas Kaos</a></li>
+        <li><a href="http://thealbanyproject.com" target="_blank">The Albany Project</a></li>
+        <li><a href="http://www.thebluestate.com/" target="_blank">The Blue State</a></li>
+        <li><a href="http://thedemocraticdaily.com" target="_blank">The Democratic Daily</a></li>
+        <li><a href="http://www.thehollywoodliberal.com/" target="_blank">The Hollywood Liberal</a></li>
+        <li><a href="http://the-reaction.blogspot.com" target="_blank">The Reaction</a></li>
+        <li><a href="http://thetalentshow.org/" target="_blank">The Talent Show</a></li>
+        <li><a href="http://www.thismodernworld.com/" target="_blank">This Modern World</a></li>
+        <li><a href="http://towncalleddobson.com" target="_blank">Town Called Dobson</a></li>
+        <li><a href="http://www.turnmaineblue.com/frontPage.do" target="_blank">Turn Maine Blue</a></li>
+        <li><a href="http://www.uppitywis.org/" target="_blank">Uppity Wisconsin</a></li>
+        <li><a href="http://wampum.wabanaki.net/" target="_blank">Wampum</a></li>
+        <li><a href="http://warandpiece.com/" target="_blank">War and Piece</a></li>
+        <li><a href="http://washblog.com" target="_blank">WashBlog</a></li>
+        <li><a href="http://watchingthewatchers.org" target="_blank">Watching the Watchers</a></li>
+        <li><a href="http://www.wvablue.com" target="_blank">West Virginia Blue</a></li>
+        <li><a href="http://youngphillypolitics.com" target="_blank">Young Philly Politics</a></li>
+        <li><a href="http://www.theyoungturks.com/" target="_blank">Young Turks</a></li>
+      </ul>
+      <div class="lban-clear">.</div>
+    </div>    
+    </div>
+    </div>      <div class="footer">
+      <div class="footer-navlinks"><a href="/">DU Home</a> | <a href="/?com=latest_threads">Latest Threads</a> | <a href="/?com=greatest_threads">Greatest Threads</a> | <a href="/?com=forums">Forums &amp; Groups</a> | <a href="/?com=mysubs">My Subscriptions</a> | <a href="/?com=myposts">My Posts</a></div>
+    
+    <p><a href="/?com=aboutus">About</a> | <a href="/?com=copyright">Copyright</a> | <a href="/?com=privacy">Privacy</a> | <a href="/?com=termsofservice">Terms of service</a> | <a href="/?com=contact">Contact</a></p>
+    <p>&copy; 2001 - 2012 Democratic Underground, LLC. Thank you for visiting.</p>   
+        <!-- THIS IS THE HELP WINDOW -->
+        <div id="help-window">&nbsp;</div>
+    <!-- END HELP WINDOW -->
+    </div>
+    </body>
+    </html>  
