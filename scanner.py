@@ -5,10 +5,11 @@ from analyzer import Analyzer
 '''Scans the source of a site'''
 def scanner(url_list, unique_code):
     print "Running"
-    start = time.time()
+    
     i =1
     for url in url_list:
             #print i,": ", url
+            start = time.time()
             try:
                 host  = urllib2.urlopen(url)
             except:
@@ -26,10 +27,10 @@ def scanner(url_list, unique_code):
                 f.write(host.read())
                 f.close()
             a = Analyzer(html_name, url_name)
-            a.start()
+            a.getAds()
             i=1+i
             #print '--------------------------------'
-    print "Elapsed Time: %s" % (time.time() - start)
+            print "This Url's Total Time: %s" % (time.time() - start)
     raw_input("press any key to exit")
     
 if __name__ == "__main__":
