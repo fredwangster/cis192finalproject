@@ -35,7 +35,7 @@ class Analyzer():
             total= total+sum([line.count(ad) for ad in self.ad_site_list])
         f.close()
         
-        print self.site[4:-1]
+        #print self.site[4:-1]
         #print "Number of Lines:", number_of_lines
         
         #print  "Number of Ads:", total
@@ -59,9 +59,11 @@ class Analyzer():
         #print "Unique Visitors: %s" % unique_visitors
         return self.unique_visitors
         
+        
+        
     def getScore(self):
         #print float(self.total_ads)/float(self.number_of_lines), self.unique_visitors
         score = float(self.total_ads)/float(self.number_of_lines) * self.unique_visitors/10000
-        print score
+        #print score
         return score
 

@@ -18,18 +18,25 @@ class MyWindow(QWidget):
         self.setWindowTitle("Sorting PyQT's QTableView")
         self.button = QPushButton("Start")
         self.button.clicked.connect(self.start_analyzing)
-        #self.button.disa
+        label = QLabel("Hello")
         self.header = header
         self.mydata = element_list
         # create table
         self.tmodel = MyTableModel(self, self.mydata, self.header)
         self.tview = QTableView()
         table = self.createTable()
+        #Allows autosorting by score
+        self.cb = QCheckBox('Automatically Sort By Score (Cannot be changed after you start analyzing)', self)
+        self.cb.toggle()
+        self.sort = True
+        self.cb.stateChanged.connect(self.autosort)
 
         # use vbox layout
         layout = QVBoxLayout()
         layout.addWidget(table)
         layout.addWidget(self.button)
+        layout.addWidget(label)
+        layout.addWidget(self.cb)
         self.setLayout(layout)
 
     def createTable(self):
@@ -63,13 +70,20 @@ class MyWindow(QWidget):
         return tview
         
     def start_analyzing(self):
+        self.cb.setEnabled(False)
         self.threads = []
-        downloader_caller =DownloadCaller(self.tmodel,self.tview)
+        downloader_caller =DownloadCaller(self.tmodel,self.tview,self.sort)
         self.threads.append(downloader_caller)
         downloader_caller.start()
         
+    def autosort(self,state):
+        if state == Qt.Checked:
+            self.sort = True
+        else:
+            self.sort = False
+        
 class DownloadCaller(QThread):
-    def __init__(self, model,tview):
+    def __init__(self, model,tview,sort):
         QThread.__init__(self)
         f = open("top_sites.txt",'r')
         self.urls = f.readlines()
@@ -77,24 +91,26 @@ class DownloadCaller(QThread):
         self.model = model
         self.tview = tview
         self.threads = []
-
+        self.sort = sort
     def run(self):
         for url in self.urls:
-            downloader = DownloadThread(url, self.model,self.tview)
+            downloader = DownloadThread(url, self.model,self.tview,self.sort)
             self.threads.append(downloader)
             downloader.start()       
         
 class DownloadThread(QThread):
-    def __init__(self, url, model,tview):
+    def __init__(self, url, model,tview,sort):
         QThread.__init__(self)
         self.url = url
         self.model = model
         self.tview = tview
+        self.sort = sort
         try:
             self.html_name,self.url_name = scanner(self.url,"000")
         except:
             self.html_name = None 
             self.url_name = None
+
     def run(self):
         if self.html_name is not None or self.url_name is not None:
             a = Analyzer(self.html_name, self.url_name)
@@ -102,14 +118,11 @@ class DownloadThread(QThread):
             #print self.url
             self.model.mydata = self.model.mydata + [(self.url,a.getAds()[1],a.getAds()[0],a.getUniqueVisitors(),a.getScore())]
             #self.tview.resizeColumnsToContents()
-            self.model.sort(4, Qt.AscendingOrder)
+            if self.sort:
+                print self.sort
+                self.model.sort(4, Qt.AscendingOrder)
             self.model.emit(SIGNAL("layoutChanged()"))
-            
-        
-
-
-            
-        
+ 
 class MyTableModel(QAbstractTableModel):
     def __init__(self, parent, mydata, header, *args):
         """
@@ -140,6 +153,7 @@ class MyTableModel(QAbstractTableModel):
         if orientation == Qt.Horizontal and role == Qt.DisplayRole:
             return QVariant(self.header[col])
         return QVariant()
+        
 
     def sort(self, col, order):
         
