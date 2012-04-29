@@ -10,13 +10,12 @@
 
 import urllib2
 import time
-from sets import Set
 from bs4 import BeautifulSoup
 from urlparse import urljoin
 
-def crawler(url_name, crawl_depth, url_set):
+def crawler(url_name, crawl_depth, master_list):
     start = time.time()
-    new_urls = set()
+    new_urls = []
     if crawl_depth > 0:
         #try:
         request = urllib2.Request(url_name)
@@ -24,39 +23,43 @@ def crawler(url_name, crawl_depth, url_set):
         print "going through %s..." % url_name
         content = unicode(handle.open(request).read(), "utf-8", errors="replace")
         soup = BeautifulSoup(content)
-
-        temp_urls = set()
+        temp_urls = []
                           
         #find urls
         for link in soup.find_all('a'):
             raw_url = link.get('href')
-            if raw_url is not None and not(raw_url in url_set):
-                temp_urls.update(link.get('href'))
-                new_urls.update(link.get('href'))
+            if (raw_url is not None) and not(raw_url in master_list): \
+               #and not(raw_url in temp_urls) and not(raw_url in new_urls):
+                temp_urls.append(link.get('href'))
+                new_urls.append(link.get('href'))
                           
         for url in temp_urls:
             print "found %s" % url
             #remove foreign urls...
             #not fool-proof. i.e. would remove amazon.com/http...
-            #!!! Need future revision
-            if 'http' in url and not(url_name) in url:
-                print "removed the alien"
+            #!!! Need future revision !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            if 'http' in url and (url_name not in url):
+                print "removed alien"
                 new_urls.remove(url)
              
             #recursively go through each url:
 
-            #case 1: no http found. need to append url_name
+            #case 1: no "http" found. need to append url_name
             elif not('http' in url):
                 appended = urljoin(url_name, url)
-                url_set.update(crawler(appended, crawl_depth-1, new_urls))
-                
+                master_list.extend(crawler(appended, crawl_depth-1, new_urls))
+
+            #case 2: url is perfect
+            else:
+                master_list.extend(crawler(url, crawl_depth-1, new_urls))
+    
         #except:
          #   return []
     end = time.time()
 
-    print "Crawled %s pages in %s seconds" % (len(url_list), end-start)
-    return url_list
+    print "Crawled %s pages in %s seconds" % (len(master_list), end-start)
+    return master_list
             
     
 if __name__ == "__main__":
-    print(crawler("http://www.gabrielweinberg.com", 2, set()))
+    print(crawler("http://www.gabrielweinberg.com", 2, []))

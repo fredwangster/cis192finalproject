@@ -18,9 +18,9 @@ class Analyzer():
         self.ad_site_list = ["doubleclick","ad.yield","ad.google","ad.yahoo","ad.facebook","googlesyndication","msads","adchoices","ShareThis","ValueClick","AdBrite","Burst"]
         #self.APIKey = "176d39847432f9602f8002b35e294828"
         self.competeURLPart1 = "http://apps.compete.com/sites/"
-        self.competeURLPart2 = "/trended/uv/?apikey=43a79f6cc67e7fcf0de42ae1e6f8cb76&latest=1"
+        self.competeURLPart2 = "/trended/uv/?apikey=2a8fcf87616efc656bfd7022f1d122ef&latest=1"
         self.competeURLPart2b = "/trended/uv/?apikey=ac4f760dd7ce4a81992b716d3d30cbca&latest=1"
-        self.competeURLPart2vis = "/trended/vis/?apikey=176d39847432f9602f8002b35e294828&latest=1"
+        self.competeURLPart2vis = "/trended/vis/?apikey=2a8fcf87616efc656bfd7022f1d122ef&latest=1"
         self.competeURLPart2bvis = "/trended/vis/?apikey=43a79f6cc67e7fcf0de42ae1e6f8cb76&latest=1"
         
     def getAds(self):

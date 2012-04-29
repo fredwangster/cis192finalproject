@@ -15,10 +15,11 @@ class MyWindow(QWidget):
         QWidget.__init__(self, *args)
         # setGeometry(x_pos, y_pos, width, height)
         self.setGeometry(100, 100, 1000, 700)
-        self.setWindowTitle("Sorting PyQT's QTableView")
+        self.setWindowTitle("Monetize IT - By Andrew Staniforth, Connie Wu, and Fred Wang")
         self.button = QPushButton("Start")
         self.button.clicked.connect(self.start_analyzing)
         label = QLabel("Hello")
+        welcome = QLabel("Hello")
         self.header = header
         self.mydata = element_list
         # create table
@@ -33,6 +34,7 @@ class MyWindow(QWidget):
 
         # use vbox layout
         layout = QVBoxLayout()
+        layout.addWidget(welcome)
         layout.addWidget(table)
         layout.addWidget(self.button)
         layout.addWidget(label)
@@ -49,7 +51,8 @@ class MyWindow(QWidget):
         # set minimum size of table
         tview.setMinimumSize(450, 300)
         # hide grid
-        tview.setShowGrid(False)
+        tview.setShowGrid(True)
+        tview.setAlternatingRowColors(True)
         # set font
         font = QFont("Courier New", 8)
         tview.setFont(font)
@@ -58,15 +61,18 @@ class MyWindow(QWidget):
         vh.setVisible(False)
         # set horizontal header properties
         hh = tview.horizontalHeader()
-        hh.setStretchLastSection(True)
+        hh.setStretchLastSection(False)
+        hh.setResizeMode(3)
         # set column width to fit contents
-        tview.resizeColumnsToContents()
+        #tview.resizeColumnsToContents()
         # set all row heights
         nrows = len(self.mydata)
+        ncols = len(self.header)
         for row in range(nrows):
             tview.setRowHeight(row, 18)
         # enable sorting
         tview.setSortingEnabled(True)
+        tview.resizeColumnsToContents()
         return tview
         
     def start_analyzing(self):
