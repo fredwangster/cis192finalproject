@@ -23,6 +23,7 @@ class MyWindow(QWidget):
         self.mydata = element_list
         # create table
         self.tmodel = MyTableModel(self, self.mydata, self.header)
+        self.tview = QTableView()
         table = self.createTable()
 
         # use vbox layout
@@ -63,45 +64,52 @@ class MyWindow(QWidget):
         
     def start_analyzing(self):
         self.threads = []
-        downloader_caller =DownloadCaller(self.tmodel)
+        downloader_caller =DownloadCaller(self.tmodel,self.tview)
         self.threads.append(downloader_caller)
         downloader_caller.start()
         
-        
-class DownloadThread(QThread):
-    def __init__(self, url, model):
-        QThread.__init__(self)
-        self.url = url
-        self.model = model
-
-    def run(self):
-        #info = urllib2.urlopen(self.url).info()
-        html_name,url_name = scanner([self.url],"000")
-        time.sleep(.001)
-        a = Analyzer(html_name, url_name)
-        
-        print self.url
-        self.model.mydata = self.model.mydata + [(self.url,a.getAds()[1],a.getAds()[0],a.getUniqueVisitors(),"0")]
-        
-        self.model.emit(SIGNAL("layoutChanged()"))
-        
-
 class DownloadCaller(QThread):
-    def __init__(self, model):
+    def __init__(self, model,tview):
         QThread.__init__(self)
         f = open("top_sites.txt",'r')
         self.urls = f.readlines()
         f.close()
         self.model = model
-        
+        self.tview = tview
 
     def run(self):
         self.threads = []
         for url in self.urls:
-            downloader = DownloadThread(url, self.model)
+        
+            downloader = DownloadThread(url, self.model,self.tview)
             self.threads.append(downloader)
-            downloader.start()
-            time.sleep(1)
+            downloader.start()       
+        
+class DownloadThread(QThread):
+    def __init__(self, url, model,tview):
+        QThread.__init__(self)
+        self.url = url
+        self.model = model
+        self.tview = tview
+        try:
+            self.html_name,self.url_name = scanner(self.url,"000")
+        except:
+            self.html_name = None 
+            self.url_name = None
+    def run(self):
+        if self.html_name is not None or self.url_name is not None:
+            a = Analyzer(self.html_name, self.url_name)
+            
+            #print self.url
+            self.model.mydata = self.model.mydata + [(self.url,a.getAds()[1],a.getAds()[0],a.getUniqueVisitors(),a.getScore())]
+            #self.tview.resizeColumnsToContents()
+            self.model.sort(4, Qt.AscendingOrder)
+            self.model.emit(SIGNAL("layoutChanged()"))
+            
+        
+
+
+            
         
 class MyTableModel(QAbstractTableModel):
     def __init__(self, parent, mydata, header, *args):
