@@ -77,6 +77,7 @@ class DownloadThread(QThread):
     def run(self):
         #info = urllib2.urlopen(self.url).info()
         html_name,url_name = scanner([self.url],"000")
+        time.sleep(.001)
         a = Analyzer(html_name, url_name)
         
         print self.url
