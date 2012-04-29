@@ -18,6 +18,7 @@ class Analyzer():
         #self.APIKey = "176d39847432f9602f8002b35e294828"
         self.competeURLPart1 = "http://apps.compete.com/sites/"
         self.competeURLPart2 = "/trended/uv/?apikey=176d39847432f9602f8002b35e294828&latest=1"
+        self.competeURLPart2b = "/trended/uv/?apikey=ac4f760dd7ce4a81992b716d3d30cbca&latest=1"
         
     def getAds(self):
         #print "Running"
@@ -47,7 +48,11 @@ class Analyzer():
     def getUniqueVisitors(self):
         start = time.time()
         url =  self.competeURLPart1+self.site[4:-1]+self.competeURLPart2
-        json_string = urllib2.urlopen(url).read()
+        try:
+            json_string = urllib2.urlopen(url).read()
+        except:
+            url =  self.competeURLPart1+self.site[4:-1]+self.competeURLPart2b
+            json_string = urllib2.urlopen(url).read()
         data = json.loads(json_string)
         
         self.unique_visitors = data["data"]["trends"]["uv"][0]["value"]

@@ -76,11 +76,10 @@ class DownloadCaller(QThread):
         f.close()
         self.model = model
         self.tview = tview
+        self.threads = []
 
     def run(self):
-        self.threads = []
         for url in self.urls:
-        
             downloader = DownloadThread(url, self.model,self.tview)
             self.threads.append(downloader)
             downloader.start()       
@@ -158,7 +157,7 @@ class MyTableModel(QAbstractTableModel):
 
 
 if __name__ == "__main__":
-    header = ['URL', 'Total Line in Source', 'Ads in Source', 'Unique Visitors', 'Rank']
+    header = ['URL', 'Total Line in Source', 'Ads in Source', 'Unique Visitors', 'Score']
     # a list of (name, age, weight) tuples
     data_list =[]
 
