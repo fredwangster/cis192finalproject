@@ -14,7 +14,7 @@ class MyWindow(QWidget):
     def __init__(self, element_list, header, *args):
         QWidget.__init__(self, *args)
         # setGeometry(x_pos, y_pos, width, height)
-        self.setGeometry(300, 200, 900, 300)
+        self.setGeometry(100, 100, 1000, 700)
         self.setWindowTitle("Sorting PyQT's QTableView")
         self.button = QPushButton("Start")
         self.button.clicked.connect(self.start_analyzing)
@@ -87,6 +87,7 @@ class DownloadCaller(QThread):
         QThread.__init__(self)
         f = open("top_sites.txt",'r')
         self.urls = f.readlines()
+        self.urls.reverse()
         f.close()
         self.model = model
         self.tview = tview
@@ -116,12 +117,13 @@ class DownloadThread(QThread):
             a = Analyzer(self.html_name, self.url_name)
             
             #print self.url
-            self.model.mydata = self.model.mydata + [(self.url,a.getAds()[1],a.getAds()[0],a.getUniqueVisitors(),a.getScore())]
-            #self.tview.resizeColumnsToContents()
-            if self.sort:
-                print self.sort
-                self.model.sort(4, Qt.AscendingOrder)
-            self.model.emit(SIGNAL("layoutChanged()"))
+            if a.getUniqueVisitors()>0:
+                self.model.mydata = self.model.mydata + [(self.url,a.getAds()[1],a.getAds()[0],a.unique_visitors,(float(a.unique_visitors)/float(a.getVisits())),a.getScore())]
+                #self.tview.resizeColumnsToContents()
+                if self.sort:
+                    print self.sort
+                    self.model.sort(5, Qt.DescendingOrder)
+                self.model.emit(SIGNAL("layoutChanged()"))
  
 class MyTableModel(QAbstractTableModel):
     def __init__(self, parent, mydata, header, *args):
@@ -171,7 +173,7 @@ class MyTableModel(QAbstractTableModel):
 
 
 if __name__ == "__main__":
-    header = ['URL', 'Total Line in Source', 'Ads in Source', 'Unique Visitors', 'Score']
+    header = ['URL', 'Total Line in Source', 'Ads in Source', 'Unique Visitors', 'Retention Rate (Unique Visitors/Visits)','Score']
     # a list of (name, age, weight) tuples
     data_list =[]
 
