@@ -11,9 +11,10 @@
 import urllib2
 import time
 from bs4 import BeautifulSoup
-from urlparse import urljoin
+from urlparse import (urljoin, urlparse)
 
-def crawler(url_name, crawl_depth, master_list):
+
+def crawler(root, url_name, crawl_depth, master_list):
     start = time.time()
     new_urls = []
     if crawl_depth > 0:
@@ -28,8 +29,9 @@ def crawler(url_name, crawl_depth, master_list):
         #find urls
         for link in soup.find_all('a'):
             raw_url = link.get('href')
-            if (raw_url is not None) and not(raw_url in master_list): \
-               #and not(raw_url in temp_urls) and not(raw_url in new_urls):
+            if (raw_url is not None) and not(raw_url in master_list)\
+               and not(raw_url in temp_urls) and not(raw_url in new_urls)\
+               and not (raw_url == ""):
                 temp_urls.append(link.get('href'))
                 new_urls.append(link.get('href'))
                           
@@ -38,7 +40,8 @@ def crawler(url_name, crawl_depth, master_list):
             #remove foreign urls...
             #not fool-proof. i.e. would remove amazon.com/http...
             #!!! Need future revision !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            if 'http' in url and (url_name not in url):
+            
+            if 'http' in url and (root not in url):
                 print "removed alien"
                 new_urls.remove(url)
              
@@ -47,19 +50,22 @@ def crawler(url_name, crawl_depth, master_list):
             #case 1: no "http" found. need to append url_name
             elif not('http' in url):
                 appended = urljoin(url_name, url)
-                master_list.extend(crawler(appended, crawl_depth-1, new_urls))
+                new_urls.extend(master_list)
+                master_list.extend(crawler(root, appended, crawl_depth-1, new_urls))
 
             #case 2: url is perfect
             else:
-                master_list.extend(crawler(url, crawl_depth-1, new_urls))
+                new_urls.append(master_list)
+                master_list.extend(crawler(root, url, crawl_depth-1, new_urls))
     
         #except:
          #   return []
     end = time.time()
 
     print "Crawled %s pages in %s seconds" % (len(master_list), end-start)
+    print master_list
     return master_list
             
     
 if __name__ == "__main__":
-    print(crawler("http://www.gabrielweinberg.com", 2, []))
+    crawler("http://www.gabrielweinberg.com", "http://www.gabrielweinberg.com", 1, [])

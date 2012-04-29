@@ -14,12 +14,31 @@ class MyWindow(QWidget):
     def __init__(self, element_list, header, *args):
         QWidget.__init__(self, *args)
         # setGeometry(x_pos, y_pos, width, height)
-        self.setGeometry(100, 100, 1000, 700)
+        self.setGeometry(100, 100, 800, 750)
         self.setWindowTitle("Monetize IT - By Andrew Staniforth, Connie Wu, and Fred Wang")
         self.button = QPushButton("Start")
         self.button.clicked.connect(self.start_analyzing)
-        label = QLabel("Hello")
-        welcome = QLabel("Hello")
+        label = QLabel("SORRY, NO README FOUND :(")
+        label.setAlignment (Qt.AlignHCenter)
+
+        try:
+            f = open("readme.txt","r")
+            label = QLabel(f.read())
+            f.close()
+            readmefont = label.font()
+            readmefont.setPointSize(8)
+            label.setFont(readmefont)
+            label.setAlignment (Qt.AlignLeft)
+            
+        except:
+            pass
+        welcome = QLabel("Welcome to Monetize IT!")
+        welcome.setAlignment (Qt.AlignHCenter)
+        font = welcome.font()
+        font.setBold(True)
+        font.setPointSize(20)
+        welcome.setFont(font)
+        
         self.header = header
         self.mydata = element_list
         # create table
@@ -37,8 +56,13 @@ class MyWindow(QWidget):
         layout.addWidget(welcome)
         layout.addWidget(table)
         layout.addWidget(self.button)
-        layout.addWidget(label)
         layout.addWidget(self.cb)
+        line = QLabel()      
+        line.setFrameStyle(QFrame.HLine  | QFrame.Plain)
+        line.setLineWidth(2)
+        layout.addWidget(line)
+        layout.addWidget(label)
+        
         self.setLayout(layout)
 
     def createTable(self):
