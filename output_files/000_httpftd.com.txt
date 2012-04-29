@@ -1,1794 +1,0 @@
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:og="http://opengraphprotocol.org/schema/"
-      xmlns:fb="http://www.facebook.com/2008/fbml">
-<head>
-
-<link rel="icon" href="http://www.ftd.com/350/favicon.ico" type="image/x-icon" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-
-
-	<script language="javascript" type="text/javascript">
-	<!--
-		var cookie_domain = ".ftd.com";
-		// because we modify the document.domain and we have some javascript
-		// that references document.domain but expects it to be our actual full domain
-		// we save it before we use it.
-		var our_domain   = document.domain;
-		var imageurl = "http://www.ftdimg.com";
-		var markcode = "350";
-		var js_debug = 0;
-		var secure_url  = "https://ordering.ftd.com";
-		var nonsecure_url = "http://www.ftd.com";
-		var seo_urls  = 1;
-		var isfsenabled = 1;
-		var isFlorist = 0;
-		var isFtdCanada = 0;
-		document.domain = "ftd.com";
-	//-->
-	</script>
-
-
-	<script language="javascript" src="http://www.ftdimg.com/v20120413/js/compressed.js"></script>
- 	    <script type="text/javascript" src="http://www.ftdimg.com/v20120413/js/compressed-jcarousel.js"></script>
-            	<script language="javascript" type="text/javascript">
-	<!--
-		// we are going to set up a window onerror function
-		// this will call our regular try/catch error function
-		// this doesn't mean you shouldn't do try/catch blocks, try/catch blocks
-		// are actually better then using the window.onerror event.
-		try	{
-		// now we re-set our onerror function now that errAlert has been defined
-		window.onerror=function(message, url, lineNumber) {
-		  // build our error message from what the onerror event sends us
-		  var msg = "This error was not in a try/catch block.";
-			msg +="\nThe error message from the browser is '"+message+"'";
-			msg +="\nIt occured at line number "+lineNumber;
-			msg +="\nIn url '"+url+"'";
-				try {// just call me paranoid :)
-					errAlert(null,null,msg);
-				}
-				catch(e) {
-				//couldn't call errAlert, not sure what to do now
-				}
-			return true;
-			}; // end of on error function
-  		}
-		catch(e) {
-		// what do we do here?
-		//alert('Error setting up onerror event:'+e.message);
-  		}
-
-	//minimum browser rediect code
-    var browser_info = getBrowserType();
-	var browser_info_new = getBrowserTypeNew();
-	try {
-
-		if (browser_info_new == "Netscape_6" 
-			|| browser_info_new == "Netscape_4_8" 
-			|| browser_info_new == "Netscape_4_7" 
-			|| browser_info_new == "Netscape_4_5" 
-			|| browser_info_new == "Netscape_3" 
-			|| browser_info_new == "IE4" 
-			|| browser_info_new == "IE3") {
-			location.href = "http://www.ftd.com/350/custserv/browser.epl?browser=1";	
-		}
-		} catch(e) {
-		errAlert(e, 'browser minimum redirection');
-	}
-
-
-	-->
-	</script>
-
-	<script type="text/javascript" src="http://www.ftdimg.com/js/tealeaf.js"></script>
-        <script type="text/javascript" src="http://www.ftdimg.com/pics/foresee/11-06-15-00-30/foresee-alive.js"></script>  <script type="text/javascript" language="javascript"> <!--   jQuery(document).ready(     function(){       jQuery.getScript("http://www.ftdimg.com/pics/foresee/11-06-15-00-30/foresee-analytics-0eb7e.js");       jQuery.getScript("http://www.ftdimg.com/pics/foresee/11-06-15-00-30/foresee-trigger.js");     }   ); //--> </script> <link rel="canonical" href="http://www.ftd.com" />	<script language="javascript" type="text/javascript">
-		<!--
-		try {
-		setCookie('markcode', '350', '', '/', cookie_domain);
-		} catch(e) {
-			errAlert(e, 'setting markcode cookie in template');
-		}
-		//-->
-		</script>
-	
- <script type="text/javascript">
-<!--//
-	var _traffic_dist = '{"351":[0,200],"352":[200,400],"353":[400,600],"558":[600,800],"528":[800,900],"552":[900,1000]}';
-			try {
-				if (   markcode == '350' 
-					|| markcode == '514' 
-					|| markcode == '522' 
-					|| markcode == '528' 
-					|| markcode == '552' 
-					|| markcode == '558') {
-					var _sticky_markcodes = '{}';
-					stickyMarkcodeRedirect(_sticky_markcodes, _traffic_dist, 'http://www.ftd.com',1, '', '');
-					} else {
-                trafficDistribution(_traffic_dist, 'http://www.ftd.com', '', 1, '');
-					}
-			} catch(e) {
-				errAlert(e, 'trafficDistribution call');
-			}
-//-->
-</script>
-
-
-	
-	<script language="javascript" type="text/javascript">
-	<!--
-	try {
-		} catch(e) {
-		errAlert(e, 'cobrand protected site check');
-	}
-	//-->
-	</script>
-
-<!-- start abandon popup code -->
-	
-<script language='javascript'>
-<!--
-	var showPopup = true;
-	var Yaxis = 0;
-	var blurred = false;
-	var scart_unloadPopup_override = false;
-
-	var isIE = (navigator.appName.indexOf("Microsoft") != -1);
-	var isNav = (navigator.appName.indexOf("Netscape") != -1);
-	var isFirefox = (navigator.userAgent.indexOf("Firefox") != -1);
-
-	function unloadPopup(ev) {
-
-            /* If we are coming from the empty shopcart page. Thus, if our cart is empty. 
-			// Then don't show any popups.
-			*/
-
-		    if (scart_unloadPopup_override) {
-			    return 0;
-			}
-
-			var range = screen.height - document.body.offsetHeight;
-			if (isIE) {
-				ev = window.event;
-			}
-
-            // kludge
-            if(!ev){ ev = { clientY: -1, keyCode: 0 }; }
-
-			if (range < 160) {
-				upperY = -12;
-			}
-			if (range >= 160) {
-				upperY = -35;
-			}
-			if (range >= 170) {
-				upperY = -40;
-			}
-			if (Yaxis == 0) {
-				Yaxis = ev.clientY;
-			}
-			//alert("Yaxis -> " + Yaxis + " keyCode -> " + ev.keyCode + " upperY -> " + upperY + " blurred -> " + blurred);
-			if ((Yaxis > 0) || (Yaxis < upperY) || (ev.keyCode == 116) || (ev.keyCode == 17)) {
-				showPopup = false;
-			}
-			if (Yaxis <= -9600) {
-				showPopup = true;
-			}
-			if (blurred && (Yaxis < 0)) {
-				showPopup = true;
-			}
-			if (isNav && !isFirefox) {
-				showPopup = false;
-			}
-			
-
-			// GLOBAL ABANDON POPUP : 2005-12-20
-			if (!isFirefox && showPopup && (ev.keyCode != 32) && (ev.keyCode != 18) && (ev.keyCode != 115)) {
-                var scartPopupSetup = 1;
-                var globalPopupSetup =1;
-
-                if ( ShoppingCartCookie.num_items() && scartPopupSetup ) {
-
-					popup('803', 'abandon', '1', '459', '300');
-
-                }
-                else if ( globalPopupSetup ) {   GlobalPopup('783', 'global_abandon', '1', '459', '300');
-
-                }
-
-			}
-		}
-	function GlobalPopup(program_id, program, popup_id, width, height) {
-		   window.open('http://www.ftd.com/350/popups/index.epl?markcode=350&fromurl=%2F%3Fmarkcode%3D&baseurl=http%3A%2F%2Fwww.ftd.com&prog_id=' + program_id + '&popup_id=' + popup_id, program, 'scrollbars=no,width=' + width + ',height=' + height + ',bottom=0,left='+(screen.width-width));
-		}
-	function popup(program_id, program, popup_id, width, height) {
-            window.open('https://ordering.ftd.com/350/popups/index.epl?markcode=350&fromurl=%2F%3Fmarkcode%3D&baseurl=http%3A%2F%2Fwww.ftd.com&prog_id=' + program_id + '&popup_id=' + popup_id, program, 'scrollbars=no,width=' + width + ',height=' + height);
-        }
-	if (isIE && !isFirefox) {
-        function grabY() {
-            Yaxis = window.event.clientY;
-        }
-        function blurme() {
-            Yaxis = window.event.clientY;
-            blurred = true;
-        }
-
-        window.onclick = grabY;
-                window.onunload = unloadPopup;
-                window.onkeydown = unloadPopup;
-                window.onblur = blurme;
-				// calling this causes an error in ie7, think there is no
-				// window.event for document.onclick
-                //document.onclick = grabY;
-                document.onunload = unloadPopup;
-        }
-
-//-->
-</script>
-<!-- end abandon popup code -->
-
-
-    <title>FTD.COM - Flowers Online | Roses, Fresh Flowers, Plants and Gift Baskets | Same Day Flower Delivery</title>
-    <META NAME="description" CONTENT="Order flowers online for same day floral delivery. Shop for flowers, chocolates, roses, gifts and gift baskets by occasion, season or get beautiful flower bouquets delivered same day by local FTD florists.">
-		<META NAME="keywords" Content="flowers, roses, fresh flowers, red roses, flower bouquets, send flowers, flowers online, plants, rose, gift basket, gifts, florists, flower shop, flower delivery, ftd">
-
-<!-- start of site-verification-meta-tags -->
-           <META name="y_key" content="e887dc108fef83f6" />
-           <meta name="msvalidate.01" content="71957E1C9D33211154243270EB14C63C" />
-           <!-- end of site-verification-meta-tags -->
-          
-<link rel="stylesheet" type="text/css" href="http://www.ftd.com/350/v20120413/ftd.css?markcode=350&design2007=1&design_apr2008=1&popup=">
-    
-		
-
-	
-	
-
-	<link rel="stylesheet" type="text/css" media="all" href="http://www.ftd.com/350/calendar/design2007.css" />
-	 <style type="text/css">
-	<!--
-    .calendar {
-        background: #ffffff;
-    }
-    --></style>
-    <script language="javascript" src="http://www.ftdimg.com/v20120413/calendar/compressed-calendar.js"></script>
-    <!-- AJAX & wrapper functions to control the calendar instance -->
-    <script  type="text/javascript" src="http://www.ftdimg.com/v20120413/calendar/calendar-utils.js"></script>
-    <!-- END calendar widget auxiliary files import -->
-	
-
-<!-- MyBuys setup files -->
-    <script  type="text/javascript" src="http://www.ftdimg.com/pics/foresee/11-06-15-00-30/mybuys3.js"></script>
-    <script  type="text/javascript" src="http://www.ftdimg.com/pics/foresee/11-06-15-00-30/mybuys-setup.js"></script>
-    
-
-  </head>
-
-
-
-
-
-
-<body 
-    			onLoad="if(document.getElementById('main_right_side') && document.getElementById('main_left_side').offsetWidth<645){ document.getElementById('main_right_side').style.display='inline'};">
-
-<div id="the_big_div">
-
-
-	<div id="frame_outer">
-    <div id="frame_middle">
-    <div id="frame_inner">
-<!-- Content DIV -->
-
-<div id="container">
- 
-	
-
-<noscript>
-<div id="nojavascript">
-	<img src="http://www.ftdimg.com/pics/design2007/exclaim_icon.gif" style="vertical-align:middle">
-	<span style="font-size:20px; position:relative; top:4px; left: 5px">
-	We're Sorry
-	</span><br>
-    <span style="font-size:16px">Your browser does not have Javascript enabled. Our site requires javascript to browse our products.</span>
-    <br><br>
-    <span>
-        Please choose one of the following options:<br>
-        1) Enable Javascript<br>
-        2) Call FTD at 1-800-SEND-FTD (1-800-736-3383) to place your order. 
-    </span>
-</div>
-</noscript>
-
-	
-
-<script language="VBScript" type="text/vbscript">
-<!-- // Visual basic helper required to detect Flash Player ActiveX control version information
-Function VBGetSwfVer(i)
-  on error resume next
-  Dim swControl, swVersion
-  swVersion = 0
-
-  set swControl = CreateObject("ShockwaveFlash.ShockwaveFlash." + CStr(i))
-  if (IsObject(swControl)) then
-    swVersion = swControl.GetVariable("$version")
-  end if
-  VBGetSwfVer = swVersion
-End Function
-// -->
-</script>
-
-
-	<div style="display:none">
-</div>
-	<!-- 
-			margin-left and margin-right is added because the whole width for the page is 810px however we have 5px paddings. So the landing page layout in 800px. FTD wants their header banner to be in 810px. In order to satisfy their requirement without changing whole layout we added negative value margins for the banner.
-		-->
-		   <div align='center' >
-				</div>
-	       
-	<div id="fb-root"></div>
-		<script>
-		window.fbAsyncInit = function() {
-			(function($){ //for defect 8149
-				 $(document).ready(function(){
-					 FB.init({status: true, cookie: true, xfbml: true});
-					 $('.fb_like_btn').show();
-					 FB.XFBML.parse();
-				 });
-			})(jQuery); //for defect 8149
-                };
-		(function() {
-			 var e = document.createElement('script'); e.async = true;
-			 e.src = document.location.protocol +  '//connect.facebook.net/en_US/all.js';
-			 document.getElementById('fb-root').appendChild(e);
-		 }());
-		</script>
-	<script language="javascript" type="text/javascript">
-	<!--
-		//Motion Point Domains
-		<!-- mp_trans_disable_start -->
-		MP.Domains = {'es':'es.ftd.com', 'fr':'fr.ftd.ca'};
-		<!-- mp_trans_disable_end -->
-		MP.UrlLang = 'mp_js_current_lang' ;
-		MP.SrcUrl = unescape('mp_js_orgin_url') ;
-	-->
-	</script>
-	<div id="custom_header">
-		<!-- +++++++++++++++++++++++++++++++ CODE: HEADER CODE BRAND: FTD.COM VERSION: 1 REVISION: 0 DATE BUILT: 10/20/2011 DATE REVISED: DATE LAUNCH: 10/20/2011 MODIFIED BY: RR CHANGE DESCRIPTION: Remove order status link +++++++++++++++++++++++++++++++ -->  <div id="black_and_gold_header">  <div id="black_and_gold_header_home_area" onclick="window.location='http://www.ftd.com/350/?int=1'"></div>  <div id="header_sourcecode_800_cont">              <em id="header_sourcecode_800">1-800-SEND FTD</em>       </div>    <script language="javascript">    (function($){    $(document).ready(function() {      $('#toolbar_search_box').parent('form').submit(function(){       window.location='http://www.ftd.com/350/catalog/product_search.epl?'+ $(this).serialize();       return false;     });      $('#toolbar_signin_form').draggable({ iframeFix: true });     PA.display_toolbar();      $('#toolbar .toolbar-link').hover(       function(){           $(this).css('text-decoration', 'underline');           $(this).css('cursor', 'pointer');       },       function(){           $(this).css('text-decoration', 'none');           $(this).css('cursor', 'default');       }     );     });     //end of document.ready })(jQuery); //ending off our anonymous function   </script>  <div id="toolbar">  <div id="toolbar_signin_form" width="240" style="z-index:1001">     <form style="margin:0px;" action="https://ordering.ftd.com/350/signin/">     <table width="240" border="0" cellpadding="1">          <tr valign="top">              <td align="right" width="228">             <div class="toolbar-error-msg"></div>             <div style="margin-top:3px;">             <label class='toolbar_signin_label'>Email:</label>             <input class="email" type="text" name="email" value="" maxlength="40" style="width:125px;" /></div>             <div style="margin-top:3px;">             <label class='toolbar_signin_label'>Password:</label>             <input class="password" type="password" name="password" value="" maxlength="18" style="width:125px;" /></div>             <div style="margin-top:3px;">             <span style="float:left;vertical-align:bottom;line-height:21px;margin-left:3px;"><a id="forgot-link-msg" href="https://ordering.ftd.com/350/signin/#forgot-password">Trouble Signing In?</a></span>             <span style="float:right;"><input src="http://www.ftdimg.com/pics/button_sign_in_gold.gif" border="0" type="image"/></span>             </div>                    </td>                 <td align=right width="12">                     <img class="toolbar_signin_form_close" src="http://www.ftdimg.com/pics/button_close_small_x.jpg">                  </td>          </tr>        </table>    <input type='hidden' name='from_header_toolbar' value='1' />    </form>  </div>        <!-- acquisition state -->      <div id="toolbar_signup" style="margin-right:5px;">      <nobr><span class="sign-in toolbar-link" style="margin-right:10px;">SIGN IN</span>|<span class="sign-up toolbar-link" style="margin-left:10px;margin-right:10px;">REGISTER</span>|<span class="goto-myaccount toolbar-link" style="margin-left:10px;">MY ACCOUNT</span><span><a href="http://www.ftd.com/350/scart/" style="color: #FFFFFF;"><img src="http://www.ftdimg.com/pics/cart.gif" width="25" height="20" style="vertical-align:bottom;margin-right:5" border="0"/><div id="scart_num_signedin"></div><img src="http://www.ftdimg.com/pics/Checkout.gif" width="70" style="vertical-align:middle; border:0px; position:relative; top:2px;"/></a></span></nobr>       </div>      <!-- end acquisition state -->       <!-- cookied in state -->      <div id="toolbar_cookied" style="margin-right:5px;">        <nobr><span id="gold_member_cookied" style="display:none;"><img src="http://www.ftdimg.com/pics/products/S11-02300B_GoldD_HP_header_Icon.jpg"/></span><span class="welcome" style="margin-right:10px;">WELCOME BACK <span class="personal-account-fname"></span> </span>|<span class="signout toolbar-link" style="margin-left:10px;margin-right:10px;">NOT <span class="personal-account-fname"></span>?</span>|<span class="goto-myaccount toolbar-link" style="margin-left:10px;margin-right:10px;">MY ACCOUNT</span>|<span class="sign-in toolbar-link" style="margin-left:10px;margin-right:10px;">SIGN IN</span><span><a href="http://www.ftd.com/350/scart/" style="color: #FFFFFF;"><img src="http://www.ftdimg.com/pics/cart.gif" width="25" height="20" style="vertical-align:bottom;margin-right:5" border="0"/><div id="scart_num_cookied"></div><img src="http://www.ftdimg.com/pics/Checkout.gif" width="70" style="vertical-align:middle; border:0px; position:relative; top:2px;"/></a></span></nobr>       </div>      <!-- end cookied in state -->       <!-- signed in state -->      <div id="toolbar_signedin" style="margin-right:5px;">      <nobr><span id="gold_member_signedin" style="display:none;"><img src="http://www.ftdimg.com/pics/products/S11-02300B_GoldD_HP_header_Icon.jpg" /></span><span class="welcome" style="margin-right:10px;">WELCOME BACK <span class="personal-account-fname"></span> </span>|<span class="goto-myaccount toolbar-link" style="margin-left:10px; margin-right:10px;">MY ACCOUNT</span>|<span class="signout toolbar-link" style="margin-left:10px;margin-right:10px;">SIGN OUT</span><span><a href="http://www.ftd.com/350/scart/" style="color: #FFFFFF;"><img src="http://www.ftdimg.com/pics/cart.gif" width="25" height="20" style="vertical-align:bottom;margin-right:5" border="0"/><div id="scart_num_signedout"></div><img src="http://www.ftdimg.com/pics/Checkout.gif" width="70" style="vertical-align:middle; border:0px; position:relative; top:2px;"/></a></span></nobr>      </div>       <!-- end signed in state -->   <!-- end toolbar_signin_form div -->   <div id="toolbar_links" style="margin-right:5px;clear:both;margin-top:8px;">      <nobr><!--- Start of Language_link_ES (FTD.COM) ---> <a mporgnav href="http://es.ftd.com" class="language toolbar-link" style="margin-left:10px;margin-right:10px;" onclick="return switchLanguage('es'); function switchLanguage(lang) {     MP.SrcUrl=unescape('mp_js_orgin_url');MP.UrlLang='mp_js_current_lang';MP.init(); 	MP.switchLanguage(MP.UrlLang==lang?'en':lang); 	return false; } ">EN ESPA&Ntilde;OL</a> | <!--- End of Language_link_ES (FTD.COM) ---><!-- <a href="http://www.ftd.com/350/order-status" style="margin-left:10px;margin-right:10px;">ORDER STATUS</a>|--><a href="http://www.ftd.com/350/custserv/" style="margin-left:10px;">CUSTOMER SERVICE</a></nobr>  </div>   <script type="text/javascript"> 	var signed_in =document.getElementById('scart_num_signedin'); 	var signed_out =document.getElementById('scart_num_signedout'); 	var cookied =document.getElementById('scart_num_cookied'); 	signed_in.innerHTML = '<font SIZE="0" COLOR="000000">('+ShoppingCartCookie.num_items()+')</font>'; 	signed_out.innerHTML = '<font SIZE="0" COLOR="000000">('+ShoppingCartCookie.num_items()+')</font>'; 	cookied.innerHTML = '<font SIZE="0" COLOR="000000">('+ShoppingCartCookie.num_items()+')</font>'; </script>    <div id="search_box_area" style="margin-top:3px;clear:both;width:300px;">  <div> <style type="text/css">  /* Adding the below CSS hack for defect #8132 */  #fb_header_like span.fb_edge_comment_widget{ 	width:1px; 	height:1px; 	overflow:hidden;  } </style> <div id="fb_header_like" class="fb_like_btn" style="margin-top:4px;display:none;float:right;margin-left:10px;width:90px"> <div style="text-align:right;"> <fb:like href="http://www.facebook.com/FTDFlowers" layout="button_count" show_faces="false" width="90" font="arial"></fb:like> </div> </div> <script type="text/javascript"> if(navigator.userAgent.toLowerCase().indexOf("msie 6") != -1){   jQuery("#fb_header_like").remove(); } </script> <div>  <form method="get" action="http://www.ftd.com/350/catalog/product_search.epl" name="product_search" id="product_search" onSubmit="return emptySearchBox();">   <input name="search_box" autocomplete="off" value='search' title='search' onclick='if(this.value == this.title) {this.value="";}' id="toolbar_search_box" size="20" /><input type="image" style="vertical-align:middle; width:20; height:18; border: 1px solid rgb(255, 255, 255); margin-top:4px;" src="http://www.ftdimg.com/pics/design2008/SearchIcon.gif" id="Search" title="Search" alt="Search">  <input type="hidden" name="AID" value="search" />  </form>  </div>  </div> <div style="clear:both;"> <!-- <a href="http://www.ftd.com/350/catalog/category.epl?index_id=product_ftd_history" style="color: #d1bc61; font-weight:bold;">Learn about our 100<sup>th</sup> Anniversary</a>--></div> <!--<a href="http://www.ftd.com/350/catalog/category.epl?index_id=product_commercial"><img src="http://www.ftdimg.com/pics/products/tv_icon_gold.gif" style="margin-right:5px; vertical-align:middle; border:0px; position:relative; top:2px;" />See Our TV Ad</a>--></div> </div>   </div><!-- end toolbar div -->  </div>	</div>
-	
- <script language="javascript">
-		 	(function($){
-			  $(document).ready(function() {
-                 $("#header_sourcecode_800_cont").mouseover( function() {
-                     $(this).children("#header_sourcecode_800").html("1-800-736-3383");
-                 }).mouseout( function() {
-                     $(this).children("#header_sourcecode_800").html("1-800-SEND FTD");
-                 });
-
-                });	//end of document.ready
-			
-			 })(jQuery); //ending off our anonymous function
-         </script>
-<!-- Tabs -->
-	
- <div id="tabs_div" style="position:relative; height:24; width:710px; z-index: 1; clear:both;">
-<nobr><a id="html_tab_1" href="http://www.ftd.com/mothers-day-5-13-ctg/occasion-mothersday/?noparent_bread=1" title="Mother's Day" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_1',0)}catch(error){}" vertNumber='1' horzNumber='1' >MOTHER'S DAY <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-<img src='http://www.ftdimg.com/pics/design2007/newtab_seperator_black.gif' border=0  id='tab_seperator_1' style='position:absolute; z-index:2; top:4px; left:100'><div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:100px"></div>
-<nobr><a id="html_tab_2" href="http://www.ftd.com/shop-by-occasion-ctg/occasion/?noparent_bread=1" title="Occasion" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_2',0)}catch(error){}" vertNumber='1' horzNumber='2' >OCCASION <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-<img src='http://www.ftdimg.com/pics/design2007/newtab_seperator_black.gif' border=0  id='tab_seperator_2' style='position:absolute; z-index:2; top:4px; left:190'><div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:190px"></div>
-<nobr><a id="html_tab_3" href="http://www.ftd.com/flowers-ctg/product-flowers/?noparent_bread=1" title="Send Online Flowers" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_3',0)}catch(error){}" vertNumber='1' horzNumber='3' >FLOWERS <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-<img src='http://www.ftdimg.com/pics/design2007/newtab_seperator_black.gif' border=0  id='tab_seperator_3' style='position:absolute; z-index:2; top:4px; left:275'><div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:275px"></div>
-<nobr><a id="html_tab_4" href="http://www.ftd.com/plants-ctg/product-plants/?noparent_bread=1" title="Plants" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_4',0)}catch(error){}" vertNumber='1' horzNumber='4' >PLANTS <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-<img src='http://www.ftdimg.com/pics/design2007/newtab_seperator_black.gif' border=0  id='tab_seperator_4' style='position:absolute; z-index:2; top:4px; left:353'><div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:353px"></div>
-<nobr><a id="html_tab_5" href="http://www.ftd.com/the-gift-galleria-ctg/product-gift/?noparent_bread=1" title="Gift Galleria" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_5',0)}catch(error){}" vertNumber='1' horzNumber='5' >GIFT GALLERIA <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-<img src='http://www.ftdimg.com/pics/design2007/newtab_seperator_black.gif' border=0  id='tab_seperator_5' style='position:absolute; z-index:2; top:4px; left:465'><div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:465px"></div>
-<nobr><a id="html_tab_6" href="javascript:void(0);" title="Shop by Brand" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_6',0)}catch(error){}" vertNumber='1' horzNumber='6' >SHOP BY BRAND <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-<img src='http://www.ftdimg.com/pics/design2007/newtab_seperator_black.gif' border=0  id='tab_seperator_6' style='position:absolute; z-index:2; top:4px; left:591'><div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:591px"></div>
-<nobr><a id="html_tab_7" href="http://www.ftd.com/same-day-delivery-ctg/product-samedaydelivery/?noparent_bread=1" title="Same Day Delivery" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_7',0)}catch(error){}" vertNumber='1' horzNumber='7' >SAME DAY DELIVERY <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-<img src='http://www.ftdimg.com/pics/design2007/newtab_seperator_black.gif' border=0  id='tab_seperator_7' style='position:absolute; z-index:2; top:4px; left:737'><div class="html_tab_spacer_cell" style="position:absolute; top:0px; left:737px"></div>
-<nobr><a id="html_tab_8" href="javascript:void(0);" title="Price" onmouseover="try{htmlTabs.dropit(this,'tab_dropdown_8',1)}catch(error){}" vertNumber='1' horzNumber='8' >PRICE <img src="http://www.ftdimg.com/pics/design2007/downarrow_black.gif" border="0"/></a></nobr>
-</div>
-
-
-<div id='tab_dropdown_1' class='html_tab_dropmenudiv'>
-<a title="All Mother's Day" horzNumber="1" vertNumber="2" href="http://www.ftd.com/all-mothers-day-ctg/occasion-mothersday-bestsellers/?noparent_bread=1">All Mother's Day</a>
-<a title="Best Sellers" horzNumber="1" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/occasion-mothersday-best/?noparent_bread=1">Best Sellers</a>
-<a title="Flowers" horzNumber="1" vertNumber="4" href="http://www.ftd.com/flowers-ctg/occasion-mothersday-flowers/?noparent_bread=1">Flowers</a>
-<a title="Roses" horzNumber="1" vertNumber="5" href="http://www.ftd.com/roses-ctg/occasion-mothersday-roses/?noparent_bread=1">Roses</a>
-<a title="Plants" horzNumber="1" vertNumber="6" href="http://www.ftd.com/plants-ctg/occasion-mothersday-plants/?noparent_bread=1">Plants</a>
-<a title="Gifts" horzNumber="1" vertNumber="7" href="http://www.ftd.com/gifts-ctg/occasion-mothersday-gourmet/?noparent_bread=1">Gifts</a>
-<a title="Jewelry" horzNumber="1" vertNumber="8" href="http://www.ftd.com/jewelry-ctg/occasion-mothersday-jewelry/?noparent_bread=1">Jewelry</a>
-<a title="Order Early Sale!" horzNumber="1" vertNumber="9" href="http://www.ftd.com/order-early-sale-ctg/occasion-mothersday-orderearly-sale/?noparent_bread=1">Order Early Sale!</a>
-</div>
-
-<div id='tab_dropdown_2' class='html_tab_dropmenudiv'>
-<a title="Orthodox Easter - 4/15" horzNumber="2" vertNumber="2" href="http://www.ftd.com/orthodox-easter-4-15-ctg/occasion-easter/?noparent_bread=1">Orthodox Easter - 4/15</a>
-<a title="Admin Prof Week - 4/22-28" horzNumber="2" vertNumber="3" href="http://www.ftd.com/admin-prof-week-4-22-28-ctg/occasion-administrativeprofessionalsday/?noparent_bread=1">Admin Prof Week - 4/22-28</a>
-<a title="Mother's Day - 5/13" horzNumber="2" vertNumber="4" href="http://www.ftd.com/mothers-day-5-13-ctg/occasion-mothersday/?noparent_bread=1">Mother's Day - 5/13</a>
-<a title="Anniversary" horzNumber="2" vertNumber="5" href="http://www.ftd.com/anniversary-ctg/occasion-anniversary/?noparent_bread=1">Anniversary</a>
-<a title="Birthday" horzNumber="2" vertNumber="6" href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/?noparent_bread=1">Birthday</a>
-<a title="Congratulations" horzNumber="2" vertNumber="7" href="http://www.ftd.com/congratulations-ctg/occasion-congratulations/?noparent_bread=1">Congratulations</a>
-<a title="Corporate Gifts" horzNumber="2" vertNumber="8" href="http://www.ftd.com/corporate-gifts-ctg/occasion-corporateworkgifts/?noparent_bread=1">Corporate Gifts</a>
-<a title="Get Well" horzNumber="2" vertNumber="9" href="http://www.ftd.com/get-well-ctg/occasion-getwell/?noparent_bread=1">Get Well</a>
-<a title="I'm Sorry" horzNumber="2" vertNumber="10" href="http://www.ftd.com/im-sorry-ctg/occasion-imsorry/?noparent_bread=1">I'm Sorry</a>
-<a title="Just Because" horzNumber="2" vertNumber="11" href="http://www.ftd.com/just-because-ctg/occasion-friendshipjustbecause/?noparent_bread=1">Just Because</a>
-<a title="Love & Romance" horzNumber="2" vertNumber="12" href="http://www.ftd.com/love-romance-ctg/occasion-loveromance/?noparent_bread=1">Love & Romance</a>
-<a title="New Baby" horzNumber="2" vertNumber="13" href="http://www.ftd.com/new-baby-ctg/occasion-newbaby/?noparent_bread=1">New Baby</a>
-<a title="Sympathy & Funeral" horzNumber="2" vertNumber="14" href="http://www.ftd.com/sympathy-funeral-ctg/occasion-sympathy/?noparent_bread=1">Sympathy & Funeral</a>
-<a title="Thank You" horzNumber="2" vertNumber="15" href="http://www.ftd.com/thank-you-ctg/occasion-thankyou/?noparent_bread=1">Thank You</a>
-<a title="Wedding" horzNumber="2" vertNumber="16" href="http://www.ftd.com/wedding-ctg/occasion-wedding/?noparent_bread=1">Wedding</a>
-</div>
-
-<div id='tab_dropdown_3' class='html_tab_dropmenudiv'>
-<a title="All Flowers" horzNumber="3" vertNumber="2" href="http://www.ftd.com/all-flowers-ctg/product-flowers-all/?noparent_bread=1">All Flowers</a>
-<a title="Best Sellers" horzNumber="3" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/product-flowers-bestsellers/?noparent_bread=1">Best Sellers</a>
-<a title="Mixed Bouquets" horzNumber="3" vertNumber="4" href="http://www.ftd.com/mixed-bouquets-ctg/product-flowers-mixedbouquets/?noparent_bread=1">Mixed Bouquets</a>
-<a title="Roses" horzNumber="3" vertNumber="5" href="http://www.ftd.com/roses-ctg/product-roses/?noparent_bread=1">Roses</a>
-<a title="Tulips" horzNumber="3" vertNumber="6" href="http://www.ftd.com/tulips-ctg/product-tulips/?noparent_bread=1">Tulips</a>
-<a title="Lilies" horzNumber="3" vertNumber="7" href="http://www.ftd.com/lilies-ctg/product-flowers-subtypes-lily/?noparent_bread=1">Lilies</a>
-<a title="Orchids" horzNumber="3" vertNumber="8" href="http://www.ftd.com/orchids-ctg/product-flowers-orchids/?noparent_bread=1">Orchids</a>
-<a title="Daisies" horzNumber="3" vertNumber="9" href="http://www.ftd.com/daisies-ctg/product-flowers-subtypes-gerberdaisy/?noparent_bread=1">Daisies</a>
-<a title="Silk Flowers" horzNumber="3" vertNumber="10" href="http://www.ftd.com/silk-flowers-ctg/product-silkflowers-jane/?noparent_bread=1">Silk Flowers</a>
-<a title="Eco-Friendly" horzNumber="3" vertNumber="11" href="http://www.ftd.com/eco-friendly-ctg/product-gogreen/?noparent_bread=1">Eco-Friendly</a>
-<a title="International Delivery" horzNumber="3" vertNumber="12" href="http://www.ftd.com/international-delivery-ctg/intl-catalog/?noparent_bread=1">International Delivery</a>
-<a title="Flower Guide" horzNumber="3" vertNumber="13" href="http://www.ftd.com/flower-guide-ctg/product-flowers-flowerguide/?noparent_bread=1">Flower Guide</a>
-</div>
-
-<div id='tab_dropdown_4' class='html_tab_dropmenudiv'>
-<a title="All Plants" horzNumber="4" vertNumber="2" href="http://www.ftd.com/all-plants-ctg/product-plants-all/?noparent_bread=1">All Plants</a>
-<a title="Best Sellers" horzNumber="4" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/product-plants-bestsellers/?noparent_bread=1">Best Sellers</a>
-<a title="Blooming Plants" horzNumber="4" vertNumber="4" href="http://www.ftd.com/blooming-plants-ctg/product-plants-bloomingplants/?noparent_bread=1">Blooming Plants</a>
-<a title="Rose Plants" horzNumber="4" vertNumber="5" href="http://www.ftd.com/rose-plants-ctg/product-plants-rose/?noparent_bread=1">Rose Plants</a>
-<a title="Zen Collection Bonsai & Bamboo" horzNumber="4" vertNumber="6" href="http://www.ftd.com/zen-collection-bonsai-bamboo-ctg/product-plants-bonsai/?noparent_bread=1">Zen Collection Bonsai & Bamboo</a>
-<a title="Green Plants" horzNumber="4" vertNumber="7" href="http://www.ftd.com/green-plants-ctg/product-plants-greenplants/?noparent_bread=1">Green Plants</a>
-<a title="Orchid Plants" horzNumber="4" vertNumber="8" href="http://www.ftd.com/orchid-plants-ctg/product-plants-orchids/?noparent_bread=1">Orchid Plants</a>
-<a title="Plant Guide" horzNumber="4" vertNumber="9" href="http://www.ftd.com/plant-guide-ctg/product-plants-guide/?noparent_bread=1">Plant Guide</a>
-</div>
-
-<div id='tab_dropdown_5' class='html_tab_dropmenudiv'>
-<a title="All Gifts" horzNumber="5" vertNumber="2" href="http://www.ftd.com/all-gifts-ctg/product-gift-all/?noparent_bread=1">All Gifts</a>
-<a title="Best Sellers" horzNumber="5" vertNumber="3" href="http://www.ftd.com/best-sellers-ctg/product-gourmetfoodgifts-bestsellers/?noparent_bread=1">Best Sellers</a>
-<a title="Balloons & Bears" horzNumber="5" vertNumber="4" href="http://www.ftd.com/balloons-bears-ctg/product-balloonsandbears/?noparent_bread=1">Balloons & Bears</a>
-<a title="Birthday" horzNumber="5" vertNumber="5" href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/?noparent_bread=1">Birthday</a>
-<a title="For Him" horzNumber="5" vertNumber="6" href="http://www.ftd.com/for-him-ctg/product-forhim/?noparent_bread=1">For Him</a>
-<a title="Fresh Fruit" horzNumber="5" vertNumber="7" href="http://www.ftd.com/fresh-fruit-ctg/product-gourmetfoodgifts-fruit/?noparent_bread=1">Fresh Fruit</a>
-<a title="FTD Exclusives Gifts Collection" horzNumber="5" vertNumber="8" href="http://www.ftd.com/ftd-exclusives-gifts-collection-ctg/product-gift-exclusive/?noparent_bread=1">FTD Exclusives Gifts Collection</a>
-<a title="Gift Basket Shop" horzNumber="5" vertNumber="9" href="http://www.ftd.com/gift-basket-shop-ctg/product-giftbasket-shop/?noparent_bread=1">Gift Basket Shop</a>
-<a title="Jewelry Boutique" horzNumber="5" vertNumber="10" href="http://www.ftd.com/jewelry-boutique-ctg/product-jewelry/?noparent_bread=1">Jewelry Boutique</a>
-<a title="Personalized Gifts" horzNumber="5" vertNumber="11" href="http://www.ftd.com/personalized-gifts-ctg/product-personal/?noparent_bread=1">Personalized Gifts</a>
-<a title="Spa Gifts" horzNumber="5" vertNumber="12" href="http://www.ftd.com/spa-gifts-ctg/product-bathbeautyspa/?noparent_bread=1">Spa Gifts</a>
-<a title="Spring Collection" horzNumber="5" vertNumber="13" href="http://www.ftd.com/spring-collection-ctg/product-spring/?noparent_bread=1">Spring Collection</a>
-<a title="Sweet Shop" horzNumber="5" vertNumber="14" href="http://www.ftd.com/sweet-shop-ctg/product-sweet-shop/?noparent_bread=1">Sweet Shop</a>
-<a title="Wine & Champagne" horzNumber="5" vertNumber="15" href="http://www.ftd.com/wine-champagne-ctg/product-gourmetfoodgifts-winespirits/?noparent_bread=1">Wine & Champagne</a>
-</div>
-
-<div id='tab_dropdown_6' class='html_tab_dropmenudiv'>
-<a title="Baccarat" horzNumber="6" vertNumber="2" href="http://www.ftd.com/baccarat-ctg/product-baccarat/?noparent_bread=1">Baccarat</a>
-<a title="Better Homes and Gardens" horzNumber="6" vertNumber="3" href="http://www.ftd.com/better-homes-and-gardens-ctg/product-bhg/?noparent_bread=1">Better Homes and Gardens</a>
-<a title="FTD College Rose Collection" horzNumber="6" vertNumber="4" href="http://www.ftd.com/ftd-college-rose-collection-ctg/product-college-roses-lp/?noparent_bread=1">FTD College Rose Collection</a>
-<a title="FTD Floral Jewels Birthstone Collection" horzNumber="6" vertNumber="5" href="http://www.ftd.com/ftd-floral-jewels-birthstone-collection-ctg/product-floral-jewels/?noparent_bread=1">FTD Floral Jewels Birthstone Collection</a>
-<a title="FTD Luxury Collection" horzNumber="6" vertNumber="6" href="http://www.ftd.com/ftd-luxury-collection-ctg/product-luxury-lp/?noparent_bread=1">FTD Luxury Collection</a>
-<a title="FTD What's New" horzNumber="6" vertNumber="7" href="http://www.ftd.com/ftd-whats-new-ctg/product-new/?noparent_bread=1">FTD What's New</a>
-<a title="Ghirardelli" horzNumber="6" vertNumber="8" href="http://www.ftd.com/ghirardelli-ctg/product-ghirardelli/?noparent_bread=1">Ghirardelli</a>
-<a title="Godiva" horzNumber="6" vertNumber="9" href="http://www.ftd.com/godiva-ctg/product-godiva/?noparent_bread=1">Godiva</a>
-<a title="Jane Seymour Silk Botanicals" horzNumber="6" vertNumber="10" href="http://www.ftd.com/jane-seymour-silk-botanicals-ctg/product-jane/?noparent_bread=1">Jane Seymour Silk Botanicals</a>
-<a title="Mrs. Fields" horzNumber="6" vertNumber="11" href="http://www.ftd.com/mrs-fields-ctg/product-mrsfields/?noparent_bread=1">Mrs. Fields</a>
-<a title="Nambe" horzNumber="6" vertNumber="12" href="http://www.ftd.com/nambe-ctg/product-nambe/?noparent_bread=1">Nambe</a>
-<a title="Passion Roses" horzNumber="6" vertNumber="13" href="http://www.ftd.com/passion-roses-ctg/product-passion/?noparent_bread=1">Passion Roses</a>
-<a title="Smithsonian" horzNumber="6" vertNumber="14" href="http://www.ftd.com/smithsonian-ctg/product-smithsonian/?noparent_bread=1">Smithsonian</a>
-<a title="Starbucks" horzNumber="6" vertNumber="15" href="http://www.ftd.com/starbucks-ctg/product-starbucks/?noparent_bread=1">Starbucks</a>
-<a title="Steuben" horzNumber="6" vertNumber="16" href="http://www.ftd.com/steuben-ctg/product-steuben/?noparent_bread=1">Steuben</a>
-<a title="Ultimate Roses" horzNumber="6" vertNumber="17" href="http://www.ftd.com/ultimate-roses-ctg/product-roses-ultimate/?noparent_bread=1">Ultimate Roses</a>
-<a title="USO Collection" horzNumber="6" vertNumber="18" href="http://www.ftd.com/uso-collection-ctg/product-uso/?noparent_bread=1">USO Collection</a>
-<a title="Vera Wang" horzNumber="6" vertNumber="19" href="http://www.ftd.com/vera-wang-ctg/product-verawang-ftd/?noparent_bread=1">Vera Wang</a>
-</div>
-
-<div id='tab_dropdown_7' class='html_tab_dropmenudiv'>
-<a title="All Florist Designed" horzNumber="7" vertNumber="2" href="http://www.ftd.com/all-florist-designed-ctg/product-samedaydelivery-bestsellers/?noparent_bread=1">All Florist Designed</a>
-<a title="Flowers" horzNumber="7" vertNumber="3" href="http://www.ftd.com/flowers-ctg/product-samedaydelivery-flowersplants/?noparent_bread=1">Flowers</a>
-<a title="Plants" horzNumber="7" vertNumber="4" href="http://www.ftd.com/plants-ctg/product-samedaydelivery-plants/?noparent_bread=1">Plants</a>
-<a title="Gifts & Balloons" horzNumber="7" vertNumber="5" href="http://www.ftd.com/gifts-balloons-ctg/product-samedaydelivery-gifts/?noparent_bread=1">Gifts & Balloons</a>
-<a title="FTD Exclusives" horzNumber="7" vertNumber="6" href="http://www.ftd.com/ftd-exclusives-ctg/product-samedaydelivery-exclusives/?noparent_bread=1">FTD Exclusives</a>
-</div>
-
-<div id='tab_dropdown_8' class='html_tab_dropmenudiv'>
-<a title="Under $35" horzNumber="8" vertNumber="2" href="http://www.ftd.com/under-35-ctg/product-shopbyprice-under35/?noparent_bread=1">Under $35</a>
-<a title="$35 to $45" horzNumber="8" vertNumber="3" href="http://www.ftd.com/35-to-45-ctg/product-shopbyprice-35to45/?noparent_bread=1">$35 to $45</a>
-<a title="$45 to $55" horzNumber="8" vertNumber="4" href="http://www.ftd.com/45-to-55-ctg/product-shopbyprice-45to55/?noparent_bread=1">$45 to $55</a>
-<a title="$55 to $75" horzNumber="8" vertNumber="5" href="http://www.ftd.com/55-to-75-ctg/product-shopbyprice-55to75/?noparent_bread=1">$55 to $75</a>
-<a title="Over $75" horzNumber="8" vertNumber="6" href="http://www.ftd.com/over-75-ctg/product-shopbyprice-75andover/?noparent_bread=1">Over $75</a>
-</div>
-
-<script language="javascript">
-      htmlTabs.design_type = 'brand_redesign';
-  </script>
- 
-  <script language="javascript">
-  <!--
-    //omniture will only be tracked with the brand_redesign
-	var tab_track_omniture = function () {
-	var $ = jQuery;
-	var tab_name = $(this).attr("title");
-	var horizontal_tab_num  = $(this).attr("horzNumber");
-	var vertical_tab_num  = $(this).attr("vertNumber");
-	
-	Tab.count(tab_name, horizontal_tab_num, vertical_tab_num);
-	};
-
-	jQuery(document).ready(function(){
-		var $ = jQuery;	
-	//attach some onclick events to all of
-	//our tab sub menus
-	$(".html_tab_dropmenudiv").find("a").click(tab_track_omniture);
-	//add the same tracking to the parent links
-	$('div').filter('#tabs_div').find("a").click(tab_track_omniture);
-
-	});
-	
-  -->
-  </script>
-  <!-- End Tabs -->
-
-
-<div id="main_area" style="padding-top:0px;">
-
-   <script type="text/javascript">
-      $('#FH_name_info').removeAttr('onclick').css('cursor','default');
-     </script>
-   <div style="width: 810px;">
-	<script language="javascript">
-	<!--
-		try {
-			var rv = "";
-			setContinueShoppingCookie("Home Page", "home", "%2F%3Fmarkcode%3D", rv);
-			var continue_shopping = getContinueShoppingCookie();
-			var continue_shopping_label = "Back to __LOCATION__";
-			if (continue_shopping.prevName) { 
-				var label = continue_shopping_label.replace("__LOCATION__", continue_shopping.prevName);
-					continue_shopping_link = "<a class='continue_shopping' href='http://www.ftd.com"+unescape(continue_shopping.prevValue) + (unescape(continue_shopping.prevValue) == '/' ? '350/?int=1' : '') + "'>"+label+"</a>";
-				} else {
-				var label = continue_shopping_label.replace("__LOCATION__", "Home Page"); 	
-				continue_shopping_link = "<a class='continue_shopping' href='http://www.ftd.com/350/?int=1'>"+label+"</a>";
-			}
-		} catch(e) {
-			errAlert(e, 'start.html continue shopping link');
-		}
-	//-->
-    </script>
-<script language="javascript" type="text/javascript">
-    <!--
-      mybuys.setPageType("HOME");
-    //-->
-    </script>
-
-   <script type="text/javascript">
-		var ftd_zip_finder = {
-				delivery_date_count :10	,
-				Occasions :[
-					{ index_id : "product_bestsellers", title : "Select Occasion", occ_id : "00" },
-						{ index_id : "occasion_administrativeprofessionalsday", title : "Admin. Professionals&#39; Day", occ_id : "21" },
-						{ index_id : "occasion_anniversary", title : "Anniversary", occ_id : "7" },
-						{ index_id : "occasion_birthday_shop", title : "Birthday", occ_id : "3" },
-						{ index_id : "occasion_corporateworkgifts", title : "Business/Commercial", occ_id : "4" },
-						{ index_id : "occasion_congratulations", title : "Congratulations", occ_id : "9" },
-						{ index_id : "occasion_easter", title : "Easter", occ_id : "18" },
-						{ index_id : "occasion_getwell", title : "Get Well", occ_id : "2" },
-						{ index_id : "occasion_loveromance", title : "Love and Romance", occ_id : "10" },
-						{ index_id : "occasion_mothersday", title : "Mother&#39;s Day", occ_id : "14" },
-						{ index_id : "occasion_newbaby", title : "New Baby", occ_id : "6" },
-						{ index_id : "occasion_sympathy", title : "Sympathy", occ_id : "1" },
-						{ index_id : "occasion_thankyou", title : "Thank You", occ_id : "12" }]
-			}
-			var availToday = 0,
-			    num_dates = 90,
-			    showCalendar = 1 ; 
-		function updateZipFinder(){
-			if($.browser.msie && $.browser.version=="6.0"){
-                                $("#zip_finder_new").remove();
-			    }else{
-				$("#zip_finder").remove();
-				QV.prepareOccasionList(ftd_zip_finder.Occasions);
-				QV.populateDeliveryDates(ftd_zip_finder.delivery_date_count, 0);
-				/* Update the zip finder with user selection data from cookie 'zf' */
-				QV.prefillZF();
-			    }
-			}
-	</script>
-
-<!-- left side outer div -->
-<div id='main_left_side' valign='top' align='left'> 
-	<!-- START LEFT PART OF THE CONTENT AREA -->
-	
- <!-- START of main promotional area -->
-<div id="main_promotional_area">
- <!--
-++++++++++++++++++++++++++++++++++++++++++++++ 
-CODE: DHTML
-BRAND: MAIN EN TEST
-EXTRA: ZIP FINDER WIDGET
-LANGUAGE: ENGLISH
-VER: 1
-REV: 1
-DATE BUILT: 04/12/2012
-DATE REVISED: 04/13/12
-DATE LAUNCH: 04/12/2012
-MODIFY BY: CW
-++++++++++++++++++++++++++++++++++++++++++++++
--->
-<style type="text/css">
-<!--
-#cat_btm_img_1, #cat_btm_img_2, #cat_btm_img_3 {
-	height: 130px;
-	width: 268px;
-	margin-top: 2px;
-}
-#lf_panel_holder {
-	vertical-align:bottom;
-}
-#lf_panel_holder #zip_finder {
-	margin-top: 3px;
-	padding-bottom: 36px;
-	width: 187px;
-}
-#lf_panel_holder #zip_finder_new {
-	margin-top: 3px;
-	padding-bottom: 6px;
-	width: 187px;
-}
-#slide_holder {
-	position: relative;
-	width: 623px;
-	height: 348px;
-}
-#slide_holder #slidenav {
-	font-size: 1px;
-	width: 96px;
-	height: 25px;
-	position: absolute;
-	left: 5px;
-	bottom: 1px;
-	z-index:10;
-}
-#slide_holder #slidenav #s_navbox_1, #s_navbox_2, #s_navbox_3, #s_navbox_4 {
-	font-size: 10pt;
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	width: 20px;
-	height: 20px;
-	text-align: center;
-	/* border: 1px solid #998d5a;
-	background-color: #ffffff;*/
-	float: left;
-	cursor: pointer;
-}
-#slide_holder #s_img_holder {
-	position: absolute;
-	left: 1px;
-	top: 0px;
-	width: 623px;
-	height: 348px;
-	cursor: pointer;
-	z-index:1;
-}
-
-a.lfMenuText:link, a.lfMenuText:active, a.lfMenuText:visited {
-	font-size: 9pt;
-	font-family: Arial, Helvetica, sans-serif;
-	/*font-weight:bold;*/
-	display:block;
-	color:#333;
-	text-align:left;
-	text-decoration:none;
-	padding-top:7px;
-	padding-bottom:8px;
-	padding-left:6px;
-	border-top:1px solid #d1bc61;
-	background-color:#e7d9a8;
-	/*background-image:url(http://www.ftdimg.com/pics/products/gradient.jpg);*/
-}
-a.lfMenuText:hover {
-	font-size: 9pt;
-	font-family: Arial, Helvetica, sans-serif;
-	/*font-weight:bold;*/
-	display:block;
-	color:#000;
-	text-align:left;
-	text-decoration:none;
-	padding-top:7px;
-	padding-bottom:8px;
-	padding-left:6px;
-	border-top:1px solid #d1bc61;
-	background-color:#d1bc61;
-	/*background-image:url(http://www.ftdimg.com/pics/products/gradient_ro.jpg);*/
-}
--->
-</style>
-<script language="javascript">
-
-isUR = "0";
-
-
-//isUR = (mySC == "14983")? 1:0; 
-</script>
-<script language="javascript" type="text/javascript">
-	var today = new Date();
-	var myday = today.getDay();
-	var slide_nav_bkgnd = "#998d5a";
-	var lf_bt_sel = "bt_1";
-	var loop = 0;
-	var ns = 1;
-	var img_path = "http://www.ftdimg.com/pics/products/";
-	var img_date = "_041212.jpg";
-	
-	//SLIDE IMAGES
-	s_img_1 = new Image();
-	s_img_1.src = img_path + "DHTML_mainTest_slide1" + img_date;
-	s_img_1_link = "http://www.ftd.com/350/catalog/category.epl?index_id=occasion_birthday_shop&campaign_id=NLOOK_BDAY_FLASH";
-	
-	s_img_2 = new Image();
-	s_img_2.src = img_path + "DHTML_mainTest_slide2" + img_date;
-	s_img_2_link = "http://www.ftd.com/350/catalog/category.epl?index_id=occasion_birthday_shop&campaign_id=NLOOK_BDAY_FLASH";
-	
-	s_img_3 = new Image();
-	s_img_3.src = img_path + "DHTML_mainTest_slide3" + img_date;
-	s_img_3_link = "http://www.ftd.com/350/catalog/category.epl?index_id=product_samedaydelivery_exclusives&campaign_id=NLOOK_EXCLUSIVES_FLASH";
-	
-	s_img_4 = new Image();
-	s_img_4.src = img_path + "DHTML_mainTest_slide4" + img_date;
-	s_img_4_link = "http://www.ftd.com/350/catalog/category.epl?index_id=product_bhg&campaign_id=NLOOK_BHG_FLASH";
-	
-	//LEFT CATEGORY BUTTONS
-/*	lf_bt_img_off_1 = new Image();
-	lf_bt_img_on_1 = new Image();
-	lf_bt_img_off_1.src = img_path + "DHTML_gm_lf_bt_1_off" + img_date;
-	lf_bt_img_on_1.src = img_path + "DHTML_gm_lf_bt_1_on" + img_date;
-	lf_bt_link_1 = "http://www.ftd.com/350/catalog/category.epl?index_id=occasion_christmas_bestsellers&campaign_id=XMAS_BS_LFNAV_2012";
-	
-	lf_bt_img_off_2 = new Image();
-	lf_bt_img_on_2 = new Image();
-	lf_bt_img_off_2.src = img_path + "DHTML_gm_lf_bt_2_off" + img_date;
-	lf_bt_img_on_2.src = img_path + "DHTML_gm_lf_bt_2_on" + img_date;
-	lf_bt_link_2 = "http://www.ftd.com/350/catalog/category.epl?index_id=occasion_christmas_flowers&campaign_id=XMAS_FLOWERS_LFNAV_2012";
-	
-	lf_bt_img_off_3 = new Image();
-	lf_bt_img_on_3 = new Image();
-	lf_bt_img_off_3.src = img_path + "DHTML_gm_lf_bt_3_off" + img_date;
-	lf_bt_img_on_3.src = img_path + "DHTML_gm_lf_bt_3_on" + img_date;
-	lf_bt_link_3 = "http://www.ftd.com/350/catalog/category.epl?index_id=occasion_christmas_gourmetfoods&campaign_id=XMAS_GIFTS_LFNAV_2012";
-	
-	lf_bt_img_off_4 = new Image();
-	lf_bt_img_on_4 = new Image();
-	lf_bt_img_off_4.src = img_path + "DHTML_gm_lf_bt_4_off" + img_date;
-	lf_bt_img_on_4.src = img_path + "DHTML_gm_lf_bt_4_on" + img_date;
-	lf_bt_link_4 = "http://www.ftd.com/350/catalog/category.epl?index_id=occasion_birthday_shop&campaign_id=BIRTHDAY_LFNAV_2012";
-
-	lf_bt_img_off_5 = new Image();
-	lf_bt_img_on_5 = new Image();
-	lf_bt_img_off_5.src = img_path + "DHTML_gm_lf_bt_5_off" + img_date;
-	lf_bt_img_on_5.src = img_path + "DHTML_gm_lf_bt_5_on" + img_date;
-	lf_bt_link_5 = "http://www.ftd.com/350/catalog/category.epl?index_id=occasion_sympathy&campaign_id=SYMPATHY_LFNAV_2012";
-*/	
-	//ZIP FINDER IMAGES
-	zf_img_1 = new Image();
-	zf_img_1.src = img_path + "DHTML_gm_zf_1.jpg";
-	zf_img_2 = new Image();
-	zf_img_2.src = img_path + "DHTML_gm_zf_2.jpg";
-	zf_img_3 = new Image();
-	zf_img_3.src = img_path + "DHTML_gm_zf_3.jpg";
-	
-	//SLIDE SHOW FUNCTIONS
-/*	function rollin(img_obj) {
-		switch (img_obj.id) {
-			case "bt_1": img_obj.src = lf_bt_img_on_1.src; break;
-			case "bt_2": img_obj.src = lf_bt_img_on_2.src; break;
-			case "bt_3": img_obj.src = lf_bt_img_on_3.src; break;
-			case "bt_4": img_obj.src = lf_bt_img_on_4.src; break;
-			case "bt_5": img_obj.src = lf_bt_img_on_5.src; break;
-		}
-	}
-	
-	function rollout(img_obj) {
-		switch (img_obj.id) {
-			case "bt_1": img_obj.src = lf_bt_img_off_1.src; break;
-			case "bt_2": img_obj.src = lf_bt_img_off_2.src; break;
-			case "bt_3": img_obj.src = lf_bt_img_off_3.src; break;
-			case "bt_4": img_obj.src = lf_bt_img_off_4.src; break;
-			case "bt_5": img_obj.src = lf_bt_img_off_5.src; break;
-		}
-	}*/
-	
-	function swap_slide(img_n) {
-		var slide = document.getElementById('main_slide');
-		
-		switch (img_n) {
-			case 1: slide.innerHTML = '<a href="' + s_img_1_link + '"><img id="s_img_holder" src="' + s_img_1.src + '" width="623" height="348" border="0" alt="Flowers, Roses, Flower Gifts and Gift Baskets from FTD" /></a>'; break;
-			case 2: slide.innerHTML = '<img id="s_img_holder" src="' + s_img_2.src + '" width="623" height="348" border="0" alt="Flowers, Roses, Flower Gifts and Gift Baskets from FTD" usemap="#slide2map" /></a>'; break;
-			case 3: slide.innerHTML = '<img id="s_img_holder" src="' + s_img_3.src + '" width="623" height="348" border="0" alt="Flowers, Roses, Flower Gifts and Gift Baskets from FTD" usemap="#slide3map" /></a>'; break;
-			case 4: slide.innerHTML = '<img id="s_img_holder" src="' + s_img_4.src + '" width="623" height="348" border="0" alt="Flowers, Roses, Flower Gifts and Gift Baskets from FTD" usemap="#slide4map" /></a>'; break;
-		}
-		
-		swap_slidenav();
-	}
-	
-	function swap_slidenav() {
-		var sindi = document.getElementById('s_navbox_2');
-		sindi.innerHTML = ns + " of 4";
-		/*navbox = document.getElementById('s_navbox_4');
-		navbox.style.backgroundColor = "#ffffff";
-		navbox = document.getElementById('s_navbox_3');
-		navbox.style.backgroundColor = "#ffffff";
-		navbox = document.getElementById('s_navbox_2');
-		navbox.style.backgroundColor = "#ffffff";
-		navbox = document.getElementById('s_navbox_1');
-		navbox.style.backgroundColor = "#ffffff";
-
-		navbox = document.getElementById('s_navbox_'+ns);
-		navbox.style.backgroundColor = slide_nav_bkgnd;*/
-	}
-	
-	function run_slideshow() {
-		var n_slide = document.getElementById('s_img_holder');
-		//alert("loading info...");
-
-		ns++;
-		
-		if (ns > 4) {
-			ns = 1;
-			swap_slide(ns);
-			//loop = 1;
-
-			clearTimeout(ss);
-			/*loop++;
-			if (loop < 1){
-			ss = setTimeout("run_slideshow()",3000);
-			}*/
-		} else {
-			swap_slide(ns);
-			ss = setTimeout("run_slideshow()",3000);
-		}
-	}
-		
-	function put_zf_img() {
-		t = new Date();
-		h = t.getUTCHours() - 6;
-		m = t.getUTCMinutes();
-		s = t.getUTCSeconds();
-		d = t.getDay();
-		var zf_img_n = 2;	
-
-		mytime = h+':'+m+':'+s;
-			
-		if (d>=1 && d<=5) {
-			if (h>=1 && h<13) zf_img_n = 0;
-			if (h>=13 && h<16) zf_img_n = 1;
-		} else {
-			if (h>=1 && h<11) zf_img_n = 0;
-			if (h>=11 && h<14) zf_img_n = 1;
-		}
-		
-		return zf_img_n;
-	}
-	
-	function loadinfo() {
-		//LOADING ZIP FINDER IMAGE
-		var zf_img = document.getElementById('zf_img_holder');
-		if (undefined != zf_img){
-			switch (put_zf_img()) {
-				case 0: zf_img.src = zf_img_1.src; break;
-				case 1: zf_img.src = zf_img_2.src; break;
-				case 2: zf_img.src = zf_img_3.src; break;
-			}
-		}
-	
-		//LOADING LEFT BUTTONS
-		/*var lf_bt_1 = document.getElementById('bt_1');
-		var lf_bt_2 = document.getElementById('bt_2');
-		var lf_bt_3 = document.getElementById('bt_3');
-		var lf_bt_4 = document.getElementById('bt_4');
-		var lf_bt_5 = document.getElementById('bt_5');
-
-		lf_bt_1.src = lf_bt_img_off_1.src;
-		lf_bt_2.src = lf_bt_img_off_2.src;
-		lf_bt_3.src = lf_bt_img_off_3.src;
-		lf_bt_4.src = lf_bt_img_off_4.src;
-		lf_bt_5.src = lf_bt_img_off_5.src;*/
-		
-		//LOADING SLIDE 1
-		//var c_slide = document.getElementById('s_img_holder');
-		var sindi = document.getElementById('s_navbox_2');
-		//c_slide.src = s_img_1.src;
-		swap_slide(1);
-		sindi.innerHTML = "1 of 4";
-				
-		//RUN SLIDESHOW
-		if (loop == 0) ss = setTimeout("run_slideshow()",3000);
-	}
-	
-	/*function btn_click(btnid) {
-		switch (btnid) {
-			case "bt_1": document.location = lf_bt_link_1; break;
-			case "bt_2": document.location = lf_bt_link_2; break;
-			case "bt_3": document.location = lf_bt_link_3; break;
-			case "bt_4": document.location = lf_bt_link_4; break;
-			case "bt_5": document.location = lf_bt_link_5; break;
-		}
-	}*/
-	
-	/*function slide_click() {
-		switch (ns) {
-			case 1: document.location = s_img_1_link; break;
-			case 2: document.location = s_img_2_link; break;
-			case 3: document.location = s_img_3_link; break;
-			case 4: document.location = s_img_4_link; break;
-		}
-	}*/
-	
-	function goslide(slide_num) {
-		if (slide_num != ns) {
-			switch (slide_num) {
-				case 1: ns=1; swap_slide(slide_num); break;
-				case 2: ns=2; swap_slide(slide_num); break;
-				case 3: ns=3; swap_slide(slide_num); break;
-				case 4: ns=4; swap_slide(slide_num); break;
-			}
-		}
-	}
-	
-	function prev_next(direc) {
-		var sindi = document.getElementById('s_navbox_2');
-		
-		if (ss) clearTimeout(ss);
-		if (direc == 0) {
-			ns -= 1;
-			if (ns < 1) ns = 4;
-			swap_slide(ns);
-		} else {
-			ns += 1;
-			if (ns > 4) ns = 1;
-			swap_slide(ns);
-		}
-		
-		sindi.innerHTML = ns + " of 4";
-			
-	}
-	
-	function selectall(objid) {
-		objid.focus();
-		objid.select();
-		objid.value = "";
-	}
-	
-	function MM_preloadImages() { //v3.0
-  		var d=document;
-		
-		if (d.images) {
-			if (!d.MM_p) d.MM_p=new Array();
-			var i,j=d.MM_p.length,a=MM_preloadImages.arguments;
-			for(i=0; i<a.length; i++) {
-				if (a[i].indexOf("#")!=0) {
-					d.MM_p[j]=new Image;
-					d.MM_p[j++].src=a[i];
-				}
-			}
-	}
-}
-</script>
-<table width="810" border="0" cellspacing="0" cellpadding="0" style="margin-top:2px; margin-bottom:5px;">
-  <tr>
-    <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td width="187" align="center" valign="bottom" bgcolor="#dace8b"><div id="lf_panel_holder">
-
-			<!-- start: OLD Zip Finder -->
-			  <div id="zip_finder">
-                <table width="183" border="0" align="center" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td colspan="2"><img id="zf_img_holder" src="" alt="Flowers delivered the same day" width="187" height="50" border="0" style="margin-bottom:5px; margin-top:5px;" /></td>
-                  </tr>
-                  <form action="/350/catalog/category.epl?campaign_id=rd_zip" method="GET" onSubmit="return giftfinderValidateZip('zipcode');">
-                    <input type="hidden" name="index_id" id="index_id" value="samedayzip" />
-                    <tr>
-                      <td width="159"><input name="zipcode" type="text" id="zipcode" style="width:152px; height:18px; border:1px solid #d1bc61; margin-left:5px;" value="Delivery Zip Code" onClick="selectall(this)"></td>
-                      <td width="30"><input type="image" src="http://www.ftdimg.com/pics/products/zf_go_bttn_img.gif" width="24" height="23" border="0" /></td>
-                    </tr>
-                  </form>
-                </table>
-              </div>
-			  <!-- end: OLD Zip Finder -->
-			<!-- NEW version of zip finder for QuickView -->
-              <div id="zip_finder_new">
-                <table width="178" border="0" align="center" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td colspan="2" align="center"><img id="zf_img_holder" src="" alt="Flowers delivered the same day" width="187" height="50" border="0" style="margin-bottom:5px; margin-top:5px;" /><!--<div id="zf_copy" style="font-family:Arial, Helvetica, sans-serif; font-size:14pt; font-weight:bold;">FIND FLOWERS FAST</div>--></td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" style="padding-left:5px;">
-						<select id="occasion" name="occasion" style="width:175px; height:18px; font-size:9px; border:1px solid #d1bc61; margin-bottom:3px;">
-							<option>Select Occasion</option>
-						</select>
-					</td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" style="padding-left:5px;">
-						<select id="dropdown_delDate" name="dropdown_delDate" style="width:175px; height:18px; font-size:9px; border:1px solid #d1bc61; margin-bottom:3px;">
-							
-						</select>
-						<!-- Div to store calendar date -->
-						<div id="calendarWidget" style="display:none;">
-							<div id="calendar_background_layer_product" class="calendar_bg_div">&nbsp;</div>
-							<span id="calendar_trigger_deldate" style="display:inline;"></span>
-							<input type="hidden" name="deliveryDate" id="deliveryDate" value="" />
-						</div> 
-						<!-- end: Div to store calendar date -->
-					</td>
-                  </tr>
-                  <tr>
-                      <td width="115" style="padding-left:5px;">
-						<input name="zipcode" type="text" id="zipcode" style="width:100px; height:18px; border:1px solid #d1bc61; font-size:9px; margin-bottom:3px; margin-right:2px;" maxlength="7" value="Delivery Zip Code" onfocus="selectall(this)" onkeypress="fnOnKeypress(event, QV.validateZipFinder);" />
-					  </td>
-                      <td width="79" align="left">
-						<a href="http://zip4.usps.com/zip4/welcome.jsp" onclick="popupw=window.open('http://zip4.usps.com/zip4/welcome.jsp','FindZip','toolbar=no,resizable=yes,scrollbars=yes,width=600,height=300,top=0,left=50');return false;" style="width:80px;" >Find a Zip Code</a>
-					  </td>
-                    </tr>
-                    <tr>
-                      <td style="padding-left:5px;">
-						<img src="http://www.ftdimg.com/pics/products/DHTML_ZF_serach_btton.jpg" width="74" height="14" border="0" onclick="QV.validateZipFinder();" class="curPointer"/>
-					  </td>
-                      <td>&nbsp;</td>
-                    </tr>
-                </table>
-				<!-- This hidden input value will be updated from the code and used to identify in which type of index we are in. -->
-				<input type="hidden" id="index_type" name="index_type" value="" />
-              </div>
-			  <script type="text/javascript">
-					updateZipFinder();
-			  </script>
-			<!-- end: NEW version of zip finder for QuickView -->
-            <div class="leftMenuText" style="border-top:2px solid #FFFFFF;">
-              	<a href="http://www.ftd.com/all-mothers-day-ctg/occasion-mothersday-bestsellers/?campaign_id=NLOOK_MDAY_LFNAV_2012" class="lfMenuText">MOTHER&acute;S DAY SALE</a>
-            </div>
-            <div class="leftMenuText">
-              	<a href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/?campaign_id=NLOOK_BIRTHDAY_LFNAV_2012" class="lfMenuText">BIRTHDAY SALE</a>
-            </div>
-            <div class="leftMenuText">
-              	<a href="http://www.ftd.com/get-well-ctg/occasion-getwell/?campaign_id=NLOOK_GETWELL_LFNAV_2012" class="lfMenuText">GET WELL</a>
-            </div>
-            <div class="leftMenuText">
-              	<a href="http://www.ftd.com/sympathy-funeral-ctg/occasion-sympathy/?campaign_id=NLOOK_SYMPATHY_LFNAV_2012" class="lfMenuText">SYMPATHY</a>
-            </div>
-            <div class="leftMenuText">
-              	<a href="http://www.ftd.com/roses-ctg/product-roses/?campaign_id=NLOOK_ROSES_LFNAV_2012" class="lfMenuText">ROSES</a>
-            </div>
-            <div class="leftMenuText">
-              	<a href="http://www.ftd.com/under-35-ctg/product-shopbyprice-under35/?campaign_id=NLOOK_UNDER35_LFNAV_2012" class="lfMenuText">DEALS UNDER $35</a>
-            </div>
-            </div></td>
-          <td width="624" align="left" valign="top"><div id="slide_holder">
-    <div id="slidenav">
-      <div id="s_navbox_1" onclick="prev_next(0)"><img src="http://www.ftdimg.com/pics/products/lt_arrow.gif" width="20" height="20" border="0" /></div>
-      <div id="s_navbox_2" style="padding:3px; width:auto;">X of X</div>
-      <!-- <div id="s_navbox_3" onclick="goslide(3)"></div> -->
-      <div id="s_navbox_4" onclick="prev_next(1)"><img src="http://www.ftdimg.com/pics/products/rt_arrow.gif" width="20" height="20" border="0" /></div>
-    </div>
-    <div id="main_slide"><img id="s_img_holder" src="" width="623" height="348" border="0" alt="Flowers, Roses, Flower Gifts and Gift Baskets from FTD" onclick="slide_click()" /></div></div></td>
-        </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td colspan="3" align="left"><a href="http://www.ftd.com/best-sellers-ctg/product-bestsellers/"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_bestSellers_041212.jpg" width="810" height="38" border="0" style="margin-top:4px;" /></a></td>
-  </tr>
-  <tr>
-    <td colspan="3" align="left">
-    <table width="810" border="0" cellspacing="0" cellpadding="0" height="360">
-  <tr>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/dreamland-pink-bouquet-prd/ffdl/?campaign_id=NLOOK_PRODUCT_4_2012"><img src="http://www.ftdimg.com/pics/products/FFDL_200x225.jpg" alt="Dreamland Pink Bouquet" title="Dreamland Pink Bouquet" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content7" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "0";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">Dreamland Pink Bouquet</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#666666">$39.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-        <div><a href="http://www.ftd.com/come-rain-or-come-shine-bouquet-vase-included-prd/fcrs/?campaign_id=NLOOK_PRODUCT_2_2012"><img src="http://www.ftdimg.com/pics/products/FCRS_200x225.jpg" alt="Come Rain or Come Shine Bouquet  - VASE INCLUDED" title="Come Rain or Come Shine Bouquet  - VASE INCLUDED" border="0" height="178" width="158" /></a></div>
-        <div id="pinfo_content28" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-          <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "0";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">Come Rain or Come Shine Bouquet  - VASE INCLUDED</span></div>-->
-          <div style="text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$29.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$29.99</span> <span style="color:#666666">$29.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-          </div>
-          <div style="text-align:left;"></div>
-        </div>
-      </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/the-ftd-sweet-splendor-bouquet-vase-included-prd/xx-4791/?campaign_id=NLOOK_PRODUCT_8_2012"><img src="http://www.ftdimg.com/pics/products/XX-4791_200x225.jpg" alt="The FTD&reg; Sweet Splendor&trade; Bouquet - VASE INCLUDED" title="The FTD&reg; Sweet Splendor&trade; Bouquet - VASE INCLUDED" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content3" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "1";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">The FTD&reg; Sweet Splendor&trade; Bouquet - VASE INCLUDED</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('Starting at <span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#666666">$39.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('Starting at <span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/fabled-beauty-bouquet-vase-included-prd/fmcr/?campaign_id=NLOOK_PRODUCT_1_2012"><img src="http://www.ftdimg.com/pics/products/FMCR_200x225.jpg" alt="Fabled Beauty Bouquet - VASE INCLUDED" title="Fabled Beauty Bouquet - VASE INCLUDED" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content6" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "0";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>-->
-        <!--<div style="text-align:left;"><span style="font-weight:bold;">Fabled Beauty Bouquet - VASE INCLUDED</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$49.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$49.99</span> <span style="color:#666666">$49.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-        <div><a href="http://www.ftd.com/the-ftd-blooming-bounty-bouquet-basket-included-prd/n22-4329/?campaign_id=NLOOK_PRODUCT_5_2012"><img src="http://www.ftdimg.com/pics/products/N22-4329_200x225.jpg" alt="The FTD&reg; Blooming Bounty&trade; Bouquet - BASKET INCLUDED" title="The FTD&reg; Blooming Bounty&trade; Bouquet - BASKET INCLUDED" border="0" height="178" width="158" /></a></div>
-       <div id="pinfo_content28" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-          <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "1";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">The FTD&reg; Blooming Bounty&trade; Bouquet - BASKET INCLUDED</span></div>-->
-          <div style="text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#666666">$39.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-          </div>
-          <div style="text-align:left;"></div>
-        </div>
-      </div></td>
-  </tr>
-  <tr>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/the-ftd-spring-tulip-bouquet-by-better-homes-and-gardens-vase-included-prd/12-s2/?campaign_id=NLOOK_PRODUCT_7_2012"><img src="http://www.ftdimg.com/pics/products/12-S2_200x225.jpg" alt="The FTD&reg; Spring Tulip Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED" title="The FTD&reg; Spring Tulip Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "1";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">The FTD&reg; Spring Tulip Bouquet by Better Homes and Gardens&reg; - VASE INCLUDED</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$54.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$54.99</span> <span style="color:#666666">$54.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/godiva-sampler-prd/g257/?campaign_id=NLOOK_PRODUCT_10_2012"><img src="http://www.ftdimg.com/pics/products/G257_200x225.jpg" alt="Godiva&reg; Sampler" title="Godiva&reg; Sampler" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content4" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "0";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">Godiva&reg; Sampler</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$42.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$42.99</span> <span style="color:#666666">$42.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/1-dozen-long-stem-mixed-roses-prd/smrb/?campaign_id=NLOOK_PRODUCT_9_2012"><img src="http://www.ftdimg.com/pics/products/SMRB_200x225.jpg" alt="1 Dozen Long Stem Mixed Roses" title="1 Dozen Long Stem Mixed Roses" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content5" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "0";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">1 Dozen Long Stem Mixed Roses</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$39.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$39.99</span> <span style="color:#666666">$39.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/the-ftd-touch-of-spring-bouquet-vase-included-prd/12-s1/?campaign_id=NLOOK_PRODUCT_7_2012"><img src="http://www.ftdimg.com/pics/products/12-S1_200x225.jpg" alt="The FTD&reg; Touch of Spring&reg; Bouquet - VASE INCLUDED" title="The FTD&reg; Touch of Spring&reg; Bouquet - VASE INCLUDED" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content8" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "1";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">The FTD&reg; Touch of Spring&reg; Bouquet - VASE INCLUDED</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$49.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$49.99</span> <span style="color:#666666">$49.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-    <td><div style="border:1px solid #d1bc61; width:158px; background-color:#FFF; height:201px; margin-top:8px; margin-left:2px; margin-left:2px;">
-      <div><a href="http://www.ftd.com/colorful-world-gerbera-daisy-bouquet-prd/ffgd/?campaign_id=NLOOK_PRODUCT_3_2012"><img src="http://www.ftdimg.com/pics/products/FFGD_200x225.jpg" alt="Colorful World Gerbera Daisy Bouquet" title="Colorful World Gerbera Daisy Bouquet" border="0" height="178" width="158" /></a></div>
-      <div id="pinfo_content2" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; color:#666666; margin-left:3px; margin-top:3px;">
-        <!--<div style="font-style:italic; color:#666666; text-align:left;">
-            <script language="JavaScript" type="text/javascript">
-				var hassday = "0";
-				if (hassday == "0") document.write('Shipped Direct in a Gift Box'); else document.write('Same Day Florist Delivered');
-			</script>
-          </div>
-          <div style="text-align:left;"><span style="font-weight:bold;">Colorful World Gerbera Daisy Bouquet</span></div>-->
-        <div style="text-align:left;">
-          <script language="JavaScript" type="text/javascript">
-				var hasdisc = "0";
-				if (isUR == 0) {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;">$29.99</span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;">$29.99</span> <span style="color:#666666">$29.99</span>');
-				} else {
-					if (hasdisc == "0") document.write('Starting at <span style="color:#666666;"></span>'); else document.write('<span style="color:#d40000;">SALE </span><span style="text-decoration:line-through; color:#666666;"></span> <span style="color:#666666"></span>');
-				}
-			</script>
-        </div>
-        <div style="text-align:left;"></div>
-      </div>
-    </div></td>
-  </tr>
-</table>
-    </td>
-  </tr>
-  <tr>
-    <td align="left" style="padding-top:2px;"><a href="http://www.ftd.com/order-early-sale-ctg/occasion-mothersday-orderearly-sale/?campaign_id=MDAY_SAVE20_TILE_2012"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_category_btn_1_041212.jpg" alt="Mother's Day" width="268" height="206" border="0"/></a></td>      
-    <td align="right" style="padding-top:2px;">
-                  <div id="fs_message" style="width:268px;height:206px;margin-left:1px;">
-	<!-- DIV ID 1 -->
-	<div id="default" class="fs_default"><a href="http://www.ftd.com/all-plants-ctg/product-plants-all/?campaign_id=NLOOK_PLANTS_TILE_2012"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_category_btn_2c_041212.jpg" alt="Green and Blooming Plants" width="268" height="206" border="0"/></a></div>
-	<!-- DIV ID 2 -->
-	<div id="join" class="fs_join" style="display:none;"><a href="http://www.ftd.com/all-plants-ctg/product-plants-all/?campaign_id=NLOOK_PLANTS_TILE_2012"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_category_btn_2c_041212.jpg" alt="Green and Blooming Plants" width="268" height="206" border="0"/></a></div>
-	<!-- DIV ID 3 -->
-	<div id="incart" class="fs_incart" style="display:none;"><a href="http://www.ftd.com/all-plants-ctg/product-plants-all/?campaign_id=NLOOK_PLANTS_TILE_2012"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_category_btn_2c_041212.jpg" alt="Green and Blooming Plants" width="268" height="206" border="0"/></a></div>
-	<!-- DIV ID 4 -->
-	<div id="member" class="fs_member" style="display:none;"><a href="http://www.ftd.com/all-plants-ctg/product-plants-all/?campaign_id=NLOOK_PLANTS_TILE_2012"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_category_btn_2c_041212.jpg" alt="Green and Blooming Plants" width="268" height="206" border="0"/></a></div>
-	<!-- DIV ID 5 -->
-	<div id="signin" class="fs_signin" style="display:none;"><a href="http://www.ftd.com/all-plants-ctg/product-plants-all/?campaign_id=NLOOK_PLANTS_TILE_2012"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_category_btn_2c_041212.jpg" alt="Green and Blooming Plants" width="268" height="206" border="0"/></a></div>
-</div></td>
-	<td align="right" style="padding-top:2px;"><a href="http://www.ftd.com/gift-basket-shop-ctg/product-giftbasket-shop/?campaign_id=NLOOK_GIFTBASKET_TILE_2012"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_category_btn_3_041212.jpg" alt="Save $10 on the Sunshine Romance Bouquet" width="268" height="206" border="0" style="cursor:pointer;" /></a></td>
-  </tr>
-</table>
-<div style="width:810px; display:block; margin-top:10px;"><img src="http://www.ftdimg.com/pics/products/DHTML_mainTest_giftGalleria_041212.jpg" width="810" height="162" border="0" usemap="#dhtml_gg_map" /></div>
-<div style="width:810px; display:block; margin-top:10px;"><a href="http://www.ftd.com/making-it-rain-love-ctg/occasion-valentinesday-rain/"><img src="http://www.ftdimg.com/pics/products/S1200159_810x90_041212.jpg" width="810" height="90" border="0" /></a></div>
-<map name="dhtml_gg_map" id="dhtml_gg_map">
-  <area shape="rect" coords="32,49,213,147" href="http://www.ftd.com/jane-seymour-silk-botanicals-ctg/product-jane/?campaign_id=NLOOK_HP_GALLERIA_JANE" />
-  <area shape="rect" coords="222,50,400,148" href="http://www.ftd.com/godiva-ctg/product-godiva/?campaign_id=NLOOK_HP_GALLERIA_GODIVA" />
-  <area shape="rect" coords="409,48,587,146" href="http://www.ftd.com/ftd-luxury-collection-ctg/product-luxury-lp/?campaign_id=NLOOK_HP_GALLERIA_LUXURY" />
-  <area shape="rect" coords="597,50,775,147" href="http://www.ftd.com/jewelry-boutique-ctg/product-jewelry/?campaign_id=NLOOK_HP_GALLERIA_JEWELRY" />
-  <area shape="rect" coords="4,-2,809,36" href="http://www.ftd.com/the-gift-galleria-ctg/product-gift/?campaign_id=NLOOK_HP_NEWGALLERIA" />
-</map>
-<script language="javascript" type="text/javascript">
-	loadinfo();
-</script>
-<map name="slide2map">
-  <area shape="rect" coords="2,2,230,346" href="http://www.ftd.com/birthday-ctg/occasion-birthday-shop/">
-  <area shape="rect" coords="231,2,426,346" href="http://www.ftd.com/1-dozen-long-stem-mixed-roses-prd/smrb/">
-  <area shape="rect" coords="427,2,621,173" href="http://www.ftd.com/come-rain-or-come-shine-bouquet-vase-included-prd/fcrs/">
-  <area shape="rect" coords="427,175,621,346" href="http://www.ftd.com/colorful-connection-bouquet-vase-included-prd/fdmr/">
-</map>
-<map name="slide3map">
-  <area shape="rect" coords="2,2,230,346" href="http://www.ftd.com/ftd-exclusives-ctg/product-samedaydelivery-exclusives/">
-  <area shape="rect" coords="231,2,426,346" href="http://www.ftd.com/the-ftd-spring-tulip-bouquet-by-better-homes-and-gardens-vase-included-prd/12-s2/">
-  <area shape="rect" coords="427,2,621,173" href="http://www.ftd.com/the-ftd-garden-terrace-bouquet-vase-included-prd/12-m4/">
-  <area shape="rect" coords="427,175,621,346" href="http://www.ftd.com/the-ftd-spring-garden-bouquet-vase-included-prd/12-m2/">
-</map>
-<map name="slide4map">
-  <area shape="rect" coords="2,2,230,346" href="http://www.ftd.com/better-homes-and-gardens-ctg/product-bhg/">
-  <area shape="rect" coords="231,2,426,346" href="http://www.ftd.com/the-ftd-moonlit-meadows-bouquet-by-better-homes-and-gardens-vase-included-prd/fbgp/">
-  <area shape="rect" coords="427,2,621,173" href="http://www.ftd.com/the-ftd-rare-beauty-bonsai-by-better-homes-and-gardens-prd/ph21/">
-  <area shape="rect" coords="427,175,621,346" href="http://www.ftd.com/the-ftd-blooming-vision-bouquet-by-better-homes-and-gardens-vase-included-prd/xx-4805/">
-</map> 
-<script type="text/javascript">
-	 FS.show_fs_promo();
- </script>
-</div>
-<!-- end of main promotional area -->
-
-
- <div id="giftfinder_error_message">
-		There appears to be an issue with the ZIP Code you entered.<br><br> Please ensure that it is correct or use our <a href="http://zip4.usps.com/zip4/welcome.jsp" onclick="popupw=window.open('http://zip4.usps.com/zip4/welcome.jsp','FindZip','toolbar=no,resizable=yes,scrollbars=yes,width=600,height=300,top=0,left=50');return false;">Zip Code locator</a>.	<br><br>
-		<div style="text-align:center;cursor:pointer;cursor:hand;"><img src="http://www.ftdimg.com/pics/design2007/ftd_sameday_finder_close.gif" onClick="document.getElementById('giftfinder_error_message').style.display='none';"></div>
-	</div>
-	<!-- Added the below script block as a fix for select box issue in IE6 -->
-	<script type="text/javascript">
-	          jQuery('#giftfinder_error_message').bgiframe();
-	</script>
-</div> 
-<!-- END LEFT PART OF THE CONTENT AREA -->
-
-<!-- End RIGHT RAIL OF THE CONTENT AREA -->
-<br clear="all">
-
-
-<!-- START BOTTOM OF THE CONTENT AREA -->
-<div id='main_bottom' valign='top' align='left'>
-	
- <!-- Start of transient merchandising que -->
-	<!-- no content set for the transient merchandising que -->
-	<!-- end of transient merchandising que -->
-</div>
-<!-- End BOTTOM OF THE CONTENT AREA -->
-
-<img src="./pics/counter.gif?markcode=350" hspace="0" border="0" height="1" width="1" align="left" />
-	</div>
-</div>
-
-	<!-- Footer ########################################### -->
-		<div id="footer_area">
-			<div style="margin-top:5px; height: 32px; background-color:#000000; color:#CBBC65; font-size: 14px; font-family:arial; font-weight:normal; line-height:30px; text-align:right; width:810px; background-image:url(http://www.ftdimg.com/pics/design2008/footer-brand_redesign09.jpg)"><div style="float:right; display:block; margin-right:15px;">7 Day Satisfaction Guarantee</div></div> <div style="display:block; width:810px; margin-top:5px; font-family:Arial, Helvetica, sans-serif; font-size:12pt; text-align:right; height:28px;"><div style="float:right; display:block; margin-right:15px;"><strong>FTD.COM, Inc., 3113 Woodcreek Drive, Downers Grove, IL 60515</strong></div></div> <table style="width:100%">
-	    <tr>
-	    <td valign="top">
-	    <div id="global_footer"><br>
-                                        
- <a target="_blank" href="https://www.bbb.org/online/consumer/cks.aspx?id=10411121045148644"><img width="90" height="34" border="0" src="http://www.ftdimg.com/pics/products/bbbsealh2.gif" style="vertical-align:top;"></a>
-</div>
-            <div id="hacker_safe_block" >&nbsp;&nbsp;&nbsp;&nbsp;
-                                
- <!-- START SCANALERT CODE -->
-	<a target="_blank" href="https://www.mcafeesecure.com/RatingVerify?ref=www.ftd.com"><img width="58" height="33" border="0" src="https://images.scanalert.com/meter/www.scanalert.com/31.gif" alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." oncontextmenu="alert('Copying Prohibited by Law - HACKER SAFE is a Trademark of ScanAlert'); return false;" style="vertical-align:top;"></a>
-	<!-- END SCANALERT CODE -->
-</div>
-            </td>
-	    <td valign="top">
-            <div id="bottom_link_area">
-                <div class="botnav">
-                        <div style="text-align: left;"><span style="color:000000;font-style:arial;font-size:140%;"> *</span><span style="color:000000;font-style:arial;font-size:11px;">Exceptions Apply: </span><span style="color:666666;font-style:arial;font-size:11px;font-weight:normal">Where a promotion references a special collection only, the promotion applies only to that collection.  For purchases where miles or points may be awarded, such awards are not applicable to any products featured under “Add Special Gifts,” FTD Gold Membership fees, or other fees such as service fees and shipping fees or applicable taxes.  For promotions where discounts are available, discounts are applied to the standard retail prices set forth on the FTD.COM website (standard retail prices shall not include sale prices), and discounts are not applicable to (a) any products featured under “Add Special Gifts,” (b) FTD Gold Membership fees, (c) other fees such as service fees, shipping and handling fees or applicable taxes, or (d) the following collections: Steuben, Nambé, Baccarat, USO and Ultimate Roses, and any other special collection added by FTD.COM in its sole discretion.  This offer is not available in retail stores and is available online only or, if offered, through the special toll-free number. Promotion cannot be combined with any other promotions, gift certificates, coupons, discounts or affiliate programs (including reward programs). Same day delivery is available in most locations if order is placed before 2pm in recipient's time zone. See <a href="http://www.ftd.com/custserv"style="color:666666;font-style:arial;font-size:11px;text-decoration: underline;">www.ftd.com/custserv</a> for more information on same day delivery.  Quantities may be limited.  Offer subject to change without notice.</span>  <br /><br /> <span style="color:666666;font-style:arial;font-size:11px;"><a href="http://www.ftd.ca" style="color:666666;font-style:arial;font-size:11px;">WWW.FTD.CA</a> website is designed and available for Canadian residents.</span><br /><br /> <a href="http://www.ftd.com/?int=1"style="color:666666;font-style:arial;font-size:10px;">Home</a> <span class="fixed_text">|</span>    <a href="https://ordering.ftd.com/signin/?AID=myaccount_enter"style="color:666666;font-style:arial;font-size:10px;">My Account</a> <span class="fixed_text">|</span>   <a href="https://ordering.ftd.com/new-signup/"style="color:666666;font-style:arial;font-size:10px;">New Account</a> <span class="fixed_text">|</span>   <a href="https://ordering.ftd.com/reminder-signin/"style="color:666666;font-style:arial;font-size:10px;">Reminder Sign In</a> <span class="fixed_text">|</span>    <a href="http://www.ftd.com/custserv/"style="color:666666;font-style:arial;font-size:10px;" >Customer Service</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/delivery-charges/"style="color:666666;font-style:arial;font-size:10px;">Service/Shipping Fee   Detail</a><span class="fixed_text">|</span>  <a href="http://www.ftd.com/international-flower-delivery/"style="color:666666;font-style:arial;font-size:10px;" >International Shipping</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/custserv/contact.epl" style="color:666666;font-style:arial;font-size:10px;" >Contact Us</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/custserv/aboutus.epl"style="color:666666;font-style:arial;font-size:10px;;">About Us</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/media-center-ctg/product-media/"style="color:666666;font-style:arial;font-size:10px;;">Media Center</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/browse-our-store/"style="color:666666;font-style:arial;font-size:10px;;">Site Map</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/custserv/security.epl"style="color:666666;font-style:arial;font-size:10px;;">Security & Privacy</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/custserv/partners.epl"style="color:666666;font-style:arial;font-size:10px;">Partners</a> <span class="fixed_text">|</span> <a href="http://www.ftd.com/corporate-services/"style="color:666666;font-style:arial;font-size:10px;">Corporate Services</a> <span class="fixed_text">|</span> <br> <a href="http://investor.untd.com/index.cfm"style="color:666666;font-style:arial;font-size:10px;">Investor Relations</a> <span class="fixed_text">|</span>  <a href="http://www.ftd.com/corporate-services/affiliates.epl"style="color:666666;font-style:arial;font-size:10px;">Become an Affiliate </a> <span class="fixed_text">|</span> <a   href="http://www.ftd.com/social-and-environmental-practices-ctg/product-enviro-practices/"style="color:666666;font-style:arial;font-size:10px;">Social and   Environmental Practices</a></div> </div>
-                <div class="legal">
-                        <div style="text-align: left;"><span style="font-family: arial,sans; font-size: 10px; color:#666666;"> Copyright&copy; 2012. FTD.COM  <a href='http://www.ftd.com/custserv/copyright.epl'style="font-family: arial,sans; font-size: 10px; color:#666666;">All Rights Reserved</a>.<br>Order processing and order fulfillment by MERCURY<sup>&reg;</sup> and MERCURY<sup>&reg;</sup> TECHNOLOGIES.<br>FTD.COM is a registered ISO and MSP of HSBC Bank, USA, National Association, Buffalo, NY.</span></div> <div style="padding-top:8px;text-align:center;"> 	<a href="http://www.facebook.com/FTDFlowers" title="FTD on Facebook" Target="NEW" style="margin:0 5px;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/Facebook_112x34.jpg" width="112" height="34" border="0" alt="FTD on Facebook" /> 	</a> 	<a href="http://www.twitter.com/FTDFlowers" title="Follow FTD on Twitter" Target="NEW" style="margin:0 5px;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/Twitter_112x34.jpg" width="112" height="34" border="0" alt="Follow FTD on Twitter" /> 	</a> 	<a href="http://www.youtube.com/FTDFlowers" title="FTD YouTube Channel" Target="NEW" style="margin:0 5px;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/Youtube_112x34.jpg" width="112" height="34" border="0" alt="FTD YouTube Channel" /> 	</a>     <!-- <a href="http://ftd.tellapal.com/o/19526419" title="Refer Friends" Target="NEW" style="margin:0 5px;text-decoration:none;"> 		<img src="http://www.ftdimg.com/pics/products/S11_Refer_a_friend_112x34.jpg" width="112" height="34" border="0" alt="Refer Friends & Save Up To $50" /> 	</a> --> </div> </div>
-            </div>
-            </td>
-	    <td align=center valign=top>
-            <div id="bottom_logo_area">
-                <img  src="http://www.ftdimg.com//pics/design2008/brand_footer_logo.jpg"  border="0"  /><br>
-                 </div>
-	    </td>
-            </tr>
-	    </table>
-	    </div>	
-		<!-- End Footer #######################################    -->
-	<!-- End Content DIV -->
-</div>
-
-<!-- End frame_inner div -->
-    </div>
-    <!-- End frame_middle div -->
-    </div>
-    <!-- End frame_outer div -->
-    </div>
-    
-    <div id="bottom_redesign">
-		<!-- start of quickshop -->
-		<div id="homepage_quickshop">
-			
- <!-- Content -->
-	<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">Shop By Product</h3>
-			<div class="homepage_quickshop_menu_item">
-			<a href="/best-sellers-ctg/product-bestsellers/">Best Sellers</a><br>
-			
-				<a href="/ftd-whats-new-ctg/product-new/">FTD What's New</a><br>
-			
-				<a href="/flowers-ctg/product-flowers/">Flowers</a><br>
-			
-				<a href="/roses-ctg/product-roses/">Roses</a><br>
-			
-				<a href="/plants-ctg/product-plants/">Plants</a><br>
-			
-				<a href="/jewelry-boutique-ctg/product-jewelry/">Jewelry Boutique</a><br>
-			
-				<a href="/gift-basket-shop-ctg/product-giftbasket-shop/">Gift Basket Shop</a><br>
-			
-				<a href="/sweet-shop-ctg/product-sweet-shop/">Sweet Shop</a><br>
-			
-				<a href="/same-day-delivery-ctg/product-samedaydelivery/">Same Day Delivery</a><br>
-			
-				<a href="/ftd-direct-ctg/product-direct/">FTD Direct</a><br>
-			
-				<a href="/ftd-floral-jewels-birthstone-collection-ctg/product-floral-jewels/">FTD Floral Jewels Birthstone Collection</a><br>
-			
-				<a href="/ftd-luxury-collection-ctg/product-luxury-lp/">FTD Luxury Collection</a><br>
-			
-				<a href="/better-homes-and-gardens-ctg/product-bhg/">Better Homes and Gardens</a><br>
-			
-				<a href="/jane-seymour-silk-botanicals-ctg/product-jane/">Jane Seymour Silk Botanicals</a><br>
-			
-				<a href="/monthly-gifts-ctg/product-monthly/">Monthly Gifts</a><br>
-			
-				<a href="/flower-guide-ctg/product-flowers-flowerguide/">Flower Guide</a><br>
-			
-				<a href="/international-delivery-ctg/intl-catalog/">International Delivery</a><br>
-			</div>
-		</div>
-	
-		<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">Shop By Occasion</h3>
-			<div class="homepage_quickshop_menu_item">
-			<a href="/orthodox-easter-4-15-ctg/occasion-easter/">Orthodox Easter - 4/15</a><br>
-			
-				<a href="/admin-prof-week-4-22-28-ctg/occasion-administrativeprofessionalsday/">Admin Prof Week - 4/22-28</a><br>
-			
-				<a href="/mothers-day-5-13-ctg/occasion-mothersday/">Mother's Day - 5/13</a><br>
-			
-				<a href="/anniversary-ctg/occasion-anniversary/">Anniversary</a><br>
-			
-				<a href="/birthday-ctg/occasion-birthday-shop/">Birthday</a><br>
-			
-				<a href="/congratulations-ctg/occasion-congratulations/">Congratulations</a><br>
-			
-				<a href="/corporate-gifts-ctg/occasion-corporateworkgifts/">Corporate Gifts</a><br>
-			
-				<a href="/get-well-ctg/occasion-getwell/">Get Well</a><br>
-			
-				<a href="/im-sorry-ctg/occasion-imsorry/">I'm Sorry</a><br>
-			
-				<a href="/just-because-ctg/occasion-friendshipjustbecause/">Just Because</a><br>
-			
-				<a href="/love-romance-ctg/occasion-loveromance/">Love & Romance</a><br>
-			
-				<a href="/new-baby-ctg/occasion-newbaby/">New Baby</a><br>
-			
-				<a href="/sympathy-funeral-ctg/occasion-sympathy/">Sympathy & Funeral</a><br>
-			
-				<a href="/thank-you-ctg/occasion-thankyou/">Thank You</a><br>
-			
-				<a href="/wedding-ctg/occasion-wedding/">Wedding</a><br>
-			</div>
-		</div>
-	
-		<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">More Gift Ideas</h3>
-			<div class="homepage_quickshop_menu_item">
-			<a href="/best-sellers-ctg/product-gourmetfoodgifts-bestsellers/">Best Sellers</a><br>
-			
-				<a href="/chocolates-sweets-ctg/product-gourmetfoodgifts-sweets/">Chocolates & Sweets</a><br>
-			
-				<a href="/gourmet-gift-baskets-ctg/product-gift-baskets/">Gourmet Gift Baskets</a><br>
-			
-				<a href="/godiva-ctg/product-godiva/">Godiva</a><br>
-			
-				<a href="/starbucks-ctg/product-starbucks/">Starbucks</a><br>
-			
-				<a href="/fresh-fruit-ctg/product-gourmetfoodgifts-fruit/">Fresh Fruit</a><br>
-			
-				<a href="/balloons-bears-ctg/product-balloonsandbears/">Balloons & Bears</a><br>
-			
-				<a href="/spa-gifts-ctg/product-bathbeautyspa/">Spa Gifts</a><br>
-			
-				<a href="/personalized-gifts-ctg/product-personal/">Personalized Gifts</a><br>
-			
-				<a href="/for-him-ctg/product-forhim/">For Him</a><br>
-			
-				<a href="/wine-champagne-ctg/product-gourmetfoodgifts-winespirits/">Wine & Champagne</a><br>
-			</div>
-		</div>
-	
-		<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">Shop By Price</h3>
-			<div class="homepage_quickshop_menu_item">
-			<a href="/under-35-ctg/product-shopbyprice-under35/">Under $35</a><br>
-			
-				<a href="/35-to-45-ctg/product-shopbyprice-35to45/">$35 to $45</a><br>
-			
-				<a href="/45-to-55-ctg/product-shopbyprice-45to55/">$45 to $55</a><br>
-			
-				<a href="/55-to-75-ctg/product-shopbyprice-55to75/">$55 to $75</a><br>
-			
-				<a href="/over-75-ctg/product-shopbyprice-75andover/">Over $75</a><br>
-			</div>
-		</div>
-	
-		<div class="homepage_quickshop_column">
-			<h3 class="homepage_quickshop_title">International Delivery</h3>
-			<div class="homepage_quickshop_menu_item">
-			<a href="/african-areas-flower-delivery/">African Areas</a><br>
-			
-				<a href="/australia-flower-delivery/">Australia</a><br>
-			
-				<a href="/france-flower-delivery/">France</a><br>
-			
-				<a href="/germany-flower-delivery/">Germany</a><br>
-			
-				<a href="/ireland-flower-delivery/">Ireland</a><br>
-			
-				<a href="/italy-flower-delivery/">Italy</a><br>
-			
-				<a href="/japan-flower-delivery/">Japan</a><br>
-			
-				<a href="/mexico-flower-delivery/">Mexico</a><br>
-			
-				<a href="/united-kingdom-flower-delivery/">United Kingdom</a><br>
-			
-				<a href="/international-flower-delivery/">View More Countries</a><br>
-			</div>
-		</div>
-	<!-- End Content -->
-<!-- start transient promo stuff -->
-			<div style="float:right">
-			
- <!--- start of the transient promotional area 1 -->
-
-	<!-- no content set for the transient promotional area 1 -->
-	<!--- end of the transient promotional area  1 -->
-
-
- <!--- start of the transient promotional area 2 -->
-
-	<!-- no content set for the transient promotional area 2 -->
-	<!--- end of the transient promotional area  2 -->
-
-</div>
-			<!-- end of transient promo stuff -->
-
-		</div>
-		<!-- end of quickshop -->
-
-		<div id="bottom_redesign_text" style="clear:both;">
-
-		<div class="legal">
-				<meta name="google-site-verification" content="q2AK8iQtHuTP0VmG2aVbILnbEzK0bUE-0aVFO9fgcuw" /> <div style="TEXT-ALIGN: left; PADDING-LEFT: 16px; PADDING-RIGHT: 23px; COLOR: rgb(102,102,102); FONT-WEIGHT: normal" id  ="rrdiv132"><!-- Added H1 tag as per RT #205809. --> <h1 style="DISPLAY: inline; FONT-WEIGHT: normal" class="legal" id="rrh11"><font color="#001001"><a title="Green Plants" href="http://www.ftd.com/plants-ptg/green-plants/product-plants/product-plants-greenplants/" style="COLOR: rgb(102,102,102); TEXT-DECORATION: none" id  ="rrtaa181">Plants</a> <font color=#666666>and</font> <a title="Fresh Flowers" href="http://www.ftd.com" style="COLOR: rgb(102,102,102); TEXT-DECORATION: none" id  ="rrtaa182">Flowers</a></font></h1>  <p>May the winter be at your back and the spring sun shine warm upon your face! Springtime is here at last, and FTD's beautiful collection of <a href="http://www.ftd.com/" style="color: rgb(102, 102, 102); text-decoration: none;">fresh flowers</a> reflects this wonderful time of year. From seasonal blooms to affordable gifts, we are the leading online florist for any and all occasions. Whether you're sending a bouquet of roses to Mom for <a href="http://www.ftd.com/flowers-ctg/occasion-mothersday-flowers" style="color: rgb(102, 102, 102); text-decoration: none;">Mother's Day</a>, an Easter gift basket to a friend, or <a href="http://www.ftd.com/birthday-ctg/occasion-birthday" style="color: rgb(102, 102, 102); text-decoration: none;">birthday flowers</a> to a loved one, we are your one-stop shop for spring flowers and gifts.</p>  <p>You won't find cheap flowers at FTD; instead, you'll receive quality flowers at affordable prices. We provide exceptional customer service and reliable <a href="http://www.ftd.com/all-florist-designed-ctg/product-samedaydelivery-bestsellers" style="color: rgb(102, 102, 102); text-decoration: none;">same-day delivery</a>, and our floral arrangements are hand-designed and delivered by an artisan FTD florist. For over 100 years, we've brightened the days of loved ones from near and far with our gorgeous blooms. From <a href="http://www.ftd.com/roses-ctg/product-flowers-roses" style="color: rgb(102, 102, 102); text-decoration: none;">roses</a> and <a href="http://www.ftd.com/tulips-ctg/product-tulips" style="color: rgb(102, 102, 102); text-decoration: none;">tulips</a> to <a href="http://www.ftd.com/daisies-ctg/product-flowers-subtypes-gerberdaisy" style="color: rgb(102, 102, 102); text-decoration: none;">daisies</a> and <a href="http://www.ftd.com/lilies-ctg/product-flowers-subtypes-lily" style="color: rgb(102, 102, 102); text-decoration: none;">lilies</a>—and many other varieties under the sun—you'll appreciate our large selection of fresh flowers.</p>  <p>Count on FTD to help celebrate special occasions, including <a href="http://www.ftd.com/anniversary-ctg/occasion-anniversary" style="color: rgb(102, 102, 102); text-decoration: none;">anniversaries</a> and <a href="http://www.ftd.com/wedding-ctg/occasion-wedding" style="color: rgb(102, 102, 102); text-decoration: none;">weddings</a>; honor the life of a loved one with our <a href="http://www.ftd.com/sympathy-funeral-ctg/occasion-sympathy" style="color: rgb(102, 102, 102); text-decoration: none;">sympathy</a> and funeral flowers; and show your appreciation with our <a href="http://www.ftd.com/thank-you-ctg/occasion-thankyou" style="color: rgb(102, 102, 102); text-decoration: none;">thank you gifts</a>. Springtime reminds us of new beginnings, and there's no better way to celebrate life and love than with FTD's fresh flowers, plants and gift baskets. Put a smile on your loved one's face and warm his or her heart with something lovely.</p>  <table width="810" cols="6" cellspacing="0" cellpadding="0" border="0" rows="3" style="border: 1px solid rgb(102, 102, 102);"> <tbody> <tr height="10" align="middle"> <td colspan="6"></td> </tr> <tr valign="center" align="middle"> <td width="130" style="border-right: 1px solid rgb(102, 102, 102);"><a href="http://www.untd.com" style="color: rgb(102, 102, 102); text-decoration: underline;" color:="">United Online</a></td> <td width="140" style="border-right: 1px solid rgb(102, 102, 102);"><a href="http://www.memorylane.com" style="color: rgb(102, 102, 102); text-decoration: underline;" color:="">Memory Lane</a></td> <td width="85" style="border-right: 1px solid rgb(102, 102, 102);"><a href="http://www.mypoints.com" style="color: rgb(102, 102, 102); text-decoration: underline;" color:="">MyPoints</a></td> <td width="85" style="border-right: 1px solid rgb(102, 102, 102);"><a href="http://www.netzero.net" style="color: rgb(102, 102, 102); text-decoration: underline;" color:="">NetZero</a></td> <td width="80" style="border-right: 1px solid rgb(102, 102, 102);"><a href="http://www.juno.com" style="color: rgb(102, 102, 102); text-decoration: underline;" color:="">Juno</a></td> <td width="80" style="border-right: 0px solid rgb(102, 102, 102);"><a href="http://www.mysite.com" style="color: rgb(102, 102, 102); text-decoration: underline;" color:="">MySite</a></td> </tr> <tr height="10" align="middle"> <td colspan="6"></td> </tr> </tbody> </table>  </div> </div>	</div>
-		<!-- End bottom_redesign_text -->
-		</div>
-		
-		<!-- End bottom_redesign -->
-		</div>
-    
-    <!-- End the_big_div div -->
-</div>
-
-
-
-<div class="container_spacer"></div>
-
-
-	<!-- modified 1 ++++++++++++++++++++++++++++++++ GOLD MEMBERSHIP POP OVER VERSION: 1 REVISION: 4  DATE: 04-15-2012 ++++++++++++++++++++++++++++++++ --> <div id="fs_popover_html" style="width:650px; border:1px solid #000000; background-color:#f7f0d5;position:absolute;z-index:10003; display:none;"> <table width="650" border="0" cellspacing="0" cellpadding="0">  <tr>   <td align="right" bgcolor="#000000"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Pop_close_btn_012011.jpg" width="54" height="16" border="0" style="cursor:pointer;" onclick="FS.show_fs_popover(false);" /></td>  </tr>  <tr>   <td bgcolor="#000000"><img src="http://www.ftdimg.com/pics/products/S12-2300_gm_JoinPop_top_img_022812_2999.jpg" width="650" height="313" border="0" usemap="#gm_pop_map" /></td>  </tr>  <tr>   <td align="center"><div style="margin-bottom:25px; margin-top:15px;"><form name="autorenew_frm" method="post" action="" style="margin:0px;">   <!-- Below input holds FTD Gold Membership product id. -->   <input type="hidden" id="fsm_product_id" name="fsm_product_id" value="GM01" />   <table width="600" border="0" cellspacing="0" cellpadding="0">    <!--EDIT remove class autorenewal-->    <tr>      <td colspan="2">        <div style="border:1px solid #d1bc61;padding:8px;">          <div style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; margin-bottom:10px; "><strong>Continue the Savings with Automatic Renewal</strong><br />            For your convenience your membership will auto renew each year until you cancel. The credit card used to join the membership program will be billed at the then current rate. We will send you an email prior to your auto renewal date. You may cancel at any time by following the instructions found <a href="http://www.ftd.com/350/custserv/ftdgoldmembershipfaqs.epl">here</a>. Please see full terms and conditions by clicking on the link below.            </div>            <!--EDIT added class autorenewal-->            <div class="autorenewal" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; margin-left:80px;"><input name="autorenew" type="radio" value="1" />         Yes         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="autorenew" type="radio" value="0" checked="checked"/>         No       </div>          </div>        </td>    </tr>   <tr>     <!--EDIT - removed display none from div-->     <td colspan="2"><div style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; margin-bottom:8px; padding-top:25px;"><strong>FTD Gold Membership Terms & Conditions</strong><br />       By selecting ACCEPT & JOIN you agree to the <a href="javascript:void(0);" onclick="show_ts_cs_popup();" style="text-decoration:underline;color:#000;">FTD Gold Membership Terms and Conditions</a></div>       </td>   </tr>    <tr><td colspan="2">&nbsp;</td></tr>    <tr>     <td align="left">       <img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Join_Pop_nothx_img_012011.jpg" width="138" height="34" style="cursor:pointer;" onclick="FS.show_fs_popover(false); track_fs_omniture_NoThanks();"/>     </td>     <td width="33%" align="left">       <img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Join_Pop_accept_img_012011.jpg" width="238" height="34" style="cursor:pointer;" onclick="FS.accept();"/>     </td>    </tr>   </table>   </form>   </div></td>  </tr>  <tr>   <td><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Join_Pop_bottom_img_012011.jpg" width="650" height="188" /></td>  </tr> </table> </div> <map name="gm_pop_map" id="gm_pop_map">  <area shape="rect" coords="155,259,251,277" href="http://www.ftd.com/350/custserv/ftdgoldmembershipfaqs.epl" /> </map> <!-- start: FS Terms & Conditions --> <table id="fs_ts_cs" width="600" border="0" cellspacing="0" cellpadding="0" style="position:absolute;z-index:10004;display:none;">  <tr>   <td align="center" bgcolor="#d1bc61"><div style="width:564px; margin:2px 15px 15px 15px;">    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#fbf8ea">     <tr>      <td height="25" align="left" bgcolor="#d1bc61"><div style="font-size:12pt; font-family:Arial, Helvetica, sans-serif;"><strong>FTD Gold Membership Terms and Conditions</strong></div></td>      <td height="25" align="right" valign="top" bgcolor="#d1bc61"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_TsCs_close_btn_012011.jpg" border="0" width="81" height="23" style="cursor:pointer;" onclick="$('#fs_ts_cs').hide();"/></td>     </tr>     <tr>      <td colspan="2" align="center"><div style="height:262px; border:1px solid #666666; overflow:auto; padding:5px; background-color:#fbf8ea; font-family:Arial, Helvetica, sans-serif; font-size:8pt; text-align:left;">Welcome to the Terms and Conditions (the &quot;Terms and Conditions&quot;) for the FTD Gold Membership Program (&quot;FTD Gold&quot;). These Terms and Conditions govern the FTD Gold Membership Program, which is brought to you by FTD.COM, Inc. Your use of the FTD.COM website and your Membership in the FTD Gold Program (&quot;FTD Gold &nbsp;Membership&quot;) are also subject to our <a href="http://www.ftd.com/custserv/security.epl">Privacy Policy</a>. Your FTD Gold Membership subjects you to these Terms and Conditions; please review these Terms and Conditions carefully.<br />      <br />      1. MEMBERSHIP BENEFITS.<br />      Your FTD Gold Membership entitles you (the &quot;Member&quot;) to free shipping or no service fees on eligible purchases. There is no minimum purchase requirement.<br />      <br />      In addition, we may offer periodic Member-specific promotions, which we will notify you about via email to your email address that you provide to us.<br />      <br />      2. ELIGIBLE PURCHASES.<br />      The FTD Gold Membership Program must be purchased online and applies to items purchased online after sign-in as a Member as offered on the FTD Gold Membership website <a href="http://www.ftd.com/gold">www.ftd.com/gold</a> &nbsp;(&ldquo;FTD Gold Membership website&rdquo;). Once you become an FTD Gold Membership member you may purchase eligible products via phone. It does not apply to items purchased without valid FTD Gold Membership sign-in. The FTD Gold Membership Program is valid only for purchases of eligible products shown and available on FTD Gold Membership website only.<br />      <br />      Certain items are excluded from eligibility, including but not limited to:</p>     <ul>      <li>For deliveries outside of the US the shipping fee or service fee will be waived but the $12.00 international fee will be not be waived.</li>      <li>Shipping fee up-charge for guaranteed AM delivery will not be waived.</li>      <li>Any promotions, discounts or other benefits available on FTD partner or affiliate websites such as airlines, credit card company memberships, other partner membership programs, discount directory loyalty programs with FTD or FTD affiliate websites, or FTD.com direct mail and insert discount programs cannot be combined with FTD Gold Membership benefits of free shipping or no service fees.</li>      <li>Only items purchased directly via <a href="http://www.ftd.com/gold">www.ftd.com/gold</a> or via FTD Gold Membership emails are eligible.</li>     </ul>     <p style=" font-family:Arial, Helvetica, sans-serif; font-size:8pt; text-align:left;">For the Free Shipping or No Service Fee benefit to apply, your FTD Gold Membership account must be active at the time of purchase. There will be no retroactive reimbursements for purchases made without an active FTD Gold Membership account.<br />      <br />      3. FTD Gold MEMBERSHIP CONDITIONS.<br />      Receipt of FTD Gold Membership benefits is limited to approved and active FTD Gold Membership account holders in good standing with FTD.COM. We reserve the right, at our discretion, to accept or refuse FTD Gold Membership applications, and to deactivate such Memberships if they fail to remain in good standing including but not limited to maintaining updated information in connection with such Membership and payment of annual fees applicable to being a Gold Membership member.<br />      <br />      Members must submit and maintain accurate and current user information in connection with their FTD Gold Memberships, including name and email address. Members must be age 18 or older. Members can change their account information by updating Member profile data through their account on the FTD website at www.ftd.com account.<br />      <br />      FTD Gold Memberships are for individual use only and may not be used for purchases by or on behalf of others including group purchases. Members may not use their FTD Gold Memberships for purchases made for the purpose of resale, other commercial or for profit purposes.<br />      <br />      FTD Gold Memberships are non-transferable or assignable.<br />      <br />      If you make a purchase including some eligible items and some items that are not eligible for free shipping or no service fee, you will be required to pay the shipping charges or service fee applicable for the ineligible items.<br />      <br />      4. FTD GOLD MEMBERSHIP FEE.<br />      The current annual FTD Gold Membership fee is disclosed on the pop-over describing the offer and is payable in advance at time of joining. This annual fee is subject to increase at FTD's discretion at any time and would be disclosed on the pop-over describing the offer at time of joining or if an existing FTD Gold Membership member, at time of renewal, and would remain in effect for Member for one year after date of joining or renewal. <br />      <br />      <a name="GD_autorenew"></a>5. TERM; AUTOMATIC RENEWAL; BILLING. <br />      The initial term of a FTD Gold Membership shall commence on the date it  is purchased and continue until one year from the day the Membership was  purchased. Each Membership will automatically renew each year for an additional  one year period commencing on the day after the anniversary the Membership was  purchased. The annual fee will be automatically charged at the then current FTD  Gold Membership rate to the credit or debit card used when you joined the  Membership Program, unless alternate card information has been provided by the  Member. If the charge cannot be processed on the credit or debit card used to  join the Gold Membership program, FTD may attempt to charge other active cards  associated with your FTD account. If FTD is unable to process the charge for  your FTD Gold Membership renewal fee, your Membership benefits will be  suspended. Before charging your credit or debit card, we will send you an email  notice that your card will be charged unless you elect to opt out of such  renewal prior to your renewal date.  You  may opt out of auto-renewal at any time by signing into <a href="https://ordering.ftd.com/signin/">Your Account</a> and  changing your auto-renewal status.<br />      <br />      6. CANCELLATION; TERMINATION.<br />      You have the right to cancel your FTD Gold Membership at any time; however, you will not be entitled to a refund of your FTD Gold Membership fee and your Membership terminates on the day you cancel. To cancel your FTD Gold Membership, please call Customer Service at 800-SEND-FTD (1-800-736-3383) prior to the renewal date.<br />      <br />      We may terminate any or all of the benefits available under the FTD Gold Membership program at any time with or without notice. If we terminate the FTD Gold Membership program, at our option, we will either continue offering you your FTD Gold Membership benefits until the expiration of your FTD Gold Membership term, or we will refund you a pro rata portion of the FTD Gold Membership fee for the remaining portion of your FTD Gold Membership term<br />      <br />      In addition, we may temporarily freeze and/or terminate your account if we suspect and as we determine within our sole discretion, any abuse or fraudulent use of your FTD Gold Membership. We may not notify you in the event that we take any such action, and you may not be entitled to a refund of your FTD Gold Membership fee.&nbsp; We reserve the right to refer any matters involving fraud or other illegal conduct to law enforcement or other applicable agencies. <br />      <br />      7. PRIVACY POLICY.<br />      The information we collect about you will be subject to our Privacy Policy, as it may be amended from time to time. You may view the current version of our Privacy Policy at any time by <a href="http://www.ftd.com/custserv/security.epl">clicking here</a>.<br />      <br />      8. DISCLAIMERS; LIMITATION OF LIABILITY.<br />  USE OF THE FTD GOLD MEMBERSHIP PROGRAM AND ANY OF ITS ASSOCIATED BENEFITS IS AT YOUR SOLE RISK. FTD.COM, INC. AND ITS AFFILIATES, DIRECTORS, OFFICERS, AGENTS, EMPLOYEES OR OTHER REPRESENTATIVES (COLLECTIVELY &quot;FTD.COM&quot;) EXPRESSLY DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.<br />      <br />      IN NO EVENT WILL FTD.COM BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, CONSEQUENTIAL OR EXEMPLARY DAMAGES OF ANY KIND ARISING OUT OF OR RELATED TO YOUR FTD GOLD MEMBERSHIP, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES.<br />      <br />      THESE EXCLUSIONS AND LIMITATIONS OF LIABILITY WILL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW AND WILL SURVIVE CANCELLATION OR TERMINATION OF YOUR FTD GOLD MEMBERSHIP. CERTAIN STATE LAWS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE EXCLUSIONS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MIGHT HAVE ADDITIONAL RIGHTS.<br />      <br />      9. GOVERNING LAW.<br />      These Terms and Conditions are governed by, and construed in accordance with, the laws of the State of Delaware, without regard to conflict of law principles.<br />      <br />      10. BINDING ARBITRATION.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />      Any controversy or claim arising out of or relating to these Terms and Conditions (including any breach thereof) or the FTD Gold Membership Program shall be settled by arbitration administered by the American Arbitration Association under its Commercial Arbitration Rules (including without limitation the Supplementary Procedures for Consumer-Related Disputes), and judgment on the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. Any such controversy or claim shall be arbitrated on an individual basis and shall not be consolidated with any claim or controversy of any other party. The foregoing shall not preclude FTD.COM, Inc. from seeking any injunctive relief in State or Federal courts for protection of their respective intellectual property rights (including such rights of their respective licensors).<br />      <br />      11. ACKNOWLEDGMENT.<br />      These Terms and Conditions and all documents referenced herein represent the entire understanding between FTD.COM and any user of the FTD Gold Membership program. Membership in the FTD Gold Membership program is deemed to be acceptance of these Terms and Conditions.<br />      <br />      12. CHANGES TO THESE TERMS AND CONDITIONS.<br />      We may change the terms of these FTD Gold Membership program Terms and Conditions at any time without notice to. Any change shall take effect immediately, unless otherwise indicated. We may also increase the FTD Gold Membership fee at any time; however, any fee increase will not apply to your FTD Gold Membership until your FTD Gold Membership is renewed. Your continued membership in the FTD Gold Membership program after we change these Terms and Conditions constitutes your acceptance of any and all changes.</p></div></td>     </tr>    </table>   </div></td>  </tr> </table> <script type="text/javascript"> <!--   jQuery(document).ready(function(){   jQuery('#fs_ts_cs').bgiframe();   //jQuery('#fs_ts_cs').draggable({ iframeFix: true });   });   function show_ts_cs_popup(){     $('#fs_ts_cs').show();     var pos = overlayPos("fs_ts_cs");     $("#fs_ts_cs").css({left:pos.left, top:pos.top});   } //--> </script> <!-- end: FS Terms & Conditions -->  <!-- start: enrollment confirmation popover content --> <div id="fs_enroll_confirm_popover" style="width:363px; height:280px; border:1px solid #000000; background-color:#f7f0d5;position:absolute;z-index:10003;display:none;">  <table width="363" border="0" cellspacing="0" cellpadding="0">   <tr>    <td align="right" bgcolor="#000000"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Pop_close_btn_012011.jpg" width="54" height="16" border="0" style="cursor:pointer;" onclick="FS.show_fs_enroll_confirm_popover(false);" /></td>   </tr>   <tr>    <td align="center"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_EnrollConf_Pop_top_img_012011.jpg" width="363" height="95" border="0"></td>   </tr>   <tr>    <td align="center"><div style="font-family:Arial, Helvetica, sans-serif; font-size:18pt; margin:20px 40px 15px;">FTD Gold Membership<br />     has been added<br />     to your cart.<br>    </div></td>   </tr>   <tr>    <td align="center">    <!-- continue shopping image -->    <img id="fs_continue_shopping" src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_EnrollConf_Pop_btn_1_012011.jpg" width="229" height="32" border="0" style="cursor:pointer;" onclick="FS.show_fs_enroll_confirm_popover(false);">    <!-- view cart image -->    <img id="fs_view_cart" src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_EnrollConf_Pop_btn_2_012011.jpg" width="149" height="32" border="0" style="cursor:pointer;display:none;" onclick="FS.show_fs_enroll_confirm_popover(false);"></td>   </tr>  </table> </div> <!-- end: enrollment confirmation popover content --> <!-- modified ++++++++++++++++++++++++++++++++ GOLD MEMBERSHIP POP OVER VERSION: 1 REVISION: 3 DATE: 04-13-2012 ++++++++++++++++++++++++++++++++ --> <div id="fs_popover_billing" style="width:650px; border:1px solid #000000; background-color:#f7f0d5;position:absolute;z-index:10003; display:none;"> <table width="650" border="0" cellspacing="0" cellpadding="0">  <tr>   <td align="right" bgcolor="#000000"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Pop_close_btn_012011.jpg" width="54" height="16" border="0" style="cursor:pointer;" onclick="FS.show_fs_popover_billing(false);" /></td>  </tr>  <tr>   <td bgcolor="#000000"><img src="http://www.ftdimg.com/pics/products/S12-2300_gm_JoinPop_top_img_022812_2999.jpg" width="650" height="313" border="0" usemap="#gm_pop_map" /></td>  </tr>  <tr>   <td align="center"><div style="margin-bottom:25px; margin-top:15px;"><form name="autorenew_frm" method="post" action=""   style="margin:0px;"> 	<!-- Below input holds FTD Gold Membership product id. --> 	<input type="hidden" id="fsm_product_id" name="fsm_product_id" value="GM01" /> 	<table width="600" border="0" cellspacing="0" cellpadding="0">    <tr>      <td colspan="2">        <div style="border:1px solid #d1bc61;padding:8px;">          <div style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; margin-bottom:10px; "><strong>Continue the   Savings with Automatic Renewal</strong><br />            For your convenience your membership will auto renew each year until you cancel. The credit card used to join   the membership program will be billed at the then current rate. We will send you an email prior to your auto renewal date.   You may cancel at any time by following the instructions found <a href="http://www.ftd.com/350/custserv/ftdgoldmembershipfaqs.epl">here</a>. Please see full terms and conditions   by clicking on the link below.            </div>            <div class="autorenewal" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; margin-left:80px;"><input name="autorenew" type="radio" value="1" /> 				Yes 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="autorenew" type="radio" value="0"   checked="checked"/> 				No 			</div>          </div>        </td>    </tr>   <tr>     <td colspan="2"><div style="font-family:Arial, Helvetica, sans-serif; font-size:8pt; margin-bottom:8px; padding-top:25px;"><strong>FTD Gold Membership Terms & Conditions</strong><br />       By selecting ACCEPT & JOIN you agree to the <a href="javascript:void(0);" onclick="show_ts_cs_popup();" style="text-decoration:underline;color:#000;">FTD Gold Membership Terms and Conditions</a></div>       </td>   </tr> 	 <tr><td colspan="2">&nbsp;</td></tr>    <tr>     <td align="left"> 			<img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Join_Pop_nothx_img_012011.jpg" width="138" height="34" style="cursor:pointer;" onclick="FS.show_fs_popover_billing(false); track_fs_omniture_NoThanks();"/> 		</td>     <td width="33%" align="left"> 			<img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Join_Pop_accept_img_012011.jpg" width="238" height="34" style="cursor:pointer;" onclick="FS.accept('billingandreview');"/> 		</td>    </tr>   </table>   </form>   </div></td>  </tr>  <tr>   <td><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Join_Pop_bottom_img_012011.jpg" width="650" height="188" /></td>  </tr> </table> </div> <map name="gm_pop_map" id="gm_pop_map">  <area shape="rect" coords="155,260,251,278" href="http://www.ftd.com/350/custserv/ftdgoldmembershipfaqs.epl" /> </map> <!-- start: FS Terms & Conditions --> <table id="fs_ts_cs" width="600" border="0" cellspacing="0" cellpadding="0" style="position:absolute;z-index:10004;display:none;">  <tr>   <td align="center" bgcolor="#d1bc61"><div style="display:none; width:564px; margin:2px 15px 15px 15px;">    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#fbf8ea">     <tr>      <td height="25" align="left" bgcolor="#d1bc61"><div style="display:none; font-size:12pt; font-family:Arial, Helvetica, sans-serif;"><strong>FTD Gold Membership Terms and Conditions</strong></div></td>      <td height="25" align="right" valign="top" bgcolor="#d1bc61"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_TsCs_close_btn_012011.jpg" border="0" width="81" height="23" style="cursor:pointer;" onclick="$('#fs_ts_cs').hide();"/></td>     </tr>     <tr>      <td colspan="2" align="center"><div style="height:262px; border:1px solid #666666; overflow:auto; padding:5px; background-color:#fbf8ea; font-family:Arial, Helvetica, sans-serif; font-size:8pt; text-align:left;">Welcome to the Terms and Conditions (the &quot;Terms and Conditions&quot;) for the FTD Gold Membership Program (&quot;FTD   Gold&quot;). These Terms and Conditions govern the FTD Gold Membership Program, which is brought to you by FTD.COM, Inc.   Your use of the FTD.COM website and your Membership in the FTD Gold Program (&quot;FTD Gold &nbsp;Membership&quot;) are   also subject to our <a href="http://www.ftd.com/custserv/security.epl">Privacy Policy</a>. Your FTD Gold Membership   subjects you to these Terms and Conditions; please review these Terms and Conditions carefully.<br />      <br />      1. MEMBERSHIP BENEFITS.<br />      Your FTD Gold Membership entitles you (the &quot;Member&quot;) to free shipping or no service fees on eligible   purchases. There is no minimum purchase requirement.<br />      <br />      In addition, we may offer periodic Member-specific promotions, which we will notify you about via email to your email   address that you provide to us.<br />      <br />      2. ELIGIBLE PURCHASES.<br />      The FTD Gold Membership Program must be purchased online and applies to items purchased online after sign-in as a   Member as offered on the FTD Gold Membership website <a href="http://www.ftd.com/gold">www.ftd.com/gold</a> &nbsp;  (&ldquo;FTD Gold Membership website&rdquo;). Once you become an FTD Gold Membership member you may purchase eligible   products via phone. It does not apply to items purchased without valid FTD Gold Membership sign-in. The FTD Gold Membership   Program is valid only for purchases of eligible products shown and available on FTD Gold Membership website only.<br />      <br />      Certain items are excluded from eligibility, including but not limited to:</p>     <ul>      <li>For deliveries outside of the US the shipping fee or service fee will be waived but the $12.00 international fee   will be not be waived.</li>      <li>Shipping fee up-charge for guaranteed AM delivery will not be waived.</li>      <li>Any promotions, discounts or other benefits available on FTD partner or affiliate websites such as airlines,   credit card company memberships, other partner membership programs, discount directory loyalty programs with FTD or FTD   affiliate websites, or FTD.com direct mail and insert discount programs cannot be combined with FTD Gold Membership   benefits of free shipping or no service fees.</li>      <li>Only items purchased directly via <a href="http://www.ftd.com/gold">www.ftd.com/gold</a> or via FTD Gold   Membership emails are eligible.</li>     </ul>     <p style=" font-family:Arial, Helvetica, sans-serif; font-size:8pt; text-align:left;">For the Free Shipping or No   Service Fee benefit to apply, your FTD Gold Membership account must be active at the time of purchase. There will be no   retroactive reimbursements for purchases made without an active FTD Gold Membership account.<br />      <br />      3. FTD Gold MEMBERSHIP CONDITIONS.<br />      Receipt of FTD Gold Membership benefits is limited to approved and active FTD Gold Membership account holders in good   standing with FTD.COM. We reserve the right, at our discretion, to accept or refuse FTD Gold Membership applications, and   to deactivate such Memberships if they fail to remain in good standing including but not limited to maintaining updated   information in connection with such Membership and payment of annual fees applicable to being a Gold Membership member.<br/>      <br />      Members must submit and maintain accurate and current user information in connection with their FTD Gold Memberships,   including name and email address. Members must be age 18 or older. Members can change their account information by updating   Member profile data through their account on the FTD website at www.ftd.com account.<br />      <br />      FTD Gold Memberships are for individual use only and may not be used for purchases by or on behalf of others including   group purchases. Members may not use their FTD Gold Memberships for purchases made for the purpose of resale, other   commercial or for profit purposes.<br />      <br />      FTD Gold Memberships are non-transferable or assignable.<br />      <br />      If you make a purchase including some eligible items and some items that are not eligible for free shipping or no   service fee, you will be required to pay the shipping charges or service fee applicable for the ineligible items.<br />      <br />      4. FTD GOLD MEMBERSHIP FEE.<br />      The current annual FTD Gold Membership fee is disclosed on the pop-over describing the offer and is payable in advance   at time of joining. This annual fee is subject to increase at FTD's discretion at any time and would be disclosed on the   pop-over describing the offer at time of joining or if an existing FTD Gold Membership member, at time of renewal, and   would remain in effect for Member for one year after date of joining or renewal. <br />      <br />      <a name="GD_autorenew"></a>5. TERM; AUTOMATIC RENEWAL; BILLING. <br />      The initial term of a FTD Gold Membership shall commence on the date it  is purchased and continue until one year from the day the Membership was  purchased. Each Membership will automatically renew each year for an additional  one year period commencing on the day after the anniversary the Membership was  purchased. The annual fee will be automatically charged at the then current FTD  Gold Membership rate to the credit or debit card used when you joined the  Membership Program, unless alternate card information has been provided by the  Member. If the charge cannot be processed on the credit or debit card used to  join the Gold Membership program, FTD may attempt to charge other active cards  associated with your FTD account. If FTD is unable to process the charge for  your FTD Gold Membership renewal fee, your Membership benefits will be  suspended. Before charging your credit or debit card, we will send you an email  notice that your card will be charged unless you elect to opt out of such  renewal prior to your renewal date.&nbsp; You  may opt out of auto-renewal at any time by signing into <a href="https://ordering.ftd.com/signin/">Your Account</a> and  changing your auto-renewal status.<br />      <br />      6. CANCELLATION; TERMINATION.<br />      You have the right to cancel your FTD Gold Membership at any time; however, you will not be entitled to a refund of   your FTD Gold Membership fee and your Membership terminates on the day you cancel. To cancel your FTD Gold Membership,   please call Customer Service at 800-SEND-FTD (1-800-736-3383) prior to the renewal date.<br />      <br />      We may terminate any or all of the benefits available under the FTD Gold Membership program at any time with or   without notice. If we terminate the FTD Gold Membership program, at our option, we will either continue offering you your   FTD Gold Membership benefits until the expiration of your FTD Gold Membership term, or we will refund you a pro rata   portion of the FTD Gold Membership fee for the remaining portion of your FTD Gold Membership term<br />      <br />      In addition, we may temporarily freeze and/or terminate your account if we suspect and as we determine within our sole   discretion, any abuse or fraudulent use of your FTD Gold Membership. We may not notify you in the event that we take any   such action, and you may not be entitled to a refund of your FTD Gold Membership fee.&nbsp; We reserve the right to refer   any matters involving fraud or other illegal conduct to law enforcement or other applicable agencies. <br />      <br />      7. PRIVACY POLICY.<br />      The information we collect about you will be subject to our Privacy Policy, as it may be amended from time to time.   You may view the current version of our Privacy Policy at any time by <a href="http://www.ftd.com/custserv/security.epl">clicking here</a>.<br />      <br />      8. DISCLAIMERS; LIMITATION OF LIABILITY.<br />  USE OF THE FTD GOLD MEMBERSHIP PROGRAM AND ANY OF ITS ASSOCIATED BENEFITS IS AT YOUR SOLE RISK. FTD.COM, INC. AND ITS   AFFILIATES, DIRECTORS, OFFICERS, AGENTS, EMPLOYEES OR OTHER REPRESENTATIVES (COLLECTIVELY &quot;FTD.COM&quot;) EXPRESSLY   DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.<br />      <br />      IN NO EVENT WILL FTD.COM BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, CONSEQUENTIAL OR EXEMPLARY DAMAGES   OF ANY KIND ARISING OUT OF OR RELATED TO YOUR FTD GOLD MEMBERSHIP, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF   PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES.<br />      <br />      THESE EXCLUSIONS AND LIMITATIONS OF LIABILITY WILL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW AND WILL SURVIVE   CANCELLATION OR TERMINATION OF YOUR FTD GOLD MEMBERSHIP. CERTAIN STATE LAWS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF   CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE EXCLUSIONS OR LIMITATIONS MAY NOT APPLY TO YOU, AND   YOU MIGHT HAVE ADDITIONAL RIGHTS.<br />      <br />      9. GOVERNING LAW.<br />      These Terms and Conditions are governed by, and construed in accordance with, the laws of the State of Delaware,   without regard to conflict of law principles.<br />      <br />      10. BINDING   ARBITRATION.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb  sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />      Any controversy or claim arising out of or relating to these Terms and Conditions (including any breach thereof) or   the FTD Gold Membership Program shall be settled by arbitration administered by the American Arbitration Association under   its Commercial Arbitration Rules (including without limitation the Supplementary Procedures for Consumer-Related Disputes),   and judgment on the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. Any such   controversy or claim shall be arbitrated on an individual basis and shall not be consolidated with any claim or controversy   of any other party. The foregoing shall not preclude FTD.COM, Inc. from seeking any injunctive relief in State or Federal   courts for protection of their respective intellectual property rights (including such rights of their respective   licensors).<br />      <br />      11. ACKNOWLEDGMENT.<br />      These Terms and Conditions and all documents referenced herein represent the entire understanding between FTD.COM and   any user of the FTD Gold Membership program. Membership in the FTD Gold Membership program is deemed to be acceptance of   these Terms and Conditions.<br />      <br />      12. CHANGES TO THESE TERMS AND CONDITIONS.<br />      We may change the terms of these FTD Gold Membership program Terms and Conditions at any time without notice to. Any   change shall take effect immediately, unless otherwise indicated. We may also increase the FTD Gold Membership fee at any   time; however, any fee increase will not apply to your FTD Gold Membership until your FTD Gold Membership is renewed. Your   continued membership in the FTD Gold Membership program after we change these Terms and Conditions constitutes your   acceptance of any and all changes.</p></div></td>     </tr>    </table>   </div></td>  </tr> </table> <script type="text/javascript"> <!--   jQuery(document).ready(function(){ 	jQuery('#fs_ts_cs').bgiframe(); 	//jQuery('#fs_ts_cs').draggable({ iframeFix: true });   }); 	function show_ts_cs_popup(){ 		$('#fs_ts_cs').show(); 		var pos = overlayPos("fs_ts_cs");     $("#fs_ts_cs").css({left:pos.left, top:pos.top}); 	} //--> </script> <!-- end: FS Terms & Conditions -->  <!-- start: create account enrollment confirmation popover content --> <div id="create_account_popover" style="width:650px; border:1px solid #000000; background-color:#f7f0d5;position:absolute;z-index:10003;display:none;"> <table width="650" border="0" cellspacing="0" cellpadding="0">   <tr>     <td align="right" bgcolor="#000000"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Pop_close_btn_012011.jpg" width="54" height="16" border="0" style="cursor:pointer;" onclick="FS.show_create_account_popover(false);"/></a></td>   </tr>   <tr>     <td bgcolor="#000000"><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_CreatAcct_Pop_top_img_012011.jpg" width="650" height="139" border="0" /></td>   </tr>   <tr>     <td align="center"><div style="margin-bottom:20px; margin-top:15px;"><form name="create_account" id="create_account" method="post" action="" onsubmit="if(document.create_account.email_isvalid.value == 1){ FS.create_account(); }else{ valid_email(document.create_account.email.value, 1,'You have entered an invalid email address', function (){document.create_account.email_isvalid.value = 1; FS.create_account();});} return false;" style="margin:0px;"><table width="600" border="0" cellspacing="0" cellpadding="0">       <tr>         <td colspan="3"><div style="font-family:Arial, Helvetica, sans-serif; font-size:9pt; margin-bottom:5px; "><strong><span style="font-size:14pt;">You’re almost a member... create an account!</span></strong><br />           An account is required to complete your FTD Gold Membership.<br />           <br />         Already have an FTD.com account? <a id="please_signin" href="javascript:void(0);" style="color:#000000;text-decoration:underline;" onclick="FS.show_billing_page_signin_popup(this)">Sign In</a></div>           </td>       </tr>       <tr><td colspan="3" align="center" valign="middle"> 		<div style="margin-bottom:10px; margin-top:10px;"> 		   <div class="error_msg" style="display:none;color:red;text-align:left;font-size:14px;font-weight:bold;"> Error!! </div> 		<table width="500" border="0" cellspacing="0" cellpadding="0">           <tr>             <td id="fname" width="127" height="35" align="right" valign="middle" style="font-family:Arial, Helvetica, sans-serif; font-size:9pt;">First Name<span class="asterisk">*</span>&nbsp;&nbsp;</td>             <td width="218" height="35" valign="middle"><input type="text" name="first_name" id="first_name" style="border:1px solid #d1bc61; width:200px; height:28px; padding:4px;" maxlength="15" /></td>             <td width="155" height="35" valign="middle">&nbsp;</td>           </tr>           <tr>             <td id="lname" height="35" align="right" valign="middle" style="font-family:Arial, Helvetica, sans-serif; font-size:9pt;">Last Name<span class="asterisk">*</span>&nbsp;&nbsp;</td>             <td height="35" valign="middle"><input type="text" name="last_name" id="last_name" style="border:1px solid #d1bc61; width:200px; height:28px; padding:4px;" maxlength="25" /></td>             <td height="35" valign="middle">&nbsp;</td>           </tr>           <tr>             <td id="e_mail" height="35" align="right" valign="middle" style="font-family:Arial, Helvetica, sans-serif; font-size:9pt;">Email<span class="asterisk">*</span>&nbsp;&nbsp;</td>             <td height="35" valign="middle"><input type="text" name="email" id="email" style="border:1px solid #d1bc61; width:200px; height:28px; padding:4px;" onchange="valid_email(this.value, 1,'You have entered an invalid email address', function (){document.create_account.email_isvalid.value = 1; })" maxlength="40"/> <input type="hidden" name="email_isvalid" value="" /></td>             <td height="35" valign="middle">&nbsp;</td>           </tr>           <tr>             <td id="pwd" height="35" align="right" valign="middle" style="font-family:Arial, Helvetica, sans-serif; font-size:9pt;">Password<span class="asterisk">*</span>&nbsp;&nbsp;</td>             <td height="35" valign="middle"><input type="password" name="password" id="password" style="border:1px solid #d1bc61; width:200px; height:28px; padding:4px;" maxlength="18"/></td>             <td height="35" valign="middle" style="font-family:Arial, Helvetica, sans-serif; font-size:8pt;">Must contain 7-18 characters<br />               and not be your email address</td>           </tr>           <tr>             <td id="pwd_ver" height="35" align="right" valign="middle" style="font-family:Arial, Helvetica, sans-serif; font-size:9pt;">Re-enter Password<span class="asterisk">*</span>&nbsp;&nbsp;</td>             <td height="35" valign="middle"><input type="password" name="password_ver" id="password_ver" style="border:1px solid #d1bc61; width:200px; height:28px; padding:4px;" maxlength="18"/></td>             <td height="35" valign="middle">&nbsp;</td>           </tr>         </table></div></td>       </tr>       <tr>         <td width="44%" align="right"><a href="javascript:void(0);" style="display:none; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:11pt; font-weight:bold; margin-right:15px;" onclick="FS.show_create_account_popover(false);">NO THANKS</a></td>         <td width="19%" align="left"><input type="image"  width="116" height="27" src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_CreatAcct_Pop_accept_img_012011.jpg" /></td>         <td width="37%" align="left">&nbsp;</td>       </tr>     </table></form>     </div></td>   </tr>   <tr>     <td><img src="http://www.ftdimg.com/pics/products/S11-2300B_GoldD_Join_Pop_bottom_img_012011.jpg" width="650" height="188" /></td>   </tr> </table> </div> <!-- end: create account enrollment confirmation popover content --> <script type="text/javascript"> 
-		  	if(0){
-			  jQuery(".autorenewal").show();
-			}else{
-			  jQuery(".autorenewal").hide();
-			}
-			jQuery('input:radio[name=autorenew][value=1]').attr('checked', 'checked');
-			</script>
-	  <!-- billing_page_signin_popup --> <style type="text/css"> #billing_page_signin_popup {     display:none;     background-image: url('http://www.ftdimg.com/pics/gradient_gold_135.jpg');     background-repeat: repeat-x;     background-color: #f7e6a2;     border: solid 1px #000000;     width: 273px;     position: absolute;     top: 200px;     left: 200px;     z-index: 10004; }  #billing_page_signin_popup label {  font:bold 14px arial;  color:#000000; } a#forgot-link-msg-di:link, #forgot-link-msg-di:visited, #forgot-link-msg-di:hover {  font-weight:bold;  color:#0000FF; }  </style> <script type="text/javascript" language="javascript"> <!--         jQuery(document).ready(function(){ 		jQuery('#billing_page_signin_popup').bgiframe(); 		jQuery('#billing_page_signin_popup').draggable({ iframeFix: true });         }); //--> </script> <div id="billing_page_signin_popup" width="273">      <form action="https://ordering.ftd.com/350/signin/">     <table width=273 border=0 cellpadding=1>         <tr>             <td colspan=2 align=right> 		<img src="http://www.ftdimg.com/pics/products/100509_SignIn_PopUp_CloseX_Btn.jpg" width="77" height="21" class="toolbar_signin_form_close" style="cursor:pointer;margin-top:-3px;margin-right:-3px;" />             </td>         </tr>         <tr>             <td colspan=2><div style="font: 11px arial;color:#000000;display:none;">not john?</div></td>         </tr>         <tr>             <td colspan=2><div class='toolbar-error-msg' style="display:none;">Email address or password was incorrect</div></td>         </tr>         <tr>            <td width='40%' align=right><label>Email:</label></td>            <td width='60%'align=left><input type="text" name="email" value="" size="12" maxlength="40" /></td>         </tr>         <tr>            <td width='40%' align=right><label>Password:</label></td>            <td width='60%' align=left><input type="password" name="password" value="" size="12" maxlength="18" /></td>         </tr>         <tr><td colspan="2">            <table width="100%" border=0>             <tr>            <td align=left >             <a id="forgot-link-msg-di" href="https://ordering.ftd.com/350/signin/#forgot-password">Trouble Signing In?</a>            </td>             <td align=right >             <input type="image" src="http://www.ftdimg.com/pics/button_sign_in_gold.gif" border="0" width="80" height="21">             </td>             </tr>             </table>         </td></tr>     </table>     <input type="hidden" name="shopcart_signin" value="1"/>   </form> </div> <!-- end: billing_page_signin_popup --> <script type="text/javascript">
-		 	FS.attach_signin_actions();
-		 </script>
-	  
-
-	
-
-
- <script>
-                jQuery(document).ready(function(){
-                                //ML I5 attach omniture tracking action
-                                jQuery("#toolbar_links .language").click(function(){
-
-                                        // ML I5 omniture tracking
-                                        var setVars   = new Object();
-                                        var setEvents = new Object();
-                                        var evars = 'eVar28';
-                                        var link_type = 'o';
-                                        var link_name = 'FTD.com Spanish Home Page';
-					setVars.eVar28 = 'Spanish';
-
-                                        // now call track omniture function
-                                        track_omniture_click(link_name, link_type, evars, 'None' , setVars, setEvents);
-
-                                });
-                });
-                </script>
-        
-
-	
-	
- <script language='javascript'>
-	<!--
-		try {
-			var v_id = getCookie('v_id');
-			if (!v_id) {
-				 v_id = createRandomString();
-			}
-			var date = new Date();
-			date.setTime(date.getTime()+(10*365*24*60*60*1000));
-			document.cookie = "v_id="+escape(v_id)+";expires="+date.toGMTString()+";path=/;domain=.ftd.com";
-			
-			var s_id = getCookie('s_id');
-			if (!s_id) {
-				s_id = createRandomString();
-			}
-			var date = new Date();
-			date.setTime(date.getTime()+(30*60*1000));
-			document.cookie = "s_id="+escape(s_id)+";expires="+date.toGMTString()+";path=/;domain=.ftd.com";
-		} catch(e) {
-			errAlert(e, 'start.html first page');
-		}
-	//-->
-	</script>
-<!-- Start Pixel code for Channel_Advisor_Traffic_Pixel -->
-<script language="JavaScript"><!--
-{
-document.write("<img src=https://tracking.searchmarketing.com/welcome.asp?SMCID=2054&x="+escape(document.referrer)+" width=1 height=1>");
-}
-//-->
-</script>
-
-<!-- End Pixel code for Channel_Advisor_Traffic_Pixel -->
-
-	
- <!-- SiteCatalyst code version: H.4.  Copyright 1997-2006 Omniture, Inc. More info available at http://www.omniture.com -->
-	<!-- need to pre-set some omniture variables -->
-<script language="JavaScript">
-<!--
-var s_account           = 'ftdprod';
-ftd_linkInternalFilters = 'javascript:,ftd.com';
-smetrics_host           = '.ftd.com';	
-var refer_val;
-var s_referrer;
-refer_val = getSharedCookie('referrer_before_redirect');
-if (typeof refer_val != 'undefined') {
-	s_referrer = refer_val;
-	deleteSharedCookie('referrer_before_redirect');
-} else {
-	delete s_referrer;
-}
--->
-</script>
-		
-	<!-- printing out our omniture js file shared by both dev and production -->
-    <script language="JavaScript" src="http://www.ftdimg.com/js/omniture.js"></script>
-
-	<script language="JavaScript"><!--
-	/* You may give each page an identifying name, server, and channel on the next lines. */
-		s.prop1="350";
-        s.prop2="Main Site";
-        s.prop3="Main Site";
-        s.prop4="Main";
-
-		s.eVar1 = s.prop1;
-        s.eVar2 = s.prop2;
-        s.eVar3 = s.prop3;
-        s.eVar4 = s.prop4;
-
-		s.events = "event13";
-		
-			s.prop21 = "English";
-		
-			s.pageName = "Home Page";
-		/* utilize omniture.js */
-		var s_code=s.t();if(s_code)document.write(s_code)//--></script>
-		<script language="JavaScript"><!--
-		if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
-	//--></script>
-	<!-- End SiteCatalyst code version: H.4. -->
-
-<iframe src="http://www.ftd.com/empty/index.epl" id='html_tabs_iframe' style='display:none'>
-</iframe>
-
- <script language="javascript">
-<!--
-PA.set_active(); 
-PA.signin_url = 'https://ordering.ftd.com/signin/';
-PA.create_account_url = 'https://ordering.ftd.com/new-signup/';
-PA.forgot_password_url = PA.signin_url;
-PA.auto_signout_on = 1;
-PA.signout_redirect = false;
-PA.signout_redirect_url = '';
-PA.idle_time = (1000*60) * 30;
-PA.cookied_security_message='Hi <span class="fname"></span>, please enter password to proceed. Not <span class="fname signout"></span>?';
-PA.auto_sign_out_inactivity_message = 'You have been inactive for <span class="idle-time"></span>&nbsp;minutes. Please enter password to proceed. Not <span class="fname signout"></span>?';
-
-if( PA.auto_signout_on ) {
-    PA.set_auto_signout();
-}
-
-if( window.location.hostname.search(/\\*reminders.*.com/i) != -1 ) {
-    PA.signout_redirect = true;
-    PA.signout_redirect_url = PA.signin_url;
-}
-
-//-->
-</script>
-
-
-
-<script language="javascript" type="text/javascript">
-    <!--
-      mybuys.initPage();
-    //-->
-    </script>
-  <!-- start of easylink_code -->
-<!-- end of easylink_code -->
-
-<script language="javascript" id="mpelid" src="http://es.ftd.com/mpel/mpel.js"></script>
-<script language="javascript" type="text/javascript"> var toolbar_search_box_jref = jQuery("#toolbar_search_box"); if(toolbar_search_box_jref.size() >0) { 	var sliJsHost = (("https:" == document.location.protocol) ? "https://"  : "http://" ); 	document.write(unescape('%3Clink rel="stylesheet" type="text/css" href="' + sliJsHost + 'assets.resultspage.com/js/rac/sli-rac.0.4.css" /%3E')); 	document.write(unescape('%3Clink rel="stylesheet" type="text/css" href="' + sliJsHost + 'ftd.resultspage.com/rac/sli-rac.css" /%3E')); } </script>  <script language="javascript" type="text/javascript"> if(toolbar_search_box_jref && toolbar_search_box_jref.size() >0) { 	var sliJsHost = (("https:" == document.location.protocol) ? "https://"  : "http://" ); 	var sliscode = '350'; 	var slifhid = ''; 	document.write(unescape('%3Cscript src="' + sliJsHost + 'ftd.resultspage.com/rac/sli-rac.config.js" type="text/javascript"%3E%3C/script%3E')); } </script>
-</body>
-</html>

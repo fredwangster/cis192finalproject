@@ -1,465 +1,0 @@
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <title>Caesars Total Rewards</title>
-  <meta charset="utf-8">
-
-  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
-       More info: h5bp.com/b/378 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-  <!-- CSS: implied media=all -->
-  <!-- CSS concatenated and minified via ant build script-->
-  <link rel="stylesheet" href="/e-totalrewards/content/css/style.css">
-  <link rel="stylesheet" href="/e-totalrewards/content/css/totalrewards.css">
-  <link rel="stylesheet" href="/e-totalrewards/content/css/base/jquery.ui.all.css">
-  <link rel="stylesheet" href="/e-totalrewards/content/css/simplemodal.css">
-  <link type="text/css" href="/e-totalrewards/content/css/base/jquery.ui.selectmenu.css" rel="stylesheet" />
-  
-  <!-- end CSS-->
-
-  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
-
-  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
-       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
-       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
-       
-  <script src="/javascript_includes/omniture/titan/mbox.js" type="text/javascript"></script>
-  <script src="/e-totalrewards/content/js/libs/modernizr-2.0.6.min.js"></script>
-  <script type="text/javascript" src="/javascript_includes/swfobject.js"></script>
-  <script language="javascript" src="/javascript_includes/jQuery/jquery-latest.js"></script>
-  <script src="/javascript_includes/jQuery/plugins/nyroModal/jquery.nyroModal-1.5.0.pack.js" type="text/javascript"></script>
-
-<script language="JavaScript" type="text/javascript">
-	$(document).ready(function(){
-		$('#roomThumb').nyroModal();
-		$.nyroModalSettings({
-			padding: 0,
-			resizable: true,
-			css: {
-				content: {
-			  	overflow: 'hidden'
-				}
-		  	}
-		});
-	});
-</script>
-  
-  
-	<style type="text/css">
-		#mainTable {
-			display:none;
-		}
-		.slideTxt {
-			position:absolute;
-			z-index:20;
-		}
-		.callout-overlay {
-			position:absolute;
-			z-index:10;
-			width:195px;
-			height:110px;
-			background-image:url(/e-totalrewards/content/img/dark-bg.png);
-			color:#fff;
-			text-align:left;
-			font-family:Verdana, Geneva, sans-serif;
-			text-transform:capitalize;
-		}
-		.call1, .call2, .call3, .call4 {
-			display:none;
-		}
-	</style>
-</head>
-
-<body>
-<!-- START: TNT  -->
-<script type="text/javascript">
-var errorTimer;
-	hideTRDivs();
-function hideTRDivs(){
-	$("body").hide();
-	
-	errorTimer = setTimeout("showTRDivs()",1500);
-	
-	if(location.href.indexOf("page=totalrewards") != -1){
-		$("body").show();
-		return false;
-	}
-	var excludedDomains = ["totalrewards.com","harrahs.com","horseshoebinions","riovegasnights","custhelp.com","ticketmaster.com","caesarspalace.com","harrahsresort.com","caesarsac.com","showboatcasino.com","ballysac.com","ballys.com","ballyslasvegas.com","caesars.com","caesarswindsor.com","careercast.com","delivery.vrxstudios.com","dinearoundvegas.com","directions.harrahs.com","diversity.harrahs.com","equibase.com","espanolriovegas.com","flamingolasvegas.com","grandcasinobiloxi.com","harrahs.custhelp.com","harrahs.org","harrahsakchin.com","harrahscherokee.com","harrahschester.com","harrahscouncilbluffs.com","harrahsjoliet.com","harrahslaketahoe.com","harrahslasvegas.com","harrahslaughlin.com","harrahslouisianadowns.com","harrahsmetropolis.com","harrahsneworleans.com","harrahsnkc.com","harrahsreno.com","harrahsrincon.com","harrahsstlouis.com","harrahstunica.com","harveystahoe.com","horseshoe.com","horseshoebossiercity.com","horseshoecouncilbluffs.com","horseshoehammond.com","horseshoe-indiana.com","horseshoetunica.com","ideawork.com","imperialpalace.com","ladowns.com","laketahoenights.com","livecaesars.com","numericanalytics.com","parislasvegas.com","payflow.hodes.com","playforfun.harrahs.com","pulseofvegas.com","riolasvegas.com","riovegasnights.com","rqst4.infosecure.neatgroup.com","sheratontunica.com","shopcaesars.com","showboatac.com","tmol.dev1.websys.tmcs","tunica-roadhouse.com","voodookc.com","webcasting.cashmanpro.com","whiskeyroadhouse.com","tzhcaesarspalace.com","szhcaesarspalace.com","micaesarspalace.com","vnharrahsrincon.com","planethollywoodresort.com","caesarshotelaffiliateprogram.com","plotyourescape.com"];
-	
-	for (i in excludedDomains){
-		if(document.referrer.indexOf(excludedDomains[i]) != -1){
-			$("body").show();
-			return false;
-		}
-	}
-}
-function showTRDivs(){
-	$("body").show();
-	clearTimeout(errorTimer);
-}
-
-buildTest();
-function buildTest(){
-
-		if((readTNTCookie("TNT_visitorCookie")=="New") || (readTNTCookie("TNT_visitorCookie")=="Repeat") || (readTNTCookie("TNT_visitorCookie")=="Repeating")){
-			setTNTCookie("TNT_visitorCookie","",1825);
-		}
-
-		if(readTNTCookie("s_evar27") != ""){
-			if((Number(readTNTCookie("s_evar27")) == 1)&&(readTNTCookie("TNT_visitorCookie")=="")){
-				setTNTCookie("TNT_visitorCookie","Start New",1825);
-			}else if((Number(readTNTCookie("s_evar27")) >= 2) && (readTNTCookie("TNT_visitorCookie")!="Start New") && (readTNTCookie("TNT_visitorCookie")!="New to Repeat")){
-				setTNTCookie("TNT_visitorCookie","Start Repeat",1825);
-			}else if((Number(readTNTCookie("s_evar27")) >= 2) && (readTNTCookie("TNT_visitorCookie") == "Start New")){
-				setTNTCookie("TNT_visitorCookie","New to Repeat",1825);
-			}
-		}
-		
-	}
-	
-	
-	
-	
-	
-	
-	function setTNTCookie(name,value,days){
-	   if (days){
-	      var date = new Date();
-	      date.setTime(date.getTime()+(days*24*60*60*1000));
-	      var expires = "expires="+date.toGMTString()+";"
-	   }else var expires = "";
-	   var thepath = "path=/;";
-	   var thedomain = "domain=www.totalrewards.com";
-	   document.cookie = name+"="+escape(value)+";"+expires+thepath+thedomain;
-	}
-	function readTNTCookie(name) {
-		var cookie = unescape(document.cookie);
-			cookie = '; ' + cookie;
-	
-		var pattern = '; ' + name + '=';
-		return getTNTValue(cookie, pattern, ';');
-	}
-
-	function getTNTValue(str, pattern, delim) {
-		var q_start = str.toLowerCase().indexOf(pattern.toLowerCase());
-		var value = '';
-		if (q_start != -1) {
-			q_start = q_start + pattern.length;
-			var q_end = str.indexOf(delim, q_start);
-			if (q_end == -1) q_end = str.length;
-			value = str.substring(q_start, q_end);
-		}
-		return unescape(value);
-	}
-</script>
-<div class="mboxDefault"></div>
-<script type="text/javascript">
-	if(readTNTCookie("s_evar27")!=""){
-		mboxCreate('TR_Domain_Redirect_V2','visitorType='+readTNTCookie("TNT_visitorCookie"));
-	}
-</script>
-<!-- END: TNT -->
-	<!-- BEGIN TOP NAVIGATION INCLUDE /include/casinos/corporate/myTrHeaderHtml.jsp --><style type="text/css">/* GLobal Nav Structure CSS */	@import url("/css_includes/globalNav.css");</style><!-- CSS concatenated and minified via ant build script-->      <link rel="stylesheet" href="/e-totalrewards/content/css/base/jquery.ui.all.css"><link rel="stylesheet" href="/e-totalrewards/content/css/simplemodal.css"><link type="text/css" href="/e-totalrewards/content/css/base/jquery.ui.selectmenu.css" rel="stylesheet" /><link rel="stylesheet" href="/e-totalrewards/content/css/style.css"><link rel="stylesheet" href="/e-totalrewards/content/css/totalrewards.css">   <style type="text/css">		  .clearfix:after {	    content: ".";	    display: block;	    height: 0;	    clear: both;	    visibility: hidden;	    }		</style><!-- main stylesheet ends, CC with new stylesheet below... -->		<!--[if IE]>	<style type="text/css">	  .clearfix {	    zoom: 1;     /* triggers hasLayout */	    }  /* Only IE can see inside the conditional comment	    and read this CSS rule. Don't ever use a normal HTML	    comment inside the CC or it will close prematurely. */	</style>	<![endif]--> <script src="/e-totalrewards/content/js/libs/modernizr-2.0.6.min.js"></script>	<script language="javascript">	function buildNav(resLink, hotDealsLink){		var content = "";					content +=  "";			content +=  "<div id=\"topNavigation\">";			content +=  "	<div class=\"tnLinkRow\">";			content +=  "		<a class=\"gnLink\" href=\"http://www.caesars.com\">CAESARS.COM</a>";			content +=  "		<a class=\"gnLink\" href=\"/hotel-reservations/\">RESERVATIONS</a>";			content +=  "		<a class=\"gnLink\" href=\"/MyTr.do\" > MY TR</a>";			content +=  "		<a class=\"gnLink\" href=\"/our-casinos/\"> CASINO LOCATOR</a>";			content +=  "		<a class=\"gnLink\" href=\"/trip-tools/\">TRIP TOOLS</a>";			content +=  "		<a class=\"gnLink\" href=\"/CustomerService?\">CONTACT US</a>";			content +=  "		<a class=\"gnLink\" href=\"/hot-deals/\" >HOT DEALS</a>";			content +=  "		<a class=\"gnLink\" href=\"/e-totalrewards/\" >TOTAL REWARDS</a>";			content +=  "	</div>";			content +=  "	<div class=\"tnLinkRow\">";			content +=  "		<a class=\"gnLink gnRow2\" href=\"/total/las-vegas/\">LAS VEGAS</a>";			content +=  "		<a class=\"gnLink gnRow2\" href=\"/total/atlantic-city/\">ATLANTIC CITY</a>";			content +=  "		<a class=\"gnLink gnRow2\" href=\"/total/tahoe/\">LAKE TAHOE</a>";			content +=  "		<a class=\"gnLink gnRow2\" href=\"/total/gulfCoast/\">NEW ORLEANS/GULF</a>";			content +=  "		<a class=\"gnLink gnRow2\" href=\"/total/tunica/\" >TUNICA</a>";			content +=  "	</div>";			content +=  "</div>";		document.write(content);		}		var defaultLeftNav;	var pgName;	</script><script language="javascript" src="/javascript_includes/navs/top/buildTopNav.js"></script><div id="header"><div class="bannercontainer">	<a href="/e-totalrewards/" class="logo"></a>	<img src="/images/spacer.gif" width="960" height="119" alt="Total Rewards" class="banner" /></div></div><table id="mainTable" border="0" cellpadding="0" cellspacing="0" width="100%"><!-- END TOP NAVIGATION INCLUDE /include/casinos/corporate/myTrHeaderHtml.jsp --> 
-	<!-- hide leftover table tag from header, hide mainTable -->
-		<tr><td></td></tr></table>
-	<div id="container">
-	
-
-		<div id="leftNav">
-			<ul id="menu" class="collapsable">	<li>		<a href="#" id="leftnav1"><h2>My TR</h2></a>		<div>			<div id="nav">				<ul>					<li><a id="banner-mytr" href="/MyTr.do?">My TR Home</a></li>				</ul>			</div>		</div>	</li>	<li>		<a href="#" id="leftnav2"><h2>Program Details</h2></a>			<div>			<div id="nav">				<ul>					<li><a id="banner-joinnow" href="/Program">Join Now</a></li>					<li><a id="banner-overview" href="/e-totalrewards/content/pages/overview.html">Program Overview</a>					<li><a id="banner-benefits" href="/TotalRewards/RewardsAndBenefits.do?page=trBenefits">View Benefits</a></li>					<li><a id="banner-rewards" href="/TotalRewards/RewardsAndBenefits.do?page=trRewards">Get Rewards</a></li>					<li><a id="banner-faqs" href="/TotalRewards/RewardsAndBenefits.do?page=faq">FAQs</a></li>					<li><a href="/images/total_rewards/Total_Rewards_Rules_Regs120209.pdf" target="_rules">Program Rules & Regulations</a></li>					<li><a id="lnk-pff" href="/casinoLobby" target="_pff">Play For Fun</a></li>				</ul>			</div>		</div>	</li>	<li>		<a href="#" id="leftnav3"><h2>Shop with TR</h2></a>		<div>			<div id="nav">				<ul>					<li><a id="banner-shopmarketplace" href="/TotalRewards/RewardsAndBenefits.do?page=trMarketPlace">Total Rewards Marketplace</a></li>					<li><a id="banner-shopgiftcard" href="/TotalRewards/RewardsAndBenefits.do?page=trGiftCard">Total Rewards Gift Card</a></li>					<li><a id="banner-trcatalog" href="http://www.totalrewardsorders.com" target="_trcatalog">Total Rewards Catalog</a></li>				</ul>			</div>		</div>	</li>		<li>		<a href="#" id="leftnav4"><h2>TR Alliances</h2></a>		<div>			<div id="nav">				<ul>					<li><a href="/TotalRewards/RewardsAndBenefits.do?page=trAlliance" id="banner-alliances">TR Alliances Overview</a></li>					<li><a target="_TRvisa" href="https://www.applyonlinenow.com/USCCapp/Ctl/entry?sc=VABEN9" id="banner-trvisa">Total Rewards Visa</a></li>					<li><a href="/TotalRewards/RewardsAndBenefits.do?page=norwegiancruiseline" id="banner-ncl">Norwegian Cruise Lines</a></li>					<li><a href="/TotalRewards/RewardsAndBenefits.do?page=hawaiianairlines" id="banner-hawaiianairlines">Hawaiian Airlines</a></li>				</ul>			</div>		</div>	</li>	<li>		<a href="#" id="leftnav5"><h2>TR Meetings & Events</h2></a>		<div>			<div id="nav">				<ul>					<li><a id="banner-meetingsevents" href="/TotalRewards/RewardsAndBenefits.do?page=trMeetingsEvents">Meetings & Events Overview</a></li>				</ul>			</div>		</div>	</li>	</ul>
-		</div>
-		
-		<div id="mainLogin"><link rel="stylesheet" type="text/css" href="/e-totalrewards/login/trlogin.css" /><script type='text/javascript' src='/javascript_includes/Utility.js'></script><script type='text/javascript' src='/javascript_includes/logIn/CommonLogin.js'></script><script type='text/javascript' src='/javascript_includes/logIn/LoginWidget.js'></script><script type="text/javascript" src="/javascript_includes/jquery-1.5.1.min.js"></script><script type="text/javascript" src="/javascript_includes/jquery-ui-1.8.10.custom.min.js"></script><script language="JavaScript" type="text/javascript">function submitLoginWidgetForm() {	    document.forms['LoginWidgetForm'].action.value = 'ACTION_PIN_LOGIN';    	document.forms['LoginWidgetForm'].submit();}function isLoggedInTest(){	var userSessionCookieExists = (isCookieExist("userSessionCookie") == "true" && isCookieExist("userInfoCookie") == "true");		return userSessionCookieExists;}function toggleLoginWidget() {	if(isLoggedInTest()) {		document.getElementById("memberlogin").style.display="none";		document.getElementById('memberdetails').style.display="block";	}	else {		if (window.location.pathname.indexOf("/a/security/", 0) == -1) {			document.getElementById('memberdetails').style.display="none";			document.getElementById('memberlogin').style.display="block";		}	}}//Method to submit Global Login form when enter key is pressed in password fieldfunction checkLogginEnter(e){ //e is event object passed from function invocation	var characterCode; //literal character code will be stored in this variable	if(e && e.which){ //if which property of event object is supported (NN4)		e = e		characterCode = e.which //character code is contained in NN4's which property	}else{		e = event		characterCode = e.keyCode //character code is contained in IE's keyCode property	}	if(characterCode == 13){ //if generated character code is equal to ascii 13 (if enter key)		submitLoginWidgetForm(); //submit the form		return false;	}else{		return true;	}}</script>	<script>	<!-- This sets the necessary variables for displaying user info -->	<!-- needs to occur before the divs are rendered -->	setGlobalUserVariables();</script><div id="memberlogin" style="display:none;">	<div id="member-login-form">		<script>		var dynaform="<form method='post' action='https://" + window.location.host + "/TotalRewards/Login.do?' name='LoginWidgetForm' id='LoginWidgetForm'>" +			"<input type='hidden' name='referdomain' />" +			"<input type='hidden' name='lastsync' />" +			"<input type='hidden' name='action' value=''/>" +			"<input type='hidden' name='crossDomainLoginFlag' value='' />" +			"<input type='hidden' name='source' value='' />" +			"<!-- very important to set global login flag to true, otherwise page will redirect -->" +			"<input type='hidden' name='globalLoginFlag' value='true' />" +			"<div> <label for='username'>TR# or Username</label>" +			"<input type='text' name='accountId' class='username' id='username' maxlength='40' /><br/>" +			"<a href='/a/security/forgotpassword.aspx'><span>&gt;</span> Forget Password?</a> </div>" +			"<div> <label for='pin'>Password or PIN</label> <input maxlength='20' type='password' name='pin' class='pin' id='pin' onkeydown='return checkLogginEnter(event)' /><br />" +			"<a href='/Program/'><span>&gt;</span> Join Now</a> </div> <div>" +			"<input type='button' class='button' value='Sign In' onclick='javascript:submitLoginWidgetForm();'/> </div>" +			"</form>"; 				if(isLoggedInTest() == false && window.location.pathname.indexOf("/a/security/", 0) == -1){			document.write(dynaform);		}		</script>	</div>	<h1>Become a member</h1>	<p>		Earn and redeem credits at nearly 40 resorts and casinos around the world.	</p>	<div class="clear"></div></div><div id="memberdetails" style="display:none;">	<div id="welcome">		<img id="imgTRCard" src="" alt="" title="" width="85px" height="55px">		Hello, <span class="highlight"><a href="#"><script type="text/javascript">document.write(name);</script></a></span><br />		<span class="orange"><a href="#" onclick="javascript:logout()" class="orange">Sign Out</a></span>	</div>	<div id="stats">		<table border="0">			<tr>				<td class="dt">Current Tier</td>				<td class="dd"><span class="highlight"><script type="text/javascript">document.write(tier);</script></span></td>			</tr>			<tr>				<td class="dt">Tier Score:</td>				<td class="dd"><span class="highlight"><script type="text/javascript">document.write(tierScore);</script></span></td>			</tr>			<tr>				<td class="dt"><a href="/TotalRewards/Offers.do?">Your Offers</a>:</td>				<td class="dd"><span class="highlight"><script type="text/javascript">document.write(offersCount);</script></span></td>			</tr>			<tr>				<td class="dt">RC Balance:</td>				<td class="dd"><span class="highlight"><script type="text/javascript">document.write(accountBalance);</script></span></td>			</tr>		</table>	</div>	<div class="clear"></div></div><div id="dummyFrame" style="display:none"><script>	if(isLoggedInTest() == true) {		var iframeUrl = getDomain() + '/CookieHandler.jsp?action=action_testcookie&referdomain=www.caesars.com&source=home&trcookieAdded=true';		document.write('<iframe width=\'242\' allowtransparency=true height=\'114\' src=\''+iframeUrl+'\' scrolling=\'no\' frameborder=\'no\' ></iframe>');	}</script></div><script>	function setTRCardImage()	{		var src = "/e-totalrewards/content/img/card"+tier+".jpg";		$("#imgTRCard").attr("src",src);		$("#imgTRCard").attr("alt",tier);		$("#imgTRCard").attr("title",tier);	}	setTRCardImage();	<!-- All divs will be rendered in off state, -->	<!-- this method will decide which one to show -->	toggleLoginWidget();</script></div>
-		<div id="main" role="main">
-			<div class="homeslides">
-				<div id="slides">
-					<div class="slides_container">
-						<div class="slide">
-							<div class="slideTxt sld0"></div>
-							<a class="nyroModal" href="#video" onClick="var s=s_gi('harrahsglobal');s.tl(this,'o','Total Rewards:Jimmy Kimmel Video');"><img src="/e-totalrewards/content/img/jimmyKimmel.jpg" alt=""  /></a>
-                            
-<!-- START: Numeric Analytics Framework Code -->
-	<script src="/javascript_includes/numeric/reportsuites.js"></script>
-    <script type="text/javascript">
-    function metricTranslation(){
-                try{ 
-                _numeric_.analyticsCallBack();
-                }catch(e){}
-                }
-                
-    </script>
-    <script language="javascript" type="text/javascript" src="/javascript_includes/numeric/_numeric_.js"></script>
-<!-- END: Numeric Analtics Framework Code -->                            
-                            
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld5"></div>
-							<a href="http://www.facebook.com/totalrewards/" target="_blank"><img src="/e-totalrewards/content/img/home/tr-MCAREY.jpg" alt="" /></a>
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld4"></div>
-							<a href="/e-totalrewards/content/pages/overview.html"><img src="/e-totalrewards/content/img/home/tr4.jpg" alt="" /></a>
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld6"></div>
-							<a href="http://www.facebook.com/totalrewards/" target="_blank"><img src="/e-totalrewards/content/img/home/tr-M5.jpg" alt="" /></a>
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld2"></div>
-							<a href="/escape"><img src="/e-totalrewards/content/img/home/tr2.jpg" alt="" /></a>
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld7"></div>
-							<a href="http://www.facebook.com/totalrewards/" target="_blank"><img src="/e-totalrewards/content/img/home/tr-MJB.jpg" alt="" /></a>
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld3"></div>
-							<a href="/Program/"><img src="/e-totalrewards/content/img/home/tr3.jpg" alt="" /></a>
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld8"></div>
-							<a href="http://www.facebook.com/totalrewards/" target="_blank"><img src="/e-totalrewards/content/img/home/tr-LILWAYNE.jpg" alt="" /></a>
-						</div>
-						<div class="slide">
-							<div class="slideTxt sld1"></div>
-							<a href="/escape/"><img src="/e-totalrewards/content/img/home/tr1.jpg" alt="" /></a>
-						</div>
-					</div>
-					<ul class="homeslidesthumbs">
-						<li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/jimmyKimmel-thumb.jpg" alt="" /></a><span>^</span></li>
-                        <li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr-MCAREY-thumb.jpg" alt="" /></a><span>^</span></li>
-                        <li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr4-thumb.jpg" alt="" /></a><span>^</span></li>
-						<li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr-M5-thumb.jpg" alt="" /></a><span>^</span></li>
-						<li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr2-thumb.jpg" alt="" /></a><span>^</span></li>
-						<li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr-MJB-thumb.jpg" alt="" /></a><span>^</span></li>
-						<li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr3-thumb.jpg" alt="" /></a><span>^</span></li>
-						<li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr-LILWAYNE-thumb.jpg" alt="" /></a><span>^</span></li>
-						<li><a href="javascript:void(0);"><img style="border:1px solid #fff;" src="/e-totalrewards/content/img/home/tr1-thumb.jpg" alt="" /></a><span>^</span></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-			</div>
-		</div>
-		<div class="clear"></div>
-    
-    	<!-- Start Callout Links -->
-		<div class="callouts">
-			<ul>
-				<li class="totalrewardsmarketplace"><a href="/TotalRewards/RewardsAndBenefits.do?page=trMarketPlace"><h3>Total Rewards Marketplace</h3></a>
-					<img src="/e-totalrewards/content/img/callout0.jpg" alt="Total Rewards Marketplace" />
-					<div class="callout-overlay">
-						Earn and redeem Reward Credits at over 800 of our retail, dining and entertainment partners like - Apple, Best Buy, Gap and Target.  Your daily shopping just got more rewarding.<br />
-						<a href="/TotalRewards/RewardsAndBenefits.do?page=trMarketPlace">Learn More ></a>
-					</div>
-				</li>
-				<li class="programoverview"><a href="/e-totalrewards/content/pages/overview.html"><h3>Program Overview</h3></a>
-					<img src="/e-totalrewards/content/img/callout1.jpg" alt="Norwegian Cruise Lines" />
-					<div class="callout-overlay call2">
-						Total Rewards opens up a world of choices and experiences at nearly 40 resorts and casinos.<br />
-						<a href="/e-totalrewards/content/pages/overview.html">Learn More ></a>
-					</div>
-				</li>
-				<li class="escape"><a href="http://www.plotyourescape.com/tease/" target="_escape"><h3>Escape to Total Rewards Game</h3></a>
-					<img src="/e-totalrewards/content/img/callout2.jpg" alt="Hawaiian Airlines" />
-					<div class="callout-overlay call3">
-						Escape to Millions in Prizes with our biggest giveaway ever!<br />
-						<a href="http://www.plotyourescape.com/tease/" target="_escape">Learn More ><a/>
-					</div>
-				</li>
-				<li class="last totalrewardsvisa">
-					<a href="https://www.applyonlinenow.com/USCCapp/Ctl/entry?sc=VABEN9" target="_trvisa"><h3>Total Rewards Visa</h3></a>
-					<img src="/e-totalrewards/content/img/callout3.jpg" alt="Total Rewards Visa" />
-					<div class="callout-overlay call4">
-						The TR Visa Card gives you the power to earn Reward Credits everyday.  With a 2,500 Reward Credit bonus after your first purchase and exclusive offers, earning just got easier.<br />
-						<a href="https://www.applyonlinenow.com/USCCapp/Ctl/entry?sc=VABEN9" target="_trvisa">Learn More ></a>
-					</div>
-				</li>
-			</ul>
-			<div class="clear"></div>
-		</div>
-	
-    	<!-- End Callout Links -->
-    	<!-- Start Casino Locator -->
-    	<!--
-<div class="casinolocator">
-    		<a href="#" class="right white">View Full List</a>
-    		<h2 class="casinolocator">Casino Locator</h2>
-    		<img src="/e-totalrewards/content/img/casinolocator.jpg" alt="Casino Locator" />
-    	</div>
--->
-    	<!-- End Casino Locator -->
-  
-  
-    	<div id="footer-1">
-	    	<ul id="footerboxes" class="right">
-	    		<li>
-	    			<h3 class="trmagazine">TR Magazine<span></span></h3>
-	    			<p>
-		    			The official magazine of Total Rewards is now available online!
-		    		</p>
-		    		<p>
-						<a href="/emagazine/">Learn more > </a>
-					</p>
-	    		</li>
-	    		<li>
-	    			<h3 class="faqs">FAQs<span></span></h3>
-	    			<p>
-		    			The answers to all your Total Rewards questions, all in one place.
-		    		</p>
-		    		<p>
-						<a href="/TotalRewards/RewardsAndBenefits.do?page=faq">Learn more > </a>
-					</p>
-	    		</li>
-	    		<li class="last">
-	    			<h3 class="playforfun">Play for Fun<span></span></h3>
-	    			<p>
-	    				Play your favorite casino games online, for fun and bragging rights.
-	    			</p>
-		    		<p>
-						<a href="/casinoLobby" target="_casinolobby">Learn more > </a>
-					</p>
-	    		</li>
-	    	</ul>
-	    	<div class="social">
-	    		<h4>Stay Connected</h4>
-	    		<a href="http://www.facebook.com/TotalRewards" class="facebook" target="_fb">Facebook</a><a href="http://twitter.com/Total_Rewards" class="twitter" target="_twitter">Twitter</a>
-	    	</div>
-	    	<div class="clear"></div>
-	    </div>
-    	<div class="clear"></div>
-        
-	</div>
-        
-  <div id="video" style="display:none"></div>
-        <script type="text/javascript">
-                // <![CDATA[
-                var so = new SWFObject("/e-totalrewards/content/video/TotalRewards-Kimmel-Tagging.swf", "ffNY", "720", "436", "9", "");
-                so.addParam("wmode","transparent");
-                so.useExpressInstall('Script/expressinstall.swf');
-                so.write("video");
-                // ]]>
-        </script> 
-    	<!-- BEGIN FOOTER INCLUDE /include/casinos/corporate/myTr/TRFooterHtml.jsp --></table><div id="bottomNavigation"> <a class="gnLink" href="/corporate/">COMPANY INFORMATION</a> <a class="gnLink"href="/corporate/careers-home.html">CAREERS</a> <a class="gnLink" href="http://investor.harrahs.com">INVESTOR RELATIONS</a> <a class="gnLink" href="/groups-meetings/">GROUPS AND MEETINGS</a> <a class="gnLink" href="/site-map.html">SITE MAP</a> <a class="gnLink" href="javascript: void(0)" onClick="window.open('http://app.harrahs-marketing.com/enroll/universal/signup.cfm','','height=600,width=800,scrollbars=yes, toolbar=yes, status=yes, menubar=yes, resizable=yes, location=yes, ');">E-MAIL SIGN UP</a> <a class="gnLink" href="/corporate/about-us-responsible-gaming.html">RESPONSIBLE GAMING</a> </div><script type="text/javascript" src="/javascript_includes/footer/getStyle.js"></script><script language="javascript" src="/javascript_includes/swfobject.js"></script><script src="/javascript_includes/utility.js"></script><script src="/javascript_includes/OverlayWindowV2.js" type="text/javascript"></script><script src="/javascript_includes/BACOverlay.js" language="javascript"></script><div style="width:100%; margin: 0px auto; text-align:center">	<div id="flashFooterContent" style="text-align:center"> <a href="/brands/caesars/hotel-casinos/caesars-brand.shtml">Caesars</a> | <a href="/brands/harrahs/hotel-casinos/harrahs-brand.shtml">Harrah's</a> | <a href="/brands/horseshoe/hotel-casinos/horseshoe-brand.shtml">Horseshoe</a> | <a href="https://www.harrahs.com/TotalRewards/RewardsAndBenefits.do?page=overview">Total Rewards</a> | <a href="http://www.worldseriesofpoker.com" target="_blank">World Series of Poker</a><br>		<a href="/casinos/paris-las-vegas/hotel-casino/property-home.shtml">Paris</a> | <a href="/casinos/rio/hotel-casino/property-home.shtml">Rio</a> | <a href="/casinos/flamingo-las-vegas/hotel-casino/property-home.shtml">Flamingo</a> | <a href="/casinos/imperial-palace/hotel-casino/property-home.shtml">Imperial Palace</a> | <a href="/casinos/tunica-roadhouse/hotel-casino/property-home.shtml">Tunica Roadhouse</a> | <a href="/casinos/grand-biloxi/hotel-casino/property-home.shtml">Grand Biloxi</a> | <a href="/casinos/harveys-lake-tahoe/hotel-casino/property-home.shtml">Harveys</a> | <a href="/casinos/showboat-atlantic-city/hotel-casino/property-home.shtml">Showboat</a> | <a href="/brands/ballys/hotel-casinos/ballys-brand.shtml">Bally's</a> <br>	</div>	<script language="javascript">		var footerHexVal = getStyle(document.getElementById('flashFooterContent'), 'color');	</script> <script type="text/javascript">		var so = new SWFObject("/include/Footer/footer750.swf", "FlashFooter", "750", "80", "9", "");		so.addParam("wmode","transparent");		so.addVariable("footerColor","0x" + footerHexVal + "");		so.write("flashFooterContent");	</script></div><!-- MEDIABIN FLASH SECTION --><!-- MB FLASH ENDS --><div id="disclaimer"> Caesars welcomes those of legal age to gamble in a casino to our website.<br />	<a href="/corporate/about-us-responsible-gaming.html">Know When to Stop Before You Start&reg;</a> Gambling Problem? Call 1-800-522-4700.<br/>	&copy; 2011 Caesars License Company, LLC. <a class="footerLink" href="/trademarks.html">All Right Reserved.</a><br/>	The use of this website is governed by NV law.<br/>	<a href="/privacy.html">Privacy</a> | <a href="/security.html">Security</a> | <a href="/legal.html">Legal</a><br/>	</td></div><!-- netmining tag - added 3/18/2010 - tws --> <!-- SCRIPTS FOR NEW SITE FUNCTIONALITY --> <!-- All JavaScript at the bottom, except for Modernizr / Respond.       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media QueriesFor optimal performance, use a custom Modernizr build: www.modernizr.com/download/ --> <script>window.jQuery || document.write('<script src="/e-totalrewards/content/js/libs/jquery-1.6.2.min.js"><\/script>')</script> <script src="/e-totalrewards/content/js/booking.js" type="text/javascript"></script> <!-- scripts concatenated and minified via ant build script--> <!--<link rel="stylesheet" type="text/css" href="/e-totalrewards/content/calculators/css/dd.css" /><link rel="stylesheet" type="text/css" href="/e-totalrewards/content/calculators/css/trCalculator.css" />--> <script defer src="/e-totalrewards/content/js/plugins.js"></script> <script defer src="/e-totalrewards/content/js/script.js"></script> <script src="/e-totalrewards/content/js/libs/jquery.ui.core.js"></script> <script src="/e-totalrewards/content/js/libs/jquery.ui.widget.js"></script> <script src="/e-totalrewards/content/js/libs/jquery.ui.tabs.js"></script> <script src="/e-totalrewards/content/js/libs/jquery.ui.datepicker.js"></script> <script src="/e-totalrewards/content/js/libs/jquery.simplemodal.js"></script> <script type="text/javascript" src="/e-totalrewards/content/js/libs/jquery.ui.position.js"></script> <script type="text/javascript" src="/e-totalrewards/content/js/libs/jquery.ui.selectmenu.js"></script> <script type="text/javascript" src="/e-totalrewards/content/js/libs/slides.min.jquery.js"></script> <script type="text/javascript" src="/e-totalrewards/content/js/libs/jquery.cycle.all.js"></script> <!-- calculator functions <script type="text/javascript" src="/e-totalrewards/content/calculators/js/jquery.ui.mouse.js"></script><script type="text/javascript" src="/e-totalrewards/content/calculators/js/jquery.ui.draggable.js"></script><script type="text/javascript" src="/e-totalrewards/content/calculators/js/jquery.trCalculator.js"></script><script src="/e-totalrewards/content/calculators/js/uncompressed.jquery.dd.js" type="text/javascript"></script>--> <script defer src="/e-totalrewards/content/js/main.js"></script> <!-- end scripts for new functionality --> <script src="https://mdfst.netmng.com/?aid=173" type="text/javascript" defer="defer"></script><!--oobegin * OnlineOpinionF3c v3.0* The following code is Copyright 1998-2006 Opinionlab, Inc.* All rights reserved. Unauthorized use is prohibited.* This product and other products of OpinionLab, Inc. are protected by U.S. Patent No. US 6606581, 6421724, 6785717 B1 and other patents pending.* http://www.opinionlab.com<div id="opinionLab"></div><script language="javascript" type="text/javascript" charset="windows-1252" src="/javascript_includes/opinionlab/oo_engine.js"></script><script language="javascript">	var olColor = getStyle(document.getElementById('opinionLab'), 'color');		if (olColor == "000000")	{		var colorVal = "";	}	else	{		var colorVal = "White";	}	document.write("<script language=\"javascript\" type=\"text\/javascript\" charset=\"windows-1252\" src=\"\/javascript_includes\/opinionlab\/oo_conf_en-US" + colorVal + ".js\"><\/script>");</script>ooend--><!-- END FOOTER INCLUDE /include/casinos/corporate/myTr/myTRFooterHtml.jsp --> 
-
-	<script language="JavaScript" type="text/javascript" src="/javascript_includes/utility.js"></script> 
-	<script language="JavaScript" type="text/javascript" src="/javascript_includes/logIn/BrandGlobalLoggedIn.js"></script> 
-	<SCRIPT TYPE="text/javascript">
-		setGlobalUserVariables();
-	</script>
-
-<style type="text/css">
-	#footer-1 {
-		position: relative;
-		border-top: 15px solid black;
-		width: 960px;
-		margin: 0px auto;
-	}
-	.social {
-		left: 0px;
-	}
-	div.callouts {
-		padding-bottom: 22px;
-		border-bottom: 1px solid #242424;
-		margin: 0px auto;
-		width: 960px;
-		margin: 0px auto;
-	}
-	ul.homeslidesthumbs {
-		left: 218px;
-		position: absolute;
-		top: 386px;
-		z-index: 10;
-	}
-	a#closeBut.nyroModalClose {
-	    background-image: url("/e-totalrewards/content/video/close-button.png");
-	    background-position: right center;
-	    background-repeat: no-repeat;
-	    float: right;
-	    height: 24px;
-	    padding: 1px;
-	    position: relative;
-	    top: -23px;
-	    width: 100px;
-	    z-index: 100;
-	}
-</style>
-
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-  
-  <script type="text/javascript">
-	$(".totalrewardsmarketplace").mouseover(function(){
-		$(".call1").show();
-	});
-	$(".totalrewardsmarketplace").mouseout(function(){
-		$(".call1").hide();
-	});
-	$(".programoverview").mouseover(function(){
-		$(".call2").show();
-	});
-	$(".programoverview").mouseout(function(){
-		$(".call2").hide();
-	});
-	$(".escape").mouseover(function(){
-		$(".call3").show();
-	});
-	$(".escape").mouseout(function(){
-		$(".call3").hide();
-	});
-	$(".totalrewardsvisa").mouseover(function(){
-		$(".call4").show();
-	});
-	$(".totalrewardsvisa").mouseout(function(){
-		$(".call4").hide();
-	});
-  </script>
-  
-
-  <!-- set default left nav state -->
-	<script type="text/javascript">
-		var defaultLeftNav = "leftnav0";
-		var pgName = "home";
-	
-	
-	
-		if(isCookieExist("userSessionCookie") == "true") {
-			if(tier == "Seven Stars") {
-				$("#leftNav").load("/e-totalrewards/content/includes/tr-leftnav-loggedin-ss.html",function(){
-					initMenu();
-				});
-			} else {
-				$("#leftNav").load("/e-totalrewards/content/includes/tr-leftnav-loggedin.html",function(){
-					initMenu();
-				});
-			}
-			
-		}
-	
-	//set datepicker to show above slideshow
-	//$("#ui-datepicker-div").css("z-index", 99);
-	
-	</script>
-</body>
-</html>
-<!-- SSI handler (v1.6.3629.31910) -->
-<!-- Using cached content -->
-<!-- Total render time was: 0:0.0 -->
