@@ -10,6 +10,7 @@ Code Organization:
     - url_name is the root url of the site we want to look at, for example, "http://www.amazon.com"
     - iterating through the list of urls, analyzer finds all the ads in each url from an ad_site_list we have hardcoded into the script
     - scores each site based on how many ads we find x links deep into the site, also the popularity of the site, and how far it is away from optimal ad % (as a % of content)
+    - There is a limit to 2000 queries per day using 2 API keys from Compete
     
 2) crawler.py 
     - accepts: root, crawl_depth

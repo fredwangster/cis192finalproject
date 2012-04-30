@@ -1,45 +1,43 @@
-# use PyQT's QTableView and QAbstractTableModel
-# to present tabular data (with column sort option)
-# tested with Python 3.1 and PyQT 4.5
-
 import operator
-import sys
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 import time
 from analyzer import Analyzer
-from scanner import scanner
 from crawler import Crawler
 
+
 class MyWindow(QWidget):
+    '''Is the main window for our program'''
     def __init__(self, element_list, header, *args):
         QWidget.__init__(self, *args)
         # setGeometry(x_pos, y_pos, width, height)
         self.setGeometry(100, 100, 800, 750)
-        self.setWindowTitle("Monetize IT - By Andrew Staniforth, Connie Wu, and Fred Wang")
+        self.setWindowTitle(\
+        "Monetize IT - By Andrew Staniforth, Connie Wu, and Fred Wang")
         self.button = QPushButton("Start")
         self.button.clicked.connect(self.start_analyzing)
         label = QLabel("SORRY, NO README FOUND :(")
-        label.setAlignment (Qt.AlignHCenter)
+        label.setAlignment(Qt.AlignHCenter)
 
         try:
-            f = open("desc.txt","r")
-            label = QLabel(f.read())
-            f.close()
+            openfile = open("desc.txt", "r")
+            label = QLabel(openfile.read())
+            openfile.close()
             readmefont = label.font()
             readmefont.setPointSize(8)
             label.setFont(readmefont)
-            label.setAlignment (Qt.AlignLeft)
-            
+            label.setAlignment(Qt.AlignLeft)
+            label.setWordWrap(True)
+
         except:
             pass
         welcome = QLabel("Welcome to Monetize IT!")
-        welcome.setAlignment (Qt.AlignHCenter)
+        welcome.setAlignment(Qt.AlignHCenter)
         font = welcome.font()
         font.setBold(True)
         font.setPointSize(20)
         welcome.setFont(font)
-        
+
         self.header = header
         self.mydata = element_list
         # create table
@@ -47,7 +45,8 @@ class MyWindow(QWidget):
         self.tview = QTableView()
         table = self.createTable()
         #Allows autosorting by score
-        self.cb = QCheckBox('Automatically Sort By Score (Cannot be changed after you start analyzing)', self)
+        self.cb = QCheckBox('Automatically Sort By Score (Cannot be' +
+                            'changed after you start analyzing)', self)
         self.cb.toggle()
         self.sort = True
         self.cb.stateChanged.connect(self.autosort)
@@ -58,12 +57,12 @@ class MyWindow(QWidget):
         layout.addWidget(table)
         layout.addWidget(self.button)
         layout.addWidget(self.cb)
-        line = QLabel()      
-        line.setFrameStyle(QFrame.HLine  | QFrame.Plain)
+        line = QLabel()
+        line.setFrameStyle(QFrame.HLine | QFrame.Plain)
         line.setLineWidth(2)
         layout.addWidget(line)
         layout.addWidget(label)
-        
+
         self.setLayout(layout)
 
     def createTable(self):
@@ -72,7 +71,7 @@ class MyWindow(QWidget):
         # set table model
         #tmodel = MyTableModel(self, self.mydata, self.header)
         tview.setModel(self.tmodel)
-        
+
         # set minimum size of table
         tview.setMinimumSize(450, 300)
         # hide grid
@@ -99,40 +98,45 @@ class MyWindow(QWidget):
         tview.setSortingEnabled(True)
         tview.resizeColumnsToContents()
         return tview
-        
+
     def start_analyzing(self):
         self.cb.setEnabled(False)
         self.threads = []
-        downloader_caller =DownloadCaller(self.tmodel,self.tview,self.sort)
+        downloader_caller = DownloadCaller(self.tmodel, self.tview, self.sort)
         self.threads.append(downloader_caller)
         downloader_caller.start()
-        
-    def autosort(self,state):
+
+    def autosort(self, state):
         if state == Qt.Checked:
             self.sort = True
         else:
             self.sort = False
-        
+
+
 class DownloadCaller(QThread):
-    def __init__(self, model,tview,sort):
+    ''' Starts a thread that starts the crawler and analyzer threads'''
+    def __init__(self, model, tview, sort):
         QThread.__init__(self)
-        f = open("top_sites.txt",'r')
-        self.urls = f.readlines()
+        openfile = open("top_sites.txt", 'r')
+        self.urls = openfile.readlines()
         self.urls.reverse()
-        f.close()
+        openfile.close()
         self.model = model
         self.tview = tview
         self.threads = []
         self.sort = sort
+
     def run(self):
         for url in self.urls:
-            downloader = DownloadThread(url, self.model,self.tview,self.sort)
+            downloader = DownloadThread(url, self.model, self.tview, self.sort)
             self.threads.append(downloader)
-            downloader.start()    
+            downloader.start()
             #time.sleep(2)
-        
+
+
 class DownloadThread(QThread):
-    def __init__(self, url, model,tview,sort):
+    ''' Starts threads for each site's crawler and analyzer threads'''
+    def __init__(self, url, model, tview, sort):
         QThread.__init__(self)
         self.url = url
         self.model = model
@@ -140,27 +144,31 @@ class DownloadThread(QThread):
         self.sort = sort
         try:
             c = Crawler()
-            self.html_name,self.url_name = c.crawler(self.url, 1)
+            self.html_name, self.url_name = c.crawler(self.url, 1)
             print self.url_name
         except:
-            self.html_name = None 
+            self.html_name = None
             self.url_name = None
 
     def run(self):
         if self.html_name is not None or self.url_name is not None:
             a = Analyzer(self.html_name, self.url_name)
-            
             #print self.url
-            if a.getUniqueVisitors()>0:
+            if a.getUniqueVisitors() > 0:
                 total_ads, number_of_lines = a.getAds()
-                self.model.mydata = self.model.mydata + [(self.url,number_of_lines,total_ads,a.unique_visitors,(float(a.unique_visitors)/float(a.getVisits())),a.getScore())]
+                self.model.mydata = self.model.mydata + \
+                [(self.url, number_of_lines, total_ads, a.unique_visitors,\
+                (float(a.unique_visitors) / float(a.getVisits())), \
+                a.getScore())]
                 #self.tview.resizeColumnsToContents()
                 if self.sort:
                     print self.sort
                     self.model.sort(5, Qt.DescendingOrder)
                 self.model.emit(SIGNAL("layoutChanged()"))
- 
+
+
 class MyTableModel(QAbstractTableModel):
+    ''' Is the model for the table in the GUI'''
     def __init__(self, parent, mydata, header, *args):
         """
         mydata is list of tuples
@@ -179,6 +187,7 @@ class MyTableModel(QAbstractTableModel):
             return len(self.mydata[0])
         else:
             return 0
+
     def data(self, index, role):
         if not index.isValid():
             return QVariant()
@@ -190,31 +199,26 @@ class MyTableModel(QAbstractTableModel):
         if orientation == Qt.Horizontal and role == Qt.DisplayRole:
             return QVariant(self.header[col])
         return QVariant()
-        
 
     def sort(self, col, order):
-        
         """sort table by given column number col"""
         self.emit(SIGNAL("layoutAboutToBeChanged()"))
         self.mydata = sorted(self.mydata,
             key=operator.itemgetter(col))
         if order != Qt.DescendingOrder:
             self.mydata.reverse()
-           
         self.emit(SIGNAL("layoutChanged()"))
 
 
-
-
-
 if __name__ == "__main__":
-    header = ['URL', 'Lines in Source', '# Ads', 'Unique Visits', 'Retention Rate','Score']
+    header = ['URL', 'Lines in Source', '# Ads', 'Unique Visits',\
+              'Retention Rate', 'Score']
     # a list of (name, age, weight) tuples
-    data_list =[]
+    data_list = []
 
     #data_list= data_list+ [('Michel', 'Sargnagel', '21', '175')]
     app = QApplication([])
-    splash_pix = QPixmap('loading.jpg')
+    splash_pix = QPixmap('SPLASH.png')
     splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
     splash.setMask(splash_pix.mask())
     splash.show()

@@ -2,9 +2,9 @@ Welcome to Monetize IT!
 
 Monetize IT! scrapes all the urls in top_sites.txt and based on ad use, calculates a monetization score. 
 
-Our score takes into account popularity of the site and how far away that site's ad rate is from the optimal, and scores the site on a scale from 1-100, with 1 being lowly monetized to 100 being perfect. 
+Our score takes into account popularity of the site and how far away that site's retention rate is from the optimal of 15%, and also takes into account the number and prevalence of advertisements on the site. Then it scores the site on a scale from 1-100, with 1 being lowly monetized to 100 being perfect. 
 
-To take into consideration most sites have multiple pages spawning from the home page, we integrated our analyzer with a web crawler that can follow links x depth deep into the site. By default, we have set this to 1, which follows all links on the home page that link within the site (foreign links are ignored). 
+To take into consideration most sites have multiple pages spawning from the home page, we integrated our analyzer with a web crawler that can follow links "x" depth deep into the site. By default, we have set this to 1, which follows all links on the home page that link within the site (foreign links are ignored). 
 
 
  
