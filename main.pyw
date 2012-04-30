@@ -22,17 +22,17 @@ class MyWindow(QWidget):
         label = QLabel("SORRY, NO README FOUND :(")
         label.setAlignment (Qt.AlignHCenter)
 
-        # try:
-            # f = open("readme.txt","r")
-            # label = QLabel(f.read())
-            # f.close()
-            # readmefont = label.font()
-            # readmefont.setPointSize(8)
-            # label.setFont(readmefont)
-            # label.setAlignment (Qt.AlignLeft)
+        try:
+            f = open("desc.txt","r")
+            label = QLabel(f.read())
+            f.close()
+            readmefont = label.font()
+            readmefont.setPointSize(8)
+            label.setFont(readmefont)
+            label.setAlignment (Qt.AlignLeft)
             
-        # except:
-            # pass
+        except:
+            pass
         welcome = QLabel("Welcome to Monetize IT!")
         welcome.setAlignment (Qt.AlignHCenter)
         font = welcome.font()

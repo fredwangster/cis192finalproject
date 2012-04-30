@@ -10,10 +10,9 @@
 import urllib2
 import time
 import os
-import pickle
-from sets import Set
+#from sets import Set
 from bs4 import BeautifulSoup
-from urlparse import (urljoin, urlparse)
+from urlparse import urljoin
 
 
 class Crawler():
@@ -95,4 +94,4 @@ class Crawler():
 
 if __name__ == "__main__":
     c = Crawler()
-    print((c.crawler("http://www.imgur.com", 2)))
+    print((c.crawler("http://www.imgur.com", 1)))
