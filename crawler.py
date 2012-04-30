@@ -1,71 +1,98 @@
 '''Scans url and retrieves domestic urls
-    -returns list of domestic urls
+    -returns output file name, root url
 
     --parameters--
-    url_name: the url to crawl
-    crawl_depth: how many links to follow (recommended: 1 or 2)
-    url_list: specify "set()". This will be list of urls obtained from the main page
-    
+    root: the main url to crawl
+    crawl_depth: how many levels to crawl (recommended: 2). Root is level 0
+
 '''
 
 import urllib2
 import time
+import os
+import pickle
+from sets import Set
 from bs4 import BeautifulSoup
 from urlparse import (urljoin, urlparse)
 
 
-def crawler(root, url_name, crawl_depth, master_list):
-    start = time.time()
-    new_urls = []
-    if crawl_depth > 0:
-        #try:
-        request = urllib2.Request(url_name)
-        handle = urllib2.build_opener()
-        print "going through %s..." % url_name
-        content = unicode(handle.open(request).read(), "utf-8", errors="replace")
-        soup = BeautifulSoup(content)
-        temp_urls = []
-                          
-        #find urls
-        for link in soup.find_all('a'):
-            raw_url = link.get('href')
-            if (raw_url is not None) and not(raw_url in master_list)\
-               and not(raw_url in temp_urls) and not(raw_url in new_urls)\
-               and not (raw_url == ""):
-                temp_urls.append(link.get('href'))
-                new_urls.append(link.get('href'))
-                          
-        for url in temp_urls:
-            print "found %s" % url
-            #remove foreign urls...
-            #not fool-proof. i.e. would remove amazon.com/http...
-            #!!! Need future revision !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+class Crawler():
+    def __init__(self):
+        self.visited = []
+        self.to_visit = set()
+        self.to_add = set()
+        self.to_remove = set()
+        
+    def crawler(self, root, crawl_depth):
+        '''main crawler: iterates through every depth level
+        calls helper function "scrape_urls" to find urls'''
+       
+        start = time.time()
+        root_name = root.replace("/","").replace(":","")
+        self.to_visit.add(root)
+        while crawl_depth > 0:
+            for site in self.to_visit:
+                if site not in self.visited:
+                    self.to_add.update(self.scrape_urls(root_name, site))
+                    self.to_remove.add(site)
+                    self.visited.append(site)
+
+            self.to_visit.update(self.to_add)
+            self.to_visit.difference_update(self.to_remove)
+            print "Done depth: %s" %crawl_depth
+            crawl_depth = crawl_depth - 1
+        end = time.time()
+
+        
+        visit_list = list(self.to_visit)
+        self.visited.extend(visit_list)
+
+        print "Time elapsed: %s secs, URLS: %s links" % (end-start, len(self.visited))
+
+       
+        out_name = "./url_inputs/" +str(root_name[4:-1])+".txt"
+        try:
+            os.mkdir('./url_inputs')
             
-            if 'http' in url and (root not in url):
-                print "removed alien"
-                new_urls.remove(url)
-             
-            #recursively go through each url:
-
-            #case 1: no "http" found. need to append url_name
-            elif not('http' in url):
-                appended = urljoin(url_name, url)
-                new_urls.extend(master_list)
-                master_list.extend(crawler(root, appended, crawl_depth-1, new_urls))
-
-            #case 2: url is perfect
-            else:
-                new_urls.append(master_list)
-                master_list.extend(crawler(root, url, crawl_depth-1, new_urls))
-    
-        #except:
-         #   return []
-    end = time.time()
-
-    print "Crawled %s pages in %s seconds" % (len(master_list), end-start)
-    print master_list
-    return master_list
+        except:
+            pass
+        f = open(out_name, 'w')
+        f.writelines(["%s\n" % item for item in self.visited])
+        f.close()
             
-    
+        
+        return out_name, root_name[4:]
+
+    def scrape_urls(self, root, url_name):
+        try:
+            request = urllib2.Request(url_name)
+            handle = urllib2.build_opener()
+            print "scraping for urls -- %s" % url_name
+            content = unicode(handle.open(request).read(), "utf-8", errors="replace")
+
+            soup = BeautifulSoup(content)
+            new_urls = set()
+
+            #find urls
+            #raw_urls = soup.find_all('a')
+            for link in soup.find_all('a'):
+                raw_url = link.get('href')
+                if (raw_url is not None) and (raw_url != "") and (raw_url not in self.to_visit)\
+                   and (raw_url not in self.visited):
+                    #don't add foreign urls
+                    if 'http' in raw_url and (root not in raw_url):
+                        new_urls.add("")
+                    elif not ('http' in raw_url):
+                    #http isn't in file name (rel url), so we must create it ourselves
+                        appended = urljoin(url_name, raw_url)
+                        new_urls.add(appended)
+                    else:
+                        new_urls.add(raw_url)
+        except:
+            return set()
+
+        return new_urls
+
 if __name__ == "__main__":
-    crawler("http://www.gabrielweinberg.com", "http://www.gabrielweinberg.com", 1, [])
+    c = Crawler()
+    print((c.crawler("http://www.imgur.com", 2)))

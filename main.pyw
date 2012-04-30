@@ -9,6 +9,7 @@ from PyQt4.QtGui import *
 import time
 from analyzer import Analyzer
 from scanner import scanner
+from crawler import Crawler
 
 class MyWindow(QWidget):
     def __init__(self, element_list, header, *args):
@@ -21,17 +22,17 @@ class MyWindow(QWidget):
         label = QLabel("SORRY, NO README FOUND :(")
         label.setAlignment (Qt.AlignHCenter)
 
-        try:
-            f = open("readme.txt","r")
-            label = QLabel(f.read())
-            f.close()
-            readmefont = label.font()
-            readmefont.setPointSize(8)
-            label.setFont(readmefont)
-            label.setAlignment (Qt.AlignLeft)
+        # try:
+            # f = open("readme.txt","r")
+            # label = QLabel(f.read())
+            # f.close()
+            # readmefont = label.font()
+            # readmefont.setPointSize(8)
+            # label.setFont(readmefont)
+            # label.setAlignment (Qt.AlignLeft)
             
-        except:
-            pass
+        # except:
+            # pass
         welcome = QLabel("Welcome to Monetize IT!")
         welcome.setAlignment (Qt.AlignHCenter)
         font = welcome.font()
@@ -127,7 +128,8 @@ class DownloadCaller(QThread):
         for url in self.urls:
             downloader = DownloadThread(url, self.model,self.tview,self.sort)
             self.threads.append(downloader)
-            downloader.start()       
+            downloader.start()    
+            #time.sleep(2)
         
 class DownloadThread(QThread):
     def __init__(self, url, model,tview,sort):
@@ -137,7 +139,9 @@ class DownloadThread(QThread):
         self.tview = tview
         self.sort = sort
         try:
-            self.html_name,self.url_name = scanner(self.url,"000")
+            c = Crawler()
+            self.html_name,self.url_name = c.crawler(self.url, 1)
+            print self.url_name
         except:
             self.html_name = None 
             self.url_name = None
@@ -148,7 +152,8 @@ class DownloadThread(QThread):
             
             #print self.url
             if a.getUniqueVisitors()>0:
-                self.model.mydata = self.model.mydata + [(self.url,a.getAds()[1],a.getAds()[0],a.unique_visitors,(float(a.unique_visitors)/float(a.getVisits())),a.getScore())]
+                total_ads, number_of_lines = a.getAds()
+                self.model.mydata = self.model.mydata + [(self.url,number_of_lines,total_ads,a.unique_visitors,(float(a.unique_visitors)/float(a.getVisits())),a.getScore())]
                 #self.tview.resizeColumnsToContents()
                 if self.sort:
                     print self.sort
@@ -203,7 +208,7 @@ class MyTableModel(QAbstractTableModel):
 
 
 if __name__ == "__main__":
-    header = ['URL', 'Total Line in Source', 'Ads in Source', 'Unique Visitors', 'Retention Rate (Unique Visitors/Visits)','Score']
+    header = ['URL', 'Lines in Source', '# Ads', 'Unique Visits', 'Retention Rate','Score']
     # a list of (name, age, weight) tuples
     data_list =[]
 

@@ -8,6 +8,7 @@ import urllib2
 '''Scans the source of a site'''
 class Analyzer():
     def __init__(self, filename, url_name):
+        '''filename is source file for all the urls. These have to exist!'''
         #threading.Thread.__init__(self)
         self.filename = filename
         self.site = url_name
@@ -32,18 +33,27 @@ class Analyzer():
         except:
             return
         number_of_lines = 0
+        
         for line in f.readlines():
-            #print line
-            number_of_lines =number_of_lines+1
-            total= total+sum([line.count(ad) for ad in self.ad_site_list])
+            if line is not None and line != "":
+                #print line
+                try:
+                    site = urllib2.urlopen(line)
+                    for eachline in site:
+                        number_of_lines =number_of_lines+1
+                        total= total+sum([eachline.count(ad) for ad in self.ad_site_list])
+                except:
+                    pass
+                    
         f.close()
         
-        #print self.site[4:-1]
-        #print "Number of Lines:", number_of_lines
+        print self.site[4:-1]
+        print "Number of Lines:", number_of_lines
         
-        #print  "Number of Ads:", total
-        #print "Analyzing Time: %s" % (time.time() - start)
-        #self.getUniqueVisitors()
+        print  "Number of Ads:", total
+        print "Analyzing Time: %s" % (time.time() - start)
+        
+        self.getUniqueVisitors()
         if number_of_lines !=0:
             self.number_of_lines = number_of_lines
         else:
@@ -53,27 +63,27 @@ class Analyzer():
         
     def getUniqueVisitors(self):
         start = time.time()
-        url =  self.competeURLPart1+self.site[4:-1]+self.competeURLPart2
+        url =  self.competeURLPart1+self.site[0:-1]+self.competeURLPart2
         try:
             json_string = urllib2.urlopen(url).read()
         except:
-            url =  self.competeURLPart1+self.site[4:-1]+self.competeURLPart2b
+            url =  self.competeURLPart1+self.site[0:-1]+self.competeURLPart2b
             json_string = urllib2.urlopen(url).read()
         data = json.loads(json_string)
         try:
             self.unique_visitors = data["data"]["trends"]["uv"][0]["value"]
         except:
             self.unique_visitors =0
-        #print "Unique Visitors: %s" % unique_visitors
+        print "Unique Visitors: %s" % self.unique_visitors
         return self.unique_visitors
 
     def getVisits(self):
         start = time.time()
-        url =  self.competeURLPart1+self.site[4:-1]+self.competeURLPart2vis
+        url =  self.competeURLPart1+self.site[0:-1]+self.competeURLPart2vis
         try:
             json_string = urllib2.urlopen(url).read()
         except:
-            url =  self.competeURLPart1+self.site[4:-1]+self.competeURLPart2bvis
+            url =  self.competeURLPart1+self.site[0:-1]+self.competeURLPart2bvis
             json_string = urllib2.urlopen(url).read()
         data = json.loads(json_string)
         try:
@@ -96,3 +106,6 @@ class Analyzer():
         #print score
         return score
 
+if __name__ == "__main__":
+    a = Analyzer("./url_inputs/www.amazon.co.txt","www.amazon.com/")
+    a.getAds()
