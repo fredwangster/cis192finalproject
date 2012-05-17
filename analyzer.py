@@ -33,6 +33,7 @@ class Analyzer():
         #print "Running"
         #start = time.time()
         total = 0
+        number_of_lines = 0
         try:
             openfile = open(self.filename, 'r')
             for line in openfile.readlines():
@@ -49,7 +50,7 @@ class Analyzer():
             openfile.close()
         except:
             return
-        number_of_lines = 0
+        
         
         #print self.site[4:-1]
         #print "Number of Lines:", number_of_lines
@@ -61,6 +62,7 @@ class Analyzer():
         else:
             self.number_of_lines = .01
         self.total_ads = total
+        #print self.total_ads
         return total, number_of_lines
 
     def getUniqueVisitors(self):
